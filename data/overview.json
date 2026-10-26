@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T04:09:29.779695+00:00",
-  "as_of": "2026-10-26T04:00:00+00:00",
-  "catalog_count": 20740,
+  "generated_at": "2026-10-26T05:10:44.493677+00:00",
+  "as_of": "2026-10-26T05:00:00+00:00",
+  "catalog_count": 20744,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,36 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:9bfc6765f7783015da6404dc",
+      "permalink_id": "article-url-9bfc6765f7783015da6404dc",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151086.html",
+      "title": "トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
+      "summary_excerpt": "トレンドマイクロ株式会社は10月23日、PHPの重大な脆弱性（PHP2Shell。CVE-2026-109618、CVE-2026-109619）に対し、日本の法人組織および中小企業が自社のリスクを把握し、被害を防ぐための対応・支援策を発表した。",
+      "published_at": "2026-10-26T13:30:00+09:00",
+      "first_seen_at": "2026-10-26T14:02:51.273306+09:00",
+      "source_name": "INTERNET Watch",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:a0850a5cf18ad9aab0b3dcef",
       "permalink_id": "article-url-a0850a5cf18ad9aab0b3dcef",
@@ -32,6 +62,48 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:40d1c76632386e905ddcf3f5",
+      "permalink_id": "article-url-40d1c76632386e905ddcf3f5",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5197178/",
+      "title": "エーアイセキュリティラボ、Androidアプリ起点の「A2B攻撃」に特化した診断ツールを提供",
+      "summary_excerpt": "エーアイセキュリティラボは10月26日、Androidアプリの解析を起点としてバックエンドサーバを狙う「A2B攻撃（App-to-Backend Attack）」に特化したセキュリティ診断ツールの提供を開始したと発表した。",
+      "published_at": "2026-10-26T12:50:00+09:00",
+      "first_seen_at": "2026-10-26T14:02:53.498979+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6b7ca975314f2416eff1eb55",
+      "permalink_id": "article-url-6b7ca975314f2416eff1eb55",
+      "canonical_url": "https://japan.zdnet.com/article/35253966/",
+      "title": "「PHP2Shell」のリスク低減に向けて直ちに実行すべき手順は",
+      "summary_excerpt": "プログラミング言語「PHP」で見つかった重大な脆弱（ぜいじゃく）性を巡り、リモートコード実行（RCE）の攻撃経路を防ぐための追加の対応策が公開されている。",
+      "published_at": "2026-10-26T12:38:00+09:00",
+      "first_seen_at": "2026-10-26T14:03:05.664382+09:00",
+      "source_name": "ZDNET Japan All",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:9d27dd3b487b83df655ab9b7",
       "permalink_id": "article-url-9d27dd3b487b83df655ab9b7",
       "canonical_url": "https://gigazine.net/news/20261026-openai-brotli-vulnerability/",
@@ -40,6 +112,27 @@
       "published_at": "2026-10-26T12:33:00+09:00",
       "first_seen_at": "2026-10-26T13:01:52.361169+09:00",
       "source_name": "GIGAZINE",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:5c5e00cb0dbf873c68885599",
+      "permalink_id": "article-url-5c5e00cb0dbf873c68885599",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5197042/",
+      "title": "QuratedLab、福島・千葉の事業者や自治体にWebサイトの脆弱性対策を無償提供",
+      "summary_excerpt": "ReITとデザインLが共同運営するAIラボ「QuratedLab」は10月24日、福島県と千葉県の事業者、自治体を対象に、WebサイトやWebサービスの脆弱性対策を無償で支援する取り組みを開始すると発表した。",
+      "published_at": "2026-10-26T12:30:00+09:00",
+      "first_seen_at": "2026-10-26T14:02:53.615142+09:00",
+      "source_name": "Mynavi TECH+ Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -135,85 +228,18 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:6970ef63c3e17e3f9ce94081",
-      "permalink_id": "article-url-6970ef63c3e17e3f9ce94081",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/26/2000002577/",
-      "title": "フィギュア企業に不正アクセス、公式EC閉鎖　会員の住所や注文履歴など漏えいか　再開目処立たず",
-      "summary_excerpt": "グッドスマイルカンパニーは10月23日、同社が運営するECサイト「グッドスマイルカンパニー公式ショップ」で不正アクセスが発生し、会員の個人情報などが第三者に閲覧されたと発表した。サイトは現在閉鎖しており、再開時期は未定としている。原因については、システムの脆弱性を悪用されたとみて調査を進めている。",
-      "published_at": "2026-10-26T11:51:08+09:00",
-      "first_seen_at": "2026-10-26T13:01:56.652423+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:dfaa3e4a5953404464caa159",
-      "permalink_id": "article-url-dfaa3e4a5953404464caa159",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5196687/",
-      "title": "PHPの脆弱性「PHP2Shell」、無償支援が相次ぐ　診断からパッチ適用まで",
-      "summary_excerpt": "PHPの重大な脆弱性「PHP2Shell」への対応を支援するため、セキュリティベンダーが相次いで無償サービスを発表している。トレンドマイクロはWebサイトのリスクを確認できる無料診断ツールを公開。TuxCareは国内の非営利団体に6カ月間のセキュリティ保護を提供し、HiroshimAIは中小企業向けに修正版の適用などを無償で支援する。",
-      "published_at": "2026-10-26T11:36:52+09:00",
-      "first_seen_at": "2026-10-26T12:02:31.326138+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:40fba4d65d622195f4e47b7c",
-      "permalink_id": "article-url-40fba4d65d622195f4e47b7c",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/26/2000002573/",
-      "title": "OpenAI、フロンティアモデルの学習中はインターネットに接続させない方針　学習中のAIが隔離環境を抜け出した件も公表",
-      "summary_excerpt": "OpenAIは、安全対策が十分に進歩するまでフロンティアモデルの学習時にネット接続を遮断する方針を発表した。キャッシュによるオフライン環境を用意していたが、9月にモデルがネットに一時接続する事案が発生。調査の過程で多くのソフトに影響する圧縮ライブラリ「Brotli」の深刻な脆弱性も判明した。",
-      "published_at": "2026-10-26T10:10:56+09:00",
-      "first_seen_at": "2026-10-26T11:02:18.375835+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0ab33c5bb29d20d7ee899d04",
-      "permalink_id": "article-url-0ab33c5bb29d20d7ee899d04",
-      "canonical_url": "https://www.security-next.com/191926",
-      "title": "「Nextcloud」組込ツールや「Arista VCO」の脆弱性などに注意喚起 - 米当局",
-      "summary_excerpt": "米サイバーセキュリティインフラセキュリティ庁（CISA）は現地時間2026年10月23日、悪用が確認されている脆弱性2件について注意喚起を行った。",
-      "published_at": "2026-10-26T10:08:53+09:00",
-      "first_seen_at": "2026-10-26T11:02:22.164860+09:00",
-      "source_name": "Security NEXT",
+      "public_article_id": "url:9bfc6765f7783015da6404dc",
+      "permalink_id": "article-url-9bfc6765f7783015da6404dc",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151086.html",
+      "title": "トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
+      "summary_excerpt": "トレンドマイクロ株式会社は10月23日、PHPの重大な脆弱性（PHP2Shell。CVE-2026-109618、CVE-2026-109619）に対し、日本の法人組織および中小企業が自社のリスクを把握し、被害を防ぐための対応・支援策を発表した。",
+      "published_at": "2026-10-26T13:30:00+09:00",
+      "first_seen_at": "2026-10-26T14:02:51.273306+09:00",
+      "source_name": "INTERNET Watch",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -224,50 +250,6 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
-    {
-      "public_article_id": "url:da19872bd8ebd641fd639776",
-      "permalink_id": "article-url-da19872bd8ebd641fd639776",
-      "canonical_url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-      "summary_excerpt": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
-      "published_at": "2026-10-26T02:19:46+09:00",
-      "first_seen_at": "2026-10-26T07:58:11.819079+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cve",
-          "label": "Vulnerability"
         }
       ],
       "cves": [
@@ -276,7 +258,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
     {
@@ -317,6 +299,27 @@
       "published_at": "2026-10-26T12:33:00+09:00",
       "first_seen_at": "2026-10-26T13:01:52.361169+09:00",
       "source_name": "GIGAZINE",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:5c5e00cb0dbf873c68885599",
+      "permalink_id": "article-url-5c5e00cb0dbf873c68885599",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5197042/",
+      "title": "QuratedLab、福島・千葉の事業者や自治体にWebサイトの脆弱性対策を無償提供",
+      "summary_excerpt": "ReITとデザインLが共同運営するAIラボ「QuratedLab」は10月24日、福島県と千葉県の事業者、自治体を対象に、WebサイトやWebサービスの脆弱性対策を無償で支援する取り組みを開始すると発表した。",
+      "published_at": "2026-10-26T12:30:00+09:00",
+      "first_seen_at": "2026-10-26T14:02:53.615142+09:00",
+      "source_name": "Mynavi TECH+ Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -396,7 +399,7 @@
       "public_article_id": "url:6970ef63c3e17e3f9ce94081",
       "permalink_id": "article-url-6970ef63c3e17e3f9ce94081",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2610/26/2000002577/",
-      "title": "フィギュア企業に不正アクセス、公式EC閉鎖　会員の住所や注文履歴など漏えいか　再開目処立たず",
+      "title": "グッスマに不正アクセス、公式EC閉鎖　会員の住所や注文履歴など漏えいか　再開目処立たず",
       "summary_excerpt": "グッドスマイルカンパニーは10月23日、同社が運営するECサイト「グッドスマイルカンパニー公式ショップ」で不正アクセスが発生し、会員の個人情報などが第三者に閲覧されたと発表した。サイトは現在閉鎖しており、再開時期は未定としている。原因については、システムの脆弱性を悪用されたとみて調査を進めている。",
       "published_at": "2026-10-26T11:51:08+09:00",
       "first_seen_at": "2026-10-26T13:01:56.652423+09:00",
@@ -460,27 +463,6 @@
           "label": "Cloud Security"
         }
       ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9506e1533df47d4a9ee0268a",
-      "permalink_id": "article-url-9506e1533df47d4a9ee0268a",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5196353/",
-      "title": "PHPの深刻な脆弱性、kintoneへの影響は？ プラグイン各社の対応状況",
-      "summary_excerpt": "PHPに深刻な脆弱性が見つかったことを受け、サイボウズの業務改善プラットフォーム「kintone」に関連する一部のプラグインや連携サービスで、一時停止などの対応が行われた。kintone本体については安全性が確認されている一方、周辺サービスでは影響の有無や対応状況が異なる。各社の発表を整理する。",
-      "published_at": "2026-10-26T09:27:14+09:00",
-      "first_seen_at": "2026-10-26T10:02:12.425276+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -678,33 +660,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:1a9c1330accf25b82264a596",
-      "permalink_id": "article-url-1a9c1330accf25b82264a596",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/",
-      "title": "Ransomware pressure now reaches employees’ homes and families",
-      "summary_excerpt": "Ransomware attackers threatened employees’ family members or friends at 37% of organizations surveyed for Semperis’ 2026 Ransomware Risk Report. The survey covered 1,200 IT and security professionals at organizations that had experienced at least one successful ransomware attack. “Ransomware has proven to be a great cash-generating activity for criminal syndicates, which have no hesitation about inflicting both cyber and physical harm,” said Mickey Bresman, Semperis CEO. Threats reach beyond the workplace Respondents described threatening messages, … More → The post Ransomware pressure now rea",
-      "published_at": "2026-10-19T13:00:22+09:00",
-      "first_seen_at": "2026-10-19T13:02:33.721729+09:00",
-      "source_name": "Help Net Security AI News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 36.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:611e80fa99425816a76b4b7a",
       "permalink_id": "article-url-611e80fa99425816a76b4b7a",
       "canonical_url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
@@ -786,6 +741,33 @@
       "seen_in_kev": false,
       "heat_score": 32.5,
       "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9ce6e8144d8ec8685de17f2c",
+      "permalink_id": "article-url-9ce6e8144d8ec8685de17f2c",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/20/2000002406/",
+      "title": "音源販売「SONICWIRE」不正アクセス、「Mythosで状況把握」　会員情報最大42万件漏えいか",
+      "summary_excerpt": "運営元は「Claude Mythos」（クロード ミュトス）を活用して状況を把握。「安全な復旧に努めている」という。",
+      "published_at": "2026-10-20T08:08:04+09:00",
+      "first_seen_at": "2026-10-20T09:02:25.795092+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
+      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -806,15 +788,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
-    "【HOTTEST #1 / Heat 67.5】PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-    "【LATEST #2】OpenAIがNode.jsやBunで使われているGoogle製圧縮ツール「Brotli」でリモートコード実行につながる脆弱性を発見",
+    "【LATEST #1】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
+    "【HOTTEST #1 / Heat 75】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
+    "【LATEST #2】富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
     "【HOTTEST #2 / Heat 67.5】Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability",
-    "【LATEST #3】「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会　来場者の態度も激変",
+    "【LATEST #3】エーアイセキュリティラボ、Androidアプリ起点の「A2B攻撃」に特化した診断ツールを提供",
     "【HOTTEST #3 / Heat 65】OpenAIがNode.jsやBunで使われているGoogle製圧縮ツール「Brotli」でリモートコード実行につながる脆弱性を発見",
-    "【LATEST #4】無料で読めるセキュリティ入門教材、LPIが公開　演習問題と解答付きで基礎から学べる",
-    "【HOTTEST #4 / Heat 65】「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会　来場者の態度も激変",
-    "【LATEST #5】電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性",
-    "【HOTTEST #5 / Heat 65】電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性"
+    "【LATEST #4】「PHP2Shell」のリスク低減に向けて直ちに実行すべき手順は",
+    "【HOTTEST #4 / Heat 65】QuratedLab、福島・千葉の事業者や自治体にWebサイトの脆弱性対策を無償提供",
+    "【LATEST #5】OpenAIがNode.jsやBunで使われているGoogle製圧縮ツール「Brotli」でリモートコード実行につながる脆弱性を発見",
+    "【HOTTEST #5 / Heat 65】「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会　来場者の態度も激変"
   ]
 }
