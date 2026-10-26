@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-26T13:30:02.532328+00:00",
+  "source_snapshot_generated_at": "2026-10-26T14:30:02.317669+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -3666,6 +3666,50 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1fc5c87910e07bfea9126334",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "QRコード",
+          "設計",
+          "GAS"
+        ],
+        "url": "https://qiita.com/koreangyoseishoshi/items/6aa82ae67148164a354b",
+        "title": "QRコードはなぜログインの鍵にならないのか。写真1枚で複製できる仕組みと安全な使い道",
+        "author": "koreangyoseishoshi",
+        "published_at": "2026-10-26T23:11:10+09:00",
+        "excerpt": "※この記事は Zennの記事 からの転載です。 職員の名札にQRコードを載せる仕組みを作っています。研修会や会議の出席を、会場のパソコンでQRを読むだけで記録するためです。 作っているうちに、周りからこういう声が出てきました。 「そのQRで、業務システムにログインできたら楽なのに」 「部屋の入室にも使えないか」 「制服の申し込みの本人確認にも使えそう」 どれも、 やってはいけない使い方 です。この記事では、印刷したQRがなぜ鍵にならないのか、それでも何に使えるのかを整理します（仕組みはテスト用の環境で動かしている段階です）。 印刷したQRは、写真1枚で複製できる 理由は単純です。紙に印刷したQRは、 スマートフォンで写真を撮れば、それで複製が完成します 。 名札は首から下げて、人に見せるものです。休憩室の机に置くこともあります 写真に撮られても、本人は気づきません 中身がずっと同じなので、撮った写真はいつまでも使えます もしこのQRでログインできるなら、 名札の写真＝その人のパスワード です。 よく「QRは偽造されやすい」と言われますが、QRとい"
+      },
+      {
+        "id": "qiita:380aa45a46b432420c7e9a08",
+        "source": "qiita",
+        "author_tags": [
+          "エンジニア",
+          "Security",
+          "ポエム"
+        ],
+        "url": "https://qiita.com/siam__/items/da2121d386eb2a03e72c",
+        "title": "\"AI for Security\"が変えるサイバーセキュリティ",
+        "author": "siam__",
+        "published_at": "2026-10-26T23:06:07+09:00",
+        "excerpt": "毎年秋にこの会話をしています。 「基幹の更新が優先で、セキュリティは次のフェーズで」 「うちの規模で狙われることはないよ」 そして2026年10月。IDCフロンティアがランサムウェアで495社に影響を与え、ヤマト運輸で526万件の情報が流出しました。 毎年同じ会話をして、毎年被害が増えています。 「予算を増やせ」では構造は変わらない。では何を変えればいいのか。その問いを追いかけていたら、 「AI for Security」 という考え方に辿り着きました。 日本へのサイバー攻撃は、なぜ止まらないのか まず数字を確認します。 2026年1〜9月 ────────────────────────────────── 情報漏えい公表件数（漏えいの可能性含む） 454件 前年同期比 +49% ────────────────────────────────── 出典：MM総研（2026年10月公表） KPMGジャパンの2026年調査では、 63.2%の企業がセキュリティ予算の不足を認識 しています。IT予算に占めるセキュリティ比率は「1〜5%未満」が最多。"
+      },
+      {
+        "id": "qiita:1c241e55d83e0b6b458269c0",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "TLS",
+          "初心者"
+        ],
+        "url": "https://qiita.com/security-tech-m/items/d5ea6a3da95dd668fa16",
+        "title": "OCSP staplingを調べるとき、「応答なし」と「失効」を分ける",
+        "author": "security-tech-m",
+        "published_at": "2026-10-26T22:53:06+09:00",
+        "excerpt": "TLSの調査で「OCSP response: no response sent」と表示されたら、証明書が失効したのでしょうか。これは、接続時にサーバーからOCSP応答が添付されなかったことを示す表示です。それだけで失効の有無を決めることはできません。 説明用の概念図。実測結果ではありません。 誰が応答を渡すのか OCSP staplingでは、サーバーが証明書の状態に関する署名付き応答を取得し、TLS接続でクライアントへ添付します。利用者側が発行元へ毎回直接問い合わせる形とは、応答を運ぶ経路が異なります。 状態の意味や有効性の確認は、添付されたかどうかとは別の段階です。 OpenSSLで添付の有無を観察する openssl s_client -connect www.example.com:443 -servername www.example.com -status -verify_hostname www.example.com -verify_return_error 自分が管理する対象へ置き換える調査例です。 -status で応答を要求"
+      },
+      {
         "id": "qiita:6f14ee4c684cb939a3e6bd3b",
         "source": "qiita",
         "author_tags": [
@@ -7116,6 +7160,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f71d63a9ceb2dec6e9acec42",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "web-development",
+          "bug-bounty",
+          "security",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@pentesterclubpvtltd/metasploit-privilege-escalation-uac-bypass-sticky-keys-explained-a413b730d408",
+        "title": "Metasploit Privilege Escalation | UAC Bypass & Sticky Keys Explained",
+        "author": "Pentester Club",
+        "published_at": "2026-10-26T14:18:03+00:00",
+        "excerpt": "You have access to a Windows machine during a penetration test — but you don’t have administrator privileges. What happens next? 🔥 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3ce230a03973ccfcd822b312",
+        "source": "medium",
+        "author_tags": [
+          "aws",
+          "cloud-security",
+          "cloud-computing",
+          "amazon-web-services",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@dilmisandunika2003/aws-shared-responsibility-model-explained-what-aws-secures-vs-what-you-secure-2cb81a03208e",
+        "title": "AWS Shared Responsibility Model Explained: What AWS Secures vs What You Secure",
+        "author": "Dilmi Sandunika",
+        "published_at": "2026-10-26T14:05:47+00:00",
+        "excerpt": "A beginner-friendly guide to understanding AWS security responsibilities, with real-world examples. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a6770789cca6d956f77b40d5",
+        "source": "medium",
+        "author_tags": [
+          "incident-response",
+          "infosec",
+          "threat-hunting",
+          "cybersecurity",
+          "linux"
+        ],
+        "url": "https://medium.com/@xpert4cyber/linux-lsof-command-cheat-sheet-find-open-ports-deleted-files-suspicious-processes-5180fbbfe383",
+        "title": "Linux lsof Command Cheat Sheet: Find Open Ports, Deleted Files & Suspicious Processes",
+        "author": "Xpert4Cyber",
+        "published_at": "2026-10-26T14:05:41+00:00",
+        "excerpt": "At 2:14 a.m., a production server hit 100% disk usage, yet du accounted for barely 40%. Nothing was missing, nothing was growing. 🔍 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7b4833bce1c2fdb62b20f222",
+        "source": "medium",
+        "author_tags": [
+          "ctf-writeup",
+          "penetration-testing",
+          "ctf",
+          "cybersecurity",
+          "tryhackme"
+        ],
+        "url": "https://medium.com/@zeliharich/tryhackme-hydra-ctf-32c6f2132c63",
+        "title": "TryHackMe Hydra CTF",
+        "author": "Zeliha Zengin",
+        "published_at": "2026-10-26T14:01:05+00:00",
+        "excerpt": "In this article, I will walk you through a step-by-step penetration testing process, covering service reconnaissance, credential… Continue reading on Medium »"
+      },
       {
         "id": "medium:673812565b185116cf8550d0",
         "source": "medium",
