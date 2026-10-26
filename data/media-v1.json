@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-26T19:30:02.310716+00:00",
+  "source_snapshot_generated_at": "2026-10-26T20:30:02.334290+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -3971,6 +3971,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:da76db759b30bf4d7e41684b",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "オープンウェイト",
+          "AIエージェント",
+          "DevSecOps",
+          "脆弱性管理"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/9427d9dc8cbfdda9962c",
+        "title": "オープンウェイトが攻撃を速くするとき、防御の発見と修正も速くする",
+        "author": "mhamadajp",
+        "published_at": "2026-10-27T04:38:48+09:00",
+        "excerpt": "「使わない」で終わると、直す速度が決まりません たとえば、週次のセキュリティレビューです。共有されたのは、オープンウェイトの GLM-5.3 が、クローズドな Claude Mythos Preview に近い割合で、Chrome の既知脆弱性から最後まで exploit を組めた、という Anthropic の分析です。 結論を「危ないから使わない」だけにすると、防御側がその能力をどう使うかが決まりません。決めるのは、自社のコードと構成を使って、脆弱性を見つけ、修正し、もう一度確かめる時間を短くできるかです。攻撃側の探索だけが短くなり、修正が今までと同じ日数のまま、という状態を避けるためです。 Andrew Ng 氏は2026年10月2日の We Should Be Encouraged By AI’s Cybersecurity Abilities で、この近さは防御側が使える、と書いています。元は The Batch の373号 の手紙です。ただし、その近さは、選んだ試験によって消えます。 「12%と14%が近い」だけでは、同じ能力とは見な"
+      },
+      {
         "id": "qiita:97569c303d7aca687643b101",
         "source": "qiita",
         "author_tags": [
@@ -7588,6 +7604,149 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:0e3c32bc760c2d0fd906cbdf",
+        "source": "medium",
+        "author_tags": [
+          "hacking",
+          "programming",
+          "web-security",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@shawkatemad63/how-i-found-ssrf-in-6-known-companies-using-one-methodology-in-2026-987d79b27620",
+        "title": "How I Found SSRF in 6 Known Companies Using One Methodology in 2026",
+        "author": "Shawkatemad",
+        "published_at": "2026-10-26T20:28:09+00:00",
+        "excerpt": "Bug Bounty SSRF Web Security Methodology Kubernetes Continue reading on Medium »"
+      },
+      {
+        "id": "medium:11141827a0ed51c0337fd1e9",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "cybersecurity",
+          "virtualization",
+          "incident-response",
+          "gcp-security-operations"
+        ],
+        "url": "https://medium.com/@hidingenius/network-security-coding-and-scripting-sequences-in-security-engineering-2cb3eb3e83ed",
+        "title": "Network Security Coding and Scripting Sequences in Security Engineering",
+        "author": "Nijah Porter (Article)",
+        "published_at": "2026-10-26T20:27:52+00:00",
+        "excerpt": "Security engineering increasingly relies on code to implement, verify, and maintain controls at scale. Network security coding — writing… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c00b3bdea24fc7376fae9fb7",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme-walkthrough",
+          "hacker",
+          "cybersecurity",
+          "ctf",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@zodiak0x6/root-me-ctf-thm-writeup-7c037b556d5a",
+        "title": "Root Me CTF — THM Writeup",
+        "author": "ZODiAK",
+        "published_at": "2026-10-26T20:18:24+00:00",
+        "excerpt": "CTF Name : RootMe Plateform : TryHackMe Difficulty: Easy Author : ZODiAK Day : 5 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9ed1391e86b3cf9578f4459c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "information-security",
+          "virtualization",
+          "incident-response",
+          "gcp-security-operations"
+        ],
+        "url": "https://medium.com/@hidingenius/virtualization-security-and-redundancy-in-security-operations-7bb0bd364498",
+        "title": "Virtualization Security and Redundancy in Security Operations",
+        "author": "Nijah Porter (Article)",
+        "published_at": "2026-10-26T20:16:10+00:00",
+        "excerpt": "Virtualization underpins most modern data centers and many cloud environments, concentrating multiple workloads on shared physical hosts… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5769999729a6502ca042304c",
+        "source": "medium",
+        "author_tags": [
+          "hacker",
+          "cybersecurity",
+          "race-condition-exploit",
+          "race-condition"
+        ],
+        "url": "https://medium.com/@abdulkadirkayacan/bir-hacker-gibi-d%C3%BC%C5%9F%C3%BCnmek-19-2fb9dbf3c03e",
+        "title": "Bir Hacker Gibi Düşünmek — #19",
+        "author": "Abdulkadir Kayacan",
+        "published_at": "2026-10-26T20:06:57+00:00",
+        "excerpt": "Race Condition Gerçek Dünyada Nasıl İstismar Edilir? Bir Uygulamanın Zamanlama Hatalarını Anlamak Continue reading on Medium »"
+      },
+      {
+        "id": "medium:beeba504d5adbfe7ddf6cc21",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "critical-infrastructure",
+          "information-security",
+          "cryptography",
+          "security-engineering"
+        ],
+        "url": "https://medium.com/@hidingenius/signal-encryption-and-interoperability-in-radiocommunication-systems-a-security-engineering-855c611a317b",
+        "title": "Signal Encryption and Interoperability in Radiocommunication Systems: A Security Engineering…",
+        "author": "Nijah Porter (Article)",
+        "published_at": "2026-10-26T20:02:38+00:00",
+        "excerpt": "Signal Encryption and Multi-Vendor Interoperability in Radiocommunication Systems: Security Engineering Alignment Continue reading on Medium »"
+      },
+      {
+        "id": "medium:070549d65c3aecdb815527a7",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme",
+          "cybersecurity",
+          "incident-response",
+          "digital-forensics",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@jisantarif55/the-waiting-room-tryhackme-dfir-investigation-writeup-ff20e7128244",
+        "title": "The Waiting Room — TryHackMe | DFIR Investigation Writeup",
+        "author": "Tarif Bin Belal",
+        "published_at": "2026-10-26T20:00:47+00:00",
+        "excerpt": "Room: The Waiting Room Category: Digital Forensics & Incident Response (DFIR) Difficulty: Medium Platform: TryHackMe Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a84b1356e143c94e30894f70",
+        "source": "medium",
+        "author_tags": [
+          "zero-day",
+          "web-security",
+          "cybersecurity",
+          "php",
+          "information-security"
+        ],
+        "url": "https://medium.com/@alimansoor1298/php2shell-went-from-scanning-to-real-compromises-patch-then-check-one-more-thing-464b61b19c22",
+        "title": "PHP2Shell Went From Scanning to Real Compromises. Patch, Then Check One More Thing.",
+        "author": "Ali Mansoor",
+        "published_at": "2026-10-26T20:00:23+00:00",
+        "excerpt": "Six days after PHP’s emergency release, researchers have confirmed successful exploitation of the PHP2Shell flaws against real servers… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4acf8dca80d923e8c42be293",
+        "source": "medium",
+        "author_tags": [
+          "hacker",
+          "race-condition",
+          "vulnerability",
+          "cybersecurity",
+          "race-condition-exploit"
+        ],
+        "url": "https://medium.com/@abdulkadirkayacan/bir-hacker-gibi-d%C3%BC%C5%9F%C3%BCnmek-18-d082107e40d8",
+        "title": "Bir Hacker Gibi Düşünmek — #18",
+        "author": "Abdulkadir Kayacan",
+        "published_at": "2026-10-26T19:58:18+00:00",
+        "excerpt": "Race Condition Nedir? Aynı İşlem Aynı Anda Gerçekleştiğinde Neler Ters Gidebilir? Continue reading on Medium »"
+      },
       {
         "id": "medium:41cad3ef81760d88e31b10a8",
         "source": "medium",
