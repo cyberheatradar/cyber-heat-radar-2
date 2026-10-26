@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T18:11:13.573965+00:00",
-  "as_of": "2026-10-26T18:00:00+00:00",
-  "catalog_count": 20795,
+  "generated_at": "2026-10-26T19:11:48.568333+00:00",
+  "as_of": "2026-10-26T19:00:00+00:00",
+  "catalog_count": 20798,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,35 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:8674d0a6a0f266178ac63b5c",
+      "permalink_id": "article-url-8674d0a6a0f266178ac63b5c",
+      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-111497",
+      "title": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
+      "summary_excerpt": null,
+      "published_at": "2026-10-27T03:45:00+09:00",
+      "first_seen_at": "2026-10-27T04:02:43.859748+09:00",
+      "source_name": "Palo Alto Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:26f45420b3a69ad621a4b096",
       "permalink_id": "article-url-26f45420b3a69ad621a4b096",
@@ -61,6 +90,35 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:315f6df6299e23a5817ddf33",
+      "permalink_id": "article-url-315f6df6299e23a5817ddf33",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder/",
+      "title": "CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
+      "summary_excerpt": "Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote co",
+      "published_at": "2026-10-27T02:32:46+09:00",
+      "first_seen_at": "2026-10-27T04:02:45.363756+09:00",
+      "source_name": "Rapid7 Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:f5846d497bb2f7fc46f57d1d",
       "permalink_id": "article-url-f5846d497bb2f7fc46f57d1d",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
@@ -85,6 +143,35 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c0e956f9dbd9ca01d151f86c",
+      "permalink_id": "article-url-c0e956f9dbd9ca01d151f86c",
+      "canonical_url": "https://www.akamai.com/blog/security-research/inside-node2shell-closer-look-cve-2026-111497",
+      "title": "Inside Node2Shell: A Closer Look at CVE-2026-111497",
+      "summary_excerpt": null,
+      "published_at": "2026-10-27T01:00:00+09:00",
+      "first_seen_at": "2026-10-27T04:01:59.810971+09:00",
+      "source_name": "Akamai Security Intelligence",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
     {
@@ -193,64 +280,18 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:3a71b82298d82cf30c62222c",
-      "permalink_id": "article-url-3a71b82298d82cf30c62222c",
-      "canonical_url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
-      "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
-      "summary_excerpt": "CERT-UA says it has identified cases in which hackers compromised Dahua internet-connected cameras and video recorders, changed their settings and created unauthorized user accounts.",
-      "published_at": "2026-10-26T23:21:00+09:00",
-      "first_seen_at": "2026-10-27T00:02:39.845476+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4f31a84cd6032feac7f5a073",
-      "permalink_id": "article-url-4f31a84cd6032feac7f5a073",
-      "canonical_url": "https://www.security-next.com/191949",
-      "title": "Google製「Brotliデコーダ」の脆弱性、幅広い環境に影響か",
-      "summary_excerpt": "ウェブ通信などで利用されるGoogleのデータ圧縮ライブラリ「Brotli」に深刻な脆弱性が判明した。データ処理に同ライブラリが利用される幅広い環境が影響を受けるおそれもあるという。",
-      "published_at": "2026-10-26T23:14:41+09:00",
-      "first_seen_at": "2026-10-27T02:03:00.405610+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e13ee8e07aea9950fa09cc25",
-      "permalink_id": "article-url-e13ee8e07aea9950fa09cc25",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/linux-flaws-exposed-before-fixes/",
-      "title": "Linux Flaws Exposed Before Fixes as Root Exploit Goes Public",
-      "summary_excerpt": "Six Linux flaws were made public, including one with a working root exploit and no merged fix",
-      "published_at": "2026-10-26T23:00:00+09:00",
-      "first_seen_at": "2026-10-26T23:02:47.865121+09:00",
-      "source_name": "Infosecurity Magazine",
+      "public_article_id": "url:8674d0a6a0f266178ac63b5c",
+      "permalink_id": "article-url-8674d0a6a0f266178ac63b5c",
+      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-111497",
+      "title": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
+      "summary_excerpt": null,
+      "published_at": "2026-10-27T03:45:00+09:00",
+      "first_seen_at": "2026-10-27T04:02:43.859748+09:00",
+      "source_name": "Palo Alto Security Advisories",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -263,14 +304,72 @@
           "label": "Vulnerability"
         }
       ],
-      "cves": [],
+      "cves": [
+        "CVE-2026-111497"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
+    },
+    {
+      "public_article_id": "url:315f6df6299e23a5817ddf33",
+      "permalink_id": "article-url-315f6df6299e23a5817ddf33",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder/",
+      "title": "CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
+      "summary_excerpt": "Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote co",
+      "published_at": "2026-10-27T02:32:46+09:00",
+      "first_seen_at": "2026-10-27T04:02:45.363756+09:00",
+      "source_name": "Rapid7 Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c0e956f9dbd9ca01d151f86c",
+      "permalink_id": "article-url-c0e956f9dbd9ca01d151f86c",
+      "canonical_url": "https://www.akamai.com/blog/security-research/inside-node2shell-closer-look-cve-2026-111497",
+      "title": "Inside Node2Shell: A Closer Look at CVE-2026-111497",
+      "summary_excerpt": null,
+      "published_at": "2026-10-27T01:00:00+09:00",
+      "first_seen_at": "2026-10-27T04:01:59.810971+09:00",
+      "source_name": "Akamai Security Intelligence",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:7c54e769948b6fc771ccdcc1",
       "permalink_id": "article-url-7c54e769948b6fc771ccdcc1",
@@ -469,81 +568,6 @@
           "color_family": "red",
           "key": "malware",
           "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:71d69466750982d246dd93ce",
-      "permalink_id": "article-url-71d69466750982d246dd93ce",
-      "canonical_url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
-      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-      "summary_excerpt": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
-      "published_at": "2026-10-26T23:52:14+09:00",
-      "first_seen_at": "2026-10-27T00:02:36.686968+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4f31a84cd6032feac7f5a073",
-      "permalink_id": "article-url-4f31a84cd6032feac7f5a073",
-      "canonical_url": "https://www.security-next.com/191949",
-      "title": "Google製「Brotliデコーダ」の脆弱性、幅広い環境に影響か",
-      "summary_excerpt": "ウェブ通信などで利用されるGoogleのデータ圧縮ライブラリ「Brotli」に深刻な脆弱性が判明した。データ処理に同ライブラリが利用される幅広い環境が影響を受けるおそれもあるという。",
-      "published_at": "2026-10-26T23:14:41+09:00",
-      "first_seen_at": "2026-10-27T02:03:00.405610+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e13ee8e07aea9950fa09cc25",
-      "permalink_id": "article-url-e13ee8e07aea9950fa09cc25",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/linux-flaws-exposed-before-fixes/",
-      "title": "Linux Flaws Exposed Before Fixes as Root Exploit Goes Public",
-      "summary_excerpt": "Six Linux flaws were made public, including one with a working root exploit and no merged fix",
-      "published_at": "2026-10-26T23:00:00+09:00",
-      "first_seen_at": "2026-10-26T23:02:47.865121+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
         }
       ],
       "cves": [],
@@ -790,15 +814,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Microsoft releases emergency .NET security fixes for Google Brotli bug",
-    "【HOTTEST #1 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild",
-    "【LATEST #2】PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-    "【HOTTEST #2 / Heat 67.5】PHP Publishes Mitigation Advice for New RCE Flaw",
-    "【LATEST #3】Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-    "【HOTTEST #3 / Heat 67.5】注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起  (公開)",
-    "【LATEST #4】Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-    "【HOTTEST #4 / Heat 67.5】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
-    "【LATEST #5】Microsoft releases emergency .NET patches for critical Brotli flaw",
-    "【HOTTEST #5 / Heat 67.5】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表"
+    "【LATEST #1】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
+    "【HOTTEST #1 / Heat 75】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
+    "【LATEST #2】Microsoft releases emergency .NET security fixes for Google Brotli bug",
+    "【HOTTEST #2 / Heat 75】CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
+    "【LATEST #3】PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+    "【HOTTEST #3 / Heat 75】Inside Node2Shell: A Closer Look at CVE-2026-111497",
+    "【LATEST #4】CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
+    "【HOTTEST #4 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild",
+    "【LATEST #5】Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+    "【HOTTEST #5 / Heat 67.5】PHP Publishes Mitigation Advice for New RCE Flaw"
   ]
 }
