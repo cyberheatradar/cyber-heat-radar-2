@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-26T11:30:02.341810+00:00",
+  "source_snapshot_generated_at": "2026-10-26T12:30:02.736800+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -3666,6 +3666,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:bffa9a529f0cf486c794e75c",
+        "source": "qiita",
+        "author_tags": [
+          "個人開発",
+          "Security"
+        ],
+        "url": "https://qiita.com/Andy342/items/22dbc3df427c8b8282c2",
+        "title": "Conscio のリポジトリを再公開しました — 復旧の報告",
+        "author": "Andy342",
+        "published_at": "2026-10-26T21:13:37+09:00",
+        "excerpt": "復旧の報告 10月22日の 前の記事 のとおり、外部のPHPコードをめぐる問題への対応として、GitHub上の当プロジェクトのリポジトリ（conscio）を一時的に非公開にしていました。 **10月26日、リポジトリを再公開しました。**Wiki・Releases・配布物が再び参照できるようになっています。 影響の範囲について、告知の更新が必要な大きな変化は本日まで確認されていません。詳細が確定したら改めてお知らせします。 現在の状態 公式サイト（GitHub Pages）も再構築中です（ https://andy234-andy.github.io/conscio/） アプリの開発は継続しています（直近の v1.4.5 は8進化バッチ。連続達成日数の機能を実装中） Conscio は端末内完結設計です（外部通信のコードなし・個人情報収集なし・利用データはご自身のMac内のみ） ご不便をおかけして申し訳ありませんでした。今後ともよろしくお願いいたします。 本記事はAIアシストで整理・執筆し、人間が内容を確認して公開しています。"
+      },
+      {
+        "id": "qiita:356a2a45052a5c97d543e2e4",
+        "source": "qiita",
+        "author_tags": [
+          "協調的脆弱性開示プロセス",
+          "PHP",
+          "php2shell",
+          "日本語訳",
+          "Security"
+        ],
+        "url": "https://qiita.com/rana_kualu/items/f5a44b09241bdb21907e",
+        "title": "【PHP2Shell】PHP公式の発表『本日のセキュリティリリースと、セキュリティ対策について』",
+        "author": "rana_kualu",
+        "published_at": "2026-10-26T20:58:55+09:00",
+        "excerpt": "先日大騒ぎになった PHP2Shell ですが、修正版リリースの提供直後、PHP財団公式ブログ記事 Today's PHP Security Release, and How We're Strengthening PHP Security が公開されました。 そもそもどんな脆弱性？ 以下は簡易化のため正確ではありません。 PHPは、リクエストが来るとリクエストをメモリに展開し、プログラムを実行し、最後にメモリをきれいに初期化してから再び次のリクエストの処理を開始する、という仕組みになっています。 ここで細工したリクエストが送られてくるとメモリへの展開に失敗することがあり、その際にはメモリの一部が初期化されずリクエストが書き込まれたままになってしまうのです。 これによって、悪意のあるコードを送り込むことでサーバ上で実行することができてしまう、とざっくりいうとこんなかんじです。 もちろん簡単に実行できるわけではなく、実は理論上のバグ自体は2年前から見つかっていたのですが現実的な攻撃経路が見つからなかったので修正が後回しになっていました。 それほど難"
+      },
+      {
         "id": "qiita:d57b9c03c46ae09e34ba7082",
         "source": "qiita",
         "author_tags": [
@@ -7055,6 +7084,85 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:2c2db293eb28c98935bce6b5",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "internet-of-things",
+          "information-security",
+          "industrial-control-system",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@anurag.singh_40789/ai-soc-for-ot-and-iot-security-why-monitoring-industrial-networks-is-different-45515340a04f",
+        "title": "AI SOC for OT and IoT Security: Why Monitoring Industrial Networks Is Different",
+        "author": "Anurag Singh",
+        "published_at": "2026-10-26T12:21:59+00:00",
+        "excerpt": "Industrial networks can’t be secured like office laptops. Here are five capabilities to test in an AI SOC platform for OT and IoT. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3935b6ecdce98eb6e702d8cc",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "hacking",
+          "bugbounty-writeup",
+          "web-security"
+        ],
+        "url": "https://medium.com/@duckeg97/critical-account-takeover-via-csrf-header-bypass-3c47eacf274f",
+        "title": "Critical Account Takeover via CSRF Header Bypass",
+        "author": "Ahmed Mamdouh",
+        "published_at": "2026-10-26T12:16:58+00:00",
+        "excerpt": "بسم الله الرحمن الرحيم — وَمَا بِكُم مِّن نِّعْمَةٍ فَمِنَ اللَّهِ Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b6b8b5045990bad31517d67b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "malware",
+          "elasticsearch",
+          "linux",
+          "kali-linux"
+        ],
+        "url": "https://medium.com/@apasquel/icmp-ghost-c2-malware-analysis-a-linux-post-exploitation-edr-bypass-tool-6642fe8ffce6",
+        "title": "ICMP-Ghost C2 Malware Analysis | A Linux Post Exploitation EDR Bypass Tool",
+        "author": "Cookiez Corner",
+        "published_at": "2026-10-26T12:01:02+00:00",
+        "excerpt": "I am currently working on expanding my knowledge into EDR (Endpoint Detection and Response) bypass tools, tactics, and techniques to build… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a08b7fc0995ab6bafd37febc",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "threat-intelligence",
+          "ai-security",
+          "cyberdudebivash",
+          "cyber-threat-intelligence"
+        ],
+        "url": "https://cyberdudebivash.medium.com/from-ai-security-to-global-cyber-defense-inside-the-cyberdudebivash-ecosystem-d3855f33ee21",
+        "title": "From AI Security to Global Cyber Defense: Inside the CYBERDUDEBIVASH® ECOSYSTEM",
+        "author": "CYBERDUDEBIVASH® | AI & Cybersecurity Ecosystem",
+        "published_at": "2026-10-26T12:00:08+00:00",
+        "excerpt": "From AI Security to Global Cyber Defense: Inside the CYBERDUDEBIVASH® ECOSYSTEM Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5f6f9688ffa51b65ad126d8e",
+        "source": "medium",
+        "author_tags": [
+          "software-engineering",
+          "vulnerability-management",
+          "php",
+          "cybersecurity",
+          "appsec"
+        ],
+        "url": "https://medium.com/@bu.kantarci88/php2shell-from-memory-corruption-to-unauthenticated-remote-code-execution-582abc7821e2",
+        "title": "PHP2Shell: From Memory Corruption to Unauthenticated Remote Code Execution",
+        "author": "Burak Kantarci",
+        "published_at": "2026-10-26T11:59:19+00:00",
+        "excerpt": "PHP2Shell: When a PHP Runtime Vulnerability Becomes a Remote Code Execution Risk Continue reading on Medium »"
+      },
       {
         "id": "medium:9c042acbedfffbb96c9a58f2",
         "source": "medium",
