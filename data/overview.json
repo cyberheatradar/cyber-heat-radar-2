@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T19:11:48.568333+00:00",
-  "as_of": "2026-10-26T19:00:00+00:00",
-  "catalog_count": 20798,
+  "generated_at": "2026-10-26T20:14:20.476369+00:00",
+  "as_of": "2026-10-26T20:00:00+00:00",
+  "catalog_count": 20819,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,38 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:b7bfe7d9bc2775e0372bd8b6",
+      "permalink_id": "article-url-b7bfe7d9bc2775e0372bd8b6",
+      "canonical_url": "https://www.huntress.com/blog/connectwise-attack-ai",
+      "title": "AI, Scripts, Operator: Inside the ConnectWise Attack",
+      "summary_excerpt": "Microsoft says an AI agent drove the ConnectWise attack. Huntress telemetry is consistent with that: scripted tooling, steered by an operator.",
+      "published_at": "2026-10-27T04:00:00+09:00",
+      "first_seen_at": "2026-10-27T05:02:15.694322+09:00",
+      "source_name": "Huntress Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:8674d0a6a0f266178ac63b5c",
       "permalink_id": "article-url-8674d0a6a0f266178ac63b5c",
@@ -37,6 +69,33 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4764a547323cc60e09a947be",
+      "permalink_id": "article-url-4764a547323cc60e09a947be",
+      "canonical_url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "summary_excerpt": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks. \"When you",
+      "published_at": "2026-10-27T03:12:22+09:00",
+      "first_seen_at": "2026-10-27T05:02:29.043895+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
       "published_at_future_suppressed": false
     },
     {
@@ -231,54 +290,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:68d830964bcc1c3bb010e0d3",
-      "permalink_id": "article-url-68d830964bcc1c3bb010e0d3",
-      "canonical_url": "https://www.security.com/expert-perspectives/7-security-dot-com-podcast-moments-still-haunt-us",
-      "title": "7 SECURITY.COM The Podcast Moments That Still Haunt Us",
-      "summary_excerpt": "For those of us who like a tinge of thrill with their threat intel",
-      "published_at": "2026-10-27T00:30:00+09:00",
-      "first_seen_at": "2026-10-27T02:02:17.910959+09:00",
-      "source_name": "Broadcom / Symantec Enterprise Blogs",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "media_podcast",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:71d69466750982d246dd93ce",
-      "permalink_id": "article-url-71d69466750982d246dd93ce",
-      "canonical_url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
-      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-      "summary_excerpt": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
-      "published_at": "2026-10-26T23:52:14+09:00",
-      "first_seen_at": "2026-10-27T00:02:36.686968+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -488,6 +499,64 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:beb2810fe2d6db27d2945b77",
+      "permalink_id": "article-url-beb2810fe2d6db27d2945b77",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-792/",
+      "title": "ZDI-26-792: libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-114550.",
+      "published_at": "2026-10-26T14:00:00+09:00",
+      "first_seen_at": "2026-10-27T05:02:47.545205+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-114550"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a304cd32bbafe4c746bb0d0d",
+      "permalink_id": "article-url-a304cd32bbafe4c746bb0d0d",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-791/",
+      "title": "ZDI-26-791: Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Pixar Animation Studio OpenUSD. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-92211.",
+      "published_at": "2026-10-26T14:00:00+09:00",
+      "first_seen_at": "2026-10-27T05:02:30.497185+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-92211"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:9bfc6765f7783015da6404dc",
       "permalink_id": "article-url-9bfc6765f7783015da6404dc",
       "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151086.html",
@@ -515,65 +584,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f5846d497bb2f7fc46f57d1d",
-      "permalink_id": "article-url-f5846d497bb2f7fc46f57d1d",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-      "summary_excerpt": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
-      "published_at": "2026-10-27T01:27:57+09:00",
-      "first_seen_at": "2026-10-27T02:02:16.485302+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4b8826d6a66e074543d42962",
-      "permalink_id": "article-url-4b8826d6a66e074543d42962",
-      "canonical_url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-      "summary_excerpt": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
-      "published_at": "2026-10-27T00:52:40+09:00",
-      "first_seen_at": "2026-10-27T03:02:22.076119+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -814,15 +824,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
+    "【LATEST #1】AI, Scripts, Operator: Inside the ConnectWise Attack",
     "【HOTTEST #1 / Heat 75】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-    "【LATEST #2】Microsoft releases emergency .NET security fixes for Google Brotli bug",
+    "【LATEST #2】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
     "【HOTTEST #2 / Heat 75】CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
-    "【LATEST #3】PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+    "【LATEST #3】Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
     "【HOTTEST #3 / Heat 75】Inside Node2Shell: A Closer Look at CVE-2026-111497",
-    "【LATEST #4】CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
+    "【LATEST #4】Microsoft releases emergency .NET security fixes for Google Brotli bug",
     "【HOTTEST #4 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild",
-    "【LATEST #5】Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+    "【LATEST #5】PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
     "【HOTTEST #5 / Heat 67.5】PHP Publishes Mitigation Advice for New RCE Flaw"
   ]
 }
