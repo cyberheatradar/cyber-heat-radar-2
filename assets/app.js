@@ -602,18 +602,11 @@ function buildStatus() {
   const dl = document.getElementById("radarStatus");
   dl.replaceChildren();
 
+  // CHR2_PUBLICATION_TIME_R1
   const entries = [
-    ["Catalog", state.all.length.toLocaleString("ja-JP")],
-    ["Recent", state.recent.length.toLocaleString("ja-JP")],
-    ["as-of", formatJST(state.meta.as_of)],
-    [
-      "Generated",
-      formatJST(
-        state.meta.generated_at ||
-        state.meta.generated ||
-        state.meta.generated_at_utc
-      )
-    ]
+    ["収録記事", state.all.length.toLocaleString("ja-JP")],
+    ["最近の記事", state.recent.length.toLocaleString("ja-JP")],
+    ["最終更新", formatJST(state.meta.last_published_at)]
   ];
 
   for (const [k, v] of entries) {
