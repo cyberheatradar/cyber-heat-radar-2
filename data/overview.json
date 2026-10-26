@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T17:11:47.197600+00:00",
-  "as_of": "2026-10-26T17:00:00+00:00",
-  "catalog_count": 20790,
+  "generated_at": "2026-10-26T18:11:13.573965+00:00",
+  "as_of": "2026-10-26T18:00:00+00:00",
+  "catalog_count": 20795,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,56 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:26f45420b3a69ad621a4b096",
+      "permalink_id": "article-url-26f45420b3a69ad621a4b096",
+      "canonical_url": "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515",
+      "title": "Microsoft releases emergency .NET security fixes for Google Brotli bug",
+      "summary_excerpt": "Redmond joins growing list of software maintainers scrambling to patch compression flaw",
+      "published_at": "2026-10-27T02:58:00+09:00",
+      "first_seen_at": "2026-10-27T03:02:23.125358+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c85198bbddef2ec11ea9bd7e",
+      "permalink_id": "article-url-c85198bbddef2ec11ea9bd7e",
+      "canonical_url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+      "summary_excerpt": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
+      "published_at": "2026-10-27T02:45:57+09:00",
+      "first_seen_at": "2026-10-27T03:02:21.931341+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 55.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:f5846d497bb2f7fc46f57d1d",
       "permalink_id": "article-url-f5846d497bb2f7fc46f57d1d",
@@ -29,6 +79,38 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4b8826d6a66e074543d42962",
+      "permalink_id": "article-url-4b8826d6a66e074543d42962",
+      "canonical_url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "summary_excerpt": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
+      "published_at": "2026-10-27T00:52:40+09:00",
+      "first_seen_at": "2026-10-27T03:02:22.076119+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
         }
       ],
       "cves": [],
@@ -185,86 +267,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9d30cfebb9127e1a8e28c990",
-      "permalink_id": "article-url-9d30cfebb9127e1a8e28c990",
-      "canonical_url": "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years",
-      "title": "10 Software Security Practices Built for the Next 250 Years",
-      "summary_excerpt": "This Cybersecurity Awareness Month's theme, \"Securing the Next 250,\" asks us to look beyond vulnerabilities and consider what will make our digital systems resilient for generations.",
-      "published_at": "2026-10-26T23:00:00+09:00",
-      "first_seen_at": "2026-10-26T23:02:30.092975+09:00",
-      "source_name": "Dark Reading",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:70e22aa6ff7342720bf4f4e9",
-      "permalink_id": "article-url-70e22aa6ff7342720bf4f4e9",
-      "canonical_url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
-      "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
-      "summary_excerpt": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24. The post PHP2Shell Exploitation Moves From Probes to Working Shells appeared first on SecurityWeek .",
-      "published_at": "2026-10-26T22:30:10+09:00",
-      "first_seen_at": "2026-10-26T23:02:59.214025+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2d8c9c6ef9fddc35ce19902c",
-      "permalink_id": "article-url-2d8c9c6ef9fddc35ce19902c",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/26/ai-tools-security-worry-survey/",
-      "title": "Security pros reckon the biggest AI risk comes with an employee badge",
-      "summary_excerpt": "Employees pasting company data into AI tools worry security teams more than AI-powered attacks do. Most-concerning risks of AI agents (Source: O’Reilly) AI-generated phishing, the attack they run into most often, made the list of top concerns for only a quarter of the 209 security professionals O’Reilly surveyed in September. Mike Loukides, VP of content strategy at O’Reilly Media, believes the fear of AI wiping out humanity distracts from harm happening today. “We don’t need … More → The post Security pros reckon the biggest AI risk comes with an employee badge appeared first on Help Net Secu",
-      "published_at": "2026-10-26T22:16:01+09:00",
-      "first_seen_at": "2026-10-26T23:02:38.200361+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 53.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -444,6 +446,38 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:4b8826d6a66e074543d42962",
+      "permalink_id": "article-url-4b8826d6a66e074543d42962",
+      "canonical_url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "summary_excerpt": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
+      "published_at": "2026-10-27T00:52:40+09:00",
+      "first_seen_at": "2026-10-27T03:02:22.076119+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:71d69466750982d246dd93ce",
       "permalink_id": "article-url-71d69466750982d246dd93ce",
       "canonical_url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
@@ -510,33 +544,6 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:70e22aa6ff7342720bf4f4e9",
-      "permalink_id": "article-url-70e22aa6ff7342720bf4f4e9",
-      "canonical_url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
-      "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
-      "summary_excerpt": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24. The post PHP2Shell Exploitation Moves From Probes to Working Shells appeared first on SecurityWeek .",
-      "published_at": "2026-10-26T22:30:10+09:00",
-      "first_seen_at": "2026-10-26T23:02:59.214025+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
         }
       ],
       "cves": [],
@@ -783,15 +790,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+    "【LATEST #1】Microsoft releases emergency .NET security fixes for Google Brotli bug",
     "【HOTTEST #1 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild",
-    "【LATEST #2】Microsoft releases emergency .NET patches for critical Brotli flaw",
+    "【LATEST #2】PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
     "【HOTTEST #2 / Heat 67.5】PHP Publishes Mitigation Advice for New RCE Flaw",
-    "【LATEST #3】7 SECURITY.COM The Podcast Moments That Still Haunt Us",
+    "【LATEST #3】Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
     "【HOTTEST #3 / Heat 67.5】注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起  (公開)",
-    "【LATEST #4】Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+    "【LATEST #4】Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
     "【HOTTEST #4 / Heat 67.5】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
-    "【LATEST #5】Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+    "【LATEST #5】Microsoft releases emergency .NET patches for critical Brotli flaw",
     "【HOTTEST #5 / Heat 67.5】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表"
   ]
 }
