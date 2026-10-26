@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T22:11:28.118335+00:00",
-  "as_of": "2026-10-26T22:00:00+00:00",
-  "catalog_count": 20825,
+  "generated_at": "2026-10-26T23:12:46.216672+00:00",
+  "as_of": "2026-10-26T23:00:00+00:00",
+  "catalog_count": 20833,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,96 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:bf8817132fa95705664f0f54",
+      "permalink_id": "article-url-bf8817132fa95705664f0f54",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151262.html",
+      "title": "Rapid7が追跡したサイバー攻撃、AI利用は「わずか8％」、脆弱性は公開から平均3日で悪用",
+      "summary_excerpt": "Rapid7は10月21日、2026年第3四半期のサイバー脅威動向をまとめた「Quarterly Threat Landscape Report」（四半期脅威動向レポート）を公開した。",
+      "published_at": "2026-10-27T07:30:00+09:00",
+      "first_seen_at": "2026-10-27T08:03:20.351806+09:00",
+      "source_name": "INTERNET Watch",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_report",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6d9d5e5887ab889b2ebf20c1",
+      "permalink_id": "article-url-6d9d5e5887ab889b2ebf20c1",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
+      "summary_excerpt": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+      "published_at": "2026-10-27T07:20:36+09:00",
+      "first_seen_at": "2026-10-27T08:02:35.113137+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:223ecc530d776136b7800d9c",
+      "permalink_id": "article-url-223ecc530d776136b7800d9c",
+      "canonical_url": "https://www.itmedia.co.jp/enterprise/articles/2610/27/news021.html",
+      "title": "「今夜に対応して頂きたい」総理の異例投稿　PHP騒動が残した「運用」という教訓",
+      "summary_excerpt": "多くのWebサイトを支えるPHPに攻撃コードが存在する重大脆弱性が見つかり、2026年10月21日夕方から夜にかけて、各社が一斉に緊急メンテナンスへ踏み切りました。現職総理がSNSでパッチ適用を呼び掛ける異例の事態から、企業と個人は何を学ぶべきでしょうか。",
+      "published_at": "2026-10-27T07:00:00+09:00",
+      "first_seen_at": "2026-10-27T08:03:21.420246+09:00",
+      "source_name": "ITmedia Enterprise Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:e390651363763241e8a7ab76",
+      "permalink_id": "article-url-e390651363763241e8a7ab76",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/special/2151050.html",
+      "title": "ウェブサイトも“保守・修繕”の発想が必要。「PHPの脆弱性」から、経営層・サイト運営者に知っておいてほしいこと",
+      "summary_excerpt": "2026年10月21日の夜、プログラミング言語「PHP」の開発チームが、深刻な脆弱性2件を修正したバージョンを公開しました。開発チームは事前に公開を予告していて、公開の1時間ほど前には高市首相もXで「大至急のお願い」として、すぐに対応できるよう準備を呼びかけました。国内でも、レンタルサーバーの管理画面やクラウドサービスのほか、飲食店のポイントサービスやアーティストのファンクラブサイトまで緊急メンテナンスが相次ぎました。本稿の執筆時点でも、メンテナンスが続いているサービスはまだ多く残っています。",
+      "published_at": "2026-10-27T06:00:00+09:00",
+      "first_seen_at": "2026-10-27T08:03:20.848711+09:00",
+      "source_name": "INTERNET Watch",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:631b0902569c74ab3b6343eb",
       "permalink_id": "article-url-631b0902569c74ab3b6343eb",
@@ -167,115 +257,6 @@
       "seen_in_kev": false,
       "heat_score": 75.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b7bfe7d9bc2775e0372bd8b6",
-      "permalink_id": "article-url-b7bfe7d9bc2775e0372bd8b6",
-      "canonical_url": "https://www.huntress.com/blog/connectwise-attack-ai",
-      "title": "AI, Scripts, Operator: Inside the ConnectWise Attack",
-      "summary_excerpt": "Microsoft says an AI agent drove the ConnectWise attack. Huntress telemetry is consistent with that: scripted tooling, steered by an operator.",
-      "published_at": "2026-10-27T04:00:00+09:00",
-      "first_seen_at": "2026-10-27T05:02:15.694322+09:00",
-      "source_name": "Huntress Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8674d0a6a0f266178ac63b5c",
-      "permalink_id": "article-url-8674d0a6a0f266178ac63b5c",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-111497",
-      "title": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-      "summary_excerpt": null,
-      "published_at": "2026-10-27T03:45:00+09:00",
-      "first_seen_at": "2026-10-27T04:02:43.859748+09:00",
-      "source_name": "Palo Alto Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4764a547323cc60e09a947be",
-      "permalink_id": "article-url-4764a547323cc60e09a947be",
-      "canonical_url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "summary_excerpt": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks. \"When you",
-      "published_at": "2026-10-27T03:12:22+09:00",
-      "first_seen_at": "2026-10-27T05:02:29.043895+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:26f45420b3a69ad621a4b096",
-      "permalink_id": "article-url-26f45420b3a69ad621a4b096",
-      "canonical_url": "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515",
-      "title": "Microsoft releases emergency .NET security fixes for Google Brotli bug",
-      "summary_excerpt": "Redmond joins growing list of software maintainers scrambling to patch compression flaw",
-      "published_at": "2026-10-27T02:58:00+09:00",
-      "first_seen_at": "2026-10-27T03:02:23.125358+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -393,7 +374,37 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:fac39abf60faadd9dc538dd4",
+      "permalink_id": "article-url-fac39abf60faadd9dc538dd4",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerability-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerability to Catalog",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching : CVE-2026-109618 – PHP Memory Corruption Vulnerability CVE-2026-109619 – PHP Stale Internal Request-State Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Ex",
+      "published_at": "2026-10-26T21:00:00+09:00",
+      "first_seen_at": "2026-10-27T08:02:36.467651+09:00",
+      "source_name": "CISA Cybersecurity Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -536,35 +547,6 @@
       ],
       "cves": [
         "CVE-2026-114550"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a304cd32bbafe4c746bb0d0d",
-      "permalink_id": "article-url-a304cd32bbafe4c746bb0d0d",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-791/",
-      "title": "ZDI-26-791: Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
-      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Pixar Animation Studio OpenUSD. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-92211.",
-      "published_at": "2026-10-26T14:00:00+09:00",
-      "first_seen_at": "2026-10-27T05:02:30.497185+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-92211"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -809,15 +791,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
+    "【LATEST #1】Rapid7が追跡したサイバー攻撃、AI利用は「わずか8％」、脆弱性は公開から平均3日で悪用",
     "【HOTTEST #1 / Heat 75】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
-    "【LATEST #2】LiteLLM supply chain attack started with an exposed master key",
+    "【LATEST #2】University of Copenhagen data breach exposes data of 525,000 people",
     "【HOTTEST #2 / Heat 75】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-    "【LATEST #3】「AIの粗悪レポート」で悲鳴　IntelやGoogleがバグ報奨金を止めた理由",
+    "【LATEST #3】「今夜に対応して頂きたい」総理の異例投稿　PHP騒動が残した「運用」という教訓",
     "【HOTTEST #3 / Heat 75】CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
-    "【LATEST #4】緊急地震速報の誤報、ドコモ利用者には届かず　原因はデータ形式の違い",
-    "【HOTTEST #4 / Heat 75】Inside Node2Shell: A Closer Look at CVE-2026-111497",
-    "【LATEST #5】日本企業が「サイバー攻撃はAIのせい」にして目を背ける“本当の原因”",
-    "【HOTTEST #5 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild"
+    "【LATEST #4】ウェブサイトも“保守・修繕”の発想が必要。「PHPの脆弱性」から、経営層・サイト運営者に知っておいてほしいこと",
+    "【HOTTEST #4 / Heat 67.5】Inside Node2Shell: A Closer Look at CVE-2026-111497",
+    "【LATEST #5】In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
+    "【HOTTEST #5 / Heat 67.5】CISA Adds Two Known Exploited Vulnerability to Catalog"
   ]
 }
