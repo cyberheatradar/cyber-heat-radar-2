@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T14:12:08.905056+00:00",
-  "as_of": "2026-10-26T14:00:00+00:00",
-  "catalog_count": 20782,
+  "generated_at": "2026-10-26T15:11:23.206402+00:00",
+  "as_of": "2026-10-26T15:00:00+00:00",
+  "catalog_count": 20785,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,60 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:71d69466750982d246dd93ce",
+      "permalink_id": "article-url-71d69466750982d246dd93ce",
+      "canonical_url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+      "summary_excerpt": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
+      "published_at": "2026-10-26T23:52:14+09:00",
+      "first_seen_at": "2026-10-27T00:02:36.686968+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:3a71b82298d82cf30c62222c",
+      "permalink_id": "article-url-3a71b82298d82cf30c62222c",
+      "canonical_url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+      "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+      "summary_excerpt": "CERT-UA says it has identified cases in which hackers compromised Dahua internet-connected cameras and video recorders, changed their settings and created unauthorized user accounts.",
+      "published_at": "2026-10-26T23:21:00+09:00",
+      "first_seen_at": "2026-10-27T00:02:39.845476+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:e13ee8e07aea9950fa09cc25",
       "permalink_id": "article-url-e13ee8e07aea9950fa09cc25",
@@ -198,43 +252,16 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:bab6fc37dca25fe2ec8d6c9d",
-      "permalink_id": "article-url-bab6fc37dca25fe2ec8d6c9d",
-      "canonical_url": "https://therecord.media/litellm-hackers-ai-malware",
-      "title": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
-      "summary_excerpt": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week.",
+      "public_article_id": "url:0e985f9313e5a1424602fba8",
+      "permalink_id": "article-url-0e985f9313e5a1424602fba8",
+      "canonical_url": "https://www.cisa.gov/news-events/news/cisa-unveils-new-strategy-strengthen-national-cyber-defense-and-critical-infrastructure-security",
+      "title": "CISA Unveils New Strategy to Strengthen National Cyber Defense and Critical Infrastructure Security",
+      "summary_excerpt": null,
       "published_at": "2026-10-26T21:00:00+09:00",
-      "first_seen_at": "2026-10-26T22:02:34.850974+09:00",
-      "source_name": "The Record",
+      "first_seen_at": "2026-10-27T00:02:18.179481+09:00",
+      "source_name": "CISA News",
       "source_class": "topic_rss",
       "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:18fa6c92bcbccd6ce44e82fc",
-      "permalink_id": "article-url-18fa6c92bcbccd6ce44e82fc",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151305.html",
-      "title": "楽天トラベルで2件の不正アクセス、海外ホテル予約サイト・多言語予約サイトで合計最大約350万件の個人情報が対象に",
-      "summary_excerpt": "楽天グループ株式会社は10月26日、「楽天トラベル」で発生した2件の不正アクセスについて情報を発表した。",
-      "published_at": "2026-10-26T20:43:30+09:00",
-      "first_seen_at": "2026-10-26T22:02:28.192127+09:00",
-      "source_name": "INTERNET Watch",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
       "primary_category": "other",
@@ -242,34 +269,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:3072132390ac510b30e99dc7",
-      "permalink_id": "article-url-3072132390ac510b30e99dc7",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
-      "title": "Fortinet patches critical FortiOS flaws found with AI help",
-      "summary_excerpt": "Fortinet rolled out security hardening updates for FortiOS, FortiManager, FortiAnalyzer, FortiMail, and FortiAuthenticator last week, but is keeping the details about the fixed vulnerabilities under wraps until November 10, 2026. The vulnerabilities were uncovered with the help of AI models and validated by humans, Fortinet’s Chief Information Security Officer Carl Windsor explained in the advance announcement. But attackers also have access to AI tools, he warned, and can use them to find vulnerabilities and build … More → The post Fortinet patches critical FortiOS flaws found with AI help ap",
-      "published_at": "2026-10-26T20:22:52+09:00",
-      "first_seen_at": "2026-10-26T21:02:02.376853+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 53.0,
+      "heat_score": 45.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -422,14 +422,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:43db36580b0eee07f550c4cb",
-      "permalink_id": "article-url-43db36580b0eee07f550c4cb",
-      "canonical_url": "https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js",
-      "title": "Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability",
-      "summary_excerpt": "Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution.",
-      "published_at": "2026-10-25T23:46:53+09:00",
-      "first_seen_at": "2026-10-26T07:58:13.480886+09:00",
-      "source_name": "Wiz Blog",
+      "public_article_id": "url:71d69466750982d246dd93ce",
+      "permalink_id": "article-url-71d69466750982d246dd93ce",
+      "canonical_url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+      "summary_excerpt": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
+      "published_at": "2026-10-26T23:52:14+09:00",
+      "first_seen_at": "2026-10-27T00:02:36.686968+09:00",
+      "source_name": "SecurityWeek",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -442,12 +442,10 @@
           "label": "Vulnerability"
         }
       ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -585,36 +583,6 @@
         "CVE-2026-107186",
         "CVE-2026-107187",
         "CVE-2026-107188"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e14fe19fb3585bdd101b2f8a",
-      "permalink_id": "article-url-e14fe19fb3585bdd101b2f8a",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild/",
-      "title": "CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild",
-      "summary_excerpt": "Overview On October 15, 2026, BeyondTrust disclosed a critical authentication bypass in Remote Support (RS) , its platform for remotely troubleshooting and administering endpoints. Tracked as CVE-2026-102764 and assigned a CVSSv4 score of 9.3 , the vulnerability allows unauthenticated remote attackers to perform file operations on an affected appliance without user interaction. Versions 26.2.3 and earlier are affected unless the BT26-05-RS patch has been applied. BeyondTrust has confirmed that exploitation in the wild has already occurred prior to disclosure. Its October 16 report dates the tw",
-      "published_at": "2026-10-19T23:34:04+09:00",
-      "first_seen_at": "2026-10-20T00:01:46.859807+09:00",
-      "source_name": "Rapid7 Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-102764",
-        "CVE-2026-1731"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -814,6 +782,27 @@
       "seen_in_kev": false,
       "heat_score": 32.5,
       "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9259e82694863d5505d23561",
+      "permalink_id": "article-url-9259e82694863d5505d23561",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56510.html",
+      "title": "らしんばん運営サービスに不正アクセス、顧客情報が漏えいした可能性",
+      "summary_excerpt": null,
+      "published_at": "2026-10-20T08:05:17+09:00",
+      "first_seen_at": "2026-10-20T09:02:34.502689+09:00",
+      "source_name": "ScanNetSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
+      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -834,15 +823,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Linux Flaws Exposed Before Fixes as Root Exploit Goes Public",
+    "【LATEST #1】Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
     "【HOTTEST #1 / Heat 75】PHP2Shell security flaws now sucessfully exploited in the wild",
-    "【LATEST #2】10 Software Security Practices Built for the Next 250 Years",
+    "【LATEST #2】Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
     "【HOTTEST #2 / Heat 75】PHP Publishes Mitigation Advice for New RCE Flaw",
-    "【LATEST #3】PHP2Shell Exploitation Moves From Probes to Working Shells",
+    "【LATEST #3】Linux Flaws Exposed Before Fixes as Root Exploit Goes Public",
     "【HOTTEST #3 / Heat 67.5】注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起  (公開)",
-    "【LATEST #4】Security pros reckon the biggest AI risk comes with an employee badge",
+    "【LATEST #4】10 Software Security Practices Built for the Next 250 Years",
     "【HOTTEST #4 / Heat 67.5】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
-    "【LATEST #5】953 Online Stores Infected in Long-Lasting Malware Campaign",
+    "【LATEST #5】PHP2Shell Exploitation Moves From Probes to Working Shells",
     "【HOTTEST #5 / Heat 67.5】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表"
   ]
 }
