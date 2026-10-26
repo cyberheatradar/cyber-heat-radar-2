@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T20:14:20.476369+00:00",
-  "as_of": "2026-10-26T20:00:00+00:00",
-  "catalog_count": 20819,
+  "generated_at": "2026-10-26T21:11:31.812159+00:00",
+  "as_of": "2026-10-26T21:00:00+00:00",
+  "catalog_count": 20823,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,105 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:ba476cd64e5711fe7f8ce333",
+      "permalink_id": "article-url-ba476cd64e5711fe7f8ce333",
+      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2610/27/2000002600/",
+      "title": "「AIの粗悪レポート」で悲鳴　IntelやGoogleがバグ報奨金を止めた理由",
+      "summary_excerpt": "生成AIの普及に伴って、中身のない低品質な脆弱性報告が急増している。大手IT企業が報奨金制度を一時停止する事態にまで発展した。検証現場をパンクさせている「AIの弊害」とは何か。",
+      "published_at": "2026-10-27T05:00:00+09:00",
+      "first_seen_at": "2026-10-27T06:02:32.621925+09:00",
+      "source_name": "TechTarget Japan Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0e00c1997edea2717d3ed67e",
+      "permalink_id": "article-url-0e00c1997edea2717d3ed67e",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00598/011300387/",
+      "title": "緊急地震速報の誤報、ドコモ利用者には届かず　原因はデータ形式の違い",
+      "summary_excerpt": "著名なセキュリティーリサーチャーのpiyokango氏が注目のシステムトラブルをピックアップ。今週は、NTTドコモでの緊急地震速報の不達、トレジャー・ファクトリー子会社の個人情報漏洩、会員サービス「777CON-PASS」への不正アクセスを取り上げる。",
+      "published_at": "2026-10-27T05:00:00+09:00",
+      "first_seen_at": "2026-10-27T06:02:27.373460+09:00",
+      "source_name": "Nikkei XTECH IT",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c6666452c967c3538f32223a",
+      "permalink_id": "article-url-c6666452c967c3538f32223a",
+      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/27/news018.html",
+      "title": "日本企業が「サイバー攻撃はAIのせい」にして目を背ける“本当の原因”",
+      "summary_excerpt": "国内企業を揺るがす一連の不正アクセス被害で、AIによる自律型攻撃ツール「ARTEX」の関与が判明した。短時間で広範囲に仕掛けられる攻撃に注目が集まるが、専門家たちが一様に指摘するのは「使われた侵入経路そのものは従来と変わらない」という厳しい現実だった。有識者たちの視点から、見せかけの先進技術に惑わされず足元を固めるための具体策を探る。",
+      "published_at": "2026-10-27T05:00:00+09:00",
+      "first_seen_at": "2026-10-27T06:01:54.767798+09:00",
+      "source_name": "@IT Security & Trust",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:5b8d2fcda8c38b784a557f43",
+      "permalink_id": "article-url-5b8d2fcda8c38b784a557f43",
+      "canonical_url": "https://blog.polyswarm.io/millions-of-php-servers-face-rce-risk-as-php2shell-exploitation-attempts-emerge",
+      "title": "Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
+      "summary_excerpt": "CVEs: CVE-2026-109618, CVE-2026-109619 Severity: Critical Executive Summary Two critical vulnerabilities in the PHP runtime, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively dubbed PHP2Shell, could allow unauthenticated attackers to execute arbitrary code on vulnerable web servers, including systems hosting WordPress, Drupal, and Joomla applications. Security researchers have reported exploitation attempts surrounding the October 21 emergency security release, including activity observed before public disclosure, while VulnCheck documented automated scanning and an unsuccessful ",
+      "published_at": "2026-10-27T04:06:30+09:00",
+      "first_seen_at": "2026-10-27T06:02:30.265355+09:00",
+      "source_name": "PolySwarm Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:b7bfe7d9bc2775e0372bd8b6",
       "permalink_id": "article-url-b7bfe7d9bc2775e0372bd8b6",
@@ -176,43 +275,18 @@
       "seen_in_kev": false,
       "heat_score": 75.0,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:f5846d497bb2f7fc46f57d1d",
-      "permalink_id": "article-url-f5846d497bb2f7fc46f57d1d",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-      "summary_excerpt": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
-      "published_at": "2026-10-27T01:27:57+09:00",
-      "first_seen_at": "2026-10-27T02:02:16.485302+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c0e956f9dbd9ca01d151f86c",
-      "permalink_id": "article-url-c0e956f9dbd9ca01d151f86c",
-      "canonical_url": "https://www.akamai.com/blog/security-research/inside-node2shell-closer-look-cve-2026-111497",
-      "title": "Inside Node2Shell: A Closer Look at CVE-2026-111497",
-      "summary_excerpt": null,
-      "published_at": "2026-10-27T01:00:00+09:00",
-      "first_seen_at": "2026-10-27T04:01:59.810971+09:00",
-      "source_name": "Akamai Security Intelligence",
+      "public_article_id": "url:5b8d2fcda8c38b784a557f43",
+      "permalink_id": "article-url-5b8d2fcda8c38b784a557f43",
+      "canonical_url": "https://blog.polyswarm.io/millions-of-php-servers-face-rce-risk-as-php2shell-exploitation-attempts-emerge",
+      "title": "Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
+      "summary_excerpt": "CVEs: CVE-2026-109618, CVE-2026-109619 Severity: Critical Executive Summary Two critical vulnerabilities in the PHP runtime, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively dubbed PHP2Shell, could allow unauthenticated attackers to execute arbitrary code on vulnerable web servers, including systems hosting WordPress, Drupal, and Joomla applications. Security researchers have reported exploitation attempts surrounding the October 21 emergency security release, including activity observed before public disclosure, while VulnCheck documented automated scanning and an unsuccessful ",
+      "published_at": "2026-10-27T04:06:30+09:00",
+      "first_seen_at": "2026-10-27T06:02:30.265355+09:00",
+      "source_name": "PolySwarm Blog",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -226,74 +300,14 @@
         }
       ],
       "cves": [
-        "CVE-2026-111497"
+        "CVE-2026-109618",
+        "CVE-2026-109619"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
-    {
-      "public_article_id": "url:4b8826d6a66e074543d42962",
-      "permalink_id": "article-url-4b8826d6a66e074543d42962",
-      "canonical_url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-      "summary_excerpt": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
-      "published_at": "2026-10-27T00:52:40+09:00",
-      "first_seen_at": "2026-10-27T03:02:22.076119+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5d414f2c6746c7ce6da3fc96",
-      "permalink_id": "article-url-5d414f2c6746c7ce6da3fc96",
-      "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
-      "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-      "summary_excerpt": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
-      "published_at": "2026-10-27T00:38:24+09:00",
-      "first_seen_at": "2026-10-27T01:01:40.080147+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
     {
       "public_article_id": "url:8674d0a6a0f266178ac63b5c",
       "permalink_id": "article-url-8674d0a6a0f266178ac63b5c",
@@ -555,36 +569,6 @@
       "seen_in_kev": false,
       "heat_score": 67.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9bfc6765f7783015da6404dc",
-      "permalink_id": "article-url-9bfc6765f7783015da6404dc",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151086.html",
-      "title": "トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
-      "summary_excerpt": "トレンドマイクロ株式会社は10月23日、PHPの重大な脆弱性（PHP2Shell。CVE-2026-109618、CVE-2026-109619）に対し、日本の法人組織および中小企業が自社のリスクを把握し、被害を防ぐための対応・支援策を発表した。",
-      "published_at": "2026-10-26T13:30:00+09:00",
-      "first_seen_at": "2026-10-26T14:02:51.273306+09:00",
-      "source_name": "INTERNET Watch",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
     }
   ],
   "rising": [],
@@ -824,15 +808,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】AI, Scripts, Operator: Inside the ConnectWise Attack",
-    "【HOTTEST #1 / Heat 75】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-    "【LATEST #2】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-    "【HOTTEST #2 / Heat 75】CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
-    "【LATEST #3】Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-    "【HOTTEST #3 / Heat 75】Inside Node2Shell: A Closer Look at CVE-2026-111497",
-    "【LATEST #4】Microsoft releases emergency .NET security fixes for Google Brotli bug",
-    "【HOTTEST #4 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild",
-    "【LATEST #5】PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-    "【HOTTEST #5 / Heat 67.5】PHP Publishes Mitigation Advice for New RCE Flaw"
+    "【LATEST #1】「AIの粗悪レポート」で悲鳴　IntelやGoogleがバグ報奨金を止めた理由",
+    "【HOTTEST #1 / Heat 75】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
+    "【LATEST #2】緊急地震速報の誤報、ドコモ利用者には届かず　原因はデータ形式の違い",
+    "【HOTTEST #2 / Heat 75】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
+    "【LATEST #3】日本企業が「サイバー攻撃はAIのせい」にして目を背ける“本当の原因”",
+    "【HOTTEST #3 / Heat 75】CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
+    "【LATEST #4】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
+    "【HOTTEST #4 / Heat 75】Inside Node2Shell: A Closer Look at CVE-2026-111497",
+    "【LATEST #5】AI, Scripts, Operator: Inside the ConnectWise Attack",
+    "【HOTTEST #5 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild"
   ]
 }
