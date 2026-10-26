@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T06:09:35.583884+00:00",
-  "as_of": "2026-10-26T06:00:00+00:00",
-  "catalog_count": 20744,
+  "generated_at": "2026-10-26T07:10:21.649720+00:00",
+  "as_of": "2026-10-26T07:00:00+00:00",
+  "catalog_count": 20747,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,77 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:a59d45f230bcccd1cd08e56e",
+      "permalink_id": "article-url-a59d45f230bcccd1cd08e56e",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6600188?source=rss",
+      "title": "GMO 攻撃側が100万ドル要求か",
+      "summary_excerpt": null,
+      "published_at": "2026-10-26T15:38:31+09:00",
+      "first_seen_at": "2026-10-26T16:02:38.624202+09:00",
+      "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4e70721dd0c8bf45d04c42ac",
+      "permalink_id": "article-url-4e70721dd0c8bf45d04c42ac",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5197577/",
+      "title": "NTTセキュリティHD、ServiceNow Japanらと協業 - IT/OT/IoTの脆弱性管理を支援",
+      "summary_excerpt": "NTTセキュリティホールディングス、ServiceNow Japan、クロスポイントソリューション（以下、CP-SOL）の3社は10月26日、IT/OT/IoT統合セキュリティ領域で協業を開始したと発表した。",
+      "published_at": "2026-10-26T15:30:00+09:00",
+      "first_seen_at": "2026-10-26T16:02:28.546554+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:eee0a9e479b3417b58657aa8",
+      "permalink_id": "article-url-eee0a9e479b3417b58657aa8",
+      "canonical_url": "https://jvn.jp/vu/JVNVU97400824/",
+      "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+      "summary_excerpt": "Googleのデータ圧縮アルゴリズムBrotliのC言語実装における脆弱性（ CVE-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「HTTP2Shell」や「Node2Shell」とも呼ばれています。",
+      "published_at": "2026-10-26T15:00:00+09:00",
+      "first_seen_at": "2026-10-26T16:02:27.856738+09:00",
+      "source_name": "JVN",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:9bfc6765f7783015da6404dc",
       "permalink_id": "article-url-9bfc6765f7783015da6404dc",
@@ -165,72 +236,38 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:13f503fe80040f51f3612aa9",
-      "permalink_id": "article-url-13f503fe80040f51f3612aa9",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/26/news026.html",
-      "title": "無料で読めるセキュリティ入門教材、LPIが公開　演習問題と解答付きで基礎から学べる",
-      "summary_excerpt": "セキュリティ対策の土台となる知識を、体系的に学び直したい――。認定資格「Security Essentials v1.0」向けにLPIが無償公開した学習資料は、こうしたニーズに応える可能性がある。どのような内容なのか。",
-      "published_at": "2026-10-26T12:00:00+09:00",
-      "first_seen_at": "2026-10-26T13:01:33.483407+09:00",
-      "source_name": "@IT Security & Trust",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:94ac5bd0f60fdf242589d574",
-      "permalink_id": "article-url-94ac5bd0f60fdf242589d574",
-      "canonical_url": "https://jvn.jp/jp/JVN75668103/",
-      "title": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性",
-      "summary_excerpt": "国土交通省が提供する電子納品物検査支援システムには、インストール時に不適切なファイルアクセス権設定が行われる脆弱性が存在します。",
-      "published_at": "2026-10-26T12:00:00+09:00",
-      "first_seen_at": "2026-10-26T12:02:30.660806+09:00",
+      "public_article_id": "url:eee0a9e479b3417b58657aa8",
+      "permalink_id": "article-url-eee0a9e479b3417b58657aa8",
+      "canonical_url": "https://jvn.jp/vu/JVNVU97400824/",
+      "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+      "summary_excerpt": "Googleのデータ圧縮アルゴリズムBrotliのC言語実装における脆弱性（ CVE-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「HTTP2Shell」や「Node2Shell」とも呼ばれています。",
+      "published_at": "2026-10-26T15:00:00+09:00",
+      "first_seen_at": "2026-10-26T16:02:27.856738+09:00",
       "source_name": "JVN",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
-    {
-      "public_article_id": "url:fe6e630bddbdb684dbff168c",
-      "permalink_id": "article-url-fe6e630bddbdb684dbff168c",
-      "canonical_url": "https://www.security-next.com/191931",
-      "title": "MSが定例外パッチ、「.NET」脆弱性を修正 - Brotli問題などに対応",
-      "summary_excerpt": "マイクロソフトは、アプリケーション開発環境「.NET」における複数の脆弱性へ対処した定例外のセキュリティアップデートを公開した。あわせて10月の月例セキュリティ更新で修正が不十分だった脆弱性にも対応したという。",
-      "published_at": "2026-10-26T11:58:55+09:00",
-      "first_seen_at": "2026-10-26T12:02:33.342776+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
     {
       "public_article_id": "url:9bfc6765f7783015da6404dc",
       "permalink_id": "article-url-9bfc6765f7783015da6404dc",
@@ -288,6 +325,27 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4e70721dd0c8bf45d04c42ac",
+      "permalink_id": "article-url-4e70721dd0c8bf45d04c42ac",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5197577/",
+      "title": "NTTセキュリティHD、ServiceNow Japanらと協業 - IT/OT/IoTの脆弱性管理を支援",
+      "summary_excerpt": "NTTセキュリティホールディングス、ServiceNow Japan、クロスポイントソリューション（以下、CP-SOL）の3社は10月26日、IT/OT/IoT統合セキュリティ領域で協業を開始したと発表した。",
+      "published_at": "2026-10-26T15:30:00+09:00",
+      "first_seen_at": "2026-10-26T16:02:28.546554+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -410,59 +468,6 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:dfaa3e4a5953404464caa159",
-      "permalink_id": "article-url-dfaa3e4a5953404464caa159",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5196687/",
-      "title": "PHPの脆弱性「PHP2Shell」、無償支援が相次ぐ　診断からパッチ適用まで",
-      "summary_excerpt": "PHPの重大な脆弱性「PHP2Shell」への対応を支援するため、セキュリティベンダーが相次いで無償サービスを発表している。トレンドマイクロはWebサイトのリスクを確認できる無料診断ツールを公開。TuxCareは国内の非営利団体に6カ月間のセキュリティ保護を提供し、HiroshimAIは中小企業向けに修正版の適用などを無償で支援する。",
-      "published_at": "2026-10-26T11:36:52+09:00",
-      "first_seen_at": "2026-10-26T12:02:31.326138+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0ab33c5bb29d20d7ee899d04",
-      "permalink_id": "article-url-0ab33c5bb29d20d7ee899d04",
-      "canonical_url": "https://www.security-next.com/191926",
-      "title": "「Nextcloud」組込ツールや「Arista VCO」の脆弱性などに注意喚起 - 米当局",
-      "summary_excerpt": "米サイバーセキュリティインフラセキュリティ庁（CISA）は現地時間2026年10月23日、悪用が確認されている脆弱性2件について注意喚起を行った。",
-      "published_at": "2026-10-26T10:08:53+09:00",
-      "first_seen_at": "2026-10-26T11:02:22.164860+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -788,15 +793,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
-    "【HOTTEST #1 / Heat 75】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
-    "【LATEST #2】富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
-    "【HOTTEST #2 / Heat 67.5】Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability",
-    "【LATEST #3】エーアイセキュリティラボ、Androidアプリ起点の「A2B攻撃」に特化した診断ツールを提供",
-    "【HOTTEST #3 / Heat 65】OpenAIがNode.jsやBunで使われているGoogle製圧縮ツール「Brotli」でリモートコード実行につながる脆弱性を発見",
-    "【LATEST #4】「PHP2Shell」のリスク低減に向けて直ちに実行すべき手順は",
-    "【HOTTEST #4 / Heat 65】QuratedLab、福島・千葉の事業者や自治体にWebサイトの脆弱性対策を無償提供",
-    "【LATEST #5】OpenAIがNode.jsやBunで使われているGoogle製圧縮ツール「Brotli」でリモートコード実行につながる脆弱性を発見",
-    "【HOTTEST #5 / Heat 65】「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会　来場者の態度も激変"
+    "【LATEST #1】GMO 攻撃側が100万ドル要求か",
+    "【HOTTEST #1 / Heat 75】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+    "【LATEST #2】NTTセキュリティHD、ServiceNow Japanらと協業 - IT/OT/IoTの脆弱性管理を支援",
+    "【HOTTEST #2 / Heat 75】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
+    "【LATEST #3】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+    "【HOTTEST #3 / Heat 67.5】Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability",
+    "【LATEST #4】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
+    "【HOTTEST #4 / Heat 65】NTTセキュリティHD、ServiceNow Japanらと協業 - IT/OT/IoTの脆弱性管理を支援",
+    "【LATEST #5】富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
+    "【HOTTEST #5 / Heat 65】OpenAIがNode.jsやBunで使われているGoogle製圧縮ツール「Brotli」でリモートコード実行につながる脆弱性を発見"
   ]
 }
