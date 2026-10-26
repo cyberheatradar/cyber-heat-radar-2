@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-26T12:30:02.736800+00:00",
+  "source_snapshot_generated_at": "2026-10-26T13:30:02.532328+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -3666,6 +3666,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6f14ee4c684cb939a3e6bd3b",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "暗号",
+          "pki",
+          "SSH",
+          "TLS"
+        ],
+        "url": "https://qiita.com/yutera12/items/41f439f687d7dad7a1b5",
+        "title": "デジタル署名で本当に検証しているのは何か？",
+        "author": "yutera12",
+        "published_at": "2026-10-26T22:27:22+09:00",
+        "excerpt": "はじめに 「デジタル署名」は、 データが特定の秘密鍵を使って署名されたこと と、 署名後にデータが改ざんされていないこと を検証する仕組みで、SSHのログインやHTTPSの通信、ソフトウェアの配布、電子契約など、あらゆる場面で使われています。 デジタル署名では、公開鍵暗号の鍵ペア(秘密鍵・公開鍵)を使います。 秘密鍵 : 持ち主だけが保管し、誰にも渡さない鍵。署名を作るときに使う 公開鍵 : 誰に配ってもよい鍵。署名を検証するときに使う 2つの鍵は数学的に対応していますが、 公開鍵から秘密鍵を逆算することは事実上不可能です 。このため、公開鍵を広く配っても安全です。 公開鍵と秘密鍵を使えば、データに署名したり、その署名を検証したりできます。しかし、検証に成功しただけでは、相手が本当に目的の人物やサーバなのかは分かりません。 そこで重要になるのが、 「その公開鍵は誰のものなのか」 を確認する仕組みです。 この記事では、SSH(ユーザ認証・サーバ認証)とHTTPSを例に、署名の仕組みと公開鍵を信頼する方法を整理します。 デジタル署名の仕組み 署名の生"
+      },
+      {
+        "id": "qiita:cc591a451b5283f33cdbe9ed",
+        "source": "qiita",
+        "author_tags": [
+          "個人開発",
+          "AI駆動開発",
+          "バイブコーディング",
+          "Security",
+          "Webアプリケーション"
+        ],
+        "url": "https://qiita.com/bpr_prot/items/c2029a7eee8785e86725",
+        "title": "漏えいのニュースが続く今、セキュリティ担当がいない個人開発で先にやっておきたいこと",
+        "author": "bpr_prot",
+        "published_at": "2026-10-26T21:49:54+09:00",
+        "excerpt": "今朝（10月26日）、情報漏えいが相次ぐ背景にセキュリティ人材の不足があるという記事と、展示会で「何から手を付ければよいか分からない」という相談が増えているという記事が配信されました。守る担当がいる企業でも迷うなら、ひとりでアプリを作る人が迷うのは自然なことです。 先に見たいのは、預かる情報、自分のアカウント、AIに渡す内容、更新に気づく仕組みの4つです。この記事を読みながら、自分のアプリとアカウントで今日できる範囲を見直せます。全部を一度に終わらせなくても、ひとつずつで大丈夫です。 Who am I? BPR Prot. という、AIで作ったWebアプリの公開前の確認を手伝うサービスを作っています。Xではセキュリティや公開前に見落としやすいポイントを日々発信しています。よければご覧ください！ 今日のニュースの要点 朝日新聞の記事では漏えいが相次ぐ背景のひとつとして、セキュリティに詳しい人材の不足と、ネットやクラウドに載る機密情報の増加が挙げられました。レバテックの調査ではIT人材を増やす理由のうち「セキュリティ対策の強化」が最も多く、半数を超え"
+      },
+      {
         "id": "qiita:bffa9a529f0cf486c794e75c",
         "source": "qiita",
         "author_tags": [
@@ -7084,6 +7116,68 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:673812565b185116cf8550d0",
+        "source": "medium",
+        "author_tags": [
+          "identity-security",
+          "cloud-security",
+          "incident-response",
+          "cybersecurity",
+          "threat-detection"
+        ],
+        "url": "https://medium.com/@jasmitharouthu_58441/microsoft-365-token-replay-attacks-compromise-97-accounts-across-79-organizations-why-mfa-alone-is-e4a9ca158d8e",
+        "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts Across 79 Organizations: Why MFA Alone Is…",
+        "author": "Jas",
+        "published_at": "2026-10-26T13:20:37+00:00",
+        "excerpt": "A successful login does not always mean an account is safe. Cybersecurity researchers have identified a campaign targeting Microsoft 365… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e75c0981be90442e9a674a83",
+        "source": "medium",
+        "author_tags": [
+          "infosec",
+          "application-security",
+          "web-security",
+          "cloud-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@pjdunn2016/your-website-is-behind-a-waf-is-your-origin-server-still-exposed-555716322e89",
+        "title": "Your Website Is Behind a WAF. Is Your Origin Server Still Exposed?",
+        "author": "Peter Dunn",
+        "published_at": "2026-10-26T13:01:03+00:00",
+        "excerpt": "A web application firewall only protects the traffic that passes through it. Here is how attackers find the side door, and how to close it… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:177e9e1ea84cd5b139ecd278",
+        "source": "medium",
+        "author_tags": [
+          "ai",
+          "writing",
+          "stories",
+          "cybersecurity",
+          "future"
+        ],
+        "url": "https://elizabethneal.medium.com/the-future-of-ai-and-cybersecurity-implications-for-individuals-online-f0325568f0aa",
+        "title": "The Future of AI and Cybersecurity: Implications for Individuals Online",
+        "author": "Elizabeth",
+        "published_at": "2026-10-26T13:00:06+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6ac84eb639f8485337a7796e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ctf",
+          "ctf-writeup"
+        ],
+        "url": "https://medium.com/@kennethmartus24/ctf-practical-test-apu-ctf-writeup-ee6a36148460",
+        "title": "CTF Practical Test | APU CTF Writeup",
+        "author": "Kennethmartus",
+        "published_at": "2026-10-26T12:55:33+00:00",
+        "excerpt": "Hello Everyone! Continue reading on Medium »"
+      },
       {
         "id": "medium:2c2db293eb28c98935bce6b5",
         "source": "medium",
