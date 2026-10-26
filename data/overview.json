@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T15:11:23.206402+00:00",
-  "as_of": "2026-10-26T15:00:00+00:00",
-  "catalog_count": 20785,
+  "generated_at": "2026-10-26T16:10:38.892315+00:00",
+  "as_of": "2026-10-26T16:00:00+00:00",
+  "catalog_count": 20786,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,33 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:5d414f2c6746c7ce6da3fc96",
+      "permalink_id": "article-url-5d414f2c6746c7ce6da3fc96",
+      "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+      "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+      "summary_excerpt": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
+      "published_at": "2026-10-27T00:38:24+09:00",
+      "first_seen_at": "2026-10-27T01:01:40.080147+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:71d69466750982d246dd93ce",
       "permalink_id": "article-url-71d69466750982d246dd93ce",
@@ -250,27 +277,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0e985f9313e5a1424602fba8",
-      "permalink_id": "article-url-0e985f9313e5a1424602fba8",
-      "canonical_url": "https://www.cisa.gov/news-events/news/cisa-unveils-new-strategy-strengthen-national-cyber-defense-and-critical-infrastructure-security",
-      "title": "CISA Unveils New Strategy to Strengthen National Cyber Defense and Critical Infrastructure Security",
-      "summary_excerpt": null,
-      "published_at": "2026-10-26T21:00:00+09:00",
-      "first_seen_at": "2026-10-27T00:02:18.179481+09:00",
-      "source_name": "CISA News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -301,7 +307,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -330,7 +336,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -559,78 +565,6 @@
   "rising": [],
   "persistent_hot": [
     {
-      "public_article_id": "url:e1f0891fd2ec676178ad1814",
-      "permalink_id": "article-url-e1f0891fd2ec676178ad1814",
-      "canonical_url": "https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed/",
-      "title": "Authentication Bypass, Remote Code Execution, and Database Read in Eptura Archibus (FIXED)",
-      "summary_excerpt": "Overview While performing continuous red teaming exercises through Rapid7’s Vector Command service, Rapid7 discovered three new vulnerabilities in Eptura Archibus . A legacy API endpoint could be exploited to bypass authentication and run various functions without authentication ( CVSS: 8.6 High ). The most serious functions allow for full database read ( CVSS: 8.5 High ) and an insecure file upload ( CVSS: 9.6 Critical ). The insecure file upload leads to remote code execution. Product description Archibus helps organizations administer and manage their physical buildings, equipment, and real",
-      "published_at": "2026-10-20T00:57:43+09:00",
-      "first_seen_at": "2026-10-20T02:01:43.372505+09:00",
-      "source_name": "Rapid7 Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-107186",
-        "CVE-2026-107187",
-        "CVE-2026-107188"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:611e80fa99425816a76b4b7a",
-      "permalink_id": "article-url-611e80fa99425816a76b4b7a",
-      "canonical_url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
-      "title": "Rapid7 Analysis: NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779",
-      "summary_excerpt": "Overview In early October 2026, Rapid7 analysts investigated a compromise of a Citrix NetScaler ADC appliance. The appliance was running an affected 14.1 build and was exposed to active exploitation targeting NetScaler authentication and SAML deployments. The intrusion achieved root code execution, deployed multiple persistence mechanisms, installed PHP web shells, created outbound command-and-control and internal tunnelling capabilities, performed targeted reconnaissance of DNS, LDAP/Active Directory, management services and VMware vCenter infrastructure, and exfiltrated NetScaler configurati",
-      "published_at": "2026-10-20T00:11:57+09:00",
-      "first_seen_at": "2026-10-20T02:01:44.240729+09:00",
-      "source_name": "Rapid7 Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "analysis",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ttp",
-          "label": "TTP"
-        }
-      ],
-      "cves": [
-        "CVE-2026-88771",
-        "CVE-2026-88772",
-        "CVE-2026-88779"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 35.62,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:7ff48d4a1336ce565e6f9358",
       "permalink_id": "article-url-7ff48d4a1336ce565e6f9358",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2610/20/2000002409/",
@@ -803,6 +737,48 @@
       "seen_in_kev": false,
       "heat_score": 32.5,
       "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9d6f2adeb130185bbde02fec",
+      "permalink_id": "article-url-9d6f2adeb130185bbde02fec",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html",
+      "title": "ALSOKジョイライフの端末に不正アクセス、ベルパージュ奈良あやめ池入居者の情報が閲覧された可能性",
+      "summary_excerpt": null,
+      "published_at": "2026-10-20T08:05:14+09:00",
+      "first_seen_at": "2026-10-20T09:02:34.888698+09:00",
+      "source_name": "ScanNetSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f03a5a1a43951db237d942b9",
+      "permalink_id": "article-url-f03a5a1a43951db237d942b9",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56507.html",
+      "title": "吉野家がアルバイト採用業務を一部委託していた ApplyNow の採用管理プラットフォームに不正アクセス、契約終了後もデータ消去されず",
+      "summary_excerpt": null,
+      "published_at": "2026-10-20T08:05:09+09:00",
+      "first_seen_at": "2026-10-20T09:02:35.479676+09:00",
+      "source_name": "ScanNetSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
+      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -823,15 +799,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-    "【HOTTEST #1 / Heat 75】PHP2Shell security flaws now sucessfully exploited in the wild",
-    "【LATEST #2】Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
-    "【HOTTEST #2 / Heat 75】PHP Publishes Mitigation Advice for New RCE Flaw",
-    "【LATEST #3】Linux Flaws Exposed Before Fixes as Root Exploit Goes Public",
+    "【LATEST #1】Microsoft releases emergency .NET patches for critical Brotli flaw",
+    "【HOTTEST #1 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild",
+    "【LATEST #2】Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+    "【HOTTEST #2 / Heat 67.5】PHP Publishes Mitigation Advice for New RCE Flaw",
+    "【LATEST #3】Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
     "【HOTTEST #3 / Heat 67.5】注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起  (公開)",
-    "【LATEST #4】10 Software Security Practices Built for the Next 250 Years",
+    "【LATEST #4】Linux Flaws Exposed Before Fixes as Root Exploit Goes Public",
     "【HOTTEST #4 / Heat 67.5】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
-    "【LATEST #5】PHP2Shell Exploitation Moves From Probes to Working Shells",
+    "【LATEST #5】10 Software Security Practices Built for the Next 250 Years",
     "【HOTTEST #5 / Heat 67.5】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表"
   ]
 }
