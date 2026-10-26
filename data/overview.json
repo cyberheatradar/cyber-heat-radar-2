@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T21:11:31.812159+00:00",
-  "as_of": "2026-10-26T21:00:00+00:00",
-  "catalog_count": 20823,
+  "generated_at": "2026-10-26T22:11:28.118335+00:00",
+  "as_of": "2026-10-26T22:00:00+00:00",
+  "catalog_count": 20825,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,65 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:631b0902569c74ab3b6343eb",
+      "permalink_id": "article-url-631b0902569c74ab3b6343eb",
+      "canonical_url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
+      "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
+      "summary_excerpt": "A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.",
+      "published_at": "2026-10-27T05:59:26+09:00",
+      "first_seen_at": "2026-10-27T07:02:14.145637+09:00",
+      "source_name": "Dark Reading",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:3bd252fd294afc4310ce7402",
+      "permalink_id": "article-url-3bd252fd294afc4310ce7402",
+      "canonical_url": "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544",
+      "title": "LiteLLM supply chain attack started with an exposed master key",
+      "summary_excerpt": "A 'strong illustration of the risks associated with failing to rotate a potentially exposed key'",
+      "published_at": "2026-10-27T05:30:53+09:00",
+      "first_seen_at": "2026-10-27T07:02:25.503847+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "supply_chain",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "supply_chain",
+          "label": "Supply Chain"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:ba476cd64e5711fe7f8ce333",
       "permalink_id": "article-url-ba476cd64e5711fe7f8ce333",
@@ -216,64 +275,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c85198bbddef2ec11ea9bd7e",
-      "permalink_id": "article-url-c85198bbddef2ec11ea9bd7e",
-      "canonical_url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "summary_excerpt": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
-      "published_at": "2026-10-27T02:45:57+09:00",
-      "first_seen_at": "2026-10-27T03:02:21.931341+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 55.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:315f6df6299e23a5817ddf33",
-      "permalink_id": "article-url-315f6df6299e23a5817ddf33",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder/",
-      "title": "CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
-      "summary_excerpt": "Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote co",
-      "published_at": "2026-10-27T02:32:46+09:00",
-      "first_seen_at": "2026-10-27T04:02:45.363756+09:00",
-      "source_name": "Rapid7 Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -808,15 +809,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】「AIの粗悪レポート」で悲鳴　IntelやGoogleがバグ報奨金を止めた理由",
+    "【LATEST #1】In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
     "【HOTTEST #1 / Heat 75】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
-    "【LATEST #2】緊急地震速報の誤報、ドコモ利用者には届かず　原因はデータ形式の違い",
+    "【LATEST #2】LiteLLM supply chain attack started with an exposed master key",
     "【HOTTEST #2 / Heat 75】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-    "【LATEST #3】日本企業が「サイバー攻撃はAIのせい」にして目を背ける“本当の原因”",
+    "【LATEST #3】「AIの粗悪レポート」で悲鳴　IntelやGoogleがバグ報奨金を止めた理由",
     "【HOTTEST #3 / Heat 75】CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder",
-    "【LATEST #4】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
+    "【LATEST #4】緊急地震速報の誤報、ドコモ利用者には届かず　原因はデータ形式の違い",
     "【HOTTEST #4 / Heat 75】Inside Node2Shell: A Closer Look at CVE-2026-111497",
-    "【LATEST #5】AI, Scripts, Operator: Inside the ConnectWise Attack",
+    "【LATEST #5】日本企業が「サイバー攻撃はAIのせい」にして目を背ける“本当の原因”",
     "【HOTTEST #5 / Heat 67.5】PHP2Shell security flaws now sucessfully exploited in the wild"
   ]
 }
