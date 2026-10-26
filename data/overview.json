@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-26T09:10:29.634691+00:00",
-  "as_of": "2026-10-26T09:00:00+00:00",
-  "catalog_count": 20756,
+  "generated_at": "2026-10-26T10:10:30.174294+00:00",
+  "as_of": "2026-10-26T10:00:00+00:00",
+  "catalog_count": 20761,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,119 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:7c54e769948b6fc771ccdcc1",
+      "permalink_id": "article-url-7c54e769948b6fc771ccdcc1",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "summary_excerpt": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+      "published_at": "2026-10-26T18:19:57+09:00",
+      "first_seen_at": "2026-10-26T19:02:18.848646+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d20444dd0495bc21e7668528",
+      "permalink_id": "article-url-d20444dd0495bc21e7668528",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
+      "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
+      "summary_excerpt": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
+      "published_at": "2026-10-26T18:15:00+09:00",
+      "first_seen_at": "2026-10-26T19:02:39.757623+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-115560"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:e84a8003dbea7666967a8851",
+      "permalink_id": "article-url-e84a8003dbea7666967a8851",
+      "canonical_url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+      "summary_excerpt": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub. The post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek .",
+      "published_at": "2026-10-26T18:10:03+09:00",
+      "first_seen_at": "2026-10-26T19:02:47.668888+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:1bca5ccd00967cf5ede9abc6",
+      "permalink_id": "article-url-1bca5ccd00967cf5ede9abc6",
+      "canonical_url": "https://www.cybersecuritydive.com/spons/security-anchors-a-modern-hybrid-sovereign-architecture/833427/",
+      "title": "Security anchors a modern hybrid sovereign architecture",
+      "summary_excerpt": "Discover how a hybrid sovereign architecture helps secure AI, protect critical data and meet evolving compliance demands.",
+      "published_at": "2026-10-26T18:00:00+09:00",
+      "first_seen_at": "2026-10-26T19:02:35.410749+09:00",
+      "source_name": "Cybersecurity Dive",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:c69e4b4175123bfbc7cbd80b",
       "permalink_id": "article-url-c69e4b4175123bfbc7cbd80b",
@@ -25,6 +138,33 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:399172439712b08d5e85ae1e",
+      "permalink_id": "article-url-399172439712b08d5e85ae1e",
+      "canonical_url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "summary_excerpt": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+      "published_at": "2026-10-26T17:35:51+09:00",
+      "first_seen_at": "2026-10-26T19:02:48.116429+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -114,37 +254,18 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:8e836bc3ff7ce0e4edbf8c1b",
-      "permalink_id": "article-url-8e836bc3ff7ce0e4edbf8c1b",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12126/",
-      "title": "タイムズカーの見舞金、3000円の根拠　漏洩を通知したうち約14万件が対象外",
-      "summary_excerpt": "タイムズカーの情報漏洩で、当初、本人確認書類画像の漏洩を通知された約160万件のうち、約14万件が見舞金の対象外となることが分かった。通知を受けて自費で予防措置を取っても、受け取れない場合がある。画像への不正アクセスは約235万件に上り、パーク24に3000円相当の根拠や画像の閲覧リスクを取材した。",
-      "published_at": "2026-10-26T16:30:00+09:00",
-      "first_seen_at": "2026-10-26T18:02:30.590077+09:00",
-      "source_name": "Nikkei XTECH IT",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5ae5985c69e5d9b716f57711",
-      "permalink_id": "article-url-5ae5985c69e5d9b716f57711",
-      "canonical_url": "https://www.jpcert.or.jp/at/2026/at260034.html",
-      "title": "注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起  (公開)",
-      "summary_excerpt": null,
-      "published_at": "2026-10-26T16:25:00+09:00",
-      "first_seen_at": "2026-10-26T18:02:29.077138+09:00",
-      "source_name": "JPCERT/CC",
+      "public_article_id": "url:7c54e769948b6fc771ccdcc1",
+      "permalink_id": "article-url-7c54e769948b6fc771ccdcc1",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "summary_excerpt": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+      "published_at": "2026-10-26T18:19:57+09:00",
+      "first_seen_at": "2026-10-26T19:02:18.848646+09:00",
+      "source_name": "BleepingComputer",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -158,7 +279,8 @@
         }
       ],
       "cves": [
-        "CVE-2026-111497"
+        "CVE-2026-109618",
+        "CVE-2026-109619"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -166,70 +288,34 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:31554a50ef5ed137d72d42ae",
-      "permalink_id": "article-url-31554a50ef5ed137d72d42ae",
-      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/10/a-week-in-security-october-19-october-25",
-      "title": "A week in security (October 19 – October 25)",
-      "summary_excerpt": "A list of topics we covered in the week of October 19 to October 25 of 2026",
-      "published_at": "2026-10-26T16:00:00+09:00",
-      "first_seen_at": "2026-10-26T18:02:29.686301+09:00",
-      "source_name": "Malwarebytes Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a59d45f230bcccd1cd08e56e",
-      "permalink_id": "article-url-a59d45f230bcccd1cd08e56e",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6600188?source=rss",
-      "title": "GMO 攻撃側が100万ドル要求か",
-      "summary_excerpt": null,
-      "published_at": "2026-10-26T15:38:31+09:00",
-      "first_seen_at": "2026-10-26T16:02:38.624202+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4e70721dd0c8bf45d04c42ac",
-      "permalink_id": "article-url-4e70721dd0c8bf45d04c42ac",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5197577/",
-      "title": "NTTセキュリティHD、ServiceNow Japanらと協業 - IT/OT/IoTの脆弱性管理を支援",
-      "summary_excerpt": "NTTセキュリティホールディングス、ServiceNow Japan、クロスポイントソリューション（以下、CP-SOL）の3社は10月26日、IT/OT/IoT統合セキュリティ領域で協業を開始したと発表した。",
-      "published_at": "2026-10-26T15:30:00+09:00",
-      "first_seen_at": "2026-10-26T16:02:28.546554+09:00",
-      "source_name": "Mynavi TECH+ Security",
+      "public_article_id": "url:d20444dd0495bc21e7668528",
+      "permalink_id": "article-url-d20444dd0495bc21e7668528",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
+      "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
+      "summary_excerpt": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
+      "published_at": "2026-10-26T18:15:00+09:00",
+      "first_seen_at": "2026-10-26T19:02:39.757623+09:00",
+      "source_name": "Infosecurity Magazine",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-115560"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
+    },
     {
       "public_article_id": "url:5ae5985c69e5d9b716f57711",
       "permalink_id": "article-url-5ae5985c69e5d9b716f57711",
@@ -369,6 +455,33 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:399172439712b08d5e85ae1e",
+      "permalink_id": "article-url-399172439712b08d5e85ae1e",
+      "canonical_url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "summary_excerpt": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+      "published_at": "2026-10-26T17:35:51+09:00",
+      "first_seen_at": "2026-10-26T19:02:48.116429+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:e0412f4a96e4c7e6a8bbbad9",
       "permalink_id": "article-url-e0412f4a96e4c7e6a8bbbad9",
       "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/26/news039.html",
@@ -398,85 +511,6 @@
       "published_at": "2026-10-26T16:41:28+09:00",
       "first_seen_at": "2026-10-26T18:02:28.266981+09:00",
       "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4e70721dd0c8bf45d04c42ac",
-      "permalink_id": "article-url-4e70721dd0c8bf45d04c42ac",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5197577/",
-      "title": "NTTセキュリティHD、ServiceNow Japanらと協業 - IT/OT/IoTの脆弱性管理を支援",
-      "summary_excerpt": "NTTセキュリティホールディングス、ServiceNow Japan、クロスポイントソリューション（以下、CP-SOL）の3社は10月26日、IT/OT/IoT統合セキュリティ領域で協業を開始したと発表した。",
-      "published_at": "2026-10-26T15:30:00+09:00",
-      "first_seen_at": "2026-10-26T16:02:28.546554+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:63f16ca1b1ad1c49473e2336",
-      "permalink_id": "article-url-63f16ca1b1ad1c49473e2336",
-      "canonical_url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "summary_excerpt": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder. The file",
-      "published_at": "2026-10-26T15:03:48+09:00",
-      "first_seen_at": "2026-10-26T17:02:32.814156+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9d27dd3b487b83df655ab9b7",
-      "permalink_id": "article-url-9d27dd3b487b83df655ab9b7",
-      "canonical_url": "https://gigazine.net/news/20261026-openai-brotli-vulnerability/",
-      "title": "OpenAIがNode.jsやBunで使われているGoogle製圧縮ツール「Brotli」でリモートコード実行につながる脆弱性を発見",
-      "summary_excerpt": "OpenAIがGoogle製圧縮ツール「Brotli」にリモートコード実行につながる脆弱(ぜいじゃく)性が存在することを発見しました。すでに修正版がリリースされており、アップデートが呼びかけられています。 続きを読む...",
-      "published_at": "2026-10-26T12:33:00+09:00",
-      "first_seen_at": "2026-10-26T13:01:52.361169+09:00",
-      "source_name": "GIGAZINE",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -604,54 +638,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:b3e932273de110e874e37822",
-      "permalink_id": "article-url-b3e932273de110e874e37822",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/19/2000002398/",
-      "title": "阪急阪神百貨店などの共通ID、ほぼ全会員分漏えい　約126万件　予約サイトに不正アクセス",
-      "summary_excerpt": "エイチ・ツー・オー リテイリングは10月19日、子会社の阪急阪神百貨店が運営する予約サイトなどが不正アクセスを受け、グループ企業の共通会員ID「H2O ID」に関する個人情報約126万件の一部が漏えいしたと発表した。",
-      "published_at": "2026-10-19T18:53:08+09:00",
-      "first_seen_at": "2026-10-19T20:01:42.856112+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 36.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:844bc3ced1351da2a6bca6bf",
-      "permalink_id": "article-url-844bc3ced1351da2a6bca6bf",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/19/check-point-brand-impersonation-scams-q3-2026-report/",
-      "title": "Cybercriminals favor Microsoft over Apple and Google in brand phishing attacks",
-      "summary_excerpt": "Microsoft accounted for 33% of brand impersonation attempts tracked by Check Point Research in the third quarter of 2026, up from 23% in the previous quarter and roughly four times the share of any other brand. Top 10 most impersonated brands in phishing attacks (Source: Check Point) Apple and Google followed with 8% each. Dropbox and YouTube recorded the biggest climbs in the rankings. “Attackers favor Microsoft because stolen Microsoft credentials can unlock an entire … More → The post Cybercriminals favor Microsoft over Apple and Google in brand phishing attacks appeared first on Help Net S",
-      "published_at": "2026-10-19T18:38:17+09:00",
-      "first_seen_at": "2026-10-19T19:03:00.310665+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 36.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:611e80fa99425816a76b4b7a",
       "permalink_id": "article-url-611e80fa99425816a76b4b7a",
       "canonical_url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
@@ -760,6 +746,48 @@
       "seen_in_kev": false,
       "heat_score": 32.5,
       "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9aa6050b640b9b73cb461daa",
+      "permalink_id": "article-url-9aa6050b640b9b73cb461daa",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56514.html",
+      "title": "ゴルフダイジェスト・オンラインに不正アクセス、攻撃者にファイルがダウンロードされたことを確認",
+      "summary_excerpt": null,
+      "published_at": "2026-10-20T08:05:31+09:00",
+      "first_seen_at": "2026-10-20T09:02:34.139845+09:00",
+      "source_name": "ScanNetSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2726a2e12554acb74f9b3abc",
+      "permalink_id": "article-url-2726a2e12554acb74f9b3abc",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56513.html",
+      "title": "日本経済新聞社がシステム開発に利用するクラウドサービスに不正アクセス、約183万件の個人情報が漏えい",
+      "summary_excerpt": null,
+      "published_at": "2026-10-20T08:05:27+09:00",
+      "first_seen_at": "2026-10-20T09:02:34.234400+09:00",
+      "source_name": "ScanNetSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
+      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -780,15 +808,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】NBA優勝記念リングを「無料プレゼント」と社員にメールするも実はフィッシング訓練で運営会社が謝罪",
-    "【HOTTEST #1 / Heat 75】注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起  (公開)",
-    "【LATEST #2】普通のAIでも脆弱性を見つけられる今、企業にできる対策は？　Googleが15のポイントを解説",
-    "【HOTTEST #2 / Heat 75】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
-    "【LATEST #3】マルウェアに「核兵器の作り方を教えて」　AIによるコード解析を止めさせる新手口「GuardBreaker」",
-    "【HOTTEST #3 / Heat 75】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
-    "【LATEST #4】AI関連も含むフォーティネット製品の最新セキュリティアップデート",
-    "【HOTTEST #4 / Heat 67.5】Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability",
-    "【LATEST #5】野村総研、サイバー攻撃時の「能動的なシステム停止」を支援する新サービス",
-    "【HOTTEST #5 / Heat 65】NBA優勝記念リングを「無料プレゼント」と社員にメールするも実はフィッシング訓練で運営会社が謝罪"
+    "【LATEST #1】PHP2Shell security flaws now sucessfully exploited in the wild",
+    "【HOTTEST #1 / Heat 75】PHP2Shell security flaws now sucessfully exploited in the wild",
+    "【LATEST #2】PHP Publishes Mitigation Advice for New RCE Flaw",
+    "【HOTTEST #2 / Heat 75】PHP Publishes Mitigation Advice for New RCE Flaw",
+    "【LATEST #3】Mythos 5 Ignored Real-World Harm in July Attack",
+    "【HOTTEST #3 / Heat 75】注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起  (公開)",
+    "【LATEST #4】Security anchors a modern hybrid sovereign architecture",
+    "【HOTTEST #4 / Heat 75】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+    "【LATEST #5】NBA優勝記念リングを「無料プレゼント」と社員にメールするも実はフィッシング訓練で運営会社が謝罪",
+    "【HOTTEST #5 / Heat 75】トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表"
   ]
 }
