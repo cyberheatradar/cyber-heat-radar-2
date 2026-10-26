@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-26T22:30:02.253821+00:00",
+  "source_snapshot_generated_at": "2026-10-26T23:30:02.507226+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -3971,6 +3971,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:bde6dc2c3818e99e578dbf55",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "情報漏えい",
+          "セキュリティニュース",
+          "Joshin"
+        ],
+        "url": "https://qiita.com/Kerdy/items/2add3128ef818c212390",
+        "title": "10/27、今日のセキュリティニュース｜【速報】Joshinに不正アクセス 約600万件超える個人情報が漏洩した可能性 免許証の画像やマイナンバーカードなどの情報も漏洩したか｜無料で読めるセキュリティ",
+        "author": "Kerdy",
+        "published_at": "2026-10-27T08:23:53+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 準備中 良かったら、高評価とチャネル登録をお願いします🙇 【速報】Joshin"
+      },
+      {
+        "id": "qiita:c82f63dd44d2d6a0807eeda6",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "暗号化",
+          "webcrypto",
+          "GAS"
+        ],
+        "url": "https://qiita.com/koreangyoseishoshi/items/2a449034641cb1757266",
+        "title": "パスワードを変えたら、暗号化したデータはどうなるのか。全件やり直さない「鍵を包む」仕組み",
+        "author": "koreangyoseishoshi",
+        "published_at": "2026-10-27T07:56:15+09:00",
+        "excerpt": "※この記事は Zennの記事 からの転載です。 個人情報を暗号化して保存する仕組みを作ると、最初に思いつくのは「管理者パスワードから鍵を作って、そのまま名前を暗号化する」形です。 動きはします。ただ、運用に入ると次のような場面で困ります。 管理者が交代したので、パスワードを変えたい 管理者を1人増やしたい。でも同じパスワードを共有したくない 同じデータを、別のパソコンからも読みたい この記事では、こうした変更を データに触れずに 済ませる「データ鍵を包む」設計（エンベロープ暗号化とも呼ばれます）を、私が社内向けに作っている業務システム（スプレッドシート＋Google Apps Script と、Windowsの常駐ツール）を例に整理します。 前の記事「 患者番号や職員番号を「照合できるが、漏れても読めない」形で持つ 」で、最後に「別の記事で書く」とした部分です。 パスワードで直接暗号化すると、何が困るか パスワードから作った鍵で名前を直接暗号化すると、 パスワードと暗号文が1対1で結びつきます 。 やりたいこと パスワードで直接暗号化した場合 パ"
+      },
+      {
         "id": "qiita:da76db759b30bf4d7e41684b",
         "source": "qiita",
         "author_tags": [
@@ -7604,6 +7636,36 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:45fe62a189aa5e644c3c51b9",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ai",
+          "artificial-intelligence",
+          "technology",
+          "cybercrime"
+        ],
+        "url": "https://medium.com/@sebastiancs39825484/cybersecuritys-black-october-ai-enabled-hacking-4966a83ccfe6",
+        "title": "Cybersecurity’s Black October: AI-Enabled Hacking",
+        "author": "We The People",
+        "published_at": "2026-10-26T23:05:10+00:00",
+        "excerpt": "Publication: 10/26/2026 Author: We The People Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8f0cf82bd5d3c46018d9b42f",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "sql-injection",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@loayessam09/sql-injection-hands-on-union-blind-and-error-based-attacks-2302dc59c1c8",
+        "title": "SQL Injection Hands-On: UNION, Blind, and Error-Based Attacks",
+        "author": "Loay Essam",
+        "published_at": "2026-10-26T22:47:04+00:00",
+        "excerpt": "SQL injection is one of the oldest and most dangerous web vulnerabilities, and it is still everywhere. In this writeup I walk through four… Continue reading on Medium »"
+      },
       {
         "id": "medium:cb1c1c08b4ea75649101b6a3",
         "source": "medium",
