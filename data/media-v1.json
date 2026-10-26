@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-26T16:30:02.559676+00:00",
+  "source_snapshot_generated_at": "2026-10-26T17:30:02.227070+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -3971,6 +3971,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a0b33b7d57e0720c82926208",
+        "source": "qiita",
+        "author_tags": [
+          "Google",
+          "Security",
+          "認証",
+          "本人確認",
+          "ディープフェイク"
+        ],
+        "url": "https://qiita.com/nico0748/items/7ba12f499b8385798b9f",
+        "title": "Googleアカウントの認証方法に自撮り動画が追加されてた件について",
+        "author": "nico0748",
+        "published_at": "2026-10-27T02:15:34+09:00",
+        "excerpt": "はじめに 最近、仕事用に Gmail の個人アカウントを新しく作ろうとしたら、認証方法の選択肢に見慣れない「自撮り動画」が出てきました。なんか若者受けしそう…と漠然と思いつつ、普通の顔認証と何が違うのか、ディープフェイクで突破されないのかが気になったので調べてみました。 この記事は、2026年10月27日時点の公開情報をもとにしています。機能は順次展開中なので、仕様は変わる可能性があります。 自撮り動画サインインってどんな機能？ Google が2026年7月23日に公式ブログで発表した、Googleアカウントの新しいサインイン方法です。英語では「selfie video sign-in」と呼ばれています。 項目 内容 出典 何をするのか 端末のカメラに顔を向け、案内に従って頭を数回動かす短い動画を撮る 公式ブログ 登録時 複数の角度から撮った自撮り動画を Google アカウントに保存する 公式ブログ、ヘルプ サインイン時 新しく撮った動画を、登録した動画と照合して本人か確かめる 公式ブログ、ヘルプ どんなときに使うか ロックアウトされたときや"
+      },
+      {
+        "id": "qiita:3c868252a61ad8d23c2d6cee",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "cve",
+          "初心者向け"
+        ],
+        "url": "https://qiita.com/nico0748/items/d00acf506ac9fffc364c",
+        "title": "PHPの脆弱性と修正パッチの公開 〜そのとき何が行われていたのか初学者にも分かるように解説〜",
+        "author": "nico0748",
+        "published_at": "2026-10-27T01:53:26+09:00",
+        "excerpt": "はじめに 20:30 pixiv、21:00 アニメイト通販、21:01 メロンブックス通販。 2026年10月21日の夜、よく利用するサービスが、30分のあいだに立て続けにメンテナンス画面になりました。 告知に書かれていたのは「利用しているソフトウェアの脆弱性」「予防的な措置」といった言葉だけで、何が起きているのかは分かりませんでした。たまたま同じ日にメンテが重なっただけ…ではなさそうだと思って調べてみると、同じ夜に国内の数十のサービスが止まっていて、その中心にあったのが PHPそのものの脆弱性 、通称 PHP2Shell でした。 調べるほど、気になることが増えていきました。 なぜ各社は、修正が出る「23時」を待たずに、夕方から先にサイトを止めたのか？ 修正パッチが公開されると、運営者と攻撃者にそれぞれ何の情報が渡るのか？ なぜ一部の古いゲームは、メンテナンスでは済まずにサービス終了を選んだのか？ この記事では、この3つの疑問をベースに、その夜に何が起きていたのかを初学者にも分かるように整理します。 ちなみに、私のインターン先はPHPを使った"
+      },
+      {
         "id": "qiita:0d9f636d719acd899ea0bb10",
         "source": "qiita",
         "author_tags": [
@@ -7543,6 +7575,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4ab2cd06dde67fff626f8cc9",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "devops",
+          "cloud-security",
+          "ai",
+          "openai-codex"
+        ],
+        "url": "https://medium.com/@poojaborade7022/what-if-ai-could-think-like-a-security-researcher-exploring-openai-codex-security-b36514a54598",
+        "title": "What If AI Could Think Like a Security Researcher? Exploring OpenAI Codex Security",
+        "author": "Pooja Borade",
+        "published_at": "2026-10-26T17:22:34+00:00",
+        "excerpt": "How AI is changing vulnerability detection, threat modeling, and secure software development. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8cddd5a9151ca6978180579a",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "bug-bounty",
+          "ethical-hacking",
+          "cybersecurity",
+          "hacking"
+        ],
+        "url": "https://medium.com/@verylazytech/12-red-team-opsec-principles-every-operator-should-know-and-actually-use-0042a535afc4",
+        "title": "12 Red Team OPSEC Principles Every Operator Should Know (and Actually Use)",
+        "author": "Very Lazy Tech",
+        "published_at": "2026-10-26T17:03:26+00:00",
+        "excerpt": "Ever tripped an alert during a pentest because of a single misstep? You’re not alone. Even seasoned red teamers sometimes blow their cover… Continue reading on Medium »"
+      },
       {
         "id": "medium:0b48b07cb6251a0b07f090a2",
         "source": "medium",
