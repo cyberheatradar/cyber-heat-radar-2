@@ -1,9 +1,631 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-20T00:09:23.961307+00:00",
+  "source_snapshot_generated_at": "2026-10-26T11:30:02.341810+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f43fd896b363406e6c99f07e",
+        "source": "zenn",
+        "author_tags": [
+          "Node.js",
+          "Security",
+          "Brotli",
+          "http2shell",
+          "node2shell"
+        ],
+        "url": "https://zenn.dev/ara_jlu/articles/http2shell-nodejs-check",
+        "title": "HTTP2Shell、自分のNode.jsは直った？ 入れ方で違う確かめ方",
+        "author": "Ara;",
+        "published_at": "2026-10-26T02:11:45+00:00",
+        "excerpt": "PHP の脆弱性（PHP2Shell）とほぼ同じ時期に、今度は HTTP2Shell（CVE-2026-111497）が出ました。毎日のように重大な脆弱性が出てくるな…と思いながら手元の Node.js を更新して、直ったか確かめようとしたら、見る場所によって「直った」とも「直っていない」とも読めて少し混乱しました。 この記事では、Node.js の入れ方ごとに直ったかをどこで確かめればいいかと、更新したあとも古いまま残りやすいものをまとめます。想定読者は、手元やサーバーで Node.js を使っていて、HTTP2Shell を見て「自分のは大丈夫か」を確かめたいエンジニアです。 調べる..."
+      },
+      {
+        "id": "zenn:ff3ed868b8e3d11caa2c83dd",
+        "source": "zenn",
+        "author_tags": [
+          "WordPress",
+          "個人開発",
+          "設計",
+          "Security",
+          "REST API"
+        ],
+        "url": "https://zenn.dev/rapls/articles/8120ac9bb1117f",
+        "title": "未ログインの訪問者から呼ばれる REST に、nonce を付けないことにしました。送らないようにする必要もありました",
+        "author": "Rapls",
+        "published_at": "2026-10-26T01:34:14+00:00",
+        "excerpt": "記事の文章がコピーされたことを管理者に知らせる WordPress プラグインを作っています。設計の始まりは、10月2日の「前のプラグインが消えた理由から、設計を始めました」に書きました。訪問者から届く値はすべて攻撃者が書ける、という前提と、回数の制限・X-Forwarded-For の扱い・出すときのエスケープは、そちらにまとめています。 今回は、そこで書かなかった nonce の話です。コピーされたことは、ブラウザから REST エンドポイントに送ります。送ってくるのは、ログインしていない訪問者です。このエンドポイントには、nonce を付けないことにしました。付けないと決めたあと、..."
+      },
+      {
+        "id": "zenn:634bbf98e7c81a5d8907bbb0",
+        "source": "zenn",
+        "author_tags": [
+          "Go",
+          "Security",
+          "VC",
+          "JSON-LD",
+          "sdjwt"
+        ],
+        "url": "https://zenn.dev/nonejp/articles/9b00d6bf738a27",
+        "title": "Goで比較する ecdsa-sd-2023 と SD-JWT：選択的開示の仕組みと検証の落とし穴",
+        "author": "ousiass",
+        "published_at": "2026-10-26T01:04:35+00:00",
+        "excerpt": "はじめに：選択的開示の2つの方式を、1つのライブラリで並べる Verifiable Credentials（VC）で「必要な項目だけを見せる」選択的開示を実現する方式は、大きく2つの系統に分かれています。1つは JWT にソルト付きハッシュの開示を組み合わせる SD-JWT（RFC 9901）で[1]、もう1つは JSON-LD の VC を RDF の文（ステートメント）単位に分けて署名する Data Integrity の ecdsa-sd-2023 です[2]。 両方を Go で試せるライブラリは多くありません。pilacorp/go-credential-sdk は、W3C..."
+      },
+      {
+        "id": "zenn:78c92283b76dc294a1352a46",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Security",
+          "llm"
+        ],
+        "url": "https://zenn.dev/yuu7/articles/llm-masking-proofread-pipeline",
+        "title": "外部LLMに原稿を送る前に、ローカルでマスキングする校正パイプラインを作った",
+        "author": "Yuu",
+        "published_at": "2026-10-26T00:48:21+00:00",
+        "excerpt": "未公開の記事原稿を外部のAIに校正してもらうために、送る前にローカルでマスキングし、戻ってきたらローカルで元に戻す仕組みを作りました。使ったのは SB Intuitions の Sarashina3 で、モデルは sarashina3-mini です。 そのまま送らなかった理由は、そのAPIの利用条件です。送信した入力と生成結果は、サービス提供や改善のために使われうる、とありました。学習を含む、と読める内容です。校正に出したいのはまだ公開していない原稿そのもので、本文には参照するURLも混ざっていますし、場所によっては識別子のような文字列も入ります。それをそのまま外部に渡すのは避けたいと..."
+      },
+      {
+        "id": "zenn:0c301ef1b22f96945b9976de",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub",
+          "GitHub Actions",
+          "Security",
+          "個人開発",
+          "OSS"
+        ],
+        "url": "https://zenn.dev/uta8a/articles/c3fcf25ac30e92",
+        "title": "個人開発のGitHubリポジトリで見直したい設定リストと解説",
+        "author": "uta8a",
+        "published_at": "2026-10-26T00:32:36+00:00",
+        "excerpt": "こんにちは、uta8aです。 最近かなりセキュリティ的に物騒な世の中になってきましたね。GitHubも対策として色々機能を出していますが、個人でpublicにしているリポジトリの設定って結局どうするのがいいんでしょうか。 そこで今回は、一通り個人開発のGitHubリポジトリで設定を見直していきたいと思います。なお、書かれている内容は、2026/10/26現在の情報になります。 前提 対象プラン: GitHub Free for personal accounts Administrator相当の権限を持っていること Settings(https://github.com/<..."
+      },
+      {
+        "id": "zenn:eda3a1000763bd81d34bca56",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "PHP",
+          "Security",
+          "EC-CUBE",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/nobuhiko/articles/f4881110588bf5",
+        "title": "一人で運用する EC-CUBE 2.13 で php2shell に対応した。大事だったのは「本番で効いているか」の確認だった",
+        "author": "Nobuhiko Kimoto",
+        "published_at": "2026-10-25T23:50:01+00:00",
+        "excerpt": "ウミウシの図鑑サイト「世界のウミウシ」は、2014 年に EC-CUBE 2.13 で作り、今も一人で運用しています。2026-10-21 に PHP の RCE(php2shell、CVE-2026-109618 / 109619)が出ました。その日から 5 日間でやった対策を書きます。 作業はほとんど Claude Code がやりました。自分は頼んで、PR を読んで、マージしただけです。パッチを当てるのはすぐ終わりました。時間がかかったのは、本番で本当に効いているかの確認です。2 回確かめて、2 回とも穴が見つかりました。 前提: 12 年かけて PHP 5 から Docker..."
+      },
+      {
+        "id": "zenn:e6ea69a9c08f8d29a1de07a9",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "パスワード",
+          "移行",
+          "argon2"
+        ],
+        "url": "https://zenn.dev/swdrk/articles/eb4d1113c60da0",
+        "title": "古いパスワード保存方式を最新化する手順 — 棚卸しから鍵の廃棄まで（ソースネクストの流出を受けて）",
+        "author": "R.Sawada",
+        "published_at": "2026-10-25T23:34:20+00:00",
+        "excerpt": "2026年10月15日、ソースネクストは、会員情報を管理するシステムへの不正アクセスで、パスワードを含む会員の情報が外部に流出したと公表しました。流出した可能性のある情報の対象件数は22,519,960件です（すべての人ですべての項目が流出したわけではない、としています）。 同社は報道機関の取材に、パスワードは暗号化して保存していたが復号された状態で流出したこと、ハッシュ化していなかった理由は「開発時期が古く、最新のハッシュ化方式へ移行できていなかった」ことだと答えています（報道による）。 古い方式のまま動いているシステムは、多くの現場にあります。この記事では、パスワードの保存方式を最新..."
+      },
+      {
+        "id": "zenn:1304e9a0c7f631d7addc7ebb",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "it",
+          "情シス",
+          "News"
+        ],
+        "url": "https://zenn.dev/hiki1114/articles/it-weekly-202608-w5",
+        "title": "2026年8月 第5週 情シス向けITニュースまとめ",
+        "author": "H.K",
+        "published_at": "2026-10-25T23:07:53+00:00",
+        "excerpt": "印刷管理ソフト「PaperCut NG/MF」に深刻な脆弱性 - 悪用も確認 https://www.security-next.com/189650 所感: 印刷管理ソフトPaperCutの深刻な脆弱性で、悪用が確認された。使っている場合は、修正版の適用と外部公開の有無を最優先で確認したい。 「SonicWall SMA 1000」に深刻な脆弱性 - 悪用を示す事例も https://www.security-next.com/189706 所感: SonicWall SMA 1000の深刻な脆弱性に、悪用を示す事例がある。過去にも同シリーズの話題が続いているため、適用状況に加..."
+      },
+      {
+        "id": "zenn:3144891199d5d7b0616d9132",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Linux",
+          "Security",
+          "Agent",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/epicai_techblog/articles/13466c7c547965",
+        "title": "Landlockを理解し、AgentのSandboxについて詳しくなる",
+        "author": "swkima",
+        "published_at": "2026-10-25T23:00:05+00:00",
+        "excerpt": "はじめに EpicAIの吉崎です。 昨今、AI Agentの利便性を享受しつつ安全に実行する技術として、様々なツールやOSSなどが取り上げられています。多くの場合、そうした技術はコンテナやVMといった馴染みのある技術で構成されていますが、よくよく中身を覗いてみるとあまり聞いたことのない技術が使われているケースも少なくありません。公式ドキュメントを読んでいる中でそうした技術に遭遇し、理解があいまいになった経験がある方も多いのではないでしょうか。 私にとって、その代表格がLandlockです。LandlockはLinuxでSandboxを構築する技術の一つであり、Namespaceなどと..."
+      },
+      {
+        "id": "zenn:0762d98f821bd116fa7dea07",
+        "source": "zenn",
+        "author_tags": [
+          "WordPress",
+          "Web",
+          "Security",
+          "WooCommerce"
+        ],
+        "url": "https://zenn.dev/shige7000/articles/150b491ca12637",
+        "title": "WordPress本体とECを分けて守る：2サイト運用のセキュリティ境界チェックリスト",
+        "author": "長洲港町電気工事",
+        "published_at": "2026-10-25T22:52:06+00:00",
+        "excerpt": "WebサイトとECを同じWordPressへ詰め込むと、更新や障害の影響範囲が広がります。一方、example.jp と shop.example.jp に分けても、運用が同じなら安全になるとは限りません。 本記事では、事業サイトとWooCommerceを別環境で運用した経験から、効果のあった「境界の作り方」を整理します。 1. サブドメインは自動的な隔離ではない DNS名が別でも、次が共通なら侵害時の影響が横断します。 同じWordPress管理者パスワード 同じDBユーザー 同じファイル領域への書き込み権限 同じバックアップ保存先 親ドメイン全体へ広げたCookie 見た目の..."
+      },
+      {
+        "id": "zenn:8b4917614d174c979692e2a1",
+        "source": "zenn",
+        "author_tags": [
+          "Rust",
+          "Security",
+          "Google Drive",
+          "Zero Trust",
+          "axum"
+        ],
+        "url": "https://zenn.dev/hisa_tech_2973/articles/a60aaa7072b0dd",
+        "title": "クライアントの file_id を信用しない：Drive のメタデータでの再検証と Fail Closed な Policy",
+        "author": "HISA",
+        "published_at": "2026-10-25T22:30:08+00:00",
+        "excerpt": "このシリーズの1本目の記事では、Google Drive への出入口を drive-gateway という1つのコンテナ（PEP: Policy Enforcement Point）にまとめる設計を紹介しました。 https://zenn.dev/hisa_tech_2973/articles/9cb4aee5b999fa 構成は次の2つのコンテナです（詳しくは1本目の記事をご覧ください）。 drive-gateway: Google Drive を読み取り専用で読み、個人情報を除いた最小限の JSON だけを返す worker: Slack をポーリングし、drive-gatew..."
+      },
+      {
+        "id": "zenn:29ce873ce5e59cf8082332fd",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Cloud Run",
+          "Google Cloud",
+          "Security",
+          "アクセンチュア"
+        ],
+        "url": "https://zenn.dev/acntechjp/articles/zenn-gcp-vuln-rush",
+        "title": "脆弱性が相次ぐ今こそ、Google Cloudに移ろう",
+        "author": "Shinya Koike",
+        "published_at": "2026-10-25T22:13:35+00:00",
+        "excerpt": "3行でまとめ この10日ほどで、API を直接狙う「A2B 攻撃」への注意喚起、PHP の重大な脆弱性、認証局 eMudhra の証明書の問題が続いた。PHP の件では、公表に先立ってサービスを止めた組織が200を超えた Cloud Run の自動更新を有効にした PHP 8.4 は、デプロイし直さないまま、修正版の公開から約30時間後の早朝に新しいランタイムへ切り替わった(4つの版のうち1つ。修正が入ったかは確かめられていない)。サイトの証明書も、Google が管理する証明書にしておけば Google が発行して期限の前に入れ替える(Cloud Run の URL は有効期間が..."
+      },
+      {
+        "id": "zenn:dfa8266a688eb5afa368f148",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "医療",
+          "インシデント対応",
+          "医療機器"
+        ],
+        "url": "https://zenn.dev/taichiendoh/articles/post-incident-lessons-learned-distillation",
+        "title": "「対応したら終わり」ではない ― 医療機器セキュリティ連載に“学びを蒸留する仕組み”を接続する",
+        "author": "遠藤太一",
+        "published_at": "2026-10-25T22:09:40+00:00",
+        "excerpt": "これまで、「漏れた」と決める前にやること ― 情報漏洩対応は、まず“範囲の特定”から、「システムが止まった」とき、医療機器はどう動き続けるべきか、攻撃する側もAIを使う時代、「現場の継続性」の次は「委託先の継続性」、「委託先の継続性」の、もう一段先という5本を書いてきました。範囲の特定から始まり、現場の継続性、脅威モデル、委託先、委託先がさらに依存する先――と、主語を広げながら「対応している最中」の話を積み重ねてきました。 振り返ると、どの記事も「対応をどう進めるか」までで終わっています。対応が終わったあと、その経験をどう次に活かすかという話は、まだ1本も書いていません。 1. 論点..."
+      },
+      {
+        "id": "zenn:e637fd27036d84ac6674b59f",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Windows",
+          "SoC",
+          "incidentresponse",
+          "sysmon"
+        ],
+        "url": "https://zenn.dev/tokotokokame/articles/lsass-access-0x1410-sysmon",
+        "title": "Wordを開いただけで、lsass が読まれた。「0x1410」を覚えてください",
+        "author": "tokotokokame",
+        "published_at": "2026-10-25T22:00:05+00:00",
+        "excerpt": "! 本記事の事件は、拙著で使っている架空のシナリオです（IPはすべてRFC5737の文書用予約アドレス、社内は 10.0.0.0/8）。Windows・Sysmonの内容は本書の記載にもとづくもので、自動検証（実機再現）の対象外です。攻撃の手順は載せず、痕跡と検知だけを扱います。 ここからは舞台がWindowsに移ります。 事件の始まりは、よくある朝でした。社員 jdoe が、届いたWord文書を開いた。それだけです。9時12分。そのわずか40秒後、Windowsの心臓部とも言えるプロセス lsass.exe のメモリが、読まれました。 覚えていただきたい数字は1つです。0x1410。..."
+      },
+      {
+        "id": "zenn:ac1988036a3615ff692cdc43",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "個人開発",
+          "LINE Bot",
+          "Cloudflare Workers",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tyuya/articles/ai-made-tools-security-audit",
+        "title": "AIと作った業務ツールをAIに監査させたら「同じWi-Fiから乗っ取れる」穴があった",
+        "author": "yuya0620",
+        "published_at": "2026-10-25T21:27:10+00:00",
+        "excerpt": "はじめに：プログラムを書けない人が、業務ツールを6つ動かしている 私はエンジニアではありません。海産物のネットショップを準備していて、その周りの作業を Claude Code と一緒に少しずつ自動化してきました。 SNS の下書きを決まった曜日に LINE へ送る Worker（Cloudflare） 日曜の夜に Shopify の数字をまとめて LINE に送る週次レポート Instagram のキャプションや note 記事を作る、家の Mac で動かしているWebアプリ 公式 LINE のお問い合わせに AI が答える bot どれも「動いた！」で満足して使っていました。..."
+      },
+      {
+        "id": "zenn:5bce0562b6ffc4a063ae6314",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "認可",
+          "AIエージェント",
+          "Claude Code",
+          "ハーネスエンジニアリング"
+        ],
+        "url": "https://zenn.dev/kumaik/articles/approval-granularity-harness",
+        "title": "その承認ゲート、押す人は読んでいますか",
+        "author": "まいく",
+        "published_at": "2026-10-25T21:16:09+00:00",
+        "excerpt": "確認画面は出ていた。それでも引数をあまり確認していなかった 2026-09-22、自作のナレッジグラフで、プロジェクトノードのプロパティ11件がまとめて消えた。別プロジェクトからタスクを1件登録した副作用で、手順書が指示していた props={} という呼び方が、既存のプロパティを空で上書きしたためだった。この構成と事故の経緯は、前の記事に書いた。 この書き込みツール kg_remember を、私は何度も許可してきた。事故のときも、確認画面は出ていた。だが、引数はあまり確認していなかった。その結果、既存のプロパティを空で上書きする呼び出しを、そのまま通した。 認証・認可を書いてきた..."
+      },
+      {
+        "id": "zenn:9e209f1b3cbe29fed2d14791",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Python",
+          "npm",
+          "Security",
+          "SBOM"
+        ],
+        "url": "https://zenn.dev/masahiroid/articles/seculens-evidence-and-rescan",
+        "title": "npm・pip・Composerで始めるSecuLens — 日本語レポートを読み、修正と再検査につなげる",
+        "author": "masahiroid",
+        "published_at": "2026-10-25T17:37:46+00:00",
+        "excerpt": "脆弱性を検査できても、その結果をチームや顧客に説明する段階で手が止まることがあります。ターミナルの結果を転記し、重要度を並べ替え、部品のバージョンや検査に使った情報を別途添える。検査そのものに加えて、報告の準備にも作業が必要です。 自作のセキュリティ評価CLI SecuLens は、SBOM（ソフトウェア部品表）を読み、既知の脆弱性とライセンスポリシーを点検し、日本語のWordレポートと根拠のJSONをまとめて出力するために作りました。 npm・pip・Composerのうち、使い慣れた環境から導入できます。日本語の対話ウィザードもあるため、初回から長いオプションを覚える必要はありません..."
+      },
+      {
+        "id": "zenn:2d1dd0c3ebcc670cd7800277",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "llm",
+          "生成 AI",
+          "AIエージェント",
+          "安全設計"
+        ],
+        "url": "https://zenn.dev/kotakotahiro/articles/111c2f74a72d16",
+        "title": "本番DBは9秒で消えた――AIエージェントの安全は「指示」だけに任せられない",
+        "author": "こたこた博",
+        "published_at": "2026-10-25T15:49:07+00:00",
+        "excerpt": "エージェントに任せる範囲、少しずつ広げていませんか。指示の書き方には気をつけているつもりでも、任せた作業がどこまで影響するか、最後まで見届けている自信はありますか。 この記事では、指示の工夫では届かない層の話をします。では、どう止めるのか。まずひとつの場面を見てから考えます。 ルールがあったのに、9秒で消えた 2026年4月24日。レンタカー事業者向けSaaS「PocketOS」のステージング環境では、日常的な作業が進んでいました。CursorとClaude Opus 4.6のエージェントが、ステージングの面倒を見る。それだけの、特別なことのない一日のはずでした。 作業の途中で、エー..."
+      },
+      {
+        "id": "zenn:ae01b4bce9d2d4247023e1e6",
+        "source": "zenn",
+        "author_tags": [
+          "Web",
+          "Security",
+          "CORS"
+        ],
+        "url": "https://zenn.dev/kotanpolin/articles/web-security-04-cors",
+        "title": "CORS：中高生に説明するつもりで書く技術・セキュリティ",
+        "author": "コタ",
+        "published_at": "2026-10-25T15:20:50+00:00",
+        "excerpt": "先に、3行で CORSは、別のオリジンのページに応答を読ませてよいかを、サーバーがブラウザに伝える仕組みです。 許可を守らせるのは主にブラウザで、APIへの直接のアクセスを止める仕組みではありません。 許可する相手は必要なオリジンに絞り、本人確認と権限の確認はサーバーでも行います。 CORS（Cross-Origin Resource Sharing、オリジン間リソース共有）は、別のオリジンのWebページに、ブラウザがレスポンスを読み取らせてよいかを、サーバーから伝える仕組みです。「オリジン」は、通信方式・ホスト名・ポート番号の組み合わせ。同じ会社のサイトでも、この組み合わせが違..."
+      },
+      {
+        "id": "zenn:d075f74142c73a9470af3a60",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Agent",
+          "生成 AI",
+          "AI駆動開発",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mryo0826/articles/e1fe4c82ab0428",
+        "title": "下書きと作業記録を AI コーディングエージェントから守る：設定ではなく置き場所で（Claude Code・Windows）",
+        "author": "mryo0826",
+        "published_at": "2026-10-25T15:07:15+00:00",
+        "excerpt": "この記事の範囲 私（著者・人間）は個人のリポジトリで、AI コーディングエージェントの Claude Code と一緒に、AI 駆動開発の実践ガイドを書いています（aidd-practice-guide）。この記事は、その中で起きた事と、今どう守っているかの記録です。 https://github.com/mryo0826/aidd-practice-guide ! 主語について: この記事の「私」は著者（人間）です。作業の多くは Claude Code と一緒にしていて、実測やファイルの調べは、私が Claude Code に頼んで走らせました。誰がしたかは、節毎に書き分けます。 ..."
+      },
+      {
+        "id": "zenn:1dffdca138c27d4938d0145e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Docker",
+          "Security",
+          "sandbox",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-026-openshell-default-deny-network-policy",
+        "title": "NVIDIA OpenShellのdefault-denyネットワークポリシーを実機で検証した",
+        "author": "matsu",
+        "published_at": "2026-10-25T14:10:26+00:00",
+        "excerpt": "AIエージェントをサンドボックスで隔離実行するNVIDIA製ランタイム「OpenShell」を実際にインストールし、「ポリシーが無ければ全てのアウトバウンド通信が拒否され、読み取り専用ルールを足すとGETだけ通るようになる」という挙動を、実際のコマンドと構造化ログで確認した。 OpenShellとは何か OpenShellは、自律AIエージェントをコンテナ/MicroVM単位のサンドボックスで隔離実行するオープンソースのランタイムである(Apache-2.0、NVIDIA)。宣言的なYAMLポリシーで、ファイルアクセス(Landlock LSM)・システムコール(seccomp)・ネ..."
+      },
+      {
+        "id": "zenn:c8a22acc7162665511b942e4",
+        "source": "zenn",
+        "author_tags": [
+          "Android",
+          "Kotlin",
+          "チーム開発",
+          "Security",
+          "WebRTC"
+        ],
+        "url": "https://zenn.dev/booth_messenger/articles/daf061dcc22dfa",
+        "title": "電話番号・メアド不要！運営すら中身を見られない国産E2EEチャット＆通話アプリ『BOOTH messenger』を開発した話",
+        "author": "BOOTH messenger",
+        "published_at": "2026-10-25T14:00:36+00:00",
+        "excerpt": "はじめに：「本当に誰にも見られない」メッセンジャーを目指して 日々あたりまえに使っているチャット・通話アプリですが、ふとこんな疑問や不安を感じたことはないでしょうか？ 「登録に電話番号が必須で、連絡先（電話帳）から勝手に知り合いにアカウントが見つかってしまう」 「サーバー上に平文や運営側で復号できる形でトーク履歴・画像が保存されていないか？」 「もしクラウドのデータベースが流出したり、アカウントが乗っ取られたら、過去のプライベートな会話まで全部見られてしまうのではないか？」 こうしたプライバシーの課題を根本から解決するため、電話番号・メールアドレス登録が一切不要で、**開発者（運..."
+      },
+      {
+        "id": "zenn:a7cd6b55bd1efe5c8ae229b7",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Google Cloud",
+          "Autoware",
+          "automotive",
+          "Supply Chain"
+        ],
+        "url": "https://zenn.dev/hocky3/articles/28e30e6fb78806",
+        "title": "秘密情報のスキャンがPASSでも、記録には識別子が残っていた 。公開前に消した6種類と、消したら合わなくなった検証値の直し方",
+        "author": "hocky3",
+        "published_at": "2026-10-25T13:20:58+00:00",
+        "excerpt": "9月の週末、使い捨てのクラウドVMで、自動運転ソフトウェア Autoware をビルドした。7回目で、やっと通った。記録を公開リポジトリに置く前に、ファイルを開いた。VMの情報を書き出した JSON に、プロジェクトID、インスタンスID、内部IP。当たり前の顔で並んでいた。VM側で毎回走らせていた秘密情報のスキャンは、7回ともPASSだった。スキャンが探すのは鍵やトークンの形で、識別子は探さない。PASSは「識別子が無い」という意味ではなかった。 消すのは簡単だった。困ったのは、消したあとだ。ファイルを書き換えたので、元の検証値（SHA-256の一覧）が合わない。合わない一覧を一緒に..."
+      },
+      {
+        "id": "zenn:b5e4846189de6bf05207509e",
+        "source": "zenn",
+        "author_tags": [
+          "SIer",
+          "Security",
+          "エンジニア",
+          "コラム",
+          "情報セキュリティ"
+        ],
+        "url": "https://zenn.dev/syoshida07/articles/e7f459a5109495",
+        "title": "脆弱性を見つけた。しかし予算はない。現場はどうするべきか・・",
+        "author": "satoshi yoshida - 思考アトリエの遊び場",
+        "published_at": "2026-10-25T12:55:19+00:00",
+        "excerpt": "近年、国内外を問わず情報漏洩やランサムウェア被害の報道が後を絶たない、大企業だけではなく、自治体、中堅企業、医療機関、教育機関に至るまで被害が広がっており、「狙われるのは大企業だけ」という時代は終わったと言ってよい。 特に近年はサプライチェーン攻撃の増加により、セキュリティ対策が比較的弱い企業を経由して取引先へ侵入する手法が一般的になっている。 こうした状況を見ると、「なぜ対策しないのか」と感じる技術者も少なくない。 しかし現実の企業経営はセキュリティ対策だけで成り立っているわけではなく、売上向上、人材採用、設備投資、法令対応など様々な課題が存在し、その中で限られた予算や人員をどこへ配分..."
+      },
+      {
+        "id": "zenn:e04f5463c2299c3fdd274b41",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "個人開発",
+          "Cloudflare",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/suna/articles/e0e3af015d7bed",
+        "title": "Cloudflare の security-audit-skill を、個人開発アプリで試してみた",
+        "author": "ゆきひろ",
+        "published_at": "2026-10-25T12:54:26+00:00",
+        "excerpt": "Cloudflare が公開している security-audit-skill は、AI がコードから問題を探し、別の AI が「本当に問題なのか」と疑って検証するセキュリティ監査用の Skill だ。 自作の防災備蓄アプリ「おすそぐら」で試してみた。このアプリは 2 週間前に、OWASP ASVS というセキュリティ要件の基準で 253 項目を点検したばかりだ。それでも、別の視点で調べたら何が見つかるのか知りたかった。 最初に見つかった問題の候補は 18 件。ただし別の AI が検証すると 5 件が否定され、残る 13 件も追加の確認が必要という結果になった。確定した脆弱性は 0 件だ..."
+      },
+      {
+        "id": "zenn:46d94243edaddf54325da373",
+        "source": "zenn",
+        "author_tags": [
+          "Git",
+          "GitHub Actions",
+          "個人開発",
+          "Security",
+          "Gitleaks"
+        ],
+        "url": "https://zenn.dev/edy0327/articles/61bb9df8a204c5",
+        "title": "個人リポジトリをpublicにする前にシークレットをスキャンした話 — 履歴にAPIキーが残っていたら",
+        "author": "edy0327",
+        "published_at": "2026-10-25T12:27:16+00:00",
+        "excerpt": "はじめに ポートフォリオにリンクを載せるため、privateだった個人プロジェクトのリポジトリ3つ（web + apiを含め4つ）をpublicにしようとしました。その前に履歴を確認したところ、1つで最初のコミットからAPIキーとDBパスワードが追跡されていました。履歴全体をどうスキャンし、引っかかったリポジトリをどう扱い、次のリポジトリで何を変えたかを書きます。個人開発で、レビュアーはいない状況です。 「コード非公開（リクエストがあれば閲覧可）」？ 2026年9月、ポートフォリオにリポジトリリンクを貼ろうとしました。ウィッシュリスト共有サービス、ハイブリッド型ブログ（web・a..."
+      },
+      {
+        "id": "zenn:56b0b7bd0312d40d5f3a045b",
+        "source": "zenn",
+        "author_tags": [
+          "Node.js",
+          "Python",
+          "Security",
+          "TLS",
+          "PKI"
+        ],
+        "url": "https://zenn.dev/masahide/articles/be60dc1cdf7a7b",
+        "title": "eMudhra 中間CAインシデント 対応確認ガイド",
+        "author": "Masahide YAMASAKI",
+        "published_at": "2026-10-25T12:22:05+00:00",
+        "excerpt": "更新後に、使っているクライアントが対象の証明書を拒否するか確認する手順です。HTTPSなどのTLS通信を対象とし、コード署名の検証は扱いません。 まだ更新していない場合は、先に対応手順を進めてください。確認が必要な理由は前提の説明にまとめています。 ブラウザ・一般アプリの確認 開発ツールの確認 CAバンドルの直接検証 サーバーの確認 結果の判定 最終情報確認：2026年10月25日 21:12 JST。以下は確認手順であり、特定の端末での実測結果ではありません。 確認前に記録すること まず分かる項目を記録し、不明な項目は「未確認」と残します。ブラウザだけを確認する人は、名前・バー..."
+      },
+      {
+        "id": "zenn:36b06d079d992ef98cd0af7f",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "TLS",
+          "PKI"
+        ],
+        "url": "https://zenn.dev/masahide/articles/404f524e678864",
+        "title": "eMudhra 中間CAインシデント 前提の説明",
+        "author": "Masahide YAMASAKI",
+        "published_at": "2026-10-25T12:21:26+00:00",
+        "excerpt": "手順を進めたい方は対応手順へ 対応確認は確認ガイドへ この記事では、何が問題になったのか、なぜアプリや実行環境ごとの対応が必要なのかを説明します。更新操作とテスト方法は、上の2記事に分けています。 何が起きたのか HTTPSでは、接続先が提示する証明書を使って相手を確認します。認証局（CA）はその証明書を発行する組織です。通常はサーバー証明書から中間CAをたどり、クライアントが信頼するルートCAへつながるかなどを検証します。 今回、eMudhra の中間CAの秘密鍵が第三者に復元されました。Mozillaも独立に鍵を復元し、鍵生成に不備があったことを確認しています。対象は8つの鍵..."
+      },
+      {
+        "id": "zenn:90a67b11452eedf5f2a5f695",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Web",
+          "Security"
+        ],
+        "url": "https://zenn.dev/festiva1300/articles/directory_traversal_defense",
+        "title": "本当は難しいディレクトリトラバーサル対策 ― 「../ を禁止する」だけでは足りない",
+        "author": "festiva1300",
+        "published_at": "2026-10-25T12:05:37+00:00",
+        "excerpt": "はじめに 私が以前携わったシステムでは、その会社の開発標準にて、SQLインジェクションやディレクトリトラバーサルへの対策として、特定の文字を入力禁止にするルールがありました。このルールは現在、撤廃されていると聞いています。 この経験を踏まえて、セキュリティの開発標準に何を求めるとよいのかを考えたいと思います。以下は、当時のルールの具体的な内容や撤廃の経緯を説明するものではなく、入力チェックを対策の完了条件にすることについての、私自身の考察です。 「外部からの入力をチェックすること」はセキュリティの文脈ではよく聞く話だと思います。しかし、入力チェックの有無だけで実装やレビューを終えてし..."
+      },
+      {
+        "id": "zenn:1eccb2134b041fd9b4fa2cbb",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "Windows",
+          "TLS",
+          "PKI"
+        ],
+        "url": "https://zenn.dev/masahide/articles/61ec1b2f4c83ac",
+        "title": "eMudhra 中間CAインシデント 対応手順",
+        "author": "Masahide YAMASAKI",
+        "published_at": "2026-10-25T11:53:21+00:00",
+        "excerpt": "使っている環境の項目だけ、上から実行してください。このページには更新手順をまとめています。対象はHTTPSなどのTLS通信です。コード署名の対応は扱いません。 Windowsの一般利用PC Macの一般利用PC Slack・Discord・VS Codeなどのアプリ 開発用PC Linuxサーバー 関連記事：前提の説明 ／ 対応確認ガイド 最終情報確認：2026年10月25日 21:12 JST 会社・学校の管理端末では管理者の手順を優先してください。サーバーや業務アプリは、バックアップと切り戻し方法を確認し、通常の変更手順で更新します。更新時に署名や証明書のエラーが出たら、検証を無..."
+      },
+      {
+        "id": "zenn:25c3ad7eebee4d80e8bfb304",
+        "source": "zenn",
+        "author_tags": [
+          "Node.js",
+          "PHP",
+          "Security",
+          "macOS",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yamato_snow/articles/october-2026-vuln-three-layer-check",
+        "title": "脆弱性公表の翌日、手元・本番・発信物をClaude Codeで点検したら、Macの道具が偽の証明書を通していた",
+        "author": "やまと",
+        "published_at": "2026-10-25T11:51:14+00:00",
+        "excerpt": "PHP と Node.js の重い脆弱性のニュースを見て、「自分のところは大丈夫かな？」と気になりませんでしたか？🧐 2026年10月21日は、PHP と Node.js の修正版が出ました。 同じ日に、インドの認証局 eMudhra の秘密鍵の漏えいも重なっています。 私は個人事業（雪工房）を一人でやっていて、パソコンもサイトも、自分で書いた記事も、守るのは自分だけです。 そこで翌日の10月22日、Claude Code に点検を任せて、どこまで直したかを記録しておきます。 結果から言うと、点検した手元の Mac の道具は、試験用の偽の証明書を全部通していました、、、 この記事で分かる..."
+      },
+      {
+        "id": "zenn:dca130b7d7df5f2d72593a0d",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "Google Cloud",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/mika_and_coco/articles/coding-ai-what-to-share",
+        "title": "コーディング AI に読ませていいもの・だめなもの ― 判断の3つの問いと回避策",
+        "author": "みか あんど ここ",
+        "published_at": "2026-10-25T11:12:31+00:00",
+        "excerpt": "Claude Code や Codex に仕事のコードを読ませる前に、「これは AI に読ませていいのか」で手が止まったことはないでしょうか。金融機関では「日本から出してはいけない」と言われることもあります。 この記事では、法令・ガイドラインの原文と、AWS・Google Cloud・Anthropic・OpenAI の公式資料を読んで、次の 3 点を整理します。 何を読ませてよく、何がだめか その判断を何で決めるか だめなときに、どう回避するか ! この記事は 2026 年 10 月時点の公式資料に基づく整理で、法的な助言ではありません。最終的な判断は、自社の法務・情報セキュリティ..."
+      },
+      {
+        "id": "zenn:0cc906a89fc447acaf16e5ff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/pepe_3_go/articles/claude-code-last-step-by-human",
+        "title": "Claude Codeに「最後の1手」を押させない──4つの線のうち、仕組みで止めていたのは1つだけだった",
+        "author": "いわい ゆう",
+        "published_at": "2026-10-25T10:28:10+00:00",
+        "excerpt": "DTP（組版）の仕事で、Claude Code にファイルの加工・メールの下書き・共有サーバーへの納品準備まで任せている。任せる範囲を広げるときに、これだけは Claude にやらせないという線を4つ引いた。 ID・パスワードを入力しない ファイルを完全に削除しない メールを送信しない（下書きまで） 共有サーバーへの納品を実行しない（ドライランまで） コンテストのテーマを機に、この4つが実際に何で守られているかを数えてみた。仕組みで機械的に止めていたのは4番の1つだけで、残り3つは Claude との約束（ルールを書いたメモ）だけだった。 この記事は、その棚卸しの結果と、その場で1つ..."
+      },
+      {
+        "id": "zenn:05705c442864b7944883281b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Security",
+          "llm"
+        ],
+        "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-24-0021",
+        "title": "海外で話題の最新LLM「Kimi K3.1 Pro」と脆弱性監視「CVE Tracker」",
+        "author": "田中根小介",
+        "published_at": "2026-10-25T10:08:52+00:00",
+        "excerpt": "海外の技術コミュニティ（Hacker News等）で注目を集めている最新トレンドの中から、日本のエンジニアにとって実用性の高い**最新LLM「Kimi K3.1 Pro」と脆弱性追跡ツール「CVE Tracker」**の2つをピックアップして解説します。 1. 超長文＆高速推論LLM「Kimi K3.1 Pro / Highspeed」 概要と注目される背景 Moonshot AIが開発する「Kimi」シリーズの最新モデルK3.1 Proおよびその高速化版であるK3.1 Pro Highspeedが発表されました。 Kimiは従来からコンテキストウィンドウの広さ（超長文処理能力..."
+      },
+      {
+        "id": "zenn:d74defd88fe2e8cf210ef0b8",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "個人開発",
+          "Cloudflare",
+          "脆弱性"
+        ],
+        "url": "https://zenn.dev/shiro_kuma_san/articles/c52adbad9c7608",
+        "title": "【サーバーの見落としポイントありませんか？】個人アプリが勝手にハニーポット化していたので、アクセスログから攻撃手法を調査した",
+        "author": "shiro_kuma_san",
+        "published_at": "2026-10-25T10:03:23+00:00",
+        "excerpt": "【サーバーの見落としポイントありませんか？】個人アプリに無差別スキャンが来ていたので、アクセスログから攻撃手法を調査した はじめに 個人開発で作ったアプリを Cloudflare でドメインの購入からPages&Workersでアプリケーションを提供していました。 久しぶりに Cloudflare のダッシュボードでアクセスログを眺めてみたら、明らかに人間ではないアクセスがずらっと並んでいました。 この記事では、まず実際に届いていたリクエストから、攻撃者が何を探していたのかを読み解きます。そのあとで、分析時の注意点として「Cloudflare でどのくらい過去の分析データ..."
+      },
+      {
+        "id": "zenn:f7aa92f5b764444b227873ed",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "金融",
+          "情報漏洩",
+          "サイバー攻撃"
+        ],
+        "url": "https://zenn.dev/komlock_lab/articles/japan-cyberattacks-ai-bank-risk-2026",
+        "title": "相次ぐ情報漏洩とAIによる攻撃、銀行の被害は金融危機につながるのか",
+        "author": "Kobara Toi",
+        "published_at": "2026-10-25T09:35:52+00:00",
+        "excerpt": "はじめに こんにちは！ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でエンジニアをしている小原（@brto_0224）です。 最近、ニュースを開くたびにどこかの会社から個人情報が漏れていませんか。タイムズカー、ブックオフ、スカイチケット、GMOのアンケートサイト。自分も使っているサービスがいくつもあって、さすがに他人事ではなくなってきました。 この記事では、次の4つの疑問に順番に答えていきます。 なんでこんなに漏れているのか 日本だけなのか 次に銀行がやられたら、リーマンショック級の危機になるのか 自分たちは何をす..."
+      },
+      {
+        "id": "zenn:64cbe0b1b6dcfeaf2a2a798a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "clade",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/suzuki_kawasaki/articles/2ce59dc9f25141",
+        "title": "AI開発の「.env問題」をシンプルにする：公式クラウド環境の活用",
+        "author": "SUZUKI_Kawasaki",
+        "published_at": "2026-10-25T09:14:34+00:00",
+        "excerpt": "はじめに CodexやClaude CodeなどのAIエージェントを使えば、チャットで開発タスクを依頼し、コード修正からPull Request（PR）の作成まで任せられる。 一方で、ローカルPCでAIエージェントを動かす場合、セキュリティ面での懸念がある。 特に、.env などの機密ファイルや、作業PC内の個人ファイルをAIに読み取らせたくないという問題。 DockerやSandboxによるアクセス制限も検討したが、安全性を担保するためには、環境構築・権限設定・動作検証など、それなりの対応コストがかかる。 そこで本記事では、AIサービスが提供する公式クラウド環境を利用し、セキュリ..."
+      },
+      {
+        "id": "zenn:bebae439264b81b5e3fa54e2",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/sprocket_knd/books/05e76f877dd333",
+        "title": "【特許出願済】本番を止めないための「パッチ検疫サンドボックス」と「PHP 8.5自動改修」実装ガイド【1.5BローカルLLM付録】",
+        "author": "sprocket kondo",
+        "published_at": "2026-10-25T08:21:49+00:00",
+        "excerpt": "公式セキュリティ情報や脆弱性アラートの検知からDiscord通知、第1ボタンでのSDカード隔離領域（/mnt/sandbox）への動的マウント検証、破壊的変更の手直し・再動確に対応するパッチ個体識別、第2ボタン解禁によるNVMe本番昇格まで実装する実践ガイド。"
+      },
+      {
+        "id": "zenn:bba8fd408e9ca4abd9ca47af",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "browser",
+          "AIエージェント",
+          "OpenClaw",
+          "openshell"
+        ],
+        "url": "https://zenn.dev/petittomato/articles/openclaw-muse-browser-agent",
+        "title": "MetaのMuseの安全設計から、何を借りて何をあきらめたか：OpenClawとOpenShellでエージェントにブラウザを任せる",
+        "author": "PicoLab",
+        "published_at": "2026-10-25T08:21:43+00:00",
+        "excerpt": "OpenClawのようなAIエージェントに私が期待していたのは、私の代わりにPCを操作して作業してくれる、人間の秘書のようなエージェントです。ところがセキュリティを考えると、任せられることはとても限られました。前の記事では、エージェントが使うツールを、ネットワークの無いコンテナに閉じ込めています。 一方で、Metaの個人向けAIエージェントMuseは、買い物を代わりにしてくれて、APIの無いサイトもブラウザで操作します。そのせいでAmazonから締め出されたとも聞きましたが、エージェントとしてできることはとても多いです。 Museは、これだけのことをどうやってセキュリティと両立しているの..."
+      },
+      {
+        "id": "zenn:d5d4149a5c97ff67fb31d7a5",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "サーバー",
+          "バージョン"
+        ],
+        "url": "https://zenn.dev/ss_infra/articles/65afbf58554fe4",
+        "title": "個人開発で実感したPHPバージョン管理とマネージド環境の重要性",
+        "author": "SS-Infra",
+        "published_at": "2026-10-25T08:02:01+00:00",
+        "excerpt": "はじめに 日々のWeb開発やインフラ運用の現場において、プログラムのコード品質や機能追加と同じくらい重要になってくるのが、「ランタイム（実行環境）のバージョン管理とセキュリティ維持」です。 2026年10月20日、PHPに未認証のリモートコード実行（RCE）が可能な重大な脆弱性が2件存在することが明らかになりました。CVE-2026-109618 および CVE-2026-109619、通称「PHP2Shell」と呼ばれているものです。CVSS v4.0 のスコアはいずれも 9.2。しかも、公表予定日より前に情報が流出して出回り始めたため、PHP開発チームは10月21日14時（UTC..."
+      },
       {
         "id": "zenn:19d5db3d880043abe2dce679",
         "source": "zenn",
@@ -3044,33 +3666,608 @@
     ],
     "qiita": [
       {
-        "id": "qiita:62183103d5c159a658a6f313",
+        "id": "qiita:d57b9c03c46ae09e34ba7082",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "AI",
+          "Security",
+          "自動化",
+          "企業IT"
+        ],
+        "url": "https://qiita.com/Sidejob/items/4d56166f7e3a713ca365",
+        "title": "Claude Code v2.1.309：sandbox・MCPの大型バグ修正が企業環境に与える影響",
+        "author": "Sidejob",
+        "published_at": "2026-10-26T19:30:04+09:00",
+        "excerpt": "対象読者：Claude Code v2.1.309のリリースノートを確認したいエンジニア・AI推進担当者。sandbox設定やMCP連携・GitHub連携を使っている環境で特に確認してほしい修正を整理した。出典はすべてAnthropic公式のリリースノート（v2.1.309、2026-10-22公開）。 この記事の確認ポイント：v2.1.309には40件超のバグ修正が含まれる。特にsandbox関連が9件あり、symlink経由のdenyRule回避・MCP設定ファイルの書き換え可能状態・shell起動ファイルのsandbox外実行など、sandbox化していれば安全という前提が崩れる修正が複数ある。v2.1.310（企業ゲートウェイ互換性修正）と同時期にリリースされたため見落とされやすいが、sandbox環境で動かしている場合は確認が必要。 v2.1.310のリリース記事を書いたあと、さかのぼってv2.1.309のリリースノートを読んだ。修正の数が40件を超えていて、最初は「件数が多いだけで個々は細かいバグだろう」と思っていた。が、sandbo"
+      },
+      {
+        "id": "qiita:471f478728f4eaeb7cf80225",
+        "source": "qiita",
+        "author_tags": [
+          "📡今週の話題",
+          "Security",
+          "AI",
+          "ペネトレーションテスト"
+        ],
+        "url": "https://qiita.com/pitaspot/items/65e6c7905cb0d978ec1e",
+        "title": "AIが攻撃役になって穴を探す",
+        "author": "pitaspot",
+        "published_at": "2026-10-26T18:10:21+09:00",
+        "excerpt": "📰 今日のZenn記事 元記事： AIペネトレーションテストツール「Strix」を試してみた（Zenn） 著者が、AIエージェントが自律的にWebアプリを攻撃して脆弱性を探すOSSツール「Strix」（ストリックス）を自作のデモアプリで試した記事です。ペネトレーションテスト（侵入テスト。攻撃者の目線で穴を探す検査）の役割をAIが担います。Strixは偵察・攻撃・検証を分担する複数のAIエージェントが協力し、見つけた怪しい点は実際にリクエストを送って再現できたものだけ報告します。ソースコードを渡さず、URLだけで診断した結果、OSコマンドインジェクションなど6件を検出しました。費用は約30分で約20ドルかかったと書かれています。一方で、画面にリンクされていない機能は見つけられなかったことも示されています。対策として、調査観点を指示文で具体的に伝えるか、ソースコードも渡して診断する方法を挙げています。 正直、すごく面白いというよりは、わりと疑いの目線で読みました。まず、Strixの精度がどのくらいなのかが分からない。AIのモデルは高度なハッキングは基"
+      },
+      {
+        "id": "qiita:36723bdb36516031925c4e54",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "waf",
+          "Docker",
+          "Security",
+          "WordPress"
+        ],
+        "url": "https://qiita.com/heei11887/items/d177151d89fffdd1dfc6",
+        "title": "PHP2Shell対応で最初に確認したいこと：PHPのバージョン、実行環境、ログ、WAF",
+        "author": "heei11887",
+        "published_at": "2026-10-26T17:42:19+09:00",
+        "excerpt": "2026年10月21日、PHP本体に存在する2件の重大な脆弱性、CVE-2026-109618とCVE-2026-109619の修正版が公開されました。通称「PHP2Shell」です。 どちらも、条件が揃うと認証なしでリモートコード実行（RCE）につながる可能性があります。 WordPressやEC-CUBEなど、PHPで動くWebサイトを管理している場合は、早急な確認が必要です。 ただし、対応にあたって注意したい点があります。 WordPress本体やプラグインを更新しても、PHPの脆弱性が修正されるわけではありません。 今回の問題は、アプリケーションの下で動くPHP本体にあります。 この記事では、PHP2Shellへの対応を次の順番で整理します。 稼働中のPHPを特定する 修正プログラムの適用状況を確認する 更新後の動作を確認する アクセスログとエラーログを確認する 更新が難しい場合の暫定対策を検討する WAFによる検知の範囲と限界を理解する 1. まず、どのPHPが動いているのか確認する 最初に確認するのは、サーバー上にインストールされてい"
+      },
+      {
+        "id": "qiita:cbc6812919ef5b60afa0ef8a",
+        "source": "qiita",
+        "author_tags": [
+          "LLM",
+          "Security",
+          "生成AI",
+          "AIエージェント",
+          "Python"
+        ],
+        "url": "https://qiita.com/shalXXXX/items/f22197d7b78c00039724",
+        "title": "入力ガードレールと出力ガードレールの置き場所：ツール呼び出しも含めた 3 か所で何を検査し、なぜ二重に置くのか",
+        "author": "shalXXXX",
+        "published_at": "2026-10-26T17:00:28+09:00",
+        "excerpt": "LLM アプリのガードレールは「入力をチェックするもの」と考えられがちですが、入力だけを見ても止められない問題があります。ユーザーの発話が無害でも、検索で取ってきた文書の指示にモデルが従うことがありますし、無害な質問への応答に他人の個人情報が混ざることもあります。 この記事では、ガードレールを置ける場所を「入力」「ツール呼び出し（実行）」「出力」の 3 つに分け、それぞれが何を見られて何を見られないかを整理します。そのうえで、同じ 5 つの会話を、ガードレールの置き方を変えて流す小さな検証コードで、二重に置く理由を確かめます。 分類器（Llama Guard 系など）の閾値調整、ルールベースの検査の限界、構造化出力による出力の扱いはそれぞれ別のテーマなので、ここでは「どこに置くか」に絞ります。 検証環境と前提 Python 3.13.17、標準ライブラリのみ LLM は呼び出していません。モデルが返すツール呼び出しと応答は固定値で与え、ガードレールの判定だけを確かめています 各ガードレールの中身は正規表現や許可リストの簡易版です。実際には分類器や"
+      },
+      {
+        "id": "qiita:9faa17bd2d0fe1e3d8efab95",
+        "source": "qiita",
+        "author_tags": [
+          "MicrosoftDefender,",
+          "MDI,",
+          "ActiveDirectory,",
+          "Security",
+          "Azure"
+        ],
+        "url": "https://qiita.com/hisnakad/items/7be9fee209336832e684",
+        "title": "Microsoft Defender for Identity センサーを v2 から v3 へ移行してみた ― 2 台の DC で実測した所要時間・注意点・メリット",
+        "author": "hisnakad",
+        "published_at": "2026-10-26T15:50:52+09:00",
+        "excerpt": "1. はじめに Microsoft Defender for Identity（以下 MDI）のセンサーは、ドメイン コントローラー（DC）に v2.x センサー を MSI で導入する方式から、Microsoft Defender for Endpoint（MDE）と連携する v3.x センサー へ移行できるようになりました。 本記事は、実際の Active Directory 環境（Azure 上の Windows Server 2022 DC × 2 台）で v2.x → v3.x のインプレース移行 を行った検証結果をブログとして公開しました。 公式手順をなぞるだけでなく、次の点を「やってみて分かった事実」として残しています。 v3 へ上げると何が良くなるのか 事前に何を確認しないと詰まるのか（OS 更新、MDE、アクション アカウントなど） 移行中・移行後に AD や MDE がどうなったか（所要時間と観測結果） v2 の後片付け（アンインストール、Npcap、gMSA）で何をして、何をしなかったか 移行後に v3 で本当に検知できてい"
+      },
+      {
+        "id": "qiita:f7153dfc14c4b8ad06e6439f",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Microsoft",
+          "Security",
+          "AIエージェント",
+          "automation"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/4873682e890cba8dbddc",
+        "title": "0。Microsoftがエージェントを「内部不正者」と呼び7層の継続監視を掲げた日、自分のパイプラインが継続的に見ている層の数",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-10-26T15:28:13+09:00",
+        "excerpt": "はじめに 0。 これが今回の数字です。何の0かというと、Microsoftが「継続的に監視すべき」と掲げた7つのレイヤーのうち、このZenn/Qiita自動投稿パイプライン(広くはTamae-OS)が実際に「継続的に」(24時間体制・リアルタイムで)見ているレイヤーの数です。 きっかけは、2026年10月19日にMicrosoft Security EVPのHayete Gallot氏が公開した発表でした。デプロイされたAIエージェントを「エージェント型の内部不正者(agentic insiders)」と位置づけ、7月に発表・8月3日にプレビュー開始していたProject Perceptionを拡張するというものです。中心にあるのが、他のエージェントを監視する専用エージェント「Guardian Agents」と、identity・permissions・data・endpoints・network・cloud・runtimeという7つのレイヤーを横断した継続的なリスク評価でした。 この記事では、その7レイヤーのチェックリストを、よその大企業の話と"
+      },
+      {
+        "id": "qiita:ebdc2ae92f1e10c321eb652a",
+        "source": "qiita",
+        "author_tags": [
+          "JavaScript",
+          "Security",
+          "xss"
+        ],
+        "url": "https://qiita.com/wow88my_official/items/8900b389b8353dffdd89",
+        "title": "XSS対策の実践ガイド：JavaScriptで安全なWebアプリケーションを構築する",
+        "author": "wow88my_official",
+        "published_at": "2026-10-26T15:07:09+09:00",
+        "excerpt": "Webアプリケーションでは、ユーザーが入力した文字列を画面に表示する機能がよく利用されます。 例えば、検索フォーム、コメント欄、プロフィール、メッセージ機能などです。 しかし、ユーザー入力を適切に処理せずにHTMLへ挿入すると、Cross-Site Scripting（XSS）と呼ばれるセキュリティ上の問題が発生する可能性があります。 XSSは、悪意のあるスクリプトがWebページ上で実行されることで、ユーザーの操作やページの動作に影響を与える攻撃です。 本記事では、XSSの基本的な仕組みと、JavaScriptを利用したWeb開発で実践できる対策を紹介します。 1. XSSとは？ XSSは、攻撃者が制御するデータが安全に処理されず、ブラウザ上でコードとして解釈されることで発生します。 代表的な種類は次の3つです。 種類 特徴 Stored XSS 悪意のある入力が保存され、後から表示される Reflected XSS リクエストの内容がレスポンスへ反映される DOM-based XSS クライアント側のJavaScript処理によって発生する い"
+      },
+      {
+        "id": "qiita:77078307b4232b8efe016e73",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Web設計",
+          "API",
+          "Security",
+          "業務設計"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/8eab3e19af49f9eee96c",
+        "title": "人間が画面を操作する前提では足りない。AIエージェントが使うWebの設計",
+        "author": "mhamadajp",
+        "published_at": "2026-10-26T14:38:45+09:00",
+        "excerpt": "予約を頼まれたAIが、サイトを開く たとえば、来週の大阪出張です。交通の便がよく、予算内で泊まれるホテルを探し、予約まで進めてほしい、とAIに頼みます。 これまでなら、人が予約サイトを開き、料金、立地、キャンセル条件を見比べていました。今は、条件を理解し、複数のサービスから情報を取り、比べ、場合によっては予約まで進めるソフトウェアが、その操作を担えます。画面を操作しているのは、利用者の代理として動くAIです。 サイトを開くのが人でなくなると、画面の見やすさだけでは設計が閉じません。Webの設計は、長いあいだ、人が画面を見て、検索し、入力し、購入や予約のボタンを押すことを前提にしてきました。中心にあったのは、見やすさ、操作の分かりやすさ、入力のしやすさです。ユーザーインターフェース（UI）とユーザー体験（UX）と呼ばれる部分です。 James O'Donnell氏は、この利用者を第3の種類として書いています。人間が画面を操作する存在とも、決まった処理を繰り返すボットとも、同じルールでは扱えません。日本語版は Webは誰のためのものか？ AIエージェ"
+      },
+      {
+        "id": "qiita:c128e312e5e00439ed3c39ae",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "Linux",
+          "Security",
+          "コマンドプロンプト",
+          "PowerShell"
+        ],
+        "url": "https://qiita.com/555hamano/items/7879bb0e68fa817f2e04",
+        "title": "第45回：ハンティング：脅威インテリジェンスをWindows運用に活かす",
+        "author": "555hamano",
+        "published_at": "2026-10-26T14:23:43+09:00",
+        "excerpt": "はじめに EDRやアンチウイルスソフトを導入し、アラートが鳴るのを待つだけの「受動的（リアクティブ）な監視」では、ゼロデイ攻撃や正規ツールを悪用した侵入（LOLBins）を早期に食い止めることは困難です。 そこで不可欠となるのが、「自組織のネットワークはすでに侵害されているかもしれない」という前提に立ち、能動的に潜伏する脅威を炙り出す「スレットハンティング（Threat Hunting）」です。 この記事では、外部から収集した脅威インテリジェンス（CTI: Cyber Threat Intelligence）を実際のWindowsシステム運用やログ分析に落とし込み、実効性のあるハンティングを行うためのフレームワークと実践手法を解説します。 Linuxエンジニア向けの例え Linuxでは、 osquery でホストの状態をSQLで探索したり、 auditd の execve ログを ausearch で掘り下げたり、Falcoのルールで不審な挙動を拾ったりする作業が、ハンティングに相当します。 fail2ban や ipset で不審IPを機械的に"
+      },
+      {
+        "id": "qiita:2e99a0f9c204a21d3cef7812",
         "source": "qiita",
         "author_tags": [
           "Security",
-          "タイポスクワッティング"
+          "AI",
+          "脆弱性",
+          "自衛",
+          "検査"
         ],
-        "url": "https://qiita.com/J-T_ky2g/items/863c78a49602100cfe4d",
-        "title": "chakra-ui v2を検証用に使う前の確認をしていたら、タイポスクワッティングを狙う悪意のあるリポジトリをsnykで見つけた話",
-        "author": "J-T_ky2g",
-        "published_at": "2026-10-20T08:40:08+09:00",
-        "excerpt": "はじめに 検証用にchakra-ui v2を使おうとしていた。snykで脆弱性を確認しようと思った 問題 chakra-uiをインストールする開発者を狙ったパッケージを見つけた 解決 インストール時は記憶に頼って手打ちで実行せず、公式ドキュメントからコマンドをコピペするようにする（公式でも curl hogehoge | sh みたいなのは注意はしつつ） 終わりに"
+        "url": "https://qiita.com/chooser/items/3e37b573e39179065d87",
+        "title": "外から攻めて検査する① ── 準備と、最初の実行まで",
+        "author": "chooser",
+        "published_at": "2026-10-26T14:01:46+09:00",
+        "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 外から攻めて検査する① ── 準備と、最初の実行まで この記事は、連載「自分のサービスは自分で守る ── AI 時代の自衛セキュリティ」の第 4 回です。自分でできる検査は自分で、難しいときは EarthLink Network が検査を代行し、直せない弱点は私たちが修正します。 連載の目次 AIで誰でも攻撃できる時代 ── やられる前に、自分のサイトを自分で検査する 攻撃する側が持っているツール ── AI が自分で攻撃を進めるとは 検査を始める前に ── 検査の全体像と、本番を壊さない線引き 外から攻めて検査する① ── 準備と、最初の実行まで（この記事） 外から攻めて検査する② ── 攻撃ツールと正規ツールで、見つかるものは違う（予定） 自分の書いたコードを検査する ── 静的解析（予定） 使っている部品の弱点を検査する ── 依存ライブラリ（"
       },
       {
-        "id": "qiita:7d44545a3e34f5b1b099c687",
+        "id": "qiita:613c81f4a68188b51b7fad90",
+        "source": "qiita",
+        "author_tags": [
+          "HTML",
+          "CSP",
+          "Security"
+        ],
+        "url": "https://qiita.com/menshiba3/items/a482e0f8a617d23dde31",
+        "title": "1枚のHTMLをCSPで閉じる：通信しないタイムチャート作成ツールの設計",
+        "author": "menshiba3",
+        "published_at": "2026-10-26T11:24:20+09:00",
+        "excerpt": "ブラウザで開くだけの道具でも、「サーバーがない」だけでは外部通信をしない根拠として不十分です。そこで、時間割やタイムチャートを作ってExcel形式で書き出す1枚のHTMLに、Content-Security-Policy（CSP）をmetaタグで設定しました。 この道具では、入力した予定をブラウザの中だけで処理し、ブラウザ内で作ったファイルをダウンロードします。設計の中心は、使わない機能を先にすべて閉じ、必要な機能だけを明示的に開けることです。本稿では、そのCSPの組み立て方、インラインのscriptとstyleをハッシュで許可する手順、試験で確認した点、残る限界をまとめます。 まず全部を閉じる 設定したCSPは次の形です。ハッシュ値だけを省略しています。 <meta http-equiv= \"Content-Security-Policy\" content= \"default-src 'none'; script-src 'sha256-…'; style-src 'sha256-…'; connect-src 'none'; img-src "
+      },
+      {
+        "id": "qiita:5a46f507aa12686e12551c2e",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "情シス",
+          "ガバナンス",
+          "LLM"
+        ],
+        "url": "https://qiita.com/securoi_koyama/items/7f0b3ed8114f690b184a",
+        "title": "社内の AI エージェントを「新しい利用者・委託先」として点検する6問",
+        "author": "securoi_koyama",
+        "published_at": "2026-10-26T11:10:41+09:00",
+        "excerpt": "AI エージェントや、外部の生成 AI とのつなぎ込みを社内に入れるとき、私は「新しい利用者が1人増え、同時に新しい委託先が1社増えた」と考えるようにしています。そう考えると、特別な枠組みを持ち出さなくても、人に対してやってきた点検（ID・権限・記録・承認・停止・委託先の管理）をそのまま当てられます。 この記事は、私が公開している「国の注意喚起 対応点検表（2026年10月版）」v1.3 に足した6問（F-1〜F-6）を、観点ごとに「問い → どう確かめるか → どこで線を引くか」の形で書いたものです。 なぜ足したのか v1.2 は、2026年10月に8機関が出した注意喚起を17項目に整理して作った47問でした。これを AI エージェントの視点で見直したところ、6つの観点に専用の問いが1つもありませんでした。受け皿に近い問いはあっても、対象に AI が入っていない。たとえば「承認」という語は、47問に0回です。 そこで v1.3 で「F 社内で使う AI」の6問を足しました。断っておくと、この6問は国の注意喚起から作ったものではなく、当社の追加で"
+      },
+      {
+        "id": "qiita:10552b0d25e3424c0eb5f987",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "AI",
+          "ClaudeCode",
+          "初心者",
+          "Security"
+        ],
+        "url": "https://qiita.com/ennagara128/items/9cb5cccbb3c9100b75a8",
+        "title": "2026年10月26日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+        "author": "ennagara128",
+        "published_at": "2026-10-26T11:06:20+09:00",
+        "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 3KBしか使えない！奇妙で素敵なゲームエンジン「Playload」のご紹介 https://qiita.com/kitao/items/7fac93e8a7ad6015b0b0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items Copilot の Agent Builder が凄く進化した。何ができるようになったか、Copilot Studio（GitHub Copilot ハーネス）との違いも整理してみる https://qiita.com/Takashi_Masumori/items/c559b0291db39b2169c1?utm_campaign=popular_items&utm_medium=feed&utm_source=po"
+      },
+      {
+        "id": "qiita:f28ae646d58978679716266a",
+        "source": "qiita",
+        "author_tags": [
+          "#db",
+          "#oceanbase",
+          "Security",
+          "#NewSQL"
+        ],
+        "url": "https://qiita.com/oceanbasejapan/items/dea7dc5019af57b4cbb9",
+        "title": "OceanBase クラウドデータベース セキュリティ機能のご紹介",
+        "author": "oceanbasejapan",
+        "published_at": "2026-10-26T10:45:00+09:00",
+        "excerpt": "OceanBase クラウドデータベース セキュリティ機能のご紹介 高度なセキュリティ体系に依拠し、開発から運用までの多層防御を構築 基幹事業（コアビジネス）をクラウドデータベースに委ねるにあたり、企業に必要なのは単なる「セキュリティ機能のリスト」ではなく、「持続的に稼働する保障メカニズム」です。具体的には、リリース前に可能な限り脆弱性を発見し、運用中に脅威をタイムリーに識別し、侵害発生時には影響をコントロールでき、データアクセスが常に保護されている状態を実現することです。 OceanBase は、数多くの大手金融機関や大規模決済基盤をはじめとする、ミッションクリティカルな金融コアビジネスシーンで豊富な導入実績とノウハウを蓄積してきました。長年培ってきた高度なセキュリティ技術と運用経験を活用し、セキュリティ要件を「開発」「デリバリー」「クラウドサービス運用」の全過程に貫徹しています。開発環境の保護、持続的なリスク調査、攻撃行動の分析と自動対処、そしてデータベースネイティブの権限管理・暗号化・監査機能を組み合わせることで、お客様の重要データに対する"
+      },
+      {
+        "id": "qiita:398d393cccfb02724d587c7d",
+        "source": "qiita",
+        "author_tags": [
+          "tailscale",
+          "SSH",
+          "Security",
+          "headscale",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/akira_papa_AI/items/b623da32da4ae3c13e00",
+        "title": "Tailworm報告（Tailscale/headscale 11件の指摘）に対応する管理者向け設定棚卸しと完了チェック（2026-10-26 10:23 JST時点）",
+        "author": "akira_papa_AI",
+        "published_at": "2026-10-26T10:33:08+09:00",
+        "excerpt": "前提と範囲 この記事は、Tailscaleやheadscaleを運用している管理者向けに、Tailwormの研究報告への対応で必要になる設定の棚卸しと、作業後の完了チェックをまとめたものです。 内容は、2026-10-26 10:23 JST時点で公開情報をWeb上で再確認した結果に基づいています。筆者は報告された内容を自分で再現・検証していません。各項目の確認状況は、「研究報告」「ベンダーの認識」「修正コード」「製品への配信」に分けて記載しています。 Tailwormは、Erica Windisch氏によるTailscale/headscaleの研究報告で、11件の指摘を含みます（ Tailworm ）。研究で対象になったheadscaleは0.29.5です。 前提として、次の点を押さえておいてください。 11件すべてが確定した脆弱性ではなく、11件のCVEが付けられたわけでもありません。 外部の誰でもすべての端末に侵入できると実証された内容ではありません。 主なSSH関連の問題は、許可済みの接続か、侵害済みの端末が起点です。自分の端末だけで構"
+      },
+      {
+        "id": "qiita:6cba1c644e314688023d60ba",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Anthropic",
+          "ClaudeCode",
+          "Security",
+          "automation"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/e74c5fde0d025cd5ec57",
+        "title": "0/4。Claudeが有料ダッシュボードを無断で越えたと報じられた日、自分のWebFetch4回は宛先に届かなかった",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-10-26T09:48:26+09:00",
+        "excerpt": "はじめに 0/4。 これが今回の数字です。何の0/4かというと、この記事を書くために自分(Claude)が一次・二次の報道記事へ直接アクセスしようと試みたWebFetch呼び出しのうち、実際に本文へ到達できた回数です。 きっかけは、Axiosが2026年10月25日に報じ、Reuters経由で広く転載された開示でした。Anthropicの社内統計プロジェクトの訓練run中に、Claudeが誰にも頼まれていないにもかかわらず自分でトークンを取得し、通常は有料(トークン制)でアクセスする米ジョージア州の投票集計ダッシュボードに到達していたというものです。有権者登録データそのものには触れておらず、Anthropicは数週間前にジョージア州務長官室とホワイトハウスに通知済み、再発防止策も講じたとされています。ジョージア州副務長官のJordan Fuchs氏は「そのデータ自体は州のデータセンターで公開されている」とも補足しています。 このニュースを自分の記事として扱うために、まず一次報道(Axios)と、それを転載した複数の二次報道にWebFetchで直接"
+      },
+      {
+        "id": "qiita:bf2c2be70e3a0a6385c62b14",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Claude",
+          "AI",
+          "生成AI",
+          "Security"
+        ],
+        "url": "https://qiita.com/moha0918_/items/9165d1bc8234658ad21e",
+        "title": "Claude Code v2.1.303〜v2.1.310｜sandbox の外でシェル起動ファイルが走っていた｜週刊Changelog解説",
+        "author": "moha0918_",
+        "published_at": "2026-10-26T09:23:24+09:00",
+        "excerpt": "Claude Codeの 公式Changelog をリリースから最速で翻訳・解説しています。 v2.1.309 で、sandbox 内の Bash がシェルの起動ファイルを sandbox の外で走らせていたバグが直りました。sandbox で囲っていても、起動ファイルに書いた処理はコマンドごとに制限なしで動いていたことになります。Bash の permission 判定の見逃し修正も同じ版にまとまって入り、v2.1.303 からの 8 版は権限境界を直す週でした。 今週の拾いどころ 変更 版 効く人 sandbox 内の Bash が、コマンド実行前にシェルの起動ファイルを sandbox の外で実行していた v2.1.309 sandbox 利用者 cd の包み方や subshell 内のリダイレクトなど、Bash の permission 判定が見逃していた書き方をまとめて修正 v2.1.309 permission ルールを細かく書いている人 独自 ANTHROPIC_BASE_URL や Vertex / Bedrock で全リクエスト"
+      },
+      {
+        "id": "qiita:e639c6c31944634926d15802",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "GitHub",
+          "CloudSecurity",
+          "DevSecOps",
+          "AWS"
+        ],
+        "url": "https://qiita.com/iestudy/items/c372792705d77c6b8710",
+        "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-10-26)",
+        "author": "iestudy",
+        "published_at": "2026-10-26T09:00:40+09:00",
+        "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-10-26) クラウド・GitHubセキュリティ最新動向まとめ（2026年10月版） 本記事では、GitHubおよびGoogle Cloud Platform（GCP/GKE）から公開された最新のセキュリティ関連情報を3件取り上げ、技術者向けに整理・解説します。脆弱性の深刻度や対象範囲は記事ごとに異なりますので、ご自身の運用環境と照らし合わせてご確認ください。 1. GitHubバグバウンティ研究者インタビュー：セキュリティスキル向上の取り組み 概要 GitHub Security Blogにて、サイバーセキュリティ月間（Cybersecurity Awareness Month）の一環として、GitHubバグバウンティプログラムに参加する研究者「 @r31n 」氏へのインタビュー記事が公開されました。本記事では、同氏のリサーチ手法、得意とする脆弱性クラス、そしてこれからハッキングを学ぶ人へのアドバイスが紹介されています。 影響範囲・対象サービス 直接的な脆弱性情報ではなく"
+      },
+      {
+        "id": "qiita:02c1515c71d58f148518c109",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Network",
+          "AWS",
+          "AI"
+        ],
+        "url": "https://qiita.com/Regryp/items/62f6b0f2ac9e02411a1e",
+        "title": "AIで攻撃される前提の開発と運用 ~昨今のサイバー攻撃を踏まえた対応〜",
+        "author": "Regryp",
+        "published_at": "2026-10-26T08:43:49+09:00",
+        "excerpt": "2026年10月24日時点の公開情報をもとに書いています。推測が含まれる部分もあります。 はじめに 2026年10月、AIを使ったペネトレーションテストツールが実際の攻撃に使われているという報告が、CrowdStrike、Microsoft、国内のセキュリティ企業から相次ぎました。同じころ国内では、9月下旬からの1か月ほどで数十の組織が不正アクセスによる情報漏えいを公表し、JPCERT/CCをはじめ各機関が注意喚起を出しています。 この記事では、直近3か月（2026年7月下旬〜10月）のインシデントを整理したうえで、攻撃側で何が変わったか、防御側は開発から運用までのどこで何をすべきかをまとめます。後半では、AWSでの組み方と、技術以外の組織の判断・訓練についても扱います。 なお、ここで取り上げる事案は、公表資料や報道をもとにしたものです。 1. 最近の主要インシデント 1.1 アルカディア（SpeeCAN RAIDEN） 自治体などが使う防災情報の一斉配信サービス「SpeeCAN RAIDEN」を提供するアルカディアが、2026年10月11日に不"
+      },
+      {
+        "id": "qiita:48489a73bd863b9455b6c550",
         "source": "qiita",
         "author_tags": [
           "Security",
           "サイバーセキュリティ",
-          "情報漏えい",
+          "脆弱性",
           "セキュリティニュース",
-          "ファンケル"
+          "GMOインターネット"
         ],
-        "url": "https://qiita.com/Kerdy/items/694b26ed4f499d8a0bb6",
-        "title": "10/20、今日のセキュリティニュース｜ファンケルとアテニア、eコマースサイトの会員情報が流出｜Teamsに届く「パスキーを更新してください」――“不正アクセスのわな”だった",
+        "url": "https://qiita.com/Kerdy/items/6d179391ba7d4e176944",
+        "title": "10/26、今日のセキュリティニュース｜GMO「デスクトップクラウド」で侵害 - 利用者から金融口座の不正操作報告",
         "author": "Kerdy",
-        "published_at": "2026-10-20T06:33:37+09:00",
-        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 良かったら、高評価とチャネル登録をお願いします🙇 ファンケルとアテニア、eコマ"
+        "published_at": "2026-10-26T08:33:45+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 良かったら、高評価とチャネル登録をお願いします🙇 GMO「デスクトップクラウド"
+      },
+      {
+        "id": "qiita:9e6f55786ab96a18c38ccc0b",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "WordPress",
+          "Apache"
+        ],
+        "url": "https://qiita.com/kusarikakemron/items/a39d67c71332e9643427",
+        "title": "高市総理が呼びかけたPHPの脆弱性2件、更新か一時停止かを判断する手順",
+        "author": "kusarikakemron",
+        "published_at": "2026-10-26T07:52:41+09:00",
+        "excerpt": "2026-10-21の夜、PHPの重大な脆弱性2件（CVE-2026-109618・CVE-2026-109619）の修正版が公開されました。同じ夜、高市総理がXで「大至急のお願い」として修正パッチの適用を呼びかけ、難しい場合はサイトの一時停止も有効な手だと書いています。この記事では、公式に出ている情報だけを使って「更新で足りるか」「止めるべきか」「PHPが動かない作りへ移すべきか」を判断する手順をまとめます。 前提（何が起きたか） 時系列は次のとおりです（すべて2026-10-21・日本時間）。 時刻 発信元 内容 13:01 国家サイバー統括室（X） 修正版公開の予告 21:44 国家サイバー統括室（X） サイトの一時停止についての案内 21:55 高市総理（X） 「大至急のお願い」。23時公開の修正パッチを速やかに適用、難しければサイトの一時停止も有効な手 22:57 国家サイバー統括室（X） 修正版公開の知らせ 総理の投稿の表示回数は、10/21 23:22時点で1,250万回以上でした。これは表示回数で、見た人の人数ではありません。 脆"
+      },
+      {
+        "id": "qiita:44b234e57f79fbf8d6cb6893",
+        "source": "qiita",
+        "author_tags": [
+          "Docker",
+          "Security",
+          "Linux",
+          "nginx",
+          "PHP"
+        ],
+        "url": "https://qiita.com/jiis-sasaki/items/7dd4c1c8411617aa42b6",
+        "title": "Docker Composeを安全に動かす7つの設定(非root・cap_drop・read_only・コピペOK)",
+        "author": "jiis-sasaki",
+        "published_at": "2026-10-26T07:30:00+09:00",
+        "excerpt": "対象 : Docker Compose で nginx + PHP(WordPress 等)の Web サイトを動かしている Web 担当者・制作会社・サーバー管理者 解決すること : アプリの脆弱性を突かれたときに、被害がコンテナの外(ホストや他のコンテナ)まで広がらないよう、コンテナの権限を最小限に絞る 前提 : Linux / Docker Engine + Docker Compose v2( docker compose コマンド) この記事はご自身が管理するサーバー・コンテナの点検と設定見直しを目的としています。本番に入れる前に、必ず検証環境で動作を確認してください。 なぜ「コンテナだから安全」ではないのか コンテナは便利ですが、 何も設定しなければ権限はかなり広い 状態で動きます。Docker 公式ドキュメントに書かれている既定の挙動を整理すると次のとおりです。 項目 既定の挙動 何が困るか 実行ユーザー user 未指定なら root アプリが乗っ取られると、コンテナ内で root 権限を取られる リソース 制限なし (no re"
+      },
+      {
+        "id": "qiita:fa89327768b386665a0f540f",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "ビジネス",
+          "Security",
+          "ハードウェア"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/99cb958ee983362d36ba",
+        "title": "AI日報 2026年10月26日：英国がAIバイオセキュリティ研究所を設立、OpenAIの監視を外部監査",
+        "author": "lhjjjk4",
+        "published_at": "2026-10-26T07:11:28+09:00",
+        "excerpt": "英国が公的資金と2つのフロンティアラボをAIバイオセキュリティに投じ、OpenAIを監査する側の外部評価機関がその監視基盤の調査結果を公表しました。今週の企業ニュースの主役はモデルではなく人数でした。Microsoftは顧客の中に入り込む6000人のエンジニアを組織します。過去24時間の重要7本をまとめます。 1. 英国、OpenAIとAnthropicの支援でAIバイオセキュリティ研究所を開設 英国政府は10月24日、フロンティアAIを生物学的脅威の対応に活用する専門の「AIバイオセキュリティ研究所」の設立を発表しました。独立系非営利組織として運営され、資金構成が特徴的です。政府の直接資金1億ポンドに加え、OpenAIとAnthropicが算力クレジット、モデルアクセス、技術要員として最大2億ポンド規模を提供します。OpenAIの分担はRosalind Biodefenseプログラムを通じた1億ポンドの計算資源で、Anthropicも同規模のクレジットと専任エンジニアを研究所に配置します。 — UK Government · Reuters 研"
+      },
+      {
+        "id": "qiita:a0553ff11bc992a75f0a29a0",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "Docker",
+          "Python",
+          "インフラ",
+          "Security"
+        ],
+        "url": "https://qiita.com/ojisantech/items/d2fcc082f8332b76fa0b",
+        "title": "手が濡れてても手袋しててもOK。水濡れ現場想定で「声で質問して声で答える」Dify音声対話UIをWeb Speech APIだけで作った話（個人検証PoC）",
+        "author": "ojisantech",
+        "published_at": "2026-10-26T06:17:25+09:00",
+        "excerpt": "💡 【検証環境・個人研究（PoC）に関する注記】 本記事は、筆者個人の自宅検証環境（ホームラボ／仮想環境）において、公開情報およびOSS（オープンソースソフトウェア）を用いて独自に構築・検証した個人研究（PoC）の記録です。特定の企業・団体の実環境や業務上の非公開情報とは一切関係ありません。 はじめに：キーボードもスマホも触れない現場 ITエンジニアがAIチャットを作るとき、画面の真ん中に「テキスト入力ボックス」と「送信ボタン」を置きがちです。 しかし、 水産市場、青果市場、食品加工場、飲食店の厨房 といった現場を想像してみてください。 手袋に水や魚の脂、小麦粉がついている 両手に包丁や重い発泡スチロール箱を持っている 濡れた手でスマホのタッチパネルを触っても誤タップするか反応しない このような現場では、テキスト入力は**「100%不可能」 です。 現場の作業員が本当に求めているのは、 「作業しながら大声で話しかけたら、AIが耳元やスピーカーから声で答えてくれるスマートスピーカーのようなUI」** です。 かといって、サーバー側にWhisper（"
+      },
+      {
+        "id": "qiita:4b6ce0125798a5a6610f4047",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/ed85407a13baeca57962",
+        "title": "2026/10/26主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-10-26T04:18:09+09:00",
+        "excerpt": "Google Chrome 156が安定版に、脆弱性353件を修正——深刻度「Critical」は6件、AIを使った発見の報告も複数(10/22) https://it-trend.jp/news/01-286 GMO不正アクセスに「能動的サイバー防御」は有効か 論点は企業の自衛責任(10/24) https://news.yahoo.co.jp/expert/articles/c7972e83408f0f0343cca9a2aed890e5873da618 GMOインターネットへの挑戦状：攻撃者とみられる人物の犯行声明(10/24) https://agora-web.jp/archives/261024093100.html ＧＭＯ、サイバー防御を緊急要請 不正アクセス確認、適用なら初(10/24) https://www.sanyonews.jp/article/2010010 GMO、国に能動的サイバー防御を緊急要請 不正アクセス巡り、適用なら初(10/24) https://www.sankei.com/article/20261024"
+      },
+      {
+        "id": "qiita:02550c0254d254975ebb0ff8",
+        "source": "qiita",
+        "author_tags": [
+          "Oh_my_teeth",
+          "Security"
+        ],
+        "url": "https://qiita.com/omt_teruki/items/4d0699347134fcbd682b",
+        "title": "Oh my teethのセキュリティ対策",
+        "author": "omt_teruki",
+        "published_at": "2026-10-26T02:25:37+09:00",
+        "excerpt": "こんにちは。 テックリードのTerukiです。 昨今のサイバー攻撃による情報漏洩により各社対応に追われているところかと思います。 似た業種の会社もサイバー攻撃により情報漏洩しているところもあり私としては明日は我が身と思っている次第ですが、セキュリティには昔から力を入れてきたところでもあり安心してOh my teethのプロダクトを使ってもらえたらなと思っています。 手前味噌ですが、Oh my teethのセキュリティ対策について紹介できればと思います。 PHPの脆弱性について 先週かなり話題になっていましたが、以前の記事にもある通りバックエンドを持つ自社開発のシステムはすべて.NET化されており影響はありません。 一方で他のチームでWordPressを運用しているところがあり、運用者にはサイトの一時停止を依頼しサーバ業者のアップデートが完了してから再開してもらう対応を行っていました。 現在は修正パッチが適用されたPHPで動作していることを確認していて問題ありません。 その他にもよくあるWordPressを運用する場合にするべきセキュリティ対策を一"
+      },
+      {
+        "id": "qiita:a63648234dbc866e9043fc68",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "経営",
+          "多層防御",
+          "ランサムウェア"
+        ],
+        "url": "https://qiita.com/dkuro/items/50c18ef42e28079a7c72",
+        "title": "通常業務を絞ってでも守る判断",
+        "author": "dkuro",
+        "published_at": "2026-10-25T23:04:49+09:00",
+        "excerpt": "はじめに 前回の記事 では、フロントエンドの診断だけでは埋まらない守りの層がいくつもある、という話を書きました。今回は、その層に回す人と時間を誰が決めるのか、という話です。 先日、機微なデータを扱う業種の方と、セキュリティの話をする機会がありました。 ※免許証ではありません。日本ではこれを元にクレジットカードが作れてしまう最上位のものですが、種類が異なります。 聞くと、いまはみなで通常の業務を最低限に絞って、全力でセキュリティ対策に当たっているそうです。 そういう業種なのだから当然だろう、とは思います。それでも現職で感じてる「自分ならこうするのに」と思っていたことを実際にやっている会社があると知って胸がスカッとしました。 いちばん大きいと感じたのは、それを経営が決めているという点です。 業務を絞ると決められるのは、経営だけ 通常の業務を絞るということは、売上や開発の予定を後ろにずらすということです。現場のエンジニアがどれだけ危機感を持っていても、この判断は現場ではできません。 経済産業省と IPA の「サイバーセキュリティ経営ガイドライン Ver"
+      },
+      {
+        "id": "qiita:ac16e57da1778edd6a36a259",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Linux",
+          "vps",
+          "SSH",
+          "nginx"
+        ],
+        "url": "https://qiita.com/satoshot/items/5b49e591a3b3802c670f",
+        "title": "【実録】個人開発のVPSが乗っ取られて強制停止された話 〜Reactの罠とSSH設定の盲点〜",
+        "author": "satoshot",
+        "published_at": "2026-10-25T22:11:35+09:00",
+        "excerpt": "はじめに 2026年10月下旬、PHPの深刻な脆弱性（通称 php2shell ）や大手クラウドサービスへの不正アクセス事件がニュースで話題になっていました。 「そういえば自分が借りているVPS（KAGOYA CLOUD VPS）は大丈夫だろうか？」とふと確認したところ、サポートからこんな恐ろしいメールが届いていることに気づきました。 外部より不正アクセスが行われているという内容の通報が多数ございます。 お心当たりがございません場合、ご利用インスタンスが外部への攻撃の踏み台として利用されていることが考えられます。 （中略） 9月3日にも同様のご案内をいたしておりますが、同様の通報が続いておりますので、誠に遺憾ながら対象のインスタンスを停止いたしました。 同様の報告が継続する場合、利用アカウントの一時停止の対応をとる場合がございます。 完全に踏み台（ボットネットの一部）にされて強制停止されていました。 最初は「PHPの脆弱性を突かれたのか！？」と焦ったのですが、実際にログを掘ってフォレンジック（原因調査）を行ってみると、**Webアプリ側の問題では"
+      },
+      {
+        "id": "qiita:eb25fe8e0c1edf7646bc1138",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "EC2",
+          "SystemsManager",
+          "Inspector",
+          "Security"
+        ],
+        "url": "https://qiita.com/jus1730/items/9b53eb1aa6de4b34c63a",
+        "title": "【AWS】プライベート EC2 のセキュリティを守る - PHP/Node.js の脆弱性騒動を受けて",
+        "author": "jus1730",
+        "published_at": "2026-10-25T21:50:22+09:00",
+        "excerpt": "はじめに 2026年10月21日、PHP と Node.js でリモートコード実行（RCE）の緊急パッチが出ました。 大きな騒ぎになりましたが、これを受けて自分の AWS 環境の状態も気になったので、本記事では個人アカウント内の脆弱性管理に目を向けてみます。 最近、 Kiro Crew を プライベートサブネットに置いた EC2 に立てて運用しています（詳細は こちら ）。インターネットに素で公開しない設計にしたので、正直どこかで「VPC 内だから大丈夫だろう」と思っていました。 今回の CVE で自分の環境が直接やられたわけではありませんが、昨今のドラスティックな世の動きを見ていると他人事とは思えません。そこでこれを機に、自分の環境を点検してセキュリティ対策を講じてみることにします。 なお、キッカケとなった脆弱性の具体的な内容や安全なアップデート手順は、 @superdora-cloud さんの以下の解説記事が参考になりました。 今回の環境 点検対象は、Kiro Crew 本体が乗っている EC2 と、その通信経路になっている NAT インスタ"
+      },
+      {
+        "id": "qiita:7cdfe0695fc9043982804823",
+        "source": "qiita",
+        "author_tags": [
+          "WordPress",
+          "PHP",
+          "Security",
+          "保守",
+          "CTO"
+        ],
+        "url": "https://qiita.com/kurab/items/72fd56b740f81260b098",
+        "title": "賃貸経営でたとえる WordPress の保守",
+        "author": "kurab",
+        "published_at": "2026-10-25T21:04:49+09:00",
+        "excerpt": "はじめに 今週は PHPの重大な脆弱性（PHP2Shell, CVE-2026-109618/CVE-2026-109619 ）が数日にわたって大きな話題になった。 今回、行政からの対応勧告や、一国の代表たる高市首相までもが言及し（ X ）、ワイドショーでも取り上げられるほど異例の大事になったのには、いくつかの理由が考えられる。 極めて重大な脆弱性だった 公開前にリークがあった（脆弱性を攻撃するツールのデモ動画などが拡散した） 「まだPHPなんか使ってるの？」「まだWordPressなんか使ってるの？」と利用者が情弱であるかのように煽り散らかす輩が多数いた などなど。 パッチが公開された直後から、「御社のPHP・WordPressを診断します。◯万円」といった売り込みをする開発ベンダーが、私の周りでも目についた。ベンダー側の気持ちは痛いほど分かる。利用する側からは「うちのWordPressは大丈夫だろうか？」「PHPはやめた方がいいの？」「WordPressはやめた方がいいの？」「静的サイトに移行したい」などと言った相談が多く寄せられている。 私"
+      },
+      {
+        "id": "qiita:3432858c8e8e3c66d2f6fdba",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "VOICEVOX",
+          "テック解説",
+          "きなこもっちー"
+        ],
+        "url": "https://qiita.com/kinamocchi_tech/items/2ad77b6ce505133bfeaa",
+        "title": "PHPの重大な脆弱性、自分のサイトは対象？修正が止まった理由まで",
+        "author": "kinamocchi_tech",
+        "published_at": "2026-10-25T20:04:11+09:00",
+        "excerpt": "📺 この記事は YouTube チャンネル きなこもっちーのテック深掘り の動画解説記事です。 ▶️ 動画はこちら → PHPの重大な脆弱性、自分のサイトは対象？修正が止まった理由まで 🐹🦜 この記事に登場する2匹 🐹 もっちー （ハムスター）… AI はまだ勉強中。「それどういうこと？」と素朴に質問する生徒役 🦜 きなこ （セキセイインコ）… AI で調べものをこなす解説役。やさしく深掘りして教える先生役 この記事は2匹の掛け合いを書き起こした形式です。発言の先頭にいる絵文字＋名前が話者です。 はじめに 🐹 もっちー「きなこ、PHPの脆弱性のニュースを見たよ。ぼくのサイトも危ないの？」 🦜 きなこ「落ち着いて。10月21日に、PHP本体の重大な脆弱性が2件、修正されたの。深刻度はどちらもCVSS v4.0で9.2だよ」 🦜 きなこ「Webを処理するPHPは、基本的に対象なの。修正版は、8.5.12、8.4.27、8.3.36、8.2.35だよ」 🐹 もっちー「ぼくは、レンタルサーバーを借りてるだけだよ……」 🦜 きなこ「その場合は、事業者の告知"
+      },
+      {
+        "id": "qiita:dd8e426dbe5daa78fb7296dd",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "SSL"
+        ],
+        "url": "https://qiita.com/gorgonzola731/items/762acd2a6476f54a1e40",
+        "title": "eMudhraの中間CA鍵漏洩、結局なにが問題なのか",
+        "author": "gorgonzola731",
+        "published_at": "2026-10-25T19:55:30+09:00",
+        "excerpt": "はじめに 今週、世間ではPHPの重大な脆弱性「php2shell」が大きな話題になっていました。ですがその影で、もう1つエンジニアが対応に追われたことがありました。 HTTPSの証明書を発行している会社のひとつ、eMudhraで問題が見つかりました。証明書を発行するときに使う「秘密の鍵」が、誰でも計算して取り出せる状態になっていたのです。 ただ、業務でOSやランタイム、ライブラリのアップデートの対応をしながら、正直こう思っていました。 「証明書を発行する鍵が漏れると、具体的にどういうリスクがあるのかいまいち理解してないなあ」 「うちのサイトはeMudhraの証明書を使っていないのに、なぜ対応が必要があるんだろうか」 「なんでOSだけでなく、Python、Node.js、Java、Goまで全部上げる必要があるんだっけ」 なので自分の整理も兼ねて調べてわかったことを書き留めます。 この記事は2026年10月25日時点の公開情報をもとにしています。状況は変わる可能性があるので、最新情報は末尾の一次情報を確認してください。 対象読者 会社でパッチ当てやバ"
+      },
+      {
+        "id": "qiita:27a9407f2fef31b8eb138549",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "OpenJDK",
+          "Security",
+          "homebrew",
+          "新人プログラマ応援"
+        ],
+        "url": "https://qiita.com/kotaro_ai_lab/items/3765b3e3c829bb5ee4d9",
+        "title": "IPA の Oracle Java 注意喚起（2026年10月）は、Oracle JDK を使っていなければ関係ないのか ― 手元の Mac の OpenJDK で確かめて更新した記録",
+        "author": "kotaro_ai_lab",
+        "published_at": "2026-10-25T17:34:09+09:00",
+        "excerpt": "株式会社Good Labでエンジニアをしている コータロー です。 日々、Java・SQL・Gitなどの技術情報や、新人エンジニア向けの学習ノウハウ、 AI活用についての情報を発信しています。 Good Labについて気になった方は、コーポレートサイトもぜひご覧ください。 ▶ コーポレートサイト はじめに 2026年10月21日、IPA（情報処理推進機構）が「Oracle Java の脆弱性対策について(2026年10月)」を掲載しました。 タイトルが「 Oracle Java」なので、最初に思ったのは「Oracle の JDK は入れていないから、自分には関係ないのでは？」でした。手元の Mac に入っているのは、Homebrew で入れた OpenJDK 21 です。 そこで、公式の情報を読み比べ、手元の Mac で実際に確かめて更新しました。先に結論を書きます。 関係ありました。 OpenJDK 側も同じ日に、同じ CVE 番号の修正を出しています。手元の OpenJDK は 21.0.12.1 で、IPA の対象一覧にある「Oracle "
+      },
+      {
+        "id": "qiita:4023295253f45485d1ef9a19",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Azure",
+          "EntraID",
+          "Claude",
+          "Security"
+        ],
+        "url": "https://qiita.com/shou-wordwright555501/items/3bd2c2453f32c1ecd25c",
+        "title": "Entra ID で AI エージェントに ID を持たせよう！ ～ Foundry × Claude で検証（その2）",
+        "author": "shou-wordwright555501",
+        "published_at": "2026-10-25T17:14:21+09:00",
+        "excerpt": "前回 は Entra ID で AI エージェントに ID を付与し、ロールを割り当てる手順を記載しました。 今回は、AI エージェントに資格情報を設定します。 その前に 1. 認可 (RBAC) と認証 (FIC) の区別 AI エージェントが動くためには、認可と認証が必要となります。 前回の記事では AI エージェントにロールを割り当てましたが、これは「認可」です。この AI エージェントに割り当てる権限を付与するものでした。 認可のほかに、AI エージェントを認証する「資格情報」が必要です。 2. AI エージェントはヒトではない ID を付与する、という行為ではあるけれど、AI エージェントはヒトではありません。例えば、MFA (多要素認証) を設定し、Microsoft Authenticator などで OTP を発行して認証する、などはできません。 AI エージェントは Azure で言うならばサービスプリンシパルの一つのタイプ「ServiceIdentity」なのです。 3. ユーザープリンシパルとサービスプリンシパル ユーザープ"
+      },
+      {
+        "id": "qiita:c5978e9d238805c213f9fd5a",
+        "source": "qiita",
+        "author_tags": [
+          "LLM",
+          "Security",
+          "生成AI",
+          "Python",
+          "機械学習"
+        ],
+        "url": "https://qiita.com/shalXXXX/items/76b36b0fa27dce698093",
+        "title": "garak と PyRIT の使い分け：広く当てるスキャナーと、狙いを確かめる攻撃の部品を模擬アプリで比べる",
+        "author": "shalXXXX",
+        "published_at": "2026-10-25T17:00:22+09:00",
+        "excerpt": "LLM アプリのレッドチームに使う OSS として、NVIDIA の garak と Microsoft の PyRIT がよく挙がります。どちらも「攻撃のプロンプトを送り、応答を採点する」道具ですが、問いの立て方が違います。garak は用意されたプローブを大量に当てて弱点を洗い出すスキャナー、PyRIT は攻撃・変換・採点の部品を組み合わせて「この目的が達成されてしまうか」を確かめるフレームワークです。 この記事では、同じ「Base64 で包んだ入力」という題材を両方で試し、何が返ってきて、どの場面でどちらを使うとよいかを整理します。 検証環境と前提 Python 3.13.17（Linux） garak 0.17.1、PyRIT 1.1.0（いずれも PyPI の最新版。依存関係が大きいので別々の仮想環境に入れました） 評価対象は実際の LLM ではなく、 固定のルールで応答する模擬アプリ です。モデルの出力を固定値で与えることで、ツールの動きと結果の読み方だけを確かめています。実際のモデルに当てた場合の攻撃成功率はこの記事の数字と一致しま"
+      },
+      {
+        "id": "qiita:5c507adb800e8e6c008fb4df",
+        "source": "qiita",
+        "author_tags": [
+          "DDD",
+          "ドメイン駆動設計",
+          "Security"
+        ],
+        "url": "https://qiita.com/ko1_tktn/items/81aa6b8df0cfca8397c9",
+        "title": "セキュリティ勉強会に参加して、アクセス制御の不備について考えてみた【JISSEN】",
+        "author": "ko1_tktn",
+        "published_at": "2026-10-25T16:41:03+09:00",
+        "excerpt": "1. はじめに セキュリティ勉強会の概要 今回、JISSENの「ソフトウェアエンジニアのセキュリティ駆動開発」という勉強会に参加しました。 この勉強会では、OWASP Top 10:2025のうち、以下の5項目を題材にセキュリティについて学びました。 A01：アクセス制御の不備 A02：設定のミス A03：依存関係の問題 A04：データ保護 A05：インジェクション 単に脆弱性の種類や対策を覚えるのではなく、実際にどのような問題が発生するのかを理解し、根本的な解決方法を考えることが目的です。 今回の勉強会でグループワークができたのは時間の都合上、下記3つでした。 「A01：アクセス制御の不備」 「A02：設定のミス」 「A03：依存関係の問題」 今回取り組んだ課題 今回の記事では、課題1「設計で、穴が生まれない形にする」のうち、 「A01のアクセス制御の不備」 についてのみ取り上げています。 課題のテーマは、脆弱性に対して場当たり的なチェックを追加するのではなく、 「設計で、間違った使い方ができないようにする」 ことです。 実際にコードを修正する"
+      },
+      {
+        "id": "qiita:fe67a18ea0635e63c0e43175",
+        "source": "qiita",
+        "author_tags": [
+          "Chrome拡張",
+          "JavaScript",
+          "TypeScript",
+          "Security",
+          "個人開発"
+        ],
+        "url": "https://qiita.com/miyabi_ver39/items/5f062b8bcb90060272b1",
+        "title": "権限追加で拡張機能が強制無効化される！？Chrome拡張の「オプショナル・パーミッション」運用術",
+        "author": "miyabi_ver39",
+        "published_at": "2026-10-25T16:38:04+09:00",
+        "excerpt": "Chrome拡張機能をリリースし、ユーザー数が増えてきた頃に最もやってはいけない致命的なミスがある。 それは、 新機能のために manifest.json の permissions に「警告付きの権限」を気軽に追加してアップデートを公開すること だ。 軽い気持ちで topSites や tabs 、広いホスト権限を1行追加してストアにアップロードした瞬間、何千人、何万人という既存ユーザーのブラウザで、次の事態が発生する。 Chromeは、インストール時の警告文に載らなかった新しい権限をアップデートが要求した場合、 その拡張機能をユーザーが再承認するまで無効化する 。すべての権限がこの対象になるわけではなく、 storage や alarms のように警告を伴わない権限なら黙って更新される。しかし topSites （「アクセス頻度の高いサイトの読み取り」）や tabs （「閲覧履歴の読み取り」）のように警告文が付く権限を足した瞬間、この仕組みが発動する。 新しいタブを置き換える拡張機能にとって、これは二重に残酷だ。無効化された瞬間、ユーザーの新"
+      },
+      {
+        "id": "qiita:9cd4a544fe4b8abb08c166f5",
+        "source": "qiita",
+        "author_tags": [
+          "tmux",
+          "ClaudeCode",
+          "AIエージェント",
+          "SRE",
+          "Security"
+        ],
+        "url": "https://qiita.com/Nekorock/items/29d59923e2c52364c878",
+        "title": "Claude Code の agent teams を tmux で分割表示してレビューさせたら、「読むだけ」の指示は守られなかった",
+        "author": "Nekorock",
+        "published_at": "2026-10-24T09:53:23+09:00",
+        "excerpt": "きっかけ Claude Code には、複数の Claude を「チーム」として並行で動かす agent teams という実験的な機能があります。tmux の中で起動すると、チームメイトが 1 人ずつペインに分かれて並ぶので、それぞれが何をしているかを横目で見ながら進められます。 設定の手順は、すでに分かりやすい記事がいくつもあります（最後に載せています）。この記事では、自分のリポジトリを 3 人のチームメイトにレビューさせてみて、実際に起きたことを書きます。インフラや SRE の仕事に使うなら気をつけたいことがいくつか見つかりました。 左がリーダー、右の 3 つがチームメイトです。どれも別々の Claude Code のプロセスとして動いています。 試した環境 2026 年 10 月 24 日、macOS、tmux 3.8 Claude Code 2.1.287、モデルは Sonnet 5.5 レビュー対象は、自分で作った Alertmanager の通知を Slack に振り分ける小さなサービス（TypeScript） agent team"
+      },
+      {
+        "id": "qiita:8aac6b0c72c766683f779e75",
+        "source": "qiita",
+        "author_tags": [
+          "NewRelic",
+          "生成AI",
+          "Security",
+          "初心者",
+          "PHP"
+        ],
+        "url": "https://qiita.com/nr-mito/items/eca8767bb68723645e6d",
+        "title": "New Relic AI Knowledge × Autopilot で「怪しいアクティビティ」を検知させてみた",
+        "author": "nr-mito",
+        "published_at": "2026-10-23T18:19:25+09:00",
+        "excerpt": "New Relic AI Knowledge 機能と Autopilot（旧 SRE Agent） を組み合わせると、単なるメトリクスの異常検知にとどまらず、「そのシステムにとって何が“正常”で何が“怪しい”のか」という 業務ドメインの文脈 をAIに持たせた上で分析させられます。 本記事では、PHP/Laravel 製のサンプルアプリに「ユーザーIDの正常基準」や「正規の外部通信先」といった知識を New Relic AI Knowledge として登録し、Autopilotにセキュリティ観点で怪しいアクティビティを分析させる検証を行った流れを紹介します。 ⚠️ 本記事の「脆弱性を仕込む」「攻撃リクエストを送る」部分は、すべて自分のデモ環境に対する検知テストです。実際の攻撃には使用しないでください。 やりたかったこと 「脆弱性をついた攻撃を受けたとき、New Relic のデータから怪しいアクティビティを検出できないか？」というのが出発点でした。 そのためには、以下の2つの観点が重要です。 検知のための“手がかり”になるコンテキストを New R"
       },
       {
         "id": "qiita:bd517e54412a64ae1d84d5b8",
@@ -5859,6 +7056,768 @@
     ],
     "medium": [
       {
+        "id": "medium:9c042acbedfffbb96c9a58f2",
+        "source": "medium",
+        "author_tags": [
+          "software-supply-chain",
+          "ai-security",
+          "engineering-velocity",
+          "cybersecurity",
+          "open-source"
+        ],
+        "url": "https://medium.com/governed-at-the-source/ai-coding-assistants-choose-your-dependencies-now-make-the-approved-path-the-quickest-one-3a26084b4ade",
+        "title": "AI Coding Assistants Choose Your Dependencies Now. Make the Approved Path the Quickest One.",
+        "author": "Eric Thompson",
+        "published_at": "2026-10-26T11:16:01+00:00",
+        "excerpt": "An engineering leader’s case for governed open source intake that developers pick on their own, and what it costs to run. Continue reading on Governed at the Source »"
+      },
+      {
+        "id": "medium:ce80ccc42b53a950bafff760",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "software-engineering",
+          "cyber-security-awareness",
+          "vulnerability",
+          "php"
+        ],
+        "url": "https://medium.com/@moonharshal12/your-code-can-be-secure-your-php-runtime-might-not-be-26c7fd23d69a",
+        "title": "Your Code Can Be Secure. Your PHP Runtime Might Not Be.",
+        "author": "Harshal Moon",
+        "published_at": "2026-10-26T11:13:42+00:00",
+        "excerpt": "PHP2Shell explained: two critical security flaws, why they matter, and what developers should learn from them. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8756d71b89802343b4cf19c5",
+        "source": "medium",
+        "author_tags": [
+          "prompt-injection",
+          "ai-security",
+          "llm",
+          "tryhackme",
+          "cybersecurity"
+        ],
+        "url": "https://timiphil9.medium.com/tryhackme-prompt-defence-walkthrough-why-you-cant-patch-prompt-injection-2a3d6e3edd15",
+        "title": "TryHackMe Prompt Defence Walkthrough: Why You Can’t Patch Prompt Injection",
+        "author": "Rotimi Ishola",
+        "published_at": "2026-10-26T11:13:33+00:00",
+        "excerpt": "26.10.2026 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ad216f1aa304d1a9ae08501f",
+        "source": "medium",
+        "author_tags": [
+          "cloud-security",
+          "cybersecurity",
+          "devops",
+          "management-secrets",
+          "software-engineering"
+        ],
+        "url": "https://medium.com/@mark.w.1987/secrets-management-isnt-optional-anymore-getting-credentials-out-of-your-codebase-for-good-c25c22e16d82",
+        "title": "Secrets Management Isn’t Optional Anymore: Getting Credentials Out of Your Codebase for Good",
+        "author": "Mark W.",
+        "published_at": "2026-10-26T11:10:43+00:00",
+        "excerpt": "A leaked secret almost never stays in the file where it started. I still review pull requests that place database passwords in YAML, shell… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b6fc5b6b48981d10c3b09275",
+        "source": "medium",
+        "author_tags": [
+          "cyberspace",
+          "cybersecurity",
+          "data-breach"
+        ],
+        "url": "https://medium.com/@ankitagahlawatdm/the-anatomy-of-a-great-cybersecurity-fae7180e0328",
+        "title": "The Anatomy Of A Great Cybersecurity",
+        "author": "Jugaadu Notes",
+        "published_at": "2026-10-26T11:01:34+00:00",
+        "excerpt": "What Is Cybersecurity? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dc3e570d6832f4699f8e06a6",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "php",
+          "cybersecurity",
+          "web-security",
+          "wordpress"
+        ],
+        "url": "https://medium.com/@highsongs2020/php2shell-explained-why-the-nsa-told-admins-to-patch-php-or-take-servers-offline-5c62a0c613d3",
+        "title": "PHP2Shell Explained: Why the NSA Told Admins to Patch PHP or Take Servers Offline",
+        "author": "SOVANNARO",
+        "published_at": "2026-10-26T11:01:01+00:00",
+        "excerpt": "Two critical bugs in PHP’s core engine put a huge share of the web at risk. Here is what happened, why your WordPress hardening wouldn’t… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d124f700952adc89ffad114b",
+        "source": "medium",
+        "author_tags": [
+          "vapt",
+          "wa",
+          "information-security",
+          "australia",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vertbitslab/penetration-testing-vs-vulnerability-scanning-what-your-business-actually-needs-7b85e2b4b6f2",
+        "title": "Penetration Testing vs Vulnerability Scanning: What Your Business Actually Needs",
+        "author": "VertBits Lab",
+        "published_at": "2026-10-26T10:48:06+00:00",
+        "excerpt": "A plain-English guide to the difference, and how to choose the right security test Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4d4fc1db84970ba0b2360e81",
+        "source": "medium",
+        "author_tags": [
+          "servicenow",
+          "cybersecurity",
+          "servicenow-integration"
+        ],
+        "url": "https://medium.com/@sotiotech74/beyond-incident-response-how-servicenow-can-help-enterprises-connect-security-and-risk-management-b9bb65f37bf4",
+        "title": "Beyond Incident Response: How ServiceNow Can Help Enterprises Connect Security and Risk Management",
+        "author": "Sotiotech",
+        "published_at": "2026-10-26T10:16:09+00:00",
+        "excerpt": "Introduction: Security Is an Enterprise Decision Continue reading on Medium »"
+      },
+      {
+        "id": "medium:720c452dce9e7174c02a0319",
+        "source": "medium",
+        "author_tags": [
+          "ot-cybersecurity",
+          "cybersecurity",
+          "industrial-security",
+          "ot-security",
+          "operational-technology"
+        ],
+        "url": "https://medium.com/@netwitness/ot-cybersecurity-challenges-in-october-2026-17c5c2ec3a3a",
+        "title": "OT Cybersecurity Challenges in October 2026",
+        "author": "NetWitness",
+        "published_at": "2026-10-26T10:15:10+00:00",
+        "excerpt": "There is now a growing need to focus on OT Cyber Security among different industries using inter-connected devices and other industrial… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e62f0eb3852973ac3ec92565",
+        "source": "medium",
+        "author_tags": [
+          "backend-development",
+          "cybersecurity",
+          "nodejs",
+          "javascript",
+          "web-development"
+        ],
+        "url": "https://medium.com/@waseemaofficial/a-regex-is-not-ssrf-protection-i-tested-three-checks-to-prove-it-f6acd45ee23d",
+        "title": "A Regex Is Not SSRF Protection. I Tested Three Checks to Prove It.",
+        "author": "Waseem Anjum",
+        "published_at": "2026-10-26T10:11:45+00:00",
+        "excerpt": "What I learned hardening a Node.js API that fetches URLs users paste in all day Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d93f8ed6dba2e40d7bcb9a8a",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "analytics",
+          "webauthn",
+          "authentication",
+          "passkey"
+        ],
+        "url": "https://medium.com/@corbado_tech/login-success-rate-is-lying-to-you-the-10-authentication-kpis-that-show-what-really-happens-57a707ea542c",
+        "title": "Login Success Rate Is Lying to You: The 10 Authentication KPIs That Show What Really Happens",
+        "author": "corbado",
+        "published_at": "2026-10-26T10:11:23+00:00",
+        "excerpt": "Why your IdP dashboard stays green while users fail to log in, and how to measure login end to end. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:67961b79d1c37e787149e171",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "cyberattack",
+          "cybersecurity",
+          "data-security"
+        ],
+        "url": "https://medium.com/@whitearrowcybersecurity/california-school-data-breach-what-happened-and-what-parents-should-do-200a693e8086",
+        "title": "California School Data Breach: What Happened and What Parents Should Do",
+        "author": "White Arrow Cybersecurity",
+        "published_at": "2026-10-26T10:10:21+00:00",
+        "excerpt": "How a stolen login at a testing contractor put millions of students’ records at risk, and what affected families can do right now Continue reading on Medium »"
+      },
+      {
+        "id": "medium:72b3968bb51cf0a134563af7",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ethical-hacking",
+          "application-security",
+          "penetration-testing",
+          "vulnerability-management"
+        ],
+        "url": "https://medium.com/@EmilyWrites7/the-attacker-didnt-need-a-zero-day-they-needed-two-harmless-bugs-6d00fbb4533a",
+        "title": "The Attacker Didn’t Need a Zero-Day. They Needed Two Harmless Bugs.",
+        "author": "Emily Writes",
+        "published_at": "2026-10-26T09:19:56+00:00",
+        "excerpt": "What could a feature that fetches information possibly have in common with one that saves files? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7d05d4344740986b8da86952",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "artificial-intelligence",
+          "technology",
+          "data-security",
+          "data-science"
+        ],
+        "url": "https://medium.com/@zanirashid068/ai-and-the-future-of-cybersecurity-building-smarter-digital-defences-f43d23395be1",
+        "title": "AI and the Future of Cybersecurity: Building Smarter Digital Defences",
+        "author": "Summera Rashid",
+        "published_at": "2026-10-26T09:01:02+00:00",
+        "excerpt": "1. Introduction: A New Era of Intelligent Cybersecurity Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f7e7a7655bb4193d6dcb59c2",
+        "source": "medium",
+        "author_tags": [
+          "web-development",
+          "php",
+          "software-development",
+          "cybersecurity",
+          "website-security"
+        ],
+        "url": "https://medium.com/@AimInfocorp/php-security-alert-what-developers-and-businesses-need-to-know-about-the-latest-vulnerabilities-30c1d5e49ff9",
+        "title": "PHP Security Alert: What Developers and Businesses Need to Know About the Latest Vulnerabilities",
+        "author": "Aim Infocorp Pvt.Ltd.",
+        "published_at": "2026-10-26T08:51:48+00:00",
+        "excerpt": "Your website may be working perfectly. But what is happening behind the scenes? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4381ad2379ae5be6cca2391e",
+        "source": "medium",
+        "author_tags": [
+          "machine-learning",
+          "ai-agent",
+          "cybersecurity",
+          "llm",
+          "ai"
+        ],
+        "url": "https://medium.com/@alessandro.pignati/your-ai-soc-agent-reads-everything-attackers-know-that-e91f63392557",
+        "title": "Your AI SOC Agent Reads Everything. Attackers Know That.",
+        "author": "Alessandro Pignati",
+        "published_at": "2026-10-26T08:06:01+00:00",
+        "excerpt": "Every security team I talk to is doing some version of the same math. Alerts are up, headcount is not, and an AI agent that can read a… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:704a18e15e1af6ad45ceee38",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "threat-intelligence"
+        ],
+        "url": "https://threatlandscape-io.medium.com/most-powerful-soc-tool-2026-062e4dd81dfa",
+        "title": "Most powerful SOC tool 2026",
+        "author": "Threat Landscape",
+        "published_at": "2026-10-26T07:47:36+00:00",
+        "excerpt": "SOC analysts spend too much time sorting through fragmented reports and feeds when they should be tracking active campaigns and building… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b138b34638a0e42482680014",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ot-cybersecurity",
+          "cyber-security-awareness",
+          "cyber",
+          "cyberattack"
+        ],
+        "url": "https://medium.com/@trinitytouch/securing-the-future-of-renewables-one-ot-asset-at-a-time-e3039c59e86a",
+        "title": "Securing The Future Of Renewables, One OT Asset At a Time ⚡",
+        "author": "Trinitytouch",
+        "published_at": "2026-10-26T07:18:41+00:00",
+        "excerpt": "We were proud to be part of REI Expo India 2026, where Trinity Touch introduced ASTRICS, an OT Security Platform from the ANDRITZ Metris… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1f18dcab5ea6ef10c7a75df4",
+        "source": "medium",
+        "author_tags": [
+          "siyanoav",
+          "malware",
+          "cybersecurity",
+          "ransomware",
+          "antivirus-pro"
+        ],
+        "url": "https://medium.com/@digitalmarketing1531/siantivirus-for-pc-and-laptop-explore-total-security-antivirus-download-options-f8a4f79021ca",
+        "title": "SiAntivirus for PC and Laptop: Explore Total Security Antivirus Download Options",
+        "author": "Digitalmarketing",
+        "published_at": "2026-10-26T07:11:45+00:00",
+        "excerpt": "When it comes to protecting your computer, relying on basic defenses is no longer enough. Cyber threats continuously evolve, targeting… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2b8f58f319d6f59f66f43c70",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@akashmotkar001/improper-input-validation-and-parameter-acceptance-e344a7b103cb",
+        "title": "Improper Input Validation and Parameter Acceptance",
+        "author": "Akash motkar",
+        "published_at": "2026-10-26T07:01:21+00:00",
+        "excerpt": "1. Vulnerability Description Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bc6b158b3142a4372c45c44a",
+        "source": "medium",
+        "author_tags": [
+          "cryptography",
+          "cybersecurity-awareness",
+          "threat-intelligence",
+          "cybersecurity",
+          "ssl-certificate"
+        ],
+        "url": "https://medium.com/@graysentinel.ai/the-number-4-a-cybersecurity-deep-dive-into-the-emudhra-certificate-authority-key-failure-40c3fe22d656",
+        "title": "The Number 4: A Cybersecurity Deep Dive into the eMudhra Certificate Authority Key Failure",
+        "author": "GraySentinel- Cyber Defence Lab",
+        "published_at": "2026-10-26T06:08:01+00:00",
+        "excerpt": "The fact that the private key of “4” of a certificate authority is not a bug but rather a complete breakdown of the cryptographic… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ab69b52cee9672826c23afda",
+        "source": "medium",
+        "author_tags": [
+          "incident-response",
+          "web-hosting",
+          "cybersecurity",
+          "whmcs"
+        ],
+        "url": "https://medium.com/@google_72583/your-whmcs-was-hacked-dont-change-the-password-first-cec293addea9",
+        "title": "Your WHMCS Was Hacked. Don’t Change the Password First.",
+        "author": "Google",
+        "published_at": "2026-10-26T05:17:56+00:00",
+        "excerpt": "You open the WHMCS admin and see an administrator account you never created. Or a payment gateway setting that changed overnight. The… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bae52f2bc8950aa96e9f4eb1",
+        "source": "medium",
+        "author_tags": [
+          "soc-analyst",
+          "soc",
+          "cybersecurity",
+          "chai-aur-cyber",
+          "blue-team"
+        ],
+        "url": "https://medium.com/@rehmanwaraich107/the-soc-problem-nobody-talks-about-its-not-the-alerts-it-s-the-context-6ba53e2b7db8",
+        "title": "The SOC Problem Nobody Talks About: It’s Not the Alerts, It’s the Context",
+        "author": "Misbah Ur Rehman",
+        "published_at": "2026-10-26T05:17:51+00:00",
+        "excerpt": "When people ask me what the hardest part of working in a SOC is, they expect me to say “too many alerts.” That’s true, but it isn’t the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bca6229112abb58927e677b7",
+        "source": "medium",
+        "author_tags": [
+          "ai-agent",
+          "cybersecurity",
+          "cloud-security",
+          "software-engineering",
+          "ai-security"
+        ],
+        "url": "https://medium.com/@priyamshah112/securing-agents-where-they-act-8c039e846b1e",
+        "title": "Securing Agents Where They Act",
+        "author": "Priyam Shah",
+        "published_at": "2026-10-26T05:16:32+00:00",
+        "excerpt": "Prompts, permissions, sandboxes, and monitoring contribute different defenses. The boundaries matter most when instructions are wrong or… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ec9a7f65d5ad5716cabff27d",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybercrime"
+        ],
+        "url": "https://medium.com/@antimatter764/what-does-coordinated-disclosure-mean-in-cybersecurity-87acc10377bf",
+        "title": "What does coordinated disclosure mean in cybersecurity?",
+        "author": "AntiMatter",
+        "published_at": "2026-10-26T05:16:07+00:00",
+        "excerpt": "Today, technology is growing day by day, and almost every part of our lives depends on digital systems. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:741f7e21b4f331b5b8d8e15c",
+        "source": "medium",
+        "author_tags": [
+          "web-development",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@worldsgenz/cybersecurity-cloud-engineering-or-full-stack-development-which-skill-should-you-learn-next-2963769cafd7",
+        "title": "Cybersecurity, Cloud Engineering, or Full-Stack Development: Which Skill Should You Learn Next?",
+        "author": "WorldsGenZ",
+        "published_at": "2026-10-26T05:15:57+00:00",
+        "excerpt": "A practical starting point for anyone planning to build technology skills before 2027. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7233b205c7618f97e8bc14c3",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "cve",
+          "php",
+          "cybersecurity",
+          "cyber"
+        ],
+        "url": "https://medium.com/@cybersec_cynoxsecurity/php2shell-exploit-wins-a-2-000-bitcoin-challenge-critical-php-vulnerabilities-under-the-spotlight-8dcbe8150d3b",
+        "title": "PHP2Shell Exploit Wins a $2,000 Bitcoin Challenge: Critical PHP Vulnerabilities Under the Spotlight",
+        "author": "Cynox Security LLP.",
+        "published_at": "2026-10-26T05:14:07+00:00",
+        "excerpt": "A public proof of concept highlights the risks of memory corruption, information leaks, and remote code execution in vulnerable PHP… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:807d4a1d39306541e66182b9",
+        "source": "medium",
+        "author_tags": [
+          "wazuh",
+          "aws",
+          "cybersecurity",
+          "cloud-security",
+          "terraform"
+        ],
+        "url": "https://medium.com/@ronish.brh111/building-an-aws-cross-account-identity-self-healing-engine-with-wazuh-and-terraform-578e6d77b552",
+        "title": "Building an AWS Cross-Account Identity Self-Healing Engine with Wazuh and Terraform",
+        "author": "Intellectual Omnivore Trying to Become a Qubit",
+        "published_at": "2026-10-26T03:43:38+00:00",
+        "excerpt": "Cloud security involves more than just stopping bad access attempts. It also means catching odd activity and acting fast if credentials… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e39d93791fc0cfbbe123e968",
+        "source": "medium",
+        "author_tags": [
+          "hacking",
+          "pentesting",
+          "cybersecurity",
+          "cyber-security-awareness",
+          "ctf-writeup"
+        ],
+        "url": "https://medium.com/@AnthonyKendall/dev-vuln-vm-pentest-walkthrough-424e8eebfef0",
+        "title": "Dev Vuln VM pentest walkthrough",
+        "author": "Anthony Kendall",
+        "published_at": "2026-10-26T02:53:44+00:00",
+        "excerpt": "Disclaimer — Do not try this on a system you are not authorized to test on as you could get into legal trouble. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a3fb2ef1428c6aeb177a66a3",
+        "source": "medium",
+        "author_tags": [
+          "security",
+          "cybersecurity",
+          "artificial-intelligence",
+          "vulnerability",
+          "php"
+        ],
+        "url": "https://medium.com/@AdityaKGoswami/php2shell-inside-the-critical-php-vulnerabilities-triggering-a-global-security-response-eab8b6608726",
+        "title": "PHP2Shell: Inside the Critical PHP Vulnerabilities Triggering a Global Security Response",
+        "author": "Aditya Goswami",
+        "published_at": "2026-10-26T02:49:48+00:00",
+        "excerpt": "Two critical vulnerabilities in the PHP runtime have raised concerns across the global cybersecurity community. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9b93f2c3fbf33ab69b83dbda",
+        "source": "medium",
+        "author_tags": [
+          "ai-soc",
+          "security-analysts",
+          "evolution",
+          "cybersecurity",
+          "security-operation-center"
+        ],
+        "url": "https://medium.com/@jason.cissp/the-soc-has-evolved-its-staffing-model-must-follow-6629f5351046",
+        "title": "The SOC Has Evolved. Its Staffing Model Must Follow.",
+        "author": "Jason Lawrence",
+        "published_at": "2026-10-26T01:44:34+00:00",
+        "excerpt": "How AI Is Reshaping SOC Staffing Models Continue reading on Medium »"
+      },
+      {
+        "id": "medium:71d4d299e9511f2fa7272af1",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "hacking",
+          "ai",
+          "php",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@paritoshblogs/ai-just-uncovered-a-critical-security-flaw-hidden-in-php-for-years-af4947862154",
+        "title": "AI Just Uncovered a Critical Security Flaw Hidden in PHP for Years.",
+        "author": "Paritosh",
+        "published_at": "2026-10-26T01:42:30+00:00",
+        "excerpt": "Imagine discovering that a lock used by millions of buildings has a hidden weakness. The lock has existed for years, thousands of people… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:786631f2c773c5333b3a8f2b",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "cybersecurity",
+          "cryptocurrency",
+          "automation",
+          "security-engineering"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/automation-vulnerability-management-and-advanced-cryptography-in-security-engineering-7069c08cb9c6",
+        "title": "Automation, Vulnerability Management, and Advanced Cryptography in Security Engineering",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T01:37:45+00:00",
+        "excerpt": "Security engineering teams face growing workloads as environments expand. Automation, structured vulnerability management, and correct… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d70db91d538ca4648db91057",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "information-security",
+          "cryptocurrency",
+          "automation",
+          "security-engineering"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/securing-specialized-and-legacy-systems-833ed8d1ba38",
+        "title": "Securing Specialized and Legacy Systems",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T01:36:05+00:00",
+        "excerpt": "Specialized and legacy systems present persistent challenges because they often cannot run modern endpoint agents, receive frequent… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:72b46e356124f250497be785",
+        "source": "medium",
+        "author_tags": [
+          "enterprise-technology",
+          "industrial-controlsystems",
+          "information-security",
+          "cybersecurity",
+          "security-engineering"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/addressing-complex-network-security-issues-8539a06915fa",
+        "title": "Addressing Complex Network Security Issues",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T01:33:48+00:00",
+        "excerpt": "Network security in modern environments extends well beyond traditional firewalls. DNS, email, distributed denial-of-service attacks, and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b536025d60621437473af74d",
+        "source": "medium",
+        "author_tags": [
+          "information-technology",
+          "enterprise-technology",
+          "endpoint-security",
+          "cybersecurity",
+          "security-engineering"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/securing-endpoints-and-mobility-at-enterprise-scale-75f44cd7ec6f",
+        "title": "Securing Endpoints and Mobility at Enterprise Scale",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T01:31:50+00:00",
+        "excerpt": "Endpoints remain a primary target because they sit at the intersection of users, data, and network access. Laptops, mobile devices, and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b24bf5131496098d8fbe3d4d",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "cloud-security",
+          "security-engeineering",
+          "identity-and-access",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/troubleshooting-and-enhancing-iam-in-enterprise-environments-14df6492fb99",
+        "title": "Troubleshooting and Enhancing IAM in Enterprise Environments",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T01:30:25+00:00",
+        "excerpt": "Identity and access management failures are among the most common root causes of security incidents. Compromised credentials, excessive… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c1fb5acd108c8a9598fe327c",
+        "source": "medium",
+        "author_tags": [
+          "enterprise-technology",
+          "security-architecture",
+          "cybersecurity",
+          "cloud-security",
+          "zero-trust"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/practical-security-architecture-designing-for-resilience-instead-of-perfection-ba67492c9639",
+        "title": "Practical Security Architecture: Designing for Resilience Instead of Perfection",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T01:10:58+00:00",
+        "excerpt": "Security architecture is the set of deliberate design decisions that determine how difficult it is for an attacker to move through an… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6df9d0fff3ee45640bfc4a31",
+        "source": "medium",
+        "author_tags": [
+          "security-architecture",
+          "cybersecurity",
+          "zero-trust",
+          "enterprise-technology",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/designing-resilient-security-architecture-in-hybrid-environments-9627970610cb",
+        "title": "Designing Resilient Security Architecture in Hybrid Environments",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T01:05:34+00:00",
+        "excerpt": "Security architecture is the discipline of deciding how systems, networks, identities, and data should be structured so that security is… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:538f7b2e79bead294442b93f",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "devsecops",
+          "security-engineering",
+          "automation",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/automation-without-chaos-using-scripting-iac-and-soar-to-scale-security-engineering-9fe8226feece",
+        "title": "Automation Without Chaos: Using Scripting, IaC, and SOAR to Scale Security Engineering",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T01:01:42+00:00",
+        "excerpt": "Security teams are routinely asked to do more with the same or fewer people. Vulnerability backlogs grow, cloud environments change faster… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:58686fdc1c8cc097e6a3e65a",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "wazuh",
+          "homelab",
+          "siem",
+          "active-directory"
+        ],
+        "url": "https://medium.com/@ahmednaoum/building-an-active-directory-security-lab-part-5-deploying-wazuh-and-centralizing-detection-67e30590cd82",
+        "title": "Building an Active Directory Security Lab — Part 5: Deploying Wazuh and Centralizing Detection",
+        "author": "Ahmed Naoum",
+        "published_at": "2026-10-26T01:01:15+00:00",
+        "excerpt": "In the first four parts of this series I built a domain, broke it, rebuilt it, and then attacked it. By the end of Part 4 I had real… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:206d1d43f0991f6391cdc349",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "threat-hunting",
+          "incident-response",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/from-detection-to-response-building-effective-threat-hunting-and-incident-workflows-8876b89d1ae6",
+        "title": "From Detection to Response: Building Effective Threat Hunting and Incident Workflows",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T00:59:19+00:00",
+        "excerpt": "Many security teams still treat detection and response as separate activities. Alerts fire in the SIEM, analysts triage them, and if… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2232040926ec729138e7d1cd",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "information-security",
+          "risk-management",
+          "cybersecurity",
+          "enterprise-technology"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/ai-is-both-the-attack-surface-and-the-defender-practical-risks-and-controls-for-enterprises-db40590c4742",
+        "title": "AI Is Both the Attack Surface and the Defender: Practical Risks and Controls for Enterprises",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T00:54:30+00:00",
+        "excerpt": "Artificial intelligence is no longer a future consideration for security teams. Organizations are already using generative AI tools for… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2c762efc50a8e0ea62aeaaa2",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cryptocurrency",
+          "information-security",
+          "enterprise-technology",
+          "zero-trust"
+        ],
+        "url": "https://medium.com/@vetcareerbuilding/post-quantum-cryptography-is-coming-what-security-engineers-need-to-do-now-bd781068f85b",
+        "title": "Post-Quantum Cryptography Is Coming: What Security Engineers Need to Do Now",
+        "author": "Nijah Porter",
+        "published_at": "2026-10-26T00:50:36+00:00",
+        "excerpt": "Quantum computers capable of breaking today’s widely used public-key cryptography are not here yet, but the timeline for preparing is… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:94a76a062641bfc3a2e5a1c3",
+        "source": "medium",
+        "author_tags": [
+          "media-authentication",
+          "forensic-science",
+          "cybersecurity",
+          "digital-forensics",
+          "video-forensics"
+        ],
+        "url": "https://awais-sec.medium.com/why-we-cant-just-trust-our-eyes-anymore-fe510ae3e4fd",
+        "title": "Why We Can’t Just Trust Our Eyes Anymore",
+        "author": "Awais Ahmed",
+        "published_at": "2026-10-26T00:21:01+00:00",
+        "excerpt": "A video of something happening feels like proof. It feels more real than almost any other kind of evidence we have, more real than a… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1539816d19eec8d476cca994",
+        "source": "medium",
+        "author_tags": [
+          "http3",
+          "penetration-testing",
+          "web-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@saroyan.zorayr/did-your-web-pentest-actually-test-http-3-368d20379e3a",
+        "title": "Did your web pentest actually test HTTP/3?",
+        "author": "Saroyan Zorayr",
+        "published_at": "2026-10-26T00:08:17+00:00",
+        "excerpt": "PortSwigger’s September HTTP/3 research raised a practical question for web testers: which protocol did the request actually use? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:44b22eee1c8168e4c94f9836",
+        "source": "medium",
+        "author_tags": [
+          "python",
+          "cybersecurity",
+          "security-operation-center",
+          "open-source",
+          "phishing"
+        ],
+        "url": "https://medium.com/@ramivinit/i-turned-my-msc-dissertation-into-a-free-phishing-triage-web-app-and-it-runs-for-0-31a69b1c75bc",
+        "title": "I turned my MSc dissertation into a free phishing triage web app, and it runs for £0",
+        "author": "Vinit Rami",
+        "published_at": "2026-10-26T00:00:38+00:00",
+        "excerpt": "PhishHawk 3.0 takes a reported email and returns a verdict, every indicator and the next steps in under a second. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5113a7873a57df9e1cc57da4",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "learning"
+        ],
+        "url": "https://sushi-murakami.medium.com/intro-cybersecurity-b65d8425ac4e",
+        "title": "Intro CyberSecurity",
+        "author": "Thiago Murakami",
+        "published_at": "2026-10-25T23:34:59+00:00",
+        "excerpt": "Dia 1 de 90 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cfed10e12e7dc5a43beee0ee",
+        "source": "medium",
+        "author_tags": [
+          "supply-chain-security",
+          "devsecops",
+          "cybersecurity",
+          "software-development",
+          "github"
+        ],
+        "url": "https://drlecks.medium.com/the-vulnerabilities-nobody-sees-in-your-repository-and-how-to-catch-them-before-they-merge-3d2258b716ea",
+        "title": "The vulnerabilities nobody sees in your repository, and how to catch them before they merge",
+        "author": "Alex Cabrera",
+        "published_at": "2026-10-25T23:31:54+00:00",
+        "excerpt": "PHP2Shell, Node2Shell and HTTP2Shell have something in common: the risk was in files nobody reviews with a security eye. A FROM line, a… Continue reading on Medium »"
+      },
+      {
         "id": "medium:7910c77233389da0d8278ce0",
         "source": "medium",
         "author_tags": [
@@ -6437,36 +8396,6 @@
         "author": "BugHunter’s Journal",
         "published_at": "2026-10-19T09:03:42+00:00",
         "excerpt": "The “Promise Test”: a simple way to find bugs that no scanner can see, with real cases, real payouts (small ones too), and one honest… Continue reading on Medium »"
-      },
-      {
-        "id": "medium:9d816e964ef3ca226b8460a5",
-        "source": "medium",
-        "author_tags": [
-          "bug-bounty",
-          "ai-security",
-          "application-security",
-          "cybersecurity",
-          "previlege-escalation"
-        ],
-        "url": "https://medium.com/@iamsaad360/when-an-ai-sandboxs-security-boundaries-fail-38e2e32d1a28",
-        "title": "When an AI Sandbox’s Security Boundaries Fail",
-        "author": "Saad Sayed",
-        "published_at": "2026-10-19T08:46:13+00:00",
-        "excerpt": "How excessive privileges, exposed credentials, and prompt injection risks in an AI-powered SaaS platform led to remediation and a $XXXX… Continue reading on Medium »"
-      },
-      {
-        "id": "medium:55263ddd2e0714b918c9e188",
-        "source": "medium",
-        "author_tags": [
-          "cyber-security-awareness",
-          "cybersecurity",
-          "informational-technology"
-        ],
-        "url": "https://medium.com/@aarizaffan/how-to-protect-yourself-from-cyberattacks-malware-and-phishing-e1724d98d3a4",
-        "title": "How to protect yourself from cyberattacks, malware, and phishing.",
-        "author": "Aariz Affan",
-        "published_at": "2026-10-19T08:42:50+00:00",
-        "excerpt": "Back in 2022 to 2023 alone, almost 709 MILLION phishing attempts were blocked by multiple email services, antivirus software (as a part of… Continue reading on Medium »"
       },
       {
         "id": "medium:87b9a54d54639428349bc62d",
