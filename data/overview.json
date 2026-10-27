@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-27T06:10:40.775322+00:00",
-  "as_of": "2026-10-27T06:00:00+00:00",
-  "catalog_count": 20887,
+  "generated_at": "2026-10-27T07:11:17.383184+00:00",
+  "as_of": "2026-10-27T07:00:00+00:00",
+  "catalog_count": 20896,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,193 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:d204f9eabc4d8d6734a78092",
+      "permalink_id": "article-url-d204f9eabc4d8d6734a78092",
+      "canonical_url": "https://www.security-next.com/192013",
+      "title": "「PHP2Shell」「HTTP2Shell」のいずれも影響 - 「PAN-OS」の修正版が順次公開",
+      "summary_excerpt": "Palo Alto Networks製ファイアウォールに搭載されている「PAN-OS」に複数の脆弱性が明らかとなった。10月末に向けて順次リリースするとしている。",
+      "published_at": "2026-10-27T15:52:03+09:00",
+      "first_seen_at": "2026-10-27T16:02:26.190104+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6bf87c98ce68823cbdd6b75c",
+      "permalink_id": "article-url-6bf87c98ce68823cbdd6b75c",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261027-5204105/",
+      "title": "企業の公開IT資産と脆弱性を可視化する「WideAngle ASM」、期間限定で無償提供",
+      "summary_excerpt": "NTTドコモビジネスは10月26日、企業のサイバーセキュリティ対策の強化を支援するため、「WideAngle ASM」を期間限定で無償提供することを発表した。",
+      "published_at": "2026-10-27T15:51:29+09:00",
+      "first_seen_at": "2026-10-27T16:02:23.751086+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4e151e35f704834c55e28e5a",
+      "permalink_id": "article-url-4e151e35f704834c55e28e5a",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261027-5204058/",
+      "title": "AIエージェントを攻撃に使う4つの脅威アクターの実態とは。クラウドストライクが解明",
+      "summary_excerpt": "クラウドストライクは2026年10月27日、AIエージェントが意思決定し、コマンドを実行するサイバー攻撃キャンペーンに関する調査結果を発表した。これまで報告されていなかった4つの脅威アクターが、攻撃用のエージェントフレームワークを使用していたという。",
+      "published_at": "2026-10-27T15:50:00+09:00",
+      "first_seen_at": "2026-10-27T16:02:23.862113+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a2da896f1147a8f00903ae04",
+      "permalink_id": "article-url-a2da896f1147a8f00903ae04",
+      "canonical_url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "summary_excerpt": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+      "published_at": "2026-10-27T15:34:47+09:00",
+      "first_seen_at": "2026-10-27T16:02:26.830595+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:17c1076674564f600331b106",
+      "permalink_id": "article-url-17c1076674564f600331b106",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/jonathan-care-kuppingercole-analysts-ai-security-market/",
+      "title": "Several AI security market categories are headed for bigger platforms",
+      "summary_excerpt": "In this interview with Help Net Security, Jonathan Care, Lead Analyst and Practice Lead AI at KuppingerCole Analysts, compares AI security startups to the early fraud market he helped define at Gartner. He explains which categories will survive as products and which will become features inside bigger platforms. Care talks about Q3 funding going to fewer, larger rounds, Israel’s share of cyber venture investment, and the five controls an organization needs before an agent touches … More → The post Several AI security market categories are headed for bigger platforms appeared first on Help Net S",
+      "published_at": "2026-10-27T15:30:01+09:00",
+      "first_seen_at": "2026-10-27T16:02:17.173968+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 53.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2d9875dc002aff9be5f828de",
+      "permalink_id": "article-url-2d9875dc002aff9be5f828de",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-authenticator-vulnerability-patchedcve-2026-80097/",
+      "title": "Microsoft Authenticator vulnerability let rogue Android apps steal work account access",
+      "summary_excerpt": "If you use Microsoft Authenticator on Android, update it. Researchers at Enclave found a flaw that let any app on your phone quietly take over your work account. The app didn’t need permissions, and you didn’t need to tap anything. Here’s what happened Authenticator does more than show six-digit codes. On Android it also acts as a “broker.” When Teams, Outlook or another Microsoft app needs to sign you in, it asks Authenticator, and Authenticator … More → The post Microsoft Authenticator vulnerability let rogue Android apps steal work account access appeared first on Help Net Security .",
+      "published_at": "2026-10-27T15:14:22+09:00",
+      "first_seen_at": "2026-10-27T16:02:17.927623+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:cd31ad2369fed3a69d5cd217",
+      "permalink_id": "article-url-cd31ad2369fed3a69d5cd217",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/llm-agent-security-video/",
+      "title": "LLM agent security needs more than guardrails",
+      "summary_excerpt": "Madhu Shashanka, Chief Scientist at Concentric AI, explains why securing LLM tools and agents depends more on your data than on the model. Controls on model behavior, such as guardrails and injection detection, lower the rate of bad outcomes but never reach zero. Controls on what goes in are different, because you own the documents, systems, and credentials an agent can reach. He covers prompt injection, data leakage through connectors, overprivileged agents, and shadow AI. … More → The post LLM agent security needs more than guardrails appeared first on Help Net Security .",
+      "published_at": "2026-10-27T15:00:26+09:00",
+      "first_seen_at": "2026-10-27T16:02:18.700220+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:18b37edc155614f265b3e24b",
       "permalink_id": "article-url-18b37edc155614f265b3e24b",
@@ -32,6 +219,27 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:9bf0b3de52309421d9263f50",
+      "permalink_id": "article-url-9bf0b3de52309421d9263f50",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6600302?source=rss",
+      "title": "GMO攻撃者「個人情報毎日公開」",
+      "summary_excerpt": null,
+      "published_at": "2026-10-27T14:38:34+09:00",
+      "first_seen_at": "2026-10-27T16:02:33.517438+09:00",
+      "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:8851528753e06d223a1ac6a2",
       "permalink_id": "article-url-8851528753e06d223a1ac6a2",
       "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/rapid7-vulnerability-exploitation-trends-q3-2026-report/",
@@ -50,199 +258,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 73.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c3e3bf31daf5a4483db36f54",
-      "permalink_id": "article-url-c3e3bf31daf5a4483db36f54",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002624/",
-      "title": "GMO、ランサム被害にあった顧客に新しいPC提供へ　犯行グループは1人の顧客情報公開か",
-      "summary_excerpt": "顧客から預かって既に解析を終えた端末からは、10月27日午前11時59時点で、ランサムウェアを含むマルウェアは確認していないという。",
-      "published_at": "2026-10-27T14:19:20+09:00",
-      "first_seen_at": "2026-10-27T15:02:16.827010+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f5dfc5cf7a0b84b5ed9c00ab",
-      "permalink_id": "article-url-f5dfc5cf7a0b84b5ed9c00ab",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/cybersecurity-jobs-available-right-now-october-27-2026/",
-      "title": "Cybersecurity jobs available right now: October 27, 2026",
-      "summary_excerpt": "Cybersecurity Expert / Penetration Tester Barrion | Sweden | On-site – View job details As a Cybersecurity Expert / Penetration Tester, you will test web applications and APIs for authentication, authorisation, and business logic vulnerabilities. You’ll identify complex attack paths and validate findings.You’ll evaluate AI-driven security testing, investigate false positives and missed vulnerabilities, and develop scenarios that improve automated discovery. Cloud Network Solution Architect TAL | Australia | On-site – View job details As a … More → The post Cybersecurity jobs available right no",
-      "published_at": "2026-10-27T14:00:31+09:00",
-      "first_seen_at": "2026-10-27T15:02:13.009971+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:46eb5b1ccef0f18aa9bbabed",
-      "permalink_id": "article-url-46eb5b1ccef0f18aa9bbabed",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151480.html",
-      "title": "ギフティグループ、不正アクセスでeギフトが不正に発行、約5.5億円の損失見込み",
-      "summary_excerpt": "ギフティグループ株式会社は10月26日、デジタルギフトサービス「giftee」などを運営する株式会社ギフティが運用するシステムの一部に不正アクセスが発生し、eギフトが不正に発行される事案が発生したとして情報を公開した。利用者に対する損害や、個人情報の漏えいは確認されていない。",
-      "published_at": "2026-10-27T13:59:12+09:00",
-      "first_seen_at": "2026-10-27T14:02:46.176593+09:00",
-      "source_name": "INTERNET Watch",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2e4a78679a9dbdcd334468be",
-      "permalink_id": "article-url-2e4a78679a9dbdcd334468be",
-      "canonical_url": "https://gigazine.net/news/20261027-gmo-hacker-seimei-viewer/",
-      "title": "GMOとその利用者に向けた脅迫文が読める「GMO不正アクセス犯の犯行声明文ビュアー」",
-      "summary_excerpt": "GMOインターネットグループ(GMO)が展開するFX自動売買専用VPS「お名前.com デスクトップクラウド」が第三者による不正アクセスの被害を受けました。この攻撃を実行したとされる者が公開している犯行声明を読めるようにした「GMO不正アクセス犯の犯行声明文ビュアー」が公開されています。 続きを読む...",
-      "published_at": "2026-10-27T13:56:00+09:00",
-      "first_seen_at": "2026-10-27T14:02:34.373548+09:00",
-      "source_name": "GIGAZINE",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e36e120f9c5526cd57346bb5",
-      "permalink_id": "article-url-e36e120f9c5526cd57346bb5",
-      "canonical_url": "https://www.security-next.com/192008",
-      "title": "「PowerShell」に「Brotli」脆弱性を解消するアップデート",
-      "summary_excerpt": "Googleのデータ圧縮ライブラリ「Brotli」に脆弱性が見つかった問題で、マイクロソフトのコマンドラインシェル「PowerShell」も影響を受けることがわかった。アップデートが提供されている。",
-      "published_at": "2026-10-27T13:55:09+09:00",
-      "first_seen_at": "2026-10-27T14:02:51.642213+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:dc98d41511a17d2ea06d0223",
-      "permalink_id": "article-url-dc98d41511a17d2ea06d0223",
-      "canonical_url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
-      "published_at": "2026-10-27T13:37:59+09:00",
-      "first_seen_at": "2026-10-27T15:02:19.677611+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-109618"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8813b947f05b4869476c32db",
-      "permalink_id": "article-url-8813b947f05b4869476c32db",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6600277?source=rss",
-      "title": "FX不正アクセス 5社で顧客被害",
-      "summary_excerpt": null,
-      "published_at": "2026-10-27T13:33:20+09:00",
-      "first_seen_at": "2026-10-27T14:02:59.127089+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:19f4f7165b2429d36dd0c2cc",
-      "permalink_id": "article-url-19f4f7165b2429d36dd0c2cc",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6600296?source=rss",
-      "title": "GMO攻撃者 個人情報1件を公開か",
-      "summary_excerpt": null,
-      "published_at": "2026-10-27T13:24:03+09:00",
-      "first_seen_at": "2026-10-27T14:02:59.243170+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -847,15 +862,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】GROWIにおける複数の脆弱性",
+    "【LATEST #1】「PHP2Shell」「HTTP2Shell」のいずれも影響 - 「PAN-OS」の修正版が順次公開",
     "【HOTTEST #1 / Heat 75】CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "【LATEST #2】71% of vulnerability exploitation starts within a week of disclosure",
+    "【LATEST #2】企業の公開IT資産と脆弱性を可視化する「WideAngle ASM」、期間限定で無償提供",
     "【HOTTEST #2 / Heat 73】71% of vulnerability exploitation starts within a week of disclosure",
-    "【LATEST #3】GMO、ランサム被害にあった顧客に新しいPC提供へ　犯行グループは1人の顧客情報公開か",
+    "【LATEST #3】AIエージェントを攻撃に使う4つの脅威アクターの実態とは。クラウドストライクが解明",
     "【HOTTEST #3 / Heat 73】メアドを検索→AIで“その人専用フィッシングメール”を生成する手法、クリック率が約2.7倍に　7000人以上で実験",
-    "【LATEST #4】Cybersecurity jobs available right now: October 27, 2026",
+    "【LATEST #4】Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
     "【HOTTEST #4 / Heat 67.5】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
-    "【LATEST #5】ギフティグループ、不正アクセスでeギフトが不正に発行、約5.5億円の損失見込み",
+    "【LATEST #5】Several AI security market categories are headed for bigger platforms",
     "【HOTTEST #5 / Heat 67.5】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)"
   ]
 }
