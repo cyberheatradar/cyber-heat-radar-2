@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-27T14:11:25.883413+00:00",
-  "as_of": "2026-10-27T14:00:00+00:00",
-  "catalog_count": 20944,
+  "generated_at": "2026-10-27T15:12:07.259192+00:00",
+  "as_of": "2026-10-27T15:00:00+00:00",
+  "catalog_count": 20952,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,150 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:6811a688de10a6f56454a159",
+      "permalink_id": "article-url-6811a688de10a6f56454a159",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/isc2-launches-cyberai-workforce/",
+      "title": "ISC2 Launches Cyber-AI Workforce Coalition to Address the Future of AI Security Jobs",
+      "summary_excerpt": "ISC2’s new Cyber-AI Workforce Coalition serves as a “vendor-neutral convener” to map the future of AI security careers, ISC2 CEO Scott Beale told Infosecurity",
+      "published_at": "2026-10-28T00:00:00+09:00",
+      "first_seen_at": "2026-10-28T00:02:32.625954+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9634780a377812c7519967ca",
+      "permalink_id": "article-url-9634780a377812c7519967ca",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
+      "title": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
+      "summary_excerpt": "Threat actors are flooding employees’ inboxes with spam and then contacting them on Microsoft Teams as IT support, offering to fix the problem they created, Arctic Wolf has found. The security company documented more than 400 incidents in which the external chat feature in Teams was abused. In many of these cases, the fake help desk message arrived minutes after the victim’s inbox had been filled with hundreds of newsletter and subscription confirmations. “Microsoft Teams … More → The post Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support appeared first on Help ",
+      "published_at": "2026-10-27T23:16:43+09:00",
+      "first_seen_at": "2026-10-28T00:02:31.678191+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:807c71fee2472e31213aec40",
+      "permalink_id": "article-url-807c71fee2472e31213aec40",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6600351?source=rss",
+      "title": "GMO不正アクセス 警視庁が捜査",
+      "summary_excerpt": null,
+      "published_at": "2026-10-27T23:14:04+09:00",
+      "first_seen_at": "2026-10-28T00:02:52.058368+09:00",
+      "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:3fbb6d8c32783e47dd5a6c94",
+      "permalink_id": "article-url-3fbb6d8c32783e47dd5a6c94",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "summary_excerpt": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+      "published_at": "2026-10-27T23:09:46+09:00",
+      "first_seen_at": "2026-10-28T00:02:02.924063+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:84458c020bab7c3ff1a32a0e",
+      "permalink_id": "article-url-84458c020bab7c3ff1a32a0e",
+      "canonical_url": "https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/",
+      "title": "SkyW4lker Exposed: A Growing Microsoft 365 Phishing Threat to American Enterprises",
+      "summary_excerpt": "SkyW4lker (SkyW4lker x365 Sentinel) is an active device-code phishing kit targeting Microsoft 365 users in the United States, Europe, and other regions. By abusing Microsoft’s legitimate authentication process, the kit can give attackers access to corporate accounts without stealing passwords or bypassing MFA. This puts business emails, sensitive documents, and other Microsoft 365 resources at […] The post SkyW4lker Exposed: A Growing Microsoft 365 Phishing Threat to American Enterprises appeared first on ANY.RUN's Cybersecurity Blog .",
+      "published_at": "2026-10-27T23:02:18+09:00",
+      "first_seen_at": "2026-10-28T00:02:00.720870+09:00",
+      "source_name": "ANY.RUN Cybersecurity Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:11f0e618d0252f2c50cb0ca5",
+      "permalink_id": "article-url-11f0e618d0252f2c50cb0ca5",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "summary_excerpt": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
+      "published_at": "2026-10-27T23:01:11+09:00",
+      "first_seen_at": "2026-10-28T00:02:04.030105+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_report",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:5296a6247f59e9fba72ea492",
       "permalink_id": "article-url-5296a6247f59e9fba72ea492",
@@ -35,6 +179,33 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:8728a3e2cf7954dbab9a5949",
+      "permalink_id": "article-url-8728a3e2cf7954dbab9a5949",
+      "canonical_url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+      "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+      "summary_excerpt": "Wiz research has been monitoring PHP2Shell exploitation attempts, but none have succeeded so far. We examine the techniques used, what prevented the attacks from completing and how observed exposure has changed since disclosure.",
+      "published_at": "2026-10-27T22:21:45+09:00",
+      "first_seen_at": "2026-10-28T00:02:43.245367+09:00",
+      "source_name": "Wiz Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "defense_ops",
+      "public_tags": [
+        {
+          "color_family": "blue",
+          "key": "defense_ops",
+          "label": "Defense & Ops"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -89,204 +260,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a4f0f4af118869032e5f01ef",
-      "permalink_id": "article-url-a4f0f4af118869032e5f01ef",
-      "canonical_url": "https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/",
-      "title": "Tricks from the Past deployed via signed ChatGPT and Claude binaries",
-      "summary_excerpt": "Key Points Introduction Over the past two months, we have been tracking a campaign that abuses the popularity of AI tools such as ChatGPT and Claude to spread a custom malware chain we call Yoba. The attackers use fake GitHub projects that pretend to be AI desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude […] The post Tricks from the Past deployed via signed ChatGPT and Claude binaries appeared first on Check Point Research .",
-      "published_at": "2026-10-27T22:03:27+09:00",
-      "first_seen_at": "2026-10-27T23:01:37.853563+09:00",
-      "source_name": "Check Point Research",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:668328068d024a252fc610ca",
-      "permalink_id": "article-url-668328068d024a252fc610ca",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/dnsfilter-luminate/",
-      "title": "DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection",
-      "summary_excerpt": "DNSFilter has launched LUMINATE by DNSFilter, a security platform that allows organizations to deliver five security solutions from one agent, one console and one policy. Shadow AI is now one of the fastest-growing risks in business. Employees are adopting AI tools and agents faster than security teams can approve them, often without any visibility from existing security technology. Nearly a third of employees using generative AI at work are doing so without their employer’s permission, … More → The post DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection appeared f",
-      "published_at": "2026-10-27T22:00:49+09:00",
-      "first_seen_at": "2026-10-27T23:02:06.523624+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1e38a323ff9f4ca5b05cc1f0",
-      "permalink_id": "article-url-1e38a323ff9f4ca5b05cc1f0",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/news/24/03442/",
-      "title": "GMO、不正アクセス関与者の特定に総額1.6億円の懸賞金　見舞金最大300万円",
-      "summary_excerpt": "GMOインターネットグループは2026年10月27日、「GMOサイバー犯罪撲滅・懸賞金」の創設を発表した。「お名前.com デスクトップクラウド」への不正アクセスや関連する犯罪行為について、関与者特定や事件解明につながる情報を国内外から募る。報奨金は総額100万米ドル（約1億6000万円）が上限で、28日正午から受け付ける。",
-      "published_at": "2026-10-27T21:45:00+09:00",
-      "first_seen_at": "2026-10-27T22:03:12.386887+09:00",
-      "source_name": "Nikkei XTECH IT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:72af436dfdec278a775a37f0",
-      "permalink_id": "article-url-72af436dfdec278a775a37f0",
-      "canonical_url": "https://www.malwarebytes.com/blog/ai/2026/10/artificial-intimacy-love-and-lies-in-the-age-of-ai",
-      "title": "Artificial Intimacy: Love and lies in the age of AI",
-      "summary_excerpt": "Our latest report reveals how AI is reshaping our relationships, blurring what feels authentic, and creating new ways for intimacy to be exploited.",
-      "published_at": "2026-10-27T21:40:00+09:00",
-      "first_seen_at": "2026-10-27T22:03:11.363520+09:00",
-      "source_name": "Malwarebytes Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b5ddd425914ebb7cb32d2950",
-      "permalink_id": "article-url-b5ddd425914ebb7cb32d2950",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/exeon-expands-threat-detection-to-shadow-ai-and-autonomous-agents/",
-      "title": "Exeon expands threat detection to shadow AI and autonomous agents",
-      "summary_excerpt": "Exeon Analytics has introduced Exeon.AgentGuard, a new AI security solution designed to give organizations visibility into approved and shadow AI use, autonomous agent activity and the data flows created through connected tools and external services. Building on its expertise in AI-driven behavioral analytics and threat detection, Exeon expands its cybersecurity capabilities to address emerging risks associated with the rapid adoption of agentic AI. Bringing visibility, addressing data leakage and rogue AI agent behavior As enterprises … More → The post Exeon expands threat detection to shadow",
-      "published_at": "2026-10-27T21:36:08+09:00",
-      "first_seen_at": "2026-10-27T22:03:01.768744+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:db3fe23835dfea28c2524d2a",
-      "permalink_id": "article-url-db3fe23835dfea28c2524d2a",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/exploit-teams-chat-breach/",
-      "title": "Attackers Exploit Teams External Chat to Breach Organizations in Under 15 Minutes",
-      "summary_excerpt": "Arctic Wolf warned that the function enables highly effective social engineering attacks, which lead to incidents such as ransomware",
-      "published_at": "2026-10-27T21:30:00+09:00",
-      "first_seen_at": "2026-10-27T22:03:05.257636+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a9ab9d4168c0248b14b3b0df",
-      "permalink_id": "article-url-a9ab9d4168c0248b14b3b0df",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/",
-      "title": "Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack",
-      "summary_excerpt": "University of New Mexico (UNM) Health Sciences Center (HSC), the academic medical arm of the University of New Mexico, has suffered a cyberattack that has temporarily disrupted the operation of its hospitals and may have resulted in a substantial data breach. Hospitals diverted ambulances and canceled appointments The University of New Mexico, located in Albuquerque, New Mexico, is a public research university. Its Health Sciences Center encompasses its clinical, research and education initiatives. The clinical … More → The post Cyberattack disrupts University of New Mexico hospitals, extortio",
-      "published_at": "2026-10-27T21:24:14+09:00",
-      "first_seen_at": "2026-10-27T22:03:02.512090+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -364,6 +337,35 @@
       ],
       "cves": [
         "CVE-2026-109618"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:268366d5b0facac4a3947043",
+      "permalink_id": "article-url-268366d5b0facac4a3947043",
+      "canonical_url": "https://blog.quarkslab.com/snapshotting-our-way-to-cve-2026-9539.html",
+      "title": "Snapshotting our way to CVE-2026-9539",
+      "summary_excerpt": "This blog post presents a LibAFL-Qemu based way to explore state machines and why we failed to find CVE-2026-9539.",
+      "published_at": "2026-10-27T08:00:00+09:00",
+      "first_seen_at": "2026-10-28T00:02:39.183994+09:00",
+      "source_name": "Quarkslab Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-9539"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -534,33 +536,6 @@
       "seen_in_kev": false,
       "heat_score": 65.7,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0227fa902bee91847c7d8028",
-      "permalink_id": "article-url-0227fa902bee91847c7d8028",
-      "canonical_url": "https://therecord.media/php-vulnerabilities-cisa-kev",
-      "title": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
-      "summary_excerpt": "CISA added the widely publicized PHP vulnerabilities to the KEV, but didn't specify what kind of exploitation it was observing.",
-      "published_at": "2026-10-27T22:16:00+09:00",
-      "first_seen_at": "2026-10-27T23:02:25.289385+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "rising": [],
@@ -592,6 +567,33 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ed9fe79f62b579cc63434a8c",
+      "permalink_id": "article-url-ed9fe79f62b579cc63434a8c",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "summary_excerpt": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
+      "published_at": "2026-10-24T23:17:32+09:00",
+      "first_seen_at": "2026-10-25T17:22:55.955078+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
       "published_at_future_suppressed": false
     },
     {
@@ -813,35 +815,6 @@
       "seen_in_kev": false,
       "heat_score": 11.25,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:72477d086944244f5e4b9fd6",
-      "permalink_id": "article-url-72477d086944244f5e4b9fd6",
-      "canonical_url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
-      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
-      "summary_excerpt": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
-      "published_at": "2026-10-19T22:00:00+09:00",
-      "first_seen_at": "2026-10-20T00:01:40.268085+09:00",
-      "source_name": "Cloudflare Blog Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-88771"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 11.25,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -862,15 +835,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Malicious apps prey on Russians’ anxiety about fuel prices, drone strikes",
+    "【LATEST #1】ISC2 Launches Cyber-AI Workforce Coalition to Address the Future of AI Security Jobs",
     "【HOTTEST #1 / Heat 73】GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
-    "【LATEST #2】CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
+    "【LATEST #2】Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
     "【HOTTEST #2 / Heat 67.5】Microsoft、.NETの脆弱性「HTTP2Shell」に緊急対応　PowerShellなども更新",
-    "【LATEST #3】HPE Patches Dozens of Critical Flaws in Networking Products",
+    "【LATEST #3】GMO不正アクセス 警視庁が捜査",
     "【HOTTEST #3 / Heat 67.5】CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "【LATEST #4】Tricks from the Past deployed via signed ChatGPT and Claude binaries",
-    "【HOTTEST #4 / Heat 67.5】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
-    "【LATEST #5】DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection",
-    "【HOTTEST #5 / Heat 67.5】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)"
+    "【LATEST #4】Tailscale warns of SSH flaws allowing root privilege escalation",
+    "【HOTTEST #4 / Heat 67.5】Snapshotting our way to CVE-2026-9539",
+    "【LATEST #5】SkyW4lker Exposed: A Growing Microsoft 365 Phishing Threat to American Enterprises",
+    "【HOTTEST #5 / Heat 67.5】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge"
   ]
 }
