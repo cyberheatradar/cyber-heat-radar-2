@@ -2236,7 +2236,7 @@ function startPublicationUpdateNotice(initialPublishedAt) {
   notice.id = "chr2UpdateNotice";
   notice.className = "chr2-update-notice";
   notice.type = "button";
-  notice.textContent = "↑ 更新あり";
+  notice.textContent = "更新あり";
   notice.title = "新しい公開内容を読み込む";
   notice.setAttribute(
     "aria-label",
