@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-27T13:12:24.152454+00:00",
-  "as_of": "2026-10-27T13:00:00+00:00",
-  "catalog_count": 20939,
+  "generated_at": "2026-10-27T14:11:25.883413+00:00",
+  "as_of": "2026-10-27T14:00:00+00:00",
+  "catalog_count": 20944,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,151 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:5296a6247f59e9fba72ea492",
+      "permalink_id": "article-url-5296a6247f59e9fba72ea492",
+      "canonical_url": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
+      "title": "Malicious apps prey on Russians’ anxiety about fuel prices, drone strikes",
+      "summary_excerpt": "Cybercriminals are stuffing infostealer malware into bogus apps aimed at tracking gas prices, police activity, drone strikes and other information of concern to average Russians, researchers said.",
+      "published_at": "2026-10-27T22:36:00+09:00",
+      "first_seen_at": "2026-10-27T23:02:23.731540+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0227fa902bee91847c7d8028",
+      "permalink_id": "article-url-0227fa902bee91847c7d8028",
+      "canonical_url": "https://therecord.media/php-vulnerabilities-cisa-kev",
+      "title": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
+      "summary_excerpt": "CISA added the widely publicized PHP vulnerabilities to the KEV, but didn't specify what kind of exploitation it was observing.",
+      "published_at": "2026-10-27T22:16:00+09:00",
+      "first_seen_at": "2026-10-27T23:02:25.289385+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:cf9205dbc242abd669b0cc89",
+      "permalink_id": "article-url-cf9205dbc242abd669b0cc89",
+      "canonical_url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+      "summary_excerpt": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek .",
+      "published_at": "2026-10-27T22:13:58+09:00",
+      "first_seen_at": "2026-10-27T23:02:22.508000+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a4f0f4af118869032e5f01ef",
+      "permalink_id": "article-url-a4f0f4af118869032e5f01ef",
+      "canonical_url": "https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/",
+      "title": "Tricks from the Past deployed via signed ChatGPT and Claude binaries",
+      "summary_excerpt": "Key Points Introduction Over the past two months, we have been tracking a campaign that abuses the popularity of AI tools such as ChatGPT and Claude to spread a custom malware chain we call Yoba. The attackers use fake GitHub projects that pretend to be AI desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude […] The post Tricks from the Past deployed via signed ChatGPT and Claude binaries appeared first on Check Point Research .",
+      "published_at": "2026-10-27T22:03:27+09:00",
+      "first_seen_at": "2026-10-27T23:01:37.853563+09:00",
+      "source_name": "Check Point Research",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:668328068d024a252fc610ca",
+      "permalink_id": "article-url-668328068d024a252fc610ca",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/dnsfilter-luminate/",
+      "title": "DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection",
+      "summary_excerpt": "DNSFilter has launched LUMINATE by DNSFilter, a security platform that allows organizations to deliver five security solutions from one agent, one console and one policy. Shadow AI is now one of the fastest-growing risks in business. Employees are adopting AI tools and agents faster than security teams can approve them, often without any visibility from existing security technology. Nearly a third of employees using generative AI at work are doing so without their employer’s permission, … More → The post DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection appeared f",
+      "published_at": "2026-10-27T22:00:49+09:00",
+      "first_seen_at": "2026-10-27T23:02:06.523624+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:1e38a323ff9f4ca5b05cc1f0",
       "permalink_id": "article-url-1e38a323ff9f4ca5b05cc1f0",
@@ -143,151 +288,30 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0f076426f0d35b59a98b2b8d",
-      "permalink_id": "article-url-0f076426f0d35b59a98b2b8d",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/threataware-dimension-governed-workspace/",
-      "title": "ThreatAware brings governance to AI-built security applications",
-      "summary_excerpt": "ThreatAware has announced the launch of Dimension, its governed workspace that provides organisations with a foundation for building, running and managing their own customised security applications. Dimension gives security teams the flexibility to develop applications tailored to their needs, while providing organisations with greater oversight of how those applications access data and interact with live systems. A shadow AI detector, an MFA dashboard, a compliance tracker, or whatever the organisation needs. If a team can … More → The post ThreatAware brings governance to AI-built security a",
-      "published_at": "2026-10-27T21:13:25+09:00",
-      "first_seen_at": "2026-10-27T22:03:04.350999+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b7d7e51c85e3c557c1699527",
-      "permalink_id": "article-url-b7d7e51c85e3c557c1699527",
-      "canonical_url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-      "summary_excerpt": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update. In the researchers' tests,",
-      "published_at": "2026-10-27T21:09:50+09:00",
-      "first_seen_at": "2026-10-27T22:03:19.235857+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-80097"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 55.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4d559924ded051a55e6e79da",
-      "permalink_id": "article-url-4d559924ded051a55e6e79da",
-      "canonical_url": "https://securelist.com/cloud-infrastructure-isolation-bypass/121609/",
-      "title": "An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure",
-      "summary_excerpt": "A Kaspersky expert presents a cloud isolation bypass case honored at Russian Pentest Award 2026. Learn how vulnerabilities in Kubernetes, Konnectivity, and the overlay network lead to RCE and compromise of other tenants' services.",
-      "published_at": "2026-10-27T21:00:19+09:00",
-      "first_seen_at": "2026-10-27T22:03:15.499640+09:00",
-      "source_name": "Kaspersky Securelist",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:799d8e6e8cdc9dbf4487bc3b",
-      "permalink_id": "article-url-799d8e6e8cdc9dbf4487bc3b",
-      "canonical_url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
-      "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
-      "summary_excerpt": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek .",
-      "published_at": "2026-10-27T20:49:57+09:00",
-      "first_seen_at": "2026-10-27T21:02:13.505176+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:58024c0a0ed34238d1cd066a",
-      "permalink_id": "article-url-58024c0a0ed34238d1cd066a",
-      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/27/attack-on-email-hosting-provider-for-german-far-right-party-afd-exposed-345k-accounts/5305660",
-      "title": "Attack on email hosting provider for German far right party AfD exposed 345k accounts",
-      "summary_excerpt": "Alternative für Deutschland swats away scandals as reporters swarm leaked email tranche",
-      "published_at": "2026-10-27T20:49:30+09:00",
-      "first_seen_at": "2026-10-27T21:02:15.023997+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:a3b1ae13755f3bc4daeba809",
+      "permalink_id": "article-url-a3b1ae13755f3bc4daeba809",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002642/",
+      "title": "GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
+      "summary_excerpt": "GMOインターネットグループが、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡り、事態を解明する情報に総額100万ドル（約1億5000万円）の報奨金を支払う懸賞金制度を始めると発表した。",
+      "published_at": "2026-10-27T19:58:09+09:00",
+      "first_seen_at": "2026-10-27T21:02:10.469983+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 73.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:42a5317dcb931773c12be78f",
       "permalink_id": "article-url-42a5317dcb931773c12be78f",
@@ -314,28 +338,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a3b1ae13755f3bc4daeba809",
-      "permalink_id": "article-url-a3b1ae13755f3bc4daeba809",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002642/",
-      "title": "GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
-      "summary_excerpt": "GMOインターネットグループが、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡り、事態を解明する情報に総額100万ドル（約1億5000万円）の報奨金を支払う懸賞金制度を始めると発表した。",
-      "published_at": "2026-10-27T19:58:09+09:00",
-      "first_seen_at": "2026-10-27T21:02:10.469983+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 73.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -533,20 +536,26 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:1e38a323ff9f4ca5b05cc1f0",
-      "permalink_id": "article-url-1e38a323ff9f4ca5b05cc1f0",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/news/24/03442/",
-      "title": "GMO、不正アクセス関与者の特定に総額1.6億円の懸賞金　見舞金最大300万円",
-      "summary_excerpt": "GMOインターネットグループは2026年10月27日、「GMOサイバー犯罪撲滅・懸賞金」の創設を発表した。「お名前.com デスクトップクラウド」への不正アクセスや関連する犯罪行為について、関与者特定や事件解明につながる情報を国内外から募る。報奨金は総額100万米ドル（約1億6000万円）が上限で、28日正午から受け付ける。",
-      "published_at": "2026-10-27T21:45:00+09:00",
-      "first_seen_at": "2026-10-27T22:03:12.386887+09:00",
-      "source_name": "Nikkei XTECH IT",
+      "public_article_id": "url:0227fa902bee91847c7d8028",
+      "permalink_id": "article-url-0227fa902bee91847c7d8028",
+      "canonical_url": "https://therecord.media/php-vulnerabilities-cisa-kev",
+      "title": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
+      "summary_excerpt": "CISA added the widely publicized PHP vulnerabilities to the KEV, but didn't specify what kind of exploitation it was observing.",
+      "published_at": "2026-10-27T22:16:00+09:00",
+      "first_seen_at": "2026-10-27T23:02:25.289385+09:00",
+      "source_name": "The Record",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -636,6 +645,38 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 32.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9b482db4e387a34d77876570",
+      "permalink_id": "article-url-9b482db4e387a34d77876570",
+      "canonical_url": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
+      "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
+      "summary_excerpt": "Designed to carry out 100,000 steps without human approval",
+      "published_at": "2026-10-24T22:02:00+09:00",
+      "first_seen_at": "2026-10-25T17:24:46.756511+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 22.5,
       "published_at_future_suppressed": false
     },
     {
@@ -801,35 +842,6 @@
       "seen_in_kev": false,
       "heat_score": 11.25,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:55507f0c86dddb2c1725c4b2",
-      "permalink_id": "article-url-55507f0c86dddb2c1725c4b2",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/19/2000002365/",
-      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）　ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
-      "summary_excerpt": "悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。",
-      "published_at": "2026-10-19T11:04:19+09:00",
-      "first_seen_at": "2026-10-19T12:01:53.812676+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-99999"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 11.25,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -850,15 +862,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】GMO、不正アクセス関与者の特定に総額1.6億円の懸賞金　見舞金最大300万円",
-    "【HOTTEST #1 / Heat 75】Microsoft、.NETの脆弱性「HTTP2Shell」に緊急対応　PowerShellなども更新",
-    "【LATEST #2】Artificial Intimacy: Love and lies in the age of AI",
-    "【HOTTEST #2 / Heat 73】GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
-    "【LATEST #3】Exeon expands threat detection to shadow AI and autonomous agents",
+    "【LATEST #1】Malicious apps prey on Russians’ anxiety about fuel prices, drone strikes",
+    "【HOTTEST #1 / Heat 73】GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
+    "【LATEST #2】CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
+    "【HOTTEST #2 / Heat 67.5】Microsoft、.NETの脆弱性「HTTP2Shell」に緊急対応　PowerShellなども更新",
+    "【LATEST #3】HPE Patches Dozens of Critical Flaws in Networking Products",
     "【HOTTEST #3 / Heat 67.5】CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "【LATEST #4】Attackers Exploit Teams External Chat to Breach Organizations in Under 15 Minutes",
+    "【LATEST #4】Tricks from the Past deployed via signed ChatGPT and Claude binaries",
     "【HOTTEST #4 / Heat 67.5】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
-    "【LATEST #5】Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack",
+    "【LATEST #5】DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection",
     "【HOTTEST #5 / Heat 67.5】CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)"
   ]
 }
