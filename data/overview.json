@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-27T21:11:42.787923+00:00",
-  "as_of": "2026-10-27T21:00:00+00:00",
-  "catalog_count": 20991,
+  "generated_at": "2026-10-27T22:11:17.616346+00:00",
+  "as_of": "2026-10-27T22:00:00+00:00",
+  "catalog_count": 20994,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,27 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:d693ccb912359889e5689471",
+      "permalink_id": "article-url-d693ccb912359889e5689471",
+      "canonical_url": "https://gigazine.net/news/20261028-cve-tracker/",
+      "title": "AIによって脆弱性発見が爆増したことが一目で分かるグラフ「CVE Tracker」",
+      "summary_excerpt": "AIの性能向上によってソフトウェアの脆弱性が続々と発見されるようになりました。@0x_Osprey氏が公開しているウェブアプリ「CVE Tracker」では2026年に入ってから脆弱性の報告件数が急増していることが読み取れます。 続きを読む...",
+      "published_at": "2026-10-28T07:00:00+09:00",
+      "first_seen_at": "2026-10-28T07:01:42.908333+09:00",
+      "source_name": "GIGAZINE",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:48c19b4b72519c2c3ddc9646",
       "permalink_id": "article-url-48c19b4b72519c2c3ddc9646",
@@ -50,6 +71,38 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d80a19c6eb408dc9a9f7c206",
+      "permalink_id": "article-url-d80a19c6eb408dc9a9f7c206",
+      "canonical_url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
+      "title": "External Teams Chats Anchor 15-Minute Malware Delivery",
+      "summary_excerpt": "Main bombing sis getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
+      "published_at": "2026-10-28T05:42:40+09:00",
+      "first_seen_at": "2026-10-28T06:01:58.927097+09:00",
+      "source_name": "Dark Reading",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -194,48 +247,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f8d645386ba2141ebeed3e05",
-      "permalink_id": "article-url-f8d645386ba2141ebeed3e05",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/03766/092800003/",
-      "title": "Web API開発に欠かせないセキュリティー、制御のポイントを理解する",
-      "summary_excerpt": "Web APIはサービスの機能やデータを外部に公開しているため、セキュリティ対策が不十分な場合には、悪意ある攻撃者に悪用される恐れがあります。ですので、通常のWebアプリケーションに必要なセキュリティ対策を施しましょう。",
-      "published_at": "2026-10-28T05:00:00+09:00",
-      "first_seen_at": "2026-10-28T06:02:13.762970+09:00",
-      "source_name": "Nikkei XTECH IT",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1238dd7c9fb240c956c7f24a",
-      "permalink_id": "article-url-1238dd7c9fb240c956c7f24a",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/27/news005.html",
-      "title": "「取引先のサイバーリスクが高い」――不正アクセス相次ぐ今、“AI判定の正しさ”をどう見極める？",
-      "summary_excerpt": "サプライチェーン全体のセキュリティ対策を評価する重要性が高まり、一方では評価においてもAIを活用する動きが広がっています。評価を信頼し、実務に生かすために、いまサイバーリスク評価には何が求められるのでしょうか。",
-      "published_at": "2026-10-28T05:00:00+09:00",
-      "first_seen_at": "2026-10-28T06:01:39.090928+09:00",
-      "source_name": "@IT Security & Trust",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -852,15 +863,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】懸念が高まる「サプライチェーン攻撃」、被害企業はその後どう動いた？　1000社アンケートから浮かび上がった実像、そして「SCS評価制度」との向き合い方【Security Days Fall 2026】",
+    "【LATEST #1】AIによって脆弱性発見が爆増したことが一目で分かるグラフ「CVE Tracker」",
     "【HOTTEST #1 / Heat 75】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
-    "【LATEST #2】Hackers hijack Convertr analytics script to steal payment card data",
+    "【LATEST #2】懸念が高まる「サプライチェーン攻撃」、被害企業はその後どう動いた？　1000社アンケートから浮かび上がった実像、そして「SCS評価制度」との向き合い方【Security Days Fall 2026】",
     "【HOTTEST #2 / Heat 75】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-    "【LATEST #3】All the security risks Anthropic is worried about before its IPO",
+    "【LATEST #3】Hackers hijack Convertr analytics script to steal payment card data",
     "【HOTTEST #3 / Heat 75】CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-    "【LATEST #4】Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
+    "【LATEST #4】External Teams Chats Anchor 15-Minute Malware Delivery",
     "【HOTTEST #4 / Heat 70.97】CVE-2026-48356: Adobe Commerce and Magento",
-    "【LATEST #5】PHP2Shellの「事前の情報流出」でパニックに　パッチ公開を巡る“混乱劇”",
+    "【LATEST #5】All the security risks Anthropic is worried about before its IPO",
     "【HOTTEST #5 / Heat 70.97】CVE-2026-111497: Google Brotli"
   ]
 }
