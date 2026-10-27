@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-27T16:10:39.566297+00:00",
-  "as_of": "2026-10-27T16:00:00+00:00",
-  "catalog_count": 20961,
+  "generated_at": "2026-10-27T17:12:10.525542+00:00",
+  "as_of": "2026-10-27T17:00:00+00:00",
+  "catalog_count": 20970,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,65 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:18c383ff847a81724821f142",
+      "permalink_id": "article-url-18c383ff847a81724821f142",
+      "canonical_url": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
+      "title": "'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants",
+      "summary_excerpt": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
+      "published_at": "2026-10-28T01:47:20+09:00",
+      "first_seen_at": "2026-10-28T02:02:30.758492+09:00",
+      "source_name": "Dark Reading",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:748165b4a027109540a9fc78",
+      "permalink_id": "article-url-748165b4a027109540a9fc78",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/cyber-unmhealth-surgeries/",
+      "title": "Cyber Incident Forces UNM Health to Cancel Surgeries, Divert Ambulances",
+      "summary_excerpt": "The University of New Mexico is working to restore systems following the incident, which has been claimed by the BYOD ransomware group",
+      "published_at": "2026-10-28T01:45:00+09:00",
+      "first_seen_at": "2026-10-28T02:02:49.703219+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:233d9310693a5023f8384bd7",
       "permalink_id": "article-url-233d9310693a5023f8384bd7",
@@ -29,6 +88,54 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:52f17277130617a14d9e54dc",
+      "permalink_id": "article-url-52f17277130617a14d9e54dc",
+      "canonical_url": "https://www.security.com/expert-perspectives/security-dot-com-podcast-behind-scores",
+      "title": "🎙️SECURITY.COM The Podcast: Behind the Scores",
+      "summary_excerpt": "ISO standards, TCO quadrant math, and cutting through glossy vendor marketing claims",
+      "published_at": "2026-10-28T00:30:00+09:00",
+      "first_seen_at": "2026-10-28T02:02:08.305342+09:00",
+      "source_name": "Broadcom / Symantec Enterprise Blogs",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "media_podcast",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d2366866b8cefb5ea307f8f8",
+      "permalink_id": "article-url-d2366866b8cefb5ea307f8f8",
+      "canonical_url": "https://www.cybersecuritydive.com/news/cisa-security-researchers-exploitation-php-flaws/872886/",
+      "title": "CISA, security researchers confirm successful exploitation of PHP flaws",
+      "summary_excerpt": "The security community has come under increased scrutiny as earlier threat warnings were slow to materialize.",
+      "published_at": "2026-10-28T00:27:03+09:00",
+      "first_seen_at": "2026-10-28T02:02:30.459190+09:00",
+      "source_name": "Cybersecurity Dive",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -165,118 +272,36 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:091b6fd3c9263560f459c929",
-      "permalink_id": "article-url-091b6fd3c9263560f459c929",
-      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/27/cisa-confirms-php2shell-under-attack-as-researchers-clock-successful-exploits/5305681",
-      "title": "CISA confirms PHP2Shell under attack as researchers clock successful exploits",
-      "summary_excerpt": "Both critical PHP flaws land on the agency’s exploited list as infosec pros confirm hackers are getting working shells",
-      "published_at": "2026-10-27T23:45:00+09:00",
-      "first_seen_at": "2026-10-28T01:01:51.243059+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:21c601546499f53071c70a5c",
-      "permalink_id": "article-url-21c601546499f53071c70a5c",
-      "canonical_url": "https://www.cybersecuritydive.com/news/healthcare-cybersecurity-white-house-pilot-program-launch/872872/",
-      "title": "US launches program to deliver free cybersecurity help to rural hospitals",
-      "summary_excerpt": "Small and rural healthcare organizations are among the most vulnerable critical infrastructure organizations in the nation.",
-      "published_at": "2026-10-27T23:34:49+09:00",
-      "first_seen_at": "2026-10-28T01:01:36.758782+09:00",
-      "source_name": "Cybersecurity Dive",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b6fca9b4b15cf34024b47fb3",
-      "permalink_id": "article-url-b6fca9b4b15cf34024b47fb3",
-      "canonical_url": "https://www.security-next.com/192029",
-      "title": "49システムで情報流出、横展開など確認 - ユミルリンク",
-      "summary_excerpt": "ユミルリンクのメール配信サービスがサイバー攻撃を受けた問題で、同社顧客が利用する49のシステムにおいて情報流出が確認された。同社では影響など詳しく調べている。",
-      "published_at": "2026-10-27T23:34:08+09:00",
-      "first_seen_at": "2026-10-28T01:01:48.901771+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9634780a377812c7519967ca",
-      "permalink_id": "article-url-9634780a377812c7519967ca",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
-      "title": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
-      "summary_excerpt": "Threat actors are flooding employees’ inboxes with spam and then contacting them on Microsoft Teams as IT support, offering to fix the problem they created, Arctic Wolf has found. The security company documented more than 400 incidents in which the external chat feature in Teams was abused. In many of these cases, the fake help desk message arrived minutes after the victim’s inbox had been filled with hundreds of newsletter and subscription confirmations. “Microsoft Teams … More → The post Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support appeared first on Help ",
-      "published_at": "2026-10-27T23:16:43+09:00",
-      "first_seen_at": "2026-10-28T00:02:31.678191+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
     {
-      "public_article_id": "url:a3b1ae13755f3bc4daeba809",
-      "permalink_id": "article-url-a3b1ae13755f3bc4daeba809",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002642/",
-      "title": "GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
-      "summary_excerpt": "GMOインターネットグループが、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡り、事態を解明する情報に総額100万ドル（約1億5000万円）の報奨金を支払う懸賞金制度を始めると発表した。",
-      "published_at": "2026-10-27T19:58:09+09:00",
-      "first_seen_at": "2026-10-27T21:02:10.469983+09:00",
-      "source_name": "ITmedia NEWS Bursts",
+      "public_article_id": "url:6e33a6040a7d5deb5895de4a",
+      "permalink_id": "article-url-6e33a6040a7d5deb5895de4a",
+      "canonical_url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "summary_excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
+      "published_at": "2026-10-27T22:59:09+09:00",
+      "first_seen_at": "2026-10-28T02:03:01.265359+09:00",
+      "source_name": "The Hacker News",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-86950"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 73.0,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
     {
@@ -455,32 +480,24 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:c0e956f9dbd9ca01d151f86c",
-      "permalink_id": "article-url-c0e956f9dbd9ca01d151f86c",
-      "canonical_url": "https://www.akamai.com/blog/security-research/inside-node2shell-closer-look-cve-2026-111497",
-      "title": "Inside Node2Shell: A Closer Look at CVE-2026-111497",
-      "summary_excerpt": null,
-      "published_at": "2026-10-27T01:00:00+09:00",
-      "first_seen_at": "2026-10-27T04:01:59.810971+09:00",
-      "source_name": "Akamai Security Intelligence",
+      "public_article_id": "url:a3b1ae13755f3bc4daeba809",
+      "permalink_id": "article-url-a3b1ae13755f3bc4daeba809",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002642/",
+      "title": "GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
+      "summary_excerpt": "GMOインターネットグループが、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡り、事態を解明する情報に総額100万ドル（約1億5000万円）の報奨金を支払う懸賞金制度を始めると発表した。",
+      "published_at": "2026-10-27T19:58:09+09:00",
+      "first_seen_at": "2026-10-27T21:02:10.469983+09:00",
+      "source_name": "ITmedia NEWS Bursts",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 65.7,
       "published_at_future_suppressed": false
     },
     {
@@ -829,15 +846,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Hackers Infect 953 Online Stores With Scanner-Evading Code",
-    "【HOTTEST #1 / Heat 73】GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
-    "【LATEST #2】Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
+    "【LATEST #1】'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants",
+    "【HOTTEST #1 / Heat 75】Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+    "【LATEST #2】Cyber Incident Forces UNM Health to Cancel Surgeries, Divert Ambulances",
     "【HOTTEST #2 / Heat 67.5】Microsoft、.NETの脆弱性「HTTP2Shell」に緊急対応　PowerShellなども更新",
-    "【LATEST #3】Microsoft Teams is getting a suite new AI features to crack down on phishing attacks",
+    "【LATEST #3】Hackers Infect 953 Online Stores With Scanner-Evading Code",
     "【HOTTEST #3 / Heat 67.5】CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "【LATEST #4】Hackers repeatedly breached suppliers holding UK police data, watchdog finds",
+    "【LATEST #4】🎙️SECURITY.COM The Podcast: Behind the Scores",
     "【HOTTEST #4 / Heat 67.5】Snapshotting our way to CVE-2026-9539",
-    "【LATEST #5】ISC2 Launches Cyber-AI Workforce Coalition to Address the Future of AI Security Jobs",
+    "【LATEST #5】CISA, security researchers confirm successful exploitation of PHP flaws",
     "【HOTTEST #5 / Heat 67.5】Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge"
   ]
 }
