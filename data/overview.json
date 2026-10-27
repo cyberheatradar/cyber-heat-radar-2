@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-27T18:10:48.613563+00:00",
-  "as_of": "2026-10-27T18:00:00+00:00",
-  "catalog_count": 20973,
+  "generated_at": "2026-10-27T19:11:25.650479+00:00",
+  "as_of": "2026-10-27T19:00:00+00:00",
+  "catalog_count": 20976,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,81 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:11483ab5c3b750f8e297e5ba",
+      "permalink_id": "article-url-11483ab5c3b750f8e297e5ba",
+      "canonical_url": "https://cyberscoop.com/nefilim-hive-ransomware-affiliate-artem-stryzhak-sentenced/",
+      "title": "Prolific Hive and Nefilim ransomware affiliate sentenced to 70 months in prison",
+      "summary_excerpt": "Artem Stryzhak participated in a series of ransomware attacks on hospitals, government entities and law firms from the middle of 2018 to late 2021. The post Prolific Hive and Nefilim ransomware affiliate sentenced to 70 months in prison appeared first on CyberScoop .",
+      "published_at": "2026-10-28T03:33:41+09:00",
+      "first_seen_at": "2026-10-28T04:02:01.582937+09:00",
+      "source_name": "CyberScoop",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:536e322981d163baad47e019",
+      "permalink_id": "article-url-536e322981d163baad47e019",
+      "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+      "summary_excerpt": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
+      "published_at": "2026-10-28T03:20:28+09:00",
+      "first_seen_at": "2026-10-28T04:01:42.107006+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:74bf1086544500535fb7c466",
+      "permalink_id": "article-url-74bf1086544500535fb7c466",
+      "canonical_url": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
+      "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
+      "summary_excerpt": "Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
+      "published_at": "2026-10-28T02:43:07+09:00",
+      "first_seen_at": "2026-10-28T04:02:01.851456+09:00",
+      "source_name": "Dark Reading",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:86b085b4800a651a865cc045",
       "permalink_id": "article-url-86b085b4800a651a865cc045",
@@ -194,87 +269,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d2366866b8cefb5ea307f8f8",
-      "permalink_id": "article-url-d2366866b8cefb5ea307f8f8",
-      "canonical_url": "https://www.cybersecuritydive.com/news/cisa-security-researchers-exploitation-php-flaws/872886/",
-      "title": "CISA, security researchers confirm successful exploitation of PHP flaws",
-      "summary_excerpt": "The security community has come under increased scrutiny as earlier threat warnings were slow to materialize.",
-      "published_at": "2026-10-28T00:27:03+09:00",
-      "first_seen_at": "2026-10-28T02:02:30.459190+09:00",
-      "source_name": "Cybersecurity Dive",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:78087a2ffd241bba3adc9598",
-      "permalink_id": "article-url-78087a2ffd241bba3adc9598",
-      "canonical_url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
-      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
-      "summary_excerpt": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws appeared first on SecurityWeek .",
-      "published_at": "2026-10-28T00:26:12+09:00",
-      "first_seen_at": "2026-10-28T01:01:49.231705+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:eaf551e15e31f52c1d3518fd",
-      "permalink_id": "article-url-eaf551e15e31f52c1d3518fd",
-      "canonical_url": "https://www.itpro.com/security/phishing/microsoft-teams-is-getting-a-suite-new-ai-features-to-crack-down-on-phishing-attacks",
-      "title": "Microsoft Teams is getting a suite new AI features to crack down on phishing attacks",
-      "summary_excerpt": "A sharp rise in phishing attacks against Microsoft Teams has prompted a raft of new features",
-      "published_at": "2026-10-28T00:08:57+09:00",
-      "first_seen_at": "2026-10-28T01:01:46.772580+09:00",
-      "source_name": "ITPro Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -484,35 +478,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:8674d0a6a0f266178ac63b5c",
-      "permalink_id": "article-url-8674d0a6a0f266178ac63b5c",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-111497",
-      "title": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-      "summary_excerpt": null,
-      "published_at": "2026-10-27T03:45:00+09:00",
-      "first_seen_at": "2026-10-27T04:02:43.859748+09:00",
-      "source_name": "Palo Alto Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:a3b1ae13755f3bc4daeba809",
       "permalink_id": "article-url-a3b1ae13755f3bc4daeba809",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002642/",
@@ -548,6 +513,33 @@
       "document_form": "single_story",
       "primary_category": "threat_report",
       "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:83e73708e21d59686c37c777",
+      "permalink_id": "article-url-83e73708e21d59686c37c777",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002550/",
+      "title": "メアドを検索→AIで“その人専用フィッシングメール”を生成する手法、クリック率が約2.7倍に　7000人以上で実験",
+      "summary_excerpt": "ドイツのベルリン工科大学などに所属する研究者らが発表した論文「A Large-Scale Study of Personalized Phishing using Large Language Models」は、AIが生成するスピアフィッシング攻撃の有効性を検証した研究報告だ。",
+      "published_at": "2026-10-27T12:00:00+09:00",
+      "first_seen_at": "2026-10-27T13:02:03.170225+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -852,15 +844,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
+    "【LATEST #1】Prolific Hive and Nefilim ransomware affiliate sentenced to 70 months in prison",
     "【HOTTEST #1 / Heat 75】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-    "【LATEST #2】'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants",
+    "【LATEST #2】Microsoft releases Windows OOB updates to distrust eMudhra certificates",
     "【HOTTEST #2 / Heat 75】CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-    "【LATEST #3】Cyber Incident Forces UNM Health to Cancel Surgeries, Divert Ambulances",
+    "【LATEST #3】Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
     "【HOTTEST #3 / Heat 75】Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-    "【LATEST #4】CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
+    "【LATEST #4】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
     "【HOTTEST #4 / Heat 67.5】Microsoft、.NETの脆弱性「HTTP2Shell」に緊急対応　PowerShellなども更新",
-    "【LATEST #5】Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack",
+    "【LATEST #5】'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants",
     "【HOTTEST #5 / Heat 67.5】CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution"
   ]
 }
