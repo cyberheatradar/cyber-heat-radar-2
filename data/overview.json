@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-27T19:11:25.650479+00:00",
-  "as_of": "2026-10-27T19:00:00+00:00",
-  "catalog_count": 20976,
+  "generated_at": "2026-10-27T20:11:29.639913+00:00",
+  "as_of": "2026-10-27T20:00:00+00:00",
+  "catalog_count": 20980,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,33 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:a07e98d7d0796172124c9f82",
+      "permalink_id": "article-url-a07e98d7d0796172124c9f82",
+      "canonical_url": "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
+      "title": "AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours",
+      "summary_excerpt": "One critical, three high-severity EPICS bugs could disrupt research experiments",
+      "published_at": "2026-10-28T04:11:02+09:00",
+      "first_seen_at": "2026-10-28T05:02:16.093471+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:11483ab5c3b750f8e297e5ba",
       "permalink_id": "article-url-11483ab5c3b750f8e297e5ba",
@@ -249,27 +276,6 @@
       "seen_in_kev": false,
       "heat_score": 45.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:52f17277130617a14d9e54dc",
-      "permalink_id": "article-url-52f17277130617a14d9e54dc",
-      "canonical_url": "https://www.security.com/expert-perspectives/security-dot-com-podcast-behind-scores",
-      "title": "🎙️SECURITY.COM The Podcast: Behind the Scores",
-      "summary_excerpt": "ISO standards, TCO quadrant math, and cutting through glossy vendor marketing claims",
-      "published_at": "2026-10-28T00:30:00+09:00",
-      "first_seen_at": "2026-10-28T02:02:08.305342+09:00",
-      "source_name": "Broadcom / Symantec Enterprise Blogs",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "media_podcast",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -332,6 +338,79 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:7f13e3152f2268964d955501",
+      "permalink_id": "article-url-7f13e3152f2268964d955501",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-48356",
+      "title": "CVE-2026-48356: Adobe Commerce and Magento",
+      "summary_excerpt": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+      "published_at": "2026-10-27T09:00:00+09:00",
+      "first_seen_at": "2026-10-28T05:01:34.047686+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-48356"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 70.97,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0aca4f22f78234006c292622",
+      "permalink_id": "article-url-0aca4f22f78234006c292622",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111497",
+      "title": "CVE-2026-111497: Google Brotli",
+      "summary_excerpt": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+      "published_at": "2026-10-27T09:00:00+09:00",
+      "first_seen_at": "2026-10-28T05:01:34.026406+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 70.97,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:6e33a6040a7d5deb5895de4a",
       "permalink_id": "article-url-6e33a6040a7d5deb5895de4a",
       "canonical_url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
@@ -357,7 +436,37 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f7763a757c0c37e729dbb312",
+      "permalink_id": "article-url-f7763a757c0c37e729dbb312",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli Unchecked Return Value Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civ",
+      "published_at": "2026-10-27T21:00:00+09:00",
+      "first_seen_at": "2026-10-28T05:01:33.048595+09:00",
+      "source_name": "CISA Cybersecurity Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497",
+        "CVE-2026-48356"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -448,36 +557,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:5b8d2fcda8c38b784a557f43",
-      "permalink_id": "article-url-5b8d2fcda8c38b784a557f43",
-      "canonical_url": "https://blog.polyswarm.io/millions-of-php-servers-face-rce-risk-as-php2shell-exploitation-attempts-emerge",
-      "title": "Millions of PHP Servers Face RCE Risk as PHP2Shell Exploitation Attempts Emerge",
-      "summary_excerpt": "CVEs: CVE-2026-109618, CVE-2026-109619 Severity: Critical Executive Summary Two critical vulnerabilities in the PHP runtime, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively dubbed PHP2Shell, could allow unauthenticated attackers to execute arbitrary code on vulnerable web servers, including systems hosting WordPress, Drupal, and Joomla applications. Security researchers have reported exploitation attempts surrounding the October 21 emergency security release, including activity observed before public disclosure, while VulnCheck documented automated scanning and an unsuccessful ",
-      "published_at": "2026-10-27T04:06:30+09:00",
-      "first_seen_at": "2026-10-27T06:02:30.265355+09:00",
-      "source_name": "PolySwarm Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:a3b1ae13755f3bc4daeba809",
       "permalink_id": "article-url-a3b1ae13755f3bc4daeba809",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002642/",
@@ -492,54 +571,6 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8851528753e06d223a1ac6a2",
-      "permalink_id": "article-url-8851528753e06d223a1ac6a2",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/rapid7-vulnerability-exploitation-trends-q3-2026-report/",
-      "title": "71% of vulnerability exploitation starts within a week of disclosure",
-      "summary_excerpt": "Attackers are exploiting newly disclosed security flaws within days, leaving organizations little time to respond, according to Rapid7’s Q3 2026 Quarterly Threat Landscape Report. The company reported an average of three days between public disclosure and exploitation of high-severity vulnerabilities, with 71% of tracked exploitation occurring within the first week. Cumulative exploitation rate (Source: Rapid7) Exploitation puts pressure on fixed patching schedules Researchers tracked 43 newly exploited high- and critical-severity vulnerabilities during the quarter. Organizations … More → The ",
-      "published_at": "2026-10-27T14:30:33+09:00",
-      "first_seen_at": "2026-10-27T15:02:11.244987+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_report",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:83e73708e21d59686c37c777",
-      "permalink_id": "article-url-83e73708e21d59686c37c777",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/27/2000002550/",
-      "title": "メアドを検索→AIで“その人専用フィッシングメール”を生成する手法、クリック率が約2.7倍に　7000人以上で実験",
-      "summary_excerpt": "ドイツのベルリン工科大学などに所属する研究者らが発表した論文「A Large-Scale Study of Personalized Phishing using Large Language Models」は、AIが生成するスピアフィッシング攻撃の有効性を検証した研究報告だ。",
-      "published_at": "2026-10-27T12:00:00+09:00",
-      "first_seen_at": "2026-10-27T13:02:03.170225+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -844,15 +875,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Prolific Hive and Nefilim ransomware affiliate sentenced to 70 months in prison",
+    "【LATEST #1】AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours",
     "【HOTTEST #1 / Heat 75】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-    "【LATEST #2】Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+    "【LATEST #2】Prolific Hive and Nefilim ransomware affiliate sentenced to 70 months in prison",
     "【HOTTEST #2 / Heat 75】CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-    "【LATEST #3】Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
-    "【HOTTEST #3 / Heat 75】Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-    "【LATEST #4】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-    "【HOTTEST #4 / Heat 67.5】Microsoft、.NETの脆弱性「HTTP2Shell」に緊急対応　PowerShellなども更新",
-    "【LATEST #5】'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants",
-    "【HOTTEST #5 / Heat 67.5】CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution"
+    "【LATEST #3】Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+    "【HOTTEST #3 / Heat 70.97】CVE-2026-48356: Adobe Commerce and Magento",
+    "【LATEST #4】Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
+    "【HOTTEST #4 / Heat 70.97】CVE-2026-111497: Google Brotli",
+    "【LATEST #5】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
+    "【HOTTEST #5 / Heat 67.5】Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads"
   ]
 }
