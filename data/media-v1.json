@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-27T21:30:02.302111+00:00",
+  "source_snapshot_generated_at": "2026-10-27T22:30:03.047620+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -4824,6 +4824,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:8d30c5f5bb45d03dcb82e183",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "WordPress",
+          "Web",
+          "インフラ"
+        ],
+        "url": "https://qiita.com/jiis-sasaki/items/91c2e8aeeec02d5e553e",
+        "title": "Cloudflare無料プランのWAFでWordPressを守る5つのカスタムルール(式コピペOK)",
+        "author": "jiis-sasaki",
+        "published_at": "2026-10-28T07:30:00+09:00",
+        "excerpt": "こんな方向け : Cloudflare の無料プランに WordPress サイトを載せたものの、WAF は「とりあえず有効」のままの Web 担当者・制作会社の方。 この記事で解決すること : 無料プランの カスタムルール 5 本 (+レート制限 1 本)を、WordPress でよく狙われる入口に割り振る式(式エディタにそのまま貼れる形)と手順がわかります。 はじめに:無料プランで使える WAF の範囲 WAF(Web Application Firewall)= Web サイトへのリクエストを中身で判定して、怪しいものを手前で止める仕組みです。Cloudflare では、プロキシ(オレンジ雲)を有効にしたホスト名への通信がエッジ(Cloudflare 側)で判定されます。 無料(Free)プランの主な制約は次のとおりです(Cloudflare 公式ドキュメントより)。 項目 Free プランの範囲 カスタムルール 5 本 正規表現( matches 演算子) 使えない (Business 以上) アクション Log 以外(Block / M"
+      },
+      {
+        "id": "qiita:6021498ac15c46b8a85bc557",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "情報漏えい",
+          "セキュリティニュース",
+          "ユミルリンク"
+        ],
+        "url": "https://qiita.com/Kerdy/items/cf57cde35887b30a1ecc",
+        "title": "10/28、今日のセキュリティニュース｜ユミルリンク、不正アクセスで情報漏えい件数を最大約5163万件と発表。対象が50システムに拡大｜GMOに身代金要求 - ランサム攻撃や情報公開を行うと脅迫",
+        "author": "Kerdy",
+        "published_at": "2026-10-28T07:13:29+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 準備中 良かったら、高評価とチャネル登録をお願いします🙇 ユミルリンク、不正ア"
+      },
+      {
+        "id": "qiita:d4ef14be0f086a52c264a907",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "ハードウェア",
+          "エージェント"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/8d855eebab398d4d7d5f",
+        "title": "AI Daily Digest（2026年10月28日）：DeepMindのGenie 4が世界をシミュレート、ClaudeがChromeの脆弱性62件を発見、OracleがOpenAIを企業ワークフローに統合",
+        "author": "lhjjjk4",
+        "published_at": "2026-10-28T07:06:54+09:00",
+        "excerpt": "Google DeepMind は音付きの世界シミュレーションを実現し、Anthropic のレッドチームは未公開の Claude をブラウザと OS に向けた結果、パッチはすでに配布されています。Oracle は OpenAI を企業システムに組み込み、NVIDIA はその土台となるシリコンを出荷しました。過去 24 時間で重要な 7 つのニュースをまとめます。 1. DeepMind、リアルタイム世界シミュレーションモデル「Genie 4」を発表 Google DeepMind は 10 月 27 日、新しい世界モデル Genie 4 を発表しました。リアルタイムで対話可能な環境を生成するモデルで、ネイティブマルチモーダル設計により、映像と同時に音楽・環境音・対話的なセリフを生成します。自然言語でシミュレーションを指示通りに操れるのも特徴で、天候の変更、カメラの移動、新しい人物の登場などを場面の展開中に指示でき、Gemini が各指示をシーンに合わせて調整します。報道によると、シミュレーションの整合性は約 2 分間維持され、前世代 Genie"
+      },
+      {
         "id": "qiita:ed5b476c796ee90273e9abf8",
         "source": "qiita",
         "author_tags": [
@@ -5072,6 +5118,22 @@
         "author": "NKKTechGlobal",
         "published_at": "2026-10-27T15:26:15+09:00",
         "excerpt": "クラウドインフラの外部監査をクリアするためのログ集約とトレーサビリティ設計の基本 はじめに こんにちは、 NKKTech Global 技術チームです。 スタートアップがエンタープライズ企業と契約する際や、グローバル展開でシンガポール・欧米市場に進出する際、 SOC 2 や ISO 27001 などの外部認証の取得 が必須要件となるケースが急増しています。 その監査現場で必ず突きつけられるのが、以下の質問です。 「特権管理者（Root/Admin）が証拠隠滅のためにログを削除できない設計になっていますか？」 「半年前の特定のデータ変更について、誰が、どの端末から、どのAPIを叩いたか、1本の線（トレース）で証明できますか？」 「CloudWatch Logsのデフォルト保持期間が切れてログが消失していませんか？」 本記事では、後から慌ててログ基盤を再構築しなくて済むよう、**「外部監査をパスするためのログ集約・トレーサビリティ設計の4大原則」**と具体的な実装コードを解説します。 1. 外部監査人が求める「ログの4大要件」 監査機関がチェックする"
+      },
+      {
+        "id": "qiita:ff0319e2647d3205bb7c4b58",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "GMO",
+          "不正アクセス",
+          "フィッシング",
+          "初心者"
+        ],
+        "url": "https://qiita.com/nemui_zzz/items/f50f9a38e17114eef824",
+        "title": "お名前.com デスクトップクラウドの件、何が起きて何が危ないのか GMOの発表をまとめて読む",
+        "author": "nemui_zzz",
+        "published_at": "2026-10-27T14:48:45+09:00",
+        "excerpt": "2026年10月28日 日本時間4時時点の情報です（GMO の第12報〈27日19時10分〉まで）。事件は進行中です。最新の状況は、末尾の出典にある GMO の公式発表で確認してください。 30秒でわかる、何があったか GMOインターネットの「お名前.com デスクトップクラウド」が不正アクセスを受けました。GMO は、利用者の情報が外部に持ち出された事実を確認したと発表しています（第4報）。対象になりうるサーバーは 26,739 件で、不正アクセスが確認された件数ではありません（第3報）。 犯人とみられる者は約80億円を要求し、27日12時に利用者の情報の公開とランサムウェア攻撃を行うと予告しました（第7報）。GMO は要求には「永久に応じません」としています（第12報）。 27日12時30分、GMO は、犯人とみられる者が「当社およびお客様に関する情報と称するもの」をサイトで公開したことを確認しました。本物かどうか、誰の情報が入っているかは確認中です（第10報）。 自分は関係ある？ まず確かめておくこと GMO の発表は「お名前.com デス"
       },
       {
         "id": "qiita:01329845d0fccf88ac40e856",
@@ -8912,6 +8974,86 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:59b483cee1735b73c60ff6f5",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "hacking",
+          "cybersecurity",
+          "bug-bounty",
+          "technology"
+        ],
+        "url": "https://medium.com/@The_Knower/i-didnt-even-open-burp-suite-one-url-change-exposed-hidden-wordpress-content-04c2a56125d2",
+        "title": "I Didn’t Even Open Burp Suite — One URL Change Exposed Hidden WordPress Content",
+        "author": "The Knower",
+        "published_at": "2026-10-27T22:01:58+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e4098cdc3cfd97300a1075f3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cloud-security",
+          "network-security",
+          "cloudfare",
+          "security-platform"
+        ],
+        "url": "https://medium.com/@stackrow205/cloudflare-security-coverage-should-be-proven-one-traffic-flow-at-a-time-ee2a3f9c23a3",
+        "title": "Cloudflare Security Coverage Should Be Proven One Traffic Flow at a Time",
+        "author": "Stackrow",
+        "published_at": "2026-10-27T22:01:01+00:00",
+        "excerpt": "Cloudflare offers controls across public applications, employee access, network connectivity, email, and data. That breadth can support… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:85238ae6772051541bd86fd6",
+        "source": "medium",
+        "author_tags": [
+          "infosec",
+          "malware",
+          "hacking",
+          "pentesting",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@s12deff/runtime-credential-guard-deactivation-d01cb9eb0062",
+        "title": "Runtime Credential Guard Deactivation",
+        "author": "S12 - 0x12Dark Development",
+        "published_at": "2026-10-27T21:43:36+00:00",
+        "excerpt": "Welcome to this new Medium post, in this one we will see how to bypass Windows Credential Guard at runtime by signaling an undocumented… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:06c74c99668064b598c1a669",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "cve",
+          "information-security",
+          "sql-injection",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@mjoker22mjoker22/discovering-and-reporting-sql-injection-a-technical-walkthrough-of-can-2026-2040978-f3d52aabcdb1",
+        "title": "Discovering and Reporting SQL Injection: A Technical Walkthrough of CAN-2026–2040978",
+        "author": "Mjokermjoker",
+        "published_at": "2026-10-27T21:40:33+00:00",
+        "excerpt": "Author: Mahdi Karimi Date: October 28, 2026 Vulnerability Type: SQL Injection (CWE-89) Affected Target: Lower Niger River Basin… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:43f455ce3131492a8ef1c65a",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "technology",
+          "cyber-awarness",
+          "cybersecurity",
+          "data-security"
+        ],
+        "url": "https://medium.com/@shangika.09/why-cybersecurity-matters-to-everyone-not-just-it-teams-9ae300574bff",
+        "title": "Why Cybersecurity Matters to Everyone, Not Just IT Teams",
+        "author": "SAI AATHI",
+        "published_at": "2026-10-27T21:31:01+00:00",
+        "excerpt": "A beginner-friendly look at passwords, phishing, data protection, human error, and why security is everyone’s responsibility Continue reading on Medium »"
+      },
       {
         "id": "medium:f3a0f33cd732d79db90da8cc",
         "source": "medium",
