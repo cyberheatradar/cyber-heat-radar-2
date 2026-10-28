@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T19:12:23.221521+00:00",
-  "as_of": "2026-10-28T19:00:00+00:00",
-  "catalog_count": 21139,
+  "generated_at": "2026-10-28T20:12:01.843866+00:00",
+  "as_of": "2026-10-28T20:00:00+00:00",
+  "catalog_count": 21142,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,27 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:703e5e6d34e0ac4f96188b61",
+      "permalink_id": "article-url-703e5e6d34e0ac4f96188b61",
+      "canonical_url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+      "title": "Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+      "summary_excerpt": "Attackers probe another EBS bug, and ShinyHunters' PeopleSoft 0-day turns out to involve three vulns",
+      "published_at": "2026-10-29T04:56:56+09:00",
+      "first_seen_at": "2026-10-29T05:02:10.327640+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:3402ef3be45eaaf5abfa887e",
       "permalink_id": "article-url-3402ef3be45eaaf5abfa887e",
@@ -270,38 +291,79 @@
       "seen_in_kev": false,
       "heat_score": 45.0,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:0b33a76a486a83fb49955546",
-      "permalink_id": "article-url-0b33a76a486a83fb49955546",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
-      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
-      "summary_excerpt": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
-      "published_at": "2026-10-29T01:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:01:52.517862+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
+      "public_article_id": "url:980c6fa98a6cc8f4c4e74006",
+      "permalink_id": "article-url-980c6fa98a6cc8f4c4e74006",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-41709",
+      "title": "CVE-2026-41709: Broadcom VMware ESX",
+      "summary_excerpt": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+      "published_at": "2026-10-28T09:00:00+09:00",
+      "first_seen_at": "2026-10-29T05:01:32.938909+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
       "security_relevance": "primary",
       "ai_relevance": "none",
-      "document_form": "single_story",
+      "document_form": "advisory",
       "primary_category": "vulnerability",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "cves": [],
-      "threat_actors": [
-        "Volt Typhoon"
+      "cves": [
+        "CVE-2026-41709"
       ],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 70.97,
       "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
+    },
+    {
+      "public_article_id": "url:e294714b398ec94aec035294",
+      "permalink_id": "article-url-e294714b398ec94aec035294",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-46300",
+      "title": "CVE-2026-46300: Linux Kernel",
+      "summary_excerpt": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+      "published_at": "2026-10-28T09:00:00+09:00",
+      "first_seen_at": "2026-10-29T05:01:32.923828+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "CVE-2026-46300"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 70.97,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:f83598082f121f26e38f677f",
       "permalink_id": "article-url-f83598082f121f26e38f677f",
@@ -533,64 +595,6 @@
       ],
       "cves": [
         "CVE-2026-118608"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2417b67f89c3530d849d3e98",
-      "permalink_id": "article-url-2417b67f89c3530d849d3e98",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-825/",
-      "title": "ZDI-26-825: (0Day) (Pwn2Own) Alpine iLX-F511 diagapp Command Injection Vulnerability",
-      "summary_excerpt": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-118607.",
-      "published_at": "2026-10-28T14:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:05:11.328648+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-118607"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:62142aeffcd8b7b8f5c1b6e1",
-      "permalink_id": "article-url-62142aeffcd8b7b8f5c1b6e1",
-      "canonical_url": "http://www.zerodayinitiative.com/advisories/ZDI-26-824/",
-      "title": "ZDI-26-824: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability",
-      "summary_excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-118606.",
-      "published_at": "2026-10-28T14:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:04:50.990241+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-118606"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -928,15 +932,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-    "【HOTTEST #1 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-    "【LATEST #2】Unwrapping Retail Peak Season Cyber Threats",
-    "【HOTTEST #2 / Heat 67.5】Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "【LATEST #3】GitHub’s npm package firewall can block brand-new versions before they install",
-    "【HOTTEST #3 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【LATEST #4】Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-    "【HOTTEST #4 / Heat 67.5】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "【LATEST #5】Sony ISP subsidiary data breach exposes 2.5 million customer records",
-    "【HOTTEST #5 / Heat 67.5】ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability"
+    "【LATEST #1】Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+    "【HOTTEST #1 / Heat 70.97】CVE-2026-41709: Broadcom VMware ESX",
+    "【LATEST #2】Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+    "【HOTTEST #2 / Heat 70.97】CVE-2026-46300: Linux Kernel",
+    "【LATEST #3】Unwrapping Retail Peak Season Cyber Threats",
+    "【HOTTEST #3 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "【LATEST #4】GitHub’s npm package firewall can block brand-new versions before they install",
+    "【HOTTEST #4 / Heat 67.5】Hackers Start Probing Fresh Oracle EBS Vulnerability",
+    "【LATEST #5】Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+    "【HOTTEST #5 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws"
   ]
 }
