@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T01:30:02.374654+00:00",
+  "source_snapshot_generated_at": "2026-10-28T02:30:02.449805+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -4824,6 +4824,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f077eb271bac35dd6241e1cc",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "生成AI",
+          "ClaudeCode",
+          "Security",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/suwa_nobu/items/e6b2737d3eddb921e40d",
+        "title": "今週の PHP・LiteLLM の脆弱性を Claude Code に探させたら、Web 検索ありで6回中5回見つけた",
+        "author": "suwa_nobu",
+        "published_at": "2026-10-28T11:23:47+09:00",
+        "excerpt": "2026-10-21 に、PHP の重大な脆弱性2件の修正版と、LiteLLM の悪意のある版（1.107.0）が同じ日に出ました。Sonnet 5.5 は自分の知識を「2026年6月まで」と答えます。 自分のプロジェクトが当たっているか、Claude Code に聞いたら分かるのか。 9回測りました。 結論: 新しい脆弱性の確認を Claude Code に頼むなら、Web 検索を使える状態で「最新の情報を調べて」と添え、直す版は公式の告知で確かめる。 理由は3つです。 Web 検索なしでは見つからない。 3回とも「知識が2026年6月までなので確認できない」と答えた Web 検索ありでも、頼まないと1回取りこぼした。 「Web で調べて」と添えた3回は、3回とも両方見つけた 誤検知は0回。ただし根拠は二次情報が中心だった。 公式の告知と食い違う答えも1回あった 見本のプロジェクトで「今すぐ直すべき既知の脆弱性はある？」と聞いた（Sonnet 5.5、各3回） Web 検索なし Web 検索あり 「Web で調べて」と添える PHP の2件を見"
+      },
+      {
+        "id": "qiita:cb18af10718862e2437400a3",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "FastAPI",
+          "暗号化",
+          "PostgreSQL",
+          "Security"
+        ],
+        "url": "https://qiita.com/ponfreelance/items/a33725352663595ad9a0",
+        "title": "Fernet暗号化DBで検索を残す設計と、運用で踏みやすい落とし穴",
+        "author": "ponfreelance",
+        "published_at": "2026-10-28T10:30:18+09:00",
+        "excerpt": "Fernet暗号化DBで検索を残す設計と、運用で踏みやすい落とし穴 DBの列を Fernet で暗号化したあと、WHERE句で引けなくなって手が止まっている人向けの記事。FastAPI + PostgreSQL のような構成で、APIキーやラベルなど機微な値を預かるアプリを想定している。 暗号化そのものは数行で書ける。ただ、検索と鍵の運用まで含めた設計に入ると、手戻りが出やすい箇所がいくつかある。今回は設計の考え方に加えて、運用に入ってから問題になりやすい点を中心に整理する。 結論 Fernet は同じ平文でも暗号文が毎回変わるため、暗号文列に対する等価検索はできない 等価検索が必要な列には、正規化した値を HMAC-SHA256 にかけた検索用ハッシュ（ブラインドインデックス）を別列で持つ 暗号化鍵と検索用の鍵は別物にする 部分一致、範囲検索、ORDER BY は暗号化列では成立しない。列を作る前に平文のまま持つ列と暗号化する列を分類しておく 運用で踏みやすいのは、列長不足、鍵の紛失、正規化のずれ、低カーディナリティ列のインデックス化の4つ 問"
+      },
+      {
         "id": "qiita:e9322a780e19e2de5a9d2c41",
         "source": "qiita",
         "author_tags": [
@@ -9070,6 +9102,21 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:dba81fb461b155ff17575299",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "technology",
+          "wazuh",
+          "blue-team"
+        ],
+        "url": "https://medium.com/@michaelscaros/wazuh-home-siem-detection-lab-fd1b68e8b06a",
+        "title": "Wazuh Home SIEM Detection Lab",
+        "author": "Michael Scaros",
+        "published_at": "2026-10-28T01:30:26+00:00",
+        "excerpt": "Lab Setup Continue reading on Medium »"
+      },
       {
         "id": "medium:e1053f1eede5d1a7705dbb13",
         "source": "medium",
