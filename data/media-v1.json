@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T06:30:02.436646+00:00",
+  "source_snapshot_generated_at": "2026-10-28T07:30:02.348595+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -4824,6 +4824,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:34c0f9380f3bc127e24b21ab",
+        "source": "qiita",
+        "author_tags": [
+          "PostgreSQL",
+          "Security",
+          "APPI",
+          "個人情報保護法",
+          "NKKTechGlobal"
+        ],
+        "url": "https://qiita.com/NKKTechGlobal/items/00bff58dec3c0c9956b9",
+        "title": "個人情報保護法（APPI）対応：PostgreSQLにおける機密データの動的マスキング手法と実装",
+        "author": "NKKTechGlobal",
+        "published_at": "2026-10-28T15:58:52+09:00",
+        "excerpt": "個人情報保護法（APPI）対応：PostgreSQLにおける機密データの動的マスキング手法と実装 はじめに こんにちは、 NKKTech Global 技術チームです。 日本市場向けサービスやエンタープライズシステムを運用する際、**個人情報保護法（APPI）が定める「技術的安全管理措置」**への適合は避けて通れません。 特に現場で問題となるのが、以下のジレンマです。 「データ分析チームに購買履歴を提供したいが、顧客の氏名や電話番号は見せられない」 「不具合調査のために本番DBを参照したいが、エンジニアに平文の個人情報（PII）を閲覧させたくない」 「かといってバッチで別DBにデータをコピー・匿名化（静的マスキング）するのは運用工数とストレージ費用がかさむ」 この課題をスマートに解決するのが、**動的データマスキング（DDM: Dynamic Data Masking）**です。 元データは暗号化・保護された状態で保持しつつ、アクセスするユーザーのデータベースロール（Role）に応じて、クエリ実行時にリアルタイムでデータを伏せ字（マスク）化します"
+      },
+      {
         "id": "qiita:086e237bac12603e681a0e9c",
         "source": "qiita",
         "author_tags": [
@@ -9178,6 +9194,100 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:7eea54121c105f5f77b9586f",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme",
+          "soc",
+          "cybersecurity",
+          "tryhackme-walkthrough"
+        ],
+        "url": "https://medium.com/@vishnuvardhan3530/phishing-prevention-0b23e0d57821",
+        "title": "Phishing Prevention",
+        "author": "Vishnu Vardhan",
+        "published_at": "2026-10-28T07:18:09+00:00",
+        "excerpt": "Learn how to defend against phishing emails. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ec79a58e986b501e95303727",
+        "source": "medium",
+        "author_tags": [
+          "soc-lab",
+          "cybersecurity",
+          "blue-team",
+          "soc",
+          "splunkdeployment"
+        ],
+        "url": "https://ganeshbharkade.medium.com/build-a-soc-home-lab-part-2-install-opnsense-and-splunk-and-wire-up-the-log-pipeline-f9f74e6325cd",
+        "title": "Build a SOC Home Lab, Part 2: Install OPNsense and Splunk, and Wire Up the Log Pipeline",
+        "author": "ganeshbharkade",
+        "published_at": "2026-10-28T07:14:21+00:00",
+        "excerpt": "Today we build the lab, from empty VMs to logs flowing end to end. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:da5ac3dba3eebec72e47f4bd",
+        "source": "medium",
+        "author_tags": [
+          "washington-dc",
+          "comptia-security-plus",
+          "cybersecurity",
+          "information-security"
+        ],
+        "url": "https://medium.com/@sprintzealblogs/comptia-security-certification-in-washington-dc-a-guide-to-cybersecurity-skills-and-career-41a3dc0fb0a9",
+        "title": "CompTIA Security+ Certification in Washington, DC: A Guide to Cybersecurity Skills and Career…",
+        "author": "Sprintzeal blogs",
+        "published_at": "2026-10-28T07:11:48+00:00",
+        "excerpt": "Cybersecurity has become an important priority for organizations that depend on digital systems, networks, cloud platforms, and sensitive… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:effab8937b67da6c238f5cb5",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-awareness",
+          "penetration-testing",
+          "web-security",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://oxdzubair.medium.com/how-pentesters-hunt-for-secrets-in-page-source-real-world-walkthrough-using-a-lab-c34005382deb",
+        "title": "How Pentesters Hunt for Secrets in Page Source (Real-World Walkthrough Using a Lab)",
+        "author": "0xdzubair",
+        "published_at": "2026-10-28T07:10:24+00:00",
+        "excerpt": "One forgotten HTML comment leaked an admin path, a token and a flag. Here is the exact process I follow to find leaks like this on real… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:894cb65098d48650eb355b6d",
+        "source": "medium",
+        "author_tags": [
+          "zero-trust",
+          "cybersecurity",
+          "network-security",
+          "firewall",
+          "networking"
+        ],
+        "url": "https://medium.com/@yedidhe/segmentation-r%C3%A9seau-arr%C3%AAtez-de-penser-en-vlan-pensez-en-zones-de-confiance-b00319a16efd",
+        "title": "Segmentation réseau : arrêtez de penser en VLAN, pensez en zones de confiance",
+        "author": "yedidhe",
+        "published_at": "2026-10-28T07:01:03+00:00",
+        "excerpt": "Avoir quinze VLAN ne veut pas dire avoir un réseau segmenté. Si tout se route librement sur le cœur de réseau, un attaquant qui entre… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:63b74e75cc41599bc921be03",
+        "source": "medium",
+        "author_tags": [
+          "network-security",
+          "firewall",
+          "networking",
+          "zero-trust",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@yedidhe/network-segmentation-stop-thinking-in-vlans-start-thinking-in-trust-zones-84f740f47cf4",
+        "title": "Network Segmentation: Stop Thinking in VLANs, Start Thinking in Trust Zones",
+        "author": "yedidhe",
+        "published_at": "2026-10-28T07:01:02+00:00",
+        "excerpt": "Having fifteen VLANs doesn’t mean your network is segmented. If everything routes freely on the core, an attacker who gets in anywhere can… Continue reading on Medium »"
+      },
       {
         "id": "medium:12e79c284ac2f5fce958be8b",
         "source": "medium",
