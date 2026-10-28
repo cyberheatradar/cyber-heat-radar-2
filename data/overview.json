@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T20:12:01.843866+00:00",
-  "as_of": "2026-10-28T20:00:00+00:00",
-  "catalog_count": 21142,
+  "generated_at": "2026-10-28T21:12:19.646344+00:00",
+  "as_of": "2026-10-28T21:00:00+00:00",
+  "catalog_count": 21150,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,166 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:69173eb6b54d53808d5546ee",
+      "permalink_id": "article-url-69173eb6b54d53808d5546ee",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
+      "published_at": "2026-10-29T05:36:45+09:00",
+      "first_seen_at": "2026-10-29T06:02:00.231820+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-105482",
+        "CVE-2026-105483",
+        "CVE-2026-106069",
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:50a7ff565ded92ebaf03c978",
+      "permalink_id": "article-url-50a7ff565ded92ebaf03c978",
+      "canonical_url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
+      "title": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+      "summary_excerpt": "Hackers stole passport numbers, frequent flyer numbers, email addresses and phone numbers for about 2,000 customers.",
+      "published_at": "2026-10-29T05:33:00+09:00",
+      "first_seen_at": "2026-10-29T06:02:23.267125+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:68d69f3dd2831dcf81a02bcd",
+      "permalink_id": "article-url-68d69f3dd2831dcf81a02bcd",
+      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2610/29/2000002678/",
+      "title": "「GitLab」に最高深刻度の脆弱性　2014年以降の全版に影響を及ぼす恐れ",
+      "summary_excerpt": "「GitLab」で、認証なしにサーバを乗っ取ることが可能なCVSSスコア「10.0」の脆弱性が見つかった。影響は2014年以降の全バージョンに及ぶ。直近のパッチを適用していても、安全とは言い切れない恐れがある。",
+      "published_at": "2026-10-29T05:00:00+09:00",
+      "first_seen_at": "2026-10-29T06:02:22.138558+09:00",
+      "source_name": "TechTarget Japan Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0f3ace55ff05f9e15fd6f21b",
+      "permalink_id": "article-url-0f3ace55ff05f9e15fd6f21b",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/02421/102600136/",
+      "title": "中国製の太陽光発電はエネルギー安全保障のリスクなのか？",
+      "summary_excerpt": "太陽光発電の中国製品への依存が問題視されている。中国からの設備の輸入が途絶えたら、発電はどうなるのか。サイバー攻撃の危険性はどこまで深刻なのか。日本の主力電源である火力発電と比較しながら、エネルギー安全保障上のリスクを検証する。",
+      "published_at": "2026-10-29T05:00:00+09:00",
+      "first_seen_at": "2026-10-29T06:02:19.055671+09:00",
+      "source_name": "Nikkei XTECH IT",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d63750023e582fb6393d253f",
+      "permalink_id": "article-url-d63750023e582fb6393d253f",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/102702133/",
+      "title": "相次ぐ脆弱性対応で「組織疲労」が深刻化、今こそ優先業務の見直しを",
+      "summary_excerpt": "生成AI（人工知能）の高度化に伴い、今後も新たな被害や脆弱性は相次ぎ発覚するだろう。そこで企業が警戒すべきなのは、終わりの見えない脆弱性対応がもたらす「セキュリティー疲れ」、ひいては組織疲労だ。求められる対応は大きく2つ。1つは脆弱性対応への優先順位の見直し。もう1つはシステムのモダン化だ。",
+      "published_at": "2026-10-29T05:00:00+09:00",
+      "first_seen_at": "2026-10-29T06:02:17.315047+09:00",
+      "source_name": "Nikkei XTECH IT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a39aad980c5000df8547be55",
+      "permalink_id": "article-url-a39aad980c5000df8547be55",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/01775/102800291/",
+      "title": "「自分は大丈夫」と考える人のセキュリティー対策は困難、組織で見直しを",
+      "summary_excerpt": "ランサムウエアへの感染や脆弱性の発見など、毎日のように情報セキュリティー関連のニュースが話題になっています。どのような対策をすれば、サイバー攻撃に対応できるでしょうか。「人的セキュリティー」の観点から今回は見ていきます。",
+      "published_at": "2026-10-29T05:00:00+09:00",
+      "first_seen_at": "2026-10-29T06:02:17.045440+09:00",
+      "source_name": "Nikkei XTECH IT",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:703e5e6d34e0ac4f96188b61",
       "permalink_id": "article-url-703e5e6d34e0ac4f96188b61",
@@ -29,6 +189,40 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6928c2503ac89a75094d4c40",
+      "permalink_id": "article-url-6928c2503ac89a75094d4c40",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Tunnel%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+      "summary_excerpt": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause t",
+      "published_at": "2026-10-29T04:15:00+09:00",
+      "first_seen_at": "2026-10-29T06:02:01.666520+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76418"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
     {
@@ -91,209 +285,80 @@
       "seen_in_kev": false,
       "heat_score": 45.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bc0c741635daafbb1b3ebc1c",
-      "permalink_id": "article-url-bc0c741635daafbb1b3ebc1c",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/github-package-firewall-npm/",
-      "title": "GitHub’s npm package firewall can block brand-new versions before they install",
-      "summary_excerpt": "GitHub announced a package firewall that checks npm packages against an enterprise’s policy before they install. It blocks known malware, critical vulnerabilities, and brand-new versions, and any developer can turn it on by pointing npm at the firewall. The checks run before a package reaches a laptop, a build, or a coding agent. GitHub says AI agents are helping developers build more software, faster, and the firewall is one of four security additions aimed at … More → The post GitHub’s npm package firewall can block brand-new versions before they install appeared first on Help Net Security .",
-      "published_at": "2026-10-29T02:09:14+09:00",
-      "first_seen_at": "2026-10-29T03:01:47.276147+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:346aefdaad097d5af65c5302",
-      "permalink_id": "article-url-346aefdaad097d5af65c5302",
-      "canonical_url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "summary_excerpt": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
-      "published_at": "2026-10-29T02:08:09+09:00",
-      "first_seen_at": "2026-10-29T03:01:51.861202+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:cfdef39189ea2bb23f951414",
-      "permalink_id": "article-url-cfdef39189ea2bb23f951414",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
-      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
-      "summary_excerpt": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
-      "published_at": "2026-10-29T01:45:47+09:00",
-      "first_seen_at": "2026-10-29T02:01:51.412840+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "incident",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7d4a5d81c3a9773262cb2d06",
-      "permalink_id": "article-url-7d4a5d81c3a9773262cb2d06",
-      "canonical_url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
-      "title": "Moldova investigates possible foreign involvement in major government cyberattack",
-      "summary_excerpt": "Prime Minister Vasile Tofan said the incident may be part of a broader campaign targeting both citizens' personal data and government digital infrastructure, according to local media reports.",
-      "published_at": "2026-10-29T01:37:00+09:00",
-      "first_seen_at": "2026-10-29T02:02:39.524454+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:257599f0048efc914687bf8c",
-      "permalink_id": "article-url-257599f0048efc914687bf8c",
-      "canonical_url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "summary_excerpt": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
-      "published_at": "2026-10-29T01:02:45+09:00",
-      "first_seen_at": "2026-10-29T02:02:38.933663+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "incident",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2169d8af20d44c53821750e3",
-      "permalink_id": "article-url-2169d8af20d44c53821750e3",
-      "canonical_url": "https://cyberscoop.com/volt-typhoon-silent-train-covert-ephemeral-network-black-lotus-labs/",
-      "title": "Researchers uncover Volt Typhoon’s covert, ephemeral network",
-      "summary_excerpt": "The China-linked threat group has used the “Silent Train” framework, built on a series of rapidly rotating compromised devices, to infiltrate hundreds of critical infrastructure networks. The post Researchers uncover Volt Typhoon’s covert, ephemeral network appeared first on CyberScoop .",
-      "published_at": "2026-10-29T01:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:02:14.301232+09:00",
-      "source_name": "CyberScoop",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [
-        "Volt Typhoon"
-      ],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c48e4b2838068a2af4b3e450",
-      "permalink_id": "article-url-c48e4b2838068a2af4b3e450",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
-      "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
-      "summary_excerpt": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Identity Services Engine (ISE) UCS Central Software Unified Communications Manager To remediate vulnerabilities to be disclosed on November 4, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. Important: The Cisco PSIRT does not plan to publish any more security hardening advisories to disclose security vulnerability inform",
-      "published_at": "2026-10-29T01:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:02:11.873252+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:69173eb6b54d53808d5546ee",
+      "permalink_id": "article-url-69173eb6b54d53808d5546ee",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
+      "published_at": "2026-10-29T05:36:45+09:00",
+      "first_seen_at": "2026-10-29T06:02:00.231820+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-105482",
+        "CVE-2026-105483",
+        "CVE-2026-106069",
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6928c2503ac89a75094d4c40",
+      "permalink_id": "article-url-6928c2503ac89a75094d4c40",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Tunnel%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+      "summary_excerpt": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause t",
+      "published_at": "2026-10-29T04:15:00+09:00",
+      "first_seen_at": "2026-10-29T06:02:01.666520+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76418"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:980c6fa98a6cc8f4c4e74006",
       "permalink_id": "article-url-980c6fa98a6cc8f4c4e74006",
@@ -387,6 +452,36 @@
       ],
       "cves": [
         "CVE-2026-101767"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:22d2ccd53543886c59b86d40",
+      "permalink_id": "article-url-22d2ccd53543886c59b86d40",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch",
+      "published_at": "2026-10-28T21:00:00+09:00",
+      "first_seen_at": "2026-10-29T06:01:43.365358+09:00",
+      "source_name": "CISA Cybersecurity Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-41709",
+        "CVE-2026-46300"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -513,93 +608,6 @@
       "seen_in_kev": false,
       "heat_score": 67.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d1f6ed5950569469895a78d0",
-      "permalink_id": "article-url-d1f6ed5950569469895a78d0",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-828/",
-      "title": "ZDI-26-828: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "summary_excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-118610.",
-      "published_at": "2026-10-28T14:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:05:51.469387+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-118610"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:cc713f8f2554aacdbef8dbe0",
-      "permalink_id": "article-url-cc713f8f2554aacdbef8dbe0",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-827/",
-      "title": "ZDI-26-827: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "summary_excerpt": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-118609.",
-      "published_at": "2026-10-28T14:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:05:33.433965+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-118609"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6e83e4f2177adda5ccce5664",
-      "permalink_id": "article-url-6e83e4f2177adda5ccce5664",
-      "canonical_url": "http://www.zerodayinitiative.com/advisories/ZDI-26-826/",
-      "title": "ZDI-26-826: (0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability",
-      "summary_excerpt": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Alpine iLX-F511 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 3.5. The following CVEs are assigned: CVE-2026-118608.",
-      "published_at": "2026-10-28T14:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:05:13.385881+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-118608"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
     }
   ],
   "rising": [
@@ -632,7 +640,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 58.5,
+      "heat_score": 46.8,
       "published_at_future_suppressed": false
     },
     {
@@ -932,15 +940,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
-    "【HOTTEST #1 / Heat 70.97】CVE-2026-41709: Broadcom VMware ESX",
-    "【LATEST #2】Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-    "【HOTTEST #2 / Heat 70.97】CVE-2026-46300: Linux Kernel",
-    "【LATEST #3】Unwrapping Retail Peak Season Cyber Threats",
-    "【HOTTEST #3 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-    "【LATEST #4】GitHub’s npm package firewall can block brand-new versions before they install",
-    "【HOTTEST #4 / Heat 67.5】Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "【LATEST #5】Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-    "【HOTTEST #5 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws"
+    "【LATEST #1】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+    "【HOTTEST #1 / Heat 75】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+    "【LATEST #2】Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+    "【HOTTEST #2 / Heat 75】Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+    "【LATEST #3】「GitLab」に最高深刻度の脆弱性　2014年以降の全版に影響を及ぼす恐れ",
+    "【HOTTEST #3 / Heat 70.97】CVE-2026-41709: Broadcom VMware ESX",
+    "【LATEST #4】中国製の太陽光発電はエネルギー安全保障のリスクなのか？",
+    "【HOTTEST #4 / Heat 70.97】CVE-2026-46300: Linux Kernel",
+    "【LATEST #5】相次ぐ脆弱性対応で「組織疲労」が深刻化、今こそ優先業務の見直しを",
+    "【HOTTEST #5 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch"
   ]
 }
