@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T21:12:19.646344+00:00",
-  "as_of": "2026-10-28T21:00:00+00:00",
-  "catalog_count": 21150,
+  "generated_at": "2026-10-28T22:11:56.365117+00:00",
+  "as_of": "2026-10-28T22:00:00+00:00",
+  "catalog_count": 21151,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,35 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:196cb48efaf989d2df70f70c",
+      "permalink_id": "article-url-196cb48efaf989d2df70f70c",
+      "canonical_url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+      "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+      "summary_excerpt": "Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems to deploy KeyDrift.",
+      "published_at": "2026-10-29T06:32:02+09:00",
+      "first_seen_at": "2026-10-29T07:01:50.481161+09:00",
+      "source_name": "Cisco Talos Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-20127"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 55.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:69173eb6b54d53808d5546ee",
       "permalink_id": "article-url-69173eb6b54d53808d5546ee",
@@ -252,38 +281,6 @@
       ],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ad396287fcf57887cbeab06f",
-      "permalink_id": "article-url-ad396287fcf57887cbeab06f",
-      "canonical_url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
-      "title": "Unwrapping Retail Peak Season Cyber Threats",
-      "summary_excerpt": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .",
-      "published_at": "2026-10-29T03:00:10+09:00",
-      "first_seen_at": "2026-10-29T04:02:23.396691+09:00",
-      "source_name": "Unit 42 Research",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -612,38 +609,6 @@
   ],
   "rising": [
     {
-      "public_article_id": "url:d80a19c6eb408dc9a9f7c206",
-      "permalink_id": "article-url-d80a19c6eb408dc9a9f7c206",
-      "canonical_url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
-      "title": "External Teams Chats Anchor 15-Minute Malware Delivery",
-      "summary_excerpt": "Mail bombing is getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
-      "published_at": "2026-10-28T05:42:40+09:00",
-      "first_seen_at": "2026-10-28T06:01:58.927097+09:00",
-      "source_name": "Dark Reading",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 46.8,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:8191832829ae321a03bb6cc0",
       "permalink_id": "article-url-8191832829ae321a03bb6cc0",
       "canonical_url": "https://blog.qualys.com/category/qualys-insights",
@@ -728,6 +693,27 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:44b5cc8813c777a5eda0db06",
+      "permalink_id": "article-url-44b5cc8813c777a5eda0db06",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/column/keyword/2148826.html",
+      "title": "「能動的サイバー防御」とは：サイバー攻撃を未然に防ぎ、被害拡大を防止するための取り組み【今週のキーワード】",
+      "summary_excerpt": "2026年10月1日に、いわゆる「能動的サイバー防御」を導入する「サイバー対処能力強化法」（重要電子計算機に対する不正な行為による被害の防止に関する法律）および同整備法が施行された。ここでは、サイバー能力強化法および同整備法により導入される能動的サイバー防御の概要を解説する。",
+      "published_at": "2026-10-26T06:30:00+09:00",
+      "first_seen_at": "2026-10-26T07:57:58.061679+09:00",
+      "source_name": "INTERNET Watch",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
       "published_at_future_suppressed": false
     },
     {
@@ -899,27 +885,6 @@
       "seen_in_kev": false,
       "heat_score": 32.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:80a9f18d67fa0b6d2affbbcd",
-      "permalink_id": "article-url-80a9f18d67fa0b6d2affbbcd",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/24/2000002566/",
-      "title": "GMO、不正取引の被害額を補償へ　見舞金5000円も　「お名前.com」FX用VPSへのサイバー攻撃で",
-      "summary_excerpt": "全ユーザーに「お見舞金」として5000円を支払う他、不正取引で発生した損失を補償する。「攻撃者からの要求には応じない」",
-      "published_at": "2026-10-24T17:51:04+09:00",
-      "first_seen_at": "2026-10-25T17:24:21.338996+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 32.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -940,15 +905,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+    "【LATEST #1】Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
     "【HOTTEST #1 / Heat 75】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
-    "【LATEST #2】Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+    "【LATEST #2】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
     "【HOTTEST #2 / Heat 75】Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
-    "【LATEST #3】「GitLab」に最高深刻度の脆弱性　2014年以降の全版に影響を及ぼす恐れ",
+    "【LATEST #3】Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
     "【HOTTEST #3 / Heat 70.97】CVE-2026-41709: Broadcom VMware ESX",
-    "【LATEST #4】中国製の太陽光発電はエネルギー安全保障のリスクなのか？",
+    "【LATEST #4】「GitLab」に最高深刻度の脆弱性　2014年以降の全版に影響を及ぼす恐れ",
     "【HOTTEST #4 / Heat 70.97】CVE-2026-46300: Linux Kernel",
-    "【LATEST #5】相次ぐ脆弱性対応で「組織疲労」が深刻化、今こそ優先業務の見直しを",
+    "【LATEST #5】中国製の太陽光発電はエネルギー安全保障のリスクなのか？",
     "【HOTTEST #5 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch"
   ]
 }
