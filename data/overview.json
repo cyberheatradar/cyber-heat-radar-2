@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T14:12:07.242044+00:00",
-  "as_of": "2026-10-28T14:00:00+00:00",
-  "catalog_count": 21088,
+  "generated_at": "2026-10-28T15:12:29.408257+00:00",
+  "as_of": "2026-10-28T15:00:00+00:00",
+  "catalog_count": 21097,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,177 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:a7b8cf39a163bb0495146bc7",
+      "permalink_id": "article-url-a7b8cf39a163bb0495146bc7",
+      "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+      "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+      "summary_excerpt": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
+      "published_at": "2026-10-28T23:48:32+09:00",
+      "first_seen_at": "2026-10-29T00:01:50.135693+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ecdeba7c7ff461fccf26d30e",
+      "permalink_id": "article-url-ecdeba7c7ff461fccf26d30e",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/compromised-camera-management-software-initial-access/",
+      "title": "Compromised camera management software gives attackers a way into corporate networks",
+      "summary_excerpt": "Attackers have been breaking into business networks through camera management software, according to new research from security firm Huntress, which traced several incidents in September and October back to a compromised application. An unidentified application The company’s analysts haven’t been able to confidently determine which software it was, and because no logs associated with the application could be found, they also couldn’t pinpoint how the attackers compromised it. The software’s executable – CMS.exe – “did … More → The post Compromised camera management software gives attackers a w",
+      "published_at": "2026-10-28T23:43:23+09:00",
+      "first_seen_at": "2026-10-29T00:02:20.032050+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9c52e80bed550fc3962c955d",
+      "permalink_id": "article-url-9c52e80bed550fc3962c955d",
+      "canonical_url": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
+      "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
+      "summary_excerpt": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
+      "published_at": "2026-10-28T23:37:52+09:00",
+      "first_seen_at": "2026-10-29T00:02:10.792625+09:00",
+      "source_name": "Dark Reading",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:060efe9bf06381a9bbde12b7",
+      "permalink_id": "article-url-060efe9bf06381a9bbde12b7",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/digitate-ignio-hummingbird/",
+      "title": "Digitate adds AI agents for patch planning, service desks, and SAP operations",
+      "summary_excerpt": "Digitate has announced ignio Hummingbird, the latest release of its agentic AIOps platform. Hummingbird introduces AI agents that bring operational expertise to specific IT tasks, move from diagnosis through approved action and verification, and operate within enterprise change, approval and audit controls. The release also enables enterprises to build their own IT operations agents and includes built-in Model Context Protocol (MCP) and Agent2Agent (A2A) servers, allowing ignio capabilities to work with the agents, assistants and … More → The post Digitate adds AI agents for patch planning, se",
+      "published_at": "2026-10-28T23:36:59+09:00",
+      "first_seen_at": "2026-10-29T00:02:20.856643+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "mcp",
+          "label": "MCP"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c06183a43388e2aea82f1ff3",
+      "permalink_id": "article-url-c06183a43388e2aea82f1ff3",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/afd-data-breach-email-leak/",
+      "title": "345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD",
+      "summary_excerpt": "Over 345,000 unique email addresses were exposed in the September 2026 breach at German far-right political party Alternative für Deutschland (AfD). Breach notification service Have I Been Pwned (HIBP) added the data to its database on 27 October, listing email addresses and email messages as the compromised information. HIBP has flagged the incident as a sensitive breach, so the data cannot be searched publicly. Only the verified owner of an email address can check whether … More → The post 345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD appeared first on Help N",
+      "published_at": "2026-10-28T23:28:43+09:00",
+      "first_seen_at": "2026-10-29T00:02:21.568438+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f2c961bbdd371d7eaeb1a01b",
+      "permalink_id": "article-url-f2c961bbdd371d7eaeb1a01b",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "summary_excerpt": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
+      "published_at": "2026-10-28T23:00:00+09:00",
+      "first_seen_at": "2026-10-29T00:01:51.270122+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "research",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 58.5,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:49e8e9c207a58455c0c540c7",
       "permalink_id": "article-url-49e8e9c207a58455c0c540c7",
@@ -25,6 +196,38 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d79cee61ecb2f6391c17cad8",
+      "permalink_id": "article-url-d79cee61ecb2f6391c17cad8",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+      "summary_excerpt": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach. [...]",
+      "published_at": "2026-10-28T22:50:59+09:00",
+      "first_seen_at": "2026-10-29T00:01:51.938875+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -59,14 +262,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:013a25710fcfd14b8a995e82",
-      "permalink_id": "article-url-013a25710fcfd14b8a995e82",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
-      "title": "Tailscale fixes SSH flaws allowing lateral movement within tailnets",
-      "summary_excerpt": "Tailscale, the company behind the popular software-defined mesh networking and connectivity platform of the same name, has shipped fixes for several vulnerabilities, including some in Tailscale SSH that could let an attacker who already had access to a device in the network gain more privileges on other machines that are part of it. “Based on our investigation, an attacker could reach only machines the tailnet policy file already permitted SSH connections to,” said Mike Shaver, … More → The post Tailscale fixes SSH flaws allowing lateral movement within tailnets appeared first on Help Net Secu",
-      "published_at": "2026-10-28T21:25:04+09:00",
-      "first_seen_at": "2026-10-28T22:02:12.107348+09:00",
-      "source_name": "Help Net Security",
+      "public_article_id": "url:86d934ac156a36c4e1198247",
+      "permalink_id": "article-url-86d934ac156a36c4e1198247",
+      "canonical_url": "https://www.rapid7.com/blog/post/pt-insightgovcloud-supports-bod-22-01-compliance/",
+      "title": "How Rapid7 InsightGovCloud Supports BOD 22-01 Compliance",
+      "summary_excerpt": "An introduction to CISA’s BOD 22-01 Issued nearly four years ago, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) Binding Operational Directive 22-01 (BOD 22-01) has been adopted across both public and private sector organizations as a framework to ensure timely remediation of vulnerabilities being exploited by adversaries. By establishing a catalog of known exploited vulnerabilities (KEVs) and emphasizing a risk-based, prioritized approach, it provides a clear model for organizations to strengthen their cybersecurity posture and reduce exposure to real-world threats. InsightG",
+      "published_at": "2026-10-28T22:16:39+09:00",
+      "first_seen_at": "2026-10-29T00:02:27.843032+09:00",
+      "source_name": "Rapid7 Blog",
       "source_class": "topic_rss",
       "security_relevance": "material",
       "ai_relevance": "none",
@@ -83,192 +286,39 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:cc84d8476e5ff18d61a22822",
-      "permalink_id": "article-url-cc84d8476e5ff18d61a22822",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
-      "title": "Hackers now scanning systems for recently-patched Oracle flaw",
-      "summary_excerpt": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
-      "published_at": "2026-10-28T21:19:57+09:00",
-      "first_seen_at": "2026-10-28T22:01:40.786630+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0e750c9fc52f2814e73af249",
-      "permalink_id": "article-url-0e750c9fc52f2814e73af249",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/doj-ukrainian-ransomware-hacker-sentenced/",
-      "title": "Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
-      "summary_excerpt": "A Ukrainian national who participated in ransomware attacks targeting hospitals, government entities, law firms, and other businesses was sentenced to five years and 10 months in prison. Artem Stryzhak, 36, pleaded guilty in December 2025 to two counts of conspiracy to commit fraud, extortion, and related activity in connection with computers. He was arrested in Spain in June 2024 and extradited to the United States in April 2025. Nefilim targeted high-revenue companies According to court … More → The post Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator app",
-      "published_at": "2026-10-28T21:17:33+09:00",
-      "first_seen_at": "2026-10-28T22:02:12.934987+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1da5866d477cf5d142ff1f42",
-      "permalink_id": "article-url-1da5866d477cf5d142ff1f42",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/news/24/03446/",
-      "title": "日立の26年4～9月期は増収増益　通期も上方修正、HMAXは売上収益5100億円へ",
-      "summary_excerpt": "日立製作所は2026年10月28日、2026年4～9月期の連結決算（国際会計基準）を発表した。売上高に相当する売上収益は前年同期比17％増の5兆6140億円、調整後営業利益は27％増の6432億円、調整後EBITA（利払い・税引き・一部償却前利益）は25％増の6996億円と増収増益だった。",
-      "published_at": "2026-10-28T21:10:00+09:00",
-      "first_seen_at": "2026-10-28T22:02:17.237292+09:00",
-      "source_name": "Nikkei XTECH IT",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c5592c7a9044125b1a7cd4b5",
-      "permalink_id": "article-url-c5592c7a9044125b1a7cd4b5",
-      "canonical_url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
-      "title": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
-      "summary_excerpt": "The attackers chained PHP2Shell and Fragnesia exploits and hacked two servers of a US government-affiliated organization. The post China-Linked Hackers Exploit PHP2Shell to Root Firewalls appeared first on SecurityWeek .",
-      "published_at": "2026-10-28T21:00:59+09:00",
-      "first_seen_at": "2026-10-28T22:02:19.628012+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:152797c48d838dba8a864ab2",
-      "permalink_id": "article-url-152797c48d838dba8a864ab2",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/28/2000002687/",
-      "title": "JALの予約システムに不正アクセス　約9万人分の予約情報が漏えい　一部ではパスポート番号も",
-      "summary_excerpt": "日本航空（JAL）と日本トランスオーシャン航空（JTA）は10月28日、予約や搭乗手続きなどを管理するシステムの提供元が不正アクセスを受け、利用者約9万2000人の予約情報が外部から閲覧された形跡があったと発表した。",
-      "published_at": "2026-10-28T20:52:00+09:00",
-      "first_seen_at": "2026-10-28T22:02:14.825631+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:013c98104483742cff1e5235",
-      "permalink_id": "article-url-013c98104483742cff1e5235",
-      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
-      "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
-      "summary_excerpt": "Company chiefs believe the attackers could be the same as those who used ARTEX to breach South Korea’s financial giants",
-      "published_at": "2026-10-28T20:45:00+09:00",
-      "first_seen_at": "2026-10-28T21:01:49.977145+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b42587a82d0ba494c35c1e52",
-      "permalink_id": "article-url-b42587a82d0ba494c35c1e52",
-      "canonical_url": "https://any.run/cybersecurity-blog/ai-malware-analysis-soc-teams/",
-      "title": "AI-Powered Malware & Phishing Analysis for SOC Teams: Cut Workload and Speed Up Response",
-      "summary_excerpt": "AI is now everywhere in cybersecurity. But how much of it is actually making SOC teams’ jobs easier? Almost every vendor offers AI-powered solutions promising faster threat detection, automated malware analysis, and smarter investigations. For SOC teams, separating real value from AI branding has become a challenge of its own. Meanwhile, alert volumes keep growing, […] The post AI-Powered Malware & Phishing Analysis for SOC Teams: Cut Workload and Speed Up Response appeared first on ANY.RUN's Cybersecurity Blog .",
-      "published_at": "2026-10-28T20:38:18+09:00",
-      "first_seen_at": "2026-10-28T22:01:38.668753+09:00",
-      "source_name": "ANY.RUN Cybersecurity Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "analysis",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 61.75,
       "published_at_future_suppressed": false
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:f83598082f121f26e38f677f",
+      "permalink_id": "article-url-f83598082f121f26e38f677f",
+      "canonical_url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "summary_excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical Patch Update. Security researchers",
+      "published_at": "2026-10-28T21:48:03+09:00",
+      "first_seen_at": "2026-10-29T00:02:30.490817+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-101767"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:8816f06283041a0ccd4d1110",
       "permalink_id": "article-url-8816f06283041a0ccd4d1110",
@@ -492,51 +542,24 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:856ae868a06fc08a26ce6e04",
-      "permalink_id": "article-url-856ae868a06fc08a26ce6e04",
-      "canonical_url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
-      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
-      "summary_excerpt": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches. The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
-      "published_at": "2026-10-28T22:39:35+09:00",
-      "first_seen_at": "2026-10-28T23:02:14.372542+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0e750c9fc52f2814e73af249",
-      "permalink_id": "article-url-0e750c9fc52f2814e73af249",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/doj-ukrainian-ransomware-hacker-sentenced/",
-      "title": "Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
-      "summary_excerpt": "A Ukrainian national who participated in ransomware attacks targeting hospitals, government entities, law firms, and other businesses was sentenced to five years and 10 months in prison. Artem Stryzhak, 36, pleaded guilty in December 2025 to two counts of conspiracy to commit fraud, extortion, and related activity in connection with computers. He was arrested in Spain in June 2024 and extradited to the United States in April 2025. Nefilim targeted high-revenue companies According to court … More → The post Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator app",
-      "published_at": "2026-10-28T21:17:33+09:00",
-      "first_seen_at": "2026-10-28T22:02:12.934987+09:00",
+      "public_article_id": "url:ecdeba7c7ff461fccf26d30e",
+      "permalink_id": "article-url-ecdeba7c7ff461fccf26d30e",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/compromised-camera-management-software-initial-access/",
+      "title": "Compromised camera management software gives attackers a way into corporate networks",
+      "summary_excerpt": "Attackers have been breaking into business networks through camera management software, according to new research from security firm Huntress, which traced several incidents in September and October back to a compromised application. An unidentified application The company’s analysts haven’t been able to confidently determine which software it was, and because no logs associated with the application could be found, they also couldn’t pinpoint how the attackers compromised it. The software’s executable – CMS.exe – “did … More → The post Compromised camera management software gives attackers a w",
+      "published_at": "2026-10-28T23:43:23+09:00",
+      "first_seen_at": "2026-10-29T00:02:20.032050+09:00",
       "source_name": "Help Net Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "ransomware",
+      "primary_category": "incident",
       "public_tags": [
         {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
         }
       ],
       "cves": [],
@@ -546,14 +569,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:c5592c7a9044125b1a7cd4b5",
-      "permalink_id": "article-url-c5592c7a9044125b1a7cd4b5",
-      "canonical_url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
-      "title": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
-      "summary_excerpt": "The attackers chained PHP2Shell and Fragnesia exploits and hacked two servers of a US government-affiliated organization. The post China-Linked Hackers Exploit PHP2Shell to Root Firewalls appeared first on SecurityWeek .",
-      "published_at": "2026-10-28T21:00:59+09:00",
-      "first_seen_at": "2026-10-28T22:02:19.628012+09:00",
-      "source_name": "SecurityWeek",
+      "public_article_id": "url:c06183a43388e2aea82f1ff3",
+      "permalink_id": "article-url-c06183a43388e2aea82f1ff3",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/afd-data-breach-email-leak/",
+      "title": "345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD",
+      "summary_excerpt": "Over 345,000 unique email addresses were exposed in the September 2026 breach at German far-right political party Alternative für Deutschland (AfD). Breach notification service Have I Been Pwned (HIBP) added the data to its database on 27 October, listing email addresses and email messages as the compromised information. HIBP has flagged the incident as a sensitive breach, so the data cannot be searched publicly. Only the verified owner of an email address can check whether … More → The post 345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD appeared first on Help N",
+      "published_at": "2026-10-28T23:28:43+09:00",
+      "first_seen_at": "2026-10-29T00:02:21.568438+09:00",
+      "source_name": "Help Net Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -636,6 +659,35 @@
   ],
   "persistent_hot": [
     {
+      "public_article_id": "url:43db36580b0eee07f550c4cb",
+      "permalink_id": "article-url-43db36580b0eee07f550c4cb",
+      "canonical_url": "https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js",
+      "title": "Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability",
+      "summary_excerpt": "Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution.",
+      "published_at": "2026-10-25T23:46:53+09:00",
+      "first_seen_at": "2026-10-26T07:58:13.480886+09:00",
+      "source_name": "Wiz Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:a64123d828297872a642cff5",
       "permalink_id": "article-url-a64123d828297872a642cff5",
       "canonical_url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
@@ -662,6 +714,27 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:b55050e07c03255a3dc1b7a0",
+      "permalink_id": "article-url-b55050e07c03255a3dc1b7a0",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6600119?source=rss",
+      "title": "不正アクセス GMO代表が謝罪",
+      "summary_excerpt": null,
+      "published_at": "2026-10-25T23:05:35+09:00",
+      "first_seen_at": "2026-10-26T07:58:21.010164+09:00",
+      "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
       "published_at_future_suppressed": false
     },
     {
@@ -838,59 +911,6 @@
       "seen_in_kev": false,
       "heat_score": 22.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9b482db4e387a34d77876570",
-      "permalink_id": "article-url-9b482db4e387a34d77876570",
-      "canonical_url": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
-      "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
-      "summary_excerpt": "Designed to carry out 100,000 steps without human approval",
-      "published_at": "2026-10-24T22:02:00+09:00",
-      "first_seen_at": "2026-10-25T17:24:46.756511+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 22.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9f20a7460e3fe6de85cd2553",
-      "permalink_id": "article-url-9f20a7460e3fe6de85cd2553",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6599979?source=rss",
-      "title": "能動サイバー防御要請 政府側慎重",
-      "summary_excerpt": null,
-      "published_at": "2026-10-24T21:40:35+09:00",
-      "first_seen_at": "2026-10-25T17:25:01.416185+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 22.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -911,15 +931,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Upwind Security Raises $400 Million at $3.8 Billion Valuation",
-    "【HOTTEST #1 / Heat 75】Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "【LATEST #2】Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
-    "【HOTTEST #2 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【LATEST #3】Tailscale fixes SSH flaws allowing lateral movement within tailnets",
-    "【HOTTEST #3 / Heat 67.5】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "【LATEST #4】Hackers now scanning systems for recently-patched Oracle flaw",
-    "【HOTTEST #4 / Heat 67.5】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-    "【LATEST #5】Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
-    "【HOTTEST #5 / Heat 67.5】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit"
+    "【LATEST #1】Microsoft urges Entra ID admins to migrate users to passkeys",
+    "【HOTTEST #1 / Heat 75】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "【LATEST #2】Compromised camera management software gives attackers a way into corporate networks",
+    "【HOTTEST #2 / Heat 75】Hackers Start Probing Fresh Oracle EBS Vulnerability",
+    "【LATEST #3】Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
+    "【HOTTEST #3 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+    "【LATEST #4】Digitate adds AI agents for patch planning, service desks, and SAP operations",
+    "【HOTTEST #4 / Heat 67.5】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+    "【LATEST #5】345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD",
+    "【HOTTEST #5 / Heat 67.5】Vulnerabilities in node.js Affecting Cisco Products: October 2026"
   ]
 }
