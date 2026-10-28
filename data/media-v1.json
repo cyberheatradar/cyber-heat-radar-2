@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T20:30:05.560771+00:00",
+  "source_snapshot_generated_at": "2026-10-28T21:30:07.894499+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:862bec24c330462e06c853c9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261029-tech-watch",
+        "title": "Tech Watch 2026-10-29: エージェントを組織に組み込む設計",
+        "author": "らいけん",
+        "published_at": "2026-10-28T21:20:13.900000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f9ea9cd81ea22325d3021835",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ChatGPT",
+          "AIエージェント",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/tmasuyama1114/articles/claude-code-codex-one-month",
+        "title": "Claude CodeとCodexを1か月フルで使って分かった、二つの性格の違い",
+        "author": "とまだ｜『Claude Codeで作って学ぶ』著者（増山友司）",
+        "published_at": "2026-10-28T20:50:51+00:00",
+        "excerpt": "普段は Claude Code をメインにしていて、Codex はレビュー相手として使ってきました。 この1か月、ChatGPT のプランを上げたのをきっかけに、Codex にも実装まで任せて Claude Code と並べて使ってみました。 この記事は二つのツールの違いを、使った側の生の感想として書き残したものです。 厳密に計測したり、指標で比べたりはしていません。 ! この記事では、人間による音声入力を Claude Code に整えてもらった文章を使用しています。 忙しい人のための要約 契約で迷っているなら、押さえる点は次のとおりです。 一番の違いは性能より性格で、Co..."
+      },
       {
         "id": "zenn:37d29e4ba84e42eb0a52e0d9",
         "source": "zenn",
@@ -8114,6 +8146,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:df466db71ae113d9ec7767a9",
+        "source": "qiita",
+        "author_tags": [
+          "codex",
+          "AI",
+          "Security",
+          "環境変数",
+          "OpenAI"
+        ],
+        "url": "https://qiita.com/supportapp3/items/56cf6468be08e14c76dd",
+        "title": "Codex は既定で OPENAI_API_KEY などの環境変数を実行コマンドにそのまま渡す：shell_environment_policy で外す設定（codex 0.165.0で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-10-29T05:37:50+09:00",
+        "excerpt": "この記事の要点 Codex がコマンドを実行するとき、どの環境変数を渡すかは config.toml の [shell_environment_policy] で決まります（公式 Advanced Configuration の \"Shell environment policy\" 節）。 公式によると ignore_default_excludes の既定は true で、名前に KEY / SECRET / TOKEN を含む変数も 自動では外しません 。手元で試すと、設定なしでは OPENAI_API_KEY や GITHUB_TOKEN （ダミー値）がそのままコマンドに渡りました。 ignore_default_excludes = false にすると、それらは外れました。ただし DB_PASSWORD や、URL の中にパスワードを含む DATABASE_URL は名前が当てはまらないので残りました。 filters で追加で外す必要があります。 確認は codex-cli 0.165.0 の codex sandbox （ログイン不"
+      },
+      {
         "id": "qiita:0b59cd78504d580c623cdf77",
         "source": "qiita",
         "author_tags": [
@@ -12638,6 +12686,101 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:54edc22d56708a75959c3054",
+        "source": "medium",
+        "author_tags": [
+          "threat-hunting",
+          "incident-response",
+          "detection-engineering",
+          "cybersecurity",
+          "blue-team"
+        ],
+        "url": "https://medium.com/@hassanshamsi50/detecting-etherhiding-clickfix-compromised-websites-in-proxy-and-dns-logs-ef0d55b450ae",
+        "title": "Detecting EtherHiding ClickFix Compromised Websites in Proxy and DNS Logs",
+        "author": "HS",
+        "published_at": "2026-10-28T21:11:42+00:00",
+        "excerpt": "A two-signal detection built on blockchain RPC and geo-IP lookup traffic — and why it survives when the attacker switches infrastructure. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8a1baa5c68966d270b04f5db",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "application-security",
+          "web-security",
+          "api-security",
+          "jwt"
+        ],
+        "url": "https://kashifsec.medium.com/jwt-authentication-structure-attacks-and-why-weak-signature-validation-gets-you-pwned-3f9e5c4de2e9",
+        "title": "JWT Authentication: Structure, Attacks, and Why Weak Signature Validation Gets You Pwned",
+        "author": "Muhammad Kashif",
+        "published_at": "2026-10-28T21:09:35+00:00",
+        "excerpt": "JSON Web Tokens (JWT) are the backbone of authentication in modern APIs, single page applications, and microservice architectures. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d1ea880725f0438e06ea035f",
+        "source": "medium",
+        "author_tags": [
+          "ai-security",
+          "prompt-injection-attack",
+          "artificial-intelligence",
+          "ai-agent",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/serenity-shield/the-next-cybersecurity-crisis-wont-start-with-a-hacker-5687d6a571e6",
+        "title": "The Next Cybersecurity Crisis Won’t Start With a Hacker",
+        "author": "Serenity Technology",
+        "published_at": "2026-10-28T21:05:49+00:00",
+        "excerpt": "How AI agents, autonomous systems, and unchecked digital permissions are creating a new generation of security risks. Continue reading on Serenity Technology »"
+      },
+      {
+        "id": "medium:f266fd44e3f556f4df6eff3e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "incident-response",
+          "investigation",
+          "browsers",
+          "information-security"
+        ],
+        "url": "https://medium.com/@cyberengage.org/what-your-browser-tells-every-website-you-visit-and-why-i-finally-checked-mine-bdc0636b3026",
+        "title": "What Your Browser Tells Every Website You Visit (And Why I Finally Checked Mine)",
+        "author": "Dean",
+        "published_at": "2026-10-28T21:00:59+00:00",
+        "excerpt": "Today I opened AmIUnique.org in my browser just to see what it would say. The first line on the screen was: Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dce3ba4142f5ee3e88292bcd",
+        "source": "medium",
+        "author_tags": [
+          "threat-hunting",
+          "threat-intelligence",
+          "cybersecurity",
+          "cloud-security",
+          "phishing"
+        ],
+        "url": "https://ak-abderahim.medium.com/inside-a-tokyo-gcp-relay-how-threat-actors-blended-into-the-cloud-to-bypass-filters-4f0c97250ba1",
+        "title": "Inside a Tokyo GCP Relay: How Threat Actors Blended Into the Cloud to Bypass Filters",
+        "author": "Abdelkerim Abderahim",
+        "published_at": "2026-10-28T20:59:20+00:00",
+        "excerpt": "A technical teardown of an SPF-aligned credential-harvesting campaign that exploited trusted cloud reputation and multi-layered Base64… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b2921fa9d1c91e0b861e79d7",
+        "source": "medium",
+        "author_tags": [
+          "web-development",
+          "authentication",
+          "cybersecurity",
+          "google-chrome"
+        ],
+        "url": "https://medium.com/@apihiver/chrome-can-now-verify-a-users-email-without-sending-one-here-s-what-that-does-and-doesn-t-prove-b536771460c9",
+        "title": "Chrome Can Now Verify a User’s Email Without Sending One. Here’s What That Does and Doesn’t Prove",
+        "author": "APIHiver",
+        "published_at": "2026-10-28T20:49:56+00:00",
+        "excerpt": "I read the Chrome docs and the spec behind the new Email Verification API, then checked Gmail’s side of it myself. Continue reading on Medium »"
+      },
       {
         "id": "medium:aaca0b8b7745ea03a10f4621",
         "source": "medium",
