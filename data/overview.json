@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T00:14:57.775440+00:00",
-  "as_of": "2026-10-28T00:00:00+00:00",
-  "catalog_count": 21026,
+  "generated_at": "2026-10-28T01:11:55.027803+00:00",
+  "as_of": "2026-10-28T01:00:00+00:00",
+  "catalog_count": 21029,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,33 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:0377d4ee3d11b81481431137",
+      "permalink_id": "article-url-0377d4ee3d11b81481431137",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261028-5203842/",
+      "title": "CodexとClaude Codeに攻撃の恐れ、悪意ある指示ファイルで不正コード実行",
+      "summary_excerpt": "Forever Securityは10月22日、AIエージェントを狙う新たな攻撃手法を報告した。顧客端末のダウンロードフォルダーから悪意ある指示ファイルを発見し、攻撃を再現したところ、OpenAI Codexでは不正コードの実行、Claude Codeでは認証情報の窃取につながることを確認したという。",
+      "published_at": "2026-10-28T09:44:35+09:00",
+      "first_seen_at": "2026-10-28T10:02:26.742997+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:66c9a60c0261af22ff6633e2",
       "permalink_id": "article-url-66c9a60c0261af22ff6633e2",
@@ -64,6 +91,27 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:bc3de31ae6f8d9b6eebc596f",
+      "permalink_id": "article-url-bc3de31ae6f8d9b6eebc596f",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6600375?source=rss",
+      "title": "サイバー攻撃 サイト経由型が急増",
+      "summary_excerpt": null,
+      "published_at": "2026-10-28T08:36:34+09:00",
+      "first_seen_at": "2026-10-28T10:02:38.534105+09:00",
+      "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:ebe6130a3b49d0f809dafaef",
       "permalink_id": "article-url-ebe6130a3b49d0f809dafaef",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
@@ -89,6 +137,27 @@
           "label": "Cloud Security"
         }
       ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:dde61e35ec32d190859560a3",
+      "permalink_id": "article-url-dde61e35ec32d190859560a3",
+      "canonical_url": "https://www.security-next.com/192047",
+      "title": "「macOS」にセキュリティ更新 - 300件弱の脆弱性に対応",
+      "summary_excerpt": "Appleは、macOSのセキュリティアップデートを公開した。CVEベースで300件近い脆弱性に対応している。",
+      "published_at": "2026-10-28T08:19:26+09:00",
+      "first_seen_at": "2026-10-28T10:02:29.335098+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -178,75 +247,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:418d142d94734b55146e50c8",
-      "permalink_id": "article-url-418d142d94734b55146e50c8",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56605.html",
-      "title": "釧路市が市立小中学校の学習用端末の管理運用を委託しているポータスにランサムウェア攻撃",
-      "summary_excerpt": null,
-      "published_at": "2026-10-28T08:05:33+09:00",
-      "first_seen_at": "2026-10-28T09:02:07.832230+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f98ac19b7540e7d3ec14526e",
-      "permalink_id": "article-url-f98ac19b7540e7d3ec14526e",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56604.html",
-      "title": "製薬企業向けサービス「MR君」へ不正アクセス、一部の医師会員と製薬企業の担当者に関する情報が漏えい",
-      "summary_excerpt": null,
-      "published_at": "2026-10-28T08:05:29+09:00",
-      "first_seen_at": "2026-10-28T09:02:07.957855+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ae04afa456788eeabec017ce",
-      "permalink_id": "article-url-ae04afa456788eeabec017ce",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56603.html",
-      "title": "アイラッシュガレージECサイトに不正アクセス、4万9,191件の顧客情報が漏えい",
-      "summary_excerpt": null,
-      "published_at": "2026-10-28T08:05:28+09:00",
-      "first_seen_at": "2026-10-28T09:02:08.044700+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -320,79 +320,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7f13e3152f2268964d955501",
-      "permalink_id": "article-url-7f13e3152f2268964d955501",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-48356",
-      "title": "CVE-2026-48356: Adobe Commerce and Magento",
-      "summary_excerpt": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
-      "published_at": "2026-10-27T09:00:00+09:00",
-      "first_seen_at": "2026-10-28T05:01:34.047686+09:00",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "source_class": "enrichment_kev",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "cves": [
-        "CVE-2026-48356"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": true,
-      "heat_score": 70.97,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0aca4f22f78234006c292622",
-      "permalink_id": "article-url-0aca4f22f78234006c292622",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111497",
-      "title": "CVE-2026-111497: Google Brotli",
-      "summary_excerpt": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
-      "published_at": "2026-10-27T09:00:00+09:00",
-      "first_seen_at": "2026-10-28T05:01:34.026406+09:00",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "source_class": "enrichment_kev",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": true,
-      "heat_score": 70.97,
       "published_at_future_suppressed": false
     },
     {
@@ -564,6 +491,64 @@
       ],
       "cves": [
         "CVE-2026-114552"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d0797174dc50ebab3bf84e4f",
+      "permalink_id": "article-url-d0797174dc50ebab3bf84e4f",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-810/",
+      "title": "ZDI-26-810: MailEnable Auth Cleartext Storage Information Disclosure Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.9. The following CVEs are assigned: CVE-2026-114551.",
+      "published_at": "2026-10-27T14:00:00+09:00",
+      "first_seen_at": "2026-10-28T08:03:40.029059+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-114551"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:dc98d41511a17d2ea06d0223",
+      "permalink_id": "article-url-dc98d41511a17d2ea06d0223",
+      "canonical_url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
+      "published_at": "2026-10-27T13:37:59+09:00",
+      "first_seen_at": "2026-10-27T15:02:19.677611+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -870,15 +855,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】「Chrome」で脆弱性52件を修正 - 4件が「クリティカル」",
+    "【LATEST #1】CodexとClaude Codeに攻撃の恐れ、悪意ある指示ファイルで不正コード実行",
     "【HOTTEST #1 / Heat 75】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-    "【LATEST #2】「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
+    "【LATEST #2】「Chrome」で脆弱性52件を修正 - 4件が「クリティカル」",
     "【HOTTEST #2 / Heat 75】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
-    "【LATEST #3】Japan's GMO urges customers to shut down PCs amid ransomware threat",
-    "【HOTTEST #3 / Heat 70.97】CVE-2026-48356: Adobe Commerce and Magento",
-    "【LATEST #4】ヤマダデンキ提供の「ヤマダビデオ」「スマホゴールド会員」に不正アクセス、一時サービス停止",
-    "【HOTTEST #4 / Heat 70.97】CVE-2026-111497: Google Brotli",
-    "【LATEST #5】デジタル庁ホームページの問い合せフォームの情報が漏えい、Studio のクラウド環境への不正アクセス",
-    "【HOTTEST #5 / Heat 67.5】Brotli bug reaches far beyond Node.js (CVE-2026-111497)"
+    "【LATEST #3】「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
+    "【HOTTEST #3 / Heat 67.5】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
+    "【LATEST #4】サイバー攻撃 サイト経由型が急増",
+    "【HOTTEST #4 / Heat 67.5】CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
+    "【LATEST #5】Japan's GMO urges customers to shut down PCs amid ransomware threat",
+    "【HOTTEST #5 / Heat 67.5】Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads"
   ]
 }
