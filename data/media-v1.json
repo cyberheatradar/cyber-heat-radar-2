@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T04:30:02.309271+00:00",
+  "source_snapshot_generated_at": "2026-10-28T05:30:02.472040+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -4824,6 +4824,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:585b8af5169638af6828e7fd",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "脆弱性",
+          "AI",
+          "情報漏洩",
+          "セキュリティ対策"
+        ],
+        "url": "https://qiita.com/keiichik_kk/items/34cfef46c6ed534e54b9",
+        "title": "GMOの件で再確認。個人PCにできる対策は、結局「当たり前のこと」だけ",
+        "author": "keiichik_kk",
+        "published_at": "2026-10-28T14:21:23+09:00",
+        "excerpt": "はじめに 最近、脆弱性や攻撃のニュースが本当に多いですよね。 特に衝撃的だったのが、GMOインターネットの「お名前.com デスクトップクラウド」(FX自動売買向けのクラウドデスクトップ)への不正アクセスです。 GMOの発表によると、影響を受けた可能性があるサーバーは 26,739台 。全プランのサーバーが停止され、取引ツールに保存されていた口座のログイン情報などが不正に利用された可能性も認められています。さらに10月27日には、攻撃者による情報公開も始まりました。 GMOといえば、国内最大規模のホワイトハッカー組織を傘下に持つ会社です。 そんな会社でも、こういうことが起きます。 「自分のPCは大丈夫か?」と不安になって調べ始めると、専門用語の海に溺れそうになります。 でも、先に結論を言ってしまうと、 個人のPCでやれることは限られていて、しかも割と当たり前のことばかり です。 この記事では、その「当たり前」を改めて整理します。 新しい裏技はありません。ただ、当たり前のことを本当にやれている人は意外と少ないです。 ※ 本記事執筆時点(2026年1"
+      },
+      {
+        "id": "qiita:ce47f742eedcba5c00860f00",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "マルウェア",
+          "C2",
+          "EDR"
+        ],
+        "url": "https://qiita.com/nico0748/items/48d92e3801bbe011c622",
+        "title": "C&Cサーバを簡単にまとめる",
+        "author": "nico0748",
+        "published_at": "2026-10-28T13:33:32+09:00",
+        "excerpt": "はじめに EDR のログを読んでマルウェアの動きを追うハンズオンに参加したとき、「この通信はたぶん C2 だね」と言われても、C2サーバが何をしているのかちゃんと分かっていなかったので、まとめておきます。 この記事でわかること C2サーバは何をするためのものなのか マルウェア解析で、C2 とのやり取りの痕跡がどこに残るのか ひとことで言うと C&C（Command and Control、C2）サーバは、攻撃者がマルウェアに感染した端末へ命令を送り、結果を受け取るためのサーバ です。 感染した端末を遠隔操作するための「司令塔」にあたります。 C2サーバは何をするためのものなのか？ マルウェアは、感染した時点でやることが全部決まっているとは限りません。 攻撃者は感染後に「次に何をさせるか」を決めて、C2サーバ経由で指示を出します。 C2サーバの主な役割は次の4つです。 役割 中身 命令を出す コマンドの実行、端末内の探索、ほかの端末への横展開などを指示する 追加のマルウェアを渡す 最初に入った小さなマルウェア（ローダー）に、本命のマルウェアをダウン"
+      },
+      {
+        "id": "qiita:a8b0a66c29dde25024f1603a",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "レジストリ",
+          "PowerShell",
+          "Security"
+        ],
+        "url": "https://qiita.com/nico0748/items/ecdf6222b415b09d1a98",
+        "title": "Windowsのレジストリとコマンドを簡単にまとめる",
+        "author": "nico0748",
+        "published_at": "2026-10-28T13:32:34+09:00",
+        "excerpt": "はじめに インシデント対応の記事を読んでいると「Run キーに登録されていた」がよく出てくるので、レジストリとその操作コマンドをまとめておきます。 EDR ログ分析のハンズオンに参加したときにもレジストリの話が出てきたので、そこで学んだことも混ぜています。 ひとことで言うと レジストリは、Windows の OS とアプリの設定を入れておく、階層型のデータベース です。 regedit （GUI）、 reg （コマンドプロンプト）、PowerShell で読み書きできます。 構造 フォルダのような「キー」の中に、名前・型・データを持つ「値」が入っています。 パスは ルートキー\\サブキー\\…\\値 の形で書きます。 HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion の ProductName ここには Windows のエディション名が入っています。 ただし Windows 11 でもこの値は「Windows 10 Pro」のままになっていて、11 かどうかはビルド番号（ CurrentBuild が"
+      },
+      {
         "id": "qiita:4330426e8214c37aed050aa9",
         "source": "qiita",
         "author_tags": [
@@ -9116,6 +9162,65 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:c5b3055971e085282bc95a51",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "lode-palle",
+          "lode-emmanuel-palle",
+          "lodi-palle",
+          "lodi-emmanuel-palle"
+        ],
+        "url": "https://medium.com/@emmanuelpallelode/building-effective-cybersecurity-incident-response-plans-lode-palle-f241f1299b1e",
+        "title": "Building Effective Cybersecurity Incident Response Plans — Lode Palle",
+        "author": "Lode Emmanuel Palle",
+        "published_at": "2026-10-28T05:15:34+00:00",
+        "excerpt": "Cybersecurity incidents can affect organizations of every size, from small businesses to large enterprises. Phishing attacks, ransomware… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:255a8f9e255eb7c71a3f63e3",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "application-security",
+          "web-application-security",
+          "cybersecurity",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@cyb3rD1vvya/from-p4-to-p1-day-5-open-redirect-vulnerabilities-in-bug-bounty-hunting-396b9bb7d8b5",
+        "title": "From P4 to P1 — Day 5: Open Redirect Vulnerabilities in Bug Bounty Hunting",
+        "author": "cyb3rD1vvy@",
+        "published_at": "2026-10-28T05:14:02+00:00",
+        "excerpt": "Series: From P4 to P1: The Bug Hunter’s Journey Day: 05/30 Topic: Open Redirect, Manual Validation, and Impact Assessment Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c064724c8f418d7c35dccae0",
+        "source": "medium",
+        "author_tags": [
+          "tryhack",
+          "cybersecurity",
+          "tryhackme-walkthrough",
+          "soc"
+        ],
+        "url": "https://medium.com/@vishnuvardhan3530/phishing-analysis-tools-tryhackme-e131558c3177",
+        "title": "Phishing Analysis Tools-TryHackMe",
+        "author": "Vishnu Vardhan",
+        "published_at": "2026-10-28T05:10:12+00:00",
+        "excerpt": "Learn the tools used to aid an analyst to investigate suspicious emails. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:656d88e7f31a0a73f41f7fdc",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qnayds14/best-cybersecurity-institute-in-kerala-a-guide-for-aspiring-cybersecurity-professionals-d14b817d1848",
+        "title": "Best Cybersecurity Institute in Kerala: A Guide for Aspiring Cybersecurity Professionals",
+        "author": "QNAYDS | AI & Cybersecurity Academy",
+        "published_at": "2026-10-28T04:59:14+00:00",
+        "excerpt": "As businesses increasingly depend on digital technology, cybersecurity has become essential for protecting sensitive information, online… Continue reading on Medium »"
+      },
       {
         "id": "medium:d4580fbceb79ed9a084c44f1",
         "source": "medium",
