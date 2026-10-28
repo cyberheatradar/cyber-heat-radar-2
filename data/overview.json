@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T01:11:55.027803+00:00",
-  "as_of": "2026-10-28T01:00:00+00:00",
-  "catalog_count": 21029,
+  "generated_at": "2026-10-28T02:11:36.801220+00:00",
+  "as_of": "2026-10-28T02:00:00+00:00",
+  "catalog_count": 21030,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,33 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:87cec08be2ba0a5bc325dc30",
+      "permalink_id": "article-url-87cec08be2ba0a5bc325dc30",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/28/2000002655/",
+      "title": "IDCFクラウドのランサム被害、OSSの脆弱性悪用される　サーバ内データ流出なし　再発防止へSBOM化",
+      "summary_excerpt": "IDCFクラウドポータル」の認証システムで使用していたOSSの脆弱性が悪用され、侵入の起点となった。",
+      "published_at": "2026-10-28T10:13:58+09:00",
+      "first_seen_at": "2026-10-28T11:02:10.797164+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:0377d4ee3d11b81481431137",
       "permalink_id": "article-url-0377d4ee3d11b81481431137",
@@ -226,27 +253,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8c943059116b6f8d77f8e9a5",
-      "permalink_id": "article-url-8c943059116b6f8d77f8e9a5",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56606.html",
-      "title": "Studio が利用するクラウド環境に不正アクセス、復号に必要な鍵も読み出される",
-      "summary_excerpt": null,
-      "published_at": "2026-10-28T08:05:36+09:00",
-      "first_seen_at": "2026-10-28T09:02:07.747377+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -319,7 +325,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -855,15 +861,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】CodexとClaude Codeに攻撃の恐れ、悪意ある指示ファイルで不正コード実行",
+    "【LATEST #1】IDCFクラウドのランサム被害、OSSの脆弱性悪用される　サーバ内データ流出なし　再発防止へSBOM化",
     "【HOTTEST #1 / Heat 75】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-    "【LATEST #2】「Chrome」で脆弱性52件を修正 - 4件が「クリティカル」",
-    "【HOTTEST #2 / Heat 75】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
-    "【LATEST #3】「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
+    "【LATEST #2】CodexとClaude Codeに攻撃の恐れ、悪意ある指示ファイルで不正コード実行",
+    "【HOTTEST #2 / Heat 67.5】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
+    "【LATEST #3】「Chrome」で脆弱性52件を修正 - 4件が「クリティカル」",
     "【HOTTEST #3 / Heat 67.5】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-    "【LATEST #4】サイバー攻撃 サイト経由型が急増",
+    "【LATEST #4】「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
     "【HOTTEST #4 / Heat 67.5】CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-    "【LATEST #5】Japan's GMO urges customers to shut down PCs amid ransomware threat",
+    "【LATEST #5】サイバー攻撃 サイト経由型が急増",
     "【HOTTEST #5 / Heat 67.5】Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads"
   ]
 }
