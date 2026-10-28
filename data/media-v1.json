@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T10:30:02.323271+00:00",
+  "source_snapshot_generated_at": "2026-10-28T11:30:02.413497+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -5138,6 +5138,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:fcbd69a7987410cc294e142d",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "TLS",
+          "初心者"
+        ],
+        "url": "https://qiita.com/security-tech-m/items/d9925fb22795931623a0",
+        "title": "PFXにパスワードを付ければ安全？受け渡し前の四つの確認",
+        "author": "security-tech-m",
+        "published_at": "2026-10-28T19:56:58+09:00",
+        "excerpt": "PFX／PKCS#12は、証明書だけでなく秘密鍵を含められる入れ物です。「パスワード付きだから共有フォルダーへ置いてよい」と決める前に、中身・権限・受け渡し先・不要になったコピーを確認します。 説明用の概念図。実測結果ではありません。 まず中身を扱う責任を確認する 証明書だけのファイルなのか、秘密鍵も含むのかで管理が変わります。秘密鍵が入っていれば、そのコピーを使える人が認証や署名の権限を得る可能性があります。 拡張子だけで中身を決めず、作成担当者と用途を確認します。受け取り側に秘密鍵が本当に必要かも先に話し合います。 内容を書き出さず構造を確認する openssl pkcs12 -in transfer.pfx -info -noout これは構造確認の例です。暗号化・MACなどの情報を読むためのもので、秘密鍵を平文ファイルへ取り出す手順ではありません。パスワードは対話入力など、環境に合う安全な方法で渡します。古い方式で読めない場合も、安易に弱い形式へ変換して配布せず、移行方法を確認します。 パスワードとアクセス権を併用する パスワードは、ファ"
+      },
+      {
         "id": "qiita:8c885eec3c8f63d206d5277f",
         "source": "qiita",
         "author_tags": [
@@ -9555,6 +9569,84 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:81fc3a5c79ee9b91a6edaef0",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "technology",
+          "cyber-security-awareness",
+          "cybercrime",
+          "ai"
+        ],
+        "url": "https://medium.com/@ahmedjunaid2134/cybersecurity-how-to-protect-your-digital-life-in-an-increasingly-connected-world-30127fdcc5fa",
+        "title": "Cybersecurity: How to Protect Your Digital Life in an Increasingly Connected World",
+        "author": "Ahmedjunaid",
+        "published_at": "2026-10-28T11:18:33+00:00",
+        "excerpt": "Cybersecurity has become essential in a world where people shop online, use digital banking, communicate through social media, and store… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4c8fcc08e80a7c8eb2348e12",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "ethical-hacking",
+          "cybersecurity",
+          "cybersecurity-careers",
+          "information-security"
+        ],
+        "url": "https://medium.com/@qnayds12/ethical-hacking-vs-cybersecurity-understanding-the-difference-360d363abb14",
+        "title": "Ethical Hacking vs Cybersecurity: Understanding the Difference",
+        "author": "Qnayds",
+        "published_at": "2026-10-28T11:09:21+00:00",
+        "excerpt": "As more businesses and individuals depend on digital technology, protecting websites, networks, applications, and personal information has… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c06d6650bb5902f7cad52814",
+        "source": "medium",
+        "author_tags": [
+          "careers",
+          "machine-learning",
+          "generative-ai-tools",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@shrutisharmax99/is-cybersecurity-a-good-career-in-india-c5d1391954e5",
+        "title": "Is Cybersecurity a Good Career in India?",
+        "author": "Shrutisharmax",
+        "published_at": "2026-10-28T11:09:02+00:00",
+        "excerpt": "Yes, a cybersecurity career in India can be a promising option for students interested in technology, problem-solving and digital security… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8b0e435e5910b0d31c0b6e49",
+        "source": "medium",
+        "author_tags": [
+          "php-security",
+          "cve",
+          "cybersecurity",
+          "php-vulnerability",
+          "vulnerability-management"
+        ],
+        "url": "https://medium.com/@Loginsoft/php2shell-cve-2026-109618-and-cve-2026-109619-critical-php-rce-vulnerability-and-patch-guide-aa77689e280f",
+        "title": "PHP2Shell (CVE-2026–109618 and CVE-2026–109619): Critical PHP RCE Vulnerability and Patch Guide",
+        "author": "Loginsoft",
+        "published_at": "2026-10-28T11:02:01+00:00",
+        "excerpt": "Why PHP2Shell Matters Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5df0e53694076b57cb5fa8de",
+        "source": "medium",
+        "author_tags": [
+          "javascript",
+          "cybersecurity",
+          "ethical-hacking",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@aekmohop/how-a-forgotten-legacy-js-file-landed-me-my-first-bug-bounty-ee8398a77a1f",
+        "title": "How a Forgotten Legacy JS File Landed Me My First Bug Bounty",
+        "author": "A. M. Alogo Situmorang",
+        "published_at": "2026-10-28T11:00:23+00:00",
+        "excerpt": "Why you should never ignore legacy.js files during recon Continue reading on Medium »"
+      },
       {
         "id": "medium:5850272022541814323f3f2c",
         "source": "medium",
