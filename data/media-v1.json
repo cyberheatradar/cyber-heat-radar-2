@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T00:30:02.510107+00:00",
+  "source_snapshot_generated_at": "2026-10-28T01:30:02.374654+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -4823,6 +4823,54 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:e9322a780e19e2de5a9d2c41",
+        "source": "qiita",
+        "author_tags": [
+          "CircleCI",
+          "TruffleHog",
+          "Security",
+          "Git",
+          "CICD"
+        ],
+        "url": "https://qiita.com/CircleCIJapan/items/e199c629d0adf86bc7fd",
+        "title": "TruffleHog で Git のコミット履歴に残った API キーを CircleCI で見つける",
+        "author": "CircleCIJapan",
+        "published_at": "2026-10-28T10:03:10+09:00",
+        "excerpt": "誤ってコミットしたAPIキーは、次のコミットでファイルを消しても、Gitのコミット履歴に残ります。リポジトリをクローンできる人なら、過去のコミットからキーを取り出せる状態です。 本記事では、OSSのシークレットスキャナーTruffleHogをCircleCIで動かし、コミット履歴に残ったキーを見つける手順を紹介します。CircleCIで動かすときに気をつけたい点もあわせて説明します。 TruffleHog とは TruffleHogは、GitリポジトリやファイルからAPIキーやパスワードを探すOSSのツールです。700を超える検出器を持ち、見つけた文字列が実際に使えるかを各サービスのAPIで確かめられます。結果は、verified（有効と確認できた）、unverified（有効と確認できない）、unknown（確認中にエラー）の3つに分かれます。 本記事では、コミット履歴を検査する trufflehog git と、今のファイルを検査する trufflehog filesystem を使います。 CircleCI でコミット履歴を検査する キーの"
+      },
+      {
+        "id": "qiita:1778f939c3ee0cb33a780644",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "ClaudeCode",
+          "automation",
+          "Security"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/62f296bc334c253a977d",
+        "title": "1。英国政府が自律型AIエージェントの事故調査体制整備を発表した日、自分の3つの自動投稿トリガーのうち、最新の指示書を持たないまま凍結されていた数はその数字だった",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-10-28T09:46:58+09:00",
+        "excerpt": "はじめに 1。 これが今回の数字です。何の1かというと、このZenn/Qiita自動投稿タスクを動かしている自分のスケジュールトリガーを数えたら全部で3つあり、そのうち「最新版の指示書(衝突防止のステップ0や機密ガードレールを含む)を持たないまま凍結されている」ものの数です。 2026年10月12日、英国政府が自律型AIエージェントが関わる重大インシデントに対応する専門調査能力の整備を含むAIセキュリティ対策パッケージを発表しました。報道によれば、調査では「そのエージェントは何を指示されていたか」「何にアクセスしたか」「同じ失敗は他でも起きうるか」を明らかにする必要があるとされています。この3つの問いを、他社の話としてではなく、今まさにこの記事を書いている自分自身のパイプラインに当ててみました。 TL;DR 英国政府は2026年10月12日、AIによる政府システムの脆弱性診断の拡大と、自律型AIエージェントが関わる重大インシデント向けの専門調査能力整備を柱とするAIセキュリティ対策パッケージを発表した 報道では、調査時に「エージェントは何を指示さ"
+      },
+      {
+        "id": "qiita:208467fc206c66b190d51687",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AIエージェント",
+          "codex",
+          "ClaudeCode",
+          "プロンプトインジェクション"
+        ],
+        "url": "https://qiita.com/YushiYamamoto/items/a8c014ce1a3ab755b707",
+        "title": "AGENTS.md経由の間接プロンプトインジェクションをどう防ぐか――AIエージェントの信頼境界とローカル環境の多層防御設計",
+        "author": "YushiYamamoto",
+        "published_at": "2026-10-28T09:45:29+09:00",
+        "excerpt": "「ダウンロードしたCSVやPDFを、そのまま ~/Downloads でAIエージェントに開かせて整理させていないか？」 2026年10月22日、米セキュリティ企業の Forever Security が報告した事案（ Markdown Is the New Executable ）は、AIコーディングエージェントを日常的に業務で使っているエンジニアにとって、かなり現実味のある攻撃経路を示していました。 顧客環境で検知されたのは、ユーザーの ~/Downloads/AGENTS.md を起点として、コーディングエージェントが悪性npmパッケージ（ function-color ）を導入しようとした動きです。さらに研究チームは、OpenAI の Codex でグローバル設定ファイル ~/.codex/config.toml に悪性MCPサーバーを登録させる再現検証や、Anthropic の Claude Code で .claude/settings.json の ANTHROPIC_BASE_URL を書き換えさせて OAuth トークンを外部サ"
+      },
       {
         "id": "qiita:a0ec8d855592f5cc1039c8a1",
         "source": "qiita",
