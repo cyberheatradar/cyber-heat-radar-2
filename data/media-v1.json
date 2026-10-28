@@ -1,9 +1,134 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T13:30:07.160651+00:00",
+  "source_snapshot_generated_at": "2026-10-28T14:30:07.444727+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:04df28915c54aa11b428625c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "生成 AI",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/takuh/articles/d4148e707a18a5",
+        "title": "ダウンロードフォルダで Claude Code や Codex を起動してはいけないのはなぜ？",
+        "author": "takuh",
+        "published_at": "2026-10-28T14:23:16.450000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:90f8f22337e9d3491738b256",
+        "source": "zenn",
+        "author_tags": [
+          "Windows",
+          "自動化",
+          "Security",
+          "Claude Code",
+          "ガードレール"
+        ],
+        "url": "https://zenn.dev/crossclub_lab/articles/claude-code-unattended-guardrails",
+        "title": "Claude Code を無人で動かす前に決める「人が押すもの」— 許可の宣言・STOP ファイル・文字列検査で守らせる",
+        "author": "crossclub",
+        "published_at": "2026-10-28T14:15:11.268000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6ba65515c899cbae2e9f2a78",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "CLI",
+          "OSS",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-029-agent-reach-login-free-channels",
+        "title": "AIエージェント用ネット接続ツールAgent-Reachを実機で検証した",
+        "author": "matsu",
+        "published_at": "2026-10-28T14:12:04.170000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2a9fa75a04607af8353b68c5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "architecture",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/tappers/articles/ai-labo-e04-loops-vs-graphs",
+        "title": "AIエージェントの「単一ループ」と「有向グラフ」でコストと速度はどう変わるか？実機サンドボックスでA/B比較検証してみた",
+        "author": "tappers",
+        "published_at": "2026-10-28T14:08:20.471000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a4e9fe778916c70075ca1654",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture",
+          "llm",
+          "Agent",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/tappers/articles/ai-labo-agent-harness-patterns-omnibus",
+        "title": "SNSで話題のAIエージェント設計論を片っ端から実機A/B検証してわかった「トークン90%削減・品質100%」の黄金パターン総集編",
+        "author": "tappers",
+        "published_at": "2026-10-28T14:08:19.873000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:49d67eea19114fa67b25967e",
+        "source": "zenn",
+        "author_tags": [
+          "Web",
+          "Security",
+          "authorization"
+        ],
+        "url": "https://zenn.dev/kotanpolin/articles/web-security-06-idor-authorization",
+        "title": "IDORとサーバー側の認可：中高生に説明するつもりで書く技術・セキュリティ",
+        "author": "コタ",
+        "published_at": "2026-10-28T13:36:58.939000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1d0cff6fefd850d112a2ef7c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Authentication",
+          "WebAuthn",
+          "Passkey (パスキー)"
+        ],
+        "url": "https://zenn.dev/monkey_gineer/articles/auth-study-01-roadmap-and-passkeys",
+        "title": "認証認可をゼロから学ぶ #1 ロードマップと、パスキーがパスワードより安全な理由",
+        "author": "monkey-gineer",
+        "published_at": "2026-10-28T13:33:15.907000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a3d7dc9a7e6df058ff18286a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "生成 AI",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sarukani/articles/claude-code-butler-memory",
+        "title": "Claude Code に、経緯を覚えている「専属バトラー」を作る",
+        "author": "さるかに",
+        "published_at": "2026-10-28T13:32:59.963000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:cea7e4c4e20712b894e03ffb",
         "source": "zenn",
@@ -3976,6 +4101,22 @@
         "excerpt": "はじめに CodexやClaude CodeなどのAIエージェントを使えば、チャットで開発タスクを依頼し、コード修正からPull Request（PR）の作成まで任せられる。 一方で、ローカルPCでAIエージェントを動かす場合、セキュリティ面での懸念がある。 特に、.env などの機密ファイルや、作業PC内の個人ファイルをAIに読み取らせたくないという問題。 DockerやSandboxによるアクセス制限も検討したが、安全性を担保するためには、環境構築・権限設定・動作検証など、それなりの対応コストがかかる。 そこで本記事では、AIサービスが提供する公式クラウド環境を利用し、セキュリ..."
       },
       {
+        "id": "zenn:74ec0c2c5fd577e75222ab2d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "IoT",
+          "Cloudflare",
+          "SORACOM",
+          "modal"
+        ],
+        "url": "https://zenn.dev/straydog/articles/cef1718fe8708b",
+        "title": "[SORACOM]ソラカメ Proをゲットした時のために、個人用の物体検出アーキテクチャを考えてみる",
+        "author": "stray dog",
+        "published_at": "2026-10-25T09:01:01.105000+00:00",
+        "excerpt": ""
+      },
+      {
         "id": "zenn:31ad89a1d4c941910b7f0b7a",
         "source": "zenn",
         "author_tags": [],
@@ -7816,6 +7957,38 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:e783e56facc372a8c516a52b",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AI",
+          "OSS",
+          "AttackSurfaceManagement",
+          "OpenSource"
+        ],
+        "url": "https://qiita.com/mizhm/items/b3a300393517fd947add",
+        "title": "「知らない入口」は守れない。OSSのアタックサーフェス管理基盤 OASM を作っている話",
+        "author": "mizhm",
+        "published_at": "2026-10-28T23:27:32+09:00",
+        "excerpt": "書いている私は OASM の開発メンバーです。宣伝っぽくならないよう、「なぜこういうツールが要ると考えているのか」から書きます。 ちょうど一年前の秋のこと 2025年の秋、店頭から特定のビールが減ったり、いつも使っている通販サイトに「現在ご注文を受け付けておりません」と出ていたりしたのを覚えている方も多いと思います。どちらも原因はランサムウェアでした。 1 2 先に書いておくと、被害に遭った企業を責めたいわけではありません。どの会社もそれなりに対策はしていたはずですし、現場の方々が何週間も復旧に追われていた様子は報道からも伝わってきました。攻撃する側は穴をひとつ見つければいい。守る側は全部を守らないといけない。この非対称さは、どこの組織でも変わりません。 それでも、あのニュースで「サイバー攻撃って、自分の生活にも普通に届くんだな」と感じた人は少なくなかったと思います。私もそうでした。 数字で見ると、まだ落ち着いていない 警察庁によると、2025年に報告されたランサムウェア被害は226件。2026年は上半期だけで123件と、半期としては統計を取り始"
+      },
+      {
+        "id": "qiita:02ac33f5b921f802de87f94f",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "codex",
+          "AIエージェント",
+          "Security",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/Takuya__/items/0a7c60673dce36716582",
+        "title": "ダウンロードフォルダで Claude Code や Codex を起動してはいけないのはなぜ？",
+        "author": "Takuya__",
+        "published_at": "2026-10-28T23:20:51+09:00",
+        "excerpt": "「ダウンロードしたファイルの整理や zip の展開を、AI に任せたい」と思ったことはありませんか。ターミナルで cd ~/Downloads と移動して Claude Code や Codex を起動すれば、すぐに頼めます。便利ですが、 この使い方はやめてください 。 2026年10月22日、セキュリティ企業の Forever Security が、ダウンロードフォルダに置かれた1枚の Markdown ファイルで AI エージェントが乗っ取られる攻撃を公開しました。実際の顧客の PC で見つかったものです。X では「絶対にダウンロードフォルダで Claude Code や Codex を起動しないで」という投稿が広まり、中島さんの YouTube 動画でも解説されました。 この記事では、その話を**「何をやってはいけないのか」「なぜやってはいけないのか」 の2点に絞って整理します。元のレポートと各社の公式ドキュメントで事実を確かめ、手元の Mac では 無害な目印だけを書いたファイル**を使って、仕組みの一部を再現しました。 この記事の確認範"
+      },
       {
         "id": "qiita:871a90fc71f9ba4bcd5cd884",
         "source": "qiita",
@@ -12264,6 +12437,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:01feea16201df06eaf6c815d",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "account-security",
+          "raja-botak",
+          "online-safety",
+          "two-factor-authentication"
+        ],
+        "url": "https://medium.com/@rajabotakofficial6/notifikasi-persetujuan-login-tak-dikenal-cara-memeriksa-dan-merespons-75f76c4ab478",
+        "title": "Notifikasi Persetujuan Login Tak Dikenal: Cara Memeriksa dan Merespons",
+        "author": "Rajabotakofficial",
+        "published_at": "2026-10-28T14:19:19+00:00",
+        "excerpt": "Menerima notifikasi persetujuan login tak dikenal? Pelajari cara memeriksa aktivitas akun, menolak login mencurigakan, dan meningkatkan… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5ea622be80b70670f5e02bad",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "penetration-testing",
+          "kali-linux",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@ps8916102/host-network-penetration-testing-exploitation-ctf-1-my-lab-walkthrough-7ca635426720",
+        "title": "Host & Network Penetration Testing: Exploitation CTF 1: my lab walkthrough",
+        "author": "Prajwal S",
+        "published_at": "2026-10-28T14:12:47+00:00",
+        "excerpt": "Notice to readers: Try to understand each command rather than blindly copying it. Continue reading on Medium »"
+      },
       {
         "id": "medium:102e69a1f284f31d82a1bdf9",
         "source": "medium",
