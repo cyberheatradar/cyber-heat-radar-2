@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T13:12:30.143770+00:00",
-  "as_of": "2026-10-28T13:00:00+00:00",
-  "catalog_count": 21085,
+  "generated_at": "2026-10-28T14:12:07.242044+00:00",
+  "as_of": "2026-10-28T14:00:00+00:00",
+  "catalog_count": 21088,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,54 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:49e8e9c207a58455c0c540c7",
+      "permalink_id": "article-url-49e8e9c207a58455c0c540c7",
+      "canonical_url": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+      "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
+      "summary_excerpt": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog The post Upwind Security Raises $400 Million at $3.8 Billion Valuation appeared first on SecurityWeek .",
+      "published_at": "2026-10-28T22:56:50+09:00",
+      "first_seen_at": "2026-10-28T23:02:14.182933+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:856ae868a06fc08a26ce6e04",
+      "permalink_id": "article-url-856ae868a06fc08a26ce6e04",
+      "canonical_url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+      "summary_excerpt": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches. The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
+      "published_at": "2026-10-28T22:39:35+09:00",
+      "first_seen_at": "2026-10-28T23:02:14.372542+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:013a25710fcfd14b8a995e82",
       "permalink_id": "article-url-013a25710fcfd14b8a995e82",
@@ -217,56 +265,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 61.75,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:14ace70803a1543b01c7dd5c",
-      "permalink_id": "article-url-14ace70803a1543b01c7dd5c",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/28/2000002686/",
-      "title": "NEC、委託先の情報漏えいで謝罪　「セキュリティ事業を手掛ける企業として反省」",
-      "summary_excerpt": "NECの雨宮邦和副社長兼CFOは、10月28日の第2四半期決算説明会で、委託先を経由したセキュリティインシデントについて謝罪した。AIやIT、ネットワークまで含めたセキュリティの支援を、DX事業「BluStellar」のメニューとして提供していく方針も示した。",
-      "published_at": "2026-10-28T20:32:12+09:00",
-      "first_seen_at": "2026-10-28T22:02:14.929959+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d4f5d5baa8252d3b756bc8a9",
-      "permalink_id": "article-url-d4f5d5baa8252d3b756bc8a9",
-      "canonical_url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-      "summary_excerpt": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
-      "published_at": "2026-10-28T20:15:51+09:00",
-      "first_seen_at": "2026-10-28T21:01:48.406741+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-104351"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 55.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -494,14 +492,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:6e33a6040a7d5deb5895de4a",
-      "permalink_id": "article-url-6e33a6040a7d5deb5895de4a",
-      "canonical_url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-      "summary_excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
-      "published_at": "2026-10-27T22:59:09+09:00",
-      "first_seen_at": "2026-10-28T02:03:01.265359+09:00",
-      "source_name": "The Hacker News",
+      "public_article_id": "url:856ae868a06fc08a26ce6e04",
+      "permalink_id": "article-url-856ae868a06fc08a26ce6e04",
+      "canonical_url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+      "summary_excerpt": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches. The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
+      "published_at": "2026-10-28T22:39:35+09:00",
+      "first_seen_at": "2026-10-28T23:02:14.372542+09:00",
+      "source_name": "SecurityWeek",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -514,12 +512,10 @@
           "label": "Vulnerability"
         }
       ],
-      "cves": [
-        "CVE-2026-86950"
-      ],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -915,15 +911,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Tailscale fixes SSH flaws allowing lateral movement within tailnets",
+    "【LATEST #1】Upwind Security Raises $400 Million at $3.8 Billion Valuation",
     "【HOTTEST #1 / Heat 75】Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "【LATEST #2】Hackers now scanning systems for recently-patched Oracle flaw",
+    "【LATEST #2】Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
     "【HOTTEST #2 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【LATEST #3】Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
+    "【LATEST #3】Tailscale fixes SSH flaws allowing lateral movement within tailnets",
     "【HOTTEST #3 / Heat 67.5】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "【LATEST #4】日立の26年4～9月期は増収増益　通期も上方修正、HMAXは売上収益5100億円へ",
+    "【LATEST #4】Hackers now scanning systems for recently-patched Oracle flaw",
     "【HOTTEST #4 / Heat 67.5】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-    "【LATEST #5】China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
+    "【LATEST #5】Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
     "【HOTTEST #5 / Heat 67.5】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit"
   ]
 }
