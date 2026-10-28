@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T16:11:57.781201+00:00",
-  "as_of": "2026-10-28T16:00:00+00:00",
-  "catalog_count": 21104,
+  "generated_at": "2026-10-28T17:15:07.915989+00:00",
+  "as_of": "2026-10-28T17:00:00+00:00",
+  "catalog_count": 21130,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,171 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:cfdef39189ea2bb23f951414",
+      "permalink_id": "article-url-cfdef39189ea2bb23f951414",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+      "summary_excerpt": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
+      "published_at": "2026-10-29T01:45:47+09:00",
+      "first_seen_at": "2026-10-29T02:01:51.412840+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7d4a5d81c3a9773262cb2d06",
+      "permalink_id": "article-url-7d4a5d81c3a9773262cb2d06",
+      "canonical_url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
+      "title": "Moldova investigates possible foreign involvement in major government cyberattack",
+      "summary_excerpt": "Prime Minister Vasile Tofan said the incident may be part of a broader campaign targeting both citizens' personal data and government digital infrastructure, according to local media reports.",
+      "published_at": "2026-10-29T01:37:00+09:00",
+      "first_seen_at": "2026-10-29T02:02:39.524454+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:257599f0048efc914687bf8c",
+      "permalink_id": "article-url-257599f0048efc914687bf8c",
+      "canonical_url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "summary_excerpt": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
+      "published_at": "2026-10-29T01:02:45+09:00",
+      "first_seen_at": "2026-10-29T02:02:38.933663+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2169d8af20d44c53821750e3",
+      "permalink_id": "article-url-2169d8af20d44c53821750e3",
+      "canonical_url": "https://cyberscoop.com/volt-typhoon-silent-train-covert-ephemeral-network-black-lotus-labs/",
+      "title": "Researchers uncover Volt Typhoon’s covert, ephemeral network",
+      "summary_excerpt": "The China-linked threat group has used the “Silent Train” framework, built on a series of rapidly rotating compromised devices, to infiltrate hundreds of critical infrastructure networks. The post Researchers uncover Volt Typhoon’s covert, ephemeral network appeared first on CyberScoop .",
+      "published_at": "2026-10-29T01:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:02:14.301232+09:00",
+      "source_name": "CyberScoop",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [
+        "Volt Typhoon"
+      ],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c48e4b2838068a2af4b3e450",
+      "permalink_id": "article-url-c48e4b2838068a2af4b3e450",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
+      "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+      "summary_excerpt": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Identity Services Engine (ISE) UCS Central Software Unified Communications Manager To remediate vulnerabilities to be disclosed on November 4, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. Important: The Cisco PSIRT does not plan to publish any more security hardening advisories to disclose security vulnerability inform",
+      "published_at": "2026-10-29T01:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:02:11.873252+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0b33a76a486a83fb49955546",
+      "permalink_id": "article-url-0b33a76a486a83fb49955546",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "summary_excerpt": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "published_at": "2026-10-29T01:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:01:52.517862+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [
+        "Volt Typhoon"
+      ],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:6b93050976c776eae097886f",
       "permalink_id": "article-url-6b93050976c776eae097886f",
@@ -19,6 +184,33 @@
       "published_at": "2026-10-29T00:52:17+09:00",
       "first_seen_at": "2026-10-29T01:02:01.517849+09:00",
       "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f2547b71d896a089d20a6058",
+      "permalink_id": "article-url-f2547b71d896a089d20a6058",
+      "canonical_url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hive-ransomware-jailed-fbi-infiltrated",
+      "title": "Hive ransomware affiliate jailed, years after FBI infiltrated the gang’s systems",
+      "summary_excerpt": "A Ukrainian man who carried out ransomware attacks for both the Nefilim and Hive gangs, including attacks on law firms and a healthcare provider during the COVID-19 pandemic, has been sentenced to 70 months in a US prison. Read more in my article on the Hot for Security blog.",
+      "published_at": "2026-10-29T00:27:15+09:00",
+      "first_seen_at": "2026-10-29T02:02:23.852400+09:00",
+      "source_name": "Graham Cluley",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -89,192 +281,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:db17f063f895dd65638ead3a",
-      "permalink_id": "article-url-db17f063f895dd65638ead3a",
-      "canonical_url": "https://therecord.media/belarus-russia-hackers-ukraine-war",
-      "title": "Belarusian hackers increasingly acting as proxies for Russia amid war in Ukraine",
-      "summary_excerpt": "Belarus-linked hackers are increasingly aligning their cyber operations with Russia's interests in Ukraine, researchers said Wednesday.",
-      "published_at": "2026-10-29T00:15:00+09:00",
-      "first_seen_at": "2026-10-29T01:02:00.929033+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6609bbf49cdff375f1db365f",
-      "permalink_id": "article-url-6609bbf49cdff375f1db365f",
-      "canonical_url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
-      "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
-      "summary_excerpt": "Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks. The post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on SecurityWeek .",
-      "published_at": "2026-10-29T00:05:06+09:00",
-      "first_seen_at": "2026-10-29T01:01:59.303022+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a7b8cf39a163bb0495146bc7",
-      "permalink_id": "article-url-a7b8cf39a163bb0495146bc7",
-      "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
-      "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
-      "summary_excerpt": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
-      "published_at": "2026-10-28T23:48:32+09:00",
-      "first_seen_at": "2026-10-29T00:01:50.135693+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:93515a2826137875afd9a5ab",
-      "permalink_id": "article-url-93515a2826137875afd9a5ab",
-      "canonical_url": "https://www.cybersecuritydive.com/news/internet-of-things-vulnerabilities-proxies-netgear-bitdefender/873033/",
-      "title": "Hackers seize on vulnerable IoT devices to spy, pivot and route traffic",
-      "summary_excerpt": "Known vulnerabilities with available patches are by far the biggest risk facing connected devices, a new report found.",
-      "published_at": "2026-10-28T23:45:02+09:00",
-      "first_seen_at": "2026-10-29T01:01:49.363858+09:00",
-      "source_name": "Cybersecurity Dive",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ecdeba7c7ff461fccf26d30e",
-      "permalink_id": "article-url-ecdeba7c7ff461fccf26d30e",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/compromised-camera-management-software-initial-access/",
-      "title": "Compromised camera management software gives attackers a way into corporate networks",
-      "summary_excerpt": "Attackers have been breaking into business networks through camera management software, according to new research from security firm Huntress, which traced several incidents in September and October back to a compromised application. An unidentified application The company’s analysts haven’t been able to confidently determine which software it was, and because no logs associated with the application could be found, they also couldn’t pinpoint how the attackers compromised it. The software’s executable – CMS.exe – “did … More → The post Compromised camera management software gives attackers a w",
-      "published_at": "2026-10-28T23:43:23+09:00",
-      "first_seen_at": "2026-10-29T00:02:20.032050+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "incident",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9c52e80bed550fc3962c955d",
-      "permalink_id": "article-url-9c52e80bed550fc3962c955d",
-      "canonical_url": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
-      "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
-      "summary_excerpt": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
-      "published_at": "2026-10-28T23:37:52+09:00",
-      "first_seen_at": "2026-10-29T00:02:10.792625+09:00",
-      "source_name": "Dark Reading",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:060efe9bf06381a9bbde12b7",
-      "permalink_id": "article-url-060efe9bf06381a9bbde12b7",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/digitate-ignio-hummingbird/",
-      "title": "Digitate adds AI agents for patch planning, service desks, and SAP operations",
-      "summary_excerpt": "Digitate has announced ignio Hummingbird, the latest release of its agentic AIOps platform. Hummingbird introduces AI agents that bring operational expertise to specific IT tasks, move from diagnosis through approved action and verification, and operate within enterprise change, approval and audit controls. The release also enables enterprises to build their own IT operations agents and includes built-in Model Context Protocol (MCP) and Agent2Agent (A2A) servers, allowing ignio capabilities to work with the agents, assistants and … More → The post Digitate adds AI agents for patch planning, se",
-      "published_at": "2026-10-28T23:36:59+09:00",
-      "first_seen_at": "2026-10-29T00:02:20.856643+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "mcp",
-          "label": "MCP"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -401,87 +407,15 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:b864172b52514096e0029807",
-      "permalink_id": "article-url-b864172b52514096e0029807",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "title": "Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
-      "published_at": "2026-10-28T06:30:00+09:00",
-      "first_seen_at": "2026-10-28T08:02:46.131187+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-105482",
-        "CVE-2026-105483",
-        "CVE-2026-106069",
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:3f78d562c8c900bf802d2dd7",
-      "permalink_id": "article-url-3f78d562c8c900bf802d2dd7",
-      "canonical_url": "https://www.praetorian.com/blog/php2shell/",
-      "title": "php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
-      "summary_excerpt": "Cutting Through the php2shell Noise On October 20, details of php2shell, two pre-auth RCE vulnerabilities in the PHP core discovered by Calif (CVE-2026-109618 and CVE-2026-109619), leaked ahead of coordinated disclosure. Advisories listing affected versions followed quickly, along with a flood of PoCs, many AI-generated and non-functional. We waited until we had our own data. This […] The post php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit appeared first on Praetorian .",
-      "published_at": "2026-10-28T04:31:40+09:00",
-      "first_seen_at": "2026-10-28T06:02:15.535507+09:00",
-      "source_name": "Praetorian Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:86b085b4800a651a865cc045",
-      "permalink_id": "article-url-86b085b4800a651a865cc045",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
-      "title": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-      "summary_excerpt": "A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds write flaw that gained widespread attention after Node.js publicly disclosed it on October 21, 2026. “An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory, which can lead to a crash, disclosure of process … More → The post Brotli bug reaches far beyond Node.js",
-      "published_at": "2026-10-28T02:38:51+09:00",
-      "first_seen_at": "2026-10-28T03:01:42.690010+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
+      "public_article_id": "url:9b4b2b2188dffc7a4a267765",
+      "permalink_id": "article-url-9b4b2b2188dffc7a4a267765",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-829/",
+      "title": "ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-118611.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:06:01.610510+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
@@ -494,7 +428,7 @@
         }
       ],
       "cves": [
-        "CVE-2026-111497"
+        "CVE-2026-118611"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -502,15 +436,15 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:ca3d4a860204b83da66079c0",
-      "permalink_id": "article-url-ca3d4a860204b83da66079c0",
-      "canonical_url": "https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft",
-      "title": "CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-      "summary_excerpt": "On September 25, 2026, Mandiant released a report regarding continued mass exploitation of CVE-2026-35273 by the ShinyHunters group. TrendAI’s Zero Day Initiative first reported this CVE to Oracle on June 10, 2026, following an investigation I conducted with Minh Giang and Lucas Miller of TrendAI Research. Although Oracle issued a patch under a single CVE, we reported three distinct vulnerabilities across multiple PeopleSoft components. We are coordinating with Oracle to assign separate CVEs for each issue. In this blog post, we will walk through each of these vulnerabilities, starting with a ",
-      "published_at": "2026-10-28T01:39:07+09:00",
-      "first_seen_at": "2026-10-28T03:01:53.318984+09:00",
-      "source_name": "Zero Day Initiative Blog",
-      "source_class": "topic_rss",
+      "public_article_id": "url:d1f6ed5950569469895a78d0",
+      "permalink_id": "article-url-d1f6ed5950569469895a78d0",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+      "title": "ZDI-26-828: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-118610.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:05:51.469387+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
@@ -523,7 +457,7 @@
         }
       ],
       "cves": [
-        "CVE-2026-35273"
+        "CVE-2026-118610"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -531,42 +465,15 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:6b93050976c776eae097886f",
-      "permalink_id": "article-url-6b93050976c776eae097886f",
-      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
-      "title": "Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
-      "summary_excerpt": "Artem Stryzhak joined both gangs, which targeted businesses and a hospital during the pandemic",
-      "published_at": "2026-10-29T00:52:17+09:00",
-      "first_seen_at": "2026-10-29T01:02:01.517849+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:93090c87ef2724a55894a0c6",
-      "permalink_id": "article-url-93090c87ef2724a55894a0c6",
-      "canonical_url": "https://www.itpro.com/security/cisa-urges-federal-agencies-to-patch-after-php-exploits-observed",
-      "title": "CISA urges federal agencies to patch after PHP exploits observed",
-      "summary_excerpt": "The PHP vulnerabilities sent the web into a frenzy last week as organizations rushed to apply patches",
-      "published_at": "2026-10-29T00:20:37+09:00",
-      "first_seen_at": "2026-10-29T01:01:57.172577+09:00",
-      "source_name": "ITPro Security",
-      "source_class": "topic_rss",
+      "public_article_id": "url:cc713f8f2554aacdbef8dbe0",
+      "permalink_id": "article-url-cc713f8f2554aacdbef8dbe0",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+      "title": "ZDI-26-827: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-118609.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:05:33.433965+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
@@ -578,10 +485,99 @@
           "label": "Vulnerability"
         }
       ],
-      "cves": [],
+      "cves": [
+        "CVE-2026-118609"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6e83e4f2177adda5ccce5664",
+      "permalink_id": "article-url-6e83e4f2177adda5ccce5664",
+      "canonical_url": "http://www.zerodayinitiative.com/advisories/ZDI-26-826/",
+      "title": "ZDI-26-826: (0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "summary_excerpt": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Alpine iLX-F511 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 3.5. The following CVEs are assigned: CVE-2026-118608.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:05:13.385881+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-118608"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2417b67f89c3530d849d3e98",
+      "permalink_id": "article-url-2417b67f89c3530d849d3e98",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-825/",
+      "title": "ZDI-26-825: (0Day) (Pwn2Own) Alpine iLX-F511 diagapp Command Injection Vulnerability",
+      "summary_excerpt": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-118607.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:05:11.328648+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-118607"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:62142aeffcd8b7b8f5c1b6e1",
+      "permalink_id": "article-url-62142aeffcd8b7b8f5c1b6e1",
+      "canonical_url": "http://www.zerodayinitiative.com/advisories/ZDI-26-824/",
+      "title": "ZDI-26-824: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-118606.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:04:50.990241+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-118606"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -920,15 +916,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
+    "【LATEST #1】Sony ISP subsidiary data breach exposes 2.5 million customer records",
     "【HOTTEST #1 / Heat 75】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-    "【LATEST #2】I underestimated how fast security teams would trust AI to act in the SOC",
+    "【LATEST #2】Moldova investigates possible foreign involvement in major government cyberattack",
     "【HOTTEST #2 / Heat 67.5】Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "【LATEST #3】CISA urges federal agencies to patch after PHP exploits observed",
+    "【LATEST #3】PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
     "【HOTTEST #3 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【LATEST #4】Belarusian hackers increasingly acting as proxies for Russia amid war in Ukraine",
+    "【LATEST #4】Researchers uncover Volt Typhoon’s covert, ephemeral network",
     "【HOTTEST #4 / Heat 67.5】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "【LATEST #5】Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
-    "【HOTTEST #5 / Heat 67.5】Vulnerabilities in node.js Affecting Cisco Products: October 2026"
+    "【LATEST #5】Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+    "【HOTTEST #5 / Heat 67.5】ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ]
 }
