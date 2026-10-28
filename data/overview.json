@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T03:11:53.088485+00:00",
-  "as_of": "2026-10-28T03:00:00+00:00",
-  "catalog_count": 21036,
+  "generated_at": "2026-10-28T04:11:20.830748+00:00",
+  "as_of": "2026-10-28T04:00:00+00:00",
+  "catalog_count": 21038,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,54 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:54b02cac6e1e09e673abed8e",
+      "permalink_id": "article-url-54b02cac6e1e09e673abed8e",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/28/2000002659/",
+      "title": "GMO不正アクセスの犯人サイト、ドメイン停止を確認",
+      "summary_excerpt": "今後、同様のサイトが新たに開設された場合も、「確認次第、直ちにテイクダウンに向けた対応を行う」としている。",
+      "published_at": "2026-10-28T12:22:30+09:00",
+      "first_seen_at": "2026-10-28T13:01:54.681286+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7da828f0226d34080e1caf5e",
+      "permalink_id": "article-url-7da828f0226d34080e1caf5e",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/28/2000002612/",
+      "title": "AI音声の詐欺電話、6人に1人が応じる可能性　だまされやすい手口とは　米ハーバード大やMetaが4100人で検証",
+      "summary_excerpt": "米ハーバード大学や米Metaなどに所属する研究者らが発表した論文「Evaluating AI Models’ Capability to Automate Voice Phishing Attacks」は、AIによる詐欺電話によってどれくらい騙されるかを調査した研究報告だ。",
+      "published_at": "2026-10-28T12:00:00+09:00",
+      "first_seen_at": "2026-10-28T13:01:54.879038+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 53.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:fd6fc9e5b4ae607bdce59c70",
       "permalink_id": "article-url-fd6fc9e5b4ae607bdce59c70",
@@ -195,59 +243,6 @@
       "seen_in_kev": false,
       "heat_score": 45.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:66c9a60c0261af22ff6633e2",
-      "permalink_id": "article-url-66c9a60c0261af22ff6633e2",
-      "canonical_url": "https://www.security-next.com/192058",
-      "title": "「Chrome」で脆弱性52件を修正 - 4件が「クリティカル」",
-      "summary_excerpt": "Googleは、ウェブブラウザ「Chrome」のセキュリティアップデートを公開した。4件については、重要度が「クリティカル（Critical）」と評価されている。",
-      "published_at": "2026-10-28T08:54:37+09:00",
-      "first_seen_at": "2026-10-28T09:02:09.831330+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 61.75,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d8f8706fa3b3fef91b1aa041",
-      "permalink_id": "article-url-d8f8706fa3b3fef91b1aa041",
-      "canonical_url": "https://www.security-next.com/192044",
-      "title": "「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
-      "summary_excerpt": "Googleのデータ圧縮ライブラリ「Brotli」に関する脆弱性やAdobeが提供するeコマースサイト関連製品「Adobe Commerce」「Magento」の脆弱性が悪用されている。米当局が注意を呼びかけた。",
-      "published_at": "2026-10-28T08:41:00+09:00",
-      "first_seen_at": "2026-10-28T09:02:10.085729+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -285,7 +280,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -879,15 +874,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】個人情報が漏えいしたらどうする？ IPAが被害別の対処法を公開",
-    "【HOTTEST #1 / Heat 75】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-    "【LATEST #2】GMOを攻撃した集団のサイト停止",
+    "【LATEST #1】GMO不正アクセスの犯人サイト、ドメイン停止を確認",
+    "【HOTTEST #1 / Heat 67.5】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
+    "【LATEST #2】AI音声の詐欺電話、6人に1人が応じる可能性　だまされやすい手口とは　米ハーバード大やMetaが4100人で検証",
     "【HOTTEST #2 / Heat 67.5】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
-    "【LATEST #3】ヤクルト本社サイト、不正アクセスで停止中　顧客情報への影響は「調査中」",
+    "【LATEST #3】個人情報が漏えいしたらどうする？ IPAが被害別の対処法を公開",
     "【HOTTEST #3 / Heat 67.5】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-    "【LATEST #4】ユミルリンクの不正アクセス、JR・りそな銀行・サイボウズなどに影響　被害企業一覧",
+    "【LATEST #4】GMOを攻撃した集団のサイト停止",
     "【HOTTEST #4 / Heat 67.5】CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-    "【LATEST #5】不正アクセス GMOの急成長に影",
+    "【LATEST #5】ヤクルト本社サイト、不正アクセスで停止中　顧客情報への影響は「調査中」",
     "【HOTTEST #5 / Heat 67.5】Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads"
   ]
 }
