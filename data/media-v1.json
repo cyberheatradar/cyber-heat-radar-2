@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T02:30:02.449805+00:00",
+  "source_snapshot_generated_at": "2026-10-28T03:30:02.516979+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -4824,6 +4824,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4330426e8214c37aed050aa9",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/b7b7f222355796b2a5ca",
+        "title": "SafeLine WAFレビュー：機能・料金・判定をチェックリストと切り分けで読む",
+        "author": "Karinbiubiu",
+        "published_at": "2026-10-28T12:00:14+09:00",
+        "excerpt": "導入判断を広告の要約で終わらせないため、SafeLine WAFのレビューを導入前チェックリストと、通信が盾を通らないときの切り分けとして書く。観点は SafeLine WAF review — features, pricing, and verdict の三つに限る。根拠は公式の導入説明、デプロイ手順、アプリケーション追加手順だけを使い、価格と導入件数だけは、その三ページに無い数字として別欄に置く。説明の起点は https://docs.waf.chaitin.com/en/home 、デプロイは https://docs.waf.chaitin.com/en/GetStarted/Deploy 、アプリ追加は https://docs.waf.chaitin.com/en/GetStarted/AddApplication である。管理画面は https://:9443 で開く。ここに手順が無い制御、規則文法、応答時間は、想像で埋めない。 機能チェックリスト 判定の前に、次の項目を文書の文言と突き合わせる。 製品の位置づけは、自己ホスト型の"
+      },
+      {
         "id": "qiita:f077eb271bac35dd6241e1cc",
         "source": "qiita",
         "author_tags": [
@@ -9102,6 +9116,51 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:c3f26972e5172d1f32a641dd",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "galgotias-university"
+        ],
+        "url": "https://medium.com/@princejaat7676/3-cybersecurity-threat-modeling-thinking-like-an-attacker-to-build-safer-systems-118f9fc752af",
+        "title": "3. Cybersecurity Threat Modeling: Thinking Like an Attacker to Build Safer Systems",
+        "author": "Prince",
+        "published_at": "2026-10-28T03:08:04+00:00",
+        "excerpt": "Why identifying risks early is a fundamental part of secure software development Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f98586f8d1b9975d9a7507dd",
+        "source": "medium",
+        "author_tags": [
+          "social-engineering",
+          "phishing",
+          "ethical-hacking",
+          "cybersecurity",
+          "information-security"
+        ],
+        "url": "https://mr-robot2027.medium.com/the-hacker-doesnt-need-your-password-they-just-need-you-to-trust-them-6b09a59635db",
+        "title": "The Hacker Doesn’t Need Your Password. They Just Need You to Trust Them",
+        "author": "Mr Robot",
+        "published_at": "2026-10-28T03:06:31+00:00",
+        "excerpt": "The Hacker Doesn’t Need Your Password. They Just Need You to Trust Them. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c525145bf4a0e372a7fcbbe6",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "pentesting",
+          "cybersecurity",
+          "ssrf-vulnerability",
+          "infosec"
+        ],
+        "url": "https://samadhanshimple.medium.com/i-found-ssrf-in-30-minutes-heres-my-exact-bug-bounty-workflow-complete-guide-by-samadhan-b205af41c420",
+        "title": "I Found SSRF in 30 Minutes: Here’s My Exact Bug Bounty Workflow (Complete Guide) | by Samadhan…",
+        "author": "Samadhan shimple",
+        "published_at": "2026-10-28T03:01:05+00:00",
+        "excerpt": "Server-Side Request Forgery (SSRF) is a web security vulnerability that occurs when an application makes a server-side request using input… Continue reading on Medium »"
+      },
       {
         "id": "medium:dba81fb461b155ff17575299",
         "source": "medium",
