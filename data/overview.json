@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T11:12:08.373923+00:00",
-  "as_of": "2026-10-28T11:00:00+00:00",
-  "catalog_count": 21073,
+  "generated_at": "2026-10-28T12:11:33.342025+00:00",
+  "as_of": "2026-10-28T12:00:00+00:00",
+  "catalog_count": 21076,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,62 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:013c98104483742cff1e5235",
+      "permalink_id": "article-url-013c98104483742cff1e5235",
+      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
+      "summary_excerpt": "Company chiefs believe the attackers could be the same as those who used ARTEX to breach South Korea’s financial giants",
+      "published_at": "2026-10-28T20:45:00+09:00",
+      "first_seen_at": "2026-10-28T21:01:49.977145+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d4f5d5baa8252d3b756bc8a9",
+      "permalink_id": "article-url-d4f5d5baa8252d3b756bc8a9",
+      "canonical_url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "summary_excerpt": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
+      "published_at": "2026-10-28T20:15:51+09:00",
+      "first_seen_at": "2026-10-28T21:01:48.406741+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-104351"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 55.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:62664df332c546b668d963fa",
       "permalink_id": "article-url-62664df332c546b668d963fa",
@@ -79,6 +135,38 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2e5063d5ddc42334fda588af",
+      "permalink_id": "article-url-2e5063d5ddc42334fda588af",
+      "canonical_url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "summary_excerpt": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
+      "published_at": "2026-10-28T19:30:00+09:00",
+      "first_seen_at": "2026-10-28T21:01:48.539449+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -180,83 +268,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:62af280b86d2c33ac75d3be6",
-      "permalink_id": "article-url-62af280b86d2c33ac75d3be6",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-      "summary_excerpt": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
-      "published_at": "2026-10-28T18:43:15+09:00",
-      "first_seen_at": "2026-10-28T19:01:32.343199+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8816f06283041a0ccd4d1110",
-      "permalink_id": "article-url-8816f06283041a0ccd4d1110",
-      "canonical_url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-      "summary_excerpt": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek .",
-      "published_at": "2026-10-28T18:14:23+09:00",
-      "first_seen_at": "2026-10-28T19:02:09.695547+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-101767"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4751eea8ba0663ee3d81ef1c",
-      "permalink_id": "article-url-4751eea8ba0663ee3d81ef1c",
-      "canonical_url": "https://ascii.jp/elem/000/004/444/4444476/?rss",
-      "title": "【12/3・無料懇親会】情シスの皆さん、ASCIIで忘年会しませんか？ 今年のセキュリティの“ヤバかった話ビッグ5”と、クリスマスグルメで一年を締めくくろう！",
-      "summary_excerpt": "12月3日（木）、ASCIIの「TECH.ASCII ゆるっとナイト vol.9」を開催します！ 今回は年末スペシャル「情シス忘年会」。今年話題になったITトラブルの”ヤバかった話ビッグ5”を情シス目線で振り返りながら、クリスマスグルメを囲んで、一年を“ゆるっと”締めくくります。",
-      "published_at": "2026-10-28T18:00:00+09:00",
-      "first_seen_at": "2026-10-28T20:01:53.516927+09:00",
-      "source_name": "ASCII.jp TECH",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -349,7 +360,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -542,20 +553,26 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:b8b54479d0958ad96ad4a01b",
-      "permalink_id": "article-url-b8b54479d0958ad96ad4a01b",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2152032.html",
-      "title": "「花キューピット」、不正アクセスで会員情報約424万件が漏えい",
-      "summary_excerpt": "花キューピット株式会社は10月28日、同社が運営する「インターネット花キューピット」「ビジネス花キューピット」のシステムが不正アクセスを受け、会員情報の一部が漏えいしたと発表した。",
-      "published_at": "2026-10-28T19:45:31+09:00",
-      "first_seen_at": "2026-10-28T20:02:34.613191+09:00",
-      "source_name": "INTERNET Watch",
+      "public_article_id": "url:013c98104483742cff1e5235",
+      "permalink_id": "article-url-013c98104483742cff1e5235",
+      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
+      "summary_excerpt": "Company chiefs believe the attackers could be the same as those who used ARTEX to breach South Korea’s financial giants",
+      "published_at": "2026-10-28T20:45:00+09:00",
+      "first_seen_at": "2026-10-28T21:01:49.977145+09:00",
+      "source_name": "The Register Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
-      "ai_relevance": "none",
+      "ai_relevance": "primary",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -569,7 +586,7 @@
       "permalink_id": "article-url-d80a19c6eb408dc9a9f7c206",
       "canonical_url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
       "title": "External Teams Chats Anchor 15-Minute Malware Delivery",
-      "summary_excerpt": "Main bombing sis getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
+      "summary_excerpt": "Mail bombing is getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
       "published_at": "2026-10-28T05:42:40+09:00",
       "first_seen_at": "2026-10-28T06:01:58.927097+09:00",
       "source_name": "Dark Reading",
@@ -652,6 +669,27 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a51ffe05fed35c75f834e1e7",
+      "permalink_id": "article-url-a51ffe05fed35c75f834e1e7",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6600103?source=rss",
+      "title": "不正アクセス 官邸主導で対策急ぐ",
+      "summary_excerpt": null,
+      "published_at": "2026-10-25T20:51:41+09:00",
+      "first_seen_at": "2026-10-26T07:58:20.753971+09:00",
+      "source_name": "Yahoo!ニュース 国内",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
       "published_at_future_suppressed": false
     },
     {
@@ -860,38 +898,6 @@
       "seen_in_kev": false,
       "heat_score": 22.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c2f353f11fcac6078e3a8d41",
-      "permalink_id": "article-url-c2f353f11fcac6078e3a8d41",
-      "canonical_url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "summary_excerpt": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
-      "published_at": "2026-10-24T20:03:33+09:00",
-      "first_seen_at": "2026-10-25T17:24:42.300677+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 22.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -912,15 +918,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
+    "【LATEST #1】123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
     "【HOTTEST #1 / Heat 75】Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "【LATEST #2】CISA warns of hackers now exploiting critical Node2Shell flaw",
+    "【LATEST #2】Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
     "【HOTTEST #2 / Heat 75】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【LATEST #3】「花キューピット」、不正アクセスで会員情報約424万件が漏えい",
-    "【HOTTEST #3 / Heat 75】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "【LATEST #4】Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
+    "【LATEST #3】Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
+    "【HOTTEST #3 / Heat 67.5】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+    "【LATEST #4】CISA warns of hackers now exploiting critical Node2Shell flaw",
     "【HOTTEST #4 / Heat 67.5】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-    "【LATEST #5】Data breach at Sony-owned internet provider compromises 2.6 million customer records",
+    "【LATEST #5】「花キューピット」、不正アクセスで会員情報約424万件が漏えい",
     "【HOTTEST #5 / Heat 67.5】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit"
   ]
 }
