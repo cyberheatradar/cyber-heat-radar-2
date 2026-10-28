@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T18:11:38.059880+00:00",
-  "as_of": "2026-10-28T18:00:00+00:00",
-  "catalog_count": 21132,
+  "generated_at": "2026-10-28T19:12:23.221521+00:00",
+  "as_of": "2026-10-28T19:00:00+00:00",
+  "catalog_count": 21139,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,67 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:3402ef3be45eaaf5abfa887e",
+      "permalink_id": "article-url-3402ef3be45eaaf5abfa887e",
+      "canonical_url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "summary_excerpt": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
+      "published_at": "2026-10-29T03:08:33+09:00",
+      "first_seen_at": "2026-10-29T04:02:21.975691+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [
+        "Volt Typhoon"
+      ],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ad396287fcf57887cbeab06f",
+      "permalink_id": "article-url-ad396287fcf57887cbeab06f",
+      "canonical_url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+      "title": "Unwrapping Retail Peak Season Cyber Threats",
+      "summary_excerpt": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .",
+      "published_at": "2026-10-29T03:00:10+09:00",
+      "first_seen_at": "2026-10-29T04:02:23.396691+09:00",
+      "source_name": "Unit 42 Research",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:bc0c741635daafbb1b3ebc1c",
       "permalink_id": "article-url-bc0c741635daafbb1b3ebc1c",
@@ -238,60 +299,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6b93050976c776eae097886f",
-      "permalink_id": "article-url-6b93050976c776eae097886f",
-      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
-      "title": "Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
-      "summary_excerpt": "Artem Stryzhak joined both gangs, which targeted businesses and a hospital during the pandemic",
-      "published_at": "2026-10-29T00:52:17+09:00",
-      "first_seen_at": "2026-10-29T01:02:01.517849+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f2547b71d896a089d20a6058",
-      "permalink_id": "article-url-f2547b71d896a089d20a6058",
-      "canonical_url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hive-ransomware-jailed-fbi-infiltrated",
-      "title": "Hive ransomware affiliate jailed, years after FBI infiltrated the gang’s systems",
-      "summary_excerpt": "A Ukrainian man who carried out ransomware attacks for both the Nefilim and Hive gangs, including attacks on law firms and a healthcare provider during the COVID-19 pandemic, has been sentenced to 70 months in a US prison. Read more in my article on the Hot for Security blog.",
-      "published_at": "2026-10-29T00:27:15+09:00",
-      "first_seen_at": "2026-10-29T02:02:23.852400+09:00",
-      "source_name": "Graham Cluley",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -300,7 +307,7 @@
       "permalink_id": "article-url-f83598082f121f26e38f677f",
       "canonical_url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
       "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "summary_excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical Patch Update. Security researchers",
+      "summary_excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
       "published_at": "2026-10-28T21:48:03+09:00",
       "first_seen_at": "2026-10-29T00:02:30.490817+09:00",
       "source_name": "The Hacker News",
@@ -321,7 +328,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -921,15 +928,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】GitHub’s npm package firewall can block brand-new versions before they install",
-    "【HOTTEST #1 / Heat 75】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-    "【LATEST #2】Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+    "【LATEST #1】Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+    "【HOTTEST #1 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "【LATEST #2】Unwrapping Retail Peak Season Cyber Threats",
     "【HOTTEST #2 / Heat 67.5】Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "【LATEST #3】Sony ISP subsidiary data breach exposes 2.5 million customer records",
+    "【LATEST #3】GitHub’s npm package firewall can block brand-new versions before they install",
     "【HOTTEST #3 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【LATEST #4】Moldova investigates possible foreign involvement in major government cyberattack",
+    "【LATEST #4】Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
     "【HOTTEST #4 / Heat 67.5】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "【LATEST #5】PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+    "【LATEST #5】Sony ISP subsidiary data breach exposes 2.5 million customer records",
     "【HOTTEST #5 / Heat 67.5】ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ]
 }
