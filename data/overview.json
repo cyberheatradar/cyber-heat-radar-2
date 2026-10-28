@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-27T22:11:17.616346+00:00",
-  "as_of": "2026-10-27T22:00:00+00:00",
-  "catalog_count": 20994,
+  "generated_at": "2026-10-28T00:14:57.775440+00:00",
+  "as_of": "2026-10-28T00:00:00+00:00",
+  "catalog_count": 21026,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -11,20 +11,52 @@
   },
   "latest": [
     {
-      "public_article_id": "url:d693ccb912359889e5689471",
-      "permalink_id": "article-url-d693ccb912359889e5689471",
-      "canonical_url": "https://gigazine.net/news/20261028-cve-tracker/",
-      "title": "AIによって脆弱性発見が爆増したことが一目で分かるグラフ「CVE Tracker」",
-      "summary_excerpt": "AIの性能向上によってソフトウェアの脆弱性が続々と発見されるようになりました。@0x_Osprey氏が公開しているウェブアプリ「CVE Tracker」では2026年に入ってから脆弱性の報告件数が急増していることが読み取れます。 続きを読む...",
-      "published_at": "2026-10-28T07:00:00+09:00",
-      "first_seen_at": "2026-10-28T07:01:42.908333+09:00",
-      "source_name": "GIGAZINE",
+      "public_article_id": "url:66c9a60c0261af22ff6633e2",
+      "permalink_id": "article-url-66c9a60c0261af22ff6633e2",
+      "canonical_url": "https://www.security-next.com/192058",
+      "title": "「Chrome」で脆弱性52件を修正 - 4件が「クリティカル」",
+      "summary_excerpt": "Googleは、ウェブブラウザ「Chrome」のセキュリティアップデートを公開した。4件については、重要度が「クリティカル（Critical）」と評価されている。",
+      "published_at": "2026-10-28T08:54:37+09:00",
+      "first_seen_at": "2026-10-28T09:02:09.831330+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 61.75,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d8f8706fa3b3fef91b1aa041",
+      "permalink_id": "article-url-d8f8706fa3b3fef91b1aa041",
+      "canonical_url": "https://www.security-next.com/192044",
+      "title": "「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
+      "summary_excerpt": "Googleのデータ圧縮ライブラリ「Brotli」に関する脆弱性やAdobeが提供するeコマースサイト関連製品「Adobe Commerce」「Magento」の脆弱性が悪用されている。米当局が注意を呼びかけた。",
+      "published_at": "2026-10-28T08:41:00+09:00",
+      "first_seen_at": "2026-10-28T09:02:10.085729+09:00",
+      "source_name": "Security NEXT",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -32,56 +64,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:48c19b4b72519c2c3ddc9646",
-      "permalink_id": "article-url-48c19b4b72519c2c3ddc9646",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/event/2151587.html",
-      "title": "懸念が高まる「サプライチェーン攻撃」、被害企業はその後どう動いた？　1000社アンケートから浮かび上がった実像、そして「SCS評価制度」との向き合い方【Security Days Fall 2026】",
-      "summary_excerpt": "企業狙いのサイバー攻撃は悪質化の一途を辿っている。特に最近は、取引のある企業間でネットワークが相互接続している点を悪用し、防御の弱い企業から侵入、さらに別の企業のサーバーなどを掌握する「サプライチェーン攻撃」への懸念が高まっている。",
-      "published_at": "2026-10-28T06:00:00+09:00",
-      "first_seen_at": "2026-10-28T06:02:09.595492+09:00",
-      "source_name": "INTERNET Watch",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:02aa5589116e9160e37e11ee",
-      "permalink_id": "article-url-02aa5589116e9160e37e11ee",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-      "title": "Hackers hijack Convertr analytics script to steal payment card data",
-      "summary_excerpt": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
-      "published_at": "2026-10-28T05:57:25+09:00",
-      "first_seen_at": "2026-10-28T06:01:39.454074+09:00",
+      "public_article_id": "url:ebe6130a3b49d0f809dafaef",
+      "permalink_id": "article-url-ebe6130a3b49d0f809dafaef",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+      "summary_excerpt": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+      "published_at": "2026-10-28T08:35:51+09:00",
+      "first_seen_at": "2026-10-28T09:01:31.741583+09:00",
       "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d80a19c6eb408dc9a9f7c206",
-      "permalink_id": "article-url-d80a19c6eb408dc9a9f7c206",
-      "canonical_url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
-      "title": "External Teams Chats Anchor 15-Minute Malware Delivery",
-      "summary_excerpt": "Main bombing sis getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
-      "published_at": "2026-10-28T05:42:40+09:00",
-      "first_seen_at": "2026-10-28T06:01:58.927097+09:00",
-      "source_name": "Dark Reading",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -94,9 +84,9 @@
           "label": "Ransomware"
         },
         {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
         }
       ],
       "cves": [],
@@ -106,41 +96,98 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:bccd27b29244bb4f990237b7",
-      "permalink_id": "article-url-bccd27b29244bb4f990237b7",
-      "canonical_url": "https://cyberscoop.com/anthropic-ipo-filing-cybersecurity-risks/",
-      "title": "All the security risks Anthropic is worried about before its IPO",
-      "summary_excerpt": "Anthropic has said out-of-control AI poses a threat to the world, but perhaps unsurprisingly suggests that profit will shape those decisions, too. The post All the security risks Anthropic is worried about before its IPO appeared first on CyberScoop .",
-      "published_at": "2026-10-28T05:41:16+09:00",
-      "first_seen_at": "2026-10-28T06:01:58.641233+09:00",
-      "source_name": "CyberScoop",
+      "public_article_id": "url:5c435c4b19871d3cefe55c4b",
+      "permalink_id": "article-url-5c435c4b19871d3cefe55c4b",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html",
+      "title": "ヤマダデンキ提供の「ヤマダビデオ」「スマホゴールド会員」に不正アクセス、一時サービス停止",
+      "summary_excerpt": null,
+      "published_at": "2026-10-28T08:05:43+09:00",
+      "first_seen_at": "2026-10-28T09:02:07.474240+09:00",
+      "source_name": "ScanNetSecurity",
       "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
+      "primary_category": "other",
+      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:3d679b3eeda439ce7b7cba44",
-      "permalink_id": "article-url-3d679b3eeda439ce7b7cba44",
-      "canonical_url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
-      "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
-      "summary_excerpt": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.",
-      "published_at": "2026-10-28T05:40:00+09:00",
-      "first_seen_at": "2026-10-28T06:02:18.997984+09:00",
-      "source_name": "The Record",
+      "public_article_id": "url:98c57818f8c38782c013073d",
+      "permalink_id": "article-url-98c57818f8c38782c013073d",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56608.html",
+      "title": "デジタル庁ホームページの問い合せフォームの情報が漏えい、Studio のクラウド環境への不正アクセス",
+      "summary_excerpt": null,
+      "published_at": "2026-10-28T08:05:40+09:00",
+      "first_seen_at": "2026-10-28T09:02:07.569994+09:00",
+      "source_name": "ScanNetSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:79c319eb0116a2016ac497ee",
+      "permalink_id": "article-url-79c319eb0116a2016ac497ee",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html",
+      "title": "JFEケミカルに不正アクセス、データの不正取得が判明",
+      "summary_excerpt": null,
+      "published_at": "2026-10-28T08:05:38+09:00",
+      "first_seen_at": "2026-10-28T09:02:07.657779+09:00",
+      "source_name": "ScanNetSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:8c943059116b6f8d77f8e9a5",
+      "permalink_id": "article-url-8c943059116b6f8d77f8e9a5",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56606.html",
+      "title": "Studio が利用するクラウド環境に不正アクセス、復号に必要な鍵も読み出される",
+      "summary_excerpt": null,
+      "published_at": "2026-10-28T08:05:36+09:00",
+      "first_seen_at": "2026-10-28T09:02:07.747377+09:00",
+      "source_name": "ScanNetSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:418d142d94734b55146e50c8",
+      "permalink_id": "article-url-418d142d94734b55146e50c8",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56605.html",
+      "title": "釧路市が市立小中学校の学習用端末の管理運用を委託しているポータスにランサムウェア攻撃",
+      "summary_excerpt": null,
+      "published_at": "2026-10-28T08:05:33+09:00",
+      "first_seen_at": "2026-10-28T09:02:07.832230+09:00",
+      "source_name": "ScanNetSecurity",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -160,14 +207,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:4417f723e94eeaf78d63314f",
-      "permalink_id": "article-url-4417f723e94eeaf78d63314f",
-      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2610/28/2000002645/",
-      "title": "PHP2Shellの「事前の情報流出」でパニックに　パッチ公開を巡る“混乱劇”",
-      "summary_excerpt": "PHPの重大な脆弱性を巡って、世界中でWebサイト停止が相次いだ。水面下の修正計画は情報流出と企業の先行公開で崩壊したという。なぜ安全のための協定は崩れ、前倒しの決断が下されたのか。",
-      "published_at": "2026-10-28T05:00:00+09:00",
-      "first_seen_at": "2026-10-28T06:02:17.663796+09:00",
-      "source_name": "TechTarget Japan Security",
+      "public_article_id": "url:f98ac19b7540e7d3ec14526e",
+      "permalink_id": "article-url-f98ac19b7540e7d3ec14526e",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56604.html",
+      "title": "製薬企業向けサービス「MR君」へ不正アクセス、一部の医師会員と製薬企業の担当者に関する情報が漏えい",
+      "summary_excerpt": null,
+      "published_at": "2026-10-28T08:05:29+09:00",
+      "first_seen_at": "2026-10-28T09:02:07.957855+09:00",
+      "source_name": "ScanNetSecurity",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -181,35 +228,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:ccc80ec4974b5d910144ff26",
-      "permalink_id": "article-url-ccc80ec4974b5d910144ff26",
-      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2610/28/2000002626/",
-      "title": "「SBOM」はただの目録に過ぎない――サプライチェーン攻撃の盲点と保護策",
-      "summary_excerpt": "ソフトウェアの部品表である「SBOM」は、構成要素を把握する上では役に立つ。しかし、ソースコードの記述から配布までのライフサイクルの防衛には不十分だ。なぜ「全工程」の保護が必要なのか。",
-      "published_at": "2026-10-28T05:00:00+09:00",
-      "first_seen_at": "2026-10-28T06:02:17.533663+09:00",
-      "source_name": "TechTarget Japan Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ffe51088234767422d9e3144",
-      "permalink_id": "article-url-ffe51088234767422d9e3144",
-      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2610/28/2000002631/",
-      "title": "PHPはそもそも必要か？　脆弱性で問われる自社サイト安全性と保守負担のバランス",
-      "summary_excerpt": "企業のWebサイトは、顧客との接点である一方、脆弱性への対応やソフトウェアの更新を継続しなければならない。そのような中、PHP脆弱性の問題を受けて既存サイトを静的HTMLへ移行するサービスが相次いで登場している。",
-      "published_at": "2026-10-28T05:00:00+09:00",
-      "first_seen_at": "2026-10-28T06:02:17.405163+09:00",
-      "source_name": "TechTarget Japan Security",
+      "public_article_id": "url:ae04afa456788eeabec017ce",
+      "permalink_id": "article-url-ae04afa456788eeabec017ce",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56603.html",
+      "title": "アイラッシュガレージECサイトに不正アクセス、4万9,191件の顧客情報が漏えい",
+      "summary_excerpt": null,
+      "published_at": "2026-10-28T08:05:28+09:00",
+      "first_seen_at": "2026-10-28T09:02:08.044700+09:00",
+      "source_name": "ScanNetSecurity",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -220,37 +246,47 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:58f967c46520a223118b9b58",
-      "permalink_id": "article-url-58f967c46520a223118b9b58",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00676/102300236/",
-      "title": "情報漏洩事件の背後にAIエージェント、悪用が相次ぐ「ARTEX」の正体",
-      "summary_excerpt": "サイバー攻撃による情報漏洩事件が国内で相次いでいる。当初は不明な点が多かったが、徐々に情報や証拠が集まり、詳細が判明し始めた。「ARTEX」と呼ばれるAIエージェントが使われている可能性が高いという。一体、どのようなAIエージェントなのだろうか。",
-      "published_at": "2026-10-28T05:00:00+09:00",
-      "first_seen_at": "2026-10-28T06:02:14.476912+09:00",
-      "source_name": "Nikkei XTECH IT",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
       "published_at_future_suppressed": false
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:b864172b52514096e0029807",
+      "permalink_id": "article-url-b864172b52514096e0029807",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "title": "Vulnerabilities in node.js Affecting Cisco Products: October 2026",
+      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
+      "published_at": "2026-10-28T06:30:00+09:00",
+      "first_seen_at": "2026-10-28T08:02:46.131187+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-105482",
+        "CVE-2026-105483",
+        "CVE-2026-106069",
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:3f78d562c8c900bf802d2dd7",
       "permalink_id": "article-url-3f78d562c8c900bf802d2dd7",
@@ -280,64 +316,6 @@
       "cves": [
         "CVE-2026-109618",
         "CVE-2026-109619"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:86b085b4800a651a865cc045",
-      "permalink_id": "article-url-86b085b4800a651a865cc045",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
-      "title": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-      "summary_excerpt": "A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds write flaw that gained widespread attention after Node.js publicly disclosed it on October 21, 2026. “An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory, which can lead to a crash, disclosure of process … More → The post Brotli bug reaches far beyond Node.js",
-      "published_at": "2026-10-28T02:38:51+09:00",
-      "first_seen_at": "2026-10-28T03:01:42.690010+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ca3d4a860204b83da66079c0",
-      "permalink_id": "article-url-ca3d4a860204b83da66079c0",
-      "canonical_url": "https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft",
-      "title": "CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-      "summary_excerpt": "On September 25, 2026, Mandiant released a report regarding continued mass exploitation of CVE-2026-35273 by the ShinyHunters group. TrendAI’s Zero Day Initiative first reported this CVE to Oracle on June 10, 2026, following an investigation I conducted with Minh Giang and Lucas Miller of TrendAI Research. Although Oracle issued a patch under a single CVE, we reported three distinct vulnerabilities across multiple PeopleSoft components. We are coordinating with Oracle to assign separate CVEs for each issue. In this blog post, we will walk through each of these vulnerabilities, starting with a ",
-      "published_at": "2026-10-28T01:39:07+09:00",
-      "first_seen_at": "2026-10-28T03:01:53.318984+09:00",
-      "source_name": "Zero Day Initiative Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-35273"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -415,6 +393,64 @@
       "threat_actors": [],
       "seen_in_kev": true,
       "heat_score": 70.97,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:86b085b4800a651a865cc045",
+      "permalink_id": "article-url-86b085b4800a651a865cc045",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
+      "title": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
+      "summary_excerpt": "A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds write flaw that gained widespread attention after Node.js publicly disclosed it on October 21, 2026. “An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory, which can lead to a crash, disclosure of process … More → The post Brotli bug reaches far beyond Node.js",
+      "published_at": "2026-10-28T02:38:51+09:00",
+      "first_seen_at": "2026-10-28T03:01:42.690010+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ca3d4a860204b83da66079c0",
+      "permalink_id": "article-url-ca3d4a860204b83da66079c0",
+      "canonical_url": "https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft",
+      "title": "CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
+      "summary_excerpt": "On September 25, 2026, Mandiant released a report regarding continued mass exploitation of CVE-2026-35273 by the ShinyHunters group. TrendAI’s Zero Day Initiative first reported this CVE to Oracle on June 10, 2026, following an investigation I conducted with Minh Giang and Lucas Miller of TrendAI Research. Although Oracle issued a patch under a single CVE, we reported three distinct vulnerabilities across multiple PeopleSoft components. We are coordinating with Oracle to assign separate CVEs for each issue. In this blog post, we will walk through each of these vulnerabilities, starting with a ",
+      "published_at": "2026-10-28T01:39:07+09:00",
+      "first_seen_at": "2026-10-28T03:01:53.318984+09:00",
+      "source_name": "Zero Day Initiative Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-35273"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -506,15 +542,15 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:dc98d41511a17d2ea06d0223",
-      "permalink_id": "article-url-dc98d41511a17d2ea06d0223",
-      "canonical_url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
-      "published_at": "2026-10-27T13:37:59+09:00",
-      "first_seen_at": "2026-10-27T15:02:19.677611+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
+      "public_article_id": "url:dc023f4dd3519256b0a942d0",
+      "permalink_id": "article-url-dc023f4dd3519256b0a942d0",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-811/",
+      "title": "ZDI-26-811: MailEnable parseObjectResponse XML External Entity Processing Information Disclosure Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5. The following CVEs are assigned: CVE-2026-114552.",
+      "published_at": "2026-10-27T14:00:00+09:00",
+      "first_seen_at": "2026-10-28T08:03:42.123740+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
@@ -527,36 +563,7 @@
         }
       ],
       "cves": [
-        "CVE-2026-109618"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:268366d5b0facac4a3947043",
-      "permalink_id": "article-url-268366d5b0facac4a3947043",
-      "canonical_url": "https://blog.quarkslab.com/snapshotting-our-way-to-cve-2026-9539.html",
-      "title": "Snapshotting our way to CVE-2026-9539",
-      "summary_excerpt": "This blog post presents a LibAFL-Qemu based way to explore state machines and why we failed to find CVE-2026-9539.",
-      "published_at": "2026-10-27T08:00:00+09:00",
-      "first_seen_at": "2026-10-28T00:02:39.183994+09:00",
-      "source_name": "Quarkslab Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-9539"
+        "CVE-2026-114552"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -863,15 +870,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】AIによって脆弱性発見が爆増したことが一目で分かるグラフ「CVE Tracker」",
-    "【HOTTEST #1 / Heat 75】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
-    "【LATEST #2】懸念が高まる「サプライチェーン攻撃」、被害企業はその後どう動いた？　1000社アンケートから浮かび上がった実像、そして「SCS評価制度」との向き合い方【Security Days Fall 2026】",
-    "【HOTTEST #2 / Heat 75】Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-    "【LATEST #3】Hackers hijack Convertr analytics script to steal payment card data",
-    "【HOTTEST #3 / Heat 75】CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-    "【LATEST #4】External Teams Chats Anchor 15-Minute Malware Delivery",
-    "【HOTTEST #4 / Heat 70.97】CVE-2026-48356: Adobe Commerce and Magento",
-    "【LATEST #5】All the security risks Anthropic is worried about before its IPO",
-    "【HOTTEST #5 / Heat 70.97】CVE-2026-111497: Google Brotli"
+    "【LATEST #1】「Chrome」で脆弱性52件を修正 - 4件が「クリティカル」",
+    "【HOTTEST #1 / Heat 75】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
+    "【LATEST #2】「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
+    "【HOTTEST #2 / Heat 75】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
+    "【LATEST #3】Japan's GMO urges customers to shut down PCs amid ransomware threat",
+    "【HOTTEST #3 / Heat 70.97】CVE-2026-48356: Adobe Commerce and Magento",
+    "【LATEST #4】ヤマダデンキ提供の「ヤマダビデオ」「スマホゴールド会員」に不正アクセス、一時サービス停止",
+    "【HOTTEST #4 / Heat 70.97】CVE-2026-111497: Google Brotli",
+    "【LATEST #5】デジタル庁ホームページの問い合せフォームの情報が漏えい、Studio のクラウド環境への不正アクセス",
+    "【HOTTEST #5 / Heat 67.5】Brotli bug reaches far beyond Node.js (CVE-2026-111497)"
   ]
 }
