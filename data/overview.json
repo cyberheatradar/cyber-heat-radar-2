@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T08:13:21.326252+00:00",
-  "as_of": "2026-10-28T08:00:00+00:00",
-  "catalog_count": 21057,
+  "generated_at": "2026-10-28T10:12:07.837024+00:00",
+  "as_of": "2026-10-28T10:00:00+00:00",
+  "catalog_count": 21065,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,206 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:62af280b86d2c33ac75d3be6",
+      "permalink_id": "article-url-62af280b86d2c33ac75d3be6",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+      "summary_excerpt": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
+      "published_at": "2026-10-28T18:43:15+09:00",
+      "first_seen_at": "2026-10-28T19:01:32.343199+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:8816f06283041a0ccd4d1110",
+      "permalink_id": "article-url-8816f06283041a0ccd4d1110",
+      "canonical_url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
+      "summary_excerpt": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek .",
+      "published_at": "2026-10-28T18:14:23+09:00",
+      "first_seen_at": "2026-10-28T19:02:09.695547+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-101767"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:833bdb44e3df5bce7d090c89",
+      "permalink_id": "article-url-833bdb44e3df5bce7d090c89",
+      "canonical_url": "https://www.security-next.com/192099",
+      "title": "ブラウザ最新版「Firefox 159」が公開 - 脆弱性167件を修正",
+      "summary_excerpt": "Mozilla Foundationは、ウェブブラウザ「Firefox」のセキュリティアップデートを公開した。",
+      "published_at": "2026-10-28T17:45:23+09:00",
+      "first_seen_at": "2026-10-28T18:03:57.227992+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 61.75,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:e6d5bd3826a79e92114bdbe3",
+      "permalink_id": "article-url-e6d5bd3826a79e92114bdbe3",
+      "canonical_url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
+      "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
+      "summary_excerpt": "CISA added the Brotli flaw to its KEV catalog, and two honeypot operators logged attempts, including one that used a broken exploit. The post CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts appeared first on SecurityWeek .",
+      "published_at": "2026-10-28T17:37:24+09:00",
+      "first_seen_at": "2026-10-28T18:03:57.847484+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ca5fd5778b40f0ad4d625628",
+      "permalink_id": "article-url-ca5fd5778b40f0ad4d625628",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/28/2000002675/",
+      "title": "「対策を後回しにしたサーバが軒並み狙われている」　相次ぐ不正アクセスにラックCTOが警鐘",
+      "summary_excerpt": "不正アクセスが相次ぐ中、ラックの倉持浩明CTOは「KDDI SUMMIT 2026」に登壇。被害対応の現場の実態として、脆弱性診断などを後回しにしたシステムが狙われていると指摘した。AIで攻撃が高速化する今、自社の都合ではなく攻撃者の視点で基本対策を見直す必要性を訴えた。",
+      "published_at": "2026-10-28T17:19:23+09:00",
+      "first_seen_at": "2026-10-28T18:03:49.250355+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:dd9aab4f2b42a45e9cb61d1c",
+      "permalink_id": "article-url-dd9aab4f2b42a45e9cb61d1c",
+      "canonical_url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "summary_excerpt": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
+      "published_at": "2026-10-28T17:15:07+09:00",
+      "first_seen_at": "2026-10-28T18:03:59.237416+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f542f156754bb27e54fbf299",
+      "permalink_id": "article-url-f542f156754bb27e54fbf299",
+      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/28/news020.html",
+      "title": "「AIで攻撃コード生成はたったの数時間に」　Fortinetが5製品を緊急更新＆警鐘",
+      "summary_excerpt": "Fortinetは複数のセキュリティ製品を対象に修正プログラムを公開し、外部公開機器の迅速な更新を呼び掛けた。同社によると、AIの進化で、脆弱性を突く攻撃コードの生成はわずか数時間で実現する可能性がある。これにどう備えればいいか。",
+      "published_at": "2026-10-28T17:00:00+09:00",
+      "first_seen_at": "2026-10-28T18:02:53.485564+09:00",
+      "source_name": "@IT Security & Trust",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:67815bcc4b46404c5501bb79",
+      "permalink_id": "article-url-67815bcc4b46404c5501bb79",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/03790/102800007/",
+      "title": "IDCFクラウド攻撃、修正前のOSSの脆弱性突かれる　旧版ESXiは無関係",
+      "summary_excerpt": "IDCフロンティアは、IDCFクラウド攻撃の侵入口が認証用OSSの脆弱性だったと明らかにした。修正版は攻撃の数週間前に公開されていたが、未適用だった。旧版VMware ESXiとの関連は否定。サービスで採用するOSS、Apache CloudStackが原因かについては明言を避けた。",
+      "published_at": "2026-10-28T16:20:00+09:00",
+      "first_seen_at": "2026-10-28T18:03:52.951710+09:00",
+      "source_name": "Nikkei XTECH IT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:54629371f074818de3ec79b0",
       "permalink_id": "article-url-54629371f074818de3ec79b0",
@@ -47,7 +247,7 @@
       "permalink_id": "article-url-7b1187e8869b4a53dda45b89",
       "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/brian-blakley-bellini-capital-ai-security-governance/",
       "title": "Bellini Capital CISO on AI security governance and the limits of patching faster",
-      "summary_excerpt": "In this Help Net Security interview, Brian Blakley, CISO at Bellini Capital, explains why AI makes finding vulnerabilities faster while fixing them still takes time. He argues that “patch faster” is not enough and that teams need to cut exposure while remediation is pending. Blakley describes a shared metric for CIOs and CISOs, how his team tests for silent model updates, who owns the damage when an AI agent makes a mistake, and why blocking … More → The post Bellini Capital CISO on AI security governance and the limits of patching faster appeared first on Help Net Security .",
+      "summary_excerpt": "In this Help Net Security interview, Brian Blakley, CISO at Bellini Capital and ConnectSecure, explains why AI makes finding vulnerabilities faster while fixing them still takes time. He argues that “patch faster” is not enough and that teams need to cut exposure while remediation is pending. Blakley describes a shared metric for CIOs and CISOs, how his team tests for silent model updates, who owns the damage when an AI agent makes a mistake, and … More → The post Bellini Capital CISO on AI security governance and the limits of patching faster appeared first on Help Net Security .",
       "published_at": "2026-10-28T15:30:35+09:00",
       "first_seen_at": "2026-10-28T16:02:15.535729+09:00",
       "source_name": "Help Net Security",
@@ -73,222 +273,38 @@
       "seen_in_kev": false,
       "heat_score": 53.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:af501261c1ead5898c08c824",
-      "permalink_id": "article-url-af501261c1ead5898c08c824",
-      "canonical_url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-      "summary_excerpt": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Tailscale SSH forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
-      "published_at": "2026-10-28T15:20:37+09:00",
-      "first_seen_at": "2026-10-28T17:02:35.967164+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:779d7b565b18107e0f7e405b",
-      "permalink_id": "article-url-779d7b565b18107e0f7e405b",
-      "canonical_url": "https://www.security-next.com/192042",
-      "title": "「Adobe Campaign Classic」など4製品に脆弱性 - 「クリティカル」脆弱性も",
-      "summary_excerpt": "Adobeは、「Adobe Campaign Classic」「Adobe Connect」など複数製品のセキュリティアップデートを公開した。「クリティカル」とされる脆弱性の修正も含まれる。",
-      "published_at": "2026-10-28T15:09:08+09:00",
-      "first_seen_at": "2026-10-28T16:02:26.067683+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1417a62a4b3735eae2997d18",
-      "permalink_id": "article-url-1417a62a4b3735eae2997d18",
-      "canonical_url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "summary_excerpt": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
-      "published_at": "2026-10-28T15:04:58+09:00",
-      "first_seen_at": "2026-10-28T17:02:36.085231+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-35273"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5977b4ad9b070e952ba55c08",
-      "permalink_id": "article-url-5977b4ad9b070e952ba55c08",
-      "canonical_url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
-      "published_at": "2026-10-28T14:42:26+09:00",
-      "first_seen_at": "2026-10-28T17:02:36.201626+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:02a197c1f130d3f136110c62",
-      "permalink_id": "article-url-02a197c1f130d3f136110c62",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151895.html",
-      "title": "ヤマハの法人向けWi-Fiルーター「NWR100」に複数の脆弱性、ファームウェアの更新を",
-      "summary_excerpt": "ヤマハの中小法人向けWi-Fi 6ルーター「NWR100」に複数の脆弱性があるとして、脆弱性情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。ヤマハでも本件に関して情報を公開しており、対策済みのファームウェアに更新することで対策できる。",
-      "published_at": "2026-10-28T14:41:07+09:00",
-      "first_seen_at": "2026-10-28T16:02:20.057648+09:00",
-      "source_name": "INTERNET Watch",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 61.75,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:eb8d48ccb0d20758aefb51cb",
-      "permalink_id": "article-url-eb8d48ccb0d20758aefb51cb",
-      "canonical_url": "https://jvn.jp/vu/JVNVU91027179/",
-      "title": "ヤマハ製NWR100における複数の脆弱性",
-      "summary_excerpt": "ヤマハ株式会社が提供する無線LANルーターNWR100には、複数の脆弱性が存在します。",
-      "published_at": "2026-10-28T14:15:00+09:00",
-      "first_seen_at": "2026-10-28T15:01:55.873477+09:00",
-      "source_name": "JVN",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 61.75,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a49e2a1ca8746b94ce5d8190",
-      "permalink_id": "article-url-a49e2a1ca8746b94ce5d8190",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6600424?source=rss",
-      "title": "GMOへの「劇場型」攻撃 狙いは",
-      "summary_excerpt": null,
-      "published_at": "2026-10-28T14:14:57+09:00",
-      "first_seen_at": "2026-10-28T16:02:34.351208+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1fa030903a6fa55ecd7dc09b",
-      "permalink_id": "article-url-1fa030903a6fa55ecd7dc09b",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/",
-      "title": "Breach victims discover their data was held by companies they’ve never heard of",
-      "summary_excerpt": "Nearly seven in ten people affected by data breaches handled by Kroll were exposed through an outside supplier, according to its Data Breach Outlook 2026. Businesses rely on outside providers to store information, process transactions and operate software. A breach at one of those providers can expose customer records across multiple organizations, including people who have never heard of the company holding their data. Percentage of individuals impacted due to a third party, by industry … More → The post Breach victims discover their data was held by companies they’ve never heard of appeared ",
-      "published_at": "2026-10-28T14:00:19+09:00",
-      "first_seen_at": "2026-10-28T15:01:50.109509+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "incident",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:8816f06283041a0ccd4d1110",
+      "permalink_id": "article-url-8816f06283041a0ccd4d1110",
+      "canonical_url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
+      "summary_excerpt": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek .",
+      "published_at": "2026-10-28T18:14:23+09:00",
+      "first_seen_at": "2026-10-28T19:02:09.695547+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-101767"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:1417a62a4b3735eae2997d18",
       "permalink_id": "article-url-1417a62a4b3735eae2997d18",
@@ -560,33 +576,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:779d7b565b18107e0f7e405b",
-      "permalink_id": "article-url-779d7b565b18107e0f7e405b",
-      "canonical_url": "https://www.security-next.com/192042",
-      "title": "「Adobe Campaign Classic」など4製品に脆弱性 - 「クリティカル」脆弱性も",
-      "summary_excerpt": "Adobeは、「Adobe Campaign Classic」「Adobe Connect」など複数製品のセキュリティアップデートを公開した。「クリティカル」とされる脆弱性の修正も含まれる。",
-      "published_at": "2026-10-28T15:09:08+09:00",
-      "first_seen_at": "2026-10-28T16:02:26.067683+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -939,15 +928,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-    "【HOTTEST #1 / Heat 75】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【LATEST #2】Bellini Capital CISO on AI security governance and the limits of patching faster",
-    "【HOTTEST #2 / Heat 75】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "【LATEST #3】Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-    "【HOTTEST #3 / Heat 67.5】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-    "【LATEST #4】「Adobe Campaign Classic」など4製品に脆弱性 - 「クリティカル」脆弱性も",
-    "【HOTTEST #4 / Heat 67.5】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
-    "【LATEST #5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【HOTTEST #5 / Heat 67.5】Brotli bug reaches far beyond Node.js (CVE-2026-111497)"
+    "【LATEST #1】Nefilim and Hive ransomware affiliate gets 70 months in prison",
+    "【HOTTEST #1 / Heat 75】Hackers Start Probing Fresh Oracle EBS Vulnerability",
+    "【LATEST #2】Hackers Start Probing Fresh Oracle EBS Vulnerability",
+    "【HOTTEST #2 / Heat 75】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+    "【LATEST #3】ブラウザ最新版「Firefox 159」が公開 - 脆弱性167件を修正",
+    "【HOTTEST #3 / Heat 75】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+    "【LATEST #4】CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
+    "【HOTTEST #4 / Heat 67.5】Vulnerabilities in node.js Affecting Cisco Products: October 2026",
+    "【LATEST #5】「対策を後回しにしたサーバが軒並み狙われている」　相次ぐ不正アクセスにラックCTOが警鐘",
+    "【HOTTEST #5 / Heat 67.5】php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit"
   ]
 }
