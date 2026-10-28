@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-28T17:15:07.915989+00:00",
-  "as_of": "2026-10-28T17:00:00+00:00",
-  "catalog_count": 21130,
+  "generated_at": "2026-10-28T18:11:38.059880+00:00",
+  "as_of": "2026-10-28T18:00:00+00:00",
+  "catalog_count": 21132,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,70 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:bc0c741635daafbb1b3ebc1c",
+      "permalink_id": "article-url-bc0c741635daafbb1b3ebc1c",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/github-package-firewall-npm/",
+      "title": "GitHub’s npm package firewall can block brand-new versions before they install",
+      "summary_excerpt": "GitHub announced a package firewall that checks npm packages against an enterprise’s policy before they install. It blocks known malware, critical vulnerabilities, and brand-new versions, and any developer can turn it on by pointing npm at the firewall. The checks run before a package reaches a laptop, a build, or a coding agent. GitHub says AI agents are helping developers build more software, faster, and the firewall is one of four security additions aimed at … More → The post GitHub’s npm package firewall can block brand-new versions before they install appeared first on Help Net Security .",
+      "published_at": "2026-10-29T02:09:14+09:00",
+      "first_seen_at": "2026-10-29T03:01:47.276147+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:346aefdaad097d5af65c5302",
+      "permalink_id": "article-url-346aefdaad097d5af65c5302",
+      "canonical_url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+      "summary_excerpt": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
+      "published_at": "2026-10-29T02:08:09+09:00",
+      "first_seen_at": "2026-10-29T03:01:51.861202+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:cfdef39189ea2bb23f951414",
       "permalink_id": "article-url-cfdef39189ea2bb23f951414",
@@ -221,60 +285,6 @@
           "color_family": "red",
           "key": "ransomware",
           "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d3db510c7150ed4bd8d19fbe",
-      "permalink_id": "article-url-d3db510c7150ed4bd8d19fbe",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/28/exaforce-trust-in-ai-security/",
-      "title": "I underestimated how fast security teams would trust AI to act in the SOC",
-      "summary_excerpt": "For most of my career, I have watched new security platforms work through enterprise programs at a slow pace, so when AI began showing up in security operations tools, I assumed it would follow the same path. I expected AI adoption in the SOC to lag behind almost every other category of security technology, because I’d always viewed the tension between moving quickly on innovations and satisfying strict compliance obligations as a blocker. Ultimately, AI … More → The post I underestimated how fast security teams would trust AI to act in the SOC appeared first on Help Net Security .",
-      "published_at": "2026-10-29T00:25:01+09:00",
-      "first_seen_at": "2026-10-29T01:01:54.701484+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 57.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:93090c87ef2724a55894a0c6",
-      "permalink_id": "article-url-93090c87ef2724a55894a0c6",
-      "canonical_url": "https://www.itpro.com/security/cisa-urges-federal-agencies-to-patch-after-php-exploits-observed",
-      "title": "CISA urges federal agencies to patch after PHP exploits observed",
-      "summary_excerpt": "The PHP vulnerabilities sent the web into a frenzy last week as organizations rushed to apply patches",
-      "published_at": "2026-10-29T00:20:37+09:00",
-      "first_seen_at": "2026-10-29T01:01:57.172577+09:00",
-      "source_name": "ITPro Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
         }
       ],
       "cves": [],
@@ -702,6 +712,33 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:da19872bd8ebd641fd639776",
+      "permalink_id": "article-url-da19872bd8ebd641fd639776",
+      "canonical_url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+      "summary_excerpt": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
+      "published_at": "2026-10-26T02:19:46+09:00",
+      "first_seen_at": "2026-10-26T07:58:11.819079+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:b55050e07c03255a3dc1b7a0",
       "permalink_id": "article-url-b55050e07c03255a3dc1b7a0",
       "canonical_url": "https://news.yahoo.co.jp/pickup/6600119?source=rss",
@@ -864,38 +901,6 @@
       "seen_in_kev": false,
       "heat_score": 32.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f73640477a06bfa95fb85c58",
-      "permalink_id": "article-url-f73640477a06bfa95fb85c58",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-      "summary_excerpt": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates . Important: If a product ",
-      "published_at": "2026-10-25T05:55:18+09:00",
-      "first_seen_at": "2026-10-25T17:23:29.089419+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 22.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -916,15 +921,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Sony ISP subsidiary data breach exposes 2.5 million customer records",
+    "【LATEST #1】GitHub’s npm package firewall can block brand-new versions before they install",
     "【HOTTEST #1 / Heat 75】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-    "【LATEST #2】Moldova investigates possible foreign involvement in major government cyberattack",
+    "【LATEST #2】Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
     "【HOTTEST #2 / Heat 67.5】Hackers Start Probing Fresh Oracle EBS Vulnerability",
-    "【LATEST #3】PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+    "【LATEST #3】Sony ISP subsidiary data breach exposes 2.5 million customer records",
     "【HOTTEST #3 / Heat 67.5】ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "【LATEST #4】Researchers uncover Volt Typhoon’s covert, ephemeral network",
+    "【LATEST #4】Moldova investigates possible foreign involvement in major government cyberattack",
     "【HOTTEST #4 / Heat 67.5】Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "【LATEST #5】Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+    "【LATEST #5】PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
     "【HOTTEST #5 / Heat 67.5】ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ]
 }
