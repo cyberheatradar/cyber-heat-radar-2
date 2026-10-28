@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-27T22:30:03.047620+00:00",
+  "source_snapshot_generated_at": "2026-10-28T00:30:02.510107+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -4824,6 +4824,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a0ec8d855592f5cc1039c8a1",
+        "source": "qiita",
+        "author_tags": [
+          "MCP",
+          "Security",
+          "プロンプトインジェクション",
+          "Python",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/pythonista0328/items/d1c7d71c754dac3da66c",
+        "title": "MCPサーバーのセキュリティ｜危険な設定を洗う8項目チェック",
+        "author": "pythonista0328",
+        "published_at": "2026-10-28T09:07:35+09:00",
+        "excerpt": "MCPサーバーのセキュリティ｜危険な設定を洗う8項目チェック MCPサーバーを増やすほど広がる攻撃面を、 設定ファイルとツール定義の静的監査 で潰す方法がわかる ツールポイズニング（説明文に隠し指示）を検知する具体的なコードを、コピペで動く形で置いています 公式仕様（revision 2026-07-28）と、実際に出た mcp-server-git のCVE 3件を一次情報で確認します 対象読者：Claude Code / Claude Desktop / Cursor などでMCPサーバーを3個以上使っている人 MCPサーバーは npx -y ... を1行足すだけで増える。増やすのは簡単なのに、 何が増えたのかを棚卸しする手段がほとんどない 。 しかもMCPで一番怖いのは「サーバーのバグ」ではなく、 ツールの説明文という、人間がまず読まない場所が入力経路になっていること です。 この記事では、手元の設定ファイルとツール定義を読んで危ない点を列挙する監査スクリプトを作り、合成データと実物のサーバーの両方に当てて挙動を確認します。 要点（TL;"
+      },
+      {
+        "id": "qiita:5e51496eb84c05776c9d3549",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "AI",
+          "自動化",
+          "ShellScript",
+          "Security"
+        ],
+        "url": "https://qiita.com/joinclass/items/38ae89437618902e5358",
+        "title": "Claude Code Hooksで危険なコマンドをブロックする — PreToolUseフックの実装とテスト",
+        "author": "joinclass",
+        "published_at": "2026-10-28T08:30:02+09:00",
+        "excerpt": "はじめに：AIが git push --force を打った日 当社（合同会社ジョインクラス）は、記事公開・SNS配信・営業パイプラインなど業務の大半をClaude Codeとlaunchdの定期ジョブ（17本）で回しています。自動化率はおよそ98%です。 自動化を進める途中で、一度だけ大きな事故がありました。 Claude Codeが git push --force を自分で実行し、ブランチが消えた のです。CLAUDE.mdには「force pushは禁止」と書いてありました。それでも実行されました。 そこから学んだのは次のことです。 CLAUDE.mdは「お願い」であって「制約」ではない。 絶対に止めたい操作は、モデルの判断が入らない層で止める。 その層が Hooks 、特に PreToolUse です。この記事では、僕が実際に使っている「危険コマンドブロック用フック」を、設定・実装・テスト・落とし穴の順に紹介します。コピペすれば今日から動きます。 PreToolUseフックの仕組み PreToolUseは、Claude Codeがツール"
+      },
+      {
+        "id": "qiita:8580873ea3e52006809e5fb4",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "GitHubActions",
+          "gitleaks",
+          "betterleaks",
+          "DevSecOps"
+        ],
+        "url": "https://qiita.com/zucky-quest/items/d2b03d39985301570ae8",
+        "title": "gitleaksからbetterleaksへ - PRごとのツリー検査と週次の全履歴検査に分け、除外もパスとコミットで分けた",
+        "author": "zucky-quest",
+        "published_at": "2026-10-28T08:23:50+09:00",
+        "excerpt": "TL;DR リポジトリに秘密情報（パスワードや API キー）が混ざっていないかを検査するツールを、 gitleaks から betterleaks に移しました gitleaks は機能の追加を終え、セキュリティパッチだけの保守になっています。検出ルールの改善は、後継の betterleaks に入ります 検査は 2 つに分けました。 PR ごとに今のツリー を検査し、 週に 1 回、Git の全履歴 を検査します 誤検知の除外も 2 つに分けました。今のツリーは パス単位 、履歴は コミット単位 です。履歴のコミットは変わらないので、コミット単位なら除外が安定します 導入の手順とバージョンは、組織の 共通ワークフロー にまとめ、各リポジトリはそれを呼ぶだけにしました この記事の対象読者 gitleaks で秘密情報の検査をしていて、後継への移行を考えている方 秘密情報の検査を、PR と定期実行のどちらで回すか迷っている方 誤検知の除外が増えて、管理が雑になりかけている方 環境 betterleaks（gitleaks の後継。CLI は gi"
+      },
+      {
         "id": "qiita:8d30c5f5bb45d03dcb82e183",
         "source": "qiita",
         "author_tags": [
@@ -8974,6 +9022,110 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e1053f1eede5d1a7705dbb13",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "cybersecurity",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@walkerkyla45/ethical-hacking-and-cybersecurity-finding-vulnerabilities-2a3536e70205",
+        "title": "Ethical Hacking and Cybersecurity: Finding Vulnerabilities",
+        "author": "Periodic Perfection",
+        "published_at": "2026-10-28T00:12:55+00:00",
+        "excerpt": "Through a cybersecurity and ethical hacking class I took during my sophomore year, I learned so much about how ethically hacking into… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:34576f55e95ad30a70375aa3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "open-source",
+          "internet-culture",
+          "software-engineering",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@madkatomega/the-ghost-in-the-interpreter-why-the-next-php-zero-day-might-erase-the-early-web-240ebf751df3",
+        "title": "The Ghost in the Interpreter: Why the Next PHP Zero-Day Might Erase the Early Web",
+        "author": "Madkat Omega",
+        "published_at": "2026-10-28T00:01:02+00:00",
+        "excerpt": "When automated exploits meet abandoned code, the real casualty isn’t corporate data — it’s thirty years of human history. Here is how… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:de564aee1d5bcb5dfb81f405",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "c-sharp-programming",
+          "dotnet",
+          "cybersecurity",
+          "cloudflare"
+        ],
+        "url": "https://donmahsu.medium.com/testing-cloudflare-clef-with-c-and-net-10-can-it-spot-xss-payloads-6b4a7846ffb4",
+        "title": "Testing Cloudflare Clef with C# and .NET 10: Can It Spot XSS Payloads?",
+        "author": "Donma Hsu 當麻許",
+        "published_at": "2026-10-27T23:59:10+00:00",
+        "excerpt": "JEV was getting quite a bit of attention a while back. It’s a Decision Model, so unlike a regular LLM, it isn’t really about chatting or… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a55e33d7aebc4973358e1c60",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "privacy",
+          "cybersecurity-awareness",
+          "technology"
+        ],
+        "url": "https://medium.com/@sha_10/wait-hackers-are-messing-with-supermarkets-now-e1c6463c8301",
+        "title": "Wait… Hackers Are Messing With Supermarkets Now?",
+        "author": "S",
+        "published_at": "2026-10-27T23:32:53+00:00",
+        "excerpt": "Okay, We Need to Talk About These Cyberattacks… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6938f0edb8b78a12c2d6982b",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@ajayiomowunmi63/cybersecurity-conferences-to-attend-in-africa-events-every-security-professional-should-know-7ea9d1feae02",
+        "title": "Cybersecurity Conferences to Attend in Africa: Events Every Security Professional Should Know",
+        "author": "Ajayi",
+        "published_at": "2026-10-27T23:23:58+00:00",
+        "excerpt": "Cybersecurity is no longer just an IT issue. From online banking and e-commerce to government systems and personal data, security has… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7e45768ca3133f4e4d2a2687",
+        "source": "medium",
+        "author_tags": [
+          "network-security",
+          "vulnerability-management",
+          "it-infrastructure",
+          "cybersecurity",
+          "hpe-aruba"
+        ],
+        "url": "https://medium.com/@haynesjebas/critical-hpe-aruba-vulnerabilities-what-network-administrators-need-to-know-50eeac8f5505",
+        "title": "Critical HPE Aruba Vulnerabilities: What Network Administrators Need to Know",
+        "author": "Haynes Jebas",
+        "published_at": "2026-10-27T23:22:37+00:00",
+        "excerpt": "Understanding critical AOS-8 and AOS-10 vulnerabilities, affected software versions, and the steps network administrators should take to… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:311fb60ad6e3b41d4ec7d2f2",
+        "source": "medium",
+        "author_tags": [
+          "africa",
+          "nigeria",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@ajayiomowunmi63/cybersecurity-conferences-to-attend-in-africa-events-every-security-professional-should-know-31a31180205e",
+        "title": "Cybersecurity Conferences to Attend in Africa: Events Every Security Professional Should Know",
+        "author": "Ajayi",
+        "published_at": "2026-10-27T23:16:01+00:00",
+        "excerpt": "Cybersecurity is no longer just an IT issue. From online banking and e-commerce to government systems and personal data, security has… Continue reading on Medium »"
+      },
       {
         "id": "medium:59b483cee1735b73c60ff6f5",
         "source": "medium",
