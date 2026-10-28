@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T07:30:02.348595+00:00",
+  "source_snapshot_generated_at": "2026-10-28T08:30:02.981921+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -4824,6 +4824,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:9ba5775c4d10784d7a24c2f9",
+        "source": "qiita",
+        "author_tags": [
+          "LLM",
+          "Security",
+          "生成AI",
+          "Python",
+          "機械学習"
+        ],
+        "url": "https://qiita.com/shalXXXX/items/b67969e3b5a01871be5e",
+        "title": "分類器型ガードレール（Llama Guard 系）の閾値と誤検知の調整：P(unsafe) を取り出し、自分のデータで決める",
+        "author": "shalXXXX",
+        "published_at": "2026-10-28T17:00:35+09:00",
+        "excerpt": "Llama Guard や ShieldGemma のような分類器型のガードレールは、入れるだけで「安全か、危険か」を返してくれます。ただ、そのまま使うと、自分のアプリでは正当な質問が止まりすぎたり、逆に止めたいものが通ったりします。原因の 1 つは、モデルが内部で持っている確率を捨てて、既定の判定（実質的に閾値 0.5）をそのまま使っていることです。 この記事では、分類器型ガードレールがどうやって判定しているかを整理し、生成テキストではなく確率を取り出して、自分のアプリのデータで閾値を決める手順を、小さな検証コードで確かめます。 ガードレールを入力・ツール呼び出し・出力のどこに置くかは別記事で扱ったので、ここでは「置いた分類器の判定をどう調整するか」に絞ります。 検証環境と前提 Python 3.13.18、標準ライブラリのみ 分類器は呼び出していません。モデルが返す生成テキストと最初のトークンの対数確率、評価データの P(unsafe) はすべて固定値で与え、スコアの計算と閾値の決め方だけを確かめています 評価データは説明用に作った 40 件"
+      },
+      {
+        "id": "qiita:8e63f37c4e1a9885a7eda43d",
+        "source": "qiita",
+        "author_tags": [
+          "oracle",
+          "OracleAIWorld",
+          "Security",
+          "DB",
+          "OracleDatabase"
+        ],
+        "url": "https://qiita.com/ReQ_HY/items/b192b2c0935253d67667",
+        "title": "【Oracle AI World 2026 現地参加レポート④】「すべき」では済まされない。AI時代のセキュリティ脅威に備えるDB運用",
+        "author": "ReQ_HY",
+        "published_at": "2026-10-28T16:59:33+09:00",
+        "excerpt": "みなさん、こんにちは！ 現在ラスベガスで開催されているOracle AI World 2026で受講したセッションレポートとなります。 セッション概要 昨今のAIの進化に伴い、新たな脆弱性が発見されやすくなるなど、 データベースを取り巻くセキュリティリスクはかつてなく高まっています。 このような時代背景を踏まえた、新たなパッチ適用方針やデータベース運用についての解説が主な内容となります。 AI活用時代で高まるパッチ適用の重要性 昨今ニュースにもなっているCVSSスコアの高い深刻な脆弱性などからシステムを守るため、19cや23aiなどの主要リリースへのアップグレードはそもそもの大前提であり、その上でパッチを継続的に当て続ける必要があると言及されていました。 \"You should patch monthly. So I didn't even say you should, I said you must. Because the world has changed.\" (毎月パッチを適用すべきです。いや、「すべき」というレベルの話ではありません。"
+      },
+      {
         "id": "qiita:34c0f9380f3bc127e24b21ab",
         "source": "qiita",
         "author_tags": [
@@ -9194,6 +9226,86 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d1457578ae52e3d7fcfc562d",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty-writeup",
+          "cybersecurity",
+          "writeup",
+          "writer",
+          "hall-of-fame"
+        ],
+        "url": "https://medium.com/@rdennisius/catatan-tentang-penetrasi-keamanan-sistem-oracle-identity-manager-di-u-s-c7bfb97e37fe",
+        "title": "Catatan tentang Penetrasi Keamanan Sistem Oracle Identity Manager di U.S.",
+        "author": "Dennisius Reki",
+        "published_at": "2026-10-28T08:18:52+00:00",
+        "excerpt": "Bagian 1: Anatomi Celah — Dua Kelemahan yang Dirangkai Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d070ed3b06083b335810bf09",
+        "source": "medium",
+        "author_tags": [
+          "data-protection",
+          "cybersecurity",
+          "endpoint-security",
+          "encryption",
+          "information-security"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/endpoint-encryption-why-a-lost-laptop-becomes-a-data-breach-d4d0184dc0f3",
+        "title": "Endpoint Encryption: Why a Lost Laptop Becomes a Data Breach",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-10-28T08:01:03+00:00",
+        "excerpt": "A laptop left behind in a taxi looks, at first, like nothing more than a lost device. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8efb93821f0f82fc98b35b1b",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "gcp-security-operations",
+          "threat-hunting",
+          "cybersecurity",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/managed-detection-and-response-why-unwatched-security-tools-are-only-half-the-job-801462976f95",
+        "title": "Managed Detection and Response: Why Unwatched Security Tools Are Only Half the Job",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-10-28T08:01:03+00:00",
+        "excerpt": "It is 3 a.m. on a Friday and the security console shows a critical alert. The simple question is: who sees it? Many organizations have… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6c6b17bc776e656bed2bfda7",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "cybersecurity",
+          "gcp-security-operations",
+          "vulnerability-management",
+          "threat-intelligence"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/cyber-threat-intelligence-the-four-levels-that-move-a-security-team-beyond-reacting-641e751472ff",
+        "title": "Cyber Threat Intelligence: The Four Levels That Move a Security Team Beyond Reacting",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-10-28T08:01:03+00:00",
+        "excerpt": "Most security teams start their day with an alert: the EDR or the SIEM reports something, and the investigation begins. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:593ed356e4b39e97050fde7b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "information-security",
+          "patch-management",
+          "network-security",
+          "vulnerability-management"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/continuous-vulnerability-management-the-gap-between-two-scans-is-the-attack-window-d72f7889aa8b",
+        "title": "Continuous Vulnerability Management: The Gap Between Two Scans Is the Attack Window",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-10-28T08:01:03+00:00",
+        "excerpt": "Last quarter’s vulnerability scan report was clean. Two weeks later, a critical CVE was published for a service running on one of the… Continue reading on Medium »"
+      },
       {
         "id": "medium:7eea54121c105f5f77b9586f",
         "source": "medium",
