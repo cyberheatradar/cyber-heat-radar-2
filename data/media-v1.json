@@ -1,9 +1,323 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-28T08:30:02.981921+00:00",
+  "source_snapshot_generated_at": "2026-10-28T10:30:02.323271+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ce7e91e5164880f9f5451a47",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "privacy",
+          "ChatGPT",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ara_jlu/articles/ai-feedback-data-check",
+        "title": "ChatGPT・Claudeは学習オフでも👍👎の会話は学習に回ることがある。Claude Codeも確かめた",
+        "author": "Ara;",
+        "published_at": "2026-10-28T08:48:32+00:00",
+        "excerpt": "はじめに ChatGPT・Claude・Claude Codeで、学習の設定をオフにしていても会話が学習に使われたり、Anthropicに送られたりする入口があります。この記事では、その入口と、確かめる場所・止め方を、公式のヘルプとドキュメントに書いてあることだけでまとめます。どれも2026年10月28日に読んだ内容です。 きっかけは、Xで10月27日に伸びていた「ChatGPTに写真や個人情報を入れた人、会話を消しても学習をオフにしても残ってますよ」というスレッドでした。 https://x.com/osabori_code/status/2114998283626336263 消..."
+      },
+      {
+        "id": "zenn:4d66029bd438dbe504d6cef7",
+        "source": "zenn",
+        "author_tags": [
+          "自動化",
+          "設計",
+          "Security",
+          "生成 AI",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/aiai_tool/articles/2c68fe1c3b7d7c",
+        "title": "AI Agentの高リスク操作を自動実行させないための「Approval Gate」設計",
+        "author": "AIAI｜AI Tools & Workflows",
+        "published_at": "2026-10-28T08:29:48+00:00",
+        "excerpt": "AI Agentが外部ツールを操作できるようになると、単に回答を生成するだけではなく、実際のActionまで自動化できます。 例えば、 メールを送信する ファイルを書き換える データベースを更新する Webフォームを送信する コマンドを実行する といった処理です。 便利な一方で、AIが判断したActionをすべて即座に実行すると、誤操作の影響も大きくなります。 そこで重要になるのが、人間による確認を必要な場所だけに入れる「Approval Gate」です。 すべてのActionを同じ扱いにしない AI Agentが実行する操作には、リスクの大きさに違いがあります。 例えば、 ファイル..."
+      },
+      {
+        "id": "zenn:b41a5d8011eda0c6e5f4eda6",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Windows",
+          "情シス",
+          "Active Directory",
+          "eventlog"
+        ],
+        "url": "https://zenn.dev/ksato_itlab/articles/event-4625-logon-failure-substatus",
+        "title": "イベントID 4625（ログオン失敗）の読み方：Sub Status で原因を切り分ける",
+        "author": "ksato｜IT実務ラボ",
+        "published_at": "2026-10-28T08:28:57+00:00",
+        "excerpt": "起きること サーバーや PC のセキュリティログに、イベントID 4625 が並んでいる。誰かのサインインが失敗している、というのは分かるが、パスワードの入力ミスなのか、攻撃なのか、設定の問題なのかが、一覧からは分からない。 この記事では、4625 のどの項目を見れば、原因を切り分けられるかを整理します。内容は、Microsoft Learn の「4625(F) An account failed to log on」にもとづきます。 4625 とは サインインに失敗したときに、ログオンを受けた側のコンピューターのセキュリティログに記録されるイベントです。サーバーへのサインインな..."
+      },
+      {
+        "id": "zenn:59956ee130ad94fb652c59dc",
+        "source": "zenn",
+        "author_tags": [
+          "Go",
+          "Security",
+          "did",
+          "Bluesky",
+          "atproto"
+        ],
+        "url": "https://zenn.dev/nonejp/articles/7045070f90d733",
+        "title": "乗っ取られても72時間なら取り戻せる、73時間目は拒否された：did:plcの復旧ウィンドウと鍵の優先度をgo-didplcでローカル検証",
+        "author": "ousiass",
+        "published_at": "2026-10-28T08:12:11+00:00",
+        "excerpt": "はじめに：did:plc の「取り戻せる」を、手元で確かめたい Bluesky のアカウントの多くは、did:plc:... という DID を身元として使っています。did:plc の仕様は、この DID を「自己認証的で、強い一貫性を持ち、復旧可能で、鍵のローテーションができる」ものとして説明しています[1][2]。このうち「復旧可能」が具体的に何を意味するのか、つまり、鍵が漏れて誰かに DID を書き換えられたとき、いつまでに、どの鍵で、何ができるのかは、仕様を読んでも実感しにくいところです。 この記事では、did:plc の Go 実装である go-didplc v0.2...."
+      },
+      {
+        "id": "zenn:b75d57baaf91794e4c28c054",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "macOS",
+          "Security"
+        ],
+        "url": "https://zenn.dev/i_n_dev/articles/6c1d6d933012fe",
+        "title": "macOSセキュリティアップデートのcurl/git等使用者向け追加対応をやってみた",
+        "author": "nao",
+        "published_at": "2026-10-28T07:05:38+00:00",
+        "excerpt": "! 筆者はセキュリティの専門家ではありません。Apple公式ドキュメントを読みながら実際にAIと相談しながら、手を動かした記録です。実行は自己責任でお願いします。 このニュースで知りました https://news.yahoo.co.jp/articles/6db21acfe5025e9d5513d9a80e34887d77daf114 Safari / Mail など Apple のフレームワークを使うアプリは、Apple 側で自動ブロック済みみたい ターミナルで使う curl git python3 ruby perl openssl は、/etc/ssl/cert.pem ..."
+      },
+      {
+        "id": "zenn:cfb57ee6d8e2ad4390e787d0",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "Security",
+          "Google Colaboratory",
+          "OpenAI",
+          "llm"
+        ],
+        "url": "https://zenn.dev/salesanalytics/articles/d39f9adcdd1285",
+        "title": "Pythonで環境変数からAPIキーを読み込む — Windows・macOS・Colab別の設定と確認方法",
+        "author": "イチロー",
+        "published_at": "2026-10-28T05:51:24+00:00",
+        "excerpt": "APIキーを OpenAI(api_key=\"sk-...\") のようにコードへ直接書いても、プログラムは動きます。ただし、そのファイルを誰かに渡すと、キーも一緒に渡ってしまいます。 そこで使うのが環境変数です。この記事のゴールは、「APIキーを書かずに、OpenAI() だけで動かす」こと。その要点をコンパクトにまとめます。 環境変数とは 環境変数は、「名前＝値」を OS 側に置いておく仕組みです。キーをコードの外に置けるので、ファイルにキーを含めずに済みます。 同じ「環境変数」でも、有効範囲は3段階あります。 Python の中だけ（os.environ に代入する、getp..."
+      },
+      {
+        "id": "zenn:06daffc4832069a1972247f3",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Network",
+          "SSH",
+          "Tailscale"
+        ],
+        "url": "https://zenn.dev/masafumi_ai/articles/00012-tailworm-2026-10",
+        "title": "Tailscale SSH「Tailworm」：研究者の公表内容と公式の状況、今できる確認と当面の対策",
+        "author": "勝文のAI現場",
+        "published_at": "2026-10-28T05:49:08+00:00",
+        "excerpt": "何が: 研究者の Erica Windisch（Cyberdione Labs Corporation）が、「Tailworm」というレポートを公表した（日本時間 10月25日）。Tailscale の発表ではない。研究者によると、Tailscale SSH のソケット転送が root 権限で動き、ほかの機器へ広がりうる 公式の状況: Tailscale 公式の告知・CVE・修正版は、まだない（2026-10-26 10:30 日本時間の確認）。実環境での悪用の記載もない 今やること: tailscale version で版を見る。Tailscale SSH を使っていないなら..."
+      },
+      {
+        "id": "zenn:a7fc384cfd0ea5bd71059884",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "Linux",
+          "PHP",
+          "Security",
+          "Debian"
+        ],
+        "url": "https://zenn.dev/lafine/articles/9c4b472c3004a8",
+        "title": "PHP2Shellの悪用確認を、DebianとDockerの公式イメージで測る",
+        "author": "ふじき てつはる",
+        "published_at": "2026-10-28T05:32:14+00:00",
+        "excerpt": "PHPの重大な脆弱性2件(CVE-2026-109618、CVE-2026-109619。通称PHP2Shell)が、10月26日(米国時間)にCISAのKEVカタログに追加されました。どちらもCVSS 9.2で、認証なしでリモートコード実行に至ります。連邦機関の対応期限は10月29日で、カタログの「フォレンジックトリアージ」の欄は「Yes」です。CISAの警告、PHP Foundationの告知、BleepingComputerの記事を読みました。 修正前のPHPが入っている機器を、診断レポートが自分から知らせてくれるのか。Debian 12と公式のDockerイメージで試しました。診..."
+      },
+      {
+        "id": "zenn:149a7e11353a7160f2d4c210",
+        "source": "zenn",
+        "author_tags": [
+          "API",
+          "Security",
+          "privacy",
+          "Cyber Security",
+          "ransomware"
+        ],
+        "url": "https://zenn.dev/shirochan/articles/f579ce70b08dc3",
+        "title": "公表資料から読む2026年秋の情報漏えい18件：侵入経路はどこだったのか",
+        "author": "しろちゃん",
+        "published_at": "2026-10-28T03:44:36+00:00",
+        "excerpt": "! この記事の要点（2026年10月28日時点） 9月以降に公表された国内の不正アクセス・漏えい（可能性を含む）18件のうち、侵入経路が公表されたのは9件 ソースネクスト（22,519,960件）は「会員情報取得APIを不正に利用」された。skyticket では、ログインしなくても表示できる予約完了ページが機械的に閲覧された 公表された入口は、API・管理機能などが4件、ソフトウェアの脆弱性が4件、委託先のサーバーが2件 ブックオフは、攻撃手法などの詳細について「公表を差し控えます」としている 自分が使っているサービスが入っているかは一覧で確認できます。パスワードの扱いも載せています..."
+      },
+      {
+        "id": "zenn:a218ceeb474de22be66f74e3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Linux",
+          "Security",
+          "Tailscale",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/loach/articles/meta-muse-cloud-agent-smartphone",
+        "title": "スマホからクラウドVMを操作するAIエージェント「Meta Muse」の構成が面白い",
+        "author": "loach",
+        "published_at": "2026-10-28T03:31:37+00:00",
+        "excerpt": "MetaのパーソナルAIエージェント「Muse」を使い始めました。 個人的に面白いと感じているのは、AIモデルの性能そのものよりも、実行環境と操作端末が分離されている構成です。 MuseはAndroidやiOSのアプリからチャット形式で指示でき、実際の処理はクラウド上の専用VMで実行されます。さらにTailscaleとの連携により、Tailnet上にある自宅のPCやサーバーにもアクセスできます。 本記事では、実際に使った感想と、Meta・Tailscaleの公開資料から分かる技術的な仕組みを整理します。 スマホを操作端末、クラウドを実行環境にする Museの特徴は、ユーザーが操作する..."
+      },
+      {
+        "id": "zenn:ba82ffec970f455ed8f61a87",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "llm",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sonicmoov/articles/67aaeb49be69ec",
+        "title": "Auto mode時代のClaude Codeを守る。検証済み10キットで始めるセキュリティ対策【全員・チーム・組織別】",
+        "author": "azarashi",
+        "published_at": "2026-10-28T03:17:06+00:00",
+        "excerpt": "はじめに 株式会社ソニックムーブでフロントエンドエンジニアをしているazarashiです。 前回の記事「検証済み10キットで始める、Claude Code時代のGitHubセキュリティ対策」では、GitHub のリポジトリを AI 時代の脅威から守る方法をまとめました。今回は、手元の PC で動く Claude Code そのものを守る方法です。 Claude Code は、ファイルを読み、コマンドを実行し、外部と通信できます。便利な反面、悪意のある指示を読み込んだときや、Claude が判断を誤ったときに、秘密情報を読まれる・送られる、ファイルを壊される、守りの設定を外されるおそれ..."
+      },
+      {
+        "id": "zenn:37d6940e6aeaa4dd43240231",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "OSS",
+          "脆弱性",
+          "Claude",
+          "Anthropic"
+        ],
+        "url": "https://zenn.dev/kai_kou/articles/1232-anthropic-oss-scanner-maintainer-guide",
+        "title": "Anthropic OSS Scanner 登録ガイド、人間レビューなしの報告を捌く手順",
+        "author": "甲斐 甲",
+        "published_at": "2026-10-28T03:16:54+00:00",
+        "excerpt": "はじめに ある朝、メンテナンスしているライブラリ宛てに「critical」と書かれた脆弱性レポートがメールで届きます。再現コード（PoC）も修正パッチ案も付いています。ただし差出人の説明には「このレポートはモデルが生成し、人間はレビューしていません」とあります。このレポートを、どこまで信じて、どの順番で手を付ければよいでしょうか。 Anthropic が 2026-10-08 に発表した OSS Scanner は、まさにこの状況を生むサービスです。オプトイン型で、登録したプロジェクトに対して最高性能のモデルが定期的にスキャンをかけ、見つかった問題を人間のレビューを挟まずに送ってきま..."
+      },
+      {
+        "id": "zenn:b98eb4a1399528bf03694ad6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "GitHub Actions",
+          "Security",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sonicmoov/articles/4d689e69095478",
+        "title": "検証済み10キットで始める、Claude Code時代のGitHubセキュリティ対策【チーム・組織別】",
+        "author": "azarashi",
+        "published_at": "2026-10-28T03:16:50+00:00",
+        "excerpt": "はじめに 株式会社ソニックムーブでフロントエンドエンジニアをしているazarashiです。 Claude Code の普及で、リポジトリは「人間が読むもの」から「AIも読むもの」に変わりました。それに合わせて、リポジトリを狙う脅威も変わっています。 この記事では、AI時代のGitHubリポジトリを狙う3つの方向の脅威と、その対策を、開発の形（全員・チーム・外部入力・組織）ごとに整理しました。対策に必要なファイルは導入キットとしてまとめてあるので、コピペするか、Claude Code に導入を任せるだけで使えます。 業務で一般的な private リポジトリを前提にしています。OSS ..."
+      },
+      {
+        "id": "zenn:3447b5ada0072da92f8a15e5",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/aoi_sato8734/articles/safeline-how-to-protect-a-python--20261028-b2146bb",
+        "title": "FlaskとDjangoをWAFで守る前に、公開経路を一本化する",
+        "author": "佐藤 葵8734",
+        "published_at": "2026-10-28T03:04:10+00:00",
+        "excerpt": "PythonのWebアプリをWAFで守る作業は、ビューへデコレータを足す話から始めない。FlaskもDjangoも、誰かがソケットを受理したあとでHTTPを解釈する。その誰かがアプリケーションサーバ自身なら、インジェクション、ディレクトリを遡るパス、認証情報の連続投入は、方針が見る前にPythonへ着地する。実用上の問いは、利用者が通れる道がリバースプロキシ型のファイアウォールだけか、である。 先に失敗例を一つ置く。検証用の名前はSafeLineへ向けた。ところが本番のPythonポートは、公開側のインタフェースで待ち受けたまま残っていた。試行はそのポートへ直結し、プロキシを通らなかった..."
+      },
+      {
+        "id": "zenn:b1092ca8220a341c7676f905",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Cloudflare",
+          "selfhosted",
+          "Cloudflare Access",
+          "Cloudflare Tunnel"
+        ],
+        "url": "https://zenn.dev/tahiro/articles/homelab-cloudflare-tunnel",
+        "title": "ポート開放なしで自宅サーバーを公開する：Cloudflare Tunnel + Access の構成",
+        "author": "たひろ",
+        "published_at": "2026-10-28T03:00:05+00:00",
+        "excerpt": "! この記事は大体Claudeに書いてもらいました。 自宅サーバーで動かしている写真管理の Immich と位置情報ログの Dawarich を、Cloudflare Tunnel と Cloudflare Access で外から使えるようにしている。その構成と、なぜこの組み合わせにしたか、ダッシュボードでの設定手順を書いておく。 Immich と Dawarich そのものの設定は、それぞれ別の記事に書く予定。ドメインやトークン、メールアドレスなどは、スクリーンショットも含めて例に置き換えてある。 構成 ブラウザ / スマホアプリ │ HTTPS ▼ Cloudfla..."
+      },
+      {
+        "id": "zenn:03042bece147a8447247fcb8",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "CVE",
+          "phpsrc"
+        ],
+        "url": "https://zenn.dev/akagifreeez/articles/php2shell-cve-pre-release-verification",
+        "title": "PHP緊急リリース(CVE-2026-109618/109619)を公開前から検証した記録",
+        "author": "akagifreeez",
+        "published_at": "2026-10-28T02:50:27+00:00",
+        "excerpt": "2026年10月21日、PHPプロジェクトは緊急セキュリティリリースを出した。CVE-2026-109618とCVE-2026-109619、2件の認証前リモートコード実行(pre-auth RCE)である。 公式は「今すぐ更新せよ」と述べ、8.5.12 / 8.4.27 / 8.3.36 / 8.2.35の4系統に加えて、サポート終了済みの7.4 / 8.0 / 8.1にまでソースのバックポートを用意した。EOL枝にまで手を打つのは、古いPHPがまだ大量に動いている世界だと開発チームが分かっているからだ。 この記事は、リリースの告知が出る前の約24時間、リーク情報を元にローカルラボで何..."
+      },
+      {
+        "id": "zenn:f66cd5c752ba364a4e954a36",
+        "source": "zenn",
+        "author_tags": [
+          "Android",
+          "Security",
+          "DNS",
+          "adb",
+          "quad9"
+        ],
+        "url": "https://zenn.dev/serotoninmax/articles/android-private-dns-quad9-dot",
+        "title": "Androidのプライベート DNS を Quad9 にする: DNS over TLS の厳格モードと adb での確認",
+        "author": "serotoninmax",
+        "published_at": "2026-10-28T01:16:22+00:00",
+        "excerpt": "Android 16 を搭載した端末（Nothing Phone (4a) Pro）のセキュリティ設定を、Mac から adb で読み取って点検した。Advanced Protection（高度な保護機能）はすでに有効で、感染の兆候も見つからなかった。手を入れる余地が残っていた設定の一つがプライベート DNS で、値は既定の「自動」のままだった。これを Quad9 の dns.quad9.net に変更した。 使う側から見た話は serotoninmax.com の記事 に書いた。本記事では、各モードにおける挙動の違い、Quad9 が DNS の段階で何をブロックするのか、adb での設..."
+      },
+      {
+        "id": "zenn:4ef9ec42b3395690107201bc",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "backend",
+          "Mermaid",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/sponge841841/articles/2026-10-22-php2shell-cve-2026-rce-explained",
+        "title": "PHP2Shell徹底解説：CVE-2026-109618・109619はなぜ認証不要RCEになるのか【図解・対策】",
+        "author": "ちっち",
+        "published_at": "2026-10-28T01:09:05+00:00",
+        "excerpt": "調査基準日：2026年10月22日（日本時間） 本記事はPHP公式のセキュリティ告知、php-srcの2件のGitHub Security Advisory、PHP Foundation、Wiz Researchの公表資料を照合して作成しています。図は理解を助けるための概念図であり、実際のエクスプロイトを再現する手順ではありません。 2026年10月21日（UTC）、PHPプロジェクトがCVSS v4.0で9.2（Critical）の脆弱性を2件修正しました。名称はCVE-2026-109618とCVE-2026-109619。セキュリティ研究者らは一連の問題を「PHP2Shell」..."
+      },
+      {
+        "id": "zenn:717dde4d855ce8a47b3f8884",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "OpenAI",
+          "ChatGPT",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/sponge841841/articles/2026-10-22-codex-day17-full-reset",
+        "title": "Codex Day 17はフルリセット！発表時刻・日本時間の反映期限・Daybreak Blueを詳しく解説",
+        "author": "ちっち",
+        "published_at": "2026-10-28T01:09:04+00:00",
+        "excerpt": "OpenAIの「28日間アップデート」**Day 17（米国太平洋時間2026年10月21日）**は、新機能の発表ではなく、Codex / ChatGPT Workの利用枠リセットを行う日と案内されました。 Tibo Sottiaux氏の公式X投稿は次のとおりです。 Day 17/ Bet you thought we forgot, but no, it’s reset day today. 「忘れられたと思った？ いいえ、今日はリセットの日です」という意味です。 Day 17：Tibo氏の公式投稿 反映時刻についての追加投稿 この記事は2026年10月22日（日本時間）時点の..."
+      },
+      {
+        "id": "zenn:02e0e7f25442956e903e467c",
+        "source": "zenn",
+        "author_tags": [
+          "Firebase",
+          "Firestore",
+          "Next.js",
+          "TypeScript",
+          "Security"
+        ],
+        "url": "https://zenn.dev/sponge841841/articles/2026-10-11-firebase-share-links-versioned-access",
+        "title": "Firebaseで権限別共有リンクを導入する：既存URLを壊さないaccessVersion設計",
+        "author": "ちっち",
+        "published_at": "2026-10-28T01:08:49+00:00",
+        "excerpt": "URLを知っている人が参加できるWebサービスに「管理・編集・閲覧」の権限を追加したい。しかし、既存利用者のURLを一律無効化すると、セキュリティ強化のための変更が利用停止につながります。 スコア管理サービス PointPia で採用したのは、データ本体に認可方式のバージョンを持たせ、古いデータと新しいデータを明示的に分ける設計です。2026年10月9日に本番リリースした実例から、実装と検証のポイントを整理します。以下のコードは設計を説明する簡略例で、実装の完全なコピーではありません。 1. 権限記録の有無だけで認可方式を判定しない 認可とは、相手に「何を操作できるか」を許可する仕組..."
+      },
       {
         "id": "zenn:bf37ded261d345e80a4dbfec",
         "source": "zenn",
@@ -4824,6 +5138,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:8c885eec3c8f63d206d5277f",
+        "source": "qiita",
+        "author_tags": [
+          "Supabase",
+          "Security",
+          "Node.js",
+          "テスト"
+        ],
+        "url": "https://qiita.com/aichance/items/3806d9dff354bf97d34d",
+        "title": "DBは6件PASS、添付ファイルは6件FAIL：Supabaseの読み取り境界を実測した",
+        "author": "aichance",
+        "published_at": "2026-10-28T19:29:57+09:00",
+        "excerpt": "Supabaseで「本人の記録だけ読める」を検査したとき、 DBの6項目がすべてPASSでも、添付ファイルの6項目がFAILになる状態 を作れました。 原因は、DBのRLSではなく、Storageバケットの公開設定です。公開バケットからファイルを取得できるのはSupabaseの仕様です。本人限定のファイルを置くつもりの場所が、設定変更で公開になっていないかを別に確認する必要がありました。 この記事では、手元の合成データで再現した結果と、同じ検査を設定変更後にも使う方法をまとめます。検査コードはMITのOSSとして公開しています。 DBの行と、ファイルを配る経路を分けた ユーザーA・Bに、それぞれ自分用のテスト行と小さな非公開ファイルを1つずつ用意しました。 対象 持ち主 別ユーザー 未ログイン（anon） public URL DBの既知の1行 期待した内容を読める 読めない 読めない 対象外 Storageの既知の1ファイル 期待したバイト列を読める 読めない 読めない 読めない これをA・B両方で行います。DBが3経路×2行で6項目、ファイル"
+      },
+      {
         "id": "qiita:9ba5775c4d10784d7a24c2f9",
         "source": "qiita",
         "author_tags": [
@@ -9226,6 +9555,118 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:5850272022541814323f3f2c",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "vulnerability-management",
+          "risk-management",
+          "vulnerability",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@bizsec_top/the-cve-is-public-why-hasnt-your-scanner-found-it-yet-52ce5cc3e96b",
+        "title": "The CVE Is Public. Why Hasn’t Your Scanner Found It Yet?",
+        "author": "Evgeny Ermakov",
+        "published_at": "2026-10-28T10:19:03+00:00",
+        "excerpt": "What happens between a security advisory and a finding in your report — and how to act when the evidence is incomplete. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5c67c22c0c3c70fb8a752399",
+        "source": "medium",
+        "author_tags": [
+          "neural-networks",
+          "cybersecurity",
+          "ethical-hacking",
+          "cloud-security",
+          "ai"
+        ],
+        "url": "https://medium.com/@daywalkernyc141/14-cybersecurity-cloud-certification-courses-to-explore-in-2026-c1b481d3c053",
+        "title": "14 Cybersecurity & Cloud Certification Courses to Explore in 2026",
+        "author": "Daywalkernyc",
+        "published_at": "2026-10-28T10:18:54+00:00",
+        "excerpt": "Ready to upgrade your skills in Cybersecurity, Ethical Hacking, Cloud Security, AWS, and Networking? 🚀 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0db0b5b2854a725d65070873",
+        "source": "medium",
+        "author_tags": [
+          "malware",
+          "edr-evasion",
+          "cybersecurity",
+          "windows",
+          "computer-science"
+        ],
+        "url": "https://medium.com/@funcybot/the-new-era-of-edr-evasion-in-2026-1d41616aac75",
+        "title": "The New Era of EDR Evasion in 2026",
+        "author": "Funcybot",
+        "published_at": "2026-10-28T10:17:55+00:00",
+        "excerpt": "From Kernel-Mode BYOVD to Invisible Indirect Syscalls — How Modern Malware Outsmarts “AI-Powered” EDRs. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c1c3784ac76aa7d976e485cb",
+        "source": "medium",
+        "author_tags": [
+          "bisresearch",
+          "cybersecurity",
+          "defense-industry",
+          "security",
+          "passiveauthentication"
+        ],
+        "url": "https://medium.com/@mohit.insightful/passive-authentication-market-outlook-security-innovations-and-industry-growth-9cfa5487c8a0",
+        "title": "Passive Authentication Market Outlook: Security Innovations and Industry Growth",
+        "author": "Mohit Insightful",
+        "published_at": "2026-10-28T10:15:52+00:00",
+        "excerpt": "The passive authentication market is expanding as organizations seek stronger digital security without adding friction to user journeys. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a88da4afd95b8dedafb888c2",
+        "source": "medium",
+        "author_tags": [
+          "soc2",
+          "compliance",
+          "cybersecurity",
+          "canada",
+          "saas"
+        ],
+        "url": "https://medium.com/@support_75206/soc-2-and-osfi-b-10-what-canadian-financial-institutions-require-from-their-saas-vendors-176f32795d6f",
+        "title": "SOC 2 and OSFI B-10: What Canadian Financial Institutions Require From Their SaaS Vendors",
+        "author": "Accorp Partners",
+        "published_at": "2026-10-28T10:08:02+00:00",
+        "excerpt": "A SaaS company closes a promising deal with a Canadian bank, sends over a clean SOC 2 Type 2 report expecting the security review to wrap… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c5cb7517d71333ffdae12726",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "information-security",
+          "vulnerability-management",
+          "threat-detection",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@nathalietchoumi4/php2shell-when-the-patch-race-becomes-the-attack-surface-57df80f6b643",
+        "title": "PHP2Shell: When the Patch Race Becomes the Attack Surface",
+        "author": "Nathalietchoumi",
+        "published_at": "2026-10-28T10:00:04+00:00",
+        "excerpt": "AI is accelerating vulnerability discovery. Can defenders move fast enough to keep exposed systems safe? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3e328308da8de1e4b0cc13b3",
+        "source": "medium",
+        "author_tags": [
+          "python",
+          "cybersecurity",
+          "ethical-hacking",
+          "networking",
+          "red-teaming"
+        ],
+        "url": "https://darkwalkers.medium.com/the-secret-of-cybersecurity-5a17565e3350",
+        "title": "THE SECRET OF CYBERSECURITY",
+        "author": "Darkwalker",
+        "published_at": "2026-10-28T09:58:29+00:00",
+        "excerpt": "HACKING STARTS HERE… Continue reading on Medium »"
+      },
       {
         "id": "medium:d1457578ae52e3d7fcfc562d",
         "source": "medium",
