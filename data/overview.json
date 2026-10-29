@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-29T05:12:59.988134+00:00",
-  "as_of": "2026-10-29T05:00:00+00:00",
-  "catalog_count": 21193,
+  "generated_at": "2026-10-29T06:12:08.727777+00:00",
+  "as_of": "2026-10-29T06:00:00+00:00",
+  "catalog_count": 21196,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,33 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:d161ef10d8cae6264b6412b0",
+      "permalink_id": "article-url-d161ef10d8cae6264b6412b0",
+      "canonical_url": "https://www.security-next.com/192097",
+      "title": "「PHP2Shell」汎用的なRCEは当面困難との分析 - 油断は禁物、他脆弱性との連鎖も",
+      "summary_excerpt": "プログラミング言語「PHP」に別名「PHP2Shell」とも呼ばれる脆弱性2件が見つかった問題。幅広い環境でコードを実行する攻撃に脆弱性を悪用するには障壁があり、当面の影響は限定的との分析が出ている。一方、悪用が確認された別の脆弱性と組み合わせた攻撃のリスクも指摘されており、予断を許さない状況だ。",
+      "published_at": "2026-10-29T14:18:47+09:00",
+      "first_seen_at": "2026-10-29T15:02:07.273963+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:03de2cd181f142581c684407",
       "permalink_id": "article-url-03de2cd181f142581c684407",
@@ -19,6 +46,48 @@
       "published_at": "2026-10-29T13:56:54+09:00",
       "first_seen_at": "2026-10-29T14:02:46.149403+09:00",
       "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7d4800413be992f3d88e1fda",
+      "permalink_id": "article-url-7d4800413be992f3d88e1fda",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002714/",
+      "title": "松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
+      "summary_excerpt": "牛丼チェーン「松屋」を運営する松屋フーズは10月29日までに、外部からの不正アクセスを検知したとして、公式アプリやWebサイトを停止していると発表した。原因と影響範囲を調べており、復旧の見通しは改めて知らせるとしている。",
+      "published_at": "2026-10-29T13:44:14+09:00",
+      "first_seen_at": "2026-10-29T15:02:04.881279+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 73.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d8d2cbd7bba775d8571a6e1e",
+      "permalink_id": "article-url-d8d2cbd7bba775d8571a6e1e",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002711/",
+      "title": "会員情報最大423万件が漏えい　生花EC事業者に不正アクセス",
+      "summary_excerpt": "生花の通信配達サービスを手掛ける花キューピットは10月28日、同社のシステムが第三者による不正アクセスを受け、会員情報の一部が漏えいしたと発表した。対象は最大423万8242件で、ユーザーIDやパスワード、メールアドレスなどが含まれる。",
+      "published_at": "2026-10-29T13:41:18+09:00",
+      "first_seen_at": "2026-10-29T15:02:04.963896+09:00",
+      "source_name": "ITmedia NEWS Bursts",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -162,15 +231,17 @@
       "seen_in_kev": false,
       "heat_score": 53.0,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:f196dc314d4b776a7150f7f0",
-      "permalink_id": "article-url-f196dc314d4b776a7150f7f0",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002694/",
-      "title": "バンナム、メアド34万件漏えい　ガンダムグッズ店のポイント会員が対象　ユミルリンクへの不正アクセスが原因",
-      "summary_excerpt": "漏えいしたのは、メールアドレスと「バンダイナムコID」管理用の内部識別子。",
-      "published_at": "2026-10-29T10:05:11+09:00",
-      "first_seen_at": "2026-10-29T11:02:07.461298+09:00",
+      "public_article_id": "url:7d4800413be992f3d88e1fda",
+      "permalink_id": "article-url-7d4800413be992f3d88e1fda",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002714/",
+      "title": "松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
+      "summary_excerpt": "牛丼チェーン「松屋」を運営する松屋フーズは10月29日までに、外部からの不正アクセスを検知したとして、公式アプリやWebサイトを停止していると発表した。原因と影響範囲を調べており、復旧の見通しは改めて知らせるとしている。",
+      "published_at": "2026-10-29T13:44:14+09:00",
+      "first_seen_at": "2026-10-29T15:02:04.881279+09:00",
       "source_name": "ITmedia NEWS Bursts",
       "source_class": "topic_rss",
       "security_relevance": "primary",
@@ -181,59 +252,9 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 73.0,
       "published_at_future_suppressed": false
     },
-    {
-      "public_article_id": "url:c699b0e6bdbb510f3a2fa7a2",
-      "permalink_id": "article-url-c699b0e6bdbb510f3a2fa7a2",
-      "canonical_url": "https://japan.zdnet.com/article/35254113/",
-      "title": "1回25ドルで始まる自動攻撃--プルーフポイントが警鐘を鳴らすAIハーネスの脅威",
-      "summary_excerpt": "日本プルーフポイントは、最新の脅威分析をまとめた「AIランサムウェア脅威動向レポート2026」に関する記者説明会を開催した。",
-      "published_at": "2026-10-29T10:01:00+09:00",
-      "first_seen_at": "2026-10-29T12:02:38.174177+09:00",
-      "source_name": "ZDNET Japan All",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:51ef0aa3004ea9d6bcee339e",
-      "permalink_id": "article-url-51ef0aa3004ea9d6bcee339e",
-      "canonical_url": "https://japan.zdnet.com/pickup/chrome_enterprise_premium_tu_17/35253767/",
-      "title": "[PR]「モバイル経由の情報漏えい」対策をどう実現する？管理と利便性のジレンマをブラウザ起点で解消する",
-      "summary_excerpt": "昨今では、多くの企業で出社回帰の傾向がある一方、スマートフォンやタブレットをフル活用した場所に依存しない働き方は依然として定着している。",
-      "published_at": "2026-10-29T10:00:00+09:00",
-      "first_seen_at": "2026-10-29T12:02:38.373150+09:00",
-      "source_name": "ZDNET Japan All",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
     {
       "public_article_id": "url:bffbf5ad854cd8dacbd3c70e",
       "permalink_id": "article-url-bffbf5ad854cd8dacbd3c70e",
@@ -444,14 +465,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:5977b4ad9b070e952ba55c08",
-      "permalink_id": "article-url-5977b4ad9b070e952ba55c08",
-      "canonical_url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
-      "published_at": "2026-10-28T14:42:26+09:00",
-      "first_seen_at": "2026-10-28T17:02:36.201626+09:00",
-      "source_name": "The Hacker News",
+      "public_article_id": "url:d161ef10d8cae6264b6412b0",
+      "permalink_id": "article-url-d161ef10d8cae6264b6412b0",
+      "canonical_url": "https://www.security-next.com/192097",
+      "title": "「PHP2Shell」汎用的なRCEは当面困難との分析 - 油断は禁物、他脆弱性との連鎖も",
+      "summary_excerpt": "プログラミング言語「PHP」に別名「PHP2Shell」とも呼ばれる脆弱性2件が見つかった問題。幅広い環境でコードを実行する攻撃に脆弱性を悪用するには障壁があり、当面の影響は限定的との分析が出ている。一方、悪用が確認された別の脆弱性と組み合わせた攻撃のリスクも指摘されており、予断を許さない状況だ。",
+      "published_at": "2026-10-29T14:18:47+09:00",
+      "first_seen_at": "2026-10-29T15:02:07.273963+09:00",
+      "source_name": "Security NEXT",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -462,77 +483,33 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
         }
       ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:6ca60a7f1dc3b9c097ca9162",
-      "permalink_id": "article-url-6ca60a7f1dc3b9c097ca9162",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-832/",
-      "title": "ZDI-26-832: AVG Internet Security avgToolsSvc Link Following Local Privilege Escalation Vulnerability",
-      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of AVG Internet Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.3. The following CVEs are assigned: CVE-2026-6064.",
-      "published_at": "2026-10-28T14:00:00+09:00",
-      "first_seen_at": "2026-10-29T08:02:48.339002+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
+      "public_article_id": "url:03de2cd181f142581c684407",
+      "permalink_id": "article-url-03de2cd181f142581c684407",
+      "canonical_url": "https://news.yahoo.co.jp/expert/articles/1ffe7df916e1966e5fb0490f6198f0809c88416f",
+      "title": "GMOサイバー攻撃 捜査の焦点は",
+      "summary_excerpt": null,
+      "published_at": "2026-10-29T13:56:54+09:00",
+      "first_seen_at": "2026-10-29T14:02:46.149403+09:00",
+      "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-6064"
-      ],
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:69f78e5d6dd57b74a9eb10c5",
-      "permalink_id": "article-url-69f78e5d6dd57b74a9eb10c5",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-831/",
-      "title": "ZDI-26-831: Apple macOS CoreText GDEF LigCaretList Out-Of-Bounds Read Information Disclosure Vulnerability",
-      "summary_excerpt": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-112656.",
-      "published_at": "2026-10-28T14:00:00+09:00",
-      "first_seen_at": "2026-10-29T08:02:46.317181+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-112656"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -635,6 +612,64 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:beb2810fe2d6db27d2945b77",
+      "permalink_id": "article-url-beb2810fe2d6db27d2945b77",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-792/",
+      "title": "ZDI-26-792: libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-114550.",
+      "published_at": "2026-10-26T14:00:00+09:00",
+      "first_seen_at": "2026-10-27T05:02:47.545205+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-114550"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a304cd32bbafe4c746bb0d0d",
+      "permalink_id": "article-url-a304cd32bbafe4c746bb0d0d",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-791/",
+      "title": "ZDI-26-791: Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Pixar Animation Studio OpenUSD. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-92211.",
+      "published_at": "2026-10-26T14:00:00+09:00",
+      "first_seen_at": "2026-10-27T05:02:30.497185+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-92211"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:9bfc6765f7783015da6404dc",
       "permalink_id": "article-url-9bfc6765f7783015da6404dc",
       "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151086.html",
@@ -723,20 +758,26 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:9d27dd3b487b83df655ab9b7",
-      "permalink_id": "article-url-9d27dd3b487b83df655ab9b7",
-      "canonical_url": "https://gigazine.net/news/20261026-openai-brotli-vulnerability/",
-      "title": "OpenAIがNode.jsやBunで使われているGoogle製圧縮ツール「Brotli」でリモートコード実行につながる脆弱性を発見",
-      "summary_excerpt": "OpenAIがGoogle製圧縮ツール「Brotli」にリモートコード実行につながる脆弱(ぜいじゃく)性が存在することを発見しました。すでに修正版がリリースされており、アップデートが呼びかけられています。 続きを読む...",
-      "published_at": "2026-10-26T12:33:00+09:00",
-      "first_seen_at": "2026-10-26T13:01:52.361169+09:00",
-      "source_name": "GIGAZINE",
-      "source_class": "topic_rss",
+      "public_article_id": "url:bf6b9760a7696d744258f76e",
+      "permalink_id": "article-url-bf6b9760a7696d744258f76e",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-809/",
+      "title": "ZDI-26-809: Meta FAIRChem dense_eval dft-targets Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+      "published_at": "2026-10-26T14:00:00+09:00",
+      "first_seen_at": "2026-10-27T05:05:36.726262+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -744,20 +785,26 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:5c5e00cb0dbf873c68885599",
-      "permalink_id": "article-url-5c5e00cb0dbf873c68885599",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5197042/",
-      "title": "QuratedLab、福島・千葉の事業者や自治体にWebサイトの脆弱性対策を無償提供",
-      "summary_excerpt": "ReITとデザインLが共同運営するAIラボ「QuratedLab」は10月24日、福島県と千葉県の事業者、自治体を対象に、WebサイトやWebサービスの脆弱性対策を無償で支援する取り組みを開始すると発表した。",
-      "published_at": "2026-10-26T12:30:00+09:00",
-      "first_seen_at": "2026-10-26T14:02:53.615142+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
+      "public_article_id": "url:aabef25abd202776d72f0e08",
+      "permalink_id": "article-url-aabef25abd202776d72f0e08",
+      "canonical_url": "http://www.zerodayinitiative.com/advisories/ZDI-26-808/",
+      "title": "ZDI-26-808: Meta FAIRChem run_validation Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+      "published_at": "2026-10-26T14:00:00+09:00",
+      "first_seen_at": "2026-10-27T05:05:15.335415+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -765,62 +812,26 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:3a73b87cb49cdad9fc354c60",
-      "permalink_id": "article-url-3a73b87cb49cdad9fc354c60",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/26/2000002476/",
-      "title": "「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会　来場者の態度も激変",
-      "summary_excerpt": "国内企業で不正アクセスや情報漏えいが相次ぐ中、幕張メッセで「情報セキュリティEXPO」が開催された。出展企業からは、来場者の関心の高まりに加え、9月下旬以降、問い合わせが急増し、経営層からの相談も増えたとの声が上がった。現場の変化を聞いた。",
-      "published_at": "2026-10-26T12:11:36+09:00",
-      "first_seen_at": "2026-10-26T13:01:56.383906+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
+      "public_article_id": "url:5d7f00f1646b15192596d618",
+      "permalink_id": "article-url-5d7f00f1646b15192596d618",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-807/",
+      "title": "ZDI-26-807: Meta FAIRChem get_computational_df_to_predict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+      "published_at": "2026-10-26T14:00:00+09:00",
+      "first_seen_at": "2026-10-27T05:05:13.298578+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 32.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:94ac5bd0f60fdf242589d574",
-      "permalink_id": "article-url-94ac5bd0f60fdf242589d574",
-      "canonical_url": "https://jvn.jp/jp/JVN75668103/",
-      "title": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性",
-      "summary_excerpt": "国土交通省が提供する電子納品物検査支援システムには、インストール時に不適切なファイルアクセス権設定が行われる脆弱性が存在します。",
-      "published_at": "2026-10-26T12:00:00+09:00",
-      "first_seen_at": "2026-10-26T12:02:30.660806+09:00",
-      "source_name": "JVN",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 32.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:fe6e630bddbdb684dbff168c",
-      "permalink_id": "article-url-fe6e630bddbdb684dbff168c",
-      "canonical_url": "https://www.security-next.com/191931",
-      "title": "MSが定例外パッチ、「.NET」脆弱性を修正 - Brotli問題などに対応",
-      "summary_excerpt": "マイクロソフトは、アプリケーション開発環境「.NET」における複数の脆弱性へ対処した定例外のセキュリティアップデートを公開した。あわせて10月の月例セキュリティ更新で修正が不十分だった脆弱性にも対応したという。",
-      "published_at": "2026-10-26T11:58:55+09:00",
-      "first_seen_at": "2026-10-26T12:02:33.342776+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -846,15 +857,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】GMOサイバー攻撃 捜査の焦点は",
-    "【HOTTEST #1 / Heat 73】ベネフィット・ワンの委託先に不正アクセス　セゾン会員向け優待サービスで約2.9万人分の個人情報漏えい",
-    "【LATEST #2】半数が自社のランサムウェア対策の有効性に懸念--Hornetsecurity調査",
-    "【HOTTEST #2 / Heat 67.5】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
-    "【LATEST #3】ベネフィット・ワンの委託先に不正アクセス　セゾン会員向け優待サービスで約2.9万人分の個人情報漏えい",
-    "【HOTTEST #3 / Heat 67.5】Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
-    "【LATEST #4】IPA、企業のセキュリティ対策を評価する「SCS評価制度」の新ガイド公開",
-    "【HOTTEST #4 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-    "【LATEST #5】WatchGuard「Fireware OS」に複数脆弱性 - 7件がクリティカル",
-    "【HOTTEST #5 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog"
+    "【LATEST #1】「PHP2Shell」汎用的なRCEは当面困難との分析 - 油断は禁物、他脆弱性との連鎖も",
+    "【HOTTEST #1 / Heat 73】松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
+    "【LATEST #2】GMOサイバー攻撃 捜査の焦点は",
+    "【HOTTEST #2 / Heat 73】ベネフィット・ワンの委託先に不正アクセス　セゾン会員向け優待サービスで約2.9万人分の個人情報漏えい",
+    "【LATEST #3】松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
+    "【HOTTEST #3 / Heat 67.5】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+    "【LATEST #4】会員情報最大423万件が漏えい　生花EC事業者に不正アクセス",
+    "【HOTTEST #4 / Heat 67.5】Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+    "【LATEST #5】半数が自社のランサムウェア対策の有効性に懸念--Hornetsecurity調査",
+    "【HOTTEST #5 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch"
   ]
 }
