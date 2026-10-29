@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-29T10:12:19.287867+00:00",
-  "as_of": "2026-10-29T10:00:00+00:00",
-  "catalog_count": 21216,
+  "generated_at": "2026-10-29T11:13:26.209301+00:00",
+  "as_of": "2026-10-29T11:00:00+00:00",
+  "catalog_count": 21219,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -11,11 +11,93 @@
   },
   "latest": [
     {
+      "public_article_id": "url:f71feb17d35447889b306e5d",
+      "permalink_id": "article-url-f71feb17d35447889b306e5d",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261029-5217835/",
+      "title": "PHPの脆弱性悪用で日本含む4カ国のサーバ25台が侵害か、JPCERT/CCが追加警告",
+      "summary_excerpt": "JPCERTコーディネーションセンター（JPCERT/CC）は10月29日、PHPの深刻な脆弱性に関する注意喚起を更新し、ファイアウォール製品への侵害を示唆する痕跡が確認されたと報告した。セキュリティ企業Dreamの調査では、日本を含む4カ国で計25台のサーバーが侵害されたとみられ、米政府関連組織の内部ネットワークにも攻撃が及んでいる。",
+      "published_at": "2026-10-29T19:56:12+09:00",
+      "first_seen_at": "2026-10-29T20:02:52.136934+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:12d9b8223a9161ef5095c723",
+      "permalink_id": "article-url-12d9b8223a9161ef5095c723",
+      "canonical_url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
+      "summary_excerpt": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed. The post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network appeared first on SecurityWeek .",
+      "published_at": "2026-10-29T19:29:25+09:00",
+      "first_seen_at": "2026-10-29T20:02:55.960444+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [
+        "Volt Typhoon"
+      ],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:75b9d86630b342918340f08e",
+      "permalink_id": "article-url-75b9d86630b342918340f08e",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002730/",
+      "title": "不正アクセスによる漏えい人数、半年余りでのべ2億6000万人に　日本人口の2倍超",
+      "summary_excerpt": "個人情報保護委員会によると、2026年4月1日から10月16日までに報告された不正アクセスによる個人情報の漏えい、または漏えいの恐れがある事案について、対象者数は延べ約2億6000万人だったという。これは、同年10月1日時点の日本の総人口の2倍以上に相当する。",
+      "published_at": "2026-10-29T19:18:19+09:00",
+      "first_seen_at": "2026-10-29T20:02:49.659379+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:a8c93a077438eadc99160830",
       "permalink_id": "article-url-a8c93a077438eadc99160830",
       "canonical_url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
       "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-      "summary_excerpt": "Cisco on Wednesday released fixes for an exploited vulnerability affecting its Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) software. Tracked as CVE-2026-76418 and assigned a CVSS score of 8.6, the bug resides in the Remote Access SSL VPN service. Attackers can exploit it remotely, without authenticating, to force the device […] The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek .",
+      "summary_excerpt": "An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload. The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek .",
       "published_at": "2026-10-29T18:47:10+09:00",
       "first_seen_at": "2026-10-29T19:01:47.808234+09:00",
       "source_name": "SecurityWeek",
@@ -31,12 +113,10 @@
           "label": "Vulnerability"
         }
       ],
-      "cves": [
-        "CVE-2026-76418"
-      ],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -200,113 +280,9 @@
       "seen_in_kev": false,
       "heat_score": 75.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b41d90dc24ecf44865e6a178",
-      "permalink_id": "article-url-b41d90dc24ecf44865e6a178",
-      "canonical_url": "https://securelist.com/netamloader/121676/",
-      "title": "Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia",
-      "summary_excerpt": "Kaspersky researchers analyze a complex targeted attack employing NetamLoader, a sophisticated malicious framework and targeting a customized government OS.",
-      "published_at": "2026-10-29T17:00:15+09:00",
-      "first_seen_at": "2026-10-29T18:02:24.739828+09:00",
-      "source_name": "Kaspersky Securelist",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:becf7920c629f4d7414191ba",
-      "permalink_id": "article-url-becf7920c629f4d7414191ba",
-      "canonical_url": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
-      "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
-      "summary_excerpt": "Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else.",
-      "published_at": "2026-10-29T17:00:00+09:00",
-      "first_seen_at": "2026-10-29T17:01:58.398725+09:00",
-      "source_name": "Dark Reading",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bac8047e6fcb4b7e57da2a75",
-      "permalink_id": "article-url-bac8047e6fcb4b7e57da2a75",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002722/",
-      "title": "ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も",
-      "summary_excerpt": "全日本空輸（ANA）は10月29日、Amadeusが提供する旅客サービスシステムへの不正アクセスで、一部顧客の個人情報を第三者が参照した形跡があると発表した。同じシステムを使う日本航空も28日、約9万2000人分の予約情報への不正アクセスを公表している。",
-      "published_at": "2026-10-29T16:37:03+09:00",
-      "first_seen_at": "2026-10-29T18:02:20.846793+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 73.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
-    {
-      "public_article_id": "url:a8c93a077438eadc99160830",
-      "permalink_id": "article-url-a8c93a077438eadc99160830",
-      "canonical_url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-      "summary_excerpt": "Cisco on Wednesday released fixes for an exploited vulnerability affecting its Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) software. Tracked as CVE-2026-76418 and assigned a CVSS score of 8.6, the bug resides in the Remote Access SSL VPN service. Attackers can exploit it remotely, without authenticating, to force the device […] The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek .",
-      "published_at": "2026-10-29T18:47:10+09:00",
-      "first_seen_at": "2026-10-29T19:01:47.808234+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-76418"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
     {
       "public_article_id": "url:6fa958c054e03af64d72c3b0",
       "permalink_id": "article-url-6fa958c054e03af64d72c3b0",
@@ -373,27 +349,6 @@
       "summary_excerpt": "全日本空輸（ANA）は10月29日、Amadeusが提供する旅客サービスシステムへの不正アクセスで、一部顧客の個人情報を第三者が参照した形跡があると発表した。同じシステムを使う日本航空も28日、約9万2000人分の予約情報への不正アクセスを公表している。",
       "published_at": "2026-10-29T16:37:03+09:00",
       "first_seen_at": "2026-10-29T18:02:20.846793+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 73.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7d4800413be992f3d88e1fda",
-      "permalink_id": "article-url-7d4800413be992f3d88e1fda",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002714/",
-      "title": "松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
-      "summary_excerpt": "牛丼チェーン「松屋」を運営する松屋フーズは10月29日までに、外部からの不正アクセスを検知したとして、公式アプリやWebサイトを停止していると発表した。原因と影響範囲を調べており、復旧の見通しは改めて知らせるとしている。",
-      "published_at": "2026-10-29T13:44:14+09:00",
-      "first_seen_at": "2026-10-29T15:02:04.881279+09:00",
       "source_name": "ITmedia NEWS Bursts",
       "source_class": "topic_rss",
       "security_relevance": "primary",
@@ -538,6 +493,27 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:7d4800413be992f3d88e1fda",
+      "permalink_id": "article-url-7d4800413be992f3d88e1fda",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002714/",
+      "title": "松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
+      "summary_excerpt": "牛丼チェーン「松屋」を運営する松屋フーズは10月29日までに、外部からの不正アクセスを検知したとして、公式アプリやWebサイトを停止していると発表した。原因と影響範囲を調べており、復旧の見通しは改めて知らせるとしている。",
+      "published_at": "2026-10-29T13:44:14+09:00",
+      "first_seen_at": "2026-10-29T15:02:04.881279+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:bffbf5ad854cd8dacbd3c70e",
       "permalink_id": "article-url-bffbf5ad854cd8dacbd3c70e",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002707/",
@@ -556,6 +532,33 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f71feb17d35447889b306e5d",
+      "permalink_id": "article-url-f71feb17d35447889b306e5d",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261029-5217835/",
+      "title": "PHPの脆弱性悪用で日本含む4カ国のサーバ25台が侵害か、JPCERT/CCが追加警告",
+      "summary_excerpt": "JPCERTコーディネーションセンター（JPCERT/CC）は10月29日、PHPの深刻な脆弱性に関する注意喚起を更新し、ファイアウォール製品への侵害を示唆する痕跡が確認されたと報告した。セキュリティ企業Dreamの調査では、日本を含む4カ国で計25台のサーバーが侵害されたとみられ、米政府関連組織の内部ネットワークにも攻撃が及んでいる。",
+      "published_at": "2026-10-29T19:56:12+09:00",
+      "first_seen_at": "2026-10-29T20:02:52.136934+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -904,15 +907,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-    "【HOTTEST #1 / Heat 75】Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-    "【LATEST #2】Admin dropped the F-bomb in a password to show hackers who was really 1337",
-    "【HOTTEST #2 / Heat 75】Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-    "【LATEST #3】MR ROBOT Malware-as-a-Service Targets Indian Bank Customers",
-    "【HOTTEST #3 / Heat 75】China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "【LATEST #4】HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
-    "【HOTTEST #4 / Heat 73】ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も",
-    "【LATEST #5】Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-    "【HOTTEST #5 / Heat 73】松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず"
+    "【LATEST #1】PHPの脆弱性悪用で日本含む4カ国のサーバ25台が侵害か、JPCERT/CCが追加警告",
+    "【HOTTEST #1 / Heat 75】Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+    "【LATEST #2】Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
+    "【HOTTEST #2 / Heat 75】China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "【LATEST #3】不正アクセスによる漏えい人数、半年余りでのべ2億6000万人に　日本人口の2倍超",
+    "【HOTTEST #3 / Heat 73】ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も",
+    "【LATEST #4】Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+    "【HOTTEST #4 / Heat 67.5】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+    "【LATEST #5】Admin dropped the F-bomb in a password to show hackers who was really 1337",
+    "【HOTTEST #5 / Heat 67.5】Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability"
   ]
 }
