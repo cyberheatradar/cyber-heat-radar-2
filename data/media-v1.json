@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T19:30:04.341989+00:00",
+  "source_snapshot_generated_at": "2026-10-29T20:30:04.109774+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -9996,6 +9996,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:d9d693511119be0d2d355620",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "パスキー",
+          "1Password",
+          "bitwarden",
+          "Go"
+        ],
+        "url": "https://qiita.com/ishizakahiroshi/items/a56d117cfd987acb25f9",
+        "title": "自作の小さな金庫に、パスキー管理まで載せられるか。1Password・Bitwarden・KeePassXC と比べて、立ち位置を決める前に調べたこと",
+        "author": "ishizakahiroshi",
+        "published_at": "2026-10-30T05:21:42+09:00",
+        "excerpt": "先に、結論を3行で書きます。 自作の金庫 kinko にパスキー管理を載せることは、技術的にはできそうです。ただ、4 桁の PIN は消えません。パスキーの本人確認を受け持つのは Windows Hello だからです。 パスキーの保管とブラウザの自動入力は、無料の Bitwarden や KeePassXC にもうあります。kinko がどこまで広げるかは、まだ決めていません。 PIN が面倒な原因は、kinko ではなく手元の環境にありそうです。本人確認をする Windows が仮想マシンの中にあり、指紋も顔認証も使えない場所だったからです。 時間に合わせて、読み方を選べます。 少し忙しい人向け： 5分で読める要約版（個人サイト） もっと深掘りしたい人は、このまま本文へどうぞ。 パスキーでログインするたびに、4 桁の PIN を打っています。Chrome のパスキーでも Microsoft のものでも同じで、毎回ほんの少しだけ面倒です。 最初は軽い質問でした。使っていない USB メモリにパスキーを入れて、挿すだけでログインできないか。そこか"
+      },
+      {
+        "id": "qiita:06fd35d58aa6ef7c43229687",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "環境変数",
+          "codex",
+          "AI"
+        ],
+        "url": "https://qiita.com/supportapp3/items/f2314b9fe26becdc29f8",
+        "title": "起動中の開発サーバーの環境変数は /proc/PID/environ から読める：.env を消しても残る、Codex のサンドボックスからは見えなかった（Linux 実機）",
+        "author": "supportapp3",
+        "published_at": "2026-10-30T05:17:30+09:00",
+        "excerpt": "この記事の要点 Linux では、同じユーザーで動いているプロセスの起動時の環境変数を /proc/<PID>/environ や ps eww で読めます。 .env を読み込んでから起動した開発サーバーの OPENAI_API_KEY （ダミー値）が、そのまま表示されました。 起動後に .env を消しても、動いているプロセスからは読めました。消すなら、プロセスの再起動まで必要です。 別のユーザー（ nobody ）からは Permission denied で読めませんでした。 Codex（codex-cli 0.165.0）の codex sandbox で試すと、 :read-only と :workspace ではサンドボックスの外のプロセスが見えず、読めませんでした。 :danger-full-access では読めました。 自分のプロセスのうち、鍵らしい名前の環境変数を持つものを 値を出さずに 一覧するスクリプトを載せます。 背景 AI コーディングエージェントに .env を読ませない設定（Claude Code の permi"
+      },
+      {
         "id": "qiita:eceb7c18e41f9d2ca5e284af",
         "source": "qiita",
         "author_tags": [
@@ -14985,6 +15017,83 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:2648c0dd4b933a18940ba2b4",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cyber-threat-intelligence"
+        ],
+        "url": "https://medium.com/@r2yn75/closing-the-military-gap-72bb8af8e399",
+        "title": "Closing the Military Gap?",
+        "author": "khaled",
+        "published_at": "2026-10-29T20:19:29+00:00",
+        "excerpt": "A Cross-Group Intelligence Assessment of Iranian Cyber Espionage and Military Capability Shortfalls (2011–2019) Continue reading on Medium »"
+      },
+      {
+        "id": "medium:852971f613143a14b04cf0c8",
+        "source": "medium",
+        "author_tags": [
+          "xss-attack",
+          "silentn0va",
+          "bug-bounty",
+          "cybersecurity",
+          "web-security"
+        ],
+        "url": "https://medium.com/@SilentN0va/one-payload-four-targets-how-a-10-confidence-scanner-hit-unlocked-unauthenticated-c595a9ceef06",
+        "title": "One Payload, Four Targets: How a 10% Confidence Scanner Hit Unlocked Unauthenticated…",
+        "author": "Fady Basem Zaky",
+        "published_at": "2026-10-29T20:01:41+00:00",
+        "excerpt": "A deep technical postmortem of a reflected XSS that lived not in a parameter value, but in the *name* of the parameter itself — and why… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9d098d2ae1b552da5e1d5d2e",
+        "source": "medium",
+        "author_tags": [
+          "dotnet",
+          "programming",
+          "web-development",
+          "software-development",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@janindumaleesha99/what-is-a-software-vulnerability-lets-understand-it-with-simple-examples-dc65bf3155bf",
+        "title": "What Is a Software Vulnerability? Let’s Understand It with Simple Examples",
+        "author": "Janindumaleesha",
+        "published_at": "2026-10-29T20:01:01+00:00",
+        "excerpt": "Software vulnerabilities explained in simple English, with practical examples and tips to help developers build more secure applications. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2a5dec337e9ef75ba59d3d37",
+        "source": "medium",
+        "author_tags": [
+          "identity-management",
+          "oauth",
+          "authorization",
+          "authentication",
+          "cybersecurity"
+        ],
+        "url": "https://sahinyelkenci.medium.com/authentication-authorization-e%C4%9Fitim-serisi-appendix-a-glossary-terim-s%C3%B6zl%C3%BC%C4%9F%C3%BC-9c628bda0fa7",
+        "title": "Authentication & Authorization Eğitim Serisi — Appendix A: Glossary — Terim Sözlüğü",
+        "author": "Sahin Yelkenci",
+        "published_at": "2026-10-29T19:47:14+00:00",
+        "excerpt": "Ekler Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9e54694b9332204b9845da49",
+        "source": "medium",
+        "author_tags": [
+          "dns",
+          "osint",
+          "python",
+          "data-visualization",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@umidguluzada/mini-osint-graph-a-lightweight-dns-reconnaissance-visual-graph-tool-9e532adf8f2f",
+        "title": "mini-osint-graph: A Lightweight DNS Reconnaissance & Visual Graph Tool",
+        "author": "Umid Guluzada",
+        "published_at": "2026-10-29T19:40:08+00:00",
+        "excerpt": "In cybersecurity and Open Source Intelligence (OSINT) operations, rapidly mapping and understanding a target domain’s infrastructure is… Continue reading on Medium »"
+      },
       {
         "id": "medium:40c0041d6a4366f5f2631e4b",
         "source": "medium",
