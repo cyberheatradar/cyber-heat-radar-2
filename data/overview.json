@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-29T00:12:30.648032+00:00",
-  "as_of": "2026-10-29T00:00:00+00:00",
-  "catalog_count": 21175,
+  "generated_at": "2026-10-29T01:12:17.880616+00:00",
+  "as_of": "2026-10-29T01:00:00+00:00",
+  "catalog_count": 21181,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,144 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:b61d49184fc95523d9b82c26",
+      "permalink_id": "article-url-b61d49184fc95523d9b82c26",
+      "canonical_url": "https://www.security-next.com/192142",
+      "title": "「Sophos UTM」に深刻なRCE脆弱性 - EOLで手動パッチ必要",
+      "summary_excerpt": "Sophosのセキュリティゲートウェイ製品「Sophos UTM」に深刻な脆弱性が判明した。同製品のサポートはすでに終了しているが、同社では修正パッチを用意しており、急いで適用するよう求めている。",
+      "published_at": "2026-10-29T09:29:49+09:00",
+      "first_seen_at": "2026-10-29T10:02:13.723160+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:3f6f790ff2acf5d1a9b19a50",
+      "permalink_id": "article-url-3f6f790ff2acf5d1a9b19a50",
+      "canonical_url": "https://grahamcluley.com/smashing-security-podcast-490/",
+      "title": "Smashing Security podcast #490: How Jared Kushner’s iPhone was allegedly hacked twice",
+      "summary_excerpt": "Dutch spies, Russian hackers and Jared Kushner’s iPhone. It sounds like the ingredients for a thriller, but according to claims in a new book the US President's son-in-law may have been hacked twice. Is any of it true, and what does it tell us about the phones in our pockets? Meanwhile, James Ball explains that of the internet’s most trusted security keys were protected by numbers so small that one of them was... four. Yes, \"4\". And then, of course, to make the week worse we suffered a PHPocalpyse... Plus, Chuck Randolph of 360 Privacy explains how the internet has made it scarily easy to put ",
+      "published_at": "2026-10-29T09:16:56+09:00",
+      "first_seen_at": "2026-10-29T10:02:06.207917+09:00",
+      "source_name": "Graham Cluley",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "media_podcast",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ad71f6e76946f5a732d6a298",
+      "permalink_id": "article-url-ad71f6e76946f5a732d6a298",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261029-5214710/",
+      "title": "パナソニック、禁止された生成AIに約33万人分の個人情報をアップロード",
+      "summary_excerpt": "パナソニック オペレーショナルエクセレンスは10月23日、人事情報システムの導入プロジェクトにおいて、従業員や元従業員、その家族など約33万4000人分の個人情報を含むデータが、社内で利用を禁止している外部の生成AIサービスにアップロードされたと発表した。外部からの不正アクセスではなく、プロジェクトメンバーによる社内ルール違反が原因としている。",
+      "published_at": "2026-10-29T09:12:52+09:00",
+      "first_seen_at": "2026-10-29T10:02:11.561988+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:231373e52dba0b799bc11c82",
+      "permalink_id": "article-url-231373e52dba0b799bc11c82",
+      "canonical_url": "https://www.security-next.com/192136",
+      "title": "LinuxカーネルやVMware ESXの脆弱性、悪用を確認 - 米当局",
+      "summary_excerpt": "Linuxカーネルと「VMware ESX」の一部脆弱性が実際に悪用されているとし、米当局が注意を呼びかけている。Linuxカーネルの脆弱性に関しては「PHP2Shell」と組み合わせた攻撃の懸念が出ている。",
+      "published_at": "2026-10-29T09:02:15+09:00",
+      "first_seen_at": "2026-10-29T09:02:31.671231+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0cdb3e350301d32074eded7d",
+      "permalink_id": "article-url-0cdb3e350301d32074eded7d",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002692/",
+      "title": "「ツイキャス」不正アクセスで停止　復旧までに「相応の時間」",
+      "summary_excerpt": "ツイキャスのサーバに第三者による不正アクセスが行われた形跡を確認した。",
+      "published_at": "2026-10-29T08:56:59+09:00",
+      "first_seen_at": "2026-10-29T10:02:10.089530+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a9a756f4bf4ec731a1823ac6",
+      "permalink_id": "article-url-a9a756f4bf4ec731a1823ac6",
+      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/29/news026.html",
+      "title": "「異常検知はもう通用しない」　フロンティアAIが覆すセキュリティの前提、ガートナーが警鐘",
+      "summary_excerpt": "ガートナーは、2026年の日本におけるセキュリティ（AI時代のサイバーセキュリティ）のハイプサイクルを発表した。サイバーセキュリティリーダーがAI時代のサイバーセキュリティについて注目すべき重要なテクノロジー、手法、概念を取り上げている。",
+      "published_at": "2026-10-29T08:30:00+09:00",
+      "first_seen_at": "2026-10-29T10:01:39.853211+09:00",
+      "source_name": "@IT Security & Trust",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:6ed5b9099049043b434c8f03",
       "permalink_id": "article-url-6ed5b9099049043b434c8f03",
@@ -99,132 +237,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:61bde264ddb69494045c17c2",
-      "permalink_id": "article-url-61bde264ddb69494045c17c2",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56620.html",
-      "title": "「ショップサーブ」に不正アクセス、漏えい対象者数は約2,335万6,000人",
-      "summary_excerpt": null,
-      "published_at": "2026-10-29T08:05:22+09:00",
-      "first_seen_at": "2026-10-29T09:02:30.131379+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f4fd04a6c103d792a278bea8",
-      "permalink_id": "article-url-f4fd04a6c103d792a278bea8",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56619.html",
-      "title": "フジテレビの番組宣伝システムに不正アクセス、メディア関係者の個人情報が漏えいした可能性",
-      "summary_excerpt": null,
-      "published_at": "2026-10-29T08:05:19+09:00",
-      "first_seen_at": "2026-10-29T09:02:30.221451+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2be8435eea6b4f64cd9a841a",
-      "permalink_id": "article-url-2be8435eea6b4f64cd9a841a",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56618.html",
-      "title": "医療機関業務支援システム「@link（アットリンク）」に不正アクセス、サービスの提供を一時停止",
-      "summary_excerpt": null,
-      "published_at": "2026-10-29T08:05:17+09:00",
-      "first_seen_at": "2026-10-29T09:02:30.353759+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:3bf668b3bedc00c2215e62fd",
-      "permalink_id": "article-url-3bf668b3bedc00c2215e62fd",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56616.html",
-      "title": "BtoC通販向け決済「NP後払い」に不正アクセス",
-      "summary_excerpt": null,
-      "published_at": "2026-10-29T08:05:10+09:00",
-      "first_seen_at": "2026-10-29T09:02:30.549486+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7deb6cea4bc10a64a1585bfc",
-      "permalink_id": "article-url-7deb6cea4bc10a64a1585bfc",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56615.html",
-      "title": "石油資源開発が利用するラクスライトクラウドのASPサービス「blastmail」に不正アクセス",
-      "summary_excerpt": null,
-      "published_at": "2026-10-29T08:05:06+09:00",
-      "first_seen_at": "2026-10-29T09:02:30.639836+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:df5a50dc15f916f77a8b33f8",
-      "permalink_id": "article-url-df5a50dc15f916f77a8b33f8",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56614.html",
-      "title": "丸木医科器械へのサイバー攻撃で基幹システムがダウン、FAX で注文受付",
-      "summary_excerpt": null,
-      "published_at": "2026-10-29T08:05:02+09:00",
-      "first_seen_at": "2026-10-29T09:02:31.009516+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -297,76 +309,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:980c6fa98a6cc8f4c4e74006",
-      "permalink_id": "article-url-980c6fa98a6cc8f4c4e74006",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-41709",
-      "title": "CVE-2026-41709: Broadcom VMware ESX",
-      "summary_excerpt": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
-      "published_at": "2026-10-28T09:00:00+09:00",
-      "first_seen_at": "2026-10-29T05:01:32.938909+09:00",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "source_class": "enrichment_kev",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "cves": [
-        "CVE-2026-41709"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": true,
-      "heat_score": 70.97,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e294714b398ec94aec035294",
-      "permalink_id": "article-url-e294714b398ec94aec035294",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-46300",
-      "title": "CVE-2026-46300: Linux Kernel",
-      "summary_excerpt": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
-      "published_at": "2026-10-28T09:00:00+09:00",
-      "first_seen_at": "2026-10-29T05:01:32.923828+09:00",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "source_class": "enrichment_kev",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619",
-        "CVE-2026-46300"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": true,
-      "heat_score": 70.97,
       "published_at_future_suppressed": false
     },
     {
@@ -548,6 +490,64 @@
       "seen_in_kev": false,
       "heat_score": 67.5,
       "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:69f78e5d6dd57b74a9eb10c5",
+      "permalink_id": "article-url-69f78e5d6dd57b74a9eb10c5",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-831/",
+      "title": "ZDI-26-831: Apple macOS CoreText GDEF LigCaretList Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-112656.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T08:02:46.317181+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-112656"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a4f94e94572fa35f4af93186",
+      "permalink_id": "article-url-a4f94e94572fa35f4af93186",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-830/",
+      "title": "ZDI-26-830: Apple Safari jsToWasm IC Entrypoint Type Confusion Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-86974.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T08:02:44.310161+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-86974"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
     }
   ],
   "rising": [
@@ -580,6 +580,74 @@
     }
   ],
   "persistent_hot": [
+    {
+      "public_article_id": "url:12f2918042c0c47c806c514a",
+      "permalink_id": "article-url-12f2918042c0c47c806c514a",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-109618",
+      "title": "CVE-2026-109618: PHP Group PHP",
+      "summary_excerpt": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+      "published_at": "2026-10-26T09:00:00+09:00",
+      "first_seen_at": "2026-10-27T09:01:45.797516+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 39.42,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:172ecfe0c15f4eec9b008ada",
+      "permalink_id": "article-url-172ecfe0c15f4eec9b008ada",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-109619",
+      "title": "CVE-2026-109619: PHP Group PHP",
+      "summary_excerpt": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+      "published_at": "2026-10-26T09:00:00+09:00",
+      "first_seen_at": "2026-10-27T09:01:45.787768+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109619"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 39.42,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:43db36580b0eee07f550c4cb",
       "permalink_id": "article-url-43db36580b0eee07f550c4cb",
@@ -636,6 +704,27 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9506e1533df47d4a9ee0268a",
+      "permalink_id": "article-url-9506e1533df47d4a9ee0268a",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261026-5196353/",
+      "title": "PHPの深刻な脆弱性、kintoneへの影響は？ プラグイン各社の対応状況",
+      "summary_excerpt": "PHPに深刻な脆弱性が見つかったことを受け、サイボウズの業務改善プラットフォーム「kintone」に関連する一部のプラグインや連携サービスで、一時停止などの対応が行われた。kintone本体については安全性が確認されている一方、周辺サービスでは影響の有無や対応状況が異なる。各社の発表を整理する。",
+      "published_at": "2026-10-26T09:27:14+09:00",
+      "first_seen_at": "2026-10-26T10:02:12.425276+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 32.5,
       "published_at_future_suppressed": false
     },
     {
@@ -748,75 +837,6 @@
       "seen_in_kev": false,
       "heat_score": 32.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:144ea2db75da77f5ffc49d12",
-      "permalink_id": "article-url-144ea2db75da77f5ffc49d12",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
-      "title": "エスケーロジにランサムウェア攻撃、一部の社内情報の漏えいを確認",
-      "summary_excerpt": null,
-      "published_at": "2026-10-26T08:05:02+09:00",
-      "first_seen_at": "2026-10-26T09:01:58.341058+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 32.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ece69bbfd043b0189cbd4290",
-      "permalink_id": "article-url-ece69bbfd043b0189cbd4290",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56559.html",
-      "title": "PHP に複数の任意のコードが実行可能な脆弱性",
-      "summary_excerpt": null,
-      "published_at": "2026-10-26T08:00:08+09:00",
-      "first_seen_at": "2026-10-26T09:01:58.519459+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 32.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d1fbccfd0f462a0ec44e6925",
-      "permalink_id": "article-url-d1fbccfd0f462a0ec44e6925",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2150991.html",
-      "title": "GMO、「お名前.com デスクトップクラウド」へのサイバー攻撃で詳報、「能動的サイバー防御」の緊急要請も　見舞金、代替サービス、損失の補填など説明",
-      "summary_excerpt": "GMOインターネットグループ株式会社およびGMOインターネット株式会社は、FX自動売買専用VPS「お名前.com デスクトップクラウド」への不正アクセス（サイバー攻撃）について、詳細な情報を発表した。",
-      "published_at": "2026-10-26T07:00:00+09:00",
-      "first_seen_at": "2026-10-26T07:57:57.853149+09:00",
-      "source_name": "INTERNET Watch",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 32.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -837,15 +857,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Ciscoの「ASA」「FTD」にDoS脆弱性 - すでに悪用も",
+    "【LATEST #1】「Sophos UTM」に深刻なRCE脆弱性 - EOLで手動パッチ必要",
     "【HOTTEST #1 / Heat 75】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
-    "【LATEST #2】攻撃者に屈する前に“システムを自ら止める”――そのための「経営層の理解」をどう得る？　NRIが打ち出した支援策とは",
+    "【LATEST #2】Smashing Security podcast #490: How Jared Kushner’s iPhone was allegedly hacked twice",
     "【HOTTEST #2 / Heat 75】Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
-    "【LATEST #3】AI の「ハッカー」が広く使われる産業制御ソフトの深刻な脆弱性 4 件を 4 時間足らずで発見",
-    "【HOTTEST #3 / Heat 70.97】CVE-2026-41709: Broadcom VMware ESX",
-    "【LATEST #4】三井住友DS投信直販ネットのマイページにログインできない状況に、取引委託業者のシステムで不正アクセスを検知",
-    "【HOTTEST #4 / Heat 70.97】CVE-2026-46300: Linux Kernel",
-    "【LATEST #5】「ショップサーブ」に不正アクセス、漏えい対象者数は約2,335万6,000人",
-    "【HOTTEST #5 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch"
+    "【LATEST #3】パナソニック、禁止された生成AIに約33万人分の個人情報をアップロード",
+    "【HOTTEST #3 / Heat 67.5】Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "【LATEST #4】LinuxカーネルやVMware ESXの脆弱性、悪用を確認 - 米当局",
+    "【HOTTEST #4 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "【LATEST #5】「ツイキャス」不正アクセスで停止　復旧までに「相応の時間」",
+    "【HOTTEST #5 / Heat 67.5】Hackers Start Probing Fresh Oracle EBS Vulnerability"
   ]
 }
