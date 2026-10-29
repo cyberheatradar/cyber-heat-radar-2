@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T20:30:04.109774+00:00",
+  "source_snapshot_generated_at": "2026-10-29T21:30:05.871061+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:28148b3ff53119893a389c44",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261030-tech-watch",
+        "title": "Tech Watch 2026-10-30: エージェントの判断と監視",
+        "author": "らいけん",
+        "published_at": "2026-10-29T21:25:11.763000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eb19621e02350f1e7cc6de42",
+        "source": "zenn",
+        "author_tags": [
+          "JavaScript",
+          "Security",
+          "cryptography",
+          "privacy",
+          "webcrypto"
+        ],
+        "url": "https://zenn.dev/nanikore/articles/e3aa87a697cc65",
+        "title": "データを持たないことを考える（仕組み編）：暗号文・鍵・許可を3つに分ける",
+        "author": "ナニコレ",
+        "published_at": "2026-10-29T21:00:34+00:00",
+        "excerpt": "🐭 はじめに 前回の構想編では、企業が住所を持たずに荷物を届ける「データ版パスキー」という考え方を書きました。 https://zenn.dev/nanikore/articles/bc01b2b4153e9d ざっくり言うと、通販サイトは住所の代わりに「宛先トークン」だけを持ち、住所に戻せるのは配送業者だけ、という仕組みです。 今回は、それを実際にどう組み立てるかを書きます。ポイントは、誰も単独では住所を引き出せないことです。 ブラウザだけで動くデモも作りました。通販サイトのデータベースを盗むと何が出てくるのか、自分の手で攻撃して確かめられます。 AIと壁打ちしながら組み立てたもの..."
+      },
       {
         "id": "zenn:6ede136c330a86872c14fa01",
         "source": "zenn",
@@ -506,6 +538,16 @@
         "author": "すんすん",
         "published_at": "2026-10-29T11:49:04.889000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:570041f60b7ad49700a796df",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/mika_and_coco/books/coding-ai-infosec-guide",
+        "title": "コーディング AI の導入を判断する情報セキュリティ担当者のための参考書",
+        "author": "みか あんど ここ",
+        "published_at": "2026-10-29T11:40:46+00:00",
+        "excerpt": "Claude Code などのコーディング AI に、社内のコードや顧客の資料を読ませてよいか。コーディング AI の導入を判断する情報セキュリティ担当者に向けて、何が送られ、送った先でどう扱われ、どこで処理されるかを公式資料で確かめ、法令・業界のルール・契約と照らしたうえで、使い方の選び方、条件をつけて許可するための技術的な対策と管理用の設定、記録と事故対応までを 1 冊にまとめました。サンドボックス・dev container・管理用の設定は、実機で効き目を確かめた結果と手順を載せています。単発記事 3 本の書籍版で、改正個人情報保護法、Microsoft Foundry、自社のサーバーでのクラウドセッション、説明用のひな形を加えています。"
       },
       {
         "id": "zenn:223467e371dd82f5c0471348",
@@ -15017,6 +15059,86 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:30ae86093dcd7f4c80f96817",
+        "source": "medium",
+        "author_tags": [
+          "sql-injection",
+          "ethical-hacking",
+          "infosec",
+          "cve",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@asasiramorris56/unpacking-cve-2017-8917-a-hands-on-guide-to-reproducing-and-fixing-the-joomla-com-fields-sql-1c28e1e0a6df",
+        "title": "Unpacking CVE-2017–8917: A Hands-On Guide to Reproducing and Fixing the Joomla com_fields SQL…",
+        "author": "Asasira Morris",
+        "published_at": "2026-10-29T21:17:22+00:00",
+        "excerpt": "Reproducing historical vulnerabilities is one of the most effective ways to transition from theoretical cybersecurity concepts to… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f0189fe4441db48350b81583",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "computer-science",
+          "data-security",
+          "cia-triad",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@melisakbulut/the-cia-triad-the-foundation-of-cybersecurity-e95c3291819a",
+        "title": "The CIA Triad: The Foundation of Cybersecurity",
+        "author": "Melisa Akbulut",
+        "published_at": "2026-10-29T21:14:36+00:00",
+        "excerpt": "Explore the three pillars of information security and discover why they matter in everyday digital life. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5dea313592705ab886a96d8f",
+        "source": "medium",
+        "author_tags": [
+          "deepfakes",
+          "cybersecurity",
+          "online-safety",
+          "artificial-intelligence",
+          "scam"
+        ],
+        "url": "https://medium.com/@axonosint/ai-scams-fake-voices-deepfake-videos-and-bank-receipts-axon-osint-cb027dbcb9fd",
+        "title": "AI Scams: Fake Voices, Deepfake Videos, and Bank Receipts | Axon OSINT",
+        "author": "Axon OSINT",
+        "published_at": "2026-10-29T20:53:47+00:00",
+        "excerpt": "🎭 Scammers Can Now Look and Sound Like Someone You Trust Continue reading on Medium »"
+      },
+      {
+        "id": "medium:272dea27533f9914311ffe85",
+        "source": "medium",
+        "author_tags": [
+          "free-subscriptions",
+          "phonepe",
+          "petpooja",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@TheWildEye/payment-bypass-in-munshi-forging-a-phonepe-webhook-to-activate-an-unpaid-subscription-ce0806829fa4",
+        "title": "Payment Bypass in Munshi: Forging a PhonePe Webhook to Activate an Unpaid Subscription",
+        "author": "TheWildEye",
+        "published_at": "2026-10-29T20:50:56+00:00",
+        "excerpt": "An unauthenticated payment webhook accepted a forged PhonePe success notification, allowing Munshi to activate a paid subscription without… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d09922c8bc2f5f52d5cd6cdd",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "web",
+          "react",
+          "vulnerability",
+          "react2shell"
+        ],
+        "url": "https://medium.com/@gsoumyadip2307/i-built-a-lab-to-understand-react2shell-heres-what-rce-really-means-3ca2513e1b41",
+        "title": "I Built a Lab to Understand React2Shell — Here’s What RCE Really Means",
+        "author": "Soumyadip Ghosh",
+        "published_at": "2026-10-29T20:44:09+00:00",
+        "excerpt": "A hands-on look at CVE-2025–55182 — what actually happens when one HTTP request turns into code running on your server. Continue reading on Medium »"
+      },
       {
         "id": "medium:2648c0dd4b933a18940ba2b4",
         "source": "medium",
