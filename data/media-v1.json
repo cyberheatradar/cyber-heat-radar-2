@@ -1,9 +1,87 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T01:30:05.096483+00:00",
+  "source_snapshot_generated_at": "2026-10-29T02:30:05.103298+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3d02d14995a9b0617a96d65f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Playwright",
+          "E2E",
+          "testing",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/zundamon_tools/articles/ai-test-map-layers-expected-values",
+        "title": "AI 時代、単体テストは要らない？：テストの層ごとに期待値を誰が握るか",
+        "author": "ずんだもんの実験道具箱",
+        "published_at": "2026-10-29T02:25:35.961000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:88a16b6640769669f9da2912",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "Athena",
+          "Inspector",
+          "SBOM"
+        ],
+        "url": "https://zenn.dev/cscloud_blog/articles/inspector-sbom-php-research",
+        "title": "PHP2Shell の影響調査を Amazon Inspector の SBOM エクスポートと Athena で組織横断で検証してみた",
+        "author": "平木 佳介",
+        "published_at": "2026-10-29T02:18:02.955000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:07682128064083e27e62005c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "EC",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ec_jidoka_kobo/articles/d142ca5947fd40",
+        "title": "商品名が途中で切れる前に。AIで短い版を作る順番",
+        "author": "EC自動化工房",
+        "published_at": "2026-10-29T02:11:49.717000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c38b1fd665dcb8aaf3a8b34a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "スクレイピング",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ciel_lab/articles/13319a280768dc",
+        "title": "AI の裏取りに使う情報源の76語に、よその店の名前が6つ並んでいた",
+        "author": "Ciel",
+        "published_at": "2026-10-29T02:00:22.290000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:755b6333e721e4b3551a8c2f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DevOps",
+          "Tailscale",
+          "genie",
+          "Ghostty"
+        ],
+        "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-28-1032",
+        "title": "Ghostty 1.4、Tailscale SSH障害、Genie 4に見る2025年開発トレンド",
+        "author": "田中根小介",
+        "published_at": "2026-10-29T01:55:30.597000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:fef67a549d829a986cfd7ba7",
         "source": "zenn",
@@ -8573,6 +8651,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5d907df6d93a423b801a5eac",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "SSRF",
+          "HTTP",
+          "初心者"
+        ],
+        "url": "https://qiita.com/s_horikoshi/items/f244ef1ed0b0930f2c30",
+        "title": "PHP対応状況セルフチェックを作った 外から分かることとSSRF対策",
+        "author": "s_horikoshi",
+        "published_at": "2026-10-29T10:56:40+09:00",
+        "excerpt": "はじめに PHPの脆弱性について注意喚起が出たとき、「自社サイトでPHPを使っているか分からない」「制作会社に何を確認すればよいか分からない」という場合があります。 そこで、弊社サイトで、URLからPHP利用の手がかりと公開ページの設定を確認できるセルフチェックを公開しました。 この記事では、ツールの紹介だけでなく、外から判断できる範囲、結果の設計、URLをサーバー側で取得するときの注意点を説明します。 先に結論 公開ページからPHP利用の手がかりは得られますが、外からPHPの有無や修正状況を必ず確定できるわけではありません。 このツールは、攻撃を試して脆弱性を実証するものでも、ソースコードをAIで検査するものでもありません。 「取得できた範囲で問題が見つからない」と「未確認」を分けます。 URL入力型ツールでは、利用者の権限確認と、サーバー側のSSRF対策の両方が必要です。 公開する技術記事では、設計の考え方と匿名化した例を中心にし、実際の診断対象や内部情報は載せません。 前提 確認日：2026年10月28日 対象：弊社が公開したPHP対応状況"
+      },
+      {
         "id": "qiita:07e83bd374af59163d7b0953",
         "source": "qiita",
         "author_tags": [
@@ -13273,6 +13367,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b55d1c53378a92c8bc5d7c20",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-research",
+          "cybersecurity",
+          "linux",
+          "cloud-security",
+          "privilege-escalation"
+        ],
+        "url": "https://medium.com/@rohitreturns00/copyfail-cve-2026-31431-how-just-4-bytes-can-turn-a-linux-user-into-root-fbf240ed5195",
+        "title": "CopyFail (CVE-2026–31431): How Just 4 Bytes Can Turn a Linux User Into Root",
+        "author": "Rohit.sec",
+        "published_at": "2026-10-29T02:04:05+00:00",
+        "excerpt": "Inside a critical Linux kernel flaw that allows unprivileged users to overwrite protected memory and gain root access without modifying… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:43887e6f29af935582789b03",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "roblox",
+          "game-development",
+          "roblox-studio",
+          "bahasa-indonesia"
+        ],
+        "url": "https://medium.com/@jokiappcom/anti-cheat-roblox-cara-melindungi-game-dari-exploit-di-roblox-studio-panduan-2026-2ae0d1acfcce",
+        "title": "Anti Cheat Roblox: Cara Melindungi Game dari Exploit di Roblox Studio (Panduan 2026)",
+        "author": "JokiApp",
+        "published_at": "2026-10-29T02:01:04+00:00",
+        "excerpt": "Validasi RemoteEvent, batas frekuensi, cek gerakan, Server Authority, Device Trust, dan Ban API dari sudut pandang developer. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:70c1cda70885e307f12806d1",
+        "source": "medium",
+        "author_tags": [
+          "2026",
+          "cybersecurity",
+          "cybersecurity-coonect"
+        ],
+        "url": "https://medium.com/@airuschan0w02509/kami-datang-untuk-tugas-pulang-membawa-banyak-pelajaran-02ee51ae48fa",
+        "title": "Kami Datang untuk Tugas, Pulang Membawa Banyak Pelajaran",
+        "author": "Airuschanw",
+        "published_at": "2026-10-29T01:58:27+00:00",
+        "excerpt": "Disini kami mengikuti event nasional Cyber Security Connect 2026 menjadi pengalaman yang cukup menarik bagi kami. Di event ini, kami tidak… Continue reading on Medium »"
+      },
       {
         "id": "medium:810c20641b560b70cddeffaa",
         "source": "medium",
