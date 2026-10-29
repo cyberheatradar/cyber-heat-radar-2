@@ -1,9 +1,100 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T11:30:06.446959+00:00",
+  "source_snapshot_generated_at": "2026-10-29T12:30:05.940752+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:63b0b16c4eeab0aa90c940f5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Gmail",
+          "automation",
+          "Obsidian",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/spring1293/articles/2918fcd8518bb3",
+        "title": "ITニュースの情報収集に迷走した末、Claude+Gmailで「朝刊・夕刊」を自動配信するようにした話",
+        "author": "spring1293",
+        "published_at": "2026-10-29T12:27:20.688000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:83c3fb8fde410ca6303e6198",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/sunsun_eng/articles/improve-ai-prompt-precision-tips",
+        "title": "AIへの指示、「いつもの一言」を変えるだけで精度が上がる理由",
+        "author": "すんすん",
+        "published_at": "2026-10-29T11:49:04.889000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:223467e371dd82f5c0471348",
+        "source": "zenn",
+        "author_tags": [
+          "初心者",
+          "Security",
+          "Network",
+          "server"
+        ],
+        "url": "https://zenn.dev/ryokasai/articles/6837465648bf0c",
+        "title": "emudhra事件をうけてサーバ証明書について調べてみた",
+        "author": "rkasai127",
+        "published_at": "2026-10-29T11:39:18.159000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7dc0ca76647e4c6fe41236eb",
+        "source": "zenn",
+        "author_tags": [
+          "Apache",
+          "Cloudflare",
+          "WAF",
+          "Security",
+          "firewall"
+        ],
+        "url": "https://zenn.dev/kodo8/articles/21dcb3b1b0c3d4",
+        "title": ".htaccessだけで動く「nG Firewall」は今でも使える？ 1Gから8Gまでの進化と役割",
+        "author": "kodo",
+        "published_at": "2026-10-29T11:37:17.786000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:664da0de77f41a98a8c4dd3c",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "PHP",
+          "Security",
+          "compose",
+          "vulnerability"
+        ],
+        "url": "https://zenn.dev/fk2000/articles/php2shell-docker-side-by-side",
+        "title": "本番を止めずPHPを並べる：PHP2shell対策をDockerで確かめる",
+        "author": "ふじけん",
+        "published_at": "2026-10-29T11:33:15.790000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ba1f777d22824203bbefcca8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "CI",
+          "architecture",
+          "脆弱性"
+        ],
+        "url": "https://zenn.dev/yasuakiomokawa/articles/5a7188483acfe7",
+        "title": "AI にデバッグ用の機能を書かせても、脆弱性にしないために",
+        "author": "Yasuaki Omokawa",
+        "published_at": "2026-10-29T11:30:33.267000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:18e9c3137ecfbf3e4a1bf701",
         "source": "zenn",
@@ -6249,6 +6340,22 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:3cf4396413ccf2e4b0f25d0b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "llm",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mskbhd/articles/lab-313-pi-in-process-tool",
+        "title": "コーディングエージェントPiのフックはbashを本当に止められるか実測した",
+        "author": "mskbhd",
+        "published_at": "2026-10-20T23:20:24.724000+00:00",
+        "excerpt": ""
+      },
+      {
         "id": "zenn:164cf1ae22090a87b8e58252",
         "source": "zenn",
         "author_tags": [],
@@ -9397,6 +9504,22 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:e3fad5ab835214f528b7dced",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AIエージェント",
+          "LLM",
+          "SLM",
+          "Cisco"
+        ],
+        "url": "https://qiita.com/koema/items/8be1b23986072c9d1b83",
+        "title": "Antares（Ciscoの小規模言語モデル）を使って疑似ECサイトを解析してみた",
+        "author": "koema",
+        "published_at": "2026-10-29T21:13:33+09:00",
+        "excerpt": "はじめに Frontier AI の急速な進化に伴い、先日2026年10月22日の PHPの脆弱性のニュース のように、重大な脆弱性が新たに発見され、それを悪用される事案が頻出していることは、皆様にとっても非常に身近な話題かと思います。 一方で、最先端のAIを、自社で管理するコードの点検のために使うことを考えたことはありますでしょうか。 今回は、CiscoのFoundation AI が開発した、コード内の脆弱性がある箇所を特定することに特化した小規模言語モデル 「Antares」 を小規模な環境で動かし、ソフトウェアのセキュリティ向上を目的とするオープンコミュニティの OWASP が公開する、脆弱性を内包する練習用のECサイトとして有名な「Juice Shop」を解析し、AIが脆弱性を発見する実際の様子を確かめてみました。 この記事では次の内容をまとめます。 Antares とは何か、どう動くのか、何が強みなのか CPU のみの環境での動作速度 Juice Shop での検証結果 検証から見えた「得意なこと・苦手なこと」と、実務での使いどころ "
+      },
       {
         "id": "qiita:32015d0f45215056ffebd9a5",
         "source": "qiita",
@@ -14299,6 +14422,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4769272b68a6dd9d21071d45",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "ethical-hacking",
+          "hacking",
+          "penetration-testing",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@verylazytech/20-authentication-vulnerabilities-every-pentester-should-test-master-the-art-of-finding-flaws-c979c09299d8",
+        "title": "20 Authentication Vulnerabilities Every Pentester Should Test: Master the Art of Finding Flaws",
+        "author": "Very Lazy Tech",
+        "published_at": "2026-10-29T12:15:15+00:00",
+        "excerpt": "Did you know that, according to Verizon’s DBIR, over 80% of web app breaches involve weak or compromised authentication? Sounds dramatic —… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:41ad2883e2828a899dec5bf7",
+        "source": "medium",
+        "author_tags": [
+          "security-engineering",
+          "information-security",
+          "data-loss-prevention",
+          "cybersecurity",
+          "linux-security"
+        ],
+        "url": "https://medium.com/nextgenthreat/everything-says-youre-secure-here-s-what-your-dashboard-can-t-tell-you-694cd83b2bcc",
+        "title": "Everything Says You’re Secure. Here’s What Your Dashboard Can’t Tell You.",
+        "author": "Faruk Ahmed",
+        "published_at": "2026-10-29T12:01:02+00:00",
+        "excerpt": "Everything Says You’re Secure. Here’s What Your Dashboard Can’t Tell You. Continue reading on NextGenThreat | Breach Stories & Linux Defense »"
+      },
+      {
+        "id": "medium:eb18a8da975d7d67026d91df",
+        "source": "medium",
+        "author_tags": [
+          "tutorial",
+          "ubuntu",
+          "linux",
+          "cybersecurity",
+          "openssl"
+        ],
+        "url": "https://medium.com/@emilyharbord2/how-to-install-openssl-4-1-on-ubuntu-24-04-9e888c648a8a",
+        "title": "How to Install OpenSSL 4.1 on Ubuntu 24.04",
+        "author": "Emilyharbord",
+        "published_at": "2026-10-29T11:58:48+00:00",
+        "excerpt": "Build OpenSSL 4.1 from source, configure trusted certificates, and verify your installation without replacing Ubuntu’s system version. Continue reading on Medium »"
+      },
       {
         "id": "medium:e5666b630933ef42fbfa8b07",
         "source": "medium",
