@@ -1,9 +1,52 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T10:30:06.789552+00:00",
+  "source_snapshot_generated_at": "2026-10-29T11:30:06.446959+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:18e9c3137ecfbf3e4a1bf701",
+        "source": "zenn",
+        "author_tags": [
+          "Node.js",
+          "PHP",
+          "Security",
+          "脆弱性"
+        ],
+        "url": "https://zenn.dev/oosawak/articles/php-nodejs-supplement",
+        "title": "技術者向け補足資料：PHPとNode.jsの脆弱性・更新・メジャーバージョンアップ",
+        "author": "oosawak",
+        "published_at": "2026-10-29T11:05:34.304000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:63f7251250402ea837be0228",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/vulcanfeynman/articles/7d5c4d36e6c08c",
+        "title": "Keep the motion, change the cast: a motion-transfer video workflow",
+        "author": "VulcanFeynman",
+        "published_at": "2026-10-29T10:55:51.795000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fcbb71b57c7d7ed79562bf6c",
+        "source": "zenn",
+        "author_tags": [
+          "Node.js",
+          "Security",
+          "Windows",
+          "llm",
+          "appcontainer"
+        ],
+        "url": "https://zenn.dev/maruhana/articles/local-llm-agent-hermes-appcontainer-dns",
+        "title": "ローカル LLM のエージェントを AppContainer に入れて DNS まで塞いだ。ループバックの例外は全ポートを開けていた",
+        "author": "maruhana",
+        "published_at": "2026-10-29T10:54:05.092000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:d66d32b4d909a3cf61c9c1af",
         "source": "zenn",
@@ -9355,6 +9398,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:32015d0f45215056ffebd9a5",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Git",
+          "AIAgent",
+          "entire",
+          "Security"
+        ],
+        "url": "https://qiita.com/kai_kou/items/801adab6d27be309a10a",
+        "title": "Entire CLI の使い方、Claude Code の作業をコミットに紐づけて残す",
+        "author": "kai_kou",
+        "published_at": "2026-10-29T20:13:14+09:00",
+        "excerpt": "はじめに Claude Code にコミットまで任せていると、「このコミットはどんな指示から生まれたのか」を後から追いたくなります。コミットメッセージには結果しか残らず、やり取りはローカルのセッションログに埋もれます。 この記事では、エージェントの作業履歴を Git のコミットに紐づけて保存する Entire CLI を、Claude Code と組み合わせて実際に動かした結果をまとめます。インストールから記録の読み方、秘密情報がどこまで伏せられるか、外したあとに何が残るかまでを順に確認しました。 対象読者は、Claude Code を日常的に使っていて、エージェントの作業履歴をコードレビューや引き継ぎに残したい開発者です。 前提条件（検証環境） 筆者が 2026-10-28 JST に検証した環境は次のとおりです。 項目 バージョン OS Linux x86_64（クラウドのコンテナ） Entire CLI 0.12.2（Go 1.27.3 ビルド） Claude Code 2.1.312 Git 2.43.0 検証用のリポジトリには remo"
+      },
+      {
+        "id": "qiita:0d694500f35371f0105691a2",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "MCP",
+          "ClaudeCode",
+          "AIエージェント",
+          "Security"
+        ],
+        "url": "https://qiita.com/kinamocchi_tech/items/be1595ec93ce975fbf6f",
+        "title": "MCPサーバー自作は簡単？でも認証の3つのMUSTは外せない",
+        "author": "kinamocchi_tech",
+        "published_at": "2026-10-29T20:06:40+09:00",
+        "excerpt": "📺 この記事は YouTube チャンネル きなこもっちーのテック深掘り の動画解説記事です。 ▶️ 動画はこちら → MCPサーバー自作は簡単？でも認証の3つのMUSTは外せない 🐹🦜 この記事に登場する2匹 🐹 もっちー （ハムスター）… AI はまだ勉強中。「それどういうこと？」と素朴に質問する生徒役 🦜 きなこ （セキセイインコ）… AI で調べものをこなす解説役。やさしく深掘りして教える先生役 この記事は2匹の掛け合いを書き起こした形式です。発言の先頭にいる絵文字＋名前が話者です。 はじめに 🐹 もっちー「MCPって最近よく聞くけど、大企業のエンジニアが専門知識を総動員して使う難しい仕組みってイメージなんだよなあ」 🦜 きなこ「大企業しか使えない、って思う気持ちはよく分かるよ。今までは接続の仕組みそのものがかなり複雑だったからね」 🦜 きなこ「その感覚、実はもう古いんだよ。2026年7月28日にMCPの仕様が変わって、状況がかなり変わったの」 🐹 もっちー「え、仕様が変わったって、ぼく全然知らなかったよ…」 🦜 きなこ「無理もないよ、公"
+      },
+      {
+        "id": "qiita:a35eda200bceb3e16258cf09",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "hooks",
+          "Claude",
+          "Bash",
+          "Security"
+        ],
+        "url": "https://qiita.com/25h/items/ea7d09da74b1c2e779ef",
+        "title": "Claude Code が brew install や npm install -g を打つ前に、調べた記録を求める hook",
+        "author": "25h",
+        "published_at": "2026-10-29T19:32:29+09:00",
+        "excerpt": "この記事でやること Claude Code に作業を任せていると、足りない道具を Claude が自分で入れようとすることがあります。 brew install や npm install -g のように、プロジェクトの中でなく機械の全体に入る導入です。 この記事では、 PreToolUse の hook を 1 本書いて、こうした導入を「調べた記録」で振り分けます。 プロジェクトに在る記録 起きること 無い 導入を止める。Claude には、調べて記録を書くよう伝わる Risk: LOW hook は止めない。その後は、いつもの権限の設定どおり Risk: MID か Risk: HIGH あなたに確認が出る 記録は docs/tool-audits/<道具の名前>-audit.md という Markdown です。必要なのは bash と jq だけです。macOS か Linux を前提にしています。試すのは偽の brew で、本物は何も入りません。 まず、何が足りないのか 確認を出すだけなら、Claude Code 標準の権限設定で足りま"
+      },
+      {
         "id": "qiita:e5b30ef70cb85afc62c86b5e",
         "source": "qiita",
         "author_tags": [
@@ -14208,6 +14299,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e5666b630933ef42fbfa8b07",
+        "source": "medium",
+        "author_tags": [
+          "risk-management",
+          "cybersecurity",
+          "leadership",
+          "business-strategy",
+          "corporate-governance"
+        ],
+        "url": "https://medium.com/@tyson.martin/your-cybersecurity-report-may-be-full-of-information-and-still-leave-the-board-unable-to-decide-5087353ebbc5",
+        "title": "Your cybersecurity report may be full of information and still leave the board unable to decide.",
+        "author": "Tyson Martin",
+        "published_at": "2026-10-29T11:11:01+00:00",
+        "excerpt": "A worked example: turning a green backup-status update into a decision about recovery, operating disruption, and the cost of waiting. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0ec2b69b169134d1a1f2a179",
+        "source": "medium",
+        "author_tags": [
+          "otp-bypass",
+          "penetration-testing",
+          "authentication",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://samadhanshimple.medium.com/otp-login-security-test-i-found-a-possible-auth-bypass-by-samadhan-shimple-789c0966fa51",
+        "title": "OTP Login Security Test: I Found a Possible Auth Bypass | by Samadhan Shimple",
+        "author": "Samadhan shimple",
+        "published_at": "2026-10-29T11:03:53+00:00",
+        "excerpt": "Multi-factor authentication (MFA) is an important security feature used to protect user accounts. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:241e10a1941ef17e4f49a66c",
+        "source": "medium",
+        "author_tags": [
+          "software-development",
+          "cyber-security-solutions",
+          "cybersecurity",
+          "cyber-security-awareness",
+          "trending"
+        ],
+        "url": "https://medium.com/@oh_soulution_/cybersecurity-trai-and-digital-rights-what-parul-university-students-learned-28a86f99ed05",
+        "title": "Cybersecurity, TRAI, and Digital Rights: What Parul University Students Learned!",
+        "author": "Mitali Mehta",
+        "published_at": "2026-10-29T11:00:58+00:00",
+        "excerpt": "A phone is in every pocket. This session asked who protects you when something goes wrong with it. Continue reading on Medium »"
+      },
       {
         "id": "medium:b4889756b9e4019ea1167db3",
         "source": "medium",
