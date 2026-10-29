@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-29T09:13:15.675131+00:00",
-  "as_of": "2026-10-29T09:00:00+00:00",
-  "catalog_count": 21214,
+  "generated_at": "2026-10-29T10:12:19.287867+00:00",
+  "as_of": "2026-10-29T10:00:00+00:00",
+  "catalog_count": 21216,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,56 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:a8c93a077438eadc99160830",
+      "permalink_id": "article-url-a8c93a077438eadc99160830",
+      "canonical_url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+      "summary_excerpt": "Cisco on Wednesday released fixes for an exploited vulnerability affecting its Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) software. Tracked as CVE-2026-76418 and assigned a CVSS score of 8.6, the bug resides in the Remote Access SSL VPN service. Attackers can exploit it remotely, without authenticating, to force the device […] The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek .",
+      "published_at": "2026-10-29T18:47:10+09:00",
+      "first_seen_at": "2026-10-29T19:01:47.808234+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76418"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c7a6421daf094b9d020f9988",
+      "permalink_id": "article-url-c7a6421daf094b9d020f9988",
+      "canonical_url": "https://www.theregister.com/security/2026/10/29/admin-dropped-the-f-bomb-in-a-password-to-show-hackers-who-was-really-1337/5306139",
+      "title": "Admin dropped the F-bomb in a password to show hackers who was really 1337",
+      "summary_excerpt": "Cursing in login credentials can help keep the bad guys out, but not when the rest of your security is BS",
+      "published_at": "2026-10-29T18:00:00+09:00",
+      "first_seen_at": "2026-10-29T19:01:48.880399+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:e0fe93c38240162ad375ebfc",
       "permalink_id": "article-url-e0fe93c38240162ad375ebfc",
@@ -225,57 +275,38 @@
       "seen_in_kev": false,
       "heat_score": 73.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bd16f6a04ff3d08366cd6214",
-      "permalink_id": "article-url-bd16f6a04ff3d08366cd6214",
-      "canonical_url": "https://japan.zdnet.com/article/35254163/",
-      "title": "NEC、2026年度通期業績を上方修正--米CSG連結や防衛事業好調で上期はロケットスタート",
-      "summary_excerpt": "NECが発表した2026年度上期の連結業績は想定を上回る好決算となり、今年度2回目となる通期業績見通しの上方修正につながった。米CSGの新規連結が収益に大きく貢献したほか、「BluStellar」の拡大や航空宇宙・防衛事業が好調をけん引。また、情報漏えい事案に対する管理体制強化の方針も示した。",
-      "published_at": "2026-10-29T15:58:00+09:00",
-      "first_seen_at": "2026-10-29T16:02:27.989312+09:00",
-      "source_name": "ZDNET Japan All",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:3bdeb1831cea592d98fd4f4c",
-      "permalink_id": "article-url-3bdeb1831cea592d98fd4f4c",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/29/nathan-smolenski-qualys-ai-vulnerability-management/",
-      "title": "Qualys CISO on what security teams can do as exploit campaigns grow",
-      "summary_excerpt": "In this Help Net Security interview, Nathan Smolenski, CISO at Qualys, talks about how security teams can handle the growing volume of AI-discovered vulnerabilities. He explains why CISOs should track the average window of exposure instead of standard MTTR, and why only a small share of disclosed flaws, under one percent in 2025, pose active risk. Smolenski also covers how teams can build trust in autonomous remediation through asset tiering, human review, and rollback processes, … More → The post Qualys CISO on what security teams can do as exploit campaigns grow appeared first on Help Net Se",
-      "published_at": "2026-10-29T15:30:04+09:00",
-      "first_seen_at": "2026-10-29T16:02:08.957827+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:a8c93a077438eadc99160830",
+      "permalink_id": "article-url-a8c93a077438eadc99160830",
+      "canonical_url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+      "summary_excerpt": "Cisco on Wednesday released fixes for an exploited vulnerability affecting its Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) software. Tracked as CVE-2026-76418 and assigned a CVSS score of 8.6, the bug resides in the Remote Access SSL VPN service. Attackers can exploit it remotely, without authenticating, to force the device […] The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek .",
+      "published_at": "2026-10-29T18:47:10+09:00",
+      "first_seen_at": "2026-10-29T19:01:47.808234+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76418"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:6fa958c054e03af64d72c3b0",
       "permalink_id": "article-url-6fa958c054e03af64d72c3b0",
@@ -363,27 +394,6 @@
       "summary_excerpt": "牛丼チェーン「松屋」を運営する松屋フーズは10月29日までに、外部からの不正アクセスを検知したとして、公式アプリやWebサイトを停止していると発表した。原因と影響範囲を調べており、復旧の見通しは改めて知らせるとしている。",
       "published_at": "2026-10-29T13:44:14+09:00",
       "first_seen_at": "2026-10-29T15:02:04.881279+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 73.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bffbf5ad854cd8dacbd3c70e",
-      "permalink_id": "article-url-bffbf5ad854cd8dacbd3c70e",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002707/",
-      "title": "ベネフィット・ワンの委託先に不正アクセス　セゾン会員向け優待サービスで約2.9万人分の個人情報漏えい",
-      "summary_excerpt": "ベネフィット・ワンは10月28日、業務委託先のシステムへの不正アクセスで、クレディセゾン会員向け優待サービス「トク買」の会員2万9465人分の個人情報が漏えいしたと発表した。クレジットカード情報の漏えいはないという。",
-      "published_at": "2026-10-29T12:40:20+09:00",
-      "first_seen_at": "2026-10-29T14:02:32.822328+09:00",
       "source_name": "ITmedia NEWS Bursts",
       "source_class": "topic_rss",
       "security_relevance": "primary",
@@ -528,32 +538,24 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:8816f06283041a0ccd4d1110",
-      "permalink_id": "article-url-8816f06283041a0ccd4d1110",
-      "canonical_url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-      "summary_excerpt": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek .",
-      "published_at": "2026-10-28T18:14:23+09:00",
-      "first_seen_at": "2026-10-28T19:02:09.695547+09:00",
-      "source_name": "SecurityWeek",
+      "public_article_id": "url:bffbf5ad854cd8dacbd3c70e",
+      "permalink_id": "article-url-bffbf5ad854cd8dacbd3c70e",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002707/",
+      "title": "ベネフィット・ワンの委託先に不正アクセス　セゾン会員向け優待サービスで約2.9万人分の個人情報漏えい",
+      "summary_excerpt": "ベネフィット・ワンは10月28日、業務委託先のシステムへの不正アクセスで、クレディセゾン会員向け優待サービス「トク買」の会員2万9465人分の個人情報が漏えいしたと発表した。クレジットカード情報の漏えいはないという。",
+      "published_at": "2026-10-29T12:40:20+09:00",
+      "first_seen_at": "2026-10-29T14:02:32.822328+09:00",
+      "source_name": "ITmedia NEWS Bursts",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-101767"
-      ],
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 65.7,
       "published_at_future_suppressed": false
     }
   ],
@@ -647,6 +649,65 @@
       "threat_actors": [],
       "seen_in_kev": true,
       "heat_score": 39.42,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7c54e769948b6fc771ccdcc1",
+      "permalink_id": "article-url-7c54e769948b6fc771ccdcc1",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "summary_excerpt": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+      "published_at": "2026-10-26T18:19:57+09:00",
+      "first_seen_at": "2026-10-26T19:02:18.848646+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d20444dd0495bc21e7668528",
+      "permalink_id": "article-url-d20444dd0495bc21e7668528",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
+      "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
+      "summary_excerpt": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
+      "published_at": "2026-10-26T18:15:00+09:00",
+      "first_seen_at": "2026-10-26T19:02:39.757623+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-115560"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
       "published_at_future_suppressed": false
     },
     {
@@ -823,56 +884,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a64123d828297872a642cff5",
-      "permalink_id": "article-url-a64123d828297872a642cff5",
-      "canonical_url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "summary_excerpt": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
-      "published_at": "2026-10-24T20:09:29+09:00",
-      "first_seen_at": "2026-10-25T17:24:42.178062+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c69e4b4175123bfbc7cbd80b",
-      "permalink_id": "article-url-c69e4b4175123bfbc7cbd80b",
-      "canonical_url": "https://gigazine.net/news/20261026-nba-knicks-fake-offer/",
-      "title": "NBA優勝記念リングを「無料プレゼント」と社員にメールするも実はフィッシング訓練で運営会社が謝罪",
-      "summary_excerpt": "アメリカのプロバスケットボールリーグ「NBA」のニューヨーク・ニックスが従業員に対して「優勝記念リングを無料でプレゼントする」というメールを送信しましたが、実際にはフィッシング詐欺への対応能力を確認する訓練でした。運営会社が「不適切な判断だった」と認める事態に発展しています。 続きを読む...",
-      "published_at": "2026-10-26T17:52:00+09:00",
-      "first_seen_at": "2026-10-26T18:02:23.838293+09:00",
-      "source_name": "GIGAZINE",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 32.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -893,15 +904,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】MR ROBOT Malware-as-a-Service Targets Indian Bank Customers",
-    "【HOTTEST #1 / Heat 75】Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-    "【LATEST #2】HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
-    "【HOTTEST #2 / Heat 75】China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "【LATEST #3】Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-    "【HOTTEST #3 / Heat 73】ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も",
-    "【LATEST #4】「グッドスマイルカンパニー公式ショップ」、決済ページの改ざんでクレジットカード情報を含む個人情報が漏えいの可能性",
-    "【HOTTEST #4 / Heat 73】松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
-    "【LATEST #5】Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-    "【HOTTEST #5 / Heat 73】ベネフィット・ワンの委託先に不正アクセス　セゾン会員向け優待サービスで約2.9万人分の個人情報漏えい"
+    "【LATEST #1】Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+    "【HOTTEST #1 / Heat 75】Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+    "【LATEST #2】Admin dropped the F-bomb in a password to show hackers who was really 1337",
+    "【HOTTEST #2 / Heat 75】Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+    "【LATEST #3】MR ROBOT Malware-as-a-Service Targets Indian Bank Customers",
+    "【HOTTEST #3 / Heat 75】China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "【LATEST #4】HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
+    "【HOTTEST #4 / Heat 73】ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も",
+    "【LATEST #5】Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "【HOTTEST #5 / Heat 73】松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず"
   ]
 }
