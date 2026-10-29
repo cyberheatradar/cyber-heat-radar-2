@@ -1,9 +1,103 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T13:30:09.292412+00:00",
+  "source_snapshot_generated_at": "2026-10-29T14:30:04.915093+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f46cff1332fffb0039399503",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture",
+          "llm",
+          "AIエージェント",
+          "harnessengineering"
+        ],
+        "url": "https://zenn.dev/tappers/articles/ai-labo-e05-subagent-folding",
+        "title": "AIエージェントの「役割別サブエージェント分割」vs「単一ループ統合＋段階的スキル開示」を実機サンドボックスでA/B検証",
+        "author": "tappers",
+        "published_at": "2026-10-29T14:29:49.867000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3ef486c69740c210285a1740",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "生成 AI",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kimshoshi/articles/ai-production-deploy-permission",
+        "title": "AIエージェントの承認はどこに置くべきか。取り消せない操作だけを人が止める",
+        "author": "KIM SEONGSU｜令和8年度 行政書士受験生",
+        "published_at": "2026-10-29T14:22:46.980000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:62a68b9490e8edd385faa058",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "video",
+          "OSS",
+          "GSAP"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-030-hyperframes-deterministic-html-to-mp4",
+        "title": "HTML/CSS/GSAPを確定的にMP4動画へ変換するhyperframesを実際に検証した",
+        "author": "matsu",
+        "published_at": "2026-10-29T14:12:24.606000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5bf839b880905bfb77206eb7",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "OSS",
+          "Playwright",
+          "tenkacloud"
+        ],
+        "url": "https://zenn.dev/bull/articles/tenkacloud-cloud-master-ai-limit",
+        "title": "脅威検知サービスの気持ちになれるゲーム「目指せクラウドマスター」を作って、自動プレイで限界まで回した",
+        "author": "bull",
+        "published_at": "2026-10-29T13:51:14.993000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e01d221bfced38bcb31aabe5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ポエム",
+          "個人開発",
+          "Obsidian"
+        ],
+        "url": "https://zenn.dev/ithibo/articles/ghosttag-interview",
+        "title": "「見たくないけど消したくない」から生まれたプラグイン——GhostTag開発対談",
+        "author": "ルナ［EidosFrontier広報］",
+        "published_at": "2026-10-29T13:47:28.835000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:58fe2ccb91805bc85a2ab202",
+        "source": "zenn",
+        "author_tags": [
+          "Git",
+          "Security",
+          "dev container",
+          "betterleaks"
+        ],
+        "url": "https://zenn.dev/hii_chi/articles/betterleaks-pre-commit-japanese-password",
+        "title": "コードに紛れ込んだパスワードとメールアドレスを、コミット前に Betterleaks で止める",
+        "author": "hii-chi",
+        "published_at": "2026-10-29T13:36:00.139000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:625798b4746da353c46f61c7",
         "source": "zenn",
@@ -9567,6 +9661,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:19a134b53b5e435032e3bbf9",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "暗号化",
+          "E2EE",
+          "問診票",
+          "個人情報保護"
+        ],
+        "url": "https://qiita.com/emuyn/items/0b897a8506d9eccbb162",
+        "title": "運営会社にも読めない問診票を、5 年前に作り始めた理由",
+        "author": "emuyn",
+        "published_at": "2026-10-29T23:16:05+09:00",
+        "excerpt": "本人確認書類の画像や個人情報が、一度に何百万件という規模で流出する事件が続いています。ニュースを見るたびに、5 年前に私たちが問診票アプリの開発を始めたときのことを思い出します。 この記事では、私たちエミュインが 2021 年の会社設立と同時に開発を始めた「セキュア問診票」が、なぜ 運営会社にも解読できない暗号化 を前提に設計されたのか、その背景と考え方を紹介します。細かな実装よりも、「なぜそう作ったのか」の話です。 きっかけは、1 通の利用規約だった ある医師が、勤務先の病院ですでに使われていた問診票システムの利用規約を、初めてじっくり読みました。そこには、患者さんが入力した内容を運営会社が取得し、自社の目的に利用できることが書かれていました。 問診票に入力されるのは、症状、持病、飲んでいる薬、家族の病歴。法律でも特に慎重な扱いが求められる「要配慮個人情報」そのものです。それが、医療機関ではない運営会社の手元に、読める形で集まっていく。 「自分の患者さんに、こんな問診票を使ってほしくない」 そう考えて、患者さんの情報が運営会社から守られることを"
+      },
+      {
+        "id": "qiita:811bb7f803ab3806be14d4e0",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "遠隔操作"
+        ],
+        "url": "https://qiita.com/SioComb/items/13bb968088b400b3d18e",
+        "title": "遠隔操作技術を12分類で整理する――画面操作から管理エージェント、IoT制御まで",
+        "author": "SioComb",
+        "published_at": "2026-10-29T22:32:08+09:00",
+        "excerpt": "はじめに 2026年10月、GMOインターネットが提供する「お名前.com デスクトップクラウド」で不正アクセスが発生した。同社は、一部の顧客のサーバー環境に不正なプログラムが設置されていたことを確認し、サービス上の取引ツールに関連して、取引口座で第三者による不正な操作があったとの報告を受けていると公表した。取引口座の認証情報が取得・悪用された可能性も説明している。 GMO公式・第2報 攻撃者とみられる者は、顧客の情報公開やランサムウェア攻撃を予告した。GMOは10月27日12時30分、同社および顧客に関する情報と称するものの公開を確認した一方、同日13時55分時点ではランサムウェア攻撃を確認していないと公表している。公開内容の真偽と、利用者の手元のPCにマルウェアが設置されているかどうかは、同報では調査中だった。 GMO公式・第10報 本稿では2026年10月29日公表の第15報までを参照した。参照した公式発表からは、GMOのサーバーを経由して利用者の手元のPCが遠隔操作され、ランサムウェア被害が発生したとまでは確認できない。 クラウド側のサー"
+      },
+      {
         "id": "qiita:e3fad5ab835214f528b7dced",
         "source": "qiita",
         "author_tags": [
@@ -14484,6 +14607,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:216149272873d10e485e5cb4",
+        "source": "medium",
+        "author_tags": [
+          "front-end-development",
+          "php",
+          "bugs",
+          "cybersecurity",
+          "software-development"
+        ],
+        "url": "https://medium.com/webnex-labs/php-versions-in-2026-which-versions-are-secure-which-are-expiring-and-why-you-must-upgrade-now-c05441459714",
+        "title": "PHP Security Alert 2026: Critical Vulnerabilities, End-of-Life Dates & Which Version to Upgrade To",
+        "author": "Vikash Kumar Gupta",
+        "published_at": "2026-10-29T14:06:18+00:00",
+        "excerpt": "PHP 8.2 vs 8.3 vs 8.4 vs 8.5 — A Complete Guide to Security Vulnerabilities, End-of-Life Dates, Critical Bug Fixes, and Safe Production… Continue reading on WebNex Labs »"
+      },
+      {
+        "id": "medium:52688c7464cb0e59c4baa6f2",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "php",
+          "cybersecurity",
+          "web-development",
+          "devops"
+        ],
+        "url": "https://devdiaryacademy.medium.com/php2shell-what-php-developers-should-do-after-reports-of-in-the-wild-exploitation-ecb3b54e5ee9",
+        "title": "PHP2Shell: What PHP Developers Should Do After Reports of In-the-Wild Exploitation",
+        "author": "Developer Diary",
+        "published_at": "2026-10-29T14:06:01+00:00",
+        "excerpt": "A critical security issue in PHP has put website owners, backend developers, and system administrators on alert. Known as PHP2Shell, the… Continue reading on Medium »"
+      },
       {
         "id": "medium:220b6993eaf0dcbfecc95a42",
         "source": "medium",
