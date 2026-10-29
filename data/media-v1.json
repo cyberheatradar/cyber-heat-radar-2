@@ -1,9 +1,96 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T04:30:05.594974+00:00",
+  "source_snapshot_generated_at": "2026-10-29T05:30:05.718048+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:c67937bc6a21141c3de74d9f",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/aqiu/articles/fb7cc7fbd01358",
+        "title": "AIで十案作るより、一案を直せる状態にする",
+        "author": "aqiu",
+        "published_at": "2026-10-29T05:29:05.123000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:db0edec353d27b3271498514",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Claude",
+          "Vibe Coding",
+          "ハーネスエンジニアリング"
+        ],
+        "url": "https://zenn.dev/mukuil_blog/articles/3b6e2a31b3f4cd",
+        "title": "AIエージェントに基幹システム移植を半年任せて分かった「ハーネス」の作り方",
+        "author": "r.iguchi",
+        "published_at": "2026-10-29T05:14:21.622000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:776d7e06ec461bf95d5c2e9c",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "Security",
+          "暗号",
+          "バグバウンティ",
+          "脆弱性報奨金制度"
+        ],
+        "url": "https://zenn.dev/maru1228/articles/security-bug-bounty",
+        "title": "バグバウンティ（脆弱性報奨金制度）とは｜仕組みと報酬相場、導入のポイント",
+        "author": "まる",
+        "published_at": "2026-10-29T04:57:05.296000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:435a750b68a1e9126111684e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "music",
+          "llm"
+        ],
+        "url": "https://zenn.dev/aisongwriter/articles/fcdc55864cb0f1",
+        "title": "Building a Song Draft Pipeline: Story-First, No Blank-Page Trap",
+        "author": "Jordan Blake",
+        "published_at": "2026-10-29T04:34:31.377000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a401ee7e25d705b9a21d9962",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "AIエージェント",
+          "AI 活用",
+          "llm活用"
+        ],
+        "url": "https://zenn.dev/sionicai_jp/articles/75ee59ff651d35",
+        "title": "AI エージェント 生成エージェント ~ STORM Act #2",
+        "author": "サイオニックエーアイ株式会社",
+        "published_at": "2026-10-29T04:33:10.625000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3f270ca32e78c2bf5349abde",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/aoi_sato8734/articles/safeline-how-to-verify-waf-docker-20261029-91f5c1f",
+        "title": "SafeLine WAF 導入前の Docker Compose と ssse3 確認ガイド",
+        "author": "佐藤 葵8734",
+        "published_at": "2026-10-29T04:31:58.467000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:58478d90fd7000c77299ece6",
         "source": "zenn",
@@ -8877,6 +8964,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:7b8beec0e05adfd526e30c46",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/0c13912350343967b947",
+        "title": "SafeLine 導入前に Docker Compose と ssse3 を確認するチェックリスト",
+        "author": "Karinbiubiu",
+        "published_at": "2026-10-29T13:35:17+09:00",
+        "excerpt": "セルフホストの WAF をアプリケーションの前面へ置くとき、先に壊れるのは検知ルールではなくホストの受け入れ判定である。SafeLine は Web アプリケーションとインターネットの間の HTTP をフィルタして監視し、リバースプロキシとして置く。クライアントはオリジンへ届く前にここを通過する（ https://docs.waf.chaitin.com/en/home）。依存を満たさないマシンでは、その保護は始まらない。検索で拾いやすい確認観点は how to verify waf docker compose and ssse3 requirements だが、本稿は導入後の後始末ではなく、着手前チェックリストと切り分けの順で書く。 公開されている導入依存は、Linux、命令アーキテクチャ x86_64 または arm64、Docker 20.10.14 以上、Docker Compose 2.0.0 以上、CPU 1 コア以上、メモリ 1GB 以上、ディスク 5GB 以上、ssse3 を備えた CPU である（ https://docs.w"
+      },
+      {
         "id": "qiita:5d907df6d93a423b801a5eac",
         "source": "qiita",
         "author_tags": [
@@ -9610,6 +9711,21 @@
         "author": "kepler1030",
         "published_at": "2026-10-27T22:42:09+09:00",
         "excerpt": "最近きた迷惑メールを生ヘッダを見て解析してみた メールがこれ↓ アメリカンエクスプレスを騙り『2段階認証をしたらポイントくれる』という内容。 いかにもAIが作ったっぽいレイアウトや配色だし、文字も半角スペースが紛れていたりとおかしいところはたくさんある。 ただ、昨今のセキュリティ意識の高まりを逆手に取ったり、ポイントという餌まで置いておくという巧妙なやり口を使っている。 筆者も金欠なら引っかかってしまうかもしれない。 生ヘッダを解析してみる ①実際の送信元 Received: from mail.dyxcwy.com (mail.dyxcwy.com [4.241.72.115]) by p00-icloudmta-smtpin-us-west-2a-20-percent-3 ... 送信元のIPは『4.241.72.115』 →調べてみると、Azureのクラウドアドレス帯みたい 攻撃者はAzure上に使い捨てのVPS契約して、独自のメールサーバーを立ち上げているようだ ②認証結果 Authentication-Results: spf.iclo"
+      },
+      {
+        "id": "qiita:5680111570cde724265ed1fc",
+        "source": "qiita",
+        "author_tags": [
+          "プロンプトインジェクション",
+          "Security",
+          "LLM",
+          "API"
+        ],
+        "url": "https://qiita.com/Maku-Inc/items/df6a449ed9c10a7879e5",
+        "title": "AIエンジニア必見！プロンプトインジェクション攻撃の種類とAPIガードレール設計",
+        "author": "Maku-Inc",
+        "published_at": "2026-10-27T20:00:15+09:00",
+        "excerpt": "AIエンジニア必見！プロンプトインジェクション攻撃の種類とAPIガードレール設計 課題・背景 近年、大規模言語モデル（LLM）の進化は目覚ましく、チャットボット、コンテンツ生成、コードアシスタントなど、多岐にわたるアプリケーションへの組み込みが進んでいます。しかし、その利便性の裏には新たなセキュリティリスクが潜んでいます。それが「プロンプトインジェクション攻撃」です。従来のWebアプリケーションにおけるSQLインジェクションやXSS攻撃がDBやブラウザを標的とするように、プロンプトインジェクションはLLMそのものを標的とし、開発者が意図しない動作をさせたり、機密情報を引き出したりする可能性があります。 我々AIエンジニアは、LLMが単なる賢いツールではなく、ユーザーの入力を解釈し、複雑な推論を行う「システム」であることを常に意識する必要があります。特に実業務でAIを組み込む際、ユーザーの直接的な入力だけでなく、データベースから取得した情報や外部APIからの応答など、様々なデータがプロンプトの一部としてLLMに渡されます。この「信頼できない入力」が"
       },
       {
         "id": "qiita:f358112a9a03417107dda20d",
@@ -13593,6 +13709,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b009edf04c44b07346fed262",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ctf-writeup",
+          "bug-bounty",
+          "web-security",
+          "ctf"
+        ],
+        "url": "https://medium.com/@affanhaxor/search-source-cylab-security-academy-write-up-finding-hidden-information-in-website-files-060b51bbeebb",
+        "title": "Search Source ~ CyLab Security Academy Write-up | Finding Hidden Information in Website Files",
+        "author": "Affanhaxor",
+        "published_at": "2026-10-29T05:06:29+00:00",
+        "excerpt": "Author: Affanhaxor Platform: CyLab Security Academy Category: Web Exploitation Challenge: Search Source Topic: Website Mirroring, Source… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c373cdc9ee2f4096d9c43a3e",
+        "source": "medium",
+        "author_tags": [
+          "devops",
+          "cybersecurity",
+          "artificial-intelligence",
+          "software-engineering",
+          "ai-agent"
+        ],
+        "url": "https://medium.com/@ayush_mathur/ai-can-now-find-and-exploit-software-vulnerabilities-are-developers-ready-3d4b2b0fcedd",
+        "title": "AI Can Now Find and Exploit Software Vulnerabilities: Are Developers Ready?",
+        "author": "Ayush S. Mathur",
+        "published_at": "2026-10-29T04:58:03+00:00",
+        "excerpt": "AI is making cybersecurity faster, but it may also be making security mistakes more dangerous. Continue reading on Medium »"
+      },
       {
         "id": "medium:83008ab1151a35f5611cf4b4",
         "source": "medium",
