@@ -1,9 +1,56 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T08:30:05.968105+00:00",
+  "source_snapshot_generated_at": "2026-10-29T09:30:04.911604+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:4b4361ad91903a4498ce9450",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "UX",
+          "meta",
+          "生成 AI",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/leading_ai/articles/meta-muse-context-and-memory",
+        "title": "MetaのMuseは、なぜ40日で1,000万人に使われたのか？ ── ChatGPTと何が違うのか",
+        "author": "山内 怜史（Satoshi Yamauchi）",
+        "published_at": "2026-10-29T09:17:36.283000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:533f3e350da101baee750e24",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "research",
+          "llm",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/skillselion/articles/be2fbd20219450",
+        "title": "日本語で「深掘り調査して」と頼むと調査スキルはどう動くか：SKILL.md 7本を読む",
+        "author": "Skillselion",
+        "published_at": "2026-10-29T09:09:29.743000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:230b0f6c8575ffde0a76816a",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "GitLab",
+          "DevSecOps",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/scalar_sol_blog/articles/glab-auto-fix-vulns",
+        "title": "GitLab × Claude Code の脆弱性自動修正を半年運用して、何がどれだけ良くなったか",
+        "author": "msd",
+        "published_at": "2026-10-29T09:00:06+00:00",
+        "excerpt": "はじめに 2026年5月28日の「AI×DevOps Study #15」で、GitLab 環境で脆弱性の検知からAIによる修正（MR作成）、チャット通知までを自動化する仕組みについて発表しました。 イベント: https://scalar.connpass.com/event/394788/ スライド: https://speakerdeck.com/scalar/20260528-aixdevopsstudy-number-15 発表では「定量的効果」として次の2点を挙げました。 項目 改善前 改善後 脆弱性検出通知 都度手動確認 最大7日以内の自動通知 ..."
+      },
       {
         "id": "zenn:9e2e739abbe8e3bba6c4053e",
         "source": "zenn",
@@ -297,6 +344,16 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:b0478beda7ee5e6ead87a594",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/idea_mart/books/9d77775e9c2ed7",
+        "title": "WordPressのトラブルを自分で直す手順書 ― PHP更新・エラー・引越し・セキュリティ",
+        "author": "アイデアマート",
+        "published_at": "2026-10-29T04:40:39+00:00",
+        "excerpt": "WordPressのサイトを自分で管理している方のための手順書です。PHP更新の前のチェック、「重大なエラー」・真っ白な画面・データベース接続エラーの直し方、フォームのメールが届かないとき、サーバー引越し、脆弱性のお知らせ、乗っ取りが疑われるときの対処を、どの画面のどこを見ればいいかまで順番に説明します。"
+      },
+      {
         "id": "zenn:435a750b68a1e9126111684e",
         "source": "zenn",
         "author_tags": [
@@ -445,6 +502,16 @@
         "author": "NEORU｜AI Business OS",
         "published_at": "2026-10-29T03:32:20.177000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:c00bd867059d6190960ffd80",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/kuu_dqx/books/nothing-left-to-patch",
+        "title": "個人サイトのセキュリティ — PHP の重大な告知が出た夜、サイトを1つも止めずに済んだ作り",
+        "author": "くぅ",
+        "published_at": "2026-10-29T03:30:15+00:00",
+        "excerpt": "2026年10月21日、PHP の重大な修正（CVSS v4.0 で 9.2 が2件・認証なしで任意のコードを実行される穴）が、日本時間の23時に出ると予告されました。私は個人で、ブログや道具のサイトを7つ、同じレンタルサーバの同じ契約に置いています。PHP に穴が1つあれば、7つ全部が書き換えられる置き方です。それでもその夜、止めたサイトは1つもありませんでした。大半は静的配信で、当てるパッチがそもそも無かったからです。PHP が残っていたのは、問い合わせなどを中継する3本だけでした。その3本は、同じ日のうちに Cloudflare Workers へ移し、PHP をゼロにしました。この本は、告知が来たときに「使っている所・動いている所・公開している所」の3列で急ぐものを分ける手順と、急ぐものが最初から少ない作り（動くコードを減らす・公開範囲を狭める・拒否を既定にする）をまとめたものです。PHP を Workers に移した日に踏んだ罠、前段のプロキシのヘッダを信じて1分半だけ偽装が通った件、一晩張り付いて見た普段の攻撃（2〜5分で300〜44"
       },
       {
         "id": "zenn:84f5b195c602199fe4418a1c",
@@ -9213,6 +9280,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:2757267c0af3d0ac04eb4349",
+        "source": "qiita",
+        "author_tags": [
+          "PDF",
+          "電子署名",
+          "Security",
+          "電子契約"
+        ],
+        "url": "https://qiita.com/nibbo/items/e5efe874c1551811260c",
+        "title": "電子契約で受け取ったPDFの署名は本当に有効？ByteRangeとハッシュで「署名後に改ざんされていないか」を確かめる",
+        "author": "nibbo",
+        "published_at": "2026-10-29T17:42:39+09:00",
+        "excerpt": "電子契約サービスで締結した契約書や、電子署名付きの請求書PDF。Adobe Acrobat Readerで開くと「署名は有効です」や「少なくとも1つの署名に問題があります」と表示されますが、その意味をきちんと説明できる人は意外と少ないです。この記事では、PDF署名の仕組みと、手元で検証するときに見るべきポイントを整理します。 PDF署名の仕組み：ByteRange PDFの電子署名（PAdES / PKCS#7）は、ファイル全体ではなく「署名値を入れる穴を除いたバイト列」に対して計算されます。署名辞書の /ByteRange [0 840 960 24000] は、「0〜840バイト目と、960〜24960バイト目をハッシュした」という意味です。間の部分に署名値（CMS）が入ります。 検証では次を行います。 ByteRangeで示されたバイト列をハッシュする CMS内に記録されたハッシュと一致するか比較する 署名者の証明書の公開鍵で、署名値を検証する 1と2が一致すれば「署名時点から、その範囲は変更されていない」と言えます。 「署名後に変更されて"
+      },
+      {
         "id": "qiita:2c0afa4308ddcb9ef32cdf2b",
         "source": "qiita",
         "author_tags": [
@@ -11468,6 +11550,19 @@
         "excerpt": "はじめに 少し前の私は、「セキュリティは、正しく実装すれば守れる技術の問題だ」と、ほとんど無意識に思い込んでいました。脆弱性を潰す、認証を固める、依存ライブラリを最新に保つ、通信を暗号化する。手を動かして「正しく作る」ほど、システムは堅牢になり、そのぶん安全に近づくと信じていました。 ところが、あるとき「来期のセキュリティ予算はいくら必要?」「そもそも、うちは何から守るの?」「どこまでやれば十分なの?」と経営層から問われて、私はぴたりと止まってしまいました。技術的に「正しく作る」ことはできても、 「そもそも何をやるべきか」「どこまでやれば十分か」には、あらかじめ用意された正解がなかった からです。私はコードを正しく書く方法は知っていました。ですが、答えのない問いを前に進める方法は知らなかったのです。 この記事は、CySec(東京電機大学が提供する社会人向けのサイバーセキュリティ教育プログラム「国際化サイバーセキュリティ学特別コース」)で学んだ内容を、自分の言葉で再構成した復習ログです。今回は、セキュリティコンサルタントの発想と思考技法を扱った回を"
       },
       {
+        "id": "qiita:238e87a923d22d79373c406c",
+        "source": "qiita",
+        "author_tags": [
+          "GiGOOO",
+          "Security"
+        ],
+        "url": "https://qiita.com/tkmiii_GiGOOO/items/d77e74aa00acd1a7d9a8",
+        "title": "露出した .git から root へ — 設定ミスを連鎖させる攻撃者の思考（HTB Dog で学ぶ）",
+        "author": "tkmiii_GiGOOO",
+        "published_at": "2026-10-19T12:55:55+09:00",
+        "excerpt": "派手なゼロデイではなく、 ありふれた設定ミスの連鎖 でroot権限まで届く。この記事は HackTheBox の易しいLinuxマシン「Dog」(Retired) を題材に、攻撃者がどの順で設定ミスを拾っていくか、その 思考の型 を解説する。フラグや実際の資格情報は載せない。 ⚠ 免責・利用目的について — 本記事は、正規に許可された検証環境(HackTheBox の Retired マシン)で行った学習の記録です。セキュリティ防御・教育を目的としており、攻撃を目的としたものではありません。 自身が権限を持たないシステムへのアクセス・テストは、不正アクセス禁止法等の法令違反となります。本記事の手法を、許可のない対象に使用しないでください。 はじめに — 易しい箱ほど「型」で解ける 初心者向けのマシンは、未知の脆弱性を見つける勝負ではない。 誰でも知っている設定ミスを、正しい順番で拾って連鎖させる だけで最高権限に届く。だから大事なのは個々のエクスプロイトより「次にどこを見るか」という思考の型だ。 この記事では、次の 3+1の型 を Dog を例に"
+      },
+      {
         "id": "qiita:95f522c63ed2d0ab43213009",
         "source": "qiita",
         "author_tags": [
@@ -12465,6 +12560,22 @@
         "author": "pds_siken",
         "published_at": "2026-10-17T11:01:05+09:00",
         "excerpt": "2026年10月、これまで「プロフェッショナルデジタルスキル試験（仮称）」と呼ばれてきた試験の正式名称が\"「高度情報技術試験」\"となることが、経済産業省の省令案で示されました。本記事は、新しい名称で内容を整理し直したものです。 筆者は個人で、高度情報技術試験の学習支援サイト「pds-siken.com」を運営しています。シラバス解説・学習ロードマップ・無料の問題演習を公開しています。 👉 高度情報技術試験 対策サイト pds-siken.com はじめに IPAが2026年9月に公開した「高度情報技術試験科目A-1（共通知識）シラバス（案）Ver.0.1」。 \"この科目Aは、マネジメント区分・システム区分・データAI区分のすべてに共通して課される試験\"です。さらに情報処理安全確保支援士試験とも共通のシラバスが採用されており、高度情報技術試験受験者にとって最重要の出題範囲といえます。 本記事では、シラバスの全体構成から各分野の具体的な出題項目・用語まで、徹底的に整理して解説します。 本記事は個人として調査・まとめたものです。シラバスはVer.0.1"
+      },
+      {
+        "id": "qiita:c2103976ec1ee577315d73be",
+        "source": "qiita",
+        "author_tags": [
+          "高度情報技術試験",
+          "ipa",
+          "IT資格",
+          "Cloud",
+          "Security"
+        ],
+        "url": "https://qiita.com/pds_siken/items/89b6e39e54454507c8f5",
+        "title": "高度情報技術システム試験（システム区分）のシラバスと出題傾向を解説",
+        "author": "pds_siken",
+        "published_at": "2026-10-17T11:01:00+09:00",
+        "excerpt": "2026年10月、これまで「プロフェッショナルデジタルスキル試験（仮称）」と呼ばれてきた試験の正式名称が\"「高度情報技術試験」\"となることが、経済産業省の省令案で示されました。本記事は、新しい名称で内容を整理し直したものです。 筆者は個人で、高度情報技術試験の学習支援サイト「pds-siken.com」を運営しています。シラバス解説・学習ロードマップ・無料の問題演習を公開しています。 👉 高度情報技術試験 対策サイト pds-siken.com はじめに 2027年度から始まる「高度情報技術試験」のシステム区分。クラウド・セキュリティ・アジャイル・AIといった、現代のエンジニアが日々関わる技術領域が幅広く出題される区分です。 本記事では、システム区分のシラバス・出題傾向・効率的な対策方法を解説します。インフラエンジニア・クラウドエンジニア・セキュリティエンジニアの方はぜひ参考にしてください。 本記事は個人として調査・まとめたものです。シラバスの内容はIPA公式のシラバス案（Ver.0.2）をもとにしていますが、試験制度の詳細は今後変更される可能性"
       },
       {
         "id": "qiita:4f5a258cf8e1945a8b57deda",
@@ -13990,6 +14101,79 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ccec1c4a5742ad0573a2ebd0",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@Divarizkyalfitrah/lab-1-practitioner-sql-injection-attack-querying-the-database-type-and-version-on-oracle-aa6a86d7f78f",
+        "title": "Lab 1 PRACTITIONER SQL injection attack, querying the database type and version on Oracle",
+        "author": "Diva Rizky Alfitrah",
+        "published_at": "2026-10-29T09:14:25+00:00",
+        "excerpt": "⚠️ Disclaimer Continue reading on Medium »"
+      },
+      {
+        "id": "medium:56b135187bdf28b96f4b9e58",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybercrime",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@digitaldefense/your-backups-may-be-the-next-target-in-a-ransomware-attack-1e4b2e44f6e9",
+        "title": "Your Backups May Be the Next Target in a Ransomware Attack",
+        "author": "Digital Defense",
+        "published_at": "2026-10-29T09:14:17+00:00",
+        "excerpt": "Many organizations invest in ransomware prevention, endpoint protection, and incident response. But one critical question often receives… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a7462c14c5c0e6d5bacb1313",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "red-team",
+          "ethical-hacking",
+          "exploit"
+        ],
+        "url": "https://k3ystr0k3r.medium.com/building-metis-inside-a-modular-exploitation-framework-in-python-14753b361eb4",
+        "title": "Building METIS: Inside a Modular Exploitation Framework in Python",
+        "author": "Jared Brits",
+        "published_at": "2026-10-29T09:13:13+00:00",
+        "excerpt": "By K3ysTr0K3R Continue reading on Medium »"
+      },
+      {
+        "id": "medium:11ca226f6a298f0da2f20d8b",
+        "source": "medium",
+        "author_tags": [
+          "hackthebox-writeup",
+          "ethical-hacking",
+          "cybersecurity",
+          "active-directory",
+          "hackthebox"
+        ],
+        "url": "https://medium.com/@med.chanak/htb-checkpoint-beyond-the-flags-a-methodical-approach-to-active-directory-exploitation-ac26344061ab",
+        "title": "HTB Checkpoint — Beyond the Flags: A Methodical Approach to Active Directory Exploitation",
+        "author": "Mohamed Chanak",
+        "published_at": "2026-10-29T09:11:01+00:00",
+        "excerpt": "A hands-on walkthrough focused not just on exploiting the machine, but on the enumeration, reasoning, and decision-making that guide each… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:67901f2b99b1f6fe33dd45df",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "privacy",
+          "mobile-security",
+          "surveillance",
+          "technology"
+        ],
+        "url": "https://medium.com/@axonosint/phone-surveillance-and-2g-real-risks-and-how-to-stay-safe-axon-osint-fab06702743d",
+        "title": "Phone Surveillance and 2G: Real Risks and How to Stay Safe | Axon OSINT",
+        "author": "Axon OSINT",
+        "published_at": "2026-10-29T09:04:55+00:00",
+        "excerpt": "📱 Could Someone Be Listening to Your Phone Calls? Continue reading on Medium »"
+      },
       {
         "id": "medium:be4ffaa7f3411b6edb4d2d85",
         "source": "medium",
