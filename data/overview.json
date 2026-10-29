@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-29T11:13:26.209301+00:00",
-  "as_of": "2026-10-29T11:00:00+00:00",
-  "catalog_count": 21219,
+  "generated_at": "2026-10-29T12:11:47.224853+00:00",
+  "as_of": "2026-10-29T12:00:00+00:00",
+  "catalog_count": 21225,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,75 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:af69c1984521927fcef1b737",
+      "permalink_id": "article-url-af69c1984521927fcef1b737",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/online-scam-volumes-double/",
+      "title": "Online Scam Volumes Double to Overtake Phishing",
+      "summary_excerpt": "Akamai research reveals that scam detections topped six million in Q2 2026",
+      "published_at": "2026-10-29T20:15:00+09:00",
+      "first_seen_at": "2026-10-29T21:01:46.748091+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_report",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4665f17a8f062865003b59a1",
+      "permalink_id": "article-url-4665f17a8f062865003b59a1",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "summary_excerpt": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
+      "published_at": "2026-10-29T20:10:13+09:00",
+      "first_seen_at": "2026-10-29T21:01:21.564058+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "defense_ops",
+      "public_tags": [
+        {
+          "color_family": "blue",
+          "key": "defense_ops",
+          "label": "Defense & Ops"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:68cc7bf957fbb593d576d3b5",
+      "permalink_id": "article-url-68cc7bf957fbb593d576d3b5",
+      "canonical_url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
+      "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
+      "summary_excerpt": "The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records. The post Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net appeared first on SecurityWeek .",
+      "published_at": "2026-10-29T20:00:00+09:00",
+      "first_seen_at": "2026-10-29T21:01:53.301095+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:f71feb17d35447889b306e5d",
       "permalink_id": "article-url-f71feb17d35447889b306e5d",
@@ -35,6 +104,35 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7d482c1bcf9fa313acb9e633",
+      "permalink_id": "article-url-7d482c1bcf9fa313acb9e633",
+      "canonical_url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "summary_excerpt": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
+      "published_at": "2026-10-29T19:44:46+09:00",
+      "first_seen_at": "2026-10-29T21:01:53.813119+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76418"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
     {
@@ -69,6 +167,27 @@
       ],
       "seen_in_kev": false,
       "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ef221d198e22077f91c86023",
+      "permalink_id": "article-url-ef221d198e22077f91c86023",
+      "canonical_url": "https://www.itpro.com/security/encryption/security-leaders-brace-for-an-overhaul-of-public-key-infrastructure-as-quantum-risks-rise",
+      "title": "Security leaders brace for an overhaul of public key infrastructure as quantum risks rise",
+      "summary_excerpt": "The scale of the work ahead is becoming clearer across cryptographic discovery, automation, architecture, governance and investment",
+      "published_at": "2026-10-29T19:20:00+09:00",
+      "first_seen_at": "2026-10-29T21:01:51.278047+09:00",
+      "source_name": "ITPro Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
       "published_at_future_suppressed": false
     },
     {
@@ -120,147 +239,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:c7a6421daf094b9d020f9988",
-      "permalink_id": "article-url-c7a6421daf094b9d020f9988",
-      "canonical_url": "https://www.theregister.com/security/2026/10/29/admin-dropped-the-f-bomb-in-a-password-to-show-hackers-who-was-really-1337/5306139",
-      "title": "Admin dropped the F-bomb in a password to show hackers who was really 1337",
-      "summary_excerpt": "Cursing in login credentials can help keep the bad guys out, but not when the rest of your security is BS",
-      "published_at": "2026-10-29T18:00:00+09:00",
-      "first_seen_at": "2026-10-29T19:01:48.880399+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e0fe93c38240162ad375ebfc",
-      "permalink_id": "article-url-e0fe93c38240162ad375ebfc",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/robot-malware-indian-bank-customers/",
-      "title": "MR ROBOT Malware-as-a-Service Targets Indian Bank Customers",
-      "summary_excerpt": "MR ROBOT Android malware rents banking trojans that steal one-time passwords and card data",
-      "published_at": "2026-10-29T18:00:00+09:00",
-      "first_seen_at": "2026-10-29T18:02:16.623199+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:62e358f0783bbcc3869e8a25",
-      "permalink_id": "article-url-62e358f0783bbcc3869e8a25",
-      "canonical_url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
-      "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
-      "summary_excerpt": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications. The post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek .",
-      "published_at": "2026-10-29T17:27:16+09:00",
-      "first_seen_at": "2026-10-29T18:02:27.565194+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "incident",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:96402b0bba36a5534299f8cf",
-      "permalink_id": "article-url-96402b0bba36a5534299f8cf",
-      "canonical_url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "summary_excerpt": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28. Talos calls the attacks historical but does not specify when they",
-      "published_at": "2026-10-29T17:24:22+09:00",
-      "first_seen_at": "2026-10-29T18:02:28.731703+09:00",
+      "public_article_id": "url:b36cbddd30558feada5c369f",
+      "permalink_id": "article-url-b36cbddd30558feada5c369f",
+      "canonical_url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "summary_excerpt": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
+      "published_at": "2026-10-29T18:05:39+09:00",
+      "first_seen_at": "2026-10-29T21:01:54.139817+09:00",
       "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:3b84421ef535118c239d37e6",
-      "permalink_id": "article-url-3b84421ef535118c239d37e6",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2152332.html",
-      "title": "「グッドスマイルカンパニー公式ショップ」、決済ページの改ざんでクレジットカード情報を含む個人情報が漏えいの可能性",
-      "summary_excerpt": "グッドスマイルカンパニーは10月29日、同社の公式通販サイト「グッドスマイルカンパニー公式ショップ」にて、同月23日に発表した不正アクセスにより利用者の個人情報およびクレジットカード情報が漏えいした可能性があることを発表した。",
-      "published_at": "2026-10-29T17:08:41+09:00",
-      "first_seen_at": "2026-10-29T18:02:19.632306+09:00",
-      "source_name": "INTERNET Watch",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6fa958c054e03af64d72c3b0",
-      "permalink_id": "article-url-6fa958c054e03af64d72c3b0",
-      "canonical_url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
-      "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-      "summary_excerpt": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged. The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek .",
-      "published_at": "2026-10-29T17:01:05+09:00",
-      "first_seen_at": "2026-10-29T18:02:28.162591+09:00",
-      "source_name": "SecurityWeek",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -274,7 +260,7 @@
         }
       ],
       "cves": [
-        "CVE-2026-41709"
+        "CVE-2026-97229"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -283,6 +269,64 @@
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:7d482c1bcf9fa313acb9e633",
+      "permalink_id": "article-url-7d482c1bcf9fa313acb9e633",
+      "canonical_url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "summary_excerpt": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
+      "published_at": "2026-10-29T19:44:46+09:00",
+      "first_seen_at": "2026-10-29T21:01:53.813119+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76418"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:b36cbddd30558feada5c369f",
+      "permalink_id": "article-url-b36cbddd30558feada5c369f",
+      "canonical_url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "summary_excerpt": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
+      "published_at": "2026-10-29T18:05:39+09:00",
+      "first_seen_at": "2026-10-29T21:01:54.139817+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:6fa958c054e03af64d72c3b0",
       "permalink_id": "article-url-6fa958c054e03af64d72c3b0",
@@ -511,54 +555,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bffbf5ad854cd8dacbd3c70e",
-      "permalink_id": "article-url-bffbf5ad854cd8dacbd3c70e",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002707/",
-      "title": "ベネフィット・ワンの委託先に不正アクセス　セゾン会員向け優待サービスで約2.9万人分の個人情報漏えい",
-      "summary_excerpt": "ベネフィット・ワンは10月28日、業務委託先のシステムへの不正アクセスで、クレディセゾン会員向け優待サービス「トク買」の会員2万9465人分の個人情報が漏えいしたと発表した。クレジットカード情報の漏えいはないという。",
-      "published_at": "2026-10-29T12:40:20+09:00",
-      "first_seen_at": "2026-10-29T14:02:32.822328+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f71feb17d35447889b306e5d",
-      "permalink_id": "article-url-f71feb17d35447889b306e5d",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261029-5217835/",
-      "title": "PHPの脆弱性悪用で日本含む4カ国のサーバ25台が侵害か、JPCERT/CCが追加警告",
-      "summary_excerpt": "JPCERTコーディネーションセンター（JPCERT/CC）は10月29日、PHPの深刻な脆弱性に関する注意喚起を更新し、ファイアウォール製品への侵害を示唆する痕跡が確認されたと報告した。セキュリティ企業Dreamの調査では、日本を含む4カ国で計25台のサーバーが侵害されたとみられ、米政府関連組織の内部ネットワークにも攻撃が及んでいる。",
-      "published_at": "2026-10-29T19:56:12+09:00",
-      "first_seen_at": "2026-10-29T20:02:52.136934+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -907,15 +903,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】PHPの脆弱性悪用で日本含む4カ国のサーバ25台が侵害か、JPCERT/CCが追加警告",
-    "【HOTTEST #1 / Heat 75】Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-    "【LATEST #2】Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
-    "【HOTTEST #2 / Heat 75】China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "【LATEST #3】不正アクセスによる漏えい人数、半年余りでのべ2億6000万人に　日本人口の2倍超",
-    "【HOTTEST #3 / Heat 73】ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も",
-    "【LATEST #4】Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-    "【HOTTEST #4 / Heat 67.5】Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
-    "【LATEST #5】Admin dropped the F-bomb in a password to show hackers who was really 1337",
-    "【HOTTEST #5 / Heat 67.5】Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability"
+    "【LATEST #1】Online Scam Volumes Double to Overtake Phishing",
+    "【HOTTEST #1 / Heat 75】Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "【LATEST #2】New Cisco firewall zero-day exploited to crash SSL VPN devices",
+    "【HOTTEST #2 / Heat 75】Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "【LATEST #3】Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
+    "【HOTTEST #3 / Heat 75】Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+    "【LATEST #4】PHPの脆弱性悪用で日本含む4カ国のサーバ25台が侵害か、JPCERT/CCが追加警告",
+    "【HOTTEST #4 / Heat 75】China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "【LATEST #5】Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "【HOTTEST #5 / Heat 73】ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も"
   ]
 }
