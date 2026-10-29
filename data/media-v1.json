@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-29T21:30:05.871061+00:00",
+  "source_snapshot_generated_at": "2026-10-29T22:30:04.636978+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b954a43ec88ac3262a3203fa",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "automation",
+          "n8n",
+          "医療機器"
+        ],
+        "url": "https://zenn.dev/taichiendoh/articles/pmda-safety-info-watch-automation",
+        "title": "「寝ている間に届く」仕組みを、医療機器の公開安全性情報に向ける ― PMDAメディナビ・回収情報を「蓄積できる定点観測」にする",
+        "author": "遠藤太一",
+        "published_at": "2026-10-29T22:09:36.589000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:28148b3ff53119893a389c44",
         "source": "zenn",
@@ -10038,6 +10054,68 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5b521f6cc25b3759bb774fd9",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "cve",
+          "vulnerability",
+          "WordPress"
+        ],
+        "url": "https://qiita.com/jiis-sasaki/items/e53e26726d6e0b3cef7c",
+        "title": "PHP 8.2〜8.5の未認証RCE「PHP2Shell」CVE-2026-109618──確認と更新手順",
+        "author": "jiis-sasaki",
+        "published_at": "2026-10-30T07:30:00+09:00",
+        "excerpt": "PHP で動く Web サイト(WordPress・EC-CUBE・Laravel など)を運用している方、サーバーを保守している方向けの記事です。 PHP 本体に、認証なしで遠隔からコードを実行される(RCE)脆弱性が 2 件 見つかり、2026年10月21日(現地時間)に修正版が公開されました。通称は PHP2Shell です。 この記事では「自分のサーバーの PHP が対象か」「ディストリビューション版の見分け方」「更新後に忘れがちな再起動」「すぐ更新できないときの緩和策」を、コピペで使えるコマンド付きでまとめます。 何が起きたのか 項目 内容 CVE CVE-2026-109618 (OOM 時の状態破損)/ CVE-2026-109619 (前のリクエストの状態が残る問題) 深刻度 どちらも CVSS v4.0 9.2(Critical) 影響 未認証のリモートコード実行(Web サーバーの実行ユーザー権限) 対象 PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12 より前 の各系列 修正版 8.2.35 / 8"
+      },
+      {
+        "id": "qiita:05553d4f43a06e09ea1da39f",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "ランサムウェア",
+          "セキュリティニュース",
+          "情報漏えい"
+        ],
+        "url": "https://qiita.com/Kerdy/items/21e99bfa78ba1f253e9c",
+        "title": "10/30、今日のセキュリティニュース｜「EDR無効化」「暗号化はしない」 2026年のランサムウェアに起きた変化 ｜IPA、企業のセキュリティ対策を評価する「SCS評価制度」の新ガイド公開",
+        "author": "Kerdy",
+        "published_at": "2026-10-30T07:23:29+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 良かったら、高評価とチャネル登録をお願いします🙇 「EDR無効化」「暗号化はし"
+      },
+      {
+        "id": "qiita:310e3549908bb8f13f976566",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "オープンソース",
+          "ビジネス",
+          "Security"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/ce6d27f98c16b0676447",
+        "title": "AI日報 2026年10月30日：Mistralが1兆パラメータの重みを公開、クラウド決算対決、OpenAIがModel Specを書き直す",
+        "author": "lhjjjk4",
+        "published_at": "2026-10-30T07:11:35+09:00",
+        "excerpt": "MistralがついにLe Chonkの重みを解放した。AlphabetとMicrosoftは24時間の差で決算を発表し、AIが損益計算書に何をもたらすかについて、まったく異なる物語を語った。OpenAIはルールブックを5つの価値観へと静かに作り替えた。ADTはAI持込会社のもとで非公開化し、LGは家庭用人形ロボットに期日を設けた。すべて公式ソースに基づく7本のニュースを以下にまとめる。 1. Mistral Large 4（通称 Le Chonk）の重みを公開 10月29日、待望の公開が実現した。Mistralは10月6日のパブリックプレビュー以来予告してきた1兆パラメータ、ネイティブ・マルチモーダルのフラッグシップ Mistral Large 4 のオープンウェイト公開を発表した。プレビュー後に3週間の強化学習を追加したことで、コーディングと防御的サイバーセキュリティの両面で大きな改善があり、改善はまだ飽和していないと同社は説明する。重みはHugging Faceにアップロードされているが、メインのcheckpointページには10月31日の"
+      },
+      {
+        "id": "qiita:413f2dce83b4d7c6449c2ed5",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "暗号化",
+          "アーキテクチャ",
+          "エンタープライズアーキテクチャ"
+        ],
+        "url": "https://qiita.com/Kudo_panda/items/66c26f15d7bf8ea6d9e9",
+        "title": "エンタープライズ・セキュリティアーキテクチャの立体メカニズム：暗号化と権限の完全統合",
+        "author": "Kudo_panda",
+        "published_at": "2026-10-30T07:02:32+09:00",
+        "excerpt": "はじめに 多くのエンタープライズシステムにおいて、暗号化は「インフラの部品（KMSやTLSの導入）」として矮小化されがちである。 しかし、真のセキュリティアーキテクチャとは、暗号化を単なる部品としてではなく、「 誰が・いつ・何の権限でその暗号カプセルを開けるのか 」という制御のメカニズムとして設計することにあると思っている。 本稿では、OSI参照モデル、クリーンアーキテクチャ、そしてUAF（Unified Architecture Framework）を統合し、暗号化と権限（RBAC/ABAC）がどのように立体的に連動し、脅威モデリングやカオスエンジニアリングによっていかにして証明されるかを構造的に解き明かす。 1. 暗号化のメカニズムと立体図形によるオントロジー 暗号化の基本的なメカニズムは、「システム外部から内部へ向かうにつれて暗号カプセルが剥がれ、内部から外部へ向かうにつれて再びカプセル化される」というOSI参照モデルやTCP/IPの動きそのものである。 これをUAFの階層構造およびクリーンアーキテクチャの同心円（立体を真上から見た図）と真"
+      },
+      {
         "id": "qiita:d9d693511119be0d2d355620",
         "source": "qiita",
         "author_tags": [
@@ -15059,6 +15137,102 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ca35d895af6d9f78acd49875",
+        "source": "medium",
+        "author_tags": [
+          "detection-engineering",
+          "wazuh",
+          "siem",
+          "cybersecurity",
+          "threat-intelligence"
+        ],
+        "url": "https://rebootingdaily.medium.com/entry-3b-fixing-the-false-positive-simulated-73cfd19863d6",
+        "title": "Entry 3b: Fixing the false positive (simulated)",
+        "author": "rebootingdaily",
+        "published_at": "2026-10-29T22:14:11+00:00",
+        "excerpt": "The problem: In Entry 3, my rule matched a bad domain anywhere in the log line, so it fired on a harmless URL where the domain appeared… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:98d7e1f721aa733823799413",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "hacking",
+          "web-application-security",
+          "cybersecurity",
+          "petpooja"
+        ],
+        "url": "https://medium.com/@TheWildEye/bola-in-munshi-sub-users-could-delete-the-tenant-owners-invoices-008f4331c339",
+        "title": "BOLA in Munshi: Sub-Users Could Delete the Tenant Owner’s Invoices",
+        "author": "TheWildEye",
+        "published_at": "2026-10-29T22:07:29+00:00",
+        "excerpt": "An object-level authorization flaw allowed authenticated sub-users to delete invoices belonging to the tenant owner, putting financial… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7f74bf530e7a2bc463c583f1",
+        "source": "medium",
+        "author_tags": [
+          "infosec",
+          "pentesting",
+          "cybersecurity",
+          "hacking",
+          "malware"
+        ],
+        "url": "https://medium.com/@s12deff/pte-manipulation-and-irp-dispatch-hijacking-to-execute-shellcode-in-kernel-87e0d2dc4449",
+        "title": "PTE Manipulation and IRP Dispatch Hijacking to Execute Shellcode in Kernel",
+        "author": "S12 - 0x12Dark Development",
+        "published_at": "2026-10-29T22:02:05+00:00",
+        "excerpt": "Welcome to this new Medium post, in this one we will see an alternative to the previous post of how to execute arbitrary shellcode at ring… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:87637a00c322e595748124e4",
+        "source": "medium",
+        "author_tags": [
+          "hacking",
+          "tryhackme",
+          "pentesting",
+          "ctf-writeup",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@zodiak0x6/anonymous-ctf-thm-writeup-39220ef642ab",
+        "title": "Anonymous CTF — THM Writeup",
+        "author": "ZODiAK",
+        "published_at": "2026-10-29T21:54:04+00:00",
+        "excerpt": "Lab Link: Brooklyn Nine Nine Platform: TryHackMe Author: ZODiAK Difficulty: Medium Day: 8 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:61d28fb5d0d0568fe9d4d247",
+        "source": "medium",
+        "author_tags": [
+          "forensics",
+          "soc-analyst",
+          "ctf",
+          "volatility",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@praisea704/cyberdefenders-volatility-traces-lab-writeup-2a0e55168db6",
+        "title": "CyberDefenders — Volatility Traces Lab Writeup",
+        "author": "Praise Ameh",
+        "published_at": "2026-10-29T21:34:31+00:00",
+        "excerpt": "Welcome to my Volatility Traces writeup. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0ec874b87636cf67afe93158",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "data-science",
+          "programming",
+          "cryptocurrency",
+          "education"
+        ],
+        "url": "https://medium.com/@solutionrecoveryexperts90/cryptocurrency-scams-exploit-trust-urgency-and-gaps-in-understanding-of-blockchain-technology-760669204d70",
+        "title": "‎Cryptocurrency scams exploit trust, urgency, and gaps in understanding of blockchain technology.",
+        "author": "Scott Krain",
+        "published_at": "2026-10-29T21:33:07+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
       {
         "id": "medium:30ae86093dcd7f4c80f96817",
         "source": "medium",
