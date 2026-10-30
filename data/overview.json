@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-30T22:56:04.822345+00:00",
-  "as_of": "2026-10-30T22:00:00+00:00",
-  "catalog_count": 21412,
+  "generated_at": "2026-10-30T23:41:20.002004+00:00",
+  "as_of": "2026-10-30T23:00:00+00:00",
+  "catalog_count": 21413,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,27 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:e0dc80a286b2ee1714cbae14",
+      "permalink_id": "article-url-e0dc80a286b2ee1714cbae14",
+      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news003.html",
+      "title": "GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
+      "summary_excerpt": "GMOインターネットのVPSサービスへの不正アクセスは、顧客情報の漏えいだけでなく、攻撃者による情報公開、企業の対抗措置、SNSでの真偽不明情報の拡散を招いた。攻撃者が仕掛ける「劇場型」の情報戦に、企業も報道も巻き込まれていないか。SNSをやめたくなった記者が、事件の経緯を振り返りながら考える。",
+      "published_at": "2026-10-31T07:15:00+09:00",
+      "first_seen_at": "2026-10-31T08:08:39.023036+09:00",
+      "source_name": "@IT Security & Trust",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:08036760f30ca05192691230",
       "permalink_id": "article-url-08036760f30ca05192691230",
@@ -210,7 +231,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -231,7 +252,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -258,79 +279,11 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2748ad0ca305bff955eb9912",
-      "permalink_id": "article-url-2748ad0ca305bff955eb9912",
-      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
-      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-      "summary_excerpt": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required. The flaw sits between the internal message router, brain , and an appliance-side customer worker, thin-scc . An attacker can put a reserved local router ID into a message's source address. The router forwards the message, and the worker accepts that address as proof that the req",
-      "published_at": "2026-10-31T01:01:53+09:00",
-      "first_seen_at": "2026-10-31T02:53:36.604261+09:00",
-      "source_name": "Rapid7 Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "cves": [
-        "CVE-2026-102764"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
   "hottest": [
-    {
-      "public_article_id": "url:2748ad0ca305bff955eb9912",
-      "permalink_id": "article-url-2748ad0ca305bff955eb9912",
-      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
-      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-      "summary_excerpt": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required. The flaw sits between the internal message router, brain , and an appliance-side customer worker, thin-scc . An attacker can put a reserved local router ID into a message's source address. The router forwards the message, and the worker accepts that address as proof that the req",
-      "published_at": "2026-10-31T01:01:53+09:00",
-      "first_seen_at": "2026-10-31T02:53:36.604261+09:00",
-      "source_name": "Rapid7 Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "cves": [
-        "CVE-2026-102764"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
     {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
       "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
@@ -401,6 +354,40 @@
       "threat_actors": [],
       "seen_in_kev": true,
       "heat_score": 70.97,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2748ad0ca305bff955eb9912",
+      "permalink_id": "article-url-2748ad0ca305bff955eb9912",
+      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
+      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+      "summary_excerpt": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required. The flaw sits between the internal message router, brain , and an appliance-side customer worker, thin-scc . An attacker can put a reserved local router ID into a message's source address. The router forwards the message, and the worker accepts that address as proof that the req",
+      "published_at": "2026-10-31T01:01:53+09:00",
+      "first_seen_at": "2026-10-31T02:53:36.604261+09:00",
+      "source_name": "Rapid7 Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
+        }
+      ],
+      "cves": [
+        "CVE-2026-102764"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -646,7 +633,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 58.5,
+      "heat_score": 46.8,
       "published_at_future_suppressed": false
     }
   ],
@@ -1000,15 +987,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
-    "【HOTTEST #1 / Heat 75】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-    "【LATEST #2】Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-    "【HOTTEST #2 / Heat 70.97】CVE-2026-118527: Ivanti Connect Secure",
-    "【LATEST #3】DOJ raises privacy concerns over potential sale of Character.AI chats",
-    "【HOTTEST #3 / Heat 70.97】CVE-2026-111357: Ivanti Connect Secure",
-    "【LATEST #4】Fashion retailer Resolve says hackers stole payment card information",
+    "【LATEST #1】GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
+    "【HOTTEST #1 / Heat 70.97】CVE-2026-118527: Ivanti Connect Secure",
+    "【LATEST #2】China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
+    "【HOTTEST #2 / Heat 70.97】CVE-2026-111357: Ivanti Connect Secure",
+    "【LATEST #3】Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+    "【HOTTEST #3 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+    "【LATEST #4】DOJ raises privacy concerns over potential sale of Character.AI chats",
     "【HOTTEST #4 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "【LATEST #5】Suspected DPRK Hackers Conduct Targeted PHP2Shell Scanning",
+    "【LATEST #5】Fashion retailer Resolve says hackers stole payment card information",
     "【HOTTEST #5 / Heat 67.5】Max-Severity GitLab Vulnerability Exploited Against Alpine Linux"
   ]
 }
