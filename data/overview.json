@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-29T12:11:47.224853+00:00",
-  "as_of": "2026-10-29T12:00:00+00:00",
-  "catalog_count": 21225,
+  "generated_at": "2026-10-30T22:56:04.822345+00:00",
+  "as_of": "2026-10-30T22:00:00+00:00",
+  "catalog_count": 21412,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -11,45 +11,29 @@
   },
   "latest": [
     {
-      "public_article_id": "url:af69c1984521927fcef1b737",
-      "permalink_id": "article-url-af69c1984521927fcef1b737",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/online-scam-volumes-double/",
-      "title": "Online Scam Volumes Double to Overtake Phishing",
-      "summary_excerpt": "Akamai research reveals that scam detections topped six million in Q2 2026",
-      "published_at": "2026-10-29T20:15:00+09:00",
-      "first_seen_at": "2026-10-29T21:01:46.748091+09:00",
-      "source_name": "Infosecurity Magazine",
+      "public_article_id": "url:08036760f30ca05192691230",
+      "permalink_id": "article-url-08036760f30ca05192691230",
+      "canonical_url": "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/",
+      "title": "China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
+      "summary_excerpt": "Vapor Panda targeted more than 200 organizations spanning at least 14 countries, according to CrowdStrike. The ongoing campaign is remarkably successful and operating at shocking speed. The post China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days appeared first on CyberScoop .",
+      "published_at": "2026-10-31T06:30:00+09:00",
+      "first_seen_at": "2026-10-31T06:53:34.568848+09:00",
+      "source_name": "CyberScoop",
       "source_class": "topic_rss",
       "security_relevance": "primary",
-      "ai_relevance": "none",
+      "ai_relevance": "primary",
       "document_form": "single_story",
-      "primary_category": "threat_report",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4665f17a8f062865003b59a1",
-      "permalink_id": "article-url-4665f17a8f062865003b59a1",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-      "summary_excerpt": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
-      "published_at": "2026-10-29T20:10:13+09:00",
-      "first_seen_at": "2026-10-29T21:01:21.564058+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "defense_ops",
+      "primary_category": "ai_security",
       "public_tags": [
         {
-          "color_family": "blue",
-          "key": "defense_ops",
-          "label": "Defense & Ops"
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
         }
       ],
       "cves": [],
@@ -59,14 +43,73 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:68cc7bf957fbb593d576d3b5",
-      "permalink_id": "article-url-68cc7bf957fbb593d576d3b5",
-      "canonical_url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
-      "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
-      "summary_excerpt": "The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records. The post Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net appeared first on SecurityWeek .",
-      "published_at": "2026-10-29T20:00:00+09:00",
-      "first_seen_at": "2026-10-29T21:01:53.301095+09:00",
-      "source_name": "SecurityWeek",
+      "public_article_id": "url:de02ba8ec3835cf3eb6e0c75",
+      "permalink_id": "article-url-de02ba8ec3835cf3eb6e0c75",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "summary_excerpt": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+      "published_at": "2026-10-31T06:09:46+09:00",
+      "first_seen_at": "2026-10-31T06:22:18.791004+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:648e9014a3f5b42af77025b2",
+      "permalink_id": "article-url-648e9014a3f5b42af77025b2",
+      "canonical_url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+      "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
+      "summary_excerpt": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
+      "published_at": "2026-10-31T05:45:00+09:00",
+      "first_seen_at": "2026-10-31T05:52:47.830401+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:06d1f3082aff47283bab9fb6",
+      "permalink_id": "article-url-06d1f3082aff47283bab9fb6",
+      "canonical_url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+      "title": "Fashion retailer Resolve says hackers stole payment card information",
+      "summary_excerpt": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
+      "published_at": "2026-10-31T04:00:00+09:00",
+      "first_seen_at": "2026-10-31T04:22:10.149339+09:00",
+      "source_name": "The Record",
       "source_class": "topic_rss",
       "security_relevance": "material",
       "ai_relevance": "none",
@@ -80,43 +123,16 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:f71feb17d35447889b306e5d",
-      "permalink_id": "article-url-f71feb17d35447889b306e5d",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261029-5217835/",
-      "title": "PHPの脆弱性悪用で日本含む4カ国のサーバ25台が侵害か、JPCERT/CCが追加警告",
-      "summary_excerpt": "JPCERTコーディネーションセンター（JPCERT/CC）は10月29日、PHPの深刻な脆弱性に関する注意喚起を更新し、ファイアウォール製品への侵害を示唆する痕跡が確認されたと報告した。セキュリティ企業Dreamの調査では、日本を含む4カ国で計25台のサーバーが侵害されたとみられ、米政府関連組織の内部ネットワークにも攻撃が及んでいる。",
-      "published_at": "2026-10-29T19:56:12+09:00",
-      "first_seen_at": "2026-10-29T20:02:52.136934+09:00",
-      "source_name": "Mynavi TECH+ Security",
+      "public_article_id": "url:a073cc020f668f4bb7e70db6",
+      "permalink_id": "article-url-a073cc020f668f4bb7e70db6",
+      "canonical_url": "https://blog.polyswarm.io/suspected-dprk-hackers-conduct-targeted-php2shell-scanning",
+      "title": "Suspected DPRK Hackers Conduct Targeted PHP2Shell Scanning",
+      "summary_excerpt": "Verticals Targeted: Government, Financial, Manufacturing, Aviation, Airports Regions Targeted: United States, Japan, South Korea, Thailand, Indonesia, Australia, Taiwan, India, Singapore, UAE, Saudi Arabia, European Union Related Threat Actors: Lazarus Group Executive Summary A suspected North Korean state-linked threat operation has reportedly progressed from reconnaissance to active scanning of internet-facing PHP servers exposed to CVE-2026-109618 and CVE-2026-109619, collectively known as PHP2Shell. Operators communicating through a closed I2P channel reportedly identified 216 potentially ",
+      "published_at": "2026-10-31T03:43:03+09:00",
+      "first_seen_at": "2026-10-31T04:07:39.333202+09:00",
+      "source_name": "PolySwarm Blog",
       "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7d482c1bcf9fa313acb9e633",
-      "permalink_id": "article-url-7d482c1bcf9fa313acb9e633",
-      "canonical_url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "summary_excerpt": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-      "published_at": "2026-10-29T19:44:46+09:00",
-      "first_seen_at": "2026-10-29T21:01:53.813119+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
+      "security_relevance": "material",
       "ai_relevance": "none",
       "document_form": "single_story",
       "primary_category": "vulnerability",
@@ -128,22 +144,25 @@
         }
       ],
       "cves": [
-        "CVE-2026-76418"
+        "CVE-2026-109618",
+        "CVE-2026-109619"
       ],
-      "threat_actors": [],
+      "threat_actors": [
+        "Lazarus Group"
+      ],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 55.0,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:12d9b8223a9161ef5095c723",
-      "permalink_id": "article-url-12d9b8223a9161ef5095c723",
-      "canonical_url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
-      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
-      "summary_excerpt": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed. The post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network appeared first on SecurityWeek .",
-      "published_at": "2026-10-29T19:29:25+09:00",
-      "first_seen_at": "2026-10-29T20:02:55.960444+09:00",
-      "source_name": "SecurityWeek",
+      "public_article_id": "url:46377df52764d6fd77d39f31",
+      "permalink_id": "article-url-46377df52764d6fd77d39f31",
+      "canonical_url": "https://blog.cloudflare.com/emudhra-patching/",
+      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "summary_excerpt": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+      "published_at": "2026-10-31T02:38:50+09:00",
+      "first_seen_at": "2026-10-31T03:22:24.099053+09:00",
+      "source_name": "Cloudflare Blog Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -156,27 +175,52 @@
           "label": "Vulnerability"
         },
         {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
         }
       ],
       "cves": [],
-      "threat_actors": [
-        "Volt Typhoon"
-      ],
+      "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:ef221d198e22077f91c86023",
-      "permalink_id": "article-url-ef221d198e22077f91c86023",
-      "canonical_url": "https://www.itpro.com/security/encryption/security-leaders-brace-for-an-overhaul-of-public-key-infrastructure-as-quantum-risks-rise",
-      "title": "Security leaders brace for an overhaul of public key infrastructure as quantum risks rise",
-      "summary_excerpt": "The scale of the work ahead is becoming clearer across cryptographic discovery, automation, architecture, governance and investment",
-      "published_at": "2026-10-29T19:20:00+09:00",
-      "first_seen_at": "2026-10-29T21:01:51.278047+09:00",
+      "public_article_id": "url:4fa40013294f33ebe2ef52d5",
+      "permalink_id": "article-url-4fa40013294f33ebe2ef52d5",
+      "canonical_url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "summary_excerpt": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
+      "published_at": "2026-10-31T01:58:44+09:00",
+      "first_seen_at": "2026-10-31T03:53:03.182398+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:81bfd42769a517f6a1841c69",
+      "permalink_id": "article-url-81bfd42769a517f6a1841c69",
+      "canonical_url": "https://www.itpro.com/security/cyber-attacks/the-binance-hack-explained-how-much-cryptocurrency-was-stolen-whos-behind-the-attack-and-was-a-single-compromised-laptop-to-blame",
+      "title": "The Binance hack explained",
+      "summary_excerpt": "Initial reports that a single compromised laptop was the cause of the Binance hack have been debunked by the crypto exchange firm",
+      "published_at": "2026-10-31T01:31:08+09:00",
+      "first_seen_at": "2026-10-31T02:07:26.820912+09:00",
       "source_name": "ITPro Security",
       "source_class": "topic_rss",
       "security_relevance": "material",
@@ -191,45 +235,24 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:75b9d86630b342918340f08e",
-      "permalink_id": "article-url-75b9d86630b342918340f08e",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002730/",
-      "title": "不正アクセスによる漏えい人数、半年余りでのべ2億6000万人に　日本人口の2倍超",
-      "summary_excerpt": "個人情報保護委員会によると、2026年4月1日から10月16日までに報告された不正アクセスによる個人情報の漏えい、または漏えいの恐れがある事案について、対象者数は延べ約2億6000万人だったという。これは、同年10月1日時点の日本の総人口の2倍以上に相当する。",
-      "published_at": "2026-10-29T19:18:19+09:00",
-      "first_seen_at": "2026-10-29T20:02:49.659379+09:00",
-      "source_name": "ITmedia NEWS Bursts",
+      "public_article_id": "url:84be936fd5b7ceaeedcf7836",
+      "permalink_id": "article-url-84be936fd5b7ceaeedcf7836",
+      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+      "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
+      "summary_excerpt": "Claudeshop fingers 'malicious actor' in targeted supply-chain attack on Cursor",
+      "published_at": "2026-10-31T01:27:00+09:00",
+      "first_seen_at": "2026-10-31T02:07:28.120554+09:00",
+      "source_name": "The Register Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
-      "ai_relevance": "none",
+      "ai_relevance": "primary",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a8c93a077438eadc99160830",
-      "permalink_id": "article-url-a8c93a077438eadc99160830",
-      "canonical_url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-      "summary_excerpt": "An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload. The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek .",
-      "published_at": "2026-10-29T18:47:10+09:00",
-      "first_seen_at": "2026-10-29T19:01:47.808234+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
+      "primary_category": "ai_security",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
         }
       ],
       "cves": [],
@@ -239,14 +262,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:b36cbddd30558feada5c369f",
-      "permalink_id": "article-url-b36cbddd30558feada5c369f",
-      "canonical_url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "summary_excerpt": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
-      "published_at": "2026-10-29T18:05:39+09:00",
-      "first_seen_at": "2026-10-29T21:01:54.139817+09:00",
-      "source_name": "The Hacker News",
+      "public_article_id": "url:2748ad0ca305bff955eb9912",
+      "permalink_id": "article-url-2748ad0ca305bff955eb9912",
+      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
+      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+      "summary_excerpt": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required. The flaw sits between the internal message router, brain , and an appliance-side customer worker, thin-scc . An attacker can put a reserved local router ID into a message's source address. The router forwards the message, and the worker accepts that address as proof that the req",
+      "published_at": "2026-10-31T01:01:53+09:00",
+      "first_seen_at": "2026-10-31T02:53:36.604261+09:00",
+      "source_name": "Rapid7 Blog",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -257,10 +280,15 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
         }
       ],
       "cves": [
-        "CVE-2026-97229"
+        "CVE-2026-102764"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -270,151 +298,14 @@
   ],
   "hottest": [
     {
-      "public_article_id": "url:7d482c1bcf9fa313acb9e633",
-      "permalink_id": "article-url-7d482c1bcf9fa313acb9e633",
-      "canonical_url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "summary_excerpt": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-      "published_at": "2026-10-29T19:44:46+09:00",
-      "first_seen_at": "2026-10-29T21:01:53.813119+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-76418"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b36cbddd30558feada5c369f",
-      "permalink_id": "article-url-b36cbddd30558feada5c369f",
-      "canonical_url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "summary_excerpt": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
-      "published_at": "2026-10-29T18:05:39+09:00",
-      "first_seen_at": "2026-10-29T21:01:54.139817+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-97229"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6fa958c054e03af64d72c3b0",
-      "permalink_id": "article-url-6fa958c054e03af64d72c3b0",
-      "canonical_url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
-      "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-      "summary_excerpt": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged. The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek .",
-      "published_at": "2026-10-29T17:01:05+09:00",
-      "first_seen_at": "2026-10-29T18:02:28.162591+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-41709"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:48f467fc9990539a6e8ad8a2",
-      "permalink_id": "article-url-48f467fc9990539a6e8ad8a2",
-      "canonical_url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:",
-      "published_at": "2026-10-29T15:22:33+09:00",
-      "first_seen_at": "2026-10-29T16:02:20.283984+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-41709"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bac8047e6fcb4b7e57da2a75",
-      "permalink_id": "article-url-bac8047e6fcb4b7e57da2a75",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002722/",
-      "title": "ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も",
-      "summary_excerpt": "全日本空輸（ANA）は10月29日、Amadeusが提供する旅客サービスシステムへの不正アクセスで、一部顧客の個人情報を第三者が参照した形跡があると発表した。同じシステムを使う日本航空も28日、約9万2000人分の予約情報への不正アクセスを公表している。",
-      "published_at": "2026-10-29T16:37:03+09:00",
-      "first_seen_at": "2026-10-29T18:02:20.846793+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 73.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:69173eb6b54d53808d5546ee",
-      "permalink_id": "article-url-69173eb6b54d53808d5546ee",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
-      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
-      "published_at": "2026-10-29T05:36:45+09:00",
-      "first_seen_at": "2026-10-29T06:02:00.231820+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
+      "public_article_id": "url:2748ad0ca305bff955eb9912",
+      "permalink_id": "article-url-2748ad0ca305bff955eb9912",
+      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
+      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+      "summary_excerpt": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required. The flaw sits between the internal message router, brain , and an appliance-side customer worker, thin-scc . An attacker can put a reserved local router ID into a message's source address. The router forwards the message, and the worker accepts that address as proof that the req",
+      "published_at": "2026-10-31T01:01:53+09:00",
+      "first_seen_at": "2026-10-31T02:53:36.604261+09:00",
+      "source_name": "Rapid7 Blog",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -427,35 +318,32 @@
           "label": "Vulnerability"
         },
         {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
         }
       ],
       "cves": [
-        "CVE-2026-105482",
-        "CVE-2026-105483",
-        "CVE-2026-106069",
-        "CVE-2026-111497"
+        "CVE-2026-102764"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:6928c2503ac89a75094d4c40",
-      "permalink_id": "article-url-6928c2503ac89a75094d4c40",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Tunnel%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
-      "summary_excerpt": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause t",
-      "published_at": "2026-10-29T04:15:00+09:00",
-      "first_seen_at": "2026-10-29T06:02:01.666520+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
+      "public_article_id": "url:260e0edd7954e6a7db05dfac",
+      "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527",
+      "title": "CVE-2026-118527: Ivanti Connect Secure",
+      "summary_excerpt": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+      "published_at": "2026-10-30T09:00:00+09:00",
+      "first_seen_at": "2026-10-31T02:52:58.104161+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
       "security_relevance": "primary",
       "ai_relevance": "none",
-      "document_form": "single_story",
+      "document_form": "advisory",
       "primary_category": "vulnerability",
       "public_tags": [
         {
@@ -464,56 +352,65 @@
           "label": "Vulnerability"
         },
         {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
       "cves": [
-        "CVE-2026-76418"
+        "CVE-2026-104935",
+        "CVE-2026-111357",
+        "CVE-2026-118527"
       ],
       "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
+      "seen_in_kev": true,
+      "heat_score": 70.97,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:f83598082f121f26e38f677f",
-      "permalink_id": "article-url-f83598082f121f26e38f677f",
-      "canonical_url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "summary_excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
-      "published_at": "2026-10-28T21:48:03+09:00",
-      "first_seen_at": "2026-10-29T00:02:30.490817+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
+      "public_article_id": "url:9a4fd4ae43bdfe297cc0aa90",
+      "permalink_id": "article-url-9a4fd4ae43bdfe297cc0aa90",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111357",
+      "title": "CVE-2026-111357: Ivanti Connect Secure",
+      "summary_excerpt": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+      "published_at": "2026-10-30T09:00:00+09:00",
+      "first_seen_at": "2026-10-31T02:52:58.091559+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
       "security_relevance": "primary",
       "ai_relevance": "none",
-      "document_form": "single_story",
+      "document_form": "advisory",
       "primary_category": "vulnerability",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
       "cves": [
-        "CVE-2026-101767"
+        "CVE-2026-104935",
+        "CVE-2026-111357",
+        "CVE-2026-118527"
       ],
       "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
+      "seen_in_kev": true,
+      "heat_score": 70.97,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:22d2ccd53543886c59b86d40",
-      "permalink_id": "article-url-22d2ccd53543886c59b86d40",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "public_article_id": "url:f635e51b46992649ab09cf6e",
+      "permalink_id": "article-url-f635e51b46992649ab09cf6e",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch",
-      "published_at": "2026-10-28T21:00:00+09:00",
-      "first_seen_at": "2026-10-29T06:01:43.365358+09:00",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management r",
+      "published_at": "2026-10-30T21:00:00+09:00",
+      "first_seen_at": "2026-10-31T03:52:40.704721+09:00",
       "source_name": "CISA Cybersecurity Advisories",
       "source_class": "topic_rss",
       "security_relevance": "primary",
@@ -528,8 +425,8 @@
         }
       ],
       "cves": [
-        "CVE-2026-41709",
-        "CVE-2026-46300"
+        "CVE-2026-111357",
+        "CVE-2026-118527"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -537,20 +434,176 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:7d4800413be992f3d88e1fda",
-      "permalink_id": "article-url-7d4800413be992f3d88e1fda",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002714/",
-      "title": "松屋の公式アプリとWebサイトが停止　不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
-      "summary_excerpt": "牛丼チェーン「松屋」を運営する松屋フーズは10月29日までに、外部からの不正アクセスを検知したとして、公式アプリやWebサイトを停止していると発表した。原因と影響範囲を調べており、復旧の見通しは改めて知らせるとしている。",
-      "published_at": "2026-10-29T13:44:14+09:00",
-      "first_seen_at": "2026-10-29T15:02:04.881279+09:00",
-      "source_name": "ITmedia NEWS Bursts",
+      "public_article_id": "url:28a276f6e91692074ffd4ec5",
+      "permalink_id": "article-url-28a276f6e91692074ffd4ec5",
+      "canonical_url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "summary_excerpt": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server. The post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek .",
+      "published_at": "2026-10-30T18:32:27+09:00",
+      "first_seen_at": "2026-10-30T18:53:31.341795+09:00",
+      "source_name": "SecurityWeek",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:bc4258f9677bca1e1ae92494",
+      "permalink_id": "article-url-bc4258f9677bca1e1ae92494",
+      "canonical_url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "summary_excerpt": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+      "published_at": "2026-10-30T16:45:30+09:00",
+      "first_seen_at": "2026-10-30T17:52:50.793215+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-118539"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:8927f234f52baad7df3c11d2",
+      "permalink_id": "article-url-8927f234f52baad7df3c11d2",
+      "canonical_url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+      "published_at": "2026-10-30T16:27:05+09:00",
+      "first_seen_at": "2026-10-30T16:53:18.061259+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:e5c483c4c3b1aea3da6405ba",
+      "permalink_id": "article-url-e5c483c4c3b1aea3da6405ba",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261030-5221870/",
+      "title": "Linuxカーネルに重大な脆弱性、遠隔攻撃の恐れ - Ubuntuは修正作業中",
+      "summary_excerpt": "LinuxカーネルのIPv4通信処理に、遠隔から悪用される恐れのある脆弱性「CVE-2026-98432」が確認された。CVSS v3.1の基本値は9.8（Critical）。Linuxカーネルの上流では、この脆弱性に対する修正が行われている。ただし、UbuntuやRHELなどのLinuxディストリビューションでは、独自のカーネルパッケージに修正を取り込む場合がある。悪用された場合、システム停止やメモリ破壊につながる可能性があり、管理者には利用中のカーネルと修正状況の確認が求められる。",
+      "published_at": "2026-10-30T11:27:35+09:00",
+      "first_seen_at": "2026-10-30T12:07:38.995930+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-98432"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:90dff4f00f732a8f63d07648",
+      "permalink_id": "article-url-90dff4f00f732a8f63d07648",
+      "canonical_url": "https://www.security-next.com/192222",
+      "title": "「GitLab」の悪用脆弱性、原因は「Ruby」 - 修正版が公開",
+      "summary_excerpt": "ソースコード管理プラットフォーム「GitLab」に深刻な脆弱性「CVE-2026-97229」などが見つかった問題で、依存関係にあるプログラミング言語「Ruby」に起因することが判明した。「Ruby」の利用環境も影響を受けるおそれがあり、注意が必要となる。",
+      "published_at": "2026-10-30T11:01:40+09:00",
+      "first_seen_at": "2026-10-30T11:53:00.010013+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2d80a0a180e4861eae7951e4",
+      "permalink_id": "article-url-2d80a0a180e4861eae7951e4",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+      "title": "Claude Code extension poisoned with persistent SSH backdoor",
+      "summary_excerpt": "A tampered build of Anthropic’s Claude Code extension for VS Code-compatible editors planted an SSH backdoor on developers’ machines, researchers at macOS security firm Phorion have found. The company spotted the malicious package, version 2.1.313, on Open VSX, an open-source marketplace for VS Code extensions run by the Eclipse Foundation. VS Code’s default extension store is Microsoft’s Visual Studio Marketplace, where no malicious version has been reported. Its terms of use limit it to Microsoft’s … More → The post Claude Code extension poisoned with persistent SSH backdoor appeared first o",
+      "published_at": "2026-10-30T20:15:26+09:00",
+      "first_seen_at": "2026-10-30T20:53:14.125129+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -560,28 +613,117 @@
   ],
   "rising": [
     {
-      "public_article_id": "url:9a9fa2898f909ca0fc646f6a",
-      "permalink_id": "article-url-9a9fa2898f909ca0fc646f6a",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/29/2000002674/",
-      "title": "渦中のGMO、熊谷代表の発信は“火に油”か？　「経営トップが自ら広報」の功罪",
-      "summary_excerpt": "不正アクセス騒動と同時に物議を醸す、GMOインターネットグループ・熊谷正寿代表による発信。危機管理広報の観点からその妥当性を考える。",
-      "published_at": "2026-10-29T10:30:00+09:00",
-      "first_seen_at": "2026-10-29T11:02:08.012400+09:00",
-      "source_name": "ITmedia NEWS Security",
+      "public_article_id": "url:f652f7337df746af6e7815d3",
+      "permalink_id": "article-url-f652f7337df746af6e7815d3",
+      "canonical_url": "https://www.sbbit.jp/article/cont1/187920?ref=rss",
+      "title": "【情報漏えい・脆弱性対策】今知っておくべき主要5社「AI防御特化スキル」徹底解説",
+      "summary_excerpt": "日本企業の個人情報漏えいの事故が止まりません。個人情報保護委員会によれば不正アクセスによる個人情報の漏えいは今年4月以降、のべ約2億6千万人分にのぼることがわかりました。その背景として、AIを活用した攻撃の急増があります。攻撃者はAIを駆使してアプリやサービスの「脆弱性」を発見し、そこから不正アクセスや情報の詐取を行います。こうした攻撃を防ぐには、防御側もAIによって「脆弱性」を埋めるしかありません。そこで活用したいのが、AIエージェントに脆弱性などのセキュリティ点検を手伝わせるAI防御特化スキル「Agent Skills」などの仕組みです。OpenAI、GitHub、AWS、Anthropic、Cloudflareの5社が提供する関連スキル・プラグインについて、それぞれの特徴と具体的な使い分けを紹介します。",
+      "published_at": "2026-10-30T07:30:00+09:00",
+      "first_seen_at": "2026-10-30T08:03:07.976085+09:00",
+      "source_name": "Business+IT Hot Topics Filtered",
       "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
+      "security_relevance": "primary",
+      "ai_relevance": "material",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 47.7,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
   "persistent_hot": [
+    {
+      "public_article_id": "url:7f13e3152f2268964d955501",
+      "permalink_id": "article-url-7f13e3152f2268964d955501",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-48356",
+      "title": "CVE-2026-48356: Adobe Commerce and Magento",
+      "summary_excerpt": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+      "published_at": "2026-10-27T09:00:00+09:00",
+      "first_seen_at": "2026-10-28T05:01:34.047686+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-48356"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 39.42,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0aca4f22f78234006c292622",
+      "permalink_id": "article-url-0aca4f22f78234006c292622",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111497",
+      "title": "CVE-2026-111497: Google Brotli",
+      "summary_excerpt": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+      "published_at": "2026-10-27T09:00:00+09:00",
+      "first_seen_at": "2026-10-28T05:01:34.026406+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 39.42,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:12f2918042c0c47c806c514a",
       "permalink_id": "article-url-12f2918042c0c47c806c514a",
@@ -651,14 +793,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:7c54e769948b6fc771ccdcc1",
-      "permalink_id": "article-url-7c54e769948b6fc771ccdcc1",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-      "summary_excerpt": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
-      "published_at": "2026-10-26T18:19:57+09:00",
-      "first_seen_at": "2026-10-26T19:02:18.848646+09:00",
-      "source_name": "BleepingComputer",
+      "public_article_id": "url:b864172b52514096e0029807",
+      "permalink_id": "article-url-b864172b52514096e0029807",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "title": "Vulnerabilities in node.js Affecting Cisco Products: October 2026",
+      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
+      "published_at": "2026-10-28T06:30:00+09:00",
+      "first_seen_at": "2026-10-28T08:02:46.131187+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -669,6 +811,48 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-105482",
+        "CVE-2026-105483",
+        "CVE-2026-106069",
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:3f78d562c8c900bf802d2dd7",
+      "permalink_id": "article-url-3f78d562c8c900bf802d2dd7",
+      "canonical_url": "https://www.praetorian.com/blog/php2shell/",
+      "title": "php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
+      "summary_excerpt": "Cutting Through the php2shell Noise On October 20, details of php2shell, two pre-auth RCE vulnerabilities in the PHP core discovered by Calif (CVE-2026-109618 and CVE-2026-109619), leaked ahead of coordinated disclosure. Advisories listing affected versions followed quickly, along with a flood of PoCs, many AI-generated and non-functional. We waited until we had our own data. This […] The post php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit appeared first on Praetorian .",
+      "published_at": "2026-10-28T04:31:40+09:00",
+      "first_seen_at": "2026-10-28T06:02:15.535507+09:00",
+      "source_name": "Praetorian Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
         }
       ],
       "cves": [
@@ -681,43 +865,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:d20444dd0495bc21e7668528",
-      "permalink_id": "article-url-d20444dd0495bc21e7668528",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
-      "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
-      "summary_excerpt": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
-      "published_at": "2026-10-26T18:15:00+09:00",
-      "first_seen_at": "2026-10-26T19:02:39.757623+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-115560"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5ae5985c69e5d9b716f57711",
-      "permalink_id": "article-url-5ae5985c69e5d9b716f57711",
-      "canonical_url": "https://www.jpcert.or.jp/at/2026/at260034.html",
-      "title": "注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起  (公開)",
-      "summary_excerpt": null,
-      "published_at": "2026-10-26T16:25:00+09:00",
-      "first_seen_at": "2026-10-26T18:02:29.077138+09:00",
-      "source_name": "JPCERT/CC",
+      "public_article_id": "url:86b085b4800a651a865cc045",
+      "permalink_id": "article-url-86b085b4800a651a865cc045",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
+      "title": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
+      "summary_excerpt": "A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds write flaw that gained widespread attention after Node.js publicly disclosed it on October 21, 2026. “An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory, which can lead to a crash, disclosure of process … More → The post Brotli bug reaches far beyond Node.js",
+      "published_at": "2026-10-28T02:38:51+09:00",
+      "first_seen_at": "2026-10-28T03:01:42.690010+09:00",
+      "source_name": "Help Net Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -739,14 +894,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:eee0a9e479b3417b58657aa8",
-      "permalink_id": "article-url-eee0a9e479b3417b58657aa8",
-      "canonical_url": "https://jvn.jp/vu/JVNVU97400824/",
-      "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
-      "summary_excerpt": "Googleのデータ圧縮アルゴリズムBrotliのC言語実装における脆弱性（ CVE-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「HTTP2Shell」や「Node2Shell」とも呼ばれています。",
-      "published_at": "2026-10-26T15:00:00+09:00",
-      "first_seen_at": "2026-10-26T16:02:27.856738+09:00",
-      "source_name": "JVN",
+      "public_article_id": "url:ca3d4a860204b83da66079c0",
+      "permalink_id": "article-url-ca3d4a860204b83da66079c0",
+      "canonical_url": "https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft",
+      "title": "CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
+      "summary_excerpt": "On September 25, 2026, Mandiant released a report regarding continued mass exploitation of CVE-2026-35273 by the ShinyHunters group. TrendAI’s Zero Day Initiative first reported this CVE to Oracle on June 10, 2026, following an investigation I conducted with Minh Giang and Lucas Miller of TrendAI Research. Although Oracle issued a patch under a single CVE, we reported three distinct vulnerabilities across multiple PeopleSoft components. We are coordinating with Oracle to assign separate CVEs for each issue. In this blog post, we will walk through each of these vulnerabilities, starting with a ",
+      "published_at": "2026-10-28T01:39:07+09:00",
+      "first_seen_at": "2026-10-28T03:01:53.318984+09:00",
+      "source_name": "Zero Day Initiative Blog",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -760,7 +915,7 @@
         }
       ],
       "cves": [
-        "CVE-2026-111497"
+        "CVE-2026-35273"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -768,72 +923,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:beb2810fe2d6db27d2945b77",
-      "permalink_id": "article-url-beb2810fe2d6db27d2945b77",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-792/",
-      "title": "ZDI-26-792: libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-114550.",
-      "published_at": "2026-10-26T14:00:00+09:00",
-      "first_seen_at": "2026-10-27T05:02:47.545205+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-114550"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a304cd32bbafe4c746bb0d0d",
-      "permalink_id": "article-url-a304cd32bbafe4c746bb0d0d",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-791/",
-      "title": "ZDI-26-791: Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
-      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Pixar Animation Studio OpenUSD. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-92211.",
-      "published_at": "2026-10-26T14:00:00+09:00",
-      "first_seen_at": "2026-10-27T05:02:30.497185+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-92211"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9bfc6765f7783015da6404dc",
-      "permalink_id": "article-url-9bfc6765f7783015da6404dc",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2151086.html",
-      "title": "トレンドマイクロ、PHPの重大な脆弱性（PHP2Shell）への対応・支援策を発表",
-      "summary_excerpt": "トレンドマイクロ株式会社は10月23日、PHPの重大な脆弱性（PHP2Shell。CVE-2026-109618、CVE-2026-109619）に対し、日本の法人組織および中小企業が自社のリスクを把握し、被害を防ぐための対応・支援策を発表した。",
-      "published_at": "2026-10-26T13:30:00+09:00",
-      "first_seen_at": "2026-10-26T14:02:51.273306+09:00",
-      "source_name": "INTERNET Watch",
+      "public_article_id": "url:6e33a6040a7d5deb5895de4a",
+      "permalink_id": "article-url-6e33a6040a7d5deb5895de4a",
+      "canonical_url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "summary_excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
+      "published_at": "2026-10-27T22:59:09+09:00",
+      "first_seen_at": "2026-10-28T02:03:01.265359+09:00",
+      "source_name": "The Hacker News",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -847,8 +944,7 @@
         }
       ],
       "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
+        "CVE-2026-86950"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -856,14 +952,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:43db36580b0eee07f550c4cb",
-      "permalink_id": "article-url-43db36580b0eee07f550c4cb",
-      "canonical_url": "https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js",
-      "title": "Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability",
-      "summary_excerpt": "Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution.",
-      "published_at": "2026-10-25T23:46:53+09:00",
-      "first_seen_at": "2026-10-26T07:58:13.480886+09:00",
-      "source_name": "Wiz Blog",
+      "public_article_id": "url:f7763a757c0c37e729dbb312",
+      "permalink_id": "article-url-f7763a757c0c37e729dbb312",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli Unchecked Return Value Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civ",
+      "published_at": "2026-10-27T21:00:00+09:00",
+      "first_seen_at": "2026-10-28T05:01:33.048595+09:00",
+      "source_name": "CISA Cybersecurity Advisories",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -877,7 +973,8 @@
         }
       ],
       "cves": [
-        "CVE-2026-111497"
+        "CVE-2026-111497",
+        "CVE-2026-48356"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -903,15 +1000,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Online Scam Volumes Double to Overtake Phishing",
-    "【HOTTEST #1 / Heat 75】Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-    "【LATEST #2】New Cisco firewall zero-day exploited to crash SSL VPN devices",
-    "【HOTTEST #2 / Heat 75】Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-    "【LATEST #3】Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
-    "【HOTTEST #3 / Heat 75】Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-    "【LATEST #4】PHPの脆弱性悪用で日本含む4カ国のサーバ25台が侵害か、JPCERT/CCが追加警告",
-    "【HOTTEST #4 / Heat 75】China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "【LATEST #5】Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-    "【HOTTEST #5 / Heat 73】ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も"
+    "【LATEST #1】China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
+    "【HOTTEST #1 / Heat 75】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+    "【LATEST #2】Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+    "【HOTTEST #2 / Heat 70.97】CVE-2026-118527: Ivanti Connect Secure",
+    "【LATEST #3】DOJ raises privacy concerns over potential sale of Character.AI chats",
+    "【HOTTEST #3 / Heat 70.97】CVE-2026-111357: Ivanti Connect Secure",
+    "【LATEST #4】Fashion retailer Resolve says hackers stole payment card information",
+    "【HOTTEST #4 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "【LATEST #5】Suspected DPRK Hackers Conduct Targeted PHP2Shell Scanning",
+    "【HOTTEST #5 / Heat 67.5】Max-Severity GitLab Vulnerability Exploited Against Alpine Linux"
   ]
 }

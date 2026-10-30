@@ -602,11 +602,18 @@ function buildStatus() {
   const dl = document.getElementById("radarStatus");
   dl.replaceChildren();
 
-  // CHR2_PUBLICATION_TIME_R1
   const entries = [
-    ["収録記事", state.all.length.toLocaleString("ja-JP")],
-    ["最近の記事", state.recent.length.toLocaleString("ja-JP")],
-    ["最終更新", formatJST(state.meta.last_published_at)]
+    ["Catalog", state.all.length.toLocaleString("ja-JP")],
+    ["Recent", state.recent.length.toLocaleString("ja-JP")],
+    ["as-of", formatJST(state.meta.as_of)],
+    [
+      "Generated",
+      formatJST(
+        state.meta.generated_at ||
+        state.meta.generated ||
+        state.meta.generated_at_utc
+      )
+    ]
   ];
 
   for (const [k, v] of entries) {
@@ -2017,7 +2024,6 @@ async function boot() {
     state.view === "search" ? state.q : "";
 
   render();
-  startPublicationUpdateNotice(state.meta.last_published_at);
 }
 
 boot().catch((error) => {
@@ -2209,106 +2215,3 @@ window.CyberHeatRadarUI = Object.freeze({
     bindLayoutSwitcher();
   }
 })();
-
-
-// CHR2_UPDATE_NOTICE_R1
-// Inform the visitor about a newer publication.
-// Never replace cards or reload without a user click.
-function startPublicationUpdateNotice(initialPublishedAt) {
-  const initialTime = Date.parse(initialPublishedAt || "");
-  if (!Number.isFinite(initialTime)) return;
-
-  const masthead = document.querySelector(".masthead-inner");
-  const brand = masthead &&
-    masthead.querySelector(":scope > a.brand");
-
-  if (!brand || document.getElementById("chr2UpdateNotice")) {
-    return;
-  }
-
-  // Keep the logo and button together on desktop and mobile.
-  const wrap = document.createElement("div");
-  wrap.className = "chr2-brand-notice";
-  masthead.insertBefore(wrap, brand);
-  wrap.appendChild(brand);
-
-  const notice = document.createElement("button");
-  notice.id = "chr2UpdateNotice";
-  notice.className = "chr2-update-notice";
-  notice.type = "button";
-  notice.textContent = "更新あり";
-  notice.title = "新しい公開内容を読み込む";
-  notice.setAttribute(
-    "aria-label",
-    "更新あり。クリックしてページを再読み込み"
-  );
-  notice.setAttribute("aria-live", "polite");
-  notice.hidden = true;
-
-  notice.addEventListener("click", () => {
-    // Same normal-reload behavior as F5.
-    window.location.reload();
-  });
-
-  wrap.appendChild(notice);
-
-  let checking = false;
-
-  async function checkForUpdate() {
-    if (checking || document.hidden || !notice.hidden) {
-      return;
-    }
-
-    checking = true;
-
-    try {
-      const response = await fetch(
-        "./data/meta.json",
-        {cache: "no-store"}
-      );
-
-      if (!response.ok) return;
-
-      const meta = await response.json();
-
-      const latestTime = Date.parse(
-        meta && typeof meta.last_published_at === "string"
-          ? meta.last_published_at
-          : ""
-      );
-
-      if (
-        Number.isFinite(latestTime) &&
-        latestTime > initialTime
-      ) {
-        notice.hidden = false;
-      }
-    } catch (_error) {
-      // Network failure must not disturb the current page.
-    } finally {
-      checking = false;
-    }
-  }
-
-  // One read-only metadata check per minute.
-  window.setInterval(checkForUpdate, 60000);
-
-  // Recover promptly when returning to an inactive tab.
-  document.addEventListener("visibilitychange", () => {
-    if (!document.hidden) void checkForUpdate();
-  });
-
-  window.addEventListener(
-    "focus",
-    () => void checkForUpdate()
-  );
-
-  window.addEventListener(
-    "online",
-    () => void checkForUpdate()
-  );
-
-  window.addEventListener("pageshow", (event) => {
-    if (event.persisted) void checkForUpdate();
-  });
-}
