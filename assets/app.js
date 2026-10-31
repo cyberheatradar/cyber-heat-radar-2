@@ -2212,7 +2212,7 @@ window.CyberHeatRadarUI = Object.freeze({
 (() => {
   "use strict";
 
-  const originalSlot = Date.parse("2026-11-01T00:30:00+09:00");
+  const originalSlot = Date.parse("2026-11-01T01:30:00+09:00");
   const noticeId = "chr2-update-notice";
   let polling = false;
   let notified = false;

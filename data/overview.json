@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T15:41:01.944640+00:00",
-  "as_of": "2026-10-31T15:00:00+00:00",
-  "catalog_count": 21424,
+  "generated_at": "2026-10-31T16:41:17.104501+00:00",
+  "as_of": "2026-10-31T16:00:00+00:00",
+  "catalog_count": 21425,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,40 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:72aec30d186370a722b7ad54",
+      "permalink_id": "article-url-72aec30d186370a722b7ad54",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "summary_excerpt": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+      "published_at": "2026-11-01T00:35:11+09:00",
+      "first_seen_at": "2026-11-01T00:53:38.426981+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
+        }
+      ],
+      "cves": [
+        "CVE-2026-58882"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:028200e5d7285164c4ae73b3",
       "permalink_id": "article-url-028200e5d7285164c4ae73b3",
@@ -36,7 +70,7 @@
       "permalink_id": "article-url-a7455b293ef3e34bd089cfcf",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
       "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-      "summary_excerpt": "[...]",
+      "summary_excerpt": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]",
       "published_at": "2026-10-31T22:10:19+09:00",
       "first_seen_at": "2026-10-31T22:22:04.888115+09:00",
       "source_name": "BleepingComputer",
@@ -251,36 +285,43 @@
       "seen_in_kev": false,
       "heat_score": 58.5,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:6901d3d7b2fa117408314390",
-      "permalink_id": "article-url-6901d3d7b2fa117408314390",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261031-5222776/",
-      "title": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
-      "summary_excerpt": "TrendAIは、AIを悪用して日本の組織を狙うサイバー攻撃の調査結果を公開した。44のAIエージェントを連携させ、偵察から脆弱性の悪用、情報窃取までの攻撃工程を自動化する事例などを確認。少なくとも19組織が脆弱性の検証対象となり、このうち16組織以上が日本国内に所在していたという。",
-      "published_at": "2026-10-31T09:04:17+09:00",
-      "first_seen_at": "2026-10-31T09:23:50.176904+09:00",
-      "source_name": "Mynavi TECH+ Security",
+      "public_article_id": "url:72aec30d186370a722b7ad54",
+      "permalink_id": "article-url-72aec30d186370a722b7ad54",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "summary_excerpt": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+      "published_at": "2026-11-01T00:35:11+09:00",
+      "first_seen_at": "2026-11-01T00:53:38.426981+09:00",
+      "source_name": "BleepingComputer",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "ai_security",
+      "primary_category": "vulnerability",
       "public_tags": [
         {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
         }
       ],
-      "cves": [],
+      "cves": [
+        "CVE-2026-58882"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 58.5,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
+    },
     {
       "public_article_id": "url:2748ad0ca305bff955eb9912",
       "permalink_id": "article-url-2748ad0ca305bff955eb9912",
@@ -526,38 +567,6 @@
           "color_family": "cyan",
           "key": "ai_security",
           "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:46377df52764d6fd77d39f31",
-      "permalink_id": "article-url-46377df52764d6fd77d39f31",
-      "canonical_url": "https://blog.cloudflare.com/emudhra-patching/",
-      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-      "summary_excerpt": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
-      "published_at": "2026-10-31T02:38:50+09:00",
-      "first_seen_at": "2026-10-31T03:22:24.099053+09:00",
-      "source_name": "Cloudflare Blog Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
         }
       ],
       "cves": [],
@@ -916,17 +925,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】GMO 24年にシステム脆弱性指摘",
-    "【HOTTEST #1 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-    "【LATEST #2】From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-    "【HOTTEST #2 / Heat 65】GMO 24年にシステム脆弱性指摘",
-    "【LATEST #3】Chainalysis discloses data breach from \"offensive agentic techniques\"",
-    "【HOTTEST #3 / Heat 65】Chainalysis discloses data breach from \"offensive agentic techniques\"",
-    "【LATEST #4】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
-    "【HOTTEST #4 / Heat 65】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
-    "【LATEST #5】Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
-    "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
+    "【LATEST #1】New Android SMS of Death exploit can remotely crash unpatched phones",
+    "【HOTTEST #1 / Heat 75】New Android SMS of Death exploit can remotely crash unpatched phones",
+    "【LATEST #2】GMO 24年にシステム脆弱性指摘",
+    "【HOTTEST #2 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+    "【LATEST #3】From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+    "【HOTTEST #3 / Heat 65】GMO 24年にシステム脆弱性指摘",
+    "【LATEST #4】Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "【HOTTEST #4 / Heat 65】Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "【LATEST #5】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+    "【HOTTEST #5 / Heat 65】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer"
   ],
-  "last_published_at": "2026-11-01T00:43:56.731573+09:00",
-  "publication_slot_jst": "2026-11-01T00:30:00+09:00"
+  "last_published_at": "2026-11-01T01:44:37.184216+09:00",
+  "publication_slot_jst": "2026-11-01T01:30:00+09:00"
 }
