@@ -3210,3 +3210,159 @@ body.m4-spa-active #m4SearchResults .m4-native-card
 @media (prefers-reduced-motion: reduce) {
   #chr2-update-notice { animation: none; }
 }
+
+
+/* CHR2_DIR07_MOBILE_PARITY_R3 */
+@media (max-width: 920px) {
+  .masthead-inner {
+    display: grid !important;
+    grid-template-columns:
+      max-content max-content max-content minmax(0, 1fr) !important;
+    grid-template-rows: auto auto !important;
+    grid-template-areas:
+      "brand github notice ."
+      "search search search search" !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 12px 10px !important;
+    box-sizing: border-box !important;
+
+    gap: 8px 5px !important;
+    align-items: center !important;
+    align-content: start !important;
+    justify-content: start !important;
+  }
+
+  .masthead-inner > .brand {
+    grid-area: brand !important;
+    display: inline-flex !important;
+
+    flex: 0 0 auto !important;
+    width: max-content !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+
+    align-items: center !important;
+    white-space: nowrap !important;
+  }
+
+  .masthead-inner > .brand,
+  .masthead-inner > .brand span {
+    font-size: clamp(10px, 3.3vw, 17px) !important;
+    line-height: 1.2 !important;
+    letter-spacing: -.035em !important;
+    white-space: nowrap !important;
+  }
+
+  .masthead-inner > #fe22GithubLink {
+    grid-area: github !important;
+    display: inline-flex !important;
+    flex: 0 0 auto !important;
+
+    width: max-content !important;
+    margin: 0 !important;
+    padding: 5px 6px !important;
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+
+    align-self: center !important;
+    white-space: nowrap !important;
+  }
+
+  .masthead-inner > #chr2-update-notice {
+    grid-area: notice !important;
+    flex: 0 0 auto !important;
+
+    width: max-content !important;
+    margin: 0 !important;
+    padding: 5px 6px !important;
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+
+    align-self: center !important;
+    white-space: nowrap !important;
+  }
+
+  .masthead-inner > #chr2-update-notice[hidden] {
+    display: none !important;
+  }
+
+  .masthead-inner > .header-right {
+    grid-area: search !important;
+    display: flex !important;
+    flex: 0 0 auto !important;
+    flex-direction: row !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .masthead-inner .header-search {
+    display: flex !important;
+    flex: 1 1 auto !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .masthead-inner .header-search input {
+    flex: 1 1 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+  }
+
+  .masthead-inner .header-search button {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+  }
+
+  .masthead-inner #catalogMeta,
+  .masthead-inner #headerUtilityActions {
+    display: none !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .masthead-inner {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    gap: 7px 4px !important;
+  }
+
+  .masthead-inner > .brand,
+  .masthead-inner > .brand span {
+    font-size: 10px !important;
+  }
+
+  .masthead-inner > #fe22GithubLink,
+  .masthead-inner > #chr2-update-notice {
+    font-size: 9px !important;
+    padding: 4px !important;
+  }
+}

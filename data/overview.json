@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T22:41:28.531955+00:00",
-  "as_of": "2026-10-31T22:00:00+00:00",
+  "generated_at": "2026-10-31T23:41:23.551878+00:00",
+  "as_of": "2026-10-31T23:00:00+00:00",
   "catalog_count": 21426,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -462,27 +462,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:e0dc80a286b2ee1714cbae14",
-      "permalink_id": "article-url-e0dc80a286b2ee1714cbae14",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news003.html",
-      "title": "GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
-      "summary_excerpt": "GMOインターネットのVPSサービスへの不正アクセスは、顧客情報の漏えいだけでなく、攻撃者による情報公開、企業の対抗措置、SNSでの真偽不明情報の拡散を招いた。攻撃者が仕掛ける「劇場型」の情報戦に、企業も報道も巻き込まれていないか。SNSをやめたくなった記者が、事件の経緯を振り返りながら考える。",
-      "published_at": "2026-10-31T07:15:00+09:00",
-      "first_seen_at": "2026-10-31T08:08:39.023036+09:00",
-      "source_name": "@IT Security & Trust",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
       "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527",
@@ -582,6 +561,40 @@
       ],
       "cves": [
         "CVE-2026-97229"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 56.77,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:29596c3234ce3cad1a24bd72",
+      "permalink_id": "article-url-29596c3234ce3cad1a24bd72",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-76418",
+      "title": "CVE-2026-76418: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "summary_excerpt": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+      "published_at": "2026-10-29T09:00:00+09:00",
+      "first_seen_at": "2026-10-30T05:01:30.113380+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76418"
       ],
       "threat_actors": [],
       "seen_in_kev": true,
@@ -962,6 +975,6 @@
     "【LATEST #5】Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
   ],
-  "last_published_at": "2026-11-01T07:44:45.283328+09:00",
-  "publication_slot_jst": "2026-11-01T07:30:00+09:00"
+  "last_published_at": "2026-11-01T08:44:23.213215+09:00",
+  "publication_slot_jst": "2026-11-01T08:30:00+09:00"
 }
