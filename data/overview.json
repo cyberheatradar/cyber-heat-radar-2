@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T05:41:08.542968+00:00",
-  "as_of": "2026-10-31T05:00:00+00:00",
+  "generated_at": "2026-10-31T06:41:24.902558+00:00",
+  "as_of": "2026-10-31T06:00:00+00:00",
   "catalog_count": 21416,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -479,27 +479,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:c674b512d62f83c02578f776",
-      "permalink_id": "article-url-c674b512d62f83c02578f776",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/30/2000002753/",
-      "title": "松屋のアプリに不正アクセス、約238万件の個人情報が漏えい　停止中の補償も予定",
-      "summary_excerpt": "松屋フーズホールディングスは10月30日、公式アプリの管理システムへの不正アクセスで、約238万件の個人情報が漏えいしたと発表した。アプリ会員には、サービス停止期間中の補償をする予定という。",
-      "published_at": "2026-10-30T14:17:49+09:00",
-      "first_seen_at": "2026-10-30T14:53:33.387968+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:c81162a603729696df8bf419",
       "permalink_id": "article-url-c81162a603729696df8bf419",
       "canonical_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
@@ -573,6 +552,38 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 58.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:08036760f30ca05192691230",
+      "permalink_id": "article-url-08036760f30ca05192691230",
+      "canonical_url": "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/",
+      "title": "China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
+      "summary_excerpt": "Vapor Panda targeted more than 200 organizations spanning at least 14 countries, according to CrowdStrike. The ongoing campaign is remarkably successful and operating at shocking speed. The post China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days appeared first on CyberScoop .",
+      "published_at": "2026-10-31T06:30:00+09:00",
+      "first_seen_at": "2026-10-31T06:53:34.568848+09:00",
+      "source_name": "CyberScoop",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -794,54 +805,17 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:b864172b52514096e0029807",
-      "permalink_id": "article-url-b864172b52514096e0029807",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "title": "Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
-      "published_at": "2026-10-28T06:30:00+09:00",
-      "first_seen_at": "2026-10-28T08:02:46.131187+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
+      "public_article_id": "url:5977b4ad9b070e952ba55c08",
+      "permalink_id": "article-url-5977b4ad9b070e952ba55c08",
+      "canonical_url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
+      "published_at": "2026-10-28T14:42:26+09:00",
+      "first_seen_at": "2026-10-28T17:02:36.201626+09:00",
+      "source_name": "The Hacker News",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-105482",
-        "CVE-2026-105483",
-        "CVE-2026-106069",
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:3f78d562c8c900bf802d2dd7",
-      "permalink_id": "article-url-3f78d562c8c900bf802d2dd7",
-      "canonical_url": "https://www.praetorian.com/blog/php2shell/",
-      "title": "php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit",
-      "summary_excerpt": "Cutting Through the php2shell Noise On October 20, details of php2shell, two pre-auth RCE vulnerabilities in the PHP core discovered by Calif (CVE-2026-109618 and CVE-2026-109619), leaked ahead of coordinated disclosure. Advisories listing affected versions followed quickly, along with a flood of PoCs, many AI-generated and non-functional. We waited until we had our own data. This […] The post php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit appeared first on Praetorian .",
-      "published_at": "2026-10-28T04:31:40+09:00",
-      "first_seen_at": "2026-10-28T06:02:15.535507+09:00",
-      "source_name": "Praetorian Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "material",
       "document_form": "single_story",
       "primary_category": "vulnerability",
       "public_tags": [
@@ -852,38 +826,8 @@
         },
         {
           "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:86b085b4800a651a865cc045",
-      "permalink_id": "article-url-86b085b4800a651a865cc045",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
-      "title": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
-      "summary_excerpt": "A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds write flaw that gained widespread attention after Node.js publicly disclosed it on October 21, 2026. “An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory, which can lead to a crash, disclosure of process … More → The post Brotli bug reaches far beyond Node.js",
-      "published_at": "2026-10-28T02:38:51+09:00",
-      "first_seen_at": "2026-10-28T03:01:42.690010+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "key": "agentic_security",
+          "label": "Agentic Security"
         }
       ],
       "cves": [
@@ -895,15 +839,15 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:ca3d4a860204b83da66079c0",
-      "permalink_id": "article-url-ca3d4a860204b83da66079c0",
-      "canonical_url": "https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft",
-      "title": "CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-      "summary_excerpt": "On September 25, 2026, Mandiant released a report regarding continued mass exploitation of CVE-2026-35273 by the ShinyHunters group. TrendAI’s Zero Day Initiative first reported this CVE to Oracle on June 10, 2026, following an investigation I conducted with Minh Giang and Lucas Miller of TrendAI Research. Although Oracle issued a patch under a single CVE, we reported three distinct vulnerabilities across multiple PeopleSoft components. We are coordinating with Oracle to assign separate CVEs for each issue. In this blog post, we will walk through each of these vulnerabilities, starting with a ",
-      "published_at": "2026-10-28T01:39:07+09:00",
-      "first_seen_at": "2026-10-28T03:01:53.318984+09:00",
-      "source_name": "Zero Day Initiative Blog",
-      "source_class": "topic_rss",
+      "public_article_id": "url:6ca60a7f1dc3b9c097ca9162",
+      "permalink_id": "article-url-6ca60a7f1dc3b9c097ca9162",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-832/",
+      "title": "ZDI-26-832: AVG Internet Security avgToolsSvc Link Following Local Privilege Escalation Vulnerability",
+      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of AVG Internet Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.3. The following CVEs are assigned: CVE-2026-6064.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T08:02:48.339002+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
@@ -916,7 +860,65 @@
         }
       ],
       "cves": [
-        "CVE-2026-35273"
+        "CVE-2026-6064"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:69f78e5d6dd57b74a9eb10c5",
+      "permalink_id": "article-url-69f78e5d6dd57b74a9eb10c5",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-831/",
+      "title": "ZDI-26-831: Apple macOS CoreText GDEF LigCaretList Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-112656.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T08:02:46.317181+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-112656"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a4f94e94572fa35f4af93186",
+      "permalink_id": "article-url-a4f94e94572fa35f4af93186",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-830/",
+      "title": "ZDI-26-830: Apple Safari jsToWasm IC Entrypoint Type Confusion Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-86974.",
+      "published_at": "2026-10-28T14:00:00+09:00",
+      "first_seen_at": "2026-10-29T08:02:44.310161+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-86974"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
