@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T10:41:03.018579+00:00",
-  "as_of": "2026-10-31T10:00:00+00:00",
-  "catalog_count": 21418,
+  "generated_at": "2026-10-31T11:40:56.333614+00:00",
+  "as_of": "2026-10-31T11:00:00+00:00",
+  "catalog_count": 21420,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,59 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:9e07f828cbbb7522dbae735e",
+      "permalink_id": "article-url-9e07f828cbbb7522dbae735e",
+      "canonical_url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "summary_excerpt": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek .",
+      "published_at": "2026-10-31T20:00:00+09:00",
+      "first_seen_at": "2026-10-31T20:22:48.577891+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ce3a57f8788c2c04717f6d6b",
+      "permalink_id": "article-url-ce3a57f8788c2c04717f6d6b",
+      "canonical_url": "https://gigazine.net/news/20261031-monstercloud-ransomware-victims/",
+      "title": "「ハッカーに身代金を支払うことなく暗号化されたファイルを復元できる」というセキュリティ企業が実際は被害者から得た高額な手数料の中から身代金を支払っていたとしてCEOが起訴される",
+      "summary_excerpt": "ランサムウェアによって攻撃者にシステムを暗号化された被害者に対し、「暗号化されたファイルを復元できる」と宣伝して高額な手数料を取りつつ、実際には攻撃者に身代金を支払って復号鍵をもらいシステム復元を行っていたセキュリティ企業・MonsterCloudのCEOが起訴されました。 続きを読む...",
+      "published_at": "2026-10-31T19:00:00+09:00",
+      "first_seen_at": "2026-10-31T19:52:47.721957+09:00",
+      "source_name": "GIGAZINE",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:c305d693e177d5ef64daf367",
       "permalink_id": "article-url-c305d693e177d5ef64daf367",
@@ -225,54 +278,6 @@
           "label": "AI Security"
         }
       ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2bf9b55ad1cdf035a09844f0",
-      "permalink_id": "article-url-2bf9b55ad1cdf035a09844f0",
-      "canonical_url": "https://www.intel471.com/blog/testing-a-php2shell-exploit-in-the-era-of-ai-hallucinated-pocs",
-      "title": "Testing a PHP2Shell exploit in the era of AI-hallucinated PoCs",
-      "summary_excerpt": "Intel 471 tested a public exploit for the AI-discovered PHP flaws. We found exploitation is hard, but you should still patch now.",
-      "published_at": "2026-10-31T04:12:43+09:00",
-      "first_seen_at": "2026-10-31T14:07:24.627423+09:00",
-      "source_name": "Intel471",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:06d1f3082aff47283bab9fb6",
-      "permalink_id": "article-url-06d1f3082aff47283bab9fb6",
-      "canonical_url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
-      "title": "Fashion retailer Resolve says hackers stole payment card information",
-      "summary_excerpt": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
-      "published_at": "2026-10-31T04:00:00+09:00",
-      "first_seen_at": "2026-10-31T04:22:10.149339+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -929,16 +934,16 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+    "【LATEST #1】Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
     "【HOTTEST #1 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-    "【LATEST #2】「基本を忘れてはならない」　優先すべき4つのセキュリティ戦略をMicrosoftが提言",
+    "【LATEST #2】「ハッカーに身代金を支払うことなく暗号化されたファイルを復元できる」というセキュリティ企業が実際は被害者から得た高額な手数料の中から身代金を支払っていたとしてCEOが起訴される",
     "【HOTTEST #2 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "【LATEST #3】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+    "【LATEST #3】Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
     "【HOTTEST #3 / Heat 65.7】Claude Code extension poisoned with persistent SSH backdoor",
-    "【LATEST #4】日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
+    "【LATEST #4】「基本を忘れてはならない」　優先すべき4つのセキュリティ戦略をMicrosoftが提言",
     "【HOTTEST #4 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-    "【LATEST #5】GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
+    "【LATEST #5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
     "【HOTTEST #5 / Heat 58.5】日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化"
   ],
-  "last_published_at": "2026-10-31T19:43:51.891972+09:00"
+  "last_published_at": "2026-10-31T20:43:49.884481+09:00"
 }
