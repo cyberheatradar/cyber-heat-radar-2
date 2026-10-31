@@ -1,9 +1,72 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-31T03:07:04.239600+00:00",
+  "source_snapshot_generated_at": "2026-10-31T04:07:04.349116+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:0421c8cd014856fd5076f889",
+        "source": "zenn",
+        "author_tags": [
+          "Terraform",
+          "Security",
+          "Proxmox",
+          "SIEM",
+          "wazuh"
+        ],
+        "url": "https://zenn.dev/nyondev/articles/zenn-article-part1-revised-v8",
+        "title": "予算ゼロで始める本格SIEM ～ Wazuh 5.0で構築するセキュアなインフラ監視環境 ～ （導入・エージェント登録編）",
+        "author": "NyonDev",
+        "published_at": "2026-10-31T04:06:57.182000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e420d2580de18d59812a45c4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "開発環境",
+          "Windows",
+          "WSL",
+          "Herdr"
+        ],
+        "url": "https://zenn.dev/festiva1300/articles/herdr-app-windows-wsl",
+        "title": "Windows + WSL2にHerdr Appをセットアップする",
+        "author": "festiva1300",
+        "published_at": "2026-10-31T04:03:56.439000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7d56baa3dc0b39ea291387fa",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Intune",
+          "MDM",
+          "Windows 11"
+        ],
+        "url": "https://zenn.dev/it_templates/articles/74cfdde204a991",
+        "title": "Intune のパスワード要件はローカル アカウントに強制される：少し厳しくしただけで、要件を満たしている人にも変更要求が出た",
+        "author": "面倒を道具で減らす人",
+        "published_at": "2026-10-31T03:48:06.377000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3319d90f2c5785113a1db693",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "QA",
+          "要件定義",
+          "llm",
+          "テスト設計"
+        ],
+        "url": "https://zenn.dev/yasuakiomokawa/articles/3d1f83458053d9",
+        "title": "AIではじめるセルフQA：要求をMECEにしよう",
+        "author": "Yasuaki Omokawa",
+        "published_at": "2026-10-31T03:32:35.785000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:27304d4fc69c360b142dd4ad",
         "source": "zenn",
@@ -11835,6 +11898,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:b2e16b538cd9bfadb39f537f",
+        "source": "qiita",
+        "author_tags": [
+          "Rust",
+          "WebAssembly",
+          "PWA",
+          "Security",
+          "個人開発"
+        ],
+        "url": "https://qiita.com/simota/items/13e38d94e2d2d940467a",
+        "title": "Wi-Fi・USB・ペアリングなし、画面とカメラだけでファイルを暗号受け渡しする「Beamlet」の仕組みと仕様",
+        "author": "simota",
+        "published_at": "2026-10-31T12:51:20+09:00",
+        "excerpt": "Beamlet は、Wi-Fi・モバイル回線・Bluetooth・クラウドストレージ・USBケーブルを使わず、2台の端末の画面表示とカメラ撮影だけでファイルを暗号化して受け渡すWebアプリ（PWA）です。iPhone と Windows / Linux PC のように AirDrop や Quick Share が通らない組み合わせや、USBポートの制限・圏外・私物アカウントのログイン禁止が重なる現場で、1セッション最大255個までのファイルを直接渡せます。1回に送れる合計サイズは、選んだ送信モードで約5分間に送れる量（スマートフォン送信の compact で約 3.5 MB、PC送信の standard で約 9.7 MB、 fast で約 58 MB、最大 64 MB）です。 単発の静的QRコードは規格上限（ISO/IEC 18004 Version 40-L）でも 2,953バイト（約2.9 KB）しか入らず、平文の連続QR（アニメーションQR）は画面を横から録画されるとファイル名も中身も復元されてしまいます。Beamlet の光学ストリー"
+      },
+      {
         "id": "qiita:fe9cc1f592439041e1db01f2",
         "source": "qiita",
         "author_tags": [
@@ -17685,6 +17764,53 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a4c5ca399d0a252621a29067",
+        "source": "medium",
+        "author_tags": [
+          "kernel-security",
+          "vulnerability-research",
+          "linux-security",
+          "exploit-development",
+          "cybersecurity"
+        ],
+        "url": "https://mr-robot2027.medium.com/cve-2026-98432-how-a-linux-kernel-race-condition-can-lead-to-remote-root-accesscve-2026-98432-how-092867c63a96",
+        "title": "CVE-2026–98432: How a Linux Kernel Race Condition Can Lead to Remote Root AccessCVE-2026–98432: How…",
+        "author": "Mr Robot",
+        "published_at": "2026-10-31T03:45:06+00:00",
+        "excerpt": "Technical analysis of a zero-click TCP use-after-free vulnerability, kernel memory corruption, exploitation mechanics, and mitigation… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cecc4951df28ea401c963ed8",
+        "source": "medium",
+        "author_tags": [
+          "security-monitoring",
+          "cybersecurity",
+          "siem",
+          "karanam-shrivasta"
+        ],
+        "url": "https://medium.com/@Karanam-Shrivasta/part-21-security-monitoring-siem-engineering-d3946b0cd723",
+        "title": "Part 21 — Security Monitoring & SIEM Engineering",
+        "author": "Karanam Shrivasta",
+        "published_at": "2026-10-31T03:42:25+00:00",
+        "excerpt": "*Fifteen medium-level interview questions on how a SIEM is designed, fed, tuned, and kept honest — from ingestion pipelines and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3011a1edfefe4faf7288304a",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "malware-analysis",
+          "cybercrime",
+          "discord",
+          "lofygang"
+        ],
+        "url": "https://medium.com/@dismissworner/lofygang-um-grupo-associado-ao-cibercrime-golpes-digitais-e-campanhas-de-malware-fc62072b7e29",
+        "title": "LofyGang: um grupo associado ao cibercrime, golpes digitais e campanhas de malware",
+        "author": "DismissWörner",
+        "published_at": "2026-10-31T03:12:03+00:00",
+        "excerpt": "Pesquisas de empresas de segurança identificaram centenas de pacotes maliciosos associados ao grupo, enquanto investigações independentes… Continue reading on Medium »"
+      },
       {
         "id": "medium:2f45d1b55290eef40e5996af",
         "source": "medium",
