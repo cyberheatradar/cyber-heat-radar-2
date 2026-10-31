@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T00:41:25.452611+00:00",
-  "as_of": "2026-10-31T00:00:00+00:00",
+  "generated_at": "2026-10-31T01:40:59.718338+00:00",
+  "as_of": "2026-10-31T01:00:00+00:00",
   "catalog_count": 21414,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -10,6 +10,33 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:6901d3d7b2fa117408314390",
+      "permalink_id": "article-url-6901d3d7b2fa117408314390",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261031-5222776/",
+      "title": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
+      "summary_excerpt": "TrendAIは、AIを悪用して日本の組織を狙うサイバー攻撃の調査結果を公開した。44のAIエージェントを連携させ、偵察から脆弱性の悪用、情報窃取までの攻撃工程を自動化する事例などを確認。少なくとも19組織が脆弱性の検証対象となり、このうち16組織以上が日本国内に所在していたという。",
+      "published_at": "2026-10-31T09:04:17+09:00",
+      "first_seen_at": "2026-10-31T09:23:50.176904+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:e0dc80a286b2ee1714cbae14",
       "permalink_id": "article-url-e0dc80a286b2ee1714cbae14",
@@ -172,7 +199,7 @@
         "Lazarus Group"
       ],
       "seen_in_kev": false,
-      "heat_score": 55.0,
+      "heat_score": 49.5,
       "published_at_future_suppressed": false
     },
     {
@@ -254,108 +281,9 @@
       "seen_in_kev": false,
       "heat_score": 40.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:84be936fd5b7ceaeedcf7836",
-      "permalink_id": "article-url-84be936fd5b7ceaeedcf7836",
-      "canonical_url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
-      "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
-      "summary_excerpt": "Claudeshop fingers 'malicious actor' in targeted supply-chain attack on Cursor",
-      "published_at": "2026-10-31T01:27:00+09:00",
-      "first_seen_at": "2026-10-31T02:07:28.120554+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
-    {
-      "public_article_id": "url:260e0edd7954e6a7db05dfac",
-      "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527",
-      "title": "CVE-2026-118527: Ivanti Connect Secure",
-      "summary_excerpt": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
-      "published_at": "2026-10-30T09:00:00+09:00",
-      "first_seen_at": "2026-10-31T02:52:58.104161+09:00",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "source_class": "enrichment_kev",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "cves": [
-        "CVE-2026-104935",
-        "CVE-2026-111357",
-        "CVE-2026-118527"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": true,
-      "heat_score": 70.97,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9a4fd4ae43bdfe297cc0aa90",
-      "permalink_id": "article-url-9a4fd4ae43bdfe297cc0aa90",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111357",
-      "title": "CVE-2026-111357: Ivanti Connect Secure",
-      "summary_excerpt": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
-      "published_at": "2026-10-30T09:00:00+09:00",
-      "first_seen_at": "2026-10-31T02:52:58.091559+09:00",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "source_class": "enrichment_kev",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "cves": [
-        "CVE-2026-104935",
-        "CVE-2026-111357",
-        "CVE-2026-118527"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": true,
-      "heat_score": 70.97,
-      "published_at_future_suppressed": false
-    },
     {
       "public_article_id": "url:2748ad0ca305bff955eb9912",
       "permalink_id": "article-url-2748ad0ca305bff955eb9912",
@@ -596,6 +524,48 @@
       "seen_in_kev": false,
       "heat_score": 65.7,
       "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c674b512d62f83c02578f776",
+      "permalink_id": "article-url-c674b512d62f83c02578f776",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/30/2000002753/",
+      "title": "松屋のアプリに不正アクセス、約238万件の個人情報が漏えい　停止中の補償も予定",
+      "summary_excerpt": "松屋フーズホールディングスは10月30日、公式アプリの管理システムへの不正アクセスで、約238万件の個人情報が漏えいしたと発表した。アプリ会員には、サービス停止期間中の補償をする予定という。",
+      "published_at": "2026-10-30T14:17:49+09:00",
+      "first_seen_at": "2026-10-30T14:53:33.387968+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f807f3ef1e8f4ab8c7e6e449",
+      "permalink_id": "article-url-f807f3ef1e8f4ab8c7e6e449",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2610/30/2000002720/",
+      "title": "PHP脆弱性でいち早くサービス停止、コドモン経営判断の舞台裏　実はオンラインイベントの真っ最中だった",
+      "summary_excerpt": "多くの情報セキュリティ担当者が対応に追われ、今なお爪痕が残るプログラミング言語「PHP」の脆弱性。いち早くサービス停止を判断し、注目を浴びたコドモンに、当時の判断について聞いた。",
+      "published_at": "2026-10-30T12:00:00+09:00",
+      "first_seen_at": "2026-10-30T12:53:15.807110+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.7,
+      "published_at_future_suppressed": false
     }
   ],
   "rising": [
@@ -638,6 +608,76 @@
     }
   ],
   "persistent_hot": [
+    {
+      "public_article_id": "url:980c6fa98a6cc8f4c4e74006",
+      "permalink_id": "article-url-980c6fa98a6cc8f4c4e74006",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-41709",
+      "title": "CVE-2026-41709: Broadcom VMware ESX",
+      "summary_excerpt": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+      "published_at": "2026-10-28T09:00:00+09:00",
+      "first_seen_at": "2026-10-29T05:01:32.938909+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-41709"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 39.42,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:e294714b398ec94aec035294",
+      "permalink_id": "article-url-e294714b398ec94aec035294",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-46300",
+      "title": "CVE-2026-46300: Linux Kernel",
+      "summary_excerpt": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+      "published_at": "2026-10-28T09:00:00+09:00",
+      "first_seen_at": "2026-10-29T05:01:32.923828+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "CVE-2026-46300"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 39.42,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:7f13e3152f2268964d955501",
       "permalink_id": "article-url-7f13e3152f2268964d955501",
@@ -908,65 +948,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6e33a6040a7d5deb5895de4a",
-      "permalink_id": "article-url-6e33a6040a7d5deb5895de4a",
-      "canonical_url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-      "summary_excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
-      "published_at": "2026-10-27T22:59:09+09:00",
-      "first_seen_at": "2026-10-28T02:03:01.265359+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-86950"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f7763a757c0c37e729dbb312",
-      "permalink_id": "article-url-f7763a757c0c37e729dbb312",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli Unchecked Return Value Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civ",
-      "published_at": "2026-10-27T21:00:00+09:00",
-      "first_seen_at": "2026-10-28T05:01:33.048595+09:00",
-      "source_name": "CISA Cybersecurity Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497",
-        "CVE-2026-48356"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -987,15 +968,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
-    "【HOTTEST #1 / Heat 70.97】CVE-2026-118527: Ivanti Connect Secure",
-    "【LATEST #2】China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
-    "【HOTTEST #2 / Heat 70.97】CVE-2026-111357: Ivanti Connect Secure",
-    "【LATEST #3】Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-    "【HOTTEST #3 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-    "【LATEST #4】DOJ raises privacy concerns over potential sale of Character.AI chats",
-    "【HOTTEST #4 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "【LATEST #5】Fashion retailer Resolve says hackers stole payment card information",
-    "【HOTTEST #5 / Heat 67.5】Max-Severity GitLab Vulnerability Exploited Against Alpine Linux"
+    "【LATEST #1】日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
+    "【HOTTEST #1 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+    "【LATEST #2】GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
+    "【HOTTEST #2 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "【LATEST #3】China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
+    "【HOTTEST #3 / Heat 67.5】Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+    "【LATEST #4】Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+    "【HOTTEST #4 / Heat 67.5】Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "【LATEST #5】DOJ raises privacy concerns over potential sale of Character.AI chats",
+    "【HOTTEST #5 / Heat 67.5】CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV"
   ]
 }
