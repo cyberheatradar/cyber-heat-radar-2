@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T19:40:57.481515+00:00",
-  "as_of": "2026-10-31T19:00:00+00:00",
+  "generated_at": "2026-10-31T20:41:03.653167+00:00",
+  "as_of": "2026-10-31T20:00:00+00:00",
   "catalog_count": 21426,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -121,7 +121,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -515,33 +515,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:2bf9b55ad1cdf035a09844f0",
-      "permalink_id": "article-url-2bf9b55ad1cdf035a09844f0",
-      "canonical_url": "https://www.intel471.com/blog/testing-a-php2shell-exploit-in-the-era-of-ai-hallucinated-pocs",
-      "title": "Testing a PHP2Shell exploit in the era of AI-hallucinated PoCs",
-      "summary_excerpt": "Intel 471 tested a public exploit for the AI-discovered PHP flaws. We found exploitation is hard, but you should still patch now.",
-      "published_at": "2026-10-31T04:12:43+09:00",
-      "first_seen_at": "2026-10-31T14:07:24.627423+09:00",
-      "source_name": "Intel471",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
       "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527",
@@ -549,6 +522,42 @@
       "summary_excerpt": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
       "published_at": "2026-10-30T09:00:00+09:00",
       "first_seen_at": "2026-10-31T02:52:58.104161+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-104935",
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 56.77,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9a4fd4ae43bdfe297cc0aa90",
+      "permalink_id": "article-url-9a4fd4ae43bdfe297cc0aa90",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111357",
+      "title": "CVE-2026-111357: Ivanti Connect Secure",
+      "summary_excerpt": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+      "published_at": "2026-10-30T09:00:00+09:00",
+      "first_seen_at": "2026-10-31T02:52:58.091559+09:00",
       "source_name": "CISA Known Exploited Vulnerabilities",
       "source_class": "enrichment_kev",
       "security_relevance": "primary",
@@ -792,6 +801,40 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:6928c2503ac89a75094d4c40",
+      "permalink_id": "article-url-6928c2503ac89a75094d4c40",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Tunnel%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+      "summary_excerpt": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause t",
+      "published_at": "2026-10-29T04:15:00+09:00",
+      "first_seen_at": "2026-10-29T06:02:01.666520+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76418"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:f83598082f121f26e38f677f",
       "permalink_id": "article-url-f83598082f121f26e38f677f",
       "canonical_url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
@@ -878,35 +921,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1417a62a4b3735eae2997d18",
-      "permalink_id": "article-url-1417a62a4b3735eae2997d18",
-      "canonical_url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "summary_excerpt": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
-      "published_at": "2026-10-28T15:04:58+09:00",
-      "first_seen_at": "2026-10-28T17:02:36.085231+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-35273"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -938,6 +952,6 @@
     "【LATEST #5】Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
   ],
-  "last_published_at": "2026-11-01T04:43:51.813203+09:00",
-  "publication_slot_jst": "2026-11-01T04:30:00+09:00"
+  "last_published_at": "2026-11-01T05:44:10.294890+09:00",
+  "publication_slot_jst": "2026-11-01T05:30:00+09:00"
 }
