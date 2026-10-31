@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T16:41:17.104501+00:00",
-  "as_of": "2026-10-31T16:00:00+00:00",
+  "generated_at": "2026-10-31T17:41:21.771581+00:00",
+  "as_of": "2026-10-31T17:00:00+00:00",
   "catalog_count": 21425,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -201,7 +201,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -320,40 +320,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2748ad0ca305bff955eb9912",
-      "permalink_id": "article-url-2748ad0ca305bff955eb9912",
-      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
-      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-      "summary_excerpt": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required. The flaw sits between the internal message router, brain , and an appliance-side customer worker, thin-scc . An attacker can put a reserved local router ID into a message's source address. The router forwards the message, and the worker accepts that address as proof that the req",
-      "published_at": "2026-10-31T01:01:53+09:00",
-      "first_seen_at": "2026-10-31T02:53:36.604261+09:00",
-      "source_name": "Rapid7 Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "cves": [
-        "CVE-2026-102764"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -567,6 +533,38 @@
           "color_family": "cyan",
           "key": "ai_security",
           "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 58.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:46377df52764d6fd77d39f31",
+      "permalink_id": "article-url-46377df52764d6fd77d39f31",
+      "canonical_url": "https://blog.cloudflare.com/emudhra-patching/",
+      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "summary_excerpt": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+      "published_at": "2026-10-31T02:38:50+09:00",
+      "first_seen_at": "2026-10-31T03:22:24.099053+09:00",
+      "source_name": "Cloudflare Blog Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
         }
       ],
       "cves": [],
@@ -928,14 +926,14 @@
     "【LATEST #1】New Android SMS of Death exploit can remotely crash unpatched phones",
     "【HOTTEST #1 / Heat 75】New Android SMS of Death exploit can remotely crash unpatched phones",
     "【LATEST #2】GMO 24年にシステム脆弱性指摘",
-    "【HOTTEST #2 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+    "【HOTTEST #2 / Heat 65】GMO 24年にシステム脆弱性指摘",
     "【LATEST #3】From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-    "【HOTTEST #3 / Heat 65】GMO 24年にシステム脆弱性指摘",
+    "【HOTTEST #3 / Heat 65】Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "【LATEST #4】Chainalysis discloses data breach from \"offensive agentic techniques\"",
-    "【HOTTEST #4 / Heat 65】Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "【HOTTEST #4 / Heat 65】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
     "【LATEST #5】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
-    "【HOTTEST #5 / Heat 65】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer"
+    "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
   ],
-  "last_published_at": "2026-11-01T01:44:37.184216+09:00",
-  "publication_slot_jst": "2026-11-01T01:30:00+09:00"
+  "last_published_at": "2026-11-01T02:44:24.442962+09:00",
+  "publication_slot_jst": "2026-11-01T02:30:00+09:00"
 }
