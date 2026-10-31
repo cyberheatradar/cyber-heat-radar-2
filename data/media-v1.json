@@ -1,9 +1,49 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-31T20:07:03.185284+00:00",
+  "source_snapshot_generated_at": "2026-10-31T21:07:02.911994+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:2760738d58626248dd310505",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Docker",
+          "OSS",
+          "llm"
+        ],
+        "url": "https://zenn.dev/malachi_amb/articles/df4580505116b3",
+        "title": "1つのキーで主要モデル70種に接続できるOSSのローカルAIボット「AnyModelBot」",
+        "author": "Malachi",
+        "published_at": "2026-10-31T20:52:42+00:00",
+        "excerpt": "こんにちは。AnyModelBot の共同開発者の Malachi です。 AnyModelBot とは 自分のPC上で動く AI ボットです。MIT ライセンスのオープンソースで、無料で使えます。 特徴 1つのキーで70モデル：Modelflare Key 1つで、世界の主要モデル70種を切り替えられます。従量課金・月額料金なし。 ローカル動作・OSS：コードはすべて GitHub で公開しています。 PC操作：AIがPC上で操作を実行できます（macOS のみ、Beta）。 ローカル長期記憶：Markdown ファイルとして保存され、自由に閲覧・編集できます。 イ..."
+      },
+      {
+        "id": "zenn:0b7fa57dd958d79e090df575",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "llm",
+          "Ollama"
+        ],
+        "url": "https://zenn.dev/tkpurine/articles/local-llm-study-006-summarization-check",
+        "title": "ローカルLLM study6: 資料作成・要約用途でgemma4:e4b/qwen3.5:9bを試す",
+        "author": "プリン",
+        "published_at": "2026-10-31T20:12:21+00:00",
+        "excerpt": "この記事について これまでの検証（study1〜5）はすべてコーディング関連タスクでした。この記事では「資料作成・要約」という別の用途で、候補に挙がった gemma4:e4b と qwen3.5:9b を軽く試します。 検証方法 実際に自分で書いた技術記事（study2、約8,400文字）を渡し、「3〜5個の箇条書きで日本語要約してください」と指示しました。バックグラウンド負荷のない状態でOllama APIに直接投げています。 結果 モデル 所要時間 備考 gemma4:e4b 93秒 一発で応答 qwen3.5:9b 178秒→content 0文字 ..."
+      },
+      {
+        "id": "zenn:f31a14af1939029cfb9d7d2e",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/acerola_jp/books/claude-code-unattended-ops",
+        "title": "Claude Code を無人で回す仕組み一式：起動・委任・見張り・ゲート",
+        "author": "アセロラ",
+        "published_at": "2026-10-31T19:18:19+00:00",
+        "excerpt": "人が見ていない時間に Claude Code を定期的に起こして作業させるための、仕組み一式の本です。起こす係と作業の指示書、状態を会話ではなくファイルに置く設計（STATE.md を100行以内に保つ）、別のセッションに仕事を任せて報告を受ける手順、許可待ちで止まったセッションの検知、GitHub Actions の予備の時刻と「何度動いても結果が同じ」作り、push 前と CI で同じものを走らせるゲート（check.sh）、費用の記録、誤報を出さない通知までを、実際に動いているリポジトリのファイルとスクリプトを実例に、動かした結果つきでまとめました。そのまま使える雛形（指示書・STATE.md・委任の定型文・死活監視の workflow・冪等な処理の Python・最小のゲート）を収録。最初の2章（はじめに、全体の設計図と1日目に置く2つ）は無料で読めます。無料記事「Claude Code を無人で回して止まった場所」「CI で止める検査一式」と重なる範囲は「はじめに」に明記しています。記録は1つのリポジトリの10日間（2026-10-08"
+      },
       {
         "id": "zenn:1dee71597707c989e785436c",
         "source": "zenn",
@@ -12919,6 +12959,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:cc542378635eb1fe9644a6b8",
+        "source": "qiita",
+        "author_tags": [
+          "Git",
+          "Security",
+          "gitignore",
+          "ENV",
+          "AI"
+        ],
+        "url": "https://qiita.com/supportapp3/items/549333dd043b8f2da8a4",
+        "title": ".gitignore の .env 1行では .env.local も .env.bak も無視されない：5つの書き方を git status で比べた（git 2.47で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-01T05:14:50+09:00",
+        "excerpt": "この記事の要点 .gitignore に .env と1行書いただけでは、 .env.local ・ .env.bak ・ .env~ ・ prod.env などは無視されません 。git 2.47.3 で、ダミー値のファイル10個を置いて確かめました。 /.env と先頭にスラッシュを付けると、 backend/.env のようなサブフォルダの .env も無視されなくなります （公式の「先頭か途中に / があると、その .gitignore の階層からの相対パスになる」のとおり）。 今回の10個をすべて止めて .env.example だけ残せたのは、次の3行でした。 .env* *.env !.env.example 無視されていない env 系ファイルは、次の1行で一覧できます。 git ls-files --others --exclude-standard | grep -i env ファイル名だけで .env や鍵の置き場所を点検する CLI も作っています（今回の確認では .env.bak は表示され、 .env~ と prod."
+      },
+      {
         "id": "qiita:55a4fd598b9a7291e2f59461",
         "source": "qiita",
         "author_tags": [
@@ -19049,6 +19105,53 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:c3e07274d1f708ae063a7667",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "cybersecurity",
+          "telegram",
+          "android-security"
+        ],
+        "url": "https://medium.com/@XEyeSecurity/telegram-android-vulnerability-allow-code-execution-through-voice-calls-52ab50c842cb",
+        "title": "Telegram Android Vulnerability Allow Code Execution Through Voice Calls",
+        "author": "Cybersectoworld",
+        "published_at": "2026-10-31T20:51:33+00:00",
+        "excerpt": "A recently disclosed security flaw in Telegram for Android has raised concerns among users and security professionals alike. Researchers… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d96e1f44aca65879ebc3f7c4",
+        "source": "medium",
+        "author_tags": [
+          "google-dork",
+          "ethical-hacking",
+          "cybersecurity",
+          "osint",
+          "api-security"
+        ],
+        "url": "https://medium.com/@neonmaxima/google-is-your-free-apt-how-i-find-api-keys-without-hacking-anything-0f4d7b8998d8",
+        "title": "Google Is Your Free APT: How I Find API Keys Without Hacking Anything",
+        "author": "Aeon Flex, Elriel Assoc. 2133 [NEON MAXIMA]",
+        "published_at": "2026-10-31T20:46:38+00:00",
+        "excerpt": "Your next breach report is already indexed. You just didn’t google it right. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f1277bb14aa713ab45f2853e",
+        "source": "medium",
+        "author_tags": [
+          "log4shell",
+          "cybersecurity",
+          "php2shell",
+          "cisakev",
+          "vulnerability-disclosure"
+        ],
+        "url": "https://medium.com/@sovenyr/php2shell-ran-on-two-clocks-the-publics-stopped-first-d38039b4b8e7",
+        "title": "PHP2Shell ran on two clocks. The public’s stopped first.",
+        "author": "Andrii Kuzovchykov",
+        "published_at": "2026-10-31T20:10:52+00:00",
+        "excerpt": "The first pre-announced, leaked and pre-exploited critical bug produced a curve we had not seen: 238,212 Wikipedia views on patch day… Continue reading on Medium »"
+      },
       {
         "id": "medium:9554538449cd1f409cbdc063",
         "source": "medium",

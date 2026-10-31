@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T20:41:03.653167+00:00",
-  "as_of": "2026-10-31T20:00:00+00:00",
+  "generated_at": "2026-10-31T21:40:59.278930+00:00",
+  "as_of": "2026-10-31T21:00:00+00:00",
   "catalog_count": 21426,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -94,7 +94,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -340,7 +340,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -801,6 +801,43 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:69173eb6b54d53808d5546ee",
+      "permalink_id": "article-url-69173eb6b54d53808d5546ee",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
+      "published_at": "2026-10-29T05:36:45+09:00",
+      "first_seen_at": "2026-10-29T06:02:00.231820+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-105482",
+        "CVE-2026-105483",
+        "CVE-2026-106069",
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:6928c2503ac89a75094d4c40",
       "permalink_id": "article-url-6928c2503ac89a75094d4c40",
       "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Tunnel%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
@@ -892,35 +929,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8816f06283041a0ccd4d1110",
-      "permalink_id": "article-url-8816f06283041a0ccd4d1110",
-      "canonical_url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-      "summary_excerpt": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek .",
-      "published_at": "2026-10-28T18:14:23+09:00",
-      "first_seen_at": "2026-10-28T19:02:09.695547+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-101767"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -944,7 +952,7 @@
     "【LATEST #1】Northflank security breach leads to abuse of customers' AI API keys",
     "【HOTTEST #1 / Heat 75】New Android SMS of Death exploit can remotely crash unpatched phones",
     "【LATEST #2】New Android SMS of Death exploit can remotely crash unpatched phones",
-    "【HOTTEST #2 / Heat 65】GMO 24年にシステム脆弱性指摘",
+    "【HOTTEST #2 / Heat 58.5】GMO 24年にシステム脆弱性指摘",
     "【LATEST #3】GMO 24年にシステム脆弱性指摘",
     "【HOTTEST #3 / Heat 58.5】Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "【LATEST #4】From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
@@ -952,6 +960,6 @@
     "【LATEST #5】Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
   ],
-  "last_published_at": "2026-11-01T05:44:10.294890+09:00",
-  "publication_slot_jst": "2026-11-01T05:30:00+09:00"
+  "last_published_at": "2026-11-01T06:43:53.552506+09:00",
+  "publication_slot_jst": "2026-11-01T06:30:00+09:00"
 }
