@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T02:41:42.486448+00:00",
-  "as_of": "2026-10-31T02:00:00+00:00",
-  "catalog_count": 21414,
+  "generated_at": "2026-10-31T03:41:25.129686+00:00",
+  "as_of": "2026-10-31T03:00:00+00:00",
+  "catalog_count": 21415,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,38 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:c81162a603729696df8bf419",
+      "permalink_id": "article-url-c81162a603729696df8bf419",
+      "canonical_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+      "summary_excerpt": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
+      "published_at": "2026-10-31T10:02:57+09:00",
+      "first_seen_at": "2026-10-31T12:08:12.301804+09:00",
+      "source_name": "Microsoft Security Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:6901d3d7b2fa117408314390",
       "permalink_id": "article-url-6901d3d7b2fa117408314390",
@@ -146,7 +178,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -255,27 +287,6 @@
           "label": "AI Security"
         }
       ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:81bfd42769a517f6a1841c69",
-      "permalink_id": "article-url-81bfd42769a517f6a1841c69",
-      "canonical_url": "https://www.itpro.com/security/cyber-attacks/the-binance-hack-explained-how-much-cryptocurrency-was-stolen-whos-behind-the-attack-and-was-a-single-compromised-laptop-to-blame",
-      "title": "The Binance hack explained",
-      "summary_excerpt": "Initial reports that a single compromised laptop was the cause of the Binance hack have been debunked by the crypto exchange firm",
-      "published_at": "2026-10-31T01:31:08+09:00",
-      "first_seen_at": "2026-10-31T02:07:26.820912+09:00",
-      "source_name": "ITPro Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -436,64 +447,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:e5c483c4c3b1aea3da6405ba",
-      "permalink_id": "article-url-e5c483c4c3b1aea3da6405ba",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261030-5221870/",
-      "title": "Linuxカーネルに重大な脆弱性、遠隔攻撃の恐れ - Ubuntuは修正作業中",
-      "summary_excerpt": "LinuxカーネルのIPv4通信処理に、遠隔から悪用される恐れのある脆弱性「CVE-2026-98432」が確認された。CVSS v3.1の基本値は9.8（Critical）。Linuxカーネルの上流では、この脆弱性に対する修正が行われている。ただし、UbuntuやRHELなどのLinuxディストリビューションでは、独自のカーネルパッケージに修正を取り込む場合がある。悪用された場合、システム停止やメモリ破壊につながる可能性があり、管理者には利用中のカーネルと修正状況の確認が求められる。",
-      "published_at": "2026-10-30T11:27:35+09:00",
-      "first_seen_at": "2026-10-30T12:07:38.995930+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-98432"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:90dff4f00f732a8f63d07648",
-      "permalink_id": "article-url-90dff4f00f732a8f63d07648",
-      "canonical_url": "https://www.security-next.com/192222",
-      "title": "「GitLab」の悪用脆弱性、原因は「Ruby」 - 修正版が公開",
-      "summary_excerpt": "ソースコード管理プラットフォーム「GitLab」に深刻な脆弱性「CVE-2026-97229」などが見つかった問題で、依存関係にあるプログラミング言語「Ruby」に起因することが判明した。「Ruby」の利用環境も影響を受けるおそれがあり、注意が必要となる。",
-      "published_at": "2026-10-30T11:01:40+09:00",
-      "first_seen_at": "2026-10-30T11:53:00.010013+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-97229"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:2d80a0a180e4861eae7951e4",
       "permalink_id": "article-url-2d80a0a180e4861eae7951e4",
       "canonical_url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
@@ -565,6 +518,65 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c81162a603729696df8bf419",
+      "permalink_id": "article-url-c81162a603729696df8bf419",
+      "canonical_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+      "summary_excerpt": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
+      "published_at": "2026-10-31T10:02:57+09:00",
+      "first_seen_at": "2026-10-31T12:08:12.301804+09:00",
+      "source_name": "Microsoft Security Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6901d3d7b2fa117408314390",
+      "permalink_id": "article-url-6901d3d7b2fa117408314390",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261031-5222776/",
+      "title": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
+      "summary_excerpt": "TrendAIは、AIを悪用して日本の組織を狙うサイバー攻撃の調査結果を公開した。44のAIエージェントを連携させ、偵察から脆弱性の悪用、情報窃取までの攻撃工程を自動化する事例などを確認。少なくとも19組織が脆弱性の検証対象となり、このうち16組織以上が日本国内に所在していたという。",
+      "published_at": "2026-10-31T09:04:17+09:00",
+      "first_seen_at": "2026-10-31T09:23:50.176904+09:00",
+      "source_name": "Mynavi TECH+ Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -930,15 +942,15 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
+    "【LATEST #1】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
     "【HOTTEST #1 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-    "【LATEST #2】GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
+    "【LATEST #2】日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
     "【HOTTEST #2 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "【LATEST #3】China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
+    "【LATEST #3】GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
     "【HOTTEST #3 / Heat 67.5】Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
-    "【LATEST #4】Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+    "【LATEST #4】China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
     "【HOTTEST #4 / Heat 67.5】Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-    "【LATEST #5】DOJ raises privacy concerns over potential sale of Character.AI chats",
+    "【LATEST #5】Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
     "【HOTTEST #5 / Heat 67.5】CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV"
   ]
 }

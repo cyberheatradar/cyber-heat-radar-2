@@ -1,9 +1,99 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-31T02:07:03.536079+00:00",
+  "source_snapshot_generated_at": "2026-10-31T03:07:04.239600+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:27304d4fc69c360b142dd4ad",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "業務改善",
+          "Claude",
+          "社内導入",
+          "中小零細企業"
+        ],
+        "url": "https://zenn.dev/aigakari_jp/articles/440cc7d4520bbc",
+        "title": "タスク管理を4枚のスプレッドシートに分けて、週次報告が自動で入る形にした",
+        "author": "ちいさな会社のAI係",
+        "published_at": "2026-10-31T03:00:05.202000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4f30555510685596896d69eb",
+        "source": "zenn",
+        "author_tags": [
+          "npm",
+          "yarn",
+          "Security",
+          "pnpm",
+          "uv"
+        ],
+        "url": "https://zenn.dev/lafine/articles/d52efcef2fb428",
+        "title": "パッケージ公開直後を避けるクールダウン設定を、npm・pnpm・Yarn・Bun・uvで検証する",
+        "author": "ふじき てつはる",
+        "published_at": "2026-10-31T02:44:46.244000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7d5d8c5bfe5716d427b7314b",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/aoi_sato8734/articles/safeline-how-to-reset-the-waf-adm-20261031-447065c",
+        "title": "SafeLine WAF の管理画面にログインできないとき：Docker 上で admin アカウントを再設定する運用メモ",
+        "author": "佐藤 葵8734",
+        "published_at": "2026-10-31T02:43:12.739000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d89d803221ca9c2aa0751e88",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/yanji/articles/bb76dd67ef6e19",
+        "title": "これからよろしく＾＾（画像はAIです）",
+        "author": "咲楽",
+        "published_at": "2026-10-31T02:43:05.155000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9a1a236125702fa7a4b1f6d2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "Python",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/bambampurin/articles/2026-09-21-tech-daily",
+        "title": "今日の技術トレンド",
+        "author": "子供部屋大学院生",
+        "published_at": "2026-10-31T02:15:24.472000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5d5cce10869d76b4e424d3c7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "勉強会",
+          "TDD",
+          "ペアプログラミング",
+          "イベントレポート"
+        ],
+        "url": "https://zenn.dev/135yshr/articles/04257af37c5b26",
+        "title": "TDDBC Sendai 11th 開催報告 〜AI時代の TDD Boot Camp を裏方から〜",
+        "author": "135yshr",
+        "published_at": "2026-10-31T02:09:37.790000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:61c020177e9e8d648517a635",
         "source": "zenn",
@@ -11745,6 +11835,67 @@
     ],
     "qiita": [
       {
+        "id": "qiita:fe9cc1f592439041e1db01f2",
+        "source": "qiita",
+        "author_tags": [
+          "ReachyMini",
+          "ローカルLLM",
+          "PhysicalAI",
+          "Security",
+          "VOICEVOX"
+        ],
+        "url": "https://qiita.com/kougi/items/e68d9da273e0d71ede1b",
+        "title": "子どもと遊ぶロボットを、家の中だけで動かす記録",
+        "author": "kougi",
+        "published_at": "2026-10-31T11:48:32+09:00",
+        "excerpt": "1. はじめに 1.1 きっかけ 生成 AI の次の波として、「Physical AI(フィジカルAI)」が注目されています。AI が画面の中にとどまらず、ロボットや機械を通じて現実の世界で動く、という流れです。2026 年 1 月の CES でも話題になり、日本でも自動車やロボットの分野と相性がよいとされています 1 。 ただ、ロボットが身近になるほど、気になることがあります。ロボットは、カメラとマイクと通信機能を持った機械を、家の中に置くことだからです。 日本では、個人情報の漏えいが相次いでいます。東京商工リサーチの集計では、2026 年は 10 月 5 日までに、上場企業とその子会社の 100 万件以上の漏えい・紛失事故がすでに 10 件に達し、2025 年通年の 6 件を上回って過去最悪のペースとされています。最大は KDDI のメールシステムへの不正アクセスによる約 1,223 万件でした 2 。2025 年も、件数は 180 件と前年より減りましたが、被害人数は 3,063 万人と、前年比 93.1% 増でした 3 。 ロボットでも事"
+      },
+      {
+        "id": "qiita:aea1054b0d2f55cdb3cb8a4d",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/73932287695fbf374bea",
+        "title": "Docker上のSafeLineで管理アカウントを戻すチェックリスト",
+        "author": "Karinbiubiu",
+        "published_at": "2026-10-31T11:45:43+09:00",
+        "excerpt": "管理画面へ入れなくなったとき、先に再インストールへ進まないでください。SafeLineは、Webアプリケーションとインターネットのあいだに置く自己ホスト型のWAFです。HTTP通信をフィルタして監視し、SQLインジェクション、XSS、コードインジェクション、OSコマンドインジェクション、CRLFインジェクション、XXE、SSRF、パストラバーサル、バックドア、ブルートフォース、HTTPフラッドといった攻撃を遮断します。ドキュメントの説明どおり、WAFはリバースプロキシとして動作し、クライアントは保護対象のサーバへ届く前にSafeLineを通過します。 導入はDockerとDocker Composeで行います。管理コンソールは既定でポート9443を待ち受け、画面のアドレスは https://:9443 です。パスワードを失った場合も、導入直後に初期の資格情報が必要な場合も、再インストールなしで管理者アカウントを用意できます。管理コンソールを提供するコンテナ名は safeline-mgt です。公式の導入手順には、管理者アカウントを作成する専用コマ"
+      },
+      {
+        "id": "qiita:af001fd3a4751a42bbcf96d2",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "privacy",
+          "encryption",
+          "設計"
+        ],
+        "url": "https://qiita.com/kowaretyatta/items/0822f0cd627b198a8d40",
+        "title": "通販サイトが住所を持たずに荷物を届ける仕組みを考えた（全体像）",
+        "author": "kowaretyatta",
+        "published_at": "2026-10-31T11:42:08+09:00",
+        "excerpt": "🐭 はじめに この記事は、Zennで書いている連載「データを持たないことを考える」の全体像を、1本で眺められるようにまとめたものです。 テーマは「通販サイトが住所を持たずに、荷物を届けられないか」です。パスキーの考え方を、住所に当てはめてみた話です。 ざっくり言うと、こういう仕組みです。 住所の暗号文は「宛先トークン基盤」が預かり、復号の鍵は配送業者が持ち、注文ごとの許可は本人のスマホが出す 3つがそろったときだけ、その荷物の分の住所を配送業者の端末で戻せる。通販サイトは最後まで住所を見ない 弱点もあって、基盤と配送業者が結託すると読めてしまう 思いついたことをAIと壁打ちしながら整理した、素人のたたき台です。穴がある前提で、ひとりでも多くの人に見てもらいたくてQiitaにも置きました。背景や細かい設計の理由はZennに書いているので、気になったら最後のリンクから読んでもらえるとうれしいです。 🤔 なぜ「持たない」のか どれだけ守りを固めても、持っている限り、漏れる可能性はゼロにできません。それなら「そもそも持たない」ようにできないか、というのが"
+      },
+      {
+        "id": "qiita:2c73e2675ea38080cfb80202",
+        "source": "qiita",
+        "author_tags": [
+          "Android",
+          "Security",
+          "GooglePlay",
+          "PlayIntegrity",
+          "Kotlin"
+        ],
+        "url": "https://qiita.com/YuukiYoshida/items/4bac9974e11643e0aed6",
+        "title": "Play Integrity APIで何ができる？Androidの完全性検証を仕組みから理解する",
+        "author": "YuukiYoshida",
+        "published_at": "2026-10-31T11:17:16+09:00",
+        "excerpt": "Androidアプリのセキュリティ対策として、Googleは Play Integrity API という機能を提供しています。 このAPIでは、アプリがGoogle Playに認識されている正規のものか、実行環境が信頼できる端末なのか、といった情報を取得できます。 ただし、取得した判定結果をAndroidアプリ側で確認するだけでは十分ではありません。 完全性トークンをバックエンドで検証し、その結果をどのように利用するかまで設計する必要があります。 また、Google Playには Automatic protection（自動保護） という関連機能も用意されていますが、Play Integrity APIとは役割が異なります。 今回はPlay Integrity APIで取得できる判定情報から、完全性検証の仕組み、導入時の注意点まで、Googleの公式ドキュメントをもとに整理してみます。 ※2026年10月時点の公式仕様をもとにした解説です。 実際のアプリに対する攻撃や耐改ざん性能の検証は行っていません。 Play Integrity APIと"
+      },
+      {
         "id": "qiita:43a05b9966d44e10009478d6",
         "source": "qiita",
         "author_tags": [
@@ -14484,6 +14635,22 @@
         "author": "omt_teruki",
         "published_at": "2026-10-26T02:25:37+09:00",
         "excerpt": "こんにちは。 テックリードのTerukiです。 昨今のサイバー攻撃による情報漏洩により各社対応に追われているところかと思います。 似た業種の会社もサイバー攻撃により情報漏洩しているところもあり私としては明日は我が身と思っている次第ですが、セキュリティには昔から力を入れてきたところでもあり安心してOh my teethのプロダクトを使ってもらえたらなと思っています。 手前味噌ですが、Oh my teethのセキュリティ対策について紹介できればと思います。 PHPの脆弱性について 先週かなり話題になっていましたが、以前の記事にもある通りバックエンドを持つ自社開発のシステムはすべて.NET化されており影響はありません。 一方で他のチームでWordPressを運用しているところがあり、運用者にはサイトの一時停止を依頼しサーバ業者のアップデートが完了してから再開してもらう対応を行っていました。 現在は修正パッチが適用されたPHPで動作していることを確認していて問題ありません。 その他にもよくあるWordPressを運用する場合にするべきセキュリティ対策を一"
+      },
+      {
+        "id": "qiita:54f8b1d0ee539d84d3907660",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "SecurityAgent",
+          "Continuum",
+          "Security",
+          "コードレビュー"
+        ],
+        "url": "https://qiita.com/ec2_on_aws/items/73f1c70739e03aca2ff9",
+        "title": "Security AgentのPRレビューを使い倒したら月250回で止まったので、有料版の費用も試算してみた",
+        "author": "ec2_on_aws",
+        "published_at": "2026-10-26T01:03:34+09:00",
+        "excerpt": "はじめに 2026年10月22日に「AWS Continuum for code vulnerabilities」がGAしました。 AWS Security Agentはいつの間にか「AWS Continuum」の一部という扱いになっていて、これまでプレビューで無料だったコードレビューと近い機能が、有料の新サービスとして登場したというのがこのニュースです。 「GAに伴って、今まで無料だったものにお金がかかるようになったらしい」という話を聞いて、あれ、これ自分のお財布に大ダメージ？？となりました。というのも、私は個人開発のリポジトリでSecurity AgentのPRコードレビューをかなりゴリゴリ使っていたからです。 そこで、今回のGAで何にお金がかかるようになったのか、無料のPRコードレビューは実際どこまで使えるのか、有料版だと自分は月にいくら払うことになるのかを調べてみました。 この記事に出てくる上限の値は、私のアカウントで観測した実測値です。公式ドキュメントの値とは大きく異なるので、AWSへの問い合わせを検討しています。回答が得られたら追記し"
       },
       {
         "id": "qiita:a63648234dbc866e9043fc68",
@@ -17518,6 +17685,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:2f45d1b55290eef40e5996af",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "ai",
+          "red-team",
+          "cybersecurity",
+          "information-security"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/giving-an-ai-agent-a-file-reader-without-a-fence-arbitrary-file-read-in-an-aws-open-source-tool-5d9d0525443c",
+        "title": "Giving an AI Agent a File Reader Without a Fence: Arbitrary File Read in an AWS Open-Source Tool",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-10-31T02:28:07+00:00",
+        "excerpt": "What happens when a tool you hand to an LLM can read any path on your machine Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0340c5ab207fc460e2360954",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "software-development",
+          "firefox",
+          "cybersecurity",
+          "open-source"
+        ],
+        "url": "https://medium.com/@kling4ai-production/your-restart-later-button-is-now-the-attack-surface-e08f744cb825",
+        "title": "Your “Restart Later” Button Is Now the Attack Surface",
+        "author": "Kling4 AI",
+        "published_at": "2026-10-31T02:02:11+00:00",
+        "excerpt": "An open-weight model turned unshipped Firefox fixes into working exploits for about $1,000 each. Here’s what Epoch AI found and why it… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:28fa1432d3847e4a23d30af4",
+        "source": "medium",
+        "author_tags": [
+          "golang",
+          "ai-engineering",
+          "prompt-injection-attack",
+          "cybersecurity",
+          "llm-security"
+        ],
+        "url": "https://medium.com/@erwindev/prompt-injection-attacks-how-we-secured-our-llm-powered-chatbot-47bba6b93018",
+        "title": "Prompt Injection Attacks: How We Secured Our LLM-Powered Chatbot",
+        "author": "Erwin Hermanto",
+        "published_at": "2026-10-31T02:01:02+00:00",
+        "excerpt": "Real attack vectors, input sanitization, and output validation techniques we learned the hard way Continue reading on Medium »"
+      },
       {
         "id": "medium:edaf29ce7c68a5d14f1bcbd6",
         "source": "medium",
