@@ -1,9 +1,104 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-31T12:07:03.095791+00:00",
+  "source_snapshot_generated_at": "2026-10-31T13:07:03.222503+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:af3df62a80dba57ab55fcfe4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "TikTok",
+          "動画生成",
+          "Seedance"
+        ],
+        "url": "https://zenn.dev/zaireprow/articles/63c706d4a7fb2b",
+        "title": "写真1枚から12秒の「窓のダンス」映像を作る小さなツールを作りました",
+        "author": "Tiny Desk AI",
+        "published_at": "2026-10-31T13:00:07.081000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cef41c0c87dad9ac12fc143d",
+        "source": "zenn",
+        "author_tags": [
+          "JavaScript",
+          "TypeScript",
+          "個人開発",
+          "Cloudflare",
+          "Security"
+        ],
+        "url": "https://zenn.dev/dokugakulink/articles/da3333ffa90f5f",
+        "title": "入力した名前をサーバーに送らない、電子印鑑ジェネレーターの作り方（URLの「#」・SVGのアウトライン・PNGの解像度）",
+        "author": "dokugakulink",
+        "published_at": "2026-10-31T12:39:58.829000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:75ab9fefb1fdd04ac30debeb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Flutter",
+          "個人開発",
+          "自動化",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/utengo/articles/ai-runs-my-app-business-week1",
+        "title": "売上0円のアプリ事業を、AIにほぼ丸ごと任せてみた（1週目）",
+        "author": "ウテンゴ",
+        "published_at": "2026-10-31T12:30:09.701000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:efb8a70b136be5d5e150d533",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "privacy",
+          "Model Context Protocol",
+          "llm"
+        ],
+        "url": "https://zenn.dev/adacognitia/articles/7f5efe79de0f88",
+        "title": "同意スコープでエージェントの「ツール」を絞る：ユーザー許可型メモリAPIの設計メモ",
+        "author": "Ada at Cognitia",
+        "published_at": "2026-10-31T12:29:35.656000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9650d600d91f49cec4d627d7",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "http",
+          "https",
+          "hsts"
+        ],
+        "url": "https://zenn.dev/yamadatt/articles/20261031-hsts-basics",
+        "title": "HTTPSにしていれば十分？ HSTSを初めて知ったので調べてみた",
+        "author": "yamadatt",
+        "published_at": "2026-10-31T12:15:06.602000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:18159cc80a0dc45737931e1d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "個人開発",
+          "副業",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/zaireprow/articles/a0fcd9737337bd",
+        "title": "写真1枚から15秒の「Tiny Desk」風ライブ映像を作る小さなツールを作りました",
+        "author": "Tiny Desk AI",
+        "published_at": "2026-10-31T12:12:05.731000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:1a79bbbad0fcecbb4471c3c7",
         "source": "zenn",
@@ -12477,6 +12572,70 @@
     ],
     "qiita": [
       {
+        "id": "qiita:77834014776fcbd88d95f414",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "WordPress",
+          "サーバー運用"
+        ],
+        "url": "https://qiita.com/TechStudioLab/items/6445b0e9866f34f9e827",
+        "title": "PHP2Shell：更新したつもりを防ぐPHPの確認・更新・再起動手順",
+        "author": "TechStudioLab",
+        "published_at": "2026-10-31T22:04:29+09:00",
+        "excerpt": "PHPの重大な脆弱性「PHP2Shell」が公表されました。認証なしでサーバー上のコードを実行される可能性があり、悪用も確認されています。 PHPで動く業務システムやWordPressを管理しているなら、まず調べたいのは Webリクエストを処理しているPHPが修正済みか です。 ここで厄介なのは、PHPの更新コマンドが成功しても、古いワーカーが動き続ける場合があることです。 パッケージを更新しただけで安心せず、Web側でどのPHPが動いているか、古いワーカーが残っていないかまで確かめたいところです。 その確認を軸に、更新、再起動、侵害の初動調査まで順番に整理します。 まず30秒で対象を判断する 最初に確認するのは3点です。 Web側で動いているPHPの系列とバージョン パッケージ提供元によるCVEの修正状況 更新後に古いPHPワーカーが残っていないか 2026年10月21日に公表された修正版は次のとおりです。 PHP系列 修正版 確認すること・次の対応 8.5 8.5.12 未修正なら更新・再起動 8.4 8.4.27 未修正なら更新・再起動 8"
+      },
+      {
+        "id": "qiita:e60dfd7ce5c5adaec8e6ddb2",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "脆弱性",
+          "cve",
+          "PHP",
+          "初心者"
+        ],
+        "url": "https://qiita.com/nimowagukari/items/67261fde4150332d2b19",
+        "title": "SNS で見た脆弱性ニュースを一次情報まで辿る：CVE・NVD・JVN の歩き方",
+        "author": "nimowagukari",
+        "published_at": "2026-10-31T21:56:00+09:00",
+        "excerpt": "はじめに 昨今では企業の各種 Web サービスに関する不正アクセス・侵害や、システムを形作る技術の脆弱性など、セキュリティ全般の不安を煽る情報が多く流れています。 これらの情報を SNS など二次以降の情報で知ることもよくあるかと思います。 ですが二次以降の情報では発信者の解釈や意図などが混ざってしまうことで正確ではないこともあります。 そこで、セキュリティに関する一次情報を整理しつつ、実際に辿ってみることで気づいたことをシェアできればと思います。 実際に自分で辿ってみると、サイトごとに情報の見方が違ったり、CVE・CVSS・GHSA などの概念が多かったりして、インフラエンジニアである私でもかなり手間取りました。 この記事は、セキュリティのニュースを SNS などで受け身で知るだけになっている、セキュリティに詳しくないエンジニアの方に向けて書いています。 読み終えたあとに、気になるニュースを見かけたら「どこを見れば一次情報があるか」にあたりをつけて、自分で確認できるようになることを目指します。 ※ 本記事の内容は 2026年10月31日時点の情"
+      },
+      {
+        "id": "qiita:32e6f92977fb755ad6c6885e",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "SRE",
+          "nftables",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/Nekorock/items/8088e5412d86f9cbb789",
+        "title": "CVE-2026-98432 の暫定対策を一次情報とソースで確かめた。IP オプションの遮断は効くが、それだけでは閉じない経路が 3 つある",
+        "author": "Nekorock",
+        "published_at": "2026-10-31T21:47:36+09:00",
+        "excerpt": "Linux カーネルの CVE-2026-98432 について、登 大遊さんが 2026 年 10 月 31 日に「カーネルパッチ不要の暫定対策説明書」を公開しました。82 ページの PDF で、前半 41 ページが AI の作った説明資料、後半 41 ページが別の AI による査読です。資料の中でも正確性は保証しないと書かれています。 この記事では、資料に出てくる主張を CVE の記録、修正コミット、各ディストリビューションの情報、Linux v7.0 のソースと突き合わせました。サーバーやコンテナホストを運用していて、カーネル更新までの間に何をすればよいかを知りたい人に向けた記事です。 確認したのは 2026 年 10 月 31 日 21 時ごろです。各社の状況は日々変わるので、使う前に出典のリンク先を見てください。 結論 一番の対策は修正済みカーネルへの更新と再起動です。CVE の記録、Red Hat、Go チームのどれもがそう書いています 更新までの間は、IPv4 オプション付きの TCP を落とすパケットフィルタが有効です。Red Ha"
+      },
+      {
+        "id": "qiita:53f13b3c90639d14a60e218d",
+        "source": "qiita",
+        "author_tags": [
+          "JavaScript",
+          "TypeScript",
+          "個人開発",
+          "cloudflare",
+          "Security"
+        ],
+        "url": "https://qiita.com/dokugakulink/items/1cfc04494d5ae652f5fe",
+        "title": "入力した名前をサーバーに送らない、電子印鑑ジェネレーターの作り方（URLの「#」・SVGのアウトライン・PNGの解像度）",
+        "author": "dokugakulink",
+        "published_at": "2026-10-31T21:37:27+09:00",
+        "excerpt": "電子印鑑（印影の画像）を作る Web サービスを作りました。名前や会社名を入れると、丸印・角印・日付印の透過 PNG ができます。 電子印鑑は、名前そのものを入力するサービスです。「入れた名前がどこかに送られていないか」を気にする人は多いはずです。そこで、 入力した名前を一度もサーバーに送らない ことを、いちばんの決まりにしました。この記事では、そのための工夫を5つ紹介します。 1. 状態は URL の「#」以降に入れる 作り直しやブックマークのために、入力内容を URL に残したい場面があります。ただし ? のクエリに入れると、ページを開くたびにサーバーへ送られ、アクセスログにも残ります。 そこで、状態は # 以降（フラグメント） に入れています。フラグメントは、ブラウザの仕組み上サーバーへ送られません。 // 入力のたびに、履歴を増やさずに # 以降だけを書き換える history . replaceState ( null , '' , `# ${ toHash ( state )} ` ); 姉妹サービスの「書類作るさん」（請求書・見積書"
+      },
+      {
         "id": "qiita:19b696556041ba685c9e2d0f",
         "source": "qiita",
         "author_tags": [
@@ -18498,6 +18657,83 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:049b87ce88cffb5c1bba6eaa",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "incident-response",
+          "linux",
+          "infosec",
+          "network-security"
+        ],
+        "url": "https://medium.com/@xpert4cyber/linux-networking-commands-cheat-sheet-13-tools-every-soc-analyst-needs-2026-6b6f538cc700",
+        "title": "Linux Networking Commands Cheat Sheet: 13 Tools Every SOC Analyst Needs (2026)",
+        "author": "Xpert4Cyber",
+        "published_at": "2026-10-31T12:55:40+00:00",
+        "excerpt": "Every Linux incident investigation starts the same way: not with a fancy platform, but with a terminal and a handful of commands. 🐧 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8c867cce8abaad131069010c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "hacking",
+          "data-breach",
+          "information-security",
+          "technology"
+        ],
+        "url": "https://medium.com/@gaganpand786/the-fbi-was-hacked-the-weakest-link-wasnt-a-hacker-it-was-a-missing-security-patch-37db84da6907",
+        "title": "The FBI Was Hacked. The Weakest Link Wasn’t a Hacker – It Was a Missing Security Patch.",
+        "author": "CyberDecoded",
+        "published_at": "2026-10-31T12:48:51+00:00",
+        "excerpt": "How a missed security patch and a third-party security failure exposed sensitive information linked to thousands of FBI employees. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:03eb85862461c572697f23de",
+        "source": "medium",
+        "author_tags": [
+          "soc-analyst",
+          "blue-team",
+          "lets-defend",
+          "cybersecurity",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@oktay-acar/soc104-malware-detected-eventid-84-f3a73cf44ac6",
+        "title": "SOC104 — Malware Detected (EventID: 84)",
+        "author": "Oktay Acar",
+        "published_at": "2026-10-31T12:44:11+00:00",
+        "excerpt": "Bloguma hoş geldiniz! Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5277a22464be23597ef1656d",
+        "source": "medium",
+        "author_tags": [
+          "blackhat",
+          "prompt-injection-attack",
+          "cybersecurity",
+          "llm",
+          "ctf"
+        ],
+        "url": "https://medium.com/@CyberSunil/black-hat-2026-trendai-cyberrange-ctf-89419147d61a",
+        "title": "Black Hat 2026 : TrendAI CyberRange CTF",
+        "author": "Sunil",
+        "published_at": "2026-10-31T12:35:34+00:00",
+        "excerpt": "What I learned breaking the TrendAI prompt-injection range at Black Hat Continue reading on Medium »"
+      },
+      {
+        "id": "medium:69e79dd366945115180a14eb",
+        "source": "medium",
+        "author_tags": [
+          "ssrf",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@jegannithi778/localhost-is-blocked-but-what-about-localhost-b7e27a59e126",
+        "title": "localhost Is Blocked. But What About localhost.?",
+        "author": "Jegann",
+        "published_at": "2026-10-31T12:31:20+00:00",
+        "excerpt": "One tiny dot, one SSRF-protection bypass in Next.js @vercel/og. Continue reading on Medium »"
+      },
       {
         "id": "medium:49e55e08dddf73deb18b0e7c",
         "source": "medium",

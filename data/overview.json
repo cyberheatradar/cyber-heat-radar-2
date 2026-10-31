@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T12:41:05.263820+00:00",
-  "as_of": "2026-10-31T12:00:00+00:00",
-  "catalog_count": 21420,
+  "generated_at": "2026-10-31T13:41:15.736913+00:00",
+  "as_of": "2026-10-31T13:00:00+00:00",
+  "catalog_count": 21423,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,65 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:41cdd41993708079e5a5be12",
+      "permalink_id": "article-url-41cdd41993708079e5a5be12",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "summary_excerpt": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+      "published_at": "2026-10-31T21:50:09+09:00",
+      "first_seen_at": "2026-10-31T21:52:50.865023+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ef006b6d1900eae33747e3a0",
+      "permalink_id": "article-url-ef006b6d1900eae33747e3a0",
+      "canonical_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+      "summary_excerpt": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
+      "published_at": "2026-10-31T21:00:00+09:00",
+      "first_seen_at": "2026-10-31T21:53:09.773964+09:00",
+      "source_name": "Cisco Talos Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:9e07f828cbbb7522dbae735e",
       "permalink_id": "article-url-9e07f828cbbb7522dbae735e",
@@ -224,65 +283,6 @@
       "seen_in_kev": false,
       "heat_score": 58.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:de02ba8ec3835cf3eb6e0c75",
-      "permalink_id": "article-url-de02ba8ec3835cf3eb6e0c75",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-      "summary_excerpt": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
-      "published_at": "2026-10-31T06:09:46+09:00",
-      "first_seen_at": "2026-10-31T06:22:18.791004+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:648e9014a3f5b42af77025b2",
-      "permalink_id": "article-url-648e9014a3f5b42af77025b2",
-      "canonical_url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
-      "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
-      "summary_excerpt": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
-      "published_at": "2026-10-31T05:45:00+09:00",
-      "first_seen_at": "2026-10-31T05:52:47.830401+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -321,33 +321,62 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:f635e51b46992649ab09cf6e",
-      "permalink_id": "article-url-f635e51b46992649ab09cf6e",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management r",
-      "published_at": "2026-10-30T21:00:00+09:00",
-      "first_seen_at": "2026-10-31T03:52:40.704721+09:00",
-      "source_name": "CISA Cybersecurity Advisories",
+      "public_article_id": "url:41cdd41993708079e5a5be12",
+      "permalink_id": "article-url-41cdd41993708079e5a5be12",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "summary_excerpt": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+      "published_at": "2026-10-31T21:50:09+09:00",
+      "first_seen_at": "2026-10-31T21:52:50.865023+09:00",
+      "source_name": "BleepingComputer",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
+      "primary_category": "incident",
       "public_tags": [
         {
           "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "key": "incident",
+          "label": "Incident"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
         }
       ],
-      "cves": [
-        "CVE-2026-111357",
-        "CVE-2026-118527"
-      ],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ef006b6d1900eae33747e3a0",
+      "permalink_id": "article-url-ef006b6d1900eae33747e3a0",
+      "canonical_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+      "summary_excerpt": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
+      "published_at": "2026-10-31T21:00:00+09:00",
+      "first_seen_at": "2026-10-31T21:53:09.773964+09:00",
+      "source_name": "Cisco Talos Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -540,38 +569,6 @@
           "color_family": "cyan",
           "key": "ai_security",
           "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e146f621e0fd8d807c4b2583",
-      "permalink_id": "article-url-e146f621e0fd8d807c4b2583",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/framework-ransomware-resilience-ai/",
-      "title": "New Framework Puts Ransomware Resilience for AI Systems in Focus",
-      "summary_excerpt": "RAID-AI aims to help organizations assess their security preparation for ransomware attacks targeting AI systems",
-      "published_at": "2026-10-31T00:53:00+09:00",
-      "first_seen_at": "2026-10-31T01:52:52.413992+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
         }
       ],
       "cves": [],
@@ -795,6 +792,65 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:f83598082f121f26e38f677f",
+      "permalink_id": "article-url-f83598082f121f26e38f677f",
+      "canonical_url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "summary_excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
+      "published_at": "2026-10-28T21:48:03+09:00",
+      "first_seen_at": "2026-10-29T00:02:30.490817+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-101767"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:22d2ccd53543886c59b86d40",
+      "permalink_id": "article-url-22d2ccd53543886c59b86d40",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch",
+      "published_at": "2026-10-28T21:00:00+09:00",
+      "first_seen_at": "2026-10-29T06:01:43.365358+09:00",
+      "source_name": "CISA Cybersecurity Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-41709",
+        "CVE-2026-46300"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:8816f06283041a0ccd4d1110",
       "permalink_id": "article-url-8816f06283041a0ccd4d1110",
       "canonical_url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
@@ -851,69 +907,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5977b4ad9b070e952ba55c08",
-      "permalink_id": "article-url-5977b4ad9b070e952ba55c08",
-      "canonical_url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
-      "published_at": "2026-10-28T14:42:26+09:00",
-      "first_seen_at": "2026-10-28T17:02:36.201626+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6ca60a7f1dc3b9c097ca9162",
-      "permalink_id": "article-url-6ca60a7f1dc3b9c097ca9162",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-832/",
-      "title": "ZDI-26-832: AVG Internet Security avgToolsSvc Link Following Local Privilege Escalation Vulnerability",
-      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of AVG Internet Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.3. The following CVEs are assigned: CVE-2026-6064.",
-      "published_at": "2026-10-28T14:00:00+09:00",
-      "first_seen_at": "2026-10-29T08:02:48.339002+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-6064"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -934,16 +927,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+    "【LATEST #1】Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "【HOTTEST #1 / Heat 67.5】Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
-    "【LATEST #2】「ハッカーに身代金を支払うことなく暗号化されたファイルを復元できる」というセキュリティ企業が実際は被害者から得た高額な手数料の中から身代金を支払っていたとしてCEOが起訴される",
-    "【HOTTEST #2 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "【LATEST #3】Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-    "【HOTTEST #3 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-    "【LATEST #4】「基本を忘れてはならない」　優先すべき4つのセキュリティ戦略をMicrosoftが提言",
-    "【HOTTEST #4 / Heat 58.5】日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
-    "【LATEST #5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-    "【HOTTEST #5 / Heat 58.5】GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？"
+    "【LATEST #2】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+    "【HOTTEST #2 / Heat 65】Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "【LATEST #3】Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+    "【HOTTEST #3 / Heat 65】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+    "【LATEST #4】「ハッカーに身代金を支払うことなく暗号化されたファイルを復元できる」というセキュリティ企業が実際は被害者から得た高額な手数料の中から身代金を支払っていたとしてCEOが起訴される",
+    "【HOTTEST #4 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+    "【LATEST #5】Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+    "【HOTTEST #5 / Heat 58.5】日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化"
   ],
-  "last_published_at": "2026-10-31T21:43:47.031622+09:00"
+  "last_published_at": "2026-10-31T22:44:15.198317+09:00",
+  "publication_slot_jst": "2026-10-31T22:30:00+09:00"
 }

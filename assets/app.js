@@ -605,7 +605,7 @@ function buildStatus() {
   const entries = [
     ["Catalog", state.all.length.toLocaleString("ja-JP")],
     ["Recent", state.recent.length.toLocaleString("ja-JP")],
-    ["公開時刻", formatJST(state.meta.last_published_at)]
+    ["公開時刻", formatJST(state.meta.publication_slot_jst)]
   ];
 
   for (const [k, v] of entries) {
@@ -2205,5 +2205,96 @@ window.CyberHeatRadarUI = Object.freeze({
     );
   } else {
     bindLayoutSwitcher();
+  }
+})();
+
+/* CHR2_DIR07_UPDATE_NOTICE_V4 */
+(() => {
+  "use strict";
+
+  const originalSlot = Date.parse("2026-10-31T22:30:00+09:00");
+  const noticeId = "chr2-update-notice";
+  let polling = false;
+  let notified = false;
+
+  function initialize() {
+    const header = document.querySelector(".masthead-inner");
+    if (!header || document.getElementById(noticeId)) return;
+
+    const button = document.createElement("button");
+    button.id = noticeId;
+    button.type = "button";
+    button.textContent = "↑ 更新あり";
+    button.hidden = true;
+    button.setAttribute(
+      "aria-label", "新しい公開があります。再読み込み"
+    );
+
+    button.addEventListener("click", () => {
+      window.location.reload();
+    });
+
+    const title = header.querySelector(
+      ".brand, .site-title, h1, a"
+    );
+
+    if (title) {
+      title.insertAdjacentElement("afterend", button);
+    } else {
+      header.insertBefore(button, header.firstChild);
+    }
+
+    async function checkUpdate() {
+      if (polling || notified || !Number.isFinite(originalSlot)) {
+        return;
+      }
+
+      polling = true;
+
+      try {
+        const url =
+          "./data/meta.json?chr2_poll=" + Date.now();
+
+        const response = await fetch(url, {
+          cache: "no-store"
+        });
+
+        if (!response.ok) return;
+
+        const meta = await response.json();
+        const latest = Date.parse(
+          meta.publication_slot_jst || ""
+        );
+
+        if (
+          Number.isFinite(latest)
+          && latest > originalSlot
+        ) {
+          notified = true;
+          button.hidden = false;
+        }
+      } catch (_) {
+        // Temporary network errors do not affect the page.
+      } finally {
+        polling = false;
+      }
+    }
+
+    checkUpdate();
+    window.setInterval(checkUpdate, 60000);
+
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) checkUpdate();
+    });
+
+    window.addEventListener("focus", checkUpdate);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded", initialize, {once: true}
+    );
+  } else {
+    initialize();
   }
 })();

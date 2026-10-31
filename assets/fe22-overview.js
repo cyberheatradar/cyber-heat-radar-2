@@ -187,7 +187,7 @@
       + Number(data.catalog_count || 0).toLocaleString("ja-JP")
       + "件"
       + " · 公開時刻 "
-      + formatJST(data.last_published_at)
+      + formatJST(data.publication_slot_jst)
       + " JST";
     status.textContent = text;
 
