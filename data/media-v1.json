@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-30T23:07:03.011639+00:00",
+  "source_snapshot_generated_at": "2026-10-31T00:07:03.258452+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:344ef08321284a0a5bd0d2d6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "ハッカソン",
+          "JPHACKS"
+        ],
+        "url": "https://zenn.dev/seira1005/articles/jahacks_20261031",
+        "title": "「何か作らなきゃ」だった僕が、JPHACKSで「誰の課題を解決したいか」を考え始めた話",
+        "author": "seira",
+        "published_at": "2026-10-31T00:03:48.047000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a4c9ac2f1996377dc55fdc28",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "WordPress",
+          "ブログ",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/sin9_ha/articles/wordpress-ai-agent-posting",
+        "title": "WordPressの記事投稿を、いつものAIエージェントに任せてみた",
+        "author": "Sin9_Ha",
+        "published_at": "2026-10-30T23:27:26.965000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f83d8b2c2a615f593c652bac",
+        "source": "zenn",
+        "author_tags": [
+          "初心者",
+          "Security",
+          "OAuth",
+          "認可",
+          "Model Context Protocol"
+        ],
+        "url": "https://zenn.dev/suzuki_tech/articles/oauth2-what-is-it",
+        "title": "OAuth 2.0って結局何？ —「Googleで続ける」の裏側を、ホテルの清掃用カードで理解する",
+        "author": "SuzukiTech",
+        "published_at": "2026-10-30T23:13:03+00:00",
+        "excerpt": "「Googleで続ける」「Xと連携する」「カレンダーへのアクセスを許可しますか？」 こうしたボタンや画面を、一度は見たことがあると思います。この裏で動いているのが OAuth 2.0（オーオース ツー） です（正確には「Googleで続ける」のようなログインには、OAuth 2.0 にもう1つ仕組みを足したものが使われています。これは第6章で説明します）。 名前はよく聞くのに、説明しようとすると言葉に詰まる。「ログインの仕組みでしょ？」と言われると、なんとなく違う気がする。調べると「認可コード」「アクセストークン」「PKCE」と知らない言葉が次々に出てきて、そっとタブを閉じる。 この記事..."
+      },
       {
         "id": "zenn:819572a6f4128a35045238fc",
         "source": "zenn",
@@ -11575,6 +11621,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:73306fe58a02606ef5c48744",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Docker",
+          "AIエージェント",
+          "cve"
+        ],
+        "url": "https://qiita.com/orca-forge/items/145909fc7dff845b19ca",
+        "title": "OpenHandsのDockerポート公開、全インターフェースに出る症状と1.52.0対応",
+        "author": "orca-forge",
+        "published_at": "2026-10-31T08:21:47+09:00",
+        "excerpt": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 環境はOpenHands Software Agent SDKをDockerのサンドボックスで動かす構成です。症状はホスト側ポートが全インターフェースに公開され、外から到達できる可能性があることです。原因はホスト側IPを省略したポート公開設定で、CVE-2026-112346では認証なしのリモートコード実行につながる可能性があります。 1. インストール済みのバージョンを確認する まず、関連パッケージのバージョンを確認します。 pip show openhands-sdk openhands-workspace CVEの説明では、影響するのはOpenHands Software Agent SDKの1.52.0より前です。修正版は1.52.0として公開されています。使っているバージョンが1.52.0未満なら、更新してください。 NVD v1.52.0リリース パッケージを更新する場合は、利用環境の手順に合わせて、少なくとも次のパッケージを更新します。 pip i"
+      },
+      {
         "id": "qiita:3f15233bd8cf3093def02a48",
         "source": "qiita",
         "author_tags": [
@@ -17272,6 +17333,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e79bed518a48b60ba7837c58",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "security",
+          "threat-hunting",
+          "threat-intelligence",
+          "information-security"
+        ],
+        "url": "https://medium.com/@mohamed.abdelrahman01/practical-threat-profiling-part-2-the-more-light-you-cast-the-more-devils-you-see-11e46a53cdee",
+        "title": "Practical Threat Profiling, Part 2: The More Light You Cast, the More Devils You See",
+        "author": "Mohamed Abdelrahman",
+        "published_at": "2026-10-30T23:49:17+00:00",
+        "excerpt": "The intelligence graph, the Diamond Model, and what your TIP actually earns its budget doing. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:005a3db6f74f060669dff6c3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "information-security",
+          "soc-analyst",
+          "cloud-security",
+          "security"
+        ],
+        "url": "https://medium.com/@bamideleazeezat17/41-failed-login-attempts-investigating-a-potential-credential-attack-in-splunk-9cceb6650598",
+        "title": "41 Failed Login Attempts: Investigating a Potential Credential Attack in Splunk",
+        "author": "Bamidele Azeezat",
+        "published_at": "2026-10-30T23:10:11+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
       {
         "id": "medium:74570943e3f2c6d35e445f89",
         "source": "medium",
