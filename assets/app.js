@@ -605,15 +605,7 @@ function buildStatus() {
   const entries = [
     ["Catalog", state.all.length.toLocaleString("ja-JP")],
     ["Recent", state.recent.length.toLocaleString("ja-JP")],
-    ["as-of", formatJST(state.meta.as_of)],
-    [
-      "Generated",
-      formatJST(
-        state.meta.generated_at ||
-        state.meta.generated ||
-        state.meta.generated_at_utc
-      )
-    ]
+    ["公開時刻", formatJST(state.meta.last_published_at)]
   ];
 
   for (const [k, v] of entries) {

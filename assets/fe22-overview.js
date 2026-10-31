@@ -182,25 +182,13 @@
       return;
     }
 
-    let text =
+    const text =
       "収録記事 "
-      + Number(
-          data.catalog_count || 0
-        ).toLocaleString("ja-JP")
+      + Number(data.catalog_count || 0).toLocaleString("ja-JP")
       + "件"
-      + " · 基準時刻 "
-      + formatJST(data.as_of)
+      + " · 公開時刻 "
+      + formatJST(data.last_published_at)
       + " JST";
-
-    if (data.generated_at) {
-      text +=
-        " · 生成時刻 "
-        + formatJST(
-            data.generated_at
-          )
-        + " JST";
-    }
-
     status.textContent = text;
 
     const top =
