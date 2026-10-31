@@ -3152,9 +3152,42 @@ body.m4-spa-active #m4SearchResults .m4-native-card
   }
 }
 
-/* CHR2_DIR07_UPDATE_NOTICE_V4 */
+/* CHR2_DIR07_HEADER_COMPACTION_V1 */
+.masthead-inner {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+.header-github-inline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: .75rem;
+  flex: 1 1 420px;
+  min-width: 320px;
+}
+#catalogMeta {
+  display: none !important;
+}
+@media (max-width: 920px) {
+  .header-right {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0;
+  }
+  .header-search {
+    width: 100%;
+  }
+}
+/* CHR2_DIR07_UPDATE_NOTICE_V5 */
 #chr2-update-notice {
-  margin: 0 .6rem;
+  margin: 0 .45rem 0 .15rem;
   padding: .4rem .7rem;
   border: 1px solid #e4573d;
   border-radius: .3rem;

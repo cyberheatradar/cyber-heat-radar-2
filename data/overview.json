@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T21:40:59.278930+00:00",
-  "as_of": "2026-10-31T21:00:00+00:00",
+  "generated_at": "2026-10-31T22:41:28.531955+00:00",
+  "as_of": "2026-10-31T22:00:00+00:00",
   "catalog_count": 21426,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -73,7 +73,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -319,7 +319,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -483,38 +483,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:08036760f30ca05192691230",
-      "permalink_id": "article-url-08036760f30ca05192691230",
-      "canonical_url": "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/",
-      "title": "China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
-      "summary_excerpt": "Vapor Panda targeted more than 200 organizations spanning at least 14 countries, according to CrowdStrike. The ongoing campaign is remarkably successful and operating at shocking speed. The post China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days appeared first on CyberScoop .",
-      "published_at": "2026-10-31T06:30:00+09:00",
-      "first_seen_at": "2026-10-31T06:53:34.568848+09:00",
-      "source_name": "CyberScoop",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
       "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527",
@@ -580,6 +548,40 @@
         "CVE-2026-104935",
         "CVE-2026-111357",
         "CVE-2026-118527"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": true,
+      "heat_score": 56.77,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:156072159943f11b9f377626",
+      "permalink_id": "article-url-156072159943f11b9f377626",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-97229",
+      "title": "CVE-2026-97229: GitLab Community Edition and Enterprise Edition",
+      "summary_excerpt": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+      "published_at": "2026-10-29T09:00:00+09:00",
+      "first_seen_at": "2026-10-30T05:01:30.129141+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "cves": [
+        "CVE-2026-97229"
       ],
       "threat_actors": [],
       "seen_in_kev": true,
@@ -950,7 +952,7 @@
   },
   "ticker_items": [
     "【LATEST #1】Northflank security breach leads to abuse of customers' AI API keys",
-    "【HOTTEST #1 / Heat 75】New Android SMS of Death exploit can remotely crash unpatched phones",
+    "【HOTTEST #1 / Heat 67.5】New Android SMS of Death exploit can remotely crash unpatched phones",
     "【LATEST #2】New Android SMS of Death exploit can remotely crash unpatched phones",
     "【HOTTEST #2 / Heat 58.5】GMO 24年にシステム脆弱性指摘",
     "【LATEST #3】GMO 24年にシステム脆弱性指摘",
@@ -960,6 +962,6 @@
     "【LATEST #5】Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
   ],
-  "last_published_at": "2026-11-01T06:43:53.552506+09:00",
-  "publication_slot_jst": "2026-11-01T06:30:00+09:00"
+  "last_published_at": "2026-11-01T07:44:45.283328+09:00",
+  "publication_slot_jst": "2026-11-01T07:30:00+09:00"
 }

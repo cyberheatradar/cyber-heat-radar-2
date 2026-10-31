@@ -2208,11 +2208,11 @@ window.CyberHeatRadarUI = Object.freeze({
   }
 })();
 
-/* CHR2_DIR07_UPDATE_NOTICE_V4 */
+/* CHR2_DIR07_UPDATE_NOTICE_V5 */
 (() => {
   "use strict";
 
-  const originalSlot = Date.parse("2026-11-01T06:30:00+09:00");
+  const originalSlot = Date.parse("2026-11-01T07:30:00+09:00");
   const noticeId = "chr2-update-notice";
   let polling = false;
   let notified = false;
@@ -2234,12 +2234,11 @@ window.CyberHeatRadarUI = Object.freeze({
       window.location.reload();
     });
 
-    const title = header.querySelector(
-      ".brand, .site-title, h1, a"
-    );
+    const anchor = header.querySelector("#fe22GithubLink")
+      || header.querySelector(".brand, .site-title, h1, a");
 
-    if (title) {
-      title.insertAdjacentElement("afterend", button);
+    if (anchor) {
+      anchor.insertAdjacentElement("afterend", button);
     } else {
       header.insertBefore(button, header.firstChild);
     }
@@ -2252,29 +2251,19 @@ window.CyberHeatRadarUI = Object.freeze({
       polling = true;
 
       try {
-        const url =
-          "./data/meta.json?chr2_poll=" + Date.now();
-
-        const response = await fetch(url, {
-          cache: "no-store"
-        });
-
+        const url = "./data/meta.json?chr2_poll=" + Date.now();
+        const response = await fetch(url, { cache: "no-store" });
         if (!response.ok) return;
 
         const meta = await response.json();
-        const latest = Date.parse(
-          meta.publication_slot_jst || ""
-        );
+        const latest = Date.parse(meta.publication_slot_jst || "");
 
-        if (
-          Number.isFinite(latest)
-          && latest > originalSlot
-        ) {
+        if (Number.isFinite(latest) && latest > originalSlot) {
           notified = true;
           button.hidden = false;
         }
       } catch (_) {
-        // Temporary network errors do not affect the page.
+        // ignore temporary network errors
       } finally {
         polling = false;
       }
@@ -2291,9 +2280,7 @@ window.CyberHeatRadarUI = Object.freeze({
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener(
-      "DOMContentLoaded", initialize, {once: true}
-    );
+    document.addEventListener("DOMContentLoaded", initialize, { once: true });
   } else {
     initialize();
   }
