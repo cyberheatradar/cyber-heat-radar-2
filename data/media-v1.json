@@ -1,9 +1,98 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-31T11:07:03.080572+00:00",
+  "source_snapshot_generated_at": "2026-10-31T12:07:03.095791+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:1a79bbbad0fcecbb4471c3c7",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security"
+        ],
+        "url": "https://zenn.dev/tetsurou/articles/cve-2026-98432-linux-tcp-uaf",
+        "title": "【CVE-2026-98432】LinuxカーネルIPv4 TCP処理におけるUse-After-Free脆弱性",
+        "author": "tetsurou",
+        "published_at": "2026-10-31T11:48:39.236000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2e90eee5e98767abbc48592b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Productivity",
+          "Claude Code",
+          "tanacode"
+        ],
+        "url": "https://zenn.dev/tanashun/articles/ai-parallel-unattended-time",
+        "title": "生成 AI の価値は、人が手を離していられる時間で決まる",
+        "author": "tanashun",
+        "published_at": "2026-10-31T11:38:27.152000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a7558d3c092700b6ca54a361",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "TTS"
+        ],
+        "url": "https://zenn.dev/sunsun_eng/articles/japanese-string-manipulation-2023",
+        "title": "50音を繋いだ結果（ ´∀｀）！？日本語処理から学ぶこと",
+        "author": "すんすん",
+        "published_at": "2026-10-31T11:37:11.283000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:098d2259c3ba47b7fcc741d5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "lifehack",
+          "AIエージェント",
+          "grokbot"
+        ],
+        "url": "https://zenn.dev/techbiz/articles/grok-bot-mild-dystopia-life",
+        "title": "Grok Botでマイルドディストピア生活を目指したら、デジタルストレスが体感1/6くらいになった",
+        "author": "ysk-ig",
+        "published_at": "2026-10-31T11:29:30.797000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9c04934ae24edd02394d18b8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OMRON",
+          "Claude",
+          "Image Processing",
+          "fh"
+        ],
+        "url": "https://zenn.dev/kensho_ya/articles/fh-presence-check-standard-items-threshold",
+        "title": "FH画像センサの有無判定を標準処理項目だけで組む——しきい値はOK／NG画像と専用の計測フローで決める",
+        "author": "検証屋",
+        "published_at": "2026-10-31T11:12:09.352000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:91d8936d1cdc5f5e48d9bfde",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "マネジメント",
+          "チーム開発",
+          "Engineering Manager",
+          "組織開発"
+        ],
+        "url": "https://zenn.dev/su3_hokkaido/articles/2026-10-29_1_reorganize_how_to_manage_organization",
+        "title": "AI Driven な時代だからこそ改めて目標設定と評価をどう設計して組織を動かしていくべきかを整理した",
+        "author": "su3-hokkaido",
+        "published_at": "2026-10-31T11:12:07.791000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:eb0c1c0d4fbb349aba92815b",
         "source": "zenn",
@@ -12388,6 +12477,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:19b696556041ba685c9e2d0f",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "LLM",
+          "Security",
+          "個人情報",
+          "プライバシー"
+        ],
+        "url": "https://qiita.com/hono_ai_labho/items/64ca0bf17b4a2355c243",
+        "title": "PIIを検出・マスキングして安全にLLMへ送信する実装パターン",
+        "author": "hono_ai_labho",
+        "published_at": "2026-10-31T21:00:19+09:00",
+        "excerpt": "LLMに問い合わせる前に、入力文に含まれる個人情報（PII: Personally Identifiable Information）を検出し、仮の識別子へ置き換える方法を試しました。 結論としては、 LLMへ送る直前にPIIをマスキングし、LLMから返ってきた結果を必要に応じて元の値へ戻すゲートウェイを設ける のが扱いやすいです。 例えば、次のような入力をそのまま外部LLMへ送るのは避けたいケースがあります。 山田太郎さんの連絡先は taro.yamada@example.com、 電話番号は 090-1234-5678 です。 これをLLMへ送る前に、次のように変換します。 <PII_NAME_001>さんの連絡先は <PII_EMAIL_001>、 電話番号は <PII_PHONE_001> です。 この記事では、まずは依存ライブラリを増やさず、Pythonの正規表現と一時的な対応表で実装します。 1. マスキングの基本設計 PIIの検出からLLMへの送信、必要に応じた復元までの流れは次の通りです。 今回の処理は、次の4段階に分けます。 入"
+      },
+      {
+        "id": "qiita:bef9d1291c3b3eddbc13d5e9",
+        "source": "qiita",
+        "author_tags": [
+          "個人開発",
+          "受託開発",
+          "Laravel",
+          "Security",
+          "yml024備忘録"
+        ],
+        "url": "https://qiita.com/yml024/items/565ff21e84b9bb4fbc72",
+        "title": "*【ポエム】個人開発者が受託Laravelシステムのエスクロー情報を整えた記録",
+        "author": "yml024",
+        "published_at": "2026-10-31T20:11:44+09:00",
+        "excerpt": "個人開発者が受託Laravelシステムのエスクロー情報を整えた記録 このメモ書きは、個人で受託開発・保守をしている開発者が、顧客から「開発者に万一のことがあった場合に備え、パスワード・仕様・引き継ぎ情報を預けてほしい」と求められ、その準備を進めた記録である。手順だけでなく、つまずき、寄り道、余談もそのまま残している。 前提と要件 対象はLaravel製の業務システムで、1台のVPS上に本番の複数店舗サイトとステージングが同居している。コードは全店舗共通で、店舗ごとの違いは各サイトの .env で吸収している。開発環境はWSLである。 顧客側の要望を整理すると、要件は次の5つになる。 要件 内容 迷わない 開発者に何かあっても、引き継ぎ者が迷わない 更新できる 預けた内容を、開発者がいつでも更新できる 安全に渡せる パスワードや鍵を安全に渡せる 気づける 予期せぬアクセスがあれば、開発者が気づける 止まらない 支払いの停止やサービス停止でシステムが止まらない エスクローとは、第三者が預かり物を保管し、決められた条件がそろったときだけ相手に渡す仕組み"
+      },
+      {
         "id": "qiita:1be46aea3ca17c5100d507ee",
         "source": "qiita",
         "author_tags": [
@@ -18377,6 +18498,78 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:49e55e08dddf73deb18b0e7c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@brut3cat/the-6-3-billion-binance-hack-when-transaction-authorization-becomes-the-attack-surface-61ddc13342a4",
+        "title": "The $6.3 Billion Binance Hack: When Transaction Authorization Becomes the Attack Surface",
+        "author": "Abbas Mohammadi",
+        "published_at": "2026-10-31T11:44:52+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3b1dd0ed043dba1bcacb3595",
+        "source": "medium",
+        "author_tags": [
+          "business",
+          "technology",
+          "information-security",
+          "cybersecurity",
+          "ransomware"
+        ],
+        "url": "https://medium.com/@TesseractAcade1/how-businesses-can-defend-against-ransomware-as-a-service-attacks-f9b91ad91fab",
+        "title": "How Businesses Can Defend Against Ransomware-as-a-Service Attacks",
+        "author": "The Tesseract Academy",
+        "published_at": "2026-10-31T11:26:01+00:00",
+        "excerpt": "Ransomware-as-a-Service attacks are a growing cybersecurity concern for businesses of every size. By combining strong authentication… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:11a35875903288e54f61db45",
+        "source": "medium",
+        "author_tags": [
+          "mr-robot-ctf",
+          "ethical-hacking",
+          "kali-linux-on-virtualbox",
+          "cybersecurity",
+          "vapt"
+        ],
+        "url": "https://medium.com/@dkchaiv/mr-robot-1-vulnhub-walkthrough-my-first-hands-on-ctf-experience-8e6dffc9b911",
+        "title": "Mr-Robot: 1 — VulnHub Walkthrough | My First Hands-on CTF Experience",
+        "author": "Chaitanyasai Vanjarana",
+        "published_at": "2026-10-31T11:26:01+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d873610e82017dfc8bd13b96",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@bankkgdfrer/secplayground-hackloween-ctf-2026-writeup-%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD-helios-deb984ee93d2",
+        "title": "[SECPlayground Hackloween CTF 2026] Writeup หัวข้อ Helios",
+        "author": "Bankkgdfrer",
+        "published_at": "2026-10-31T11:22:03+00:00",
+        "excerpt": "โจทย์ข้อแรกอยู่ในหมวด Web Application Security ระดับความยากจัดอยู่ในชั้น Medium คะแนน 30 points Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e47cf4cb154dbf837be9fb30",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme",
+          "insecure-coding",
+          "multifactorauthentication",
+          "cybersecurity",
+          "mfa"
+        ],
+        "url": "https://medium.com/@ahraskhankp/multi-factor-authentication-mfa-tryhackme-room-walkthrough-beginner-friendly-f43b24328c72",
+        "title": "Multi-Factor Authentication (MFA) — TryHackMe Room Walkthrough (Beginner Friendly)",
+        "author": "Mohammed Ahraskhan kp",
+        "published_at": "2026-10-31T11:16:58+00:00",
+        "excerpt": "A complete breakdown of why “MFA enabled” doesn’t always mean “MFA secure” — with real labs, real code, and real flags. Continue reading on Medium »"
+      },
       {
         "id": "medium:a54e5a619a6ba7e08c1441b1",
         "source": "medium",
