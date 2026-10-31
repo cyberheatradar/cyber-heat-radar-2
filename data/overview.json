@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-10-31T17:41:21.771581+00:00",
-  "as_of": "2026-10-31T17:00:00+00:00",
-  "catalog_count": 21425,
+  "generated_at": "2026-10-31T19:40:57.481515+00:00",
+  "as_of": "2026-10-31T19:00:00+00:00",
+  "catalog_count": 21426,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,38 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:a4df36c045ad0e8789c2b36d",
+      "permalink_id": "article-url-a4df36c045ad0e8789c2b36d",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "summary_excerpt": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+      "published_at": "2026-11-01T03:01:12+09:00",
+      "first_seen_at": "2026-11-01T04:08:21.950350+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:72aec30d186370a722b7ad54",
       "permalink_id": "article-url-72aec30d186370a722b7ad54",
@@ -121,7 +153,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -148,7 +180,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -169,7 +201,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -252,38 +284,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c81162a603729696df8bf419",
-      "permalink_id": "article-url-c81162a603729696df8bf419",
-      "canonical_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "summary_excerpt": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
-      "published_at": "2026-10-31T10:02:57+09:00",
-      "first_seen_at": "2026-10-31T12:08:12.301804+09:00",
-      "source_name": "Microsoft Security Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -372,7 +372,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -399,7 +399,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -542,18 +542,18 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:46377df52764d6fd77d39f31",
-      "permalink_id": "article-url-46377df52764d6fd77d39f31",
-      "canonical_url": "https://blog.cloudflare.com/emudhra-patching/",
-      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-      "summary_excerpt": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
-      "published_at": "2026-10-31T02:38:50+09:00",
-      "first_seen_at": "2026-10-31T03:22:24.099053+09:00",
-      "source_name": "Cloudflare Blog Security",
-      "source_class": "topic_rss",
+      "public_article_id": "url:260e0edd7954e6a7db05dfac",
+      "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527",
+      "title": "CVE-2026-118527: Ivanti Connect Secure",
+      "summary_excerpt": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+      "published_at": "2026-10-30T09:00:00+09:00",
+      "first_seen_at": "2026-10-31T02:52:58.104161+09:00",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "source_class": "enrichment_kev",
       "security_relevance": "primary",
       "ai_relevance": "none",
-      "document_form": "single_story",
+      "document_form": "advisory",
       "primary_category": "vulnerability",
       "public_tags": [
         {
@@ -562,15 +562,19 @@
           "label": "Vulnerability"
         },
         {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "cves": [],
+      "cves": [
+        "CVE-2026-104935",
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
       "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
+      "seen_in_kev": true,
+      "heat_score": 56.77,
       "published_at_future_suppressed": false
     }
   ],
@@ -923,17 +927,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】New Android SMS of Death exploit can remotely crash unpatched phones",
+    "【LATEST #1】Northflank security breach leads to abuse of customers' AI API keys",
     "【HOTTEST #1 / Heat 75】New Android SMS of Death exploit can remotely crash unpatched phones",
-    "【LATEST #2】GMO 24年にシステム脆弱性指摘",
+    "【LATEST #2】New Android SMS of Death exploit can remotely crash unpatched phones",
     "【HOTTEST #2 / Heat 65】GMO 24年にシステム脆弱性指摘",
-    "【LATEST #3】From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-    "【HOTTEST #3 / Heat 65】Chainalysis discloses data breach from \"offensive agentic techniques\"",
-    "【LATEST #4】Chainalysis discloses data breach from \"offensive agentic techniques\"",
-    "【HOTTEST #4 / Heat 65】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
-    "【LATEST #5】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+    "【LATEST #3】GMO 24年にシステム脆弱性指摘",
+    "【HOTTEST #3 / Heat 58.5】Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "【LATEST #4】From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+    "【HOTTEST #4 / Heat 58.5】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+    "【LATEST #5】Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
   ],
-  "last_published_at": "2026-11-01T02:44:24.442962+09:00",
-  "publication_slot_jst": "2026-11-01T02:30:00+09:00"
+  "last_published_at": "2026-11-01T04:43:51.813203+09:00",
+  "publication_slot_jst": "2026-11-01T04:30:00+09:00"
 }
