@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-01T18:40:57.102594+00:00",
-  "as_of": "2026-11-01T18:00:00+00:00",
+  "generated_at": "2026-11-01T19:41:07.595791+00:00",
+  "as_of": "2026-11-01T19:00:00+00:00",
   "catalog_count": 21433,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -55,7 +55,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -214,7 +214,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 40.5,
+      "heat_score": 32.4,
       "published_at_future_suppressed": false
     },
     {
@@ -873,6 +873,40 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:45dcc2eb64d36fed0a3fa200",
+      "permalink_id": "article-url-45dcc2eb64d36fed0a3fa200",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+      "summary_excerpt": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
+      "published_at": "2026-10-30T03:38:26+09:00",
+      "first_seen_at": "2026-10-30T04:01:41.923419+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [
+        "CVE-2026-20127"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:ff5b245c3bfe572354b54640",
       "permalink_id": "article-url-ff5b245c3bfe572354b54640",
       "canonical_url": "https://www.helpnetsecurity.com/2026/10/29/php2shell-fragnesia-vmware-esx-zero-day/",
@@ -895,35 +929,6 @@
       ],
       "cves": [
         "CVE-2026-41709"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1991cdfcb9ab11a008a8d776",
-      "permalink_id": "article-url-1991cdfcb9ab11a008a8d776",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/10/29/oracle-e-business-suite-cve-2026-101767-exploitation/",
-      "title": "Exploitation attempts against recently patched Oracle EBS flaw have begun (CVE-2026-101767)",
-      "summary_excerpt": "Exploitation attempts have started against CVE-2026-101767, a recently patched Oracle E-Business Suite (EBS) flaw. “Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767, an unauthenticated SQL injection in EBS’s Thin Client Framework servlet that chains to remote code execution, this morning, Oct 27,” Defused posted on X, noting that no public report of the flaw being attempted in the wild had existed before. About CVE-2026-101767 The flaw carries a CVSS score of 9.8 and … More → The post Exploitation attempts against recently patched Oracle EBS flaw have be",
-      "published_at": "2026-10-29T22:12:24+09:00",
-      "first_seen_at": "2026-10-29T23:02:11.920202+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-101767"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -960,6 +965,6 @@
     "【LATEST #5】Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
     "【HOTTEST #5 / Heat 54】New Android SMS of Death exploit can remotely crash unpatched phones"
   ],
-  "last_published_at": "2026-11-02T03:44:06.415937+09:00",
-  "publication_slot_jst": "2026-11-02T03:30:00+09:00"
+  "last_published_at": "2026-11-02T04:44:29.696030+09:00",
+  "publication_slot_jst": "2026-11-02T04:30:00+09:00"
 }
