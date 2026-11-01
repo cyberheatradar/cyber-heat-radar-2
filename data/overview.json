@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-01T01:41:18.052500+00:00",
-  "as_of": "2026-11-01T01:00:00+00:00",
+  "generated_at": "2026-11-01T06:41:21.706463+00:00",
+  "as_of": "2026-11-01T06:00:00+00:00",
   "catalog_count": 21427,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -28,7 +28,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -403,38 +403,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:c81162a603729696df8bf419",
-      "permalink_id": "article-url-c81162a603729696df8bf419",
-      "canonical_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "summary_excerpt": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
-      "published_at": "2026-10-31T10:02:57+09:00",
-      "first_seen_at": "2026-10-31T12:08:12.301804+09:00",
-      "source_name": "Microsoft Security Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
       "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527",
@@ -593,6 +561,35 @@
       ],
       "cves": [
         "CVE-2026-97229"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 54.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:bc4258f9677bca1e1ae92494",
+      "permalink_id": "article-url-bc4258f9677bca1e1ae92494",
+      "canonical_url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "summary_excerpt": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+      "published_at": "2026-10-30T16:45:30+09:00",
+      "first_seen_at": "2026-10-30T17:52:50.793215+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-118539"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -882,36 +879,33 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:69173eb6b54d53808d5546ee",
-      "permalink_id": "article-url-69173eb6b54d53808d5546ee",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
-      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
-      "published_at": "2026-10-29T05:36:45+09:00",
-      "first_seen_at": "2026-10-29T06:02:00.231820+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
+      "public_article_id": "url:18d71c784f16a7baaad2076d",
+      "permalink_id": "article-url-18d71c784f16a7baaad2076d",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-847/",
+      "title": "ZDI-26-847: MLflow AI Gateway Server-Side Request Forgery Information Disclosure Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of MLflow. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.7. The following CVEs are assigned: CVE-2026-71211.",
+      "published_at": "2026-10-29T14:00:00+09:00",
+      "first_seen_at": "2026-10-30T05:03:09.129408+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
-      "ai_relevance": "none",
+      "ai_relevance": "primary",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
+      "primary_category": "ai_security",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
         },
         {
           "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
+          "key": "cve",
+          "label": "Vulnerability"
         }
       ],
       "cves": [
-        "CVE-2026-105482",
-        "CVE-2026-105483",
-        "CVE-2026-106069",
-        "CVE-2026-111497"
+        "CVE-2026-71211"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -919,15 +913,15 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:6928c2503ac89a75094d4c40",
-      "permalink_id": "article-url-6928c2503ac89a75094d4c40",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Tunnel%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
-      "summary_excerpt": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause t",
-      "published_at": "2026-10-29T04:15:00+09:00",
-      "first_seen_at": "2026-10-29T06:02:01.666520+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
+      "public_article_id": "url:74f73317038157ce7230cd39",
+      "permalink_id": "article-url-74f73317038157ce7230cd39",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-846/",
+      "title": "ZDI-26-846: MLflow Webhook Server-Side Request Forgery Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of MLflow. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-64849.",
+      "published_at": "2026-10-29T14:00:00+09:00",
+      "first_seen_at": "2026-10-30T05:02:56.950212+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
@@ -937,15 +931,10 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
         }
       ],
       "cves": [
-        "CVE-2026-76418"
+        "CVE-2026-64849"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -980,8 +969,8 @@
     "【LATEST #4】GMO 24年にシステム脆弱性指摘",
     "【HOTTEST #4 / Heat 58.5】Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
     "【LATEST #5】From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-    "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
+    "【HOTTEST #5 / Heat 56.77】CVE-2026-118527: Ivanti Connect Secure"
   ],
-  "last_published_at": "2026-11-01T10:44:20.401058+09:00",
-  "publication_slot_jst": "2026-11-01T10:30:00+09:00"
+  "last_published_at": "2026-11-01T15:44:44.030972+09:00",
+  "publication_slot_jst": "2026-11-01T15:30:00+09:00"
 }

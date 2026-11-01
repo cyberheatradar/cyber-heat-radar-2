@@ -3406,3 +3406,56 @@ body.m4-spa-active #m4SearchResults .m4-native-card
     text-align: left !important;
   }
 }
+
+
+/* CHR2_DIR07_OVERVIEW_ROOT_FIX_V2 */
+@media (max-width: 720px) {
+  body.fe22-overview-mode #fe22Overview {
+    display: block !important;
+    position: relative !important;
+
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+
+    margin: 0 !important;
+    padding: 24px 12px 36px !important;
+
+    box-sizing: border-box !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    float: none !important;
+  }
+
+  body.fe22-overview-mode
+  #fe22Overview .fe22-overview-inner {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  body.fe22-overview-mode
+  #fe22Overview .fe22-overview-header {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: left !important;
+  }
+
+  body.fe22-overview-mode
+  #fe22Overview #fe22OverviewSections {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+}
