@@ -1,9 +1,66 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-01T09:07:18.357937+00:00",
+  "source_snapshot_generated_at": "2026-11-01T10:07:07.909128+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:1a114d4ab5053a84425dffe5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "開発環境"
+        ],
+        "url": "https://zenn.dev/numekudi/articles/cb92837f300683",
+        "title": "持続可能性を重視する俺の開発手法 2026-11-01",
+        "author": "numekudi",
+        "published_at": "2026-11-01T09:44:45.005000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:98ea00f0dd7fd40fa97c3ab0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "開発",
+          "マルチエージェント",
+          "大企業it"
+        ],
+        "url": "https://zenn.dev/hamatz/articles/5c16da7d798b80",
+        "title": "AIに任せるなんてとんでもない！と言われている人達へ — 「AIを信じなくていい仕組み」から始める",
+        "author": "はまつまる",
+        "published_at": "2026-11-01T09:39:49.076000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4972b9672af183cffd385753",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "時短",
+          "プロンプト",
+          "ChatGPT",
+          "ビジネスメール"
+        ],
+        "url": "https://zenn.dev/minipenn/articles/a7829a2dd25ecf",
+        "title": "仕事のメールに毎日30分使っていたので、プロンプト集を自分で作った",
+        "author": "ミニペン",
+        "published_at": "2026-11-01T09:18:24.997000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:76bb15a58ea7775cb4585f8e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "プログラミング"
+        ],
+        "url": "https://zenn.dev/ryuyanishino/articles/900bb7877eb34647b74fb8e985f7b3d8",
+        "title": "AIの指示ファイル、コマンドを変えたら何を直す？ AGENTS.md・CLAUDE.md・Copilot指示の手入れ手順",
+        "author": "Ryuya Nishino",
+        "published_at": "2026-11-01T09:14:34.560000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:03eb45ecb7f5e6349e2e8949",
         "source": "zenn",
@@ -13638,6 +13695,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:7b889639ec79a518151ede93",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "LLM",
+          "CTF"
+        ],
+        "url": "https://qiita.com/tatatata_jp/items/ffa1e059a3b885a7269b",
+        "title": "気になって保存した、セキュリティ学習リンク5つのメモ",
+        "author": "tatatata_jp",
+        "published_at": "2026-11-01T18:56:21+09:00",
+        "excerpt": "気になって保存した、セキュリティ学習リンク5つのメモ セキュリティ学習の過程で見かけて「後で触りたい」と思ったリポジトリ・資料を5つメモしておきます。どれもまだ実際には手を付けていない段階なので、概要と自分なりの位置づけだけ先に整理します。 1. FLARE Learning Hub（リバースエンジニアリング・マルウェア解析） MandiantのFLAREチームが無料公開しているRE/マルウェア解析教材。教材本体はGoogle Docsとしてweb公開され、リポジトリにはラボ用バイナリ・IDA/Ghidraデータベース・スクリプトが同梱されています。 現在3モジュールが公開: Malware Analysis Crash Course — x86アセンブリ基礎からの初心者向け総合コース Go Reverse Engineering Reference — Go言語バイナリの解析specific Introduction to Time Travel Debugging (TTD) — Windowsマルウェア解析向けの時間遡行デバッグ ラボ実施は"
+      },
+      {
+        "id": "qiita:6c85fb0ff614ade34898ac49",
+        "source": "qiita",
+        "author_tags": [
+          "Ubuntu",
+          "Linux",
+          "kernel",
+          "Security",
+          "cve"
+        ],
+        "url": "https://qiita.com/akira_papa_AI/items/86132bc13f0c285ebe01",
+        "title": "【CVE-2026-98432】Ubuntuカーネルの TCP 受付処理の use-after-free を整理して、確認と対応の手順をまとめる",
+        "author": "akira_papa_AI",
+        "published_at": "2026-11-01T18:12:06+09:00",
+        "excerpt": "TL;DR Linux カーネルの IPv4 TCP で、受付中のソケット（request socket）の IP オプション ireq_opt が、子ソケットへ コピーされずに 渡り、通常の kfree() で解放されるため、並行して SYNACK を組み立てる別 CPU が解放済みメモリを読む（use-after-free in ip_options_build() ） 修正は inet_sock_destruct() と tcp_v4_reqsk_destructor() の解放を kfree_rcu() にするもの（upstream e3f33b0 、7.3-rc7） Ubuntu の優先度は High 、CVSS は出どころで割れている（9.8／8.3／8.1） 2026-10-30 更新時点、Ubuntu の linux パッケージはまだ Fixed ではない （22.04〜26.10 は work in progress） 対応は「 uname -r を控える → 修正版が出たら apt upgrade → 再起動 → uname "
+      },
+      {
         "id": "qiita:d2e99df161d1cb2b4939d25b",
         "source": "qiita",
         "author_tags": [
@@ -19989,6 +20076,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ab608eabebc4e781e5b43b01",
+        "source": "medium",
+        "author_tags": [
+          "siem",
+          "soc",
+          "blue-team",
+          "splunk",
+          "cybersecurity"
+        ],
+        "url": "https://mustafademirs.medium.com/splunk-spl-komutlar%C4%B1-soc-engineering-e%C4%9Fitim-notlar%C4%B1-ec14b4d8c342",
+        "title": "Splunk SPL Komutları — SOC Engineering Eğitim Notları",
+        "author": "Mustafa Demir",
+        "published_at": "2026-11-01T09:47:49+00:00",
+        "excerpt": "Bölüm 1: Temel komutlar, indeks yönetimi Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b17bae5d490fae26559de2fb",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "artificial-intelligence",
+          "linux",
+          "ai",
+          "security"
+        ],
+        "url": "https://medium.com/soursen/an-ai-found-a-critical-linux-bug-then-wrote-the-exploit-in-53-minutes-1b6291bb22ee",
+        "title": "An AI Found a Critical Linux Bug, Then Wrote the Exploit in 53 Minutes",
+        "author": "Shivashish Yadav",
+        "published_at": "2026-11-01T09:11:12+00:00",
+        "excerpt": "CVE-2026–98432 is a use after free flaw in the Linux kernel’s TCP code, rated 9.8 out of 10, that can hand a remote attacker root on a… Continue reading on Soursen »"
+      },
       {
         "id": "medium:318c5939413f8d8b7600778d",
         "source": "medium",
