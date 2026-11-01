@@ -1,9 +1,39 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-10-31T23:07:03.041087+00:00",
+  "source_snapshot_generated_at": "2026-11-01T00:07:11.368624+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:cce906d429a4b635a2161a04",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "PM",
+          "OpenShift"
+        ],
+        "url": "https://zenn.dev/gachigachi/articles/vulnerability-response-map",
+        "title": "脆弱性対応で迷わないために、システム構成図を2種類に分けてみた",
+        "author": "ガチ丸🌟学びとシェアを大切にするPM & インフラエンジニア🚀",
+        "published_at": "2026-11-01T00:00:06.239000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a01494d9531cae5dc5fdba71",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/numarn/articles/claude-cleanup-period-days-precedence-handson",
+        "title": "Claude Code の会話履歴が消える日数を4か所に別々に書いたら、--settings が勝った(既定は30日)",
+        "author": "ぬまーんのZenn記事",
+        "published_at": "2026-10-31T23:44:33.015000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f641d3b73630eecc80ed9562",
         "source": "zenn",
@@ -6278,6 +6308,22 @@
         "title": "OpenAI 互換 API で Structured Outputs を使う：JSON Schema 実践ガイド",
         "author": "ModelFlare",
         "published_at": "2026-10-28T02:03:03.941000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:15e423886885302dba242f42",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SIer",
+          "クラウド",
+          "生成 AI",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+        "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+        "author": "kazuma sugiyama",
+        "published_at": "2026-10-28T01:21:43.555000+00:00",
         "excerpt": ""
       },
       {
@@ -13007,6 +13053,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a7a4295bc1a5d2227ccf6199",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "AI",
+          "自動化",
+          "Security",
+          "ShellScript"
+        ],
+        "url": "https://qiita.com/joinclass/items/85b615b453fe5af911b4",
+        "title": "Claude Code の --safe-mode と --restricted は別物：「設定を切る」か「手足を縛る」かの使い分け",
+        "author": "joinclass",
+        "published_at": "2026-11-01T08:30:08+09:00",
+        "excerpt": "はじめに：名前が似ているけど目的が真逆 当社（合同会社ジョインクラス）では、launchd から 17 本以上のジョブで claude -p を無人実行しています。一人会社なので、AI が夜中に何をしたかを僕がリアルタイムで見ることはできません。 実際に痛い目も見ています。以前、AI が git push --force を自動実行してブランチが消えました。それ以来「AI に何をさせないか」を CLI レベルで決めることを重視しています。 そこで気になったのが Claude Code の --safe-mode と --restricted です。どちらも「安全そう」な名前ですが、 解決する問題がまったく違います 。 --safe-mode --restricted 目的 壊れた設定の切り分け （トラブルシュート） AI ができることを絞る （実行時の安全性） CLAUDE.md / skills / hooks 無効 （CLAUDE.md は読まれる。設定ファイルは無視） MCP サーバー 無効 有効（ --strict-mcp-config "
+      },
+      {
         "id": "qiita:6d2dbbee39ef95602be0ee42",
         "source": "qiita",
         "author_tags": [
@@ -19201,6 +19263,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:96ea241c0a7c07cbd54aea52",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "pentesting",
+          "cybersecurity",
+          "ctf",
+          "hacking"
+        ],
+        "url": "https://medium.com/@AnthonyKendall/butler-vm-pentest-walkthrough-b3dd7fec44c2",
+        "title": "Butler VM Pentest walkthrough",
+        "author": "Anthony Kendall",
+        "published_at": "2026-10-31T23:30:36+00:00",
+        "excerpt": "Disclaimer — Do not try this on a system you are not authorized to test on as you could get into legal trouble. Continue reading on Medium »"
+      },
       {
         "id": "medium:c45f17eaa432550703b379c0",
         "source": "medium",
