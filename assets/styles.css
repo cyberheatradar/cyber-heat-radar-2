@@ -3459,3 +3459,32 @@ body.m4-spa-active #m4SearchResults .m4-native-card
     box-sizing: border-box !important;
   }
 }
+
+
+/* CHR2_DIR07_OVERVIEW_PADDING_V4 */
+@media (max-width: 720px) {
+  body.fe22-overview-mode #fe22Overview,
+  body.fe22-overview-mode .fe22-overview,
+  #fe22Overview,
+  .fe22-overview {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  body.fe22-overview-mode #fe22Overview .fe22-overview-inner,
+  body.fe22-overview-mode .fe22-overview-inner,
+  #fe22Overview .fe22-overview-inner,
+  .fe22-overview-inner {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+}
