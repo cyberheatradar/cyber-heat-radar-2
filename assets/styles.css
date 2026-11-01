@@ -3531,3 +3531,41 @@ body.m4-spa-active #m4SearchResults .m4-native-card
     margin-left: auto !important;
   }
 }
+
+/* CHR2_GITHUB_POSITION_V1 */
+@media (min-width: 921px) {
+  .masthead-inner > .brand {
+    order: 0 !important;
+  }
+  .masthead-inner > #chr2-update-notice {
+    order: 1 !important;
+  }
+  .masthead-inner > .header-right {
+    order: 2 !important;
+  }
+  .masthead-inner > #fe22GithubLink {
+    order: 3 !important;
+  }
+}
+@media (max-width: 920px) {
+  .masthead-inner {
+    grid-template-columns:
+      max-content minmax(0, 1fr) max-content !important;
+    grid-template-rows: auto auto !important;
+    grid-template-areas:
+      "brand notice github"
+      "search search search" !important;
+  }
+  .masthead-inner > #fe22GithubLink {
+    grid-area: github !important;
+    justify-self: end !important;
+  }
+  .masthead-inner > #chr2-update-notice {
+    grid-area: notice !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    justify-self: end !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+}
