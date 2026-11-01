@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-01T00:41:09.259496+00:00",
-  "as_of": "2026-11-01T00:00:00+00:00",
+  "generated_at": "2026-11-01T01:41:18.052500+00:00",
+  "as_of": "2026-11-01T01:00:00+00:00",
   "catalog_count": 21427,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -60,7 +60,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -435,33 +435,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:6901d3d7b2fa117408314390",
-      "permalink_id": "article-url-6901d3d7b2fa117408314390",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261031-5222776/",
-      "title": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
-      "summary_excerpt": "TrendAIは、AIを悪用して日本の組織を狙うサイバー攻撃の調査結果を公開した。44のAIエージェントを連携させ、偵察から脆弱性の悪用、情報窃取までの攻撃工程を自動化する事例などを確認。少なくとも19組織が脆弱性の検証対象となり、このうち16組織以上が日本国内に所在していたという。",
-      "published_at": "2026-10-31T09:04:17+09:00",
-      "first_seen_at": "2026-10-31T09:23:50.176904+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
       "permalink_id": "article-url-260e0edd7954e6a7db05dfac",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527",
@@ -534,6 +507,102 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:2748ad0ca305bff955eb9912",
+      "permalink_id": "article-url-2748ad0ca305bff955eb9912",
+      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
+      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+      "summary_excerpt": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required. The flaw sits between the internal message router, brain , and an appliance-side customer worker, thin-scc . An attacker can put a reserved local router ID into a message's source address. The router forwards the message, and the worker accepts that address as proof that the req",
+      "published_at": "2026-10-31T01:01:53+09:00",
+      "first_seen_at": "2026-10-31T02:53:36.604261+09:00",
+      "source_name": "Rapid7 Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
+        }
+      ],
+      "cves": [
+        "CVE-2026-102764"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 54.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f635e51b46992649ab09cf6e",
+      "permalink_id": "article-url-f635e51b46992649ab09cf6e",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management r",
+      "published_at": "2026-10-30T21:00:00+09:00",
+      "first_seen_at": "2026-10-31T03:52:40.704721+09:00",
+      "source_name": "CISA Cybersecurity Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 54.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:28a276f6e91692074ffd4ec5",
+      "permalink_id": "article-url-28a276f6e91692074ffd4ec5",
+      "canonical_url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "summary_excerpt": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server. The post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek .",
+      "published_at": "2026-10-30T18:32:27+09:00",
+      "first_seen_at": "2026-10-30T18:53:31.341795+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 54.0,
+      "published_at_future_suppressed": false
+    }
+  ],
+  "rising": [],
+  "persistent_hot": [
+    {
       "public_article_id": "url:156072159943f11b9f377626",
       "permalink_id": "article-url-156072159943f11b9f377626",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-97229",
@@ -564,7 +633,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": true,
-      "heat_score": 56.77,
+      "heat_score": 39.42,
       "published_at_future_suppressed": false
     },
     {
@@ -598,12 +667,9 @@
       ],
       "threat_actors": [],
       "seen_in_kev": true,
-      "heat_score": 56.77,
+      "heat_score": 39.42,
       "published_at_future_suppressed": false
-    }
-  ],
-  "rising": [],
-  "persistent_hot": [
+    },
     {
       "public_article_id": "url:980c6fa98a6cc8f4c4e74006",
       "permalink_id": "article-url-980c6fa98a6cc8f4c4e74006",
@@ -885,65 +951,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f83598082f121f26e38f677f",
-      "permalink_id": "article-url-f83598082f121f26e38f677f",
-      "canonical_url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "summary_excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
-      "published_at": "2026-10-28T21:48:03+09:00",
-      "first_seen_at": "2026-10-29T00:02:30.490817+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-101767"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:22d2ccd53543886c59b86d40",
-      "permalink_id": "article-url-22d2ccd53543886c59b86d40",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch",
-      "published_at": "2026-10-28T21:00:00+09:00",
-      "first_seen_at": "2026-10-29T06:01:43.365358+09:00",
-      "source_name": "CISA Cybersecurity Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-41709",
-        "CVE-2026-46300"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -975,6 +982,6 @@
     "【LATEST #5】From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
     "【HOTTEST #5 / Heat 58.5】Inside a malicious Claude Code-branded extension and its persistent SSH backdoor"
   ],
-  "last_published_at": "2026-11-01T09:44:10.102603+09:00",
-  "publication_slot_jst": "2026-11-01T09:30:00+09:00"
+  "last_published_at": "2026-11-01T10:44:20.401058+09:00",
+  "publication_slot_jst": "2026-11-01T10:30:00+09:00"
 }

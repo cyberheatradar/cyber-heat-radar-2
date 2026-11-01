@@ -8,8 +8,8 @@ const VIEW_META = {
     description: "記事の公開日時が新しい順に表示"
   },
   "hottest": {
-    title: "HOTTEST ARTICLES · LAST 30 DAYS",
-    description: "直近30日間の記事を Heat の高い順に表示"
+    title: "HOTTEST",
+    description: "Heat の高い順に表示"
   },
   "vulnerability": {
     title: "VULNERABILITIES",
@@ -2212,7 +2212,7 @@ window.CyberHeatRadarUI = Object.freeze({
 (() => {
   "use strict";
 
-  const originalSlot = Date.parse("2026-11-01T09:30:00+09:00");
+  const originalSlot = Date.parse("2026-11-01T10:30:00+09:00");
   const noticeId = "chr2-update-notice";
   let polling = false;
   let notified = false;
