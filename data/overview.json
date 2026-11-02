@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-02T22:11:58.691671+00:00",
-  "as_of": "2026-11-02T22:00:00+00:00",
-  "catalog_count": 21543,
+  "generated_at": "2026-11-02T23:11:58.583110+00:00",
+  "as_of": "2026-11-02T23:00:00+00:00",
+  "catalog_count": 21547,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,65 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:0a35b6682d69f3534e7343d9",
+      "permalink_id": "article-url-0a35b6682d69f3534e7343d9",
+      "canonical_url": "https://cyberscoop.com/google-disrupts-xcpe-botnet-videostrong-android-devices/",
+      "title": "Google shuts down global botnet running on certified Android devices",
+      "summary_excerpt": "Videostrong sold TV set-top boxes and other devices with pre-installed malware. The yearslong operation evaded Google’s security tests and established a botnet for cybercriminals. The post Google shuts down global botnet running on certified Android devices appeared first on CyberScoop .",
+      "published_at": "2026-11-03T06:58:24+09:00",
+      "first_seen_at": "2026-11-03T07:23:49.742956+09:00",
+      "source_name": "CyberScoop",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2cf3e4d20fb3f24fba30a743",
+      "permalink_id": "article-url-2cf3e4d20fb3f24fba30a743",
+      "canonical_url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+      "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+      "summary_excerpt": "Blockchain security companies said more than $46 million left the Mercado Bitcoin platform.",
+      "published_at": "2026-11-03T06:42:00+09:00",
+      "first_seen_at": "2026-11-03T07:24:16.642909+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:6c6aea21f91dfc2c962a7284",
       "permalink_id": "article-url-6c6aea21f91dfc2c962a7284",
@@ -40,6 +99,33 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d4a79711cc128fce5d4f2aa0",
+      "permalink_id": "article-url-d4a79711cc128fce5d4f2aa0",
+      "canonical_url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+      "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+      "summary_excerpt": "Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on Microsoft Security Blog .",
+      "published_at": "2026-11-03T05:20:59+09:00",
+      "first_seen_at": "2026-11-03T07:56:07.866125+09:00",
+      "source_name": "Microsoft Security Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -218,95 +304,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:be5b6aa5f128d25c7906518d",
-      "permalink_id": "article-url-be5b6aa5f128d25c7906518d",
-      "canonical_url": "https://www.theregister.com/security/2026/11/02/cloud-hosted-ai-workflow-tool-has-environment-variables-snatched-in-security-incident/5306998",
-      "title": "Cloud-hosted AI workflow tool has environment variables snatched in security incident",
-      "summary_excerpt": "So, who's ready to clear the dust out of that server closet and move things back on-prem?",
-      "published_at": "2026-11-03T01:44:30+09:00",
-      "first_seen_at": "2026-11-03T01:55:40.454060+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5a654e3ad3da731e5395b95e",
-      "permalink_id": "article-url-5a654e3ad3da731e5395b95e",
-      "canonical_url": "https://therecord.media/hackers-ukraine-belarus-russia",
-      "title": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
-      "summary_excerpt": "An alliance of Belarusian and pro-Ukrainian hackers claimed to have taken out Russia's federal statistics agency, Rosstat, and stolen vast amounts of sensitive government data in a cyberattack.",
-      "published_at": "2026-11-03T01:30:00+09:00",
-      "first_seen_at": "2026-11-03T01:55:39.940067+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b0ce292534ec4a4f64824309",
-      "permalink_id": "article-url-b0ce292534ec4a4f64824309",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
-      "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-      "summary_excerpt": "CISA added two new Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527) to its Known Exploited Vulnerabilities catalog on Friday, after Ivanti updated an earlier security advisory with details about the flaws. Three flaws chained to gain a foothold CVE-2026-111357, a missing authentication for a critical function vulnerability that allows a local authenticated attacker to escalate their privileges, and CVE-2026-118527, a “Generation of Predictable Numbers or Identifiers Vulnerability” that makes remote authenticated file upload possible, have been … More → The post CISA to ",
-      "published_at": "2026-11-03T00:58:08+09:00",
-      "first_seen_at": "2026-11-03T01:24:31.941642+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111357",
-        "CVE-2026-118527"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -409,6 +406,35 @@
         "CVE-2026-104935",
         "CVE-2026-111357",
         "CVE-2026-118527"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:8f34958c7751a326f9eca8e8",
+      "permalink_id": "article-url-8f34958c7751a326f9eca8e8",
+      "canonical_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
+      "title": "Linux kernel RCE CVE-2026-98432",
+      "summary_excerpt": "CVSSv3 Score: 9.8 CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process a retransmitted SYN for the same request socket, and send a SYNACK from tcp_check_req(). tcp_v4_send_synack() and inet_csk_route_req() read ireq->ireq_opt under rcu_read_lock() only, and ip_build_and_send_pkt() and ip_options_build() then read opt->optlen twice. Note that the SYNACK timer itself is not an issue: it holds a reference on its request ",
+      "published_at": "2026-11-02T17:00:00+09:00",
+      "first_seen_at": "2026-11-03T07:55:46.851545+09:00",
+      "source_name": "Fortinet PSIRT Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-98432"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -536,41 +562,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:39f18e50f5740c0aec388786",
-      "permalink_id": "article-url-39f18e50f5740c0aec388786",
-      "canonical_url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
-      "title": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
-      "summary_excerpt": "A recent post by the BYOD gang appears to line up with a security incident that prompted campus-wide action at Michigan State University. BYOD drew attention in October for an attack on the University of New Mexico.",
-      "published_at": "2026-11-03T04:54:00+09:00",
-      "first_seen_at": "2026-11-03T05:24:22.511686+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8c147c5c8e2a7274fd131061",
-      "permalink_id": "article-url-8c147c5c8e2a7274fd131061",
-      "canonical_url": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
-      "title": "Cops bust botnet of 1.3M infected Android TV boxes",
-      "summary_excerpt": "Videostrong accused of shipping devices with a backdoor baked in",
-      "published_at": "2026-11-03T04:03:31+09:00",
-      "first_seen_at": "2026-11-03T04:40:18.232715+09:00",
-      "source_name": "The Register Security",
+      "public_article_id": "url:0a35b6682d69f3534e7343d9",
+      "permalink_id": "article-url-0a35b6682d69f3534e7343d9",
+      "canonical_url": "https://cyberscoop.com/google-disrupts-xcpe-botnet-videostrong-android-devices/",
+      "title": "Google shuts down global botnet running on certified Android devices",
+      "summary_excerpt": "Videostrong sold TV set-top boxes and other devices with pre-installed malware. The yearslong operation evaded Google’s security tests and established a botnet for cybercriminals. The post Google shuts down global botnet running on certified Android devices appeared first on CyberScoop .",
+      "published_at": "2026-11-03T06:58:24+09:00",
+      "first_seen_at": "2026-11-03T07:23:49.742956+09:00",
+      "source_name": "CyberScoop",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -595,14 +594,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:b728804dc951fc98b3590dbc",
-      "permalink_id": "article-url-b728804dc951fc98b3590dbc",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-      "summary_excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
-      "published_at": "2026-11-03T04:00:45+09:00",
-      "first_seen_at": "2026-11-03T05:39:24.448132+09:00",
-      "source_name": "BleepingComputer",
+      "public_article_id": "url:2cf3e4d20fb3f24fba30a743",
+      "permalink_id": "article-url-2cf3e4d20fb3f24fba30a743",
+      "canonical_url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+      "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+      "summary_excerpt": "Blockchain security companies said more than $46 million left the Mercado Bitcoin platform.",
+      "published_at": "2026-11-03T06:42:00+09:00",
+      "first_seen_at": "2026-11-03T07:24:16.642909+09:00",
+      "source_name": "The Record",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -622,29 +621,7 @@
       "published_at_future_suppressed": false
     }
   ],
-  "rising": [
-    {
-      "public_article_id": "url:bb8916026d83cc1156433069",
-      "permalink_id": "article-url-bb8916026d83cc1156433069",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/02/2000002778/",
-      "title": "FBI、Binanceからの60億ドル超の暗号資産窃盗は北朝鮮「TraderTraitor」の犯行と発表",
-      "summary_excerpt": "FBIは、暗号資産取引所Binanceから60億ドル超の暗号資産が盗まれた事件を北朝鮮のサイバー攻撃活動「TraderTraitor」による犯行と発表した。FBIなどは民間事業者に資金洗浄の阻止を要請。なお、Binance Japanは日本の顧客資産は安全に保管されていると報告し、影響はないとしている。",
-      "published_at": "2026-11-02T07:28:21+09:00",
-      "first_seen_at": "2026-11-02T07:59:35.992171+09:00",
-      "source_name": "ITmedia NEWS Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 47.7,
-      "published_at_future_suppressed": false
-    }
-  ],
+  "rising": [],
   "persistent_hot": [
     {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
@@ -1012,17 +989,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+    "【LATEST #1】Google shuts down global botnet running on certified Android devices",
     "【HOTTEST #1 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-    "【LATEST #2】Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+    "【LATEST #2】Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
     "【HOTTEST #2 / Heat 67.5】The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "【LATEST #3】Cops bust botnet of 1.3M infected Android TV boxes",
+    "【LATEST #3】Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
     "【HOTTEST #3 / Heat 67.5】Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
-    "【LATEST #4】Fintech platform Sageworks taken offline after suspected cyberattack",
-    "【HOTTEST #4 / Heat 67.5】Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
-    "【LATEST #5】Yoba Malware Campaign Abuses Signed AI Applications to Evade Detection",
-    "【HOTTEST #5 / Heat 65.7】AI-powered infostealer picks out the most profitable parts of your stolen data"
+    "【LATEST #4】What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+    "【HOTTEST #4 / Heat 67.5】Linux kernel RCE CVE-2026-98432",
+    "【LATEST #5】Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+    "【HOTTEST #5 / Heat 67.5】Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain"
   ],
-  "last_published_at": "2026-11-03T07:15:31.909892+09:00",
-  "publication_slot_jst": "2026-11-03T07:00:00+09:00"
+  "last_published_at": "2026-11-03T08:15:48.534377+09:00",
+  "publication_slot_jst": "2026-11-03T08:00:00+09:00"
 }
