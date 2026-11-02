@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-02T06:41:47.693271+00:00",
-  "as_of": "2026-11-02T06:00:00+00:00",
-  "catalog_count": 21474,
+  "generated_at": "2026-11-02T22:11:58.691671+00:00",
+  "as_of": "2026-11-02T22:00:00+00:00",
+  "catalog_count": 21543,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -11,14 +11,132 @@
   },
   "latest": [
     {
-      "public_article_id": "url:283b0529c37fc56b9d6f4ec8",
-      "permalink_id": "article-url-283b0529c37fc56b9d6f4ec8",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/aur0ra-ransomware-ai-agents/",
-      "title": "Ransomware gang talked AI agents into doing much of its dirty work",
-      "summary_excerpt": "The group behind the Aur0ra ransomware has been using AI agents to move through victim networks, collect credentials and work its way up to domain administrator access, according to Sophos. AI-assisted intrusion workflow (Source: Sophos) The company, which tracks the group as GOLD OGRE, recovered artifacts from the Cursor AI coding assistant in late August that show the attackers handing the agents VPN logins, proxy access, targets and objectives. The agents then mapped the network … More → The post Ransomware gang talked AI agents into doing much of its dirty work appeared first on Help Net S",
-      "published_at": "2026-11-02T14:00:46+09:00",
-      "first_seen_at": "2026-11-02T14:55:59.888323+09:00",
-      "source_name": "Help Net Security",
+      "public_article_id": "url:6c6aea21f91dfc2c962a7284",
+      "permalink_id": "article-url-6c6aea21f91dfc2c962a7284",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+      "summary_excerpt": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+      "published_at": "2026-11-03T06:40:14+09:00",
+      "first_seen_at": "2026-11-03T06:52:44.261194+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:39f18e50f5740c0aec388786",
+      "permalink_id": "article-url-39f18e50f5740c0aec388786",
+      "canonical_url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+      "title": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+      "summary_excerpt": "A recent post by the BYOD gang appears to line up with a security incident that prompted campus-wide action at Michigan State University. BYOD drew attention in October for an attack on the University of New Mexico.",
+      "published_at": "2026-11-03T04:54:00+09:00",
+      "first_seen_at": "2026-11-03T05:24:22.511686+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:8c147c5c8e2a7274fd131061",
+      "permalink_id": "article-url-8c147c5c8e2a7274fd131061",
+      "canonical_url": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+      "title": "Cops bust botnet of 1.3M infected Android TV boxes",
+      "summary_excerpt": "Videostrong accused of shipping devices with a backdoor baked in",
+      "published_at": "2026-11-03T04:03:31+09:00",
+      "first_seen_at": "2026-11-03T04:40:18.232715+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:b728804dc951fc98b3590dbc",
+      "permalink_id": "article-url-b728804dc951fc98b3590dbc",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+      "summary_excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+      "published_at": "2026-11-03T04:00:45+09:00",
+      "first_seen_at": "2026-11-03T05:39:24.448132+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:5ab6f10189715429e040999d",
+      "permalink_id": "article-url-5ab6f10189715429e040999d",
+      "canonical_url": "https://blog.polyswarm.io/yoba-malware-campaign-abuses-signed-ai-applications-to-evade-detection",
+      "title": "Yoba Malware Campaign Abuses Signed AI Applications to Evade Detection",
+      "summary_excerpt": "Related Families: YobaLoader, YobaDropper, XMRig Executive Summary A malware campaign tracked as Yoba uses fraudulent GitHub projects impersonating ChatGPT and Claude applications to distribute malicious installers. The campaign combines DLL sideloading through legitimate, digitally signed executables with anti-analysis techniques and a multistage loader that uses Telegram, DNS over HTTPS, and public hosting services to retrieve additional payloads. Although researchers observed the deployment of an XMRig cryptocurrency miner, the loader supports additional Windows portable executable (PE) and",
+      "published_at": "2026-11-03T03:46:14+09:00",
+      "first_seen_at": "2026-11-03T04:40:14.378075+09:00",
+      "source_name": "PolySwarm Blog",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "primary",
@@ -32,36 +150,10 @@
         },
         {
           "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
+          "key": "malware",
+          "label": "Malware"
         }
       ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 73.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:664b33403f496f6ace844fa5",
-      "permalink_id": "article-url-664b33403f496f6ace844fa5",
-      "canonical_url": "https://www.security-next.com/192279",
-      "title": "DB管理ツール「pgAdmin 4」に複数脆弱性 - 2件は「クリティカル」",
-      "summary_excerpt": "「PostgreSQL」向けのデータベース管理ツール「pgAdmin 4」に複数の脆弱性が判明した。修正版を提供しており、利用者にアップデートを呼びかけている。",
-      "published_at": "2026-11-02T12:52:54+09:00",
-      "first_seen_at": "2026-11-02T13:08:38.736332+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -69,41 +161,84 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:e2523fd05fe3745e88158527",
-      "permalink_id": "article-url-e2523fd05fe3745e88158527",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/02/2000002786/",
-      "title": "ニコニコレンタカー、免許証画像の事前登録を廃止　保存済み画像も全削除　サイバー攻撃の増加受け",
-      "summary_excerpt": "ニコニコレンタカーは10月27日、公式アプリ「ニコパス」での運転免許証画像の事前登録機能を廃止すると発表した。これまで預かっていた画像データは全て削除済みという。",
-      "published_at": "2026-11-02T12:23:04+09:00",
-      "first_seen_at": "2026-11-02T12:54:48.128141+09:00",
-      "source_name": "ITmedia NEWS Security",
+      "public_article_id": "url:540fcda8052543e00f62abeb",
+      "permalink_id": "article-url-540fcda8052543e00f62abeb",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+      "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+      "summary_excerpt": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
+      "published_at": "2026-11-03T03:16:34+09:00",
+      "first_seen_at": "2026-11-03T05:39:25.648744+09:00",
+      "source_name": "BleepingComputer",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 73.0,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:e5e821f03a055ba3135475d3",
-      "permalink_id": "article-url-e5e821f03a055ba3135475d3",
-      "canonical_url": "https://gigazine.net/news/20261102-cloudflare-clickfix/",
-      "title": "Cloudflareの「人間であることを確認」ページを偽装してコマンドを実行させる攻撃が確認される",
-      "summary_excerpt": "「ClickFix」と呼ばれる、偽の画面を表示してコマンドを実行させる攻撃がいくつかのサイトで確認されました。不正アクセスを受けた正規のウェブサイトで確認されているため注意が必要です。 続きを読む...",
-      "published_at": "2026-11-02T12:19:00+09:00",
-      "first_seen_at": "2026-11-02T12:54:34.887335+09:00",
-      "source_name": "GIGAZINE",
+      "public_article_id": "url:7d461fad5857dccb078dd384",
+      "permalink_id": "article-url-7d461fad5857dccb078dd384",
+      "canonical_url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
+      "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
+      "summary_excerpt": "In a post-mortem about an October 29 incident, prediction market Polymarket said it will pay people back what they lost, as well as compensate them for the site's downtime.",
+      "published_at": "2026-11-03T02:05:20+09:00",
+      "first_seen_at": "2026-11-03T02:24:45.857955+09:00",
+      "source_name": "The Record",
       "source_class": "topic_rss",
-      "security_relevance": "material",
+      "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
+      "primary_category": "incident",
       "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:be5b6aa5f128d25c7906518d",
+      "permalink_id": "article-url-be5b6aa5f128d25c7906518d",
+      "canonical_url": "https://www.theregister.com/security/2026/11/02/cloud-hosted-ai-workflow-tool-has-environment-variables-snatched-in-security-incident/5306998",
+      "title": "Cloud-hosted AI workflow tool has environment variables snatched in security incident",
+      "summary_excerpt": "So, who's ready to clear the dust out of that server closet and move things back on-prem?",
+      "published_at": "2026-11-03T01:44:30+09:00",
+      "first_seen_at": "2026-11-03T01:55:40.454060+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
         {
           "color_family": "neutral",
           "key": "cloud_security",
@@ -117,41 +252,26 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:1a9f92d6359c2e84a0c7e21e",
-      "permalink_id": "article-url-1a9f92d6359c2e84a0c7e21e",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261102-5240867/",
-      "title": "FBI、約9900億円の暗号資産流出で北朝鮮の関与を発表　資金洗浄の阻止要請",
-      "summary_excerpt": "米連邦捜査局（FBI）は2026年10月31日（現地時間）、暗号資産取引所Binance（バイナンス）から60億ドル以上の暗号資産が盗まれた事件について、北朝鮮によるサイバー攻撃と特定したことを発表した。盗まれた暗号資産の資金洗浄に使われているウォレットアドレスを公開し、暗号資産関連事業者に取引の遮断を呼びかけている。",
-      "published_at": "2026-11-02T12:11:44+09:00",
-      "first_seen_at": "2026-11-02T13:22:31.376008+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4e3a001451d5c1a7c9016593",
-      "permalink_id": "article-url-4e3a001451d5c1a7c9016593",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/02/2000002785/",
-      "title": "楽天証券、顧客情報362件が漏えいか　NTTデータ委託先に不正アクセス",
-      "summary_excerpt": "漏えいした可能性がある項目は明らかにしていない。",
-      "published_at": "2026-11-02T12:02:40+09:00",
-      "first_seen_at": "2026-11-02T13:08:37.760730+09:00",
-      "source_name": "ITmedia NEWS Bursts",
+      "public_article_id": "url:5a654e3ad3da731e5395b95e",
+      "permalink_id": "article-url-5a654e3ad3da731e5395b95e",
+      "canonical_url": "https://therecord.media/hackers-ukraine-belarus-russia",
+      "title": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
+      "summary_excerpt": "An alliance of Belarusian and pro-Ukrainian hackers claimed to have taken out Russia's federal statistics agency, Rosstat, and stolen vast amounts of sensitive government data in a cyberattack.",
+      "published_at": "2026-11-03T01:30:00+09:00",
+      "first_seen_at": "2026-11-03T01:55:39.940067+09:00",
+      "source_name": "The Record",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -159,91 +279,204 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:16192838c39672e78ffe35cd",
-      "permalink_id": "article-url-16192838c39672e78ffe35cd",
-      "canonical_url": "https://jvn.jp/jp/JVN23328936/",
-      "title": "Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性",
-      "summary_excerpt": "ALCPUが提供するCore Tempのカーネルドライバには、IOCTLインタフェースに対するアクセス制御が不十分な脆弱性が存在します。",
-      "published_at": "2026-11-02T12:00:00+09:00",
-      "first_seen_at": "2026-11-02T12:54:49.300687+09:00",
-      "source_name": "JVN",
+      "public_article_id": "url:b0ce292534ec4a4f64824309",
+      "permalink_id": "article-url-b0ce292534ec4a4f64824309",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
+      "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
+      "summary_excerpt": "CISA added two new Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527) to its Known Exploited Vulnerabilities catalog on Friday, after Ivanti updated an earlier security advisory with details about the flaws. Three flaws chained to gain a foothold CVE-2026-111357, a missing authentication for a critical function vulnerability that allows a local authenticated attacker to escalate their privileges, and CVE-2026-118527, a “Generation of Predictable Numbers or Identifiers Vulnerability” that makes remote authenticated file upload possible, have been … More → The post CISA to ",
+      "published_at": "2026-11-03T00:58:08+09:00",
+      "first_seen_at": "2026-11-03T01:24:31.941642+09:00",
+      "source_name": "Help Net Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:84b75aa893515d098a99587c",
-      "permalink_id": "article-url-84b75aa893515d098a99587c",
-      "canonical_url": "https://gigazine.net/news/20261102-apple-homeview-built-in-camera-security/",
-      "title": "Apple HomeViewの内蔵カメラはセキュリティカメラとしても使える",
-      "summary_excerpt": "Appleが2026年10月に発表したスマートホームデバイスを一元管理するための新デバイス「Apple HomeView」は、内蔵カメラを用いてセキュリティカメラとして利用することもできることが明らかになりました。 続きを読む...",
-      "published_at": "2026-11-02T11:49:00+09:00",
-      "first_seen_at": "2026-11-02T11:58:27.810279+09:00",
-      "source_name": "GIGAZINE",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d8316695f20e811a94436ac2",
-      "permalink_id": "article-url-d8316695f20e811a94436ac2",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261102-5240676/",
-      "title": "ロックウェル・オートメーション、OEMの規制対応を支援する「SecureOT」の新機能を発表",
-      "summary_excerpt": "ロックウェル・オートメーションは10月30日、機械装置メーカー（OEM）向けに、OTサイバーセキュリティプラットフォーム「SecureOT」の新機能を発表した。機械を構成する資産の可視化や脆弱性の特定、コンプライアンス報告、継続的な監視などを提供し、機械のライフサイクル全体を通じたサイバーセキュリティリスクの管理をサポートする。",
-      "published_at": "2026-11-02T11:30:00+09:00",
-      "first_seen_at": "2026-11-02T12:11:34.757708+09:00",
-      "source_name": "Mynavi TECH+ Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9989fc2dfe8e352ae65cec07",
-      "permalink_id": "article-url-9989fc2dfe8e352ae65cec07",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/02/2000002783/",
-      "title": "ワールド子会社に不正アクセス、会員情報のべ約120万件が流出の可能性　「RAGTAG」運営元",
-      "summary_excerpt": "氏名、住所、電話番号、生年月日、性別、メールアドレスを含む。",
-      "published_at": "2026-11-02T11:06:13+09:00",
-      "first_seen_at": "2026-11-02T13:08:37.907379+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:b0ce292534ec4a4f64824309",
+      "permalink_id": "article-url-b0ce292534ec4a4f64824309",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
+      "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
+      "summary_excerpt": "CISA added two new Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527) to its Known Exploited Vulnerabilities catalog on Friday, after Ivanti updated an earlier security advisory with details about the flaws. Three flaws chained to gain a foothold CVE-2026-111357, a missing authentication for a critical function vulnerability that allows a local authenticated attacker to escalate their privileges, and CVE-2026-118527, a “Generation of Predictable Numbers or Identifiers Vulnerability” that makes remote authenticated file upload possible, have been … More → The post CISA to ",
+      "published_at": "2026-11-03T00:58:08+09:00",
+      "first_seen_at": "2026-11-03T01:24:31.941642+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:098ee6ddbe901d2f7b929ec0",
+      "permalink_id": "article-url-098ee6ddbe901d2f7b929ec0",
+      "canonical_url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+      "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+      "summary_excerpt": "Written by: Christopher Romano, Codi Starks, Garrett Mahoney, John Wolfram, Josh Murchie, K Singh, Mathew Potaczek, Mike Lombardi, Rik Dolfing Introduction Mandiant responded to multiple incidents in 2026 in which threat actors hijacked enterprise access to Large Language Models (LLMs), a tactic known as \"LLMJacking.\" Spanning a variety of cloud and LLM providers, these intrusions impacted organizations in North America, South America, and Asia Pacific across the financial services, retail, technology, and transportation sectors. Unlike the gradual resource consumption associated with cryptoja",
+      "published_at": "2026-11-02T23:00:00+09:00",
+      "first_seen_at": "2026-11-03T01:24:27.139951+09:00",
+      "source_name": "Google Cloud / Mandiant Threat Intelligence",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-40217"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0d73801f83967f6048f9d2c5",
+      "permalink_id": "article-url-0d73801f83967f6048f9d2c5",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+      "title": "Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
+      "summary_excerpt": "Overview On October 29, 2026, Ivanti updated its security advisory for Ivanti Connect Secure (ICS) to include two additional vulnerabilities and released fixes for both. Ivanti rates CVE-2026-111357 , a missing authentication for critical function vulnerability ( CWE-306 ), with a CVSSv3.1 score of 8.8 ; it allows a local authenticated attacker to escalate privileges. CVE-2026-118527 , classified as generation of predictable numbers or identifiers ( CWE-340 ), has an Ivanti-assigned CVSSv3.0 score of 4.3 and, according to CISA's KEV entry , allows a remote authenticated attacker to upload atta",
+      "published_at": "2026-11-02T20:04:08+09:00",
+      "first_seen_at": "2026-11-02T21:47:19.533751+09:00",
+      "source_name": "Rapid7 Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-104935",
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:850d3b52f0b80f1ec66adfb9",
+      "permalink_id": "article-url-850d3b52f0b80f1ec66adfb9",
+      "canonical_url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+      "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+      "summary_excerpt": "CISA has added CVE-2026-111357 and CVE-2026-118527 to its KEV catalog after the Ivanti VPN flaws were chained in zero-day attacks. The post Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain appeared first on SecurityWeek .",
+      "published_at": "2026-11-02T16:57:49+09:00",
+      "first_seen_at": "2026-11-02T17:24:38.801632+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:22e46b2acc24848b4bb0bd16",
+      "permalink_id": "article-url-22e46b2acc24848b4bb0bd16",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/ai-powered-infostealer-volta-victim-profiling/",
+      "title": "AI-powered infostealer picks out the most profitable parts of your stolen data",
+      "summary_excerpt": "A new Windows infostealer sends the data it steals to an AI model and asks it to rank the victim’s assets by how much money they could bring in, Cisco Talos has found. “There is a new idea in the cybercrime world — cast a wide net, steal everything, and let AI sort out the specifics,” said Ryan Fetterman, a security researcher at Cisco. The malware calls itself VOLTA-AUTODOXER and turned up through Talos’ CAIRN … More → The post AI-powered infostealer picks out the most profitable parts of your stolen data appeared first on Help Net Security .",
+      "published_at": "2026-11-02T23:47:57+09:00",
+      "first_seen_at": "2026-11-03T00:29:36.502649+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:283b0529c37fc56b9d6f4ec8",
       "permalink_id": "article-url-283b0529c37fc56b9d6f4ec8",
@@ -278,7 +511,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 73.0,
+      "heat_score": 65.7,
       "published_at_future_suppressed": false
     },
     {
@@ -299,133 +532,28 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 73.0,
+      "heat_score": 65.7,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:664b33403f496f6ace844fa5",
-      "permalink_id": "article-url-664b33403f496f6ace844fa5",
-      "canonical_url": "https://www.security-next.com/192279",
-      "title": "DB管理ツール「pgAdmin 4」に複数脆弱性 - 2件は「クリティカル」",
-      "summary_excerpt": "「PostgreSQL」向けのデータベース管理ツール「pgAdmin 4」に複数の脆弱性が判明した。修正版を提供しており、利用者にアップデートを呼びかけている。",
-      "published_at": "2026-11-02T12:52:54+09:00",
-      "first_seen_at": "2026-11-02T13:08:38.736332+09:00",
-      "source_name": "Security NEXT",
+      "public_article_id": "url:39f18e50f5740c0aec388786",
+      "permalink_id": "article-url-39f18e50f5740c0aec388786",
+      "canonical_url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+      "title": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+      "summary_excerpt": "A recent post by the BYOD gang appears to line up with a security incident that prompted campus-wide action at Michigan State University. BYOD drew attention in October for an attack on the University of New Mexico.",
+      "published_at": "2026-11-03T04:54:00+09:00",
+      "first_seen_at": "2026-11-03T05:24:22.511686+09:00",
+      "source_name": "The Record",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4e3a001451d5c1a7c9016593",
-      "permalink_id": "article-url-4e3a001451d5c1a7c9016593",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/02/2000002785/",
-      "title": "楽天証券、顧客情報362件が漏えいか　NTTデータ委託先に不正アクセス",
-      "summary_excerpt": "漏えいした可能性がある項目は明らかにしていない。",
-      "published_at": "2026-11-02T12:02:40+09:00",
-      "first_seen_at": "2026-11-02T13:08:37.760730+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:16192838c39672e78ffe35cd",
-      "permalink_id": "article-url-16192838c39672e78ffe35cd",
-      "canonical_url": "https://jvn.jp/jp/JVN23328936/",
-      "title": "Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性",
-      "summary_excerpt": "ALCPUが提供するCore Tempのカーネルドライバには、IOCTLインタフェースに対するアクセス制御が不十分な脆弱性が存在します。",
-      "published_at": "2026-11-02T12:00:00+09:00",
-      "first_seen_at": "2026-11-02T12:54:49.300687+09:00",
-      "source_name": "JVN",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9989fc2dfe8e352ae65cec07",
-      "permalink_id": "article-url-9989fc2dfe8e352ae65cec07",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/02/2000002783/",
-      "title": "ワールド子会社に不正アクセス、会員情報のべ約120万件が流出の可能性　「RAGTAG」運営元",
-      "summary_excerpt": "氏名、住所、電話番号、生年月日、性別、メールアドレスを含む。",
-      "published_at": "2026-11-02T11:06:13+09:00",
-      "first_seen_at": "2026-11-02T13:08:37.907379+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8d121144e05d83e72fa0a82e",
-      "permalink_id": "article-url-8d121144e05d83e72fa0a82e",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/02/2000002782/",
-      "title": "クラブツーリズムに不正アクセス　個人情報約432万件漏えいの可能性、サイト停止",
-      "summary_excerpt": "氏名、国籍、性別、生年月日・年齢、住所、電話番号、メールアドレス、会員ID、緊急連絡先が対象。",
-      "published_at": "2026-11-02T10:48:11+09:00",
-      "first_seen_at": "2026-11-02T13:08:38.001645+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1837b531a844d4c529105620",
-      "permalink_id": "article-url-1837b531a844d4c529105620",
-      "canonical_url": "https://www.security-next.com/192262",
-      "title": "「WordPress 7.1.4」で更新時RCEや複数XSSなど脆弱性を修正",
-      "summary_excerpt": "コンテンツマネジメントシステムである「WordPress」に複数の脆弱性が判明した。セキュリティアップデートを提供しており、利用者に更新を呼びかけている。",
-      "published_at": "2026-11-02T10:15:56+09:00",
-      "first_seen_at": "2026-11-02T12:22:31.185762+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
+      "primary_category": "ransomware",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
         }
       ],
       "cves": [],
@@ -435,20 +563,31 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:09142b85ed03929bbb9a0104",
-      "permalink_id": "article-url-09142b85ed03929bbb9a0104",
-      "canonical_url": "https://japan.zdnet.com/article/35254272/",
-      "title": "NETGEAR製の一部ルーターにセキュリティ脆弱性--早めの対応を",
-      "summary_excerpt": "NETGEAR製ルーターの一部にセキュリティ脆弱性が見つかった。同社は修正用ファームウェアを公開しており、対象製品の所有者に速やかなアップデートを呼びかけている。",
-      "published_at": "2026-11-02T10:08:00+09:00",
-      "first_seen_at": "2026-11-02T11:08:08.076397+09:00",
-      "source_name": "ZDNET Japan All",
+      "public_article_id": "url:8c147c5c8e2a7274fd131061",
+      "permalink_id": "article-url-8c147c5c8e2a7274fd131061",
+      "canonical_url": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+      "title": "Cops bust botnet of 1.3M infected Android TV boxes",
+      "summary_excerpt": "Videostrong accused of shipping devices with a backdoor baked in",
+      "published_at": "2026-11-03T04:03:31+09:00",
+      "first_seen_at": "2026-11-03T04:40:18.232715+09:00",
+      "source_name": "The Register Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -456,24 +595,24 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:cdf089b00414adefd4f8b52a",
-      "permalink_id": "article-url-cdf089b00414adefd4f8b52a",
-      "canonical_url": "https://www.security-next.com/192266",
-      "title": "「Ivanti Connect Secure」の脆弱性悪用で注意喚起 - 米当局",
-      "summary_excerpt": "Ivantiのリモートアクセス製品「Ivanti Connect Secure（ICS）」に存在する2件の脆弱性に関し、悪用が確認されたことを受けて米当局が注意喚起を行った。3件の脆弱性を組み合わせた攻撃も確認されている。",
-      "published_at": "2026-11-02T09:03:11+09:00",
-      "first_seen_at": "2026-11-02T09:08:55.652989+09:00",
-      "source_name": "Security NEXT",
+      "public_article_id": "url:b728804dc951fc98b3590dbc",
+      "permalink_id": "article-url-b728804dc951fc98b3590dbc",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+      "summary_excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+      "published_at": "2026-11-03T04:00:45+09:00",
+      "first_seen_at": "2026-11-03T05:39:24.448132+09:00",
+      "source_name": "BleepingComputer",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
+      "primary_category": "threat_campaign",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
         }
       ],
       "cves": [],
@@ -791,14 +930,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:e5c483c4c3b1aea3da6405ba",
-      "permalink_id": "article-url-e5c483c4c3b1aea3da6405ba",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261030-5221870/",
-      "title": "Linuxカーネルに重大な脆弱性、遠隔攻撃の恐れ - Ubuntuは修正作業中",
-      "summary_excerpt": "LinuxカーネルのIPv4通信処理に、遠隔から悪用される恐れのある脆弱性「CVE-2026-98432」が確認された。CVSS v3.1の基本値は9.8（Critical）。Linuxカーネルの上流では、この脆弱性に対する修正が行われている。ただし、UbuntuやRHELなどのLinuxディストリビューションでは、独自のカーネルパッケージに修正を取り込む場合がある。悪用された場合、システム停止やメモリ破壊につながる可能性があり、管理者には利用中のカーネルと修正状況の確認が求められる。",
-      "published_at": "2026-10-30T11:27:35+09:00",
-      "first_seen_at": "2026-10-30T12:07:38.995930+09:00",
-      "source_name": "Mynavi TECH+ Security",
+      "public_article_id": "url:2748ad0ca305bff955eb9912",
+      "permalink_id": "article-url-2748ad0ca305bff955eb9912",
+      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
+      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+      "summary_excerpt": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required. The flaw sits between the internal message router, brain , and an appliance-side customer worker, thin-scc . An attacker can put a reserved local router ID into a message's source address. The router forwards the message, and the worker accepts that address as proof that the req",
+      "published_at": "2026-10-31T01:01:53+09:00",
+      "first_seen_at": "2026-10-31T02:53:36.604261+09:00",
+      "source_name": "Rapid7 Blog",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -809,10 +948,15 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
         }
       ],
       "cves": [
-        "CVE-2026-98432"
+        "CVE-2026-102764"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -820,14 +964,14 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:90dff4f00f732a8f63d07648",
-      "permalink_id": "article-url-90dff4f00f732a8f63d07648",
-      "canonical_url": "https://www.security-next.com/192222",
-      "title": "「GitLab」の悪用脆弱性、原因は「Ruby」 - 修正版が公開",
-      "summary_excerpt": "ソースコード管理プラットフォーム「GitLab」に深刻な脆弱性「CVE-2026-97229」などが見つかった問題で、依存関係にあるプログラミング言語「Ruby」に起因することが判明した。「Ruby」の利用環境も影響を受けるおそれがあり、注意が必要となる。",
-      "published_at": "2026-10-30T11:01:40+09:00",
-      "first_seen_at": "2026-10-30T11:53:00.010013+09:00",
-      "source_name": "Security NEXT",
+      "public_article_id": "url:f635e51b46992649ab09cf6e",
+      "permalink_id": "article-url-f635e51b46992649ab09cf6e",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management r",
+      "published_at": "2026-10-30T21:00:00+09:00",
+      "first_seen_at": "2026-10-31T03:52:40.704721+09:00",
+      "source_name": "CISA Cybersecurity Advisories",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -841,7 +985,8 @@
         }
       ],
       "cves": [
-        "CVE-2026-97229"
+        "CVE-2026-111357",
+        "CVE-2026-118527"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -867,17 +1012,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Ransomware gang talked AI agents into doing much of its dirty work",
-    "【HOTTEST #1 / Heat 73】Ransomware gang talked AI agents into doing much of its dirty work",
-    "【LATEST #2】DB管理ツール「pgAdmin 4」に複数脆弱性 - 2件は「クリティカル」",
-    "【HOTTEST #2 / Heat 73】ニコニコレンタカー、免許証画像の事前登録を廃止　保存済み画像も全削除　サイバー攻撃の増加受け",
-    "【LATEST #3】ニコニコレンタカー、免許証画像の事前登録を廃止　保存済み画像も全削除　サイバー攻撃の増加受け",
-    "【HOTTEST #3 / Heat 65】DB管理ツール「pgAdmin 4」に複数脆弱性 - 2件は「クリティカル」",
-    "【LATEST #4】Cloudflareの「人間であることを確認」ページを偽装してコマンドを実行させる攻撃が確認される",
-    "【HOTTEST #4 / Heat 65】楽天証券、顧客情報362件が漏えいか　NTTデータ委託先に不正アクセス",
-    "【LATEST #5】FBI、約9900億円の暗号資産流出で北朝鮮の関与を発表　資金洗浄の阻止要請",
-    "【HOTTEST #5 / Heat 65】Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性"
+    "【LATEST #1】Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+    "【HOTTEST #1 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
+    "【LATEST #2】Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+    "【HOTTEST #2 / Heat 67.5】The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+    "【LATEST #3】Cops bust botnet of 1.3M infected Android TV boxes",
+    "【HOTTEST #3 / Heat 67.5】Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
+    "【LATEST #4】Fintech platform Sageworks taken offline after suspected cyberattack",
+    "【HOTTEST #4 / Heat 67.5】Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+    "【LATEST #5】Yoba Malware Campaign Abuses Signed AI Applications to Evade Detection",
+    "【HOTTEST #5 / Heat 65.7】AI-powered infostealer picks out the most profitable parts of your stolen data"
   ],
-  "last_published_at": "2026-11-02T15:45:23.877477+09:00",
-  "publication_slot_jst": "2026-11-02T15:30:00+09:00"
+  "last_published_at": "2026-11-03T07:15:31.909892+09:00",
+  "publication_slot_jst": "2026-11-03T07:00:00+09:00"
 }
