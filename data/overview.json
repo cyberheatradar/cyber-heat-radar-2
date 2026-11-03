@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T14:12:57.106738+00:00",
-  "as_of": "2026-11-03T14:00:00+00:00",
-  "catalog_count": 21593,
+  "generated_at": "2026-11-03T15:13:09.402821+00:00",
+  "as_of": "2026-11-03T15:00:00+00:00",
+  "catalog_count": 21601,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,242 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:f01d9b63500da3f827d3274b",
+      "permalink_id": "article-url-f01d9b63500da3f827d3274b",
+      "canonical_url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+      "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+      "summary_excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek .",
+      "published_at": "2026-11-03T23:32:38+09:00",
+      "first_seen_at": "2026-11-03T23:52:45.633582+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a0803a2b5f2de01fe3ab9abe",
+      "permalink_id": "article-url-a0803a2b5f2de01fe3ab9abe",
+      "canonical_url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+      "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+      "summary_excerpt": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform. The post CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode appeared first on SecurityWeek .",
+      "published_at": "2026-11-03T23:12:44+09:00",
+      "first_seen_at": "2026-11-03T23:25:09.848033+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:317162f2a0bc69d92b5c3651",
+      "permalink_id": "article-url-317162f2a0bc69d92b5c3651",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/novee-external-surface-testing/",
+      "title": "Novee puts forgotten internet-facing assets through penetration testing",
+      "summary_excerpt": "Novee’s External Surface Testing is a new capability in its AI penetration testing platform that helps security teams discover internet-facing assets and validate exploitable vulnerabilities. It tests newly disclosed CVEs and findings imported from third-party external attack surface management (EASM) tools. “Attackers don’t limit themselves to the applications you’re already testing. They look for anything exposed to the internet – forgotten subdomains, staging servers left online, and infrastructure your team may not even know exists. … More → The post Novee puts forgotten internet-facing as",
+      "published_at": "2026-11-03T23:00:26+09:00",
+      "first_seen_at": "2026-11-03T23:24:24.175621+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 53.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:e581154108f523de51d2d0ab",
+      "permalink_id": "article-url-e581154108f523de51d2d0ab",
+      "canonical_url": "https://blog.cloudflare.com/zero-wire/",
+      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "summary_excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+      "published_at": "2026-11-03T23:00:00+09:00",
+      "first_seen_at": "2026-11-03T23:24:17.133356+09:00",
+      "source_name": "Cloudflare Blog Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4fc8c8ddd3ad60a004f8ed80",
+      "permalink_id": "article-url-4fc8c8ddd3ad60a004f8ed80",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+      "summary_excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+      "published_at": "2026-11-03T23:00:00+09:00",
+      "first_seen_at": "2026-11-03T23:24:14.866623+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2473dbd7584c20714899399f",
+      "permalink_id": "article-url-2473dbd7584c20714899399f",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/assured-data-protection-cleanroom-scan/",
+      "title": "Assured helps recovery teams find clean backups after ransomware attacks",
+      "summary_excerpt": "Assured Data Protection has announced CleanRoom SCAN, a new managed service designed to strengthen cyber recovery by independently scanning isolated backup data using multiple leading security engines to identify hidden threats before restoration. The service helps organizations identify malware and other indicators of compromise earlier, reducing the risk of reinfecting production environments during recovery. CleanRoom SCAN lets Assured customers scan isolated backup copies away from production environments, helping detect malware or indicators of compromise that … More → The post Assured he",
+      "published_at": "2026-11-03T22:59:38+09:00",
+      "first_seen_at": "2026-11-03T23:24:44.225720+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:807204d50c8f801a975eb61f",
+      "permalink_id": "article-url-807204d50c8f801a975eb61f",
+      "canonical_url": "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/",
+      "title": "Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles",
+      "summary_excerpt": "Key Points Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles Check Point Research found a misconfigured webserver of a threat actor operating the Cobalt Strike framework. Besides an open Cobalt Strike server, whose logs showed the actor compromising various private computers of Chinese speaking individuals, other tools from the toolkit of […] The post Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles appeared first on Check Point Research .",
+      "published_at": "2026-11-03T22:57:04+09:00",
+      "first_seen_at": "2026-11-03T23:24:16.272912+09:00",
+      "source_name": "Check Point Research",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "defense_ops",
+      "public_tags": [
+        {
+          "color_family": "blue",
+          "key": "defense_ops",
+          "label": "Defense & Ops"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0b5316a73348d849f4615dd5",
+      "permalink_id": "article-url-0b5316a73348d849f4615dd5",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/",
+      "title": "Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe",
+      "summary_excerpt": "The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month",
+      "published_at": "2026-11-03T22:45:00+09:00",
+      "first_seen_at": "2026-11-03T23:24:59.521929+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:dc4185298c5a6bdc1ba8f98a",
       "permalink_id": "article-url-dc4185298c5a6bdc1ba8f98a",
@@ -70,233 +306,6 @@
       ],
       "cves": [
         "CVE-2026-58115"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:23904f61f58f48067fcf9f2c",
-      "permalink_id": "article-url-23904f61f58f48067fcf9f2c",
-      "canonical_url": "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200",
-      "title": "Britain on notice: AI-powered ransomware attacks to arrive by 2028",
-      "summary_excerpt": "Cyber agency warns critical infrastructure is a likely target as chief urges bosses to stop doing 'tech on the cheap'",
-      "published_at": "2026-11-03T21:39:25+09:00",
-      "first_seen_at": "2026-11-03T21:53:10.758667+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6fcd464ed34087b88f8a2b4e",
-      "permalink_id": "article-url-6fcd464ed34087b88f8a2b4e",
-      "canonical_url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-      "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
-      "summary_excerpt": "The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
-      "published_at": "2026-11-03T21:21:49+09:00",
-      "first_seen_at": "2026-11-03T21:53:10.271912+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:283335e142ed8b82ec0f4a96",
-      "permalink_id": "article-url-283335e142ed8b82ec0f4a96",
-      "canonical_url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
-      "title": "Critical Node-RED Flaw Exploited in Attacks",
-      "summary_excerpt": "Multiple attacks from the same IP address attempted to deploy various payloads, including a Linux bot and webshells. The post Critical Node-RED Flaw Exploited in Attacks appeared first on SecurityWeek .",
-      "published_at": "2026-11-03T21:10:19+09:00",
-      "first_seen_at": "2026-11-03T21:24:38.618197+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:1358dd463efa64631680c0dd",
-      "permalink_id": "article-url-1358dd463efa64631680c0dd",
-      "canonical_url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
-      "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-      "summary_excerpt": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
-      "published_at": "2026-11-03T21:05:52+09:00",
-      "first_seen_at": "2026-11-03T21:23:54.232538+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:031ba0923c42c1ced901f1b6",
-      "permalink_id": "article-url-031ba0923c42c1ced901f1b6",
-      "canonical_url": "https://www.malwarebytes.com/blog/bugs/2026/11/hackers-put-porn-on-public-billboards-and-claim-it-was-far-too-easy",
-      "title": "Hackers put porn on public billboards and claim it was “far too easy”",
-      "summary_excerpt": "A hacking group called Leakers$ gained access to remote management software for billboards and used it to show porn.",
-      "published_at": "2026-11-03T21:01:55+09:00",
-      "first_seen_at": "2026-11-03T21:38:40.875175+09:00",
-      "source_name": "Malwarebytes Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:32d0249668f24e3dfdcb2956",
-      "permalink_id": "article-url-32d0249668f24e3dfdcb2956",
-      "canonical_url": "https://any.run/cybersecurity-blog/major-cyber-attacks-october-2026/",
-      "title": "Major Cyber Attacks in October 2026: Fake AI, Account Takeovers, and Remote Access Threaten US and EU",
-      "summary_excerpt": "October 2026 brought another wave of cyber threats targeting US enterprises, exposing security gaps that could lead to financial losses, data breaches, and business disruption. Attackers exploited trusted platforms, legitimate authentication processes, and growing AI adoption to gain access to corporate accounts and systems, making early detection and containment increasingly difficult. For SOC teams, these […] The post Major Cyber Attacks in October 2026: Fake AI, Account Takeovers, and Remote Access Threaten US and EU appeared first on ANY.RUN's Cybersecurity Blog .",
-      "published_at": "2026-11-03T20:52:32+09:00",
-      "first_seen_at": "2026-11-03T21:38:36.487724+09:00",
-      "source_name": "ANY.RUN Cybersecurity Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:3c16ecb65c9b97f9daead257",
-      "permalink_id": "article-url-3c16ecb65c9b97f9daead257",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/ncsc-ai-ransomware-threat-uk-cni/",
-      "title": "NCSC Chief Warns of Imminent AI Ransomware Threat to UK Critical Infrastructure",
-      "summary_excerpt": "The UK’s cyber chief has warned that AI-powered malware is highly likely to feature in ransomware attacks targeting British critical infrastructure by 2028",
-      "published_at": "2026-11-03T20:45:00+09:00",
-      "first_seen_at": "2026-11-03T21:24:28.550306+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b84cad2a2e67203e1c8e6fda",
-      "permalink_id": "article-url-b84cad2a2e67203e1c8e6fda",
-      "canonical_url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-      "summary_excerpt": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
-      "published_at": "2026-11-03T20:23:53+09:00",
-      "first_seen_at": "2026-11-03T22:26:45.466843+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-98432"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -467,90 +476,73 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:098ee6ddbe901d2f7b929ec0",
-      "permalink_id": "article-url-098ee6ddbe901d2f7b929ec0",
-      "canonical_url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-      "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-      "summary_excerpt": "Written by: Christopher Romano, Codi Starks, Garrett Mahoney, John Wolfram, Josh Murchie, K Singh, Mathew Potaczek, Mike Lombardi, Rik Dolfing Introduction Mandiant responded to multiple incidents in 2026 in which threat actors hijacked enterprise access to Large Language Models (LLMs), a tactic known as \"LLMJacking.\" Spanning a variety of cloud and LLM providers, these intrusions impacted organizations in North America, South America, and Asia Pacific across the financial services, retail, technology, and transportation sectors. Unlike the gradual resource consumption associated with cryptoja",
-      "published_at": "2026-11-02T23:00:00+09:00",
-      "first_seen_at": "2026-11-03T01:24:27.139951+09:00",
-      "source_name": "Google Cloud / Mandiant Threat Intelligence",
+      "public_article_id": "url:f01d9b63500da3f827d3274b",
+      "permalink_id": "article-url-f01d9b63500da3f827d3274b",
+      "canonical_url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+      "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+      "summary_excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek .",
+      "published_at": "2026-11-03T23:32:38+09:00",
+      "first_seen_at": "2026-11-03T23:52:45.633582+09:00",
+      "source_name": "SecurityWeek",
       "source_class": "topic_rss",
       "security_relevance": "primary",
-      "ai_relevance": "material",
+      "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "ai_security",
+      "primary_category": "incident",
       "public_tags": [
         {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
           "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cve",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-40217"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:22e46b2acc24848b4bb0bd16",
-      "permalink_id": "article-url-22e46b2acc24848b4bb0bd16",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/ai-powered-infostealer-volta-victim-profiling/",
-      "title": "AI-powered infostealer picks out the most profitable parts of your stolen data",
-      "summary_excerpt": "A new Windows infostealer sends the data it steals to an AI model and asks it to rank the victim’s assets by how much money they could bring in, Cisco Talos has found. “There is a new idea in the cybercrime world — cast a wide net, steal everything, and let AI sort out the specifics,” said Ryan Fetterman, a security researcher at Cisco. The malware calls itself VOLTA-AUTODOXER and turned up through Talos’ CAIRN … More → The post AI-powered infostealer picks out the most profitable parts of your stolen data appeared first on Help Net Security .",
-      "published_at": "2026-11-02T23:47:57+09:00",
-      "first_seen_at": "2026-11-03T00:29:36.502649+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
+          "key": "incident",
+          "label": "Incident"
         }
       ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.7,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:23904f61f58f48067fcf9f2c",
-      "permalink_id": "article-url-23904f61f58f48067fcf9f2c",
-      "canonical_url": "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200",
-      "title": "Britain on notice: AI-powered ransomware attacks to arrive by 2028",
-      "summary_excerpt": "Cyber agency warns critical infrastructure is a likely target as chief urges bosses to stop doing 'tech on the cheap'",
-      "published_at": "2026-11-03T21:39:25+09:00",
-      "first_seen_at": "2026-11-03T21:53:10.758667+09:00",
-      "source_name": "The Register Security",
+      "public_article_id": "url:e581154108f523de51d2d0ab",
+      "permalink_id": "article-url-e581154108f523de51d2d0ab",
+      "canonical_url": "https://blog.cloudflare.com/zero-wire/",
+      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "summary_excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+      "published_at": "2026-11-03T23:00:00+09:00",
+      "first_seen_at": "2026-11-03T23:24:17.133356+09:00",
+      "source_name": "Cloudflare Blog Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4fc8c8ddd3ad60a004f8ed80",
+      "permalink_id": "article-url-4fc8c8ddd3ad60a004f8ed80",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+      "summary_excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+      "published_at": "2026-11-03T23:00:00+09:00",
+      "first_seen_at": "2026-11-03T23:24:14.866623+09:00",
+      "source_name": "BleepingComputer",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "primary",
@@ -575,24 +567,29 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:6fcd464ed34087b88f8a2b4e",
-      "permalink_id": "article-url-6fcd464ed34087b88f8a2b4e",
-      "canonical_url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-      "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
-      "summary_excerpt": "The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
-      "published_at": "2026-11-03T21:21:49+09:00",
-      "first_seen_at": "2026-11-03T21:53:10.271912+09:00",
-      "source_name": "SecurityWeek",
+      "public_article_id": "url:2473dbd7584c20714899399f",
+      "permalink_id": "article-url-2473dbd7584c20714899399f",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/assured-data-protection-cleanroom-scan/",
+      "title": "Assured helps recovery teams find clean backups after ransomware attacks",
+      "summary_excerpt": "Assured Data Protection has announced CleanRoom SCAN, a new managed service designed to strengthen cyber recovery by independently scanning isolated backup data using multiple leading security engines to identify hidden threats before restoration. The service helps organizations identify malware and other indicators of compromise earlier, reducing the risk of reinfecting production environments during recovery. CleanRoom SCAN lets Assured customers scan isolated backup copies away from production environments, helping detect malware or indicators of compromise that … More → The post Assured he",
+      "published_at": "2026-11-03T22:59:38+09:00",
+      "first_seen_at": "2026-11-03T23:24:44.225720+09:00",
+      "source_name": "Help Net Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
+      "primary_category": "ransomware",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
         }
       ],
       "cves": [],
@@ -602,24 +599,24 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:283335e142ed8b82ec0f4a96",
-      "permalink_id": "article-url-283335e142ed8b82ec0f4a96",
-      "canonical_url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
-      "title": "Critical Node-RED Flaw Exploited in Attacks",
-      "summary_excerpt": "Multiple attacks from the same IP address attempted to deploy various payloads, including a Linux bot and webshells. The post Critical Node-RED Flaw Exploited in Attacks appeared first on SecurityWeek .",
-      "published_at": "2026-11-03T21:10:19+09:00",
-      "first_seen_at": "2026-11-03T21:24:38.618197+09:00",
-      "source_name": "SecurityWeek",
+      "public_article_id": "url:0b5316a73348d849f4615dd5",
+      "permalink_id": "article-url-0b5316a73348d849f4615dd5",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/",
+      "title": "Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe",
+      "summary_excerpt": "The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month",
+      "published_at": "2026-11-03T22:45:00+09:00",
+      "first_seen_at": "2026-11-03T23:24:59.521929+09:00",
+      "source_name": "Infosecurity Magazine",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
+      "primary_category": "threat_campaign",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
         }
       ],
       "cves": [],
@@ -982,17 +979,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Russia-linked cyber spies target Ukraine's war crimes investigations, military aid routes",
+    "【LATEST #1】Frontline Education Data Breach Impacts Over 1.3 Million",
     "【HOTTEST #1 / Heat 75】Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
-    "【LATEST #2】Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
+    "【LATEST #2】CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
     "【HOTTEST #2 / Heat 75】Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "【LATEST #3】Britain on notice: AI-powered ransomware attacks to arrive by 2028",
+    "【LATEST #3】Novee puts forgotten internet-facing assets through penetration testing",
     "【HOTTEST #3 / Heat 67.5】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "【LATEST #4】Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
+    "【LATEST #4】Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
     "【HOTTEST #4 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #5】Critical Node-RED Flaw Exploited in Attacks",
+    "【LATEST #5】UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
     "【HOTTEST #5 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)"
   ],
-  "last_published_at": "2026-11-03T23:16:49.941163+09:00",
-  "publication_slot_jst": "2026-11-03T23:00:00+09:00"
+  "last_published_at": "2026-11-04T00:17:06.528279+09:00",
+  "publication_slot_jst": "2026-11-04T00:00:00+09:00"
 }
