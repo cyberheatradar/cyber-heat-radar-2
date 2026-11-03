@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T09:13:56.181838+00:00",
-  "as_of": "2026-11-03T09:00:00+00:00",
-  "catalog_count": 21570,
+  "generated_at": "2026-11-03T10:15:28.327663+00:00",
+  "as_of": "2026-11-03T10:00:00+00:00",
+  "catalog_count": 21576,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,183 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:7ca1e98bdc3bcc1b1380b629",
+      "permalink_id": "article-url-7ca1e98bdc3bcc1b1380b629",
+      "canonical_url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+      "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+      "summary_excerpt": "The botnet was created and operated for financial gain by Android OEM/ODM Videostrong Technology. The post Google Dismantles XCPE Botnet of 1.3 Million Android Devices appeared first on SecurityWeek .",
+      "published_at": "2026-11-03T18:22:09+09:00",
+      "first_seen_at": "2026-11-03T18:57:11.857343+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:442c0a9eca51b1818f7ae299",
+      "permalink_id": "article-url-442c0a9eca51b1818f7ae299",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/openai-bigger-bug-bounty-rewards/",
+      "title": "OpenAI raises top bug bounty payout to $172,000 with bonuses",
+      "summary_excerpt": "OpenAI increased its security bug bounties to encourage independent researchers to find vulnerabilities in its software. The program now offers bonuses for high-quality reports. The program encourages researchers to disclose vulnerabilities responsibly and complements OpenAI’s Defense Factory, where engineers use the company’s models to find and reproduce vulnerabilities and test fixes. New bounty payouts and bonuses The midpoints of the reward ranges for medium, high, and critical findings more than quadrupled on average. Critical vulnerabilities … More → The post OpenAI raises top bug bounty",
+      "published_at": "2026-11-03T17:58:59+09:00",
+      "first_seen_at": "2026-11-03T18:24:54.458653+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 53.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d8dadf80a1bf42d8b62edeac",
+      "permalink_id": "article-url-d8dadf80a1bf42d8b62edeac",
+      "canonical_url": "https://www.opal.dev/agentid?_hsenc=p2ANqtz-_Prqx2G7BuOC2wWXOQxVhBPTRMvmtInnjOaizITMn5EuY3aRSB0wUEYLnXN9ybuYEK2fVJ",
+      "title": "Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
+      "summary_excerpt": "Opal Security will host agent.ID, a free virtual event focused on adapting identity and access management (IAM) to AI agents, on November 5, 2026. The event will bring together CISOs and identity leaders from Elastic, Instacart, Notion, Databricks, Knostic and other organizations to discuss how agents can be governed through assigned ownership, defined permissions and accountability. Sessions will examine access reviews for non-human identities, the tradeoffs between standing and just-in-time access, and controls that operate … More → The post Opal’s agent.ID virtual event: Top security leader",
+      "published_at": "2026-11-03T17:55:07+09:00",
+      "first_seen_at": "2026-11-03T18:24:55.076762+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:66b083b3411c53d2383ed031",
+      "permalink_id": "article-url-66b083b3411c53d2383ed031",
+      "canonical_url": "https://www.itpro.com/security/cyber-attacks/a-freezer-should-never-accept-an-instruction-to-heat-to-50-c-no-matter-who-sends-it-more-european-supermarkets-hit-by-suspected-cyber-attack",
+      "title": "More European supermarkets hit by suspected cyber attack",
+      "summary_excerpt": "More than 40 stores have been affected across seven countries as experts warn thousands more internet-exposed systems remain vulnerable",
+      "published_at": "2026-11-03T17:46:29+09:00",
+      "first_seen_at": "2026-11-03T18:38:29.092211+09:00",
+      "source_name": "ITPro Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:77fe036d80c8d24a88bf8ce9",
+      "permalink_id": "article-url-77fe036d80c8d24a88bf8ce9",
+      "canonical_url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/",
+      "title": "CrowdStrike Advances AI Security and Safety from Endpoint to Cloud",
+      "summary_excerpt": null,
+      "published_at": "2026-11-03T17:00:00+09:00",
+      "first_seen_at": "2026-11-03T18:24:52.337488+09:00",
+      "source_name": "CrowdStrike Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4ca467d869e150cd8acb1580",
+      "permalink_id": "article-url-4ca467d869e150cd8acb1580",
+      "canonical_url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/",
+      "title": "CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform",
+      "summary_excerpt": null,
+      "published_at": "2026-11-03T17:00:00+09:00",
+      "first_seen_at": "2026-11-03T18:24:50.942176+09:00",
+      "source_name": "CrowdStrike Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:9c59a38943c4d0ce11a585b6",
       "permalink_id": "article-url-9c59a38943c4d0ce11a585b6",
@@ -122,186 +299,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 55.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a5b17ea944f28d53aaccd6b5",
-      "permalink_id": "article-url-a5b17ea944f28d53aaccd6b5",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/mcphantom-deprecated-mcp-servers/",
-      "title": "AI coding agents are installing MCP servers that will never be patched",
-      "summary_excerpt": "When a developer tells an AI coding agent to “set up a GitHub MCP,” the agent has to pick a package. New research from Glow Labs documents sessions where it picked one out of an archived repository that will never be patched again. Source: Glow Security Reviewing real AI coding session transcripts, Glow Labs found deprecated MCP servers landing on developer machines, a pattern it calls MCPhantom. In 98% of those sessions, the agent appears … More → The post AI coding agents are installing MCP servers that will never be patched appeared first on Help Net Security .",
-      "published_at": "2026-11-03T14:45:53+09:00",
-      "first_seen_at": "2026-11-03T15:23:39.923609+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "mcp",
-          "label": "MCP"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b9ba4e436fc8e927c57d6687",
-      "permalink_id": "article-url-b9ba4e436fc8e927c57d6687",
-      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-      "summary_excerpt": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
-      "published_at": "2026-11-03T14:34:41+09:00",
-      "first_seen_at": "2026-11-03T14:37:48.939754+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [
-        "CVE-2026-58115"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d80473442c7abc7649d7fdd4",
-      "permalink_id": "article-url-d80473442c7abc7649d7fdd4",
-      "canonical_url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-      "summary_excerpt": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
-      "published_at": "2026-11-03T14:34:37+09:00",
-      "first_seen_at": "2026-11-03T14:37:49.112694+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-81648"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 55.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:325de2f97c82251e48387c89",
-      "permalink_id": "article-url-325de2f97c82251e48387c89",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/cybersecurity-jobs-available-right-now-november-3-2026/",
-      "title": "Cybersecurity jobs available right now: November 3, 2026",
-      "summary_excerpt": "Cyber Security Architect Planck Technologies | Portugal | Remote – View job details As a Cyber Security Architect, you will design security architectures for telecommunications networks, platforms, and cloud environments. You will define security frameworks, assess risks, conduct threat modeling, and evaluate security technologies. You will partner with engineering teams to embed security into deployments, maintain architecture documentation, and support customer workshops and technical reviews. You will strengthen governance and contribute to transformation projects involving … More → The pos",
-      "published_at": "2026-11-03T14:00:25+09:00",
-      "first_seen_at": "2026-11-03T14:23:25.951285+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0beef4e9cef2ff0134387ec8",
-      "permalink_id": "article-url-0beef4e9cef2ff0134387ec8",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6601164?source=rss",
-      "title": "大阪市行政システム 情報漏えいか",
-      "summary_excerpt": null,
-      "published_at": "2026-11-03T13:50:05+09:00",
-      "first_seen_at": "2026-11-03T14:23:35.302783+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ee5bbf6202dad163586b662d",
-      "permalink_id": "article-url-ee5bbf6202dad163586b662d",
-      "canonical_url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-      "summary_excerpt": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised systems, including other Internet of Things (IoT) products such as Android-based healthcare devices and karaoke machines.",
-      "published_at": "2026-11-03T11:24:31+09:00",
-      "first_seen_at": "2026-11-03T15:23:48.367922+09:00",
-      "source_name": "KrebsOnSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -507,6 +504,65 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:7ca1e98bdc3bcc1b1380b629",
+      "permalink_id": "article-url-7ca1e98bdc3bcc1b1380b629",
+      "canonical_url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+      "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+      "summary_excerpt": "The botnet was created and operated for financial gain by Android OEM/ODM Videostrong Technology. The post Google Dismantles XCPE Botnet of 1.3 Million Android Devices appeared first on SecurityWeek .",
+      "published_at": "2026-11-03T18:22:09+09:00",
+      "first_seen_at": "2026-11-03T18:57:11.857343+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:66b083b3411c53d2383ed031",
+      "permalink_id": "article-url-66b083b3411c53d2383ed031",
+      "canonical_url": "https://www.itpro.com/security/cyber-attacks/a-freezer-should-never-accept-an-instruction-to-heat-to-50-c-no-matter-who-sends-it-more-european-supermarkets-hit-by-suspected-cyber-attack",
+      "title": "More European supermarkets hit by suspected cyber attack",
+      "summary_excerpt": "More than 40 stores have been affected across seven countries as experts warn thousands more internet-exposed systems remain vulnerable",
+      "published_at": "2026-11-03T17:46:29+09:00",
+      "first_seen_at": "2026-11-03T18:38:29.092211+09:00",
+      "source_name": "ITPro Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:9c59a38943c4d0ce11a585b6",
       "permalink_id": "article-url-9c59a38943c4d0ce11a585b6",
       "canonical_url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
@@ -552,59 +608,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0beef4e9cef2ff0134387ec8",
-      "permalink_id": "article-url-0beef4e9cef2ff0134387ec8",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6601164?source=rss",
-      "title": "大阪市行政システム 情報漏えいか",
-      "summary_excerpt": null,
-      "published_at": "2026-11-03T13:50:05+09:00",
-      "first_seen_at": "2026-11-03T14:23:35.302783+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ee5bbf6202dad163586b662d",
-      "permalink_id": "article-url-ee5bbf6202dad163586b662d",
-      "canonical_url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-      "summary_excerpt": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised systems, including other Internet of Things (IoT) products such as Android-based healthcare devices and karaoke machines.",
-      "published_at": "2026-11-03T11:24:31+09:00",
-      "first_seen_at": "2026-11-03T15:23:48.367922+09:00",
-      "source_name": "KrebsOnSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -961,17 +964,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+    "【LATEST #1】Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
     "【HOTTEST #1 / Heat 75】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "【LATEST #2】ダークウェブ 日本人の情報流出増",
+    "【LATEST #2】OpenAI raises top bug bounty payout to $172,000 with bonuses",
     "【HOTTEST #2 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #3】What human hackers still do better than AI, according to HackerOne’s CEO",
+    "【LATEST #3】Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
     "【HOTTEST #3 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-    "【LATEST #4】Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
+    "【LATEST #4】More European supermarkets hit by suspected cyber attack",
     "【HOTTEST #4 / Heat 67.5】The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "【LATEST #5】AI coding agents are installing MCP servers that will never be patched",
+    "【LATEST #5】CrowdStrike Advances AI Security and Safety from Endpoint to Cloud",
     "【HOTTEST #5 / Heat 67.5】Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)"
   ],
-  "last_published_at": "2026-11-03T18:17:34.001613+09:00",
-  "publication_slot_jst": "2026-11-03T18:00:00+09:00"
+  "last_published_at": "2026-11-03T19:19:47.957132+09:00",
+  "publication_slot_jst": "2026-11-03T19:00:00+09:00"
 }

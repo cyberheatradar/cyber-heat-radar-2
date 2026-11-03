@@ -1,9 +1,70 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-03T08:40:16.326214+00:00",
+  "source_snapshot_generated_at": "2026-11-03T09:40:04.653924+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:08972b745646a97e5a26b47b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Model Context Protocol",
+          "EDINET",
+          "XBRL",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/tracer0tong/articles/774636cd376170",
+        "title": "ClaudeとKabuken MCPで自動車メーカー4社を有報で比べる手順",
+        "author": "Yury Leonychev",
+        "published_at": "2026-11-03T09:36:12.969000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:89739a25e59a9cedbb52d663",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "DX",
+          "Zero Trust",
+          "校務dx",
+          "教育dx"
+        ],
+        "url": "https://zenn.dev/yohei_tech/articles/3c39a8bf748250",
+        "title": "【前編】三層分離の次へ：校務DXのゼロトラスト（強固なアクセス制御）が求められる理由と構成要素の全体像",
+        "author": "Yohei | ITインフラ・DXライター",
+        "published_at": "2026-11-03T09:23:56.028000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8c8103b734930278e0eb2ddd",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "CVE",
+          "php2shell"
+        ],
+        "url": "https://zenn.dev/hoshiorange/articles/37-php2shell-ai-research-trap",
+        "title": "php2shell は悪用済み? CVSS は 10.0? 食い違う4つの論点を一次情報で答え合わせ",
+        "author": "ほし",
+        "published_at": "2026-11-03T09:22:42.357000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8c934036b31ddee6a174e45c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture"
+        ],
+        "url": "https://zenn.dev/zahiraifer/articles/7840e6d32a289c",
+        "title": "One owner for every piece of state: Git per project, one lock",
+        "author": "Zahi Raifer",
+        "published_at": "2026-11-03T09:04:14.916000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:3fb74568aa1ad7af380caa0a",
         "source": "zenn",
@@ -16751,6 +16812,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a2ad211559e5bb00432be83e",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "AmazonBedrock",
+          "生成AI",
+          "Security",
+          "ZeroDataRetention"
+        ],
+        "url": "https://qiita.com/eisuke000000/items/c906e574d2f1ec3e11a5",
+        "title": "データ保持モード？？Bedrockってデータ保存しないんじゃなかったの？",
+        "author": "eisuke000000",
+        "published_at": "2026-11-03T18:30:31+09:00",
+        "excerpt": "新しいモデル出るの早いな・・・ 新しいモデルが出るのはえ〜 AI機能をサービスに組み込むと、その新しいモデルを追いかけて更新していくことになるんですけど、Bedrockで日本国内推論で使えるモデルが常に最新とは限らないとかで最新モデルを追いかけることができなかったりもしますよね。 海外のリージョンで推論するのはどっちでもいいけどデータが海外に保存されるのは困るな〜！なんかモデルによっては良くない使い方すると保存されるとかも書いてあるし、Bedrockってデータ保存しないんじゃなかったの？って気持ちになります。 ということで、この記事のテーマは「Amazon Bedrockのデータ保持」です。 一旦今回の記事のまとめ 先に結論だけ。 「Bedrockはデータを保存しない」は、半分合ってて半分足りない。保存するかどうかは、 アカウントのデータ保持モード × モデル側の条件 で決まる データを残したくないなら、 データ保持モードを none にする。 ただしモデルによっては例外がある。フラグされたものだけ最大30日残るモデルと、全部が最大30日残るモデ"
+      },
+      {
+        "id": "qiita:6ea8a7fb32e4c8d55e7bab2e",
+        "source": "qiita",
+        "author_tags": [
+          "Go",
+          "Security",
+          "ゼロトラスト",
+          "ランサムウェア",
+          "OSS"
+        ],
+        "url": "https://qiita.com/shinkusanagi/items/ce5de4631c03891c3736",
+        "title": "自社で運用するゼロトラストネットワーク「Lantern DSSE」をオープンソースで公開しました",
+        "author": "shinkusanagi",
+        "published_at": "2026-11-03T17:44:58+09:00",
+        "excerpt": "Lantern DSSE は、SSE（Secure Service Edge）を、自社で用意したサーバーの上で動かすためのソフトウェアです。社内アプリへのアクセス（ZTNA）、インターネットへのアクセスの制御（セキュア Web ゲートウェイ）、TLS を復号しての情報漏えい対策（DLP）を、1つの仕組みで扱います。Apache-2.0 で GitHub に公開しています。 この記事では、なぜ作ったのか、全体がどう組み立てられているのか、何ができるのかを紹介します。 いまの版（0.4.0）は experimental（実験的）です。production ready ではありません。インターフェースや既定値は、移行手段なしに変わることがあります。試すときは、壊れても困らないラボの端末で試してください。 なぜ作ったのか ランサムウェアの被害は、大企業だけの問題ではない 警察庁の資料では、令和7年上半期のランサムウェアの被害報告116件のうち、77件が中小企業でした。被害にあった企業・団体へのアンケート（有効回答45件）では、感染経路のうち28件が VP"
+      },
+      {
         "id": "qiita:4d1bfb48cbb1143fc78371e2",
         "source": "qiita",
         "author_tags": [
@@ -24213,6 +24306,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:0a0b9bb245745bcb3e607791",
+        "source": "medium",
+        "author_tags": [
+          "web-development",
+          "cybersecurity",
+          "software-engineering",
+          "php",
+          "vulnerability"
+        ],
+        "url": "https://medium.com/@lakshanchamara0707/beyond-the-noise-deep-dive-into-php2shell-cve-2026-109618-cve-2026-109619-mechanics-impact-736c987a8fb1",
+        "title": "Beyond the Noise: Deep Dive into PHP2Shell (CVE-2026–109618 & CVE-2026–109619): Mechanics, Impact…",
+        "author": "Lakshanchamara",
+        "published_at": "2026-11-03T09:16:32+00:00",
+        "excerpt": "When the PHP project pushed an emergency release on October 21, 2026, it introduced the tech community to PHP2Shell — a pair of critical… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8750ad29f0898681d91b761f",
+        "source": "medium",
+        "author_tags": [
+          "business-cybersecurity",
+          "cybersecurity-startup",
+          "cyber-security-solutions",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@bytepalsolutionsllc/10-cybersecurity-mistakes-small-businesses-should-avoid-14c957d697bd",
+        "title": "10 Cybersecurity Mistakes Small Businesses Should Avoid",
+        "author": "Bytepal Solutions LLC",
+        "published_at": "2026-11-03T09:09:03+00:00",
+        "excerpt": "Cybersecurity has become one of the biggest challenges for businesses of all sizes. From protecting customer information to securing… Continue reading on Medium »"
+      },
       {
         "id": "medium:2201517b08801e130a35d73c",
         "source": "medium",
