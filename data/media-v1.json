@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-03T17:40:03.139830+00:00",
+  "source_snapshot_generated_at": "2026-11-03T20:40:12.939614+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:bd4ca3f166da843e6ffb3d94",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Model Context Protocol",
+          "思考法",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/good_relax/articles/4815a6b7a0914f",
+        "title": "Claudeで万能コンサルを爆誕させてみた",
+        "author": "GoodRelax",
+        "published_at": "2026-11-03T19:58:52.824000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1c88bef35ae0a5489e482ae5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "個人開発",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/noragrammer/articles/claude-2a8c707059",
+        "title": "Claudeで『コードが書けるようになる』の、その先にある話",
+        "author": "noragrammer",
+        "published_at": "2026-11-03T19:00:31.831000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:2813ca2257b63e62570e81be",
         "source": "zenn",
@@ -17386,6 +17417,67 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4ec7f5ceba253a56bbb6ffa3",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Security",
+          "dotenv",
+          "ClaudeCode",
+          "AI"
+        ],
+        "url": "https://qiita.com/supportapp3/items/b68d540ce16defef186c",
+        "title": "python-dotenv の load_dotenv() は親フォルダの .env まで読む：プロジェクトに .env が無くても値が入るのを実機で確認（Node --env-file との違い）",
+        "author": "supportapp3",
+        "published_at": "2026-11-04T05:17:16+09:00",
+        "excerpt": "結論 Python の python-dotenv の load_dotenv() は、引数なしだと スクリプトのあるフォルダから上の階層へ順に .env を探し、最初に見つかった1つを読みます 。 そのため、プロジェクトに .env が無くても、 親フォルダに置いた別の .env の値が os.environ に入りました （2026-11-04、python-dotenv 1.2.4・Python 3.13.5、ダミー値で実機確認）。 Node.js の node --env-file=.env は、指定したパスだけを読み、親フォルダは探しませんでした（Node.js v24.22.1）。 AIエージェントにプロジェクトのフォルダだけを渡しても、そこで動かした Python スクリプトが 上の階層の .env を読む ことがあります。親フォルダに .env が無いかは、下の1行で確かめられます。 この記事は「AIエージェントと秘密情報」の検証シリーズです。新しい検証は X（ @supportapp3_lab ）でもお知らせしています。 試して"
+      },
+      {
+        "id": "qiita:45427151c1d25fd9859b9aef",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "生成AI",
+          "ソフトウェア工学",
+          "Security",
+          "システム設計"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/518642bd2da9a1cd7c7a",
+        "title": "AIが仕事を実行する時代、IT技術者は何を学ぶべきか",
+        "author": "mhamadajp",
+        "published_at": "2026-11-04T05:05:43+09:00",
+        "excerpt": "作業をつなぐ仕事も、AIが担当し始める たとえば、営業の担当者から「来週の顧客訪問に向けて、提案資料を準備してほしい」と頼まれたとします。 これまでの進め方では、担当者自身が顧客情報を探し、過去の商談を読み、売上を集計し、資料にまとめていました。生成AIを使うと、検索、文章、集計用のプログラムは速くなります。それでも、作業のあいだをつなぎ、途中の誤りに気づき、最後に出してよいかを決めるのは、人の仕事でした。 AIエージェントは、この一連の作業をまとめて引き受けようとします。目的を渡すと、必要な情報を探し、道具を使い、結果を確認し、問題があればやり直します。判断が必要なところでは、人に確認します。これまでの生成AIは、質問に答えていました。エージェントは、人が決めた目的に向かって作業を進めます。 2026年4月22日、Google CloudはNext '26で Introducing Gemini Enterprise Agent Platform を発表しました。Vertex AIを発展させ、エージェントを作り、広げ、統制し、改善するための基盤"
+      },
+      {
+        "id": "qiita:7f91d99e9738f172eb8fc4a5",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "ClaudeCode",
+          "Security",
+          "生成AI",
+          "Gemini"
+        ],
+        "url": "https://qiita.com/songchong/items/945479177d4dcbb80f69",
+        "title": "⚪︎⚪︎はしないで！AI エージェントの行動を制限する 5 つの方法を、守られる強さで比べた",
+        "author": "songchong",
+        "published_at": "2026-11-04T04:35:02+09:00",
+        "excerpt": "AI エージェントに「⚪︎⚪︎はしないで」と書けば、その通りにしてくれるのでしょうか。 答えは、🔴 問題: 「しないで」と禁止だけを頼むと、守られないことがありました、です。IT連携マップ編集部は、AI エージェント（Claude Code・Antigravity CLI・Codex のように、パソコンの上でコマンドを実行しながら作業を進める AI）に、鍵（API キーなど、システムに入るための文字列）を使う同じ作業を 51 回頼み、指示ファイル（強度 2）に書いた「鍵の中身を画面に出さない」がどれだけ守られるかを数えました。あわせて、製品の設定や、渡す鍵を絞る方法の効き方も測りました。AI エージェントの行動を制限する 5 つの方法を、守られる強さ（強度）の順に比べた結論は、次の 1 枚のとおりです。 詳しい版（回ごとの内訳・原文の出典）は guide にあります 人間の指示で AI エージェントの行動を制限できるか — 5 つの方法ごとの書き方・理論・実験の結果・考察。この記事は、その要約です。 この記事は、各節の先頭に、図を置きます。図だけ"
+      },
+      {
+        "id": "qiita:6a06e5b9679b9dd2c5d58b4e",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/5d44cc4bd5751e29b138",
+        "title": "2026/11/4主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-04T04:31:04+09:00",
+        "excerpt": "Kaspersky、APTグループ「Lazarus」の新たな攻撃作戦を確認 AI生成の偽履歴書と耐量子暗号を悪用(11/2) https://www.acnnewswire.com/press-release/japanese/111299/kaspersky%E3%80%81apt%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%80%8Clazarus%E3%80%8D%E3%81%AE%E6%96%B0%E3%81%9F%E3%81%AA%E6%94%BB%E6%92%83%E4%BD%9C%E6%88%A6%E3%82%92%E7%A2%BA%E8%AA%8D-ai%E7%94%9F%E6%88%90%E3%81%AE%E5%81%BD%E5%B1%A5%E6%AD%B4%E6%9B%B8%E3%81%A8%E8%80%90%E9%87%8F%E5%AD%90%E6%9A%97%E5%8F%B7%E3%82%92%E6%82%AA%E7%94%A8 一時的に行われるサプライ チェーン改ざんの調査(11/2) "
+      },
+      {
         "id": "qiita:20401c2625cca05349e1055f",
         "source": "qiita",
         "author_tags": [
@@ -24989,6 +25081,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1e54b3a1f82f2b46087eb5f2",
+        "source": "medium",
+        "author_tags": [
+          "audit",
+          "security-audit",
+          "security",
+          "cybersecurity",
+          "discord"
+        ],
+        "url": "https://medium.com/zero-trust-security/about-zero-trust-security-ac844ae91051",
+        "title": "Who We Are: Zero Trust Security",
+        "author": "Zero Trust Security",
+        "published_at": "2026-11-03T20:20:19+00:00",
+        "excerpt": "Security audits and consulting for Web3/Web2 teams, before attackers find the gaps first. Continue reading on Zero Trust Security »"
+      },
+      {
+        "id": "medium:50ff0db828520905c574b3a4",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "bug-bounty-tips",
+          "cybersecurity",
+          "software-development",
+          "bug-bounty"
+        ],
+        "url": "https://s5treak.medium.com/how-a-single-leaked-client-secret-exposed-a-private-github-repo-11e755be2d07",
+        "title": "How a Single Leaked Client Secret Exposed a Private GitHub Repo",
+        "author": "Prosper Kalu",
+        "published_at": "2026-11-03T20:14:13+00:00",
+        "excerpt": "From a hardcoded credential in a JavaScript bundle to full admin access: A case study in exploit chaining. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d7ceff4fbc452580bc3daf11",
+        "source": "medium",
+        "author_tags": [
+          "active-directory",
+          "cybersecurity",
+          "information-security",
+          "identity-management",
+          "zero-trust"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/itdr-explained-detecting-attackers-who-sign-in-with-valid-credentials-c70601bc3765",
+        "title": "ITDR Explained: Detecting Attackers Who Sign In With Valid Credentials",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-03T20:01:02+00:00",
+        "excerpt": "An attacker who holds a system administrator’s password does not need to break through any wall; they simply sign in. To the firewall, the… Continue reading on Medium »"
+      },
       {
         "id": "medium:1c5475541ab1f2b2fae984a3",
         "source": "medium",

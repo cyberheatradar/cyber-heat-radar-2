@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T18:13:03.027231+00:00",
-  "as_of": "2026-11-03T18:00:00+00:00",
-  "catalog_count": 21616,
+  "generated_at": "2026-11-03T21:12:54.570728+00:00",
+  "as_of": "2026-11-03T21:00:00+00:00",
+  "catalog_count": 21623,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,145 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:1ad3ad4143cb6c9449e9f0a8",
+      "permalink_id": "article-url-1ad3ad4143cb6c9449e9f0a8",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+      "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+      "summary_excerpt": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets. [...]",
+      "published_at": "2026-11-04T05:05:50+09:00",
+      "first_seen_at": "2026-11-04T05:25:59.328237+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:4d0f5166ccb54270eb5047b2",
+      "permalink_id": "article-url-4d0f5166ccb54270eb5047b2",
+      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2611/04/2000002812/",
+      "title": "不正アクセス相談が37％→57％に　攻撃者から自社のシステムはどう見えているか",
+      "summary_excerpt": "不正アクセス被害が相次ぐ中、自社が管理しているシステムを点検するだけでは、攻撃の入り口を見落とす恐れがある。企業には、資産の可視化から継続的な監視までを一体で考える姿勢が求められている。",
+      "published_at": "2026-11-04T05:00:00+09:00",
+      "first_seen_at": "2026-11-04T05:26:23.780972+09:00",
+      "source_name": "TechTarget Japan Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0a545d76244e09bbd3d524da",
+      "permalink_id": "article-url-0a545d76244e09bbd3d524da",
+      "canonical_url": "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+      "title": "Google dismantles massive botnet hidden in Android TV boxes",
+      "summary_excerpt": "The overwhelming majority of the infected devices in the X.CPE botnet are Android TV set-top boxes, Google said, adding that they observed a number of other infected Android-based IoT devices, including telehealth devices, karaoke machines and digital signage devices.",
+      "published_at": "2026-11-04T04:48:00+09:00",
+      "first_seen_at": "2026-11-04T05:26:24.667670+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:5e7187afa2ffb43ba4916b58",
+      "permalink_id": "article-url-5e7187afa2ffb43ba4916b58",
+      "canonical_url": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
+      "title": "AI policy wonks declare 'sovereign agents' a threat to civilization",
+      "summary_excerpt": "These are AI agents that operate outside of human control and 'pursue open-ended, evolving survival'",
+      "published_at": "2026-11-04T04:33:01+09:00",
+      "first_seen_at": "2026-11-04T05:57:28.676192+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:49acf98068f7a42dd82c734d",
+      "permalink_id": "article-url-49acf98068f7a42dd82c734d",
+      "canonical_url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "summary_excerpt": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. \"An external attacker gained unauthorized access to part of",
+      "published_at": "2026-11-04T03:16:19+09:00",
+      "first_seen_at": "2026-11-04T04:29:30.771334+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:c58a6048682adf6daa10e24d",
       "permalink_id": "article-url-c58a6048682adf6daa10e24d",
@@ -150,145 +289,6 @@
       "seen_in_kev": false,
       "heat_score": 45.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c5631e1fe7c280d41ea0570b",
-      "permalink_id": "article-url-c5631e1fe7c280d41ea0570b",
-      "canonical_url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-      "summary_excerpt": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
-      "published_at": "2026-11-04T00:41:53+09:00",
-      "first_seen_at": "2026-11-04T01:38:03.240142+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0c9344df3ef5829661557f55",
-      "permalink_id": "article-url-0c9344df3ef5829661557f55",
-      "canonical_url": "https://www.cybersecuritydive.com/news/cisa-2015-reauthorization-congress-ndaa-letter-businesses/873591/",
-      "title": "AI threats create ‘urgent’ need to renew cybersecurity information-sharing law, businesses tell Congress",
-      "summary_excerpt": "Leading infrastructure-operator associations want lawmakers to renew the program for another 10 years.",
-      "published_at": "2026-11-04T00:24:26+09:00",
-      "first_seen_at": "2026-11-04T01:28:46.746834+09:00",
-      "source_name": "Cybersecurity Dive",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c3e615c4c5d6d791ca5ef672",
-      "permalink_id": "article-url-c3e615c4c5d6d791ca5ef672",
-      "canonical_url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-      "summary_excerpt": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data. cPGuard 5.88.25 and later versions",
-      "published_at": "2026-11-04T00:16:32+09:00",
-      "first_seen_at": "2026-11-04T01:38:08.384859+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7a78f5e71c17f1854b67794b",
-      "permalink_id": "article-url-7a78f5e71c17f1854b67794b",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-      "title": "Barracuda warns of critical flaws allowing root access to devices",
-      "summary_excerpt": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-      "published_at": "2026-11-04T00:06:16+09:00",
-      "first_seen_at": "2026-11-04T00:26:14.039091+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:62fa8bb7d9a18733fb9ddbdd",
-      "permalink_id": "article-url-62fa8bb7d9a18733fb9ddbdd",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6601234?source=rss",
-      "title": "アソビュー 1500万件超の情報流出",
-      "summary_excerpt": null,
-      "published_at": "2026-11-03T23:59:10+09:00",
-      "first_seen_at": "2026-11-04T00:54:09.710892+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -328,7 +328,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -424,6 +424,59 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:4d0f5166ccb54270eb5047b2",
+      "permalink_id": "article-url-4d0f5166ccb54270eb5047b2",
+      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2611/04/2000002812/",
+      "title": "不正アクセス相談が37％→57％に　攻撃者から自社のシステムはどう見えているか",
+      "summary_excerpt": "不正アクセス被害が相次ぐ中、自社が管理しているシステムを点検するだけでは、攻撃の入り口を見落とす恐れがある。企業には、資産の可視化から継続的な監視までを一体で考える姿勢が求められている。",
+      "published_at": "2026-11-04T05:00:00+09:00",
+      "first_seen_at": "2026-11-04T05:26:23.780972+09:00",
+      "source_name": "TechTarget Japan Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0a545d76244e09bbd3d524da",
+      "permalink_id": "article-url-0a545d76244e09bbd3d524da",
+      "canonical_url": "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+      "title": "Google dismantles massive botnet hidden in Android TV boxes",
+      "summary_excerpt": "The overwhelming majority of the infected devices in the X.CPE botnet are Android TV set-top boxes, Google said, adding that they observed a number of other infected Android-based IoT devices, including telehealth devices, karaoke machines and digital signage devices.",
+      "published_at": "2026-11-04T04:48:00+09:00",
+      "first_seen_at": "2026-11-04T05:26:24.667670+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:c58a6048682adf6daa10e24d",
       "permalink_id": "article-url-c58a6048682adf6daa10e24d",
       "canonical_url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
@@ -505,7 +558,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -532,20 +585,22 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "rising": [
     {
-      "public_article_id": "url:41a04d52dead81f5d660a2c2",
-      "permalink_id": "article-url-41a04d52dead81f5d660a2c2",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/btcpay-server-flaw-cryptocurrency/",
-      "title": "Hackers Exploit BTCPay Server Flaw to Steal Cryptocurrency",
-      "summary_excerpt": "Attackers drained hot wallets on outdated BTCPay Server instances, with $1.63m traced so far",
-      "published_at": "2026-11-03T23:30:00+09:00",
-      "first_seen_at": "2026-11-04T00:26:34.959149+09:00",
-      "source_name": "Infosecurity Magazine",
+      "public_article_id": "url:3ac833fb839c0b3442160cf4",
+      "permalink_id": "article-url-3ac833fb839c0b3442160cf4",
+      "canonical_url": "https://blog.qualys.com/category/vulnerabilities-threat-research",
+      "title": "Two Critical PHP Flaws Could Hand Attackers Your Web Servers. Here’s How to Find, Mitigate, and Patch PHP2Shell Now",
+      "summary_excerpt": "Executive Summary PHP2Shell refers to two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619), each with a CVSS v4.0 score of 9.2, that can allow unauthenticated remote code execution on PHP installations serving web requests. Researchers have also demonstrated unauthenticated disclosure of PHP worker memory, which can expose passwords, authentication tokens, and API keys. Cloudflare has already reported […]",
+      "published_at": "2026-09-16T23:15:08+09:00",
+      "first_seen_at": "2026-09-21T17:54:31.589589+09:00",
+      "source_name": "Qualys Blog",
       "source_class": "topic_rss",
-      "security_relevance": "primary",
+      "security_relevance": "material",
       "ai_relevance": "none",
       "document_form": "single_story",
       "primary_category": "vulnerability",
@@ -554,48 +609,23 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c0b4539fdaaed851c6d1a5f4",
-      "permalink_id": "article-url-c0b4539fdaaed851c6d1a5f4",
-      "canonical_url": "https://www.malwarebytes.com/blog/mobile/2026/11/a-hidden-backdoor-put-1-3-million-tv-boxes-to-work-for-criminals",
-      "title": "A hidden backdoor put 1.3 million TV boxes to work for criminals",
-      "summary_excerpt": "Videostrong planted a backdoor in more than 1.3 million Android set-top boxes and sold criminals access to the resulting botnet.",
-      "published_at": "2026-11-03T23:11:25+09:00",
-      "first_seen_at": "2026-11-04T00:26:44.753839+09:00",
-      "source_name": "Malwarebytes Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
         },
         {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
         }
       ],
-      "cves": [],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 1.1,
       "published_at_future_suppressed": false
     }
   ],
-  "rising": [],
   "persistent_hot": [
     {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
@@ -953,17 +983,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Google dismantles botnet secretly running on 1.3 million Android TV boxes",
-    "【HOTTEST #1 / Heat 75】Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
-    "【LATEST #2】Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+    "【LATEST #1】Binance says fake job interview led to $6.3 billion crypto heist",
+    "【HOTTEST #1 / Heat 67.5】Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
+    "【LATEST #2】不正アクセス相談が37％→57％に　攻撃者から自社のシステムはどう見えているか",
     "【HOTTEST #2 / Heat 67.5】Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "【LATEST #3】Password manager mSecure tells users to change passwords, won't say why",
+    "【LATEST #3】Google dismantles massive botnet hidden in Android TV boxes",
     "【HOTTEST #3 / Heat 67.5】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "【LATEST #4】Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+    "【LATEST #4】AI policy wonks declare 'sovereign agents' a threat to civilization",
     "【HOTTEST #4 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #5】CrowdStrike moves to acquire Fiddler and Dreadnode, adding AI observability and testing to its security platform",
-    "【HOTTEST #5 / Heat 65】Google dismantles botnet secretly running on 1.3 million Android TV boxes"
+    "【LATEST #5】Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+    "【HOTTEST #5 / Heat 65】不正アクセス相談が37％→57％に　攻撃者から自社のシステムはどう見えているか"
   ],
-  "last_published_at": "2026-11-04T03:17:20.451231+09:00",
-  "publication_slot_jst": "2026-11-04T03:00:00+09:00"
+  "last_published_at": "2026-11-04T06:17:00.598437+09:00",
+  "publication_slot_jst": "2026-11-04T06:00:00+09:00"
 }
