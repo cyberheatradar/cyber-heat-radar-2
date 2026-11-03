@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T17:13:12.598510+00:00",
-  "as_of": "2026-11-03T17:00:00+00:00",
-  "catalog_count": 21610,
+  "generated_at": "2026-11-03T18:13:03.027231+00:00",
+  "as_of": "2026-11-03T18:00:00+00:00",
+  "catalog_count": 21616,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,65 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:c58a6048682adf6daa10e24d",
+      "permalink_id": "article-url-c58a6048682adf6daa10e24d",
+      "canonical_url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
+      "title": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
+      "summary_excerpt": "Google has cut ties with the company behind the botnet campaign.",
+      "published_at": "2026-11-04T02:08:21+09:00",
+      "first_seen_at": "2026-11-04T02:38:26.752668+09:00",
+      "source_name": "Ars Technica Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:62e23c789fbfd2f85d19b5cd",
+      "permalink_id": "article-url-62e23c789fbfd2f85d19b5cd",
+      "canonical_url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "summary_excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\"",
+      "published_at": "2026-11-04T01:55:58+09:00",
+      "first_seen_at": "2026-11-04T02:25:09.370440+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:98e6f5a165e77dfcb8d7534e",
       "permalink_id": "article-url-98e6f5a165e77dfcb8d7534e",
@@ -29,6 +88,35 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:5350cf64f29cdc8ac80e555f",
+      "permalink_id": "article-url-5350cf64f29cdc8ac80e555f",
+      "canonical_url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "summary_excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
+      "published_at": "2026-11-04T00:59:19+09:00",
+      "first_seen_at": "2026-11-04T02:25:11.568833+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-116606"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 55.0,
       "published_at_future_suppressed": false
     },
     {
@@ -201,92 +289,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f01d9b63500da3f827d3274b",
-      "permalink_id": "article-url-f01d9b63500da3f827d3274b",
-      "canonical_url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-      "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
-      "summary_excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek .",
-      "published_at": "2026-11-03T23:32:38+09:00",
-      "first_seen_at": "2026-11-03T23:52:45.633582+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "incident",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:41a04d52dead81f5d660a2c2",
-      "permalink_id": "article-url-41a04d52dead81f5d660a2c2",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/btcpay-server-flaw-cryptocurrency/",
-      "title": "Hackers Exploit BTCPay Server Flaw to Steal Cryptocurrency",
-      "summary_excerpt": "Attackers drained hot wallets on outdated BTCPay Server instances, with $1.63m traced so far",
-      "published_at": "2026-11-03T23:30:00+09:00",
-      "first_seen_at": "2026-11-04T00:26:34.959149+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a0803a2b5f2de01fe3ab9abe",
-      "permalink_id": "article-url-a0803a2b5f2de01fe3ab9abe",
-      "canonical_url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
-      "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
-      "summary_excerpt": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform. The post CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode appeared first on SecurityWeek .",
-      "published_at": "2026-11-03T23:12:44+09:00",
-      "first_seen_at": "2026-11-03T23:25:09.848033+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -355,7 +357,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -419,6 +421,38 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c58a6048682adf6daa10e24d",
+      "permalink_id": "article-url-c58a6048682adf6daa10e24d",
+      "canonical_url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
+      "title": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
+      "summary_excerpt": "Google has cut ties with the company behind the botnet campaign.",
+      "published_at": "2026-11-04T02:08:21+09:00",
+      "first_seen_at": "2026-11-04T02:38:26.752668+09:00",
+      "source_name": "Ars Technica Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -552,38 +586,6 @@
           "color_family": "red",
           "key": "malware",
           "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e581154108f523de51d2d0ab",
-      "permalink_id": "article-url-e581154108f523de51d2d0ab",
-      "canonical_url": "https://blog.cloudflare.com/zero-wire/",
-      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
-      "summary_excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
-      "published_at": "2026-11-03T23:00:00+09:00",
-      "first_seen_at": "2026-11-03T23:24:17.133356+09:00",
-      "source_name": "Cloudflare Blog Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
         }
       ],
       "cves": [],
@@ -951,17 +953,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Password manager mSecure tells users to change passwords, won't say why",
+    "【LATEST #1】Google dismantles botnet secretly running on 1.3 million Android TV boxes",
     "【HOTTEST #1 / Heat 75】Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
-    "【LATEST #2】CrowdStrike moves to acquire Fiddler and Dreadnode, adding AI observability and testing to its security platform",
-    "【HOTTEST #2 / Heat 75】Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "【LATEST #3】Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+    "【LATEST #2】Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+    "【HOTTEST #2 / Heat 67.5】Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+    "【LATEST #3】Password manager mSecure tells users to change passwords, won't say why",
     "【HOTTEST #3 / Heat 67.5】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "【LATEST #4】AI threats create ‘urgent’ need to renew cybersecurity information-sharing law, businesses tell Congress",
+    "【LATEST #4】Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
     "【HOTTEST #4 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #5】cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-    "【HOTTEST #5 / Heat 65】cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes"
+    "【LATEST #5】CrowdStrike moves to acquire Fiddler and Dreadnode, adding AI observability and testing to its security platform",
+    "【HOTTEST #5 / Heat 65】Google dismantles botnet secretly running on 1.3 million Android TV boxes"
   ],
-  "last_published_at": "2026-11-04T02:17:13.883787+09:00",
-  "publication_slot_jst": "2026-11-04T02:00:00+09:00"
+  "last_published_at": "2026-11-04T03:17:20.451231+09:00",
+  "publication_slot_jst": "2026-11-04T03:00:00+09:00"
 }
