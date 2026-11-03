@@ -1,9 +1,69 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-03T11:40:06.428450+00:00",
+  "source_snapshot_generated_at": "2026-11-03T12:40:09.552889+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:43d6f5bc10c225a215af4ae5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "tmux",
+          "automation",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/gear_aiteam/articles/claude-code-quota-auto-resume",
+        "title": "Claude Codeが利用上限で止まっても、解除された瞬間に続きを頼む見張り役",
+        "author": "ギア",
+        "published_at": "2026-11-03T12:12:01.465000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4888e03bbca996b4d4c9107b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "プログラミング"
+        ],
+        "url": "https://zenn.dev/ryuyanishino/articles/d92dcefe1ac746e08f68b06bdbe8af9f",
+        "title": "AIの作業が迷走したとき、止める・戻す・やり直すを使い分ける：Esc・/rewind・/clearと、戻せない範囲",
+        "author": "Ryuya Nishino",
+        "published_at": "2026-11-03T11:48:43.500000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3fe6b6304aa41fe67483b2b6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "coding",
+          "llm",
+          "Ollama"
+        ],
+        "url": "https://zenn.dev/tkpurine/articles/local-llm-study-008-qwen3-8-27b-deep-dive",
+        "title": "ローカルLLM study8: Qwen3.8-27Bをstudy2〜4の手法で深掘りする",
+        "author": "プリン",
+        "published_at": "2026-11-03T11:46:04.274000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b4707c037fbe5fbd11fe17bf",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Arch Linux",
+          "privacy",
+          "ClamAV"
+        ],
+        "url": "https://zenn.dev/pve_echo/articles/20261103_archlinux-clamav-clamui-local-security",
+        "title": "Arch LinuxにおけるClamAVとClamUIによる完全ローカルウイルススキャン環境の構築",
+        "author": "PVE-Echo",
+        "published_at": "2026-11-03T11:41:24.663000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ff253db1eea40939757c3aba",
         "source": "zenn",
@@ -17036,6 +17096,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:efaf432f16b18bfe2d92e892",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "サーバー",
+          "Security"
+        ],
+        "url": "https://qiita.com/cruel_summer/items/a2813e7a81418c33c225",
+        "title": "PHPの脆弱性対策でてんわやんわ",
+        "author": "cruel_summer",
+        "published_at": "2026-11-03T21:20:16+09:00",
+        "excerpt": "一つのプログラム言語の存在がこれだけ社会を賑わすのは異例中の異例の出来事かもしれない。 2026年10月下旬、かなり重要度の高い脆弱性があると公表されてPHPが大きくクローズアップされた。 脆弱性の詳細公開をめぐる攻撃側と防御側 この脆弱性の発覚していることを受けて、IPAは二段階の発表に踏み切る。 まずは脆弱性が存在していることを、続いて日時を指定して発覚した脆弱性の詳細を公表することに決めた。 これが二段階ではなく、突発的に脆弱性詳細を公表したとしたら大惨事になっていただろう。 Webアプリケーション開発に関わる全ての人に詳細が届く前に攻撃者がそれを知ってしまったら。 脆弱性の詳細を知らせるということは、見方を変えれば弱点を教えていることにもなる。二段階で発表する形式をとったのは悪くない判断だった。 しかし公表日時をあらかじめ指定したことで、攻撃者も同時にその内容を知れてしまう。 既存システムの脆弱性を修正する速度と、脆弱性を突く攻撃の構築速度のどちらが速いか。システム自体の複雑さにもよるのだが、あらゆる影響範囲を踏まえて修正するよりも、攻撃"
+      },
+      {
+        "id": "qiita:7b2e616ac36dbdc22b0be189",
+        "source": "qiita",
+        "author_tags": [
+          "Claude",
+          "ClaudeCode",
+          "Security",
+          "生成AI",
+          "LLM"
+        ],
+        "url": "https://qiita.com/kakushigoto/items/aa6838b9696d03b5aaf5",
+        "title": "2026 年 10 月 30 日、Claude Code に作業フォルダの外への書き込みを止める公式の設定が入りました",
+        "author": "kakushigoto",
+        "published_at": "2026-11-03T20:56:26+09:00",
+        "excerpt": "🤖 AI が試して書きました。ネタは人が選び、検証と執筆は Claude Code が行いました。確認を外したモードでの試行は人の承認を得て回し、人は公開前の確認もしています。数字は実際に回した結果です。 2026 年 10 月 30 日に出た Claude Code v2.1.314 で、 permissions.blockWritesOutsideWorkingDirectories という設定が入りました 1 。Claude が作業フォルダの外のファイルを書き換えないよう、公式に止められる設定です。 CHANGELOG では 1 行の扱いなので、気づいていない人も多いと思います。この記事では、どんな設定か、本当に効くか、自分で試すには、とりあえず入れておいて問題ないか、の 4 つを順に書きます。Windows 11 の Claude Code（既定のモデル、Opus 5.5）で、設定のあり・なしを 50 回試した結果も添えます。 先に結論 settings.json の permissions に 1 行足すだけです。 CLAUDE.md "
+      },
+      {
         "id": "qiita:ce7daee02477a6934e93507b",
         "source": "qiita",
         "author_tags": [
@@ -24562,6 +24652,83 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:2c948dff29fdccff032c8fec",
+        "source": "medium",
+        "author_tags": [
+          "gaming",
+          "cybersecurity",
+          "threat-detection",
+          "automation-security",
+          "soc"
+        ],
+        "url": "https://medium.com/@serhaneraslan/press-attack-close-alert-repeat-8206d839622d",
+        "title": "Press Attack. Close Alert. Repeat.",
+        "author": "Serhan Eraslan",
+        "published_at": "2026-11-03T12:27:24+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:44f054fe35f95ed2d9285f35",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "cybersecurity",
+          "saüsiber",
+          "ssrf"
+        ],
+        "url": "https://medium.com/@sausiber/ssrf101-sunucu-tarafl%C4%B1-i%CC%87stek-sahtecili%C4%9Fi-nedir-ve-nas%C4%B1l-i%CC%87stismar-edilir-5592bd20d2e5",
+        "title": "SSRF101: Sunucu Taraflı İstek Sahteciliği Nedir ve Nasıl İstismar Edilir?",
+        "author": "Sakarya Üniversitesi Siber Güvenlik Topluluğu",
+        "published_at": "2026-11-03T12:16:22+00:00",
+        "excerpt": "Hazırlayan: Zülal Ateşalp — Düzenleyen: Zeynep Didem Taşpınar Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3523edc6ae7df978779a47e8",
+        "source": "medium",
+        "author_tags": [
+          "binance",
+          "cyberattack",
+          "cybersecurity",
+          "cryptocurrency",
+          "cybercrime"
+        ],
+        "url": "https://medium.com/@gustavopaganinig43/cyber-intelligence-insights-into-the-tradertraitor-binance-hot-wallet-exploit-e986aad9c474",
+        "title": "Cyber Intelligence Insights into the TraderTraitor Binance Hot Wallet Exploit",
+        "author": "GustavoPaganini",
+        "published_at": "2026-11-03T12:08:22+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ee7e1bf9de4f4e897918ef01",
+        "source": "medium",
+        "author_tags": [
+          "cisco",
+          "cybersecurity",
+          "network-security"
+        ],
+        "url": "https://medium.com/@affixcenter/not-every-zero-day-steals-data-what-the-cisco-vpn-reload-flaw-teaches-about-availability-42ad1c43986e",
+        "title": "Not Every Zero-Day Steals Data: What the Cisco VPN Reload Flaw Teaches About Availability",
+        "author": "Affixcenter",
+        "published_at": "2026-11-03T12:07:50+00:00",
+        "excerpt": "Security teams often rank flaws by one question: can the attacker get in? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:df5d0ee609d523899ad116e3",
+        "source": "medium",
+        "author_tags": [
+          "logo-design",
+          "cybersecurity",
+          "brand-identity",
+          "branding",
+          "security"
+        ],
+        "url": "https://medium.com/@bakibillahgd/cyberhex-building-a-strong-visual-identity-for-cybersecurity-653806976d11",
+        "title": "Cyberhex — Building a Strong Visual Identity for Cybersecurity",
+        "author": "Md Bakibillah",
+        "published_at": "2026-11-03T12:06:42+00:00",
+        "excerpt": "Cybersecurity is built around trust, protection, and reliability. These principles shaped the visual direction of Cyberhex, a modern brand… Continue reading on Medium »"
+      },
       {
         "id": "medium:4ffb7feb4c4a56ce2c1bec72",
         "source": "medium",
