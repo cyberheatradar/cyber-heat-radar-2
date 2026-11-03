@@ -1,9 +1,70 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-03T07:40:04.831528+00:00",
+  "source_snapshot_generated_at": "2026-11-03T08:40:16.326214+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3fb74568aa1ad7af380caa0a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "個人開発",
+          "コードレビュー",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/tofu575/articles/579a92f0e35126",
+        "title": "人間とAIの間にPRを置いて、コードレビューしてみた",
+        "author": "tofu",
+        "published_at": "2026-11-03T08:38:41.295000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:45b31b62825a96a99ec3e688",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "EC",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ec_jidoka_kobo/articles/9d7a136777556e",
+        "title": "ショップ作成サービスのAI説明文に、入力にない言葉が。公開前に見る3か所",
+        "author": "EC自動化工房",
+        "published_at": "2026-11-03T08:36:01.976000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c6b832d76a28d86c4b6067d1",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "WordPress",
+          "初心者",
+          "Security"
+        ],
+        "url": "https://zenn.dev/idea_mart/articles/457419ca1ae96b",
+        "title": "PHPの脆弱性ニュースを見たら：WordPressのサイトで慌てずに確かめる順番",
+        "author": "アイデアマート",
+        "published_at": "2026-11-03T08:15:42.041000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2f449e30d22e301672c15964",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub",
+          "GitHub Actions",
+          "Security",
+          "Dependabot"
+        ],
+        "url": "https://zenn.dev/shebang/articles/github-actions-workflow-lockfile",
+        "title": "GitHub Actions の依存関係を gh actions-lock で固定する",
+        "author": "Yamahar",
+        "published_at": "2026-11-03T07:52:24.821000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:97d18af123f174d39ba5eb07",
         "source": "zenn",
@@ -16690,6 +16751,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4d1bfb48cbb1143fc78371e2",
+        "source": "qiita",
+        "author_tags": [
+          "LLM",
+          "Security",
+          "生成AI",
+          "Python",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/shalXXXX/items/5920c6ba75c2f1203f1b",
+        "title": "防御側の LLM 活用：ログ分析・アラート一次対応・脅威インテリジェンスで「ログを入力として疑う」設計",
+        "author": "shalXXXX",
+        "published_at": "2026-11-03T17:00:25+09:00",
+        "excerpt": "SOC（セキュリティ監視の現場）でも、LLM にログを要約させる、アラートの一次判定をさせる、脅威レポートから IoC（侵害の痕跡となる IP アドレスやドメイン）を抜き出させる、といった使い方が広がっています。件数の多い作業を減らせる一方で、防御側の LLM には特有の弱点があります。 読ませるログの中身を、攻撃者が書ける ことです。 この記事では、防御側で LLM を使う 3 つの場面について、公開研究で分かっている弱点と、モデルの出力を元データと機械的に突き合わせる実装例を示します。 検証環境と前提 Python 3.13.18、標準ライブラリのみ（クラウド上の Linux コンテナ） LLM は呼び出していません。モデルの出力は「指示文に従ってしまった場合」と「正しく答えた場合」の 2 通りを固定値で与えて、検証側のコードの動きを確かめています ログと IoC は自作のもので、IP アドレスとドメインは文書用の範囲（198.51.100.0/24、203.0.113.0/24、example.net）を使っています 防御側の LLM が受"
+      },
+      {
         "id": "qiita:4d95a962d27e2eadd36a9138",
         "source": "qiita",
         "author_tags": [
@@ -24136,6 +24213,21 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:2201517b08801e130a35d73c",
+        "source": "medium",
+        "author_tags": [
+          "cyberattack",
+          "cyber-security-awareness",
+          "cybersecurity",
+          "cybercrime"
+        ],
+        "url": "https://medium.com/@digitaldefense/your-soc-has-security-tools-but-do-they-actually-work-6734b12704be",
+        "title": "Your SOC Has Security Tools. But Do They Actually Work?",
+        "author": "Digital Defense",
+        "published_at": "2026-11-03T08:16:10+00:00",
+        "excerpt": "Organizations invest in firewalls, endpoint detection and response (EDR), security information and event management (SIEM), email security… Continue reading on Medium »"
+      },
       {
         "id": "medium:17dbb53b65ebdbdc2fa9f799",
         "source": "medium",

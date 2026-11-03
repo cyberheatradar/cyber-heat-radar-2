@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T08:15:56.243437+00:00",
-  "as_of": "2026-11-03T08:00:00+00:00",
-  "catalog_count": 21569,
+  "generated_at": "2026-11-03T09:13:56.181838+00:00",
+  "as_of": "2026-11-03T09:00:00+00:00",
+  "catalog_count": 21570,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,33 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:9c59a38943c4d0ce11a585b6",
+      "permalink_id": "article-url-9c59a38943c4d0ce11a585b6",
+      "canonical_url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "summary_excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+      "published_at": "2026-11-03T16:43:07+09:00",
+      "first_seen_at": "2026-11-03T17:24:28.700042+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:8dc653a692a04c411b69fa09",
       "permalink_id": "article-url-8dc653a692a04c411b69fa09",
@@ -274,34 +301,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:384a558dfb89f692a7588135",
-      "permalink_id": "article-url-384a558dfb89f692a7588135",
-      "canonical_url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
-      "title": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
-      "summary_excerpt": "\"[V]ulnerabilities that have been tolerated for far too long can now be discovered and exploited at a scale that was once unimaginable,\" the NCSC's chief will warn in releasing the agency's annual report.",
-      "published_at": "2026-11-03T09:01:00+09:00",
-      "first_seen_at": "2026-11-03T09:25:52.121654+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -475,35 +475,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:8f34958c7751a326f9eca8e8",
-      "permalink_id": "article-url-8f34958c7751a326f9eca8e8",
-      "canonical_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
-      "title": "Linux kernel RCE CVE-2026-98432",
-      "summary_excerpt": "CVSSv3 Score: 9.8 CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process a retransmitted SYN for the same request socket, and send a SYNACK from tcp_check_req(). tcp_v4_send_synack() and inet_csk_route_req() read ireq->ireq_opt under rcu_read_lock() only, and ip_build_and_send_pkt() and ip_options_build() then read opt->optlen twice. Note that the SYNACK timer itself is not an issue: it holds a reference on its request ",
-      "published_at": "2026-11-02T17:00:00+09:00",
-      "first_seen_at": "2026-11-03T07:55:46.851545+09:00",
-      "source_name": "Fortinet PSIRT Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-98432"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:22e46b2acc24848b4bb0bd16",
       "permalink_id": "article-url-22e46b2acc24848b4bb0bd16",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/ai-powered-infostealer-volta-victim-profiling/",
@@ -533,6 +504,33 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:9c59a38943c4d0ce11a585b6",
+      "permalink_id": "article-url-9c59a38943c4d0ce11a585b6",
+      "canonical_url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "summary_excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+      "published_at": "2026-11-03T16:43:07+09:00",
+      "first_seen_at": "2026-11-03T17:24:28.700042+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -606,7 +604,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -963,17 +961,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】ダークウェブ 日本人の情報流出増",
+    "【LATEST #1】Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
     "【HOTTEST #1 / Heat 75】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "【LATEST #2】What human hackers still do better than AI, according to HackerOne’s CEO",
+    "【LATEST #2】ダークウェブ 日本人の情報流出増",
     "【HOTTEST #2 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #3】Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
+    "【LATEST #3】What human hackers still do better than AI, according to HackerOne’s CEO",
     "【HOTTEST #3 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-    "【LATEST #4】AI coding agents are installing MCP servers that will never be patched",
+    "【LATEST #4】Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
     "【HOTTEST #4 / Heat 67.5】The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "【LATEST #5】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+    "【LATEST #5】AI coding agents are installing MCP servers that will never be patched",
     "【HOTTEST #5 / Heat 67.5】Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)"
   ],
-  "last_published_at": "2026-11-03T17:20:26.840537+09:00",
-  "publication_slot_jst": "2026-11-03T17:00:00+09:00"
+  "last_published_at": "2026-11-03T18:17:34.001613+09:00",
+  "publication_slot_jst": "2026-11-03T18:00:00+09:00"
 }
