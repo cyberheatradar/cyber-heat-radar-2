@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T05:15:13.920953+00:00",
-  "as_of": "2026-11-03T05:00:00+00:00",
-  "catalog_count": 21560,
+  "generated_at": "2026-11-03T06:16:18.894621+00:00",
+  "as_of": "2026-11-03T06:00:00+00:00",
+  "catalog_count": 21564,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,117 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:b9ba4e436fc8e927c57d6687",
+      "permalink_id": "article-url-b9ba4e436fc8e927c57d6687",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "summary_excerpt": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
+      "published_at": "2026-11-03T14:34:41+09:00",
+      "first_seen_at": "2026-11-03T14:37:48.939754+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [
+        "CVE-2026-58115"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:d80473442c7abc7649d7fdd4",
+      "permalink_id": "article-url-d80473442c7abc7649d7fdd4",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+      "summary_excerpt": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
+      "published_at": "2026-11-03T14:34:37+09:00",
+      "first_seen_at": "2026-11-03T14:37:49.112694+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-81648"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 55.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:325de2f97c82251e48387c89",
+      "permalink_id": "article-url-325de2f97c82251e48387c89",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/cybersecurity-jobs-available-right-now-november-3-2026/",
+      "title": "Cybersecurity jobs available right now: November 3, 2026",
+      "summary_excerpt": "Cyber Security Architect Planck Technologies | Portugal | Remote – View job details As a Cyber Security Architect, you will design security architectures for telecommunications networks, platforms, and cloud environments. You will define security frameworks, assess risks, conduct threat modeling, and evaluate security technologies. You will partner with engineering teams to embed security into deployments, maintain architecture documentation, and support customer workshops and technical reviews. You will strengthen governance and contribute to transformation projects involving … More → The pos",
+      "published_at": "2026-11-03T14:00:25+09:00",
+      "first_seen_at": "2026-11-03T14:23:25.951285+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0beef4e9cef2ff0134387ec8",
+      "permalink_id": "article-url-0beef4e9cef2ff0134387ec8",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6601164?source=rss",
+      "title": "大阪市行政システム 情報漏えいか",
+      "summary_excerpt": null,
+      "published_at": "2026-11-03T13:50:05+09:00",
+      "first_seen_at": "2026-11-03T14:23:35.302783+09:00",
+      "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:384a558dfb89f692a7588135",
       "permalink_id": "article-url-384a558dfb89f692a7588135",
@@ -76,7 +187,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -103,7 +214,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -130,7 +241,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -164,101 +275,28 @@
       "seen_in_kev": false,
       "heat_score": 58.5,
       "published_at_future_suppressed": false
-    },
+    }
+  ],
+  "hottest": [
     {
-      "public_article_id": "url:7687771085e490d3a5654d12",
-      "permalink_id": "article-url-7687771085e490d3a5654d12",
-      "canonical_url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-      "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-      "summary_excerpt": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-      "published_at": "2026-11-03T07:27:24+09:00",
-      "first_seen_at": "2026-11-03T08:23:43.078798+09:00",
-      "source_name": "Dark Reading",
+      "public_article_id": "url:b9ba4e436fc8e927c57d6687",
+      "permalink_id": "article-url-b9ba4e436fc8e927c57d6687",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "summary_excerpt": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
+      "published_at": "2026-11-03T14:34:41+09:00",
+      "first_seen_at": "2026-11-03T14:37:48.939754+09:00",
+      "source_name": "The Hacker News",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "incident",
+      "primary_category": "vulnerability",
       "public_tags": [
         {
           "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f102f73b6c5fa1bd404a920c",
-      "permalink_id": "article-url-f102f73b6c5fa1bd404a920c",
-      "canonical_url": "https://www.itmedia.co.jp/enterprise/articles/2611/03/news007.html",
-      "title": "もう何もかも漏れている……それでも「暗黒の10月」に焦らなかった筆者がした“たった一つの地道な作業”",
-      "summary_excerpt": "2026年10月は免許証画像の流出や劇場型ランサムウェア攻撃など、歴史に残る事件が相次ぎました。筆者にも複数のサービスから漏えい通知が届きましたが、焦らずにすみました。漏えいが報告されたほとんどのサービスで事前にしていた“あること”とは何でしょうか。",
-      "published_at": "2026-11-03T07:00:00+09:00",
-      "first_seen_at": "2026-11-03T08:24:02.847452+09:00",
-      "source_name": "ITmedia Enterprise Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7253c3c10c675444bdb724e0",
-      "permalink_id": "article-url-7253c3c10c675444bdb724e0",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/03/news014.html",
-      "title": "「ネットのセキュリティもGMO」の実態　イエラエの事前指摘はなぜ放置されたか",
-      "summary_excerpt": "お名前.com デスクトップクラウドで起きた大規模な不正アクセス被害。2026年11月2日に開催された記者会見ではGMOグループの熊谷正寿代表らが同社を襲った事態と機能しなかったセキュリティガバナンスの欠陥を赤裸々に語った。",
-      "published_at": "2026-11-03T07:00:00+09:00",
-      "first_seen_at": "2026-11-03T08:23:41.102635+09:00",
-      "source_name": "@IT Security & Trust",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0a35b6682d69f3534e7343d9",
-      "permalink_id": "article-url-0a35b6682d69f3534e7343d9",
-      "canonical_url": "https://cyberscoop.com/google-disrupts-xcpe-botnet-videostrong-android-devices/",
-      "title": "Google shuts down global botnet running on certified Android devices",
-      "summary_excerpt": "Videostrong sold TV set-top boxes and other devices with pre-installed malware. The yearslong operation evaded Google’s security tests and established a botnet for cybercriminals. The post Google shuts down global botnet running on certified Android devices appeared first on CyberScoop .",
-      "published_at": "2026-11-03T06:58:24+09:00",
-      "first_seen_at": "2026-11-03T07:23:49.742956+09:00",
-      "source_name": "CyberScoop",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
+          "key": "vulnerability",
+          "label": "Vulnerability"
         },
         {
           "color_family": "red",
@@ -266,14 +304,14 @@
           "label": "Malware"
         }
       ],
-      "cves": [],
+      "cves": [
+        "CVE-2026-58115"
+      ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 58.5,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
-    }
-  ],
-  "hottest": [
+    },
     {
       "public_article_id": "url:2e45d4420a62dd60991fa126",
       "permalink_id": "article-url-2e45d4420a62dd60991fa126",
@@ -500,40 +538,24 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:283b0529c37fc56b9d6f4ec8",
-      "permalink_id": "article-url-283b0529c37fc56b9d6f4ec8",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/aur0ra-ransomware-ai-agents/",
-      "title": "Ransomware gang talked AI agents into doing much of its dirty work",
-      "summary_excerpt": "The group behind the Aur0ra ransomware has been using AI agents to move through victim networks, collect credentials and work its way up to domain administrator access, according to Sophos. AI-assisted intrusion workflow (Source: Sophos) The company, which tracks the group as GOLD OGRE, recovered artifacts from the Cursor AI coding assistant in late August that show the attackers handing the agents VPN logins, proxy access, targets and objectives. The agents then mapped the network … More → The post Ransomware gang talked AI agents into doing much of its dirty work appeared first on Help Net S",
-      "published_at": "2026-11-02T14:00:46+09:00",
-      "first_seen_at": "2026-11-02T14:55:59.888323+09:00",
-      "source_name": "Help Net Security",
+      "public_article_id": "url:0beef4e9cef2ff0134387ec8",
+      "permalink_id": "article-url-0beef4e9cef2ff0134387ec8",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6601164?source=rss",
+      "title": "大阪市行政システム 情報漏えいか",
+      "summary_excerpt": null,
+      "published_at": "2026-11-03T13:50:05+09:00",
+      "first_seen_at": "2026-11-03T14:23:35.302783+09:00",
+      "source_name": "Yahoo!ニュース IT",
       "source_class": "topic_rss",
       "security_relevance": "primary",
-      "ai_relevance": "primary",
+      "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
+      "primary_category": "other",
+      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.7,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -551,38 +573,6 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bfaf444039323ef04a0565e3",
-      "permalink_id": "article-url-bfaf444039323ef04a0565e3",
-      "canonical_url": "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086",
-      "title": "Max-severity bug in widely used OT programming tool exploited to deliver Linux malware",
-      "summary_excerpt": "Your industrial IoT gateway isn't exposed to the internet, right? RIGHT?!",
-      "published_at": "2026-11-03T07:55:17+09:00",
-      "first_seen_at": "2026-11-03T08:39:14.722503+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -943,17 +933,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
-    "【HOTTEST #1 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #2】渦中のGMO記者会見、責任の所在はどこに？　熊谷代表が語った“グループ内の力関係”",
-    "【HOTTEST #2 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-    "【LATEST #3】欧州店舗にサイバー攻撃 食品廃棄",
-    "【HOTTEST #3 / Heat 67.5】The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "【LATEST #4】Anthropic、IPO申請書を修正　7?9月売上高は約170億ドル、インフラ契約額は約8954億ドル",
-    "【HOTTEST #4 / Heat 67.5】Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
-    "【LATEST #5】Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
-    "【HOTTEST #5 / Heat 67.5】Linux kernel RCE CVE-2026-98432"
+    "【LATEST #1】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+    "【HOTTEST #1 / Heat 75】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+    "【LATEST #2】Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+    "【HOTTEST #2 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
+    "【LATEST #3】Cybersecurity jobs available right now: November 3, 2026",
+    "【HOTTEST #3 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
+    "【LATEST #4】大阪市行政システム 情報漏えいか",
+    "【HOTTEST #4 / Heat 67.5】The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+    "【LATEST #5】UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+    "【HOTTEST #5 / Heat 67.5】Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)"
   ],
-  "last_published_at": "2026-11-03T14:19:47.967900+09:00",
-  "publication_slot_jst": "2026-11-03T14:00:00+09:00"
+  "last_published_at": "2026-11-03T15:21:02.378985+09:00",
+  "publication_slot_jst": "2026-11-03T15:00:00+09:00"
 }
