@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T06:16:18.894621+00:00",
-  "as_of": "2026-11-03T06:00:00+00:00",
-  "catalog_count": 21564,
+  "generated_at": "2026-11-03T07:15:49.878632+00:00",
+  "as_of": "2026-11-03T07:00:00+00:00",
+  "catalog_count": 21567,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,82 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:8f1272d76f47f1a740b006ed",
+      "permalink_id": "article-url-8f1272d76f47f1a740b006ed",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/product-showcase-sweet-security-virtual-patching/",
+      "title": "Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
+      "summary_excerpt": "HTTP2Shell (CVE-2026-111497), the critical Brotli bug first known as Node2Shell, is a remote code execution flaw in the compression library inside Node.js, Bun, Envoy, Python and more. AI found it: OpenAI’s agents turned it up in late September during a high-compute red-teaming campaign. Finding bugs is getting faster. Fixing them isn’t. HTTP2Shell shows why that gap matters, and how Sweet Virtual Patching protects running applications until the fixes land. A bad stream, a broken decoder … More → The post Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up appeared f",
+      "published_at": "2026-11-03T15:00:18+09:00",
+      "first_seen_at": "2026-11-03T15:23:39.258348+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 55.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a5b17ea944f28d53aaccd6b5",
+      "permalink_id": "article-url-a5b17ea944f28d53aaccd6b5",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/mcphantom-deprecated-mcp-servers/",
+      "title": "AI coding agents are installing MCP servers that will never be patched",
+      "summary_excerpt": "When a developer tells an AI coding agent to “set up a GitHub MCP,” the agent has to pick a package. New research from Glow Labs documents sessions where it picked one out of an archived repository that will never be patched again. Source: Glow Security Reviewing real AI coding session transcripts, Glow Labs found deprecated MCP servers landing on developer machines, a pattern it calls MCPhantom. In 98% of those sessions, the agent appears … More → The post AI coding agents are installing MCP servers that will never be patched appeared first on Help Net Security .",
+      "published_at": "2026-11-03T14:45:53+09:00",
+      "first_seen_at": "2026-11-03T15:23:39.923609+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "mcp",
+          "label": "MCP"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:b9ba4e436fc8e927c57d6687",
       "permalink_id": "article-url-b9ba4e436fc8e927c57d6687",
@@ -122,6 +198,38 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:ee5bbf6202dad163586b662d",
+      "permalink_id": "article-url-ee5bbf6202dad163586b662d",
+      "canonical_url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "summary_excerpt": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised systems, including other Internet of Things (IoT) products such as Android-based healthcare devices and karaoke machines.",
+      "published_at": "2026-11-03T11:24:31+09:00",
+      "first_seen_at": "2026-11-03T15:23:48.367922+09:00",
+      "source_name": "KrebsOnSecurity",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:384a558dfb89f692a7588135",
       "permalink_id": "article-url-384a558dfb89f692a7588135",
       "canonical_url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
@@ -145,7 +253,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -166,7 +274,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -184,92 +292,6 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:80f7f08b76a31330cf55715a",
-      "permalink_id": "article-url-80f7f08b76a31330cf55715a",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/03/2000002831/",
-      "title": "Anthropic、IPO申請書を修正　7?9月売上高は約170億ドル、インフラ契約額は約8954億ドル",
-      "summary_excerpt": "Anthropicは、証券取引委員会（SEC）にIPOに向けた登録届出書の修正版を提出した。第3四半期の売上高は前年同期比約12.3倍の約169億ドルに拡大した一方、営業損益は赤字に転落。また、AI計算資源やインフラに関する将来の支出約束額が約8954億ドルに上ることも明らかにした。",
-      "published_at": "2026-11-03T08:20:20+09:00",
-      "first_seen_at": "2026-11-03T09:25:39.860917+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9f7f463866df0019cb2ec91b",
-      "permalink_id": "article-url-9f7f463866df0019cb2ec91b",
-      "canonical_url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
-      "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
-      "summary_excerpt": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .",
-      "published_at": "2026-11-03T08:00:45+09:00",
-      "first_seen_at": "2026-11-03T09:25:59.743306+09:00",
-      "source_name": "Unit 42 Research",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "threat_report",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bfaf444039323ef04a0565e3",
-      "permalink_id": "article-url-bfaf444039323ef04a0565e3",
-      "canonical_url": "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086",
-      "title": "Max-severity bug in widely used OT programming tool exploited to deliver Linux malware",
-      "summary_excerpt": "Your industrial IoT gateway isn't exposed to the internet, right? RIGHT?!",
-      "published_at": "2026-11-03T07:55:17+09:00",
-      "first_seen_at": "2026-11-03T08:39:14.722503+09:00",
-      "source_name": "The Register Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -559,24 +581,35 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:e22a4266bfe2ead77cf592de",
-      "permalink_id": "article-url-e22a4266bfe2ead77cf592de",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6601127?source=rss",
-      "title": "欧州店舗にサイバー攻撃 食品廃棄",
-      "summary_excerpt": null,
-      "published_at": "2026-11-03T08:44:18+09:00",
-      "first_seen_at": "2026-11-03T09:53:01.390634+09:00",
-      "source_name": "Yahoo!ニュース IT",
+      "public_article_id": "url:ee5bbf6202dad163586b662d",
+      "permalink_id": "article-url-ee5bbf6202dad163586b662d",
+      "canonical_url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "summary_excerpt": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised systems, including other Internet of Things (IoT) products such as Android-based healthcare devices and karaoke machines.",
+      "published_at": "2026-11-03T11:24:31+09:00",
+      "first_seen_at": "2026-11-03T15:23:48.367922+09:00",
+      "source_name": "KrebsOnSecurity",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 58.5,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -933,17 +966,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+    "【LATEST #1】Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
     "【HOTTEST #1 / Heat 75】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "【LATEST #2】Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+    "【LATEST #2】AI coding agents are installing MCP servers that will never be patched",
     "【HOTTEST #2 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #3】Cybersecurity jobs available right now: November 3, 2026",
+    "【LATEST #3】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
     "【HOTTEST #3 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-    "【LATEST #4】大阪市行政システム 情報漏えいか",
+    "【LATEST #4】Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
     "【HOTTEST #4 / Heat 67.5】The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "【LATEST #5】UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+    "【LATEST #5】Cybersecurity jobs available right now: November 3, 2026",
     "【HOTTEST #5 / Heat 67.5】Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)"
   ],
-  "last_published_at": "2026-11-03T15:21:02.378985+09:00",
-  "publication_slot_jst": "2026-11-03T15:00:00+09:00"
+  "last_published_at": "2026-11-03T16:20:26.254742+09:00",
+  "publication_slot_jst": "2026-11-03T16:00:00+09:00"
 }
