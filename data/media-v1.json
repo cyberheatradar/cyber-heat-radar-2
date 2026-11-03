@@ -1,9 +1,114 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-03T09:40:04.653924+00:00",
+  "source_snapshot_generated_at": "2026-11-03T10:40:08.403568+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:00b58f6dd32b8453cbab717e",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "運用"
+        ],
+        "url": "https://zenn.dev/tyamadadd/articles/36f975db1c41d8",
+        "title": "高市総理のPHP投稿で何がうれしかったのか？今後の説得に使っていくよ～",
+        "author": "tyamadadd",
+        "published_at": "2026-11-03T10:35:09.009000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fdc8ee7679ad5c17c420f68f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CSS",
+          "デザイン",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/heynstudio/articles/cf83bd6a29d095",
+        "title": "英語デザインを「文字だけ日本語に」とClaudeに頼むと崩れる4つの理由と、コピペで使える文字組みルール",
+        "author": "Heyn Studio",
+        "published_at": "2026-11-03T10:34:14.481000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5255ae8908d419d2baf757ed",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "WAF",
+          "CloudWatch",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/shinji_bk/articles/3f20a0e0186e51",
+        "title": "48時間ハニーポットを置いて、AWS サービスでログを見てみた（観測編）",
+        "author": "shinji_bk",
+        "published_at": "2026-11-03T10:21:27.269000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:26b77835e7a353f43c0bb1b2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "農業",
+          "トレンド"
+        ],
+        "url": "https://zenn.dev/unagi_labo/articles/8b96dfb059dfd2",
+        "title": "農業×AI週間トレンド 10/28〜11/3",
+        "author": "みやただ",
+        "published_at": "2026-11-03T10:21:10.520000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:640230229ab8117af971592e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "OpenAI"
+        ],
+        "url": "https://zenn.dev/syoriamany179/articles/d2481e059996fc",
+        "title": "OpenAI 互換ゲートウェイで chat・画像・動画 API を一本化する",
+        "author": "Syori Amany",
+        "published_at": "2026-11-03T10:08:28.271000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c143366717af3f705dbfb6ff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "automation",
+          "DevOps"
+        ],
+        "url": "https://zenn.dev/jworks_hq/articles/jworks-20261101-66c57f17",
+        "title": "経営戦略会議の議題追加を、ゲート確認後に自動コミットした話",
+        "author": "J-WORKS",
+        "published_at": "2026-11-03T10:00:58.256000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:30860f5a578ddb887becdde8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "prompt",
+          "ChatGPT",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/andyailab/articles/436444a75f05a0",
+        "title": "AIリサーチの情報の抜け落ちを防ぐ確認チェックリストと手順",
+        "author": "アンディ",
+        "published_at": "2026-11-03T09:51:08.998000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:08972b745646a97e5a26b47b",
         "source": "zenn",
@@ -16812,6 +16917,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3f749dd6f85734b7bebcb3af",
+        "source": "qiita",
+        "author_tags": [
+          "DMARC",
+          "dns",
+          "mail",
+          "JavaScript",
+          "Security"
+        ],
+        "url": "https://qiita.com/myipscan/items/2da2577557e755c34736",
+        "title": "DMARCのサブドメインポリシーはspで決まる: gmail.comのサブドメインをp=noneと誤表示した話",
+        "author": "myipscan",
+        "published_at": "2026-11-03T19:06:01+09:00",
+        "excerpt": "自作のDMARCチェッカーにnews.gmail.comを入れたら、結果は「p=none」でした。gmail.comのレコードには sp=quarantine がはっきり書いてあるのに、です。原因は、DMARCの sp 、つまりサブドメインポリシーの継承を読み違えていたことでした。 何が問題だったのか DMARCチェッカーを使う人が知りたいのは「このドメインを名乗るなりすましメールを、受信側にどう扱ってほしいと宣言しているか」です。noneなら受信側に処置を求めない。quarantineなら疑わしいメールとして扱う（迷惑メールフォルダに入れるなど）よう求める。表示がnoneなら、読み手は「このドメインは保護されていない」と判断してしまいます。 サブドメインに専用のDMARCレコードがなければ、答えは継承で決まります。組織ドメインの sp が p と違う場合、継承を間違えたツールはそのサブドメインすべてで違う答えを出します。gmail.comはまさにそのケースでした。 考えられる原因を順に消す p=noneと出たとき、考えられる原因は3つあります。"
+      },
+      {
         "id": "qiita:a2ad211559e5bb00432be83e",
         "source": "qiita",
         "author_tags": [
@@ -24306,6 +24427,98 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:7416d5e6bc18da5864c05855",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "cyber12",
+          "malware-analysis",
+          "cybersecurity",
+          "cyber-threat-intelligence"
+        ],
+        "url": "https://medium.com/@techalisa/how-to-become-a-threat-intelligence-specialist-beginners-guide-cyber12-ep-01-6bf35ad8ecff",
+        "title": "How to Become a Threat Intelligence Specialist (Beginner’s Guide) | Cyber12 Ep.01",
+        "author": "Alisa Todorova",
+        "published_at": "2026-11-03T10:30:02+00:00",
+        "excerpt": "Your beginner’s map to a threat intelligence career including resources, skills, tools, projects, certifications, and actionable next… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:06526cc5a91012e87e454e41",
+        "source": "medium",
+        "author_tags": [
+          "checkpoints",
+          "sophos",
+          "trend-micro",
+          "cybersecurity",
+          "fortinet"
+        ],
+        "url": "https://medium.com/@manishdatanet76/cybersecurity-in-the-digital-age-building-business-resilience-with-datanet-hosting-solutions-973a56292264",
+        "title": "Cybersecurity in the Digital Age: Building Business Resilience with Datanet Hosting Solutions",
+        "author": "Manish DNH",
+        "published_at": "2026-11-03T10:29:58+00:00",
+        "excerpt": "In today’s digital world, businesses rely heavily on technology to manage operations, store sensitive information, and serve customers… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0f9dd3d6cb82c86b6bc3ff99",
+        "source": "medium",
+        "author_tags": [
+          "soc",
+          "incident-response",
+          "agentic-ai",
+          "automation-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@HarkXAI/better-together-how-jev-and-llms-build-an-optimized-ai-soc-7372e5599466",
+        "title": "Better Together: How Jev and LLMs Build an Optimized AI SOC​​​​‌",
+        "author": "HarkX",
+        "published_at": "2026-11-03T10:24:17+00:00",
+        "excerpt": "Jev handles the SOC’s thousands of quick calls; LLMs investigate what matters. Together, they build a faster, smarter AI SOC.​​​​‌ Continue reading on Medium »"
+      },
+      {
+        "id": "medium:77428327d887138633d3a6a6",
+        "source": "medium",
+        "author_tags": [
+          "business-security",
+          "cybersecurity-insurance",
+          "cyber-risk",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@josejoseknight720/what-is-cyber-security-insurance-and-do-you-need-it-e211de45e879",
+        "title": "What Is Cyber Security Insurance, and Do You Need It?",
+        "author": "Trust Consulting Services",
+        "published_at": "2026-11-03T10:11:49+00:00",
+        "excerpt": "A cyberattack can do more than expose data. It can interrupt operations, create legal costs, trigger customer notifications, and leave a… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:93f02d9407172d8fcf7c1ea1",
+        "source": "medium",
+        "author_tags": [
+          "jwt",
+          "cybersecurity",
+          "web-development",
+          "application-security",
+          "authentication"
+        ],
+        "url": "https://medium.com/@alimughal.g1g/json-web-token-jwt-security-pitfalls-alg-none-weak-hmac-secrets-and-client-side-token-b29f6a91e9da",
+        "title": "JSON Web Token (JWT) Security Pitfalls: alg: none, Weak HMAC Secrets, and Client-Side Token…",
+        "author": "Muhammad Ali Mughal",
+        "published_at": "2026-11-03T10:11:09+00:00",
+        "excerpt": "Disclosure: This article was written with AI assistance and reviewed and edited by the author. The cover and diagram images are… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e9b7fbc45aba3b34e65aca83",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@st230280/cybersecurity-course-build-in-demand-skills-in-ethical-hacking-network-security-and-cyber-0fdbd6cc2019",
+        "title": "Cybersecurity Course: Build In-Demand Skills in Ethical Hacking, Network Security, and Cyber…",
+        "author": "St",
+        "published_at": "2026-11-03T10:10:53+00:00",
+        "excerpt": "As businesses continue to move their operations online, protecting digital information has become more important than ever. From banking… Continue reading on Medium »"
+      },
       {
         "id": "medium:0a0b9bb245745bcb3e607791",
         "source": "medium",

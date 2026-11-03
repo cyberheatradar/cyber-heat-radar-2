@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T10:15:28.327663+00:00",
-  "as_of": "2026-11-03T10:00:00+00:00",
-  "catalog_count": 21576,
+  "generated_at": "2026-11-03T11:14:14.209118+00:00",
+  "as_of": "2026-11-03T11:00:00+00:00",
+  "catalog_count": 21579,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,70 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:5b048075492d5c7632a5730a",
+      "permalink_id": "article-url-5b048075492d5c7632a5730a",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/gorbag-apt-group-malware/",
+      "title": "Gorbag APT group hits Ukrainian courts and city councils with self-deleting malware",
+      "summary_excerpt": "ESET has been tracking a Russia-aligned group it calls Gorbag, which has been breaking into Ukrainian organizations since at least February 2025 using spearphishing attachments and a stealer that erases itself once the data is gone. Spearphishing email message from a compromised email sender (Source: ESET) Every target ESET identified sits in Ukraine. About a quarter are law enforcement and justice bodies, another quarter are local administrations, mostly city councils in areas close to the … More → The post Gorbag APT group hits Ukrainian courts and city councils with self-deleting malware ap",
+      "published_at": "2026-11-03T19:00:14+09:00",
+      "first_seen_at": "2026-11-03T19:23:37.873177+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a95fed584aeb7510f4732bd7",
+      "permalink_id": "article-url-a95fed584aeb7510f4732bd7",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/police-tech-firms-team-up-to/",
+      "title": "Police and Tech Firms Team Up to Dismantle XCPE Botnet",
+      "summary_excerpt": "Google and partners have taken down the XCPE botnet attributed to Chinese device maker Videostrong",
+      "published_at": "2026-11-03T18:35:00+09:00",
+      "first_seen_at": "2026-11-03T19:23:44.560373+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:7ca1e98bdc3bcc1b1380b629",
       "permalink_id": "article-url-7ca1e98bdc3bcc1b1380b629",
@@ -129,6 +193,33 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:cdcba13e8b77916a5445f371",
+      "permalink_id": "article-url-cdcba13e8b77916a5445f371",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "summary_excerpt": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server",
+      "published_at": "2026-11-03T17:31:48+09:00",
+      "first_seen_at": "2026-11-03T19:37:18.881005+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:77fe036d80c8d24a88bf8ce9",
       "permalink_id": "article-url-77fe036d80c8d24a88bf8ce9",
       "canonical_url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/",
@@ -212,93 +303,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8dc653a692a04c411b69fa09",
-      "permalink_id": "article-url-8dc653a692a04c411b69fa09",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6601181?source=rss",
-      "title": "ダークウェブ 日本人の情報流出増",
-      "summary_excerpt": null,
-      "published_at": "2026-11-03T15:51:21+09:00",
-      "first_seen_at": "2026-11-03T16:52:16.441837+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:dae12a7c140a7d87ecc39ab4",
-      "permalink_id": "article-url-dae12a7c140a7d87ecc39ab4",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/kara-sprague-hackerone-ai-bug-bounty/",
-      "title": "What human hackers still do better than AI, according to HackerOne’s CEO",
-      "summary_excerpt": "AI can find vulnerabilities in minutes, but people still hold the edge in judging what a flaw means for a business. In this Help Net Security interview, Kara Sprague, CEO of HackerOne, talks about business logic bugs, what AI does to the crowd model, and why routine medium-severity findings may pay less. She also covers the growing pile of AI-assisted submissions, how programs sort useful reports from spam, and which parts of a researcher’s work … More → The post What human hackers still do better than AI, according to HackerOne’s CEO appeared first on Help Net Security .",
-      "published_at": "2026-11-03T15:30:36+09:00",
-      "first_seen_at": "2026-11-03T16:24:20.527252+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8f1272d76f47f1a740b006ed",
-      "permalink_id": "article-url-8f1272d76f47f1a740b006ed",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/product-showcase-sweet-security-virtual-patching/",
-      "title": "Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
-      "summary_excerpt": "HTTP2Shell (CVE-2026-111497), the critical Brotli bug first known as Node2Shell, is a remote code execution flaw in the compression library inside Node.js, Bun, Envoy, Python and more. AI found it: OpenAI’s agents turned it up in late September during a high-compute red-teaming campaign. Finding bugs is getting faster. Fixing them isn’t. HTTP2Shell shows why that gap matters, and how Sweet Virtual Patching protects running applications until the fixes land. A bad stream, a broken decoder … More → The post Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up appeared f",
-      "published_at": "2026-11-03T15:00:18+09:00",
-      "first_seen_at": "2026-11-03T15:23:39.258348+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cve",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 55.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -504,6 +508,70 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:5b048075492d5c7632a5730a",
+      "permalink_id": "article-url-5b048075492d5c7632a5730a",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/gorbag-apt-group-malware/",
+      "title": "Gorbag APT group hits Ukrainian courts and city councils with self-deleting malware",
+      "summary_excerpt": "ESET has been tracking a Russia-aligned group it calls Gorbag, which has been breaking into Ukrainian organizations since at least February 2025 using spearphishing attachments and a stealer that erases itself once the data is gone. Spearphishing email message from a compromised email sender (Source: ESET) Every target ESET identified sits in Ukraine. About a quarter are law enforcement and justice bodies, another quarter are local administrations, mostly city councils in areas close to the … More → The post Gorbag APT group hits Ukrainian courts and city councils with self-deleting malware ap",
+      "published_at": "2026-11-03T19:00:14+09:00",
+      "first_seen_at": "2026-11-03T19:23:37.873177+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:a95fed584aeb7510f4732bd7",
+      "permalink_id": "article-url-a95fed584aeb7510f4732bd7",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/police-tech-firms-team-up-to/",
+      "title": "Police and Tech Firms Team Up to Dismantle XCPE Botnet",
+      "summary_excerpt": "Google and partners have taken down the XCPE botnet attributed to Chinese device maker Videostrong",
+      "published_at": "2026-11-03T18:35:00+09:00",
+      "first_seen_at": "2026-11-03T19:23:44.560373+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:7ca1e98bdc3bcc1b1380b629",
       "permalink_id": "article-url-7ca1e98bdc3bcc1b1380b629",
       "canonical_url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
@@ -556,54 +624,6 @@
           "label": "Campaign"
         }
       ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9c59a38943c4d0ce11a585b6",
-      "permalink_id": "article-url-9c59a38943c4d0ce11a585b6",
-      "canonical_url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-      "summary_excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
-      "published_at": "2026-11-03T16:43:07+09:00",
-      "first_seen_at": "2026-11-03T17:24:28.700042+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8dc653a692a04c411b69fa09",
-      "permalink_id": "article-url-8dc653a692a04c411b69fa09",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6601181?source=rss",
-      "title": "ダークウェブ 日本人の情報流出増",
-      "summary_excerpt": null,
-      "published_at": "2026-11-03T15:51:21+09:00",
-      "first_seen_at": "2026-11-03T16:52:16.441837+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -964,17 +984,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+    "【LATEST #1】Gorbag APT group hits Ukrainian courts and city councils with self-deleting malware",
     "【HOTTEST #1 / Heat 75】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "【LATEST #2】OpenAI raises top bug bounty payout to $172,000 with bonuses",
+    "【LATEST #2】Police and Tech Firms Team Up to Dismantle XCPE Botnet",
     "【HOTTEST #2 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #3】Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
+    "【LATEST #3】Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
     "【HOTTEST #3 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-    "【LATEST #4】More European supermarkets hit by suspected cyber attack",
+    "【LATEST #4】OpenAI raises top bug bounty payout to $172,000 with bonuses",
     "【HOTTEST #4 / Heat 67.5】The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "【LATEST #5】CrowdStrike Advances AI Security and Safety from Endpoint to Cloud",
+    "【LATEST #5】Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
     "【HOTTEST #5 / Heat 67.5】Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)"
   ],
-  "last_published_at": "2026-11-03T19:19:47.957132+09:00",
-  "publication_slot_jst": "2026-11-03T19:00:00+09:00"
+  "last_published_at": "2026-11-03T20:18:05.444695+09:00",
+  "publication_slot_jst": "2026-11-03T20:00:00+09:00"
 }
