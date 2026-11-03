@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-03T15:13:09.402821+00:00",
-  "as_of": "2026-11-03T15:00:00+00:00",
-  "catalog_count": 21601,
+  "generated_at": "2026-11-03T16:12:57.458873+00:00",
+  "as_of": "2026-11-03T16:00:00+00:00",
+  "catalog_count": 21605,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,54 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:7a78f5e71c17f1854b67794b",
+      "permalink_id": "article-url-7a78f5e71c17f1854b67794b",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+      "title": "Barracuda warns of critical flaws allowing root access to devices",
+      "summary_excerpt": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
+      "published_at": "2026-11-04T00:06:16+09:00",
+      "first_seen_at": "2026-11-04T00:26:14.039091+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:62fa8bb7d9a18733fb9ddbdd",
+      "permalink_id": "article-url-62fa8bb7d9a18733fb9ddbdd",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6601234?source=rss",
+      "title": "アソビュー 1500万件超の情報流出",
+      "summary_excerpt": null,
+      "published_at": "2026-11-03T23:59:10+09:00",
+      "first_seen_at": "2026-11-04T00:54:09.710892+09:00",
+      "source_name": "Yahoo!ニュース IT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:f01d9b63500da3f827d3274b",
       "permalink_id": "article-url-f01d9b63500da3f827d3274b",
@@ -29,6 +77,33 @@
           "color_family": "neutral",
           "key": "incident",
           "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:41a04d52dead81f5d660a2c2",
+      "permalink_id": "article-url-41a04d52dead81f5d660a2c2",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/btcpay-server-flaw-cryptocurrency/",
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Cryptocurrency",
+      "summary_excerpt": "Attackers drained hot wallets on outdated BTCPay Server instances, with $1.63m traced so far",
+      "published_at": "2026-11-03T23:30:00+09:00",
+      "first_seen_at": "2026-11-04T00:26:34.959149+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
         }
       ],
       "cves": [],
@@ -67,6 +142,38 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c0b4539fdaaed851c6d1a5f4",
+      "permalink_id": "article-url-c0b4539fdaaed851c6d1a5f4",
+      "canonical_url": "https://www.malwarebytes.com/blog/mobile/2026/11/a-hidden-backdoor-put-1-3-million-tv-boxes-to-work-for-criminals",
+      "title": "A hidden backdoor put 1.3 million TV boxes to work for criminals",
+      "summary_excerpt": "Videostrong planted a backdoor in more than 1.3 million Android set-top boxes and sold criminals access to the resulting botnet.",
+      "published_at": "2026-11-03T23:11:25+09:00",
+      "first_seen_at": "2026-11-04T00:26:44.753839+09:00",
+      "source_name": "Malwarebytes Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -190,126 +297,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:807204d50c8f801a975eb61f",
-      "permalink_id": "article-url-807204d50c8f801a975eb61f",
-      "canonical_url": "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/",
-      "title": "Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles",
-      "summary_excerpt": "Key Points Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles Check Point Research found a misconfigured webserver of a threat actor operating the Cobalt Strike framework. Besides an open Cobalt Strike server, whose logs showed the actor compromising various private computers of Chinese speaking individuals, other tools from the toolkit of […] The post Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles appeared first on Check Point Research .",
-      "published_at": "2026-11-03T22:57:04+09:00",
-      "first_seen_at": "2026-11-03T23:24:16.272912+09:00",
-      "source_name": "Check Point Research",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "defense_ops",
-      "public_tags": [
-        {
-          "color_family": "blue",
-          "key": "defense_ops",
-          "label": "Defense & Ops"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0b5316a73348d849f4615dd5",
-      "permalink_id": "article-url-0b5316a73348d849f4615dd5",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/",
-      "title": "Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe",
-      "summary_excerpt": "The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month",
-      "published_at": "2026-11-03T22:45:00+09:00",
-      "first_seen_at": "2026-11-03T23:24:59.521929+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:dc4185298c5a6bdc1ba8f98a",
-      "permalink_id": "article-url-dc4185298c5a6bdc1ba8f98a",
-      "canonical_url": "https://therecord.media/russia-linked-cyber-spies-target-ukraine-war-support",
-      "title": "Russia-linked cyber spies target Ukraine's war crimes investigations, military aid routes",
-      "summary_excerpt": "The hackers use relatively simple malware to steal sensitive documents, login credentials and other information from Ukrainian organizations, particularly those near the front line and the Russian border.",
-      "published_at": "2026-11-03T22:39:00+09:00",
-      "first_seen_at": "2026-11-03T22:55:08.691146+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7dbe7b40d9ccf41ef08a1da7",
-      "permalink_id": "article-url-7dbe7b40d9ccf41ef08a1da7",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/",
-      "title": "Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
-      "summary_excerpt": "Attackers are exploiting an authentication flaw (CVE-2026-58115) in Node-RED, a programming tool built into some industrial control products, to install a Linux bot and backdoors on unprotected servers, VulnCheck has found. Node-RED is a flow-based programming tool built on Node.js that lets users wire together event-driven applications in a browser-based editor. It can run on small devices such as the Raspberry Pi or in the cloud, and it is used in manufacturing, healthcare, and home … More → The post Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115) ",
-      "published_at": "2026-11-03T21:59:51+09:00",
-      "first_seen_at": "2026-11-03T22:26:39.329305+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [
-        "CVE-2026-58115"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -446,33 +433,24 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:b0ce292534ec4a4f64824309",
-      "permalink_id": "article-url-b0ce292534ec4a4f64824309",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
-      "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-      "summary_excerpt": "CISA added two new Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527) to its Known Exploited Vulnerabilities catalog on Friday, after Ivanti updated an earlier security advisory with details about the flaws. Three flaws chained to gain a foothold CVE-2026-111357, a missing authentication for a critical function vulnerability that allows a local authenticated attacker to escalate their privileges, and CVE-2026-118527, a “Generation of Predictable Numbers or Identifiers Vulnerability” that makes remote authenticated file upload possible, have been … More → The post CISA to ",
-      "published_at": "2026-11-03T00:58:08+09:00",
-      "first_seen_at": "2026-11-03T01:24:31.941642+09:00",
-      "source_name": "Help Net Security",
+      "public_article_id": "url:62fa8bb7d9a18733fb9ddbdd",
+      "permalink_id": "article-url-62fa8bb7d9a18733fb9ddbdd",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6601234?source=rss",
+      "title": "アソビュー 1500万件超の情報流出",
+      "summary_excerpt": null,
+      "published_at": "2026-11-03T23:59:10+09:00",
+      "first_seen_at": "2026-11-04T00:54:09.710892+09:00",
+      "source_name": "Yahoo!ニュース IT",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111357",
-        "CVE-2026-118527"
-      ],
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 67.5,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -494,6 +472,65 @@
           "color_family": "neutral",
           "key": "incident",
           "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:41a04d52dead81f5d660a2c2",
+      "permalink_id": "article-url-41a04d52dead81f5d660a2c2",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/btcpay-server-flaw-cryptocurrency/",
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Cryptocurrency",
+      "summary_excerpt": "Attackers drained hot wallets on outdated BTCPay Server instances, with $1.63m traced so far",
+      "published_at": "2026-11-03T23:30:00+09:00",
+      "first_seen_at": "2026-11-04T00:26:34.959149+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c0b4539fdaaed851c6d1a5f4",
+      "permalink_id": "article-url-c0b4539fdaaed851c6d1a5f4",
+      "canonical_url": "https://www.malwarebytes.com/blog/mobile/2026/11/a-hidden-backdoor-put-1-3-million-tv-boxes-to-work-for-criminals",
+      "title": "A hidden backdoor put 1.3 million TV boxes to work for criminals",
+      "summary_excerpt": "Videostrong planted a backdoor in more than 1.3 million Android set-top boxes and sold criminals access to the resulting botnet.",
+      "published_at": "2026-11-03T23:11:25+09:00",
+      "first_seen_at": "2026-11-04T00:26:44.753839+09:00",
+      "source_name": "Malwarebytes Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
         }
       ],
       "cves": [],
@@ -558,65 +595,6 @@
           "color_family": "red",
           "key": "ransomware",
           "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2473dbd7584c20714899399f",
-      "permalink_id": "article-url-2473dbd7584c20714899399f",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/assured-data-protection-cleanroom-scan/",
-      "title": "Assured helps recovery teams find clean backups after ransomware attacks",
-      "summary_excerpt": "Assured Data Protection has announced CleanRoom SCAN, a new managed service designed to strengthen cyber recovery by independently scanning isolated backup data using multiple leading security engines to identify hidden threats before restoration. The service helps organizations identify malware and other indicators of compromise earlier, reducing the risk of reinfecting production environments during recovery. CleanRoom SCAN lets Assured customers scan isolated backup copies away from production environments, helping detect malware or indicators of compromise that … More → The post Assured he",
-      "published_at": "2026-11-03T22:59:38+09:00",
-      "first_seen_at": "2026-11-03T23:24:44.225720+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "ransomware",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0b5316a73348d849f4615dd5",
-      "permalink_id": "article-url-0b5316a73348d849f4615dd5",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/",
-      "title": "Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe",
-      "summary_excerpt": "The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month",
-      "published_at": "2026-11-03T22:45:00+09:00",
-      "first_seen_at": "2026-11-03T23:24:59.521929+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
         }
       ],
       "cves": [],
@@ -839,6 +817,40 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:72aec30d186370a722b7ad54",
+      "permalink_id": "article-url-72aec30d186370a722b7ad54",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "summary_excerpt": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+      "published_at": "2026-11-01T00:35:11+09:00",
+      "first_seen_at": "2026-11-01T00:53:38.426981+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
+        }
+      ],
+      "cves": [
+        "CVE-2026-58882"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:2748ad0ca305bff955eb9912",
       "permalink_id": "article-url-2748ad0ca305bff955eb9912",
       "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764/",
@@ -930,35 +942,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:bc4258f9677bca1e1ae92494",
-      "permalink_id": "article-url-bc4258f9677bca1e1ae92494",
-      "canonical_url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-      "summary_excerpt": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
-      "published_at": "2026-10-30T16:45:30+09:00",
-      "first_seen_at": "2026-10-30T17:52:50.793215+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-118539"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -979,17 +962,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Frontline Education Data Breach Impacts Over 1.3 Million",
+    "【LATEST #1】Barracuda warns of critical flaws allowing root access to devices",
     "【HOTTEST #1 / Heat 75】Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
-    "【LATEST #2】CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+    "【LATEST #2】アソビュー 1500万件超の情報流出",
     "【HOTTEST #2 / Heat 75】Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "【LATEST #3】Novee puts forgotten internet-facing assets through penetration testing",
+    "【LATEST #3】Frontline Education Data Breach Impacts Over 1.3 Million",
     "【HOTTEST #3 / Heat 67.5】Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "【LATEST #4】Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+    "【LATEST #4】Hackers Exploit BTCPay Server Flaw to Steal Cryptocurrency",
     "【HOTTEST #4 / Heat 67.5】CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
-    "【LATEST #5】UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-    "【HOTTEST #5 / Heat 67.5】CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)"
+    "【LATEST #5】CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+    "【HOTTEST #5 / Heat 65】アソビュー 1500万件超の情報流出"
   ],
-  "last_published_at": "2026-11-04T00:17:06.528279+09:00",
-  "publication_slot_jst": "2026-11-04T00:00:00+09:00"
+  "last_published_at": "2026-11-04T01:16:57.282752+09:00",
+  "publication_slot_jst": "2026-11-04T01:00:00+09:00"
 }

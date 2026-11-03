@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-03T14:40:08.280696+00:00",
+  "source_snapshot_generated_at": "2026-11-03T15:40:09.528899+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f5c9bd5bdef4f79bb6197622",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "eval",
+          "llm",
+          "LLMOps",
+          "DeepEval"
+        ],
+        "url": "https://zenn.dev/sscodeai/articles/deepeval-enterprise-gold-dataset",
+        "title": "DeepEval を「道具」で終わらせない — 継続的な企業 Gold Dataset の作り方",
+        "author": "SS",
+        "published_at": "2026-11-03T15:34:25.904000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:21e03484addf2d6fc7f319e3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "哲学",
+          "倫理",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/yui10/articles/ai-society-basics-02-ethics",
+        "title": "AI倫理の基本 ― 世界の原則はなぜ似ているのか【AIと社会の基本 #2】",
+        "author": "yui10",
+        "published_at": "2026-11-03T15:06:54.681000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f978aaba4ea585cddeb7e04c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "llm",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/yui10/articles/ai-society-basics-01-what-is-ai",
+        "title": "AIの基本 ― 定義・歴史・いまの実力【AIと社会の基本 #1】",
+        "author": "yui10",
+        "published_at": "2026-11-03T15:06:54.219000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:61b1842108cc4b692c2f3248",
         "source": "zenn",
@@ -17262,6 +17308,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c9b7f9a10a5dbcf54191b21f",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "awsconfig",
+          "Cloudtrail",
+          "構成管理",
+          "Security"
+        ],
+        "url": "https://qiita.com/j_mori/items/0ba7a4da9a09d6a12ed9",
+        "title": "AWS Config と AWS CloudTrail で何ができる？構成管理のやりたいこと27件を整理してみた",
+        "author": "j_mori",
+        "published_at": "2026-11-03T23:57:10+09:00",
+        "excerpt": "はじめに こんにちは、mori ( @morimori ) です。 前回の記事で、AWS の構成管理を一枚にまとめた「できることマップ」を紹介しました。 今回はその中身の話です。AWS Config と AWS CloudTrail で何ができるのかを、「やりたいこと」から整理してみます。 まずは役割分担 AWS Config と AWS CloudTrail は、記録するものが違います。 AWS Config：何が・どう変わったか（リソースの設定を記録して、ルールで判定する） AWS CloudTrail：誰が・いつ操作したか（API 操作を記録する） AWS Config だけでは誰がやったかが分かりませんし、AWS CloudTrail だけでは設定が結果的にどうなったかを追いにくいです。構成管理では、この2つをセットで使います。 AWS Config でできること AWS Config の機能は、「記録する」と「判定する」に分けると整理しやすいです。マップでも上段を「記録する」、下段を「判定する」にしています。 記録する 機能 できること"
+      },
+      {
+        "id": "qiita:684aa76d7be62643df5e2e6e",
+        "source": "qiita",
+        "author_tags": [
+          "脆弱性",
+          "情報セキュリティ",
+          "Security",
+          "脆弱性管理",
+          "脆弱性対応"
+        ],
+        "url": "https://qiita.com/nxf_owl/items/8d47b98c01c1b01c4a56",
+        "title": "脆弱性の勉強会: 基礎知識編",
+        "author": "nxf_owl",
+        "published_at": "2026-11-03T23:26:31+09:00",
+        "excerpt": "1. はじめに 昨今、AI の成長により、脆弱性の発見件数は過去最大となり、世界各地で毎日のようにセキュリティインシデントの報告がある時代となりました。 先日の PHP の脆弱性 CVE-2026-109618 / CVE-2026-109619 では、複合的な理由で広く話題となり、日本政府からも注意喚起が行われるといった、今までにないような事態となりました。 2026年に採番された CVE ID は過去最大となり、2026年10月時点で、2025年と比較して2倍以上の CVE ID が採番されています。 CVE Tracker より このように、脆弱性が多数発見され、セキュリティインシデントによる被害が拡大していることを受け、脆弱性対応の重要性が高まってきています。 本記事では、昨今話題となっている脆弱性について、これまであまり脆弱性に触れてこなかった方が、脆弱性について勉強ができるよう脆弱性の基本について解説していきます。 [この記事の対象読者] * 情報システム / IT運用の担当者 * セキュリティ業務の新任担当者 * 開発・インフラの若"
+      },
+      {
         "id": "qiita:efaf432f16b18bfe2d92e892",
         "source": "qiita",
         "author_tags": [
@@ -24818,6 +24896,66 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4889f8a6d6be839a1d1cfac6",
+        "source": "medium",
+        "author_tags": [
+          "binance",
+          "economy",
+          "cybersecurity",
+          "india",
+          "cryptocurrency"
+        ],
+        "url": "https://medium.com/@patelkirtan9638/how-one-security-breach-shook-global-cryptocurrency-markets-and-exposed-economic-vulnerabilities-d13133f89fae",
+        "title": "How One Security Breach Shook Global Cryptocurrency Markets and Exposed Economic Vulnerabilities",
+        "author": "Patel kirtan",
+        "published_at": "2026-11-03T15:29:25+00:00",
+        "excerpt": "The Binance cyberattack revealed how deeply connected cryptocurrency markets have become, why disruption can spread across borders, and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d1cf5146c3970dc263aa3d3e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "web-development",
+          "malware",
+          "website-security",
+          "wordpress"
+        ],
+        "url": "https://medium.com/@jannatnidhi.0505/how-to-know-if-your-wordpress-site-has-malware-8-warning-signs-free-checks-070ae41f3b4e",
+        "title": "How to Know If Your WordPress Site Has Malware: 8 Warning Signs + Free Checks",
+        "author": "Jannat Nidhi",
+        "published_at": "2026-11-03T15:28:16+00:00",
+        "excerpt": "Your site can look completely normal and still be compromised. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:afd004080f8dd0b80dd77604",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@reliabix88/cloud-security-and-cyber-resilience-a-practical-guide-for-modern-businesses-518d980a8142",
+        "title": "Cloud Security and Cyber Resilience: A Practical Guide for Modern Businesses",
+        "author": "Reliabix",
+        "published_at": "2026-11-03T15:05:57+00:00",
+        "excerpt": "Cloud computing enables flexibility, collaboration, and scale. But protecting cloud-based systems requires deliberate planning and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8d072f6a23a8d6b3ac35dd4b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "vpn",
+          "malware",
+          "phishing",
+          "dns"
+        ],
+        "url": "https://medium.com/@MarkKreitzman/email-spoofing-is-the-1-threat-ed45381d44d1",
+        "title": "Email Spoofing is the #1 Threat",
+        "author": "Mark Kreitzman",
+        "published_at": "2026-11-03T15:02:11+00:00",
+        "excerpt": "Here’s a question most people never think to ask: When you receive an email that looks like it came from your bank, your doctor’s office… Continue reading on Medium »"
+      },
       {
         "id": "medium:2c948dff29fdccff032c8fec",
         "source": "medium",
