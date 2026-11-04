@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-04T15:12:44.685481+00:00",
-  "as_of": "2026-11-04T15:00:00+00:00",
-  "catalog_count": 21746,
+  "generated_at": "2026-11-04T17:12:49.983732+00:00",
+  "as_of": "2026-11-04T17:00:00+00:00",
+  "catalog_count": 21757,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,153 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:2aa562b9b67846cbbe194207",
+      "permalink_id": "article-url-2aa562b9b67846cbbe194207",
+      "canonical_url": "https://therecord.media/ukraine-kyiv-independent-cyberattack",
+      "title": "Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
+      "summary_excerpt": "A suspected Russian cyberattack disrupted the website of The Kyiv Independent, one of Ukraine’s leading English-language news outlets.",
+      "published_at": "2026-11-05T01:15:00+09:00",
+      "first_seen_at": "2026-11-05T01:26:39.360961+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:fa171f2093da9a4b673da085",
+      "permalink_id": "article-url-fa171f2093da9a4b673da085",
+      "canonical_url": "https://www.cybersecuritydive.com/news/ai-security-governance-spending-dnsfilter/873725/",
+      "title": "Companies spending more on cybersecurity but still struggling with AI oversight",
+      "summary_excerpt": "Shadow AI remains a persistent problem, even as IT and security budgets grow, according to a new report.",
+      "published_at": "2026-11-05T00:36:43+09:00",
+      "first_seen_at": "2026-11-05T01:38:57.275069+09:00",
+      "source_name": "Cybersecurity Dive",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:646c23c08481b93b79dfa198",
+      "permalink_id": "article-url-646c23c08481b93b79dfa198",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+      "summary_excerpt": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
+      "published_at": "2026-11-05T00:00:10+09:00",
+      "first_seen_at": "2026-11-05T00:38:25.814861+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:5a5c50e4b18c4c73a60f3c5d",
+      "permalink_id": "article-url-5a5c50e4b18c4c73a60f3c5d",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/slippynunchucks-sogou-dns-hijacking/",
+      "title": "China-Aligned Group Abuses Sogou Input Method to Deliver Malware",
+      "summary_excerpt": "SlippyNunchucks used DNS hijacking to turn Sogou brand promotions into a malware channel",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "first_seen_at": "2026-11-05T00:30:34.665614+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c630f4fcef44ce416cb4e881",
+      "permalink_id": "article-url-c630f4fcef44ce416cb4e881",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/apt29-watering-hole-mobile-devices-n-day-exploits/",
+      "title": "Russian hackers target iOS and Android users with n-day exploits",
+      "summary_excerpt": "Russia’s APT29 has been using compromised websites, lookalike domains and a hijacked web analytics service to target iOS and Android users with exploits for patched flaws and steal their cookies, messages and Wi-Fi passwords, according to Sekoia. APT29 watering holes target mobile devices with n-day exploits (Source: Sekoia) The company’s Threat Detection & Research (TDR) team spotted the operation in mid-October 2026. “This watering hole campaign, which we assess with moderate to high confidence to … More → The post Russian hackers target iOS and Android users with n-day exploits appeared fir",
+      "published_at": "2026-11-04T23:38:37+09:00",
+      "first_seen_at": "2026-11-05T00:30:08.740845+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [
+        "APT29"
+      ],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:241e60b7d6eb686743aa6a42",
       "permalink_id": "article-url-241e60b7d6eb686743aa6a42",
@@ -159,139 +306,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4d7f634b7425027fe1dadabe",
-      "permalink_id": "article-url-4d7f634b7425027fe1dadabe",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/",
-      "title": "APT29 Watering Holes Target Unpatched iPhones and Android Devices",
-      "summary_excerpt": "APT29 compromised Ukrainian analytics tracker Plerdy to serve n-day exploits to mobile users",
-      "published_at": "2026-11-04T23:00:00+09:00",
-      "first_seen_at": "2026-11-04T23:39:11.646160+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [
-        "APT29"
-      ],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6007a02c4f560720f0d58f02",
-      "permalink_id": "article-url-6007a02c4f560720f0d58f02",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/",
-      "title": "Cyberattack hits French blood banks",
-      "summary_excerpt": "Three blood banks have detected and reversed a potentially destructive temperature spike in their cold rooms, following a cyberattack that targeted a refrigeration equipment provider of the French Blood Establishment (EFS), the only civilian blood collection and transfusion organization in France. Monitoring systems caught the anomalies in time “Although the EFS was not directly targeted by this cybersecurity incident, anomalies were reported, resulting in changes to the operating parameters of cold rooms equipped with the … More → The post Cyberattack hits French blood banks appeared first on",
-      "published_at": "2026-11-04T22:36:50+09:00",
-      "first_seen_at": "2026-11-04T23:39:04.161937+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b7de05e5dabf990dead022d8",
-      "permalink_id": "article-url-b7de05e5dabf990dead022d8",
-      "canonical_url": "https://isc.sans.edu/diary/33488",
-      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
-      "summary_excerpt": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.",
-      "published_at": "2026-11-04T22:24:13+09:00",
-      "first_seen_at": "2026-11-04T22:27:24.140582+09:00",
-      "source_name": "SANS Internet Storm Center",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2000-0411"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 55.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:d92267ddec9a3b3883c3910d",
-      "permalink_id": "article-url-d92267ddec9a3b3883c3910d",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-      "title": "US charges two Canadians accused of hacking US universities",
-      "summary_excerpt": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
-      "published_at": "2026-11-04T22:13:20+09:00",
-      "first_seen_at": "2026-11-04T23:26:15.685971+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f8bd91a9f445bfbf3b5f18cf",
-      "permalink_id": "article-url-f8bd91a9f445bfbf3b5f18cf",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/france-blood-service-cyberattack/",
-      "title": "France Blood Service Cyber-Attack Sends Blood Storage Temperatures to 110°C",
-      "summary_excerpt": "A supplier of the French National Blood Service was hit by a cyber-attack in which hackers turned cold rooms hosting blood samples up to 110°C (230°F)",
-      "published_at": "2026-11-04T21:52:00+09:00",
-      "first_seen_at": "2026-11-04T23:39:17.329532+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -318,6 +332,151 @@
       ],
       "cves": [
         "CVE-2026-58868"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:86d504bceaa956f971750925",
+      "permalink_id": "article-url-86d504bceaa956f971750925",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-874/",
+      "title": "ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121742.",
+      "published_at": "2026-11-04T15:00:00+09:00",
+      "first_seen_at": "2026-11-05T01:55:49.888393+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-121742"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:3f092ef7d75578c784e49722",
+      "permalink_id": "article-url-3f092ef7d75578c784e49722",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-873/",
+      "title": "ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121743.",
+      "published_at": "2026-11-04T15:00:00+09:00",
+      "first_seen_at": "2026-11-05T01:55:47.988273+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-121743"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:b5938e83b8a1b28a0ca739a1",
+      "permalink_id": "article-url-b5938e83b8a1b28a0ca739a1",
+      "canonical_url": "http://www.zerodayinitiative.com/advisories/ZDI-26-872/",
+      "title": "ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121753.",
+      "published_at": "2026-11-04T15:00:00+09:00",
+      "first_seen_at": "2026-11-05T01:55:37.935331+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-121753"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:ff427445f12ceae8a3cb1271",
+      "permalink_id": "article-url-ff427445f12ceae8a3cb1271",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-871/",
+      "title": "ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121752.",
+      "published_at": "2026-11-04T15:00:00+09:00",
+      "first_seen_at": "2026-11-05T01:55:32.904376+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-121752"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:0014f2b9c67269e56724559c",
+      "permalink_id": "article-url-0014f2b9c67269e56724559c",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-870/",
+      "title": "ZDI-26-870: (0Day) Ashlar-Vellum Cobalt XE File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121744.",
+      "published_at": "2026-11-04T15:00:00+09:00",
+      "first_seen_at": "2026-11-05T01:55:14.784752+09:00",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "source_class": "enrichment_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-121744"
       ],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -425,140 +584,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:238c6f68f4eabcc1b30a32b7",
-      "permalink_id": "article-url-238c6f68f4eabcc1b30a32b7",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/04/2000002852/",
-      "title": "セブン-イレブン「7NOW」の利用者情報16万件超漏えい　配達委託先に不正アクセス、出前館でも約800件",
-      "summary_excerpt": "登録ドライバーから条件に合う人を選び、配送を依頼できるプラットフォーム「ピックゴー」が不正アクセスを受けた。",
-      "published_at": "2026-11-04T09:09:00+09:00",
-      "first_seen_at": "2026-11-04T10:27:52.593779+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2765c964a020d980c566960f",
-      "permalink_id": "article-url-2765c964a020d980c566960f",
-      "canonical_url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
-      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-      "summary_excerpt": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek .",
-      "published_at": "2026-11-04T23:24:54+09:00",
-      "first_seen_at": "2026-11-04T23:55:58.184605+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b785d96740ad3e221172c3ac",
-      "permalink_id": "article-url-b785d96740ad3e221172c3ac",
-      "canonical_url": "https://therecord.media/russia-cyberattack-beget-cloud",
-      "title": "Cyberattack wipes cloud data at major Russian hosting provider Beget",
-      "summary_excerpt": "A major Russian web hosting provider is struggling to restore its services after a cyberattack destroyed data across its cloud infrastructure and disrupted hundreds of websites.",
-      "published_at": "2026-11-04T23:00:00+09:00",
-      "first_seen_at": "2026-11-04T23:39:26.033389+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:6007a02c4f560720f0d58f02",
-      "permalink_id": "article-url-6007a02c4f560720f0d58f02",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/",
-      "title": "Cyberattack hits French blood banks",
-      "summary_excerpt": "Three blood banks have detected and reversed a potentially destructive temperature spike in their cold rooms, following a cyberattack that targeted a refrigeration equipment provider of the French Blood Establishment (EFS), the only civilian blood collection and transfusion organization in France. Monitoring systems caught the anomalies in time “Although the EFS was not directly targeted by this cybersecurity incident, anomalies were reported, resulting in changes to the operating parameters of cold rooms equipped with the … More → The post Cyberattack hits French blood banks appeared first on",
-      "published_at": "2026-11-04T22:36:50+09:00",
-      "first_seen_at": "2026-11-04T23:39:04.161937+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f8bd91a9f445bfbf3b5f18cf",
-      "permalink_id": "article-url-f8bd91a9f445bfbf3b5f18cf",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/france-blood-service-cyberattack/",
-      "title": "France Blood Service Cyber-Attack Sends Blood Storage Temperatures to 110°C",
-      "summary_excerpt": "A supplier of the French National Blood Service was hit by a cyber-attack in which hackers turned cold rooms hosting blood samples up to 110°C (230°F)",
-      "published_at": "2026-11-04T21:52:00+09:00",
-      "first_seen_at": "2026-11-04T23:39:17.329532+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -1030,17 +1055,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Sysdig Adds Runtime Security and Governance for AI Agents",
+    "【LATEST #1】Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
     "【HOTTEST #1 / Heat 67.5】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "【LATEST #2】Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-    "【HOTTEST #2 / Heat 67.5】ZDI-26-869: MailEnable Save Directory Traversal Arbitrary File Creation Vulnerability",
-    "【LATEST #3】BlueFlag Security adds controls for AI agents working under developer identities",
-    "【HOTTEST #3 / Heat 65.7】What AI-generated malware looks like under the microscope",
-    "【LATEST #4】Agentic Data Security Firm Sentra Raises $150 Million",
-    "【HOTTEST #4 / Heat 65.7】ビックカメラG、メールアドレスなど約1490万件漏えいの可能性　委託先への不正アクセスで",
-    "【LATEST #5】Cyberattack wipes cloud data at major Russian hosting provider Beget",
-    "【HOTTEST #5 / Heat 65.7】アソビュー、会員情報1582万件流出　最終ログイン日や利用施設も　メール委託先・アララ不正アクセスで"
+    "【LATEST #2】Companies spending more on cybersecurity but still struggling with AI oversight",
+    "【HOTTEST #2 / Heat 67.5】ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+    "【LATEST #3】Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+    "【HOTTEST #3 / Heat 67.5】ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "【LATEST #4】China-Aligned Group Abuses Sogou Input Method to Deliver Malware",
+    "【HOTTEST #4 / Heat 67.5】ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+    "【LATEST #5】Russian hackers target iOS and Android users with n-day exploits",
+    "【HOTTEST #5 / Heat 67.5】ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ],
-  "last_published_at": "2026-11-05T00:16:37.576432+09:00",
-  "publication_slot_jst": "2026-11-05T00:00:00+09:00"
+  "last_published_at": "2026-11-05T02:16:47.119373+09:00",
+  "publication_slot_jst": "2026-11-05T02:00:00+09:00"
 }
