@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-04T12:13:37.284300+00:00",
-  "as_of": "2026-11-04T12:00:00+00:00",
-  "catalog_count": 21726,
+  "generated_at": "2026-11-04T13:13:02.394357+00:00",
+  "as_of": "2026-11-04T13:00:00+00:00",
+  "catalog_count": 21731,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,156 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:c401bb54ceffe967aab57c88",
+      "permalink_id": "article-url-c401bb54ceffe967aab57c88",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+      "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+      "published_at": "2026-11-04T21:11:05+09:00",
+      "first_seen_at": "2026-11-04T21:30:19.439873+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7c0f302752b5e32815c9309b",
+      "permalink_id": "article-url-7c0f302752b5e32815c9309b",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/3am-ransomware-hybrid-ai-uk-school/",
+      "title": "3AM Ransomware Used Human-AI Hybrid Tactics in UK School Estate Compromise",
+      "summary_excerpt": "Bitdefender highlighted a unique human-AI approach during a September attack on a UK school estate, which resulted in financial data being exfiltrated",
+      "published_at": "2026-11-04T21:00:00+09:00",
+      "first_seen_at": "2026-11-04T21:38:38.426342+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2f65dd176140a8178b92f80f",
+      "permalink_id": "article-url-2f65dd176140a8178b92f80f",
+      "canonical_url": "https://www.theregister.com/security/2026/11/04/cyberattack-on-french-plasma-stores-is-enough-to-make-your-blood-boil/5307519",
+      "title": "Cyberattack on French plasma stores is enough to make your blood boil",
+      "summary_excerpt": "Attackers reportedly set cold-room controls to 110°C, but safeguards prevented stock losses",
+      "published_at": "2026-11-04T20:56:54+09:00",
+      "first_seen_at": "2026-11-04T21:54:29.448010+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6cb0374f8d770396a4dc38d2",
+      "permalink_id": "article-url-6cb0374f8d770396a4dc38d2",
+      "canonical_url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "summary_excerpt": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
+      "published_at": "2026-11-04T20:34:20+09:00",
+      "first_seen_at": "2026-11-04T21:30:47.628726+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:73251ea6fbbb96512bbb93a4",
+      "permalink_id": "article-url-73251ea6fbbb96512bbb93a4",
+      "canonical_url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "summary_excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
+      "published_at": "2026-11-04T20:24:31+09:00",
+      "first_seen_at": "2026-11-04T21:30:48.168519+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:4aaaceaecb4f90852b2bfd1f",
       "permalink_id": "article-url-4aaaceaecb4f90852b2bfd1f",
@@ -137,140 +287,6 @@
       "seen_in_kev": false,
       "heat_score": 45.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9243e4545523c773ec07b429",
-      "permalink_id": "article-url-9243e4545523c773ec07b429",
-      "canonical_url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-      "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-      "summary_excerpt": "Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers. The post Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist appeared first on SecurityWeek .",
-      "published_at": "2026-11-04T19:36:32+09:00",
-      "first_seen_at": "2026-11-04T19:53:55.378069+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:39505c96adbf3e9365c9ea9c",
-      "permalink_id": "article-url-39505c96adbf3e9365c9ea9c",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/binance-hack-north-korea-fake-job-interview/",
-      "title": "Fake job interview opened the door to $6.34 billion Binance heist",
-      "summary_excerpt": "A tampered software installer and a fake job interview gave attackers the access they needed to steal about $6.34 billion in digital assets from Binance. “It was not a single isolated breach or a simple phishing incident,” Binance wrote in its incident report. “The attackers combined a range of techniques, including social engineering by fake recruitment interviews, malicious software downloads, compromised internal AI tooling, endpoint compromise, and an advanced transaction-authorisation method.” The money left Binance … More → The post Fake job interview opened the door to $6.34 billion Bin",
-      "published_at": "2026-11-04T19:29:48+09:00",
-      "first_seen_at": "2026-11-04T20:39:58.811705+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e3fd45fd3e304e2ff7ebdfe6",
-      "permalink_id": "article-url-e3fd45fd3e304e2ff7ebdfe6",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-      "summary_excerpt": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
-      "published_at": "2026-11-04T18:39:54+09:00",
-      "first_seen_at": "2026-11-04T18:54:06.984451+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:444f2356a61d1663460f5b83",
-      "permalink_id": "article-url-444f2356a61d1663460f5b83",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/04/2000002885/",
-      "title": "無印良品、クレカ「MUJI Card」カード番号全ケタ、約109万件漏えいか　不正アクセスで続報",
-      "summary_excerpt": "「無印良品」を展開する良品計画は11月4日、10月30日に公表した公式アプリ「MUJIアプリ」への不正アクセスについて、当初は対象外としていたクレジットカード情報や氏名、住所なども外部からアクセスされた可能性があると発表した。新たに判明した対象には、クレジットカード「MUJI Card」のカード番号全桁を含む会員情報約109万件などが含まれる。",
-      "published_at": "2026-11-04T18:33:11+09:00",
-      "first_seen_at": "2026-11-04T19:37:15.626722+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7151179371b8b793e622125e",
-      "permalink_id": "article-url-7151179371b8b793e622125e",
-      "canonical_url": "https://www.itpro.com/security/a-quarter-of-security-vulnerabilities-are-never-fully-fixed-and-ai-is-compounding-the-problem",
-      "title": "Why a quarter of security flaws are never fully fixed",
-      "summary_excerpt": "A new study warns against delegating flaw fixes to AI when human staff are still struggling to understand what's wrong",
-      "published_at": "2026-11-04T17:24:06+09:00",
-      "first_seen_at": "2026-11-04T18:25:36.034020+09:00",
-      "source_name": "ITPro Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -333,74 +349,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 73.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7dbe7b40d9ccf41ef08a1da7",
-      "permalink_id": "article-url-7dbe7b40d9ccf41ef08a1da7",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/",
-      "title": "Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
-      "summary_excerpt": "Attackers are exploiting an authentication flaw (CVE-2026-58115) in Node-RED, a programming tool built into some industrial control products, to install a Linux bot and backdoors on unprotected servers, VulnCheck has found. Node-RED is a flow-based programming tool built on Node.js that lets users wire together event-driven applications in a browser-based editor. It can run on small devices such as the Raspberry Pi or in the cloud, and it is used in manufacturing, healthcare, and home … More → The post Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115) ",
-      "published_at": "2026-11-03T21:59:51+09:00",
-      "first_seen_at": "2026-11-03T22:26:39.329305+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [
-        "CVE-2026-58115"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:53ca9309f14b041c6790e4ee",
-      "permalink_id": "article-url-53ca9309f14b041c6790e4ee",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary_excerpt": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-119977 WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the",
-      "published_at": "2026-11-03T21:00:00+09:00",
-      "first_seen_at": "2026-11-04T08:38:50.217999+09:00",
-      "source_name": "CISA Cybersecurity Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-119977"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -467,6 +415,124 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:c401bb54ceffe967aab57c88",
+      "permalink_id": "article-url-c401bb54ceffe967aab57c88",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+      "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+      "published_at": "2026-11-04T21:11:05+09:00",
+      "first_seen_at": "2026-11-04T21:30:19.439873+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7c0f302752b5e32815c9309b",
+      "permalink_id": "article-url-7c0f302752b5e32815c9309b",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/3am-ransomware-hybrid-ai-uk-school/",
+      "title": "3AM Ransomware Used Human-AI Hybrid Tactics in UK School Estate Compromise",
+      "summary_excerpt": "Bitdefender highlighted a unique human-AI approach during a September attack on a UK school estate, which resulted in financial data being exfiltrated",
+      "published_at": "2026-11-04T21:00:00+09:00",
+      "first_seen_at": "2026-11-04T21:38:38.426342+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:2f65dd176140a8178b92f80f",
+      "permalink_id": "article-url-2f65dd176140a8178b92f80f",
+      "canonical_url": "https://www.theregister.com/security/2026/11/04/cyberattack-on-french-plasma-stores-is-enough-to-make-your-blood-boil/5307519",
+      "title": "Cyberattack on French plasma stores is enough to make your blood boil",
+      "summary_excerpt": "Attackers reportedly set cold-room controls to 110°C, but safeguards prevented stock losses",
+      "published_at": "2026-11-04T20:56:54+09:00",
+      "first_seen_at": "2026-11-04T21:54:29.448010+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:73251ea6fbbb96512bbb93a4",
+      "permalink_id": "article-url-73251ea6fbbb96512bbb93a4",
+      "canonical_url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "summary_excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
+      "published_at": "2026-11-04T20:24:31+09:00",
+      "first_seen_at": "2026-11-04T21:30:48.168519+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:5ca5aec82b6ee0b4c0ce60ed",
       "permalink_id": "article-url-5ca5aec82b6ee0b4c0ce60ed",
       "canonical_url": "https://www.itpro.com/security/ransomware/cyber-researchers-issue-warning-over-hybrid-ai-ransomware-capabilities-after-attacks-on-schools",
@@ -492,54 +558,6 @@
           "label": "Ransomware"
         }
       ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:e3fd45fd3e304e2ff7ebdfe6",
-      "permalink_id": "article-url-e3fd45fd3e304e2ff7ebdfe6",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-      "summary_excerpt": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
-      "published_at": "2026-11-04T18:39:54+09:00",
-      "first_seen_at": "2026-11-04T18:54:06.984451+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:444f2356a61d1663460f5b83",
-      "permalink_id": "article-url-444f2356a61d1663460f5b83",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/04/2000002885/",
-      "title": "無印良品、クレカ「MUJI Card」カード番号全ケタ、約109万件漏えいか　不正アクセスで続報",
-      "summary_excerpt": "「無印良品」を展開する良品計画は11月4日、10月30日に公表した公式アプリ「MUJIアプリ」への不正アクセスについて、当初は対象外としていたクレジットカード情報や氏名、住所なども外部からアクセスされた可能性があると発表した。新たに判明した対象には、クレジットカード「MUJI Card」のカード番号全桁を含む会員情報約109万件などが含まれる。",
-      "published_at": "2026-11-04T18:33:11+09:00",
-      "first_seen_at": "2026-11-04T19:37:15.626722+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -581,6 +599,33 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 1.1,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:cd3e7a4a35c26cc89906f491",
+      "permalink_id": "article-url-cd3e7a4a35c26cc89906f491",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/rapidfort-runtime-container-profiling/",
+      "title": "Secure your containers without breaking what works",
+      "summary_excerpt": "Container security has a familiar problem. Teams identify vulnerabilities, but turning those findings into lower risk is much harder. A standard container image may include operating-system packages, development tools, debugging utilities and libraries that an application never uses. Each unnecessary component can expand the attack surface and add vulnerabilities to investigate, patch or explain during an audit. Consider an NGINX image that contains 274 categorized vulnerabilities straight from download. Scanning makes those findings visible, but … More → The post Secure your containers withou",
+      "published_at": "2026-11-04T15:00:34+09:00",
+      "first_seen_at": "2026-11-04T15:26:56.839031+09:00",
+      "source_name": "Help Net Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "defense_ops",
+      "public_tags": [
+        {
+          "color_family": "blue",
+          "key": "defense_ops",
+          "label": "Defense & Ops"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 47.7,
       "published_at_future_suppressed": false
     },
     {
@@ -956,17 +1001,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Poisoned cPGuard update hits thousands of web hosting servers",
+    "【LATEST #1】CISA flags WordPress RCE flaw as actively exploited in attacks",
     "【HOTTEST #1 / Heat 75】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "【LATEST #2】What If Your Security Teams Could See Into The Future?",
+    "【LATEST #2】3AM Ransomware Used Human-AI Hybrid Tactics in UK School Estate Compromise",
     "【HOTTEST #2 / Heat 73】What AI-generated malware looks like under the microscope",
-    "【LATEST #3】Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
-    "【HOTTEST #3 / Heat 67.5】Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
-    "【LATEST #4】Cyber researchers issue warning over 'hybrid AI' ransomware capabilities after attacks on schools",
-    "【HOTTEST #4 / Heat 67.5】CISA Adds One Known Exploited Vulnerability to Catalog",
-    "【LATEST #5】Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
-    "【HOTTEST #5 / Heat 65.7】ビックカメラG、メールアドレスなど約1490万件漏えいの可能性　委託先への不正アクセスで"
+    "【LATEST #3】Cyberattack on French plasma stores is enough to make your blood boil",
+    "【HOTTEST #3 / Heat 65.7】ビックカメラG、メールアドレスなど約1490万件漏えいの可能性　委託先への不正アクセスで",
+    "【LATEST #4】Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+    "【HOTTEST #4 / Heat 65.7】アソビュー、会員情報1582万件流出　最終ログイン日や利用施設も　メール委託先・アララ不正アクセスで",
+    "【LATEST #5】China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "【HOTTEST #5 / Heat 65.7】セブン-イレブン「7NOW」の利用者情報16万件超漏えい　配達委託先に不正アクセス、出前館でも約800件"
   ],
-  "last_published_at": "2026-11-04T21:17:55.933174+09:00",
-  "publication_slot_jst": "2026-11-04T21:00:00+09:00"
+  "last_published_at": "2026-11-04T22:17:03.208532+09:00",
+  "publication_slot_jst": "2026-11-04T22:00:00+09:00"
 }
