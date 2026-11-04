@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-04T22:14:27.147986+00:00",
-  "as_of": "2026-11-04T22:00:00+00:00",
-  "catalog_count": 21765,
+  "generated_at": "2026-11-04T23:13:46.043687+00:00",
+  "as_of": "2026-11-04T23:00:00+00:00",
+  "catalog_count": 21769,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,119 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:05d712189c6125345f94caec",
+      "permalink_id": "article-url-05d712189c6125345f94caec",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "summary_excerpt": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+      "published_at": "2026-11-05T06:31:18+09:00",
+      "first_seen_at": "2026-11-05T07:37:55.518156+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:b8bdafeefd7281914ede63a4",
+      "permalink_id": "article-url-b8bdafeefd7281914ede63a4",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "summary_excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+      "published_at": "2026-11-05T05:58:19+09:00",
+      "first_seen_at": "2026-11-05T07:38:01.691177+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:622646b53531b9768bb7d08e",
+      "permalink_id": "article-url-622646b53531b9768bb7d08e",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "summary_excerpt": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+      "published_at": "2026-11-05T04:05:19+09:00",
+      "first_seen_at": "2026-11-05T07:38:07.844034+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:324db880e2c47ea37c6fdd5e",
+      "permalink_id": "article-url-324db880e2c47ea37c6fdd5e",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "summary_excerpt": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
+      "published_at": "2026-11-05T03:02:56+09:00",
+      "first_seen_at": "2026-11-05T07:38:27.918522+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:f72f567cab23b3cbd0eca3dc",
       "permalink_id": "article-url-f72f567cab23b3cbd0eca3dc",
@@ -95,7 +208,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -127,7 +240,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -154,7 +267,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -175,127 +288,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:fa171f2093da9a4b673da085",
-      "permalink_id": "article-url-fa171f2093da9a4b673da085",
-      "canonical_url": "https://www.cybersecuritydive.com/news/ai-security-governance-spending-dnsfilter/873725/",
-      "title": "Companies spending more on cybersecurity but still struggling with AI oversight",
-      "summary_excerpt": "Shadow AI remains a persistent problem, even as IT and security budgets grow, according to a new report.",
-      "published_at": "2026-11-05T00:36:43+09:00",
-      "first_seen_at": "2026-11-05T01:38:57.275069+09:00",
-      "source_name": "Cybersecurity Dive",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
       "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:646c23c08481b93b79dfa198",
-      "permalink_id": "article-url-646c23c08481b93b79dfa198",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-      "summary_excerpt": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
-      "published_at": "2026-11-05T00:00:10+09:00",
-      "first_seen_at": "2026-11-05T00:38:25.814861+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5a5c50e4b18c4c73a60f3c5d",
-      "permalink_id": "article-url-5a5c50e4b18c4c73a60f3c5d",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/slippynunchucks-sogou-dns-hijacking/",
-      "title": "China-Aligned Group Abuses Sogou Input Method to Deliver Malware",
-      "summary_excerpt": "SlippyNunchucks used DNS hijacking to turn Sogou brand promotions into a malware channel",
-      "published_at": "2026-11-05T00:00:00+09:00",
-      "first_seen_at": "2026-11-05T00:30:34.665614+09:00",
-      "source_name": "Infosecurity Magazine",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c630f4fcef44ce416cb4e881",
-      "permalink_id": "article-url-c630f4fcef44ce416cb4e881",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/apt29-watering-hole-mobile-devices-n-day-exploits/",
-      "title": "Russian hackers target iOS and Android users with n-day exploits",
-      "summary_excerpt": "Russia’s APT29 has been using compromised websites, lookalike domains and a hijacked web analytics service to target iOS and Android users with exploits for patched flaws and steal their cookies, messages and Wi-Fi passwords, according to Sekoia. APT29 watering holes target mobile devices with n-day exploits (Source: Sekoia) The company’s Threat Detection & Research (TDR) team spotted the operation in mid-October 2026. “This watering hole campaign, which we assess with moderate to high confidence to … More → The post Russian hackers target iOS and Android users with n-day exploits appeared fir",
-      "published_at": "2026-11-04T23:38:37+09:00",
-      "first_seen_at": "2026-11-05T00:30:08.740845+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [
-        "APT29"
-      ],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -1011,17 +1004,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+    "【LATEST #1】Vercel rolls out new protection against stolen session cookie attacks",
     "【HOTTEST #1 / Heat 67.5】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "【LATEST #2】SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+    "【LATEST #2】Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
     "【HOTTEST #2 / Heat 67.5】ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #3】NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+    "【LATEST #3】DreamHost confirms data breach exposed FTP logins and webmail sessions",
     "【HOTTEST #3 / Heat 67.5】ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-    "【LATEST #4】Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
+    "【LATEST #4】Cyberattack disrupts blood storage refrigeration systems in France",
     "【HOTTEST #4 / Heat 67.5】ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #5】Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
+    "【LATEST #5】Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
     "【HOTTEST #5 / Heat 67.5】ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ],
-  "last_published_at": "2026-11-05T07:19:14.732971+09:00",
-  "publication_slot_jst": "2026-11-05T07:00:00+09:00"
+  "last_published_at": "2026-11-05T08:17:54.496625+09:00",
+  "publication_slot_jst": "2026-11-05T08:00:00+09:00"
 }
