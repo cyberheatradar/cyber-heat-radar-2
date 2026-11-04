@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-04T17:12:49.983732+00:00",
-  "as_of": "2026-11-04T17:00:00+00:00",
-  "catalog_count": 21757,
+  "generated_at": "2026-11-04T18:12:45.634233+00:00",
+  "as_of": "2026-11-04T18:00:00+00:00",
+  "catalog_count": 21760,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,38 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:94833255da64ec919226ced6",
+      "permalink_id": "article-url-94833255da64ec919226ced6",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+      "summary_excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
+      "published_at": "2026-11-05T01:58:46+09:00",
+      "first_seen_at": "2026-11-05T02:29:24.689225+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:2aa562b9b67846cbbe194207",
       "permalink_id": "article-url-2aa562b9b67846cbbe194207",
@@ -35,6 +67,27 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:096e4f5225026f138bc47f88",
+      "permalink_id": "article-url-096e4f5225026f138bc47f88",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "title": "mSecure password manager hack prompts password reset warnings",
+      "summary_excerpt": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
+      "published_at": "2026-11-05T01:00:18+09:00",
+      "first_seen_at": "2026-11-05T02:29:25.881425+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
       "published_at_future_suppressed": false
     },
     {
@@ -246,65 +299,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b9ff00e819fbe7e1ee606a3f",
-      "permalink_id": "article-url-b9ff00e819fbe7e1ee606a3f",
-      "canonical_url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
-      "title": "Agentic Data Security Firm Sentra Raises $150 Million",
-      "summary_excerpt": "The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek .",
-      "published_at": "2026-11-04T23:09:20+09:00",
-      "first_seen_at": "2026-11-04T23:55:58.370520+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b785d96740ad3e221172c3ac",
-      "permalink_id": "article-url-b785d96740ad3e221172c3ac",
-      "canonical_url": "https://therecord.media/russia-cyberattack-beget-cloud",
-      "title": "Cyberattack wipes cloud data at major Russian hosting provider Beget",
-      "summary_excerpt": "A major Russian web hosting provider is struggling to restore its services after a cyberattack destroyed data across its cloud infrastructure and disrupted hundreds of websites.",
-      "published_at": "2026-11-04T23:00:00+09:00",
-      "first_seen_at": "2026-11-04T23:39:26.033389+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -1055,17 +1049,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
+    "【LATEST #1】NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
     "【HOTTEST #1 / Heat 67.5】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "【LATEST #2】Companies spending more on cybersecurity but still struggling with AI oversight",
+    "【LATEST #2】Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
     "【HOTTEST #2 / Heat 67.5】ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #3】Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+    "【LATEST #3】mSecure password manager hack prompts password reset warnings",
     "【HOTTEST #3 / Heat 67.5】ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-    "【LATEST #4】China-Aligned Group Abuses Sogou Input Method to Deliver Malware",
+    "【LATEST #4】Companies spending more on cybersecurity but still struggling with AI oversight",
     "【HOTTEST #4 / Heat 67.5】ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #5】Russian hackers target iOS and Android users with n-day exploits",
+    "【LATEST #5】Google Calendar phishing campaign hijacks sessions, bypasses MFA",
     "【HOTTEST #5 / Heat 67.5】ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ],
-  "last_published_at": "2026-11-05T02:16:47.119373+09:00",
-  "publication_slot_jst": "2026-11-05T02:00:00+09:00"
+  "last_published_at": "2026-11-05T03:16:40.843174+09:00",
+  "publication_slot_jst": "2026-11-05T03:00:00+09:00"
 }
