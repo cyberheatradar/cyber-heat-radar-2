@@ -1,9 +1,71 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-04T02:40:04.614168+00:00",
+  "source_snapshot_generated_at": "2026-11-04T03:40:06.383223+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3eb4377e4befaa70db50a3ff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "建設",
+          "llm",
+          "Leaderboard"
+        ],
+        "url": "https://zenn.dev/onestruction/articles/260c1d42239901",
+        "title": "【建設AI】Construction AI Leaderboardの概要と評価の詳細",
+        "author": "Ryo Kanazawa",
+        "published_at": "2026-11-04T03:30:05.685000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5739a8948906c290119e7fc4",
+        "source": "zenn",
+        "author_tags": [
+          "Nuxt",
+          "Vue.js",
+          "初心者",
+          "frontend",
+          "Security"
+        ],
+        "url": "https://zenn.dev/kipcop/articles/f35-vue-29-frontend-auth",
+        "title": "35日でフロントエンドの基礎を完全に理解する #29 - フロントエンドの認証（トークンの置き場・Cookie属性・OIDC）",
+        "author": "k.ike",
+        "published_at": "2026-11-04T03:22:21.004000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:249ac2db9289b185a37e95e7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Markdown",
+          "editor",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/xueyanz/articles/b77a74f8f9f0a1",
+        "title": "Markdown ファイルを「人と AI エージェントの共有メモ」にする",
+        "author": "XUEYANZ",
+        "published_at": "2026-11-04T03:21:45.158000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4b683c802f65e70b23c36927",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Agent",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/moimoi/articles/claudecode-agents-play-3d-island",
+        "title": "Claude Code を島で30時間遊ばせたら、やさしい世界が爆誕した ― 『Is this machine playing?』",
+        "author": "やさい",
+        "published_at": "2026-11-04T02:47:35.718000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:653eaad78d36b251b2cef2e8",
         "source": "zenn",
@@ -125,6 +187,22 @@
         "title": "【Vol.32】Claude Code がゲームの再現を断るようになった - 手元に見えない変更とどう向きあう？",
         "author": "リアルインベントTechブログ",
         "published_at": "2026-11-04T02:10:16.209000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a6195c9d3f9c113af08014d3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AWS",
+          "d3",
+          "llm",
+          "vLLM"
+        ],
+        "url": "https://zenn.dev/tatsuyaaaaaaa/articles/346b04134937a7",
+        "title": "D3-edgeでLLMを自動選択してみた：vLLM Semantic RouterをAWSで検証",
+        "author": "tatsu",
+        "published_at": "2026-11-04T01:43:23.411000+00:00",
         "excerpt": ""
       },
       {
@@ -18086,6 +18164,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:ff70ebb573c2697e4a104353",
+        "source": "qiita",
+        "author_tags": [
+          "Vue.js",
+          "Nuxt",
+          "フロントエンド",
+          "初心者",
+          "Security"
+        ],
+        "url": "https://qiita.com/iketani45664566/items/199e60bbd127f0e5a36a",
+        "title": "35日でフロントエンドの基礎を完全に理解する #29 - フロントエンドの認証（トークンの置き場・Cookie属性・OIDC）",
+        "author": "iketani45664566",
+        "published_at": "2026-11-04T12:22:27+09:00",
+        "excerpt": "この記事で学ぶこと #28 では、HTMLをいつ・どこで作るか（CSR / SSR / SSG）と、届いたHTMLが動き出すハイドレーションを実測しました。今回はフロントエンドの認証です。#27 のミドルウェアでは「ログインの印としてクッキーの token を見る」とさらっと書きましたが、その印をどこに置くかは、フロントエンドで一番事故が起きやすい設計判断のひとつです。 localStorage とクッキーは何が違うのか、 HttpOnly や SameSite という属性が何を守るのか、全部実測して確かめます。 ログインの印（トークン）の置き場3択（メモリ・localStorage・Cookie）の違いを説明できる HttpOnly / Secure / SameSite の3属性が、それぞれ何から守るかを説明できる 「結局どこに置くか」を、自分のアプリの構成から理由つきで選べる 迷ったら🔴だけ確実に（🔴 覚える、🟡 理屈、⚪ 流す）。 この記事のコードと実行結果は、すべて Node.js 20 の素の http サーバーと curl で実測し"
+      },
+      {
+        "id": "qiita:f1c7fd19f5f5c7327dcf69dd",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/59ee3f5b40531e2f470c",
+        "title": "SafeLine WAF で HTTPS サイトの SSL 証明書を扱う：設定チェックリストとトラブルシューティング",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-04T11:47:07+09:00",
+        "excerpt": "SafeLine WAF で HTTPS サイトの証明書まわりを設定する、という検索意図に答えるため、まず公式ドキュメントに何が書いてあるかを整理します。 SafeLine は Web アプリケーションの手前に置かれて HTTP トラフィックを検査する、自己ホスト型の WAF です。クライアントは最初にこの WAF へ到達し、ポリシーが許可した通信だけがオリジンへ転送されます。これはリバースプロキシとしての動作です（ https://docs.waf.chaitin.com/en/home）。製品紹介には、SQL インジェクション、XSS、コードインジェクション、OS コマンドインジェクション、CRLF インジェクション、LDAP インジェクション、XPath インジェクション、RCE、XXE、SSRF、パストラバーサル、バックドア、ブルートフォース、HTTP フラッド、ボット攻撃への防御が列挙されています。さらに、ボット悪用のプロアクティブ防御、HTML/JavaScript のコード暗号化、IP ベースのレート制限、Web アクセス制御リスト"
+      },
+      {
         "id": "qiita:e313faccb2da886051acdf23",
         "source": "qiita",
         "author_tags": [
@@ -20381,6 +20489,22 @@
         "author": "shalXXXX",
         "published_at": "2026-10-30T17:00:35+09:00",
         "excerpt": "LLM を組み込んだサービスを公開すると、そのサービス自体が攻撃の道具として使われる可能性があります。詐欺メールの文面づくり、偽アカウント向けの大量の文章生成、盗んだ認証情報で動かす攻撃ツールの「頭脳」などです。この記事では、自社サービスが悪用される経路を整理したうえで、利用規約・不正利用の検知・アカウント停止を 1 つの仕組みとして設計する方法を、検証コードとあわせて説明します。 利用規約の書き方は法務の判断も必要です。ここでは技術的な仕組みと、その仕組みを動かすために規約に何が書かれている必要があるかに絞ります。 自社の LLM サービスが悪用される 2 つの経路 悪用は大きく 2 つの経路で起きます。対策が違うので、分けて考えます。 経路 例 主な対策 正規の利用者として登録して悪用する 詐欺・フィッシングの文面生成、偽レビューの量産 利用規約、内容の検査、利用者単位の集計、段階的な停止 他人の認証情報を盗んで使う 漏れた API キーや乗っ取ったアカウントでの利用、アクセスの転売 キーの管理、利用量の異常検知、失効の自動化 1 つめの経路"
+      },
+      {
+        "id": "qiita:fec0f5f34affb30d7c81b4df",
+        "source": "qiita",
+        "author_tags": [
+          "n8n",
+          "LLM",
+          "Docker",
+          "Security",
+          "SRE"
+        ],
+        "url": "https://qiita.com/Nekorock/items/54cdd63922da7bd7531a",
+        "title": "AI セルフホスト 5 製品を公式 compose で立てた直後、最初に来た人が管理者になれたのは n8n と Open WebUI だった",
+        "author": "Nekorock",
+        "published_at": "2026-10-30T16:19:04+09:00",
+        "excerpt": "n8n・Open WebUI・LiteLLM・Langflow・Flowise を、公式の compose ファイルと .env の例のまま起動して確かめました。 製品（版） 立てた直後 例のパスワード n8n 2.44.5 ログインなしで owner を作れる。2 人目は拒否 Postgres が changePassword で入れる Open WebUI 0.12.3 最初にサインアップした人が admin。2 人目は 403 なし LiteLLM 1.106.2 マスターキーが空だと起動を拒否する Postgres が dbpassword9090 で入れる Langflow 1.12.7 自動ログインは既定で無効（403） Postgres が langflow で入れる Flowise 3.1.4 公式の手順では起動しなかった（後述） なし（SQLite） n8n と Open WebUI は、管理者を作るまでの間なら、外から先に来た人が管理者になれます。「まだ誰もいない」ことも、ログインなしの API で分かります。 LiteLLM"
       },
       {
         "id": "qiita:a6889330852e9383bfefc446",
@@ -25893,6 +26017,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:69a9c899ff4c04cfc507030a",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "phishing",
+          "cybersecurity",
+          "security",
+          "information-security"
+        ],
+        "url": "https://medium.com/@pawineellou/%E0%B8%96%E0%B8%AD%E0%B8%94%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA%E0%B8%81%E0%B8%A5%E0%B9%82%E0%B8%81%E0%B8%87-phishing-%E0%B8%A2%E0%B8%B8%E0%B8%84%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%87-%E0%B8%A2%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%95%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%AB%E0%B8%A2%E0%B8%B7%E0%B9%88%E0%B8%AD-751a9c022312",
+        "title": "ถอดรหัสกลโกง Phishing ยุคใหม่: ทำไมยิ่งระวัง ยิ่งตกเป็นเหยื่อ?",
+        "author": "Pawineellou",
+        "published_at": "2026-11-04T03:13:46+00:00",
+        "excerpt": "คุณเคยได้รับ SMS หรืออีเมลทำนองนี้ไหม? Continue reading on Medium »"
+      },
       {
         "id": "medium:eb75da0c9301c66c189fd24f",
         "source": "medium",
