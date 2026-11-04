@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-04T13:13:02.394357+00:00",
-  "as_of": "2026-11-04T13:00:00+00:00",
-  "catalog_count": 21731,
+  "generated_at": "2026-11-04T14:15:03.041618+00:00",
+  "as_of": "2026-11-04T14:00:00+00:00",
+  "catalog_count": 21735,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,62 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:b7de05e5dabf990dead022d8",
+      "permalink_id": "article-url-b7de05e5dabf990dead022d8",
+      "canonical_url": "https://isc.sans.edu/diary/33488",
+      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+      "summary_excerpt": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.",
+      "published_at": "2026-11-04T22:24:13+09:00",
+      "first_seen_at": "2026-11-04T22:27:24.140582+09:00",
+      "source_name": "SANS Internet Storm Center",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2000-0411"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 55.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:6b0e18cde9bb01ab97ef4c06",
+      "permalink_id": "article-url-6b0e18cde9bb01ab97ef4c06",
+      "canonical_url": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-157-fixes-213-security-issues-including-7-critical-flaws",
+      "title": "Chrome 157 fixes 213 security issues, including 7 critical flaws",
+      "summary_excerpt": "Your browser may not have updated itself yet. Here’s how to check your version and install the fix manually.",
+      "published_at": "2026-11-04T21:16:25+09:00",
+      "first_seen_at": "2026-11-04T23:00:47.716626+09:00",
+      "source_name": "Malwarebytes Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:c401bb54ceffe967aab57c88",
       "permalink_id": "article-url-c401bb54ceffe967aab57c88",
@@ -29,6 +85,33 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:96574d6ab9315734f27c557f",
+      "permalink_id": "article-url-96574d6ab9315734f27c557f",
+      "canonical_url": "https://www.itpro.com/security/cyber-attacks/french-blood-service-hit-by-new-cyber-attack-threatening-to-turn-stocks-into-black-pudding",
+      "title": "French blood service hit by cyber attack threatening to turn stocks into “black pudding”",
+      "summary_excerpt": "The attack on cold rooms at Coolworld happened the same night as attacks on fridges in Benelux and Sweden",
+      "published_at": "2026-11-04T21:10:59+09:00",
+      "first_seen_at": "2026-11-04T22:27:16.453002+09:00",
+      "source_name": "ITPro Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
         }
       ],
       "cves": [],
@@ -207,86 +290,6 @@
       "seen_in_kev": false,
       "heat_score": 45.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:43ae5a82ae14f01234dc3a7b",
-      "permalink_id": "article-url-43ae5a82ae14f01234dc3a7b",
-      "canonical_url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
-      "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
-      "summary_excerpt": "Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions. The post Malicious cPGuard Updates Served in OpsShield Supply Chain Attack appeared first on SecurityWeek .",
-      "published_at": "2026-11-04T19:54:48+09:00",
-      "first_seen_at": "2026-11-04T20:28:06.053369+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "supply_chain",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "supply_chain",
-          "label": "Supply Chain"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5ca5aec82b6ee0b4c0ce60ed",
-      "permalink_id": "article-url-5ca5aec82b6ee0b4c0ce60ed",
-      "canonical_url": "https://www.itpro.com/security/ransomware/cyber-researchers-issue-warning-over-hybrid-ai-ransomware-capabilities-after-attacks-on-schools",
-      "title": "Cyber researchers issue warning over 'hybrid AI' ransomware capabilities after attacks on schools",
-      "summary_excerpt": "A campaign by the 3AM ransomware group saw hackers wage AI-automated attacks",
-      "published_at": "2026-11-04T19:42:10+09:00",
-      "first_seen_at": "2026-11-04T20:52:16.698259+09:00",
-      "source_name": "ITPro Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ec6f4fb7e7bbd8520e1ff25b",
-      "permalink_id": "article-url-ec6f4fb7e7bbd8520e1ff25b",
-      "canonical_url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
-      "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
-      "summary_excerpt": "The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues. The post Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical appeared first on SecurityWeek .",
-      "published_at": "2026-11-04T19:38:46+09:00",
-      "first_seen_at": "2026-11-04T19:53:50.198557+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -316,7 +319,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -348,7 +351,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 73.0,
+      "heat_score": 65.7,
       "published_at_future_suppressed": false
     },
     {
@@ -433,6 +436,33 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:96574d6ab9315734f27c557f",
+      "permalink_id": "article-url-96574d6ab9315734f27c557f",
+      "canonical_url": "https://www.itpro.com/security/cyber-attacks/french-blood-service-hit-by-new-cyber-attack-threatening-to-turn-stocks-into-black-pudding",
+      "title": "French blood service hit by cyber attack threatening to turn stocks into “black pudding”",
+      "summary_excerpt": "The attack on cold rooms at Coolworld happened the same night as attacks on fridges in Benelux and Sweden",
+      "published_at": "2026-11-04T21:10:59+09:00",
+      "first_seen_at": "2026-11-04T22:27:16.453002+09:00",
+      "source_name": "ITPro Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
         }
       ],
       "cves": [],
@@ -531,38 +561,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:5ca5aec82b6ee0b4c0ce60ed",
-      "permalink_id": "article-url-5ca5aec82b6ee0b4c0ce60ed",
-      "canonical_url": "https://www.itpro.com/security/ransomware/cyber-researchers-issue-warning-over-hybrid-ai-ransomware-capabilities-after-attacks-on-schools",
-      "title": "Cyber researchers issue warning over 'hybrid AI' ransomware capabilities after attacks on schools",
-      "summary_excerpt": "A campaign by the 3AM ransomware group saw hackers wage AI-automated attacks",
-      "published_at": "2026-11-04T19:42:10+09:00",
-      "first_seen_at": "2026-11-04T20:52:16.698259+09:00",
-      "source_name": "ITPro Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "rising": [
@@ -626,6 +624,38 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 47.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:f1ad69f7612547f2d2e90124",
+      "permalink_id": "article-url-f1ad69f7612547f2d2e90124",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/lindsay-kaye-human-security-ai-generated-malware/",
+      "title": "What AI-generated malware looks like under the microscope",
+      "summary_excerpt": "In this Help Net Security interview, Lindsay Kaye, VP of Threat Intelligence at HUMAN Security, talks about what AI-generated malware looks like on the bench. She points to tidy comments, uniform logging messages, and emojis as signs a script came from a model, and notes that decompiled code strips much of that away. Kaye also covers how AI is squeezing the time teams have to patch, where it helps criminals scale fraud, and why her … More → The post What AI-generated malware looks like under the microscope appeared first on Help Net Security .",
+      "published_at": "2026-11-04T16:00:26+09:00",
+      "first_seen_at": "2026-11-04T16:26:08.265515+09:00",
+      "source_name": "Help Net Security AI News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.7,
       "published_at_future_suppressed": false
     },
     {
@@ -1001,17 +1031,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】CISA flags WordPress RCE flaw as actively exploited in attacks",
-    "【HOTTEST #1 / Heat 75】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "【LATEST #2】3AM Ransomware Used Human-AI Hybrid Tactics in UK School Estate Compromise",
-    "【HOTTEST #2 / Heat 73】What AI-generated malware looks like under the microscope",
-    "【LATEST #3】Cyberattack on French plasma stores is enough to make your blood boil",
+    "【LATEST #1】The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+    "【HOTTEST #1 / Heat 67.5】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "【LATEST #2】Chrome 157 fixes 213 security issues, including 7 critical flaws",
+    "【HOTTEST #2 / Heat 65.7】What AI-generated malware looks like under the microscope",
+    "【LATEST #3】CISA flags WordPress RCE flaw as actively exploited in attacks",
     "【HOTTEST #3 / Heat 65.7】ビックカメラG、メールアドレスなど約1490万件漏えいの可能性　委託先への不正アクセスで",
-    "【LATEST #4】Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+    "【LATEST #4】French blood service hit by cyber attack threatening to turn stocks into “black pudding”",
     "【HOTTEST #4 / Heat 65.7】アソビュー、会員情報1582万件流出　最終ログイン日や利用施設も　メール委託先・アララ不正アクセスで",
-    "【LATEST #5】China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "【LATEST #5】3AM Ransomware Used Human-AI Hybrid Tactics in UK School Estate Compromise",
     "【HOTTEST #5 / Heat 65.7】セブン-イレブン「7NOW」の利用者情報16万件超漏えい　配達委託先に不正アクセス、出前館でも約800件"
   ],
-  "last_published_at": "2026-11-04T22:17:03.208532+09:00",
-  "publication_slot_jst": "2026-11-04T22:00:00+09:00"
+  "last_published_at": "2026-11-04T23:18:55.411935+09:00",
+  "publication_slot_jst": "2026-11-04T23:00:00+09:00"
 }
