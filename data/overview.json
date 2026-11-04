@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-04T18:12:45.634233+00:00",
-  "as_of": "2026-11-04T18:00:00+00:00",
-  "catalog_count": 21760,
+  "generated_at": "2026-11-04T19:13:09.517398+00:00",
+  "as_of": "2026-11-04T19:00:00+00:00",
+  "catalog_count": 21764,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,62 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:f72f567cab23b3cbd0eca3dc",
+      "permalink_id": "article-url-f72f567cab23b3cbd0eca3dc",
+      "canonical_url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "summary_excerpt": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
+      "published_at": "2026-11-05T02:00:46+09:00",
+      "first_seen_at": "2026-11-05T03:23:35.392313+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "supply_chain",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "supply_chain",
+          "label": "Supply Chain"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:28cc7a562c85ad38a67f6487",
+      "permalink_id": "article-url-28cc7a562c85ad38a67f6487",
+      "canonical_url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "summary_excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
+      "published_at": "2026-11-05T02:00:38+09:00",
+      "first_seen_at": "2026-11-05T03:23:40.547053+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-109593"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 55.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:94833255da64ec919226ced6",
       "permalink_id": "article-url-94833255da64ec919226ced6",
@@ -19,6 +75,38 @@
       "published_at": "2026-11-05T01:58:46+09:00",
       "first_seen_at": "2026-11-05T02:29:24.689225+09:00",
       "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:fd6556dfab34e9e2a64d5190",
+      "permalink_id": "article-url-fd6556dfab34e9e2a64d5190",
+      "canonical_url": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
+      "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
+      "summary_excerpt": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
+      "published_at": "2026-11-05T01:24:08+09:00",
+      "first_seen_at": "2026-11-05T03:40:18.081441+09:00",
+      "source_name": "Dark Reading",
       "source_class": "topic_rss",
       "security_relevance": "primary",
       "ai_relevance": "none",
@@ -208,97 +296,6 @@
       ],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:241e60b7d6eb686743aa6a42",
-      "permalink_id": "article-url-241e60b7d6eb686743aa6a42",
-      "canonical_url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
-      "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
-      "summary_excerpt": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek .",
-      "published_at": "2026-11-04T23:34:44+09:00",
-      "first_seen_at": "2026-11-04T23:55:44.895116+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2765c964a020d980c566960f",
-      "permalink_id": "article-url-2765c964a020d980c566960f",
-      "canonical_url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
-      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-      "summary_excerpt": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek .",
-      "published_at": "2026-11-04T23:24:54+09:00",
-      "first_seen_at": "2026-11-04T23:55:58.184605+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:73937000d444d256a101bb98",
-      "permalink_id": "article-url-73937000d444d256a101bb98",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/blueflag-ai-agent-governance/",
-      "title": "BlueFlag Security adds controls for AI agents working under developer identities",
-      "summary_excerpt": "BlueFlag Security has expanded AI Agent Governance that fully maps the access, behavior and oversight of both approved and shadow AI agents, including options for automated risk remediation. Activated within BlueFlag’s pioneering platform, customers can now govern all aspects of AI agents and their relationships with human/machine identities, tools, pipelines and production applications across the software development lifecycle (SDLC). The new capabilities follow the release of BlueFlag’s 2026 State of Developer Identity Risk, a first-of-its … More → The post BlueFlag Security adds controls fo",
-      "published_at": "2026-11-04T23:22:51+09:00",
-      "first_seen_at": "2026-11-04T23:38:31.979374+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -582,41 +579,6 @@
     }
   ],
   "rising": [
-    {
-      "public_article_id": "url:3ac833fb839c0b3442160cf4",
-      "permalink_id": "article-url-3ac833fb839c0b3442160cf4",
-      "canonical_url": "https://blog.qualys.com/category/vulnerabilities-threat-research",
-      "title": "Two Critical PHP Flaws Could Hand Attackers Your Web Servers. Here’s How to Find, Mitigate, and Patch PHP2Shell Now",
-      "summary_excerpt": "Executive Summary PHP2Shell refers to two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619), each with a CVSS v4.0 score of 9.2, that can allow unauthenticated remote code execution on PHP installations serving web requests. Researchers have also demonstrated unauthenticated disclosure of PHP worker memory, which can expose passwords, authentication tokens, and API keys. Cloudflare has already reported […]",
-      "published_at": "2026-09-16T23:15:08+09:00",
-      "first_seen_at": "2026-09-21T17:54:31.589589+09:00",
-      "source_name": "Qualys Blog",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 1.1,
-      "published_at_future_suppressed": false
-    },
     {
       "public_article_id": "url:cd3e7a4a35c26cc89906f491",
       "permalink_id": "article-url-cd3e7a4a35c26cc89906f491",
@@ -1049,17 +1011,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+    "【LATEST #1】Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
     "【HOTTEST #1 / Heat 67.5】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "【LATEST #2】Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
+    "【LATEST #2】SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
     "【HOTTEST #2 / Heat 67.5】ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #3】mSecure password manager hack prompts password reset warnings",
+    "【LATEST #3】NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
     "【HOTTEST #3 / Heat 67.5】ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-    "【LATEST #4】Companies spending more on cybersecurity but still struggling with AI oversight",
+    "【LATEST #4】Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
     "【HOTTEST #4 / Heat 67.5】ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #5】Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+    "【LATEST #5】Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
     "【HOTTEST #5 / Heat 67.5】ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ],
-  "last_published_at": "2026-11-05T03:16:40.843174+09:00",
-  "publication_slot_jst": "2026-11-05T03:00:00+09:00"
+  "last_published_at": "2026-11-05T04:17:17.037418+09:00",
+  "publication_slot_jst": "2026-11-05T04:00:00+09:00"
 }
