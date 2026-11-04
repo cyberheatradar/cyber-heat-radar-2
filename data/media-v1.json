@@ -1,9 +1,39 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-04T06:40:12.588118+00:00",
+  "source_snapshot_generated_at": "2026-11-04T07:40:03.339747+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:08a77f766f7ce0104a066299",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "hooks",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/asumiminori/articles/claude-code-hooks-harness",
+        "title": "CLAUDE.md に書いても守ってくれないので、hook で止めることにした",
+        "author": "nonsenseblve",
+        "published_at": "2026-11-04T07:39:21.565000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cc892d7e9dbcd9c98ad8781d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ChatGPT",
+          "llm",
+          "Claude",
+          "Gemma"
+        ],
+        "url": "https://zenn.dev/daphne/articles/ai-reading-files",
+        "title": "【ゆるっとAI基礎 #3】AIがメモリとかを読みたいと思ったら、どうするの？",
+        "author": "Daphne",
+        "published_at": "2026-11-04T06:59:00+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:a91afaf123e4d703c2b93b85",
         "source": "zenn",
@@ -18335,6 +18365,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5c588ad8757cde511e4b651c",
+        "source": "qiita",
+        "author_tags": [
+          "Snowflake",
+          "dbt",
+          "データガバナンス",
+          "Security",
+          "NKKTechGlobal"
+        ],
+        "url": "https://qiita.com/NKKTechGlobal/items/33284536e109717d289a",
+        "title": "dbt Core × Snowflakeにおける本番データガバナンスとタグベースマスキングの実装設計",
+        "author": "NKKTechGlobal",
+        "published_at": "2026-11-04T16:01:12+09:00",
+        "excerpt": "dbt Core × Snowflakeにおける本番データガバナンスとタグベースマスキングの実装設計 はじめに こんにちは、 NKKTech Global 技術チームです。 Snowflakeとdbt Coreを組み合わせたデータパイプライン運用において、多くのセキュリティ担当者が直面する「落とし穴」があります。 「Snowflake側でせっかくカラムにマスキングポリシーを付与したのに、dbt runが走ったらテーブルが再作成されてポリシーが剥がれてしまった」 「新しいテーブルやカラムが追加されるたびに、手動でSQLを叩いてマスキングを再設定しており、ヒューマンエラーによる情報漏洩（PII漏洩）のリスクが放置されている」 これを根本から解決するのが、Snowflakeの**オブジェクトタグ（Object Tagging） と タグベースマスキングポリシー（Tag-based Masking Policy）**です。 カラム自体ではなく「タグ」に対してマスキングルールを紐付け、dbt側からはYAMLのメタデータ定義を通じてタグを宣言することで、 テ"
+      },
+      {
         "id": "qiita:4330122521f6de676edb939c",
         "source": "qiita",
         "author_tags": [
@@ -26329,6 +26375,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:388b2f2a24741d6c28246d94",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "rewards",
+          "hacking",
+          "cybersecurity",
+          "php2shell"
+        ],
+        "url": "https://aimasterprompt.medium.com/find-a-potential-php2shell-vulnerability-using-a-free-openai-tool-6cb4341c57fe",
+        "title": "Find a Potential PHP2Shell Vulnerability Using a Free OpenAI Tool",
+        "author": "aimaster",
+        "published_at": "2026-11-04T07:11:36+00:00",
+        "excerpt": "How bug bounty hunters can identify potentially vulnerable PHP versions in WordPress websites. Continue reading on Medium »"
+      },
       {
         "id": "medium:2ffeeaf07cace0d507a0ec22",
         "source": "medium",
