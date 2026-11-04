@@ -1,9 +1,53 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-04T05:40:22.702283+00:00",
+  "source_snapshot_generated_at": "2026-11-04T06:40:12.588118+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:a91afaf123e4d703c2b93b85",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "workspaces",
+          "電算システム"
+        ],
+        "url": "https://zenn.dev/densan_techblog/articles/88d754d6ba56bd",
+        "title": "Workspace Studioを投入したら、名刺・アンケート入力業務なくなった話",
+        "author": "こばやし",
+        "published_at": "2026-11-04T06:30:05.684000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ad2b615a40ec1787d86de645",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub",
+          "Security",
+          "Loglass Tech Blog Sprint"
+        ],
+        "url": "https://zenn.dev/loglass/articles/a89a8d4ee86559",
+        "title": "GitHubのruleset移行時に注意したい、environment secretのブランチ保護仕様",
+        "author": "uttttto",
+        "published_at": "2026-11-04T06:26:41.033000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a5ab9deb41e169c602da0332",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "template",
+          "prompt",
+          "Cursor"
+        ],
+        "url": "https://zenn.dev/masafumi_ai/articles/00008-cursor-paste-3lines-template",
+        "title": "Cursorに『全部やって』と頼む前にコピペする3行",
+        "author": "勝文のAI現場",
+        "published_at": "2026-11-04T06:05:45.996000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:618ab0009e68dffd11037e4f",
         "source": "zenn",
@@ -18291,6 +18335,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4330122521f6de676edb939c",
+        "source": "qiita",
+        "author_tags": [
+          "電話番号偽装",
+          "スプーフィング",
+          "Security",
+          "海外",
+          "スマートフォン"
+        ],
+        "url": "https://qiita.com/tech-nami/items/af822497ff4ae8597ad0",
+        "title": "電話番号の偽装はなぜ防げないのか～スプーフィングについて調べてみた",
+        "author": "tech-nami",
+        "published_at": "2026-11-04T15:28:35+09:00",
+        "excerpt": "はじめに スマートフォンに電話がかかってきたとき、画面に警察署や役所の番号が表示されたら、本物からの電話だと思ってしまうかもしれません。しかし、 実在する電話番号を着信画面に表示させる「電話番号の偽装」 が、特殊詐欺に悪用されています。 この問題を調べていて、私は一つの疑問を持ちました。 海外との電話を使わない人なら、海外からの着信を止め、海外への発信も止めておけば、詐欺被害をかなり減らせるのではないか。なぜ、そうした設定を誰もが簡単に選べないのだろうか。 調べてみると、対策はすでに進んでいるようにみえますが、スマートフォンの種類や通信事業者によって、できることに違いがあるようです。この記事では、電話番号偽装とはどのようなしくみでできてしまうのか、また利用者ができる対策、今後スマフォなどを扱う業者に期待したいことを記載します。 1. 電話番号の偽装とは？ 【重要】画面に表示された番号が、本当の発信元とは限らない 電話番号の偽装は 「スプーフィング」 と呼ばれます。電話をかけるとき、相手の画面に表示される発信者番号を偽装する行為です。例えば、海外か"
+      },
+      {
+        "id": "qiita:9a637837a9fee565496517d4",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AI",
+          "脆弱性",
+          "品質管理",
+          "SRE"
+        ],
+        "url": "https://qiita.com/figueiredoluiz/items/4021ff4e6281b73f2d86",
+        "title": "2026年10月はパッチの魔女月だった。お化けが増えたのか、誰かが明かりをつけたのか",
+        "author": "figueiredoluiz",
+        "published_at": "2026-11-04T15:13:13+09:00",
+        "excerpt": "はじめに 2026年10月は、パッチが化けて出た月でした。 最終週だけを切り取っても、CISAはPHPの脆弱性2件（通称「PHP2Shell」）を悪用確認済みカタログ（KEV）に追加しました。Firefox 159は、1つのアドバイザリで167件のCVE（公開された脆弱性に付く識別番号）を公開しています。WordPress 7.1.4は22件の脆弱性を修正しました。月の前半には、MicrosoftのPatch Tuesdayが1,400件を超えました。Oracleの四半期アップデートも1,295件のパッチを出しています。 見出しだけを追えば、「ソフトウェアが壊れ始めた」と読めます。けれど数字を並べてみると、別の姿が見えてきます。 この記事の仮説はこうです。増えたのはバグそのものより、バグを 見つける力 と 数え方 だった。そして本当に問われているのは、それを受け止める プロセス の方だ。 なお、英語で書いた Medium版 を土台に、Qiita向けに再構成しています。 お化けは前から家にいた まずは規模から。CVE Programの四半期データを"
+      },
+      {
         "id": "qiita:cc3fde4f205d3038a96e1a9b",
         "source": "qiita",
         "author_tags": [
@@ -26253,6 +26329,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:2ffeeaf07cace0d507a0ec22",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "password-security",
+          "digital-habit",
+          "online-security",
+          "data-breach"
+        ],
+        "url": "https://medium.com/@tamzidulhaque/the-most-dangerous-thing-about-online-security-isnt-hackers-it-s-our-habits-95cd0b620650",
+        "title": "The Most Dangerous Thing About Online Security Isn’t Hackers — It’s Our Habits",
+        "author": "Tamzidul Haque",
+        "published_at": "2026-11-04T06:10:43+00:00",
+        "excerpt": "Attackers don’t always need clever tricks. They often just walk through doors we leave open with password reuse, quick clicks, delayed… Continue reading on Medium »"
+      },
       {
         "id": "medium:5c70d7ad7f0acc2dc6db015f",
         "source": "medium",
