@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-05T10:14:03.176579+00:00",
-  "as_of": "2026-11-05T10:00:00+00:00",
-  "catalog_count": 21816,
+  "generated_at": "2026-11-05T11:13:53.842758+00:00",
+  "as_of": "2026-11-05T11:00:00+00:00",
+  "catalog_count": 21824,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -38,6 +38,38 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:9fb3d806b5214e2e6b9d7b63",
+      "permalink_id": "article-url-9fb3d806b5214e2e6b9d7b63",
+      "canonical_url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "summary_excerpt": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
+      "published_at": "2026-11-05T17:42:03+09:00",
+      "first_seen_at": "2026-11-05T19:33:12.922261+09:00",
+      "source_name": "The Hacker News",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:8f86cab2adad9e5a49f67f63",
       "permalink_id": "article-url-8f86cab2adad9e5a49f67f63",
       "canonical_url": "https://www.security-next.com/192402",
@@ -52,6 +84,54 @@
       "document_form": "single_story",
       "primary_category": "other",
       "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:c0bacead2f0d022b71e60c04",
+      "permalink_id": "article-url-c0bacead2f0d022b71e60c04",
+      "canonical_url": "https://gigazine.net/news/20261105-french-blood-fridge-cyberattacked/",
+      "title": "フランスの血液保存施設で冷蔵庫の設定を-30℃から110℃に引き上げるサイバー攻撃が発生、迅速な対応で血液製剤は無事",
+      "summary_excerpt": "サイバー攻撃によってスーパーの冷蔵庫が50℃まで加熱されたフランスで、今度は血液の保存施設が標的になったことがわかりました。フランス血液研究所によると外部施設の冷蔵庫で、-30℃に設定されていた温度が110℃に変更されたとのこと。なお、警報を受けて、保存されていた血液製剤やサンプルは他に移されたため、被害は出ませんでした。 続きを読む...",
+      "published_at": "2026-11-05T17:20:00+09:00",
+      "first_seen_at": "2026-11-05T19:30:47.217329+09:00",
+      "source_name": "GIGAZINE",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:fc3ef65ef128a6f7660e5e73",
+      "permalink_id": "article-url-fc3ef65ef128a6f7660e5e73",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002921/",
+      "title": "医療機関のサイバーセキュリティー強化へ　ランサムウエア攻撃で診療への長期影響リスク",
+      "summary_excerpt": "厚生労働省は来年度、医療機関のサイバーセキュリティの大幅な強化を進める方針だ。ランサムウェア攻撃の脅威は医療機関にも及んでおり、対策強化が不可欠と判断した。",
+      "published_at": "2026-11-05T17:19:11+09:00",
+      "first_seen_at": "2026-11-05T19:32:38.102999+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "ransomware",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -144,116 +224,13 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:16bf85bfb533fefee48b85fb",
-      "permalink_id": "article-url-16bf85bfb533fefee48b85fb",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-      "published_at": "2026-11-05T14:17:04+09:00",
-      "first_seen_at": "2026-11-05T18:26:50.572506+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [
-        "CVE-2024-27834"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:95e3d8e16af974696c2930a6",
-      "permalink_id": "article-url-95e3d8e16af974696c2930a6",
-      "canonical_url": "https://jvn.jp/jp/JVN55454512/",
-      "title": "SHIRASAGIにおける複数の脆弱性",
-      "summary_excerpt": "SHIRASAGI Projectが提供するSHIRASAGIには、複数の脆弱性が存在します。",
-      "published_at": "2026-11-05T14:00:00+09:00",
-      "first_seen_at": "2026-11-05T14:29:51.478995+09:00",
-      "source_name": "JVN",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 61.75,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:517fe07a789e0bbca9e6fbd4",
-      "permalink_id": "article-url-517fe07a789e0bbca9e6fbd4",
-      "canonical_url": "https://www.security-next.com/192398",
-      "title": "遠隔サポート製品「SolarWinds Dameware」に複数の脆弱性",
-      "summary_excerpt": "SolarWindsのリモート操作製品「SolarWinds Dameware」に複数の脆弱性が明らかとなった。遠隔操作先のホストが侵害される深刻な脆弱性も判明しており、同社は修正版を提供している。",
-      "published_at": "2026-11-05T13:45:02+09:00",
-      "first_seen_at": "2026-11-05T18:39:33.730260+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "advisory",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 61.75,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c7e59b0d46842b6392615ae8",
-      "permalink_id": "article-url-c7e59b0d46842b6392615ae8",
-      "canonical_url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "summary_excerpt": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
-      "published_at": "2026-11-05T13:31:16+09:00",
-      "first_seen_at": "2026-11-05T18:26:51.749807+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:7eb3b0fa2888e3fb5767db13",
-      "permalink_id": "article-url-7eb3b0fa2888e3fb5767db13",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002902/",
-      "title": "「My docomo」「ドコモオンラインショップ」が緊急メンテ　外部からの不正アクセスの可能性で",
-      "summary_excerpt": "NTTドコモは11月5日、「My docomo」と「ドコモオンラインショップ」で緊急メンテナンスを実施していると発表した。急ぎの手続きについては、店頭での相談などを呼び掛けている。",
-      "published_at": "2026-11-05T12:55:28+09:00",
-      "first_seen_at": "2026-11-05T13:23:45.482941+09:00",
+      "public_article_id": "url:9e839c791d9005809b84fddd",
+      "permalink_id": "article-url-9e839c791d9005809b84fddd",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002910/",
+      "title": "不正アクセスで停止の「ふるさとチョイス」6日再開　まずWeb版から",
+      "summary_excerpt": "同サイトは19日にサービスを停止。20日には、会員の氏名や住所、電話番号、ハッシュ化された寄附控除試算額など445万4097件の個人情報が外部に流出したと発表していた。",
+      "published_at": "2026-11-05T15:06:01+09:00",
+      "first_seen_at": "2026-11-05T19:32:53.485706+09:00",
       "source_name": "ITmedia NEWS Bursts",
       "source_class": "topic_rss",
       "security_relevance": "primary",
@@ -264,7 +241,28 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.7,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:b68461e0cf927c1d5e96c51e",
+      "permalink_id": "article-url-b68461e0cf927c1d5e96c51e",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002908/",
+      "title": "公表済みの脆弱性に気づかず39万6920人分漏えい　採用サービスApplyNow　一部マイナンバーや口座情報も",
+      "summary_excerpt": "採用関連サービスを手掛けるApplyNowは11月4日、9月9日に公表した同社サービスへの不正アクセスについて、39万6920人の個人情報が漏えいしたと発表した。",
+      "published_at": "2026-11-05T14:23:32+09:00",
+      "first_seen_at": "2026-11-05T19:32:57.662626+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -901,15 +899,15 @@
   "ticker_items": [
     "【LATEST #1】OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
     "【HOTTEST #1 / Heat 75】Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "【LATEST #2】HPEのネットワーク管理製品に複数脆弱性 - 「クリティカル」3件",
+    "【LATEST #2】CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
     "【HOTTEST #2 / Heat 67.5】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-    "【LATEST #3】「脆弱性報告数が別次元に」　Mythos一般公開を恐れる前に、推奨される7つの優先対策",
+    "【LATEST #3】HPEのネットワーク管理製品に複数脆弱性 - 「クリティカル」3件",
     "【HOTTEST #3 / Heat 67.5】Apple製品の脆弱性悪用を確認 - 米当局が注意喚起",
-    "【LATEST #4】Tokenmaxxing crackdowns and AI cybersecurity risks",
+    "【LATEST #4】フランスの血液保存施設で冷蔵庫の設定を-30℃から110℃に引き上げるサイバー攻撃が発生、迅速な対応で血液製剤は無事",
     "【HOTTEST #4 / Heat 67.5】Cisco Identity Services Engine Authorization Bypass Vulnerability",
-    "【LATEST #5】Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+    "【LATEST #5】医療機関のサイバーセキュリティー強化へ　ランサムウエア攻撃で診療への長期影響リスク",
     "【HOTTEST #5 / Heat 67.5】Cisco Unified Communications Manager Cross-Site Scripting Vulnerability"
   ],
-  "last_published_at": "2026-11-05T19:18:34.014248+09:00",
-  "publication_slot_jst": "2026-11-05T19:00:00+09:00"
+  "last_published_at": "2026-11-05T20:18:07.234646+09:00",
+  "publication_slot_jst": "2026-11-05T20:00:00+09:00"
 }
