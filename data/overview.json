@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-05T16:14:06.000442+00:00",
-  "as_of": "2026-11-05T16:00:00+00:00",
-  "catalog_count": 21843,
+  "generated_at": "2026-11-05T17:14:13.665187+00:00",
+  "as_of": "2026-11-05T17:00:00+00:00",
+  "catalog_count": 21848,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,65 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:56bfa02295d43c2b62b107af",
+      "permalink_id": "article-url-56bfa02295d43c2b62b107af",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+      "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+      "summary_excerpt": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+      "published_at": "2026-11-06T01:24:26+09:00",
+      "first_seen_at": "2026-11-06T01:52:33.809145+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:83e08e4c6c08d1c089a1400c",
+      "permalink_id": "article-url-83e08e4c6c08d1c089a1400c",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+      "title": "DigiCert data breach exposes customer information, identity documents",
+      "summary_excerpt": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+      "published_at": "2026-11-06T01:12:46+09:00",
+      "first_seen_at": "2026-11-06T01:24:13.443417+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:8a06a5def5bd2e0728984532",
       "permalink_id": "article-url-8a06a5def5bd2e0728984532",
@@ -247,63 +306,6 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:daf3a48822a02cae468de1f7",
-      "permalink_id": "article-url-daf3a48822a02cae468de1f7",
-      "canonical_url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-      "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
-      "summary_excerpt": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek .",
-      "published_at": "2026-11-05T21:33:49+09:00",
-      "first_seen_at": "2026-11-06T00:24:22.564132+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:626be5da2d3a74b9fb62c15a",
-      "permalink_id": "article-url-626be5da2d3a74b9fb62c15a",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/",
-      "title": "Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)",
-      "summary_excerpt": "Zyxel GS1900 series network switches that received a fix for a flaw that was later reported to have been exploited in the wild are still open to an exploit attackers used, Binarly found. That’s because the patch fixed a different bug (CVE-2026-7273) from the one (CVE-2026-107441) the exploit actually relies on. The exploit for an unpatched bug In June 2026, Zyxel published an advisory on CVE-2026-7273, a stack-based buffer overflow vulnerability in the CGI program … More → The post Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441) appeared first on Help Net S",
-      "published_at": "2026-11-05T21:06:32+09:00",
-      "first_seen_at": "2026-11-06T00:24:07.622492+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-107441",
-        "CVE-2026-7273"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 75.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
@@ -392,7 +394,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -530,74 +532,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:aa9078d7d60a381cef77214a",
-      "permalink_id": "article-url-aa9078d7d60a381cef77214a",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-5mQn2U5z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
-      "title": "Cisco Unified Communications Manager Cross-Site Scripting Vulnerability",
-      "summary_excerpt": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface. This vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execut",
-      "published_at": "2026-11-05T01:00:00+09:00",
-      "first_seen_at": "2026-11-05T11:53:26.506546+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-76419"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:12fd4fa3d486dff317b8ff4b",
-      "permalink_id": "article-url-12fd4fa3d486dff317b8ff4b",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
-      "title": "Cisco UCS Central Software Remote Code Execution Vulnerability",
-      "summary_excerpt": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is due to insufficient validation of user-supplied input in an HTTP request. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected endpoint on an affected device. A successful exploit could allow the attacker to execute arbitrary commands, write arbitrary files to the filesystem, and obtain sensitive information",
-      "published_at": "2026-11-05T01:00:00+09:00",
-      "first_seen_at": "2026-11-05T11:53:25.263413+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-76506"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:7eb3b0fa2888e3fb5767db13",
       "permalink_id": "article-url-7eb3b0fa2888e3fb5767db13",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002902/",
@@ -617,9 +551,88 @@
       "seen_in_kev": false,
       "heat_score": 65.7,
       "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:48c79e2fff72dd95c6b3a699",
+      "permalink_id": "article-url-48c79e2fff72dd95c6b3a699",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002891/",
+      "title": "仏銀行Credit Mutuel Arkeaにサイバー攻撃　委託先経由で侵入、不正送金の被害は約1億ユーロか",
+      "summary_excerpt": "フランスの銀行グループCredit Mutuel Arkeaは、外部委託先のシステム経由でサイバー攻撃を受け、不正送金されたと発表した。被害額は数千万から1億ユーロ規模とみられ、暗号資産に交換された可能性がある。銀行自身の口座が悪用されたため、顧客資産への直接的な被害はないという。",
+      "published_at": "2026-11-05T09:56:19+09:00",
+      "first_seen_at": "2026-11-05T10:28:49.000185+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:470925080ce4e4fdbfade325",
+      "permalink_id": "article-url-470925080ce4e4fdbfade325",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002890/",
+      "title": "仏血液センターの冷蔵設備にサイバー攻撃　温度設定を不正変更、血液製剤への被害は回避",
+      "summary_excerpt": "仏血液機構（EFS）は、冷蔵設備を管理する委託業者がサイバー攻撃を受け、3施設の冷蔵室の温度制御システムで異常が発生したと発表した。監視システムが迅速に検知して製剤を別設備に移したため被害はなかった。同国では10月にもスーパーの冷蔵設備が攻撃される事件が起きているが、関連は不明だ。",
+      "published_at": "2026-11-05T09:19:59+09:00",
+      "first_seen_at": "2026-11-05T10:29:09.046834+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.7,
+      "published_at_future_suppressed": false
     }
   ],
-  "rising": [],
+  "rising": [
+    {
+      "public_article_id": "url:c48e4b2838068a2af4b3e450",
+      "permalink_id": "article-url-c48e4b2838068a2af4b3e450",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
+      "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+      "summary_excerpt": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability CVE-2026-76506 High 7.6 Cisco Unified Communications Manager Cross-Site Scripting Vulnerability CVE-2026-76419 Medium 6.1 Cisco Identity Services Engine Authorization Bypass Vulnerability CVE-2026-20241 Medium 5.3 To remediate the vulnerabilities that were disclosed on November 4, 2026, Cisco strongly recommends that customers upgrade to the fixed so",
+      "published_at": "2026-10-29T01:00:00+09:00",
+      "first_seen_at": "2026-10-29T02:02:11.873252+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-20241",
+        "CVE-2026-76419",
+        "CVE-2026-76506"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 8.25,
+      "published_at_future_suppressed": false
+    }
+  ],
   "persistent_hot": [
     {
       "public_article_id": "url:260e0edd7954e6a7db05dfac",
@@ -974,17 +987,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+    "【LATEST #1】Hackers backdoor Linux servers using trojanized CWP web server",
     "【HOTTEST #1 / Heat 75】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-    "【LATEST #2】Zyxel Switch Patch Missed Flaw Behind Wave of Attacks",
+    "【LATEST #2】DigiCert data breach exposes customer information, identity documents",
     "【HOTTEST #2 / Heat 75】Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)",
-    "【LATEST #3】Cyberhaven launches Agentic Data Security to track and control AI data use",
-    "【HOTTEST #3 / Heat 75】Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-    "【LATEST #4】Vercel ties login sessions to devices, rolls out AI security reviews in public beta",
+    "【LATEST #3】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+    "【HOTTEST #3 / Heat 67.5】Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+    "【LATEST #4】Zyxel Switch Patch Missed Flaw Behind Wave of Attacks",
     "【HOTTEST #4 / Heat 67.5】Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "【LATEST #5】Box pairs agentic workflow plans with new threat protections",
+    "【LATEST #5】Cyberhaven launches Agentic Data Security to track and control AI data use",
     "【HOTTEST #5 / Heat 67.5】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026"
   ],
-  "last_published_at": "2026-11-06T01:18:41.652479+09:00",
-  "publication_slot_jst": "2026-11-06T01:00:00+09:00"
+  "last_published_at": "2026-11-06T02:18:44.707614+09:00",
+  "publication_slot_jst": "2026-11-06T02:00:00+09:00"
 }
