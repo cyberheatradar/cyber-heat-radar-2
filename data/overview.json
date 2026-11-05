@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-05T21:14:22.048131+00:00",
-  "as_of": "2026-11-05T21:00:00+00:00",
-  "catalog_count": 21854,
+  "generated_at": "2026-11-05T22:14:03.469417+00:00",
+  "as_of": "2026-11-05T22:00:00+00:00",
+  "catalog_count": 21857,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,33 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:2ae34dc126e9b64082669a80",
+      "permalink_id": "article-url-2ae34dc126e9b64082669a80",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "summary_excerpt": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
+      "published_at": "2026-11-06T06:30:30+09:00",
+      "first_seen_at": "2026-11-06T06:54:04.868154+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:09d02629fc9055f4205930be",
       "permalink_id": "article-url-09d02629fc9055f4205930be",
@@ -67,6 +94,38 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:45e1c2a1adf6245475a7afcb",
+      "permalink_id": "article-url-45e1c2a1adf6245475a7afcb",
+      "canonical_url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+      "summary_excerpt": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared first on SecurityWeek .",
+      "published_at": "2026-11-06T02:32:37+09:00",
+      "first_seen_at": "2026-11-06T06:37:40.883547+09:00",
+      "source_name": "SecurityWeek",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "research",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 40.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:51adceabf4249de22817c4e3",
       "permalink_id": "article-url-51adceabf4249de22817c4e3",
       "canonical_url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
@@ -90,6 +149,33 @@
           "color_family": "cyan",
           "key": "agentic_security",
           "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:cfa87031f7bd2f84de4e0b7b",
+      "permalink_id": "article-url-cfa87031f7bd2f84de4e0b7b",
+      "canonical_url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
+      "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
+      "summary_excerpt": "Russian state-linked hackers targeted users in Ukraine, the United States and Europe in a campaign to steal sensitive information from iPhone and Android devices, researchers found.",
+      "published_at": "2026-11-06T02:00:00+09:00",
+      "first_seen_at": "2026-11-06T06:29:51.798010+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
         }
       ],
       "cves": [],
@@ -183,7 +269,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -205,107 +291,6 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c5660b03548caf1fbebc9946",
-      "permalink_id": "article-url-c5660b03548caf1fbebc9946",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/05/cyberhaven-agentic-data-security/",
-      "title": "Cyberhaven launches Agentic Data Security to track and control AI data use",
-      "summary_excerpt": "Cyberhaven has introduced Agentic Data Security (ADS), to help CISOs, data security teams, insider risk teams, and AI governance leaders say yes to AI agents without losing control of their data. Agentic Data Security shows security teams what every AI agent does with company data, who it is acting for, where the data goes next, and stops sensitive data before it leaves. The companies leaning furthest into the agentic future, from frontier AI labs to … More → The post Cyberhaven launches Agentic Data Security to track and control AI data use appeared first on Help Net Security .",
-      "published_at": "2026-11-06T00:04:07+09:00",
-      "first_seen_at": "2026-11-06T00:23:49.591031+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:014f8cffe2789787f8785df7",
-      "permalink_id": "article-url-014f8cffe2789787f8785df7",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/05/vercel-security-review-session-hijacking/",
-      "title": "Vercel ties login sessions to devices, rolls out AI security reviews in public beta",
-      "summary_excerpt": "Vercel, the popular cloud platform for building and hosting websites and web applications, has announced the rollout of Device Bound Session Credentials (DBSC) and the launch of Vercel Security Review in public beta. Making stolen session cookies worthless Device Bound Session Credentials is a security technology designed to limit the consequences of an infostealer infection and to thwart attackers’ session hijacking attempts. Aside from stealing authentication credentials, modern info-stealing malware such as Lumma, RedLine, and … More → The post Vercel ties login sessions to devices, rolls o",
-      "published_at": "2026-11-05T23:37:00+09:00",
-      "first_seen_at": "2026-11-06T00:23:53.044255+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:4fd56bdf5f8cd79fc2cc39cb",
-      "permalink_id": "article-url-4fd56bdf5f8cd79fc2cc39cb",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/05/box-architect/",
-      "title": "Box pairs agentic workflow plans with new threat protections",
-      "summary_excerpt": "Box has announced new capabilities to transform how organizations put agents to work across their most critical business processes. Box unveiled Box Architect for autonomously building, managing, and optimizing agentic workflows, redefining how organizations deploy AI on their most critical processes. With Architect, teams will be able to leverage frontier AI to create new workflows and apps, configure agents, connect to Box tools, and manage workflows at scale – all built on their trusted content … More → The post Box pairs agentic workflow plans with new threat protections appeared first on ",
-      "published_at": "2026-11-05T23:25:34+09:00",
-      "first_seen_at": "2026-11-06T00:23:55.820751+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
         }
       ],
       "cves": [],
@@ -342,7 +327,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -712,6 +697,35 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:2e45d4420a62dd60991fa126",
+      "permalink_id": "article-url-2e45d4420a62dd60991fa126",
+      "canonical_url": "https://www.akamai.com/blog/security-research/cve-2026-98432-remote-uaf-linux-kernels-tcp-stack",
+      "title": "CVE-2026-98432: A Remote Use-After-Free in the Linux Kernel's TCP Stack",
+      "summary_excerpt": "Learn about CVE-2026-98432, a critical remote use-after-free flaw in the Linux kernel TCP stack, its root exploit risks, affected versions, and mitigation steps.",
+      "published_at": "2026-11-03T06:00:00+09:00",
+      "first_seen_at": "2026-11-03T08:23:20.032934+09:00",
+      "source_name": "Akamai Security Intelligence",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-98432"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:b0ce292534ec4a4f64824309",
       "permalink_id": "article-url-b0ce292534ec4a4f64824309",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
@@ -942,36 +956,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f635e51b46992649ab09cf6e",
-      "permalink_id": "article-url-f635e51b46992649ab09cf6e",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management r",
-      "published_at": "2026-10-30T21:00:00+09:00",
-      "first_seen_at": "2026-10-31T03:52:40.704721+09:00",
-      "source_name": "CISA Cybersecurity Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-111357",
-        "CVE-2026-118527"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -992,17 +976,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】APT29's Watering Holes Target Thousands of Mobile Users",
-    "【HOTTEST #1 / Heat 75】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-    "【LATEST #2】OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+    "【LATEST #1】Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+    "【HOTTEST #1 / Heat 67.5】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+    "【LATEST #2】APT29's Watering Holes Target Thousands of Mobile Users",
     "【HOTTEST #2 / Heat 67.5】Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)",
-    "【LATEST #3】Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns",
+    "【LATEST #3】OpenSSH flaw lets attackers log into password-disabled Linux accounts",
     "【HOTTEST #3 / Heat 67.5】Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-    "【LATEST #4】Hackers backdoor Linux servers using trojanized CWP web server",
+    "【LATEST #4】AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
     "【HOTTEST #4 / Heat 67.5】Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "【LATEST #5】DigiCert data breach exposes customer information, identity documents",
+    "【LATEST #5】Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns",
     "【HOTTEST #5 / Heat 67.5】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026"
   ],
-  "last_published_at": "2026-11-06T06:18:59.490478+09:00",
-  "publication_slot_jst": "2026-11-06T06:00:00+09:00"
+  "last_published_at": "2026-11-06T07:18:44.165305+09:00",
+  "publication_slot_jst": "2026-11-06T07:00:00+09:00"
 }
