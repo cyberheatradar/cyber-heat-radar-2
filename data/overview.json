@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-05T13:14:03.498494+00:00",
-  "as_of": "2026-11-05T13:00:00+00:00",
-  "catalog_count": 21825,
+  "generated_at": "2026-11-05T14:13:51.070631+00:00",
+  "as_of": "2026-11-05T14:00:00+00:00",
+  "catalog_count": 21826,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,27 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:71cdc302f1bad61d7bbe5409",
+      "permalink_id": "article-url-71cdc302f1bad61d7bbe5409",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/chinese-nation-activity-falls/",
+      "title": "Chinese Nation-State Threat Activity Falls Sharply in Q2 and Q3 2026",
+      "summary_excerpt": "Trellix observed a 41.4% drop in China-nexus activity between April and September, which may reflect changing PRC strategic priorities",
+      "published_at": "2026-11-05T20:40:00+09:00",
+      "first_seen_at": "2026-11-05T22:25:35.106618+09:00",
+      "source_name": "Infosecurity Magazine",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_report",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:2bb4ac9a5970c14ec95c680d",
       "permalink_id": "article-url-2bb4ac9a5970c14ec95c680d",
@@ -220,7 +241,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -231,27 +252,6 @@
       "summary_excerpt": "同サイトは19日にサービスを停止。20日には、会員の氏名や住所、電話番号、ハッシュ化された寄附控除試算額など445万4097件の個人情報が外部に流出したと発表していた。",
       "published_at": "2026-11-05T15:06:01+09:00",
       "first_seen_at": "2026-11-05T19:32:53.485706+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:b68461e0cf927c1d5e96c51e",
-      "permalink_id": "article-url-b68461e0cf927c1d5e96c51e",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002908/",
-      "title": "公表済みの脆弱性に気づかず39万6920人分漏えい　採用サービスApplyNow　一部マイナンバーや口座情報も",
-      "summary_excerpt": "採用関連サービスを手掛けるApplyNowは11月4日、9月9日に公表した同社サービスへの不正アクセスについて、39万6920人の個人情報が漏えいしたと発表した。",
-      "published_at": "2026-11-05T14:23:32+09:00",
-      "first_seen_at": "2026-11-05T19:32:57.662626+09:00",
       "source_name": "ITmedia NEWS Bursts",
       "source_class": "topic_rss",
       "security_relevance": "primary",
@@ -899,17 +899,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
+    "【LATEST #1】Chinese Nation-State Threat Activity Falls Sharply in Q2 and Q3 2026",
     "【HOTTEST #1 / Heat 67.5】Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "【LATEST #2】CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+    "【LATEST #2】OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
     "【HOTTEST #2 / Heat 67.5】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-    "【LATEST #3】HPEのネットワーク管理製品に複数脆弱性 - 「クリティカル」3件",
+    "【LATEST #3】CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
     "【HOTTEST #3 / Heat 67.5】Apple製品の脆弱性悪用を確認 - 米当局が注意喚起",
-    "【LATEST #4】フランスの血液保存施設で冷蔵庫の設定を-30℃から110℃に引き上げるサイバー攻撃が発生、迅速な対応で血液製剤は無事",
+    "【LATEST #4】HPEのネットワーク管理製品に複数脆弱性 - 「クリティカル」3件",
     "【HOTTEST #4 / Heat 67.5】Cisco Identity Services Engine Authorization Bypass Vulnerability",
-    "【LATEST #5】医療機関のサイバーセキュリティー強化へ　ランサムウエア攻撃で診療への長期影響リスク",
+    "【LATEST #5】フランスの血液保存施設で冷蔵庫の設定を-30℃から110℃に引き上げるサイバー攻撃が発生、迅速な対応で血液製剤は無事",
     "【HOTTEST #5 / Heat 67.5】Cisco Unified Communications Manager Cross-Site Scripting Vulnerability"
   ],
-  "last_published_at": "2026-11-05T22:18:15.271003+09:00",
-  "publication_slot_jst": "2026-11-05T22:00:00+09:00"
+  "last_published_at": "2026-11-05T23:17:59.464845+09:00",
+  "publication_slot_jst": "2026-11-05T23:00:00+09:00"
 }
