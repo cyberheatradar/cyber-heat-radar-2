@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-05T02:14:23.051609+00:00",
-  "as_of": "2026-11-05T02:00:00+00:00",
-  "catalog_count": 21795,
+  "generated_at": "2026-11-05T03:16:37.031990+00:00",
+  "as_of": "2026-11-05T03:00:00+00:00",
+  "catalog_count": 21801,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,27 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:a6a20629e249786752575897",
+      "permalink_id": "article-url-a6a20629e249786752575897",
+      "canonical_url": "https://www.security-next.com/192381",
+      "title": "「Ruby on Rails」にアップデート - 脆弱性21件を修正",
+      "summary_excerpt": "ウェブアプリケーションフレームワーク「Ruby on Rails」に複数の脆弱性が明らかとなった。深刻な脆弱性も含まれており、セキュリティアップデートが提供されている。",
+      "published_at": "2026-11-05T10:45:54+09:00",
+      "first_seen_at": "2026-11-05T11:26:13.862774+09:00",
+      "source_name": "Security NEXT",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "advisory",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 61.75,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:73082f94f2864dd4a9eb83b2",
       "permalink_id": "article-url-73082f94f2864dd4a9eb83b2",
@@ -32,6 +53,27 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:da22285feaacde6205d51941",
+      "permalink_id": "article-url-da22285feaacde6205d51941",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002873/",
+      "title": "涙に叱責に持論……GMO熊谷代表の謝罪会見、どこがまずかった？　危機管理広報のプロが分析",
+      "summary_excerpt": "GMOインターネットグループの熊谷正寿代表は11月2日、グループ企業で発生した不正アクセス問題を巡り、約3時間半にわたる記者会見を開いた。持論の展開や涙、社員への叱責など、本来の説明とは別の「撮れ高」を生んだ会見から企業は何を学ぶべきか、危機管理広報の視点から検証する。",
+      "published_at": "2026-11-05T10:05:17+09:00",
+      "first_seen_at": "2026-11-05T11:25:51.529984+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "analysis",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 42.75,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:48c79e2fff72dd95c6b3a699",
       "permalink_id": "article-url-48c79e2fff72dd95c6b3a699",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002891/",
@@ -49,7 +91,44 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 73.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:964e07d622ad7f347df938fb",
+      "permalink_id": "article-url-964e07d622ad7f347df938fb",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
+      "published_at": "2026-11-05T09:32:39+09:00",
+      "first_seen_at": "2026-11-05T11:53:17.570308+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_report",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-105482",
+        "CVE-2026-105483",
+        "CVE-2026-106069",
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
       "published_at_future_suppressed": false
     },
     {
@@ -70,7 +149,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 73.0,
       "published_at_future_suppressed": false
     },
     {
@@ -162,72 +241,190 @@
       "seen_in_kev": false,
       "heat_score": 65.0,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2a87cc5086edba0adc134d41",
-      "permalink_id": "article-url-2a87cc5086edba0adc134d41",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56676.html",
-      "title": "障害者支援アプリ運営委託事業者ミラボに不正アクセス、設計段階で想定していなかった不備",
-      "summary_excerpt": null,
-      "published_at": "2026-11-05T08:05:14+09:00",
-      "first_seen_at": "2026-11-05T09:54:16.309608+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:409db90fd8015c99c127429d",
-      "permalink_id": "article-url-409db90fd8015c99c127429d",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56675.html",
-      "title": "ドトールコーヒーのシステムに不正アクセス、従業員及び退職者 計951名の個人情報が漏えいした可能性",
-      "summary_excerpt": null,
-      "published_at": "2026-11-05T08:05:11+09:00",
-      "first_seen_at": "2026-11-05T09:54:17.489820+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:352991ad3833832ed44762b3",
-      "permalink_id": "article-url-352991ad3833832ed44762b3",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56674.html",
-      "title": "ギフティへの不正アクセスによるeギフトの不正発行、約5.5億円の損失見込み",
-      "summary_excerpt": null,
-      "published_at": "2026-11-05T08:05:07+09:00",
-      "first_seen_at": "2026-11-05T09:54:17.631921+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
     }
   ],
   "hottest": [
+    {
+      "public_article_id": "url:964e07d622ad7f347df938fb",
+      "permalink_id": "article-url-964e07d622ad7f347df938fb",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+      "summary_excerpt": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; potential rem",
+      "published_at": "2026-11-05T09:32:39+09:00",
+      "first_seen_at": "2026-11-05T11:53:17.570308+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_report",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-105482",
+        "CVE-2026-105483",
+        "CVE-2026-106069",
+        "CVE-2026-111497"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 75.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:48c79e2fff72dd95c6b3a699",
+      "permalink_id": "article-url-48c79e2fff72dd95c6b3a699",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002891/",
+      "title": "仏銀行Credit Mutuel Arkeaにサイバー攻撃　委託先経由で侵入、不正送金の被害は約1億ユーロか",
+      "summary_excerpt": "フランスの銀行グループCredit Mutuel Arkeaは、外部委託先のシステム経由でサイバー攻撃を受け、不正送金されたと発表した。被害額は数千万から1億ユーロ規模とみられ、暗号資産に交換された可能性がある。銀行自身の口座が悪用されたため、顧客資産への直接的な被害はないという。",
+      "published_at": "2026-11-05T09:56:19+09:00",
+      "first_seen_at": "2026-11-05T10:28:49.000185+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 73.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:470925080ce4e4fdbfade325",
+      "permalink_id": "article-url-470925080ce4e4fdbfade325",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002890/",
+      "title": "仏血液センターの冷蔵設備にサイバー攻撃　温度設定を不正変更、血液製剤への被害は回避",
+      "summary_excerpt": "仏血液機構（EFS）は、冷蔵設備を管理する委託業者がサイバー攻撃を受け、3施設の冷蔵室の温度制御システムで異常が発生したと発表した。監視システムが迅速に検知して製剤を別設備に移したため被害はなかった。同国では10月にもスーパーの冷蔵設備が攻撃される事件が起きているが、関連は不明だ。",
+      "published_at": "2026-11-05T09:19:59+09:00",
+      "first_seen_at": "2026-11-05T10:29:09.046834+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 73.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7948d60164b10118ad772a3e",
+      "permalink_id": "article-url-7948d60164b10118ad772a3e",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
+      "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
+      "summary_excerpt": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due to improper authorization checks. An attacker could exploit this vulnerability by sending a crafted request to an affected device. A successful exploit could allow the attacker to bypass authorization to obtain an endpoint certificate. Cisco has released software updates that address this vulnerability. There are no workarounds that address t",
+      "published_at": "2026-11-05T04:56:22+09:00",
+      "first_seen_at": "2026-11-05T11:53:23.970817+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-20241"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:aa9078d7d60a381cef77214a",
+      "permalink_id": "article-url-aa9078d7d60a381cef77214a",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-5mQn2U5z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+      "title": "Cisco Unified Communications Manager Cross-Site Scripting Vulnerability",
+      "summary_excerpt": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface. This vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execut",
+      "published_at": "2026-11-05T01:00:00+09:00",
+      "first_seen_at": "2026-11-05T11:53:26.506546+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76419"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:12fd4fa3d486dff317b8ff4b",
+      "permalink_id": "article-url-12fd4fa3d486dff317b8ff4b",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+      "title": "Cisco UCS Central Software Remote Code Execution Vulnerability",
+      "summary_excerpt": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is due to insufficient validation of user-supplied input in an HTTP request. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected endpoint on an affected device. A successful exploit could allow the attacker to execute arbitrary commands, write arbitrary files to the filesystem, and obtain sensitive information",
+      "published_at": "2026-11-05T01:00:00+09:00",
+      "first_seen_at": "2026-11-05T11:53:25.263413+09:00",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [
+        "CVE-2026-76506"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 67.5,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:226d22a423412bf1bab548b2",
       "permalink_id": "article-url-226d22a423412bf1bab548b2",
@@ -342,167 +539,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:ff427445f12ceae8a3cb1271",
-      "permalink_id": "article-url-ff427445f12ceae8a3cb1271",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-871/",
-      "title": "ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121752.",
-      "published_at": "2026-11-04T15:00:00+09:00",
-      "first_seen_at": "2026-11-05T01:55:32.904376+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-121752"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:0014f2b9c67269e56724559c",
-      "permalink_id": "article-url-0014f2b9c67269e56724559c",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-870/",
-      "title": "ZDI-26-870: (0Day) Ashlar-Vellum Cobalt XE File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121744.",
-      "published_at": "2026-11-04T15:00:00+09:00",
-      "first_seen_at": "2026-11-05T01:55:14.784752+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-121744"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c2a48fcf296b97f20dbee41d",
-      "permalink_id": "article-url-c2a48fcf296b97f20dbee41d",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-869/",
-      "title": "ZDI-26-869: MailEnable Save Directory Traversal Arbitrary File Creation Vulnerability",
-      "summary_excerpt": "This vulnerability allows remote attackers to create arbitrary files on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.4. The following CVEs are assigned: CVE-2026-114556.",
-      "published_at": "2026-11-04T15:00:00+09:00",
-      "first_seen_at": "2026-11-04T23:26:38.878229+09:00",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "source_class": "enrichment_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-114556"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f1ad69f7612547f2d2e90124",
-      "permalink_id": "article-url-f1ad69f7612547f2d2e90124",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/04/lindsay-kaye-human-security-ai-generated-malware/",
-      "title": "What AI-generated malware looks like under the microscope",
-      "summary_excerpt": "In this Help Net Security interview, Lindsay Kaye, VP of Threat Intelligence at HUMAN Security, talks about what AI-generated malware looks like on the bench. She points to tidy comments, uniform logging messages, and emojis as signs a script came from a model, and notes that decompiled code strips much of that away. Kaye also covers how AI is squeezing the time teams have to patch, where it helps criminals scale fraud, and why her … More → The post What AI-generated malware looks like under the microscope appeared first on Help Net Security .",
-      "published_at": "2026-11-04T16:00:26+09:00",
-      "first_seen_at": "2026-11-04T16:26:08.265515+09:00",
-      "source_name": "Help Net Security AI News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:34af6af744a78d0b8f62d354",
-      "permalink_id": "article-url-34af6af744a78d0b8f62d354",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/04/2000002866/",
-      "title": "ビックカメラG、メールアドレスなど約1490万件漏えいの可能性　委託先への不正アクセスで",
-      "summary_excerpt": "ビックカメラとコジマ、ソフマップは11月2日、メールマガジン登録者のメールアドレスなど約1490万件が流出した可能性があると発表した。メール配信の委託先、アララへの不正アクセスが原因。",
-      "published_at": "2026-11-04T12:34:49+09:00",
-      "first_seen_at": "2026-11-04T13:25:10.412668+09:00",
-      "source_name": "ITmedia NEWS Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.7,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:73082f94f2864dd4a9eb83b2",
-      "permalink_id": "article-url-73082f94f2864dd4a9eb83b2",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6601387?source=rss",
-      "title": "仏銀行サイバー攻撃 177億円流出",
-      "summary_excerpt": null,
-      "published_at": "2026-11-05T10:14:21+09:00",
-      "first_seen_at": "2026-11-05T10:29:52.318835+09:00",
-      "source_name": "Yahoo!ニュース IT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -929,17 +965,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】仏銀行サイバー攻撃 177億円流出",
-    "【HOTTEST #1 / Heat 67.5】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "【LATEST #2】仏銀行Credit Mutuel Arkeaにサイバー攻撃　委託先経由で侵入、不正送金の被害は約1億ユーロか",
-    "【HOTTEST #2 / Heat 67.5】ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #3】仏血液センターの冷蔵設備にサイバー攻撃　温度設定を不正変更、血液製剤への被害は回避",
-    "【HOTTEST #3 / Heat 67.5】ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-    "【LATEST #4】2026年のフィッシング動向と対策の現状 ～ Internet Week 2026",
-    "【HOTTEST #4 / Heat 67.5】ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #5】ライフネット生命の一部システムに不正アクセス、KDDIが保有する顧客情報が漏えいした可能性",
-    "【HOTTEST #5 / Heat 67.5】ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability"
+    "【LATEST #1】「Ruby on Rails」にアップデート - 脆弱性21件を修正",
+    "【HOTTEST #1 / Heat 75】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+    "【LATEST #2】仏銀行サイバー攻撃 177億円流出",
+    "【HOTTEST #2 / Heat 73】仏銀行Credit Mutuel Arkeaにサイバー攻撃　委託先経由で侵入、不正送金の被害は約1億ユーロか",
+    "【LATEST #3】涙に叱責に持論……GMO熊谷代表の謝罪会見、どこがまずかった？　危機管理広報のプロが分析",
+    "【HOTTEST #3 / Heat 73】仏血液センターの冷蔵設備にサイバー攻撃　温度設定を不正変更、血液製剤への被害は回避",
+    "【LATEST #4】仏銀行Credit Mutuel Arkeaにサイバー攻撃　委託先経由で侵入、不正送金の被害は約1億ユーロか",
+    "【HOTTEST #4 / Heat 67.5】Cisco Identity Services Engine Authorization Bypass Vulnerability",
+    "【LATEST #5】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+    "【HOTTEST #5 / Heat 67.5】Cisco Unified Communications Manager Cross-Site Scripting Vulnerability"
   ],
-  "last_published_at": "2026-11-05T11:18:37.992180+09:00",
-  "publication_slot_jst": "2026-11-05T11:00:00+09:00"
+  "last_published_at": "2026-11-05T12:21:45.651177+09:00",
+  "publication_slot_jst": "2026-11-05T12:00:00+09:00"
 }
