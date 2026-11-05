@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-04T23:13:46.043687+00:00",
-  "as_of": "2026-11-04T23:00:00+00:00",
-  "catalog_count": 21769,
+  "generated_at": "2026-11-05T00:13:46.723644+00:00",
+  "as_of": "2026-11-05T00:00:00+00:00",
+  "catalog_count": 21777,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,101 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:77f740d222cdb5b41f06228b",
+      "permalink_id": "article-url-77f740d222cdb5b41f06228b",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2153651.html",
+      "title": "インプレスのセキュリティ関連書籍、9タイトルを全文無料公開。期間限定　本日発売「1週間でサイバーセキュリティの基礎が学べる本」も。11月9日まで",
+      "summary_excerpt": "株式会社インプレスは11月5日、セキュリティ関連書籍9タイトルを、直販サイト「インプレスブックス」の特設ページにて全文無料公開した。期間は11月9日まで。",
+      "published_at": "2026-11-05T07:00:00+09:00",
+      "first_seen_at": "2026-11-05T08:54:21.569418+09:00",
+      "source_name": "INTERNET Watch",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:3fc2c09a61401bd5b38c23ed",
+      "permalink_id": "article-url-3fc2c09a61401bd5b38c23ed",
+      "canonical_url": "https://www.itmedia.co.jp/enterprise/articles/2611/05/news017.html",
+      "title": "クリック不要、パッチもない　AIエージェントを乗っ取る「偽AGENTS.md」がダウンロードフォルダに　どうすればいいのか",
+      "summary_excerpt": "「Claude Code」や「Codex」が従う指示ファイル「AGENTS.md」を、Webサイトがダウンロードフォルダへ勝手に置く――そんな攻撃が実際の企業端末で見つかった。クリックも誤操作も不要で、ベンダーが修正できる欠陥もないという。偽の指示ファイルは、端末の中で何をするのか。",
+      "published_at": "2026-11-05T07:00:00+09:00",
+      "first_seen_at": "2026-11-05T08:25:04.654664+09:00",
+      "source_name": "ITmedia Enterprise Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:21e7e116d9bafff34729d8c0",
+      "permalink_id": "article-url-21e7e116d9bafff34729d8c0",
+      "canonical_url": "https://www.itmedia.co.jp/enterprise/articles/2611/05/news014.html",
+      "title": "情報漏えい急増は「AIのせい」で片付けていいのか　専門家3人に見解を聞いた",
+      "summary_excerpt": "企業の情報漏えいや不正アクセス被害の公表が相次いでいる。AIを悪用した攻撃が広がっているのか、そもそも検知や公表の在り方が変わっただけなのか。アクセンチュア、デロイト トーマツ サイバー、NRIセキュアの有識者3人に聞くと、その答えは三者三様だった。各氏は何を根拠にどう読み解いたのか。",
+      "published_at": "2026-11-05T07:00:00+09:00",
+      "first_seen_at": "2026-11-05T08:24:59.509784+09:00",
+      "source_name": "ITmedia Enterprise Security",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:732985679e9bbd18b2230d83",
+      "permalink_id": "article-url-732985679e9bbd18b2230d83",
+      "canonical_url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+      "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+      "summary_excerpt": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
+      "published_at": "2026-11-05T06:48:18+09:00",
+      "first_seen_at": "2026-11-05T08:24:48.007652+09:00",
+      "source_name": "Dark Reading",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:05d712189c6125345f94caec",
       "permalink_id": "article-url-05d712189c6125345f94caec",
@@ -34,6 +129,54 @@
           "color_family": "red",
           "key": "malware",
           "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:eef425cce49d31283c608b45",
+      "permalink_id": "article-url-eef425cce49d31283c608b45",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2153659.html",
+      "title": "NTT、企業の経営トップが集まるサイバーセキュリティコミュニティ「Security Trust Forum」を発足",
+      "summary_excerpt": "NTT株式会社、株式会社NTTデータ、NTTドコモビジネス株式会社、NTTセキュリティ・ジャパン株式会社は11月2日、企業経営者がサイバーセキュリティを経営課題として議論し、学びあうコミュニティ「Security Trust Forum」（STF）を発足した。招待制・有償会員制で、NTTセキュリティ・ジャパン株式会社が事務局を担う。",
+      "published_at": "2026-11-05T06:30:00+09:00",
+      "first_seen_at": "2026-11-05T08:54:21.785538+09:00",
+      "source_name": "INTERNET Watch",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:5045883ec41b7061f7923d0e",
+      "permalink_id": "article-url-5045883ec41b7061f7923d0e",
+      "canonical_url": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+      "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+      "summary_excerpt": "Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines and Malaysia Airlines have all come forward over the last week to report data breaches traced back to Amadeus IT Group — a company that builds and maintains platforms for flight reservation, ticketing and check-in platforms.",
+      "published_at": "2026-11-05T06:30:00+09:00",
+      "first_seen_at": "2026-11-05T08:38:37.879971+09:00",
+      "source_name": "The Record",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "incident",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
         }
       ],
       "cves": [],
@@ -70,6 +213,33 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:4891b50a108524bc3493a462",
+      "permalink_id": "article-url-4891b50a108524bc3493a462",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2153737.html",
+      "title": "配送プラットフォーム「ピックゴー」に不正アクセス、導入法人の顧客と配送ドライバーの情報が流出の可能性　7NOW、出前館が影響を発表",
+      "summary_excerpt": "CBcloud株式会社は、同社の配送プラットフォーム「ピックゴー」が不正アクセスを受け、導入法人および利用者と、パートナードライバーの情報が流出した可能性があると発表した。",
+      "published_at": "2026-11-05T05:50:00+09:00",
+      "first_seen_at": "2026-11-05T08:54:31.342616+09:00",
+      "source_name": "INTERNET Watch",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:622646b53531b9768bb7d08e",
       "permalink_id": "article-url-622646b53531b9768bb7d08e",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
@@ -94,201 +264,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:324db880e2c47ea37c6fdd5e",
-      "permalink_id": "article-url-324db880e2c47ea37c6fdd5e",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-      "summary_excerpt": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
-      "published_at": "2026-11-05T03:02:56+09:00",
-      "first_seen_at": "2026-11-05T07:38:27.918522+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:f72f567cab23b3cbd0eca3dc",
-      "permalink_id": "article-url-f72f567cab23b3cbd0eca3dc",
-      "canonical_url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "summary_excerpt": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
-      "published_at": "2026-11-05T02:00:46+09:00",
-      "first_seen_at": "2026-11-05T03:23:35.392313+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "supply_chain",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "supply_chain",
-          "label": "Supply Chain"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:28cc7a562c85ad38a67f6487",
-      "permalink_id": "article-url-28cc7a562c85ad38a67f6487",
-      "canonical_url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "summary_excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-      "published_at": "2026-11-05T02:00:38+09:00",
-      "first_seen_at": "2026-11-05T03:23:40.547053+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-109593"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 55.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:94833255da64ec919226ced6",
-      "permalink_id": "article-url-94833255da64ec919226ced6",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-      "summary_excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-      "published_at": "2026-11-05T01:58:46+09:00",
-      "first_seen_at": "2026-11-05T02:29:24.689225+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:fd6556dfab34e9e2a64d5190",
-      "permalink_id": "article-url-fd6556dfab34e9e2a64d5190",
-      "canonical_url": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
-      "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
-      "summary_excerpt": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
-      "published_at": "2026-11-05T01:24:08+09:00",
-      "first_seen_at": "2026-11-05T03:40:18.081441+09:00",
-      "source_name": "Dark Reading",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:2aa562b9b67846cbbe194207",
-      "permalink_id": "article-url-2aa562b9b67846cbbe194207",
-      "canonical_url": "https://therecord.media/ukraine-kyiv-independent-cyberattack",
-      "title": "Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
-      "summary_excerpt": "A suspected Russian cyberattack disrupted the website of The Kyiv Independent, one of Ukraine’s leading English-language news outlets.",
-      "published_at": "2026-11-05T01:15:00+09:00",
-      "first_seen_at": "2026-11-05T01:26:39.360961+09:00",
-      "source_name": "The Record",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:096e4f5225026f138bc47f88",
-      "permalink_id": "article-url-096e4f5225026f138bc47f88",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-      "title": "mSecure password manager hack prompts password reset warnings",
-      "summary_excerpt": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
-      "published_at": "2026-11-05T01:00:18+09:00",
-      "first_seen_at": "2026-11-05T02:29:25.881425+09:00",
-      "source_name": "BleepingComputer",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 40.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -1004,17 +979,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Vercel rolls out new protection against stolen session cookie attacks",
+    "【LATEST #1】インプレスのセキュリティ関連書籍、9タイトルを全文無料公開。期間限定　本日発売「1週間でサイバーセキュリティの基礎が学べる本」も。11月9日まで",
     "【HOTTEST #1 / Heat 67.5】Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "【LATEST #2】Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+    "【LATEST #2】クリック不要、パッチもない　AIエージェントを乗っ取る「偽AGENTS.md」がダウンロードフォルダに　どうすればいいのか",
     "【HOTTEST #2 / Heat 67.5】ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #3】DreamHost confirms data breach exposed FTP logins and webmail sessions",
+    "【LATEST #3】情報漏えい急増は「AIのせい」で片付けていいのか　専門家3人に見解を聞いた",
     "【HOTTEST #3 / Heat 67.5】ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-    "【LATEST #4】Cyberattack disrupts blood storage refrigeration systems in France",
+    "【LATEST #4】Critical Rails Bug Threatens to Derail Vulnerable Servers",
     "【HOTTEST #4 / Heat 67.5】ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
-    "【LATEST #5】Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+    "【LATEST #5】Vercel rolls out new protection against stolen session cookie attacks",
     "【HOTTEST #5 / Heat 67.5】ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ],
-  "last_published_at": "2026-11-05T08:17:54.496625+09:00",
-  "publication_slot_jst": "2026-11-05T08:00:00+09:00"
+  "last_published_at": "2026-11-05T09:18:02.551995+09:00",
+  "publication_slot_jst": "2026-11-05T09:00:00+09:00"
 }
