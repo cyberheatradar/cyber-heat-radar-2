@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-05T19:14:34.680474+00:00",
-  "as_of": "2026-11-05T19:00:00+00:00",
-  "catalog_count": 21849,
+  "generated_at": "2026-11-05T20:14:32.192342+00:00",
+  "as_of": "2026-11-05T20:00:00+00:00",
+  "catalog_count": 21850,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -277,7 +277,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     },
     {
@@ -304,7 +304,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -498,40 +498,6 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:7948d60164b10118ad772a3e",
-      "permalink_id": "article-url-7948d60164b10118ad772a3e",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
-      "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
-      "summary_excerpt": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due to improper authorization checks. An attacker could exploit this vulnerability by sending a crafted request to an affected device. A successful exploit could allow the attacker to bypass authorization to obtain an endpoint certificate. Cisco has released software updates that address this vulnerability. There are no workarounds that address t",
-      "published_at": "2026-11-05T04:56:22+09:00",
-      "first_seen_at": "2026-11-05T11:53:23.970817+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "cves": [
-        "CVE-2026-20241"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 67.5,
-      "published_at_future_suppressed": false
-    },
-    {
       "public_article_id": "url:7eb3b0fa2888e3fb5767db13",
       "permalink_id": "article-url-7eb3b0fa2888e3fb5767db13",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/05/2000002902/",
@@ -592,6 +558,38 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:56bfa02295d43c2b62b107af",
+      "permalink_id": "article-url-56bfa02295d43c2b62b107af",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+      "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+      "summary_excerpt": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+      "published_at": "2026-11-06T01:24:26+09:00",
+      "first_seen_at": "2026-11-06T01:52:33.809145+09:00",
+      "source_name": "BleepingComputer",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     }
   ],
@@ -998,6 +996,6 @@
     "【LATEST #5】Zyxel Switch Patch Missed Flaw Behind Wave of Attacks",
     "【HOTTEST #5 / Heat 67.5】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026"
   ],
-  "last_published_at": "2026-11-06T04:19:19.195032+09:00",
-  "publication_slot_jst": "2026-11-06T04:00:00+09:00"
+  "last_published_at": "2026-11-06T05:20:08.281814+09:00",
+  "publication_slot_jst": "2026-11-06T05:00:00+09:00"
 }
