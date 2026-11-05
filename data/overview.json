@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-05T11:13:53.842758+00:00",
-  "as_of": "2026-11-05T11:00:00+00:00",
-  "catalog_count": 21824,
+  "generated_at": "2026-11-05T12:13:25.811738+00:00",
+  "as_of": "2026-11-05T12:00:00+00:00",
+  "catalog_count": 21825,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -262,7 +262,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -298,7 +298,7 @@
       ],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "published_at_future_suppressed": false
     },
     {
@@ -635,6 +635,37 @@
       "published_at_future_suppressed": false
     },
     {
+      "public_article_id": "url:0d73801f83967f6048f9d2c5",
+      "permalink_id": "article-url-0d73801f83967f6048f9d2c5",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+      "title": "Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
+      "summary_excerpt": "Overview On October 29, 2026, Ivanti updated its security advisory for Ivanti Connect Secure (ICS) to include two additional vulnerabilities and released fixes for both. Ivanti rates CVE-2026-111357 , a missing authentication for critical function vulnerability ( CWE-306 ), with a CVSSv3.1 score of 8.8 ; it allows a local authenticated attacker to escalate privileges. CVE-2026-118527 , classified as generation of predictable numbers or identifiers ( CWE-340 ), has an Ivanti-assigned CVSSv3.0 score of 4.3 and, according to CISA's KEV entry , allows a remote authenticated attacker to upload atta",
+      "published_at": "2026-11-02T20:04:08+09:00",
+      "first_seen_at": "2026-11-02T21:47:19.533751+09:00",
+      "source_name": "Rapid7 Blog",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "vulnerability",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "cves": [
+        "CVE-2026-104935",
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 37.5,
+      "published_at_future_suppressed": false
+    },
+    {
       "public_article_id": "url:8f34958c7751a326f9eca8e8",
       "permalink_id": "article-url-8f34958c7751a326f9eca8e8",
       "canonical_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
@@ -848,35 +879,6 @@
       "seen_in_kev": false,
       "heat_score": 37.5,
       "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:8927f234f52baad7df3c11d2",
-      "permalink_id": "article-url-8927f234f52baad7df3c11d2",
-      "canonical_url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
-      "published_at": "2026-10-30T16:27:05+09:00",
-      "first_seen_at": "2026-10-30T16:53:18.061259+09:00",
-      "source_name": "The Hacker News",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "vulnerability",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-97229"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 37.5,
-      "published_at_future_suppressed": false
     }
   ],
   "timeseries_status": {
@@ -898,7 +900,7 @@
   },
   "ticker_items": [
     "【LATEST #1】OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
-    "【HOTTEST #1 / Heat 75】Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+    "【HOTTEST #1 / Heat 67.5】Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
     "【LATEST #2】CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
     "【HOTTEST #2 / Heat 67.5】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
     "【LATEST #3】HPEのネットワーク管理製品に複数脆弱性 - 「クリティカル」3件",
@@ -908,6 +910,6 @@
     "【LATEST #5】医療機関のサイバーセキュリティー強化へ　ランサムウエア攻撃で診療への長期影響リスク",
     "【HOTTEST #5 / Heat 67.5】Cisco Unified Communications Manager Cross-Site Scripting Vulnerability"
   ],
-  "last_published_at": "2026-11-05T20:18:07.234646+09:00",
-  "publication_slot_jst": "2026-11-05T20:00:00+09:00"
+  "last_published_at": "2026-11-05T21:17:45.196363+09:00",
+  "publication_slot_jst": "2026-11-05T21:00:00+09:00"
 }
