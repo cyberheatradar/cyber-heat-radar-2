@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-05T20:14:32.192342+00:00",
-  "as_of": "2026-11-05T20:00:00+00:00",
-  "catalog_count": 21850,
+  "generated_at": "2026-11-05T21:14:22.048131+00:00",
+  "as_of": "2026-11-05T21:00:00+00:00",
+  "catalog_count": 21854,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,35 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:09d02629fc9055f4205930be",
+      "permalink_id": "article-url-09d02629fc9055f4205930be",
+      "canonical_url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+      "title": "APT29's Watering Holes Target Thousands of Mobile Users",
+      "summary_excerpt": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
+      "published_at": "2026-11-06T05:05:39+09:00",
+      "first_seen_at": "2026-11-06T05:24:49.144868+09:00",
+      "source_name": "Dark Reading",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "threat_campaign",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [
+        "APT29"
+      ],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:0104ffe0a06b05b6345105f5",
       "permalink_id": "article-url-0104ffe0a06b05b6345105f5",
@@ -29,6 +58,38 @@
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:51adceabf4249de22817c4e3",
+      "permalink_id": "article-url-51adceabf4249de22817c4e3",
+      "canonical_url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
+      "title": "Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns",
+      "summary_excerpt": "Key Points Introduction ARTEX is a Chinese open-source, AI-powered penetration testing platform designed to help security teams assess systems they own or are authorized to test. It uses large language models (LLMs) to coordinate multiple AI agents that plan tests, run security tools, and record evidence of potential vulnerabilities. Its web dashboard brings together assets, […] The post Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns appeared first on Check Point Research .",
+      "published_at": "2026-11-06T02:22:06+09:00",
+      "first_seen_at": "2026-11-06T05:24:19.874689+09:00",
+      "source_name": "Check Point Research",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "material",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
         }
       ],
       "cves": [],
@@ -218,7 +279,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     },
     {
@@ -250,61 +311,7 @@
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
-      "heat_score": 45.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:41a3ebeb13a17ae59fc353fa",
-      "permalink_id": "article-url-41a3ebeb13a17ae59fc353fa",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/",
-      "title": "Cyberattack on Norway’s aid agency may have swept up all user data",
-      "summary_excerpt": "The names and email addresses of 20,614 people registered on Norad’s Grants Portal may have ended up in the hands of attackers, Norway’s development aid agency has disclosed. Norad, short for the Norwegian Agency for Development Cooperation, works with partners around the world on development aid. It operates the portal, and both the agency and Norway’s Ministry of Foreign Affairs use it to collect funding applications for aid projects. According to the agency, the portal … More → The post Cyberattack on Norway’s aid agency may have swept up all user data appeared first on Help Net Security .",
-      "published_at": "2026-11-05T22:56:49+09:00",
-      "first_seen_at": "2026-11-06T00:23:57.198437+09:00",
-      "source_name": "Help Net Security",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:9d4ea0f6cb7b108ca9efdfa7",
-      "permalink_id": "article-url-9d4ea0f6cb7b108ca9efdfa7",
-      "canonical_url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
-      "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
-      "summary_excerpt": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns appeared first on SecurityWeek .",
-      "published_at": "2026-11-05T22:22:12+09:00",
-      "first_seen_at": "2026-11-06T00:24:21.174728+09:00",
-      "source_name": "SecurityWeek",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "threat_campaign",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 58.5,
+      "heat_score": 40.5,
       "published_at_future_suppressed": false
     }
   ],
@@ -985,17 +992,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+    "【LATEST #1】APT29's Watering Holes Target Thousands of Mobile Users",
     "【HOTTEST #1 / Heat 75】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-    "【LATEST #2】Hackers backdoor Linux servers using trojanized CWP web server",
+    "【LATEST #2】OpenSSH flaw lets attackers log into password-disabled Linux accounts",
     "【HOTTEST #2 / Heat 67.5】Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)",
-    "【LATEST #3】DigiCert data breach exposes customer information, identity documents",
+    "【LATEST #3】Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns",
     "【HOTTEST #3 / Heat 67.5】Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-    "【LATEST #4】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+    "【LATEST #4】Hackers backdoor Linux servers using trojanized CWP web server",
     "【HOTTEST #4 / Heat 67.5】Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "【LATEST #5】Zyxel Switch Patch Missed Flaw Behind Wave of Attacks",
+    "【LATEST #5】DigiCert data breach exposes customer information, identity documents",
     "【HOTTEST #5 / Heat 67.5】Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026"
   ],
-  "last_published_at": "2026-11-06T05:20:08.281814+09:00",
-  "publication_slot_jst": "2026-11-06T05:00:00+09:00"
+  "last_published_at": "2026-11-06T06:18:59.490478+09:00",
+  "publication_slot_jst": "2026-11-06T06:00:00+09:00"
 }
