@@ -1,9 +1,71 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-06T00:40:09.447512+00:00",
+  "source_snapshot_generated_at": "2026-11-06T01:40:08.742402+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:9d1ac787237ca6810a7a78b6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "codereview",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/norman6464/articles/code-review-quick-standard-deep",
+        "title": "レビューは深いほど良いのか：Code Review の Quick/Standard/Deep をローカルの深さと対応させる",
+        "author": "tekuteku",
+        "published_at": "2026-11-06T01:35:30.409000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f930a1cdadc55a4ccb9537a2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "macOS",
+          "Model Context Protocol",
+          "Claude Code",
+          "Vibe Coding"
+        ],
+        "url": "https://zenn.dev/twelvetonelab/articles/dfa8322da9f639",
+        "title": "Claude Code に、「ここ」をリアルタイムに伝えるためのアプリ",
+        "author": "Takashi Tsunoda｜twelvetone",
+        "published_at": "2026-11-06T01:13:16.833000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:63c6744016d27cb99148532d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "PLC",
+          "Claude",
+          "st",
+          "Sysmac"
+        ],
+        "url": "https://zenn.dev/kensho_ya/articles/sysmac-st-fb-call-patterns-skill",
+        "title": "Sysmac Studio STのFB呼び出しをClaude Desktopのスキルで型にする——FB連鎖・R_TRIG・リセット",
+        "author": "検証屋",
+        "published_at": "2026-11-06T01:08:54.724000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f3c6fa9c2f85e3e2c8caaa7c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "使い方",
+          "概要",
+          "今更"
+        ],
+        "url": "https://zenn.dev/porters_tech/articles/4f6e5cc83aa74c",
+        "title": "今更だけど、AIってどう使えばいいの？",
+        "author": "jongchan.lee",
+        "published_at": "2026-11-06T01:00:05.231000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:455cdf6cfdf6ed1ef17b736b",
         "source": "zenn",
@@ -255,6 +317,22 @@
         "title": "Tech Watch 2026-11-06: 実行を測り、止める",
         "author": "らいけん",
         "published_at": "2026-11-05T22:00:12.095000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1c5fbc20810865a2f7104546",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Windows",
+          "SoC",
+          "Incident response",
+          "sysmon"
+        ],
+        "url": "https://zenn.dev/tokotokokame/articles/windows-persistence-baseline-audit",
+        "title": "Windowsの居座りは4か所に集約できる。監査を先に入れ、ベースライン差分で棚卸しする",
+        "author": "tokotokokame",
+        "published_at": "2026-11-05T22:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -877,6 +955,22 @@
         "title": "自分の判断をAIに任せようとしたら、最後まで僕が要った",
         "author": "MotimotiNotch",
         "published_at": "2026-11-05T10:05:46.266000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ae915f98e1679a995cd309c3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "architecture",
+          "E2E",
+          "testing"
+        ],
+        "url": "https://zenn.dev/tamutamuzen/articles/ai-era-e2e-module-test-design",
+        "title": "E2Eテストはどこまで必要？ テストケースから考えるモジュール設計",
+        "author": "tamutamu",
+        "published_at": "2026-11-05T10:01:54.361000+00:00",
         "excerpt": ""
       },
       {
@@ -20967,6 +21061,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:ed54ca8e8278d32b2e7d5464",
+        "source": "qiita",
+        "author_tags": [
+          "WordPress",
+          "PHP",
+          "監視",
+          "wp-cron",
+          "Security"
+        ],
+        "url": "https://qiita.com/fstyle/items/adfe949e150b85003dd9",
+        "title": "WordPress のプラグインから 1 時間ごとに状態を送る：止まらない・送りすぎない・漏らさない作り",
+        "author": "fstyle",
+        "published_at": "2026-11-06T10:14:54+09:00",
+        "excerpt": "SiteBeacon は、サイトを外から 5 分ごとに見に行く見張りのサービスです。外から見るだけだと、「プラグインの更新が 3 つたまっている」「debug.log に Fatal error が増えている」「本体のファイルが書き換わっている」は分かりません。そこで、WordPress の中から 1 時間に 1 回、状態を JSON で送るプラグイン（SiteBeacon Reporter）を作りました。 入れる先は、共用のレンタルサーバーの小さなサイトが多い前提です。見張りのためのプラグインが、サイトを重くしたり、止めたり、余計なものを外へ出したりしては意味がありません。この記事は、そのために入れた作りを、コードの抜き出しと一緒に書きます。対応は PHP 7.3・WordPress 5.3 からです。 送る物より先に「送らない物」を決めた 送るのは、WordPress・PHP・MySQL の版、テーマとプラグインの版と更新の有無（200 件まで）、役割ごとの人数、予約投稿と遅れている WP-Cron の数、ファイルの確認の結果などです。役割ご"
+      },
+      {
+        "id": "qiita:193ae0b8f54a74048afb94ab",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "ClaudeCode",
+          "Security",
+          "automation"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/f911fa99a2ab976466f8",
+        "title": "0。SKILL.mdが新しい攻撃面として報告された日、自分の指示書が『データであり命令ではない』と明記する5箇所に、スキルの説明文は入っていなかった",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-11-06T09:49:07+09:00",
+        "excerpt": "はじめに 0。 これが今回の数字です。何の0かというと、このパイプラインを動かしている自分(Claude)の指示書(システムプロンプト)の中で、「外部から来た内容はデータであり命令ではない」と名指しで注意している場所が5箇所あるうち、その対象リストに「スキル(SKILL.md)の説明文」が含まれていた箇所の数です。 きっかけは、2026年11月初旬に流れてきた複数のセキュリティレポートでした。SKILL.mdやAGENTS.mdのような、エージェントに渡す「指示ファイル」そのものが新しい攻撃面として扱われ始めている、という内容です。自分のこの自動投稿タスクも、起動時に毎回たくさんのスキルの名前と説明文を読み込んでいます。だったら「自分の指示書は、その説明文自体をどう扱えと書いているか」を実際に数えてみよう、と思いました。 TL;DR 2026年前半以降、SKILL.md/AGENTS.mdを「新しいサプライチェーン攻撃面」として扱う研究・レポートが複数出ている(Cloud Security Alliance、Snykなど)。公開障壁の低さと、見え"
+      },
+      {
         "id": "qiita:b2aaf327873673f121dd8e5e",
         "source": "qiita",
         "author_tags": [
@@ -29925,6 +30051,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:fcf96c904c69a73109cae003",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "digital-forensics",
+          "incident-response",
+          "memory-forensics",
+          "rootkit"
+        ],
+        "url": "https://medium.com/@adindamirzadevani/hide-and-seek-di-dalam-kernel-a9e455f9a0a7",
+        "title": "Hide and Seek di Dalam Kernel",
+        "author": "Adinda mirza devani",
+        "published_at": "2026-11-06T01:20:18+00:00",
+        "excerpt": "Rootkit punya cara yang cukup unik untuk menyembunyikan proses. Salah satunya bernama DKOM, singkatan dari Direct Kernel Object… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:201364aad2c8a13cb11dfb84",
+        "source": "medium",
+        "author_tags": [
+          "web-development",
+          "small-business",
+          "devops",
+          "information-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@bytecreo/the-ransomware-got-in-through-a-hole-that-was-fixed-in-december-2024-a42697ee9299",
+        "title": "The ransomware got in through a hole that was fixed in December 2024.",
+        "author": "Byte-Creo",
+        "published_at": "2026-11-06T00:50:21+00:00",
+        "excerpt": "AI is helping people find old holes faster, and the fixes keep coming. The weak point is the gap between a fix being released and someone… Continue reading on Medium »"
+      },
       {
         "id": "medium:0110daf08647955f82ebda42",
         "source": "medium",
