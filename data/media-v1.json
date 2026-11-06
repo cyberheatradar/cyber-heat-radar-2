@@ -1,9 +1,117 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-06T02:40:12.936374+00:00",
+  "source_snapshot_generated_at": "2026-11-06T04:40:08.254763+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:082e17aacbee7b4444d363e5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "アジャイル",
+          "システム開発",
+          "ウォーターフォール"
+        ],
+        "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-13-waterfall-agile",
+        "title": "🦙 ALPACA-FW #13｜WaterfallとAgileを同じ成果物で扱う理由",
+        "author": "アルパカの村",
+        "published_at": "2026-11-06T04:17:36.394000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b2697963e55e7a1fd1ea2dae",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "llm",
+          "clef",
+          "モデル評価"
+        ],
+        "url": "https://zenn.dev/starai_org/articles/clef-decision-model-scoring-analysis",
+        "title": "Clef はなぜ「取引先」にだまされるのか",
+        "author": "STAR AIメンバー",
+        "published_at": "2026-11-06T04:01:34.899000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:295aafae5689da790cf53ccc",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "delta",
+          "Zed",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/zundamon_tools/articles/zed-delta-agent-code-conversation",
+        "title": "AI が書いたコードの「なぜ」をコミット後に聞ける：Zed Delta で差分と会話を一緒に残す",
+        "author": "ずんだもんの実験道具箱",
+        "published_at": "2026-11-06T03:44:29.883000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:afa157876944b46110633aac",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "脆弱性",
+          "OpenSSH"
+        ],
+        "url": "https://zenn.dev/tyamadadd/articles/c577c81689fb96",
+        "title": "OpenSSHの「長いパスワードで入れる」脆弱性、Alpineなどmusl環境のどこが影響を受けるか",
+        "author": "tyamadadd",
+        "published_at": "2026-11-06T03:36:12.050000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a02808d5da104fddabfdd547",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "UI",
+          "frontend",
+          "testing"
+        ],
+        "url": "https://zenn.dev/thumbsai/articles/835357e3201059",
+        "title": "音声候補を「役割カード」として扱うUI設計",
+        "author": "Joce Deri",
+        "published_at": "2026-11-06T03:18:20.383000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d79683dc75e5b493c0e966a3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CSS",
+          "designsystem",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/hakaru_design/articles/b934c2a1a54ae6",
+        "title": "DESIGN.md が古いと AI は「正確に間違える」— 同じ課題を 6 回やらせて採点した",
+        "author": "測るデザイナー",
+        "published_at": "2026-11-06T03:13:00.744000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d6d9e1c4da6dcfe26fd8ec6e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "コードレビュー",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/acerola_jp/articles/claude-code-commit-size-guard",
+        "title": "Claude Code のコミットを100行以内に分けさせる",
+        "author": "アセロラ",
+        "published_at": "2026-11-06T03:00:06.475000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:21608fffb252c9d01c19abac",
         "source": "zenn",
@@ -26711,6 +26819,22 @@
         "excerpt": "先日大騒ぎになった PHP2Shell ですが、修正版リリースの提供直後、PHP財団公式ブログ記事 Today's PHP Security Release, and How We're Strengthening PHP Security が公開されました。 そもそもどんな脆弱性？ 以下は簡易化のため正確ではありません。 PHPは、リクエストが来るとリクエストをメモリに展開し、プログラムを実行し、最後にメモリをきれいに初期化してから再び次のリクエストの処理を開始する、という仕組みになっています。 ここで細工したリクエストが送られてくるとメモリへの展開に失敗することがあり、その際にはメモリの一部が初期化されずリクエストが書き込まれたままになってしまうのです。 これによって、悪意のあるコードを送り込むことでサーバ上で実行することができてしまう、とざっくりいうとこんなかんじです。 もちろん簡単に実行できるわけではなく、実は理論上のバグ自体は2年前から見つかっていたのですが現実的な攻撃経路が見つからなかったので修正が後回しになっていました。 それほど難"
       },
       {
+        "id": "qiita:c85cf3a7b3a600c2ce5d6f00",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "bedrock",
+          "Datadog",
+          "Security",
+          "SRE"
+        ],
+        "url": "https://qiita.com/Nekorock/items/dae6887a4e7ee529edb5",
+        "title": "Datadog のセキュリティアラートを Bedrock の Claude で一次切り分けする設計。判断は人に残し、ログに混ざる「指示」を疑う",
+        "author": "Nekorock",
+        "published_at": "2026-10-26T19:46:30+09:00",
+        "excerpt": "この記事は、Datadog のセキュリティアラートを Amazon Bedrock の Claude で一次切り分けするエージェントの設計メモです。決めたことは次の 5 つです。 エージェントの権限は、Datadog の読み取りと Slack への投稿だけにする モデルが「誤検知」と言ってもアラートは閉じない。判断は人が Datadog 上で行う ログの本文は、呼び出しごとに名前を変えるランダムなタグで囲み、データとして渡す ログの中に指示のような文があったら、注意書きを付けて人に回す モデルごとのデータ保持とクロスリージョン推論の扱いを確かめたうえで、送るデータを絞る SOC やセキュリティ運用で、LLM にアラートの要約や切り分けを手伝わせたい人向けです。最後に「設計チェックリスト」と「確かめていないこと」を置いているので、自分の設計と照らし合わせるならそこから読んでも大丈夫です。 とある案件で作ったものを、記事用に一般化して書いています。構成図とコードは簡略化した例で、記事のコードで Bedrock を実際には呼んでいません。効果を数字で測"
+      },
+      {
         "id": "qiita:d57b9c03c46ae09e34ba7082",
         "source": "qiita",
         "author_tags": [
@@ -30161,6 +30285,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ab94044597371b9bebe71ce8",
+        "source": "medium",
+        "author_tags": [
+          "cyberattack",
+          "cybersecurity",
+          "operational-technology",
+          "network-security",
+          "soc-analyst"
+        ],
+        "url": "https://medium.com/@sachinkumar7895/when-hackers-made-supermarket-freezers-reach-50-c-a-cyberattack-25aa24223684",
+        "title": "When Hackers Made Supermarket Freezers Reach 50°C: A Cyberattack",
+        "author": "Sachin Kumar",
+        "published_at": "2026-11-06T04:30:12+00:00",
+        "excerpt": "1. Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c0bda47cf7fea0cebd776cf7",
+        "source": "medium",
+        "author_tags": [
+          "hackthebox",
+          "digital-forensics-expert",
+          "cybersecurity",
+          "infosec",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@Plo2wist/kraken-htb-sherlock-taking-apart-a-five-layer-rat-loader-without-running-a-single-line-da1a7ec8f390",
+        "title": "Kraken (HTB Sherlock): Taking Apart a Five-Layer RAT Loader Without Running a Single Line",
+        "author": "Devansh Jaiswal",
+        "published_at": "2026-11-06T04:26:56+00:00",
+        "excerpt": "A start-to-finish DFIR and malware-triage walkthrough: from one Recent-folder shortcut to a fully decrypted MasonRAT payload, using only… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1bec5c53337a0fbf6f87e6cd",
+        "source": "medium",
+        "author_tags": [
+          "ine",
+          "cybersecurity",
+          "ctf-writeup",
+          "elasticsearch",
+          "labs"
+        ],
+        "url": "https://medium.com/@minshawipc1/ine-incident-response-detection-ctf-1-writeup-396ac5107c8b",
+        "title": "INE Incident Response Detection CTF 1: Writeup",
+        "author": "Mohamed Ahmed Menshawi",
+        "published_at": "2026-11-06T03:18:05+00:00",
+        "excerpt": "INE Skill Check Lab (Capture the Flag) | Tool: Kibana (ELK) Continue reading on Medium »"
+      },
       {
         "id": "medium:0f69741d968b22f2fe8b2d87",
         "source": "medium",

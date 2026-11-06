@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-06T04:19:56.939707+00:00",
-  "as_of": "2026-11-06T04:00:00+00:00",
-  "catalog_count": 21911,
+  "generated_at": "2026-11-06T05:19:59.095010+00:00",
+  "as_of": "2026-11-06T05:00:00+00:00",
+  "catalog_count": 21914,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,64 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:53d8ad9cb00fa66b3937cc0c",
+      "permalink_id": "article-url-53d8ad9cb00fa66b3937cc0c",
+      "canonical_url": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
+      "title": "AI agents are a ‘bane’ for some website operators, says Cloudflare",
+      "summary_excerpt": "CEO says sovereigns probably exploited PHP2SHELL ages ago, and suggests containers are dead",
+      "published_at": "2026-11-06T13:25:14+09:00",
+      "first_seen_at": "2026-11-06T13:52:39.177771+09:00",
+      "source_name": "The Register Security",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "primary",
+      "document_form": "single_story",
+      "primary_category": "ai_security",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7d60ae4d9e62315e8dbaef97",
+      "permalink_id": "article-url-7d60ae4d9e62315e8dbaef97",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/06/2000002952/",
+      "title": "消防庁「安否情報システム」不正アクセスでサービス停止　委託先の富士ソフトから報告",
+      "summary_excerpt": "影響範囲を調査するためサービスを停止し、外部からのアクセスを遮断している。",
+      "published_at": "2026-11-06T12:31:28+09:00",
+      "first_seen_at": "2026-11-06T13:40:39.478076+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:7b582e60bd1f28e4b1827308",
       "permalink_id": "article-url-7b582e60bd1f28e4b1827308",
@@ -166,68 +224,26 @@
       "published_at_future_suppressed": false
     },
     {
-      "public_article_id": "url:c90a65a9567936d09bd6b168",
-      "permalink_id": "article-url-c90a65a9567936d09bd6b168",
-      "canonical_url": "https://www.security-next.com/192441",
-      "title": "「Apache OFBiz」にRCE脆弱性 - 修正版がリリース",
-      "summary_excerpt": "Apacheの業務アプリケーション「Apache OFBiz」に深刻な脆弱性が明らかとなった。開発チームは修正版を提供している。",
-      "published_at": "2026-11-06T09:52:42+09:00",
-      "first_seen_at": "2026-11-06T09:54:33.832892+09:00",
-      "source_name": "Security NEXT",
+      "public_article_id": "url:eb0276930226e12650aa1bf5",
+      "permalink_id": "article-url-eb0276930226e12650aa1bf5",
+      "canonical_url": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
+      "title": "Threat actor targets Indian fintechs on weekends when defenders aren’t watching",
+      "summary_excerpt": "CERT-IN warns of ‘significant escalation’ in AI-powered attacks, some after victims tried to improve defences",
+      "published_at": "2026-11-06T10:17:40+09:00",
+      "first_seen_at": "2026-11-06T13:52:40.028691+09:00",
+      "source_name": "The Register Security",
       "source_class": "topic_rss",
       "security_relevance": "primary",
-      "ai_relevance": "none",
+      "ai_relevance": "material",
       "document_form": "single_story",
-      "primary_category": "vulnerability",
+      "primary_category": "ai_security",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
         }
       ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:fbc380c269e38695b2d8f68c",
-      "permalink_id": "article-url-fbc380c269e38695b2d8f68c",
-      "canonical_url": "https://www.security-next.com/192434",
-      "title": "WatchGuardの多要素認証製品に脆弱性 - 「クリティカル」も",
-      "summary_excerpt": "WatchGuardの多要素認証ソリューション「WatchGuard AuthPoint」で利用する一部コンポーネントに複数の脆弱性が明らかとなった。同社は修正版を提供している。",
-      "published_at": "2026-11-06T09:17:19+09:00",
-      "first_seen_at": "2026-11-06T09:54:40.013348+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:c6cf819c684a33a98001b35d",
-      "permalink_id": "article-url-c6cf819c684a33a98001b35d",
-      "canonical_url": "https://www.security-next.com/192437",
-      "title": "「Firefox」のレイアウト処理に脆弱性 - 「同159.0.1」で修正",
-      "summary_excerpt": "Mozilla Foundationは現地時間2026年11月3日、ウェブブラウザのセキュリティアップデートとなる「Firefox 159.0.1」を公開した。",
-      "published_at": "2026-11-06T09:11:14+09:00",
-      "first_seen_at": "2026-11-06T09:54:40.204675+09:00",
-      "source_name": "Security NEXT",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
       "cves": [],
       "threat_actors": [],
       "seen_in_kev": false,
@@ -284,33 +300,6 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 73.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:57e8b60fa15a23daf7a3f879",
-      "permalink_id": "article-url-57e8b60fa15a23daf7a3f879",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/06/2000002931/",
-      "title": "OpenAI、サイバーセキュリティ特化型「GPT-6 Cyber」発表　Firefoxの未知の脆弱性81件を発見",
-      "summary_excerpt": "OpenAIは、サイバーセキュリティ特化型AI「GPT-6 Cyber」を発表した。汎用モデル「Astra」をベースに脆弱性発見や攻撃コード開発能力を大幅に強化。提供先は厳格な審査を通過した防御者に限定され、高度なAIによる攻撃が普及する前に、防御側が重要インフラの保護やシステム修正を迅速に行えるよう支援する狙いだ。",
-      "published_at": "2026-11-06T07:57:34+09:00",
-      "first_seen_at": "2026-11-06T08:27:47.960348+09:00",
-      "source_name": "ITmedia NEWS Bursts",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "primary",
-      "document_form": "advisory",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 69.35,
       "published_at_future_suppressed": false
     },
     {
@@ -454,6 +443,27 @@
       "threat_actors": [],
       "seen_in_kev": false,
       "heat_score": 65.7,
+      "published_at_future_suppressed": false
+    },
+    {
+      "public_article_id": "url:7d60ae4d9e62315e8dbaef97",
+      "permalink_id": "article-url-7d60ae4d9e62315e8dbaef97",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/06/2000002952/",
+      "title": "消防庁「安否情報システム」不正アクセスでサービス停止　委託先の富士ソフトから報告",
+      "summary_excerpt": "影響範囲を調査するためサービスを停止し、外部からのアクセスを遮断している。",
+      "published_at": "2026-11-06T12:31:28+09:00",
+      "first_seen_at": "2026-11-06T13:40:39.478076+09:00",
+      "source_name": "ITmedia NEWS Bursts",
+      "source_class": "topic_rss",
+      "security_relevance": "primary",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 65.0,
       "published_at_future_suppressed": false
     },
     {
@@ -862,17 +872,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】OpenAIがLinuxの脆弱性948件を発見、費やしたAPIコストは約1億9200万円",
+    "【LATEST #1】AI agents are a ‘bane’ for some website operators, says Cloudflare",
     "【HOTTEST #1 / Heat 75】約10年間見逃されていたOpenSSHの脆弱性「*sshole」が発覚、257文字以上のパスワードでログイン禁止アカウントを突破可能に",
-    "【LATEST #2】OpenAIがサイバーセキュリティのためのAI「GPT-6 Cyber」を発表",
+    "【LATEST #2】消防庁「安否情報システム」不正アクセスでサービス停止　委託先の富士ソフトから報告",
     "【HOTTEST #2 / Heat 73】ゲーセンに真っ暗な画面ずらり……セガ系システムの障害が長期化、復旧めど立たず　原因は不正アクセス",
-    "【LATEST #3】ソニー、プレステサービスの不正アクセス「措置を講じている」　被害状況は公表せず",
-    "【HOTTEST #3 / Heat 69.35】OpenAI、サイバーセキュリティ特化型「GPT-6 Cyber」発表　Firefoxの未知の脆弱性81件を発見",
-    "【LATEST #4】約10年間見逃されていたOpenSSHの脆弱性「*sshole」が発覚、257文字以上のパスワードでログイン禁止アカウントを突破可能に",
-    "【HOTTEST #4 / Heat 67.5】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-    "【LATEST #5】無印良品、「MUJI Card」のカード番号約109万件の流出可能性も判明、過去にポイント付与のためデータ保持",
-    "【HOTTEST #5 / Heat 67.5】Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)"
+    "【LATEST #3】OpenAIがLinuxの脆弱性948件を発見、費やしたAPIコストは約1億9200万円",
+    "【HOTTEST #3 / Heat 67.5】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+    "【LATEST #4】OpenAIがサイバーセキュリティのためのAI「GPT-6 Cyber」を発表",
+    "【HOTTEST #4 / Heat 67.5】Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)",
+    "【LATEST #5】ソニー、プレステサービスの不正アクセス「措置を講じている」　被害状況は公表せず",
+    "【HOTTEST #5 / Heat 67.5】Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day"
   ],
-  "last_published_at": "2026-11-06T13:26:08.749841+09:00",
-  "publication_slot_jst": "2026-11-06T13:00:00+09:00"
+  "last_published_at": "2026-11-06T14:26:09.772409+09:00",
+  "publication_slot_jst": "2026-11-06T14:00:00+09:00"
 }
