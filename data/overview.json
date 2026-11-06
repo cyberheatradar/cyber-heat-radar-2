@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-06T02:14:28.096942+00:00",
-  "as_of": "2026-11-06T02:00:00+00:00",
-  "catalog_count": 21902,
+  "generated_at": "2026-11-06T03:20:30.668406+00:00",
+  "as_of": "2026-11-06T03:00:00+00:00",
+  "catalog_count": 21904,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,27 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "public_article_id": "url:ff9232789b1c7c45f51de50b",
+      "permalink_id": "article-url-ff9232789b1c7c45f51de50b",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2154222.html",
+      "title": "無印良品、「MUJI Card」のカード番号約109万件の流出可能性も判明、過去にポイント付与のためデータ保持",
+      "summary_excerpt": "良品計画株式会社は11月4日、不正アクセスに関する第2報を発表し、クレジットカード「MUJI Card」のカード番号全桁が約109万件（うち約34.5万件が発表時点でも有効）など、新たな情報流出について発表した。本件については、MUJI Cardの発行元である株式会社クレディセゾンも情報を発表している。",
+      "published_at": "2026-11-06T11:15:00+09:00",
+      "first_seen_at": "2026-11-06T11:28:00.048045+09:00",
+      "source_name": "INTERNET Watch",
+      "source_class": "topic_rss",
+      "security_relevance": "material",
+      "ai_relevance": "none",
+      "document_form": "single_story",
+      "primary_category": "other",
+      "public_tags": [],
+      "cves": [],
+      "threat_actors": [],
+      "seen_in_kev": false,
+      "heat_score": 45.0,
+      "published_at_future_suppressed": false
+    },
     {
       "public_article_id": "url:c90a65a9567936d09bd6b168",
       "permalink_id": "article-url-c90a65a9567936d09bd6b168",
@@ -192,27 +213,6 @@
       "summary_excerpt": null,
       "published_at": "2026-11-06T08:05:25+09:00",
       "first_seen_at": "2026-11-06T09:53:51.421857+09:00",
-      "source_name": "ScanNetSecurity",
-      "source_class": "topic_rss",
-      "security_relevance": "primary",
-      "ai_relevance": "none",
-      "document_form": "single_story",
-      "primary_category": "other",
-      "public_tags": [],
-      "cves": [],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 65.0,
-      "published_at_future_suppressed": false
-    },
-    {
-      "public_article_id": "url:a366b6f82ab558cd21348e02",
-      "permalink_id": "article-url-a366b6f82ab558cd21348e02",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56693.html",
-      "title": "マーケティングプラットフォーム「ferret One」への不正アクセス、内部管理機能に不備",
-      "summary_excerpt": null,
-      "published_at": "2026-11-06T08:05:23+09:00",
-      "first_seen_at": "2026-11-06T09:53:51.509168+09:00",
       "source_name": "ScanNetSecurity",
       "source_class": "topic_rss",
       "security_relevance": "primary",
@@ -490,42 +490,6 @@
     }
   ],
   "rising": [
-    {
-      "public_article_id": "url:c48e4b2838068a2af4b3e450",
-      "permalink_id": "article-url-c48e4b2838068a2af4b3e450",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
-      "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
-      "summary_excerpt": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability CVE-2026-76506 High 7.6 Cisco Unified Communications Manager Cross-Site Scripting Vulnerability CVE-2026-76419 Medium 6.1 Cisco Identity Services Engine Authorization Bypass Vulnerability CVE-2026-20241 Medium 5.3 To remediate the vulnerabilities that were disclosed on November 4, 2026, Cisco strongly recommends that customers upgrade to the fixed so",
-      "published_at": "2026-10-29T01:00:00+09:00",
-      "first_seen_at": "2026-10-29T02:02:11.873252+09:00",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "source_class": "topic_rss",
-      "security_relevance": "material",
-      "ai_relevance": "material",
-      "document_form": "single_story",
-      "primary_category": "ai_security",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cve",
-          "label": "Vulnerability"
-        }
-      ],
-      "cves": [
-        "CVE-2026-20241",
-        "CVE-2026-76419",
-        "CVE-2026-76506"
-      ],
-      "threat_actors": [],
-      "seen_in_kev": false,
-      "heat_score": 8.25,
-      "published_at_future_suppressed": false
-    },
     {
       "public_article_id": "url:52acb880b9268afbc85995dc",
       "permalink_id": "article-url-52acb880b9268afbc85995dc",
@@ -888,17 +852,17 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】「Apache OFBiz」にRCE脆弱性 - 修正版がリリース",
+    "【LATEST #1】無印良品、「MUJI Card」のカード番号約109万件の流出可能性も判明、過去にポイント付与のためデータ保持",
     "【HOTTEST #1 / Heat 69.35】OpenAI、サイバーセキュリティ特化型「GPT-6 Cyber」発表　Firefoxの未知の脆弱性81件を発見",
-    "【LATEST #2】WatchGuardの多要素認証製品に脆弱性 - 「クリティカル」も",
+    "【LATEST #2】「Apache OFBiz」にRCE脆弱性 - 修正版がリリース",
     "【HOTTEST #2 / Heat 67.5】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-    "【LATEST #3】「Firefox」のレイアウト処理に脆弱性 - 「同159.0.1」で修正",
+    "【LATEST #3】WatchGuardの多要素認証製品に脆弱性 - 「クリティカル」も",
     "【HOTTEST #3 / Heat 67.5】Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)",
-    "【LATEST #4】アイリスオーヤマ、非会員含む約770万人分の情報漏えいか　外部クラウドに不審ファイル発見→不正アクセス発覚",
+    "【LATEST #4】「Firefox」のレイアウト処理に脆弱性 - 「同159.0.1」で修正",
     "【HOTTEST #4 / Heat 67.5】Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-    "【LATEST #5】サイバー攻撃で強制遮断検討 政府",
+    "【LATEST #5】アイリスオーヤマ、非会員含む約770万人分の情報漏えいか　外部クラウドに不審ファイル発見→不正アクセス発覚",
     "【HOTTEST #5 / Heat 67.5】Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says"
   ],
-  "last_published_at": "2026-11-06T11:19:54.754344+09:00",
-  "publication_slot_jst": "2026-11-06T11:00:00+09:00"
+  "last_published_at": "2026-11-06T12:26:56.874449+09:00",
+  "publication_slot_jst": "2026-11-06T12:00:00+09:00"
 }

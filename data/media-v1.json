@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-06T01:40:08.742402+00:00",
+  "source_snapshot_generated_at": "2026-11-06T02:40:12.936374+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:21608fffb252c9d01c19abac",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "billing",
+          "cost",
+          "llm"
+        ],
+        "url": "https://zenn.dev/modelflare_dev/articles/ec70ffdad5d304",
+        "title": "LLMリクエストごとのトークン費用を計算する",
+        "author": "ModelFlare",
+        "published_at": "2026-11-06T02:15:34.427000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:92adaa36ccde99d2254f4dda",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "Claude",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/handitian/articles/46edba5a1ac632",
+        "title": "Museに店を持たせた。暴走させないための承認ゲートと外部記憶の設計",
+        "author": "Atelier Handitian",
+        "published_at": "2026-11-06T02:11:59.068000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e118013ef505b3dfa355dd9d",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "個人開発",
+          "automation",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mameresearcher/articles/claude-headless-allowedtools-not-restrict",
+        "title": "claude -p の --allowedTools は道具を絞らない — 定時ジョブの子に Edit と Shell が見えていた",
+        "author": "まめ研究員",
+        "published_at": "2026-11-06T02:01:24.120000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:9d1ac787237ca6810a7a78b6",
         "source": "zenn",
@@ -143,6 +191,22 @@
         "title": "社内でプロンプト集を配っても使われない。定着させる配り方",
         "author": "生成AI清塚",
         "published_at": "2026-11-06T00:00:14.669000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:40f3d3e71dc6613edf4d0ae7",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "Inspector",
+          "AWS Security Hub",
+          "SBOM"
+        ],
+        "url": "https://zenn.dev/cscloud_blog/articles/securityhub-sbom-inventory",
+        "title": "Security Hub の SBOM インベントリで、Athena を使わずに組織全体のソフトウェアを調べてみた",
+        "author": "平木 佳介",
+        "published_at": "2026-11-06T00:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -21061,6 +21125,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5ac96657d210ca28a5e82890",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "ポエム",
+          "AIエージェント",
+          "AI駆動開発"
+        ],
+        "url": "https://qiita.com/ennagara128/items/f20ec4b1f63037568468",
+        "title": "2026年11月6日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+        "author": "ennagara128",
+        "published_at": "2026-11-06T11:39:01+09:00",
+        "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 どっちが人間？ AIで声をクローンして、本人と聞き比べてみた https://qiita.com/nakata-sapeet/items/f883c3cf009785c51bcc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items 生成 AI が進化する今こそ、「人材育成」が経営の重要課題ではないか https://qiita.com/Takashi_Masumori/items/3c3091a6142d3e05385b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items 営業こそコミュニティでは「No sell」でいよう https://qiita.com/"
+      },
+      {
+        "id": "qiita:7e47f8d0a6dd3dce1a286ebc",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/03b2c4937920089ce005",
+        "title": "HTTPS上流のSNIはどこで有効にするか：リバースプロキシWAFの切り分け",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-06T11:37:53+09:00",
+        "excerpt": "検索語 how to enable sni for an https upstream in a reverse proxy waf は、管理画面のどこかに「上流へSNIを送れ」というスイッチがある前提で調べられることが多い。手元の追加手順を症状から読み直すと、その専用欄は見当たらない。ここで必要なのは未記載のトグルを足すことではなく、待ち受け、転送先、証明書名のどれがずれているかをチェックリストで切り分けることだ。 Server Name IndicationはTLSの拡張である。ハンドシェイクのあいだにクライアントがホスト名を送り、複数の証明書を持つサーバがどれを出すか選ぶ。これは一般的なTLSの振る舞いであり、それ自体は製品の設定項目ではない。リバースプロキシ型のWAFを前に置いたあとで証明書名が合わないとき、プロキシ側の隠しスイッチを疑う前に、公開名とオリジン側の待受を分けて見る。 画面に実際にある項目 SafeLineはWebアプリの前に置く自己ホスト型のWAFで、HTTPトラフィックを検査し、悪意のあるHTTPとHTTPSの要求を止め"
+      },
+      {
+        "id": "qiita:e857b26591c61ec314011430",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "TruffleHog",
+          "Security",
+          "Git",
+          "CircleCI"
+        ],
+        "url": "https://qiita.com/CircleCIJapan/items/00c07ba3c040a8d2e84d",
+        "title": "Claude Code のコミット前フックで TruffleHog を実行し、シークレット入りのコミットを止める",
+        "author": "CircleCIJapan",
+        "published_at": "2026-11-06T10:40:35+09:00",
+        "excerpt": "Claude CodeのようなAIコーディングエージェントは、コードの変更からコミットまでを自分で進めます。エージェントが書いたコードにAPIキーが直書きされていても、そのままコミットされることがあります。一度コミットしたキーは、ファイルを消してもGitのコミット履歴に残り続けるので厄介です。 本記事では、Claude Codeのフックを使い、エージェントが git commit を実行する前にTruffleHogでステージした変更を検査して、シークレット入りのコミットを止める手順を紹介します。 ステージした変更を TruffleHog で検査する TruffleHogは、GitリポジトリやファイルからAPIキーなどの認証情報を探すOSSのツールです。コミット前の検査には、環境変数 TRUFFLEHOG_PRE_COMMIT を付けて trufflehog git を実行しましょう。TruffleHogのドキュメントで推奨されている方法で、コミット前の検査に合った設定が自動で選ばれるのが利点です。 TRUFFLEHOG_PRE_COMMIT = "
+      },
+      {
         "id": "qiita:ed54ca8e8278d32b2e7d5464",
         "source": "qiita",
         "author_tags": [
@@ -30051,6 +30161,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:0f69741d968b22f2fe8b2d87",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "bug-bounty",
+          "red-team",
+          "ctf",
+          "information-security"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/dependency-confusion-explained-how-a-missing-npm-package-becomes-remote-code-execution-bba0fa514e49",
+        "title": "Dependency Confusion Explained: How a Missing NPM Package Becomes Remote Code Execution",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-11-06T02:23:46+00:00",
+        "excerpt": "How a package name your build already trusts gets claimed by someone else, how I found one in a bug bounty, and the registry settings that… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6f35c70d9275586656a561ce",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "software-engineering",
+          "openai",
+          "artificial-intelligence",
+          "vulnerability-management"
+        ],
+        "url": "https://medium.com/@lilyfeng_32454/948-linux-kernel-vulnerabilities-two-critical-php-bugs-and-the-future-of-daily-security-b0a8e306b6e3",
+        "title": "948 Linux Kernel Vulnerabilities, Two Critical PHP Bugs, and the Future of Daily Security…",
+        "author": "Lily",
+        "published_at": "2026-11-06T02:09:26+00:00",
+        "excerpt": "AI is making vulnerability discovery scalable. The harder question is whether our security maintenance practices can keep up. Continue reading on Medium »"
+      },
       {
         "id": "medium:fcf96c904c69a73109cae003",
         "source": "medium",
