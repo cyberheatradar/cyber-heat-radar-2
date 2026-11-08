@@ -1,9 +1,56 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T11:40:02.813543+00:00",
+  "source_snapshot_generated_at": "2026-11-08T12:40:03.482270+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:959b649a32521e50fe90da39",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "キャリア",
+          "robot",
+          "ChatGPT",
+          "TikTok"
+        ],
+        "url": "https://zenn.dev/talks_tldr_jp/articles/tldr43-son-summary",
+        "title": "孫正義が語った超知能と 70% の持論（#43 要点解説）",
+        "author": "管理人K",
+        "published_at": "2026-11-08T12:28:31.252000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e1f3de35c109bc926005a246",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "形式検証",
+          "AI アシュアランス",
+          "広島aiプロセス",
+          "フィジカルインターネット"
+        ],
+        "url": "https://zenn.dev/ghostdrift/articles/eb15f1362d161b",
+        "title": "「つながる物流」から「任せられる物流」へ――フィジカルインターネットに形式検証・AI・責任OSが必要な理由",
+        "author": "株式会社AIアシュアランス",
+        "published_at": "2026-11-08T12:24:06.700000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a2e07fcc6a526f8f2c5603b3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/ai_secretary/articles/5996bb4d88ed68",
+        "title": "台帳を正本にした進捗ダッシュボードの作り方",
+        "author": "AI秘書ラボ",
+        "published_at": "2026-11-08T12:00:06.379000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:8e6ca7f3642ebbd595c0c797",
         "source": "zenn",
@@ -11496,6 +11543,20 @@
         "title": "脆弱性対応で迷わないために、システム構成図を2種類に分けてみた",
         "author": "ガチ丸🌟学びとシェアを大切にするPM & インフラエンジニア🚀",
         "published_at": "2026-11-01T00:00:06.239000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:90cefbb320ecf4dd8dfda648",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tomnotelog/articles/skill-global-local-workflow-context",
+        "title": "Skill を全部グローバルに置くのをやめた — 汎用性と固有の文脈で分ける",
+        "author": "TomNoteLog",
+        "published_at": "2026-11-01T00:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -24594,6 +24655,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6c4ca1e4a642517f45d1d012",
+        "source": "qiita",
+        "author_tags": [
+          "認証",
+          "JWT",
+          "セッション",
+          "Security",
+          "Web"
+        ],
+        "url": "https://qiita.com/Masashige-Y/items/72d87f82992419e74871",
+        "title": "ステートフル認証とステートレス認証は何が違う？——セッションとJWTの仕組みから理解する",
+        "author": "Masashige-Y",
+        "published_at": "2026-11-08T21:25:21+09:00",
+        "excerpt": "この記事はこんな人におすすめ ログイン後に、別の画面でもログイン状態が続く仕組みを知りたい セッション、JWT、Cookieの関係が整理できていない ログアウトや権限変更を含めて、認証方式を選べるようになりたい この記事で得られること ログイン状態をリクエスト間で引き継ぐ仕組みを、サーバー側セッションと署名付きJWTの例で整理します。比較の軸は リクエストを受け付けるときに、サーバー側のどの状態を参照するか です。 CookieとAuthorizationヘッダーは認証情報の送り方です。今回比較する「状態の管理方法」とは別に選べます。 HTTPとログイン状態 ログインしたあと、プロフィール画面や設定画面を開いても、毎回パスワードを入力することはありません。サーバーは何を使って、次のリクエストを同じ利用者のものとして扱っているのでしょうか。 HTTPはステートレスなプロトコルです。HTTPの仕組みだけで「前のリクエストでログインした利用者」を引き継ぐわけではありません。TCP接続の再利用やHTTP/2の多重化とも別の話です。アプリケーションは後続の"
+      },
+      {
+        "id": "qiita:c3b68db0140a227f87ca86ba",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "ログ",
+          "owasp",
+          "マスキング"
+        ],
+        "url": "https://qiita.com/maees/items/75bd47c1b79437afdb4d",
+        "title": "JavaのログにパスワードやBearerトークンを残さない――OWASPの除外リストとマスキングの置き場所",
+        "author": "maees",
+        "published_at": "2026-11-08T21:09:10+09:00",
+        "excerpt": "JavaのログにパスワードやBearerトークンを残さない――OWASPの除外リストとマスキングの置き場所 チャッピーとのOWASP実務セキュリティ学習で、今日「ログを残すこと自体が、情報漏えいや攻撃の原因になる？」という問いが出た。ログは障害調査と不正検知の武器だが、何を残すかを決めずに書き続けると、ログ自体がパスワードやトークンの保管場所になる。この記事では、Javaでアプリケーションログを書く人を対象に、OWASP Logging Cheat SheetとASVS 7.1.1を軸にして、漏れが起きる経路、漏らさない設計、漏れた後の扱いを整理する。監視の文脈でログをどう読むかは、 TraceとSpanで5秒の遅延の所在を特定する――OpenTelemetryの伝播とMetrics・Logsとの組み合わせ で扱った。ここではそのログの中身の側を扱う。 平文のパスワードが内部ログに残った2018年の2件 2018年5月3日、Twitterはバグによりユーザーのパスワードが内部ログに平文で書き込まれていたと公表した。通常、パスワードはbcryptで"
+      },
+      {
+        "id": "qiita:4c111905c3fb5530f7f074de",
+        "source": "qiita",
+        "author_tags": [
+          "1Password",
+          "GitHub",
+          "GitHubEducation",
+          "Security",
+          "学生"
+        ],
+        "url": "https://qiita.com/shahin0809/items/89691f57988f63261a42",
+        "title": "学生なら1Passwordが2年間無料！GitHub Student Developer Pack の特典を、必要性とセキュリティの面から整理した",
+        "author": "shahin0809",
+        "published_at": "2026-11-08T20:53:24+09:00",
+        "excerpt": "はじめに こんにちは！VSCode/GitHub オタクの Microsoft Student Ambassador / GitHub Copilot User Group Japan 運営のロホマン シャヒンです！ この記事が少しでも参考になったら、 ぜひいいね・共有 をお願いします！ GitHub Student Developer Pack の特典の中で、地味に見落とされがちなのが 1Password です。2026年10月に、この特典の無料期間が 1年から2年に延びました 。 「パスワード管理ツールって、社会人になってからでいいかな」と思っていた人ほど、このタイミングで一度ちゃんと見てほしいです。学生のうちに「秘密情報をコードやメモ帳に置かない」習慣をつけておくと、あとで本当に楽になります。 この記事では、 公式ページと GitHub Education の更新履歴、海外の動き（GitGuardian のレポートや 1Password の発表） を読んだうえで、 実際に受け取って、GitHub の SSH キーを作り、デスクトップアプリで"
+      },
+      {
         "id": "qiita:f62318878ab56bd9bb9d0168",
         "source": "qiita",
         "author_tags": [
@@ -34364,6 +34473,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:af707ec098165745ed2153e5",
+        "source": "medium",
+        "author_tags": [
+          "hacking",
+          "cve",
+          "penetration-testing",
+          "cybersecurity",
+          "vulnerability"
+        ],
+        "url": "https://medium.com/@adityagurav1712/how-i-found-cve-2026-106031-unauthenticated-coupon-code-disclosure-in-spin-wheel-ultimate-spin-714b36cc9a12",
+        "title": "How I Found CVE-2026–106031 — Unauthenticated Coupon Code Disclosure in Spin Wheel (Ultimate Spin…",
+        "author": "Adityagurav",
+        "published_at": "2026-11-08T12:17:13+00:00",
+        "excerpt": "I spend a lot of time researching WordPress plugins and looking for security vulnerabilities. One approach I particularly enjoy is… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:98c2ebfd1da3031b735d6de4",
+        "source": "medium",
+        "author_tags": [
+          "ai-agent",
+          "software-architecture",
+          "oauth",
+          "api-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@shubhojit.dasgupta/who-enforces-ai-agent-permissions-and-where-bf74f56b9f27",
+        "title": "Who Enforces an AI Agent’s Permissions, and Where?",
+        "author": "Shubhojit Dasgupta",
+        "published_at": "2026-11-08T12:04:06+00:00",
+        "excerpt": "Registering an agent isn’t restraining it. A vendor-neutral answer, built end to end with a real on-device agent, two identity providers… Continue reading on Medium »"
+      },
       {
         "id": "medium:ae9a5f80cf95289650d2944d",
         "source": "medium",
