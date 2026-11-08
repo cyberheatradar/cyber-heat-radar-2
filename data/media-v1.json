@@ -1,9 +1,24 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T18:40:02.981534+00:00",
+  "source_snapshot_generated_at": "2026-11-08T19:40:02.532333+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:96ddbbe7d1ab09a42537b860",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "アーキテクチャ",
+          "設計",
+          "llm"
+        ],
+        "url": "https://zenn.dev/hach/articles/chat-agent-irreversible-action-confirmation-design",
+        "title": "常駐型AIエージェントが「取り消せない操作」の前にだけ確認を挟む設計",
+        "author": "HACH",
+        "published_at": "2026-11-08T19:09:33.436000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ca384cbe45beeb395ffdb72d",
         "source": "zenn",
@@ -24962,6 +24977,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1fab9fe9d0e17178919e556f",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/beb265becb1bc3cfaf39",
+        "title": "2026/11/9主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-09T04:19:51+09:00",
+        "excerpt": "CVE-2026-123158: OpenSSHパスワード認証バイパス、Alpine Linuxに影響(11/6) https://socprime.com/ja/blog/cve-2026-123158-openssh-password-authentication-bypass-affects-alpine-linux/ 257文字のパスワードでSSHにログインできる脆弱性「＊sshole」｜CVE-2026-123158・CVSS 8.1(11/7) https://tech-noisy.com/2026/11/07/cve-2026-123158-openssh-sshole-2026/ Gorbagマルウェアキャンペーンがウクライナからインテリジェンスを収集(11/6) https://socprime.com/ja/active-threats/gorbag-malware-campaign-harvests-intelligence-from-ukraine/ 攻撃用AI「ARTEX」の管理画面1,465台がネット上に丸見え、日本国"
+      },
+      {
+        "id": "qiita:f58b898b116b178ac7d8c451",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "WordPress",
+          "SQLite",
+          "SBOM"
+        ],
+        "url": "https://qiita.com/songchong/items/41a88eb41845af761b19",
+        "title": "部品の脆弱性は、どこまで広がるのか？ 主要 64 製品と 8 部品の依存関係をたどったら、OpenSSL は 20、SQLite は 16、PHP は 11 だった",
+        "author": "songchong",
+        "published_at": "2026-11-09T04:10:12+09:00",
+        "excerpt": "AI が、広く使われるソフトウェア部品（コンポーネント）の脆弱性を見つけ始めました。 Google の AI のエージェント（Big Sleep） は SQLite の脆弱性を、 Google の AI で作ったテスト（OSS-Fuzz） は OpenSSL の脆弱性を見つけています。日本政府も、2026 年 5 月の Project YATA-Shield で、より高速かつ大量に脆弱性が発見・修正されることを前提に対策を強めるよう求めています。 では、1 つの部品の脆弱性は、どこまで広がるのでしょうか。編集部は、IT連携マップのセキュリティ情報の依存関係の一覧（製品 64・コンポーネント 8・依存関係 72 本）で、依存関係をたどって数えました。冒頭の図は、影響を受けうる製品とコンポーネントを、名前で全部並べたものです。名前の色は分類です。 答えは、1 つの部品の脆弱性が、多くの製品に広がりうる、です。OpenSSL の脆弱性では 20、SQLite では 16、Brotli では 13、PHP と Chromium では 11 の製品とコンポ"
+      },
+      {
         "id": "qiita:00062ce9b4a3cd8b57b9fb6f",
         "source": "qiita",
         "author_tags": [
@@ -34844,6 +34888,36 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:26f2f180856ad2714f9c86a9",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "investigation",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@sanawarimran.pk/executive-summary-bbe7b275929b",
+        "title": "Executive Summary",
+        "author": "Sanawar Imran | Security Engineer",
+        "published_at": "2026-11-08T19:33:44+00:00",
+        "excerpt": "One phishing email. Five stages. Full remote control. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5cc228defc3e7f6698930cc0",
+        "source": "medium",
+        "author_tags": [
+          "legal",
+          "malware",
+          "android",
+          "art",
+          "cybersecurity"
+        ],
+        "url": "https://zidhuxd.medium.com/whalerat-android-rat-to-understand-how-hackers-takeover-our-device-with-just-one-apk-install-78fce017b43a",
+        "title": "WhaleRAT — Android RAT to understand how hackers takeover our device with just one apk install.",
+        "author": "Sidharth S / zidhuxd",
+        "published_at": "2026-11-08T19:22:30+00:00",
+        "excerpt": "A deep dive into mobile Remote Access Trojans, reverse engineering malware telemetry, and the architecture behind zero-port-forwarding… Continue reading on Medium »"
+      },
       {
         "id": "medium:d8c336af276152233e0221fa",
         "source": "medium",
