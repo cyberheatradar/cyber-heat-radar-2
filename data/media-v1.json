@@ -1,9 +1,105 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T21:40:02.527407+00:00",
+  "source_snapshot_generated_at": "2026-11-08T22:40:03.088508+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:56aaa9cdba416794fec419d2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "個人開発",
+          "Supabase",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/noriyuk/articles/2b2ea8b44aa0a4",
+        "title": "1年前に Claude と作ったサイトを見直したら、同じ Claude に次々と問題を指摘されました",
+        "author": "noriyuk",
+        "published_at": "2026-11-08T22:38:25.645000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f96e0ca36debc3c40dc6a219",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "paper",
+          "search",
+          "llm",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/whshido/articles/decisionrag-retriever-free-retrieval-explained",
+        "title": "検索エンジンを使わないRAG？ DecisionRAGの論文を図解で読む",
+        "author": "whshido",
+        "published_at": "2026-11-08T22:30:06.625000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6ecb11ca20ef69dadfcf8ca7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261109-tech-watch",
+        "title": "Tech Watch 2026-11-09: 記憶を確かめるエージェント",
+        "author": "らいけん",
+        "published_at": "2026-11-08T22:15:10.880000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5a199a02d445b81708755561",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Rust",
+          "testing",
+          "Claude Code",
+          "openvdb"
+        ],
+        "url": "https://zenn.dev/akahmys/articles/454a729a00401f",
+        "title": "Rust で疎ボリュームのライブラリ brodo を Claude Code と作った",
+        "author": "akahmys",
+        "published_at": "2026-11-08T22:07:05.084000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f63f23ba766359752bb9f95c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "Python",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/bambampurin/articles/2026-09-24-tech-daily",
+        "title": "今日の技術トレンド",
+        "author": "子供部屋大学院生",
+        "published_at": "2026-11-08T22:02:03.475000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1fc7eeec1d6006109bde7ee0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "個人開発",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/otar/articles/switchboard-own-dev-environment",
+        "title": "AIエージェントに自分の開発環境を作らせ続けた2か月",
+        "author": "otar",
+        "published_at": "2026-11-08T21:41:08.207000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:3002fe7840bea9ef3ea79c04",
         "source": "zenn",
@@ -25056,6 +25152,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:ded1a1c9ff4b77d3252cbb79",
+        "source": "qiita",
+        "author_tags": [
+          "WordPress",
+          "Security",
+          "cve",
+          "vulnerability",
+          "Apache"
+        ],
+        "url": "https://qiita.com/jiis-sasaki/items/7ee079af08210d9fd157",
+        "title": "Contact Form 7(1000万サイト)に未認証ファイル設置 CVE-2026-114432──更新と点検",
+        "author": "jiis-sasaki",
+        "published_at": "2026-11-09T07:30:00+09:00",
+        "excerpt": "この記事は、Contact Form 7 でお問い合わせフォームを運用している Web 担当者・制作会社の方向けです。 6.2〜6.2.3 には、ログイン不要でサーバーに任意のファイルを置かれる脆弱性(CVE-2026-114432)があります。 自サイトが該当するかの確認、6.2.4 以降への更新、置かれたファイルの点検、サーバー側の多重防御までをコピペで進められるようにまとめました。 脆弱性の概要 項目 内容 CVE CVE-2026-114432 対象 Contact Form 7(WordPress プラグイン / 有効インストール 1,000 万以上) 影響バージョン 6.2 〜 6.2.3 修正バージョン 6.2.4 (2026-11-08 時点の最新は 6.2.4.1) 認証 不要(未ログインの訪問者が悪用可能) 前提条件 ファイル添付欄( [file] タグ)を含むフォーム が公開されていること 深刻度 Patchstack: CVSS 8.1 / NVD: 分析待ち(2026-11-08 受付・スコア未付与) 弱点分類 CWE-"
+      },
+      {
+        "id": "qiita:a8219a0d83541ddd1e7ab077",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "オープンソース",
+          "研究",
+          "Security"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/a42255451c0e26dd5ee3",
+        "title": "AI Daily Digest 2026/11/09：Mistral Large 4の重み公開、Grok APIは既定で透かし、AIが台風予報を1日前倒し",
+        "author": "lhjjjk4",
+        "published_at": "2026-11-09T07:11:30+09:00",
+        "excerpt": "Mistralが1兆パラメータのモデルの重みを全開発者に開放し、DeepMindはハリケーン予報に丸1日の猶予を追加し、xAIはAPI全体に透かしを既定で有効化した。過去数日の7本の話題を、公式ソースを必ず1本添えてお届けする11月9日付のAI Daily Digest。 1. Mistral、1兆パラメータのMistral Large 4（Le Chonk）の重みを公開 プレビューから3週間、MistralはMistral Large 4の完全な重みをHugging Faceで公開した。愛称はLe Chonk。総パラメータ約1兆のMoEで、1トークンあたり約500億が活性化し、コンテキストは100万トークン、ネイティブのマルチモーダル対応。ヨーロッパの自社インフラでゼロから学習されている。注目すべきはパラメータ数よりライセンスだ。Mistral Ecosystem Open-Weight licenseは修正版MITで、利用・改変・ファインチューニング・商用化が自由。唯一の条件は、Model-as-a-Serviceを提供する事業者が別途商用ラ"
+      },
+      {
         "id": "qiita:247b5d848200014729834d25",
         "source": "qiita",
         "author_tags": [
@@ -35015,6 +35142,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d5ca682f2ddec27300cb5fe8",
+        "source": "medium",
+        "author_tags": [
+          "apt29",
+          "android",
+          "malware",
+          "ios",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@aliardal/apt29-linked-poisoned-source-campaign-a-hijacked-analytics-script-delivered-ios-and-android-ce1d01312229",
+        "title": "APT29-Linked “Poisoned Source” Campaign: A Hijacked Analytics Script Delivered iOS and Android…",
+        "author": "Ali Ardal",
+        "published_at": "2026-11-08T21:59:14+00:00",
+        "excerpt": "Poisoned Source is a large-scale watering hole campaign targeting iOS and Android users, attributed to Russia-linked APT29. French… Continue reading on Medium »"
+      },
       {
         "id": "medium:9bebcd22663247c84f5b86b0",
         "source": "medium",
