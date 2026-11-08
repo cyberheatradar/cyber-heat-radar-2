@@ -1,9 +1,56 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T14:40:02.829696+00:00",
+  "source_snapshot_generated_at": "2026-11-08T15:40:02.807091+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:6f83f6b290eb8c7529f5b083",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "VPN",
+          "ransomware",
+          "Incident response",
+          "logistics"
+        ],
+        "url": "https://zenn.dev/paokkyu/articles/nagoya-port-ransomware-2023",
+        "title": "港の5ターミナルが丸2日半停止、IDとパスワードだけで接続できた保守用VPN ── 名古屋港のランサムウェア被害",
+        "author": "四角いぱおつき",
+        "published_at": "2026-11-08T15:00:15.944000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0a7b06c23aa5375e1ffa310b",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "MFA",
+          "ransomware",
+          "Incident response",
+          "logistics"
+        ],
+        "url": "https://zenn.dev/paokkyu/articles/askul-ransomware-2025",
+        "title": "全出荷停止と約74万件の流出、多要素認証が未適用の委託先アカウント1つから136日後 ── アスクルのランサムウェア被害報告",
+        "author": "四角いぱおつき",
+        "published_at": "2026-11-08T15:00:15.906000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cfd4dcae2105decaf2e7edb8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Windows",
+          "Harness",
+          "hootl"
+        ],
+        "url": "https://zenn.dev/ts/articles/ee4686f0ad0309",
+        "title": "できるだけ無料でHuman-out-of-the-loop（HOOTL）を作ってみた",
+        "author": "ts",
+        "published_at": "2026-11-08T14:43:23.392000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:10934f90705af1a2ae9f5359",
         "source": "zenn",
@@ -4302,6 +4349,22 @@
         "title": "同じ取引先が攻撃され、なぜ1病院だけ73日止まったのか ── 損失見込み十数億円超のサプライチェーン型ランサムウェア報告書を読む",
         "author": "ぱお",
         "published_at": "2026-11-05T15:00:06.445000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5be44da721860431719ad7cf",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "healthcare",
+          "Active Directory",
+          "ransomware",
+          "Incident response"
+        ],
+        "url": "https://zenn.dev/paokkyu/articles/osaka-general-ransomware-report",
+        "title": "同じ取引先がサイバー攻撃に遭い、なぜ1病院だけ十数億円以上の被害にあったのか ─ ランサムウェア調査報告書（大阪急性期・総合医療センター）",
+        "author": "四角いぱおつき",
+        "published_at": "2026-11-05T15:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -24854,6 +24917,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a46e25eb7979d7c53d7e2497",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "バイブコーディング",
+          "パッケージ管理",
+          "依存関係",
+          "Security"
+        ],
+        "url": "https://qiita.com/ryucciarati/items/ec744c4e6f0c23f5a5d7",
+        "title": "AI が足した依存 1 行、その利子は自分が入れていないパッケージにつく",
+        "author": "ryucciarati",
+        "published_at": "2026-11-08T23:52:30+09:00",
+        "excerpt": "はじめに AI エージェントに「日付を『2026年11月8日』の形で表示して」と頼むと、数秒で実装が終わります。 差分を見ると、 package.json に日付ライブラリが 1 行増えていました。 テストも通っているし、そのままマージしても困ることはなさそうです。 でもこの 1 行、本当に必要だったんでしょうか。 TL;DR 依存は借金で、放っておくと自分が入れていない所で利子がつく 借りる前に「借りなくて済む？」「量は見合う？」「誰が見張ってる？」を通す 借りたら自前の関数で包み、こまめに npm update して小分けに返す 1. 3 つの時点の lock を、今監査してみた 依存を入れた瞬間は、手間が減って得をした気分になります。 じゃあ、入れたまま放っておいたらどうなるのか。 気になったので、半年前・2 年前・9 年前に作ったプロジェクトの lock ファイルを再現して、今の基準で監査してみました。 1-1. 半年放っておくだけで、critical がついた 冒頭の日付ライブラリは、中でほかの依存を何も使っていませんでした。 なので、"
+      },
+      {
         "id": "qiita:6c4ca1e4a642517f45d1d012",
         "source": "qiita",
         "author_tags": [
@@ -34672,6 +34751,21 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:bec0afe5994361b99a9210cf",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ai-cyber-security",
+          "incident-response",
+          "ai"
+        ],
+        "url": "https://medium.com/@fecarrara1/observa%C3%A7%C3%B5es-de-seguran%C3%A7a-na-constru%C3%A7%C3%A3o-de-um-sistema-multiag%C3%AAntico-de-cyber-defense-parte-1-6d602532dac8",
+        "title": "Observações de Segurança na Construção de um Sistema Multiagêntico de Cyber Defense — Parte 1",
+        "author": "Fernando Carrara",
+        "published_at": "2026-11-08T15:12:11+00:00",
+        "excerpt": "Agentic Cyber System: oito agentes, tools só via MCP, controles de segurança em camadas e human in the loop para decisões com alto impacto. Continue reading on Medium »"
+      },
       {
         "id": "medium:c234c9861cf9cd3b9a26d15c",
         "source": "medium",
