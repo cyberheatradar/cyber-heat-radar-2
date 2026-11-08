@@ -1,9 +1,72 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T19:40:02.532333+00:00",
+  "source_snapshot_generated_at": "2026-11-08T20:40:02.663341+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:271c9ca1cd6fd6560c4ae9c4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Security",
+          "architecture",
+          "llm"
+        ],
+        "url": "https://zenn.dev/ai_nexus_jp/articles/python-security-scanners-mantis-benchmark",
+        "title": "やられコード30問で抜き打ちテスト！Bandit・Semgrep・素のLLM・Mantis式で真陽性率と誤検知率を実測対決",
+        "author": "AI Nexus",
+        "published_at": "2026-11-08T20:32:49.362000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3507789bdf497226d8c4422d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "datascience",
+          "ecommerce",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/claude-duet-shop-owner-google-maps-reviews",
+        "title": "店舗オーナー向けClaude Duet：新着の低評価レビューを毎朝まとめて受け取る",
+        "author": "EveryInfra",
+        "published_at": "2026-11-08T20:28:00.704000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e0a86a7bcfd62212b8b5ecaa",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "Model Context Protocol",
+          "Claude",
+          "Web scraping"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/claude-artifacts-mcp-live-competitor-dashboard",
+        "title": "Claude Artifacts MCP：閲覧者が開くたびに更新されるライブ競合ダッシュボード",
+        "author": "EveryInfra",
+        "published_at": "2026-11-08T20:27:59.393000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7a538f9933213ebed08b7c2b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "Windows",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/biglat80/articles/claude-code-first-night-setup-log",
+        "title": "はじめて Claude Code を使う日に、何を考えて何を整えたか",
+        "author": "biglat80",
+        "published_at": "2026-11-08T19:53:05.885000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:96ddbbe7d1ab09a42537b860",
         "source": "zenn",
@@ -24977,6 +25040,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:247b5d848200014729834d25",
+        "source": "qiita",
+        "author_tags": [
+          "Gemini",
+          "Security",
+          "AIエージェント",
+          "ソフトウェア開発",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/e934449bc55dc8cc4ba1",
+        "title": "AIはコードを書く道具から、開発を進める存在へ——Gemini 4 Carbonで調査と修正をどこまで任せられるか",
+        "author": "mhamadajp",
+        "published_at": "2026-11-09T05:37:18+09:00",
+        "excerpt": "原因の分からない不具合を、どこまで任せられるか たとえば、10年以上動いている業務システムです。特定の条件のときだけ、データの更新が途中で止まります。当時の担当者はすでに替わっていて、設計書は一部しか残っていません。 これまでは、人が怪しい処理を選び、AIへ順に聞いていました。関数の説明、エラー文の意味、SQL、別の言語への書き換え。作業を分けるのは、人の側です。AIは、渡された1問に答える道具でした。 2026年10月28日、Googleは Introducing Gemini 4 Carbon を公開しました。2026年10月13日公開の Gemini 4 Argon: Built to solve your hardest problems から2週間後のモデルで、サイバーセキュリティと、時間のかかる作業に強い、とブログは説明しています。 この記事で確認したいのは、冒頭の更新漏れを、原因の調査からテストまで1件の依頼にできるかです。参考までに、Artificial Analysis Intelligence Index v5.0の点数は59"
+      },
+      {
+        "id": "qiita:b3f35742a0df6b6df86e3d30",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Security",
+          "Semgrep",
+          "bandit",
+          "LLM"
+        ],
+        "url": "https://qiita.com/ai-nexus/items/775e0563da12c306905b",
+        "title": "【Python】BanditやLLMコードレビューの誤検知（偽陽性）を劇的に減らす！Semgrep×AST要約×PoC検証の自動監査パイプライン実装",
+        "author": "ai-nexus",
+        "published_at": "2026-11-09T05:33:00+09:00",
+        "excerpt": "概要 Pythonプロジェクトのセキュリティ診断において、「BanditをCIへ導入したが、テストコードや型キャストまで警告されて通知が埋もれてしまう」といった経験はないでしょうか。また、「LLMにコードレビューをさせたら、安全なコードまで過剰警戒してオオカミ少年になってしまった」という声も多く聞かれます。 本記事では、まず静的解析（Bandit / Semgrep）が騙されやすい典型的な誤検知パターンを整理します。その上で、Google Mantisの設計思想に基づく「Python標準ASTによる要約 ＋ 隔離PoC検証」により、偽陽性を劇的に排除する自動監査パイプラインの実装手順を解説します。 前提環境 Python: 3.10 / 3.11 / 3.12 Bandit: 1.7.5 以上 Semgrep: 1.40.0 以上 pytest: 7.4.0 以上 検証用公開リポジトリ: ai-nexus-jp/code-security-benchmark-suite 1. 静的スキャナが誤検知（偽陽性）を起こす典型コード 静的解析ツールが誤検"
+      },
+      {
+        "id": "qiita:512f2932c80a3b5d170b8923",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Requests",
+          "Security",
+          "AI",
+          "debug"
+        ],
+        "url": "https://qiita.com/supportapp3/items/648fc00169c38050f031",
+        "title": "Python requests のデバッグで API キーがそのまま出る：logging DEBUG では出ず debuglevel=1 で Authorization が丸見え（実機確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-09T05:15:54+09:00",
+        "excerpt": "結論 Python の requests で通信をデバッグするとき、 logging を DEBUG にしただけなら Authorization ヘッダーの値は出ませんでした 。出たのは \"GET / HTTP/1.1\" 200 のような1行だけです（2026-11-09、Python 3.13.5・requests 2.34.2・urllib3 2.8.0、ダミー値で実機確認）。 ところが http.client.HTTPConnection.debuglevel = 1 を足すと、 send: の行に Authorization: Bearer ... がそのまま出ました 。 auth=(user, key) の Basic 認証も同じ行に出ます。Base64 なので、 そのまま元の文字列に戻せます 。 逆に、 params={\"api_key\": ...} のように キーを URL に入れると、 debuglevel なしでも urllib3 の DEBUG ログに URL ごと出ました 。 send: の行は logging ではなく p"
+      },
+      {
         "id": "qiita:1fab9fe9d0e17178919e556f",
         "source": "qiita",
         "author_tags": [
@@ -34888,6 +34999,51 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6bf458fd2ed2a93b8c19edb4",
+        "source": "medium",
+        "author_tags": [
+          "dj",
+          "cybersecurity",
+          "music"
+        ],
+        "url": "https://jcnu.medium.com/music-cybersecurity-and-finding-the-balance-b9706b7195dd",
+        "title": "Music, Cybersecurity and Finding the Balance",
+        "author": "Jon",
+        "published_at": "2026-11-08T20:08:14+00:00",
+        "excerpt": "Cybersecurity and music might seem like two completely different worlds, but they’ve both become a huge part of my life. My name is… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4ffebccc48357c7d30e3a016",
+        "source": "medium",
+        "author_tags": [
+          "devops",
+          "software-development",
+          "cloud-computing",
+          "microsoft-entra-id",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@junnexclusive/identity-architecture-a-deep-dive-into-kerberos-ntlm-saml-oauth-oidc-aws-iam-and-entra-id-82b2ad548c44",
+        "title": "Identity Architecture: A Deep Dive into Kerberos, NTLM, SAML, OAuth/OIDC, AWS IAM, and Entra ID",
+        "author": "Olaleye Oyewunmi",
+        "published_at": "2026-11-08T19:40:52+00:00",
+        "excerpt": "How enterprise systems actually prove who you are from Active Directory ticket exchanges to JWTs flying across AWS and Microsoft Entra ID Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a96a4e788d18b65c15021324",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-management",
+          "cybersecurity",
+          "technology",
+          "ai"
+        ],
+        "url": "https://medium.com/@divyansh.sharma0990/your-company-isnt-getting-hacked-because-hackers-are-smarter-cc36c2ddc935",
+        "title": "Your Company Isn’t Getting Hacked Because Hackers Are Smarter.",
+        "author": "Divyansh Sharma",
+        "published_at": "2026-11-08T19:34:52+00:00",
+        "excerpt": "Imagine this. A firm has poured millions into its cybersecurity stack. It runs firewalls, endpoint detection, a SIEM, vulnerability… Continue reading on Medium »"
+      },
       {
         "id": "medium:26f2f180856ad2714f9c86a9",
         "source": "medium",
