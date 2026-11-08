@@ -1,9 +1,87 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T08:40:04.161620+00:00",
+  "source_snapshot_generated_at": "2026-11-08T09:40:02.750560+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:daca8e8b412e46a802c9a09f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "アジャイル",
+          "スクラム",
+          "AI 開発"
+        ],
+        "url": "https://zenn.dev/dyamada/articles/cbe15d43b37d41",
+        "title": "AIに行わせる開発プロセスにスクラムの役割やイベントを組み込んでみた",
+        "author": "ぢゃまだ",
+        "published_at": "2026-11-08T09:32:11.741000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aae715851b733eb7e283d888",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TDD",
+          "llm",
+          "AIエージェント",
+          "harnessengineering"
+        ],
+        "url": "https://zenn.dev/tappers/articles/ai-labo-e06-blind-tdd-worktrees",
+        "title": "AIに自分のコードのテストを書かせるとバグを見逃す？「1エージェントTDD」vs「2エージェント・ブラインドTDD」実機検証",
+        "author": "tappers",
+        "published_at": "2026-11-08T09:23:58.641000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e984dbd0d7bf9da3c63253d6",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "SRE",
+          "compliance",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/anfangd/articles/continuous-security-assessment-ai-agent",
+        "title": "本番に出したあとのセキュリティ、いつ確かめていますか？ AI エージェントで年 1 回の評価を継続的な検査にする",
+        "author": "anfangd",
+        "published_at": "2026-11-08T09:04:22.150000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:147b653c2a9fbf4346f81f86",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "Claude Code",
+          "Codex",
+          "t3code"
+        ],
+        "url": "https://zenn.dev/53able/articles/57952c1982de3d",
+        "title": "公式アプリが毎週進化しても、T3 Codeを使う理由は残るか",
+        "author": "53able",
+        "published_at": "2026-11-08T09:04:01.507000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:16e363e96f61efae1dbc3d4c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Ubuntu",
+          "自宅サーバー",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/samurai_works/articles/114a5e654ca295",
+        "title": "自宅サーバーにClaude Codeを常駐させ、スマホから24時間指示を出す（Remote Control＋systemd）",
+        "author": "TAKA",
+        "published_at": "2026-11-08T08:59:05+00:00",
+        "excerpt": "自宅の Linux サーバーに Claude Code を入れて常駐させ、外出先のスマホから「サーバー上の実ファイルを触る作業」を頼めるようにしました。ポート開放なし・VPN なしで動く構成です。 実際にセットアップしてハマったところも含めて、手順をまとめます。 ! 2026年11月時点の情報です。Claude Code は更新が速いので、画面や挙動が変わっている可能性があります。最新の公式ドキュメントもあわせて確認してください。 筆者は Anthropic とは無関係の一ユーザーです。設定は自己責任でお願いします。 この記事でできるようになること 自宅サーバーで Claude ..."
+      },
       {
         "id": "zenn:d1c97b96af261f79b67b39ef",
         "source": "zenn",
@@ -24370,6 +24448,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6a3973d8ad4b0b112efc63c0",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Git",
+          "Security",
+          "ShellScript",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/Skillselion/items/11c07f0851d580164a28",
+        "title": "Claude Code の git ガード hook、危険な git コマンド30パターン中15個は素通りでした",
+        "author": "Skillselion",
+        "published_at": "2026-11-08T18:17:15+09:00",
+        "excerpt": "最終更新: 2026年11月8日 Skillselion の git スキルガイドでインストール数1位になっている git-guardrails-claude-code の hook を、2026年11月8日に手元で検証しました。危険系として用意した30パターンのうち、止まったのは15個です。 git -C . push やスペース2つの git push 、 git clean -xfd は終了コード0で通りました。jq が入っていない環境では git push も通ります。 私たちは Claude Code などのスキルを実際のインストール数で並べるディレクトリ Skillselion を運営しています。この記事は、そのデータで1位だった git スキルを自分たちで叩いてみた記録です。 git-guardrails-claude-code は何をするスキルですか？ mattpocock/skills に入っているスキルで、 git-guardrails-claude-code スキルの掲載ページ では 542,705 インストールです（202"
+      },
+      {
+        "id": "qiita:ec93a5f5e51108a5393defc4",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AI",
+          "生成AI",
+          "脆弱性",
+          "MCP"
+        ],
+        "url": "https://qiita.com/songchong/items/b3c6c879f03f9bb665d3",
+        "title": "脆弱性の情報は間に合っている？ 英語は 2 時間以内、悪用は 4 割が 1 日以内、日本語は中央値 4.6 日後。悪用された 74 件を調べて分かった",
+        "author": "songchong",
+        "published_at": "2026-11-08T18:00:22+09:00",
+        "excerpt": "AI を使ったサイバー攻撃で、脆弱性が公表されてから悪用されるまでの時間は、週から日の単位に縮みました。日本政府も、2026 年 5 月の Project YATA-Shield で、AI の悪用で攻撃のスピードと規模が劇的に増加していると書いています。 では、悪用される脆弱性の情報は、日本語でいつ読めるようになるのでしょうか。編集部は、米国の CISA（サイバーセキュリティ・インフラストラクチャ安全保障庁）が 2026 年 9 月 1 日から 11 月 7 日に KEV（既知の悪用された脆弱性）カタログに入れた脆弱性のうち、CVE の記録が 2026 年に公開された 74 件を、英語と日本語の公開の場所で 1 件ずつたどりました。冒頭の図は、その答えを 1 枚にまとめたものです。 答えは、悪用は公開の日に始まり、日本語の情報は後から届く、です。74 件の 41%（30 件）は、CVE の記録の公開の前後 1 日のうちに KEV カタログに入りました。英語の NVD には 74 件すべてが 2 時間以内に掲載されましたが、日本語の JVN iPe"
+      },
+      {
         "id": "qiita:6af37902da368bc0f110d1ab",
         "source": "qiita",
         "author_tags": [
@@ -34076,6 +34186,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1aa6b726555ef007fe130d43",
+        "source": "medium",
+        "author_tags": [
+          "phishing-awareness",
+          "digital-literacy",
+          "online-safety",
+          "cybersecurity",
+          "digital-trust"
+        ],
+        "url": "https://medium.com/@wintk.gg/the-link-that-looks-almost-right-430c7d1a0d8e",
+        "title": "The Link That Looks Almost Right",
+        "author": "WINTK",
+        "published_at": "2026-11-08T09:24:20+00:00",
+        "excerpt": "An everyday guide to digital trust: names, partner lists, search results and the small pause that protects a reader. Continue reading on Medium »"
+      },
       {
         "id": "medium:6bfc32e9cb9d8e60c4b7156d",
         "source": "medium",
