@@ -11,6 +11,36 @@
   },
   "latest": [
     {
+      "ai_relevance": "none",
+      "canonical_url": "https://isc.sans.edu/diary/33498",
+      "cves": [
+        "CVE-2026-123158"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-09T01:07:12.199443+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-2b203a16cdc835a3ae7afd12",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:2b203a16cdc835a3ae7afd12",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-09T00:44:33+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SANS Internet Storm Center",
+      "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.",
+      "summary_excerpt": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.",
+      "threat_actors": [],
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)"
+    },
+    {
       "ai_relevance": "material",
       "canonical_url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
       "cves": [],
@@ -255,28 +285,6 @@
       "summary_excerpt": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
       "threat_actors": [],
       "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261107-5269512/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-07T11:58:20.065870+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-22f77d0935273dd28982f810",
-      "primary_category": "other",
-      "public_article_id": "url:22f77d0935273dd28982f810",
-      "public_tags": [],
-      "published_at": "2026-11-07T08:32:11+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "セキュリティ企業のBitdefenderは11月5日、Androidに存在する脆弱性「GhostMap」を公表した。細工されたアプリをインストールするだけで、アプリを起動したり権限を許可したりしなくても、スマートフォンが再起動を繰り返す状態に陥る恐れがある。復旧には端末の初期化が必要になる場合があり、現時点で修正プログラムは提供されていない。",
-      "summary_excerpt": "セキュリティ企業のBitdefenderは11月5日、Androidに存在する脆弱性「GhostMap」を公表した。細工されたアプリをインストールするだけで、アプリを起動したり権限を許可したりしなくても、スマートフォンが再起動を繰り返す状態に陥る恐れがある。復旧には端末の初期化が必要になる場合があり、現時点で修正プログラムは提供されていない。",
-      "threat_actors": [],
-      "title": "Androidに脆弱性、アプリを開かなくても再起動を繰り返す恐れ"
     }
   ],
   "hottest": [
@@ -870,22 +878,22 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Brava Security Emerges From Stealth With $15 Million in Funding",
+    "【LATEST #1】Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
     "【HOTTEST #1 / Heat 75】約10年間見逃されていたOpenSSHの脆弱性「*sshole」が発覚、257文字以上のパスワードでログイン禁止アカウントを突破可能に",
-    "【LATEST #2】Alpine LinuxとOpenSSH、最悪の脆弱性にパッチを適用",
+    "【LATEST #2】Brava Security Emerges From Stealth With $15 Million in Funding",
     "【HOTTEST #2 / Heat 73】ゲーセンに真っ暗な画面ずらり……セガ系システムの障害が長期化、復旧めど立たず　原因は不正アクセス",
-    "【LATEST #3】Hackers pull off $133 million French bank heist via service provider",
+    "【LATEST #3】Alpine LinuxとOpenSSH、最悪の脆弱性にパッチを適用",
     "【HOTTEST #3 / Heat 67.5】Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-    "【LATEST #4】SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+    "【LATEST #4】Hackers pull off $133 million French bank heist via service provider",
     "【HOTTEST #4 / Heat 67.5】Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)",
-    "【LATEST #5】IPA、ランサムウェア被害組織の生の声から得た“11の教訓”を公開",
+    "【LATEST #5】SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
     "【HOTTEST #5 / Heat 67.5】Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day"
   ],
   "news_gui_mode": "news_current_heat_frozen_v1",
-  "news_as_of": "2026-11-08T16:00:00+00:00",
+  "news_as_of": "2026-11-08T17:00:00+00:00",
   "heat_as_of": "2026-11-06T06:00:00+00:00",
   "heat_status": "FROZEN_OLD_SNAPSHOT",
-  "news_catalog_count": 22524,
-  "last_published_at": "2026-11-09T01:04:21.615286+09:00",
-  "publication_slot_jst": "2026-11-09T01:00:00+09:00"
+  "news_catalog_count": 22525,
+  "last_published_at": "2026-11-09T02:04:23.065637+09:00",
+  "publication_slot_jst": "2026-11-09T02:00:00+09:00"
 }

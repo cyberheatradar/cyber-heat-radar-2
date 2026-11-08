@@ -1,5 +1,35 @@
 [
   {
+    "ai_relevance": "none",
+    "canonical_url": "https://isc.sans.edu/diary/33498",
+    "cves": [
+      "CVE-2026-123158"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-09T01:07:12.199443+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-2b203a16cdc835a3ae7afd12",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:2b203a16cdc835a3ae7afd12",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-09T00:44:33+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "SANS Internet Storm Center",
+    "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.",
+    "summary_excerpt": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.",
+    "threat_actors": [],
+    "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)"
+  },
+  {
     "ai_relevance": "material",
     "canonical_url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
     "cves": [],
@@ -9662,7 +9692,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-07T11:56:30.920678+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-d54642e1a2b86f98c352a309",
     "primary_category": "other",
     "public_article_id": "url:d54642e1a2b86f98c352a309",
@@ -9690,7 +9720,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-06T14:40:36.949630+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-dd9d10ec61939a9712c1adfe",
     "primary_category": "ai_security",
     "public_article_id": "url:dd9d10ec61939a9712c1adfe",
@@ -9718,7 +9748,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-06T01:52:33.809145+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-56bfa02295d43c2b62b107af",
     "primary_category": "threat_campaign",
     "public_article_id": "url:56bfa02295d43c2b62b107af",
@@ -9751,7 +9781,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-06T01:24:13.443417+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-83e08e4c6c08d1c089a1400c",
     "primary_category": "incident",
     "public_article_id": "url:83e08e4c6c08d1c089a1400c",
@@ -9779,7 +9809,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-07T11:58:19.435443+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-42dccc485f1f6ef51f3fba45",
     "primary_category": "threat_report",
     "public_article_id": "url:42dccc485f1f6ef51f3fba45",
@@ -114208,83 +114238,5 @@
     "summary_excerpt": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]",
     "threat_actors": [],
     "title": "FBI arrests another suspected ShinyHunters hacker after agency breach"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-10T02:02:38.560555+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-2d8b2a661271f3ed2fea9ffe",
-    "primary_category": "threat_campaign",
-    "public_article_id": "url:2d8b2a661271f3ed2fea9ffe",
-    "public_tags": [
-      {
-        "color_family": "red",
-        "key": "threat_campaign",
-        "label": "Campaign"
-      }
-    ],
-    "published_at": "2026-10-10T01:29:55+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Hacker News",
-    "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name",
-    "summary_excerpt": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name",
-    "threat_actors": [],
-    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-10T02:02:16.015481+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-e4a94375fcdc943826282c34",
-    "primary_category": "other",
-    "public_article_id": "url:e4a94375fcdc943826282c34",
-    "public_tags": [],
-    "published_at": "2026-10-10T01:25:05+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Dark Reading",
-    "summary": "Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.",
-    "summary_excerpt": "Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.",
-    "threat_actors": [],
-    "title": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://therecord.media/irhythm-data-breach-reports",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-10T02:02:39.560241+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-5743398ef5e90d69004f0691",
-    "primary_category": "incident",
-    "public_article_id": "url:5743398ef5e90d69004f0691",
-    "public_tags": [
-      {
-        "color_family": "neutral",
-        "key": "incident",
-        "label": "Incident"
-      }
-    ],
-    "published_at": "2026-10-10T01:06:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Record",
-    "summary": "A company known for wearable cardiac sensors, iRhythm, has begun notifying states of the impact of a data breach from the summer.",
-    "summary_excerpt": "A company known for wearable cardiac sensors, iRhythm, has begun notifying states of the impact of a data breach from the summer.",
-    "threat_actors": [],
-    "title": "Hundreds of thousands impacted by data breach at biosensor firm iRhythm"
   }
 ]

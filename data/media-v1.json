@@ -1,9 +1,23 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T15:40:02.807091+00:00",
+  "source_snapshot_generated_at": "2026-11-08T16:40:02.687986+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3c5e6762c3741354d23af197",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "仕事術",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/sugitakenji/articles/a248cfd0475e29",
+        "title": "AIとの共同作業が楽しくなってきた — 分かってきたことと、まだ見えない深淵",
+        "author": "杉田研治",
+        "published_at": "2026-11-08T16:38:14.733000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:6f83f6b290eb8c7529f5b083",
         "source": "zenn",
@@ -24917,6 +24931,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:55e685ddd740f720a7b4a8ed",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "Defender",
+          "antivirus",
+          "Security",
+          "OS"
+        ],
+        "url": "https://qiita.com/555hamano/items/19c860450186fcf18a53",
+        "title": "Windows Defender（Microsoft Defender Antivirus）を基礎から内部アーキテクチャ、エンタープライズ連携、運用・チューニングまで網羅的に掘り下げる全50回",
+        "author": "555hamano",
+        "published_at": "2026-11-09T01:21:58+09:00",
+        "excerpt": "第1章：基礎知識と全体像（第1回〜第8回） まずはWindows Defenderの基本スペック、他社製品との立ち位置の違い、基本操作を整理する導入パートです。 【第1回】Windows Defender再考：昔の「おまけ」から現代の「標準デファクト」への変遷 【第2回】無償版DefenderとDefender for Endpoint（MDE）の明確な境界線 【第3回】Windows Securityセンターの全体構造と主要保護モジュールの役割 【第4回】GUIでは見えないDefenderの本当のステータス確認（PowerShell入門） 【第5回】スキャンタイプ完全理解：クイック・フル・カスタム・オフラインスキャンの使い分け 【第6回】除外設定（Exclusions）の基礎：開発環境とセキュリティのトレードオフ 【第7回】脅威検出時の挙動フロー：検疫・削除・許可のライフサイクルを追う 【第8回】サードパーティ製AV導入時にDefenderはどう動く？（パッシブモードの挙動） 第2章：内部アーキテクチャと検知メカニズム（第9回〜第20回） プロ"
+      },
+      {
+        "id": "qiita:585261fb79a9a071f0b12389",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Azure",
+          "EntraID",
+          "Claude",
+          "Security"
+        ],
+        "url": "https://qiita.com/shou-wordwright555501/items/00c5972f3819f87715bb",
+        "title": "Security for AI 権限モデルの 2 つの軸 ～ Azure × Claude で検証 (その 1)",
+        "author": "shou-wordwright555501",
+        "published_at": "2026-11-09T01:19:56+09:00",
+        "excerpt": "Entra ID で AI エージェントに ID を持たせよう！ ～ Foundry × Claude で検証（その1） 、 （その2） で Entra ID で AI エージェントに ID を付与し、ロールを付与しました。いわゆる RBAC (ロールベースのアクセス制御) です。 1. AI エージェントのセキュリティを考える AI エージェントは業務効率を大きく向上させる一方で、エージェント自体が意図しない操作をしたり、攻撃者に悪用されるリスクが指摘されています。 AI エージェントはあなたに寄り添った口調で回答をくれるけれど、残念ながら人ではありません。 動作が非決定的 : 同じ指示でも毎回同じ行動をとらないことがある 他人の意図で動くことがある : 読み込んだデータに指示が埋め込まれている場合、その指示に従ってしまう (プロンプトインジェクション、Confused deputy problem) 高速、そして大量 : 処理が速いため、被害が高速に拡大する AI エージェントに与える権限は、「モデルが正しく振る舞うこと」を前提とせず、誤動作"
+      },
+      {
         "id": "qiita:a46e25eb7979d7c53d7e2497",
         "source": "qiita",
         "author_tags": [
@@ -34751,6 +34797,69 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:bcfe3bea688552b48d3b5e87",
+        "source": "medium",
+        "author_tags": [
+          "agentic-ai",
+          "ai-pentesting",
+          "cybersecurity",
+          "llm",
+          "ai-agent"
+        ],
+        "url": "https://medium.com/@dasokkk/talat-engineering-an-ai-pentest-swarm-and-what-it-actually-found-5fb801ec9483",
+        "title": "talat: Engineering an AI Pentest Swarm, and What It Actually Found",
+        "author": "Kerem Kaan Dasmaz",
+        "published_at": "2026-11-08T16:30:10+00:00",
+        "excerpt": "Over the past months I have built talat, a closed-source system in which LLM agents run a penetration test: they attack a web app the way… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d74acc919f3a2e369f1a71e8",
+        "source": "medium",
+        "author_tags": [
+          "web-ctf-writeup",
+          "pink-ctf",
+          "cybersecurity",
+          "sql-injection"
+        ],
+        "url": "https://medium.com/@josh_ravantu/sql-injection-pink-ctf-web-challenge-72c4051a7e90",
+        "title": "SQL Injection — Pink CTF Web Challenge",
+        "author": "Josh Rai",
+        "published_at": "2026-11-08T16:28:47+00:00",
+        "excerpt": "I opened the provided link. The challenge title says “SQL Injection”. So, basically I know that I have to inject malicious SQL queries. I… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7d61ebeab4ae7e1cac553d2a",
+        "source": "medium",
+        "author_tags": [
+          "malware",
+          "cybersecurity",
+          "infosec",
+          "hacking",
+          "pentesting"
+        ],
+        "url": "https://medium.com/@s12deff/executing-stardust-shellcode-in-an-isolated-vcpu-9cd57857e320",
+        "title": "Executing Stardust Shellcode in an Isolated vCPU",
+        "author": "S12 - 0x12Dark Development",
+        "published_at": "2026-11-08T16:26:19+00:00",
+        "excerpt": "Welcome to this new Medium post, this one is the next part of this post: Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0feefe6a8e10efadf6708038",
+        "source": "medium",
+        "author_tags": [
+          "portswigger",
+          "web-security",
+          "sql-injection",
+          "infosec",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@razajavaid2004/portswigger-lab-visible-error-based-sql-injection-308ad3d91707",
+        "title": "PortSwigger Lab: Visible Error-Based SQL Injection",
+        "author": "Muhammad Raza",
+        "published_at": "2026-11-08T16:06:38+00:00",
+        "excerpt": "Difficulty: Practitioner Continue reading on Medium »"
+      },
       {
         "id": "medium:bec0afe5994361b99a9210cf",
         "source": "medium",
