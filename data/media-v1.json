@@ -1,9 +1,96 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T09:40:02.750560+00:00",
+  "source_snapshot_generated_at": "2026-11-08T10:40:02.704621+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:38e69d682824a06c640f0902",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "JavaScript",
+          "TypeScript",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/torudev/articles/dd45de860fc7c3",
+        "title": "静的型付けはAIのバグを減らすか？ TypeScriptとJavaScriptで同じGit互換CLIを3本ずつ書かせて比べた",
+        "author": "Toru Ikeda",
+        "published_at": "2026-11-08T10:31:31.024000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c64ede72cdab5b75737c6c5f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "ChatGPT",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/ma_me/articles/dc198e04139b01",
+        "title": "PRレビューでvisualizeを使って、変更点を把握しやすくする",
+        "author": "ma_me",
+        "published_at": "2026-11-08T10:23:39.795000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c9208dc113e89ba25938e916",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript"
+        ],
+        "url": "https://zenn.dev/sebastian/articles/862b8b9c410628",
+        "title": "生成AI動画アプリで「生成完了」と「採用」を分離する：非同期処理とテイク管理の設計",
+        "author": "sebastian",
+        "published_at": "2026-11-08T10:19:40.235000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:81cf08fe3ca7557a650468e3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "機械学習",
+          "LightGBM",
+          "競馬"
+        ],
+        "url": "https://zenn.dev/shoyomayabot/articles/keiba-ai-lightgbm-backtest",
+        "title": "AIで競馬予想モデルを作り、毎週答え合わせする：LightGBMとバックテストの基本",
+        "author": "mayabot",
+        "published_at": "2026-11-08T10:08:50.894000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4700c931ee815aec1b74dd65",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "情報漏洩",
+          "個人情報"
+        ],
+        "url": "https://zenn.dev/bamboo_nova/articles/0c611638609318",
+        "title": "氏名・住所・メアド・電話番号が漏れたとき、何を奪われ、何から守るか",
+        "author": "血威華我",
+        "published_at": "2026-11-08T09:59:50.062000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e7748ad02e08da69134eb2ba",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "dsh"
+        ],
+        "url": "https://zenn.dev/skiptheslop/articles/aa9ba2271b21bf",
+        "title": "DSHで便利に定期実行ジョブを回すための独自プラグイン解法",
+        "author": "skiptheslop",
+        "published_at": "2026-11-08T09:52:49.281000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:daca8e8b412e46a802c9a09f",
         "source": "zenn",
@@ -24448,6 +24535,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4d08cd184a3e95458fe6d2f8",
+        "source": "qiita",
+        "author_tags": [
+          "Docker",
+          "ufw",
+          "vps",
+          "Security",
+          "Ubuntu"
+        ],
+        "url": "https://qiita.com/supportapp3/items/007ca21e8bf489ac9574",
+        "title": "VPSのSSHを固めても、Dockerの公開ポートはufwだけでは守れない",
+        "author": "supportapp3",
+        "published_at": "2026-11-08T19:27:42+09:00",
+        "excerpt": "2026年11月8日19:12〜19:15 JST、さくらVPSでIPv4の3項目を実測。以下は PR #9の検証記録 に基づきます。記事編集時に再実行した結果ではありません。 SSHのrootログインを禁止し、鍵認証にして、ufwで不要な受信を拒否する。それでもDockerで開発用サービスを公開すると、SSHとは別の入口ができます。今回は専用の使い捨てVPSで、外部のWindows PCから確認しました。 結論：今回の環境ではufwの受信拒否だけでは防げなかった 条件 VPS内 Windows PCからのIPv4接続 -p 8080:80 、UFW active／default deny incoming 応答あり 3回ともHTTP 200・本文一致 -p 127.0.0.1:8080:80 応答あり 3回とも約5秒でtimeout 全アドレス公開に戻す 応答あり 3回ともHTTP 200・本文一致 検証元に限定したDOCKER-USER conntrack DROP追加 応答あり 3回とも約5秒でtimeout 同じDROPルールを削除 — "
+      },
+      {
         "id": "qiita:6a3973d8ad4b0b112efc63c0",
         "source": "qiita",
         "author_tags": [
@@ -34186,6 +34289,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:5bc1564a688cc774fcc7e862",
+        "source": "medium",
+        "author_tags": [
+          "phishing",
+          "online-safety",
+          "social-engineering",
+          "online-scams",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@axonosint/university-phishing-scams-how-students-can-stay-safe-axon-osint-7c67d6d4ca85",
+        "title": "University Phishing Scams: How Students Can Stay Safe | Axon OSINT",
+        "author": "Axon OSINT",
+        "published_at": "2026-11-08T10:01:32+00:00",
+        "excerpt": "It Started With a Message From the Student Office Continue reading on Medium »"
+      },
       {
         "id": "medium:1aa6b726555ef007fe130d43",
         "source": "medium",
