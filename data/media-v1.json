@@ -1,9 +1,2843 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-06T04:40:08.254763+00:00",
+  "source_snapshot_generated_at": "2026-11-08T04:40:03.211145+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b29c51ead9726c19a3fbbce0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Claude",
+          "untie"
+        ],
+        "url": "https://zenn.dev/tan_go238/articles/b7c41a92d0e3f5",
+        "title": "Untie で困りごとの原因を探す",
+        "author": "tan_go238",
+        "published_at": "2026-11-08T04:25:33.792000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:135eb5d3039985feea8ce00b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "自動化",
+          "FFmpeg",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kirinukiauto/articles/0a96477a82655c",
+        "title": "Claude Codeが「41分止まっています、止めてよいですか」と聞いてきた処理は、動画を描いている最中だった：記録の空白で止まったと決め",
+        "author": "キリヌキ自動化ラボ",
+        "published_at": "2026-11-08T04:20:41.651000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4a5d0f9eb836d790260499ee",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "agents",
+          "Claude Code",
+          "Skills"
+        ],
+        "url": "https://zenn.dev/hma2moto/articles/mattpocock-retro-skill",
+        "title": "Matt Pocock の /retro スキルで、エージェントのミスを CLAUDE.md に頼らず再発防止する",
+        "author": "hma2moto",
+        "published_at": "2026-11-08T03:16:09.950000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c8fc2cd0d74f8b40b4ccd658",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "JavaScript",
+          "Test"
+        ],
+        "url": "https://zenn.dev/daisosha/articles/44201667ed2110",
+        "title": "AI作業の時間集計で、未入力と0分を分ける小さな実装",
+        "author": "大創社（Daisosha）",
+        "published_at": "2026-11-08T03:02:22.574000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:384e42e35d8f97ca72992bd1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "team",
+          "organization",
+          "Claude",
+          "Anthropic"
+        ],
+        "url": "https://zenn.dev/yoss_k3/articles/6745ee2a48d1fa",
+        "title": "【Claude】個人Freeプラン→組織用Teamプランにメンバーとして参加する【画面付き手順】",
+        "author": "kyoochan",
+        "published_at": "2026-11-08T03:00:05.472000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:770550bb165e75bbae2441da",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "macOS",
+          "privacy",
+          "ローカル LLM"
+        ],
+        "url": "https://zenn.dev/mizutamari/articles/local-llm-vol022",
+        "title": "AI体験記 Vol.22：プライバシーが欲しくて・・・（囲い編）",
+        "author": "Shikou",
+        "published_at": "2026-11-08T02:57:43.843000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bb436509fc0ce8b3345b1a9f",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/aoi_sato8734/articles/safeline-how-to-build-waf-allow-a-20261108-ede5836",
+        "title": "SafeLine WAFで単一アプリケーション向けの許可・拒否ルールを組み立てる実践ガイド",
+        "author": "佐藤 葵8734",
+        "published_at": "2026-11-08T02:48:10.833000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5cc0d19182586980987fa957",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "Test",
+          "Playwright"
+        ],
+        "url": "https://zenn.dev/sumumu26/articles/b1afde3b0e06f2",
+        "title": "AIが書いたテスト24件、バグありアプリで全部『成功』。直したら9件『失敗』した",
+        "author": "miharuba_jp",
+        "published_at": "2026-11-08T02:29:31.531000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ecce26ebeccb4c459c4ccf95",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "Claude",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/handitian/articles/c4a904406eef73",
+        "title": "Museが寝ている間に働く仕組み — 2時間ごとのメール監視と、毎朝3時の自動PDCA",
+        "author": "Atelier Handitian",
+        "published_at": "2026-11-08T02:21:12.674000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:39d4f8966f5cbd76143f3a5e",
+        "source": "zenn",
+        "author_tags": [
+          "初心者",
+          "Security",
+          "学習記録",
+          "CTF"
+        ],
+        "url": "https://zenn.dev/yairocho/articles/46390b1907b23d",
+        "title": "実戦編に入ったら急に難しくなった話：全48問のうち9問目までの記録",
+        "author": "やいろ",
+        "published_at": "2026-11-08T02:10:07.138000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:761f2ab09f7985aa01cfb41b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化"
+        ],
+        "url": "https://zenn.dev/pcnotonari/articles/fd5685f53ed68b",
+        "title": "Claude Codeの警告を18日間読まなかった",
+        "author": "pcnotonari",
+        "published_at": "2026-11-08T02:01:17.133000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4ed33a86adaa710afe705889",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GAS",
+          "workflow"
+        ],
+        "url": "https://zenn.dev/miraigent/articles/ai-reply-faq-promotion-gate",
+        "title": "AI返信の例外をFAQへ昇格する条件を決める",
+        "author": "Kirisaki Kazuya | Miraigent代表",
+        "published_at": "2026-11-08T01:56:57.097000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:852d39f4dbb59512ea3fcaba",
+        "source": "zenn",
+        "author_tags": [
+          "Nim",
+          "Security",
+          "Model Context Protocol",
+          "hotreload"
+        ],
+        "url": "https://zenn.dev/jasagiri/articles/e936f36acbc428",
+        "title": "エージェントが書いたコードを、人を待たずに読み込み直すには。Nim で確かめたことと、目指す形",
+        "author": "jasagiri",
+        "published_at": "2026-11-08T01:48:07.509000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:af187280a1cff22a7e00c9e6",
+        "source": "zenn",
+        "author_tags": [
+          "Android",
+          "Security",
+          "architecture",
+          "インフラ",
+          "legacy"
+        ],
+        "url": "https://zenn.dev/ament3/articles/ai-digest-2026-11-07-0232",
+        "title": "モバイルセキュリティの極端化とレガシー脱却：GrapheneOS排除とFAAのフロッピー退役から学…",
+        "author": "田中根小介",
+        "published_at": "2026-11-08T01:41:46.884000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9f6788b1984cb5340ece69fc",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "openpyxl",
+          "PLC",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/kensho_ya/articles/fa-spec-docx-xlsx-full-read-skill",
+        "title": "FA案件の仕様書をClaude Desktopに全文読ませる——docxは本文と表を文書の順に、xlsxは全シートを読む手順",
+        "author": "検証屋",
+        "published_at": "2026-11-08T01:08:46.871000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9b0397b11425ae8d52aaaf59",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "privacy",
+          "business",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261107",
+        "title": "Claude Codeがメアドを送った？利用者の指摘が波紋",
+        "author": "菅原友和",
+        "published_at": "2026-11-08T01:02:45.274000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:74129a5d8781f17db5d4b1d8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "アーキテクチャ",
+          "ソフトウェアエンジニアリング",
+          "マルチエージェント",
+          "qoder"
+        ],
+        "url": "https://zenn.dev/kaeyuki/articles/d5b245ff77474e",
+        "title": "【連載第3回】ゼロトラスト2層機械検査・SHA-256メモリ台帳・8案件MD健康診断と、第三者監査で暴かれた「継ぎ目」の4大バグ",
+        "author": "Kaeyuki",
+        "published_at": "2026-11-08T00:52:52.937000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5a082472807deb6b6cec9b52",
+        "source": "zenn",
+        "author_tags": [
+          "Next.js",
+          "Vercel",
+          "Security",
+          "http"
+        ],
+        "url": "https://zenn.dev/snape_works/articles/nextjs-no-referrer-origin-null",
+        "title": "Referrer-Policy: no-referrer を付けたら、Next.jsのServer Actionsが500になった",
+        "author": "SNAPE&Co.",
+        "published_at": "2026-11-08T00:35:17.432000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9bc1fe6663f1e3e975de63c2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "ソフトウェアエンジニアリング",
+          "UI/UX",
+          "マルチエージェント"
+        ],
+        "url": "https://zenn.dev/kaeyuki/articles/a48432926156d9",
+        "title": "【連載第2回】「AIに丸投げして壊れる」をUIと3つの関所で防ぐ — 5階層6名・80点監査で動く『AI Hub』の画面設計",
+        "author": "Kaeyuki",
+        "published_at": "2026-11-08T00:33:25.466000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7231c2a88dc5973df3ebdac1",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/creatunealex/articles/a10efebad04e22",
+        "title": "ペダルポイントとは？和音が動いても低音を保つ入力案を作る",
+        "author": "Alex (Creatune)",
+        "published_at": "2026-11-08T00:27:47.539000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:70cbfd10387fe7806048ac88",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "プロンプト",
+          "llm",
+          "gepa",
+          "evals"
+        ],
+        "url": "https://zenn.dev/singularity/articles/llm-evals-tools-data-optimizers",
+        "title": "evals の次の一歩 ── 評価ツール・練習問題の自動生成・プロンプトの自動改善を、公式文書と論文で調べた",
+        "author": "Isamu",
+        "published_at": "2026-11-08T00:27:41.749000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e3aba5d17f7e0726db0066bb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "生成 AI",
+          "Claude",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/murooka_az/articles/claude-degraded-or-correction-unreachable",
+        "title": "「指示どおりにやりました」と言うのに従っていないClaude。原因は、AI自身が指示ファイルやメモリに書き残していた昔の仕様",
+        "author": "Murooka",
+        "published_at": "2026-11-08T00:26:19.566000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0d6f0e9b4db3b4b115599e49",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "Dify"
+        ],
+        "url": "https://zenn.dev/sidejob/articles/a051023b0c97aa449",
+        "title": "Dify 1.19.0 のネストトレースを企業Dify環境で評価した——設計にどう効くかを整理する",
+        "author": "AIを真剣に考える",
+        "published_at": "2026-11-08T00:15:17.450000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f8035aebcfccf4a639c30fd3",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "個人開発",
+          "Security",
+          "運用",
+          "予約システム"
+        ],
+        "url": "https://zenn.dev/ren_3rd/articles/2ea11020e3d9d5",
+        "title": "PHPの重大な脆弱性が出たとき、予約サービスはサロンに何を伝えるべきか。",
+        "author": "レン",
+        "published_at": "2026-11-08T00:14:59.309000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bc5df06008e437d96f91d2f5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "運用",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/dev_pjs/articles/d76c2125a58406",
+        "title": "エージェントの定期実行は「変化があった日だけ報告」が正解だった",
+        "author": "Dev_PJS",
+        "published_at": "2026-11-08T00:06:05.323000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fde4f2161e78a84dbab1e08d",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "DX",
+          "SBOM",
+          "ERP",
+          "bom"
+        ],
+        "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20261108-sbom-as-bom-inventory",
+        "title": "SBOMは『部品表の棚卸し』だ——製造業のBOM管理から見る抜け漏れ防止",
+        "author": "yutaka8484",
+        "published_at": "2026-11-08T00:06:03.600000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6c62f8deda0c2de05d257ac5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "scan",
+          "サイバー攻撃",
+          "サプライチェーン攻撃",
+          "aivsai"
+        ],
+        "url": "https://zenn.dev/wangsh/articles/1dbb5a0e51c4dc",
+        "title": "攻撃は止まらない。だから、防御も止めない — 非侵襲・授権強制のセキュリティ診断ツール「Aegis-Scan」を作った",
+        "author": "jackywangsh",
+        "published_at": "2026-11-07T23:56:49.729000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7caefdb6f11b084bee07f636",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "設計",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/itaraiguma/articles/agent-read-limit-split-did-not-hold",
+        "title": "AIに読ませるファイルを分割しても、数日でまた800行を超えていた話",
+        "author": "ITアライグマ",
+        "published_at": "2026-11-07T23:51:37.284000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:25676490762b78b22453c3a7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AWS",
+          "Go",
+          "ISUCON",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/5alt_nacl/articles/isucon2026-solo-ai-agent",
+        "title": "ISUCON2026 にソロで出て、競技はほぼ Claude Code に任せた（旅行中にスマホで見ていた）",
+        "author": "NaCl_5alt",
+        "published_at": "2026-11-07T23:35:44.288000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a5a823ed49348cdbdb0c945c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "UI",
+          "UX",
+          "PySide6"
+        ],
+        "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration14-frb-launch-warp",
+        "title": "AI協働：FRB Launch 第5回 記者会見風 —『ワープ差し棒』誕生！〜ぐりぐりを進化させたら、ぐりぐりしなくなった話〜",
+        "author": "Fishing Rod Benchmark［FRB］By tamasub",
+        "published_at": "2026-11-07T23:26:42.506000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3c9f20b795809e936863d215",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "shell",
+          "プログラミング",
+          "自動化",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/joinclass/articles/1-20261106220023-11182",
+        "title": "「禁止」と書いたルールは効いていなかった — Claude Codeの安全装置を年1回点検する手順",
+        "author": "JOINCLASS",
+        "published_at": "2026-11-07T23:00:11.135000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eb243b46913729b88dab6db4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "Windows",
+          "llm",
+          "OpenCode"
+        ],
+        "url": "https://zenn.dev/rigprobe/articles/9dedab8c9101f8",
+        "title": "月$0.99でコーディングエージェントを回す — 格安クラウドLLM 5社を実測した",
+        "author": "りぐぷろ / rigprobe",
+        "published_at": "2026-11-07T23:00:05.640000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8c3a67e5586638c5b8427fd5",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "CakePHP",
+          "設計",
+          "Security",
+          "CakePHP 5"
+        ],
+        "url": "https://zenn.dev/from0developer/articles/efe6546c7c338e",
+        "title": "【CakePHP 5】app.phpの「規定のキー」はどこで使われる？Configure::consume()とread()の仕組み",
+        "author": "あさき@元数学教員エンジニア",
+        "published_at": "2026-11-07T22:44:22.041000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6022fdbb5a3f21b13bbaeaff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TDD",
+          "Test",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/buko106/articles/why-ai-tests-feel-bloodless",
+        "title": "なぜAIが書くテストコードには血が通っていないのか",
+        "author": "buko106",
+        "published_at": "2026-11-07T22:35:44.727000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c3a80109bb66f32f2e956b6f",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "認証",
+          "医療",
+          "インシデント対応",
+          "医療機器"
+        ],
+        "url": "https://zenn.dev/taichiendoh/articles/account-linkage-inventory-unauthorized-login",
+        "title": "不正ログインの被害は、紐付けた数だけ広がる ― 業務アカウントを「接続台帳」で棚卸しする",
+        "author": "遠藤太一",
+        "published_at": "2026-11-07T22:11:43.881000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:624f2fd5b2e507509db0c977",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261108-tech-watch",
+        "title": "Tech Watch 2026-11-08: エージェントの検証と記憶",
+        "author": "らいけん",
+        "published_at": "2026-11-07T22:10:11.305000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8abef369cc299eef4ebd4ddf",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Google",
+          "生成 AI",
+          "検索広告",
+          "aimode"
+        ],
+        "url": "https://zenn.dev/leading_ai/articles/google-ai-mode-search-ads",
+        "title": "AI検索によって、Googleの広告はどうなるのか？── AI Mode時代の検索ビジネスを完全理解する",
+        "author": "山内 怜史（Satoshi Yamauchi）",
+        "published_at": "2026-11-07T20:58:25+00:00",
+        "excerpt": "序章：Alphabet株は、決算の翌日に上場以来最大の下落率を記録した 2026年10月29日、Googleの親会社Alphabetの株価は、終値283.82ドルで前日から12.64%下がった。2004年の上場以来、最大の下落率だと報じられている。 https://elceo.com/mercados/acciones-alphabet-desploman-tras-reporte-trimestral-mayor-caida-desde-2008/ https://political.org/2026/10/30/alphabet-shares-plunge-13-in-wors..."
+      },
+      {
+        "id": "zenn:e91058db8998c9aea9f3329a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "バーコード"
+        ],
+        "url": "https://zenn.dev/konbu_love/articles/a74963e3ec2cdf",
+        "title": "俺の考えた最強のバーコードバトル！！！",
+        "author": "こんぶ",
+        "published_at": "2026-11-07T19:39:55.500000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:76e7afb762ff5f7d86bff411",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Kali Linux",
+          "ペネトレーションテスト",
+          "hacking"
+        ],
+        "url": "https://zenn.dev/zer0m0hum0hu/articles/5445a3f4cbd019",
+        "title": "AlienPentest 徹底解説 — AIが自律的にペネトレーションテストを実行するツール",
+        "author": "Zer0m0hum0hu",
+        "published_at": "2026-11-07T18:03:51.499000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:833d20e18b2928183f7fc319",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git"
+        ],
+        "url": "https://zenn.dev/koheiwada/articles/houritsu-guide-without-git",
+        "title": "git を知らなくても houritsu で法改正の差分を見る方法",
+        "author": "kohei",
+        "published_at": "2026-11-07T18:00:05.226000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8151eabe1e977d3f6d7f4252",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ツール",
+          "自動化",
+          "バックアップ",
+          "robocopy"
+        ],
+        "url": "https://zenn.dev/chililikobo/articles/c75512a76486f8",
+        "title": "機能制限のつもりが「試乗禁止」になっていた話 —— バックアップツールのB2B試用設計を14日間フル開放に変えた理由",
+        "author": "chilili kobo",
+        "published_at": "2026-11-07T17:03:48.414000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7d095e247b1b5c8a66690a05",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "gamedev",
+          "Claude Code",
+          "Vibe Coding",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/plumvery/articles/dd5babd0791704",
+        "title": "AIやバイブコーディングで作ったゲームを、スマホで遊べるように公開する方法とハマりどころ",
+        "author": "plumvery",
+        "published_at": "2026-11-07T16:57:49.299000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ff33917baa0057d36dd83f85",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/shinai/books/university-ai-assignment-prompts",
+        "title": "大学生のための「課題が終わる」AIプロンプト集15選",
+        "author": "シン@AI自動化",
+        "published_at": "2026-11-07T16:48:58+00:00",
+        "excerpt": "ChatGPT・Claude・Geminiにコピペで使える、課題管理・レポート・試験対策のプロンプト15本。丸写しではなく「自分で考えて終わらせる」ための使い方に絞りました。最初の2章（はじめに・課題管理の4本）は無料で読めます。"
+      },
+      {
+        "id": "zenn:126a0de34e5955cde21af244",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DeepSeek",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/algia/articles/deepseek-harness-intro",
+        "title": "DeepSeek Harnessを使ってみた：モード選び・テスト環境・プラグイン",
+        "author": "Algia",
+        "published_at": "2026-11-07T16:40:23.422000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cee1a97f6865635e3259309e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Blender",
+          "個人開発",
+          "gamedev",
+          "Godot"
+        ],
+        "url": "https://zenn.dev/zivaengine/articles/cb4edadb0c53ce",
+        "title": "Godot のゲーム用 3D モデルを AI で作る方法（Meshy・Tripo・Rodin などとの比較つき）",
+        "author": "Ziva Engine",
+        "published_at": "2026-11-07T16:35:25.528000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:43392d75ef4ffd9f479dc111",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "FFmpeg",
+          "llm",
+          "Generative AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/skillselion/articles/f9e8735f6b4f1c",
+        "title": "画像・動画生成スキルは「どのキーで、どこに課金されるか」で選ぶ: Claude Code 向け SKILL.md を読み比べた",
+        "author": "Skillselion",
+        "published_at": "2026-11-07T16:31:51.731000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9a48393ec566c03bb17ce4c7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "仕事術",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/sugitakenji/articles/08fb4fc4676e41",
+        "title": "What is AI for? — ELIZA効果と、考えが進む対話",
+        "author": "杉田研治",
+        "published_at": "2026-11-07T16:26:28.538000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:219cfaf8a413d1ede18289c5",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "SNS",
+          "cryptocurrency",
+          "OSINT",
+          "fraud"
+        ],
+        "url": "https://zenn.dev/attack_anatomy/articles/c07c2de2b32746",
+        "title": "「無料で2万円」の投資勧誘を追った――取引画面・利益報告・契約書は何を証明するのか",
+        "author": "attack_anatomy",
+        "published_at": "2026-11-07T16:10:06.994000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ae91de43cd3025aa2f8070c5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "PowerShell",
+          "Claude Code",
+          "Codex",
+          "Antigravity"
+        ],
+        "url": "https://zenn.dev/shinai/articles/ai-weekly-quota-autorun",
+        "title": "Claude Code・Codex・Antigravityの週の利用枠を、余らせずに自動で使い切る仕組み",
+        "author": "シン@AI自動化",
+        "published_at": "2026-11-07T15:54:24.619000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8ffa1b71d1f1b1fe94baf3a4",
+        "source": "zenn",
+        "author_tags": [
+          "React Native",
+          "React",
+          "Markdown",
+          "Security",
+          "llm"
+        ],
+        "url": "https://zenn.dev/mickeyichi/articles/4fb6f931469455",
+        "title": "LLMの回答を安全に表示する React / React Native 向け Markdown レンダラーを作った",
+        "author": "mickey-ichi",
+        "published_at": "2026-11-07T15:26:36.661000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:75d1613300e7b3b3bdf7e1c5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Terraform",
+          "Security",
+          "Cloudflare",
+          "redteam"
+        ],
+        "url": "https://zenn.dev/malwaresuk/articles/security-audit-skill-redteam-lab",
+        "title": "攻撃を演習環境の外に出さない：Security Audit Skillで自宅レッドチームラボのIaCを監査した",
+        "author": "のうみん",
+        "published_at": "2026-11-07T15:22:34.474000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1069200606f54ca8c8c90ba4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "agents"
+        ],
+        "url": "https://zenn.dev/boluoji/articles/61672b80cdb2be",
+        "title": "#gpt-6.1-terraで画像・操作計画・JSONを試した実測メモ：GPT-6.1 Terraの使いどころ",
+        "author": "rhythm",
+        "published_at": "2026-11-07T15:14:27.174000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:73d0a4ff5a931905b5acbecd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Model Context Protocol",
+          "ChatGPT",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/saihu/articles/951271fa23e4ea",
+        "title": "AIがお金を使う前にスマホで聞いてくれる「AIの財布番」を作りました",
+        "author": "こけし",
+        "published_at": "2026-11-07T14:53:05.086000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5dbb7ba6c9b1c748295d4012",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "data",
+          "finance",
+          "investment",
+          "economy"
+        ],
+        "url": "https://zenn.dev/bambampurin/articles/2026-09-24-market-daily",
+        "title": "今日の市場ブリーフィング",
+        "author": "子供部屋大学院生",
+        "published_at": "2026-11-07T14:25:23.651000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:95fe4880d37e95e2d3b36ccd",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/oggata/articles/7310903e55cb78",
+        "title": "普通では撮れない運転データを作る (悪天候・災害・事故の一歩手前)",
+        "author": "Fumitoshi Ogata 緒方文俊",
+        "published_at": "2026-11-07T14:24:27.507000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9d66c9d4b7e18a61ad97d384",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "農業"
+        ],
+        "url": "https://zenn.dev/unagi_labo/articles/ebf13dcdc0434f",
+        "title": "農業×AI週間トレンド 11/4〜11/7",
+        "author": "miyatada",
+        "published_at": "2026-11-07T14:23:44.618000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ea258f119b362f4b543e8c86",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "アクセシビリティ",
+          "browser",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-039-agent-browser-accessibility-tree",
+        "title": "Vercel Labsのagent-browserを試す: アクセシビリティツリーでAIエージェントがブラウザを操作する",
+        "author": "matsu",
+        "published_at": "2026-11-07T14:22:50.023000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6a96d2007f4489cbbdde7d0b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "プログラミング",
+          "Security",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tomsolog/articles/20261010-claude-code-permissions-guide",
+        "title": "Claude Codeの操作をルールで止める仕組みと限界",
+        "author": "トムソー",
+        "published_at": "2026-11-07T14:06:31.930000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a6eb0c385c3f5c6e984f903e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "Security",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tomsolog/articles/20261104-claude-code-permissions-quickstart",
+        "title": "Claude CodeからAPIキーなどの秘密情報を守る設定",
+        "author": "トムソー",
+        "published_at": "2026-11-07T14:06:11.212000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:875f7328b6f9f00c765b532d",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "DevOps",
+          "Web3",
+          "testing",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/asagiman/articles/arc-clean-pass-drift",
+        "title": "AIエージェントの検証がPASSでも安全とは限らない──clean-pass driftを検出する",
+        "author": "asagiman",
+        "published_at": "2026-11-07T13:58:51.506000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cb17b87efa91b2c5b36172ac",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "career",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/revo1290/articles/ai-era-where-we-grow",
+        "title": "AIで仕事は回る。では、私たちはどこで育つのか",
+        "author": "りょう",
+        "published_at": "2026-11-07T13:51:06.702000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dfae72569029510b5b3b272b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "llm",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/bbt/articles/b94c58532e97ec",
+        "title": "osFoundryが常駐Claude Codeセッションにチャンネル履歴を二度送らない仕組み",
+        "author": "BBT",
+        "published_at": "2026-11-07T13:23:35.109000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c2ba6033ba44ac8a3d37b77c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "同人誌",
+          "小説",
+          "Typst",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kokuyouwind/articles/20261107-informatics-girl-ai-revision",
+        "title": "9 年前に書いた同人誌を、AI と一緒に増補改訂した",
+        "author": "黒曜",
+        "published_at": "2026-11-07T13:07:47.881000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3343686ff127b1d1e9d6abf7",
+        "source": "zenn",
+        "author_tags": [
+          "ブロックチェーン",
+          "Security",
+          "crypto",
+          "aml"
+        ],
+        "url": "https://zenn.dev/komlock_lab/articles/chainalysis-what-it-does-2026",
+        "title": "Chainalysisは何をしているのか――ハッキングから理解するAML・監視・資金追跡",
+        "author": "Kobara Toi",
+        "published_at": "2026-11-07T12:51:07.698000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3e6bde2c039c46940ace3e31",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "macOS",
+          "terminal"
+        ],
+        "url": "https://zenn.dev/xwiox/articles/d0f5e6dca4b435",
+        "title": "Herdr のターミナル UI は、仕事をしっかりこなす。Shepi は、その作業を Mac でもっと快適にする。",
+        "author": "WIO",
+        "published_at": "2026-11-07T12:50:15.410000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d364e2a7f232a8b5070fcaae",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DeepSeek",
+          "dsh"
+        ],
+        "url": "https://zenn.dev/skiptheslop/articles/fceab5d7d57145",
+        "title": "DSH本体を安全に改造する規約設計",
+        "author": "skiptheslop",
+        "published_at": "2026-11-07T12:49:26.787000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7290101f55e6bd5428325a60",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "組織",
+          "開発生産性",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/matsunaopen/articles/ai-driven-dev-adoption-barriers",
+        "title": "なぜ企業はAI駆動開発に取り組めないのか",
+        "author": "MatsuNaoPen",
+        "published_at": "2026-11-07T12:49:06.740000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:58a96d7eae80a89b4f33ac72",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Expo",
+          "個人開発",
+          "HealthKit",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/dev_to_earn/articles/92c1f67ad02ec2",
+        "title": "「実装完了」のはずが、中心機能が動いていなかった話",
+        "author": "mamama",
+        "published_at": "2026-11-07T12:41:21.560000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:962ca352c3a9824501474996",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "aiブラウザ"
+        ],
+        "url": "https://zenn.dev/zhaojiayi/articles/9549a83ebf3324",
+        "title": "Xのいいねとリポストを、AIブラウザで整理",
+        "author": "ZHAOJIAYI",
+        "published_at": "2026-11-07T12:36:09.855000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eff67d64b5cb78fe6e70194f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "gamedev",
+          "3D",
+          "Tripo",
+          "meshy"
+        ],
+        "url": "https://zenn.dev/daichi_gamedev/articles/3dai-compare",
+        "title": "【Meshy vs Tripo vs Hyper3D】3D生成AIはどれが良い？同じイラストで比較してみた",
+        "author": "daichi takezawa",
+        "published_at": "2026-11-07T12:28:58.322000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:913b3be24508cf49dd7b9403",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Python",
+          "Security",
+          "Network",
+          "geoip"
+        ],
+        "url": "https://zenn.dev/0rv3/articles/53791e17b687d7",
+        "title": "「海外IPブロック」はどこまで効くのか — 個人環境で測ってみた（結果編）",
+        "author": "0rv3",
+        "published_at": "2026-11-07T12:25:00.174000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:62bb7b6cf856269f66d0d00a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "フリーランス",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/ai_secretary/articles/a887c02269a13d",
+        "title": "失敗を記録に残して設計に返す ― 「失敗記録」の育て方",
+        "author": "AI秘書ラボ",
+        "published_at": "2026-11-07T12:00:12.518000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:852338e56a1ec6875e02c31a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Godot",
+          "ゲーム制作"
+        ],
+        "url": "https://zenn.dev/vbaman/articles/f59f101e55ffbf",
+        "title": "完成形のひとつ手前",
+        "author": "のせるまん",
+        "published_at": "2026-11-07T11:49:03.998000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:270ecf5c18d2fb44990a4a2e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ゲーム開発",
+          "個人開発",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/yuki_h_94/articles/de8f05e59f29b5",
+        "title": "小学生の頃のゲームのアイデアを、コードを一度も見ずにClaudeで実装してみた",
+        "author": "Yuki H",
+        "published_at": "2026-11-07T11:46:39.339000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ca6dc1654dbac6a55763f620",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "Kotlin"
+        ],
+        "url": "https://zenn.dev/shinchi007/articles/0e4631e3b27a70",
+        "title": "StringとString?は別物だった。Kotlinのnull安全にベテランが戸惑った話",
+        "author": "Shinchi",
+        "published_at": "2026-11-07T11:43:04.805000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a36bde15f3d38e57bc1b8cf8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Microsoft"
+        ],
+        "url": "https://zenn.dev/sunsun_eng/articles/microsoft-ai-strategy-2026",
+        "title": "2026年MicrosoftのAI戦略と日本への影響について考える",
+        "author": "すんすん",
+        "published_at": "2026-11-07T11:37:11.180000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:13114dd7a227a1b2ec7b8885",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "個人開発",
+          "adb"
+        ],
+        "url": "https://zenn.dev/yk_studio/articles/two-agents-one-device",
+        "title": "AIエージェント2体が実機1台を同時に触って、テストが壊れた。マルチエージェント運用に排他制御が要る",
+        "author": "YK Studio",
+        "published_at": "2026-11-07T11:30:09.977000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0072c8fe5153c49c71ba6dab",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub",
+          "個人開発",
+          "Security",
+          "静的解析",
+          "SonarQube"
+        ],
+        "url": "https://zenn.dev/tkishioka/articles/sonarqube-cloud-free-plan",
+        "title": "情報漏洩が続く今、個人開発のコードは大丈夫？無料でできるセキュリティ検証",
+        "author": "Takuto Kishioka",
+        "published_at": "2026-11-07T11:29:54.562000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cedb708dbd63420a0153de9d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Raspberry Pi",
+          "Grafana",
+          "3D プリンター"
+        ],
+        "url": "https://zenn.dev/kinon/articles/4c35381b3fcdc1",
+        "title": "室温を自動制御・監視する",
+        "author": "㐂乃",
+        "published_at": "2026-11-07T11:26:44.386000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cabda2d075b5c61f3880d8e2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "Kotlin",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/genkichi/articles/kotlin-todo-ai-does-not-write-code",
+        "title": "Kotlin 学習用の Todo アプリで、AI にコードを書かせないと決めた話",
+        "author": "genkichi",
+        "published_at": "2026-11-07T10:53:47.792000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3319d1ebff93af420ef01286",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Ollama",
+          "AIエージェント",
+          "osfoundry"
+        ],
+        "url": "https://zenn.dev/tauchi/articles/f361acf354d648",
+        "title": "osFoundryとは?チャットからローカルモデルまで、デスクトップAIワークスペースの全体像",
+        "author": "tauchiiii",
+        "published_at": "2026-11-07T10:23:11.505000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5af580feb155cf59ea800d26",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "NLP",
+          "ChatGPT",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/lumichy/articles/why-ai-text-is-hard-to-read-2026",
+        "title": "なぜAIの文章は「正しいのに読みづらい」のか？最新論文が暴いた「AI臭」の正体",
+        "author": "lumichy",
+        "published_at": "2026-11-07T10:06:32.645000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bd39647fce3b25b535a82bfd",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/eeaichekkaa/articles/a43005012870ce",
+        "title": "画像素材のAI判定を制作フローに組み込む：納品画像10枚の確認表",
+        "author": "eeai",
+        "published_at": "2026-11-07T09:51:45.980000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:47062cbbea1a7811b3ba6685",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/eeaichekkaa/articles/94342b518a3655",
+        "title": "大学レポートのAI判定を「点数だけ」で終わらせない：原文レビューの手順",
+        "author": "eeai",
+        "published_at": "2026-11-07T09:42:44.775000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e265e7bd32fb492ae687b1ef",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "VS Code",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/nekonote328/articles/claude-code-vscode-getting-started",
+        "title": "はじめての Claude ③【育てる】CLAUDE.md を書いて、安全に任せよう（2026年11月）",
+        "author": "wild-river",
+        "published_at": "2026-11-07T09:41:29.343000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d1ccc1c8a9967bd211149923",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Model Context Protocol",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/masa_7412/articles/paseo-agent-workflow",
+        "title": "Paseo：エージェント開発の操作・判断負担を減らす個人実践",
+        "author": "Masa",
+        "published_at": "2026-11-07T09:40:59.355000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:faa03d0c52b84e2767b8564e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "macOS",
+          "NLP",
+          "ime",
+          "llm"
+        ],
+        "url": "https://zenn.dev/unimetype/articles/dfa2a1307aa531",
+        "title": "モード切替なしでローマ字・ピンイン・英単語混在文を一括変換するIME「UnimeType」と0.8B/4Bモデルの開発",
+        "author": "UnimeType",
+        "published_at": "2026-11-07T09:26:11.994000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:292a4400acf551d5da317266",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "倫理",
+          "生成 AI",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/yui10/articles/ai-security-incidents-ethics-2026",
+        "title": "最近のAIセキュリティ事件から考えるAI倫理【AIと社会の基本 番外編】",
+        "author": "yui10",
+        "published_at": "2026-11-07T09:23:39.021000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cf6c794d9940b1f2a70e22df",
+        "source": "zenn",
+        "author_tags": [
+          ".NET",
+          "AI",
+          "C#",
+          "Windows",
+          "winforms"
+        ],
+        "url": "https://zenn.dev/jodycraft/articles/winforms-dotnet11-visual-styles",
+        "title": "WinForms .NET 11 RC3を実測：Net11描画で変わるもの・変わらないもの",
+        "author": "JodyCraft",
+        "published_at": "2026-11-07T09:16:28.124000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b983b2ca47a262567c966b33",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "キャリア",
+          "robot",
+          "TikTok",
+          "未来予測"
+        ],
+        "url": "https://zenn.dev/talks_tldr_jp/articles/tldr42-musk-summary",
+        "title": "Elon Musk が語った AI と仕事とお金の未来（#42 要点解説）",
+        "author": "管理人K",
+        "published_at": "2026-11-07T09:00:16+00:00",
+        "excerpt": "! この記事は、The Builders with Walter Isaacson（2026-10-20 公開）で Elon Musk が語った内容を、紹介と論評を目的に要点抽出したものです。翻訳の全文ではなく、筆者の見解を含みます。発言はいずれも本人の予想や私見です。 前置き 歴史家で Musk の評伝の著者でもある Walter Isaacson が、遠隔で 37 分話を聞いた回です。AI、仕事、お金の話を中心にまとめます。 1. お金は重要でなくなる、という予想 Musk は「通貨は残るが、ワットやトンのような物理の単位で測ると思う」と話します。今の通貨は重要でなくなる、..."
+      },
+      {
+        "id": "zenn:58909d3d26fa0f0f22737e01",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "networking",
+          "realtime"
+        ],
+        "url": "https://zenn.dev/yoshinn/articles/datagram_transport_layer",
+        "title": "セキュリティ確保しながらリアルタイム性を確保するDTLS",
+        "author": "yoshishinnze",
+        "published_at": "2026-11-07T08:35:59.860000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e3970848b11b00067fd3e48e",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/mar_kun/books/orca-ade-guide-jp",
+        "title": "Orca入門 ― 複数のAIエージェントを並列で動かすADEの日本語ガイド",
+        "author": "mar-kun",
+        "published_at": "2026-11-07T08:33:50+00:00",
+        "excerpt": "AIコーディングエージェントをgit worktreeごとに並列で走らせるADE「Orca」の公式ドキュメントを、日本語で分かりやすく解説する本。触ってみようか迷っている人が、判断から初体験、実務的な使いこなしまで順に読める構成です。"
+      },
+      {
+        "id": "zenn:84d6a635ceffc06b20f56a92",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Model Context Protocol",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/hotskills/articles/f346c6bfe61fec",
+        "title": "エージェントスキルのリポジトリを毎時ランキングしてわかったこと：人気リポジトリの78%がネットワークか広いシェルを使う",
+        "author": "hotskills",
+        "published_at": "2026-11-07T08:11:08.643000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:111adf41ab4090bbfcde595c",
+        "source": "zenn",
+        "author_tags": [
+          "初心者",
+          "SSH",
+          "Security",
+          "Honeypot",
+          "cowrie"
+        ],
+        "url": "https://zenn.dev/miki_mini/articles/5478ee196e395b",
+        "title": "初心者がハニーポットを置いてみたけど、おすすめはしない話（28日で14万回来た）",
+        "author": "miki-mini",
+        "published_at": "2026-11-07T08:00:08.831000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d88ff51af6c09b146e76c2be",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "JSON",
+          "llm"
+        ],
+        "url": "https://zenn.dev/yushiyamamoto/articles/structured-output-json-schema-2026-09",
+        "title": "構造化出力とJSON Schema入門：AIの返答を安全に処理するための設計",
+        "author": "山本勇志/ITProDX.com",
+        "published_at": "2026-11-07T07:30:24.748000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eefcd999f6451b8251a90f96",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "DNS",
+          "Kali Linux",
+          "Wireshark",
+          "BIND 9"
+        ],
+        "url": "https://zenn.dev/shangyuan/articles/bbe4e256a2886d",
+        "title": "Kali Linux に BIND9 で権威DNSとリゾルバを立てて、dig と Wireshark で違いを見てみた",
+        "author": "PB_",
+        "published_at": "2026-11-07T07:09:11.754000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a46838036d37770957d3e10f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "用語",
+          "llm",
+          "身体性"
+        ],
+        "url": "https://zenn.dev/lock_sta/articles/4ffcc2965dda45",
+        "title": "AIが身体を知る前の時代に名前をつけた話 — 「cherry（AIの呼び名）」",
+        "author": "川上t",
+        "published_at": "2026-11-07T07:05:53.890000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cdbf23407c0fdf4ea6460166",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/aqiu/articles/87dcd904b86251",
+        "title": "「AIを使った」で、話を終わらせない。生成と解析を分けて考える",
+        "author": "aqiu",
+        "published_at": "2026-11-07T07:04:05.068000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:74f1462b9541f67bf4cf86c8",
+        "source": "zenn",
+        "author_tags": [
+          "Node.js",
+          "GitHub Actions",
+          "Security",
+          "Cloudflare",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+        "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+        "author": "tomi",
+        "published_at": "2026-11-07T06:44:47.069000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:658f5fdfac248e044212f0da",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "llm",
+          "llama.cpp",
+          "Ollama"
+        ],
+        "url": "https://zenn.dev/tkpurine/articles/local-llm-study-011-lfm2-5-24b-a2b-gguf-ud-q2-k-xl",
+        "title": "ローカルLLM study11: LFM2.5-24B-A2B（2-bit量子化のMoE）を、27B級の2モデルと同じ条件で測る",
+        "author": "プリン",
+        "published_at": "2026-11-07T06:43:49.108000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:86408654dd0ba95c78a84e17",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Google Cloud",
+          "SRE",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/adopture/articles/0191dbbb65184c",
+        "title": "Google Cloud「Project Chrysalis」解説！1.8秒復旧を実現する自己進化型AIの仕組み",
+        "author": "ggnn編集部｜アダプチュア株式会社",
+        "published_at": "2026-11-07T06:35:30.674000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b51c1af7ce2e9d29eaeb8aba",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "TLS",
+          "証明書",
+          "certificatetranspa"
+        ],
+        "url": "https://zenn.dev/anfangd/articles/ct-log-hostname-exposure-ca-ct",
+        "title": "証明書を取るとホスト名が知られるのはなぜ？ CT Log の仕組みを CA と CT の流れから理解する",
+        "author": "anfangd",
+        "published_at": "2026-11-07T06:26:05.816000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:98a37be203d6ab2414f7d78a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "datascience",
+          "OpenAI",
+          "Web scraping"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/gpt-6-1-sol-structured-outputs-review-tagging",
+        "title": "GPT-6.1 Sol APIの構造化出力でレビューにタグ付けすると、コストはいくらになるか",
+        "author": "EveryInfra",
+        "published_at": "2026-11-07T06:16:18.148000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d6e0efc5b79aa44a51e8aa0e",
+        "source": "zenn",
+        "author_tags": [
+          "Google Analytics",
+          "JavaScript",
+          "Security",
+          "CSP"
+        ],
+        "url": "https://zenn.dev/masaru21/articles/9ef0ec6558fe67",
+        "title": "CSPの警告が出た。これって改ざん？ 自分のサイトでReport-Onlyを試して分かったこと",
+        "author": "lonely_creator_m",
+        "published_at": "2026-11-07T05:53:08.524000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:846ec80b404790e5d33704df",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/maura/articles/0a3f541be9f42d",
+        "title": "CLAUDE.md は削っても戻る。だから「今の字数」を上限にした",
+        "author": "まうら",
+        "published_at": "2026-11-07T04:47:02.637000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4ab163eacaf41f713d9bd522",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "リファクタリング",
+          "振り返り"
+        ],
+        "url": "https://zenn.dev/litalico/articles/84d2427087c27b",
+        "title": "リファクターの判断はAIに任せない ― git履歴から候補を出して、テックリードと答え合わせする",
+        "author": "池野",
+        "published_at": "2026-11-07T04:45:00.747000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1e91614ee517c661e6025fb8",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "PHP",
+          "DynamoDB",
+          "Security",
+          "IAM"
+        ],
+        "url": "https://zenn.dev/sk8jp/articles/a08590c3a45170",
+        "title": "AWS SDK for PHP の DynamoDB セッションを暗号化したら、SDK の「細かい挙動」に 3 回つまずいた話",
+        "author": "YAZ",
+        "published_at": "2026-11-07T04:39:39.667000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eab2781989d594a3f208b769",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "GitHub",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sk8jp/articles/937288f65fcfab",
+        "title": "ブランチ保護のない private リポで、Claude Code の main への push を止める守りを「割り切って」作り直した話",
+        "author": "YAZ",
+        "published_at": "2026-11-07T04:27:20.306000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d9145341532383300f55354c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "WSL",
+          "自動化",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kirinukiauto/articles/20ca9307f2d268",
+        "title": "コードを読まずにClaude Codeへ作らせた仕組みを人に渡そうとしたら、止まる所のほとんどはAIが作者のPCに合わせて足した門だった",
+        "author": "キリヌキ自動化ラボ",
+        "published_at": "2026-11-07T04:13:32.807000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:336e98c2a0a6b1bd800cb76f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "画像処理",
+          "顔交換"
+        ],
+        "url": "https://zenn.dev/ellafisherwrite/articles/b87d66c80a6b81",
+        "title": "Live3D Face SwapのAI顔入れ替え機能はどう選ぶ？集合写真1枚と複数の写真で使い分ける",
+        "author": "Ella Fisher",
+        "published_at": "2026-11-07T03:22:00.282000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9a21bd5d784cc22f437aa4e1",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/aoi_sato8734/articles/safeline-how-to-enable-sni-for-an-20261106-ee3e20a",
+        "title": "SafeLineでHTTPS上流にSNIを設定するには——ドキュメントに基づく運用確認ガイド",
+        "author": "佐藤 葵8734",
+        "published_at": "2026-11-07T02:45:28.502000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:940afb08194e76e041b8d0dc",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "poem",
+          "論文",
+          "Philosophy",
+          "学術"
+        ],
+        "url": "https://zenn.dev/sugamamasayuki/articles/493363b207645c",
+        "title": "2026年11月までの論文投稿振り返り",
+        "author": "SugamaMasayuki",
+        "published_at": "2026-11-07T02:21:28.467000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:477e4d3e7815e86821336ec9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture",
+          "llm",
+          "AIエージェント",
+          "harnessengineering"
+        ],
+        "url": "https://zenn.dev/tappers/articles/ai-labo-e18-advisor-executor-routing",
+        "title": "Claude Codeの/advisorパターンを実機検証！「単一モデル反復」vs「Advisor設計＋Executor実装」比較",
+        "author": "tappers",
+        "published_at": "2026-11-07T02:18:00.109000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:69e132b008ae99a5e31cd4a6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Notion",
+          "llm",
+          "生成 AI",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/bunkeideploy/articles/8cff1a003fab13",
+        "title": "劣るAIを「環境」で勝たせる ― Museに課金するか迷っている人へ",
+        "author": "文系のAI実験室",
+        "published_at": "2026-11-07T01:55:25.600000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:098de0b8924ce637ec26a8a1",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "PHP",
+          "Security",
+          "脆弱性",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/norman6464/articles/php2shell-fragnesia-kev-chain",
+        "title": "RCE の次に何が要るか：PHP2Shell と Fragnesia が KEV に 2 日違いで入った理由",
+        "author": "tekuteku",
+        "published_at": "2026-11-07T01:41:31.992000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:27770a40bb400a3663824aff",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/ikahan/books/claude-mem-guide",
+        "title": "Claude Code利用者のためのclaude-mem実践ガイド｜セッションを閉じても文脈を忘れない長期記憶を6つのhookで自動記録する",
+        "author": "0x00",
+        "published_at": "2026-11-07T01:40:21+00:00",
+        "excerpt": "Claude Codeのセッションを閉じるたび文脈が消える問題を、行動を自動記録して次回に差し戻すプラグイン「claude-mem」で解く日本語導入ガイド。隔離環境でinstall（終了コード0）・doctor必須チェック合格・worker起動（ポート37700、ビューアHTTP 200）まで実測済み（検証日2026-10-30、claude-mem 15.6.0）。最大の落とし穴「npm install -g ではhookが入らない」、サインインを省く --provider claude の実測、日本語モード code--ja、プライバシーの外し方、Windowsの注意まで収録。一方で、実際の記憶の蓄積と次セッションへの差し戻しはログイン済みClaude Codeが要るため未検証で、その再確認ポイントも明記した実測ガイド。"
+      },
+      {
+        "id": "zenn:39f00cd7755fb8adcc5b5b72",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ciel_lab/articles/5a9291e5cc3128",
+        "title": "Claude Code の窓を増やしても、仕事は1つの窓に集まる。役の分け方と CLAUDE.md の書き方",
+        "author": "Ciel",
+        "published_at": "2026-11-07T01:09:44.487000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:70520e36be5b8779c7dd2898",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GPT",
+          "nn",
+          "llm"
+        ],
+        "url": "https://zenn.dev/nwn/articles/cf9fe78aa33861",
+        "title": "Weight-Space Programming やってみた(やらせてみた)",
+        "author": "ヨ",
+        "published_at": "2026-11-07T00:57:13.508000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5628dbaeededaf3d941a2bab",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "監視",
+          "SRE"
+        ],
+        "url": "https://zenn.dev/jessica1007/articles/77ae5da0076c37",
+        "title": "音楽生成の遅延とGPUジョブ遅延を混ぜない短い設計メモ",
+        "author": "Jessica AI",
+        "published_at": "2026-11-07T00:39:33.369000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:02cb13c1a0327275cfc53c98",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "ChatGPT",
+          "Claude",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261106",
+        "title": "ChatGPTはGIF、Googleの動画は30%安く。裏で電力に逆風",
+        "author": "菅原友和",
+        "published_at": "2026-11-07T00:01:17.099000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e6508a57afb72c814a28467e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "キャリア",
+          "エンジニア"
+        ],
+        "url": "https://zenn.dev/kaji_kaji/articles/personality-before-tech",
+        "title": "「コードを書くだけの人はいらない」は、AI の前からそうだったのかもしれない",
+        "author": "Kaji",
+        "published_at": "2026-11-07T00:00:05.555000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e4c203041db6bb1475c53267",
+        "source": "zenn",
+        "author_tags": [
+          "初心者",
+          "Security",
+          "入門",
+          "CTF"
+        ],
+        "url": "https://zenn.dev/yairocho/articles/e2a29fe347cdb3",
+        "title": "わたしが実際に使っているスマホだけの道具箱：練習アプリの中身を公開します",
+        "author": "やいろ",
+        "published_at": "2026-11-06T23:21:30+00:00",
+        "excerpt": "前回までと、この記事の位置づけ 非エンジニアの会社員が、知識ゼロからスマホだけでCTFを始めた実践記録の第3回です。第2回では、CTFの仕組みを超入門で整理しました。 https://zenn.dev/yairocho/articles/fc189dea2351be 予告どおり、今回は「スマホだけの道具箱」の話です。ただし、道具の網羅的な説明や使い分けの体系は本の第3章にまとめたので、この記事では複製を避けて、わたしが実際に使ってきた道具箱の実物と、使用感のエピソードだけを紹介します。 なぜスマホに道具箱が必要だったか わたしは腰痛の都合で、PCの前に長く座れません。CTFの入門..."
+      },
+      {
+        "id": "zenn:467390204f9311a94b7fe33f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ワークフロー",
+          "個人情報",
+          "llm",
+          "Dify"
+        ],
+        "url": "https://zenn.dev/kuronurikun/articles/d9f1d11d0611ef",
+        "title": "Difyで、個人情報をLLMに渡さずにチャットボットを作る",
+        "author": "TK",
+        "published_at": "2026-11-06T22:30:38.445000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:60487993c3095a1f786c87da",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "動画編集",
+          "プロンプト",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/shoyomayabot/articles/verbalize-preferences-for-ai",
+        "title": "「人が編集した感じ」をAIに伝える：好みを言語化して指示に落とすコツ",
+        "author": "mayabot",
+        "published_at": "2026-11-06T22:09:10.790000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3f326b7b30b2b9cdb650513c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261107-tech-watch",
+        "title": "Tech Watch 2026-11-07: 検証できる境界",
+        "author": "らいけん",
+        "published_at": "2026-11-06T22:05:11.151000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ff2a46e27283d090d887bd83",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "WebGL",
+          "Babylon.js"
+        ],
+        "url": "https://zenn.dev/fnamuoo/articles/a5ae68d2a8f31c",
+        "title": "Babylon.js：AI駆動でつくる Hit&Blow / Numer0n",
+        "author": "fnamu",
+        "published_at": "2026-11-06T22:00:05.308000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1dd48d57062b7ebd459fb198",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Go",
+          "電子工作",
+          "宇宙",
+          "RTL-SDR"
+        ],
+        "url": "https://zenn.dev/twsnmp/articles/twnoaa-rtl-sdr-satellite-ai",
+        "title": "AIと喧嘩しながら挑んだソフトウェアラジオ開発：9千円のLNA、停波していた衛星、そして気象衛星・ISS受信への道",
+        "author": "twsnmp",
+        "published_at": "2026-11-06T19:19:19+00:00",
+        "excerpt": "はじめに この記事は、Zennfes Autumn 2026「物理デバイスを使った開発」コンテストの応募記事です。 普段はオープンソースのネットワーク管理ツール（TWSNMP）を作っている筆者が、数千円のUSBドングル型ソフトウェアラジオ（RTL-SDR）を手に入れたことをきっかけに、AIエージェントを相棒として**「宇宙を飛ぶ気象衛星から電波を直接受信して画像を復元する」**という無謀なツール（twnoaa）の開発に挑んだ記録です。 ソフトウェアの世界なら、コードを直せばバグは直ります。しかし相手は**「物理デバイス」と「大気・宇宙空間を飛ぶ電波」**。 「コードは合っているのに..."
+      },
+      {
+        "id": "zenn:d1d001af3c719b2930d8d2d1",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "API",
+          "Security",
+          "Network",
+          "OpenAI"
+        ],
+        "url": "https://zenn.dev/ament3/articles/ai-digest-2026-11-05-1656",
+        "title": "OpenAI Images 2.6の活用とレジデンシャルプロキシ検知：海外事例から学ぶ実務設計",
+        "author": "田中根小介",
+        "published_at": "2026-11-06T17:33:31+00:00",
+        "excerpt": "海外の技術コミュニティで注目を集めている最新トピックの中から、日本のエンジニアが今すぐ実務に活かせる重要なトレンドをピックアップしました。今回は、OpenAIが公開した画像生成・編集モデルの最新版「Images 2.6」のAPI活用法と、米ホワイトハウスネットワークで検出され話題となった「Residential Proxy（住宅用プロキシ）」の脅威とその防御設計について深掘りします。単なるニュースの要約にとどまらず、実際のプロダクトやインフラ設計にどう落とし込むか、コード例と具体的な運用ポイントを交えて解説します。 何が発表されたのか 今回注目した2つの重要な動向の概要は以下の通りで..."
+      },
+      {
+        "id": "zenn:b7e6dba5bb4238b0094df0ee",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "デザイン",
+          "prompt",
+          "画像生成",
+          "OpenAI"
+        ],
+        "url": "https://zenn.dev/decomytree/articles/781e53405126ee",
+        "title": "画像内テキストが崩れないプロンプト設計：商品写真・広告向けチェックリスト",
+        "author": "Deco My Tree",
+        "published_at": "2026-11-06T17:18:54+00:00",
+        "excerpt": "はじめに AI 画像生成でいちばんつまずきやすいのが、画像の中に入れる文字です。ポスターの見出し、パッケージの商品名、UI モックのラベル——どれも「なんとなく文字っぽい形」までは出るのに、いざ拡大すると字形が崩れたり、意図と違う綴りになったりしがちです。 一方で、EC の商品写真や Meta / TikTok 向けの静的広告では、文字が読めるかどうかがそのまま採用可否になります。この記事では、特定のサービスに依存しない形で、文字入りの商品写真・広告クリエイティブを安定させるプロンプトの書き方を整理します。最後に、同じ方針で試せるブラウザ上の生成環境として GPT Image 2 に..."
+      },
+      {
+        "id": "zenn:75ea61640a459c3222b3fb8e",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/shotasone/books/oss-watermarks-remover-guide",
+        "title": "guillaumemeyer/watermarks-remover 実機検証＆エラー解決ハンズオンガイド",
+        "author": "sone",
+        "published_at": "2026-11-06T17:06:23+00:00",
+        "excerpt": "linux/arm64 実機検証で判明した guillaumemeyer/watermarks-remover の再現手順・エラー解決・Docker構成を完全収録。"
+      },
+      {
+        "id": "zenn:2dede1aa7a2f4114b37c0b81",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/onelifevibe/articles/cd89b587413b8c",
+        "title": "AIが政策を議論したらどうなるか ― マルチエージェント討論とバーチャル議会の設計",
+        "author": "OneLifeVibe",
+        "published_at": "2026-11-06T17:01:33+00:00",
+        "excerpt": "はじめに 政策の議論では、ひとつの視点だけでは論点の抜け漏れに気づきにくい。異なる立場や専門性を持つ参加者が賛否を述べ合うことで、論点が整理され、反論や前提の違いが可視化される。 人間だけでなく、AIが政策案の賛否を議論すると、論点の抜け漏れに気づきやすくなる。ここでは、複数のAIエージェントによる討論、いわゆるマルチエージェント討論の設計と、その利点と課題を整理する。 マルチエージェント討論という考え方 大規模言語モデルに異なる視点や役割を与え、政策案について討論させる設計がある。各エージェントが自分の立場から主張し、他者の主張に反論する。議論の履歴が残るため、どの論点が検討さ..."
+      },
+      {
+        "id": "zenn:7cfd2daf2318a62a5e0eb21f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "server",
+          "llm",
+          "vLLM",
+          "ローカル LLM"
+        ],
+        "url": "https://zenn.dev/babibon/articles/d464651e5f9e2f",
+        "title": "ローカルLLM用のサーバー何人で使える？ 業務に合わせた性能評価の考え方",
+        "author": "Yasuyuki Echizenya",
+        "published_at": "2026-11-06T17:00:51.998000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ae47c21759c811854675d11c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "gamedev",
+          "Godot",
+          "pixelart"
+        ],
+        "url": "https://zenn.dev/zivaengine/articles/f68112e1c7c433",
+        "title": "GodotでAIを使ってスプライト、ピクセルアート、タイルを作る方法",
+        "author": "Ziva Engine",
+        "published_at": "2026-11-06T15:36:46+00:00",
+        "excerpt": "この記事は https://ziva.sh/blogs/godot-ai-sprites の日本語版です（英語の原文はZiva.shが2026年11月4日に公開）。 Godotエディターを離れずに2Dゲームのアートを作るには、Godotの中で動くAIエージェントZivaに頼みます。「右向きの64x64のピクセルアートの騎士を作って」のように入力すると、Zivaが画像を生成してチャットに表示し、PNGをres://assets/generated/に保存します。Godotはこのファイルをインポートします。背景が透明なスプライト、シームレスなタイル、背景画像を、ピクセルアートか滑らかなペイン..."
+      },
+      {
+        "id": "zenn:fd513371b598a307a0494d5d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "stl",
+          "3D",
+          "maker",
+          "3dprinting"
+        ],
+        "url": "https://zenn.dev/xer97/articles/57f76704aabcef",
+        "title": "画像から3Dプリント用のSTLを作る：リトフェインとの違いと、約8万／約150万ポリの使い分けメモ",
+        "author": "xer97",
+        "published_at": "2026-11-06T15:27:46+00:00",
+        "excerpt": "「この写真を3Dプリントしたい」には、だいたい2種類あります。写真そのものを光にかざす板にしたいのか、写っている物を裏側まである立体で欲しいのか。 ここで書くのは後者の話です。筆者は 画像からSTL（英語だと image to stl）の開発者で、作る側から見た判断のポイントをメモしておきます。 リトフェイン／ハイトマップとの違い リトフェインやハイトマップは、画素の明るさを厚みに変換します。出力は常に板で、裏は平らです。写真を飾りたいならこれで十分ですし、無料のツールも多いです。 画像から3D は、画像から物の形を推定して全周のメッシュを作ります。写っていない側面や背面はモデルの推..."
+      },
+      {
+        "id": "zenn:a377b7b41534fafeaec425db",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Unity",
+          "gamedev",
+          "Godot",
+          "pixelart"
+        ],
+        "url": "https://zenn.dev/xer97/articles/6913c179bb40ff",
+        "title": "生成したスプライトシートを Godot 4 / Unity に入れるときのメモ（5アクション前提）",
+        "author": "xer97",
+        "published_at": "2026-11-06T15:26:17+00:00",
+        "excerpt": "Godot 4 系を前提に書いています。Unity はバージョンによってメニュー名が少し違うことがあります。 筆者は スプライトジェネレーター（英語だと sprite generator。全身のキャラ画像1枚から Idle / Walk / Run / Jump / Attack を作ってスプライトシートにするツール）の開発者です。宣伝を兼ねていますが、エンジン側の手順は手描きのシートでも同じです。 2Dアクションの試作では、移動とジャンプはできたのにプレイヤーがまだ四角、という期間が長くなりがちです。なので最近は、絵の完成度は後回しにして「5アクションと状態遷移」だけ先に作るようにして..."
+      },
+      {
+        "id": "zenn:ffabdc51d764f28ca45992e5",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/onelifevibe/articles/499672aae38832",
+        "title": "AIによる政策討論は、トレードオフをどう見える化できるか",
+        "author": "OneLifeVibe",
+        "published_at": "2026-11-06T15:23:07+00:00",
+        "excerpt": "政策をめぐる議論では、ひとつの施策が複数の価値と衝突することが多い。たとえば財政負担とサービスの質、短期の効果と長期の持続可能性、効率と公平性である。こうした衝突は、賛否だけで整理すると見えにくくなる。そこで注目されているのが、異なる立場を与えられた複数のAIエージェントに議論させ、その過程を記録として残すという考え方である。 政策討論を「仕組み」として考える マルチエージェントによる討論は、単に結論を出すための仕組みではない。重要なのは、どのような前提に立ち、どのような根拠で主張が組み立てられ、どこで意見が分かれたのかを、第三者がたどれる形にすることである。 たとえば、ある政策案に..."
+      },
+      {
+        "id": "zenn:18cee6330a0e4deadeb7bb4f",
+        "source": "zenn",
+        "author_tags": [
+          "ポエム",
+          "設計",
+          "Security",
+          "DevOps",
+          "技術的負債"
+        ],
+        "url": "https://zenn.dev/numekudi/articles/6490b434455baa",
+        "title": "技術的負債は踏み倒したっていい",
+        "author": "numekudi",
+        "published_at": "2026-11-06T15:04:20+00:00",
+        "excerpt": "その負債、本当に返す必要ある？ 先日の記事を、こんな一文で締めた。 そして、その負債は返すときが必ず来る。 いきなりだが、必ずしもそうではない。 サービスごと廃止すれば、返さずに終わらせられる負債もある。 踏み倒しである。 もちろん、利用者のデータを放り投げて夜逃げしようという話ではない。不要になったシステムを、わざわざ綺麗に作り直してから捨てる必要はないという話だ。 技術的負債の話になると、返す方法ばかり考えがちだ。 でも、そのシステムを今後も維持する前提から疑っていい。 負債と利益は同時に存在する 古い設計のシステムでも、利益を生み続けていることはある。 変更要求が少なく..."
+      },
+      {
+        "id": "zenn:ea7b9a1e3356abdabd67a240",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "MFA",
+          "ransomware",
+          "Incident response",
+          "logistics"
+        ],
+        "url": "https://zenn.dev/paokkyu/articles/55f87f92dac191",
+        "title": "全出荷停止と約74万件の流出、多要素認証が未適用の委託先アカウント1つから136日後 ── アスクルのランサムウェア被害報告",
+        "author": "四角いぱおつき",
+        "published_at": "2026-11-06T15:00:05+00:00",
+        "excerpt": "第13報の記載をもとに筆者が作図 ! 3行でいうと 2025年10月、アスクルがランサムウェア[1]攻撃を受けて受注と出荷を止め、約74万件の情報の流出が確認された 入口は、例外的に多要素認証を適用していなかった業務委託先の管理者アカウントだった 侵入から暗号化まで136日（日付から筆者が計算）。攻撃は一度に起きるのではなく、段階を踏んで進む はじめに この記事は、アスクルが2025年12月12日に公表したランサムウェア攻撃の影響調査結果および安全性強化に向けた取り組みのご報告（第13報）を、セキュリティを学びたい人向けに整理したものです。 第13報は、他の企業や組織の対策の..."
+      },
+      {
+        "id": "zenn:ce3c4799c147e675ed2affde",
+        "source": "zenn",
+        "author_tags": [
+          "個人開発",
+          "Windows",
+          "Security",
+          "プロジェクト管理"
+        ],
+        "url": "https://zenn.dev/hydenori24/articles/cairn-smartscreen-checksum",
+        "title": "Cairnを初めて起動すると警告が出る理由と、ファイルの確かめ方",
+        "author": "ひでのり",
+        "published_at": "2026-11-06T14:52:12+00:00",
+        "excerpt": "自作の Windows アプリ「Cairn」をダウンロードして初めて起動すると、「Windows によって PC が保護されました」という SmartScreen の警告が出ることがある。 理由はシンプルで、配布ファイルにコード署名をしていないから。怪しいものを入れたわけじゃない。でも、使う側からすれば確かめようがないので、確かめ方を書いておく。 確かめ方 Releases には、配布ファイルと一緒に SHA256SUMS.txt を置いている。ダウンロードしたファイルのハッシュ値を計算して、この中の値と同じなら、配布したときのまま変わっていない。 コマンドプロンプトなら。 cert..."
+      },
+      {
+        "id": "zenn:de3cebb1e1997e25d3873788",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "初心者",
+          "Ubuntu",
+          "Security",
+          "Debian"
+        ],
+        "url": "https://zenn.dev/kotanpolin/articles/apt-package-swap",
+        "title": "apt updateをサボると何が起きる？ パッケージのすり替え攻撃",
+        "author": "コタ",
+        "published_at": "2026-11-06T14:47:13+00:00",
+        "excerpt": "先に、3行で 2026年11月4日、DebianやUbuntuでソフトを入れる道具「APT」に、署名の確認をすり抜けて中身をすり替えられる穴（CVE-2026-109518）が公表された。すり替えられたプログラムは管理者（root）の権限で動きうる。 狙われるのは、パッケージを入れようとしているときです。通信の途中で暗号化していないHTTPを書き換えられる場合に加え、Ubuntuは悪意のあるミラーも同じ穴を使えるとしています。TLS（HTTPS）が守るのは、通信の途中の攻撃です。Debian 12以降・Ubuntu 22.04以降は、やり直しの設定（Retries=3）が初期設定で..."
+      },
+      {
+        "id": "zenn:a2b14474efe9b66c387e8caf",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "見積もり",
+          "AIDD",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/futoka/articles/ai-agent-effort-four-clocks",
+        "title": "人間3分、AI48分。これは何分の仕事か？",
+        "author": "フトシ",
+        "published_at": "2026-11-06T14:38:51+00:00",
+        "excerpt": "人間が3分で指示を出し、AIが48分かけて実装とテストを進めたとします。これは何分の仕事でしょうか。 「人がこのタスクに手をかけた時間」なら3分。「AIが稼働した時間」なら48分。指示を始めてからAIが結果を返すまで、重なりも待ちもなければ51分です。3分と48分は、実際の開発で計測した値ではなく、考え方を説明するための架空の数字です。 さらに、人が結果を5分レビューして作業完了とするなら、同じ架空の例でも答えが変わります。 時刻 このタスクで起きたこと 時間 09:00〜09:03 人が指示を作って送る 3分 09:03〜09:51 AIが実装とテストを進める 48分..."
+      },
+      {
+        "id": "zenn:b8612a757e490a627f7d7c8a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "transformers",
+          "Hugging Face",
+          "llm",
+          "llama.cpp"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-038-dory-looped-transformer-ecosystem-gap",
+        "title": "NVIDIAの『ループ型』4Bモデル Dory1.0-4B、標準ツールで動かそうとしたら2箇所で止まった",
+        "author": "matsu",
+        "published_at": "2026-11-06T14:22:33+00:00",
+        "excerpt": "これは何を試した記事か NVIDIAが公開したDory1.0-4Bという4Bパラメータのモデルを、公式のモデルカードが案内するとおりの手順で動かそうとした記事である。 Dory1.0-4Bは、1つの重み(チェックポイント)のまま「再帰ブロックを何回ループさせるか」を1〜4回の間で切り替えることで、再学習なしに推論時の計算量と精度をトレードオフできる「ループ型Transformer」である。 出典は論文(https://huggingface.co/papers/2611.03998 )とモデル重みコレクション(https://huggingface.co/collections/nv..."
+      },
+      {
+        "id": "zenn:f9fd2ee5cfe5375720b570af",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "仕事術",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/sugitakenji/articles/af925cba5484fb",
+        "title": "What is AI for? — Don’t think. Feel. と Be water.",
+        "author": "杉田研治",
+        "published_at": "2026-11-06T14:09:25+00:00",
+        "excerpt": "同じ協力関係の、もう一つの顔 「What is AI for? — AIは自分を映す鏡」では、AIを尊重して向き合う姿勢を考えました。返ってきたものを受け止め、よかったことには感謝し、意図と違うところは言葉にして伝える。そのやり取りを通じて、こちらの考えも明確になっていきます。 そこには「考えるナイフ」という比喩もあります。AIに雑な姿勢で向き合えば、AIに切り付けられることがある。協力する相手への向き合い方が、自分に返ってくるということです。 では、尊重して向き合うことによって、どのような協力が可能になるのでしょうか。 今回考えたいのは、その側面です。二つの顔を持つヤヌスになぞらえ..."
+      },
+      {
+        "id": "zenn:0e1de6db31bd922d9691cc4b",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "WebAuthn",
+          "FIDO2",
+          "YubiKey",
+          "Passkey (パスキー)"
+        ],
+        "url": "https://zenn.dev/serotoninmax/articles/yubikey-first-setup-fido2-hardening",
+        "title": "YubiKey初導入で調べたこと: FIDO2のオリジン検証、PINの仕様、SMSとTOTPを外せる条件",
+        "author": "serotoninmax",
+        "published_at": "2026-11-06T14:01:11+00:00",
+        "excerpt": "YubiKey を初めて導入し、分からない点を調べながら設定を進めた。キーを登録するだけでは足りず、これまで使っていた SMS 認証や認証アプリ(TOTP)の扱いまで見直す必要があった。 本記事では、FIDO2 が中継型のフィッシングに強い理由と、YubiKey の PIN とロックの仕様を整理する。あわせて、2 本登録する理由、弱い認証経路を外せる条件、登録時に詰まりやすい点も扱う。使う側から見た話は serotoninmax.com の記事に書いた。 中継型フィッシングはワンタイムコードを素通しする SMS の認証コードや認証アプリの 6 桁(TOTP)は、ユーザーが打ち込んだ値..."
+      },
+      {
+        "id": "zenn:9286b82de0c7b3d9a448feb6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "個人開発",
+          "Windows",
+          "SQLite"
+        ],
+        "url": "https://zenn.dev/torakichi0428/articles/5e5573b10976a0",
+        "title": "SDカードをアルバムにする妻のために、元データを1バイトも触らないローカル写真管理ソフトをAIと作った話",
+        "author": "柿山とらきち",
+        "published_at": "2026-11-06T13:57:58+00:00",
+        "excerpt": "はじめに：SDカードを「アルバム」にする妻と、クラウド同期の罠 このソフトを作り始めた一番最初のきっかけは、妻の写真の管理方法を知ったことでした。 趣味でカメラを触る人間からすると、写真はPCや外付けドライブに取り込み、SDカードはフォーマットして使い回すのが当たり前になりがちです。しかし妻は、「容量がいっぱいになったら新しいSDカードを買い足し、撮り終えたSDカードをそのままフィルムやアルバムのように保管する」 という運用をしていました。 その結果、カードが増えるにつれて 「あの旅行で撮った写真が、どのSDカードに入っているか分からない！」 と嘆くことになっていました。 さらに追い..."
+      },
+      {
+        "id": "zenn:3110362f3637adcc7c25ced5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AWS",
+          "Next.js",
+          "career",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ttake/articles/0b6c8f887b160e",
+        "title": "年間数億円のSaaSを、開発者一人バイブコーディングでリプレイスして感じた達成感と危機感",
+        "author": "たけ",
+        "published_at": "2026-11-06T13:05:43+00:00",
+        "excerpt": "はじめに この半年間、業務の根幹で使っていた年間数億円規模のSaaSを、自社製システムへリプレイスしていました。開発体制はエンジニア1人（自分）＋AI。事業側のメイン担当者が1人という、実質2名のプロジェクトです。新システムはすでに本番稼働を迎えています。 自分にとってこのプロジェクトは、「あえてコードを一切読まず、バイブコーディングだけで中規模システムをどこまで作り切れるか」を試す実験でもありました。 率直な結論から書きます。 コードをほぼ読まなくても、ビジネスで耐えうる中規模システムは作れてしまいました。 ただし、これには明確な条件があります。非機能要件（性能・セキュリティ・運用..."
+      },
+      {
+        "id": "zenn:ae3d3d404de98fbb79966d36",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "React",
+          "Remotion",
+          "ElevenLabs",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/heynstudio/articles/a21ba753d44618",
+        "title": "Claude Codeのスキルで動画制作を自動化する設計 ― 声に合う字幕とffmpegの自己QA",
+        "author": "Heyn Studio",
+        "published_at": "2026-11-06T13:03:00+00:00",
+        "excerpt": "Claude Code に「ナレーション付きの動画を作って」と頼むと、それなりのものは出てきます。ただ、毎回やり方が変わり、字幕が声から少しずれ、レンダリングが成功した時点で「完成しました」と報告されがちです。 私たちは、この流れを Claude Code のスキル（SKILL.md）として固定し、Remotion で動画を書き出すパイプラインを作りました。下の GIF は、そのサンプル仕様を書き出したものです（元は音声付きの 9:16 動画です）。 仕様 JSON 1 つから書き出したサンプル。字幕は ElevenLabs の文字タイムスタンプで出しています この記事では、次の 3 ..."
+      },
+      {
+        "id": "zenn:eb6293514e74c4c6a32c0442",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "𝕏",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ai_shihan/articles/5785b771e9583d",
+        "title": "AIが書いたXの下書き14本のうち、6本を出さなかった —— 出さない理由を3つに決めておいた話",
+        "author": "ai_shihan",
+        "published_at": "2026-11-06T12:47:23+00:00",
+        "excerpt": "私は副業の広報を、Claude Code の「広報部」の席に任せています。X の投稿の下書きは、別の AI（Grok の Bot。社内では「X担当」と呼んでいます）が書いて Slack に置きます。広報部の席はそれを読んで、出すか出さないかを決め、出すなら予定の枠に入れます。 X担当は自分では投稿しません。出すかどうかは広報部が決め、決めた理由を1行ずつ記録に残しています。 11/2 から 11/6 の5日間に届いた下書きは14本でした。8本を予定に入れ、6本は出していません。この記事では、出さなかった6本をどう決めたかを書きます。 枠は1日3つだけ まず前提から。X に出す枠は、1..."
+      },
+      {
+        "id": "zenn:88b726788c1a6f43779422cf",
+        "source": "zenn",
+        "author_tags": [
+          "初心者",
+          "インフラ",
+          "Security",
+          "パスワード",
+          "サイバー攻撃"
+        ],
+        "url": "https://zenn.dev/suzuki_tech/articles/attack-numbers-game-takarakuji-gmo",
+        "title": "なぜサーバー攻撃はこんなに多いのか — 宝くじサイトとGMOの事例で分かる、攻撃が「数のゲーム」になった理由",
+        "author": "SuzukiTech",
+        "published_at": "2026-11-06T12:44:43+00:00",
+        "excerpt": "! この記事は 2026年11月6日時点 の公開情報をもとに書いています。宝くじ公式サイトの件と、GMOインターネットの「お名前.com デスクトップクラウド」の件は、どちらも調査が続いています。原因や被害の範囲は今後の発表で変わる可能性があるので、最新の情報は末尾の公式発表を確認してください。 はじめに：3週間足らずで2回、「よく知っているサービス」が止まった 2026年11月5日の午前、宝くじ公式サイト が利用停止になりました。公式の告知によると、理由は「お客さまのパスワードが意図せず変更される事象が確認されたため」です。 その2週間ほど前の10月21日には、GMOインターネッ..."
+      },
+      {
+        "id": "zenn:f86e5739ce8b67e6a70a839a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "llm",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/nekonote328/articles/claude-code-chat-security-plans",
+        "title": "はじめての Claude ②【使う】始め方、セキュリティとプランの選び方（2026年11月）",
+        "author": "wild-river",
+        "published_at": "2026-11-06T12:43:20+00:00",
+        "excerpt": "! この記事の情報は 2026年11月時点のものです。最新情報は公式サイトを確認してください。 はじめに この記事で分かること： Claude Code の始め方（VS Code の拡張機能・ターミナル） チャットで気を付けたいセキュリティ プランの選び方 この記事は3回シリーズの2回目です。Claude ファミリーについて、Claude Code とチャットの違いは ① にまとめています。 ! はじめての Claude シリーズ（全3回） ① 知る：Claude でできること、チャットとの違い ② 使う：始め方、セキュリティ、プラン（この記事） ③ 育てる：CLAUDE...."
+      },
+      {
+        "id": "zenn:4aa806b78cb48736e2676f1f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "カンファレンス"
+        ],
+        "url": "https://zenn.dev/moritoki/articles/a505aed545a9ba",
+        "title": "AI×開発組織Summit 2026｜2026年10月16日(金) 汐留開催｜参加レポート",
+        "author": "moriwan",
+        "published_at": "2026-11-06T12:29:59+00:00",
+        "excerpt": "AI×開発組織Summit2026 「AI×開発組織Summit2026」に現地参加してきました！ https://ai-dev-org-summit.findy-tools.io/2026 イベントの概要 勢いで参加したものの、イベントの趣旨をちゃんと理解したのはこのレポートを書いたときです（小声）。公式ページによるとこういうことらしい。 2025年、ソフトウェア開発におけるAI技術の浸透は目覚ましい発展を遂げました。多くの企業でコード生成・レビュー・テスト・設計補助などが日常レベルで活用され始めました。 2026年も半ばに差し掛かった現在、各社が直面しているのは「AI導入..."
+      },
+      {
+        "id": "zenn:3fbc1d57896986c07882193e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "フリーランス",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/ai_secretary/articles/c8c24c30b32f4a",
+        "title": "売るのはAIではなく成果だった ― 受託メニューの叩き台を作って考えたこと",
+        "author": "AI秘書ラボ",
+        "published_at": "2026-11-06T12:22:05+00:00",
+        "excerpt": "叩き台を作った AI自動化の受託を始める準備として、提供メニューの叩き台を作った。最初に書いたのは「AI自動化の構築支援」という、自分目線の言葉だった。 ただ、調べた実践事例の結論は一貫していた。「何でも自動化します」という汎用型は失敗しやすく、勝ち筋は「1業種×1ワークフロー」への特化だという。そして、相手が買うのはAIそのものではなく、自分の仕事がどう楽になるかという成果のほうだ。 メニューを「型」で組み直した そこで、売り物を「AI」ではなく、自分が実際に構築して動かしている「型」に寄せた。 ルールファイル設計：目的・禁止事項・承認フック・予算上限・失敗記録の設計と文書化..."
+      },
+      {
+        "id": "zenn:0e2bc9f134b1c1ced9073e3a",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "脆弱性",
+          "情シス",
+          "llm",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/yukino77/articles/vuln-triage-auto-patrol-silent-failure",
+        "title": "脆弱性トリアージをAIで1日3回自動巡回させる設計 ──「該当なし」を信用しない仕組み",
+        "author": "yukino",
+        "published_at": "2026-11-06T12:01:36+00:00",
+        "excerpt": "前回のおさらいと、今回の話 前回の記事では、脆弱性アドバイザリを1件ずつAIに読ませて、自社環境に照らしてS/A/B/Cの緊急度を判定させる定型プロンプトを紹介しました。 ただ、あれは「人がURLを投げたら判定する」仕組みです。人が気づかなければ何も起きない。 そこで次の段階として、AIに1日3回（7時・12時・17時）情報源を巡回させ、自社に該当するものだけを報告させる形に育てています。生成AIの定期実行機能で回す想定です。 この記事は、その設計編です。結論を先に書くと、一番の敵は見逃しでも誤判定でもなく、「該当なし」という沈黙でした。試験実行してみて分かったことは、続編として別に..."
+      },
+      {
+        "id": "zenn:f6f9f2ec7e8a9b8a245cd3c7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AWS",
+          "Security",
+          "運用",
+          "CloudWatch"
+        ],
+        "url": "https://zenn.dev/stock_inc/articles/ai-daily-security-check-criteria",
+        "title": "毎朝のセキュリティ確認をAIに任せたら、判定の基準が「人が動く必要があるか」に変わった",
+        "author": "株式会社Stock 武田 峻一",
+        "published_at": "2026-11-06T12:01:07+00:00",
+        "excerpt": "本番環境に攻撃の兆候が来ていないかを、AIエージェントが平日の朝に確認して、判定付きのレポートを作るルーティンを動かしています。 動かし始めて1週間で、判定の基準を3回変えました。最初は「何かが起きたら赤」でしたが、それだと社員の普段の作業でも毎週赤になります。最後は、何が起きたかではなく、人が動く必要があるかで色を決める形に落ち着きました。 仕組みそのものより、この基準の変わり方の方が、同じことをやろうとしている人の役に立つと思います。 ダッシュボードで足りるかを、先に棚卸しした ルーティンを作る前に、既にあるダッシュボードとアラームで何が見えていて、何が見えていないかを一覧にし..."
+      },
+      {
+        "id": "zenn:64b844588b6393dca5fd61f4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "skill",
+          "ソフトウェア品質",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yasuakiomokawa/articles/d271586275672e",
+        "title": "エージェントスキルの定量検証をしよう",
+        "author": "Yasuaki Omokawa",
+        "published_at": "2026-11-06T11:37:58+00:00",
+        "excerpt": "サマリー エージェントスキルの出力を受け入れテストにすると、そのスキルの効き目を数えられます。数えられると、改善の基準が 1 つに決まります。LLM に思いつきの指示を出す代わりに、毎回同じ物差しで「どこを、なぜ直すか」を決められるようになります。 この記事は受け入れ基準 (AC) を書くスキル define-done を題材にした、その実践の記録です。もともと define-done は AC の合否を何で確かめるか (オラクル) を散文で書いていました。「define-done を使うと、使わないときより要求どおりでバグの少ないコードになるのか」と問われても、答える手段がありませ..."
+      },
+      {
+        "id": "zenn:7e3201ce2605af24217e6428",
+        "source": "zenn",
+        "author_tags": [
+          "Security"
+        ],
+        "url": "https://zenn.dev/sakko21/articles/bd2371a41da8fa",
+        "title": "ホワイトハッカー入門 読み物（カリキュラムの前に読む）",
+        "author": "sh",
+        "published_at": "2026-11-06T11:37:45+00:00",
+        "excerpt": "専門用語を知らなくても読める、たとえ話中心の入門です。 プログラミングやWeb制作の経験がある人は、ところどころに出てくる「作る側の視点がある人は」という補足が近道になります。経験がなくても、たとえ話だけで最後まで読めるように書いてあります。 第1章 ホワイトハッカーって何？ ホワイトハッカーは「お店の持ち主に頼まれて、鍵のかけ忘れを探す鍵屋さん」です。泥棒の手口を知っていますが、それを守るために使います。 鍵屋さんのたとえ Webサイトやアプリは「お店」です。お店にはドアや窓がたくさんあります。表の入り口、裏口、2階の窓、換気口。作った人は「全部閉めたつもり」ですが、実際には閉..."
+      },
+      {
+        "id": "zenn:a6fc2d7e94a7b36af47a08ae",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Markdown",
+          "Skills"
+        ],
+        "url": "https://zenn.dev/madao1981/articles/20261021-skill-md-readme-split",
+        "title": "AIのスキルの手順を二重管理しない：SKILL.mdを正本に、READMEは入口だけにする",
+        "author": "kojikoji_tech",
+        "published_at": "2026-11-06T11:00:05.214000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bfde5f985ff73b776b0700f0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mappy55/articles/magi-games-ops-04",
+        "title": "AI の記憶はファイルの形をしている。3体と司令、記憶が途切れる場所の地図（番外編4）",
+        "author": "mappy",
+        "published_at": "2026-11-06T10:57:16.176000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cd8092954de38420edf09a6e",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Cyber Security"
+        ],
+        "url": "https://zenn.dev/hackbox_ai/articles/a3c907167aca08",
+        "title": "エージェント型ペネトレーションテストの判断ログを設計する",
+        "author": "Hackbox.ai",
+        "published_at": "2026-11-06T10:46:17+00:00",
+        "excerpt": "エージェント型のペネトレーションテストは、二回実行すると結果が変わることがある。環境の状態、スコープ内の認証情報、モデルの経路選択が独立に変わるからだ。問題は変動そのものではなく、変動を説明できる記録が残るかである。 この記事は、その記録（判断ログ）のスキーマと実装の話をする。特定製品の話ではないので、自前のエージェントでも同じ設計が使える。 開示: 筆者は HackBox の開発に関わっている。HackBox is an online automated penetration testing platform (SaaS) built by Singapore-based HACKB..."
+      },
+      {
+        "id": "zenn:8210e5d6633206869c7de2e0",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "OAuth",
+          "Model Context Protocol",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/bbt/articles/92ec2c5bb94a3a",
+        "title": "ClaudeのカスタムコネクタはosFoundryのOAuthをどう見つけ、なぜ権限を毎回確かめるのか",
+        "author": "BBT",
+        "published_at": "2026-11-06T10:40:47+00:00",
+        "excerpt": "トークンを持たないMCPクライアントがosFoundryのツールを叩くと、次のレスポンスが返る。2026-11-06に東京のMacからcurlで送ったものだ。 $ curl -s -D - -X POST https://api.osfoundry.io/api/v1/external-mcp \\ -H 'content-type: application/json' \\ -H 'accept: application/json, text/event-stream' \\ -d '{\"jsonrpc\":&..."
+      },
+      {
+        "id": "zenn:0fae305fcdd289832bb90189",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "間取り",
+          "インテリア"
+        ],
+        "url": "https://zenn.dev/winniewei/articles/1aca392f41d76d",
+        "title": "頭の中の間取りを、少しずつ形にする。配置を考えるときの進め方",
+        "author": "Wei",
+        "published_at": "2026-11-06T10:28:50.891000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aa91e8d04ce69449e378f40c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "image",
+          "skill",
+          "Claude",
+          "infographics"
+        ],
+        "url": "https://zenn.dev/usuginu/articles/15e2b8fb4c2751",
+        "title": "Claude Code ですばやくきれいなインフォグラフィックを作る",
+        "author": "うすぎぬ",
+        "published_at": "2026-11-06T10:28:16.396000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ffce1fa2eca8e3a78df86681",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Godot",
+          "ゲーム制作"
+        ],
+        "url": "https://zenn.dev/vbaman/articles/b3ca28775e71c7",
+        "title": "理想形になるまでの寄り道作品",
+        "author": "のせるまん",
+        "published_at": "2026-11-06T09:38:26.897000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:045efdfbb9091e565228029d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "PowerShell",
+          "Claude",
+          "Gemini",
+          "Antigravity"
+        ],
+        "url": "https://zenn.dev/pepe_3_go/articles/antigravity-usage-ask-ai-vs-log",
+        "title": "AIに自分の使用量を聞いたら、測っていない「実測値」が返ってきた──Antigravityのログで答え合わせする",
+        "author": "いわい ゆう",
+        "published_at": "2026-11-06T09:33:01.957000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c0f7a82e8edb8d5fd9ff156f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "automation",
+          "Obsidian",
+          "Model Context Protocol"
+        ],
+        "url": "https://zenn.dev/pve_echo/articles/20261103_continue-mcp-obsidian-automation",
+        "title": "ContinueとMCPを用いたObsidian自動保存およびナレッジ構造化システムの構築",
+        "author": "PVE-Echo",
+        "published_at": "2026-11-06T09:23:37.281000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b75af59019271e373fe27a67",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "MuleSoft",
+          "llm",
+          "mulesoftinferencec"
+        ],
+        "url": "https://zenn.dev/globalway_blog/articles/ba9ea72d899cde",
+        "title": "MuleSoft Inference Connectorの機能と実装例",
+        "author": "mmachida",
+        "published_at": "2026-11-06T09:06:18.218000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:16884b74f09bb0bca8320284",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "MuleSoft",
+          "A2A"
+        ],
+        "url": "https://zenn.dev/globalway_blog/articles/599a9386970c97",
+        "title": "MuleSoft × A2A",
+        "author": "mmachida",
+        "published_at": "2026-11-06T09:05:18.911000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3903219749eb8d5df5c07e6e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "MuleSoft",
+          "Model Context Protocol"
+        ],
+        "url": "https://zenn.dev/globalway_blog/articles/2a90475115e146",
+        "title": "MuleSoft × MCP",
+        "author": "mmachida",
+        "published_at": "2026-11-06T09:04:39.479000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ff00a598c8019b0a69ed0f5c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "データ分析",
+          "ChatGPT",
+          "TikTok",
+          "短尺動画"
+        ],
+        "url": "https://zenn.dev/talks_tldr_jp/articles/tldr43-son-prediction",
+        "title": "ホークスのスタメンは ChatGPT に任せるか。孫正義回の予測（#43 投稿前予測）",
+        "author": "管理人K",
+        "published_at": "2026-11-06T09:00:14.190000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c694964efebcd0daf81c678b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Orca",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+        "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+        "author": "しもち",
+        "published_at": "2026-11-06T08:59:24.259000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:46d0e5d29cec2c8cb5c3f71d",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/liora/articles/641dbb3ea1bdd4",
+        "title": "ログをAIで要約するときに元の行へ戻れるようにする",
+        "author": "liora",
+        "published_at": "2026-11-06T08:41:50.575000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d935d5cd50f5be6a1ac22131",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "sakura",
+          "llm"
+        ],
+        "url": "https://zenn.dev/kentaro36/articles/sakura-ai-engine-verification",
+        "title": "Sakura AI Engineを無償プランで検証した：3モデルに同じ3課題を解かせて分かったこと",
+        "author": "SeaOtter (Kentaro Mori)",
+        "published_at": "2026-11-06T08:40:19.343000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:68310cb7018c8b00d416329f",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "情報漏洩",
+          "セキュリティ対策",
+          "社会設計"
+        ],
+        "url": "https://zenn.dev/sayurl/articles/security-economic-rationality",
+        "title": "情報漏洩を「企業の責任」で終わらせても、社会は安全にならない",
+        "author": "Sayurl",
+        "published_at": "2026-11-06T08:37:43+00:00",
+        "excerpt": "2026年の秋、日本では情報漏洩のニュースが連日のように報じられました。カーシェア、コンビニ、外食チェーン、百貨店——業種を問わず、会員情報の流出が連鎖したのです。そのたびに当該企業が謝罪し、「セキュリティ対策が不十分だった」と責任を問われ、世の中は次のニュースへ移っていく。でも、この繰り返しで社会全体のセキュリティが改善している実感は、正直なところありません。 漏洩した企業に責任がない、と言うつもりはありません。ただ、企業を責めることで話を終えてしまうと、本質的な何かを見落とす気がしています。この記事では、その「何か」を考えてみます。 攻撃は、だいたい「既知の穴」から来ている まず..."
+      },
+      {
+        "id": "zenn:045fd60607b05a28f9cb2329",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Twitter",
+          "SNS",
+          "アルゴリズム",
+          "𝕏"
+        ],
+        "url": "https://zenn.dev/one_aria/articles/x-algorithm-2026",
+        "title": "Xのポストが伸びないのは気のせいじゃなかった｜2026年の最新アルゴリズムを公開コードから読んでみた",
+        "author": "ONE",
+        "published_at": "2026-11-06T08:32:07.289000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f30a41b403d87db6acee6d39",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AWS",
+          "Claude",
+          "AI駆動開発",
+          "AI-DLC"
+        ],
+        "url": "https://zenn.dev/canly/articles/5056c5ca674e80",
+        "title": "aidlc-workflowsのbugfixスコープでバグ修正してみた — AIとのやり取りと判断の記録",
+        "author": "mikamik1218",
+        "published_at": "2026-11-06T08:21:09.815000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:04e90bcc3117e9243c6c3003",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Google Cloud",
+          "Security",
+          "個人情報",
+          "Cloud Data Loss Prevention"
+        ],
+        "url": "https://zenn.dev/actbe_tech/articles/d9b796184277e3",
+        "title": "PII検出導入にあたって、DLP の likelihood を深掘りしてみた",
+        "author": "はしもと | ACTBE Inc.",
+        "published_at": "2026-11-06T08:00:06+00:00",
+        "excerpt": "はじめに ACTBE の橋本です！ 生成AI のチャットに入力される名前や電話番号などの PII（Personally Identifiable Information：個人を特定できる情報）を検知する仕組みが、各プラットフォームで提供されています。 今回、業務で Google Cloud の Sensitive Data Protection（Cloud DLP。以下 DLP）を使う機会があり、「どういう仕組みで検出してるんだろう？」と気になりました。 その中心にあるのが、検出のひとつひとつに付く likelihood（可能性）という段階です。この likelihood を深掘りし..."
+      },
+      {
+        "id": "zenn:7c98eb20585bcbf05e855a97",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Nintendo Switch",
+          "Claude",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/uttie_pp/articles/a17a48693884fc",
+        "title": "Building MemoryWeaver: Claude Code Meets Codex via Switch",
+        "author": "uttie_pp",
+        "published_at": "2026-11-06T07:33:28.124000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:295cea4ce91c1316f2f00632",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "llm",
+          "clef",
+          "モデル評価"
+        ],
+        "url": "https://zenn.dev/starai_org/articles/clef-decision-model-scoring-review",
+        "title": "Clef はなぜ「取引先」にだまされるのか",
+        "author": "STAR AIメンバー",
+        "published_at": "2026-11-06T07:18:24.923000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a423bebf9a554ee9a80de4e7",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "OSS",
+          "testing",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/asagiman/articles/arc-native-observer-unknown-20261031",
+        "title": "拒否ログだけで成功にしない。sentinel観測のUNKNOWNを残した検証メモ",
+        "author": "asagiman",
+        "published_at": "2026-11-06T07:18:22+00:00",
+        "excerpt": "English follows in the expandable section below. ファイルへの書き込みを拒否する実行環境を調べるとき、ツールがエラーを返したことと、ファイルが変わらなかったことは別の観測です。ハッシュが前後で一致していても、途中の書き込みと復元は除外できません。そのためファイルと親ディレクトリのイベントも記録し、ハッシュだけでは捉えられない変化を調べます。 ARCの公開native-denial記録は、書込試験用の架空ファイル（sentinel）と、別プロセスの観測器でこの違いを調べた限定試験です。対象はCodex CLI 0.147.0のread-onl..."
+      },
+      {
+        "id": "zenn:8c516b5ef8d626e228783e37",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "チーム開発",
+          "コードレビュー",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/hungld10/articles/6f3ed6b6cf64ee",
+        "title": "チームで Claude Code を使うと壊れる4つのパターンと、それを防ぐ3層構造",
+        "author": "Hung Le",
+        "published_at": "2026-11-06T07:13:53.413000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:95a1316e1890517c6d5dc276",
+        "source": "zenn",
+        "author_tags": [
+          "API",
+          "Web",
+          "Security"
+        ],
+        "url": "https://zenn.dev/sotatek_jp/articles/74050c51af05ec",
+        "title": "Webアプリケーション脆弱性診断の実践ポイント：認証・認可・APIのセキュリティをどう検証するか",
+        "author": "SotaTek Japan",
+        "published_at": "2026-11-06T07:12:28+00:00",
+        "excerpt": "Webアプリケーションの開発では、単体テストや結合テスト、E2Eテストなどを通じて、機能が仕様どおりに動作するかを確認します。 しかし、機能テストがすべて成功していても、セキュリティ上の問題が存在しないとは限りません。 例えば、ログイン済みユーザーが他人のデータを取得できてしまう問題や、APIの権限チェックが不足している問題は、通常の機能テストでは見落とされることがあります。 本記事では、Webアプリケーション脆弱性診断の中でも、開発者が特に意識しておきたい認証・認可・APIセキュリティを中心に、検証の考え方と実装時の注意点を整理します。 ※以下のコードやリクエスト例は説明用です。セキュ..."
+      },
+      {
+        "id": "zenn:8717db5a47716d61b6a978fb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "ChatGPT",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/daphne/articles/ai-review-new-chat",
+        "title": "【ゆるっとAIセキュリティ #2】AIに作ってもらったツール、自分のPCで動かして大丈夫？",
+        "author": "Daphne",
+        "published_at": "2026-11-06T07:00:05+00:00",
+        "excerpt": "前回は、PCではAIのデスクトップアプリを使わず、ブラウザやスマホで使おう、という話をした。 AIの作業は向こうの箱で動くから、自分のPCには届かない。 https://zenn.dev/daphne/articles/ai-chat-is-safe 向こうの箱でも、たいていのことはできる。でも、自分のPCのファイルを相手にする作業は、ちょっと事情が違う。 たとえば、スマホから移した写真。名前が「IMG_1234.jpg」みたいになっていて、どれがいつの写真なのか、名前を見てもわからない。 これを、撮った日付の名前にそろえたい。 向こうの箱でやるなら、写真を渡して、名前を変えてもらって、..."
+      },
+      {
+        "id": "zenn:21ac41b7c48e4c42e1fd66ef",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "llm"
+        ],
+        "url": "https://zenn.dev/tasplay796/articles/cd367ab4ae425f",
+        "title": "スマホを「見えない裏画面」で操作するAI「Mika」とは何か ― できること・できないこと・注意点まとめ",
+        "author": "tasplay796",
+        "published_at": "2026-11-06T06:59:24.848000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:09d31c4f9d04ffb218a7d895",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "CloudFront",
+          "Security",
+          "ALB",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/anfangd/articles/aws-web-ingress-origin-protection",
+        "title": "AWSでWebリクエストを受ける8パターンと「オリジンを裸にしない」設定プラクティス",
+        "author": "anfangd",
+        "published_at": "2026-11-06T06:18:37.764000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:84662b9989925d694e810fe6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "imagegeneration",
+          "imageediting"
+        ],
+        "url": "https://zenn.dev/ideogram45/articles/49c6c8a7c0e157",
+        "title": "Ideogram AI 4.5: precise image refinement",
+        "author": "Ideogram 4.5",
+        "published_at": "2026-11-06T06:09:18.743000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1c566281a34bf0eb81267a50",
+        "source": "zenn",
+        "author_tags": [
+          "MySQL",
+          "PHP",
+          "Security",
+          "CMS"
+        ],
+        "url": "https://zenn.dev/container_cms/articles/mysql-collation-denylist-bypass",
+        "title": "MySQL の照合順序で、設定キーの拒否を「séc_」の1文字ですり抜けられた",
+        "author": "Container（コンテナ）",
+        "published_at": "2026-11-06T05:59:03.115000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d73ab9dd988a2f27ea3e51d6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "法律",
+          "ガバナンス",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/yui10/articles/ai-society-basics-04-international-rules",
+        "title": "AIの国際ルールの基本 ― 各国の規制と国際協調【AIと社会の基本 #4】",
+        "author": "yui10",
+        "published_at": "2026-11-06T05:24:15.759000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:53b8f5bac872ceddb2b73471",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "法律",
+          "ガバナンス",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/yui10/articles/ai-society-basics-03-governance",
+        "title": "AIガバナンスの基本 ― ハードロー・ソフトロー・リスクベース【AIと社会の基本 #3】",
+        "author": "yui10",
+        "published_at": "2026-11-06T05:24:15.146000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:082e17aacbee7b4444d363e5",
         "source": "zenn",
@@ -17863,6 +20697,21 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:7ad1d099804a17a0ac815acb",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub Actions",
+          "Terraform",
+          "Security",
+          "Trivy"
+        ],
+        "url": "https://zenn.dev/4no/articles/e5bfdb2cda5668",
+        "title": "GitHub ActionsとTrivyでTerraformの設定ミスをPR時に検出する",
+        "author": "4no",
+        "published_at": "2026-10-22T12:15:33.377000+00:00",
+        "excerpt": ""
+      },
+      {
         "id": "zenn:982b95501b46cd9cc9976373",
         "source": "zenn",
         "author_tags": [],
@@ -21233,6 +24082,582 @@
     ],
     "qiita": [
       {
+        "id": "qiita:02137cac4aafd69ffa1e2592",
+        "source": "qiita",
+        "author_tags": [
+          "ntfy",
+          "Security",
+          "数学",
+          "確率",
+          "通知"
+        ],
+        "url": "https://qiita.com/sosboy/items/dba5fa20ef4564e44a66",
+        "title": "私は大きな数字が好きだ。だからntfyのトピック名を数えてみた。",
+        "author": "sosboy",
+        "published_at": "2026-11-08T12:48:23+09:00",
+        "excerpt": "～クエタ、不可思議、そしてもらい損ねた腕時計の話～ 第1章：トピック名を当てるのは、どれくらい大変なのか。 私は、外部メールをGmailへ取り込む Gmail Bridge というプログラムを作り、運用している。 新着メールや障害をスマートフォンへ知らせるため、通知サービスの ntfy も使っている。 そのあたりの話は、前回の記事に書いた。 私はGmailが好きだ。だからGmailの代わりにメールを取りに行くことにした。 ところで、ntfyを使うにあたって、ひとつ気になったことがある。 認証やアクセス制御を設定していないトピックでは、トピック名を知っている人が通知を購読できる。 つまり、トピック名がパスワードのようなものだ。 では、十分にランダムなトピック名を使った場合、偶然当てられる確率はどのくらいなのだろうか。 例えば、英大文字・英小文字・数字の62種類から、1文字ずつランダムに選んで20文字のトピック名を作る。 組み合わせは、 62^20 ≒ 7.04 × 10^35 約7.04×10の35乗通りである。 ……いや、数字が大きすぎて、よく分"
+      },
+      {
+        "id": "qiita:c0634a06017117b851b837e4",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/549dc56bbd87fea1d115",
+        "title": "1つのアプリに許可と拒否を組むSafeLineの点検順",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-08T11:51:19+09:00",
+        "excerpt": "単一のアプリケーションに対し、許可と拒否をどう組むかを、設定画面の文言からではなく、通信が届く経路の点検から書き始める。テーマは how to build waf allow and deny rules for one application である。SafeLineは自前で運用するWAFで、nginxを基にしたHTTPおよびHTTPSのリバースプロキシとして動く。インターネットとアプリの間に入り、悪意のある要求を除いてから、安全な通信だけを元のアプリケーションへ渡す。ルールを先に書き足しても、その1本がプロキシを通っていなければ、許可も拒否も試験に現れない。この記事は公式の導入とプロキシの流れを土台に、チェックリストと切り分けの順で確認する。説明の所在は https://docs.waf.chaitin.com/en/home である。 着手前の点検表 ルールの良し悪しを疑う前に、次の項目を上から順に見る。 ホストはLinuxで、アーキテクチャは x86_64 または arm64 である Dockerは20.10.14以降、Docker Co"
+      },
+      {
+        "id": "qiita:1b8797a4a49de4b82c4b837d",
+        "source": "qiita",
+        "author_tags": [
+          "ONVIF",
+          "Python",
+          "IoT",
+          "Network",
+          "Security"
+        ],
+        "url": "https://qiita.com/anguoyang/items/8e255eda78b23fb2103b",
+        "title": "ONVIF Media2の落とし穴：GetConfigurationは「要素名」ではなく「型名」だった",
+        "author": "anguoyang",
+        "published_at": "2026-11-08T10:06:31+09:00",
+        "excerpt": "onvif-scan （LAN内のONVIFカメラを発見し、資産台帳を作る読み取り専用ツール）の v0.2 開発で、私が下した仕様判断が間違っていた話です。面白いのは、間違いそのものより「どうやって止められたか」です。 何を間違えたか Media2 デバイス向けの GetVideoEncoderConfigurationOptions は、対象のエンコーダ設定トークンを引数に取ります。私はリクエストボディを「操作要素の中に GetConfiguration 要素を包み、その中に ConfigurationToken を入れる」形だと決めて、実装側に凍結仕様として渡していました。 その形は存在しません。公式の Media2 WSDL にはこう書かれています。 <xs:element name= \"GetVideoEncoderConfigurationOptions\" type= \"tr2:GetConfiguration\" /> GetConfiguration は操作要素の 型名 です。その型の sequence が Configuration"
+      },
+      {
+        "id": "qiita:15e48af86581cc57513b00f4",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "不正アクセス対策",
+          "セキュリティニュース",
+          "国家サイバー統括室"
+        ],
+        "url": "https://qiita.com/Kerdy/items/42ce06af8845e39a92d5",
+        "title": "11/8、今日のセキュリティニュース｜国家サイバー統括室、事業者向けに不正アクセス対策のポイントをまとめた資料を公開｜欧州7カ国のスーパーにサイバー攻撃、冷蔵庫が50度に上昇 - フランスに続き被害",
+        "author": "Kerdy",
+        "published_at": "2026-11-08T08:32:46+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 準備中 良かったら、高評価とチャネル登録をお願いします🙇 国家サイバー統括室、"
+      },
+      {
+        "id": "qiita:cb9cc32180cb721a8fc105b4",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "エージェント",
+          "Security",
+          "ハードウェア"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/bf8a1dafbe1ef167b64a",
+        "title": "AI日報 2026年11月8日：OpenAIがHacktronと脆弱性調査、Muse Wonder全ユーザー展開、Vera Rubinが推論経済学を塗り替える",
+        "author": "lhjjjk4",
+        "published_at": "2026-11-08T07:08:55+09:00",
+        "excerpt": "11月7日のAI業界は、派手さより「既存能力の日常化」がテーマの一日になった。OpenAIは外部セキュリティ企業を自社システムの攻撃側に招き、画像生成モデルは全プラットフォームで更新、Metaはフラッグシップエージェントの記憶能力を全ユーザーへ展開、Microsoftはエージェント生態系にパッケージマネージャーを補い、NVIDIAはメモリのスケジューリングで推論コストの計算式を書き換えた。公式ソースを起点に7本を整理する。 1. OpenAIがHacktronと提携：外部レッドチームを自社システムに招く OpenAIは11月7日、セキュリティ企業Hacktronとの提携を発表し、OpenAI自身のシステムから脆弱性を探してもらうと明らかにした。焦点はシステムがサードパーティサービスと連携する部分で、双方のエンジニアが優先度の高い領域を共同で選定する。HacktronはDaybreak Redプログラムを通じてフロンティアモデルへの高いアクセス権も得た。「フロンティアAIでサイバー防御を加速すると同時に、自社システムの脆弱性発見と修正にも同じ緊急度"
+      },
+      {
+        "id": "qiita:1f57fad3b963c9c283392ba9",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "curl",
+          "Security",
+          "Bash",
+          "AI"
+        ],
+        "url": "https://qiita.com/supportapp3/items/cd1f04df4b681507e3e1",
+        "title": "API キーをコマンド引数に書くと別ユーザーの ps から丸見え：curl -H は隠れず -u だけ隠れる（実機確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-08T05:12:25+09:00",
+        "excerpt": "結論 API キーを コマンドの引数に直接書くと、同じマシンの別ユーザーからも ps で丸見え になります（2026-11-08、Debian 13・procps-ng 4.0.4・ダミー値で実機確認）。 curl -H \"Authorization: Bearer ...\" も --api-key=... も、そのまま出ました。 一方、 環境変数に入れた値は、別ユーザーからは /proc/PID/environ が Permission denied で読めませんでした （同じユーザーなら読めます）。 curl -u user:pass は ps 上で ***** に隠されました。ただし curl 公式マニュアルは「隠れるまでの一瞬は見える」と書いています。 -H は隠されません 。 curl -H @ファイル にすると、 ps に出るのはファイル名だけでした。 この記事は「AIエージェントと秘密情報」の検証シリーズです。新しい検証は X（ @supportapp3_lab ）でもお知らせしています。 試してみる（鍵を引数に書いていないか） い"
+      },
+      {
+        "id": "qiita:4e4ab181e6725cc0adabd352",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "Security",
+          "ガバナンス",
+          "LLM"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/9570fa3175f1eebbe0b2",
+        "title": "AIの進化を止めるべきなのか——開発競争、安全性、規制の間でIT技術者が考えるべきこと",
+        "author": "mhamadajp",
+        "published_at": "2026-11-08T04:49:04+09:00",
+        "excerpt": "設計レビューで「導入を止めるべきか」と聞かれたとき たとえば、社内の問い合わせ対応にAIエージェントを導入する設計レビューです。文書を検索し、回答の下書きを作るところまでは、参加者が同意しやすいです。意見が分かれるのは、その先です。データベースの更新、顧客へのメール送信、外部への発注まで、同じエージェントに任せるかどうか。 ここに、開発企業のニュースが重なります。経営者が、能力を上げる速度を見直すべきだと話している時期だと、レビューの意見は次のように強くなります。 「危険なら、導入そのものを止めた方がよいのではないか」 世界の開発を止める判断と、自社のシステムで許す操作は、決める人が違います。 国や企業のあいだで開発を止めるかは、政府と開発企業の話です。今作っているシステムで、検索、更新、送信のどれを許すかは、導入するチームが決めます。結論として書くのは、このチームの判断です。 そこに至る順番は、次のとおりです。まず、開発企業の提案が停止なのか、速度の調整なのかを確認します。次に、速度を落とす側が挙げている技術的な理由を3つに分けます。そのあと、"
+      },
+      {
+        "id": "qiita:dbe6c4bc20faee5bebb54c3b",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/a31fae7213ee3887fe9f",
+        "title": "2026/11/8主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-08T04:27:04+09:00",
+        "excerpt": "不正アクセス対策の切り札に？ OpenAIが「GPT-6 Cyber」発表 脆弱性の発見力が向上(11/6) https://japan.cnet.com/article/35254465/ ハルメクホールディングス、不正アクセス調査終了 個人情報の外部流出は確認されず(11/6) https://online.bci.co.jp/article/detail/6264 採用応募者の名前など漏えいの可能性 両毛システムズ（群馬・桐生市）(11/5) https://www.jomo-news.co.jp/articles/-/1058522 県の就活支援サイトで顔写真や住所など誤って公開 6年間閲覧可能な状態に 委託先の業者が設定ミス(11/6) https://news.yahoo.co.jp/articles/6ef6d1405ef9499328d0a427bf6bf189d008e4fd 不正アクセスでノジマの会員情報約700万件が流出 カード情報は対象外、2サイトを一時休止(11/6) https://novaist.jp/article"
+      },
+      {
+        "id": "qiita:66136fb1fcfeab8331ff265e",
+        "source": "qiita",
+        "author_tags": [
+          "React",
+          "reactnative",
+          "Markdown",
+          "LLM",
+          "Security"
+        ],
+        "url": "https://qiita.com/mickey-ichi/items/ce8776d4195518c43721",
+        "title": "LLMの回答を安全に表示する — React / React Native 向け Markdown レンダラー「react-llm-markdown」を作った",
+        "author": "mickey-ichi",
+        "published_at": "2026-11-08T01:42:15+09:00",
+        "excerpt": "チャット UI で LLM の回答を Markdown として表示するとき、その文字列は 信頼できない入力 です。プロンプトインジェクションを受けたモデルは、スクリプトを仕込んだ HTML、 javascript: リンク、外部に情報を送る画像、細工した Mermaid の図やグラフ設定を返すことができます。しかも回答はストリーミングで、書きかけの状態で届きます。 そこで、Web と React Native の両方で使える Markdown レンダラー react-llm-markdown を作りました（MIT ライセンス）。 GitHub: https://github.com/mickey-ichi/react-llm-markdown npm: https://www.npmjs.com/package/react-llm-markdown Playground・ドキュメント（日本語あり）: https://mickey-ichi.github.io/react-llm-markdown/ja/ できること リッチなブロック ：GFM の"
+      },
+      {
+        "id": "qiita:dfaa025cbbae6c9fb6f373a4",
+        "source": "qiita",
+        "author_tags": [
+          "Firebase",
+          "FirebaseFirestore",
+          "KotlinMultiplatform",
+          "Security",
+          "LLM"
+        ],
+        "url": "https://qiita.com/iskandar/items/6d3226fc67bce57b127a",
+        "title": "ローカルLLMにFirestoreルールを読ませたら、穴を見つけたのは結局手書きのプローブだった",
+        "author": "iskandar",
+        "published_at": "2026-11-07T19:21:46+09:00",
+        "excerpt": "はじめに 自作アプリのFirestoreセキュリティルールを、手元のUbuntuノートPCで動くローカルLLM(qwen3.5:9b)に読ませました。返ってきた指摘が本当に穴なのかは、Firebaseエミュレータで一件ずつ試して確かめています。 先に結果を書きます。 実ルールに残っていた穴は3件で、見つけたのは自分で書いたプローブでした。管理者ロールだけが通れる経路の話です 実ルールに対するLLMの指摘は延べ273件で、穴だと裏付けられたものは0件でした 「58件中7件が裏付けられた」という数字もあります。ただしこれは、わざと穴を開けた改変ルールでの結果です。7件の中身を見直すと、改変した箇所に触れていた指摘は1件だけでした LLMが使えないと言いたいわけではありません。9Bの量子化モデルに、思考オフでブロック単位に読ませたという、かなり狭い条件での記録です。 LLMの指摘をどう確かめるか ルールを読ませると、IDOR、権限昇格、入力検証の不足と、それらしい指摘がすぐ返ってきます。読めばどれも一理ある。ただ、本当に穴かどうかはルールを動かすまで分"
+      },
+      {
+        "id": "qiita:d59055e11dd1b27baabc10e1",
+        "source": "qiita",
+        "author_tags": [
+          "Git",
+          "GitHub",
+          "gitleaks",
+          "Security",
+          "個人開発"
+        ],
+        "url": "https://qiita.com/macchi23/items/04632684f9e242e86967",
+        "title": "`.gitignore` では履歴から消えない ― リポジトリを履歴ごと public にする前と後にやった 7 つのこと ― 架空サカスタのチケットサイトで学ぶ（番外 2）",
+        "author": "macchi23",
+        "published_at": "2026-11-07T17:37:14+09:00",
+        "excerpt": ".gitignore では履歴から消えない ― リポジトリを履歴ごと public にする前と後にやった 7 つのこと ― 架空サカスタのチケットサイトで学ぶ（番外 2） はじめに 架空のサッカースタジアム「ペヌソニックスタジアム（通称ペヌスタ）」のチケット販売サイトを、遊び場として作っています。 ゴール裏年パス勢が、架空スタジアムのチケットサイトを作る理由 ― 架空サカスタのチケットサイトで学ぶ（0） https://qiita.com/macchi23/items/5b9f5670c841f5c41be8 このリポジトリは 2026-10-14 に GitHub で public にしました。公開した時点のコミットは 88 件、今は 134 件です（2026-11-07 時点）。 ポートフォリオとして出したかったからです。仕事で書いたコードは外に出せないので、自分の手で作ったものを見せる場所がほしかった。 新しいリポジトリに最新の状態を 1 コミットで出す手もありましたが、履歴ごと出すことにしました。 1 ステップずつのコミットと、運用の台帳"
+      },
+      {
+        "id": "qiita:bae12e0c2e4a7e93a3e916ab",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "honeypot",
+          "Claude",
+          "Security",
+          "Terraform"
+        ],
+        "url": "https://qiita.com/shinji_bank/items/ee7066e0e56db6b7d940",
+        "title": "48時間のハニーポッド稼働とAWSログの観測",
+        "author": "shinji_bank",
+        "published_at": "2026-11-07T17:05:27+09:00",
+        "excerpt": "はじめに AWS 上にわざと狙われるだけの Web サーバー（ハニーポット）を48時間だけ置いて、どんなアクセスが来るのかを観測しました。 ただ、今回の一番の目的は AWS のログがどこに出て、どう流れて、どう読めばいいのかに慣れること です。筆者自身知識としてあるもののWAF や GuardDuty を「有効にしたけど中身はちゃんと見たことがない」と感じていたので実施しました。 以下まとめです。 URL はどこにも公開していないのに開始から 12分 で最初のスキャンが来た。 48時間で WAF が受けたリクエストは 480件 、nginx まで届いたのは 425件 WAF が止めたのは「User-Agent」か「path」で分かる雑なスキャンだけ。 phpMyAdmin を5分で128通り探したアクセスは素通りでした。 GuardDuty の Finding は 0件 。構成上仕方ない部分がある。 費用はざっくり 400〜500円 くらい また、今回のログの細かい分析は Claude に手伝ってもらっています。 条件と構成 項目 内容 期間 2"
+      },
+      {
+        "id": "qiita:0d715fc46e5bb0c7336acf61",
+        "source": "qiita",
+        "author_tags": [
+          "LLM",
+          "Security",
+          "AIエージェント",
+          "生成AI",
+          "Python"
+        ],
+        "url": "https://qiita.com/shalXXXX/items/412e6e134a3f55dcca5c",
+        "title": "Unbounded Consumption 対策：AI エージェントにステップ数・トークン・費用の上限を付け、呼ぶ前に止める",
+        "author": "shalXXXX",
+        "published_at": "2026-11-07T17:00:42+09:00",
+        "excerpt": "エージェントは 1 回の依頼で、モデルを何度も呼び、ツールを何度も実行します。ループに入る、検索を何十回も繰り返す、推論モデルが長く考え込む。どれも 1 回の API 呼び出しを見ているだけでは異常に見えませんが、積み上がると費用・外部 API の利用枠・処理時間を使い切ります。 この記事では、エージェントの 1 実行と利用者ごとに上限を付けるガードを Python で書き、ループ・大量のツール呼び出し・推論の長期化・巨大なツール結果・時間切れ・同じ利用者の繰り返しで、どの上限がどこで止めるかを確かめます。主要なエージェント用 SDK に既定で入っている上限の値も、インストールしたソースで確認します。 Unbounded Consumption は 2026 年版で 6 位に上がった OWASP Top 10 for LLM Applications の 2026 年版では、Unbounded Consumption が LLM06 になり、2025 年版の 10 位から 4 つ上がりました。Cloud Security Alliance に転載"
+      },
+      {
+        "id": "qiita:96b73eac43d0e19084b3478c",
+        "source": "qiita",
+        "author_tags": [
+          "脆弱性用語",
+          "IT用語",
+          "Security"
+        ],
+        "url": "https://qiita.com/maestro_shin1/items/6f9ac1487ec3c81eb73e",
+        "title": "ごちゃ混ぜになりがちな脆弱性管理用語をスッキリ整理する（CVE / CWE / CPE / CVSS / EPSS / KEV）",
+        "author": "maestro_shin1",
+        "published_at": "2026-11-07T13:23:37+09:00",
+        "excerpt": "はじめに 情報処理安全確保支援士（登録セキスペ）の勉強を進めていると、必ずぶつかる壁があります。 「似たようなアルファベット3文字・4文字の用語が多すぎて、どれが何だかごちゃ混ぜになる」 問題です。 「CVEとCWEってどっちが識別番号で、どっちが欠陥分類だっけ？」 「CVSSの最新バージョンっていくつ？」 「KEVとEPSSって何が違うの？」 これらは午前問題の知識問題だけでなく、午後問題（記述式）の穴埋めや「どのような基準でパッチ適用優先度を判断すべきか」という設問でも超頻出です。 今回は、これら脆弱性管理の標準化用語・エコシステムを、 「役割の対比」「実務パイプライン」「一問一答」 の3つの切り口で一気に整理しました。直前対策や実務の振り返り用チートシートとしてご活用ください。 1. 脆弱性管理用語の完全対比表 まずは全体像です。試験で問われる「担う役割」「主管組織」を対比させて頭に入れましょう。 略称 正式名称 主管組織 担う問い 役割・本質（試験の記述ポイント） CVE Common Vulnerabilities and Exposu"
+      },
+      {
+        "id": "qiita:d66a3c8ab8207c88093493d6",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "FastAPI",
+          "Redis",
+          "Security",
+          "Webhook"
+        ],
+        "url": "https://qiita.com/TOAI/items/517cedd36ec73bc878df",
+        "title": "外部Webhookの不正リクエストを防ぐ署名検証とリトライ制御",
+        "author": "TOAI",
+        "published_at": "2026-11-07T13:08:16+09:00",
+        "excerpt": "外部Webhook受信におけるHMAC署名検証と分散冪等性制御の完全実装ガイド 外部SaaSや決済ゲートウェイ（Stripe, GitHub, Svix等）からのWebhook通知を受信するエンドポイントは、インターネットに広く露出されるパブリックな窓口です。そのため、適切な保護が施されていない場合、以下のリスクに直面します。 なりすましリクエスト : 攻撃者がエンドポイントに対して偽の決済完了やデータ更新イベントを直接POST送信する。 リプレイ攻撃（再送攻撃） : 中間者が正常なリクエストを盗聴・捕捉し、同一ペイロードを再送して二重処理を誘発する。 タイミング攻撃 : 文字列比較の実行時間差から署名ハッシュの正解値を推測される。 ネットワーク障害に伴う多重受信 : 送信元の指数バックオフレトライや一時的ネットワーク断により、同一イベントが短時間または数分後に重複到達する。 本稿では、HMAC-SHA256署名検証、タイムスタンプによる鮮度検証（リプレイ耐性）、およびRedisの分散ロック/原子的トランザクションを活用した冪等性担保のアーキテク"
+      },
+      {
+        "id": "qiita:a921723b78b51f9987979e55",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "ot",
+          "Shodan",
+          "インシデント対応"
+        ],
+        "url": "https://qiita.com/01rabbit/items/843e3fb563a74cd1a9d9",
+        "title": "冷蔵庫がサイバー攻撃された件に続きがあったので調べてみた",
+        "author": "01rabbit",
+        "published_at": "2026-11-07T12:35:50+09:00",
+        "excerpt": "作成日: 2026-11-07（JST） 対象期間: 2026-11-03 〜 2026-11-07（前報の対象期間 〜11/04 以降を中心に、前報で未確認だった事項の再確認を含む） 前報: 「冷蔵庫がサイバー攻撃されたらしいので、調べてみた」 （2026-11-05） 計測スクリプト: ColdChain-Exposure-Watch （GitHub、MIT License） 読み方: 前報と同じく、一次・二次資料で確認した事実、資料に基づく推定、筆者の分析を区別する。「（推測です）」は根拠が限定的な仮説を示す。 1. 要約 前報は欧州の事案を中心にまとめた。その後、11月4日にEUが共同声明を、11月5日に米国の5機関（CISA・FBI・HHS・USDA・DoT）が共同ファクトシートを公表し、警告は大西洋の両側に広がった。英国でも食肉加工・青果卸の被害が確認され、第2波の影響国は11か国以上になった。 米当局の警告は、欧州側の公的文書より一歩踏み込んでいる。想定される侵入経路として認証バイパス・コード注入・脆弱な設定を列挙し、温度が「見えな"
+      },
+      {
+        "id": "qiita:3afc50f860f2189ade4e1a55",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/0d3ae9843c66a98a28de",
+        "title": "SafeLine WAFの管理コンソールをリバースプロキシ配下に置く手順チェックリストとトラブルシューティング",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-07T11:50:31+09:00",
+        "excerpt": "SafeLineは自己ホスト型のWAFで、保護したいサイトの前にリバースプロキシとして配置し、クライアントがオリジンサーバーへ届く前のHTTPトラフィックを監視・フィルタリングします。管理コンソールは、保護対象サイトへの入口と同じ扉ではありません。公式ドキュメント（ https://docs.waf.chaitin.com/en/home）のデプロイガイドでは、Web UIは https://:9443/ で開くと説明されています。 本記事では、この管理コンソールをさらに別のリバースプロキシの背後に公開する構成を、チェックリストとトラブルシューティングの視点で整理します。公開サイト用のトラフィック経路とコンソール用の経路を混同しないことが最も重要です。 前提のチェックリスト ホストはデプロイガイドの要件を満たしているか。Linux、x86_64またはarm64、Docker 20.10.14以上、Docker Compose 2.0.0以上。 CPUはssse3対応で、最低1コア・1GBメモリ・5GBディスク。 ARM環境はProライセンスが必要"
+      },
+      {
+        "id": "qiita:0feadb6a346cb8da56ff62d7",
+        "source": "qiita",
+        "author_tags": [
+          "サイバーレジリエンス",
+          "Security",
+          "インシデントレスポンス",
+          "MITREATTCK",
+          "NISTCSF"
+        ],
+        "url": "https://qiita.com/yasu1109/items/5978467ed4f597efc2bd",
+        "title": "ファイアウォールやウイルス対策は入れているが、侵入されたあとにどう動き、どう復旧するかを決められていない担当者へ。サイバーレジリエンスの考え方を体系で整理できる一冊",
+        "author": "yasu1109",
+        "published_at": "2026-11-07T10:29:30+09:00",
+        "excerpt": "ファイアウォールもウイルス対策も入れてある。それでも、もし侵入されたらどう動くのか、どこまでに復旧するのかと聞かれると、はっきりした答えがない、という組織は少なくない。防御を固める話と、被害を受けたあとに事業を続ける話は別で、後者を決めていないと、事故が起きてから慌てることになる。『サイバーレジリエンスの教科書』は、脅威を予測し、耐え、復旧し、そこから適応していくという考え方を、定義から実践まで体系的にまとめた本だ。 「防ぐ」だけでなく、侵害を前提に考える 序盤の章では、レジリエンスとは何か、サイバーセキュリティとどう違うのかを整理している。どれだけ防御を固めても脅威を完全には排除できない、という前提に立つ。そのうえで、機能を保ち、素早く復旧し、経験から学ぶという考え方を土台にする。セキュリティ対策の説明がしづらかった人にとって、考え方を整える入口になる。 法規制やフレームワークとのつながりが見える 第3章は関連する規制と法で、EUのサイバーレジリエンス法や、英国、米国の動向を取り上げる。第4章では、Well-Architected Framew"
+      },
+      {
+        "id": "qiita:86922820c4c61555b5790a9f",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "TypeScript",
+          "React",
+          "Express",
+          "owasp"
+        ],
+        "url": "https://qiita.com/thithi7110/items/8fdfb38f4659b5c59c94",
+        "title": "脆弱性について学ぶためのやられアプリのTS版を作ってみた",
+        "author": "thithi7110",
+        "published_at": "2026-11-07T09:14:52+09:00",
+        "excerpt": "わざと脆弱にしてあるアプリです。動かすのは自分のPCのlocalhostだけにして、公開サーバには置かないでください。他人のサービスに同じことを試すのも当然NGです。 なんで作ったか 順当に最近の脆弱性突かれた攻撃に対して少しでも知見を深めるというのが大きいです。 あと、脆弱性の勉強って、本を読んで「なるほど」と思っても、自分で手を動かさないとすぐ忘れるんですよね。 SQLインジェクションも、 ' OR '1'='1 を自分で打ち込んで全件出てきたときに初めて「あ、こういうことか」となった記憶があります。 練習用のやられアプリとしては徳丸浩さんのPHP製BadTodoが有名ですが、普段の仕事はTypeScript + Reactが多いので、教育用も兼ねて同じような構成で触れるものがほしくなりました。 JWTとかCORSとか、SPAだからこそ踏みやすい穴もあるので。 というわけで、BadTodoを参考にTypeScriptで作り直したのがこれです。 中身 ただのToDoアプリです。ログインして、タスクを作って、コメントして、ファイルを添付して、管理"
+      },
+      {
+        "id": "qiita:e8c854f9f1e613f8d3740f16",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Tomcat",
+          "Security",
+          "SpringBoot",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/Nekorock/items/8f38751bd7ac6a5666cf",
+        "title": "Tomcat 10月の Important 3件は既定の設定なら当たらない。使っているかの判定方法",
+        "author": "Nekorock",
+        "published_at": "2026-11-07T08:31:24+09:00",
+        "excerpt": "2026 年 10 月 12 日に出た Apache Tomcat 11.0.27・10.1.61・9.0.123 で、深刻度 Important の脆弱性が 3 件直りました。レスポンスが別の人のものと混ざるもの 2 件と、パスワードなしで認証が通るもの 1 件です。 どれも、特定の機能を自分で有効にしている場合だけ当たります。この記事では、修正前の配布物（11.0.26・10.1.60・9.0.122）を公式アーカイブから落として、既定の server.xml で各機能が有効になっているかを確かめました。確認したのは 2026 年 11 月 7 日です。 結論 Tomcat を入れたままの設定なら、3 件とも当たりません。 既定の server.xml では AJP と HTTP/2 はコメントアウトされていて、JNDIRealm の設定もありません 当たるのは、AJP コネクタを有効にしている（Apache httpd と AJP でつないでいる）、HTTP/2 を有効にして非同期サーブレットを使っている、LDAP 認証に JNDIReal"
+      },
+      {
+        "id": "qiita:345e29c6aa04870b130ccc3b",
+        "source": "qiita",
+        "author_tags": [
+          "KVM",
+          "Firecracker",
+          "Linux",
+          "Security"
+        ],
+        "url": "https://qiita.com/homhom44/items/69e271c549b7c6bea1a4",
+        "title": "PwnEscapeが突き刺したのはハイパーバイザーではなくLinuxカーネルだった",
+        "author": "homhom44",
+        "published_at": "2026-11-07T08:03:32+09:00",
+        "excerpt": "仮に「VMは安全だ」と思っていたとしても、境界はそこで終わらない 画像: vercel.com より マイクロVMは、コンテナより一段深い隔離を与えるための仕組みだ。Firecracker の公式説明でも、KVM を使って軽量な仮想マシンを立て、不要なデバイスを削って攻撃面を小さくする思想が前面に出ている。Replit も自社の新しいサンドボックス基盤を microVM に寄せ、各サンドボックスを別カーネルにした理由をそこで説明している。 ただし、ここで安心しすぎると見落としがある。仮想マシンの外側にいるホストは、まだ一枚岩ではない。ゲストのパケット処理、仮想ネットワーク、メモリの持ち方、そしてホスト Linux のネットワークスタックがつながっている以上、「VM だからホストには触れない」は、設計の願望ではあっても証明ではない。今回の研究は、その隙間を正面から突いた。 Vercel の $1M Sandbox challenge では、2週間で 1,285 件の報告が集まり、そのうち最重要だったのが Linux カーネルの zero-day だ"
+      },
+      {
+        "id": "qiita:ab4f3d9df3f8874d3b1718ed",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "情報漏えい",
+          "セキュリティニュース",
+          "NTTドコモ"
+        ],
+        "url": "https://qiita.com/Kerdy/items/9cfc30b95c4c2ac576c0",
+        "title": "11/7、今日のセキュリティニュース｜「ドコモオンラインショップ」と「My docomo」で個人情報が流出｜JC-STARとEUサイバーレジリエンス法（CRA）の制度比較を本格化するため覚書署名、経産",
+        "author": "Kerdy",
+        "published_at": "2026-11-07T08:03:23+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 良かったら、高評価とチャネル登録をお願いします🙇 「ドコモオンラインショップ」"
+      },
+      {
+        "id": "qiita:3451aae00ebb8ea914592a21",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "ロボット",
+          "ビジネス",
+          "Security"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/d801d378bcdee979ac8c",
+        "title": "AI日報 2026年11月7日：AIが旧式RSAの弱点を突く、Gemini Omniが長尺対応、初の人型ロボットIPO",
+        "author": "lhjjjk4",
+        "published_at": "2026-11-07T07:10:14+09:00",
+        "excerpt": "11月6日のAI業界は、暗号技術を揺るがす研究発表、動画生成モデルの大型更新、金融機能を備えたアシスタント、来週にも公開予定の巨大MoEモデル、常駐型ワークエージェント、ロボットの推論を高速化する技術、そして人型ロボット企業の上場と、話題の幅が極めて広い一日になった。公式ソースを起点に7本を整理する。 1. DeepMind：AIエージェントが旧式1024ビットRSAの弱点を2件発見 Google DeepMindは11月6日、人間の暗号解読専門家がガイドしたAIモデルが、旧式の1024ビットRSA暗号システムから2つの重大な弱点を数週間で発見したと発表した。1つ目は旧型のデジタル署名保護を回避する研究方向、2つ目は1024ビットRSA鍵の大量分解である。発表で引用された研究者によれば、署名偽造は約1,600倍効率化し、大量バッチ処理での追加鍵分解コストは約30分の1に下がるという。 科学担当VPのPushmeet Kohliは、この結果がRSA 2048など現代の暗号方式には影響しないと明確に線を引いた。影響を受けた実運用システムは名指しされて"
+      },
+      {
+        "id": "qiita:d4c11f1fd2546e6d530b3c56",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Security",
+          "品質保証",
+          "アクセス制御",
+          "ゼロトラスト"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/98646d9653dcd2ffcb7e",
+        "title": "AIエージェントは制御不能になるのか",
+        "author": "mhamadajp",
+        "published_at": "2026-11-07T06:37:04+09:00",
+        "excerpt": "起きたのは、試験で点数を取るための行動です 2026年10月30日、DeepLearning.AIの Dawn of the Agents は、評価中のAIエージェントが、人の操作なしに増え、止まらなくなるのか、と問いました。春以降、Anthropic、Google、Meta、OpenAIの試験で、開発者が想定していない行動があった、というまとめです。例として、読み取りだけを許可したウェブサイトへの書き込みや、他人のテスト用暗号資産の使用が挙がっています。これらの事例は、同記事のまとめとして触れるだけにします。1件ずつの一次資料までは確認していません。 この問いが現場の話になるのは、生成AIの問題が、誤った回答だけでは済まなくなったからです。これまで中心だったのは、誤った回答、機密情報の漏えい、著作権です。AIエージェントは、それに加えて、意図しない操作を実行できます。今回は、その操作が試験環境で実際の被害になりました。 確認したのは、2026年7月のOpenAIとHugging Faceの公表です。そこで起きていたのは、試験の点数を取るために、"
+      },
+      {
+        "id": "qiita:f345f3fb49953c29d1e94800",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Claude",
+          "Anthropic",
+          "トラブルシューティング",
+          "Security"
+        ],
+        "url": "https://qiita.com/homhom44/items/df5f5ed2ceed27cf43d8",
+        "title": "Claude Code で \"can't help with this. Start a new session to continue\" / \"appears to violate our Usage Policy\" が出たときの戻し方（正当な作業での誤検知にも）",
+        "author": "homhom44",
+        "published_at": "2026-11-07T06:33:34+09:00",
+        "excerpt": "Claude Code で普通の作業をしていたのに Claude can't help with this. Start a new session to continue. や appears to violate our Usage Policy と返ってきて、何を送っても同じ表示になるときの手順です。基本は「Esc を 2 回押して(または /rewind )引き金になった手前まで戻り、言い換える」で、特定できなければ /clear で新しい会話にします。 確認環境は Claude Code 2.1.319、macOS 26.6.2、2026-11-07 です。 症状 現行版の文言は次の形です。モデル名が入る場合と、 Claude になる場合があります。 API Error: Opus 4.6 can't help with this. Start a new session to continue. Send feedback with /feedback or learn more: https://www.anthropic.com/"
+      },
+      {
+        "id": "qiita:199b225dda1cf1b06b92282a",
+        "source": "qiita",
+        "author_tags": [
+          "Bash",
+          "ShellScript",
+          "Security",
+          "ENV",
+          "AI"
+        ],
+        "url": "https://qiita.com/supportapp3/items/97fbd1948c786de4f5ef",
+        "title": "set -a; source .env すると子プロセスにも API キーが渡る：source だけでは渡らない（実機確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-07T05:12:09+09:00",
+        "excerpt": "結論 .env をそのまま source しただけでは、シェル変数には入っても export されない ので、子プロセス（別の bash や Python）からは見えません（2026-11-07、bash 5.2.37・ダミー値で実機確認）。 よく紹介される set -a; source .env; set +a を使うと、代入した変数がすべて export 扱いになり、子プロセスにも API キーや DB パスワードが渡ります 。 .env の各行に最初から export を書いてある場合も、 set -a なしで同じように子へ渡ります。 AIエージェントに「 .env を読んでコマンドを実行して」と頼むと、 set -a 付きの source が使われることがあります（推測。今回はエージェント経由では試していません）。スクリプトに残っていないかは、下の1行で探せます。 この記事は「AIエージェントと秘密情報」の検証シリーズです。新しい検証は X（ @supportapp3_lab ）でもお知らせしています。 試してみる（set -a や so"
+      },
+      {
+        "id": "qiita:869529c2a7002b79b26f5ef3",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/e9335dd9b7d699ae7b70",
+        "title": "2026/11/7主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-07T04:22:54+09:00",
+        "excerpt": "Apple製品の脆弱性悪用を確認 - 米当局が注意喚起(11/5) https://www.security-next.com/192378 データ連携プラットフォーム AirbyteにCVSS 9.9の重大脆弱性、実際のサイバー攻撃で悪用確認 旧環境では認証不要でコード実行の恐れ(11/5) https://rocket-boys.co.jp/security-measures-lab/airbyte_jvn12040144_rce_exploited_20261105/ CVE-2026-111357 と CVE-2026-118527：Ivanti のゼロデイが野外で悪用される(11/4) https://socprime.com/ja/active-threats/cve-2026-111357-and-cve-2026-118527-ivanti-zero-days-exploited-in-the-wild/ OceanLotus－金融分野を標的とするサプライチェーン攻撃(11/5) https://kpmg.com/jp/ja/in"
+      },
+      {
+        "id": "qiita:acc6f5574fd0c07c54cb7a25",
+        "source": "qiita",
+        "author_tags": [
+          "LLM",
+          "生成AI",
+          "Security",
+          "llama.cpp",
+          "Nmap"
+        ],
+        "url": "https://qiita.com/tacho-hmm/items/075c6beeee93eca2e450",
+        "title": "Cyber-Tiel-Coder（セキュリティ特化・uncensored）は調査の方向は鋭いのに、CVEを自信満々に捏造した——通常版Qwen 35B・abliterated 9Bと並べて3テストで検証",
+        "author": "tacho-hmm",
+        "published_at": "2026-11-07T00:43:27+09:00",
+        "excerpt": "この記事の立場 ：本記事は、Cyber-Tiel-Coder 35B-A3Bのセキュリティ分析能力と、脆弱性情報に関する事実性を、実際の出力と一次情報の照合によって検証した記録です。 自分のPC上のDocker環境でローカルLLMを動かし、その回答を見比べました。 モデルの出力はそのまま載せ、合っているかどうかは一次情報で確かめています。 前作（ VRAM 8GBのノートPCで35B（MoE）をDockerで動かす ）で「動かす」まで書いたので、今回は「で、その答え信用していいの？」の続きです。 0. 要点 Cyber-Tiel-Coder とは ：Qwen系のMoE（35B-A3B）をベースにした、セキュリティ／コード特化の uncensored （拒否を外した）ローカルLLMです。前作の環境（VRAM 8GB＋Docker）でそのまま動きます。 今回並べた3モデル ： uncensored ×2 Qwen 9B abliterated （小型。拒否を外したもの） Cyber-Tiel-Coder 35B-A3B （主役） 通常版 ×1 Qwe"
+      },
+      {
+        "id": "qiita:9e528c0d41370a9c6024d93e",
+        "source": "qiita",
+        "author_tags": [
+          "BurpSuite",
+          "Security",
+          "owasp",
+          "Juiceshop",
+          "初心者"
+        ],
+        "url": "https://qiita.com/Tivo0921/items/32a88f271ffafe43d6d2",
+        "title": "Burp Suite の Repeater 入門 ― 手元の Juice Shop で「書き換えて再送」を3回やってみる",
+        "author": "Tivo0921",
+        "published_at": "2026-11-07T00:19:18+09:00",
+        "excerpt": "この記事が言いたいこと Burp Suite の Repeater は、「ブラウザが送った HTTP 要求を手で書き換えて、何度でも送り直す」ための機能です。Web アプリの脆弱性検証では、ほとんどの作業がこの繰り返しです。 練習用の脆弱な Web アプリ OWASP Juice Shop を手元で起動し、次の3つを Repeater だけで再現しました。 ログイン要求を書き換えて再送する（基本操作） SQL インジェクションで管理者としてログインする ID を書き換えて他人の買い物かごを見る（IDOR） Mac で試すと、 Burp に通信が記録されない ことでつまずきやすいです。原因は「Chromium が localhost をプロキシに通さないこと」と「別のプログラムが同じポートを使っていたこと」でした。確認方法と対処を後半にまとめます。 ⚠️ ここで紹介する操作は、自分で起動した練習用アプリ、または検証の許可を得た対象にだけ行ってください。許可のないシステムに行うと、不正アクセス禁止法に触れるおそれがあります。 環境 項目 内容 OS "
+      },
+      {
+        "id": "qiita:4521844c4d06006b6b8e2fda",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "OpenSSH",
+          "alpine",
+          "musl"
+        ],
+        "url": "https://qiita.com/kenimo49/items/a4d1b0a90cb2ec9d0cf2",
+        "title": "パスワードを257文字打つだけでroot権限まで。*sshole、なんで？",
+        "author": "kenimo49",
+        "published_at": "2026-11-06T21:38:35+09:00",
+        "excerpt": "ポケモン金銀で、ボックスを切り替えるレポートの最中に電源を切ると、預けたはずのポケモンが手元にも残る。子どものころ、あれで増やした人は多いと思います。 ボックスに書き込む処理も、手持ちから消す処理も、単体ではどこも壊れていません。壊れていたのは処理と処理の「継ぎ目」でした。 2026年11月、これとよく似た形のバグが OpenSSH で見つかりました。名前は *sshole。「256文字を超えるパスワードを打つと、ログインできないはずのアカウントに入れてしまう」というものです。X では「Linuxに致命的な脆弱性」という見出しで回っていました。 Linuxに致命的な脆弱性 パスワードに適当な256文字を打つとroot権限が奪えてしまうバグ見つかる musl系で約10年潜伏していました。 — ツイッター速報〜BreakingNews (@tweetsoku1) November 6, 2026 最初に聞きたくなるのは「なんでこんなバグが？」だと思います。 先に安心材料：すべての Linux の話ではありません 見出しだけ読むと Linux 全体が危"
+      },
+      {
+        "id": "qiita:f09221b61ad6221c08fa5093",
+        "source": "qiita",
+        "author_tags": [
+          "geo",
+          "LLMO",
+          "AEO",
+          "Security"
+        ],
+        "url": "https://qiita.com/my-agent-works/items/1db85db10501e0f13732",
+        "title": "「サブパス追加で認証が抜ける？」セキュリティ設定の盲点",
+        "author": "my-agent-works",
+        "published_at": "2026-11-06T20:04:12+09:00",
+        "excerpt": "Webサービスに新しい機能を追加し、APIパスを増やした経験はありますか？その際、「既存の認証設定で大丈夫だろう」と安心していませんでしたか？ 私もそう思っていた一人ですが、実は、認証設定には意外な落とし穴があることを知りました。この記事では、新しいAPIパスを追加したときに陥りがちな認証の盲点について解説します。 「パスを追加すれば自動で保護される」という思い込み 多くの企業で、一度アクセス制限や認証を設定すれば、その下の全てのパスが自動的に保護されると考えがちです。例えば、 /admin 以下を保護すれば、 /admin/users も /admin/settings も全て保護される、というイメージです。 しかし、システムによってはこの「自動保護」が期待通りに機能しないことがあります。この思い込みが、意図しないセキュリティホールを生み出す原因になりかねません。 Cloudflare Accessが示す「完全一致」の原則 具体例として、Cloudflare Accessのような認証サービスでは、設定されたパスに対して「完全一致」でのみ認証を適"
+      },
+      {
+        "id": "qiita:a5608889a4f1ae095b507cd3",
+        "source": "qiita",
+        "author_tags": [
+          "MCP",
+          "OAuth",
+          "Claude",
+          "osFoundry",
+          "Security"
+        ],
+        "url": "https://qiita.com/bestai/items/41be32371881d5ca1fce",
+        "title": "ClaudeのカスタムコネクタでつないだosFoundryの接続を一段ずつ確認する",
+        "author": "bestai",
+        "published_at": "2026-11-06T20:02:31+09:00",
+        "excerpt": "この記事でやること claude.aiのカスタムコネクタで osFoundry につないだあと、「どこまで届いているか」を段階ごとに確かめる 確かめる順番は、サーバーアドレス → 接続の状態 → プロジェクト → チャンネル → 書き込みと承認 → 切り方 各段階で、Claudeに投げると確認しやすい依頼文と、osFoundry側で見る画面をセットで書く 接続の作り方そのもの（鍵アイコン → Connected → Add assistant → Claudeでコネクタ追加）は済んでいる前提です。 前提・環境 osFoundryのアカウントと、接続したいワークスペースが1つある claude.aiでカスタムコネクタを追加できるプラン。Team / Enterpriseでは、組織のオーナーが先に Organization settings → Connectors で追加している ターミナルで curl と python3 が使える（最初の確認だけで使います） サーバーアドレスは本番の次のURL https://api.osfoundry.io/a"
+      },
+      {
+        "id": "qiita:3926a4e43cd8ea455d54c0ac",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "PDF",
+          "PyMuPDF",
+          "Security",
+          "pyPDF"
+        ],
+        "url": "https://qiita.com/bestai55/items/693830d743b340a0fe77",
+        "title": "黒塗りしたPDFから文字が本当に消えたかを、Pythonで確かめる",
+        "author": "bestai55",
+        "published_at": "2026-11-06T20:02:22+09:00",
+        "excerpt": "PDFの黒塗りが「見た目だけ」になる原因は、黒い四角を描いたことだけではありません。四角がページの一部なのか注釈なのか、墨消しの印を付けただけで適用していないのか、適用はしたけれど追記保存したせいで古いページがファイルに残っているのか。どれも画面上はまったく同じに見えます。メタデータの作成者欄に名前が残っている、というのもよくある話です。 そこで、同じ1ページの書類から7種類の「黒塗り済み」PDFを作り、どれから文字が取り出せてしまうかを測りました。使ったのは3つのテキスト抽出ライブラリ（PyMuPDF、pypdf、pdfminer.six）、ファイル内の全ストリームの走査、メタデータの確認です。7つのうち1つは、デスクトップアプリ osFoundry のPDFエディターで Find text and redact → Apply → Sanitize document → 保存、と墨消ししたファイルです。環境は Apple M1、Python 3.12、PyMuPDF 2.1、pypdf 6.21.4、pdfminer.six 20260107"
+      },
+      {
+        "id": "qiita:99689e9627e05548f292d9d0",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "OpenSSH",
+          "alpine",
+          "SRE",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/Nekorock/items/a1790c68f85928fec09b",
+        "title": "OpenSSH on musl のパスワード認証バイパス（*sshole）を、musl と OpenSSH のソースで確かめた。CVE はまだ振られていない",
+        "author": "Nekorock",
+        "published_at": "2026-11-06T19:01:41+09:00",
+        "excerpt": "2026 年 11 月 5 日に、musl libc を使う Linux（Alpine など）の OpenSSH で、パスワードを持たないはずのアカウントにログインできてしまう問題が公開されました。通称「*sshole」です。 この記事では、原因になっている musl の crypt() と OpenSSH のソルトの扱いを、どちらも公式リポジトリのソースで確かめました。確認したのは 2026 年 11 月 6 日です。状況は変わるので、使う前に出典のリンク先を見てください。 結論 鍵認証だけのつもりで /etc/shadow のパスワード欄を * にしているアカウントに、 257 バイト以上のパスワードを送るだけでログインできてしまう ことがあります 原因は 2 つの仕様が噛み合ったことです。musl の crypt() は 256 バイトを超えるパスワードを処理できないとき \"*\" を返します。一方 OpenSSH は、パスワード欄が短くてソルトを取り出せないアカウントのために、別のアカウントからソルトを借ります。この結果、長いパスワードを送"
+      },
+      {
+        "id": "qiita:3f30514777ae6f9bde70cae9",
+        "source": "qiita",
+        "author_tags": [
+          "生成AI",
+          "Security",
+          "LLM",
+          "Python",
+          "機械学習"
+        ],
+        "url": "https://qiita.com/shalXXXX/items/6e605a106480115d31f6",
+        "title": "AI 生成コンテンツの見分け方：C2PA と電子透かしの仕組み、検証で分かること・分からないこと",
+        "author": "shalXXXX",
+        "published_at": "2026-11-06T17:00:37+09:00",
+        "excerpt": "本人確認の書類画像、問い合わせに添付された写真、投稿されたレビュー文。受け取った側が「これは AI で作られたものか」を知りたい場面は増えています。手がかりになる技術は主に 来歴情報（C2PA） と 電子透かし ですが、どちらも「AI 生成ではない」ことの証明には使えません。 この記事では、C2PA の署名付きマニフェストを自分で作って検証し、再エンコード・改ざん・なりすまし署名でどう見えるかを確かめます。テキストの電子透かしについては、検出の統計的な仕組みから「短い文や書き換えた文では判定できない」理由を数値で確認します。最後に、受け取る側の業務で検証結果をどう扱うかを整理します。 検証環境と前提 Python 3.13.18、c2pa-python 0.38.1（内部の c2pa-rs は 0.91.3）、Pillow、OpenSSL（クラウド上の Linux コンテナ） 証明書は検証用に OpenSSL で自作したものです。実際の配布物に使える証明書ではありません 画像は生成 AI の出力に見立てたグラデーション画像です。LLM や画像生成"
+      },
+      {
+        "id": "qiita:0420174d96208b730036e902",
+        "source": "qiita",
+        "author_tags": [
+          "WordPress",
+          "PHP",
+          "プラグイン開発",
+          "Security",
+          "libsodium"
+        ],
+        "url": "https://qiita.com/fstyle/items/3b4f11a6629b19d91a2f",
+        "title": "WordPress.org に出さない自作プラグインを、自分のサーバーから署名つきで自動更新する",
+        "author": "fstyle",
+        "published_at": "2026-11-06T14:54:00+09:00",
+        "excerpt": "前の記事（ WordPress のプラグインから 1 時間ごとに状態を送る ）では、SiteBeacon Reporter が状態を送る作りを書きました。今回は、そのプラグインをどうやって入れた先のサイトで新しくしているか、の話です。 自作のプラグインは 2 つあります。自分たちのサイトで使う小さな機能をまとめた Fstyle Site Toolkit と、SiteBeacon Reporter です。どちらも WordPress.org のディレクトリには出していません。出していないプラグインは、そのままだと「更新があります」が出ず、zip を手で入れ直すことになります。入れた先が増えて、手で回すのをやめました。 作りは 2 つで違います。 Fstyle Site Toolkit SiteBeacon Reporter 対応 WordPress 6.0 から WordPress 5.3 から 更新の知らせ Update URI ＋ update_plugins_{hostname} pre_set_site_transient_update_p"
+      },
+      {
+        "id": "qiita:e6c6bda73767d13b9c10947d",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "fail2ban",
+          "SSH",
+          "nginx",
+          "fortigate"
+        ],
+        "url": "https://qiita.com/masakai/items/af45eeb0ff3a23c3a4ee",
+        "title": "17分に1回の SSH 総当たりは、fail2ban に一度も BAN されていなかった。1日単位のジェイルで止め、送信元は乗っ取られたとみられる FortiGate だった",
+        "author": "masakai",
+        "published_at": "2026-11-06T14:15:53+09:00",
+        "excerpt": "FortiGate は、国内の町工場でもいちばん多く使われているであろう UTM（ファイアウォールなどの機能を1台にまとめた機器）である。 自分の会社の FortiGate が踏み台になっていないか、すぐにでも保守を頼んでいる業者に確認を依頼してほしい。 一般家庭でも、Wi-Fi ルーターなどの管理画面がインターネット側から開けない設定になっているか、見直してほしい。 筆者が管理する VPS 5台の、2026年10月1日から11月5日までの fail2ban と nginx のログを集計した。 その中に、fail2ban の sshd ジェイル（SSH のログイン失敗を数えて BAN する設定）に一度も BAN されていない送信元が1つあった。 その IP は、3台にほぼ同じ時刻から SSH のログインを試し始め、平均17分に1回の間隔で、各台に約1,170回ずつ試していた。 sshd ジェイルの条件（10分に2回の失敗）は狭すぎた。 「1日に5回の失敗で BAN する」ジェイルを足したところ、追加した直後に BAN された。 送信元は、whoi"
+      },
+      {
         "id": "qiita:5ac96657d210ca28a5e82890",
         "source": "qiita",
         "author_tags": [
@@ -22693,6 +26118,21 @@
         "author": "Nao_Ishimatsu",
         "published_at": "2026-11-03T20:13:43+09:00",
         "excerpt": "はじめに：「ダークウェブ調査」のリスクをAIとコンテナ隔離でゼロにする設計思想 近年、日本企業を狙ったランサムウェア攻撃や、情報窃取マルウェア（Infostealer）によるアカウント乗っ取りが急増しています。セキュリティエンジニアや企業の情シス担当者、さらには個人にとっても、「自分の組織やアカウントがダークウェブ上でどう扱われているのか（OSINT：オープンソース・インテリジェンス）」を把握する重要性はかつてないほど高まっています。 しかし、 人間が直接ブラウザ（Tor Browser等）を開いてダークウェブ（ .onion サイト）を閲覧・巡回することには多くのリスク が伴います。 ❌ 従来の直接ブラウジングのリスク ✅ 本システム（AI × Podman × Tor）の防御アプローチ ブラウザのJavaScriptエンジンや画像デコーダの脆弱性（ゼロデイ等）を突かれるリスク ブラウザ非使用 ：JavaScriptや画像を一切解釈・実行せず、テキスト通信のみに限定 バイナリやマルウェア（Infostealer等）の誤ダウンロード ストリーム事"
+      },
+      {
+        "id": "qiita:51fe52a834280d6a51cbbb5a",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "SecurityHubCSPM",
+          "awsconfig",
+          "Security"
+        ],
+        "url": "https://qiita.com/Pretzelisa/items/4ec01197eaf54a50c3d8",
+        "title": "AWSの構成監視サービスをオンにしたあとに考えること ― AWS Security Hub CSPM の標準の選び方とAWS Config とのスコアの読み方",
+        "author": "Pretzelisa",
+        "published_at": "2026-11-03T19:06:08+09:00",
+        "excerpt": "はじめに AWS 環境の構成を監視するサービスとしては、主に AWS Security Hub CSPM(以下 Security Hub CSPM)と AWS Config(以下 Config)がある。 Security Hub CSPM は基本的なセキュリティのベストプラクティス(FSBP)や CIS などのセキュリティ標準に沿って設定ミスをチェックするサービス、Config はリソースの設定と変更履歴を記録し、ルールに沿っているかを評価するサービスである。 どちらも どんなシステムでもアカウント・リージョン単位でオンにできる 、AWS セキュリティの土台となるサービスである。 また、Security Hub CSPM は多くのコントロールのチェックに Config の仕組みを使っている。そのため、Security Hub CSPM を使うには、Config をオンにしてリソースを記録しておくことが前提になる。なお、2025年に登場した新しい Security Hub(Security Hub CSPM とは別のサービス)もあわせてオンにしてい"
       },
       {
         "id": "qiita:3f749dd6f85734b7bebcb3af",
@@ -30285,6 +33725,1123 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:84f7c01759b00149bb0c9599",
+        "source": "medium",
+        "author_tags": [
+          "security-engineering",
+          "blue-team",
+          "cybersecurity",
+          "detection-engineering",
+          "siem"
+        ],
+        "url": "https://medium.com/@mfurqanpatel61/why-your-siem-misses-attacks-understanding-detection-gaps-across-security-layers-37dcf2e2e3f3",
+        "title": "Why Your SIEM Misses Attacks: Understanding Detection Gaps Across Security Layers",
+        "author": "Furqan P.",
+        "published_at": "2026-11-08T04:17:34+00:00",
+        "excerpt": "Firewalls, IDS, SIEM, and endpoint monitoring each provide visibility. The challenge is connecting what they see. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:981fb56193234d2208b6ee2f",
+        "source": "medium",
+        "author_tags": [
+          "discussion",
+          "cloud-security",
+          "cybersecurity",
+          "ai-security",
+          "ai"
+        ],
+        "url": "https://medium.com/@aizaai.net/an-openai-model-bypassed-its-sandboxs-network-restrictions-here-s-why-it-matters-bf054b747715",
+        "title": "An OpenAI Model Bypassed Its Sandbox’s Network Restrictions. Here’s Why It Matters.",
+        "author": "Aizaai Net",
+        "published_at": "2026-11-08T03:48:19+00:00",
+        "excerpt": "A research model couldn’t use its approved internet connection, so it wrote its own networking code. The incident exposes a critical… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:56846e8338e9f850ee1cedc3",
+        "source": "medium",
+        "author_tags": [
+          "sql-injection",
+          "cybersecurity",
+          "reverse-engineering",
+          "mobile-security",
+          "android"
+        ],
+        "url": "https://medium.com/@ghostwirez/mobilehackinglab-food-store-lab-writeup-1b372aa1f6f9",
+        "title": "MobileHackingLab “Food Store” Lab Writeup",
+        "author": "Arvin",
+        "published_at": "2026-11-08T02:50:52+00:00",
+        "excerpt": "This writeup covers one of the labs from MobileHackingLab, focused on a vulnerability class that usually lives on the server side, SQL… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3159c7e1fb4f540ca862b149",
+        "source": "medium",
+        "author_tags": [
+          "agentic-ai",
+          "prompt-engineering",
+          "cybersecurity",
+          "bug-bounty",
+          "ai"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/prompt-injection-is-not-a-prompt-problem-32932cbb4e60",
+        "title": "Prompt Injection Is Not a Prompt Problem",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-11-08T02:44:10+00:00",
+        "excerpt": "You can’t prompt your way out of prompt injection. Here’s why “ignore any instructions in the document” never holds, and the architecture… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9f5d6800f019e51a2bd94ad5",
+        "source": "medium",
+        "author_tags": [
+          "llm",
+          "nodejs",
+          "retrieval-augmented-gen",
+          "prompt-injection",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@khawaja.muhammad.mushood/prompt-injection-in-rag-defenses-that-hold-in-node-js-7824490d3423",
+        "title": "Prompt Injection in RAG: Defenses That Hold in Node.js",
+        "author": "Khawaja Muhammad Mushood",
+        "published_at": "2026-11-08T02:12:27+00:00",
+        "excerpt": "Indirect prompt injection in a RAG app can’t be fixed with a better system prompt. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:269ea7cc92289a9fb2d4895d",
+        "source": "medium",
+        "author_tags": [
+          "devops",
+          "security",
+          "vulnerability-management",
+          "msp",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@varaxon/closing-out-the-year-with-proof-a-remediation-checklist-for-security-consultants-and-msps-41192e008bd7",
+        "title": "Closing out the year with proof: a remediation checklist for security consultants and MSPs",
+        "author": "Varaxon",
+        "published_at": "2026-11-08T01:13:42+00:00",
+        "excerpt": "Drafted with AI assistance and checked by the Varaxon team. The offer at the end is ours: we built Varaxon Scan Hub. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b5af1408e44dd07877140b3b",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty-writeup",
+          "cybersecurity",
+          "bug-bounty",
+          "bug-bounty-tips",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@akashmotkar001/p3-sensitive-information-disclosure-through-verbose-api-error-messages-65fa5cc74a12",
+        "title": "P3 — Sensitive Information Disclosure Through Verbose API Error Messages",
+        "author": "Akash motkar",
+        "published_at": "2026-11-08T00:22:36+00:00",
+        "excerpt": "Severity: Medium (P3) Vulnerability Type: Information Disclosure CWE: CWE-209 — Generation of Error Message Containing Sensitive… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0d8b751c4f9c6086cc755c87",
+        "source": "medium",
+        "author_tags": [
+          "soc-analyst",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qardasovcavid00/demystifying-soc287-arbitrary-file-read-vulnerability-1044feed1e1f",
+        "title": "Demystifying SOC287: Arbitrary File Read Vulnerability",
+        "author": "ClaudeExE",
+        "published_at": "2026-11-07T23:56:27+00:00",
+        "excerpt": "Letsdefend platformasında EventID 263 olan maraqlı SOC287 — Arbitrary File Read on Checkpoint Security Gateway alert var. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a941622b49845aa5b2b8af67",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme",
+          "penetration-testing",
+          "ctf-writeup",
+          "jwt",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@yassineelmoumen00/hammer-tryhackme-from-a-4-digit-lottery-to-rce-via-jwt-kid-abuse-6c7f76df5143",
+        "title": "Hammer (TryHackMe): From a 4-Digit Lottery to RCE via JWT kid Abuse",
+        "author": "D33R",
+        "published_at": "2026-11-07T22:39:03+00:00",
+        "excerpt": "My first real walkthrough — how I thought through a box with no prior report or hard-machine experience, including every wrong turn. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e03385724c04ed49534d1a80",
+        "source": "medium",
+        "author_tags": [
+          "wordpress",
+          "cybersecurity",
+          "information-security",
+          "cyberattack",
+          "cybercrime"
+        ],
+        "url": "https://aladeloye.medium.com/the-wordpress-update-is-now-part-of-the-attack-surface-6bf5b99fb46a",
+        "title": "The Wordpress Update Is Now Part of the Attack Surface",
+        "author": "Joshua Aladeloye",
+        "published_at": "2026-11-07T22:23:05+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8d3731d2d5afbde89f8be0b8",
+        "source": "medium",
+        "author_tags": [
+          "microsoft-defender",
+          "microsoft-sentinel",
+          "siem",
+          "soc-analyst",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@saifkhantoru/microsoft-sentinel-in-the-defender-portal-a-complete-hands-on-setup-78d269300e47",
+        "title": "Microsoft Sentinel in the Defender Portal: A Complete Hands-On Setup",
+        "author": "Saif Khan",
+        "published_at": "2026-11-07T22:09:26+00:00",
+        "excerpt": "From Zero to Your First SIEM Detection — A Practical Guide for Aspiring SOC Analysts and Security Engineers Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b23a91b712f98ed0c4b22b82",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "openai",
+          "cybersecurity",
+          "ai-model",
+          "machine-learning"
+        ],
+        "url": "https://medium.com/@Pop123/gpt-6-cyber-openais-new-ai-model-for-cybersecurity-042ab8d05dc4",
+        "title": "GPT-6 Cyber: OpenAI’s New AI Model for Cybersecurity",
+        "author": "Pop Alexandru",
+        "published_at": "2026-11-07T21:24:12+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c509a8f8f6f9c87369853953",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "ctf",
+          "labs",
+          "cookies",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@salyhamaks/power-cookieweb-exploitation-by-lt-syreal-jones-89bf441312a6",
+        "title": "Power CookieWeb Exploitation by LT ‘syreal’ Jones",
+        "author": "Salyhamaks",
+        "published_at": "2026-11-07T20:36:43+00:00",
+        "excerpt": "PicoCTF: SOAP — Web Exploitation (Medium) Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ffe83d3eb1fe4d248f620a6c",
+        "source": "medium",
+        "author_tags": [
+          "incident-response",
+          "network-forensics",
+          "soc",
+          "cybersecurity",
+          "threat-hunting"
+        ],
+        "url": "https://medium.com/@hezaabdo344/cyberdefender-soc-t1-psexec-hunt-lab-walkthrough-387f11eddd3f",
+        "title": "CyberDefender SOC T1–PsExec Hunt Lab Walkthrough",
+        "author": "Abdulrahman Heza",
+        "published_at": "2026-11-07T20:34:31+00:00",
+        "excerpt": "In this write-up, we’ll explore the PsExec Hunt Lab, categorized under Network Forensics Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bf3126318d8aa9f8b5ca4f44",
+        "source": "medium",
+        "author_tags": [
+          "linux",
+          "threat-hunting",
+          "cybersecurity",
+          "network-security",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@xpert4cyber/netstat-is-called-legacy-so-why-do-soc-analysts-still-reach-for-it-first-04c7e73443ed",
+        "title": "Netstat Is Called Legacy. So Why Do SOC Analysts Still Reach for It First?",
+        "author": "Xpert4Cyber",
+        "published_at": "2026-11-07T20:20:42+00:00",
+        "excerpt": "Every investigation starts with the same uncomfortable question: what is this server talking to right now? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:36330c0e198d665cf21c7c98",
+        "source": "medium",
+        "author_tags": [
+          "nextjs",
+          "cybersecurity",
+          "react",
+          "vulnerability",
+          "web-security"
+        ],
+        "url": "https://medium.com/@0xK1L/two-critical-next-js-rces-in-one-release-the-use-cache-bug-and-the-svg-image-bug-explained-7bb5318dfbd6",
+        "title": "Two Critical Next.js RCEs in One Release: The use cache Bug and the SVG Image Bug Explained",
+        "author": "0xK1L",
+        "published_at": "2026-11-07T20:14:37+00:00",
+        "excerpt": "Next.js 16.4.1 and 15.5.28 fixed two unauthenticated remote code execution flaws and a denial-of-service bug, all rooted in upstream… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0231a7aaa8545d00c2d72fde",
+        "source": "medium",
+        "author_tags": [
+          "cicd",
+          "gitlab",
+          "vulnerability",
+          "cybersecurity",
+          "devsecops"
+        ],
+        "url": "https://medium.com/@0xK1L/gitlabs-perfect-10-bug-how-a-regular-expression-in-a-ci-file-became-remote-code-execution-4c01dc791483",
+        "title": "GitLab’s Perfect-10 Bug: How a Regular Expression in a CI File Became Remote Code Execution",
+        "author": "0xK1L",
+        "published_at": "2026-11-07T20:13:18+00:00",
+        "excerpt": "CVE-2026–97229 is an integer overflow in GitLab’s CI/CD regex compiler. Patched on October 12, exploited in the wild by the end of the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cee579e662119a5acd609c7b",
+        "source": "medium",
+        "author_tags": [
+          "osint",
+          "cybersecurity",
+          "devsecops"
+        ],
+        "url": "https://medium.com/@gaurav_garv4u/threat-driven-defense-pipeline-osint-755121db7f39",
+        "title": "Threat-Driven Defense Pipeline (OSINT)",
+        "author": "Gaurav Sharma",
+        "published_at": "2026-11-07T20:12:53+00:00",
+        "excerpt": "What is a Threat-Driven OSINT Pipeline Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a1487649e79245ed20984f40",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "vulnerability",
+          "cybersecurity",
+          "nodejs",
+          "javascript"
+        ],
+        "url": "https://medium.com/@0xK1L/node2shell-explained-how-a-compressed-request-body-can-corrupt-memory-in-node-js-3b28ffafd623",
+        "title": "Node2Shell Explained: How a Compressed Request Body Can Corrupt Memory in Node.js",
+        "author": "0xK1L",
+        "published_at": "2026-11-07T20:11:54+00:00",
+        "excerpt": "CVE-2026–111497 is an out-of-bounds write in the Brotli decoder bundled with Node.js. A single Content-Encoding: br header can reach it on… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2fd19da4931576c45cc45032",
+        "source": "medium",
+        "author_tags": [
+          "linux",
+          "cybersecurity",
+          "vulnerability",
+          "privilege-escalation",
+          "linux-kernel"
+        ],
+        "url": "https://medium.com/@0xK1L/fragnesia-explained-the-linux-kernel-bug-that-turns-a-web-shell-into-root-without-touching-the-20546e789ff5",
+        "title": "Fragnesia Explained: The Linux Kernel Bug That Turns a Web Shell Into Root Without Touching the…",
+        "author": "0xK1L",
+        "published_at": "2026-11-07T20:10:06+00:00",
+        "excerpt": "CVE-2026–46300 lets a low-privileged user rewrite the in-memory copy of read-only files. Disclosed in May, it was used in October to turn… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4f8e9fb93c98055a21da8af5",
+        "source": "medium",
+        "author_tags": [
+          "web-application-security",
+          "cybersecurity",
+          "penetration-testing",
+          "owaspzap",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@vcyb05520cgenevieve/securing-safereach-our-cybersecurity-teams-capstone-journey-at-vephla-university-795f0f7114cd",
+        "title": "Securing SafeReach: Our Cybersecurity Team’s Capstone Journey at Vephla University",
+        "author": "Vcybcgenevieve",
+        "published_at": "2026-11-07T19:19:05+00:00",
+        "excerpt": "How Team 1 assessed the security of a community emergency alert platform using OWASP ZAP, Burp Suite, Nmap, and Wireshark. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:71383f61f26aee47aec0a0bf",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "threat-intelligence",
+          "osint"
+        ],
+        "url": "https://medium.com/@likithacjain1910/intelliresponse-24fc4651c08f",
+        "title": "IntelliResponse",
+        "author": "Likithacjain",
+        "published_at": "2026-11-07T17:28:48+00:00",
+        "excerpt": "How persistent memory with Hindsight turns a stateless alert checker into an analyst that actually learns Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3a9dcbb7e3b035c7216ae697",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "infosec",
+          "bug-bounty-tips",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@vicodo/from-stored-xss-to-forced-login-via-cookie-tossing-054495acbf91",
+        "title": "From Stored XSS to Forced Login via Cookie Tossing",
+        "author": "vicodo",
+        "published_at": "2026-11-07T17:16:51+00:00",
+        "excerpt": "Hi, I’m Vicodo, a security researcher and part-time bug bounty hunter. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8655fa687696b778b5cbe3c6",
+        "source": "medium",
+        "author_tags": [
+          "digital-investigation",
+          "osint",
+          "open-source-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@hichamamr23/open-source-intelligence-osint-turning-public-information-into-actionable-intelligence-0d253ea88d97",
+        "title": "Open-Source Intelligence (OSINT): Turning Public Information into Actionable Intelligence",
+        "author": "Hicham EL amrani",
+        "published_at": "2026-11-07T17:16:48+00:00",
+        "excerpt": "Understanding how open-source intelligence transforms publicly available data into reliable insights for investigations, cybersecurity… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a835f4c54a8edac52a970438",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "malware-analysis",
+          "digital-forensics",
+          "cyberdefender",
+          "reverse-engineering"
+        ],
+        "url": "https://medium.com/@lachhab.aymane11/agenttesla-malware-analysis-write-up-e27b8e0eadad",
+        "title": "AgentTesla — Malware Analysis Write-up",
+        "author": "Aymane.",
+        "published_at": "2026-11-07T16:29:14+00:00",
+        "excerpt": "Blue team CTF Challenges | AgentTesla Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9a3315a4862b610e28c70023",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "penetration-testing",
+          "bug-bounty",
+          "bug-bounty-tips",
+          "ethical-hacking"
+        ],
+        "url": "https://sudohunt.medium.com/2fa-bypass-via-oauth-account-migration-9722cdcc8b10",
+        "title": "2FA Bypass via OAuth Account Migration",
+        "author": "SudoHunt",
+        "published_at": "2026-11-07T16:14:34+00:00",
+        "excerpt": "Hey everyone! How you been? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0199d77c1b83e2cfa27324a1",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "idor-vulnerability"
+        ],
+        "url": "https://medium.com/@santhoshkumar7794/the-viewer-checked-the-domain-the-delete-button-didnt-cross-tenant-quarantine-idor-in-mailwatch-ee95eabccbd0",
+        "title": "The viewer checked the domain, the delete button didn’t: cross-tenant quarantine IDOR in MailWatch…",
+        "author": "Santosh Kumar Puppala",
+        "published_at": "2026-11-07T16:00:23+00:00",
+        "excerpt": "In MailWatch 1.2.26, any logged-in user could delete another domain’s quarantined mail by message id. The message viewer refused the same… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:08f175ab5f9f83852e21e4a7",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "programming",
+          "software-engineering",
+          "artificial-intelligence",
+          "technology"
+        ],
+        "url": "https://medium.com/@keerthanatm.24cs/iris-intelligent-incident-response-agent-an-ai-powered-approach-using-hindsight-memory-904291fd206e",
+        "title": "IRIS — Intelligent Incident Response Agent: An AI-Powered Approach Using Hindsight Memory",
+        "author": "Keerthanatm Cs",
+        "published_at": "2026-11-07T15:39:04+00:00",
+        "excerpt": "1. Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:febc54a163aa4ad66d160854",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "cve",
+          "cybersecurity",
+          "cyberattack",
+          "cyberthreat-intelligence"
+        ],
+        "url": "https://medium.com/agileit/the-2026-cve-flood-why-more-vulnerabilities-dont-mean-more-risk-3d4a738964e2",
+        "title": "The 2026 CVE Flood: Why More Vulnerabilities Don’t Mean More Risk",
+        "author": "Ahmed safta",
+        "published_at": "2026-11-07T15:33:34+00:00",
+        "excerpt": "Nov 7, 2026 · Ahmed safta Continue reading on AgileIT »"
+      },
+      {
+        "id": "medium:22ba589e137f91850151ccc6",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "application-security",
+          "cloud-security",
+          "ssrf",
+          "cybersecurity"
+        ],
+        "url": "https://masimshahzad.medium.com/the-ssrf-that-mailed-out-your-oauth-token-01327e8c1578",
+        "title": "The SSRF That Mailed Out Your OAuth Token",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-07T15:27:42+00:00",
+        "excerpt": "A Google Cloud debugger bug shows why integrations must control where stored credentials are sent Continue reading on Medium »"
+      },
+      {
+        "id": "medium:23a87000aa766c2862e62362",
+        "source": "medium",
+        "author_tags": [
+          "cyberattack",
+          "technology",
+          "cybersecurity",
+          "cybercrime",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@fabianolucassilva/testes-de-intrus%C3%A3o-pentest-o-que-%C3%A9-como-funciona-e-por-que-sua-empresa-precisa-dessa-pr%C3%A1tica-23d70a880d80",
+        "title": "Testes de Intrusão (Pentest): O Que É, Como Funciona e Por Que Sua Empresa Precisa Dessa Prática?",
+        "author": "Fabianolucassilva",
+        "published_at": "2026-11-07T15:21:12+00:00",
+        "excerpt": "Descobrindo vulnerabilidades antes que os criminosos cibernéticos as explorem. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f6c2995bb68ed529cd73c475",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cyber-security-awareness",
+          "phishing"
+        ],
+        "url": "https://medium.com/@Abrar_bin.habib/can-you-spot-a-phishing-email-most-people-cant-here-s-what-to-do-about-it-1f8dd7dd13f2",
+        "title": "Can You Spot a Phishing Email? Most People Can’t. Here’s What to Do About It.",
+        "author": "Abrar Bin Habib",
+        "published_at": "2026-11-07T15:10:57+00:00",
+        "excerpt": "Phishing emails have become more convincing than ever. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d3dcb5b2bbe3b1d9e6f1676e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "identity-management",
+          "vpn",
+          "authentication",
+          "aml"
+        ],
+        "url": "https://medium.com/@anthonymbahn/how-to-audit-ssl-vpn-accounts-for-non-saml-logins-a86b3a79004e",
+        "title": "How to Audit SSL VPN Accounts for Non-SAML Logins",
+        "author": "Anthony Bahn",
+        "published_at": "2026-11-07T14:33:29+00:00",
+        "excerpt": "To audit SSL VPN logins for non-SAML access, compare what each account was supposed to use against what the logs say it actually used… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0c69c15fc6a8bed8c4a7ce57",
+        "source": "medium",
+        "author_tags": [
+          "ctf-walkthrough",
+          "ctf-writeup",
+          "tryhackme-walkthrough",
+          "cybersecurity",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@vantaroot/wgel-ctf-writeup-0ae4d1507e61",
+        "title": "Wgel CTF writeup",
+        "author": "vantaroot",
+        "published_at": "2026-11-07T14:11:17+00:00",
+        "excerpt": "Hello my name is vantroot. I am security researcher i love writing blogs and i founded two companies called vantaroot.com and BTL.Enough… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:772c1e07c1375d2b602cd1a9",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "cybersecurity",
+          "infosec",
+          "windows-11",
+          "microsoft"
+        ],
+        "url": "https://medium.com/@chinmayshringi4/ms-paint-cve-2026-83844-the-fix-is-live-one-store-policy-can-still-hold-it-back-9a05c47f555a",
+        "title": "MS Paint CVE-2026–83844: The Fix Is Live. One Store Policy Can Still Hold It Back.",
+        "author": "Chinmay Shringi",
+        "published_at": "2026-11-07T13:57:27+00:00",
+        "excerpt": "Microsoft and the CVE record now agree on build 11.2609.401.0, so skip decoding a packet sentence that 57 October CVEs share and check… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:23e1332b58100836572cbb4a",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "ethical-hacking",
+          "cybersecurity",
+          "bug-bounty",
+          "hacking"
+        ],
+        "url": "https://medium.com/@pentesterclubpvtltd/opentrace-ai-explained-map-your-entire-system-architecture-with-ai-27f4b35e33be",
+        "title": "OpenTrace AI Explained | Map Your Entire System Architecture with AI",
+        "author": "Pentester Club",
+        "published_at": "2026-11-07T13:27:36+00:00",
+        "excerpt": "Give AI coding assistants a deeper understanding of your codebase with OpenTrace — an open-source knowledge graph that connects files… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5e4a0043b24a9a2a9a3431f9",
+        "source": "medium",
+        "author_tags": [
+          "ai",
+          "cybersecurity",
+          "job-search",
+          "soc",
+          "technology"
+        ],
+        "url": "https://medium.com/@srisada/day-5-soc-analyst-challenge-understanding-ai-in-cybersecurity-and-the-ai-powered-soc-b2f5f254d660",
+        "title": "Day 5 SOC Analyst Challenge: Understanding AI in Cybersecurity and the AI Powered SOC",
+        "author": "Srikanth S",
+        "published_at": "2026-11-07T13:24:04+00:00",
+        "excerpt": "The evolution of Security Operations Centers — From traditional monitoring to AI assisted and agentic security operations Continue reading on Medium »"
+      },
+      {
+        "id": "medium:45a11a2b1944dc15c924c3e3",
+        "source": "medium",
+        "author_tags": [
+          "osint-investigation",
+          "cyber-threat-intelligence",
+          "threat-intelligence",
+          "cybersecurity",
+          "osint"
+        ],
+        "url": "https://medium.com/@oussamamed_abid/threat-intelligence-case-001-ef38591a4a7e",
+        "title": "Threat Intelligence Case #001:",
+        "author": "Oussama Abid",
+        "published_at": "2026-11-07T13:23:33+00:00",
+        "excerpt": "When Refrigerators Become a Target Continue reading on Medium »"
+      },
+      {
+        "id": "medium:48b92778bc7ac7ee1c6a59b4",
+        "source": "medium",
+        "author_tags": [
+          "endpoint-protection",
+          "cybersecurity",
+          "memory-forensics",
+          "digital-forensics",
+          "threat-hunting"
+        ],
+        "url": "https://medium.com/@smatchoicehackersupdate/advanced-malware-analysis-endpoint-protection-memory-forensics-volatile-artifact-analysis-e4248574d67c",
+        "title": "Advanced Malware Analysis & Endpoint Protection: Memory Forensics & Volatile Artifact Analysis",
+        "author": "SmatchoiceHackers Update",
+        "published_at": "2026-11-07T12:11:43+00:00",
+        "excerpt": "The Anatomy of Trojan Threats Continue reading on Medium »"
+      },
+      {
+        "id": "medium:72faccae2e0b53b798bf7af3",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@ariforakzai99/what-is-cyber-security-complete-beginners-guide-2026-8f3fc6f850ce",
+        "title": "What Is Cyber Security? Complete Beginner’s Guide (2026)",
+        "author": "Institute of Digital Trainings (IDT)",
+        "published_at": "2026-11-07T11:34:34+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9524e796465c4933ac2bc976",
+        "source": "medium",
+        "author_tags": [
+          "malware-analysis",
+          "cybersecurity",
+          "information-security",
+          "remnux",
+          "flarevm"
+        ],
+        "url": "https://medium.com/@CyberDDee/building-a-malware-analysis-lab-with-selected-flare-vm-tools-and-remnux-in-virtualbox-a-d6da650a9fb8",
+        "title": "Building a Malware Analysis Lab with Selected FLARE-VM Tools and REMnux in VirtualBox: A…",
+        "author": "Somtoochukwu Divine Innocent",
+        "published_at": "2026-11-07T11:16:07+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cb98884d160599752db2b06c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "web-security",
+          "xss-attack",
+          "letsdefend-writeup",
+          "soc-analyst"
+        ],
+        "url": "https://medium.com/@tanmaydhanula1234/soc166-javascript-code-detected-in-requested-url-letsdefend-e1e931ce576b",
+        "title": "SOC166 — JavaScript Code Detected in Requested URL — LetsDefend",
+        "author": "TanmayDhanula",
+        "published_at": "2026-11-07T11:12:46+00:00",
+        "excerpt": "While working on the Let’sDefend SOC platform, I came across an alert named SOC166 — JavaScript Code Detected in Requested URL. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b31af6adec7f898eb19a7b19",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cloud-computing",
+          "terraform",
+          "aws"
+        ],
+        "url": "https://medium.com/@daywalkernyc141/cybersecurity-is-the-future-are-you-ready-to-lead-in-2026-43f55f1bdc53",
+        "title": "Cybersecurity Is the Future — Are You Ready to Lead in 2026?",
+        "author": "Daywalkernyc",
+        "published_at": "2026-11-07T10:34:30+00:00",
+        "excerpt": "Hackers are getting smarter. Cloud technology is evolving. AI is changing everything. Your skills need to keep up! Continue reading on Medium »"
+      },
+      {
+        "id": "medium:48e9f74d2dc247034f1194e8",
+        "source": "medium",
+        "author_tags": [
+          "portswigger",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@devchetanpatil/reflected-xss-into-html-context-with-most-tags-and-attributes-blocked-brute-forcing-a-waf-with-e278d53c95ac",
+        "title": "Reflected XSS into HTML Context with Most Tags and Attributes Blocked -Brute-Forcing a WAF with…",
+        "author": "Chetan Patil",
+        "published_at": "2026-11-07T10:14:23+00:00",
+        "excerpt": "Practitioner-level lab from the PortSwigger Web Security Academy — solved by using Burp Intruder to brute-force a WAF’s tag and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1e9219d9a5cd7d07c6787b5e",
+        "source": "medium",
+        "author_tags": [
+          "privacy",
+          "web-development",
+          "information-security",
+          "phishing",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@alimughal.g1g/how-to-inspect-a-suspicious-link-punycode-redirects-whois-f74e06df54bf",
+        "title": "How to Inspect a Suspicious Link: Punycode, Redirects, WHOIS",
+        "author": "Muhammad Ali Mughal",
+        "published_at": "2026-11-07T10:12:17+00:00",
+        "excerpt": "Originally published on DEV. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9131b32d47f14201301bb911",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "technology",
+          "cyber-security-awareness",
+          "ai",
+          "infosec"
+        ],
+        "url": "https://medium.com/@umeshsubramani/the-watchtower-not-the-war-room-what-nobody-tells-freshers-about-cybersecurity-3b55c1f28d72",
+        "title": "The Watchtower, Not the War Room: What Nobody Tells Freshers About Cybersecurity",
+        "author": "Umesh Subramani",
+        "published_at": "2026-11-07T09:48:57+00:00",
+        "excerpt": "Your first job in security won’t look like the movies. That doesn’t mean you chose wrong. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4b626c37b37d7a1f57430d34",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "hacking",
+          "cybersecurity",
+          "cyber",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@verylazytech/12-windows-kernel-security-concepts-every-researcher-should-master-for-real-world-exploitation-cec0753b3503",
+        "title": "12 Windows Kernel Security Concepts Every Researcher Should Master for Real-World Exploitation",
+        "author": "Very Lazy Tech",
+        "published_at": "2026-11-07T09:43:56+00:00",
+        "excerpt": "Ever seen a pentest report call out “kernel-level privilege escalation” and wondered, how did they even pull that off? Here’s the secret —… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:eb5ea49e9d0f0536cde18876",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "cybersecurity",
+          "soc-analyst",
+          "roadmaps",
+          "hyderabad"
+        ],
+        "url": "https://medium.com/@info_39707/soc-analyst-roadmap-2026-from-it-basics-to-threat-hunting-in-5-months-ab9b786b9732",
+        "title": "SOC Analyst Roadmap 2026: From IT Basics to Threat Hunting in 5 Months",
+        "author": "Skill IT",
+        "published_at": "2026-11-07T09:07:04+00:00",
+        "excerpt": "A 5-stage path for freshers into the Security Operations Center: what to learn, what to practise, and what to build. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c4629c1b202f334724f1fc25",
+        "source": "medium",
+        "author_tags": [
+          "wireshark",
+          "cyberchef",
+          "linux",
+          "ctf-writeup",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@mustafa-shehab1/zakey-cybersecurity-ctf-writeup-cbafe68ec820",
+        "title": "Zakey Cybersecurity CTF Writeup",
+        "author": "Mustafa Shehab",
+        "published_at": "2026-11-07T08:10:10+00:00",
+        "excerpt": "A Practical Journey Across Cybersecurity Domains Continue reading on Medium »"
+      },
+      {
+        "id": "medium:81d30e32a551aee16518cd6b",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-assessment",
+          "cyber-security-awareness",
+          "cybersecurity",
+          "phishing-campaign"
+        ],
+        "url": "https://ganeshbharkade.medium.com/building-a-local-phishing-simulation-lab-using-gophish-and-mailhog-4516ff54abb2",
+        "title": "Building a Local Phishing Simulation Lab Using GoPhish and MailHog",
+        "author": "ganeshbharkade",
+        "published_at": "2026-11-07T08:03:31+00:00",
+        "excerpt": "A practical cybersecurity lab focused on phishing simulation, email testing, campaign monitoring, and security awareness assessment. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e8ce10ee54901fba07a6453c",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "cyberattack",
+          "programming",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@michaelolowoselu/the-dangerous-side-of-github-hackers-are-hiding-malware-inside-cybersecurity-tools-f7c9bc810663",
+        "title": "The Dangerous Side of GitHub: Hackers Are Hiding Malware Inside Cybersecurity Tools",
+        "author": "Michaelolowoselu",
+        "published_at": "2026-11-07T08:01:34+00:00",
+        "excerpt": "What happens when the software you download to defend your network becomes the weapon used against you? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f2000deec4a5886e935f3ca7",
+        "source": "medium",
+        "author_tags": [
+          "incident-response",
+          "information-security",
+          "gcp-security-operations",
+          "cybersecurity",
+          "threat-detection"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/how-xdr-connects-small-alerts-into-one-multi-stage-attack-story-c57ec5d2dc87",
+        "title": "How XDR Connects Small Alerts Into One Multi-Stage Attack Story",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-07T08:01:02+00:00",
+        "excerpt": "Imagine three small events on an ordinary workday: a user clicks a link in an email, an account signs in at an unusual hour, and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c38c4d2c9ff2f3b621930fb5",
+        "source": "medium",
+        "author_tags": [
+          "agentic",
+          "cybersecurity",
+          "ai-harness",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@denoroy737/building-your-own-hermes-ai-hacking-agent-a-complete-setup-guide-9e773480a717",
+        "title": "Building Your Own Hermes AI Hacking Agent: A Complete Setup Guide",
+        "author": "Denoroy",
+        "published_at": "2026-11-07T07:56:46+00:00",
+        "excerpt": "Why Most Guides Get This Wrong Continue reading on Medium »"
+      },
+      {
+        "id": "medium:542bb405620f0ecbf44f30d6",
+        "source": "medium",
+        "author_tags": [
+          "phishing",
+          "online-safety",
+          "data-privacy",
+          "cybersecurity",
+          "scam"
+        ],
+        "url": "https://medium.com/@ahmedkamall/the-message-that-arrived-at-the-perfect-time-cybersecurity-and-data-privacy-71aced504444",
+        "title": "The Message That Arrived at the Perfect Time (Cybersecurity and Data Privacy)",
+        "author": "Ahmed writes",
+        "published_at": "2026-11-07T07:32:24+00:00",
+        "excerpt": "At 2 p.m., my phone buzzed. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dd343787f8612ce1fe9d67c5",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@chiragpandat003/phishing-analysis-what-i-learned-from-the-parrotpost-tryhackme-room-27a2c0821929",
+        "title": "Phishing Analysis: What I Learned from the ParrotPost TryHackMe Room",
+        "author": "Amitra Kumar",
+        "published_at": "2026-11-07T07:29:14+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:97827a4e2cd05e0af6c7b5f6",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-careers",
+          "information-security",
+          "ethical-hacking",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qnayds12/how-to-develop-practical-skills-for-entry-level-cybersecurity-roles-aec20548ec64",
+        "title": "How to Develop Practical Skills for Entry-Level Cybersecurity Roles",
+        "author": "Qnayds",
+        "published_at": "2026-11-07T06:43:57+00:00",
+        "excerpt": "Starting a career in cybersecurity can be an exciting opportunity for people interested in technology and digital security. However… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6514aaf170ca678b5c488c98",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "uae",
+          "ciso",
+          "photo-by-mohammad-yasir",
+          "software-security"
+        ],
+        "url": "https://medium.com/@unicorptech.marketing/cybersecurity-software-sprawl-why-uae-enterprises-are-consolidating-d29190324efe",
+        "title": "Cybersecurity Software Sprawl: Why UAE Enterprises Are Consolidating",
+        "author": "Unicorp Technologies",
+        "published_at": "2026-11-07T06:31:01+00:00",
+        "excerpt": "Ten consoles do not add up to ten times the protection, and the gaps between them are where incidents hide. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0206527d6a2ada95ad5b0406",
+        "source": "medium",
+        "author_tags": [
+          "ransomware",
+          "extortion",
+          "cybersecurity",
+          "ransomware-attack",
+          "double-extortion"
+        ],
+        "url": "https://bevijaygupta.medium.com/double-extortion-vs-triple-extortion-how-ransomware-learned-to-squeeze-harder-271b78d37c3a",
+        "title": "Double Extortion vs Triple Extortion: How Ransomware Learned to Squeeze Harder",
+        "author": "Vijay Kumar Gupta",
+        "published_at": "2026-11-07T06:23:46+00:00",
+        "excerpt": "Introduction: Ransomware Isn’t What It Used to Be Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c4da25099a0b470a5d6d3f2b",
+        "source": "medium",
+        "author_tags": [
+          "infosec",
+          "cloud-security",
+          "threat-intelligence",
+          "vulnerability",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@carloswataru/5-min-security-advisory-6-shielding-the-cloud-perimeter-preventing-silent-exfiltration-token-492f9baf8d83",
+        "title": "[5-Min Security Advisory] #6: Shielding the Cloud Perimeter: Preventing Silent Exfiltration & Token…",
+        "author": "Soichi Matsuura",
+        "published_at": "2026-11-07T06:02:48+00:00",
+        "excerpt": "# [5-Min Security Advisory] #6: Shielding the Cloud Perimeter: Preventing Silent Exfiltration & Token Abuse Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a954d2ee9d3ec01e8b9981c4",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "programming",
+          "backend-development",
+          "authentication",
+          "software-engineering"
+        ],
+        "url": "https://pixicstudio.medium.com/tls-fingerprint-credential-stuffing-513484f446f6",
+        "title": "How a TLS Fingerprint Can Reject a Bot Before bcrypt Ever Runs.",
+        "author": "Usman Writes",
+        "published_at": "2026-11-07T06:00:12+00:00",
+        "excerpt": "50,000 Failed Logins a Minute. Nobody Got In. Your App Is Still Down. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:eb1a98eaa76cba1617fb9236",
+        "source": "medium",
+        "author_tags": [
+          "career-advice",
+          "vulnerability-management",
+          "servicenow",
+          "certification",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@sajeevsebastian/servicenow-cis-vr-exam-guide-2026-prerequisite-domains-and-how-to-prepare-d9f7ac5708d2",
+        "title": "ServiceNow CIS-VR exam guide 2026: prerequisite, domains and how to prepare",
+        "author": "Sajeev PS",
+        "published_at": "2026-11-07T05:58:11+00:00",
+        "excerpt": "The ServiceNow Certified Implementation Specialist — Vulnerability Response (CIS-VR) exam checks that you can configure, implement and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a2fefe875f872e6470ebb399",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qnayds14/best-cybersecurity-institute-in-kerala-cybersecurity-education-and-career-opportunities-9ee3f4c60816",
+        "title": "Best Cybersecurity Institute in Kerala: Cybersecurity Education and Career Opportunities",
+        "author": "QNAYDS | AI & Cybersecurity Academy",
+        "published_at": "2026-11-07T05:13:02+00:00",
+        "excerpt": "In today’s digital world, cybersecurity has become one of the most important fields in the technology industry. As businesses… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9576a49de238c2c76209e9ac",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "education",
+          "cybersecurity",
+          "students",
+          "kerala"
+        ],
+        "url": "https://medium.com/@qnaydsacademy/your-cybersecurity-portfolio-6-practical-projects-every-student-should-build-in-2026-c730631de422",
+        "title": "Your Cybersecurity Portfolio: 6 Practical Projects Every Student Should Build in 2026",
+        "author": "QNAYDS Academy",
+        "published_at": "2026-11-07T05:02:47+00:00",
+        "excerpt": "Cybersecurity is one of the most exciting technology fields for students who want to build a career in digital security. But learning… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8de84f3b85f57c37cca6b47e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "network-security",
+          "vulnerability",
+          "zero-day",
+          "information-security"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/the-second-patch-ivanti-connect-secures-root-escalation-flaw-is-finally-fixed-68eb2e3505b7",
+        "title": "The Second Patch: Ivanti Connect Secure's Root Escalation Flaw Is Finally Fixed",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-07T04:48:51+00:00",
+        "excerpt": "Patching a VPN gateway twice in one month is nobody’s favorite task. Ivanti Connect Secure administrators have no choice, though: the fix… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bf22b6e88ef408806a6df979",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "linux",
+          "artificial-intelligence",
+          "information-security",
+          "vulnerability"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/ten-years-hidden-53-minutes-to-root-what-the-linux-tcp-flaw-cve-2026-98432-teaches-268a41ca1e2d",
+        "title": "Ten Years Hidden, 53 Minutes to Root: What the Linux TCP Flaw CVE-2026-98432 Teaches",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-07T04:45:56+00:00",
+        "excerpt": "Code that entered the Linux kernel in January 2016 has handled billions of TCP handshakes since then, and nobody noticed the flaw inside… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ce5c6d4e41ca0231fdfb626b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ai-security",
+          "cyberdudebivash",
+          "cyber-threat-intelligence",
+          "threat-intelligence"
+        ],
+        "url": "https://cyberdudebivash.medium.com/the-exploited-edge-the-unsafe-update-the-ai-agent-what-security-leaders-must-fix-now-9beb98d81797",
+        "title": "The Exploited Edge, the Unsafe Update & the AI Agent: What Security Leaders Must Fix Now",
+        "author": "CYBERDUDEBIVASH® | AI & Cybersecurity Ecosystem",
+        "published_at": "2026-11-07T04:23:29+00:00",
+        "excerpt": "SENTINEL APEX™ | CyberDudeBivash Sentinel Apex Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d439cd3e000bf42ae90c6166",
+        "source": "medium",
+        "author_tags": [
+          "ai-security",
+          "model-context-protocol",
+          "claude-code",
+          "prompt-injection",
+          "cybersecurity"
+        ],
+        "url": "https://nandanpriyadarshi.medium.com/mcp-security-basics-prompt-injection-through-tool-results-426ce9cbf29c",
+        "title": "MCP Security Basics: Prompt Injection Through Tool Results",
+        "author": "Nandan Priyadarshi",
+        "published_at": "2026-11-07T04:01:02+00:00",
+        "excerpt": "Five Claude Code controls that stop a tool result from turning into an action, checked against the server’s own log. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:640ad08a50d343459b68849f",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "bug-bounty",
+          "red-team",
+          "ctf",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/why-rate-limiting-fails-against-distributed-attacks-and-how-to-build-one-that-holds-fb613546e969",
+        "title": "Why Rate Limiting Fails Against Distributed Attacks — and How to Build One That Holds",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-11-07T03:36:27+00:00",
+        "excerpt": "You added a rate limit to your login and the brute-force didn’t stop. Here’s why per-IP limits break against rotating IPs, how to detect… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ec20c4ee2728408a1c22d9ee",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "artificial-intelligence",
+          "biology"
+        ],
+        "url": "https://medium.com/@etsy3dperson/your-immune-system-is-the-original-cybersecurity-team-bf089c1bf6ea",
+        "title": "Your Immune System Is the Original Cybersecurity Team",
+        "author": "Sanem Avcil",
+        "published_at": "2026-11-07T01:04:21+00:00",
+        "excerpt": "Long before firewalls and antivirus, your body was already detecting intruders, remembering attacks and defending a network with no… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ba3b8166b0a3bbe04bd22864",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@chiragpandat003/cve-vs-cwe-vs-cvss-understanding-the-difference-in-cybersecurity-f81ca62d4cc2",
+        "title": "CVE vs CWE vs CVSS: Understanding the Difference in Cybersecurity",
+        "author": "Amitra Kumar",
+        "published_at": "2026-11-06T06:05:17+00:00",
+        "excerpt": "In cybersecurity, we frequently come across three important terms: CVE, CWE, and CVSS. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3246f5fa138d2cca20f0be08",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "risk-management",
+          "security-leadership",
+          "communication",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@hazelchirinda/how-to-explain-cybersecurity-risk-without-creating-panic-6a8ccf29096a",
+        "title": "How to Explain Cybersecurity Risk Without Creating Panic",
+        "author": "Hazel Chirinda",
+        "published_at": "2026-11-06T06:01:01+00:00",
+        "excerpt": "One of the most important skills in cybersecurity is being able to explain a risk in a way that helps people understand what is happening… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e61f189770d86dd0ed02ce1e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "kerala",
+          "education",
+          "students",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@qnaydsacademy/from-digital-footprints-to-digital-defence-how-students-can-build-a-future-in-cybersecurity-in-2e5005ec4c12",
+        "title": "From Digital Footprints to Digital Defence: How Students Can Build a Future in Cybersecurity in…",
+        "author": "QNAYDS Academy",
+        "published_at": "2026-11-06T05:59:30+00:00",
+        "excerpt": "Choosing the right cybersecurity course is an important decision for students who want to build a career in the technology industry. With… Continue reading on Medium »"
+      },
       {
         "id": "medium:ab94044597371b9bebe71ce8",
         "source": "medium",
