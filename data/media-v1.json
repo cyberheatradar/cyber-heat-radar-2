@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T16:40:02.687986+00:00",
+  "source_snapshot_generated_at": "2026-11-08T17:40:02.669952+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:6347ff8fed9de4cfea89cd4c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OKR",
+          "Model Context Protocol",
+          "Claude",
+          "promptfoo"
+        ],
+        "url": "https://zenn.dev/interpark/articles/315a520d9590b3",
+        "title": "Claude × サスケWorks で、目標設定から評価までの自動化を試してみた ― promptfoo を添えて",
+        "author": "株式会社インターパーク",
+        "published_at": "2026-11-08T16:53:20.703000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:3c5e6762c3741354d23af197",
         "source": "zenn",
@@ -24931,6 +24947,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:00062ce9b4a3cd8b57b9fb6f",
+        "source": "qiita",
+        "author_tags": [
+          "MicrosoftEntraID",
+          "MicrosoftGraph",
+          "PowerShell",
+          "AIエージェント",
+          "Security"
+        ],
+        "url": "https://qiita.com/tanemudao/items/f69e7744e27b2855fdfb",
+        "title": "AI Agentの権限は見えているか？ Microsoft GraphでAgent Identityを棚卸ししてみた",
+        "author": "tanemudao",
+        "published_at": "2026-11-09T02:17:54+09:00",
+        "excerpt": "この記事は「AI AgentとIdentity」連載の第6回です。前回はGovernance / Lifecycleを扱いました。今回は、Microsoft Entra Agent IDの Agent Identityを棚卸しする方法 を、実機で確認しながら整理します。 検証条件 ：検証用テナント（Agent Identityは1件）で、グローバル管理者の委任トークンを使って実行しました。Agent Identityは第2回でMicrosoft Graph APIから作成したものです。APIの仕様や権限要件は変更される可能性があるため、実行前に最新の公式ドキュメントを確認してください。 はじめに AI Agentの数が増えてくると、認証方式だけでなく、**「どのAgentが存在し、誰が管理し、どの権限を持つのか」**を説明できることが重要になります。 例えば、社内で100個のAgentが稼働しているとします。 Agent Identityは何個あるのか？ OwnerとSponsorは誰か？ Microsoft GraphのApplication "
+      },
+      {
         "id": "qiita:55e685ddd740f720a7b4a8ed",
         "source": "qiita",
         "author_tags": [
@@ -34797,6 +34829,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:451a542dd84b1eb571ffc63a",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-research",
+          "user-after-free",
+          "cybersecurity",
+          "remote-code-execution",
+          "linux-kernel"
+        ],
+        "url": "https://medium.com/@bericontraster/cve-2026-98432-linux-kernel-tcp-use-after-free-rce-eeeeee9c6cef",
+        "title": "CVE-2026–98432: Linux Kernel TCP Use-After-Free RCE",
+        "author": "Beri Contraster",
+        "published_at": "2026-11-08T16:41:16+00:00",
+        "excerpt": "TL;DR Continue reading on Medium »"
+      },
+      {
+        "id": "medium:fdfc071fe5206b571b76e3b7",
+        "source": "medium",
+        "author_tags": [
+          "software-development",
+          "artificial-intelligence",
+          "ai-agent",
+          "github",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@moekthona/github-ai-agent-prompt-injection-scanner-coverage-and-limits-e557228545d8",
+        "title": "GitHub AI Agent Prompt Injection Scanner: Coverage and Limits",
+        "author": "Moek Thona",
+        "published_at": "2026-11-08T16:40:57+00:00",
+        "excerpt": "GitHub Can Now Detect Prompt Injection in AI Agents. Here’s What Its Scanner Misses. Continue reading on Medium »"
+      },
       {
         "id": "medium:bcfe3bea688552b48d3b5e87",
         "source": "medium",
