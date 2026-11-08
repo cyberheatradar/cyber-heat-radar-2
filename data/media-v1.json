@@ -1,9 +1,99 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-08T07:40:02.912055+00:00",
+  "source_snapshot_generated_at": "2026-11-08T08:40:04.161620+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:d1c97b96af261f79b67b39ef",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "Claude",
+          "Vibe Coding"
+        ],
+        "url": "https://zenn.dev/nodmaterial/articles/e69832c170e6d7",
+        "title": "Claude Code の会話をリポジトリ横断で探しやすくする CLI を作った",
+        "author": "Node",
+        "published_at": "2026-11-08T08:22:12.685000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b04bd7d90a2c89cd643380b8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DX",
+          "ビジネス",
+          "生成 AI",
+          "AI 活用"
+        ],
+        "url": "https://zenn.dev/ryuki_o/articles/709e634bb8119e",
+        "title": "AIの利用率を上げても、期待した成果が出ない理由",
+        "author": "AIRO",
+        "published_at": "2026-11-08T08:01:28.452000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:85f05e02504833754220aaef",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/yattaru/articles/442fd244c68fd7",
+        "title": "AIの定期実行に事業の運営を任せるときに入れた、4つの安全装置",
+        "author": "YATTARU",
+        "published_at": "2026-11-08T07:48:12.470000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:98f4fab46e02dab6efcaac9a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/secure_ops_hi/articles/98bb9123578680",
+        "title": "セキュリティエンジニアがAI会社を始めて、最初に決めた「AIに任せないこと」",
+        "author": "HRCO",
+        "published_at": "2026-11-08T07:48:02.268000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eee4229dc92f26813728d9cd",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "個人開発",
+          "運用",
+          "rcon",
+          "rustgame"
+        ],
+        "url": "https://zenn.dev/miyagawayuu/articles/rust-manager-service-shutdown-security",
+        "title": "Rust Managerをサービス終了した理由。RCONとセキュリティの話",
+        "author": "ミヤガワユウ",
+        "published_at": "2026-11-08T07:45:14.209000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:31075345c2026b2f7685d87d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "video",
+          "workflow"
+        ],
+        "url": "https://zenn.dev/cloudgpu/articles/7b211472f2d21e",
+        "title": "AIショートドラマは「レンダリング前に引き継ぎ設計」を書いておく",
+        "author": "CloudGPU",
+        "published_at": "2026-11-08T07:41:56.535000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:92823692d21f09b3d22ba6a0",
         "source": "zenn",
@@ -24280,6 +24370,69 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6af37902da368bc0f110d1ab",
+        "source": "qiita",
+        "author_tags": [
+          "Terraform",
+          "AWS",
+          "RDS",
+          "SessionManager",
+          "Security"
+        ],
+        "url": "https://qiita.com/ham-nao/items/84f6c718f62a3b10c5d7",
+        "title": "【Terraform×AWS】SSHの踏み台をやめて、Session ManagerでプライベートなRDSに接続する",
+        "author": "ham-nao",
+        "published_at": "2026-11-08T17:29:38+09:00",
+        "excerpt": "プライベートサブネットにあるRDSへ手元から接続するために、パブリックサブネットに踏み台サーバーを置いてSSHで接続している環境は多いのではないでしょうか。この方法では、SSH鍵の配布と管理、22番ポートの開放、接続元IPアドレスの管理といった手間とリスクがついて回ります。 この記事では、AWS Systems ManagerのSession Managerを使い、 SSH鍵もインバウンドの開放も使わずに RDSへ接続する仕組みをTerraformで作ります。 SSH踏み台の問題 SSH鍵の管理 ：鍵の配布、退職者の鍵の削除、漏えい時の差し替えが必要になる ポートの開放 ：22番ポートをインターネットに向けて開ける必要がある。接続元IPで絞っても、在宅勤務などでIPが変わるたびに更新が要る 誰が接続したか追いにくい ：共有の鍵を使うと、操作した人を特定できない Session Managerの仕組み Session Managerでは、接続の向きが逆になります。 中継用のEC2インスタンスで動くSSMエージェントが、 内側から Systems M"
+      },
+      {
+        "id": "qiita:aeefbde22610777c546d3cfd",
+        "source": "qiita",
+        "author_tags": [
+          "Terraform",
+          "tflint",
+          "trivy",
+          "GitHubActions",
+          "Security"
+        ],
+        "url": "https://qiita.com/ham-nao/items/fd3d2ee8279b4a67c904",
+        "title": "【Terraform】tflintとTrivyでコードを自動チェックし、GitHub ActionsのPRで検出する",
+        "author": "ham-nao",
+        "published_at": "2026-11-08T17:28:32+09:00",
+        "excerpt": "terraform planが通っても、コードに問題がないとは限りません。存在しないインスタンスタイプの指定や使われていない変数はplanでは見つからず、applyして初めてエラーになります。また、S3バケットの暗号化漏れや、セキュリティグループで0.0.0.0/0を開けてしまうといった設定ミスは、planもapplyも問題なく通ってしまいます。 この記事では、tflintとTrivyを使ってTerraformのコードを自動でチェックし、GitHub ActionsのPull Requestで問題を検出する仕組みを作ります。 2つのツールの役割 tflint ：書き方や値の誤りを見つける。存在しないインスタンスタイプ、使われていない変数、非推奨の書き方など Trivy ：セキュリティ上の設定ミスを見つける。暗号化の無効、過剰な公開、ログの無効など tflintは「動くかどうか」、Trivyは「安全かどうか」を見るツールです。役割が違うので、両方を組み合わせて使います。 tflintの設定 リポジトリのルートに .tflint.hcl を置きます。"
+      },
+      {
+        "id": "qiita:f9b86ef6337dc524f0783968",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "SecurityAgent",
+          "コードレビュー",
+          "Security"
+        ],
+        "url": "https://qiita.com/dragonnn/items/2f8ed921589bafb3dcbd",
+        "title": "AWS Security Agentでコードレビュー",
+        "author": "dragonnn",
+        "published_at": "2026-11-08T17:20:26+09:00",
+        "excerpt": "はじめに 最近はセキュリティインシデントが多く、脆弱性対応で追われる日々ですね... AWS Security Agentを使用すれば、設計レビュー→コードレビュー→ペネトレーションテストを行ってくれます。 セキュリティに特化したAIレビューが出来るとのことなので、触ってみます。 Security Agentのペネトレーションテストとは： AIエージェントが自律的に攻撃者の視点で脆弱性を探し出し、実際の攻撃ペイロードを送信して悪用の成否まで検証する自動ペネトレーションテスト（ペンテスト）サービス タイトル通り、コードレビューのみ試します。 ペネトレーションテストは、またの機会にします。 事前準備 意図的に脆弱性を埋め込んだ学習用のWebアプリケーションのVulnadoをForkします。 セットアップ Security Agentにて、エージェントスペースの作成を行います。 エージェントスペース作成後、コードレビューを有効にします。 追加を押下して、GitHubを選択します。 先ほどForkしたリポジトリに対して、AWS Security Agen"
+      },
+      {
+        "id": "qiita:0b5100295b6db34d170fa29e",
+        "source": "qiita",
+        "author_tags": [
+          "LLM",
+          "Security",
+          "生成AI",
+          "機械学習",
+          "Python"
+        ],
+        "url": "https://qiita.com/shalXXXX/items/ddb8a3fafd6d69318833",
+        "title": "データポイズニングとバックドア対策：微調整データの改ざん検知と「合図」の洗い出しを Python で確かめる",
+        "author": "shalXXXX",
+        "published_at": "2026-11-08T17:00:47+09:00",
+        "excerpt": "モデルの振る舞いは、プロンプトだけでなく学習データでも変えられます。攻撃者が学習データや微調整データに細工した例を混ぜると、ふだんは正常に動き、特定の語句（合図、トリガー）が入ったときだけ攻撃者の決めた振る舞いをするモデルができます。これがバックドアです。 この記事では、自社で LLM を微調整するチームを想定し、データの汚染がどこから入るかを整理したうえで、取り込み時のハッシュ固定・微調整データからの合図の洗い出し・学習後のモデルへの差し込みテストの 3 つを Python で書いて確かめます。検出できない汚染の形も、同じコードで示します。 汚染が少量で効くことが、ここ 1 年で分かってきた OWASP Top 10 for LLM Applications では、2025 年版の LLM04 Data and Model Poisoning が、2026 年版では LLM05 に位置づけられています（項目名は同じです）。MITRE ATLAS では、学習データへの細工は AML.T0020 Poison Training Data という技術"
+      },
+      {
         "id": "qiita:02137cac4aafd69ffa1e2592",
         "source": "qiita",
         "author_tags": [
@@ -33923,6 +34076,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6bfc32e9cb9d8e60c4b7156d",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "ai",
+          "risk-management",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@divyansh.sharma0990/stop-patching-by-cvss-alone-a-smarter-way-to-prioritize-vulnerabilities-5a77b175a2a7",
+        "title": "Stop Patching by CVSS Alone: A Smarter Way to Prioritize Vulnerabilities",
+        "author": "Divyansh Sharma",
+        "published_at": "2026-11-08T08:19:19+00:00",
+        "excerpt": "Every security team knows the scenario: a scan finishes, thousands of findings appear, dozens are labeled “Critical,” and the patch‑window… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c7f5aec6b49faa03ae710ccd",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty-writeup",
+          "bug-bounty",
+          "bug-bounty-tips",
+          "bug-hunting",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@0xmannaf/four-vulnerabilities-with-ai-agent-one-subdomain-exploring-the-hidden-attack-surface-of-a-9a7d073f785c",
+        "title": "Four Vulnerabilities With Ai-Agent, One Subdomain : Exploring the Hidden Attack Surface of a…",
+        "author": "0Xmannaf",
+        "published_at": "2026-11-08T08:01:59+00:00",
+        "excerpt": "Hey, amazing hackers! Continue reading on Medium »"
+      },
       {
         "id": "medium:a817cb4482cbfeeafc5ef85d",
         "source": "medium",
