@@ -1,9 +1,84 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T07:40:03.221320+00:00",
+  "source_snapshot_generated_at": "2026-11-09T08:40:02.512124+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:302079db45db4f60641b231b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "検証",
+          "プロンプトエンジニアリング",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/numarn/articles/spec-upfront-vs-fix-in-chat-handson",
+        "title": "Claude Code に1行で頼んで会話で直すやり方は、呼び出し2倍でも料金0.893倍だった",
+        "author": "ぬまーんのZenn記事",
+        "published_at": "2026-11-09T08:39:58.355000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e77b3e884462b65540313f13",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm"
+        ],
+        "url": "https://zenn.dev/onelifevibe/articles/a8364bfbc9228c",
+        "title": "異なる立場のAIエージェントに同じ議題を渡すと何が起きるか ― 前提の違いを可視化する設計メモ",
+        "author": "OneLifeVibe",
+        "published_at": "2026-11-09T08:31:43.181000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7b4ede9636f8a6c9c8c816ef",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Agent",
+          "Ontology"
+        ],
+        "url": "https://zenn.dev/shimpeiws/articles/4fedafb9deb62d",
+        "title": "業務AIエージェントの共通基盤を考える――Ontologyを参考に、業務改善ループを試作した",
+        "author": "shimpeiws",
+        "published_at": "2026-11-09T08:07:51.144000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:58237a0bf4a0e452a085706b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "個人開発",
+          "設計",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/jskn_d/articles/external-ai-work-report",
+        "title": "外の AI エージェントの作業を、Claude Code と同じ 1 本のレーンに書く口を作った",
+        "author": "jokooooo",
+        "published_at": "2026-11-09T07:58:43.586000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8b9de46a488ccf4f4176e2f9",
+        "source": "zenn",
+        "author_tags": [
+          "初心者",
+          "Security",
+          "個人開発",
+          "Claude Code",
+          "owaps"
+        ],
+        "url": "https://zenn.dev/super_yumenosan/articles/7e49ea8e5ddd2f",
+        "title": "OWASP Top 10 を個人開発アプリに当てはめた記録",
+        "author": "夢乃",
+        "published_at": "2026-11-09T07:55:57.944000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:2050446b3731708565d51137",
         "source": "zenn",
@@ -1003,6 +1078,22 @@
         "title": "全出荷停止と約74万件の流出、多要素認証が未適用の委託先アカウント1つから136日後 ── アスクルのランサムウェア被害報告",
         "author": "四角いぱおつき",
         "published_at": "2026-11-08T15:00:15.906000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d58b42887a35f343f0ac4d0f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/anikuma/articles/completion-example-value-120",
+        "title": "AIは数字を捏造していなかった。完了条件の「120」をそのまま書いた",
+        "author": "アニクマ",
+        "published_at": "2026-11-08T15:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -25902,6 +25993,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f63f73a7321896abc756fae7",
+        "source": "qiita",
+        "author_tags": [
+          "認証",
+          "Security",
+          "cookie",
+          "初学者向け",
+          "xss"
+        ],
+        "url": "https://qiita.com/matsuura_eng/items/8415b4b2da9b63783ffd",
+        "title": "Bearer トークン認証と Cookie 認証、どっちを使えばいいの？",
+        "author": "matsuura_eng",
+        "published_at": "2026-11-09T17:01:57+09:00",
+        "excerpt": "はじめに こんにちは。 セキュリティに関するニュースや脆弱性の話題を目にする機会がとても増えました。 これをきっかけに、自身のポートフォリオアプリケーションの認証設計を見直し、「Bearerトークン認証」と「Cookie認証」について改めて学び直しました。 それぞれの仕組みやメリット・デメリットについて、今後のための備忘録としてここにまとめます。 同じように認証設計で悩んでいる初学者の方の参考になれば幸いです。 Bearer トークン認証 Bearer トークン認証（Bearer Token Authentication） は、 API リクエストの際、Authorization ヘッダーにトークン（文字列）を含めて送信し、サーバーがそのトークンを確認してアクセスを許可する認証方式です。 ユーザーやクライアントが「このトークンを持っています」と証明する仕組みになっています。 簡単にいうと、 ログインのときにサーバーから通行証の帽子(トークン)を受け取り、API を呼ぶたびにその帽子を自分から提示する、というイメージです。 （´・ω・｀）＜ ヘッダ"
+      },
+      {
         "id": "qiita:d28f6ceca0f3408ffda9e7bc",
         "source": "qiita",
         "author_tags": [
@@ -25962,6 +26069,22 @@
         "author": "warrobotsxyz",
         "published_at": "2026-11-09T15:19:38+09:00",
         "excerpt": "はじめに アプリの診断レポートは、不具合調査のために便利です。しかしCSVやHTMLをそのまま共有すると、 ローカルの絶対パス、URLのユーザー情報、クエリのトークン、メールアドレス が残っていることがあります。 この記事では、Pythonで共有用レポートを生成する直前に行う伏字処理を実装し、実際の入出力を確認します。 環境 Windows 11（ビルド 10.0.26200） Python 3.11.5 やったこと 1. 伏字前のサンプル 次のような診断情報があるとします。 path=C:\\work\\project\\data.csv unc=\\\\SERVER\\share\\secret\\file.txt url=https://user:pass@host/api?token=abcd1234&x=1#frag api_key=*** contact=user@localhost csv==SUM(A1:A9) 2. 伏字関数 import re def redact ( text : str ) -> str : # WindowsパスとUNC"
+      },
+      {
+        "id": "qiita:eaca14c42a4f57a03d8aebba",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "WordPress",
+          "php2shell",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/hc_terashima/items/03af67f60c7d077d996d",
+        "title": "PHPの脆弱性、うちは大丈夫？3つの質問で決まる今日やること",
+        "author": "hc_terashima",
+        "published_at": "2026-11-09T14:50:11+09:00",
+        "excerpt": "ニュースで「PHPに緊急の脆弱性」と見たものの、うちのサイトに関係があるのか分からない。 php -v で番号を見ても、それが安全なのか判断できない。更新して壊れるのは怖いし、「止めましょう」とも言い出しにくい。すでに止めたけれど、いつ戻せるのか答えられない。 こうした状態で運用を続けているなら、今日やることは3つの質問で決められます。 PHPを直すのは誰か、修正は入っているか、今日中に直せるか。 直せないなら、直すまで閉じます。 セキュリティの専任がいない現場で、PHPのサイトやAPIを預かっている方に向けて書きました。コマンドに触らない方は、質問1の文面を送るところまでで、今日の作業は終わります。私たち株式会社オートクチュールが担当する本番を止めて戻した記録と、検証の詳細は 別の記事 にまとめました。版と数値は2026年11月9日時点のものです。 「うちは小さいから」が通じない理由 2026年10月21日、PHPの緊急の脆弱性（ソフトの欠陥で、攻撃の入口になるもの）の修正が公開されました。通称PHP2Shellです。未修正のPHPが動くサーバ"
       },
       {
         "id": "qiita:3ffdb56cede9f2c855645b0e",
@@ -36096,6 +36219,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f10fbcc7c7787c639effd9fe",
+        "source": "medium",
+        "author_tags": [
+          "threat-hunting",
+          "cybersecurity",
+          "microsoft",
+          "microsoft-defender",
+          "microsoft-365"
+        ],
+        "url": "https://medium.com/@saifkhantoru/mfa-passed-the-attacker-still-got-in-how-soc-analysts-hunt-stolen-sessions-in-microsoft-365-a2358187a46b",
+        "title": "MFA Passed. The Attacker Still Got In: How SOC Analysts Hunt Stolen Sessions in Microsoft 365",
+        "author": "Saif Khan",
+        "published_at": "2026-11-09T08:34:21+00:00",
+        "excerpt": "A practical Microsoft Sentinel + Defender XDR investigation guide for a threat that can hide behind a successful sign-in Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bfaa5fb878351be2a90b9566",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "single-sign-on",
+          "subdomain-takeover",
+          "application-security",
+          "cybersecurity"
+        ],
+        "url": "https://masimshahzad.medium.com/the-dangling-cdn-record-that-unlocked-sso-8fae3acdc296",
+        "title": "The Dangling CDN Record That Unlocked SSO",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-09T08:19:51+00:00",
+        "excerpt": "A 2017 Uber disclosure shows why cookie-sharing SSO is only as safe as every sibling hostname Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c3d98ffbcc5ce361d3832fd5",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "large-language-models",
+          "ai-security",
+          "prompt-injection-attack",
+          "llm-security"
+        ],
+        "url": "https://osman-koc.medium.com/llm-prompt-injection-what-is-it-and-how-can-we-protect-against-it-e2cfec300f3a",
+        "title": "LLM Prompt Injection: What Is It and How Can We Protect Against It?",
+        "author": "Osman Koc",
+        "published_at": "2026-11-09T08:06:45+00:00",
+        "excerpt": "Understanding prompt injection attacks, their risks, and practical ways to secure LLM-powered applications. Continue reading on Medium »"
+      },
       {
         "id": "medium:65fe94382022394c93de923f",
         "source": "medium",
