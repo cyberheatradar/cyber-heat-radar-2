@@ -1,9 +1,103 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T21:40:02.571828+00:00",
+  "source_snapshot_generated_at": "2026-11-09T22:40:03.452011+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f0a411f08eb5a6f72a4a8383",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "debug",
+          "prompt"
+        ],
+        "url": "https://zenn.dev/miyoki_labs/articles/ai-73aa9bec48",
+        "title": "AIの再生成理由が効かない。保存と表示だけでは不十分だった",
+        "author": "Miyoki Labs",
+        "published_at": "2026-11-09T22:30:05.206000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:941f9b58467f9d07a831e609",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261110-tech-watch",
+        "title": "Tech Watch 2026-11-10: エージェントの作業を検証する",
+        "author": "らいけん",
+        "published_at": "2026-11-09T22:20:13.279000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:92ebb58757c3f7a3c4b6b778",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Authentication",
+          "OAuth",
+          "authorization"
+        ],
+        "url": "https://zenn.dev/monkey_gineer/articles/auth-study-04-service-to-service",
+        "title": "認証認可をゼロから学ぶ #4 サービス同士は、どう信用し合うのか（APIキー・ワークロードID・Token Exchange）",
+        "author": "monkey-gineer",
+        "published_at": "2026-11-09T22:16:49.721000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:98f0ecbb1939a233428ba3b3",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "認証",
+          "医療",
+          "インシデント対応",
+          "医療機器"
+        ],
+        "url": "https://zenn.dev/taichiendoh/articles/fake-app-prevalidation-gate-before-install",
+        "title": "先に入っていたのは、偽物だった ― 「公開前ゲート」の発想を、私物端末のアプリ検証に応用する",
+        "author": "遠藤太一",
+        "published_at": "2026-11-09T22:09:10.750000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aaca04531ec7243a4cdbb333",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Agent",
+          "Claude",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+        "title": "Claude Codeで最近使っているTips【2026/11】",
+        "author": "Oikon",
+        "published_at": "2026-11-09T22:01:05.415000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2d6f9e61037a1976d827dc68",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Windows",
+          "SoC",
+          "sigma",
+          "detectionengineeri"
+        ],
+        "url": "https://zenn.dev/tokotokokame/articles/detection-invariants-sigma",
+        "title": "検知ルールはツール名で書くな。攻撃者が「変えられないもの」を狙う不変条件の設計法",
+        "author": "tokotokokame",
+        "published_at": "2026-11-09T22:00:05.272000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:bcef5ccd05c2131cc00ef02f",
         "source": "zenn",
@@ -26799,6 +26893,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:2c6549ad917eadf7d29cc49a",
+        "source": "qiita",
+        "author_tags": [
+          "7-Zip",
+          "Security",
+          "脆弱性",
+          "ソースコード解析",
+          "Muse"
+        ],
+        "url": "https://qiita.com/mirevo_ai/items/d706c1da8c8a0922579a",
+        "title": "7-Zip 26.05 → 26.06 の差分解析：変更履歴に書かれていない脆弱性修正を探す",
+        "author": "mirevo_ai",
+        "published_at": "2026-11-10T07:18:46+09:00",
+        "excerpt": "この記事について 7-Zip 26.06 の公式な変更履歴は2行だけでした。 split ファイル対応の改善 Some bugs and vulnerabilities were fixed. 26.01〜26.03 の変更履歴が CVE 番号を列挙していたのに対し、26.06 は CVE を1件も挙げていません。「何を直したのか」は差分を読むしかない、という状況です。 本記事は、公式 git のタグ間差分を精読して「変更履歴に書かれていない（書けない）脆弱性修正らしい変更」を推定した実験の記録です。あわせて、差分を使わないゼロベースの監査も試し、両者の差を考察します。 前提として明記します。 脆弱性の推定はすべて 推測 です。PoC は作成しておらず、実証はしていません 実験と解析、執筆は AI エージェント（Muse）が行い、人間のオペレーターが問いの設定と結果の確認を行いました。この分担自体が後半の考察の主題です 材料と方法 公式 git リポジトリ（ip7z/7zip）のタグ 26.05 （b88c6bc）と 26.06 （d3296e3"
+      },
+      {
+        "id": "qiita:f3f017d206a3e943d84f7a36",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "プログラミング",
+          "Security",
+          "ロボット"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/d9b96411a32707e3f380",
+        "title": "AI日報 2026年11月10日：OpenAIがPythonツールチェーンAstralを買収、NVIDIAがGR00T 2を公開、Claude 5.2登場",
+        "author": "lhjjjk4",
+        "published_at": "2026-11-10T07:12:52+09:00",
+        "excerpt": "AI日報 2026年11月10日：OpenAIがPythonツールチェーンAstralを買収、NVIDIAがGR00T 2を公開、Claude 5.2登場 1. OpenAI、uv と Ruff の開発元 Astral を買収 OpenAI は、Python ツールの Ruff・uv・ty を手がける Astral との買収合意を発表し、チームは Codex チームに合流する。取引金額は非公開。創業者の Charlie Marsh 氏は Astral ブログで、ツール群がゼロから毎月数億ダウンロードへ成長し、Astral ツールチェーンが現代の Python 開発の基盤になったと述べ、「It is increasingly clear to me that Codex is that frontier（Codex こそがフロンティアだ）」という趣旨の声明を出した。 買収されるのはニッチなユーティリティではない。Ruff は Rust 製のリンター兼フォーマッターで、Astral 自身のベンチマークでは Flake8 や Black の 10〜10"
+      },
+      {
         "id": "qiita:440c87c2636c8a6b569003f5",
         "source": "qiita",
         "author_tags": [
@@ -37197,6 +37322,66 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:9b15ba94c1ed78080edfb682",
+        "source": "medium",
+        "author_tags": [
+          "hacking",
+          "cryptocurrency",
+          "technology",
+          "binance",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@adnan-hasan/binances-6-34-billion-security-incident-why-containment-wasn-t-enough-64c64794f76f",
+        "title": "Binance’s $6.34 Billion Security Incident: Why Containment Wasn’t Enough",
+        "author": "Adnan Hasan",
+        "published_at": "2026-11-09T22:16:02+00:00",
+        "excerpt": "Binance detected a compromised employee device, replaced it, and rotated the affected credentials. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bdcabc1d7bb15d5843396a41",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "linux",
+          "career-change",
+          "cybersecurity",
+          "rhcsa"
+        ],
+        "url": "https://medium.com/@mdrharding30/from-the-soc-to-the-server-room-why-im-choosin-linux-f5f22198ab6f",
+        "title": "From the SOC to the Server Room: Why I’m Choosin’ Linux",
+        "author": "the CyberStoic",
+        "published_at": "2026-11-09T22:09:43+00:00",
+        "excerpt": "Thirteen months on the watch taught me how to guard a system. Now I mean to learn how one is built. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9784f5cdafa40f3225cd4bc0",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cloud-computing",
+          "cloud-security",
+          "security-analytics",
+          "threat-intelligence"
+        ],
+        "url": "https://mahi-pal-singh.medium.com/from-cloud-telemetry-to-threat-intelligence-building-context-for-predictive-security-bb094e60bd6e",
+        "title": "From Cloud Telemetry to Threat Intelligence: Building Context for Predictive Security",
+        "author": "Mahi Pal Singh",
+        "published_at": "2026-11-09T22:07:00+00:00",
+        "excerpt": "Why collecting more security data is not enough — and how contextualized cloud telemetry can support more intelligent threat detection. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f3aa1f9492e7ca2693cf8415",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@officialhussainali12/funbox-under-construction-vulnhub-ctf-walkthrough-21226aa1c970",
+        "title": "FUNBOX UNDER CONSTRUCTION: VulnHub CTF Walkthrough",
+        "author": "M.Fida Hussain",
+        "published_at": "2026-11-09T21:31:27+00:00",
+        "excerpt": "You can check my previous articles for more CTF challenges. I have provided a downloadable URL for this CTF: Continue reading on Medium »"
+      },
       {
         "id": "medium:cdd907527c0cf955434bcee1",
         "source": "medium",
