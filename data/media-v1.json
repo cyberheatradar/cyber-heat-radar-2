@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T05:40:03.860307+00:00",
+  "source_snapshot_generated_at": "2026-11-09T06:40:03.339836+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ede087b0e7a050b36ace57f9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "systemdesign",
+          "inference",
+          "llm",
+          "kvcache"
+        ],
+        "url": "https://zenn.dev/systemdesignsim/articles/1000-people-ask-ai-at-once",
+        "title": "1,000 人が同時に AI に質問したら、誰が最初に答えをもらうのか? KV キャッシュと continuous batching",
+        "author": "System Design Simple",
+        "published_at": "2026-11-09T06:14:53.559000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:09affa3595d6032837ab5969",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Test",
+          "Security"
+        ],
+        "url": "https://zenn.dev/hackbox_ai/articles/0d04112d363a1b",
+        "title": "ブラックボックス検査とコード監査を、ひとつのパイプラインに置く",
+        "author": "Hackbox.ai",
+        "published_at": "2026-11-09T05:53:43.616000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:3b6e69be701b7049ef82a0e9",
         "source": "zenn",
@@ -25744,6 +25775,22 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:1132fae77e861f1319200bd9",
+        "source": "zenn",
+        "author_tags": [
+          "npm",
+          "GitHub Actions",
+          "Security",
+          "OSS",
+          "incident"
+        ],
+        "url": "https://zenn.dev/7nohe/articles/npm-malware-incident-response",
+        "title": "自作npmパッケージにマルウェアを公開されたときにやったこと",
+        "author": "Daiki Urata",
+        "published_at": "2026-08-29T15:49:58.617000+00:00",
+        "excerpt": ""
+      },
+      {
         "id": "zenn:b59dc0ca6a98fdd8014f6a01",
         "source": "zenn",
         "author_tags": [
@@ -25776,6 +25823,52 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:ec9fb864dd8455e29d99ff88",
+        "source": "qiita",
+        "author_tags": [
+          "Supabase",
+          "Next.js",
+          "stripe",
+          "Security",
+          "AI"
+        ],
+        "url": "https://qiita.com/ponponpon888/items/1fc69a9c923b3ba34b9a",
+        "title": "AIで作ったWebアプリを公開する前の5点チェック(Next.js・Supabase・Stripe)",
+        "author": "ponponpon888",
+        "published_at": "2026-11-09T15:38:49+09:00",
+        "excerpt": "AIにNext.jsとSupabase、Stripeでアプリを作らせると、画面が動いて決済が通るところまでは早く行きます。公開する前に、動作とは別に見ておきたい点が5つあります。コードを全部読まなくても、手を動かして確かめられるものに絞りました。 RLSの確かめ方だけを深く書いた記事は こちら にあります。この記事は、公開前の全体を一巡するためのものです。 1. 秘密の鍵がブラウザに出ていないか Next.jsでは、名前が NEXT_PUBLIC_ で始まる環境変数は、 next build のときにブラウザ向けのJavaScriptへ埋め込まれます。接頭辞のない変数は、ブラウザでは使えません。 Next.js公式 Supabaseのキーには、ブラウザに置いてよいものと置いてはいけないものがあります。publishableキー(旧anon)は公開前提で、RLSが許す範囲にしか届きません。secretキー(旧service_role)はRLSをバイパスするため、ブラウザ、公開アプリ、ソース管理に置いてはいけません。 Supabase公式 AIに書か"
+      },
+      {
+        "id": "qiita:70fbe18aae0d53697b9dbc9c",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "JavaScript",
+          "個人開発",
+          "Playwright",
+          "CSP"
+        ],
+        "url": "https://qiita.com/bckanrisan/items/2aa2e59a0a15148c0008",
+        "title": "「入力はサーバーに送りません」を、自分のサイトで検証したら、嘘が1件見つかった",
+        "author": "bckanrisan",
+        "published_at": "2026-11-09T15:36:11+09:00",
+        "excerpt": "「入力はサーバーに送りません」を、自分のサイトで検証したら、嘘が1件見つかった TL;DR ブラウザ内で完結するツール集（ 猫の手道具箱 ）を作っています。「入力はサーバーに送りません」と書くだけでは信用されないので、 ブラウザの仕組み（CSP）で送れないようにして、実際に送れないことをテストしました fetch / XMLHttpRequest / <img> / WebSocket / sendBeacon は、許可していない宛先に対してすべてブロックされました（実測、後述） 検証の途中で、 プライバシーポリシーの「入力は送信しない」が、2つのツールについては事実と違う ことに気づいて訂正しました CSP が止めないもの（ window.open など）もあります。「万能の保証」ではない点も書きます 背景: 「送りません」は、書くだけでは意味がない 私は社内SEで、障害対応中に「ログやJSONをどこかのWebツールに貼る」場面が多くあります。 そのとき一番引っかかるのが「この内容は、どこかのサーバーに送られていないか？」です。 自分でツール集"
+      },
+      {
+        "id": "qiita:f41b3076b18d1c9c298d1883",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Security",
+          "privacy"
+        ],
+        "url": "https://qiita.com/warrobotsxyz/items/2c430e27b2696fd33bff",
+        "title": "共有用の診断レポートから個人情報とAPIキーを消す：パス・URL・トークンの伏字実装",
+        "author": "warrobotsxyz",
+        "published_at": "2026-11-09T15:19:38+09:00",
+        "excerpt": "はじめに アプリの診断レポートは、不具合調査のために便利です。しかしCSVやHTMLをそのまま共有すると、 ローカルの絶対パス、URLのユーザー情報、クエリのトークン、メールアドレス が残っていることがあります。 この記事では、Pythonで共有用レポートを生成する直前に行う伏字処理を実装し、実際の入出力を確認します。 環境 Windows 11（ビルド 10.0.26200） Python 3.11.5 やったこと 1. 伏字前のサンプル 次のような診断情報があるとします。 path=C:\\work\\project\\data.csv unc=\\\\SERVER\\share\\secret\\file.txt url=https://user:pass@host/api?token=abcd1234&x=1#frag api_key=*** contact=user@localhost csv==SUM(A1:A9) 2. 伏字関数 import re def redact ( text : str ) -> str : # WindowsパスとUNC"
+      },
       {
         "id": "qiita:3ffdb56cede9f2c855645b0e",
         "source": "qiita",
@@ -35909,6 +36002,80 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e18ea29a1a05891416c6ba21",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qnayds14/best-cybersecurity-institute-in-kerala-a-guide-for-aspiring-cybersecurity-professionals-605f039156ed",
+        "title": "Best Cybersecurity Institute in Kerala: A Guide for Aspiring Cybersecurity Professionals",
+        "author": "QNAYDS | AI & Cybersecurity Academy",
+        "published_at": "2026-11-09T06:29:28+00:00",
+        "excerpt": "As technology continues to grow, cybersecurity has become an essential part of the digital world. Businesses, organizations, and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a0bf9b899faa52be8d120dd0",
+        "source": "medium",
+        "author_tags": [
+          "code-review",
+          "cybersecurity",
+          "software-engineering",
+          "owasp"
+        ],
+        "url": "https://medium.com/@haseeb_sohail/45-of-ai-generated-code-contains-security-vulnerabilities-a401d9990410",
+        "title": "45% of AI-Generated Code Contains Security Vulnerabilities.",
+        "author": "Muhammad Haseeb Sohail",
+        "published_at": "2026-11-09T06:16:01+00:00",
+        "excerpt": "This number stopped me when I first saw it. 45% of AI-generated code contains at least one OWASP-classified vulnerability. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5a58c6709283bba03ae01e53",
+        "source": "medium",
+        "author_tags": [
+          "soc-analyst",
+          "information-technology",
+          "cyber-security-solutions",
+          "cybersecurity",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@saifkhantoru/your-soc-is-drowning-in-alerts-but-which-one-is-the-real-attack-398468e207e1",
+        "title": "Your SOC Is Drowning in Alerts. But Which One Is the Real Attack?",
+        "author": "Saif Khan",
+        "published_at": "2026-11-09T06:08:54+00:00",
+        "excerpt": "How SOC Analysts Can Reduce Alert Fatigue, Investigate Faster, and Find Real Threats with Microsoft Sentinel and Defender XDR Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4aae9e554a1902d7aacc66ae",
+        "source": "medium",
+        "author_tags": [
+          "api-penetration-testing",
+          "cybersecurity",
+          "jwt-authentication",
+          "owasp-api-security-top-10"
+        ],
+        "url": "https://medium.com/@pisecurityit/dvapi-walkthrough-owasp-api-security-top-10-2023-aeb6cd604d76",
+        "title": "DVAPI Walkthrough: OWASP API Security Top 10 (2023)",
+        "author": "Puspojit Biswas",
+        "published_at": "2026-11-09T06:03:25+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:831b2d02b0994149e456e4c3",
+        "source": "medium",
+        "author_tags": [
+          "career-advice",
+          "technology",
+          "information-security",
+          "professional-development",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@hazelchirinda/what-i-wish-i-had-understood-earlier-in-my-cybersecurity-career-4761fdeb39c9",
+        "title": "What I Wish I Had Understood Earlier in My Cybersecurity Career",
+        "author": "Hazel Chirinda",
+        "published_at": "2026-11-09T06:01:01+00:00",
+        "excerpt": "When you are building a career in cybersecurity, it is easy to focus on what you still need to achieve. Continue reading on Medium »"
+      },
       {
         "id": "medium:f9455a1541a4a4f4470dbb20",
         "source": "medium",
