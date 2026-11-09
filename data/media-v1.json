@@ -1,9 +1,117 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T03:40:03.037794+00:00",
+  "source_snapshot_generated_at": "2026-11-09T04:40:02.749217+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:431f3ece6dc67933bda00a93",
+        "source": "zenn",
+        "author_tags": [
+          "Git",
+          "Security",
+          "リリース",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/vaonvn/articles/0af70538621b3d",
+        "title": "リリース前のセキュリティレビューとPRごとのゲートの分担 /security-reviewの差分の範囲と、指摘の仕分け",
+        "author": "VAON VIET NAM",
+        "published_at": "2026-11-09T04:16:20.211000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f906de22048a60daaa171d0d",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/aoi_sato8734/articles/safeline-how-to-move-a-waf-lts-in-20261102-1dce809",
+        "title": "SafeLine WAF の LTS 導入を最新版へ移行する運用ガイド",
+        "author": "佐藤 葵8734",
+        "published_at": "2026-11-09T04:16:17.059000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3626ba880923b3f063a17fe9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "automation",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tasukina/articles/unattended-claude-code-bash-permissions",
+        "title": "無人で回す Claude Code の Bash を、settings.json の permissions でコマンドの形ごとに絞る",
+        "author": "タスキーナ",
+        "published_at": "2026-11-09T04:10:40.586000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aeff3ecf2f2fa5b0be0711d9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "音楽",
+          "musicraft",
+          "ボーカル抽出",
+          "リミックス"
+        ],
+        "url": "https://zenn.dev/musicraft/articles/8a4aa243362622",
+        "title": "本当にドライなリードアカペラを取り出す——MusiCraft Acapella Extractor",
+        "author": "Ne0s0u1",
+        "published_at": "2026-11-09T04:09:46.718000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5adc226fb588a71c53452ed6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "音楽",
+          "音声処理",
+          "歌声変換",
+          "musicraft"
+        ],
+        "url": "https://zenn.dev/musicraft/articles/addcb83a363b17",
+        "title": "ゼロショットで歌声を変える——MusiCraft AI Song Voice Changerを開発しました",
+        "author": "Ne0s0u1",
+        "published_at": "2026-11-09T04:07:13.052000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e6a2f943c4bc968eb677823b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "Notion",
+          "メモリ",
+          "Model Context Protocol"
+        ],
+        "url": "https://zenn.dev/yamitake/articles/notion-ai-memory",
+        "title": "Notionの「メモリ」機能をやさしく解説 〜AIに横断的に自分を覚えさせられるの？〜",
+        "author": "JJ yamitake",
+        "published_at": "2026-11-09T03:53:44.789000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:07463c2215bb283f98630a14",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ハーネスエンジニアリング",
+          "ハーネス"
+        ],
+        "url": "https://zenn.dev/headwaters/articles/25be30393f0be9",
+        "title": "AIによるハーネスの自己改善で気を付けるべきこと",
+        "author": "Keita Sakashita",
+        "published_at": "2026-11-09T03:49:40.300000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:92996c1030596b64507553a7",
         "source": "zenn",
@@ -25597,6 +25705,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:14eaf51f134247331553fdb0",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/4c1745138d122e3c0cd3",
+        "title": "SafeLine WAF のこうげきイベントをドメインとポートでたどる：せっていミスをみつけるチェックリスト",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-09T13:17:20+09:00",
+        "excerpt": "いくつもの Web サイトをひとつの WAF でまもるとき、こうげきイベントのけんすうだけでは、どのアプリをしらべるべきかきまりません。どのホストへのリクエストだったのか、どのこうかいポートをとおったのか、うしろにあるアプリはどれか。このみっつをそろえて、イベントをよみとくひつようがあります。 「how to review waf attack events split by domain and port」をしらべているかたにむけて、この記事では SafeLine のせっていとイベントをつきあわせる、トラブルシューティングのてじゅんをまとめます。 ここでつかうのは、こうしきドキュメントにあるアプリの Domain、Port、Upstream のせっていと、こうげきリスト、および detail です。ドメインとポートをくみあわせてイベントをじどうでグループわけするきのうや、それらにたいおうするフィルターは、ていじされたドキュメントではかくにんできません。そこで、エンドポイントごとのメモをつくり、がめんにあるじょうほうとつきあわせます。 1. まず"
+      },
+      {
         "id": "qiita:1b5376c869774e9490e16be4",
         "source": "qiita",
         "author_tags": [
@@ -35683,6 +35805,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4aae3791e3fa9cb5ec68c8ba",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ecommerce",
+          "prompt-injection",
+          "artificial-intelligence",
+          "ai-agent"
+        ],
+        "url": "https://medium.com/@yugprvppatel/phishing-for-robots-the-traps-waiting-for-your-ai-8b47046ee7b5",
+        "title": "Phishing for Robots: The Traps Waiting for Your AI",
+        "author": "yug-_ patel",
+        "published_at": "2026-11-09T04:35:41+00:00",
+        "excerpt": "AI agents now shop and pay for us. Websites can trick them with text you can’t even see. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7cb80ee1dc21ac690a1b2714",
+        "source": "medium",
+        "author_tags": [
+          "application-security",
+          "penetration-testing",
+          "cybersecurity",
+          "web-cache",
+          "bug-bounty"
+        ],
+        "url": "https://masimshahzad.medium.com/the-cache-that-trusted-a-fake-extension-ed86c0939c7c",
+        "title": "The Cache That Trusted a Fake Extension",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-09T04:31:21+00:00",
+        "excerpt": "A 2017 PayPal disclosure shows why shared caches must honor freshness headers instead of guessing from a path suffix Continue reading on Medium »"
+      },
       {
         "id": "medium:84466e80369c27c92b29c4ae",
         "source": "medium",
