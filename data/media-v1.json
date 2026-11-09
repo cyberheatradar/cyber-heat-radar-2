@@ -1,9 +1,53 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T09:40:02.817757+00:00",
+  "source_snapshot_generated_at": "2026-11-09T10:40:02.807062+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:e9bb9f88204a81d8b88ec75f",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/boluoji/articles/2ca5883f7956bd",
+        "title": "判断特化モデル JEV1.14 を分類パイプラインに組み込むには？設計・検証の実例",
+        "author": "rhythm",
+        "published_at": "2026-11-09T10:32:20.118000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:77750305611a0c83d374f1d9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture",
+          "llm",
+          "AIエージェント",
+          "harnessengineering"
+        ],
+        "url": "https://zenn.dev/tappers/articles/ai-labo-e07-code-mode-workflows",
+        "title": "AIエージェントの途中放棄（Goal Drift）を防ぐ！「チャット内反復」vs「動的スクリプト生成（Code-Mode）」実機比較",
+        "author": "tappers",
+        "published_at": "2026-11-09T10:10:24.351000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:64e9cc2cc2d97556fd89f391",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "業務改善",
+          "Claude",
+          "中小企業",
+          "社内導入"
+        ],
+        "url": "https://zenn.dev/aigakari_jp/articles/bf3ea8f9b9ce0d",
+        "title": "引退が近いベテランの考え方を、AIエージェントに残したい ― 小さな会社の経験知の残し方（計画編）",
+        "author": "ちいさな会社のAI係",
+        "published_at": "2026-11-09T10:00:05.322000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:140d0aa80e505342e834bf1e",
         "source": "zenn",
@@ -26159,6 +26203,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5d3cea1faa87f06966e8cbf6",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Security",
+          "シークレット管理",
+          "AIエージェント",
+          "Git"
+        ],
+        "url": "https://qiita.com/Tomcat-zhou/items/2aa6afaa12175471d824",
+        "title": "Claude Codeの承認ルールから秘密を掃除する手順｜settings.local.jsonを棚卸しして、pre-commitで止める",
+        "author": "Tomcat-zhou",
+        "published_at": "2026-11-09T18:46:18+09:00",
+        "excerpt": "title : \" Claude Codeの承認ルールから秘密を掃除する手順｜settings.local.jsonを棚卸しして、pre-commitで止める\" tags : - ClaudeCode - セキュリティ - Git - シークレット管理 - Python private : false はじめに Claude Codeで「Yes, and don't ask again」を選ぶと、承認したコマンドが .claude/settings.local.json にallowルールとして保存されます※1。コマンドにパスワードを直書きしていると、その値もファイルに残ります。 Apiiroの報告では、GitHub上の同ファイル104,185件のうち1,122件に秘密が含まれていました※2。経緯と数字の読み方は、同じ日にZennへ書いた記事にまとめています。この記事では、手を動かす部分だけを扱います。 やることは次の4つです。 手元のリポジトリを棚卸しする 秘密入りのルールを見つけて、書き換え案を出す pre-commitでコミットを止める す"
+      },
+      {
         "id": "qiita:5ebaed9b984d9fe03dcad389",
         "source": "qiita",
         "author_tags": [
@@ -36401,6 +36461,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:8ac4185c45764a1c873db3e6",
+        "source": "medium",
+        "author_tags": [
+          "pie-time",
+          "cybersecurity",
+          "picoctf",
+          "cylab",
+          "binary-exploitation"
+        ],
+        "url": "https://medium.com/@sobatistacyber/cylab-writeup-pie-time-aade03ecdaa3",
+        "title": "CyLab Writeup: PIE TIME",
+        "author": "SoBatista",
+        "published_at": "2026-11-09T10:33:52+00:00",
+        "excerpt": "Welcome back, hackers! In this challenge, we’re getting into some binary exploitation, and the challenge makes sure we know what we’re up… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b58a4cbcf2d55d8e9fca9271",
+        "source": "medium",
+        "author_tags": [
+          "malware-analysis",
+          "soc-analyst",
+          "flarevm",
+          "remnux",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@benitanwabueze72/how-to-set-up-flare-vm-and-remnux-2c0954896052",
+        "title": "How to Set Up Flare-VM and REMnux",
+        "author": "Benita N.",
+        "published_at": "2026-11-09T10:04:11+00:00",
+        "excerpt": "A Beginner-Friendly Malware Analysis Lab Setup Guide Continue reading on Medium »"
+      },
       {
         "id": "medium:c752b679990aa4c4261d930c",
         "source": "medium",
