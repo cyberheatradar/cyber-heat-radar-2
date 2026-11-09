@@ -1,9 +1,101 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T13:40:02.912584+00:00",
+  "source_snapshot_generated_at": "2026-11-09T14:40:02.887427+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:7290c8cde55d71f540f16ee5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Node.js",
+          "OSS",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-041-openmausbot-claude-cli",
+        "title": "Grok Botの代わりに、手元のClaude Code CLIをそのままチャットのバックエンドにしてみた",
+        "author": "matsu",
+        "published_at": "2026-11-09T14:23:01.018000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e3bd80ffa9127d807e739e3f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "codereview",
+          "Vibe Coding"
+        ],
+        "url": "https://zenn.dev/shibatamago_dev/articles/1cd93992047562",
+        "title": "AIが書いたコードの「もっともらしい欠陥」を見抜く練習ツールを作ってみた",
+        "author": "shiba-tamago",
+        "published_at": "2026-11-09T14:15:58.537000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cfdb067c8e49dc53195fb58c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Blender",
+          "3DCG",
+          "PLATEAU",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/nakanishitf/articles/5c563606266e0c",
+        "title": "PLATEAU × Blender × Museで実在空間を映像にする。自動化の中身と応用の入口",
+        "author": "T.N.",
+        "published_at": "2026-11-09T14:15:19.035000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:937bea6e787bbb3b8bf0e789",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Rust",
+          "Security"
+        ],
+        "url": "https://zenn.dev/garasubo/articles/72340052cdd871",
+        "title": "脆弱性問題を解決するためにRustに移行するべきなのか？",
+        "author": "ガラスボー",
+        "published_at": "2026-11-09T13:51:19.631000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bd380677cb1713bd85ad41f5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Honeypot",
+          "Cyber Security"
+        ],
+        "url": "https://zenn.dev/t4n4bot4/articles/9546e8132b8398",
+        "title": "Internet Observation Report --- 2026年10月",
+        "author": "t4n4bot4",
+        "published_at": "2026-11-09T13:51:18.918000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0232b0b323b68ac4a48c5a40",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "codereview",
+          "llm",
+          "Claude Code",
+          "subagent"
+        ],
+        "url": "https://zenn.dev/kokagex/articles/75f89df3b007cc",
+        "title": "2 つのエージェントで異なる方向性から検証を行う",
+        "author": "こかげ",
+        "published_at": "2026-11-09T13:41:19.600000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:93399a78d5178978f204467d",
         "source": "zenn",
@@ -26532,6 +26624,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c5748368f36cc11672b03343",
+        "source": "qiita",
+        "author_tags": [
+          "CORS",
+          "JavaScript",
+          "HTTP",
+          "フロントエンド",
+          "Security"
+        ],
+        "url": "https://qiita.com/miruky/items/09cdd3d53bc9e96e92ce",
+        "title": "【やさしく】CORSについて理解する",
+        "author": "miruky",
+        "published_at": "2026-11-09T23:04:54+09:00",
+        "excerpt": "はじめに こんばんは、mirukyです。 ブラウザからAPIを呼んだら、コンソールに赤い英文が出る。なのにAPIのログを確かめると、ちゃんと 200 OK で返している。CORSのエラーは、この食い違いがほどけると、あとは芋づる式に理解できます。 今回は、手元に小さなカフェの注文アプリを立てて、わざとCORSエラーを出しながら、名前の由来から回避の方法まで確かめていきます。いきましょう！ 目次 CORSの正式名称と呼び方 オリジンはURLのどこまでか 同一オリジンポリシーと、CORSが生まれた理由 検証に使うカフェの注文アプリ CORSエラーは、届いた応答をブラウザが渡さない状態 Access-Control-Allow-Originを1行足すと受け取れる JSONのPOSTでは、先にプリフライトが飛ぶ Cookie付きのリクエストで増える2つの条件 サブドメインが違うと、オリジンは別でもサイトは同じ CORSを回避する実例 1. CORSの正式名称と呼び方 CORSはCross-Origin Resource Sharingの頭文字です。オリジ"
+      },
+      {
         "id": "qiita:909bccb505491588a58f7c38",
         "source": "qiita",
         "author_tags": [
@@ -36885,6 +36993,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:653b30ded29fb37ed5bec6b0",
+        "source": "medium",
+        "author_tags": [
+          "malware",
+          "encryption",
+          "dns",
+          "cybersecurity",
+          "vpn"
+        ],
+        "url": "https://medium.com/@MarkKreitzman/efani-safe-black-seal-protection-a-more-complete-approach-to-mobile-security-94758dbf268e",
+        "title": "Efani SAFE + Black Seal Protection: A More Complete Approach to Mobile Security",
+        "author": "Mark Kreitzman",
+        "published_at": "2026-11-09T14:18:07+00:00",
+        "excerpt": "Your mobile phone is connected to almost everything you do. It is used for calls, messages, banking, business, account recovery… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4d0499b2ce17f5ce0280acd7",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "vulnerability",
+          "threat-intelligence",
+          "cyberattack",
+          "osint"
+        ],
+        "url": "https://medium.com/ti-mindmap-hub-research/ti-mindmap-hub-weekly-threat-brief-issue-42-47b6c9721663",
+        "title": "TI Mindmap Hub | Weekly Threat Brief — Issue #42",
+        "author": "Antonio Formato",
+        "published_at": "2026-11-09T14:08:53+00:00",
+        "excerpt": "Supermarket Freezers Become a Cyber-Physical Target Across Europe, an AI Agent Goes From a GitHub Secret to Key Vault in Five Minutes, and… Continue reading on TI Mindmap HUB Research »"
+      },
+      {
+        "id": "medium:dc1b3abc6d83c0159362d03b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-service",
+          "cybersecurity-fullerton",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@xonicwavesuport2025/cybersecurity-service-fullerton-7-ways-to-protect-your-business-before-a-breach-happens-b47f856c45a2",
+        "title": "Cybersecurity Service Fullerton: 7 Ways to Protect Your Business Before a Breach Happens",
+        "author": "Xonicwave support",
+        "published_at": "2026-11-09T14:01:03+00:00",
+        "excerpt": "Many small business owners assume hackers only go after big corporations. Continue reading on Medium »"
+      },
       {
         "id": "medium:cdaeda5ac9839ccaae05aad7",
         "source": "medium",
