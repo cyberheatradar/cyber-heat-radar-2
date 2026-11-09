@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T19:40:02.717442+00:00",
+  "source_snapshot_generated_at": "2026-11-09T20:40:02.870513+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:bcef5ccd05c2131cc00ef02f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "datascience",
+          "Claude",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/claude-managed-agents-nightly-review-monitoring",
+        "title": "claude managed agentsで、星1〜2の新着飲食店レビューを毎晩パトロールする",
+        "author": "EveryInfra",
+        "published_at": "2026-11-09T20:34:58.151000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b733772166bf5fcfd4feca86",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "CodeRabbit",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sk8jp/articles/40fa8d6f466924",
+        "title": "CodeRabbit の再レビューを Fable に任せる、Claude Code のスキルを作った",
+        "author": "YAZ",
+        "published_at": "2026-11-09T20:07:00.852000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:81592c9464d83f19ce3f5a40",
         "source": "zenn",
@@ -26747,6 +26779,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:440c87c2636c8a6b569003f5",
+        "source": "qiita",
+        "author_tags": [
+          "Node.js",
+          "axios",
+          "Security",
+          "AI",
+          "JavaScript"
+        ],
+        "url": "https://qiita.com/supportapp3/items/2c356f155beca1fbf153",
+        "title": "axios のエラーを console.log(err) すると API キーが丸見え：redact は JSON.stringify には効いたが console.log には効かなかった（実機確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-10T05:15:32+09:00",
+        "excerpt": "結論 Node.js の axios で 401 などのエラーを catch (err) して console.log(err) すると、 Authorization: Bearer ... の値がそのまま出ました （2026-11-10、Node.js 24.22.1・axios 1.21.1、ダミー値・ローカルサーバーで実機確認）。1回のエラーで出力は約1,000行、キーは7か所に出ました（ depth: 4 で表示した場合）。 console.log(err) の既定の深さでも、キーは3か所に出ました。 JSON.stringify(err) でも出ます。 err.toJSON() に config.headers が入っているためです。 err.message だけなら Request failed with status code 401 で、キーは出ませんでした。 axios 1.21.1 には redact という設定があり、 redact: ['authorization'] を付けると JSON.stringify(err) で"
+      },
+      {
         "id": "qiita:f4378e4ab3c86925708551f1",
         "source": "qiita",
         "author_tags": [
@@ -37129,6 +37177,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:dce6539aa13d871c0f40f8ea",
+        "source": "medium",
+        "author_tags": [
+          "authentication",
+          "radius",
+          "network-protocols",
+          "cybersecurity",
+          "network-security"
+        ],
+        "url": "https://medium.com/@egebulut_64732/blast-radius-and-what-replaces-radius-over-udp-62c62165092a",
+        "title": "Blast-RADIUS, and what replaces RADIUS over UDP",
+        "author": "Ege Bulut",
+        "published_at": "2026-11-09T20:17:33+00:00",
+        "excerpt": "RADIUS has carried the fix for Blast-RADIUS since June 2000. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:49f3e9905ba5c670f60eaafb",
+        "source": "medium",
+        "author_tags": [
+          "threat-detection",
+          "detection-engineering",
+          "atomic",
+          "active-directory",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@fkeremoner/01-atomic-domain-account-discovery-05bbe790197c",
+        "title": "01 — Atomic Domain Account Discovery",
+        "author": "Kerem",
+        "published_at": "2026-11-09T20:17:33+00:00",
+        "excerpt": "Bir Active Directory ortamında keşif yapmak için gelişmiş saldırı araçlarına her zaman ihtiyaç yoktur. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5aca4b031712d8604d8208ab",
+        "source": "medium",
+        "author_tags": [
+          "software-development",
+          "authentication",
+          "cybersecurity",
+          "web-development",
+          "software-engineering"
+        ],
+        "url": "https://medium.com/underlying-logic/passkeys-are-replacing-passwords-the-hard-part-is-what-happens-after-login-36a203722714",
+        "title": "Passkeys Are Replacing Passwords. The Hard Part Is What Happens After Login.",
+        "author": "Bestte",
+        "published_at": "2026-11-09T20:01:01+00:00",
+        "excerpt": "Phishing-resistant authentication is a major improvement. Account recovery, device changes, and fallback mechanisms still deserve serious… Continue reading on Underlying Logic »"
+      },
+      {
+        "id": "medium:ff3a84d33f31e46a8e38676d",
+        "source": "medium",
+        "author_tags": [
+          "incident-response",
+          "information-security",
+          "linux",
+          "command-line",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@xpert4cyber/linux-wget-command-cheat-sheet-download-verify-detect-abuse-52e6434d08d6",
+        "title": "Linux wget Command Cheat Sheet: Download, Verify & Detect Abuse",
+        "author": "Xpert4Cyber",
+        "published_at": "2026-11-09T19:38:50+00:00",
+        "excerpt": "📥 Every Linux admin has typed wget thousands of times. Few have looked at what it leaves behind. Continue reading on Medium »"
+      },
       {
         "id": "medium:974ecd572ab9895799393572",
         "source": "medium",
