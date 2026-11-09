@@ -1,9 +1,100 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T10:40:02.807062+00:00",
+  "source_snapshot_generated_at": "2026-11-09T11:40:06.821746+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:1dbdfdcc93d7343a28052a39",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "multiagent",
+          "AIエージェント",
+          "osfoundry"
+        ],
+        "url": "https://zenn.dev/tauchi/articles/71a02eb36be21a",
+        "title": "osFoundryのAgent teamとは?1体のエージェントとの使い分けと活用例",
+        "author": "tauchiiii",
+        "published_at": "2026-11-09T11:39:24.540000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3fa58a06fe1dcf289f87c852",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Zenn",
+          "ポエム"
+        ],
+        "url": "https://zenn.dev/yk_studio/articles/why-ai-written-articles-feel-ai",
+        "title": "「AIが書いた記事」が嫌われる理由は、AIが書いたことではなかった。人気記事を実地で調べて分かったこと",
+        "author": "YK Studio",
+        "published_at": "2026-11-09T11:30:08.044000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dfc62af278501adff3eb5fad",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Model Context Protocol",
+          "EDINET",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/tracer0tong/articles/a2a3d3305f7cc2",
+        "title": "手順で学ぶ Kabuken MCP: 航行警報・BISエンティティリスト・原油依存度・企業拠点を取得する",
+        "author": "Yury Leonychev",
+        "published_at": "2026-11-09T11:22:21.951000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ca1ed8afe8ab49c4510287f7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ネタ",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/giana12th/articles/cd72716c90d8ee",
+        "title": "Geminiの鳴き声は「ジェミ！」",
+        "author": "Giana12th",
+        "published_at": "2026-11-09T11:04:58.789000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d22110bb906914ac999d2f2f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Agent",
+          "Claude",
+          "Home Server"
+        ],
+        "url": "https://zenn.dev/hifn/articles/home-server-ai-secretary-dot",
+        "title": "常時稼働のAI秘書を自宅のノートPCで5か月動かして分かったこと【OpenAI dotsと比べて】",
+        "author": "hi-fn",
+        "published_at": "2026-11-09T11:00:05.159000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f4829e041e7998289b173445",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Docker",
+          "Python",
+          "RunPod",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/fkky/articles/fe03f88a6ac650",
+        "title": "音声つき動画生成AI「MiniMax H3」をRunPod Serverlessで1本約12円｜公式API料金の約1/5",
+        "author": "ふっきー",
+        "published_at": "2026-11-09T10:55:07.857000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:e9bb9f88204a81d8b88ec75f",
         "source": "zenn",
@@ -26203,6 +26294,53 @@
     ],
     "qiita": [
       {
+        "id": "qiita:16d957ec3235da6c4f6a7255",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "認証",
+          "多段階認証",
+          "多要素認証",
+          "パスキー"
+        ],
+        "url": "https://qiita.com/kishimin/items/697a850f0234ee8782f3",
+        "title": "多段階認証と多要素認証の違いを整理する ― メール認証とパスキーを例に",
+        "author": "kishimin",
+        "published_at": "2026-11-09T20:25:39+09:00",
+        "excerpt": "はじめに 去年、情報セキュリティの勉強をしたこともあり、用語の定義には少し敏感になっています。 そんな中、去年から今年にかけて、「二段階認証」と「二要素認証」という言葉について、もやもやすることがありました。 別のチームで、「二段階認証」と書かれているものを「二要素認証」と言ったことに対して、指摘しているのを耳にしました。 ただ、自分としては「二要素認証」の方が合っているんじゃないか？と思い、少しもやもやしていました。 また、最近パスキーの実装について話が出た際にも、「二要素認証」という言葉が出てきて、そもそもパスキーは二要素認証なのか？と疑問に思いました。 そこで、二段階認証と二要素認証のそれぞれのもとになる「多段階認証」と「多要素認証」という考え方があります。 今回は、この2つの定義や違いを整理し、具体例についても考えてみようと思います。 多段階認証・多要素認証 まずは、IPAの資料をもとに、多段階認証と多要素認証の定義を確認してみます。 以下の画像は、IPAが公開している資料から引用したものです。 出典： 1 （12ページ） 多段階認証とは"
+      },
+      {
+        "id": "qiita:92f477df07805c72e8c64560",
+        "source": "qiita",
+        "author_tags": [
+          "Go",
+          "OSS",
+          "ゼロトラスト",
+          "Security",
+          "ランサムウェア"
+        ],
+        "url": "https://qiita.com/shinkusanagi/items/646303f3501f589f3ca8",
+        "title": "一人の会社でも Claude Mythos が使えるようになった ― CVP の Defense Access が承認されるまで",
+        "author": "shinkusanagi",
+        "published_at": "2026-11-09T20:25:06+09:00",
+        "excerpt": "前回、自社で運用するゼロトラストネットワーク「Lantern DSSE」をオープンソースで公開したことを書きました。 前編： 自社で運用するゼロトラストネットワーク「Lantern DSSE」をオープンソースで公開しました DSSE は、ZTNA や SWG を、自分たちで用意したサーバーの上で動かすためのソフトウェアです。作っているのはランタンネットワークスという会社で、社員は私一人です。設計も実装も試験も、AI と一緒に進めてきました。 今回は、その開発の途中で起きたことを書きます。Anthropic の Cyber Verification Program（CVP）に申請し、1回目は承認されませんでした。それでも12日後に、Defense Access として承認されました。承認のあとは、Claude Mythos も使えるようになりました。 申請した側が日本語で書いた記録は、まだ少ないように見えます。断られたところも含めて、ここに書いておきます。 この記事で書くこと セキュリティ製品を作っていて、Claude の安全装置にどう止められたか"
+      },
+      {
+        "id": "qiita:8f8b13c25de93835e9575bc3",
+        "source": "qiita",
+        "author_tags": [
+          "geo",
+          "LLMO",
+          "AEO",
+          "Security"
+        ],
+        "url": "https://qiita.com/my-agent-works/items/924b7bc4a74dee484650",
+        "title": "パス設定の思い込みが招く、見えないセキュリティホール",
+        "author": "my-agent-works",
+        "published_at": "2026-11-09T20:04:27+09:00",
+        "excerpt": "ウェブサイトや管理画面へのアクセス制限。あなたは「上位パスを設定すれば、その下にあるサブパスも自動的に保護される」と安心していませんか？実は、その思い込みがあなたのサービスに、見えないセキュリティホールを開けてしまう可能性があります。 中小企業の経営者、広報、マーケティング担当の皆さんにとって、サービスのセキュリティは事業継続の生命線です。この問題は、特に新しい機能やAPIパスを追加する際に、開発チームとセキュリティ、あるいは運用チーム間の連携不足から起こりやすいものです。 「/admin/*」で安心していませんか？アクセス制御の盲点 多くのアクセス制御システムは、 /admin のようにパスを指定することで、その配下へのアクセスを制限できると思われがちです。しかし、Cloudflare Accessのようなシステムは、設定されたパスを完全一致で判定することがあります。 これは何を意味するかというと、もしあなたが /admin というパスにアクセス制御を設定した場合、 /admin は保護されますが、後から新設された /admin/new-fea"
+      },
+      {
         "id": "qiita:5d3cea1faa87f06966e8cbf6",
         "source": "qiita",
         "author_tags": [
@@ -36461,6 +36599,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a52b71d818b938ddb0993f35",
+        "source": "medium",
+        "author_tags": [
+          "prompt-injection-attack",
+          "cybersecurity",
+          "ai-security",
+          "llm",
+          "owasp"
+        ],
+        "url": "https://av3sk77.medium.com/owasp-llm-top-10-2025-ai-security-risks-with-real-examples-5d677b8d346a",
+        "title": "OWASP LLM Top 10 (2025): AI Security Risks with Real Examples",
+        "author": "Aves Ahmed Khan",
+        "published_at": "2026-11-09T11:28:37+00:00",
+        "excerpt": "A beginner’s guide to the 10 biggest LLM security risks, from prompt injection to data leaks and jailbreaks, with real examples and fixes Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2679845b81fcef9e23b8e00b",
+        "source": "medium",
+        "author_tags": [
+          "beginner",
+          "pentesting",
+          "web-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@saarathiacademy/what-vapt-means-before-you-start-cybersecurity-training-in-nepal-170306d266f3",
+        "title": "What VAPT means, before you start cybersecurity training in Nepal",
+        "author": "Saarathi Academy",
+        "published_at": "2026-11-09T11:05:35+00:00",
+        "excerpt": "VAPT stands for Vulnerability Assessment and Penetration Testing. It is two different jobs in one word. The first finds possible security… Continue reading on Medium »"
+      },
       {
         "id": "medium:8ac4185c45764a1c873db3e6",
         "source": "medium",
