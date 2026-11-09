@@ -1,9 +1,81 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T04:40:02.749217+00:00",
+  "source_snapshot_generated_at": "2026-11-09T05:40:03.860307+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3b6e69be701b7049ef82a0e9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "optimization",
+          "Quantum computing"
+        ],
+        "url": "https://zenn.dev/quanmatic/articles/dee502df541429",
+        "title": "INFORMS Annual Meeting 2026 参加レポート：AI・量子・GPUで変わる数理最適化の最前線",
+        "author": "Hosoda",
+        "published_at": "2026-11-09T05:26:09.700000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6cc1c9648fc3743204b49467",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "研究",
+          "hackathon",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/genf740/articles/built-with-claude-japan-2026-tsugumi",
+        "title": "Built with Claude: Japan 2026 に出場した件",
+        "author": "gen740",
+        "published_at": "2026-11-09T05:14:36.621000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:02042bbf71f515ee3badc598",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/aqiu/articles/1aec0324697503",
+        "title": "「何から始める？」を減らす。AIを使った朝の制作ルーティン",
+        "author": "aqiu",
+        "published_at": "2026-11-09T05:00:05.168000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0be085484767dd211be1f92b",
+        "source": "zenn",
+        "author_tags": [
+          "PostgreSQL",
+          "Security",
+          "extension",
+          "Supabase",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/seekseep/articles/supabase-extension-versions-outdated",
+        "title": "Supabaseの「拡張バージョンが古い」警告 - 既知の脆弱性を突かれる前に上げる",
+        "author": "よこやまたく",
+        "published_at": "2026-11-09T04:48:16.122000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e91b33814ef8f567048f13f4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/tessei/articles/7f694394093939",
+        "title": "RAGとは何なのか？ LLMに社内データを活用させる仕組み",
+        "author": "tessei",
+        "published_at": "2026-11-09T04:47:47.806000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:431f3ece6dc67933bda00a93",
         "source": "zenn",
@@ -25705,6 +25777,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3ffdb56cede9f2c855645b0e",
+        "source": "qiita",
+        "author_tags": [
+          "websocket",
+          "Python",
+          "アーキテクチャ",
+          "Security",
+          "パフォーマンス"
+        ],
+        "url": "https://qiita.com/TOAI/items/ce7387e11e18a880e20d",
+        "title": "WebSocket切断時の再接続ループを防ぐジッター検証と設計",
+        "author": "TOAI",
+        "published_at": "2026-11-09T14:08:05+09:00",
+        "excerpt": "WebSocket切断時の再接続ループが招く接続枯渇の落とし穴：リトライストームを防ぐジッター検証とレートリミット設計 1. 序章：静まり返った夜に起きた「ファイルディスクリプタ枯渇」 深夜のステージング環境。数千台規模のクライアントを模した負荷テストツールからシナリオを実行した直後、バックエンドサーバーのメトリクスが異常な急上昇を示し、ログは一瞬でエラーの海に沈みました。 OSError: [Errno 24] Too many open files 同時に、カーネルログには TCP: request_sock_TCP: Possible SYN flooding on port 8080. Dropping request. が記録され、ヘルスチェック用のHTTPエンドポイントすら応答不能（504 Gateway Timeout）に陥りました。 原因を精査したところ、モバイル環境特有の無線瞬断をトリガーとして、数千台のクライアントが一斉にコネクション切断（Disconnect）を検知し、**待機時間（Backoff）やランダムなゆらぎ（Jit"
+      },
+      {
         "id": "qiita:14eaf51f134247331553fdb0",
         "source": "qiita",
         "author_tags": [
@@ -35802,9 +35890,57 @@
         "author": "mkuwan",
         "published_at": "2026-08-05T08:35:24+09:00",
         "excerpt": "【次世代AI開発：第9回（おまけ①）】NeMo GuardrailsとEvaluatorによるリアルタイム入力検知・安全ガード 【 新連載：MCP・高度RAG・自律エージェントの現場設計論 】 前回（第8回）： 【次世代AI開発：第8回】ローカルSLM×vLLM：Phi-4 / Qwen2.5 を用いたAPIコスト0円の爆速推論環境 1. イントロダクション（本記事のねらいと到達目標） 本連載のメインパート（第1回〜第8回）では、MCPによるツール連携、Context Engineering、GraphRAG、Self-Healing Agent、そしてローカルvLLM環境の構築まで、次世代AIエージェントシステムのフルスタックを解説してきました。 しかし、これらのAIシステムを顧客向けサービスや企業の商用環境として公開・デプロイするにあたり、最も恐ろしいセキュリティリスクが立ち塞がります。それが 「 プロンプトインジェクション（Jailbreak / 脱獄攻撃） 」 と 「 有害・不適切な出力・機密情報漏洩 」 です。 悪意あるユーザーが「これ"
+      },
+      {
+        "id": "qiita:59c8383d7624a1226ec7effe",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "Laravel",
+          "php2shell"
+        ],
+        "url": "https://qiita.com/hc_terashima/items/01df520adea7573c9eeb",
+        "title": "PHP2Shell、放置していませんか？PHPの版の確かめ方と、本番を止めて翌日戻した記録",
+        "author": "hc_terashima",
+        "published_at": "2026-05-27T16:47:10+09:00",
+        "excerpt": "PHPの緊急の脆弱性、通称PHP2Shellの修正が2026年10月21日に公開されました。未修正のPHPが動いているサーバーは、認証なしで外部からプログラムを実行されるおそれがあります。サイトを書き換えられたり、問い合わせの個人情報やデータベースの中身を盗まれたりしかねないということです。攻撃の試行は、公開の前から観測されています。 私たち株式会社オートクチュールも、担当する本番のAPIを修正版の公開から約2時間半でインターネットから切り離し、約16〜17時間止めて修正しました。修正の手段がないPHP 7.2の旧サーバーは再開せず、廃止しました。再開の直後に未修正の版が約7分半応答してしまった失敗も含めて、その手順を公開します。 まだ確かめていない方 は、次の節から読んでください。Linuxのサーバーなら、確認は数分で終わります 止めたまま戻せていない方 は、「止めたあとは、この順番で戻します」の節から読んでください 発注元とサービスの特定につながる情報は伏せています。版と数値は2026年11月9日時点のものです。 まず、動いているPHPに修正"
       }
     ],
     "medium": [
+      {
+        "id": "medium:f9455a1541a4a4f4470dbb20",
+        "source": "medium",
+        "author_tags": [
+          "devops",
+          "open-source",
+          "information-security",
+          "cybersecurity",
+          "linux"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/ten-years-hidden-in-musl-lessons-from-the-openssh-sshole-flaw-cve-2026-123158-2b43d63d1a51",
+        "title": "Ten Years Hidden in musl: Lessons From the OpenSSH SSHole Flaw (CVE-2026-123158)",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-09T05:20:47+00:00",
+        "excerpt": "We usually think of an account without a password as the safest kind: there is nothing to guess. The OpenSSH flaw known as SSHole turned… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b05768ac93fdfe1f7d172813",
+        "source": "medium",
+        "author_tags": [
+          "file-upload-vulnerability",
+          "web-security",
+          "application-security",
+          "ethical-hacking",
+          "cybersecurity"
+        ],
+        "url": "https://amarachick.medium.com/client-side-vs-server-side-file-upload-validation-how-a-simple-security-misconfiguration-can-lead-418591fd84ce",
+        "title": "Client-Side vs Server-Side File Upload Validation: How a Simple Security Misconfiguration can Lead…",
+        "author": "Amarachi Onyekachi",
+        "published_at": "2026-11-09T05:07:31+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
       {
         "id": "medium:4aae3791e3fa9cb5ec68c8ba",
         "source": "medium",
