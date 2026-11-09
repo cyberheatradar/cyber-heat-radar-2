@@ -1,9 +1,100 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-09T00:40:03.097798+00:00",
+  "source_snapshot_generated_at": "2026-11-09T01:40:03.553246+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:1bcbaae8537928f28cd2f793",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "脆弱性",
+          "CVE",
+          "NVD",
+          "cvss"
+        ],
+        "url": "https://zenn.dev/norman6464/articles/cve-2026-19868-two-cvss-scores-who-scored",
+        "title": "同じ CVE に CVSS が 2 つある：SonicWall CVE-2026-19868 の 7.1 と 7.5 は誰が付けたか",
+        "author": "tekuteku",
+        "published_at": "2026-11-09T01:37:13.326000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:79b2fbc213ab7d0f125310a1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "Claude",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sktt_panda/articles/claude-code-2026-11-headless-exit-ultrathink",
+        "title": "Claude Code 2.1.309〜318まとめ：claude -pが黙って成功しなくなり、ultrathinkはxhighに",
+        "author": "サクッとぱんだ",
+        "published_at": "2026-11-09T01:15:14.889000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:632209792c039f951180d51f",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "CVE",
+          "llm",
+          "Agent",
+          "DataRobot"
+        ],
+        "url": "https://zenn.dev/datarobotjp/articles/3d450781e9e77b",
+        "title": "Agent Gap Analysis：AI エージェントの本番準備度を診断する DataRobot のスキル",
+        "author": "小川幹雄",
+        "published_at": "2026-11-09T01:13:05.062000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ecf655c20631ce88e26868ab",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "Claude",
+          "pentest",
+          "shannon"
+        ],
+        "url": "https://zenn.dev/arm_techblog/articles/9c5a29e37d1522",
+        "title": "Anthropicから毎月もらえるAPIクレジットで、AIペンテストツールShannonを回してみた",
+        "author": "Kyosuke Takayama",
+        "published_at": "2026-11-09T01:06:50.892000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dd48397bae56e0c3ac5b40e3",
+        "source": "zenn",
+        "author_tags": [
+          "Security"
+        ],
+        "url": "https://zenn.dev/hinoshiba/articles/securitymemo_20261101",
+        "title": "2026/11/01 週 セキュリティニュースメモ",
+        "author": "hinoshiba",
+        "published_at": "2026-11-09T00:53:26.821000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:81ee134fa530e85217eb13a6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Security",
+          "testing"
+        ],
+        "url": "https://zenn.dev/jinsights/articles/e2637428ace7c1",
+        "title": "AI応答ログのハッシュ連鎖は、モデルの出自を証明しない──FlashProveとの境界をPythonで試す",
+        "author": "Hiromitsu Jin@jaxia_nexus",
+        "published_at": "2026-11-09T00:52:11.032000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:b04069cd21003a4dd6e33945",
         "source": "zenn",
@@ -25290,6 +25381,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6dd7ffcf0e4f69b42c395935",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "予約システム",
+          "個人開発",
+          "運用"
+        ],
+        "url": "https://qiita.com/ren_3rd0/items/c2daadeecd5be1476065",
+        "title": "PHPの重大な脆弱性が出たとき、予約サービスはサロンに何を伝えるべきか。現役理容師エンジニアの現場目線",
+        "author": "ren_3rd0",
+        "published_at": "2026-11-09T09:50:05+09:00",
+        "excerpt": "この記事は、Zennに公開した記事の転載です。元記事： https://zenn.dev/ren_3rd/articles/2ea11020e3d9d5 1. PHP問題とは何だったのか 2026年10月21日（日本時間23時）、PHPの開発チームが重大な脆弱性2件を修正したセキュリティリリースを公開しました。前日には「明日、重大な修正を出す」という予告が出ていて、その時点で大きな騒ぎになりました。 公式の告知から要点だけ抜き出すと、こうです。 深刻度は2件ともCVSS v4.0で9.2（CVE-2026-109618、CVE-2026-109619） 影響を受けるのは、Webのリクエストを処理しているすべてのPHP環境。ログインしていない攻撃者からでも攻撃できることが実証されている 修正版は PHP 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35 PHP 8.1以前は、PHPの開発チームからの更新版は出ない（ソースから入れる人向けの最小限の修正は提供された） 公式は「完全な緩和策はなく、更新が唯一の安全な選択」と書いている "
+      },
+      {
         "id": "qiita:afacfb5bfe6d3b7c2c0abcce",
         "source": "qiita",
         "author_tags": [
@@ -35328,6 +35435,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:bc761628aa0773e7c4cc43cb",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme",
+          "hacking",
+          "cybersecurity",
+          "penetration-testing",
+          "apache-tomcat"
+        ],
+        "url": "https://medium.com/@zodiak0x6/apache-tomcat-service-exploit-cve-2020-1938-thm-writeup-51508209f630",
+        "title": "Apache TomCat Service Exploit [CVE-2020–1938 ] — THM Writeup",
+        "author": "ZODiAK",
+        "published_at": "2026-11-09T00:43:36+00:00",
+        "excerpt": "Lab Link : TomGhost Continue reading on Medium »"
+      },
       {
         "id": "medium:37a8c95dd70de293dfe929e7",
         "source": "medium",
