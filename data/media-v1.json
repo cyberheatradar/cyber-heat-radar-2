@@ -1,9 +1,54 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T20:40:02.537857+00:00",
+  "source_snapshot_generated_at": "2026-11-10T21:40:02.665131+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:1d2d1d5035b3ba7273dc1eb0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mappy55/articles/magi-games-devlog-10",
+        "title": "AI の見積もりは当たるようになった。それでも「解けてしまう」ゲームが公開される（MAGI Games 開発記 #10）",
+        "author": "mappy",
+        "published_at": "2026-11-10T21:07:59.650000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:188afe055e3b1d79368fd5a8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "キャリア",
+          "Security",
+          "OpenAI",
+          "TikTok"
+        ],
+        "url": "https://zenn.dev/talks_tldr_jp/articles/tldr41-altman-summary",
+        "title": "Sam Altman が Stanford で語った AI と仕事と学び（#41 要点解説）",
+        "author": "管理人K",
+        "published_at": "2026-11-10T21:00:10.846000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0aaa3d3e78a35c9660848d9c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "idea",
+          "llm"
+        ],
+        "url": "https://zenn.dev/onelifevibe/articles/902e398d162cc5",
+        "title": "少数意見を消さない討論設計 ― 多数決の前に論点を残す方法",
+        "author": "OneLifeVibe",
+        "published_at": "2026-11-10T20:54:01+00:00",
+        "excerpt": "はじめに 議論で多数派の意見が決まると、少数派が挙げていた論点は記録から消えやすくなります。しかし、後から振り返ると、その少数意見の中に重要なリスクや見落としが含まれていた、ということは少なくありません。 少数意見が消える理由 理由の一つは、結論だけを保存する形式です。賛成か反対か、採択か否決かだけが残ると、途中で出た疑問や条件付きの賛成は要約の段階で削られます。もう一つは、立場の違いが前提の違いとして整理されないまま、表現の強さで印象が決まってしまうことです。 設計でできること マルチエージェント討論では、各エージェントに異なる立場と根拠の提示形式を指定できます。たとえば、..."
+      },
       {
         "id": "zenn:27a51eeb431db48c2acdae1e",
         "source": "zenn",
@@ -25080,6 +25125,36 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:71f9e18bdf37f1cff2575673",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "it",
+          "情シス",
+          "News"
+        ],
+        "url": "https://zenn.dev/hiki1114/articles/it-weekly-202610-w1",
+        "title": "2026年10月 第1週 情シス向けITニュースまとめ",
+        "author": "H.K",
+        "published_at": "2026-10-21T00:00:00+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0d7478914d62b0d286c2a14c",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "it",
+          "情シス",
+          "News"
+        ],
+        "url": "https://zenn.dev/hiki1114/articles/it-weekly-202610-w2",
+        "title": "2026年10月 第2週 情シス向けITニュースまとめ",
+        "author": "H.K",
+        "published_at": "2026-10-21T00:00:00+00:00",
+        "excerpt": ""
+      },
+      {
         "id": "zenn:17f84a8a92ac823e30be7287",
         "source": "zenn",
         "author_tags": [],
@@ -28358,6 +28433,38 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:2c068f726cdb8c0e26ed7037",
+        "source": "qiita",
+        "author_tags": [
+          "ONVIF",
+          "Python",
+          "IoT",
+          "Network",
+          "Security"
+        ],
+        "url": "https://qiita.com/anguoyang/items/7412de2e1593a3159db0",
+        "title": "ONVIFカメラ台帳は「変化に気づく」ところが本番",
+        "author": "anguoyang",
+        "published_at": "2026-11-11T06:25:44+09:00",
+        "excerpt": "LAN 内の ONVIF カメラをスキャンするのは簡単な方です。本当に役立つのは「何が変わったか」に気づくことです。カメラの入替、ファームウェア更新、プロファイルの消失、IP アドレスの移動。 onvif-scan v0.3.0 はそこを足しました。 CSV 書き出し scan --csv inventory.csv は「デバイス × プロファイル」で 1 行ずつ書き出します。面白い情報（エンコーダ options、PTZ、ソース紐付け）はプロファイル単位にあるので、デバイス単位に集約すると項目が欠けるか、集計値を捏造することになります。列は固定、UTF-8+BOM で Excel 対応、未知値は空欄、findings 列はコードのみ（詳細テキストは JSON 側）。JSON/HTML と同じ「パスワード除去済みレポート」から作るので、CSV だけ別経路でパスワードが漏れることはありません。明示指定時のみ生成します。 オフラインの差分比較 onvif-scan diff old.json new.json はスキャンも資格情報も不要で、2 回の台"
+      },
+      {
+        "id": "qiita:9690443903d2ec88bfb050bf",
+        "source": "qiita",
+        "author_tags": [
+          "自作MCP",
+          "AI",
+          "ClaudeDesktop",
+          "DesktopCommander",
+          "Security"
+        ],
+        "url": "https://qiita.com/ohisama@github/items/446359e7144f555f9a79",
+        "title": "自作MCPサーバー その6",
+        "author": "ohisama@github",
+        "published_at": "2026-11-11T06:08:39+09:00",
+        "excerpt": "概要 MCPサーバーが気になったので、調べてみた。 AIに聞いた。 サンプルやってみた。 Desktop-Commanderやる、前に。 Claude Desktopのdesktop-commanderと中島みゆきの宙船 「そのオールをAI（他者）に任せるな」という、最高に皮肉で、かつ本質を突いた大喜利（あるいは深い比喩）ですね。 一見、関係のなさそうな最先端のAIツール「Desktop Commander」と、中島みゆきさんの名曲「宙船（そらふね）」ですが、この2つを並べると、AI時代における「人間の主権（コントロール権）」を巡る非常に強烈なメッセージが浮かび上がってきます。 この2つがなぜ結びつくのか、その本質を紐解きます。 1. Desktop Commanderとは「全能のオール」 Desktop Commanderは、Claude DesktopにPCの「ターミナル（コマンド操作）」や「ファイルシステム」を直接操作させるための、いま非常に人気のある強力な拡張機能（MCPサーバー）です。 これを使うと、Claudeはチャットの枠を飛び出し"
+      },
       {
         "id": "qiita:fedae654b78cb6a4029ca9a0",
         "source": "qiita",
@@ -39289,6 +39396,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:9875ad41d9fc933c4caadcf3",
+        "source": "medium",
+        "author_tags": [
+          "cve",
+          "penetration-testing",
+          "bug-bounty-tips",
+          "bug-bounty",
+          "cybersecurity"
+        ],
+        "url": "https://0xy37.medium.com/pass-back-attack-on-wpa-enterprise-to-get-creds-562d1587df15",
+        "title": "Pass-Back Attack on WPA Enterprise to Get Creds",
+        "author": "Yara AlHumaidan (0xy37)",
+        "published_at": "2026-11-10T21:05:21+00:00",
+        "excerpt": "One of those “wait, that’s it? no re-auth?” bugs. tested this on a VP59 sitting on our bench and walked away with domain creds on Wi-Fi in… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a340b4d4769ab8bbf8df49fe",
+        "source": "medium",
+        "author_tags": [
+          "investigation",
+          "cybersecurity",
+          "digital-forensics",
+          "ai-agent",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@cyberengage.org/sentinelone-prompt-security-detect-protect-block-1ccb684dff65",
+        "title": "SentinelOne Prompt Security: Detect, Protect, Block",
+        "author": "Dean",
+        "published_at": "2026-11-10T20:35:35+00:00",
+        "excerpt": "Complete series below: Continue reading on Medium »"
+      },
       {
         "id": "medium:e8c6a606a6a7f892371f4de7",
         "source": "medium",
