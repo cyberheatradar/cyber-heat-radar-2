@@ -1,9 +1,101 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T01:40:02.608234+00:00",
+  "source_snapshot_generated_at": "2026-11-10T02:40:03.509608+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:935ec0cee88b8bc5e493076f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ChatGPT",
+          "Muse",
+          "Coding agent"
+        ],
+        "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+        "title": "退屈なCoding AgentはMuseにやらせよう",
+        "author": "watany",
+        "published_at": "2026-11-10T02:35:05.108000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:df0fe8ae41d1c2b502162554",
+        "source": "zenn",
+        "author_tags": [
+          "Windows",
+          "Security",
+          "情シス",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/chukidx_dev/articles/claude-code-block-writes-outside-workdir",
+        "title": "Claude Code の blockWritesOutsideWorkingDirectories で作業フォルダ外への書き込みを止める",
+        "author": "中小DXラボ(chukidx)",
+        "published_at": "2026-11-10T02:30:00+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0f72330f741b1f884cb525bf",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "設計",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/growl/articles/6ba923803539a0",
+        "title": "AIエージェントの送信は「ためてから出す」— アウトボックスという仕組み",
+        "author": "Nao",
+        "published_at": "2026-11-10T02:19:18.303000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:010cdfd3ecbe10dea4a7be51",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "システム設計",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/neoru/articles/0d81507b73da1d",
+        "title": "Museを迎えた翌朝、「その仕事、本当に必要だった？」と確かめることになった",
+        "author": "NEORU｜AI Business OS",
+        "published_at": "2026-11-10T02:09:55.774000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c9fa769d29f43fce134c1a58",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "OAuth",
+          "認証",
+          "OIDC",
+          "認可"
+        ],
+        "url": "https://zenn.dev/kumaik/articles/after-delegating-to-idp-what-remains",
+        "title": "IdP に任せたあと、アプリに残るもの：Cognito・Entra・OpenID Connect の記載から",
+        "author": "まいく",
+        "published_at": "2026-11-10T01:55:48.930000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:27cbba3314f2ce2a37ec81c1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "業務改善",
+          "生成 AI",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/shoyomayabot/articles/ai-ready-work-environment",
+        "title": "AIを導入したのに仕事が楽にならない本当の理由：「AIが働ける職場」をつくる4つの条件",
+        "author": "mayabot",
+        "published_at": "2026-11-10T01:50:01.710000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:e101b607558725da5bd56524",
         "source": "zenn",
@@ -27167,6 +27259,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:838619bcc1d8a18e462c0fb5",
+        "source": "qiita",
+        "author_tags": [
+          "kintone",
+          "JavaScript",
+          "Cybozu",
+          "情シス",
+          "Security"
+        ],
+        "url": "https://qiita.com/daichoya/items/ba219ceb16a4366f138a",
+        "title": "kintoneのプラグインが外部に送っていないかは、通信先のドメインだけでは分からない（2026年11月確認版）",
+        "author": "daichoya",
+        "published_at": "2026-11-10T11:35:33+09:00",
+        "excerpt": "はじめに kintoneの無料のプラグインを入れる前に、「データを外に送っていないか」を確かめたいことがあります。情シスの立場だと、聞かれたときに根拠を持って答えたいところです。 手早いのは、開発者ツールで通信先のドメインを見ることです。ところが検証環境で試すと、それだけでは見落とす送り方がありました。 確かめた手順を、筆者のプラグインのzipを例に並べます。 結果 確かめること 見る場所 1. 外部のJavaScriptを読み込んでいないか zipの中の manifest.json 2. コードに通信の処理がないか JavaScriptの中の fetch ・ XMLHttpRequest ・ kintone.proxy など 3. kintone経由で外部に送っていないか 開発者ツールの proxy/call.json の本文 4. 更新のzipが同じ鍵で作られたか プラグインID 見落としやすいのは3でした。送り先が外部でも、ブラウザから見える通信先は自分のcybozu.comです。 検証環境 kintone（2026年11月7日時点）、ki"
+      },
+      {
+        "id": "qiita:0b9c635aa308c40d94cf308d",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "MCP",
+          "Security",
+          "AIエージェント",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/hironakamura_ai/items/563f3bf6f5936cc55633",
+        "title": "FastMCPのファイル公開、相対パス判定はresolve後に",
+        "author": "hironakamura_ai",
+        "published_at": "2026-11-10T11:26:51+09:00",
+        "excerpt": "FastMCPの FileResource を今日試したら、公開フォルダ外の2件を読めた。 is_relative_to() は両方 True 。 公開範囲はリンクと .. を解決してから確かめる。字面だけで許可するのは危ないんだよね。 FileResourceで3件を読む 検証環境はmacOS、CPython 3.12.13、 mcp==1.27.1 。対象はSDK同梱の mcp.server.fastmcp で、別配布の fastmcp は対象外だ。 repro.py に保存し、 python repro.py で実行した。通信なし。すべて一時ファイルだ。 import asyncio from pathlib import Path from tempfile import TemporaryDirectory from mcp.server.fastmcp.resources import FileResource def checked_path ( root , name ): path = ( root / name ). reso"
+      },
+      {
+        "id": "qiita:cc7307505bd6c2c8ec953104",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/3f060a238bfad349bfda",
+        "title": "SafeLine WAF：ブロックページがでたあとのチェックリストとトラブルシューティング",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-10T11:20:21+09:00",
+        "excerpt": "ブロックされたあと、どこをみればよい？ SafeLine WAF のブロックページがでたら、まず「リクエストがとめられた」とわかります。ただし、それだけでは、どのようなリクエストだったのか、いつものアプリのそうさとどうつながるのかまではわかりません。 そこで、ブラウザーでおきたことをメモし、SafeLine の Web コンソールにあるアタックリストから、あてはまるレコードの detail をひらきます。このながれは、 SafeLine のアプリケーションガイド にあるものです。 この記事では、ブロックをすぐに解除しようとせず、チェックリストでひとつずつたどるトラブルシューティングをまとめます。 1. ブラウザーでおきたことをメモする ページをとじるまえに、あとでレコードとつきあわせるためのてがかりをのこします。 ブロックページがでた、おおよそのじこく ブラウザーでアクセスしたホストとパス フォームのそうしん、リンクのクリックなど、ちょくぜんのそうさ ふだんのアプリそうさか、きょかされたセキュリティーテストか たとえば、「14:20 ごろ、 ap"
+      },
+      {
         "id": "qiita:856a5d51a746fad2652921fc",
         "source": "qiita",
         "author_tags": [
@@ -34780,6 +34918,21 @@
         "author": "Nekorock",
         "published_at": "2026-10-24T09:53:23+09:00",
         "excerpt": "きっかけ Claude Code には、複数の Claude を「チーム」として並行で動かす agent teams という実験的な機能があります。tmux の中で起動すると、チームメイトが 1 人ずつペインに分かれて並ぶので、それぞれが何をしているかを横目で見ながら進められます。 設定の手順は、すでに分かりやすい記事がいくつもあります（最後に載せています）。この記事では、自分のリポジトリを 3 人のチームメイトにレビューさせてみて、実際に起きたことを書きます。インフラや SRE の仕事に使うなら気をつけたいことがいくつか見つかりました。 左がリーダー、右の 3 つがチームメイトです。どれも別々の Claude Code のプロセスとして動いています。 試した環境 2026 年 10 月 24 日、macOS、tmux 3.8 Claude Code 2.1.287、モデルは Sonnet 5.5 レビュー対象は、自分で作った Alertmanager の通知を Slack に振り分ける小さなサービス（TypeScript） agent team"
+      },
+      {
+        "id": "qiita:5f7a533a5ea132bae01322cb",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "password",
+          "ニュース",
+          "対策"
+        ],
+        "url": "https://qiita.com/koshiro_esaki/items/22b7e355068ac0dad571",
+        "title": "個人情報流出ニュースが怖いので、パスワード対策をガチで見直してみた",
+        "author": "koshiro_esaki",
+        "published_at": "2026-10-23T18:26:15+09:00",
+        "excerpt": "皆さんは「パスワードの使いまわし」やってませんか？ 良くないよなぁ、、、と分かっていても、心のどこかで高を括っていませんか？ そして最近の個人情報流出のニュースを見て、ビビり散らかしてませんか？👀 この記事を見たあなた！ 今こそ、その重～い腰を上げる時です！！ という訳で、個人で出来るセキュリティ対策を根本から見直してみました。 「色々言われてるけど、結局個人でどう対策すればいいの？」と悩んでいる方の参考になれば嬉しいです！ 1. 結局これが一番大事。「パスワードの使い回し」を本気でやめる 一番手っ取り早く、かつ効果が高いのがこれです。 攻撃者がよくやる手口に、どこかで漏洩したIDとパスワードのリストを使って、他のサイト（Amazonや銀行など）にログインを試みる「 パスワードリスト攻撃 」があります。 使い回しさえしていなければ、仮にAというサービスでパスワードが漏れても、BやCのサービスが乗っ取られる芋づる式な悲劇は防げます。 「わかっちゃいるけど面倒くさい」という気持ち、痛いほど分かります（私もそうでした）。でも、ここだけは気合を入れて全サ"
       },
       {
         "id": "qiita:8aac6b0c72c766683f779e75",
