@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-10T10:04:47.428711+00:00",
-  "as_of": "2026-11-10T10:00:00+00:00",
-  "catalog_count": 22933,
+  "generated_at": "2026-11-10T11:04:56.685776+00:00",
+  "as_of": "2026-11-10T11:00:00+00:00",
+  "catalog_count": 22942,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,259 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2155310.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:53:19.659810+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-d795b59e41214d51fb763f5d",
+      "primary_category": "other",
+      "public_article_id": "url:d795b59e41214d51fb763f5d",
+      "public_tags": [],
+      "published_at": "2026-11-10T19:31:07+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "INTERNET Watch",
+      "summary": "シェアフル株式会社は11月9日、スキマバイトアプリ「シェアフル」の社内管理システムが不正アクセスを受け、ユーザーの個人情報が流出した可能性があるとして情報を発表した。",
+      "summary_excerpt": "シェアフル株式会社は11月9日、スキマバイトアプリ「シェアフル」の社内管理システムが不正アクセスを受け、ユーザーの個人情報が流出した可能性があるとして情報を発表した。",
+      "threat_actors": [],
+      "title": "「シェアフル」に不正アクセス、個人情報最大750万件流出の可能性。給与振込用口座や緊急連絡先含む"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:22:12.114589+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-40f3a464061387e77509c01c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:40f3a464061387e77509c01c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-10T19:10:20+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+      "summary_excerpt": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+      "threat_actors": [],
+      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:22:13.202759+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-a2b42747a7210ba7a3b60621",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:a2b42747a7210ba7a3b60621",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-10T19:04:32+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+      "summary_excerpt": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+      "threat_actors": [
+        "Turla"
+      ],
+      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:22:35.935761+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c110ef77ed0278863603bba8",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c110ef77ed0278863603bba8",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-10T19:02:40+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web",
+      "summary_excerpt": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web",
+      "threat_actors": [],
+      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:22:31.441526+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-773e9a19a322b8717f8601e0",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:773e9a19a322b8717f8601e0",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-10T19:00:39+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Russia-aligned group Turla planted a modular .NET toolset on Microsoft Exchange servers at two government organizations, one in Kazakhstan and one in Romania, and used it to copy selected email straight out of the mail flow. ESET researchers found the malware and named it Cereal. The toolset doesn’t need an attacker-owned server. Operators send commands to the victim’s internet-facing Exchange server, dressed up as ordinary Outlook Web Access, Autodiscover, and ActiveSync traffic. To anyone watching … More → The post Turla’s Cereal malware turns victims’ Exchange servers into spy hubs appeared first on Help Net Security .",
+      "summary_excerpt": "Russia-aligned group Turla planted a modular .NET toolset on Microsoft Exchange servers at two government organizations, one in Kazakhstan and one in Romania, and used it to copy selected email straight out of the mail flow. ESET researchers found the malware and named it Cereal. The toolset doesn’t need an attacker-owned server. Operators send commands to the victim’s internet-facing Exchange server, dressed up as ordinary Outlook Web Access, Autodiscover, and ActiveSync traffic. To anyone watching … More → The post Turla’s Cereal malware turns victims’ Exchange servers into spy hubs appeared",
+      "threat_actors": [
+        "Turla"
+      ],
+      "title": "Turla’s Cereal malware turns victims’ Exchange servers into spy hubs"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://cyberscoop.com/russian-turla-group-used-new-toolset-to-silently-pilfer-emails-from-kazakhstan-romanian-governments/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:22:29.352210+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-93f359b258f88ee201d51bbd",
+      "primary_category": "other",
+      "public_article_id": "url:93f359b258f88ee201d51bbd",
+      "public_tags": [],
+      "published_at": "2026-11-10T19:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CyberScoop",
+      "summary": "Nicknamed “Turla’s Cereal,” the tools target Microsoft Exchange servers and lack many obvious indicators of compromise or malicious telemetry, per a new ESET report. The post Russian Turla group used new toolset to silently pilfer emails from Kazakhstan, Romanian governments appeared first on CyberScoop .",
+      "summary_excerpt": "Nicknamed “Turla’s Cereal,” the tools target Microsoft Exchange servers and lack many obvious indicators of compromise or malicious telemetry, per a new ESET report. The post Russian Turla group used new toolset to silently pilfer emails from Kazakhstan, Romanian governments appeared first on CyberScoop .",
+      "threat_actors": [
+        "Turla"
+      ],
+      "title": "Russian Turla group used new toolset to silently pilfer emails from Kazakhstan, Romanian governments"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:07:02.405670+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-f0e30211268172c70a2a3d59",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:f0e30211268172c70a2a3d59",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-10T18:56:28+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .",
+      "summary_excerpt": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003072/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:22:34.600442+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-8720dc1108da552c45a0ea98",
+      "primary_category": "other",
+      "public_article_id": "url:8720dc1108da552c45a0ea98",
+      "public_tags": [],
+      "published_at": "2026-11-10T18:50:02+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia NEWS Bursts",
+      "summary": "スキマバイトアプリ「シェアフル」を運営するシェアフル（東京都港区）は11月9日、社内管理システムへの不正アクセスにより、最大約750万件のユーザーアカウントに関する個人情報が流出した可能性があると発表した。",
+      "summary_excerpt": "スキマバイトアプリ「シェアフル」を運営するシェアフル（東京都港区）は11月9日、社内管理システムへの不正アクセスにより、最大約750万件のユーザーアカウントに関する個人情報が流出した可能性があると発表した。",
+      "threat_actors": [],
+      "title": "スキマバイト「シェアフル」に不正アクセス　最大750万アカウント漏えいか　給与振込用の口座情報なども"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
+      "cves": [
+        "CVE-2026-116779",
+        "CVE-2026-123218"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T19:07:02.533610+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e9fdf255e3d7738f85516d0f",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e9fdf255e3d7738f85516d0f",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-10T18:42:27+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
@@ -37,17 +290,22 @@
       "summary_excerpt": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit",
       "threat_actors": [],
       "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-      "cves": [],
+      "canonical_url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
+      "cves": [
+        "CVE-2026-116779",
+        "CVE-2026-123218"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-10T18:22:01.762552+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-cf90f68ee6bef3655e86febe",
+      "first_seen_at": "2026-11-10T19:07:02.533610+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e9fdf255e3d7738f85516d0f",
       "primary_category": "vulnerability",
-      "public_article_id": "url:cf90f68ee6bef3655e86febe",
+      "public_article_id": "url:e9fdf255e3d7738f85516d0f",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -55,236 +313,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-10T17:51:25+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-      "summary_excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-      "threat_actors": [],
-      "title": "Google patches eighth Chrome zero-day exploited in attacks this year"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003069/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:52:32.042377+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-3ef047574f145e290c882b9e",
-      "primary_category": "other",
-      "public_article_id": "url:3ef047574f145e290c882b9e",
-      "public_tags": [],
-      "published_at": "2026-11-10T17:23:42+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Bursts",
-      "summary": "ソフトバンクの宮川潤一社長が、子会社IDCフロンティアへの不正アクセスを巡り、脆弱性診断の不備を謝罪した。AIの進化で新たな脆弱性が相次いで見つかる中、サイバー攻撃への対応に苦慮する現状も明かした。",
-      "summary_excerpt": "ソフトバンクの宮川潤一社長が、子会社IDCフロンティアへの不正アクセスを巡り、脆弱性診断の不備を謝罪した。AIの進化で新たな脆弱性が相次いで見つかる中、サイバー攻撃への対応に苦慮する現状も明かした。",
-      "threat_actors": [],
-      "title": "サイバー攻撃急増で「人の手では対応しきれない」──ソフトバンク宮川社長、終わりの見えないパッチ修正に「疲弊しきっている」と吐露"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:52:33.826673+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-324a5559d0e2e6e632dd934b",
-      "primary_category": "ai_security",
-      "public_article_id": "url:324a5559d0e2e6e632dd934b",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-10T17:16:14+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made",
-      "summary_excerpt": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made",
-      "threat_actors": [],
-      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news041.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:52:11.955415+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-268a61df9da79059129ece53",
-      "primary_category": "ransomware",
-      "public_article_id": "url:268a61df9da79059129ece53",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-10T17:15:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "@IT Security & Trust",
-      "summary": "Mandiantは年次レポート「M-Trends 2026」を発表した。2025年に実施した50万時間以上のインシデント調査では、サイバー犯罪の分業化と連携の進展により、初期アクセスから攻撃実行グループへの引き継ぎ時間が2022年の8時間超から2025年には22秒に短縮されたことが明らかになった。",
-      "summary_excerpt": "Mandiantは年次レポート「M-Trends 2026」を発表した。2025年に実施した50万時間以上のインシデント調査では、サイバー犯罪の分業化と連携の進展により、初期アクセスから攻撃実行グループへの引き継ぎ時間が2022年の8時間超から2025年には22秒に短縮されたことが明らかになった。",
-      "threat_actors": [],
-      "title": "「90日間ログ保持」はもう古い　VPNの脆弱性やActive Directoryを悪用するランサムウェアの実態と対策"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:23:37.171769+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-f56d98a318b2500b9f910af3",
-      "primary_category": "other",
-      "public_article_id": "url:f56d98a318b2500b9f910af3",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-10T17:00:37+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Kaspersky Securelist",
-      "summary": "Key trends and statistics on malware targeting Windows and macOS computers and Internet of Things (IoT) devices in Q3 2026.",
-      "summary_excerpt": "Key trends and statistics on malware targeting Windows and macOS computers and Internet of Things (IoT) devices in Q3 2026.",
-      "threat_actors": [],
-      "title": "IT threat evolution in Q3 2026. Non-mobile statistics"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://securelist.com/malware-report-q3-2026-mobile-statistics/121844/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:23:39.136711+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-bdc9be94e5caf91ce1714b76",
-      "primary_category": "other",
-      "public_article_id": "url:bdc9be94e5caf91ce1714b76",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-10T17:00:17+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Kaspersky Securelist",
-      "summary": "Q3 2026 mobile threat statistics for Android malware, adware, and unwanted software, plus the most notable malware found during the quarter.",
-      "summary_excerpt": "Q3 2026 mobile threat statistics for Android malware, adware, and unwanted software, plus the most notable malware found during the quarter.",
-      "threat_actors": [],
-      "title": "IT threat evolution in Q3 2026. Mobile statistics"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://ascii.jp/elem/000/004/449/4449202/?rss",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:23:12.913776+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-63b94ad40988d51ee543ac74",
-      "primary_category": "other",
-      "public_article_id": "url:63b94ad40988d51ee543ac74",
-      "public_tags": [],
-      "published_at": "2026-11-10T17:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ASCII.jp TECH",
-      "summary": "FortiSASE Sovereignは、組織がセキュリティの運用場所と方法を制御できるよう、オンプレミス管理を追加します。",
-      "summary_excerpt": "FortiSASE Sovereignは、組織がセキュリティの運用場所と方法を制御できるよう、オンプレミス管理を追加します。",
-      "threat_actors": [],
-      "title": "プライベートデプロイメントのための統合セキュリティ 「FortiSASE Sovereign」"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/10/eric-fourrier-gitguardian-leaked-credentials/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:07:32.816338+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-f49c60207292a0382467afa0",
-      "primary_category": "other",
-      "public_article_id": "url:f49c60207292a0382467afa0",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-10T16:40:43+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian, talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO about exposed keys. He also covers better ways to measure security progress beyond alert counts, how to handle disclosure deadlines, and why AI tools and agents are creating new … More → The post What a security leader should tell the CEO about leaked credentials appeared first on Help Net Security .",
-      "summary_excerpt": "In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian, talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO about exposed keys. He also covers better ways to measure security progress beyond alert counts, how to handle disclosure deadlines, and why AI tools and agents are creating new … More → The post What a security leader should tell the CEO about leaked credentials appeared first on Help Net Security .",
-      "threat_actors": [],
-      "title": "What a security leader should tell the CEO about leaked credentials"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:07:37.624779+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-4dd335a72f865ea59239bc2c",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:4dd335a72f865ea59239bc2c",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-10T16:35:05+09:00",
+      "published_at": "2026-11-10T18:42:27+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
       "source_name": "SecurityWeek",
-      "summary": "France summoned the Iranian ambassador and said it would seek European sanctions against those responsible for the attack The post France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators appeared first on SecurityWeek .",
-      "summary_excerpt": "France summoned the Iranian ambassador and said it would seek European sanctions against those responsible for the attack The post France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators appeared first on SecurityWeek .",
+      "summary": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
-      "title": "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators"
-    }
-  ],
-  "hottest": [
+      "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
@@ -503,36 +542,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
-      "cves": [
-        "CVE-2026-19868"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-09T20:08:53.265796+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-81dd958e058e949b25221514",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:81dd958e058e949b25221514",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-09T19:30:25+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "SonicWall has fixed an exploited SonicOS SSL-VPN vulnerability (CVE-2026-19868) that may allow attackers with valid credentials to bypass SAML-enforced multi-factor authentication. With no workarounds listed, the company has urged admins to patch quickly. About CVE-2026-19868 CVE-2026-19868 is an authentication enforcement flaw in the SonicOS SSL-VPN service, and is exploitable only if SAML is enabled for SSL-VPN logins. According to SonicWall, a user with valid credentials for an alternate authentication method may be able to bypass … More → The post Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868) appeared first on Help Net Security .",
-      "summary_excerpt": "SonicWall has fixed an exploited SonicOS SSL-VPN vulnerability (CVE-2026-19868) that may allow attackers with valid credentials to bypass SAML-enforced multi-factor authentication. With no workarounds listed, the company has urged admins to patch quickly. About CVE-2026-19868 CVE-2026-19868 is an authentication enforcement flaw in the SonicOS SSL-VPN service, and is exploitable only if SAML is enabled for SSL-VPN logins. According to SonicWall, a user with valid credentials for an alternate authentication method may be able to bypass … More → The post Exploited SonicWall SSL-VPN flaw lets atta",
-      "threat_actors": [],
-      "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003027/",
       "cves": [],
       "document_form": "single_story",
@@ -602,23 +611,23 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-    "【HOTTEST #1 / Heat 75】Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "【LATEST #2】Google patches eighth Chrome zero-day exploited in attacks this year",
-    "【HOTTEST #2 / Heat 75】CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-    "【LATEST #3】サイバー攻撃急増で「人の手では対応しきれない」──ソフトバンク宮川社長、終わりの見えないパッチ修正に「疲弊しきっている」と吐露",
-    "【HOTTEST #3 / Heat 75】Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性",
-    "【LATEST #4】Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-    "【HOTTEST #4 / Heat 75】KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性",
-    "【LATEST #5】「90日間ログ保持」はもう古い　VPNの脆弱性やActive Directoryを悪用するランサムウェアの実態と対策",
-    "【HOTTEST #5 / Heat 73】Over 575 malicious OpenClaw skills delivered malware to Windows and macOS"
+    "【LATEST #1】「シェアフル」に不正アクセス、個人情報最大750万件流出の可能性。給与振込用口座や緊急連絡先含む",
+    "【HOTTEST #1 / Heat 75】IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
+    "【LATEST #2】Hackers now exploit critical Barracuda ESG flaws to gain root access",
+    "【HOTTEST #2 / Heat 75】Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "【LATEST #3】Turla hackers use new Cereal malware to spy on govt Exchange servers",
+    "【HOTTEST #3 / Heat 75】CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "【LATEST #4】SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+    "【HOTTEST #4 / Heat 75】Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性",
+    "【LATEST #5】Turla’s Cereal malware turns victims’ Exchange servers into spy hubs",
+    "【HOTTEST #5 / Heat 75】KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性"
   ],
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-10T10:00:00+00:00",
-  "heat_as_of": "2026-11-10T10:00:00+00:00",
+  "news_as_of": "2026-11-10T11:00:00+00:00",
+  "heat_as_of": "2026-11-10T11:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "NOT_REBUILT",
-  "news_catalog_count": 22933,
-  "last_published_at": "2026-11-10T19:04:52.071757+09:00",
-  "publication_slot_jst": "2026-11-10T19:00:00+09:00"
+  "news_catalog_count": 22942,
+  "last_published_at": "2026-11-10T20:05:01.427679+09:00",
+  "publication_slot_jst": "2026-11-10T20:00:00+09:00"
 }
