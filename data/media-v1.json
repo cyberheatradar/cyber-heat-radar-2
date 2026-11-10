@@ -1,9 +1,118 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T14:40:03.245650+00:00",
+  "source_snapshot_generated_at": "2026-11-10T15:40:03.198761+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:6b693d939f597ea119c6f47f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "opensource",
+          "Model Context Protocol",
+          "governance",
+          "standardization"
+        ],
+        "url": "https://zenn.dev/p_fermat/articles/mcp-sep-governance-review",
+        "title": "MCPのSEPは本当に速いのか？ 標準化プロセスの1年を公式議事録から検証する",
+        "author": "ャ",
+        "published_at": "2026-11-10T15:39:55.069000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bfed07c32e88573c6946bc85",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "AIエージェント",
+          "Muse",
+          "ハーネスエンジニアリング"
+        ],
+        "url": "https://zenn.dev/teraryu/articles/d9a875c240d136",
+        "title": "Museでループエンジニアリングしてみた🔁",
+        "author": "Teraji",
+        "published_at": "2026-11-10T15:19:54.406000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0ea95357a007282f5ff0169d",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "Security",
+          "スクレイピング",
+          "perimeterx"
+        ],
+        "url": "https://zenn.dev/seencxy/articles/3898d1a4c2bba7",
+        "title": "PerimeterX の _px3 クッキー：失効を決める 2 つの時計と、クッキーが存在しない s2s の話",
+        "author": "Lsr",
+        "published_at": "2026-11-10T15:17:56.405000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e13ca2de707e87170343d9a5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Tailscale",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/soburi61/articles/5cd3bbcb2c36de",
+        "title": "Museにすべて賭けろ！！",
+        "author": "そぶり",
+        "published_at": "2026-11-10T15:01:23.156000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1c9633d576738140c864559d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "個人開発",
+          "Cloudflare",
+          "Webhook"
+        ],
+        "url": "https://zenn.dev/coderlim/articles/650f1b108ddec3",
+        "title": "AI画像編集で「生成は成功したのに結果が残らない」問題に向き合った話",
+        "author": "CoderLim",
+        "published_at": "2026-11-10T14:59:46.496000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bc5346428ffd5d3cfc9778e2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub Actions",
+          "個人開発",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tzp/articles/705d1d29c2dc79",
+        "title": "安全ガードだけは、あえて参照しない。親リポ1つで7リポジトリのClaude Codeを指揮する設計",
+        "author": "てづっぴ",
+        "published_at": "2026-11-10T14:57:38.653000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3b93fc24bf072f6484ca41af",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "codereview",
+          "llm",
+          "Claude Code",
+          "subagent"
+        ],
+        "url": "https://zenn.dev/shoma46/articles/claude-code-subagent-spec-consistency-review",
+        "title": "Codexが無くても: Claude Codeのサブエージェントだけで越境整合レビューを組む",
+        "author": "shoma46",
+        "published_at": "2026-11-10T14:43:01.349000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:0520d7aca1b8e6548794d149",
         "source": "zenn",
@@ -28143,6 +28252,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:b1324fc83dae80696b96d661",
+        "source": "qiita",
+        "author_tags": [
+          "TypeScript",
+          "Security",
+          "認可",
+          "テスト",
+          "初心者"
+        ],
+        "url": "https://qiita.com/Masashige-Y/items/ba91b704d70d8c963dd7",
+        "title": "ログインできれば安全？ 他人のデータを返さないための認可とテストをTypeScriptで考える",
+        "author": "Masashige-Y",
+        "published_at": "2026-11-10T23:54:42+09:00",
+        "excerpt": "この記事はこんな人におすすめ ログイン機能を実装したあと、APIで何を確認すればよいか迷っている 「本人のデータだけ取得する」をコードやテストで表したい AIが生成したAPIのコードを、動作確認だけで終わらせたくない この記事で得られること 認証済みの利用者が他人のデータへアクセスできてしまう原因を整理します。個人用ノートの取得処理を例に、認可のルール、検索条件、テストの期待結果をつなげて考えます。 はじめに インプレスの公開企画をきっかけに、『Pythonで学ぶ Webアプリのセキュアコーディング』の認証・認可に関する説明を読みました。そこで扱われている「誰かを確認すること」と「何を許可するかを決めること」の違いを、APIの実装まで掘り下げます。 この記事のコードは書籍のサンプルや業務コードとは独立したTypeScriptの学習用例です。書籍全体の要約ではなく、OWASPの資料も参照しながら、一つの設計上の判断を整理してみました。 ログイン確認だけでは、データの閲覧範囲は決まらない 認証では利用者が誰かを確認し、認可ではその利用者にどの操作を許"
+      },
+      {
+        "id": "qiita:13b6bfbfe90b6f9782a6579b",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "password",
+          "認証"
+        ],
+        "url": "https://qiita.com/cruel_summer/items/16c91db96c9fe85e3076",
+        "title": "金融口座のマイページがサイバー攻撃にさらされるリスクにけっこうビビっている",
+        "author": "cruel_summer",
+        "published_at": "2026-11-10T23:51:28+09:00",
+        "excerpt": "システム上からの情報漏洩が止まらない昨今の流れ。既に何個か利用しているサービスでの情報漏洩が確認されていて、実際にその旨の連絡がメールできた。 もう個人情報は悪い人間の元に渡っていることについては諦めていて、個人ベースでそこまで役に立たない私の情報を取得して何をするおつもりなの？と開き直っている。今さら個人情報を知られたところで少し痒いくらいだろうか。 ただサイバー攻撃が威力をさらに増して、個人の資産を標的にされることを想像したらかなりビビり散らかしている。空き時間のスマートフォンで金融機関のアプリケーションにログインして資産が盗まれていないかを都度チェックしている毎日だ。それは先日に投稿した下記にも詳しく述べている。 金融口座のログイン認証の最適セキュリティ設定 こういう状況なので、大手の金融機関もさすがに動きが早かった。口座を保有しているユーザにメール通知を行ない、推奨しているセキュリティ設定を案内してくれた。 各金融機関ごとに特色はあるけれど、概ね以下の設定が個人口座を守る上では最大級の対策になるようだ。 ・パスキー/FIDO2認証 ・パス"
+      },
+      {
         "id": "qiita:ade221058a6ae7589d1057a8",
         "source": "qiita",
         "author_tags": [
@@ -38998,6 +39137,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:c9ab0c34e76338fe0ce2ea0f",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "cybersecurity",
+          "ethical-hacking",
+          "wordpress",
+          "xss-attack"
+        ],
+        "url": "https://medium.com/@hatim.madmoune/from-contributor-to-administrator-stored-xss-in-the-events-calendar-02ea62b1fbcd",
+        "title": "From Contributor to Administrator: Stored XSS in The Events Calendar",
+        "author": "Hatim Madmoune",
+        "published_at": "2026-11-10T15:20:39+00:00",
+        "excerpt": "How a crafted Legacy Widget block led to administrator account creation in my WordPress test environment - CVE-2026–123464. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2669507f0f3f10aaf5c2e2af",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "vulnerability-assessment",
+          "incident-response",
+          "cybersecurity",
+          "drupal-commerce"
+        ],
+        "url": "https://medium.com/@ikpehlivan/drupal-commerce-cve-2026-118539-434107836a7e",
+        "title": "Drupal Commerce: CVE-2026-118539",
+        "author": "İlteriş Kaan Pehlivan",
+        "published_at": "2026-11-10T15:08:50+00:00",
+        "excerpt": "Drupal Commerce: CVE-2026-118539 Continue reading on Medium »"
+      },
       {
         "id": "medium:a5c9b8340fe7c86f82e301cc",
         "source": "medium",
