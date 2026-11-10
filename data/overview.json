@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-10T17:05:22.227301+00:00",
-  "as_of": "2026-11-10T17:00:00+00:00",
-  "catalog_count": 22980,
+  "generated_at": "2026-11-10T18:05:06.974218+00:00",
+  "as_of": "2026-11-10T18:00:00+00:00",
+  "catalog_count": 22995,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,62 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T02:52:29.637895+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-3596f8c98b8cc1ed4dab8f46",
+      "primary_category": "ransomware",
+      "public_article_id": "url:3596f8c98b8cc1ed4dab8f46",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-11T02:46:29+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CyberScoop",
+      "summary": "Some services began returning online Tuesday following a ransomware incident detected on Monday across Vanderbilt systems and applications. The post Vanderbilt University reels following ransomware attack claimed by BYOD group appeared first on CyberScoop .",
+      "summary_excerpt": "Some services began returning online Tuesday following a ransomware incident detected on Monday across Vanderbilt systems and applications. The post Vanderbilt University reels following ransomware attack claimed by BYOD group appeared first on CyberScoop .",
+      "threat_actors": [],
+      "title": "Vanderbilt University reels following ransomware attack claimed by BYOD group"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.itpro.com/technology/artificial-intelligence/ai-is-rewriting-the-rules-for-msps-in-cybersecurity",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T02:08:41.794608+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-a0acde7867af5a5cf8555f5e",
+      "primary_category": "ai_security",
+      "public_article_id": "url:a0acde7867af5a5cf8555f5e",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-11T01:22:32+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITPro Security",
+      "summary": "The inescapable presence of AI is changing what customers expect from MSPs, who are increasingly being pulled into business decisions that extend beyond technology",
+      "summary_excerpt": "The inescapable presence of AI is changing what customers expect from MSPs, who are increasingly being pulled into business decisions that extend beyond technology",
+      "threat_actors": [],
+      "title": "AI is rewriting the rules for MSPs in cybersecurity"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
@@ -67,6 +123,28 @@
       "title": "X.Org patches eight server vulnerabilities a month after fixing 12 others"
     },
     {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.theregister.com/security/2026/11/10/trump-taps-palantir-security-chief-to-run-battered-us-cyber-defense-agency/5308763",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T02:08:49.752746+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-d04ccd86df73d515e305e040",
+      "primary_category": "other",
+      "public_article_id": "url:d04ccd86df73d515e305e040",
+      "public_tags": [],
+      "published_at": "2026-11-11T01:15:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Register Security",
+      "summary": "Michael LoSapio could inherit a depleted workforce and a political headache or two, courtesy of his current employer",
+      "summary_excerpt": "Michael LoSapio could inherit a depleted workforce and a political headache or two, courtesy of his current employer",
+      "threat_actors": [],
+      "title": "Trump taps Palantir security chief to run battered US cyber defense agency"
+    },
+    {
       "ai_relevance": "primary",
       "canonical_url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
       "cves": [],
@@ -93,6 +171,61 @@
       "summary_excerpt": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.",
       "threat_actors": [],
       "title": "AI company Fireworks says hackers stole data, billing info during October breaches"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/iranian-hackers-supermarket-freezers-france",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T02:08:36.308649+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-346fc0f56453471d99e76a6f",
+      "primary_category": "other",
+      "public_article_id": "url:346fc0f56453471d99e76a6f",
+      "public_tags": [],
+      "published_at": "2026-11-11T01:05:50+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Graham Cluley",
+      "summary": "Iran has been officially accused by France of being responsible for cyber attacks last month that meddled with supermarket freezers, causing some to catch fire. Read more in my article on the Hot for Security blog.",
+      "summary_excerpt": "Iran has been officially accused by France of being responsible for cyber attacks last month that meddled with supermarket freezers, causing some to catch fire. Read more in my article on the Hot for Security blog.",
+      "threat_actors": [],
+      "title": "Iranian hackers turned up the heat on French supermarket freezers, says France"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.wiz.io/blog/cyber-model-arena-ai-benchmark",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T02:22:12.434438+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-5a359760f34a421d28234f00",
+      "primary_category": "ai_security",
+      "public_article_id": "url:5a359760f34a421d28234f00",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-11T01:03:25+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Wiz Blog",
+      "summary": "A tutorial for building a benchmark for offensive agents, based on how we built the Wiz Cyber Model Arena",
+      "summary_excerpt": "A tutorial for building a benchmark for offensive agents, based on how we built the Wiz Cyber Model Arena",
+      "threat_actors": [],
+      "title": "How to Evaluate AI Agent Cybersecurity Capabilities"
     },
     {
       "ai_relevance": "none",
@@ -157,124 +290,6 @@
       "summary_excerpt": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
       "threat_actors": [],
       "title": "Binance warns of iOS flaw that could leak crypto wallet secrets"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T01:22:37.800378+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-af8c1df07c8f17c510cd86f3",
-      "primary_category": "other",
-      "public_article_id": "url:af8c1df07c8f17c510cd86f3",
-      "public_tags": [],
-      "published_at": "2026-11-11T00:58:44+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
-      "summary_excerpt": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
-      "threat_actors": [
-        "APT-C-36"
-      ],
-      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/spyware-cyber-crime-iverify",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T00:53:17.194717+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-ac3b2bac5f703557bd18090f",
-      "primary_category": "other",
-      "public_article_id": "url:ac3b2bac5f703557bd18090f",
-      "public_tags": [],
-      "published_at": "2026-11-11T00:45:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "Cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people, according to a new report.",
-      "summary_excerpt": "Cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people, according to a new report.",
-      "threat_actors": [],
-      "title": "Cybercriminals are increasingly infecting regular people with spyware"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cybersecuritydive.com/news/trump-cisa-director-nominee-michael-losapio/874256/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T01:22:31.684811+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-5f705e34d6133efe6d73e400",
-      "primary_category": "other",
-      "public_article_id": "url:5f705e34d6133efe6d73e400",
-      "public_tags": [],
-      "published_at": "2026-11-11T00:44:42+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cybersecurity Dive",
-      "summary": "The nomination — Trump’s second attempt to fill a post that has sat vacant for his entire second term — could face steep odds in the Senate.",
-      "summary_excerpt": "The nomination — Trump’s second attempt to fill a post that has sat vacant for his entire second term — could face steep odds in the Senate.",
-      "threat_actors": [],
-      "title": "Trump picks Palantir cybersecurity executive to lead CISA"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T00:22:04.636257+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-451800d549b3393d701c8495",
-      "primary_category": "ransomware",
-      "public_article_id": "url:451800d549b3393d701c8495",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-11T00:01:11+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
-      "summary_excerpt": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
-      "threat_actors": [],
-      "title": "Ransomware recovery is now a client retention metric"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T00:22:12.842378+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-873adaa444bc01f31e32a313",
-      "primary_category": "other",
-      "public_article_id": "url:873adaa444bc01f31e32a313",
-      "public_tags": [],
-      "published_at": "2026-11-11T00:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The post Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders appeared first on SecurityWeek .",
-      "summary_excerpt": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The post Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders"
     }
   ],
   "hottest": [
@@ -407,16 +422,16 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-042611.html",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-906/",
       "cves": [
-        "CVE-2026-111793"
+        "CVE-2026-88806"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:23:21.538153+09:00",
+      "first_seen_at": "2026-11-11T02:09:30.386061+09:00",
       "heat_score": 67.5,
-      "permalink_id": "article-url-d49f8e0756484f3ae7039c95",
+      "permalink_id": "article-url-73f3b60c5116d4b9005e1bbe",
       "primary_category": "vulnerability",
-      "public_article_id": "url:d49f8e0756484f3ae7039c95",
+      "public_article_id": "url:73f3b60c5116d4b9005e1bbe",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -424,29 +439,29 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-10T14:55:00+09:00",
+      "published_at": "2026-11-10T15:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "オープンウェーブメッセージング株式会社が提供するWebtop Media Transcoderには、次の脆弱性が存在します。 異なる領域間での不適切なリソースの移動（CWE-669） - CVE-2026-111793 開発者によると、本脆弱性を悪用した攻撃が既に確認されているとのことです。 この脆弱性情報は、製品利用者への周知を目的に、開発者がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。",
-      "summary_excerpt": "オープンウェーブメッセージング株式会社が提供するWebtop Media Transcoderには、次の脆弱性が存在します。 異なる領域間での不適切なリソースの移動（CWE-669） - CVE-2026-111793 開発者によると、本脆弱性を悪用した攻撃が既に確認されているとのことです。 この脆弱性情報は、製品利用者への周知を目的に、開発者がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of X.Org Server. User interaction is required to exploit this vulnerability in that the target must connect to a malicious X11 server. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-88806.",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of X.Org Server. User interaction is required to exploit this vulnerability in that the target must connect to a malicious X11 server. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-88806.",
       "threat_actors": [],
-      "title": "Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性"
+      "title": "ZDI-26-906: X.Org Server libX11 XkbGetMap Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-042610.html",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-905/",
       "cves": [
-        "CVE-2026-117477"
+        "CVE-2026-88807"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:23:21.469783+09:00",
+      "first_seen_at": "2026-11-11T02:09:28.488893+09:00",
       "heat_score": 67.5,
-      "permalink_id": "article-url-78baf8d3945ca38133327335",
+      "permalink_id": "article-url-0d18b2ef74baebb35d597f81",
       "primary_category": "vulnerability",
-      "public_article_id": "url:78baf8d3945ca38133327335",
+      "public_article_id": "url:0d18b2ef74baebb35d597f81",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -454,110 +469,29 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-10T14:55:00+09:00",
+      "published_at": "2026-11-10T15:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "GMOプライム・ストラテジー株式会社が提供するKUSANAGIには、WordPress向けNginxの設定ファイルに含まれるリダイレクトルールに次の脆弱性が存在します。 HTTPヘッダーにおけるCRLF文字の不適切な無害化（CWE-113） - CVE-2026-117477 この脆弱性情報は、製品利用者への周知を目的に、GMOプライム・ストラテジー株式会社がJPCERT/CCに報告し、JPCERT/CCがGMOプライム・ストラテジー株式会社との調整を行いました。",
-      "summary_excerpt": "GMOプライム・ストラテジー株式会社が提供するKUSANAGIには、WordPress向けNginxの設定ファイルに含まれるリダイレクトルールに次の脆弱性が存在します。 HTTPヘッダーにおけるCRLF文字の不適切な無害化（CWE-113） - CVE-2026-117477 この脆弱性情報は、製品利用者への周知を目的に、GMOプライム・ストラテジー株式会社がJPCERT/CCに報告し、JPCERT/CCがGMOプライム・ストラテジー株式会社との調整を行いました。",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of X.Org Server. User interaction is required to exploit this vulnerability in that the target must connect to a malicious X11 server. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-88807.",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of X.Org Server. User interaction is required to exploit this vulnerability in that the target must connect to a malicious X11 server. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-88807.",
       "threat_actors": [],
-      "title": "KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性"
+      "title": "ZDI-26-905: X.Org Server libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability"
     },
     {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/10/acronis-ai-agent-cyberattacks-report/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T14:53:31.521813+09:00",
-      "heat_score": 65.7,
-      "permalink_id": "article-url-cfc01f621e9334f919fa3638",
-      "primary_category": "ai_security",
-      "public_article_id": "url:cfc01f621e9334f919fa3638",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
+      "ai_relevance": "none",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-904/",
+      "cves": [
+        "CVE-2026-65110"
       ],
-      "published_at": "2026-11-10T14:30:59+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Cybercriminals are using AI agents to coordinate attacks, stolen credentials to access linked services, and tools that interfere with intrusion detection and system recovery, according to Acronis TRU Cyber Pulse 2026. One operator coordinates activity across several countries In an investigation known as BOSSAI, researchers documented how one operator connected more than 10 AI models to tools for reconnaissance, scanning and exploitation. Through WeChat and LINE, the operator could assign tasks, monitor agent activity and … More → The post Over 575 malicious OpenClaw skills delivered malware to Windows and macOS appeared first on Help Net Security .",
-      "summary_excerpt": "Cybercriminals are using AI agents to coordinate attacks, stolen credentials to access linked services, and tools that interfere with intrusion detection and system recovery, according to Acronis TRU Cyber Pulse 2026. One operator coordinates activity across several countries In an investigation known as BOSSAI, researchers documented how one operator connected more than 10 AI models to tools for reconnaissance, scanning and exploitation. Through WeChat and LINE, the operator could assign tasks, monitor agent activity and … More → The post Over 575 malicious OpenClaw skills delivered malware t",
-      "threat_actors": [],
-      "title": "Over 575 malicious OpenClaw skills delivered malware to Windows and macOS"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003027/",
-      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-10T12:37:44.749956+09:00",
-      "heat_score": 65.7,
-      "permalink_id": "article-url-b75f1467096b0eba81c0508d",
-      "primary_category": "other",
-      "public_article_id": "url:b75f1467096b0eba81c0508d",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-10T12:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Security",
-      "summary": "米カリフォルニア大学サンディエゴ校などに所属する研究者らが医学誌「Journal of Medical Internet Research」で発表した論文「Unveiling Patient-Level Harms and At-Risk Clinical Groups During Hospital Cyberattacks: Systematic Review of Global Case Studies and Social Media Data」は、病院へのサイバー攻撃（ランサムウェア攻撃など）が患者の命や治療に及ぼす被害の実態を世界規模で調査した研究報告だ。",
-      "summary_excerpt": "米カリフォルニア大学サンディエゴ校などに所属する研究者らが医学誌「Journal of Medical Internet Research」で発表した論文「Unveiling Patient-Level Harms and At-Risk Clinical Groups During Hospital Cyberattacks: Systematic Review of Global Case Studies and Social Media Data」は、病院へのサイバー攻撃（ランサムウェア攻撃など）が患者の命や治療に及ぼす被害の実態を世界規模で調査した研究報告だ。",
-      "threat_actors": [],
-      "title": "サイバー攻撃受けた医療現場のリアル　患者の死亡率が3割上昇　乳がん患者の半裸画像流出、セラピー記録で脅迫され自殺も"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003051/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T11:52:31.455223+09:00",
-      "heat_score": 65.7,
-      "permalink_id": "article-url-db50201e6be7640b9bb1c978",
-      "primary_category": "other",
-      "public_article_id": "url:db50201e6be7640b9bb1c978",
-      "public_tags": [],
-      "published_at": "2026-11-10T11:26:43+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Bursts",
-      "summary": "NTTデータは11月9日、住友生命保険から構築・運用を受託しているシステムが不正アクセスを受け、利用者約8万人の個人情報が漏えいしたと発表した。対象は「住友生命Vitality体験版・企業型」と「Vitalityスマート」の利用者で、新規申し込みなどを停止している。",
-      "summary_excerpt": "NTTデータは11月9日、住友生命保険から構築・運用を受託しているシステムが不正アクセスを受け、利用者約8万人の個人情報が漏えいしたと発表した。対象は「住友生命Vitality体験版・企業型」と「Vitalityスマート」の利用者で、新規申し込みなどを停止している。",
-      "threat_actors": [],
-      "title": "NTTデータ、住友生命から受託したシステムに不正アクセス　「Vitality」利用者約8万人の情報漏えい"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T01:22:13.718652+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-f71a910c08b11a93964a3845",
+      "first_seen_at": "2026-11-11T02:09:26.603781+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-3fb0f9e93de7eea746dbd715",
       "primary_category": "vulnerability",
-      "public_article_id": "url:f71a910c08b11a93964a3845",
+      "public_article_id": "url:3fb0f9e93de7eea746dbd715",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -565,16 +499,106 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-11T01:17:16+09:00",
+      "published_at": "2026-11-10T15:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
-      "summary_excerpt": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron-LM. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-65110.",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron-LM. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-65110.",
       "threat_actors": [],
-      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers"
+      "title": "ZDI-26-904: NVIDIA Megatron-LM Checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-903/",
+      "cves": [
+        "CVE-2026-50256"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T02:09:24.715448+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-64dc1448d69e99ed82501c51",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:64dc1448d69e99ed82501c51",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-10T15:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-50256.",
+      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-50256.",
+      "threat_actors": [],
+      "title": "ZDI-26-903: X.Org Server Font Alias Resolution Heap-based Buffer Overflow Privilege Escalation Vulnerability"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-902/",
+      "cves": [
+        "CVE-2026-50258"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T02:09:22.848681+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-72fa3e77de466fcfe9faff87",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:72fa3e77de466fcfe9faff87",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-10T15:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-50258.",
+      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-50258.",
+      "threat_actors": [],
+      "title": "ZDI-26-902: X.Org Server XkbResizeKeySyms Integer Overflow Privilege Escalation Vulnerability"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-901/",
+      "cves": [
+        "CVE-2026-50264"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T02:09:05.925981+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-0381da968e960af57def99e4",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0381da968e960af57def99e4",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-10T15:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-50264.",
+      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-50264.",
+      "threat_actors": [],
+      "title": "ZDI-26-901: X.Org Server ProcDRI2GetBuffers Heap-based Buffer Overflow Privilege Escalation Vulnerability"
     }
   ],
   "rising": [
@@ -1590,32 +1614,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+    "【LATEST #1】Vanderbilt University reels following ransomware attack claimed by BYOD group",
     "【HOTTEST #1 / Heat 75】Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-    "【LATEST #2】X.Org patches eight server vulnerabilities a month after fixing 12 others",
+    "【LATEST #2】AI is rewriting the rules for MSPs in cybersecurity",
     "【HOTTEST #2 / Heat 67.5】IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
-    "【LATEST #3】AI company Fireworks says hackers stole data, billing info during October breaches",
+    "【LATEST #3】Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
     "【HOTTEST #3 / Heat 67.5】Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "【LATEST #4】Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+    "【LATEST #4】X.Org patches eight server vulnerabilities a month after fixing 12 others",
     "【HOTTEST #4 / Heat 67.5】CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-    "【LATEST #5】Binance warns of iOS flaw that could leak crypto wallet secrets",
-    "【HOTTEST #5 / Heat 67.5】Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性"
+    "【LATEST #5】Trump taps Palantir security chief to run battered US cyber defense agency",
+    "【HOTTEST #5 / Heat 67.5】ZDI-26-906: X.Org Server libX11 XkbGetMap Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
     "first_as_of": "2026-11-08T13:00:00+00:00",
-    "last_as_of": "2026-11-10T17:00:00+00:00",
-    "unique_snapshots_used": 53,
-    "span_hours": 52.0,
+    "last_as_of": "2026-11-10T18:00:00+00:00",
+    "unique_snapshots_used": 54,
+    "span_hours": 53.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-10T17:00:00+00:00",
-  "heat_as_of": "2026-11-10T17:00:00+00:00",
+  "news_as_of": "2026-11-10T18:00:00+00:00",
+  "heat_as_of": "2026-11-10T18:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 22980,
-  "last_published_at": "2026-11-11T02:05:30.671689+09:00",
-  "publication_slot_jst": "2026-11-11T02:00:00+09:00"
+  "news_catalog_count": 22995,
+  "last_published_at": "2026-11-11T03:05:15.455622+09:00",
+  "publication_slot_jst": "2026-11-11T03:00:00+09:00"
 }

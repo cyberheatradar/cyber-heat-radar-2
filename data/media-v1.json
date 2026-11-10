@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T16:40:02.861555+00:00",
+  "source_snapshot_generated_at": "2026-11-10T17:40:03.045326+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:d47dfe1e4da618a32f352a24",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "marketing",
+          "Model Context Protocol",
+          "Google Ads",
+          "adops"
+        ],
+        "url": "https://zenn.dev/ovaideu/articles/9927f77e6a9a95",
+        "title": "Running Google Ads and Meta Ads From an AI Assistant: What MCP Changes",
+        "author": "Ovaideu",
+        "published_at": "2026-11-10T17:34:14.518000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ca4802e3a0fa7860b1c9fc6f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "G検定"
+        ],
+        "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-governance-kids",
+        "title": "【小学5年生でもわかる】AIガバナンスってなに？",
+        "author": "まっすん",
+        "published_at": "2026-11-10T17:14:53.411000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e172f4235277b01419759ae3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "運用",
+          "Agent",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ai_shihan/articles/0978b8bdb7f444",
+        "title": "AIの再起動直後、最初の道具が「先に台帳へ登録して」と断ってきた —— 止められて分かった、入力を取りこぼさない仕組み",
+        "author": "ai_shihan",
+        "published_at": "2026-11-10T16:43:33.426000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:5ff38346cb65f0baf96c217b",
         "source": "zenn",
@@ -28268,6 +28314,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:827b3260290c0aa08b908afa",
+        "source": "qiita",
+        "author_tags": [
+          "EntraID",
+          "MicrosoftGraph",
+          "PowerShell",
+          "AIエージェント",
+          "Security"
+        ],
+        "url": "https://qiita.com/tanemudao/items/987d05626dde86797d17",
+        "title": "AI Agentの権限が消えた？ それとも取得できなかった？ Microsoft Graphで誤検知しない権限監視を実装する",
+        "author": "tanemudao",
+        "published_at": "2026-11-11T02:27:43+09:00",
+        "excerpt": "この記事は「AI AgentとIdentity」連載の第7回です。第6回ではMicrosoft Entra Agent IDのAgent IdentityをMicrosoft Graphで棚卸しし、Owner / Sponsor / 直接割り当てられたApplication PermissionをCSVに記録しました。 今回は 「権限が消えた」のか「取得できなかった」のかを区別する ことをテーマに、誤検知を抑えた差分監視を設計します。 検証状況 ：本記事の差分監視コードは、模擬CSVに加えて 実テナントで検証済み です。Application Permissionを削除・復元して検出できること（6-2章）、Graphが実際に 403 を返したときに削除と誤認しないこと（6-3章）を確認しました。Blueprintの継承設定を取得するAPIも実行済みです（8章）。一方、 429 の実挙動、スナップショットの完全性保証、定期実行・通知は未実装・未検証です。 はじめに：権限が消えた？ それとも取得できなかった？ AI Agentの権限を毎日棚卸しすると"
+      },
+      {
         "id": "qiita:b1324fc83dae80696b96d661",
         "source": "qiita",
         "author_tags": [
@@ -39153,6 +39215,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6e9aa81f199a509842d5396b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "penetration-testing",
+          "ethical-hacking",
+          "wordpress",
+          "xss-attack"
+        ],
+        "url": "https://medium.com/@madmoune.hatim/from-contributor-to-administrator-stored-xss-in-the-events-calendar-4e5a281037f5",
+        "title": "From Contributor to Administrator: Stored XSS in The Events Calendar",
+        "author": "Hatim Madmoune",
+        "published_at": "2026-11-10T17:24:13+00:00",
+        "excerpt": "How a crafted Legacy Widget block led to administrator account creation in my WordPress test environment — CVE-2026–123464. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6bd8e9cbf9f3567e3f0188e3",
+        "source": "medium",
+        "author_tags": [
+          "enterprise-security",
+          "patch-management",
+          "vulnerability-management",
+          "data-breach",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@mcmullinalexius/the-breach-entry-point-just-shifted-vulnerability-exploitation-hit-31-and-patch-windows-are-a46f8d7132a4",
+        "title": "The Breach Entry Point Just Shifted: Vulnerability Exploitation Hit 31%, and Patch Windows Are…",
+        "author": "Alexius McMullin",
+        "published_at": "2026-11-10T17:18:32+00:00",
+        "excerpt": "For the first time in the Verizon Data Breach Investigations Report’s history, software vulnerability exploitation is the leading initial… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7f60afd076ae1eccf917e6f4",
+        "source": "medium",
+        "author_tags": [
+          "portswigger",
+          "infosec",
+          "sql-injection",
+          "cybersecurity",
+          "web-security"
+        ],
+        "url": "https://medium.com/@razajavaid2004/portswigger-lab-blind-sql-injection-with-time-delays-and-information-retrieval-70bc2a64d6c1",
+        "title": "PortSwigger Lab: Blind SQL Injection with Time Delays and Information Retrieval",
+        "author": "Muhammad Raza",
+        "published_at": "2026-11-10T17:16:01+00:00",
+        "excerpt": "Difficulty: Practitioner Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d23006d8300923aa9707b225",
+        "source": "medium",
+        "author_tags": [
+          "backup",
+          "devops",
+          "cybersecurity",
+          "ransomware",
+          "linux"
+        ],
+        "url": "https://medium.com/@iamdaanial/immutable-backups-what-a-hardened-repository-requires-2ee50c06c6df",
+        "title": "Immutable Backups: What a Hardened Repository Requires",
+        "author": "Daanial Farrukh",
+        "published_at": "2026-11-10T17:11:43+00:00",
+        "excerpt": "A presales field note about the word “immutable” on a backup proposal — the tick box that does nothing on its own — and the checks I now… Continue reading on Medium »"
+      },
       {
         "id": "medium:8fad23ca15df9dcd209a11a9",
         "source": "medium",
