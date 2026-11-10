@@ -1,9 +1,37 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T11:40:03.267384+00:00",
+  "source_snapshot_generated_at": "2026-11-10T12:40:03.643207+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:c8009520105b5ef5b67a5032",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "TryHackMe"
+        ],
+        "url": "https://zenn.dev/aiia/articles/8af7bceb700f33",
+        "title": "room Recruitに挑戦",
+        "author": "aiia",
+        "published_at": "2026-11-10T12:20:14.364000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:54ade446c867741ba1cd1c93",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "投資",
+          "Claude",
+          "Anthropic"
+        ],
+        "url": "https://zenn.dev/student_blog/articles/anthropic-ipo-claude-money-flow",
+        "title": "【個人向け】AnthropicのIPOは買える？投資前に知りたい価格とリスク",
+        "author": "まる",
+        "published_at": "2026-11-10T12:07:29.060000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ed57d63506c6d0e81602662b",
         "source": "zenn",
@@ -600,6 +628,16 @@
         "author": "nakashimn",
         "published_at": "2026-11-10T03:30:05.183000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:1fce29665ba0c9f47db22f15",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/acerola_jp/books/claude-code-adoption-kit",
+        "title": "Claude Code 社内導入キット：申請書・回答表・管理設定・確認スクリプト",
+        "author": "アセロラ",
+        "published_at": "2026-11-10T03:23:31+00:00",
+        "excerpt": "Claude Code を会社やチームに入れる担当者が、社内の申請と説明にそのまま使える書類と設定の一式です。情シス・セキュリティ担当に出す回答表（限界の列つき）、導入申請書（稟議）の雛形、試験利用→チーム→全社の3段階の管理設定（managed-settings.json）、配った設定が本当に止めるかを実物で判定する確認スクリプト（結果を Markdown の表で出し、申請書や報告書に貼れる）、利用者向けのお知らせ文、社内ガイドラインへの追加条文案、例外申請・変更記録・版更新時の再確認の書式、試験利用の報告書の雛形を収録。中身の根拠は、既刊『Claude Code チーム導入のガードレール』の実機検証（Claude Code 2.1.294／2.1.296）と公式ドキュメント（確認日つき）で、試していない点は未検証と明記しています。最初の2章（はじめに、提出用の回答表）は無料で読めます。既刊・無料記事との重なりは「はじめに」に書いています。本書は Anthropic 社とは関係のない非公式の資料で、法的助言ではありません。"
       },
       {
         "id": "zenn:bcf13254ede48f62d91592e7",
@@ -27979,6 +28017,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6fa2c63aba4e3f8dec0c102b",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "PowerShell",
+          "winget",
+          "Security",
+          "update"
+        ],
+        "url": "https://qiita.com/adacchi_ta/items/cb3a7a4398b189d7c772",
+        "title": "コマンド1行で完結！winget で始めるWindows環境のアプリ一括アップデート術",
+        "author": "adacchi_ta",
+        "published_at": "2026-11-10T21:37:16+09:00",
+        "excerpt": "1. きっかけ 各種開発ツールやパッケージのセキュリティアップデートが連日公開されています。 日々の更新を手動で追いかけるのは大変ですが、「漏れなく、速く、楽に終わらせる方法はないのか？」と探してみたところ、Windows標準の winget （Windows パッケージ マネージャー）に辿り着きました。便利だと感じたので、ご紹介します。 免責事項 本記事で紹介しているコマンドは、自己責任で実行・利用してください。 2. 基本的な実行方法 ここからは、実際にPowerShellを叩いてアップデートをかける基本的な手順を解説します。 いきなり全部を更新するのではなく、 「何のアップデートがあるか確認する」 ステップを挟むのがおすすめです。 ステップ①：更新対象のパッケージを一覧で確認する まずはPowerShellを起動し、以下のコマンドを入力します。 winget upgrade すると、アップデート対象のパッケージが一覧表示されます。 ステップ②：パッケージをアップデートする 内容を確認したらパッケージをアップデートします。 全てのパッケージを"
+      },
+      {
+        "id": "qiita:5cc7ad45f91d9dae7a9cbd99",
+        "source": "qiita",
+        "author_tags": [
+          "proxmox",
+          "ProxmoxVE",
+          "Ceph",
+          "Linux",
+          "Security"
+        ],
+        "url": "https://qiita.com/yanma0102/items/7991df8a964381707aaa",
+        "title": "Proxmox VE 9.2.26 アップグレードと CephX aes256k 移行（CVE-2025-30156）を完了した記録",
+        "author": "yanma0102",
+        "published_at": "2026-11-10T21:04:21+09:00",
+        "excerpt": "はじめに Proxmox VE（以下 PVE）を 9.2.26 にアップグレードしたあと、Ceph が HEALTH_ERR になりました。 原因は Ceph Squid 19.2.6 以降で追加された CVE-2025-30156 対応の CephX 鍵チェック です。PVE 9.2.19 以降には専用の移行ヘルパーが用意されているので、手動で ceph auth rotate を繰り返す必要はありません。 この記事では、次の流れを実際のコマンドとつまずきポイントとともにまとめます。 PVE 9.2.26 へのアップグレード Ceph 19.2.7 のヘルスチェック確認 CephX 鍵の aes → aes256k 移行 VM / LXC のクライアント更新 最終的な cipher 制限と検証 本記事の IP アドレス・ホスト名・ドメイン名はすべて匿名化しています。 環境 項目 値 PVE 9.2.26 カーネル 7.0.14-28-pve Ceph 19.2.7-pve1（Squid） クラスタ 3 ノード（ pve01 / pve02 / "
+      },
+      {
+        "id": "qiita:dc9df8a3e1e5e0e3ca71c695",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Security",
+          "インシデント対応",
+          "SRE",
+          "運用"
+        ],
+        "url": "https://qiita.com/securoi_koyama/items/e40b19015ab3e0aa8a2f",
+        "title": "「止める」を手順書ではなくコードで持つ——100行のキルスイッチの、できることとやらないこと",
+        "author": "securoi_koyama",
+        "published_at": "2026-11-10T20:44:05+09:00",
+        "excerpt": "この記事は、2026年11月5日（木）に出したプレスリリース（第7弾・判断表）の技術側です。 重大な脆弱性が公表された日。「止めるか、続けるか」を誰が決めるかは、決めておけます。 ですが、 決めた後に止める手が無ければ、止まりません。 この記事で書くのは、その手の最小形です。標準ライブラリだけの Python が1本。 100行ほどで、止める・戻す・いまどうなっているかを持ちます。 何を作るか 考え方は3つだけです。 止まっているかどうかは、1つのファイルの中身で決まる。 コードは直さない 止めた理由・決めた人・いつまで、を同じファイルに書く。 後から追える 読めなければ止める（fail-closed）。 ファイルが壊れていても「動かす」にしない 3つ目が、この記事でいちばん言いたいところです。 動かしてみる $ python3 killswitch.py status 止めているものはありません。 $ python3 killswitch.py check 受注の受付 動いています: 受注の受付 （終了コード 0） $ python3 kill"
+      },
+      {
         "id": "qiita:d8df046ad45db1266503b109",
         "source": "qiita",
         "author_tags": [
@@ -38674,6 +38760,33 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e01d766df61f848145b30825",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@salesstradingsaqibllc/cybersecurity-for-small-businesses-essential-ways-to-protect-your-business-from-online-threats-766a382b5109",
+        "title": "Cybersecurity for Small Businesses: Essential Ways to Protect Your Business from Online Threats",
+        "author": "Salesstradingsaqibllc",
+        "published_at": "2026-11-10T12:21:43+00:00",
+        "excerpt": "Cybersecurity for small businesses is becoming increasingly important as companies depend on digital tools to manage payments, communicate… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c1990fcf410ce1b6146eafb7",
+        "source": "medium",
+        "author_tags": [
+          "nist-framework",
+          "nist",
+          "aws",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@leandro.silveira.technologist/implementing-nist-cybersecurity-framework-2-0-on-aws-part-2-asset-inventory-and-management-c6ee487ee24a",
+        "title": "IMPLEMENTING NIST CYBERSECURITY FRAMEWORK 2.0 ON AWS — PART 2: ASSET INVENTORY AND MANAGEMENT",
+        "author": "Leandro Silveira",
+        "published_at": "2026-11-10T12:05:06+00:00",
+        "excerpt": "Establishing visibility, ownership, and accountability across the AWS environment. Continue reading on Medium »"
+      },
       {
         "id": "medium:da06db3146a84ab1c7ec22c8",
         "source": "medium",
