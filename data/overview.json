@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-10T09:04:54.086228+00:00",
-  "as_of": "2026-11-10T09:00:00+00:00",
-  "catalog_count": 22930,
+  "generated_at": "2026-11-10T10:04:47.428711+00:00",
+  "as_of": "2026-11-10T10:00:00+00:00",
+  "catalog_count": 22933,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,62 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T18:39:00.621656+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-db918bafa08cb13b8fcbdd07",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:db918bafa08cb13b8fcbdd07",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-10T18:08:20+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit",
+      "summary_excerpt": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit",
+      "threat_actors": [],
+      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T18:22:01.762552+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-cf90f68ee6bef3655e86febe",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:cf90f68ee6bef3655e86febe",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-10T17:51:25+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+      "summary_excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+      "threat_actors": [],
+      "title": "Google patches eighth Chrome zero-day exploited in attacks this year"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003069/",
@@ -226,50 +282,6 @@
       "summary_excerpt": "France summoned the Iranian ambassador and said it would seek European sanctions against those responsible for the attack The post France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12161/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T17:23:35.951762+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-f6cddc734f4bab1a52db5bb0",
-      "primary_category": "other",
-      "public_article_id": "url:f6cddc734f4bab1a52db5bb0",
-      "public_tags": [],
-      "published_at": "2026-11-10T16:20:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Nikkei XTECH IT",
-      "summary": "アララのメール配信サービスへの不正アクセスで、流出したかその恐れがあるメールアドレスは8133万件に拡大した。日経クロステックは各社の公表を調べ、被害状況を一覧表にまとめた。さらに利用企業と親会社への独自取材で、当初「対象外」とされた企業でも流出が判明した経緯に追った。",
-      "summary_excerpt": "アララのメール配信サービスへの不正アクセスで、流出したかその恐れがあるメールアドレスは8133万件に拡大した。日経クロステックは各社の公表を調べ、被害状況を一覧表にまとめた。さらに利用企業と親会社への独自取材で、当初「対象外」とされた企業でも流出が判明した経緯に追った。",
-      "threat_actors": [],
-      "title": "アララの情報流出8133万件に拡大、116件の公表から見えた被害の実態"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192495",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T16:37:03.538487+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-c75d01dd341dd6e1f785f62c",
-      "primary_category": "other",
-      "public_article_id": "url:c75d01dd341dd6e1f785f62c",
-      "public_tags": [],
-      "published_at": "2026-11-10T16:06:44+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "ドトールコーヒーは、通信販売サイト「ドトールオンラインショップ」が不正アクセスを受け、顧客の個人情報が流出した可能性があることを明らかにした。",
-      "summary_excerpt": "ドトールコーヒーは、通信販売サイト「ドトールオンラインショップ」が不正アクセスを受け、顧客の個人情報が流出した可能性があることを明らかにした。",
-      "threat_actors": [],
-      "title": "ドトール、通販サイトでも侵害 - 会員情報流出の可能性"
     }
   ],
   "hottest": [
@@ -428,34 +440,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003027/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-10T12:37:44.749956+09:00",
-      "heat_score": 73.0,
-      "permalink_id": "article-url-b75f1467096b0eba81c0508d",
-      "primary_category": "other",
-      "public_article_id": "url:b75f1467096b0eba81c0508d",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-10T12:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Security",
-      "summary": "米カリフォルニア大学サンディエゴ校などに所属する研究者らが医学誌「Journal of Medical Internet Research」で発表した論文「Unveiling Patient-Level Harms and At-Risk Clinical Groups During Hospital Cyberattacks: Systematic Review of Global Case Studies and Social Media Data」は、病院へのサイバー攻撃（ランサムウェア攻撃など）が患者の命や治療に及ぼす被害の実態を世界規模で調査した研究報告だ。",
-      "summary_excerpt": "米カリフォルニア大学サンディエゴ校などに所属する研究者らが医学誌「Journal of Medical Internet Research」で発表した論文「Unveiling Patient-Level Harms and At-Risk Clinical Groups During Hospital Cyberattacks: Systematic Review of Global Case Studies and Social Media Data」は、病院へのサイバー攻撃（ランサムウェア攻撃など）が患者の命や治療に及ぼす被害の実態を世界規模で調査した研究報告だ。",
-      "threat_actors": [],
-      "title": "サイバー攻撃受けた医療現場のリアル　患者の死亡率が3割上昇　乳がん患者の半裸画像流出、セラピー記録で脅迫され自殺も"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
       "cves": [
         "CVE-2026-123158"
@@ -549,6 +533,34 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003027/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-10T12:37:44.749956+09:00",
+      "heat_score": 65.7,
+      "permalink_id": "article-url-b75f1467096b0eba81c0508d",
+      "primary_category": "other",
+      "public_article_id": "url:b75f1467096b0eba81c0508d",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-10T12:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia NEWS Security",
+      "summary": "米カリフォルニア大学サンディエゴ校などに所属する研究者らが医学誌「Journal of Medical Internet Research」で発表した論文「Unveiling Patient-Level Harms and At-Risk Clinical Groups During Hospital Cyberattacks: Systematic Review of Global Case Studies and Social Media Data」は、病院へのサイバー攻撃（ランサムウェア攻撃など）が患者の命や治療に及ぼす被害の実態を世界規模で調査した研究報告だ。",
+      "summary_excerpt": "米カリフォルニア大学サンディエゴ校などに所属する研究者らが医学誌「Journal of Medical Internet Research」で発表した論文「Unveiling Patient-Level Harms and At-Risk Clinical Groups During Hospital Cyberattacks: Systematic Review of Global Case Studies and Social Media Data」は、病院へのサイバー攻撃（ランサムウェア攻撃など）が患者の命や治療に及ぼす被害の実態を世界規模で調査した研究報告だ。",
+      "threat_actors": [],
+      "title": "サイバー攻撃受けた医療現場のリアル　患者の死亡率が3割上昇　乳がん患者の半裸画像流出、セラピー記録で脅迫され自殺も"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/10/2000003051/",
       "cves": [],
       "document_form": "single_story",
@@ -590,23 +602,23 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】サイバー攻撃急増で「人の手では対応しきれない」──ソフトバンク宮川社長、終わりの見えないパッチ修正に「疲弊しきっている」と吐露",
+    "【LATEST #1】France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
     "【HOTTEST #1 / Heat 75】Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "【LATEST #2】Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+    "【LATEST #2】Google patches eighth Chrome zero-day exploited in attacks this year",
     "【HOTTEST #2 / Heat 75】CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-    "【LATEST #3】「90日間ログ保持」はもう古い　VPNの脆弱性やActive Directoryを悪用するランサムウェアの実態と対策",
+    "【LATEST #3】サイバー攻撃急増で「人の手では対応しきれない」──ソフトバンク宮川社長、終わりの見えないパッチ修正に「疲弊しきっている」と吐露",
     "【HOTTEST #3 / Heat 75】Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性",
-    "【LATEST #4】IT threat evolution in Q3 2026. Non-mobile statistics",
+    "【LATEST #4】Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
     "【HOTTEST #4 / Heat 75】KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性",
-    "【LATEST #5】IT threat evolution in Q3 2026. Mobile statistics",
+    "【LATEST #5】「90日間ログ保持」はもう古い　VPNの脆弱性やActive Directoryを悪用するランサムウェアの実態と対策",
     "【HOTTEST #5 / Heat 73】Over 575 malicious OpenClaw skills delivered malware to Windows and macOS"
   ],
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-10T09:00:00+00:00",
-  "heat_as_of": "2026-11-10T09:00:00+00:00",
+  "news_as_of": "2026-11-10T10:00:00+00:00",
+  "heat_as_of": "2026-11-10T10:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "NOT_REBUILT",
-  "news_catalog_count": 22930,
-  "last_published_at": "2026-11-10T18:04:58.980252+09:00",
-  "publication_slot_jst": "2026-11-10T18:00:00+09:00"
+  "news_catalog_count": 22933,
+  "last_published_at": "2026-11-10T19:04:52.071757+09:00",
+  "publication_slot_jst": "2026-11-10T19:00:00+09:00"
 }

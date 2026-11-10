@@ -1,9 +1,87 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T08:40:03.104737+00:00",
+  "source_snapshot_generated_at": "2026-11-10T09:40:03.323218+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:09b364636349b043353b7d74",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Productivity",
+          "learning",
+          "Language Learning",
+          "transcription"
+        ],
+        "url": "https://zenn.dev/dnksln/articles/d665d9ca266b09",
+        "title": "語学学習の音声を「聞きっぱなし」にしない。文字起こしとAI要約で復習ノートを作る方法",
+        "author": "suus",
+        "published_at": "2026-11-10T09:21:37.122000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a63006ae6b3662dcd13cc05d",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub Actions",
+          "Security",
+          "OIDC",
+          "Bicep",
+          "microsoftsentinel"
+        ],
+        "url": "https://zenn.dev/microsoft/articles/sentinel-repositories-under-the-hood",
+        "title": "接続すると何が起きるのか Microsoft Sentinel リポジトリ連携の内側を実機で見た",
+        "author": "Naoki Abe",
+        "published_at": "2026-11-10T09:11:32.212000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:babe4acc15630703281bcc26",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "semgrep",
+          "llm",
+          "appsec"
+        ],
+        "url": "https://zenn.dev/toitoitoitoi/articles/9bba8a00cee311",
+        "title": "LLMアプリの脆弱性は「モデル」ではなく「境界」に出る ── Semgrepで危険な配線を静的検出する",
+        "author": "toy",
+        "published_at": "2026-11-10T09:01:46.680000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b10a9cd0df303c1421f6eaa7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SAP",
+          "SaaS",
+          "ERP",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/dantarg/articles/joule-computer-use-saas",
+        "title": "SAP JouleはSAPに合っているのか、SaaSは「画面」になるのか――Computer Use時代のERPとAIエージェント",
+        "author": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+        "published_at": "2026-11-10T09:01:17.949000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b8776482d2e2c2745bc0db70",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/qubena/articles/claude-mods-refinement-tasktree",
+        "title": "Claude Modsで仕事道具を自作して社内展開してみた",
+        "author": "Ita",
+        "published_at": "2026-11-10T08:58:28+00:00",
+        "excerpt": "! 🍀 この記事はこんな方におすすめ 短いプロンプトでAIに仕事を頼み、必要なときに認識を合わせたい方 AIとのセッションが長くなったとき、残作業の把握に課題を感じている方 Claude Modsで、仕事に合わせたUIの活用例を知りたい方 Claude CodeのModsとして、依頼したタスクの認識合わせを助ける「refinement」と、作業をツリーで表示する「tasktree」を作ってみました。自分がAIを使って仕事を進める中で、よく気になっていたけど確認するすべのなかった情報を画面上で確かめられるようにしてみたものです。 Claude Modsで、普段の業務で利用するUI..."
+      },
       {
         "id": "zenn:128675010e5f504bcf5a7ce7",
         "source": "zenn",
@@ -27714,6 +27792,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e2be613a2571770d11eb6066",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "生成AI",
+          "Docker",
+          "GitHubActions",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/pitaspot/items/f61aa523653b4ab8626e",
+        "title": "Zennの攻撃テスト自動化、AIエージェントで週3ドル",
+        "author": "pitaspot",
+        "published_at": "2026-11-10T18:02:55+09:00",
+        "excerpt": "📰 今日のZenn記事 元記事： Zennが攻撃テストをAIエージェントに毎週自動で任せたら、週3ドルで回った（Zenn） Zennの開発チームが、自分たちのサービスへの攻撃テストをAIエージェントに毎週自動でやらせる仕組みを作り、その中身を公開した記事です。結論を先に言うと、特別な製品は買わず、GitHub ActionsとDocker、OSSの道具の組み合わせだけで、PRごとのAIレビューと週1回のペネトレーションテスト（実際にアプリを攻撃して弱点を探す試験）を回せるようになった、という実践報告です。 攻撃側もAIを使うようになり、弱点が見つかってから悪用されるまでの時間が短くなったので、人間がたまに診断するやり方では追いつかない、というのが出発点です。まずPR（変更の提案）ごとに、AIエージェントが差分を読んでセキュリティの観点でレビューし、結果をPRのコメントに残します。次にペネトレーションテストでは、試験用ユーザーを用意して実際にリクエストを送り、「買っていない人が有料の本文を読めないか」のような、動かさないと分からない認可の不備を探し"
+      },
+      {
         "id": "qiita:26e1626d50684edda9e7ce68",
         "source": "qiita",
         "author_tags": [
@@ -38361,6 +38455,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:63d6f240375bfdcdc964e69c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "network-security",
+          "zero-trust-security"
+        ],
+        "url": "https://medium.com/@shinnadithan/never-trust-always-verify-zero-trust-in-cybersecurity-8a4214883b62",
+        "title": "Never Trust, Always Verify: Zero Trust in Cybersecurity",
+        "author": "Naw Shin Nadi Than",
+        "published_at": "2026-11-10T09:21:55+00:00",
+        "excerpt": "Can We Trust Someone Just Because They Have Access to the Company Network? What Is Zero Trust? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:221867483b4fbd579feb1ec3",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "cybersecurity",
+          "security",
+          "bug-bounty",
+          "android-app-development"
+        ],
+        "url": "https://medium.com/@chander.romesh/mybounty-mobile-app-538dadd0b7df",
+        "title": "MyBounty Mobile App",
+        "author": "Romesh chander",
+        "published_at": "2026-11-10T09:18:48+00:00",
+        "excerpt": "A Bug Bounty / reward calculator for security researchers and program managers. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a32de43e4071515bc4492e0a",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "bug-bounty",
+          "hacking",
+          "infosec",
+          "web-security"
+        ],
+        "url": "https://medium.com/@jupaloks/my-first-critical-1-200-8196e9c29a02",
+        "title": "My first Critical (£1,200)",
+        "author": "pal0x",
+        "published_at": "2026-11-10T09:06:54+00:00",
+        "excerpt": "Got my first Critical. Writing this down so I remember it. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6f478d34b32abb91bf14ae75",
+        "source": "medium",
+        "author_tags": [
+          "cloud-security-tips",
+          "cloud-security",
+          "cloud-computing",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@josejoseknight720/cloud-security-tips-10-practical-ways-to-lock-down-your-cloud-0db4810217b7",
+        "title": "Cloud Security Tips: 10 Practical Ways to Lock Down Your Cloud",
+        "author": "Trust Consulting Services",
+        "published_at": "2026-11-10T08:55:19+00:00",
+        "excerpt": "Cloud security can feel complicated, but most problems start with simple mistakes: public storage, weak logins, excessive permissions, or… Continue reading on Medium »"
+      },
       {
         "id": "medium:98c25166cce4318bb0afc611",
         "source": "medium",
