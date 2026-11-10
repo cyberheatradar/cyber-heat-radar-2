@@ -1,9 +1,38 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T19:40:03.125767+00:00",
+  "source_snapshot_generated_at": "2026-11-10T20:40:02.537857+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:27a51eeb431db48c2acdae1e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Model Context Protocol",
+          "invoice",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/nexustools/articles/nexus-p012-jp-invoice-check-ai-1",
+        "title": "AIに請求書を任せるなら、検査は「AIが書き換えられない場所」に置く",
+        "author": "NEXUS tools",
+        "published_at": "2026-11-10T20:24:00.111000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9f050998b559b242542086e1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "JavaScript"
+        ],
+        "url": "https://zenn.dev/nexustools/articles/nexus-ai-release-check-1",
+        "title": "AIで作った曲を JASRAC に届けるとき、作品届に何を書き、何を残しておくか",
+        "author": "NEXUS tools",
+        "published_at": "2026-11-10T20:23:59.475000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:1d63fec55646373bc2088e03",
         "source": "zenn",
@@ -28330,6 +28359,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:fedae654b78cb6a4029ca9a0",
+        "source": "qiita",
+        "author_tags": [
+          "Git",
+          "GitHub",
+          "Security",
+          "AI",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/supportapp3/items/5056f41f39af8c1f8ed0",
+        "title": "URL にトークンを書いて git clone すると .git/config に平文で残る：git remote -v で丸見え、transfer.credentialsInUrl で止める",
+        "author": "supportapp3",
+        "published_at": "2026-11-11T05:13:42+09:00",
+        "excerpt": "結論 git clone https://ユーザー名:トークン@ホスト/リポジトリ.git のように URL にトークンを書いて clone すると、そのトークンは .git/config の url = 行に平文で保存されました （2026-11-11、git 2.47.3、ダミー値・ローカルの HTTP サーバーで実機確認）。 git remote -v を実行すると、そのトークンがそのまま表示されました。AI エージェントがリポジトリの状態を調べるときによく使うコマンドです（よく使う、は推測で、件数は数えていません）。 プロジェクトを tar で固めると、 .git/config ごとトークンも入りました。 GIT_TRACE=1 を付けて git fetch すると、トレース出力にトークン入りの URL がそのまま出ました。 一方、接続に失敗したときの fatal: unable to access ... のエラー文では、トークン部分は消えていました。 git -c transfer.credentialsInUrl=warn で警告、"
+      },
+      {
         "id": "qiita:97c116eba68bad278bfd7701",
         "source": "qiita",
         "author_tags": [
@@ -39244,6 +39289,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e8c6a606a6a7f892371f4de7",
+        "source": "medium",
+        "author_tags": [
+          "infostealer",
+          "infosec",
+          "malware",
+          "cybersecurity",
+          "interview"
+        ],
+        "url": "https://g0njxa.medium.com/approaching-stealers-devs-a-brief-interview-with-stadia-dea6c0cad234",
+        "title": "Approaching stealers devs: a brief interview with Stadia",
+        "author": "g0njxa",
+        "published_at": "2026-11-10T20:06:56+00:00",
+        "excerpt": "To completely understand what’s going on in a market that has been growing in the last years I found mandatory to know which players are… Continue reading on Medium »"
+      },
       {
         "id": "medium:fc618892d132cb00da486842",
         "source": "medium",
