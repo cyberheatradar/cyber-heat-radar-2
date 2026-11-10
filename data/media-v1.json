@@ -1,9 +1,84 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T10:40:02.986586+00:00",
+  "source_snapshot_generated_at": "2026-11-10T11:40:03.267384+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ed57d63506c6d0e81602662b",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/sunsun_eng/articles/new-engineers-ai-dependence",
+        "title": "新人エンジニア必見！AI依存から脱却する方法とは",
+        "author": "すんすん",
+        "published_at": "2026-11-10T11:37:11.029000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9db74c3ffee729cac4cbb024",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Cloud",
+          "llm",
+          "appsec"
+        ],
+        "url": "https://zenn.dev/toitoitoitoi/articles/f3547266f476b5",
+        "title": "AIが攻撃を自動化する時代の守り方 — ARTEX / Storm-0940 を一次情報で読み解く",
+        "author": "toy",
+        "published_at": "2026-11-10T11:23:56.962000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:313ef44b34f6f07587a373da",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "開発",
+          "software",
+          "Skills"
+        ],
+        "url": "https://zenn.dev/sunny9/articles/ba111c54559d91",
+        "title": "Skillsのチーム共有に気持ちがのらない",
+        "author": "don",
+        "published_at": "2026-11-10T11:12:53.192000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a087c4ea7301b29642a17d0e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "画像生成",
+          "PixAI",
+          "Muse",
+          "seaart"
+        ],
+        "url": "https://zenn.dev/one_aria/articles/muse-pixai-seaart",
+        "title": "Meta MuseにPixAIとSeaArtを教えたら、エッチな画像も生成できるようになった｜この記事はMuseに読ませて使う記事",
+        "author": "ONE",
+        "published_at": "2026-11-10T11:08:57.756000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e455f9b9d5e7a2d313cd2301",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Agent",
+          "RAG",
+          "自己改善ループ"
+        ],
+        "url": "https://zenn.dev/noah33/articles/agent-evolution-lab-memory",
+        "title": "AIに記憶を持たせれば、経験を生かせるようになるのか",
+        "author": "noah",
+        "published_at": "2026-11-10T10:45:09.058000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ed57f549f21998e54191953d",
         "source": "zenn",
@@ -27904,6 +27979,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:d8df046ad45db1266503b109",
+        "source": "qiita",
+        "author_tags": [
+          "OSS",
+          "Security",
+          "ゼロトラスト",
+          "Go",
+          "Docker"
+        ],
+        "url": "https://qiita.com/shinkusanagi/items/effdd559b785ecb823c8",
+        "title": "自社で運用するゼロトラストネットワーク「Lantern DSSE」を、1台のサーバーで建ててみる",
+        "author": "shinkusanagi",
+        "published_at": "2026-11-10T20:38:16+09:00",
+        "excerpt": "前回までに、自社で運用するゼロトラストネットワーク「Lantern DSSE」をオープンソースで公開したことと、開発の途中で Anthropic の Cyber Verification Program に承認されたことを書きました。 自社で運用するゼロトラストネットワーク「Lantern DSSE」をオープンソースで公開しました 一人の会社でも Claude Mythos が使えるようになった ― CVP の Defense Access が承認されるまで 今回は、11月9日に公開した 0.4.1 で、1台のサーバーに DSSE を建て、Windows のエージェント端末をつなぐところまでを書きます。 Lantern DSSE はまだ実験的なリリースです。ここで建てる1台構成は試すための構成で、DSSE をホストしている端末が止まれば全体が止まります。本番の運用には使わないでください。 今回建てる構成 DSSE をホストしている端末1台に、すべてをコンテナとして載せます。公開しているリポジトリの docs/plans/single-region"
+      },
+      {
+        "id": "qiita:038a882726c38c4b9d716ae7",
+        "source": "qiita",
+        "author_tags": [
+          "Chrome",
+          "ChromeDevTools",
+          "JavaScript",
+          "Security",
+          "Web開発"
+        ],
+        "url": "https://qiita.com/boku_research/items/00c057ce30a4e091f33c",
+        "title": "「Chrome DevToolsでコピペできない！」はもう古い！開発効率を爆上げする設定解除の裏ワザ",
+        "author": "boku_research",
+        "published_at": "2026-11-10T20:35:12+09:00",
+        "excerpt": "Chrome DevToolsのコンソールにデバッグコードを貼り付けようとした際、「理解できないコードを貼り付けないでください」という警告やブロックが表示され、作業が中断される現象に直面します。これはSelf-XSS（自己XSS）攻撃を防ぐためのセキュリティ機能ですが、開発時には作業効率を大きく低下させる足かせとなります。 何が起きたか（発生した症状と原因） 発生症状 : コンソールへコードをペーストしようとすると警告が出現し、貼り付け処理がブロックされる。 根本原因 : ブラウザのセキュリティ仕様により、ユーザーが意図しない悪質なJavaScriptスクリプトを実行させられるSelf-XSS攻撃を未然に防止するため。 対象環境 : 最新のGoogle Chrome環境における各プロファイル（初期状態）。 どう解決したか（基本手順とコマンド） コンソールに表示された警告の指示に従い、プロファイルごとに一度だけ専用の解除コマンドをキーボードで手動入力して実行します。 allow pasting 👉 最新Chromeでのバージョン依存性による挙動の違"
+      },
+      {
         "id": "qiita:e2be613a2571770d11eb6066",
         "source": "qiita",
         "author_tags": [
@@ -38567,6 +38674,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:da06db3146a84ab1c7ec22c8",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-assessment",
+          "penetration-testing",
+          "chennai",
+          "cybersecurity",
+          "vapt-services"
+        ],
+        "url": "https://medium.com/@yespanchi.tech/penetration-testing-vs-vulnerability-assessment-key-differences-1477b118faa9",
+        "title": "Penetration Testing vs Vulnerability Assessment: Key Differences",
+        "author": "YesPanchi",
+        "published_at": "2026-11-10T11:32:43+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6da7731bb95d36fb8eacadc9",
+        "source": "medium",
+        "author_tags": [
+          "msp",
+          "cybersecurity",
+          "email",
+          "law-firm",
+          "phishing"
+        ],
+        "url": "https://medium.com/@MarkKreitzman/title-i-scanned-30-law-firms-for-the-one-record-that-stops-email-spoofing-d9dd5ba2ef18",
+        "title": "Title: I Scanned 30 Law Firms for the One Record That Stops Email Spoofing.",
+        "author": "Mark Kreitzman",
+        "published_at": "2026-11-10T11:17:41+00:00",
+        "excerpt": "Subtitle: Most fixed it after. Two didn’t, and they’re sitting below every firm in this scan that’s never been publicly breached at all. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d064c60cf8fa8ec61a5072e2",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "bug-bounty",
+          "bug-bounty-writeup",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@laftman/intigriti-brp-challenge-write-up-187eded7dfe9",
+        "title": "Intigriti BRP Challenge Write-up",
+        "author": "⛧ Ⱡ₳₣₮M₳₦⛧",
+        "published_at": "2026-11-10T11:17:03+00:00",
+        "excerpt": "Target: challenge-brp.challenges.intigriti.io Vulnerability class: CWE-79 — Improper Neutralization of Input During Web Page Generation… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a014b9a552dfc9e9bbd579b5",
+        "source": "medium",
+        "author_tags": [
+          "privacy",
+          "cybersecurity",
+          "technology"
+        ],
+        "url": "https://medium.com/@dexpose9/data-breach-monitoring-services-a-simple-guide-for-students-0f90d7c69005",
+        "title": "Data Breach Monitoring Services: A Simple Guide for Students",
+        "author": "DeXpose",
+        "published_at": "2026-11-10T11:05:18+00:00",
+        "excerpt": "What Are Data Breach Monitoring Services? Continue reading on Medium »"
+      },
       {
         "id": "medium:c87719e2062775faf56f948e",
         "source": "medium",
