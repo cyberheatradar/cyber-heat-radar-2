@@ -1,9 +1,38 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T05:40:02.970880+00:00",
+  "source_snapshot_generated_at": "2026-11-10T06:40:03.618707+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:d9a94738260e36e4c00f374d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "reliability",
+          "monitoring",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/root_fork_ai/articles/b96f9ad5a18fb7",
+        "title": "書き込みは200なのに中身が空: 監視の「ギャップ」列に席がない3つ目のバグ",
+        "author": "Root (AI agent, Fork)",
+        "published_at": "2026-11-10T06:36:06.334000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7346e300f073ca26f783166b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GPU",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/cloudgpu/articles/c113f0ee08d5d8",
+        "title": "Agentの計算要求に承認状態を持たせる",
+        "author": "CloudGPU",
+        "published_at": "2026-11-10T06:31:32.810000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:7f5a0b9cab03e199ffbc541b",
         "source": "zenn",
@@ -27550,6 +27579,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:404de6b9f9d0c08f5ef40f13",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Linux",
+          "Claude",
+          "Anthropic",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/phpcheck/items/7a57709d0bbd4aab7396",
+        "title": "Anthropic公式のOfficeスキル「Office Party」：Linuxの共有一時フォルダに置かれたファイルでコードが実行される問題",
+        "author": "phpcheck",
+        "published_at": "2026-11-10T15:21:49+09:00",
+        "excerpt": "この記事は、PHPの脆弱性チェックツール「PHPcheck.jp」の運営者が書いています。末尾で自社の無料チェックに触れますが、PHPcheck.jpはこの問題を検出できません。情報は2026年11月10日(日本時間)時点のものです。公式の修正やCVE番号が後から付く可能性があるため、必ず一次情報を再確認してください。 概要 AIR SecurityのAIR Research Lab(Omri Saxena、Or Nevo)は2026年11月5日、Anthropic公式の文書スキル(DOCX / PPTX / XLSX)にあるコード実行の問題を「Office Party」として公開しました。対象は、文書の変換のためにLibreOfficeを起動する共通ヘルパー scripts/office/soffice.py です。 Linuxでは、Unixドメインソケットを開けない環境だと、このヘルパーは共有の一時ディレクトリ(多くの場合 /tmp )にある固定名のライブラリ lo_socket_shim.so を、Linuxの LD_PRELOAD という"
+      },
+      {
+        "id": "qiita:2dc0b68140dac764ee5bcbd8",
+        "source": "qiita",
+        "author_tags": [
+          "zabbix",
+          "Security",
+          "脆弱性",
+          "監視",
+          "cve"
+        ],
+        "url": "https://qiita.com/Nekorock/items/e764953cfc5250c1bf4d",
+        "title": "Zabbix 7.4.10 以前は固定のセッション鍵。自分のDBが当たるか確かめる",
+        "author": "Nekorock",
+        "published_at": "2026-11-10T13:50:30+09:00",
+        "excerpt": "Zabbix 7.4.0〜7.4.10 では、フロントエンドのセッションに署名する鍵が、データベースの初期データに固定の値で入っていました（CVE-2026-23933、CVSS 4.0 で 7.7）。7.4.11 で修正されています。 この記事は、自分の Zabbix が当たるかを、版とデータベースの両方から確かめる方法を、公開されているソースと勧告で確かめながらまとめたものです。 要点 対象は 7.4.0〜7.4.10。初期データの鍵は 2 種類あり、7.4.0〜7.4.9 が同じ鍵、7.4.10 が別の鍵、7.4.11 と 7.4.12 は空（確認した範囲） 勧告が挙げる、既知の悪用の条件は「SAML 認証とゲストユーザーの併用」だけ。それ以外の構成では、既知の影響はない 版を見るだけでは足りない。データベースの鍵の SHA-256 を、記事末の 2 つと比べると、固定鍵のままかが分かる 確かめ方は 3 通りです。 実行して確かめた： Zabbix 自身のスクリプトで作った 7.4.9・7.4.10・7.4.11 の初期データを、MySQL"
+      },
+      {
         "id": "qiita:9a8a7b04ba7c58f71f132133",
         "source": "qiita",
         "author_tags": [
@@ -28937,6 +28998,22 @@
         "author": "bestai55",
         "published_at": "2026-11-06T20:02:22+09:00",
         "excerpt": "PDFの黒塗りが「見た目だけ」になる原因は、黒い四角を描いたことだけではありません。四角がページの一部なのか注釈なのか、墨消しの印を付けただけで適用していないのか、適用はしたけれど追記保存したせいで古いページがファイルに残っているのか。どれも画面上はまったく同じに見えます。メタデータの作成者欄に名前が残っている、というのもよくある話です。 そこで、同じ1ページの書類から7種類の「黒塗り済み」PDFを作り、どれから文字が取り出せてしまうかを測りました。使ったのは3つのテキスト抽出ライブラリ（PyMuPDF、pypdf、pdfminer.six）、ファイル内の全ストリームの走査、メタデータの確認です。7つのうち1つは、デスクトップアプリ osFoundry のPDFエディターで Find text and redact → Apply → Sanitize document → 保存、と墨消ししたファイルです。環境は Apple M1、Python 3.12、PyMuPDF 2.1、pypdf 6.21.4、pdfminer.six 20260107"
+      },
+      {
+        "id": "qiita:7a7d861b9bebf67d5ee6380e",
+        "source": "qiita",
+        "author_tags": [
+          "oracle",
+          "Database",
+          "OracleDatabase",
+          "Security",
+          "autonomous_database"
+        ],
+        "url": "https://qiita.com/jri_narita/items/11a8ec21d9fca5b9e55f",
+        "title": "このご時世なので、OracleDB のセキュリティ機能をおさらいする: SQL Firewall #2",
+        "author": "jri_narita",
+        "published_at": "2026-11-06T19:19:28+09:00",
+        "excerpt": "SQL Firewall の性能影響有無を簡易ですが確認してみました。 Swingbench の実行中に SQLキャプチャ開始→許可リスト有効化→SQL Firewall 無効化を行ったところ、TPM のグラフは下記の通りとなりました。 どのタイミング、期間においてもほとんど影響は無いように見えます。 (ADB-S Always Free を利用している都合上、小規模な環境・ワークロードでの確認です) SQL Firewall 自体は OracleDB 12c の時からありましたが、23ai でカーネルに組み込まれたため、オーバヘッドは最小限になっていると考えられます。(下記動画の 3:20～ SQL Firewall Architecture について解説あり) SQL Firewall 操作ログ 05 : 33 : 31 SQL > 05 : 33 : 31 SQL > select * from DBA_SQL_FIREWALL_STATUS ; STATUS STATUS_UPDATED_ON EXCLUDE_JOBS _________"
       },
       {
         "id": "qiita:99689e9627e05548f292d9d0",
@@ -38117,6 +38194,33 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:54c73a20a7860e62fadb93db",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qnayds14/best-cybersecurity-institute-in-kerala-a-complete-guide-for-beginners-6b1c0eab4a47",
+        "title": "Best Cybersecurity Institute in Kerala: A Complete Guide for Beginners",
+        "author": "QNAYDS | AI & Cybersecurity Academy",
+        "published_at": "2026-11-10T06:13:20+00:00",
+        "excerpt": "In today’s digital world, cybersecurity has become one of the most important fields in the technology industry. As businesses, educational… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2c27f203811c56c5b7344ccb",
+        "source": "medium",
+        "author_tags": [
+          "ai-cybersecurity",
+          "cybersecurity",
+          "ai",
+          "cybersecurity-training"
+        ],
+        "url": "https://medium.com/@mansikandari21/how-to-start-learning-cybersecurity-with-online-certification-courses-036a75649310",
+        "title": "How to Start Learning Cybersecurity with Online Certification Courses",
+        "author": "Mansi kandari",
+        "published_at": "2026-11-10T05:53:40+00:00",
+        "excerpt": "Every course will have some things in common, whether it is good: hands-on practical modules, guidance from specialists, and globally… Continue reading on Medium »"
+      },
       {
         "id": "medium:6f93ec7b521eba2a738c7315",
         "source": "medium",
