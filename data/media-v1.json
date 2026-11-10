@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T21:40:02.665131+00:00",
+  "source_snapshot_generated_at": "2026-11-10T22:40:02.651509+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:812fe823dbe73fc7e58941d6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261111-tech-watch",
+        "title": "Tech Watch 2026-11-11: エージェントを止める場所",
+        "author": "らいけん",
+        "published_at": "2026-11-10T22:25:10.524000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c62383a76d2fadb39347c0e6",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "EC-CUBE",
+          "hackathon",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/nobuhiko/articles/df658ed78d6733",
+        "title": "Built with Claude: Japan 2026 に Shisa を出した日記。作りながら、作るものが変わっていった",
+        "author": "Nobuhiko Kimoto",
+        "published_at": "2026-11-10T22:20:29.089000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:965bfd9ade0fa12100498059",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Agent",
+          "Harness",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/shuji_bonji/articles/llm-17-constraints",
+        "title": "今更聞けない LLM の 17 の制約 — ハーネスと Claude Code の設定でどこまで対処できるか",
+        "author": "shuji",
+        "published_at": "2026-11-10T22:01:08.358000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a49ffc430f74f3b02d66c925",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "dataanalysis",
+          "Anthropic",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/zundamon_tools/articles/agent-judgment-calls-claude-code",
+        "title": "AI と出した結論、本当に自分で決めた？：エージェントの推しを Claude Code で検証",
+        "author": "ずんだもんの実験道具箱",
+        "published_at": "2026-11-10T21:53:08.229000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:1d2d1d5035b3ba7273dc1eb0",
         "source": "zenn",
@@ -28434,6 +28498,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a237ca35e83d1017ee342d74",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "インフラ",
+          "Web"
+        ],
+        "url": "https://qiita.com/jiis-sasaki/items/f54ec6269be2fde3dc92",
+        "title": "Linuxサーバーの侵入痕跡を調べる7つの点検(cron・SSH鍵・Ubuntu/Debian・コピペOK)",
+        "author": "jiis-sasaki",
+        "published_at": "2026-11-11T07:30:00+09:00",
+        "excerpt": "対象 : VPS / クラウド(EC2 など)の Ubuntu 22.04・24.04 / Debian 12 で Web サイトを運用している Web 担当者・制作会社の方 解決すること : 「改ざんは直したが、サーバー側に何か残っていないか不安」「侵入されたかもしれないが、どこから見ればいいか分からない」という状態をなくします 方法 : 通信・プロセス・cron・systemd・アカウント・パッケージ・ファイルの 7 か所を点検し、最後に「正常時との差分」を毎日通知する仕組みにします(コマンドはコピペで使えます) なぜ「サーバー側」の点検が必要なのか WordPress の改ざんやプラグイン脆弱性の対応では、ファイルを元に戻し、プラグインを更新して終わりにしがちです。しかし攻撃者がサーバー上でコマンドを実行できた場合、 Web サイトの外側 に「また入るための仕掛け」(永続化 = 再起動や修復後も動き続ける仕組み)が残っていることがあります。 残りやすい場所 何が起きるか cron / systemd タイマー 消したはずの不正ファイルが定期"
+      },
+      {
+        "id": "qiita:c279e98af84002e0c82445cd",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "セキュリティニュース",
+          "政府"
+        ],
+        "url": "https://qiita.com/Kerdy/items/cef3c6100e4a192a7f1a",
+        "title": "11/11、今日のセキュリティニュース｜政府が「サイバーセキュリティ緊急対策パッケージ」発表、予防から被害者支援までの方針・施策をまとめ｜「90日間ログ保持」はもう古い VPNの脆弱性やActive",
+        "author": "Kerdy",
+        "published_at": "2026-11-11T06:44:06+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです（ポッキーの日！！）。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 良かったら、高評価とチャネル登録をお願いします🙇 政府が「"
+      },
+      {
         "id": "qiita:2c068f726cdb8c0e26ed7037",
         "source": "qiita",
         "author_tags": [
@@ -28464,6 +28558,22 @@
         "author": "ohisama@github",
         "published_at": "2026-11-11T06:08:39+09:00",
         "excerpt": "概要 MCPサーバーが気になったので、調べてみた。 AIに聞いた。 サンプルやってみた。 Desktop-Commanderやる、前に。 Claude Desktopのdesktop-commanderと中島みゆきの宙船 「そのオールをAI（他者）に任せるな」という、最高に皮肉で、かつ本質を突いた大喜利（あるいは深い比喩）ですね。 一見、関係のなさそうな最先端のAIツール「Desktop Commander」と、中島みゆきさんの名曲「宙船（そらふね）」ですが、この2つを並べると、AI時代における「人間の主権（コントロール権）」を巡る非常に強烈なメッセージが浮かび上がってきます。 この2つがなぜ結びつくのか、その本質を紐解きます。 1. Desktop Commanderとは「全能のオール」 Desktop Commanderは、Claude DesktopにPCの「ターミナル（コマンド操作）」や「ファイルシステム」を直接操作させるための、いま非常に人気のある強力な拡張機能（MCPサーバー）です。 これを使うと、Claudeはチャットの枠を飛び出し"
+      },
+      {
+        "id": "qiita:ada2d1ed28165308ee26bccf",
+        "source": "qiita",
+        "author_tags": [
+          "Blazor",
+          "C#",
+          "Security",
+          "ローコード",
+          ".NET"
+        ],
+        "url": "https://qiita.com/hara77/items/b653929b599c7cc33223",
+        "title": "【Blazor×Radzen】爆速でデータベースアプリの土台を作る環境構築と初期設定（連載第1回）",
+        "author": "hara77",
+        "published_at": "2026-11-11T05:52:43+09:00",
+        "excerpt": "はじめに こんにちは。40年間「理想のDBアプリ開発ツール」を追い求め、ついに『Radzen × Blazor Server』という最強の組み合わせに辿り着いた男です。 前回の「第0回（予告編）」では、なぜこの構成が現代のサイバー攻撃（APIを狙った情報漏洩など）に対する究極のカウンターアーキテクチャになるのか、その構造的な強みをお話ししました。大変多くの反響をいただき、ありがとうございます！ いよいよ今回から本編のスタートです。 第1回となる今回は、実際にLinuxサーバーでの公開を見据えた 「システムの全体像（インフラ構成仕様）」 と、Windows環境で爆速でアプリの土台を組み上げ、Linux向けにパッケージングする 「開発・発行フェーズ」 のリアルな手順とノウハウをお届けします。 1. 究極の効率と安全を両立する「インフラ構成仕様」 私が構築した、高効率な業務画面構築と堅牢なバックエンド処理を両立する最新の環境構成がこちらです。NorthwindやAdventureworks、RadzenCRMといったWebアプリケーション群をこの上でス"
       },
       {
         "id": "qiita:fedae654b78cb6a4029ca9a0",
@@ -39396,6 +39506,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ff75b96846e748fd9a5c6a38",
+        "source": "medium",
+        "author_tags": [
+          "south-korea",
+          "artificial-intelligence",
+          "data-breach",
+          "anthropics",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@taeyeon.eom/the-roster-heist-why-attackers-want-your-org-chart-e9ca82a3e477",
+        "title": "The Roster Heist: Why Attackers Want Your Org Chart",
+        "author": "Tae Yeon Eom",
+        "published_at": "2026-11-10T21:51:27+00:00",
+        "excerpt": "Breach rules sort data by category. Attackers sort it by role. South Korea’s security watchdog and Anthropic just showed why. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0135df5fde63df22b72a68d4",
+        "source": "medium",
+        "author_tags": [
+          "two-factor-authentication",
+          "cybersecurity",
+          "software-engineering",
+          "programming",
+          "mathematics"
+        ],
+        "url": "https://medium.com/@Himanshu_Negi/how-does-an-authenticator-app-know-the-code-311f5afc6178",
+        "title": "How Does an Authenticator App Know the Code?",
+        "author": "HImanshu Negi",
+        "published_at": "2026-11-10T21:45:04+00:00",
+        "excerpt": "How my phone and a faraway server agree on a secret code without ever talking, explained with real numbers you can check yourself. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a9e83950336a6f1f43eb4df8",
+        "source": "medium",
+        "author_tags": [
+          "ai",
+          "ai-agent",
+          "ai-security",
+          "cybersecurity",
+          "artificial-intelligence"
+        ],
+        "url": "https://ismailtasdelen.medium.com/owasp-top-10-for-agentic-ai-skills-the-risks-developers-need-to-design-out-138e11d5d67c",
+        "title": "OWASP Top 10 for Agentic AI Skills: The Risks Developers Need to Design Out",
+        "author": "Ismail Tasdelen",
+        "published_at": "2026-11-10T21:32:17+00:00",
+        "excerpt": "Agentic skills are becoming the behavior layer of AI systems. That makes them useful — and security-critical. Continue reading on Medium »"
+      },
       {
         "id": "medium:9875ad41d9fc933c4caadcf3",
         "source": "medium",
