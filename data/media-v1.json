@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T13:40:10.544829+00:00",
+  "source_snapshot_generated_at": "2026-11-10T14:40:03.245650+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:0520d7aca1b8e6548794d149",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Model Context Protocol",
+          "llm",
+          "Claude Code",
+          "contextwindow"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-042-billion-context-compression-proxy",
+        "title": "Claude Code CLIを文脈圧縮プロキシでラップしたら、圧縮は動いたがキャッシュが壊れた話",
+        "author": "matsu",
+        "published_at": "2026-11-10T14:23:17.882000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4c132ee3cebfaa3e93c26f4a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "Python",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/bambampurin/articles/2026-09-25-tech-daily",
+        "title": "MCPとNext.",
+        "author": "子供部屋大学院生",
+        "published_at": "2026-11-10T14:01:00.511000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:3d9c78d9c9a9fcc46b356e66",
         "source": "zenn",
@@ -28111,6 +28143,86 @@
     ],
     "qiita": [
       {
+        "id": "qiita:ade221058a6ae7589d1057a8",
+        "source": "qiita",
+        "author_tags": [
+          "Laravel",
+          "PHP",
+          "Security",
+          "ログ",
+          "AI"
+        ],
+        "url": "https://qiita.com/Takahiro_Nago/items/0a31f2278a75dc5c9d02",
+        "title": "【AIセキュリティ入門 #1】AIアプリの安全なログ管理 — 障害調査と個人情報保護を両立する（Laravel編）",
+        "author": "Takahiro_Nago",
+        "published_at": "2026-11-10T23:34:48+09:00",
+        "excerpt": "はじめに AIを組み込んだWebアプリでは、ユーザーが入力した文章（相談内容、質問、チャットの本文など）がそのままAPIに送られ、その結果が返ってきます。 この「入力」と「出力」は、アプリの中でもっとも個人情報を含みやすいデータです。 ところが、障害調査のためにログを増やすと、この入力と出力がログに紛れ込みやすくなります。逆にログを減らしすぎると、何が起きたのか分からなくなります。 この記事では、 相談内容そのものはログに残さずに、障害調査に必要な情報だけを残す ための考え方を、Laravelの実際の設定とコードを題材に整理します。 この記事は、筆者が「毎日15分」のペースで続けているAIセキュリティ学習のメモをまとめ直したものです。Qiitaでは今回が初回なので、前提知識がなくても読めるように書いています。 題材にするアプリ 筆者が個人開発している、AI相談Webアプリ「ZEN」を題材にします。知らなくても読めるように、必要な前提だけ書いておきます。 ユーザーが悩みをフォームに入力すると、AI（OpenAI API）が回答を返す Laravel"
+      },
+      {
+        "id": "qiita:d2b09cca231c4f9251f3f539",
+        "source": "qiita",
+        "author_tags": [
+          "Terraform",
+          "AWS",
+          "Security",
+          "Cloudtrail",
+          "GuardDuty"
+        ],
+        "url": "https://qiita.com/ham-nao/items/adfde537f46c518aa8bc",
+        "title": "【Terraform×AWS】新しいAWSアカウントで最初に入れたいセキュリティ設定5つ",
+        "author": "ham-nao",
+        "published_at": "2026-11-10T23:26:36+09:00",
+        "excerpt": "新しくAWSアカウントを作ったら、すぐにアプリケーションのリソースを作り始めたくなります。しかし、操作の記録や不正な挙動の検知といったセキュリティの土台は、 問題が起きてから入れても、起きる前の記録は残っていません。 この記事では、新しいAWSアカウントで最初に入れておきたいセキュリティ設定を5つ選び、Terraformでまとめて設定する方法を紹介します。 入れる設定 CloudTrail ：誰が、いつ、どのAPIを呼んだかを長期間記録する GuardDuty ：不正なアクセスや不審な通信を自動で検知する IAM Access Analyzer ：外部に公開されているリソースを見つける S3のパブリックアクセスのブロック（アカウント全体） ：バケットの公開をアカウント単位で禁止する EBSのデフォルト暗号化 ：新しく作るEBSボリュームを自動で暗号化する どれも数行のコードで設定でき、アカウントを作った直後から効果があります。 1. CloudTrail：操作の記録を長期間残す AWSのコンソールでは、過去90日分の操作履歴を見られます。ただし9"
+      },
+      {
+        "id": "qiita:9c9060a12c1bd6ec9dd67c9c",
+        "source": "qiita",
+        "author_tags": [
+          "Terraform",
+          "AWS",
+          "SecretsManager",
+          "Security",
+          "IaC"
+        ],
+        "url": "https://qiita.com/ham-nao/items/320b66b4194cd0df6b0d",
+        "title": "【Terraform×AWS】パスワードをStateに残さない、機密情報の扱い方",
+        "author": "ham-nao",
+        "published_at": "2026-11-10T23:24:33+09:00",
+        "excerpt": "Terraformでデータベースのパスワードを扱うとき、 sensitive = true を付けておけば安全だと思っていないでしょうか。実は sensitive は 画面への表示を隠すだけ で、値そのものはStateファイルに平文で保存されます。 この記事では、TerraformでパスワードやAPIキーなどの機密情報を扱うときに、どこに値が残るのかを整理し、Stateに残さないための方法を紹介します。 機密情報はどこに残るのか Terraformで機密情報を扱うと、次の場所に値が残る可能性があります。 コード（.tf、.tfvars） ：値を直接書くと、Gitの履歴に残る Stateファイル ：リソースの属性として、値が平文で保存される planの出力ファイル ：terraform plan -out で保存したファイルにも値が含まれる CIのログ ：sensitiveを付けていない値は、plan結果としてログに表示される 特に見落とされやすいのがStateファイルです。次のようなコードは、どれもパスワードがStateに残ります。 # パスワー"
+      },
+      {
+        "id": "qiita:a185c995a4dadcbfe089297b",
+        "source": "qiita",
+        "author_tags": [
+          "プライバシー",
+          "VPN",
+          "JavaScript",
+          "ブラウザ",
+          "Security"
+        ],
+        "url": "https://qiita.com/yt1988/items/88f684f9b9570be36030",
+        "title": "VPN を付けても「同じ人」だと分かってしまう理由を、ブラウザだけで確かめる",
+        "author": "yt1988",
+        "published_at": "2026-11-10T23:22:23+09:00",
+        "excerpt": "はじめに 自分で作った無料のチェックページ あなたは誰（who.1ms.dog） を使いながら、「VPN やプロキシを付けているのに、サイト側からは何が見えているのか」を整理したメモです。 先に書いておくと、このページの作者は私です。開発と文章作成には AI の補助を使っています。ソースは MIT ライセンスで公開しています： https://github.com/yt1988/who-are-you IP を変えても残るもの VPN が変えてくれるのは基本的に「出口 IP」だけです。ページを開いた瞬間、許可ダイアログなしで JavaScript から読める情報はほかにもたくさんあります。 // どれも権限なしで取れる Intl . DateTimeFormat (). resolvedOptions (). timeZone // 例: \"Asia/Tokyo\" navigator . languages // 例: [\"ja-JP\", \"en-US\"] screen . width + \" x \" + screen . height navi"
+      },
+      {
+        "id": "qiita:5af737889b505057fb630698",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "脆弱性,",
+          "kernel,",
+          "Ubuntu"
+        ],
+        "url": "https://qiita.com/k2_naka/items/692fc8b09d9a412c4383",
+        "title": "CVE-2026-98432（Linuxカーネル IPv4 TCPのuse-after-free）各ディストリビューションの対応状況【2026年11月10日時点】",
+        "author": "k2_naka",
+        "published_at": "2026-11-10T23:02:45+09:00",
+        "excerpt": "筆者表記 工程 担当 課題提示・取捨選択・内容チェック 筆者 初回調査・原案作成・編成 Claude Fable 5.2 追加調査（公開履歴・アドバイザリの照合表） GPT-6 Astra 一次資料照合・最終稿 Claude Fable 5.2 本記事は筆者個人の分析であり、所属組織やベンダーの公式見解ではありません。基準日は2026年11月10日です。対応状況は日々変わるため、適用を判断する前に必ず各ベンダーの原典を確認してください。 ※印の意味 ※を付けた項目は、追加調査（GPT-6 Astra）または二次情報に基づく記載で、最終稿の段階では一次資料との照合が済んでいません。※のない項目は、Claude Fable 5.2が各ベンダーのトラッカー、アドバイザリ、パッケージ公開履歴で照合したものです。日時は断りのない限りUTCです（日本時間は+9時間）。 結論 主要ディストリビューションの現行サポート版は、ほぼ修正版が出そろいました。 Debian、RHEL 8 / 9 / 10とその互換ディストリビューション、SLES、Amazon Linu"
+      },
+      {
         "id": "qiita:5b43af00e93d45dd31f87b01",
         "source": "qiita",
         "author_tags": [
@@ -38886,6 +38998,65 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a5c9b8340fe7c86f82e301cc",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "investing",
+          "technology"
+        ],
+        "url": "https://medium.com/@damianmaggiogvm/damian-maggio-why-cybersecurity-has-become-a-core-diligence-question-c2519c5b936b",
+        "title": "Damian Maggio: Why Cybersecurity Has Become a Core Diligence Question",
+        "author": "Damian Maggio",
+        "published_at": "2026-11-10T14:33:58+00:00",
+        "excerpt": "By Damian Maggio Continue reading on Medium »"
+      },
+      {
+        "id": "medium:70133033214e6fd6699ca4b2",
+        "source": "medium",
+        "author_tags": [
+          "aws",
+          "cloud-computing",
+          "azure",
+          "cybersecurity",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/learnsome/shared-responsibility-model-who-secures-what-in-the-cloud-1eda9cb1e11d",
+        "title": "Shared responsibility model: who secures what in the cloud",
+        "author": "Ayodele Ajayi",
+        "published_at": "2026-11-10T14:31:01+00:00",
+        "excerpt": "This guide was written with AI assistance from the official documentation, then edited and fact-checked by me. I run LearnSome.tech, where… Continue reading on LearnSome.tech »"
+      },
+      {
+        "id": "medium:b1d9042ec32e59c98977f488",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme",
+          "ctf-writeup",
+          "vulnerability",
+          "cybersecurity",
+          "ctf"
+        ],
+        "url": "https://medium.com/@pavanpavithran/tryhackme-super-spam-writeup-c95537a9bd3e",
+        "title": "TryHackMe Super-Spam Writeup",
+        "author": "Pavan Pavithran",
+        "published_at": "2026-11-10T14:28:38+00:00",
+        "excerpt": "Link to the room: https://tryhackme.com/room/superspamr/ Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ac8090597b9468e93cc56f55",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@yornsopheaktra/when-ransomware-hits-the-neighborhood-library-inside-the-queens-public-library-cyberattack-4b83c92ec378",
+        "title": "When Ransomware Hits the Neighborhood Library: Inside the Queens Public Library Cyberattack",
+        "author": "Sopheaktra Yorn",
+        "published_at": "2026-11-10T14:14:11+00:00",
+        "excerpt": "The website, mobile app, e-borrowing, and most public computers are down across one of America’s busiest library systems. As librarians… Continue reading on Medium »"
+      },
       {
         "id": "medium:da42e0b454607712489bdba3",
         "source": "medium",
