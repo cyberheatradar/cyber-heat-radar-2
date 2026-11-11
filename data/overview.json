@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-11T12:06:26.243221+00:00",
-  "as_of": "2026-11-11T12:00:00+00:00",
-  "catalog_count": 23645,
+  "generated_at": "2026-11-11T13:06:05.254850+00:00",
+  "as_of": "2026-11-11T13:00:00+00:00",
+  "catalog_count": 23649,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,128 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T21:52:04.880704+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-fdb07bf27f816d37cdd6ba80",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:fdb07bf27f816d37cdd6ba80",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-11T21:32:27+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+      "summary_excerpt": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+      "threat_actors": [],
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T21:22:02.800703+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-56bcf2ecd887e1b6c5ff7c1c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:56bcf2ecd887e1b6c5ff7c1c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-11T21:10:14+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The massive drop comes after the company integrated frontier AI models into its product security testing. The post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek .",
+      "summary_excerpt": "The massive drop comes after the company integrated frontier AI models into its product security testing. The post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Fortinet Patches Nearly 100 Vulnerabilities"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T21:37:38.944159+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-00bfb3e3b49bef1af6f5c365",
+      "primary_category": "other",
+      "public_article_id": "url:00bfb3e3b49bef1af6f5c365",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-11T21:01:59+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
+      "summary_excerpt": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
+      "threat_actors": [],
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned."
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T21:37:39.096688+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-d875e13ba5ae8418ccd3e8d9",
+      "primary_category": "incident",
+      "public_article_id": "url:d875e13ba5ae8418ccd3e8d9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-11T21:00:53+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+      "summary_excerpt": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+      "threat_actors": [],
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.malwarebytes.com/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
@@ -188,117 +310,6 @@
       "summary_excerpt": "Customers are urged to be wary of potential phishing scams in the wake of the Sega data breach",
       "threat_actors": [],
       "title": "Everything we know so far about the Sega data breach"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
-      "cves": [],
-      "document_form": "bulletin",
-      "first_seen_at": "2026-11-11T19:52:08.384133+09:00",
-      "heat_score": 33.75,
-      "permalink_id": "article-url-4c8dd54b2078f15bb73979ad",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:4c8dd54b2078f15bb73979ad",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-11T19:35:15+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy. The post ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure appeared first on SecurityWeek .",
-      "summary_excerpt": "Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy. The post ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T19:22:10.755730+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-22463fa6921d14b34a5e1b50",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:22463fa6921d14b34a5e1b50",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-11T19:12:08+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-      "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-      "threat_actors": [],
-      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/11/2000003119/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T20:07:33.320020+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-0d2302ff0750b5674b56ea08",
-      "primary_category": "other",
-      "public_article_id": "url:0d2302ff0750b5674b56ea08",
-      "public_tags": [],
-      "published_at": "2026-11-11T19:11:24+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Bursts",
-      "summary": "靖国神社（東京都千代田区）は11月11日、同神社が運営する通販サイト「オンライン授与品・頒布品サイト」への不正アクセスにより、約1万4500件の個人情報が漏えいしたと発表した。",
-      "summary_excerpt": "靖国神社（東京都千代田区）は11月11日、同神社が運営する通販サイト「オンライン授与品・頒布品サイト」への不正アクセスにより、約1万4500件の個人情報が漏えいしたと発表した。",
-      "threat_actors": [],
-      "title": "靖国神社に不正アクセス　約1万4500件の個人情報漏えい、パスワードが特定されるおそれも"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://securelist.com/citrus-ransomware/121879/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T19:38:30.299831+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-4869c9e48e0a2720119994ed",
-      "primary_category": "ransomware",
-      "public_article_id": "url:4869c9e48e0a2720119994ed",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-11T19:00:25+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Kaspersky Securelist",
-      "summary": "We break down the Citrus Ransomware group's attacks: the attackers' TTPs and tooling, including VLESS traffic tunneling and LLM use, plus their links to Toy Ghouls.",
-      "summary_excerpt": "We break down the Citrus Ransomware group's attacks: the attackers' TTPs and tooling, including VLESS traffic tunneling and LLM use, plus their links to Toy Ghouls.",
-      "threat_actors": [],
-      "title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
     }
   ],
   "hottest": [
@@ -332,36 +343,6 @@
       "summary_excerpt": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-      "cves": [
-        "CVE-2026-20320"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T15:37:31.775043+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-85ce9be08e6465936d950316",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:85ce9be08e6465936d950316",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-11T15:04:02+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
-      "threat_actors": [],
-      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches"
     },
     {
       "ai_relevance": "primary",
@@ -402,6 +383,36 @@
         "Lazarus Group"
       ],
       "title": "Microsoft researchers demonstrate hidden backdoor technique for AI agents"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "cves": [
+        "CVE-2026-20320"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T15:37:31.775043+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-85ce9be08e6465936d950316",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:85ce9be08e6465936d950316",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-11T15:04:02+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "threat_actors": [],
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches"
     },
     {
       "ai_relevance": "none",
@@ -547,21 +558,14 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-      "cves": [
-        "CVE-2026-111560",
-        "CVE-2026-111793",
-        "CVE-2026-116606",
-        "CVE-2026-124194",
-        "CVE-2026-125350",
-        "CVE-2026-20320"
-      ],
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-11T05:53:05.979694+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-f4b34728a6f8e3261976027d",
+      "first_seen_at": "2026-11-11T21:52:04.880704+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-fdb07bf27f816d37cdd6ba80",
       "primary_category": "vulnerability",
-      "public_article_id": "url:f4b34728a6f8e3261976027d",
+      "public_article_id": "url:fdb07bf27f816d37cdd6ba80",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -569,27 +573,60 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-10T21:00:00+09:00",
+      "published_at": "2026-11-11T21:32:27+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability CVE-2026-111560 Barracuda Networks Multiple Products OS Command Injection Vulnerability CVE-2026-111793 Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability CVE-2026-116606 Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-124194 Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability CVE-2026-125350 Google Chromium Use-After-Free Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-      "summary_excerpt": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability CVE-2026-111560 Barracuda Networks Multiple Products OS Command Injection Vulnerability CVE-2026-111793 Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability CVE-2026-116606 Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-124194 ",
+      "source_name": "BleepingComputer",
+      "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+      "summary_excerpt": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
       "threat_actors": [],
-      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog"
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T21:22:02.800703+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-56bcf2ecd887e1b6c5ff7c1c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:56bcf2ecd887e1b6c5ff7c1c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-11T21:10:14+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The massive drop comes after the company integrated frontier AI models into its product security testing. The post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek .",
+      "summary_excerpt": "The massive drop comes after the company integrated frontier AI models into its product security testing. The post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Fortinet Patches Nearly 100 Vulnerabilities"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.itpro.com/security/data-breaches/sega-data-breach-everything-we-know-so-far-as-2-2-million-customers-exposed",
+      "canonical_url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-11T20:53:47.086728+09:00",
+      "first_seen_at": "2026-11-11T21:37:39.096688+09:00",
       "heat_score": 65.0,
-      "permalink_id": "article-url-905e41bee5871e39662c26bb",
+      "permalink_id": "article-url-d875e13ba5ae8418ccd3e8d9",
       "primary_category": "incident",
-      "public_article_id": "url:905e41bee5871e39662c26bb",
+      "public_article_id": "url:d875e13ba5ae8418ccd3e8d9",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -597,44 +634,16 @@
           "label": "Incident"
         }
       ],
-      "published_at": "2026-11-11T19:39:23+09:00",
+      "published_at": "2026-11-11T21:00:53+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "ITPro Security",
-      "summary": "Customers are urged to be wary of potential phishing scams in the wake of the Sega data breach",
-      "summary_excerpt": "Customers are urged to be wary of potential phishing scams in the wake of the Sega data breach",
+      "source_name": "The Hacker News",
+      "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+      "summary_excerpt": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
       "threat_actors": [],
-      "title": "Everything we know so far about the Sega data breach"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T19:22:10.755730+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-22463fa6921d14b34a5e1b50",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:22463fa6921d14b34a5e1b50",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-11T19:12:08+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-      "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-      "threat_actors": [],
-      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks"
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise"
     }
   ],
   "rising": [
@@ -704,32 +713,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Microsoft Patch Tuesday fixes Outlook flaw already under attack",
+    "【LATEST #1】N-able releases security hotfixes for zero-day vulnerabilities",
     "【HOTTEST #1 / Heat 75】Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-    "【LATEST #2】Microsoft fixes audio issues caused by September security updates",
-    "【HOTTEST #2 / Heat 75】Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "【LATEST #3】Embed Security lets analysts teach its AI SOC Platform how to investigate",
-    "【HOTTEST #3 / Heat 73】Microsoft researchers demonstrate hidden backdoor technique for AI agents",
-    "【LATEST #4】Microsoft researchers demonstrate hidden backdoor technique for AI agents",
+    "【LATEST #2】Fortinet Patches Nearly 100 Vulnerabilities",
+    "【HOTTEST #2 / Heat 73】Microsoft researchers demonstrate hidden backdoor technique for AI agents",
+    "【LATEST #3】We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+    "【HOTTEST #3 / Heat 67.5】Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "【LATEST #4】eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
     "【HOTTEST #4 / Heat 67.5】Movable Typeにおけるコードインジェクションの脆弱性",
-    "【LATEST #5】Security leaders are embracing AI in the SOC, but trust is still lacking",
+    "【LATEST #5】Microsoft Patch Tuesday fixes Outlook flaw already under attack",
     "【HOTTEST #5 / Heat 67.5】Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
     "first_as_of": "2026-11-08T13:00:00+00:00",
-    "last_as_of": "2026-11-11T12:00:00+00:00",
-    "unique_snapshots_used": 72,
-    "span_hours": 71.0,
+    "last_as_of": "2026-11-11T13:00:00+00:00",
+    "unique_snapshots_used": 73,
+    "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-11T12:00:00+00:00",
-  "heat_as_of": "2026-11-11T12:00:00+00:00",
+  "news_as_of": "2026-11-11T13:00:00+00:00",
+  "heat_as_of": "2026-11-11T13:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23645,
-  "last_published_at": "2026-11-11T21:06:36.634651+09:00",
-  "publication_slot_jst": "2026-11-11T21:00:00+09:00"
+  "news_catalog_count": 23649,
+  "last_published_at": "2026-11-11T22:06:15.748127+09:00",
+  "publication_slot_jst": "2026-11-11T22:00:00+09:00"
 }
