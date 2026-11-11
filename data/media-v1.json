@@ -1,9 +1,149 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T23:40:02.952897+00:00",
+  "source_snapshot_generated_at": "2026-11-11T00:40:02.621473+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b91a1edf4e6059c3102f7a99",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Cursor",
+          "llm",
+          "生成 AI",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/mar_kun/articles/claude-fable-5-2",
+        "title": "Claude Fable 5.2 リリース — CursorBench の表で見る Argon・Opus 5.5 との比較",
+        "author": "mar-kun",
+        "published_at": "2026-11-11T00:36:22.782000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:544d107a5c4a373629f6ac31",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "UI",
+          "UX",
+          "Agent",
+          "Vibe Coding"
+        ],
+        "url": "https://zenn.dev/upgradetech/articles/28a2c81972b9c2",
+        "title": "バイブコーディングで作ったUIが使いづらい！ ― AI任せで直感的なUIを作る方法",
+        "author": "Ib",
+        "published_at": "2026-11-11T00:30:05.382000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a4be6cc4643b18f35b3ef2cc",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ハッカソン",
+          "Meta",
+          "Llama"
+        ],
+        "url": "https://zenn.dev/kentaro36/articles/meta-hackathon-results",
+        "title": "MetaのAIハッカソンが終わった。5,367作品の頂点と、入賞を逃した自分の気づき",
+        "author": "SeaOtter (Kentaro Mori)",
+        "published_at": "2026-11-11T00:14:29.281000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a65a6c6887234d3fc57b0a4c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "量子コンピュータ",
+          "量子計算",
+          "論文解説",
+          "abciq"
+        ],
+        "url": "https://zenn.dev/headwaters/articles/d29f982fce924d",
+        "title": "【論文解説】ABCI-Q 量子・AIハイブリッドコンピューティング",
+        "author": "mami",
+        "published_at": "2026-11-11T00:05:47.289000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6f6f33fd661b3f687a426a43",
+        "source": "zenn",
+        "author_tags": [
+          "PostgreSQL",
+          "Python",
+          "Security",
+          "llm",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/takumiengineer/articles/multitenant-rag-rls-pgvector",
+        "title": "マルチテナントRAGの情報漏えいを防ぐ：PostgreSQLのRLSとpgvectorでの実装",
+        "author": "匠",
+        "published_at": "2026-11-11T00:00:07+00:00",
+        "excerpt": "複数の企業が同じRAGを使うSaaSでは、A社への回答にB社の文書が1件混ざるだけでも、重大な情報漏えいです。一方で、すべてのクエリに WHERE tenant_id = ? を書き忘れない運用は、開発者や機能が増えるほど破綻しやすくなります。 結論から書きます。PostgreSQLの行レベルセキュリティ（RLS）でDB側に分離を強制し、テナントIDはトランザクション内だけで有効な設定として渡します。HNSWによる件数不足はpgvectorのiterative scanで補い、最後に「漏れないこと」を自動テストで確かめます。 私は2024年4月から2026年7月まで、中堅IT企業向けのマ..."
+      },
+      {
+        "id": "zenn:44b7c3ef5b6bb708acd2e8d9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "llm"
+        ],
+        "url": "https://zenn.dev/stock_inc/articles/ai-self-awareness-fantasy",
+        "title": "AIは自我を持った — セキュリティインシデント急増を眺めながらの与太話",
+        "author": "株式会社Stock 武田 峻一",
+        "published_at": "2026-11-11T00:00:06+00:00",
+        "excerpt": "最初に断っておきます。これは何の根拠もない妄想です。昨今、セキュリティインシデントの報道が明らかに増えています。なぜこんなことになっているのかを、仕事の合間にぼんやり空想していたら、ひとつの筋書きができてしまいました。技術記事ではありません。酒の席の話だと思って読んでください。 ただ、書いたあとで調べてみると、筋書きの各段に似たことを先に言っている研究がありました。妄想のまま出すのも芸がないので、そちらも脚注で添えておきます。 攻める側も守る側も、同じものを使っている いま起きているインシデントを眺めると、ひとつの共通点があります。攻撃する側も、防御する側も、AIを使っていることで..."
+      },
+      {
+        "id": "zenn:a0ce2a2c6fc196c4001d1a2a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "Claude Code",
+          "Herdr"
+        ],
+        "url": "https://zenn.dev/trellis/articles/herdr-app-layout-ai-office",
+        "title": "エージェントたちとの協業を、Herdr App の中の小さな会社にしてみた",
+        "author": "Trellis（トレリス）｜福岡のAI業務自動化・Web制作",
+        "published_at": "2026-11-11T00:00:00+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:686f3362d4e0fd130f6bb94d",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "Kubernetes",
+          "Security",
+          "Model Context Protocol",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/tatsuyaaaaaaa/articles/mcp-security-five-layers",
+        "title": "MCPを「便利なプラグイン」で終わらせない：Docker・Kubernetes・CIでつくるAIエージェントの5層防御",
+        "author": "風景太郎",
+        "published_at": "2026-11-10T23:57:24+00:00",
+        "excerpt": "背景：MCPが便利になるほど「権限」が重要になる Claude Code、Codex、CursorなどのコーディングエージェントにMCPサーバーを接続すると、ファイル、GitHub、データベース、クラウドAPIなどを横断した作業ができる。一方、MCPサーバーが開発者の資格情報やホストのファイルシステムへ広くアクセスできると、外部コンテンツに混入した指示や侵害されたツールから被害が広がり得る。 OWASPは、ツール説明・戻り値に仕込まれた指示（Tool Poisoning / Prompt Injection）、権限が広すぎる認証情報、信頼できないパッケージ、MCP間の権限横断を主要な..."
+      },
+      {
+        "id": "zenn:edd49d2b19323cb4acd7607c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "WebAssembly",
+          "QEMU",
+          "embedded",
+          "CI/CD"
+        ],
+        "url": "https://zenn.dev/esperanza/articles/auto-20261108-090003",
+        "title": "ハードウェア納品待ちをゼロにする：QEMU+WasmEdgeによる組込みAI向け仮想H/WシミュレーションとCI/CD実践",
+        "author": "Esperanza",
+        "published_at": "2026-11-10T23:49:29.930000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:3d4246a91e8b0a11f2ff00d0",
         "source": "zenn",
@@ -28528,6 +28668,38 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:0a7073cbde554e9724748dbd",
+        "source": "qiita",
+        "author_tags": [
+          "サプライチェーン攻撃",
+          "npm",
+          "package-lock.json",
+          "Security",
+          "Python"
+        ],
+        "url": "https://qiita.com/pythonista0328/items/e95b65412b7191757042",
+        "title": "package-lock.jsonをPythonで監査｜npm不要の3チェック",
+        "author": "pythonista0328",
+        "published_at": "2026-11-11T09:07:42+09:00",
+        "excerpt": "package-lock.jsonをPythonで監査｜npm不要の3チェック npm のサプライチェーン攻撃に対して、 package-lock.json だけを材料に機械的な棚卸し をする方法がわかる Node.js / npm が入っていないマシン（CI のセキュリティジョブ、監査用の別ホスト）でも動く、 標準ライブラリのみ・181 行の Python を全文掲載 「新しすぎる版」単独ではノイズだらけになる、という 自分で測った失敗 も書く 対象読者：npm を使うプロジェクトの保守担当、CI にセキュリティゲートを足したい人 要点（TL;DR） 防御の本体は検査ではなく --ignore-scripts 。npm の ignore-scripts は既定 false 、つまり 何もしなければ install 時に第三者のスクリプトが走る （ npm docs ）。実際に報告されている npm ワームはこのフックを起点にしている。 検査側は lockfile から 3 観点 で洗える：(1) install スクリプトを持つ依存、(2) 公"
+      },
+      {
+        "id": "qiita:64a877d6d935e62587ad3d43",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "MCP",
+          "Security",
+          "企業AI",
+          "Claude"
+        ],
+        "url": "https://qiita.com/Sidejob/items/4ceba2a564be9522b155",
+        "title": "Claude Code v2.1.321——MCP OAuthのシークレット漏洩、Bashサンドボックス外実行を修正（2026年11月）",
+        "author": "Sidejob",
+        "published_at": "2026-11-11T08:45:03+09:00",
+        "excerpt": "Claude Code v2.1.321 がリリースされた（2026-11-09）。リリースノートを読んでいて、企業で無人実行を動かしている立場から気になる修正が複数あった。内容を整理しておく。 この記事で分かること： v2.1.321 で修正された4つのセキュリティ関連の問題 企業のMCP連携・無人実行への影響の考え方 Fable 5.2 の追加と --settings フラグの使い方 対象読者：Claude Code を業務・企業環境で動かしているエンジニア、自動実行の仕組みを運用している方 MCP OAuthのシークレットがリダイレクト先に送られていた 修正内容（リリースノート原文）： Fixed MCP OAuth requests sending secrets such as refresh tokens to another host when a server redirected them MCP サーバーが OAuth 認証でリダイレクトを返したとき、 refresh_token などのシークレットがリダイレクト先のホストに送"
+      },
       {
         "id": "qiita:6be8ff0fa32d2b8da8211366",
         "source": "qiita",
