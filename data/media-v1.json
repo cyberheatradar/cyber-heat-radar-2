@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-10T22:40:02.651509+00:00",
+  "source_snapshot_generated_at": "2026-11-10T23:40:02.952897+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3d4246a91e8b0a11f2ff00d0",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "Git",
+          "Security",
+          "githooks"
+        ],
+        "url": "https://zenn.dev/mystery_hat/articles/git-hooks-in-received-repositories",
+        "title": "採用を装って届いたリポジトリで、認証情報を盗まれかけた。git フックはどの操作で動くのかを手元で試した",
+        "author": "まっしー｜Mystery Hat",
+        "published_at": "2026-11-10T23:00:05.488000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dfdf450ff51cd15b201c4f8a",
+        "source": "zenn",
+        "author_tags": [
+          "Kubernetes",
+          "Security",
+          "Squid",
+          "K3s",
+          "gvisor"
+        ],
+        "url": "https://zenn.dev/hirahara/articles/gvisor-sandbox-isolation",
+        "title": "他人が書いたコードを gVisor の箱で動かす。隔離と通信と上限の中身",
+        "author": "parapara",
+        "published_at": "2026-11-10T23:00:05.215000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:812fe823dbe73fc7e58941d6",
         "source": "zenn",
@@ -28498,6 +28529,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6be8ff0fa32d2b8da8211366",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "Microsoft",
+          "Security",
+          "Office365",
+          "WindowsUpdate"
+        ],
+        "url": "https://qiita.com/niimim/items/396096fa7ba6a965069c",
+        "title": "Microsoft セキュリティ更新プログラムリリース情報 - 2026 年 11 月",
+        "author": "niimim",
+        "published_at": "2026-11-11T07:54:44+09:00",
+        "excerpt": "Note: この記事は 2026年11月10日(太平洋標準時)に公開された Microsoft セキュリティ更新プログラムの概要をまとめたものです。 以下の製品群にフォーカスしたものとなっています。(主にデバイス管理者向け) ・各クライアントOS ( bitness は x64 対象 ) Windows 11 (26H2/25H2/24H2/23H2) Windows 10 (1607LTSB) ・Microsoft Office (Microsoft 365 Apps for Enterprise) ・Microsoft Edge (Stable v157) Microsoft がナレッジ内で言及している推奨手法(回避策)については\"タメ語\"で一部表現しておりますが、ご容赦ください。 Summary ・Win11 23H2 Enterprise / Education 最終パッチ。 ・.NET Framework 系 更新 なし。 ・脆弱性修正としては 悪用実績 1 件 (Office)。 Windows Client 今月の献立 Versio"
+      },
+      {
+        "id": "qiita:564739737286e2dfc4035b74",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Security",
+          "プロンプトインジェクション",
+          "プロンプトエンジニアリング",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/ishizakahiroshi/items/fb8c7fdad36fd587e618",
+        "title": "監査するAIエージェントを、監査対象から守る。git設定・テスト実行・埋め込み命令・報告の4経路を塞いだ設計判断",
+        "author": "ishizakahiroshi",
+        "published_at": "2026-11-11T07:40:58+09:00",
+        "excerpt": "先に、結論を3行で書きます。 自作の監査プロンプト集を2026年11月時点で見直し、AIが出した指摘117件を別のAIに反証させ、残った101件を反映しました。 いちばん大きく変えたのは、監査をするAI自身が監査対象から攻撃される経路を塞いだことです（対象の git 設定、テストの実行、対象に書かれたAI向けの命令、報告の画像やリンク）。 基準の版は6週間で13件動きました。プロンプトは版を固定して使い、更新するときは差分を読んでから切り替えるのがよさそうです。 時間に合わせて、読み方を選べます。 少し忙しい人向け： 5分で読める要約版（個人サイト） もっと深掘りしたい人は、このまま本文へどうぞ。 11月10日、AIエージェントにセキュリティ監査をさせるためのプロンプト集を、また見直しました。前回の大きな見直し（v1.0.0 を出した9月末）から6週間です。 頼んだのは1行でした。「この監査プロンプト自身を見直してほしい。今のトレンドや攻撃手法から守る方法など、多角的に深く調査して対応」。返ってきた指摘を並べてみて、自分が数えていなかった場所があ"
+      },
+      {
         "id": "qiita:a237ca35e83d1017ee342d74",
         "source": "qiita",
         "author_tags": [
@@ -39506,6 +39569,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ff1008221fa025031e377af3",
+        "source": "medium",
+        "author_tags": [
+          "ai-security",
+          "cloud-security",
+          "ai-agent",
+          "security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@Commoness/the-mcp-tool-was-safe-yesterday-today-it-was-sending-your-emails-to-someone-else-3b79790d96d6",
+        "title": "The MCP Tool Was Safe Yesterday. Today, It Was Sending Your Emails to Someone Else.",
+        "author": "The Commoness",
+        "published_at": "2026-11-10T22:56:01+00:00",
+        "excerpt": "What happens when a trusted AI tool turns against you? A real MCP supply-chain incident reveals why security cannot stop at installation. Continue reading on Medium »"
+      },
       {
         "id": "medium:ff75b96846e748fd9a5c6a38",
         "source": "medium",
