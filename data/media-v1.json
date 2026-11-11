@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-11T02:40:03.213983+00:00",
+  "source_snapshot_generated_at": "2026-11-11T03:40:02.891994+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:0830072de4b1531ff8935c0a",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "IAM",
+          "クラウド",
+          "インシデント",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/tech_realinvent/articles/0e5a46210adc60",
+        "title": "【Vol.33】認証情報を盗まれて、生成AIを約7時間回された — 止めたのは自社ではなかった",
+        "author": "リアルインベントTechブログ",
+        "published_at": "2026-11-11T03:20:19.128000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:42b204e5380d7e9588de3e93",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "クラウド",
+          "半導体",
+          "ai戦略",
+          "産業政策"
+        ],
+        "url": "https://zenn.dev/ririenu_lab/articles/c84a3cdc208c1f",
+        "title": "日本のAI戦略──「応用で勝つ」という設計の限界",
+        "author": "RiriEnu Lab （リリエーヌ・ラボ）",
+        "published_at": "2026-11-11T03:18:40.696000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6162852f786d262745ac0a04",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "起業"
+        ],
+        "url": "https://zenn.dev/launchpad/articles/371286583cde04",
+        "title": "AIといっしょに『始めるための道具』を作っている話",
+        "author": "Launchpad",
+        "published_at": "2026-11-11T03:03:46.278000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:cf47f7701ae3a217615840c2",
         "source": "zenn",
@@ -28901,6 +28947,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e7624dda4bab3d2719edf458",
+        "source": "qiita",
+        "author_tags": [
+          "Cloud",
+          "組織",
+          "アーキテクチャ",
+          "Security",
+          "キャリア"
+        ],
+        "url": "https://qiita.com/Doc-Tanukichi/items/eadabe096df3f1227264",
+        "title": "【クラウドと組織 #1】クラウドは組織に何をもたらし、何を奪ったか ― 運用の外部化で失いやすい6つのもの",
+        "author": "Doc-Tanukichi",
+        "published_at": "2026-11-11T11:56:47+09:00",
+        "excerpt": "この記事は「クラウドと組織」の第1回です。前の連作「 FaaS比較シリーズ 」「 モダンアーキテクチャ 」の続編にあたります。 はじめに 前の2つの連作では、 技術をどう選ぶか を考えてきました。FaaS とコンテナの比較、マネージドサービスとロックイン、そして「何をマネージドに任せ、何を自分で持つか」の判断のフレームワークです。 その中で、繰り返し出てきた問題があります。 OSS の ライセンスの変更 （Terraform、Redis、Vault など）や、 開発の停止 （MinIO） マネージドサービスの 提供終了 や 受付停止 （Google Cloud IoT Core、AWS CodeCommit） サポートの期限が切れたあとの 延長料金 （Amazon RDS、Amazon EKS） 運用は減っても、 セキュリティの面から分けておくべき責務 がある これらはどれも、 技術の選び方だけでは解決できない、組織の問題 です。自分たちで管理できない部分は、将来の負債になり得ます。そして、それに気づき、判断し、対処できる力が組織に残っているかど"
+      },
+      {
+        "id": "qiita:802152fafe09608e8328aaea",
+        "source": "qiita",
+        "author_tags": [
+          "個人開発",
+          "Webアプリケーション",
+          "Security",
+          "脆弱性診断",
+          "curl"
+        ],
+        "url": "https://qiita.com/bpr_prot/items/b568cab803a53543259d",
+        "title": "【30分点検】自分のWebサイトの脆弱性を無料で確かめる手順｜ブラウザとコマンドで見る5か所",
+        "author": "bpr_prot",
+        "published_at": "2026-11-11T11:44:08+09:00",
+        "excerpt": "自分のWebサイトに脆弱性がないか、無料で外から確かめられる5つのポイントを、ブラウザと短いコマンドでまとめました。チェックの所要時間の目安は30分ほどです。Vercel・Supabase・Firebaseなどで作って公開したサイトを前提に、HTTPS、守りの設定、公開ファイル、JavaScript、管理画面とAPIの順に見ていきます。 Who am I? BPR Prot. という、AIで作ったWebアプリの公開前の確認を手伝うサービスを作っています。Xでは公開前に確かめたいことを実例で毎日投稿しています。 @BPR_Prot 確かめる対象は、自分が持っているサイトだけにしてください。他人のサイトに同じことをすると、攻撃と受け取られることがあります。 1. HTTPで開いてもHTTPSに移るか まずブラウザで https://自分のドメイン を開きます。アドレス欄の鍵やサイト情報を開き、接続がHTTPSになっていて、証明書の期限が現在より先になっていれば、ここは問題ありません。普段のブックマークから開くだけではHTTP側の動きが分からないので、"
+      },
+      {
         "id": "qiita:a645067560e35e72ea9bf0ee",
         "source": "qiita",
         "author_tags": [
@@ -40127,6 +40205,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:494ffeb9287d9de0938106bf",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "digital-frauds",
+          "data-privacy",
+          "social-engineering",
+          "data-masking"
+        ],
+        "url": "https://medium.com/@riny91/ketika-resi-paket-menjadi-risiko-keamanan-analisis-penipuan-cod-dari-perspektif-cybersecurity-law-f17960bcf150",
+        "title": "Ketika Resi Paket Menjadi Risiko Keamanan: Analisis Penipuan COD dari Perspektif Cybersecurity Law…",
+        "author": "Riny",
+        "published_at": "2026-11-11T03:29:06+00:00",
+        "excerpt": "Dari data masking pada marketplace hingga social engineering, phishing, dan tanggung jawab hukum: mengapa penipuan paket COD perlu… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:159ce7451d56e15a012c5fe3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "infosec",
+          "vulnerability-research",
+          "application-security",
+          "django"
+        ],
+        "url": "https://medium.com/@santhoshkumar7794/a-search-box-that-joined-to-your-token-table-orm-filter-injection-in-kobotoolbox-63661b31cb55",
+        "title": "A search box that JOINed to your token table: ORM filter injection in KoboToolbox…",
+        "author": "Santosh Kumar Puppala",
+        "published_at": "2026-11-11T03:20:49+00:00",
+        "excerpt": "KoboToolbox’s asset search let an authenticated user send Django ORM relational lookups. In a local test, the response count worked as a… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5d7a7f2adff0a77eb1e74451",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ai",
+          "ctf",
+          "bug-bounty",
+          "information-security"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/how-i-hunt-for-bugs-in-ai-agent-tools-c09feb6069fc",
+        "title": "How I Hunt for Bugs in AI Agent Tools",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-11-11T02:51:17+00:00",
+        "excerpt": "A repeatable method for finding the confused-deputy bugs in LLM tools — from someone who reported one to AWS. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6b61ad571aa377d1f6900962",
+        "source": "medium",
+        "author_tags": [
+          "web-development",
+          "software-development",
+          "passkey",
+          "cybersecurity",
+          "password-authentication"
+        ],
+        "url": "https://medium.com/@auravenisolutions/passwordless-authentication-a-2026-guide-to-passkeys-111296bf64dd",
+        "title": "Passwordless Authentication: A 2026 Guide to Passkeys",
+        "author": "Auraveni Solutions",
+        "published_at": "2026-11-11T02:31:01+00:00",
+        "excerpt": "5 billion passkeys are in use. Here’s what passwordless authentication actually requires, what it costs, and where it earns priority. Continue reading on Medium »"
+      },
       {
         "id": "medium:334161f42c4a1a8791ca4861",
         "source": "medium",
