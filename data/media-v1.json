@@ -1,9 +1,113 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-11T04:40:03.187749+00:00",
+  "source_snapshot_generated_at": "2026-11-11T05:40:05.550925+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f88a2623e32b2147e1742e96",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DX",
+          "業務効率化",
+          "llm",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/dotext/articles/d7848c5c83ff08",
+        "title": "マーケ・医療・エンタメ・出版・法務・教育 ― ノンIT領域に広がる生成AI活用まとめ【2026年版】",
+        "author": "dotExt",
+        "published_at": "2026-11-11T05:36:19.794000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:13031348d6f54a3e474f8ba1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Docker",
+          "DevOps",
+          "opensource",
+          "llm"
+        ],
+        "url": "https://zenn.dev/zhiyuxinxi/articles/1a0361ffc08a9b",
+        "title": "AIが書いたコードと、リリースできるコードを分ける――ForgeAdminHarnessの設計",
+        "author": "zhiyuxinxi",
+        "published_at": "2026-11-11T05:24:21.415000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e19fcb2bdba8d397e79963dd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Linux",
+          "初心者",
+          "Security"
+        ],
+        "url": "https://zenn.dev/kotanpolin/articles/ai-vuln-autofix",
+        "title": "AIが脆弱性を見つけて直す時代に、なにが変わる？",
+        "author": "コタ",
+        "published_at": "2026-11-11T05:06:26+00:00",
+        "excerpt": "先に、3行で OpenAIが2026年11月4日、AIで脆弱性（ソフトの弱点）を「見つける→本当に危ないか試す→直し方を書く」仕組みを発表した。1回の実行で、Linuxカーネルの権限昇格の脆弱性948件について修正案（パッチ）を作り、API費用は約121万ドルだった。 ただし948件は「修正案を作った数」で、「Linuxに取り込まれて直った数」ではない。取り込みはLinuxの開発者が確認してから進む。 同じ力は攻撃する側にも届きうる。わたしたちにできるいちばん確かなことは、更新をためずに入れること（カーネルなら再起動まで）。 Xで流れてきた「AIが948件を直した」 2026..."
+      },
+      {
+        "id": "zenn:2fa716d773b6977726c60601",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "GitHub CLI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tatsuyan/articles/gh-attach-claude-code-pr-screenshot",
+        "title": "gh の --attach で Claude Code が作る PR にスクショを貼らせる",
+        "author": "つけ麺テキーラ",
+        "published_at": "2026-11-11T05:00:05+00:00",
+        "excerpt": "Claude Code に PR を作らせるとき、UI の変更なら変更前後のスクリーンショットも PR に載せてほしいことがあります。 これまでの GitHub CLI には画像をアップロードする手段がなかったので、Claude Code がスクショを撮っても PR には貼れず、ブラウザで PR を開いて自分でドラッグ&ドロップしていました。 GitHub CLI v2.99.0（2026年9月1日リリース）で --attach フラグが追加され、コマンドだけで画像や動画を PR・Issue・コメントに添付できるようになりました。 https://github.com/cli/c..."
+      },
+      {
+        "id": "zenn:58ffcf0904bf20d149c149c1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "translation",
+          "Model Context Protocol",
+          "Claude",
+          "Agent Skills"
+        ],
+        "url": "https://zenn.dev/kozo_ki/articles/41029fe69f8d7d",
+        "title": "自社の API をエージェントのプラグインにして、3つの環境で同じ1分の音声を処理してみた",
+        "author": "Kozo@Kawamura International",
+        "published_at": "2026-11-11T04:56:09+00:00",
+        "excerpt": "これまでの記事 非エンジニアCEOがCopilot Studio × LDX hubを繋いでみた（前編） 非エンジニアCEOがCopilot Studio × LDX hubを繋いでみた（完結編） Power Automate をスキップして MCP で直接接続したら2時間で動いた Power Automate × LDX hub で20件の議事録をバッチ処理して全社経営ダッシュボードを自動生成した 生成AIに議事録を丸投げしたら、経営判断に必要な情報の70%が消えた話 Power Automate × Power Apps × LDX hub で特許・論文データ18件を戦略ダッシュボ..."
+      },
+      {
+        "id": "zenn:7f8f435055c74c8008ebc1ef",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Databricks",
+          "plamo",
+          "llm",
+          "pfn"
+        ],
+        "url": "https://zenn.dev/hiouchiy/articles/b837762b7a8a2b",
+        "title": "金融特化の国産 LLM「PLaMo 3.0 Fin」を Databricks でバッチ推論・サービングしてみた",
+        "author": "Hiroshi Ouchiyama (Databricks Japan)",
+        "published_at": "2026-11-11T04:48:11+00:00",
+        "excerpt": "はじめに 国内では今も LLM の開発が活発で、用途や業界に特化した面白いモデルが次々と公開されています。 2026 年 11 月 9 日には、Preferred Networks（PFN）が金融特化の小規模言語モデル PLaMo 3.0 Fin（Hugging Face 上の名前は pfnet/plamo-3-8b-fin-instruct）を、オープンウェイトで公開しました。 さっそく Databricks の上で、次の 2 つを試してみました。 AI Runtime（サーバレス GPU）でバッチ推論する：質問の一覧に vLLM でまとめて回答させ、結果を Unity Cat..."
+      },
+      {
+        "id": "zenn:66a19f76e38aeb386347db12",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/okamyuji/books/ai-agent-harness-guardrails-quality-gates",
+        "title": "作って分かる！AIエージェントのハーネス入門 ガードレールと品質ゲートで暴走と手抜きを止める",
+        "author": "okamyuji",
+        "published_at": "2026-11-11T04:44:04+00:00",
+        "excerpt": "AIエージェントにコードを任せるとテストが通ったという報告のまま機能が動かなかったり頼んでいない依存が入ったりします。原因はモデルの賢さよりエージェントを動かす外側のプログラム（ハーネス）に止める仕組みと確かめる仕組みがないことです。AnthropicとOpenAIの公式資料をもとにハーネスの組み方、ガードレールと品質ゲートの役割、Go・.NET・TypeScriptで使うツール、CRAP値・mutation testing・property-based testingによるテストの強さの検証を実動作検証した設定とサンプルで段階的に説明します。"
+      },
       {
         "id": "zenn:9c2227209009335f8e37a6cf",
         "source": "zenn",
@@ -40220,6 +40324,85 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:36de75395f552343a20a7e15",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "reverse-engineering",
+          "cybersecurity",
+          "software-development",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@devirt/how-to-choose-a-software-reverse-engineering-service-25b3c00fbb7e",
+        "title": "How to Choose a Software Reverse Engineering Service",
+        "author": "Devirt",
+        "published_at": "2026-11-11T05:25:46+00:00",
+        "excerpt": "Software reverse engineering services analyze a compiled program to work out how it behaves when the source code is not available. In 2026… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:951a488b58070ec66576837c",
+        "source": "medium",
+        "author_tags": [
+          "malware-analysis",
+          "artificial-intelligence",
+          "decompiler",
+          "cybersecurity",
+          "reverse-engineering"
+        ],
+        "url": "https://medium.com/@devirt/ai-decompiler-output-how-to-tell-if-its-actually-right-4d53ae69a06b",
+        "title": "AI Decompiler Output: How to Tell If It's Actually Right",
+        "author": "Devirt",
+        "published_at": "2026-11-11T05:24:47+00:00",
+        "excerpt": "An AI decompiler is a large language model that turns assembly, or a classic decompiler’s pseudocode, into readable source-like code. In… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e96dd17b69eaa479f8b49424",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme-walkthrough",
+          "tryhackme-writeup",
+          "phishing-email",
+          "ctf-writeup",
+          "cybersecurity"
+        ],
+        "url": "https://serium7.medium.com/tryhackme-snapped-phish-ing-line-walkthrough-3ef416159761",
+        "title": "TryHackMe : Snapped Phish-ing Line Walkthrough",
+        "author": "Serium7",
+        "published_at": "2026-11-11T05:09:58+00:00",
+        "excerpt": "Try this Room : https://tryhackme.com/room/snappedphishingline Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e7515350535d18a59b33daac",
+        "source": "medium",
+        "author_tags": [
+          "vpn",
+          "information-security",
+          "cybersecurity",
+          "network-security",
+          "zero-day"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/hardening-the-vpn-gateway-ten-practical-steps-before-the-next-edge-zero-day-6278a1bc3a39",
+        "title": "Hardening the VPN Gateway: Ten Practical Steps Before the Next Edge Zero-Day",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-11T04:58:08+00:00",
+        "excerpt": "Most organizations treat the VPN gateway as part of their defense. Lately it has become one of their biggest risks. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6ff253bf6ae8a084504e71ad",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "cybersecurity",
+          "vulnerability",
+          "network-security"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/when-mfa-is-only-one-of-the-doors-lessons-from-the-sonicwall-sslvpn-saml-bypass-a69c2f31335d",
+        "title": "When MFA Is Only One of the Doors: Lessons From the SonicWall SSLVPN SAML Bypass",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-11T04:56:59+00:00",
+        "excerpt": "Many organizations relax about leaked VPN passwords once multi-factor authentication is turned on. The new SonicWall flaw shows that this… Continue reading on Medium »"
+      },
       {
         "id": "medium:292d995fc06df464145e9b5d",
         "source": "medium",
