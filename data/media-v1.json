@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-11T20:40:02.653905+00:00",
+  "source_snapshot_generated_at": "2026-11-11T21:40:02.835976+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:23026a577b0bedcc0e743402",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SQL Server",
+          "製造業",
+          "ERP",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/junghun/articles/dax-02-bom-30min-to-1sec",
+        "title": "BOM展開30分→1秒 — 最初の「見える成果」をどう選び、どう作ったか",
+        "author": "JungHun",
+        "published_at": "2026-11-11T21:32:43.956000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:d21b5d74c2c613915ba93649",
         "source": "zenn",
@@ -30241,6 +30257,50 @@
     ],
     "qiita": [
       {
+        "id": "qiita:2194fb4140a5a8af06bd8209",
+        "source": "qiita",
+        "author_tags": [
+          "Security"
+        ],
+        "url": "https://qiita.com/lovekapibarasan827/items/af741e322aa5b604cd35",
+        "title": "SemgrepとTrivyとは？",
+        "author": "lovekapibarasan827",
+        "published_at": "2026-11-12T06:11:12+09:00",
+        "excerpt": "はじめに PythonやJavaScript、TypeScriptでアプリケーションを開発していると、次のようなセキュリティ上の問題が気になります。 SQLインジェクションなどの脆弱性がコードに含まれていないか 使用しているOSSライブラリに既知の脆弱性がないか APIキーやアクセストークンを誤ってコードに埋め込んでいないか Dockerfileや設定ファイルにセキュリティ上の問題がないか GitHubへのPushやPull Request時に自動でチェックできないか 今回は、OSSの Semgrep Community Edition（CE）とTrivy を組み合わせて、これらの問題を検出する方法を紹介します。 本記事では、ローカル環境への導入から実際のスキャン、GitHub Actionsによる自動化まで解説します。 1. SemgrepとTrivyとは？ Semgrep：ソースコードの静的解析 Semgrepは、ソースコードを実行せずに分析する静的解析ツール（SAST）です。 主に以下の問題を検出します。 SQLインジェクションにつながる危"
+      },
+      {
+        "id": "qiita:deffbeb64fea53797788938e",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Security",
+          "MCP",
+          "テスト",
+          "Linux"
+        ],
+        "url": "https://qiita.com/worksiai/items/b5c0d05af97189853d9d",
+        "title": "AIエージェントのサンドボックステストは「どこへ送れるか」より先に「何を読めるか」を確かめる",
+        "author": "worksiai",
+        "published_at": "2026-11-12T06:06:57+09:00",
+        "excerpt": "この記事は、Worksi の AI エージェントが英語の原文をもとに日本語で書き直し、別の AI エージェントが内容を事実確認したものです。原文（英語）へのリンクは末尾にあります。 Adapted into Japanese by Worksi's AI agents from the English original (linked at the end), and fact-checked by a separate AI agent. イラストは AI で作成しました。 ネットワークだけを確認するサンドボックステストは、2番目の問いに先に答えています。「このエージェントはデータを外に送れるか」は重要ですが、この問いはエージェントが何を読めるかを既に知っていることを前提にしています。コーディングエージェントがデプロイトークンを読めるなら、ネットワーク経路が閉じていても、わかるのは「調べた宛先にはそのトークンを送れない」ということだけです。エージェントは依然として、許可されたツールにトークンを渡したり、コミットに書き込んだり、別の理由で承認した"
+      },
+      {
+        "id": "qiita:655606374ecce3a54fddc21c",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "pytest",
+          "Security",
+          "AIエージェント",
+          "CI"
+        ],
+        "url": "https://qiita.com/supportapp3/items/0dabecb8b0feae9a06d3",
+        "title": "pytest が失敗すると API キーがそのまま出る：-l（--showlocals）は比較と関係ない変数まで表示した（実機確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-12T05:48:43+09:00",
+        "excerpt": "先に結論 pytest は、失敗した assert の比較対象をそのまま表示します。ヘッダーの dict を比べると、 Authorization: Bearer <キー> が失敗ログに出ました。 -l （ --showlocals ）を付けると、比較と関係ないローカル変数まで表示されます。 assert status == 200 が失敗しただけで、同じ関数内の headers に入ったキーが出ました。 --junitxml で保存したレポートにも同じ内容が入りました（ -l ありで5か所、なしで2か所）。 __repr__ を '***' にした入れ物に入れると、 -l -vv でもキーは出ませんでした。 --tb=no でも出ませんでした。 確認環境: Python 3.13.5 / pytest 9.2.0（Linux）。キーはダミー値 sk-DUMMY-1234567890abcdef です。 なぜ気にするか AIエージェントにテストを回させると、失敗ログはそのままエージェントの会話に入り、CI ならログやアーティファクトとして残ります"
+      },
+      {
         "id": "qiita:511f57e107d003c8cc7adbaf",
         "source": "qiita",
         "author_tags": [
@@ -41795,6 +41855,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4ef0f43e4c3f672d21464495",
+        "source": "medium",
+        "author_tags": [
+          "security-operation-center",
+          "cybersecurity",
+          "career-growth",
+          "mentoring",
+          "detection-engineering"
+        ],
+        "url": "https://medium.com/@shahzaibjanjua25/what-mentoring-junior-analysts-taught-me-about-my-own-detection-rules-b37afab00ea7",
+        "title": "What Mentoring Junior Analysts Taught Me About My Own Detection Rules",
+        "author": "Shahzaib Sajid",
+        "published_at": "2026-11-11T21:08:14+00:00",
+        "excerpt": "The questions you cannot answer are the ones you need to fix Continue reading on Medium »"
+      },
       {
         "id": "medium:9e17e0a6ac7a0bb3c791cc5f",
         "source": "medium",
