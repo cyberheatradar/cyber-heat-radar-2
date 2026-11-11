@@ -1,9 +1,82 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-11T05:40:05.550925+00:00",
+  "source_snapshot_generated_at": "2026-11-11T06:40:03.142485+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:5f748f2709f3c50f128d3eb8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/showgo/articles/claude-code-four-products-autopilot",
+        "title": "Claude Code に 4 つの個人プロダクトを任せている記録",
+        "author": "ShowGo",
+        "published_at": "2026-11-11T06:35:34.827000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:65dd09bd1b501ae76cd40c59",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Tech blog",
+          "ライティング",
+          "生成 AI",
+          "情報発信"
+        ],
+        "url": "https://zenn.dev/dotext/articles/6cfa543ecf215d",
+        "title": "AIが書き、AIが読み、たまに人が読む時代に、誰のために記事を書くのか",
+        "author": "dotExt",
+        "published_at": "2026-11-11T06:29:58.234000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a9c3844052a91604f63bfd9c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "devlog"
+        ],
+        "url": "https://zenn.dev/ryoitabashi/articles/2026-11-11-dev-ja",
+        "title": "ペーストが壊れる：5つの入口と bash 5.3 向けの改行正規化",
+        "author": "RYO ITABASHI",
+        "published_at": "2026-11-11T06:23:54.968000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c05656838a6f18dc61ea51bb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "PostgreSQL",
+          "llm",
+          "pgvector",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/okamyuji/articles/pgvector-rag-agent-measured",
+        "title": "AIエージェントの検索基盤をpgvectorで作る - 権限・日本語・モデル更新の実測",
+        "author": "okamyuji",
+        "published_at": "2026-11-11T06:00:30.900000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:73d5629238a1255a446ef295",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/jessica1007/articles/b5523f85d298e3",
+        "title": "周波数ドメインのビジュアライザとジャケット主導の動画を分けて考える短い設計メモ",
+        "author": "Jessica AI",
+        "published_at": "2026-11-11T05:58:45.306000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f88a2623e32b2147e1742e96",
         "source": "zenn",
@@ -29066,6 +29139,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:200d4e6dd2b57016fa246cdd",
+        "source": "qiita",
+        "author_tags": [
+          "Excel",
+          "関数型プログラミング",
+          "Security",
+          "設計",
+          "運用"
+        ],
+        "url": "https://qiita.com/securoi_koyama/items/6987a2b269a771512391",
+        "title": "61問の点検表の集計を、4つの関数だけで作る",
+        "author": "securoi_koyama",
+        "published_at": "2026-11-11T15:37:36+09:00",
+        "excerpt": "この記事は、2026年11月6日（金）に出したプレスリリースの技術側です。 国の注意喚起に対する61問の点検表を公開していて、そのファイルの中に集計シートが入っています。 集計シートの中身は、こうなっています。 数 数式の本数 78 数式の型 8 使っている関数 4（COUNTIF・COUNTIFS・SUM・IF） マクロ 0 入力規則 0 シート保護 なし 配る物なので、開いた人の環境で壊れないことを優先しました。 以下は、その78本のうち主な59本（COUNTIFS 52本と IF 7本）が何をしているかです。 残りの19本は、小計と合計の SUM と、単純な COUNTIF です。 2軸の交差を COUNTIFS で数える 点検シートは65行（見出しを含む）で、入力は5行目から65行目です。 各行に「入口の群」（C列）と「優先度」（F列）が入ります。 集計シートが出すのは、その2つの交差です。 =COUNTIFS(点検!$C$5:$C$65,\"A 社外から見えている入口\",点検!$F$5:$F$65,\"1 最優先\") これが42本あります。"
+      },
+      {
+        "id": "qiita:6de7939c07a8f5bad441ecce",
+        "source": "qiita",
+        "author_tags": [
+          "EOL",
+          "Security",
+          "cybersecurity"
+        ],
+        "url": "https://qiita.com/HeroDevs-Japan/items/87e064bf3a0907eca68d",
+        "title": "日本の能動的サイバー防御法とEOLオープンソース：重要インフラ事業者とベンダーが知るべきこと",
+        "author": "HeroDevs-Japan",
+        "published_at": "2026-11-11T15:19:58+09:00",
+        "excerpt": "日本の能動的サイバー防御法（Active Cyber Defense law）について、重要インフラ事業者とそのサプライヤーが押さえておくべきポイントと、現実的な対応策を解説します。 はじめに 日本の重要インフラを運用している組織、またはその運用事業者にシステムを供給している組織にとって、2026年10月1日にルールが変わりました。日本の 能動的サイバー防御法（2025年法律第42号） は2025年5月16日に成立し、中核となる規定が順次施行されています。インシデント報告の義務化、政府による情報共有、官民協議会が含まれます。 2027年3月31日 までに、事業者は最重要システムで稼働している製品名とバージョンを政府に届け出る必要があります。さらに、通信データに関する政府の権限は2027年11月22日までに全面施行されます。 この法律をめぐる議論の多くは、通信データの政府分析や攻撃者サーバーの無害化権限といった目玉の権限に集まっています。もちろん重要です。しかし、オープンソース上で重要システムを運用するすべてのCISOとエンジニアリングリーダーが最"
+      },
+      {
         "id": "qiita:e7624dda4bab3d2719edf458",
         "source": "qiita",
         "author_tags": [
@@ -40324,6 +40427,113 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:cbd4308283a163d0e06a771b",
+        "source": "medium",
+        "author_tags": [
+          "internet-of-things",
+          "cybersecurity",
+          "technology",
+          "iot-security",
+          "information-security"
+        ],
+        "url": "https://hashstudioz.medium.com/iot-device-security-7-common-vulnerabilities-and-how-to-prevent-them-2f3adce2d9f4",
+        "title": "IoT Device Security: 7 Common Vulnerabilities and How to Prevent Them",
+        "author": "HashStudioz Technologies",
+        "published_at": "2026-11-11T06:31:46+00:00",
+        "excerpt": "The Internet of Things (IoT) has changed how businesses monitor equipment, manage operations, track assets, and collect real-time data… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cf9d51a899db5f6b9acf1c78",
+        "source": "medium",
+        "author_tags": [
+          "risk-management",
+          "technology",
+          "singapore",
+          "information-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@treelabsconsulting/cybersecurity-in-singapore-are-businesses-prepared-for-the-next-cyber-incident-04576f24ea15",
+        "title": "Cybersecurity in Singapore: Are Businesses Prepared for the Next Cyber Incident?",
+        "author": "TreeLabs Comsulting",
+        "published_at": "2026-11-11T06:25:46+00:00",
+        "excerpt": "Almost 9 in 10 Singapore organisations surveyed experienced at least one cyber incident in 2025. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5932634b2ba151f4391df5b2",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-management",
+          "risk-management",
+          "exposure",
+          "cybersecurity",
+          "ciso"
+        ],
+        "url": "https://medium.com/@yuriy.but/the-findings-we-never-fix-bad55119e7df",
+        "title": "The Findings We Never Fix",
+        "author": "Yury Butuzov",
+        "published_at": "2026-11-11T06:13:34+00:00",
+        "excerpt": "Critical exposures are closed first, and part of the remainder will never be remediated. This article looks at why that remainder is worth… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8500a8ebbcd629d71bec3a47",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "healthcare",
+          "information-security",
+          "hipaa"
+        ],
+        "url": "https://medium.com/@chuksawunor75/what-a-healthcare-organization-should-expect-from-a-managed-soc-a54c966686ce",
+        "title": "What a Healthcare Organization Should Expect From a Managed SOC",
+        "author": "Chuksawunor",
+        "published_at": "2026-11-11T05:57:35+00:00",
+        "excerpt": "The proposed overhaul of the HIPAA Security Rule was published in January 2025. It is still not final. HIPAA Journal reports that the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:be6567bc6683c9ee7699f3c2",
+        "source": "medium",
+        "author_tags": [
+          "saas",
+          "compliance",
+          "technology",
+          "startup",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@annexops/soc-2-readiness-for-saas-companies-what-founders-should-know-bab97d3c9672",
+        "title": "SOC 2 Readiness for SaaS Companies: What Founders Should Know",
+        "author": "Nitin Grover",
+        "published_at": "2026-11-11T05:56:31+00:00",
+        "excerpt": "Building a SaaS product involves much more than developing features and acquiring customers. As a software business grows, it also takes… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7ebb72a99a94190c3b8b3720",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qnayds14/why-cybersecurity-education-is-becoming-essential-in-kerala-6945b57721b3",
+        "title": "Why Cybersecurity Education Is Becoming Essential in Kerala",
+        "author": "QNAYDS | AI & Cybersecurity Academy",
+        "published_at": "2026-11-11T05:56:01+00:00",
+        "excerpt": "The digital world is growing rapidly, and cybersecurity has become one of the most important aspects of modern technology. From online… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:035e43c0eb005bb88a0d274e",
+        "source": "medium",
+        "author_tags": [
+          "portswigger",
+          "cybersecurity",
+          "infosec",
+          "web-security",
+          "sql-injection"
+        ],
+        "url": "https://medium.com/@razajavaid2004/portswigger-lab-blind-sql-injection-with-out-of-band-interaction-50c4552ac6b0",
+        "title": "PortSwigger Lab: Blind SQL Injection with Out-of-Band Interaction",
+        "author": "Muhammad Raza",
+        "published_at": "2026-11-11T05:56:01+00:00",
+        "excerpt": "Difficulty: Practitioner Continue reading on Medium »"
+      },
       {
         "id": "medium:36de75395f552343a20a7e15",
         "source": "medium",
