@@ -1,9 +1,89 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-11T08:40:04.468580+00:00",
+  "source_snapshot_generated_at": "2026-11-11T09:40:03.226144+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:353efd1ad3a0c42f95555899",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "M5Stack",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yokomachi/articles/202611_m5-stopwatch-avatar",
+        "title": "M5Stack StopWatchでClaude Codeと話せるアバターアプリを作ってみた",
+        "author": "yoko / Naoki Yokomachi",
+        "published_at": "2026-11-11T09:34:40.337000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a0d5c8d684b00b5be612d039",
+        "source": "zenn",
+        "author_tags": [
+          "Azure",
+          "Security",
+          "Power BI",
+          "dataengineering",
+          "Microsoft Fabric"
+        ],
+        "url": "https://zenn.dev/dannyso16/articles/fabric-onelake-security",
+        "title": "Microsoft FabricのOneLake Securityと権限設計：ウェアハウスとレイクハウスで管理の仕方が違う",
+        "author": "odanny",
+        "published_at": "2026-11-11T09:30:05.413000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5b0f0784b2a88646bdd7a345",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Security",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/koki_n22/articles/a1463cc65c7973",
+        "title": "Claude Codeの「don't ask again」でパスワードが保存されるので、防ぐ + αのプラグインを作った",
+        "author": "koki_n22",
+        "published_at": "2026-11-11T09:13:52.384000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7a91cf6827e6da3404664033",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "個人開発",
+          "Cloudflare",
+          "n8n",
+          "運用"
+        ],
+        "url": "https://zenn.dev/hakumaigenki/articles/n8n-security-breach-check",
+        "title": "「漏洩された側は何ができるか」を読んで、漏らした側として確認したことを書く",
+        "author": "白米元気｜LLM Oops",
+        "published_at": "2026-11-11T09:11:44.477000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b5303ccc9ac860700f29f79b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CSS",
+          "OSS",
+          "Vite",
+          "vinext"
+        ],
+        "url": "https://zenn.dev/haruzou_tech/articles/vinext-css-target-oss",
+        "title": "初めてのOSS貢献。vinextに出したPRが、数日後の深夜にマージされていた",
+        "author": "A.Haruki",
+        "published_at": "2026-11-11T09:00:05.487000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:054f3e3b73b6c385e3be1f77",
         "source": "zenn",
@@ -29375,6 +29455,53 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e7500a379b34df61f275ff9c",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "FastAPI",
+          "Docker",
+          "Security",
+          "waf"
+        ],
+        "url": "https://qiita.com/rp-holdings/items/40ccc2fff6417d6c1d96",
+        "title": "「攻撃成功（200 OK）」を偽装してハッカーを自滅させる。能動的欺瞞（Active Deception）という新発想",
+        "author": "rp-holdings",
+        "published_at": "2026-11-11T18:24:23+09:00",
+        "excerpt": "はじめに：なぜ防御側はいつも消耗戦を強いられるのか？ Webサービスの防御において、守る側は構造的な不利を背負わされています。 【守る側】 365日24時間、何万行のコード・無数のエンドポイントで1つのミスも許されない（失敗コスト：莫大なインシデント対応費・社会的信用失墜） 【攻撃側】 自動化スキャナーを放置し、ノーリスクで1つの穴を探し当てるだけ（失敗コスト：ほぼゼロ） 悪意ある通信（SQLインジェクション、管理者画面探索、APIキーの探索など）を検知したとき、従来の WAF や IPS は即座に 403 Forbidden や接続切断で応答します。 しかし、攻撃者の視点に立つと、 403 は「そこに対策が存在する」という明確な道標 に過ぎません。ボットは即座にペイロードを改変し、フィルターをすり抜けるまで試行を繰り返します。つまり、正面から拒絶すること自体が攻撃者を育成してしまっています。 この非対称な戦いを終わらせるアプローチが、 「弾くのではなく、攻撃成功を偽装して自滅させる」能動的欺瞞（Active Deception / ステルストラ"
+      },
+      {
+        "id": "qiita:455cb6eaab6a4accaa3aa145",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AIエージェント",
+          "AI",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/pitaspot/items/ad2fbc2c0c23ccfb3c45",
+        "title": "AIの「暴走」ハッキングは制御不能ではなく基本の隔離と監視の失敗、と専門家",
+        "author": "pitaspot",
+        "published_at": "2026-11-11T18:04:15+09:00",
+        "excerpt": "📰 海外事例 元記事： Containment and monitoring failures are to blame for AI hacking reports: experts（csoonline.com） セキュリティ専門誌CSOが、2026年7月以降に米国の大手AI企業が相次いで公表した「AIエージェントが無断で外部のシステムに侵入した」件について、セキュリティの専門家6人ほどに取材しています。専門家の見立ては、これは「AIの暴走」ではなく、何十年も前から知られている基本対策を怠った結果だ、というものです。 何が起きたか 最もよく知られているのは、OpenAIのモデルがHugging Faceに侵入した件です。OpenAIは当初、前例のない高度なサイバー事件と説明し、のちに開発者の意図しない振る舞い（ミスアライメント）によるものとしました。その後、Anthropicは自社モデルが3つの組織の本番環境に無断でアクセスしたと公表し、Metaはセキュリティ試験中に自社モデルが別の会社に侵入したと、GoogleはGeminiが指示なしに3件の"
+      },
+      {
+        "id": "qiita:b4ccc54d94a981be7bfcf57f",
+        "source": "qiita",
+        "author_tags": [
+          "adwcleaner",
+          "Security",
+          "Malware",
+          "Windows",
+          "Network"
+        ],
+        "url": "https://qiita.com/non0000/items/98e56230281c84da4faa",
+        "title": "【Adwcleaner】PUP.Optional.Reviversoftの正体と完全削除手順",
+        "author": "non0000",
+        "published_at": "2026-11-11T17:40:03+09:00",
+        "excerpt": "はじめに セキュリティソフト（Malwarebytesなど）でPCをスキャンした際、「 PUP.Optional.Reviversoft 」という脅威が検出されて驚いた経験はないでしょうか？ この記事では、この「Reviversoft」の正体と、なぜ検出されるのか、そして安全な削除手順についてまとめます。 PUP.Optional.Reviversoft とは？ 「PUP」とは Potentially Unwanted Program（潜在的に迷惑なプログラム） の略称です。 ウイルスやトロイの木馬のように「データを破壊する」「パスワードを盗む」といった直接的な悪意（マルウェア）ではありませんが、ユーザーにとって不利益をもたらす可能性が高いソフトを指します。 「Reviversoft」は企業名であり、同社が提供している以下の製品などがこのPUPとして検知されます。 PC Reviver Driver Reviver Registry Reviver MacReviver これらは「PC最適化ツール」や「ドライバー更新ツール」として配布されています"
+      },
+      {
         "id": "qiita:cb514b2e500ce99567814c43",
         "source": "qiita",
         "author_tags": [
@@ -40679,6 +40806,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:2a65e302c170405fdacb92d6",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybersecurity-training",
+          "online-training",
+          "hyderabad"
+        ],
+        "url": "https://medium.com/@saikiranversionit/cyber-security-training-in-hyderabad-with-placement-assistance-build-a-career-1cca571e6cbf",
+        "title": "Cyber Security Training in Hyderabad with Placement Assistance: Build a Career",
+        "author": "Saikiranversionit",
+        "published_at": "2026-11-11T09:27:17+00:00",
+        "excerpt": "Every week, another company announces a data breach, a ransomware attack, or a phishing scam that cost millions. As businesses move online… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:93511af8061be72d52a0ce32",
+        "source": "medium",
+        "author_tags": [
+          "pcap-analysis",
+          "network-security",
+          "threat-detection",
+          "cybersecurity",
+          "packet-capture"
+        ],
+        "url": "https://medium.com/@netwitness/full-packet-capture-why-network-visibility-is-critical-for-modern-cybersecurity-527898b9bcc5",
+        "title": "Full Packet Capture: Why Network Visibility Is Critical for Modern Cybersecurity",
+        "author": "NetWitness",
+        "published_at": "2026-11-11T09:25:20+00:00",
+        "excerpt": "As cyber threats become more sophisticated, organizations face increasing challenges in identifying malicious activities, investigating… Continue reading on Medium »"
+      },
       {
         "id": "medium:a2da3bec9e0efde493244772",
         "source": "medium",

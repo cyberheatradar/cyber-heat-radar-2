@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-11T09:05:32.195462+00:00",
-  "as_of": "2026-11-11T09:00:00+00:00",
-  "catalog_count": 23630,
+  "generated_at": "2026-11-11T10:05:36.647419+00:00",
+  "as_of": "2026-11-11T10:00:00+00:00",
+  "catalog_count": 23634,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,103 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/microsoft-fixes-1235-flaws-record/",
+      "cves": [],
+      "document_form": "bulletin",
+      "first_seen_at": "2026-11-11T18:37:38.536656+09:00",
+      "heat_score": 33.75,
+      "permalink_id": "article-url-a0444ff16de76b5a3772d0b6",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:a0444ff16de76b5a3772d0b6",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-11T18:15:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "Microsoft patched a record-breaking 1235 CVEs in November’s Patch Tuesday",
+      "summary_excerpt": "Microsoft patched a record-breaking 1235 CVEs in November’s Patch Tuesday",
+      "threat_actors": [],
+      "title": "Microsoft Fixes 1235 Flaws in Another Record Patch Tuesday"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/orca-security-ai-security/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T18:37:37.654116+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-4d7676104c4437aa305ace9c",
+      "primary_category": "ai_security",
+      "public_article_id": "url:4d7676104c4437aa305ace9c",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-11T18:05:46+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Orca Security has announced new capabilities to help organizations discover and secure AI-generated applications and autonomous agents across their cloud environments. The expansion builds on Orca’s AI Security offering, enabling security teams to uncover previously unknown AI applications, assess the risks associated with autonomous agents, and gain deeper visibility into AI-generated code. AI is fundamentally changing who builds software and how it reaches production. Employees across business functions are creating applications using AI-powered tools, while … More → The post Orca Security adds visibility into AI-generated code and agent risks appeared first on Help Net Security .",
+      "summary_excerpt": "Orca Security has announced new capabilities to help organizations discover and secure AI-generated applications and autonomous agents across their cloud environments. The expansion builds on Orca’s AI Security offering, enabling security teams to uncover previously unknown AI applications, assess the risks associated with autonomous agents, and gain deeper visibility into AI-generated code. AI is fundamentally changing who builds software and how it reaches production. Employees across business functions are creating applications using AI-powered tools, while … More → The post Orca Security a",
+      "threat_actors": [],
+      "title": "Orca Security adds visibility into AI-generated code and agent risks"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+      "cves": [
+        "CVE-2026-111793",
+        "CVE-2026-20320"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T18:23:31.664315+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-8b14998fef80eb25e7969a21",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:8b14998fef80eb25e7969a21",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-11T18:01:07+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek .",
+      "summary_excerpt": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities"
+    },
     {
       "ai_relevance": "primary",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/obsidian-security-runtime-policy-decision-engine/",
@@ -70,6 +167,28 @@
       "summary_excerpt": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs. The post Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/11/2000003114/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T18:37:42.016220+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-d91d3f2e3563b94f5d369bbe",
+      "primary_category": "other",
+      "public_article_id": "url:d91d3f2e3563b94f5d369bbe",
+      "public_tags": [],
+      "published_at": "2026-11-11T17:35:52+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia NEWS Bursts",
+      "summary": "ユミルリンクは11月11日、不正アクセスにより約4786万件の個人情報が流出したと発表した。10月に公表した最大約5162万件から件数を精査。被害は同社のメール配信サービスを利用するアイスタイルやJR東海などにも広がっている。",
+      "summary_excerpt": "ユミルリンクは11月11日、不正アクセスにより約4786万件の個人情報が流出したと発表した。10月に公表した最大約5162万件から件数を精査。被害は同社のメール配信サービスを利用するアイスタイルやJR東海などにも広がっている。",
+      "threat_actors": [],
+      "title": "メール配信のユミルリンク、不正アクセスで約4786万件漏えい　JR東海やアイスタイルに影響"
     },
     {
       "ai_relevance": "none",
@@ -176,45 +295,22 @@
       "summary_excerpt": "A cyber attack can impact far more than revenue, but insurance can help soften the blow",
       "threat_actors": [],
       "title": "Duck and coverage: The insurance impact of a cyber attack"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://ascii.jp/elem/000/004/449/4449674/?rss",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T17:08:27.233441+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-d7af6e3ab3c7b71f44c1a1dd",
-      "primary_category": "ai_security",
-      "public_article_id": "url:d7af6e3ab3c7b71f44c1a1dd",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
+      "canonical_url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+      "cves": [
+        "CVE-2026-111793",
+        "CVE-2026-20320"
       ],
-      "published_at": "2026-11-11T17:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ASCII.jp TECH",
-      "summary": "ASCIIは12月3日、情シス・セキュリティ担当者向けの無料懇親会「TECH.ASCII ゆるっとナイト vol.9」を開催。2026年のセキュリティ問題を振り返りながら、現役情シスや専門家が現場の苦労やホンネを語り合います。",
-      "summary_excerpt": "ASCIIは12月3日、情シス・セキュリティ担当者向けの無料懇親会「TECH.ASCII ゆるっとナイト vol.9」を開催。2026年のセキュリティ問題を振り返りながら、現役情シスや専門家が現場の苦労やホンネを語り合います。",
-      "threat_actors": [],
-      "title": "情報漏えい、サイバー攻撃、生成AI……2026年のITニュース、濃すぎませんか？"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
-      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-11T17:22:08.676237+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-79d31854ee5911581bb65f6d",
+      "first_seen_at": "2026-11-11T18:23:31.664315+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-8b14998fef80eb25e7969a21",
       "primary_category": "vulnerability",
-      "public_article_id": "url:79d31854ee5911581bb65f6d",
+      "public_article_id": "url:8b14998fef80eb25e7969a21",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -222,63 +318,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-11T16:53:51+09:00",
+      "published_at": "2026-11-11T18:01:07+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
       "source_name": "SecurityWeek",
-      "summary": "The security defects could allow attackers to bypass authorization and gain root access to devices. The post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
-      "summary_excerpt": "The security defects could allow attackers to bypass authorization and gain root access to devices. The post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
+      "summary": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek .",
+      "summary_excerpt": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek .",
       "threat_actors": [],
-      "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks"
+      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities"
     },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261111-5301640/",
-      "cves": [],
-      "document_form": "analysis",
-      "first_seen_at": "2026-11-11T17:09:30.269615+09:00",
-      "heat_score": 42.75,
-      "permalink_id": "article-url-69beb6b401f7e3ecde793e82",
-      "primary_category": "other",
-      "public_article_id": "url:69beb6b401f7e3ecde793e82",
-      "public_tags": [],
-      "published_at": "2026-11-11T16:45:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "SHIFTは11月11日、中央省庁や地方公共団体が運用するシステムを対象とした「公共向け第三者セキュリティ診断サービス」の提供を開始したと発表した。",
-      "summary_excerpt": "SHIFTは11月11日、中央省庁や地方公共団体が運用するシステムを対象とした「公共向け第三者セキュリティ診断サービス」の提供を開始したと発表した。",
-      "threat_actors": [],
-      "title": "SHIFT、公共向け第三者セキュリティ診断を開始 - AI解析と専門家の検証を組み合わせ"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192672",
-      "cves": [],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-11T17:22:08.346874+09:00",
-      "heat_score": 61.75,
-      "permalink_id": "article-url-2d5a62e6b2e9860127fe12a7",
-      "primary_category": "other",
-      "public_article_id": "url:2d5a62e6b2e9860127fe12a7",
-      "public_tags": [],
-      "published_at": "2026-11-11T16:41:33+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "Appleは、「macOS」のセキュリティアップデートを公開した。脆弱性8件に対処している。",
-      "summary_excerpt": "Appleは、「macOS」のセキュリティアップデートを公開した。脆弱性8件に対処している。",
-      "threat_actors": [],
-      "title": "Apple、macOSの脆弱性8件を修正 - 「iMessage」覗き見などに対応"
-    }
-  ],
-  "hottest": [
     {
       "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
@@ -317,7 +367,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-11T17:09:29.650894+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-7b90b684efa90d5ac090263f",
       "primary_category": "vulnerability",
       "public_article_id": "url:7b90b684efa90d5ac090263f",
@@ -442,34 +492,25 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
-      "cves": [
-        "CVE-2026-116779",
-        "CVE-2026-123218"
-      ],
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/11/2000003114/",
+      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-10T19:07:02.533610+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-e9fdf255e3d7738f85516d0f",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e9fdf255e3d7738f85516d0f",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-10T18:42:27+09:00",
+      "first_seen_at": "2026-11-11T18:37:42.016220+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-d91d3f2e3563b94f5d369bbe",
+      "primary_category": "other",
+      "public_article_id": "url:d91d3f2e3563b94f5d369bbe",
+      "public_tags": [],
+      "published_at": "2026-11-11T17:35:52+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
-      "summary_excerpt": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
+      "source_name": "ITmedia NEWS Bursts",
+      "summary": "ユミルリンクは11月11日、不正アクセスにより約4786万件の個人情報が流出したと発表した。10月に公表した最大約5162万件から件数を精査。被害は同社のメール配信サービスを利用するアイスタイルやJR東海などにも広がっている。",
+      "summary_excerpt": "ユミルリンクは11月11日、不正アクセスにより約4786万件の個人情報が流出したと発表した。10月に公表した最大約5162万件から件数を精査。被害は同社のメール配信サービスを利用するアイスタイルやJR東海などにも広がっている。",
       "threat_actors": [],
-      "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks"
+      "title": "メール配信のユミルリンク、不正アクセスで約4786万件漏えい　JR東海やアイスタイルに影響"
     },
     {
       "ai_relevance": "none",
@@ -548,34 +589,6 @@
       "summary_excerpt": "端末を開くだけで攻撃が成立し、CVSSスコアは満点超えの11.0。そんな「致命的脆弱性」を告発する特設サイトが登場した。ただし、これは端末の正常な機能を脆弱性に見立てたパロディーだ。背景にあるのは、脆弱性の命名や公表を巡る風潮への皮肉だ。",
       "threat_actors": [],
       "title": "端末を開いたら即アウト？　CVSS 11.0の「致命的脆弱性」が笑える理由"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.itpro.com/business/duck-and-coverage-the-insurance-impact-of-a-cyber-attack",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T17:08:55.842672+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-02286c6e5a47d57cd5ad831e",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:02286c6e5a47d57cd5ad831e",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-11T17:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITPro Security",
-      "summary": "A cyber attack can impact far more than revenue, but insurance can help soften the blow",
-      "summary_excerpt": "A cyber attack can impact far more than revenue, but insurance can help soften the blow",
-      "threat_actors": [],
-      "title": "Duck and coverage: The insurance impact of a cyber attack"
     }
   ],
   "rising": [],
@@ -598,32 +611,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Obsidian expands AI agent security with runtime policy enforcement",
-    "【HOTTEST #1 / Heat 75】Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "【LATEST #2】Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
-    "【HOTTEST #2 / Heat 75】Movable Typeにおけるコードインジェクションの脆弱性",
-    "【LATEST #3】Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-    "【HOTTEST #3 / Heat 67.5】Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
-    "【LATEST #4】「Google ドライブもランサムウェアに狙われている」　身代金を払わずに一括ファイル復元するには",
-    "【HOTTEST #4 / Heat 67.5】Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-    "【LATEST #5】端末を開いたら即アウト？　CVSS 11.0の「致命的脆弱性」が笑える理由",
-    "【HOTTEST #5 / Heat 67.5】CISA Adds Six Known Exploited Vulnerabilities to Catalog"
+    "【LATEST #1】Microsoft Fixes 1235 Flaws in Another Record Patch Tuesday",
+    "【HOTTEST #1 / Heat 75】Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+    "【LATEST #2】Orca Security adds visibility into AI-generated code and agent risks",
+    "【HOTTEST #2 / Heat 75】Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "【LATEST #3】Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+    "【HOTTEST #3 / Heat 67.5】Movable Typeにおけるコードインジェクションの脆弱性",
+    "【LATEST #4】Obsidian expands AI agent security with runtime policy enforcement",
+    "【HOTTEST #4 / Heat 67.5】Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+    "【LATEST #5】Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
+    "【HOTTEST #5 / Heat 67.5】Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
     "first_as_of": "2026-11-08T13:00:00+00:00",
-    "last_as_of": "2026-11-11T09:00:00+00:00",
-    "unique_snapshots_used": 69,
-    "span_hours": 68.0,
+    "last_as_of": "2026-11-11T10:00:00+00:00",
+    "unique_snapshots_used": 70,
+    "span_hours": 69.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-11T09:00:00+00:00",
-  "heat_as_of": "2026-11-11T09:00:00+00:00",
+  "news_as_of": "2026-11-11T10:00:00+00:00",
+  "heat_as_of": "2026-11-11T10:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23630,
-  "last_published_at": "2026-11-11T18:05:41.804650+09:00",
-  "publication_slot_jst": "2026-11-11T18:00:00+09:00"
+  "news_catalog_count": 23634,
+  "last_published_at": "2026-11-11T19:05:46.816547+09:00",
+  "publication_slot_jst": "2026-11-11T19:00:00+09:00"
 }
