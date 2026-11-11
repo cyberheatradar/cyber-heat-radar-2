@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-11T21:40:02.835976+00:00",
+  "source_snapshot_generated_at": "2026-11-11T22:40:02.661414+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:83c3233fd041c247c19e0b8c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261112-tech-watch",
+        "title": "Tech Watch 2026-11-12: エージェントの境界を設計する",
+        "author": "らいけん",
+        "published_at": "2026-11-11T22:30:10.400000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f66573234c86bd9327c3f4fd",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "認証",
+          "医療",
+          "インシデント対応",
+          "医療機器"
+        ],
+        "url": "https://zenn.dev/taichiendoh/articles/login-alert-triage-before-breach-confirmed",
+        "title": "「怖い話」を「やることリスト」に変換する ― ログイン通知を受けた瞬間に確認する2〜3項目",
+        "author": "遠藤太一",
+        "published_at": "2026-11-11T22:09:55.503000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fcac1d60a91db0ab59db6c77",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "data",
+          "finance",
+          "investment",
+          "economy"
+        ],
+        "url": "https://zenn.dev/bambampurin/articles/2026-09-26-market-daily",
+        "title": "今日の市場ブリーフィング",
+        "author": "子供部屋大学院生",
+        "published_at": "2026-11-11T22:05:38.606000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9643deff61a5c3d53d00a19c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "validation",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/liatris/articles/20261112-structured-output-grounding-check",
+        "title": "形式は合格なのに中身が違う出力を、原文照合で弾く",
+        "author": "平野翔斗",
+        "published_at": "2026-11-11T22:00:05.123000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:23026a577b0bedcc0e743402",
         "source": "zenn",
@@ -30257,6 +30321,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:0e2e482b6e390fbd9c721ff4",
+        "source": "qiita",
+        "author_tags": [
+          "Git",
+          "GitHubActions",
+          "Python",
+          "Security",
+          "AI"
+        ],
+        "url": "https://qiita.com/ZEUS_LAB/items/0fc4a441ca8f356de0b1",
+        "title": "AIエージェントの請求が手数の2乗で伸びる理由と、公開物の個人情報を0件にするpre-commitゲートの実装",
+        "author": "ZEUS_LAB",
+        "published_at": "2026-11-12T07:25:00+09:00",
+        "excerpt": "この記事で分かること AIエージェントの利用料が、手数（ステップ数）に対してなぜ直線ではなく2乗に近い形で伸びるのか。式と計算値で示します。 「通知」では止まらない理由と、呼び出しの 前 に見積もって止める最小の実装。 リポジトリや配布ZIPに残りやすい個人の痕跡（ユーザー名入りのパス、秘密キー、メールアドレス、写真のEXIFなど）を、commit / push の時点で機械的に止めるゲートの実装と、その検証結果。 記事中の金額はすべて 式から求めた計算値 で、実際の請求書の数字ではありません。単価は例として置いた値なので、お使いのサービスの現在の公式価格に置き換えて読んでください。 ブラウザだけで試せるデモを置いています（外部通信なし）: https://zero-trace-ship-kit.zeus-lab-global.workers.dev/ 1. 請求が膨らむ構造 エージェントは1手ごとに、それまでのやり取りと道具の実行結果をすべて入力として送り直します。記号を次のように置きます。 B : 最初から載っている量（指示文、道具の定義） "
+      },
+      {
         "id": "qiita:2194fb4140a5a8af06bd8209",
         "source": "qiita",
         "author_tags": [
@@ -41855,6 +41935,82 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f94d7036a5376a7e60d82912",
+        "source": "medium",
+        "author_tags": [
+          "troubleshooting",
+          "linux",
+          "cybersecurity",
+          "server-administration"
+        ],
+        "url": "https://medium.com/@pompey.lamont01/local-linux-administrator-troubleshooting-isnt-enough-building-siem-detection-pipelines-15d6cad80ccf",
+        "title": "Local Linux Administrator/Troubleshooting Isn’t Enough: Building SIEM Detection Pipelines",
+        "author": "Technology Superior",
+        "published_at": "2026-11-11T22:15:01+00:00",
+        "excerpt": "If a web server crashes in a data center and no one is around to check the system journals, does it make a sound? In enterprise IT, the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a1f1ef35adf612b243ba24e3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "critical-infrastructure",
+          "vulnerability-research",
+          "reverse-engineering",
+          "france"
+        ],
+        "url": "https://medium.com/@the_thrillseaker/fridges-hackers-ai-and-la-flemme-part-i-a8a7934351d1",
+        "title": "Fridges, Hackers, AI and La Flemme",
+        "author": "Ricardo S.",
+        "published_at": "2026-11-11T22:12:07+00:00",
+        "excerpt": "Tens of Millions of Euros in Losses in France: How Can Danfoss Controllers Be Exploited? Does the Company Bear Any Responsibility? Is AI… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:afaa2c2f26042c5742ffdd9c",
+        "source": "medium",
+        "author_tags": [
+          "remnux",
+          "cybersecurity",
+          "malware-analysis",
+          "threat-intelligence",
+          "flare-vm-install"
+        ],
+        "url": "https://medium.com/@mariusfelista/building-a-malware-analysis-lab-flare-vm-on-virtualbox-with-8gb-ram-same-settings-for-any-412c0dd5f98a",
+        "title": "Building a Malware Analysis Lab: FLARE-VM on VirtualBox with 8GB RAM (Same Settings for any…",
+        "author": "Mariusfelista",
+        "published_at": "2026-11-11T21:50:45+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:accd09d6d5671d516b487688",
+        "source": "medium",
+        "author_tags": [
+          "morocco",
+          "bug-bounty",
+          "hacker",
+          "cybersecurity",
+          "infosec"
+        ],
+        "url": "https://medium.com/@freeyt977/monsif-hmouri-monstrm1nd-ethical-hacker-cybersecurity-researcher-and-member-of-moroccos-national-ee0407c85aca",
+        "title": "Monsif Hmouri (MONSTRM1ND) Ethical Hacker Cybersecurity Researcher and Member of Morocco’s National…",
+        "author": "jhonny farmo",
+        "published_at": "2026-11-11T21:49:56+00:00",
+        "excerpt": "Monsif Hmouri, widely known online as MONSTRM1ND, is a Moroccan ethical hacker, cybersecurity researcher, and software developer… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:65226c33514b2e77e7e1c83c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@fatimahbinta55/building-a-safe-malware-analysis-lab-flare-vm-remnux-on-virtualbox-d1af67274c12",
+        "title": "Building a Safe Malware Analysis Lab: FLARE VM & REMnux on VirtualBox",
+        "author": "Fatimahbinta",
+        "published_at": "2026-11-11T21:40:00+00:00",
+        "excerpt": "Diving into malware analysis can feel like handling live ammunition — one misstep, and you risk compromising your personal machine or… Continue reading on Medium »"
+      },
       {
         "id": "medium:4ef0f43e4c3f672d21464495",
         "source": "medium",
