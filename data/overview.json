@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-11T14:06:01.460608+00:00",
-  "as_of": "2026-11-11T14:00:00+00:00",
-  "catalog_count": 23653,
+  "generated_at": "2026-11-11T15:05:28.059658+00:00",
+  "as_of": "2026-11-11T15:00:00+00:00",
+  "catalog_count": 23658,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,158 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/git-project-security-updates/",
+      "cves": [
+        "CVE-2026-111760"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T23:52:27.547469+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-46b23e64e629f4badfb5e841",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:46b23e64e629f4badfb5e841",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-11T23:26:12+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "The Git project has released security updates addressing six vulnerabilities that could allow attackers to execute code, write to unintended files or cause memory corruption when Git processes malicious repositories or other specially prepared input. Code execution during cloning A vulnerability tracked as CVE-2026-111760 stems from an integer truncation in Git’s handling of its index. An extremely long file path can pass Git’s safety checks under one name and then be written under a shorter … More → The post Git fixes six vulnerabilities, including code execution during recursive clones appeared first on Help Net Security .",
+      "summary_excerpt": "The Git project has released security updates addressing six vulnerabilities that could allow attackers to execute code, write to unintended files or cause memory corruption when Git processes malicious repositories or other specially prepared input. Code execution during cloning A vulnerability tracked as CVE-2026-111760 stems from an integer truncation in Git’s handling of its index. An extremely long file path can pass Git’s safety checks under one name and then be written under a shorter … More → The post Git fixes six vulnerabilities, including code execution during recursive clones appea",
+      "threat_actors": [],
+      "title": "Git fixes six vulnerabilities, including code execution during recursive clones"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T23:52:32.623462+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-d8637e378806af0b60638192",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:d8637e378806af0b60638192",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-11T23:01:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
+      "summary_excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
+      "threat_actors": [],
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T23:23:07.608328+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-9f6bff35230855835cfd3b73",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:9f6bff35230855835cfd3b73",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-11T22:58:38+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation. The post Asus, Zoom Release Security Patches appeared first on SecurityWeek .",
+      "summary_excerpt": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation. The post Asus, Zoom Release Security Patches appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Asus, Zoom Release Security Patches"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/embed-security-expands-ai-soc-platform/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T23:07:28.510986+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-11b637816573f8b85d5b5f09",
+      "primary_category": "ai_security",
+      "public_article_id": "url:11b637816573f8b85d5b5f09",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-11T22:54:12+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organizations can extend Embed’s built-in security expertise with their own knowledge and operating practices. Rather than programming workflows, analysts can teach Embed what they know, and its decision layer applies that expertise autonomously. “Everyone is telling security teams to build agents. … More → The post Embed Security lets analysts teach its AI SOC Platform how to investigate appeared first on Help Net Security .",
+      "summary_excerpt": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organizations can extend Embed’s built-in security expertise with their own knowledge and operating practices. Rather than programming workflows, analysts can teach Embed what they know, and its decision layer applies that expertise autonomously. “Everyone is telling security teams to build agents. … More → The post Embed Security lets analysts",
+      "threat_actors": [],
+      "title": "Embed Security lets analysts teach its AI SOC Platform how to investigate"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/remus-malware-claims-gmail-access-even-after-you-change-your-password",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T23:23:05.266269+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-a6e8d83f80319f523e3c78f1",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:a6e8d83f80319f523e3c78f1",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-11T22:42:10+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Malwarebytes Blog",
+      "summary": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
+      "summary_excerpt": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
+      "threat_actors": [],
+      "title": "Remus malware claims Gmail access even after you change your password"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
@@ -154,106 +306,21 @@
       "summary_excerpt": "The massive drop comes after the company integrated frontier AI models into its product security testing. The post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Fortinet Patches Nearly 100 Vulnerabilities"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/11/shipping-giant-maersk-probes-it-security-incident-data-theft/5309096",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T22:08:11.134908+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-bbcce8b284c7c5adb13c9915",
-      "primary_category": "incident",
-      "public_article_id": "url:bbcce8b284c7c5adb13c9915",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/git-project-security-updates/",
+      "cves": [
+        "CVE-2026-111760"
       ],
-      "published_at": "2026-11-11T21:05:34+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "Says it 'strongly' suspects attack limited to legacy system, and that nothing sensitive is at risk",
-      "summary_excerpt": "Says it 'strongly' suspects attack limited to legacy system, and that nothing sensitive is at risk",
-      "threat_actors": [],
-      "title": "Shipping giant Maersk probes 'IT security incident,' data theft"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-11T21:37:38.944159+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-00bfb3e3b49bef1af6f5c365",
-      "primary_category": "other",
-      "public_article_id": "url:00bfb3e3b49bef1af6f5c365",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-11T21:01:59+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
-      "summary_excerpt": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
-      "threat_actors": [],
-      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned."
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T21:37:39.096688+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-d875e13ba5ae8418ccd3e8d9",
-      "primary_category": "incident",
-      "public_article_id": "url:d875e13ba5ae8418ccd3e8d9",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-11T21:00:53+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
-      "summary_excerpt": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
-      "threat_actors": [],
-      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.malwarebytes.com/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
-      "cves": [],
-      "document_form": "bulletin",
-      "first_seen_at": "2026-11-11T20:53:52.427838+09:00",
-      "heat_score": 33.75,
-      "permalink_id": "article-url-db324a7345c2e57c591be84f",
+      "first_seen_at": "2026-11-11T23:52:27.547469+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-46b23e64e629f4badfb5e841",
       "primary_category": "vulnerability",
-      "public_article_id": "url:db324a7345c2e57c591be84f",
+      "public_article_id": "url:46b23e64e629f4badfb5e841",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -261,41 +328,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-11T20:25:05+09:00",
+      "published_at": "2026-11-11T23:26:12+09:00",
       "published_at_future_suppressed": false,
-      "security_relevance": "material",
+      "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Malwarebytes Blog",
-      "summary": "Microsoft’s November 2026 Patch Tuesday fixes an actively exploited Outlook vulnerability. Check for Office updates separately.",
-      "summary_excerpt": "Microsoft’s November 2026 Patch Tuesday fixes an actively exploited Outlook vulnerability. Check for Office updates separately.",
+      "source_name": "Help Net Security",
+      "summary": "The Git project has released security updates addressing six vulnerabilities that could allow attackers to execute code, write to unintended files or cause memory corruption when Git processes malicious repositories or other specially prepared input. Code execution during cloning A vulnerability tracked as CVE-2026-111760 stems from an integer truncation in Git’s handling of its index. An extremely long file path can pass Git’s safety checks under one name and then be written under a shorter … More → The post Git fixes six vulnerabilities, including code execution during recursive clones appeared first on Help Net Security .",
+      "summary_excerpt": "The Git project has released security updates addressing six vulnerabilities that could allow attackers to execute code, write to unintended files or cause memory corruption when Git processes malicious repositories or other specially prepared input. Code execution during cloning A vulnerability tracked as CVE-2026-111760 stems from an integer truncation in Git’s handling of its index. An extremely long file path can pass Git’s safety checks under one name and then be written under a shorter … More → The post Git fixes six vulnerabilities, including code execution during recursive clones appea",
       "threat_actors": [],
-      "title": "Microsoft Patch Tuesday fixes Outlook flaw already under attack"
+      "title": "Git fixes six vulnerabilities, including code execution during recursive clones"
     },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T20:53:18.137760+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-eef0141eb80065585ed75561",
-      "primary_category": "other",
-      "public_article_id": "url:eef0141eb80065585ed75561",
-      "public_tags": [],
-      "published_at": "2026-11-11T20:18:36+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
-      "summary_excerpt": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
-      "threat_actors": [],
-      "title": "Microsoft fixes audio issues caused by September security updates"
-    }
-  ],
-  "hottest": [
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
@@ -495,49 +538,64 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown/",
-      "cves": [
-        "CVE-2026-125878",
-        "CVE-2026-125879",
-        "CVE-2026-125880",
-        "CVE-2026-125881",
-        "CVE-2026-125882",
-        "CVE-2026-125883",
-        "CVE-2026-91000"
-      ],
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-11T00:53:15.262945+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-0940463c4c51c3f00ac4af72",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0940463c4c51c3f00ac4af72",
+      "first_seen_at": "2026-11-11T23:52:32.623462+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-d8637e378806af0b60638192",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:d8637e378806af0b60638192",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
           "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
+          "key": "threat_campaign",
+          "label": "Campaign"
         }
       ],
-      "published_at": "2026-11-10T23:20:34+09:00",
+      "published_at": "2026-11-11T23:01:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Overview On November 9, 2026, N-able announced that it was responding to the public disclosure of critical vulnerabilities affecting N-central , its remote monitoring and management (RMM) platform. In a public disclosure titled Able2Shell, an independent researcher has published details and proof-of-concept (PoC) code covering 33 issues. According to the disclosure, the issues include unauthenticated remote code execution (RCE), privilege escalation to root, credential disclosure, and unauthorized account creation. One unauthenticated chain combines XML external entity (XXE) and session-handling weaknesses to execute code as the nable service account. Other demonstrated chains involve an administrator viewing malicious patch metadata or use ProductAdmin credentials. Rapid7 Intelligence is currently triaging the newly published details. Before the hotfix release on November 10, N-able reported scanning activity associated with the published PoC code and said it had no evidence that any customer environment had been successfully exploited. The vendor advised keeping N-central deployments offline while it developed and validated a hotfix. Hosted N-central classic environments were offline, according to the same notice. That notice did not yet include CVE identifiers or CVSS scores. N-central is used by managed service providers (MSPs) and enterprise IT teams to administer endpoints and infrastructure. Compromise of an RMM server can put downstream managed environments at risk. N-central has previously been targeted through separate vulnerabilities, including an authentication bypass covered by Rapid7 in August 2026 . Given the platform's administrative reach and the availability of public exploit code, Rapid7 recommends treating the current disclosure as an emergency. Update #1: On November 10, 2026, N-able released N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ), addressing seven CVEs. The vendor plans a follow-up hotfix with further security updates. On November 11, N-able confirmed that hosted N-central servers across all regions had been successfully upgraded. Mitigation guidance Rapid7 strongly recommends that organizations operating on-premises N-central servers upgrade to N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ) on an emergency basis outside of normal patching cycles, and keep servers offline until successfully upgraded. Hosted servers are upgraded by N-able. Customers in both hosted and on-premises environments must also upgrade their Agents and Probes. To maintain communication, upgrade Agents first, then Probes, following the vendor's compatibility guidance for the Patch Management Engine (PME). Affected versions: The researcher reports testing N-central Appliance 2026.4.0.31 . N-able's current notice does not specify the full affected-version range. Fixed versions: N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ) addresses the seven CVEs listed below. According to N-able's release notes , the hotfix addresses: CVE Description CVE-2026-125883 Multiple XXE vulnerabilities CVE-2026-125878 Multiple OGNL injection vulnerabilities CVE-2026-125879 Local privilege escalation to root through nable -writable syslog-ng configuration CVE-2026-125880 Stored XSS through MMS3 patch metadata in an administrator context CVE-2026-125881 Schema-hint SSRF through service-import schema validation CVE-2026-125882 RCE through file-repository upload path traversal; credited to Nate Fair, Sprocket Security CVE-2026-91000 Local privilege escalation through insecure IPC channels Further security updates are planned in a follow-up hotfix. Organizations should monitor the vendor's guidance and apply subsequent fixes as they become available. Rapid7 also recommends reviewing N-central servers and downstream managed systems for signs of compromise and engaging incident responders if suspicious activity is identified. For the latest mitigation guidance, please refer to N-able's security incident notice . Updates November 10, 2026 : Initial publication. November 11, 2026 : Added hotfix availability, seven CVE identifiers, hosted upgrade confirmation, and updated remediation guidance. Noted the planned follow-up hotfix.",
-      "summary_excerpt": "Overview On November 9, 2026, N-able announced that it was responding to the public disclosure of critical vulnerabilities affecting N-central , its remote monitoring and management (RMM) platform. In a public disclosure titled Able2Shell, an independent researcher has published details and proof-of-concept (PoC) code covering 33 issues. According to the disclosure, the issues include unauthenticated remote code execution (RCE), privilege escalation to root, credential disclosure, and unauthorized account creation. One unauthenticated chain combines XML external entity (XXE) and session-handli",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
+      "summary_excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
       "threat_actors": [],
-      "title": "Critical vulnerabilities in N-able N-central prompt hosted shutdown"
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/remus-malware-claims-gmail-access-even-after-you-change-your-password",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T23:23:05.266269+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-a6e8d83f80319f523e3c78f1",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:a6e8d83f80319f523e3c78f1",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-11T22:42:10+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Malwarebytes Blog",
+      "summary": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
+      "summary_excerpt": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
+      "threat_actors": [],
+      "title": "Remus malware claims Gmail access even after you change your password"
     },
     {
       "ai_relevance": "none",
@@ -566,112 +624,9 @@
       "summary_excerpt": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts. The post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T22:22:39.998649+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-e36cd47710d53fc937416e1c",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:e36cd47710d53fc937416e1c",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-11T22:18:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.",
-      "summary_excerpt": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.",
-      "threat_actors": [],
-      "title": "Poland shuts down government services platform ePUAP following cyberattack"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T21:52:04.880704+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-fdb07bf27f816d37cdd6ba80",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:fdb07bf27f816d37cdd6ba80",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-11T21:32:27+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
-      "summary_excerpt": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
-      "threat_actors": [],
-      "title": "N-able releases security hotfixes for zero-day vulnerabilities"
     }
   ],
-  "rising": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown/",
-      "cves": [
-        "CVE-2026-125878",
-        "CVE-2026-125879",
-        "CVE-2026-125880",
-        "CVE-2026-125881",
-        "CVE-2026-125882",
-        "CVE-2026-125883",
-        "CVE-2026-91000"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T00:53:15.262945+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-0940463c4c51c3f00ac4af72",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0940463c4c51c3f00ac4af72",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "published_at": "2026-11-10T23:20:34+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Overview On November 9, 2026, N-able announced that it was responding to the public disclosure of critical vulnerabilities affecting N-central , its remote monitoring and management (RMM) platform. In a public disclosure titled Able2Shell, an independent researcher has published details and proof-of-concept (PoC) code covering 33 issues. According to the disclosure, the issues include unauthenticated remote code execution (RCE), privilege escalation to root, credential disclosure, and unauthorized account creation. One unauthenticated chain combines XML external entity (XXE) and session-handling weaknesses to execute code as the nable service account. Other demonstrated chains involve an administrator viewing malicious patch metadata or use ProductAdmin credentials. Rapid7 Intelligence is currently triaging the newly published details. Before the hotfix release on November 10, N-able reported scanning activity associated with the published PoC code and said it had no evidence that any customer environment had been successfully exploited. The vendor advised keeping N-central deployments offline while it developed and validated a hotfix. Hosted N-central classic environments were offline, according to the same notice. That notice did not yet include CVE identifiers or CVSS scores. N-central is used by managed service providers (MSPs) and enterprise IT teams to administer endpoints and infrastructure. Compromise of an RMM server can put downstream managed environments at risk. N-central has previously been targeted through separate vulnerabilities, including an authentication bypass covered by Rapid7 in August 2026 . Given the platform's administrative reach and the availability of public exploit code, Rapid7 recommends treating the current disclosure as an emergency. Update #1: On November 10, 2026, N-able released N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ), addressing seven CVEs. The vendor plans a follow-up hotfix with further security updates. On November 11, N-able confirmed that hosted N-central servers across all regions had been successfully upgraded. Mitigation guidance Rapid7 strongly recommends that organizations operating on-premises N-central servers upgrade to N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ) on an emergency basis outside of normal patching cycles, and keep servers offline until successfully upgraded. Hosted servers are upgraded by N-able. Customers in both hosted and on-premises environments must also upgrade their Agents and Probes. To maintain communication, upgrade Agents first, then Probes, following the vendor's compatibility guidance for the Patch Management Engine (PME). Affected versions: The researcher reports testing N-central Appliance 2026.4.0.31 . N-able's current notice does not specify the full affected-version range. Fixed versions: N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ) addresses the seven CVEs listed below. According to N-able's release notes , the hotfix addresses: CVE Description CVE-2026-125883 Multiple XXE vulnerabilities CVE-2026-125878 Multiple OGNL injection vulnerabilities CVE-2026-125879 Local privilege escalation to root through nable -writable syslog-ng configuration CVE-2026-125880 Stored XSS through MMS3 patch metadata in an administrator context CVE-2026-125881 Schema-hint SSRF through service-import schema validation CVE-2026-125882 RCE through file-repository upload path traversal; credited to Nate Fair, Sprocket Security CVE-2026-91000 Local privilege escalation through insecure IPC channels Further security updates are planned in a follow-up hotfix. Organizations should monitor the vendor's guidance and apply subsequent fixes as they become available. Rapid7 also recommends reviewing N-central servers and downstream managed systems for signs of compromise and engaging incident responders if suspicious activity is identified. For the latest mitigation guidance, please refer to N-able's security incident notice . Updates November 10, 2026 : Initial publication. November 11, 2026 : Added hotfix availability, seven CVE identifiers, hosted upgrade confirmation, and updated remediation guidance. Noted the planned follow-up hotfix.",
-      "summary_excerpt": "Overview On November 9, 2026, N-able announced that it was responding to the public disclosure of critical vulnerabilities affecting N-central , its remote monitoring and management (RMM) platform. In a public disclosure titled Able2Shell, an independent researcher has published details and proof-of-concept (PoC) code covering 33 issues. According to the disclosure, the issues include unauthenticated remote code execution (RCE), privilege escalation to root, credential disclosure, and unauthorized account creation. One unauthenticated chain combines XML external entity (XXE) and session-handli",
-      "threat_actors": [],
-      "title": "Critical vulnerabilities in N-able N-central prompt hosted shutdown"
-    }
-  ],
+  "rising": [],
   "persistent_hot": [],
   "timeseries_status": {
     "rising": "ready",
@@ -691,32 +646,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
-    "【HOTTEST #1 / Heat 75】Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-    "【LATEST #2】Poland shuts down government services platform ePUAP following cyberattack",
-    "【HOTTEST #2 / Heat 73】Microsoft researchers demonstrate hidden backdoor technique for AI agents",
-    "【LATEST #3】SAPが月例セキュリティ更新 - 「クリティカル」9件",
-    "【HOTTEST #3 / Heat 67.5】Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "【LATEST #4】N-able releases security hotfixes for zero-day vulnerabilities",
-    "【HOTTEST #4 / Heat 67.5】Movable Typeにおけるコードインジェクションの脆弱性",
-    "【LATEST #5】Fortinet Patches Nearly 100 Vulnerabilities",
-    "【HOTTEST #5 / Heat 67.5】Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft"
+    "【LATEST #1】Git fixes six vulnerabilities, including code execution during recursive clones",
+    "【HOTTEST #1 / Heat 75】Git fixes six vulnerabilities, including code execution during recursive clones",
+    "【LATEST #2】Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+    "【HOTTEST #2 / Heat 75】Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+    "【LATEST #3】Asus, Zoom Release Security Patches",
+    "【HOTTEST #3 / Heat 73】Microsoft researchers demonstrate hidden backdoor technique for AI agents",
+    "【LATEST #4】Embed Security lets analysts teach its AI SOC Platform how to investigate",
+    "【HOTTEST #4 / Heat 67.5】Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "【LATEST #5】Remus malware claims Gmail access even after you change your password",
+    "【HOTTEST #5 / Heat 67.5】Movable Typeにおけるコードインジェクションの脆弱性"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-08T14:00:00+00:00",
-    "last_as_of": "2026-11-11T14:00:00+00:00",
+    "first_as_of": "2026-11-08T15:00:00+00:00",
+    "last_as_of": "2026-11-11T15:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-11T14:00:00+00:00",
-  "heat_as_of": "2026-11-11T14:00:00+00:00",
+  "news_as_of": "2026-11-11T15:00:00+00:00",
+  "heat_as_of": "2026-11-11T15:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23653,
-  "last_published_at": "2026-11-11T23:06:11.792801+09:00",
-  "publication_slot_jst": "2026-11-11T23:00:00+09:00"
+  "news_catalog_count": 23658,
+  "last_published_at": "2026-11-12T00:05:38.498968+09:00",
+  "publication_slot_jst": "2026-11-12T00:00:00+09:00"
 }
