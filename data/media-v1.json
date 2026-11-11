@@ -1,9 +1,24 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-11T18:40:02.581366+00:00",
+  "source_snapshot_generated_at": "2026-11-11T19:40:02.497554+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:532588d92a2eff4a8b8d5312",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "JavaScript",
+          "TypeScript",
+          "API"
+        ],
+        "url": "https://zenn.dev/sponge841841/articles/2026-11-10-jev-model-evolution",
+        "title": "Jevは何が進化した？ 1.14の画像入力・Box・長文対応と実装の勘所",
+        "author": "ちっち",
+        "published_at": "2026-11-11T18:55:49.250000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:6d4b748aa1ccd56751c05ef2",
         "source": "zenn",
@@ -30210,6 +30225,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:65b57d70b5b2455ee2f805de",
+        "source": "qiita",
+        "author_tags": [
+          "PDF",
+          "Security",
+          "個人開発",
+          "JavaScript",
+          "QPDF"
+        ],
+        "url": "https://qiita.com/dbrodlins/items/f22dc0a4599d9473c535",
+        "title": "PDFの墨消し、黒い四角の下に情報が残る6つの場所と確認コマンド",
+        "author": "dbrodlins",
+        "published_at": "2026-11-12T04:23:21+09:00",
+        "excerpt": "ブラウザで動くPDFエディタを個人開発していて、墨消し(redaction)機能を作っています。黒い四角を描くだけなら簡単ですが、書き出したPDFから本当に情報が消えているかは別の話でした。 海外の開発者コミュニティで機能を紹介したところ、PDFに詳しい方から「ここに残りがち」というリストをもらいました。自分用のチェックリストとして整理しておきます。 1. フォームのフィールド(AcroForm) 入力欄に打った値は、ページの描画内容とは別に、フィールドの /V と見た目用の /AP に入っています。ページだけを塗っても、マイナンバーを入れたフォームの値はファイルに残ります。 2. 注釈 コメントや付箋のテキストは /Contents に入っていて、ページのコンテンツストリームの外です。 3. メタデータ /Info のタイトルや件名、XMPメタデータに、元のファイル名がそのまま入っていることがあります。ファイル名に氏名や番号を入れる運用だと、そこから漏れます。 4. タグ付きPDF(アクセシビリティ) 構造ツリーの /ActualText や "
+      },
+      {
+        "id": "qiita:94e6570b3ae409a6ec854822",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/03f4055f243ac2b81791",
+        "title": "2026/11/12主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-12T04:14:46+09:00",
+        "excerpt": "NASでも利用されるメディアサーバを狙った脆弱性攻撃に注意(11/10) https://www.security-next.com/192536 ARTEX悪用が拡大し、サイバー犯罪者は金融機関を標的に(11/9) https://socprime.com/ja/active-threats/artex-abuse-expands-as-cybercriminals-target-financial-organizations/ アララ不正アクセス、流出対象は約８１００万件 別環境の被害を追加確認(11/10) https://www.shijyukukai.jp/2026/11/31213 黒金化成にランサムウェア攻撃 調査結果公表1年後(11/10) https://s.netsecurity.ne.jp/article/2026/11/10/56718.html Apache OFBiz 24.09.08で46件の脆弱性を修正 認証不要RCE「CVE-2026-83542」など、JWT固定鍵への追加対処も必要(11/10) https:/"
+      },
+      {
         "id": "qiita:f4d99a85e7d3e796a3a65699",
         "source": "qiita",
         "author_tags": [
@@ -41719,6 +41763,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:846a35b906799d75c7144b25",
+        "source": "medium",
+        "author_tags": [
+          "threat-detection",
+          "siem",
+          "elk",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@Taissa666/the-alert-that-doesnt-need-an-ioc-understanding-first-seen-detection-9d444280654c",
+        "title": "The Alert That Doesn’t Need an IOC: Understanding First-Seen Detection",
+        "author": "Taissa666",
+        "published_at": "2026-11-11T19:37:17+00:00",
+        "excerpt": "Imagine you’re working in a Security Operations Center, reviewing authentication activity across your organization’s infrastructure. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3c34341878f4d68ca796e29a",
+        "source": "medium",
+        "author_tags": [
+          "devops",
+          "linux",
+          "cybersecurity",
+          "ssh",
+          "information-security"
+        ],
+        "url": "https://medium.com/@xpert4cyber/linux-scp-command-cheat-sheet-secure-file-transfer-for-soc-and-dfir-teams-d86d0866f99d",
+        "title": "Linux scp Command Cheat Sheet: Secure File Transfer for SOC and DFIR Teams",
+        "author": "Xpert4Cyber",
+        "published_at": "2026-11-11T19:13:41+00:00",
+        "excerpt": "🔐 It’s 2 a.m., an alert fires, and you need server logs on your workstation before anyone touches the box. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:77ce9bfbdf2245f704610d21",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cisa",
+          "threat-intelligence",
+          "incident-response"
+        ],
+        "url": "https://socfortress.medium.com/cisa-updates-incident-reporting-form-for-cyber-defense-5e74660f66fa",
+        "title": "CISA Updates Incident Reporting Form for Cyber Defense",
+        "author": "SOCFortress",
+        "published_at": "2026-11-11T19:04:52+00:00",
+        "excerpt": "Note: Create your free account in SOCFortress Signals (https://signals.socfortress.co/) for: Continue reading on Medium »"
+      },
       {
         "id": "medium:eb7cfa8a4c661295eef7526a",
         "source": "medium",
