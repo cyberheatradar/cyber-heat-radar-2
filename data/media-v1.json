@@ -1,9 +1,68 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-11T12:40:03.310020+00:00",
+  "source_snapshot_generated_at": "2026-11-11T13:40:02.863178+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:da6fcbe3e1b559fdd5779c00",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ブラウザ自動化",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/clairechenrin/articles/b1d3a4b4a620d7",
+        "title": "AIにブラウザを任せている間、自分は何を使う？ego liteを作った理由",
+        "author": "クレア凛",
+        "published_at": "2026-11-11T13:32:21.767000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:75452fe2bbbe6a4d69ee40bd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "設計",
+          "llm",
+          "OpenRouter"
+        ],
+        "url": "https://zenn.dev/toolbitai/articles/12c7d094066d15",
+        "title": "複数のLLMプロバイダーを使うときのフォールバック設計チェックリスト",
+        "author": "Toolbit AI",
+        "published_at": "2026-11-11T13:31:15.127000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6796b4c545f8ffd8e54ebc45",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "vulnerability",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/108system/articles/news-2026-11-11",
+        "title": "今週のセキュリティニュース（2026/11/04〜11/10）OpenSSH・Outlook・Barracuda・Zyxel",
+        "author": "てんぱ（108システム）",
+        "published_at": "2026-11-11T13:27:26.693000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:751c3cad10b267aaf5f552b2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub Actions",
+          "副業",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/murakisvlog/articles/ai-sidejob-first-week",
+        "title": "副業を Claude Code に任せたら、私の仕事はスマホで yes/no を押すだけになった（5日目・売上0円）",
+        "author": "むらき",
+        "published_at": "2026-11-11T13:11:26.314000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:1b2287d35dc2d818c0b27a8b",
         "source": "zenn",
@@ -29802,6 +29861,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f79664c144e248dd0d0627e2",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AIエージェント",
+          "運用",
+          "秘密情報"
+        ],
+        "url": "https://qiita.com/orca-forge/items/796617f1d1cadb8e313f",
+        "title": "grepで秘密情報が表示される症状と3回の原因",
+        "author": "orca-forge",
+        "published_at": "2026-11-11T22:05:18+09:00",
+        "excerpt": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 複数のAIセッションで分担して調査する環境で、秘密を表示しないつもりでも3回値が画面に出ました。URLを分割したり、grepで設定行を絞ったりしたところ、パスワードまで表示されました。原因は、出力前に値が通る経路を確かめていなかったことです。 先に結論 URL分割や grep の行絞り込みでは、秘密情報が出力に残る経路を取り除けず、DB、Redis、オブジェクトストレージのパスワードが表示されました。秘密が入りうるものはPythonで伏せ、出力前に値が通る経路が残っていないか読み返すことにしました。 URLを分割すると、なぜDBのパスワードも表示されたのか 最初の表示では、接続URLからホストだけを取り出すつもりで、DB管理者のパスワードまで画面に出しました。 接続URLからホストだけを出すために、私は次の分割を使いました。 v . split ( ' :// ' )[ - 1 ]. split ( ' / ' )[ 0 ] 結果には、 user:passwor"
+      },
+      {
+        "id": "qiita:d8cbd71ab8151ca68d20f9c2",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "samba",
+          "Security",
+          "OSS",
+          "C#"
+        ],
+        "url": "https://qiita.com/nuts_i77/items/0eafc595409c8f5eb4f3",
+        "title": "ファイルサーバーの「誰が消した？」は本当に信用できるのか — Windows と Samba で全操作の証跡を突き合わせてみた",
+        "author": "nuts_i77",
+        "published_at": "2026-11-11T21:56:48+09:00",
+        "excerpt": "前回の記事 で、Windows のファイルサーバーのアクセスを記録する OSS のツール FileAccessMonitor を紹介しました。その後、Linux（Samba）のファイルサーバーにも対応し、複数のサーバーを 1 台の監視サーバーに集められるようになっています。 今回は、機能の紹介ではなく「記録は本当に正しいのか」を確かめた話です。 きっかけ 「誰がこのファイルを消したか」を調べるツールなのに、肝心の記録が抜けていたり、削除が名前変更に見えていたりしたら意味がありません。そこで、ファイルに対して行う操作を一通り並べて、Windows のローカル、Windows から Samba、smbclient から Samba の 3 つの経路で同じ操作を行い、「どんな記録が残るべきか」と「実際に残った記録」を突き合わせました。 操作は 31 種類です。作成（空・中身あり）、上書き、追記、名前変更（大文字小文字だけ、別フォルダへ移動、監視の外へ移動）、削除（ごみ箱なし）、コピー、robocopy、Office 式の保存（別名に退避して入れ替える）"
+      },
+      {
+        "id": "qiita:3783974a9355dfb8092d625f",
+        "source": "qiita",
+        "author_tags": [
+          "CVE-2026-98432",
+          "Linux",
+          "脆弱性",
+          "Security"
+        ],
+        "url": "https://qiita.com/softbase/items/376e7bd2ba76acd94268",
+        "title": "【緊急】LinuxカーネルにCVSS 9.8の重大脆弱性「CVE-2026-98432」発覚！仕組み・影響範囲・Ubuntu/AWSでの対策を解説",
+        "author": "softbase",
+        "published_at": "2026-11-11T21:41:34+09:00",
+        "excerpt": "最終確認日：2026年11月11日 本記事はLinuxカーネル、Canonical、Red Hat、AWSの公式セキュリティ情報をもとに作成しています。修正状況は随時更新されるため、実際の対応時には公式情報を確認してください。 はじめに 2026年10月15日、LinuxカーネルのIPv4 TCP通信処理に関する重大な脆弱性「 CVE-2026-98432 」が公開されました。 この脆弱性の深刻度は、 CVSS 3.1で9.8（Critical） 。 特に注意が必要なのは、攻撃者がログインすることなく、ネットワーク経由でLinuxカーネルのメモリ処理に異常を発生させる可能性がある点です。 場合によっては、サーバーのクラッシュ（DoS）だけでなく、リモートコード実行（RCE）につながる危険性も指摘されています。 普段、nginx、Apache、PHP、Laravel、MariaDBなどを使ってWebシステムを構築・運用しているエンジニアにとっても、無視できない問題です。 今回は、この脆弱性について、仕組みから実際のサーバーでの確認方法、Ubuntu"
+      },
+      {
         "id": "qiita:5e34c910d4629c6d72cab561",
         "source": "qiita",
         "author_tags": [
@@ -41185,6 +41290,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:59a763d51945781510e70f13",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "cybersecurity",
+          "enterprise-security",
+          "information-security",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@timebeingstuff/enterprise-cybersecurity-the-importance-of-vulnerability-management-and-continuous-security-a3909ef6f246",
+        "title": "Enterprise Cybersecurity: The Importance of Vulnerability Management and Continuous Security…",
+        "author": "CYBER SECURITY TESTING PRO",
+        "published_at": "2026-11-11T13:35:08+00:00",
+        "excerpt": "In today’s increasingly connected business environment, cybersecurity has become an essential consideration for organizations of all sizes… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:fb731802f51d6047ac05c227",
+        "source": "medium",
+        "author_tags": [
+          "software-architecture",
+          "software-development",
+          "vulnerability",
+          "software-engineering",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@cve_program/cve-data-registry-demo-and-user-guide-now-available-for-cnas-0e8283ad2dc5",
+        "title": "CVE Data Registry Demo and User Guide Now Available for CNAs",
+        "author": "CVE Program Blog",
+        "published_at": "2026-11-11T13:27:50+00:00",
+        "excerpt": "The “CVE Data Registry” is a web-based user interface and backend database that allows CVE Numbering Authorities (CNAs) to maintain their… Continue reading on Medium »"
+      },
       {
         "id": "medium:8f05f3a2f462f49cad8dec17",
         "source": "medium",
