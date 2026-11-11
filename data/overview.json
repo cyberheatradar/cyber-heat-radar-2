@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-11T16:05:41.246864+00:00",
-  "as_of": "2026-11-11T16:00:00+00:00",
-  "catalog_count": 23663,
+  "generated_at": "2026-11-11T17:07:01.608182+00:00",
+  "as_of": "2026-11-11T17:00:00+00:00",
+  "catalog_count": 23669,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,67 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T01:52:49.838819+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-9d0e65808ab58d16043979de",
+      "primary_category": "ransomware",
+      "public_article_id": "url:9d0e65808ab58d16043979de",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-12T01:24:18+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+      "summary_excerpt": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+      "threat_actors": [],
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/chinese-malware-tied-three-hacking/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T01:22:29.523967+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-08eb7533942b4613e05e6fb5",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:08eb7533942b4613e05e6fb5",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-12T01:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "Check Point links three China-nexus clusters through a shared Sparrow malware framework",
+      "summary_excerpt": "Check Point links three China-nexus clusters through a shared Sparrow malware framework",
+      "threat_actors": [],
+      "title": "Suspected Chinese Malware Supplier Tied to Three Hacking Campaigns"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
@@ -33,10 +94,81 @@
       "seen_in_kev": false,
       "source_class": "topic_rss",
       "source_name": "SecurityWeek",
-      "summary": "The authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
-      "summary_excerpt": "The authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
+      "summary": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Critical Xen Orchestra Flaws Exploited in Attacks"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T01:22:34.495070+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-99d239565756098b9428b9bb",
+      "primary_category": "ai_security",
+      "public_article_id": "url:99d239565756098b9428b9bb",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-12T00:34:27+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
+      "summary_excerpt": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
+      "threat_actors": [],
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.itpro.com/security/how-can-it-leaders-tackle-shadow-agentic-ai-threats",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T01:52:57.800839+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-0e5aa0610cebed30c9fcff0c",
+      "primary_category": "ai_security",
+      "public_article_id": "url:0e5aa0610cebed30c9fcff0c",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-12T00:34:04+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITPro Security",
+      "summary": "Unchecked AI agents exploit employee access to alter critical systems. Here's how IT leaders can regain control",
+      "summary_excerpt": "Unchecked AI agents exploit employee access to alter critical systems. Here's how IT leaders can regain control",
+      "threat_actors": [],
+      "title": "How can IT leaders tackle shadow agentic AI threats?"
     },
     {
       "ai_relevance": "primary",
@@ -177,122 +309,6 @@
       "summary_excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
       "threat_actors": [],
       "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192575",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T00:52:08.137203+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-a385e83be2c0a0a88413579f",
-      "primary_category": "other",
-      "public_article_id": "url:a385e83be2c0a0a88413579f",
-      "public_tags": [],
-      "published_at": "2026-11-11T22:59:42+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "ネット印刷サービス「ラクスル」がサイバー攻撃を受けたことがわかった。個人情報や入稿した印刷データなどが流出した可能性があるという。",
-      "summary_excerpt": "ネット印刷サービス「ラクスル」がサイバー攻撃を受けたことがわかった。個人情報や入稿した印刷データなどが流出した可能性があるという。",
-      "threat_actors": [],
-      "title": "ネット印刷サービス「ラクスル」で侵害 - 個人情報や印刷データが流出か"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T23:23:07.608328+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-9f6bff35230855835cfd3b73",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:9f6bff35230855835cfd3b73",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-11T22:58:38+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation. The post Asus, Zoom Release Security Patches appeared first on SecurityWeek .",
-      "summary_excerpt": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation. The post Asus, Zoom Release Security Patches appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Asus, Zoom Release Security Patches"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/embed-security-expands-ai-soc-platform/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T23:07:28.510986+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-11b637816573f8b85d5b5f09",
-      "primary_category": "ai_security",
-      "public_article_id": "url:11b637816573f8b85d5b5f09",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-11T22:54:12+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organizations can extend Embed’s built-in security expertise with their own knowledge and operating practices. Rather than programming workflows, analysts can teach Embed what they know, and its decision layer applies that expertise autonomously. “Everyone is telling security teams to build agents. … More → The post Embed Security lets analysts teach its AI SOC Platform how to investigate appeared first on Help Net Security .",
-      "summary_excerpt": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organizations can extend Embed’s built-in security expertise with their own knowledge and operating practices. Rather than programming workflows, analysts can teach Embed what they know, and its decision layer applies that expertise autonomously. “Everyone is telling security teams to build agents. … More → The post Embed Security lets analysts",
-      "threat_actors": [],
-      "title": "Embed Security lets analysts teach its AI SOC Platform how to investigate"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/remus-malware-claims-gmail-access-even-after-you-change-your-password",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T23:23:05.266269+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-a6e8d83f80319f523e3c78f1",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:a6e8d83f80319f523e3c78f1",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-11T22:42:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Malwarebytes Blog",
-      "summary": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
-      "summary_excerpt": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
-      "threat_actors": [],
-      "title": "Remus malware claims Gmail access even after you change your password"
     }
   ],
   "hottest": [
@@ -325,46 +341,6 @@
       "summary_excerpt": "The Git project has released security updates addressing six vulnerabilities that could allow attackers to execute code, write to unintended files or cause memory corruption when Git processes malicious repositories or other specially prepared input. Code execution during cloning A vulnerability tracked as CVE-2026-111760 stems from an integer truncation in Git’s handling of its index. An extremely long file path can pass Git’s safety checks under one name and then be written under a shorter … More → The post Git fixes six vulnerabilities, including code execution during recursive clones appea",
       "threat_actors": [],
       "title": "Git fixes six vulnerabilities, including code execution during recursive clones"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/microsoft-hidden-ai-backdoors-lazarus/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T20:07:29.763342+09:00",
-      "heat_score": 73.0,
-      "permalink_id": "article-url-e46d858027c5524901ebab2f",
-      "primary_category": "ai_security",
-      "public_article_id": "url:e46d858027c5524901ebab2f",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-11T19:55:54+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Microsoft researchers have demonstrated how small changes to an AI model can implant a hidden backdoor, causing an agent to execute an attacker’s command when a specific trigger appears. The technique, called Lazarus, requires no model retraining and allows the agent to behave normally during standard safety evaluations. The company has not observed threat actors weaponizing the technique, but says the research highlights a security concern for organizations that give AI agents access to terminals, … More → The post Microsoft researchers demonstrate hidden backdoor technique for AI agents appeared first on Help Net Security .",
-      "summary_excerpt": "Microsoft researchers have demonstrated how small changes to an AI model can implant a hidden backdoor, causing an agent to execute an attacker’s command when a specific trigger appears. The technique, called Lazarus, requires no model retraining and allows the agent to behave normally during standard safety evaluations. The company has not observed threat actors weaponizing the technique, but says the research highlights a security concern for organizations that give AI agents access to terminals, … More → The post Microsoft researchers demonstrate hidden backdoor technique for AI agents appe",
-      "threat_actors": [
-        "Lazarus Group"
-      ],
-      "title": "Microsoft researchers demonstrate hidden backdoor technique for AI agents"
     },
     {
       "ai_relevance": "none",
@@ -488,23 +464,25 @@
       "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft"
     },
     {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-      "cves": [
-        "CVE-2026-105133",
-        "CVE-2026-105134"
-      ],
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/microsoft-hidden-ai-backdoors-lazarus/",
+      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-11T01:22:37.668933+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-db01d072adb842da9f5aad74",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:db01d072adb842da9f5aad74",
+      "first_seen_at": "2026-11-11T20:07:29.763342+09:00",
+      "heat_score": 65.7,
+      "permalink_id": "article-url-e46d858027c5524901ebab2f",
+      "primary_category": "ai_security",
+      "public_article_id": "url:e46d858027c5524901ebab2f",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
         },
         {
           "color_family": "red",
@@ -512,16 +490,79 @@
           "label": "Malware"
         }
       ],
-      "published_at": "2026-11-11T01:00:55+09:00",
+      "published_at": "2026-11-11T19:55:54+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
-      "summary_excerpt": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+      "source_name": "Help Net Security",
+      "summary": "Microsoft researchers have demonstrated how small changes to an AI model can implant a hidden backdoor, causing an agent to execute an attacker’s command when a specific trigger appears. The technique, called Lazarus, requires no model retraining and allows the agent to behave normally during standard safety evaluations. The company has not observed threat actors weaponizing the technique, but says the research highlights a security concern for organizations that give AI agents access to terminals, … More → The post Microsoft researchers demonstrate hidden backdoor technique for AI agents appeared first on Help Net Security .",
+      "summary_excerpt": "Microsoft researchers have demonstrated how small changes to an AI model can implant a hidden backdoor, causing an agent to execute an attacker’s command when a specific trigger appears. The technique, called Lazarus, requires no model retraining and allows the agent to behave normally during standard safety evaluations. The company has not observed threat actors weaponizing the technique, but says the research highlights a security concern for organizations that give AI agents access to terminals, … More → The post Microsoft researchers demonstrate hidden backdoor technique for AI agents appe",
+      "threat_actors": [
+        "Lazarus Group"
+      ],
+      "title": "Microsoft researchers demonstrate hidden backdoor technique for AI agents"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T01:52:49.838819+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-9d0e65808ab58d16043979de",
+      "primary_category": "ransomware",
+      "public_article_id": "url:9d0e65808ab58d16043979de",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-12T01:24:18+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+      "summary_excerpt": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
       "threat_actors": [],
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor"
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/chinese-malware-tied-three-hacking/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T01:22:29.523967+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-08eb7533942b4613e05e6fb5",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:08eb7533942b4613e05e6fb5",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-12T01:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "Check Point links three China-nexus clusters through a shared Sparrow malware framework",
+      "summary_excerpt": "Check Point links three China-nexus clusters through a shared Sparrow malware framework",
+      "threat_actors": [],
+      "title": "Suspected Chinese Malware Supplier Tied to Three Hacking Campaigns"
     },
     {
       "ai_relevance": "none",
@@ -546,8 +587,8 @@
       "seen_in_kev": false,
       "source_class": "topic_rss",
       "source_name": "SecurityWeek",
-      "summary": "The authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
-      "summary_excerpt": "The authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
+      "summary": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Critical Xen Orchestra Flaws Exploited in Attacks"
     },
@@ -578,39 +619,6 @@
       "summary_excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
       "threat_actors": [],
       "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/remus-malware-claims-gmail-access-even-after-you-change-your-password",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T23:23:05.266269+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-a6e8d83f80319f523e3c78f1",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:a6e8d83f80319f523e3c78f1",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-11T22:42:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Malwarebytes Blog",
-      "summary": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
-      "summary_excerpt": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
-      "threat_actors": [],
-      "title": "Remus malware claims Gmail access even after you change your password"
     }
   ],
   "rising": [],
@@ -633,32 +641,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Critical Xen Orchestra Flaws Exploited in Attacks",
+    "【LATEST #1】Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
     "【HOTTEST #1 / Heat 75】Git fixes six vulnerabilities, including code execution during recursive clones",
-    "【LATEST #2】Hackers use AntiFox AI agents in AWS credential-theft attacks",
-    "【HOTTEST #2 / Heat 73】Microsoft researchers demonstrate hidden backdoor technique for AI agents",
-    "【LATEST #3】eBPF Rootkits: Why Underground Actors Are Taking Notice",
-    "【HOTTEST #3 / Heat 67.5】Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-    "【LATEST #4】Git fixes six vulnerabilities, including code execution during recursive clones",
-    "【HOTTEST #4 / Heat 67.5】Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "【LATEST #5】Blind trust: stealing credentials through CSP",
-    "【HOTTEST #5 / Heat 67.5】Movable Typeにおけるコードインジェクションの脆弱性"
+    "【LATEST #2】Suspected Chinese Malware Supplier Tied to Three Hacking Campaigns",
+    "【HOTTEST #2 / Heat 67.5】Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+    "【LATEST #3】Critical Xen Orchestra Flaws Exploited in Attacks",
+    "【HOTTEST #3 / Heat 67.5】Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "【LATEST #4】AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+    "【HOTTEST #4 / Heat 67.5】Movable Typeにおけるコードインジェクションの脆弱性",
+    "【LATEST #5】How can IT leaders tackle shadow agentic AI threats?",
+    "【HOTTEST #5 / Heat 67.5】Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-08T16:00:00+00:00",
-    "last_as_of": "2026-11-11T16:00:00+00:00",
+    "first_as_of": "2026-11-08T17:00:00+00:00",
+    "last_as_of": "2026-11-11T17:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-11T16:00:00+00:00",
-  "heat_as_of": "2026-11-11T16:00:00+00:00",
+  "news_as_of": "2026-11-11T17:00:00+00:00",
+  "heat_as_of": "2026-11-11T17:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23663,
-  "last_published_at": "2026-11-12T01:05:51.657750+09:00",
-  "publication_slot_jst": "2026-11-12T01:00:00+09:00"
+  "news_catalog_count": 23669,
+  "last_published_at": "2026-11-12T02:07:12.200921+09:00",
+  "publication_slot_jst": "2026-11-12T02:00:00+09:00"
 }
