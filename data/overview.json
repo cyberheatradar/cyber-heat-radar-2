@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-12T15:06:22.423672+00:00",
-  "as_of": "2026-11-12T15:00:00+00:00",
-  "catalog_count": 23892,
+  "generated_at": "2026-11-12T16:05:36.316506+00:00",
+  "as_of": "2026-11-12T16:00:00+00:00",
+  "catalog_count": 23899,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,163 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+      "cves": [
+        "CVE-2026-119618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:52:37.931350+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-9e7665f0b20cb4e5d1fbe59e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:9e7665f0b20cb4e5d1fbe59e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-13T00:38:31+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
+      "summary_excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:37:18.811107+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-438aee711143d40b19caba30",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:438aee711143d40b19caba30",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-13T00:07:20+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+      "summary_excerpt": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+      "threat_actors": [],
+      "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/12/picus-autonomous-penetration-testing/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:52:32.610904+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-6694307acce60c27637b7d5e",
+      "primary_category": "ai_security",
+      "public_article_id": "url:6694307acce60c27637b7d5e",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-13T00:05:02+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Picus Security has announced Picus Autonomous Penetration Testing, an agentic pentesting capability that puts AI agents on the offensive: they think like attackers, chain real exploits toward an organization’s crown jewels, and prove what a breach would look like, under governance the agent cannot override. The launch rebuilds Picus’s automated penetration testing for the agentic era on five years of enterprise deployments and thousands of automated pentests. In the post-Mythos era, AI models find and … More → The post Picus puts AI agents on the offensive with autonomous pentesting appeared first on Help Net Security .",
+      "summary_excerpt": "Picus Security has announced Picus Autonomous Penetration Testing, an agentic pentesting capability that puts AI agents on the offensive: they think like attackers, chain real exploits toward an organization’s crown jewels, and prove what a breach would look like, under governance the agent cannot override. The launch rebuilds Picus’s automated penetration testing for the agentic era on five years of enterprise deployments and thousands of automated pentests. In the post-Mythos era, AI models find and … More → The post Picus puts AI agents on the offensive with autonomous pentesting appeared f",
+      "threat_actors": [],
+      "title": "Picus puts AI agents on the offensive with autonomous pentesting"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:07:14.080134+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-61d140645f0be08e6bb5fd19",
+      "primary_category": "other",
+      "public_article_id": "url:61d140645f0be08e6bb5fd19",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-13T00:00:10+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
+      "summary_excerpt": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
+      "threat_actors": [],
+      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.akamai.com/blog/ai/ai-vulnerability-surge-exposure-response",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:22:38.856909+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-eb6ccb9ab4e49b845ee9bacf",
+      "primary_category": "ai_security",
+      "public_article_id": "url:eb6ccb9ab4e49b845ee9bacf",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-13T00:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Akamai Security Intelligence",
+      "summary": null,
+      "summary_excerpt": null,
+      "threat_actors": [],
+      "title": "When AI Finds the Bugs: Rethinking Exposure in a Flood of Vulnerabilities"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://therecord.media/europe-hoax-email-threats",
@@ -31,6 +188,58 @@
       "summary_excerpt": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from legitimate institutions.",
       "threat_actors": [],
       "title": "Hijacked email accounts complicate investigations into European bomb hoaxes"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/192652",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:52:37.393517+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-7aad289a2d43cae47b2145ae",
+      "primary_category": "other",
+      "public_article_id": "url:7aad289a2d43cae47b2145ae",
+      "public_tags": [],
+      "published_at": "2026-11-12T23:21:54+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "日本商工会議所は、「商工会議所ネット試験管理システム」が不正アクセスされ、受験者の個人情報が流出した可能性があることを明らかにした。",
+      "summary_excerpt": "日本商工会議所は、「商工会議所ネット試験管理システム」が不正アクセスされ、受験者の個人情報が流出した可能性があることを明らかにした。",
+      "threat_actors": [],
+      "title": "試験管理システムで侵害、受験者情報流出の可能性 - 日商"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.praetorian.com/blog/cve-2026-119618/",
+      "cves": [
+        "CVE-2026-119618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:23:07.195829+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-ae211369d694fab9f2335506",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:ae211369d694fab9f2335506",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-12T23:16:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Praetorian Blog",
+      "summary": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
+      "summary_excerpt": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
+      "threat_actors": [],
+      "title": "CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
     },
     {
       "ai_relevance": "none",
@@ -94,214 +303,74 @@
       "summary_excerpt": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security Gateways. Evidence suggested some cases of a successful compromise, with exploitation activity consistent with PHP2Shell, associated with CVE-2026-109618 […] The post PHP2Shell Exploitation on Check Point Gateway appeared first on Check Point Research .",
       "threat_actors": [],
       "title": "PHP2Shell Exploitation on Check Point Gateway"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T22:52:05.346450+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-16dd8d34e480eb666ea02b8f",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:16dd8d34e480eb666ea02b8f",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T22:42:09+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160. The post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek .",
-      "summary_excerpt": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160. The post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/12/europol-operation-endgame-malware-takedown/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T23:22:49.935447+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-486a19d67897cad04d5d6cba",
-      "primary_category": "ransomware",
-      "public_article_id": "url:486a19d67897cad04d5d6cba",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-12T22:34:14+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Europol announced the action as the latest round of Operation Endgame, the international campaign against the services that give ransomware gangs their way into a network. Those logins are what reach ordinary users and companies. The suspects sold credentials they had harvested from victims’ … More → The post Operation Endgame malware takedown turns up over 6 million stolen logins appeared first on Help Net Security .",
-      "summary_excerpt": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Europol announced the action as the latest round of Operation Endgame, the international campaign against the services that give ransomware gangs their way into a network. Those logins are what reach ordinary users and companies. The suspects sold credentials they had harvested from victims’ … More → The post Operation Endgame malware takedown turns up over 6 million stolen logins",
-      "threat_actors": [],
-      "title": "Operation Endgame malware takedown turns up over 6 million stolen logins"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/romania-russia-cyberattack-emails",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T22:52:05.837731+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-96ca286e5feea1d79884dd2a",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:96ca286e5feea1d79884dd2a",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-12T22:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "Romania's intelligence agency said it stopped a cyber-espionage campaign by Russian state-linked hackers before the group exfiltrated sensitive data.",
-      "summary_excerpt": "Romania's intelligence agency said it stopped a cyber-espionage campaign by Russian state-linked hackers before the group exfiltrated sensitive data.",
-      "threat_actors": [],
-      "title": "Romania says it stopped Russian cyberattack targeting government emails"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T22:22:14.275415+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-914bfa13aeb7e72a69e784b6",
-      "primary_category": "ai_security",
-      "public_article_id": "url:914bfa13aeb7e72a69e784b6",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-12T22:12:11+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets. The post Daylight Lands $80 Million for AI-Powered Security Operations appeared first on SecurityWeek .",
-      "summary_excerpt": "The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets. The post Daylight Lands $80 Million for AI-Powered Security Operations appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Daylight Lands $80 Million for AI-Powered Security Operations"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12171/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T23:08:16.193103+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-3ac9533bc85e6ceec280bc72",
-      "primary_category": "other",
-      "public_article_id": "url:3ac9533bc85e6ceec280bc72",
-      "public_tags": [],
-      "published_at": "2026-11-12T22:10:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Nikkei XTECH IT",
-      "summary": "良品計画は2026年11月12日、同年10月下旬以降同社が受けているサイバー攻撃被害とそれに伴う情報漏洩について、記者会見を開き謝罪した。攻撃の原因について、5つの疑問点と会見から分かった事実を解説する。",
-      "summary_excerpt": "良品計画は2026年11月12日、同年10月下旬以降同社が受けているサイバー攻撃被害とそれに伴う情報漏洩について、記者会見を開き謝罪した。攻撃の原因について、5つの疑問点と会見から分かった事実を解説する。",
-      "threat_actors": [],
-      "title": "良品計画会見、5つの疑問　「特典付与の識別」でクレカ番号保持も削除せず"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T23:08:18.232372+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-6b45fe48c7904f34077adcc4",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:6b45fe48c7904f34077adcc4",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-12T22:02:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "ConnectWise disables third-party extensions in 400 environments as bughunters uncover auth hole may let crims bypass MFA",
-      "summary_excerpt": "ConnectWise disables third-party extensions in 400 environments as bughunters uncover auth hole may let crims bypass MFA",
-      "threat_actors": [],
-      "title": "Hackers exploiting ScreenConnect plugin flaw to spread malware across hundreds of PCs"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://therecord.media/kazakhstan-hackers-central-asia",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T22:22:14.699689+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-d60106982525013dc1cf8374",
-      "primary_category": "ai_security",
-      "public_article_id": "url:d60106982525013dc1cf8374",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-12T22:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "Suspected Kazakhstan-linked hackers used an artificial intelligence agent to help spy on Central Asian governments, steal sensitive documents and infiltrate critical infrastructure networks, according to new research.",
-      "summary_excerpt": "Suspected Kazakhstan-linked hackers used an artificial intelligence agent to help spy on Central Asian governments, steal sensitive documents and infiltrate critical infrastructure networks, according to new research.",
-      "threat_actors": [],
-      "title": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+      "cves": [
+        "CVE-2026-119618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:52:37.931350+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-9e7665f0b20cb4e5d1fbe59e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:9e7665f0b20cb4e5d1fbe59e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-13T00:38:31+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
+      "summary_excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.praetorian.com/blog/cve-2026-119618/",
+      "cves": [
+        "CVE-2026-119618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T00:23:07.195829+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-ae211369d694fab9f2335506",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:ae211369d694fab9f2335506",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-12T23:16:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Praetorian Blog",
+      "summary": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
+      "summary_excerpt": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
+      "threat_actors": [],
+      "title": "CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
@@ -405,7 +474,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-12T18:52:38.335532+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-c776eb51cbacc6fa91c682a9",
       "primary_category": "vulnerability",
       "public_article_id": "url:c776eb51cbacc6fa91c682a9",
@@ -551,66 +620,6 @@
       "summary_excerpt": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
       "threat_actors": [],
       "title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-0328",
-      "cves": [
-        "CVE-2026-0328"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T03:08:52.890762+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-d0648c8b95c645b0926e3e83",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:d0648c8b95c645b0926e3e83",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T02:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Palo Alto Security Advisories",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-0325",
-      "cves": [
-        "CVE-2026-0325"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T03:08:51.189673+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-409bf1b4f3daa61e3025e2cb",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:409bf1b4f3daa61e3025e2cb",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T02:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Palo Alto Security Advisories",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)"
     }
   ],
   "rising": [],
@@ -633,32 +642,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Hijacked email accounts complicate investigations into European bomb hoaxes",
-    "【HOTTEST #1 / Heat 75】PHP2Shell Exploitation on Check Point Gateway",
-    "【LATEST #2】Dissecting StrikeStub: ClickFix PowerShell Malware and Modular RAT",
-    "【HOTTEST #2 / Heat 75】Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-    "【LATEST #3】PHP2Shell Exploitation on Check Point Gateway",
-    "【HOTTEST #3 / Heat 75】PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "【LATEST #4】Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-    "【HOTTEST #4 / Heat 75】Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-    "【LATEST #5】Operation Endgame malware takedown turns up over 6 million stolen logins",
-    "【HOTTEST #5 / Heat 67.5】ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能"
+    "【LATEST #1】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+    "【HOTTEST #1 / Heat 75】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+    "【LATEST #2】Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+    "【HOTTEST #2 / Heat 75】CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition",
+    "【LATEST #3】Picus puts AI agents on the offensive with autonomous pentesting",
+    "【HOTTEST #3 / Heat 75】PHP2Shell Exploitation on Check Point Gateway",
+    "【LATEST #4】Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+    "【HOTTEST #4 / Heat 75】Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+    "【LATEST #5】When AI Finds the Bugs: Rethinking Exposure in a Flood of Vulnerabilities",
+    "【HOTTEST #5 / Heat 75】PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-09T15:00:00+00:00",
-    "last_as_of": "2026-11-12T15:00:00+00:00",
+    "first_as_of": "2026-11-09T16:00:00+00:00",
+    "last_as_of": "2026-11-12T16:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-12T15:00:00+00:00",
-  "heat_as_of": "2026-11-12T15:00:00+00:00",
+  "news_as_of": "2026-11-12T16:00:00+00:00",
+  "heat_as_of": "2026-11-12T16:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23892,
-  "last_published_at": "2026-11-13T00:06:34.676271+09:00",
-  "publication_slot_jst": "2026-11-13T00:00:00+09:00"
+  "news_catalog_count": 23899,
+  "last_published_at": "2026-11-13T01:05:47.831086+09:00",
+  "publication_slot_jst": "2026-11-13T01:00:00+09:00"
 }
