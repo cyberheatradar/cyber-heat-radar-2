@@ -1,9 +1,96 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-12T00:40:02.744885+00:00",
+  "source_snapshot_generated_at": "2026-11-12T01:40:03.892251+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:6174f4dee7fdad66832149e3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "automation",
+          "prompt",
+          "ChatGPT",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/andyailab/articles/20810eb2fcbe42",
+        "title": "AI文字起こし要約の誤字を防ぐ！固有名詞の突き合わせ手順と納品前チェックリスト",
+        "author": "アンディ",
+        "published_at": "2026-11-12T01:14:15.529000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:db185f2f6724107242cd8168",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "自動化",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kirinukiauto/articles/f898809edff936",
+        "title": "Claude Codeの予約が一晩じゅう1回も動かなかった：承認の画面で会話ごと止まっていた",
+        "author": "キリヌキ自動化ラボ",
+        "published_at": "2026-11-12T01:00:22.134000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e345ef4185cba9917cdec026",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/everrise_blog/articles/try-local-llm",
+        "title": "VRAM 8GB のノート PC でローカル LLM は実用になるか：qwen2.5-coder:7b を試した",
+        "author": "EVERRISE",
+        "published_at": "2026-11-12T01:00:05.081000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4efb7127f2259327b13fcd3b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "automation",
+          "Claude Code",
+          "subagent"
+        ],
+        "url": "https://zenn.dev/neuralalpha/articles/subagent-staff-levels",
+        "title": "Claude Code のサブエージェントを「社員」にする：確認待ちで止まらない任せ方の段階",
+        "author": "NeuralAlpha",
+        "published_at": "2026-11-12T00:56:08.098000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:68eda9313358c661e0d9cc04",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "音声入力",
+          "ドストエフスキー",
+          "罪と罰"
+        ],
+        "url": "https://zenn.dev/purenium/articles/2026_11_12_dostoevsky_voice_input_talent_or_skill",
+        "title": "【ドストエフスキー/罪と罰】口述筆記は努力か才能か",
+        "author": "聖永宗玄",
+        "published_at": "2026-11-12T00:50:16.654000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:068a70e0717f543fba8cf507",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+        "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+        "author": "Yuku Kotani",
+        "published_at": "2026-11-12T00:44:52.478000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:1377c0e8f3e43e8ca5218aaa",
         "source": "zenn",
@@ -30564,6 +30651,22 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:55b82c041e16683442e1c9a6",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "SQLite",
+          "Security",
+          "HMAC",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/cauchye_asia/items/02ec7b740ba6d22f3f6c",
+        "title": "「承認してから動く」処理の承認トークンで踏む5つの落とし穴｜内容の束縛・二重実行・期限・署名・拒否の既定",
+        "author": "cauchye_asia",
+        "published_at": "2026-11-12T10:19:27+09:00",
+        "excerpt": "TL;DR 承認は「誰が何を許したか」ではなく、「この内容を1回だけ、この期限までに」許したものとして持ちます。 承認は、注文IDではなく実行内容のハッシュに結びつけます。承認後に金額などが変わると、承認が外れます。 「未使用か確認してから使用済みにする」と、2つの処理が同時に動いたときに二重に実行されます。未使用の行だけを1文で更新し、更新できた行数で判定します。 期限は、承認を出すときではなく、使う文の中で確認します。 トークンは鍵付きの HMAC で署名し、 hmac.compare_digest で比較します。 承認が True だと確認できたとき以外は、すべて拒否します。 この記事は承認フローの完成形ではなく、承認トークンまわりでつまずきやすい点の最小例です。 背景 xAI の Grok Bot の Bot Marketplace （2026-11-12 確認）には、承認なしでは動かないことを説明文にうたう Bot が並んでいます。たとえば送信については「nothing sends without your yes」、作成や変更について"
+      },
       {
         "id": "qiita:3a27d41d3fca48c05ba6d60b",
         "source": "qiita",
