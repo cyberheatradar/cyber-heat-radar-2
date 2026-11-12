@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-12T19:40:02.479708+00:00",
+  "source_snapshot_generated_at": "2026-11-12T20:40:02.548925+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -32060,6 +32060,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f67f706d6582b84268848341",
+        "source": "qiita",
+        "author_tags": [
+          "Git",
+          "GitHub",
+          "Security",
+          "AIエージェント",
+          "初心者"
+        ],
+        "url": "https://qiita.com/supportapp3/items/2099ee53f2f8724b1431",
+        "title": "git の URL に書いたトークンを外す手順：set-url で消す→credential helper に移す（store は平文ファイル、cache はメモリ）→transfer.credentialsInUrl=die で再発を止める（git 2.47で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-13T05:17:05+09:00",
+        "excerpt": "この記事でやること https://<トークン>@github.com/... のように、リモート URL にトークンを書いて clone したリポジトリを、トークンなしの URL に直す手順です。前回の記事（ URL にトークンを書いて git clone すると .git/config に平文で残る ）の続きです。 手順は4つです。 トークン入りの URL を探す git remote set-url でトークンを外す 認証は credential helper に任せる（ store か cache ） transfer.credentialsInUrl=die で、同じことが起きたら止める 確認環境：git 2.47.3（Linux）。トークンはダミー値（ ghp_DUMMY... ）です。各コマンドの出力はトークン部分を伏せています。 1. トークン入りの URL を探す 作業フォルダの下にあるリポジトリを1つずつ見ます。値は画面に出さず、 *** に置き換えて表示します。 for d in * / ; do u = $( git -C"
+      },
+      {
         "id": "qiita:d9330c0ba4eb9fc1b64095d4",
         "source": "qiita",
         "author_tags": [
@@ -44097,6 +44113,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:28df6dfbf7bdb33ca7f2bd49",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cyber-security-awareness",
+          "ai",
+          "cloud-security",
+          "comptia-certifications"
+        ],
+        "url": "https://jkpatel69.medium.com/stop-studying-for-the-old-exam-comptia-security-v8-drops-in-days-and-ai-risks-just-changed-8446d2045af7",
+        "title": "Stop Studying for the Old Exam: CompTIA Security+ V8 Drops in Days (And AI Risks Just Changed…",
+        "author": "JAYKISHAN PATEL",
+        "published_at": "2026-11-12T20:26:46+00:00",
+        "excerpt": "If you’ve been procrastinating on your cybersecurity journey, your procrastination just paid off. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2965bfc9f6493117391553f1",
+        "source": "medium",
+        "author_tags": [
+          "ai",
+          "cybersecurity",
+          "vulnerability",
+          "zero-day",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/enrique-dans/ai-has-made-everyone-a-potential-attacker-time-to-get-wise-97c5a8c524ea",
+        "title": "AI has made everyone a potential attacker. Time to get wise",
+        "author": "Enrique Dans",
+        "published_at": "2026-11-12T19:45:23+00:00",
+        "excerpt": "The Economist highlights a deepening cybersecurity problem: as I noted in April, the most advanced large language models are like an… Continue reading on Enrique Dans »"
+      },
       {
         "id": "medium:df27163914bfab25f8b669a2",
         "source": "medium",
