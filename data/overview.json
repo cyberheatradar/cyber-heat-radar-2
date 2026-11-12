@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-12T06:06:04.695528+00:00",
-  "as_of": "2026-11-12T06:00:00+00:00",
-  "catalog_count": 23782,
+  "generated_at": "2026-11-12T07:06:11.540336+00:00",
+  "as_of": "2026-11-12T07:00:00+00:00",
+  "catalog_count": 23785,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,94 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/12/sans-industrial-cybersecurity-survey/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T15:07:28.981618+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-f52c32ee2c2a068a9f090182",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:f52c32ee2c2a068a9f090182",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-12T14:30:13+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Ask industrial security chiefs whether their plants would keep running through a full IT compromise, and every one who answered the SANS 2026 ICS/OT survey says yes. Thirty-eight percent expect to run indefinitely on islanded ICS/OT systems, and 62% expect to get by temporarily on manual controls. None foresee degradation or a halt. The 696 practitioners SANS surveyed, the people who would run those manual controls, are less sure. Only 15% said their critical processes … More → The post CISOs say OT will survive a cyberattack, but their engineers aren’t so sure appeared first on Help Net Security .",
+      "summary_excerpt": "Ask industrial security chiefs whether their plants would keep running through a full IT compromise, and every one who answered the SANS 2026 ICS/OT survey says yes. Thirty-eight percent expect to run indefinitely on islanded ICS/OT systems, and 62% expect to get by temporarily on manual controls. None foresee degradation or a halt. The 696 practitioners SANS surveyed, the people who would run those manual controls, are less sure. Only 15% said their critical processes … More → The post CISOs say OT will survive a cyberattack, but their engineers aren’t so sure appeared first on Help Net Secur",
+      "threat_actors": [],
+      "title": "CISOs say OT will survive a cyberattack, but their engineers aren’t so sure"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2155875.html",
+      "cves": [
+        "CVE-2026-101107"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T15:38:00.098964+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-c4c52fc83ee97907b962fe79",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c4c52fc83ee97907b962fe79",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-12T14:21:21+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "INTERNET Watch",
+      "summary": "ソフトバンク株式会社が提供するホームルーター「Airターミナル6」に、OSコマンドインジェクションの脆弱性（CVE-2026-101107）が存在するとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。修正済みのファームウェアが自動的に適用されるため、ユーザーの対応は不要だという。",
+      "summary_excerpt": "ソフトバンク株式会社が提供するホームルーター「Airターミナル6」に、OSコマンドインジェクションの脆弱性（CVE-2026-101107）が存在するとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。修正済みのファームウェアが自動的に適用されるため、ユーザーの対応は不要だという。",
+      "threat_actors": [],
+      "title": "ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "cves": [
+        "CVE-2026-119618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T15:07:34.043099+09:00",
+      "heat_score": 55.0,
+      "permalink_id": "article-url-b92486adb822eb8ab12a834c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:b92486adb822eb8ab12a834c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-12T14:12:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux. An attacker who can reach the",
+      "summary_excerpt": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux. An attacker who can reach the",
+      "threat_actors": [],
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://xtech.nikkei.com/atcl/nxt/news/24/03464/",
@@ -177,17 +265,21 @@
       "summary_excerpt": "OpenSSL ProjectからOpenSSL Security Advisory [10th November 2026]が公開されました。 OpenSSL Security Advisory [10th November 2026]",
       "threat_actors": [],
       "title": "OpenSSLにおける脆弱性に対するアップデート（2026年11月10日）"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192699",
-      "cves": [],
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2155875.html",
+      "cves": [
+        "CVE-2026-101107"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-12T12:07:50.300447+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-d7acf79932a1b95bf9e4cf05",
+      "first_seen_at": "2026-11-12T15:38:00.098964+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-c4c52fc83ee97907b962fe79",
       "primary_category": "vulnerability",
-      "public_article_id": "url:d7acf79932a1b95bf9e4cf05",
+      "public_article_id": "url:c4c52fc83ee97907b962fe79",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -195,69 +287,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-12T11:25:22+09:00",
+      "published_at": "2026-11-12T14:21:21+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "NoSQLデータベース「MongoDB Server」に深刻な脆弱性が明らかとなった。特定の条件下において任意のコードを実行されたり、サービス拒否に陥るおそれがある。",
-      "summary_excerpt": "NoSQLデータベース「MongoDB Server」に深刻な脆弱性が明らかとなった。特定の条件下において任意のコードを実行されたり、サービス拒否に陥るおそれがある。",
+      "source_name": "INTERNET Watch",
+      "summary": "ソフトバンク株式会社が提供するホームルーター「Airターミナル6」に、OSコマンドインジェクションの脆弱性（CVE-2026-101107）が存在するとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。修正済みのファームウェアが自動的に適用されるため、ユーザーの対応は不要だという。",
+      "summary_excerpt": "ソフトバンク株式会社が提供するホームルーター「Airターミナル6」に、OSコマンドインジェクションの脆弱性（CVE-2026-101107）が存在するとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。修正済みのファームウェアが自動的に適用されるため、ユーザーの対応は不要だという。",
       "threat_actors": [],
-      "title": "「MongoDB Server」にRCE脆弱性 - 修正版を公開"
+      "title": "ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能"
     },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192735",
-      "cves": [],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-12T10:38:39.466425+09:00",
-      "heat_score": 61.75,
-      "permalink_id": "article-url-2ca123ad6890130be032fec6",
-      "primary_category": "other",
-      "public_article_id": "url:2ca123ad6890130be032fec6",
-      "public_tags": [],
-      "published_at": "2026-11-12T10:22:42+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "Googleは、ブラウザ「Chrome」のセキュリティアップデートを公開した。今週に入り2度目の更新で、83件の脆弱性に対処している。",
-      "summary_excerpt": "Googleは、ブラウザ「Chrome」のセキュリティアップデートを公開した。今週に入り2度目の更新で、83件の脆弱性に対処している。",
-      "threat_actors": [],
-      "title": "「Chrome」が今週2度目の更新 - 脆弱性83件を修正、「クリティカル」も"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T10:38:20.679848+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-6cb51ebe747314a762f245d0",
-      "primary_category": "ai_security",
-      "public_article_id": "url:6cb51ebe747314a762f245d0",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-12T10:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Dark Reading",
-      "summary": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
-      "summary_excerpt": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
-      "threat_actors": [],
-      "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry"
-    }
-  ],
-  "hottest": [
     {
       "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043089.html",
@@ -532,36 +572,6 @@
       "summary_excerpt": null,
       "threat_actors": [],
       "title": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-0324",
-      "cves": [
-        "CVE-2026-0324"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T03:08:46.207268+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-534bba88cae2f687af7517d0",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:534bba88cae2f687af7517d0",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T02:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Palo Alto Security Advisories",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "CVE-2026-0324 GlobalProtect App: Incorrect Privilege Management Vulnerability in OPSWAT MetaDefender Endpoint Security SDK on Windows (Severity: MEDIUM)"
     }
   ],
   "rising": [],
@@ -584,32 +594,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】良品計画が不正アクセス巡り会見、破棄すべき情報の流出可能性などを謝罪",
-    "【HOTTEST #1 / Heat 75】Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性",
-    "【LATEST #2】「自社のセキュリティ対策はどのくらいできている？」 アンケート調査から見る実態と課題",
-    "【HOTTEST #2 / Heat 67.5】Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know",
-    "【LATEST #3】ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-    "【HOTTEST #3 / Heat 67.5】CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
-    "【LATEST #4】ESET、サイバーセキュリティ特化型のAIモデル「ESET NeoCortex」を発表",
-    "【HOTTEST #4 / Heat 67.5】CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
-    "【LATEST #5】SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性",
-    "【HOTTEST #5 / Heat 67.5】CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)"
+    "【LATEST #1】CISOs say OT will survive a cyberattack, but their engineers aren’t so sure",
+    "【HOTTEST #1 / Heat 75】ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能",
+    "【LATEST #2】ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能",
+    "【HOTTEST #2 / Heat 75】Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性",
+    "【LATEST #3】Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+    "【HOTTEST #3 / Heat 67.5】Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know",
+    "【LATEST #4】良品計画が不正アクセス巡り会見、破棄すべき情報の流出可能性などを謝罪",
+    "【HOTTEST #4 / Heat 67.5】CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
+    "【LATEST #5】「自社のセキュリティ対策はどのくらいできている？」 アンケート調査から見る実態と課題",
+    "【HOTTEST #5 / Heat 67.5】CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-09T06:00:00+00:00",
-    "last_as_of": "2026-11-12T06:00:00+00:00",
+    "first_as_of": "2026-11-09T07:00:00+00:00",
+    "last_as_of": "2026-11-12T07:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-12T06:00:00+00:00",
-  "heat_as_of": "2026-11-12T06:00:00+00:00",
+  "news_as_of": "2026-11-12T07:00:00+00:00",
+  "heat_as_of": "2026-11-12T07:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23782,
-  "last_published_at": "2026-11-12T15:06:15.344208+09:00",
-  "publication_slot_jst": "2026-11-12T15:00:00+09:00"
+  "news_catalog_count": 23785,
+  "last_published_at": "2026-11-12T16:06:22.352166+09:00",
+  "publication_slot_jst": "2026-11-12T16:00:00+09:00"
 }
