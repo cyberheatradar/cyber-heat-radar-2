@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-12T16:05:36.316506+00:00",
-  "as_of": "2026-11-12T16:00:00+00:00",
-  "catalog_count": 23899,
+  "generated_at": "2026-11-12T17:05:40.153214+00:00",
+  "as_of": "2026-11-12T17:00:00+00:00",
+  "catalog_count": 23908,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,125 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:38:42.247994+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-83f9d15e0e3302c8a9c39ec9",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:83f9d15e0e3302c8a9c39ec9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T01:27:01+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
+      "summary_excerpt": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
+      "threat_actors": [],
+      "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:52:29.874669+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-8d3ba0b6f91d3196bf3bf86a",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:8d3ba0b6f91d3196bf3bf86a",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-13T01:21:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.",
+      "summary_excerpt": "German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.",
+      "threat_actors": [],
+      "title": "European authorities take down SteaIC malware servers for second time this year"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:07:09.817559+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-1dc09f8d2480496ec9d6f886",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:1dc09f8d2480496ec9d6f886",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T01:04:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+      "summary_excerpt": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+      "threat_actors": [],
+      "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "cves": [
+        "CVE-2026-120868"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:38:42.370689+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-96d21dc534c051cb0f29d174",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:96d21dc534c051cb0f29d174",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T00:38:49+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+      "summary_excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+      "threat_actors": [],
+      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass"
+    },
     {
       "ai_relevance": "primary",
       "canonical_url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
@@ -44,6 +163,95 @@
       "summary_excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.cybersecuritydive.com/news/ai-vulnerabilities-critical-infrastructure-embedded-software/874499/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:38:21.610740+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-61ee504ffe9e2cc3358d05e5",
+      "primary_category": "ai_security",
+      "public_article_id": "url:61ee504ffe9e2cc3358d05e5",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-13T00:30:18+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cybersecurity Dive",
+      "summary": "The newly discovered vulnerabilities illustrate AI’s growing power — as well as critical infrastructure’s continuing weaknesses.",
+      "summary_excerpt": "The newly discovered vulnerabilities illustrate AI’s growing power — as well as critical infrastructure’s continuing weaknesses.",
+      "threat_actors": [],
+      "title": "AI found widespread IoT vulnerabilities more quickly and cheaply than humans could"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:38:42.483621+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-9d96703e2366c2eb4531499f",
+      "primary_category": "ai_security",
+      "public_article_id": "url:9d96703e2366c2eb4531499f",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-13T00:15:40+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,",
+      "summary_excerpt": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,",
+      "threat_actors": [],
+      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/whitearmor-gang-cyberattack-maersk",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:38:28.669925+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-a160417980ae42a1be2a9745",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:a160417980ae42a1be2a9745",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-13T00:12:29+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Graham Cluley",
+      "summary": "Shipping giant Maersk has confirmed that one of its systems was broken into by hackers who have stolen data. The WhiteArmor gang has claimed responsbility for the attack. Read more in my article on the Hot for Security blog.",
+      "summary_excerpt": "Shipping giant Maersk has confirmed that one of its systems was broken into by hackers who have stolen data. The WhiteArmor gang has claimed responsbility for the attack. Read more in my article on the Hot for Security blog.",
+      "threat_actors": [],
+      "title": "WhiteArmor gang claims responsibility for latest cyber attack on shipping giant Maersk"
     },
     {
       "ai_relevance": "none",
@@ -110,202 +318,39 @@
       "summary_excerpt": "Picus Security has announced Picus Autonomous Penetration Testing, an agentic pentesting capability that puts AI agents on the offensive: they think like attackers, chain real exploits toward an organization’s crown jewels, and prove what a breach would look like, under governance the agent cannot override. The launch rebuilds Picus’s automated penetration testing for the agentic era on five years of enterprise deployments and thousands of automated pentests. In the post-Mythos era, AI models find and … More → The post Picus puts AI agents on the offensive with autonomous pentesting appeared f",
       "threat_actors": [],
       "title": "Picus puts AI agents on the offensive with autonomous pentesting"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T00:07:14.080134+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-61d140645f0be08e6bb5fd19",
-      "primary_category": "other",
-      "public_article_id": "url:61d140645f0be08e6bb5fd19",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-13T00:00:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
-      "summary_excerpt": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
-      "threat_actors": [],
-      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.akamai.com/blog/ai/ai-vulnerability-surge-exposure-response",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T00:22:38.856909+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-eb6ccb9ab4e49b845ee9bacf",
-      "primary_category": "ai_security",
-      "public_article_id": "url:eb6ccb9ab4e49b845ee9bacf",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-13T00:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Akamai Security Intelligence",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "When AI Finds the Bugs: Rethinking Exposure in a Flood of Vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/europe-hoax-email-threats",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T23:52:03.113463+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-e1490e6be89f15a9f1d53998",
-      "primary_category": "other",
-      "public_article_id": "url:e1490e6be89f15a9f1d53998",
-      "public_tags": [],
-      "published_at": "2026-11-12T23:45:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from legitimate institutions.",
-      "summary_excerpt": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from legitimate institutions.",
-      "threat_actors": [],
-      "title": "Hijacked email accounts complicate investigations into European bomb hoaxes"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192652",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T00:52:37.393517+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-7aad289a2d43cae47b2145ae",
-      "primary_category": "other",
-      "public_article_id": "url:7aad289a2d43cae47b2145ae",
-      "public_tags": [],
-      "published_at": "2026-11-12T23:21:54+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "日本商工会議所は、「商工会議所ネット試験管理システム」が不正アクセスされ、受験者の個人情報が流出した可能性があることを明らかにした。",
-      "summary_excerpt": "日本商工会議所は、「商工会議所ネット試験管理システム」が不正アクセスされ、受験者の個人情報が流出した可能性があることを明らかにした。",
-      "threat_actors": [],
-      "title": "試験管理システムで侵害、受験者情報流出の可能性 - 日商"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.praetorian.com/blog/cve-2026-119618/",
-      "cves": [
-        "CVE-2026-119618"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T00:23:07.195829+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-ae211369d694fab9f2335506",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:ae211369d694fab9f2335506",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T23:16:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Praetorian Blog",
-      "summary": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
-      "summary_excerpt": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
-      "threat_actors": [],
-      "title": "CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.akamai.com/blog/security-research/strikestub-clickfix-powershell-malware-modular-rat",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T23:07:48.474423+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-df680dc10b4f1bb149ed8915",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:df680dc10b4f1bb149ed8915",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-12T23:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Akamai Security Intelligence",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "Dissecting StrikeStub: ClickFix PowerShell Malware and Modular RAT"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
-      "cves": [
-        "CVE-2026-109618"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T23:08:00.954383+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-502ecf5490e9965e7c7039f2",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:502ecf5490e9965e7c7039f2",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T22:56:37+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Check Point Research",
-      "summary": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security Gateways. Evidence suggested some cases of a successful compromise, with exploitation activity consistent with PHP2Shell, associated with CVE-2026-109618 […] The post PHP2Shell Exploitation on Check Point Gateway appeared first on Check Point Research .",
-      "summary_excerpt": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security Gateways. Evidence suggested some cases of a successful compromise, with exploitation activity consistent with PHP2Shell, associated with CVE-2026-109618 […] The post PHP2Shell Exploitation on Check Point Gateway appeared first on Check Point Research .",
-      "threat_actors": [],
-      "title": "PHP2Shell Exploitation on Check Point Gateway"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "cves": [
+        "CVE-2026-120868"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:38:42.370689+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-96d21dc534c051cb0f29d174",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:96d21dc534c051cb0f29d174",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T00:38:49+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+      "summary_excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+      "threat_actors": [],
+      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass"
+    },
     {
       "ai_relevance": "primary",
       "canonical_url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
@@ -400,6 +445,41 @@
       "summary_excerpt": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security Gateways. Evidence suggested some cases of a successful compromise, with exploitation activity consistent with PHP2Shell, associated with CVE-2026-109618 […] The post PHP2Shell Exploitation on Check Point Gateway appeared first on Check Point Research .",
       "threat_actors": [],
       "title": "PHP2Shell Exploitation on Check Point Gateway"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "cves": [
+        "CVE-2026-84869"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:38:42.595310+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-0c7b196fe26ffd911c70b2b3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0c7b196fe26ffd911c70b2b3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-12T22:08:28+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+      "summary_excerpt": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+      "threat_actors": [],
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths"
     },
     {
       "ai_relevance": "material",
@@ -555,71 +635,6 @@
       "summary_excerpt": "ソフトバンク株式会社が提供するAirターミナル6には、次の脆弱性が存在します。 OSコマンドインジェクション（CWE-78）- CVE-2026-101107 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：大平 剛 氏、socho 氏、京都工芸繊維大学 栗山 樹 氏、豊中市立第十一中学校 小川 智也 氏",
       "threat_actors": [],
       "title": "SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043089.html",
-      "cves": [
-        "CVE-2026-116081"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T13:08:05.375791+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-9e47f20efb368bfcff5118f0",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:9e47f20efb368bfcff5118f0",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T11:55:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "フェンリル株式会社が提供するSleipnir Mobile for iPhone / iPadおよびSleipnir Mobile for iPhone / iPad Black Editionには、次の脆弱性が存在します。 不適切な証明書検証（CWE-295） - CVE-2026-116081 この脆弱性情報は、製品利用者への周知を目的に、開発者がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。",
-      "summary_excerpt": "フェンリル株式会社が提供するSleipnir Mobile for iPhone / iPadおよびSleipnir Mobile for iPhone / iPad Black Editionには、次の脆弱性が存在します。 不適切な証明書検証（CWE-295） - CVE-2026-116081 この脆弱性情報は、製品利用者への周知を目的に、開発者がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。",
-      "threat_actors": [],
-      "title": "Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-      "cves": [
-        "CVE-2026-119618"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T06:07:36.380622+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-7c413c5b5223a5760079bec0",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:7c413c5b5223a5760079bec0",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-12T04:49:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Wiz Blog",
-      "summary": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
-      "summary_excerpt": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
-      "threat_actors": [],
-      "title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know"
     }
   ],
   "rising": [],
@@ -642,32 +657,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-    "【HOTTEST #1 / Heat 75】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-    "【LATEST #2】Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-    "【HOTTEST #2 / Heat 75】CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition",
-    "【LATEST #3】Picus puts AI agents on the offensive with autonomous pentesting",
-    "【HOTTEST #3 / Heat 75】PHP2Shell Exploitation on Check Point Gateway",
-    "【LATEST #4】Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-    "【HOTTEST #4 / Heat 75】Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-    "【LATEST #5】When AI Finds the Bugs: Rethinking Exposure in a Flood of Vulnerabilities",
-    "【HOTTEST #5 / Heat 75】PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution"
+    "【LATEST #1】Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+    "【HOTTEST #1 / Heat 75】Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+    "【LATEST #2】European authorities take down SteaIC malware servers for second time this year",
+    "【HOTTEST #2 / Heat 75】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+    "【LATEST #3】New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+    "【HOTTEST #3 / Heat 75】CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition",
+    "【LATEST #4】Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+    "【HOTTEST #4 / Heat 75】PHP2Shell Exploitation on Check Point Gateway",
+    "【LATEST #5】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+    "【HOTTEST #5 / Heat 75】SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-09T16:00:00+00:00",
-    "last_as_of": "2026-11-12T16:00:00+00:00",
+    "first_as_of": "2026-11-09T17:00:00+00:00",
+    "last_as_of": "2026-11-12T17:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-12T16:00:00+00:00",
-  "heat_as_of": "2026-11-12T16:00:00+00:00",
+  "news_as_of": "2026-11-12T17:00:00+00:00",
+  "heat_as_of": "2026-11-12T17:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23899,
-  "last_published_at": "2026-11-13T01:05:47.831086+09:00",
-  "publication_slot_jst": "2026-11-13T01:00:00+09:00"
+  "news_catalog_count": 23908,
+  "last_published_at": "2026-11-13T02:05:51.450856+09:00",
+  "publication_slot_jst": "2026-11-13T02:00:00+09:00"
 }

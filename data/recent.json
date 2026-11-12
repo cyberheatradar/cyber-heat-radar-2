@@ -1,5 +1,124 @@
 [
   {
+    "ai_relevance": "none",
+    "canonical_url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:38:42.247994+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-83f9d15e0e3302c8a9c39ec9",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:83f9d15e0e3302c8a9c39ec9",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-13T01:27:01+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
+    "summary_excerpt": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
+    "threat_actors": [],
+    "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:52:29.874669+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-8d3ba0b6f91d3196bf3bf86a",
+    "primary_category": "threat_campaign",
+    "public_article_id": "url:8d3ba0b6f91d3196bf3bf86a",
+    "public_tags": [
+      {
+        "color_family": "red",
+        "key": "threat_campaign",
+        "label": "Campaign"
+      },
+      {
+        "color_family": "red",
+        "key": "malware",
+        "label": "Malware"
+      }
+    ],
+    "published_at": "2026-11-13T01:21:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Record",
+    "summary": "German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.",
+    "summary_excerpt": "German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.",
+    "threat_actors": [],
+    "title": "European authorities take down SteaIC malware servers for second time this year"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:07:09.817559+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-1dc09f8d2480496ec9d6f886",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:1dc09f8d2480496ec9d6f886",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-13T01:04:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "BleepingComputer",
+    "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+    "summary_excerpt": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+    "threat_actors": [],
+    "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+    "cves": [
+      "CVE-2026-120868"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:38:42.370689+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-96d21dc534c051cb0f29d174",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:96d21dc534c051cb0f29d174",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-13T00:38:49+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+    "summary_excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+    "threat_actors": [],
+    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass"
+  },
+  {
     "ai_relevance": "primary",
     "canonical_url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
     "cves": [
@@ -33,6 +152,95 @@
     "summary_excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
     "threat_actors": [],
     "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google"
+  },
+  {
+    "ai_relevance": "primary",
+    "canonical_url": "https://www.cybersecuritydive.com/news/ai-vulnerabilities-critical-infrastructure-embedded-software/874499/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:38:21.610740+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-61ee504ffe9e2cc3358d05e5",
+    "primary_category": "ai_security",
+    "public_article_id": "url:61ee504ffe9e2cc3358d05e5",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      }
+    ],
+    "published_at": "2026-11-13T00:30:18+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Cybersecurity Dive",
+    "summary": "The newly discovered vulnerabilities illustrate AI’s growing power — as well as critical infrastructure’s continuing weaknesses.",
+    "summary_excerpt": "The newly discovered vulnerabilities illustrate AI’s growing power — as well as critical infrastructure’s continuing weaknesses.",
+    "threat_actors": [],
+    "title": "AI found widespread IoT vulnerabilities more quickly and cheaply than humans could"
+  },
+  {
+    "ai_relevance": "primary",
+    "canonical_url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:38:42.483621+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-9d96703e2366c2eb4531499f",
+    "primary_category": "ai_security",
+    "public_article_id": "url:9d96703e2366c2eb4531499f",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      },
+      {
+        "color_family": "red",
+        "key": "malware",
+        "label": "Malware"
+      }
+    ],
+    "published_at": "2026-11-13T00:15:40+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,",
+    "summary_excerpt": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,",
+    "threat_actors": [],
+    "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/whitearmor-gang-cyberattack-maersk",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:38:28.669925+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-a160417980ae42a1be2a9745",
+    "primary_category": "threat_campaign",
+    "public_article_id": "url:a160417980ae42a1be2a9745",
+    "public_tags": [
+      {
+        "color_family": "red",
+        "key": "threat_campaign",
+        "label": "Campaign"
+      }
+    ],
+    "published_at": "2026-11-13T00:12:29+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Graham Cluley",
+    "summary": "Shipping giant Maersk has confirmed that one of its systems was broken into by hackers who have stolen data. The WhiteArmor gang has claimed responsbility for the attack. Read more in my article on the Hot for Security blog.",
+    "summary_excerpt": "Shipping giant Maersk has confirmed that one of its systems was broken into by hackers who have stolen data. The WhiteArmor gang has claimed responsbility for the attack. Read more in my article on the Hot for Security blog.",
+    "threat_actors": [],
+    "title": "WhiteArmor gang claims responsibility for latest cyber attack on shipping giant Maersk"
   },
   {
     "ai_relevance": "none",
@@ -229,6 +437,34 @@
     "summary_excerpt": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
     "threat_actors": [],
     "title": "CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
+  },
+  {
+    "ai_relevance": "primary",
+    "canonical_url": "https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:52:29.647940+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-1bc517d41698df665466201b",
+    "primary_category": "ai_security",
+    "public_article_id": "url:1bc517d41698df665466201b",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      }
+    ],
+    "published_at": "2026-11-12T23:00:02+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "SentinelOne Labs",
+    "summary": "Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.",
+    "summary_excerpt": "Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.",
+    "threat_actors": [],
+    "title": "LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI"
   },
   {
     "ai_relevance": "none",
@@ -431,6 +667,41 @@
     "summary_excerpt": "良品計画は2026年11月12日、同年10月下旬以降同社が受けているサイバー攻撃被害とそれに伴う情報漏洩について、記者会見を開き謝罪した。攻撃の原因について、5つの疑問点と会見から分かった事実を解説する。",
     "threat_actors": [],
     "title": "良品計画会見、5つの疑問　「特典付与の識別」でクレカ番号保持も削除せず"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+    "cves": [
+      "CVE-2026-84869"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-13T01:38:42.595310+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-0c7b196fe26ffd911c70b2b3",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:0c7b196fe26ffd911c70b2b3",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "red",
+        "key": "malware",
+        "label": "Malware"
+      }
+    ],
+    "published_at": "2026-11-12T22:08:28+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+    "summary_excerpt": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+    "threat_actors": [],
+    "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths"
   },
   {
     "ai_relevance": "none",
@@ -714,7 +985,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T23:08:03.516259+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-8b8b08c9c58b8e2a0e223678",
     "primary_category": "other",
     "public_article_id": "url:8b8b08c9c58b8e2a0e223678",
@@ -742,7 +1013,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T20:22:38.950260+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-ff12880230154aeef8dca9b8",
     "primary_category": "ai_security",
     "public_article_id": "url:ff12880230154aeef8dca9b8",
@@ -770,7 +1041,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T19:52:07.057154+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-e9d69bcb98ba5bf5217ac398",
     "primary_category": "threat_campaign",
     "public_article_id": "url:e9d69bcb98ba5bf5217ac398",
@@ -803,7 +1074,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T19:37:30.265952+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-56bf5f6cdef50405dfa09c71",
     "primary_category": "other",
     "public_article_id": "url:56bf5f6cdef50405dfa09c71",
@@ -825,7 +1096,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T19:22:47.085015+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-0431cb0eccef8289fdf7cc2c",
     "primary_category": "other",
     "public_article_id": "url:0431cb0eccef8289fdf7cc2c",
@@ -4436,7 +4707,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T03:08:44.225210+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-37d27702f36416e0f5785579",
     "primary_category": "vulnerability",
     "public_article_id": "url:37d27702f36416e0f5785579",
@@ -4469,7 +4740,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T02:22:36.950846+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-db4f413a0b8644b794ba1e7e",
     "primary_category": "vulnerability",
     "public_article_id": "url:db4f413a0b8644b794ba1e7e",
@@ -4502,7 +4773,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T01:52:49.838819+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-9d0e65808ab58d16043979de",
     "primary_category": "ransomware",
     "public_article_id": "url:9d0e65808ab58d16043979de",
@@ -4532,7 +4803,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T02:22:41.727800+09:00",
-    "heat_score": 67.5,
+    "heat_score": 54.0,
     "permalink_id": "article-url-95bc7c63c87673bf5406f856",
     "primary_category": "vulnerability",
     "public_article_id": "url:95bc7c63c87673bf5406f856",
@@ -4560,7 +4831,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T01:22:29.523967+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-08eb7533942b4613e05e6fb5",
     "primary_category": "threat_campaign",
     "public_article_id": "url:08eb7533942b4613e05e6fb5",
@@ -19329,8 +19600,8 @@
     "seen_in_kev": false,
     "source_class": "topic_rss",
     "source_name": "Rapid7 Blog",
-    "summary": "Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 1,102 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still out on whether patching many more vulnerabilities will lead to better security outcomes; every code change to resolve a known vulnerability could easily introduce new hidden treasure for researchers or threat actors to unearth in the future. Despite the vast uptick in volume during 2026, there has been no accompanying increase in the number of vulnerabilities known to be exploited in the wild. Microsoft is aware of exploitation in the wild for just one of the vulnerabilities published today, with no known public disclosure at all this month. Outlook: zero-day spoofing Imagine coming home and checking your mailbox to find a postcard. You admire the non-specific image of a tropical beach at sunset, and flip it over to scan the handwriting on the back, which looks vaguely familiar. It’s addressed to you, but you can’t make out the signature, and the message is short and generic. Is that real handwriting, or has this been printed? Probably marketing material. You put the card in the recycling and, since life is busy, you move on and forget about it. Somehow, you remain entirely unaware that, immediately after reading the postcard, you took out your phone and sent high-resolution images of your front door key to a number you’ve never contacted before. Is this sketch just some rather questionable science fiction? Yes, hopefully, but what if that non-specific postcard was instead a malicious file in your Outlook inbox? Now we’re talking about CVE-2026-124194 , an exploited-in-the-wild spoofing vulnerability. Merely opening a specially crafted malicious file causes Outlook to silently connect to an attacker-controlled location and leak the user’s NTLM v2 hash. All supported versions of classic Outlook receive patches. The relatively low CVSS v3.1 base score of 6.5 does not tell the full story here, since this vulnerability provides value for both commodity attackers working to harvest initial access at scale, and also more targeted campaigns by more sophisticated threat actors. The NTLM v2 hash can be relayed live to impersonate the user against another service, at least where those services do not implement adequate safeguards such as message signing for SMB or LDAP , as well as Extended Protection for Authentication for Exchange or Active Directory Certificate Services . Alternatively, the NTLM v2 hash can be cracked offline by a motivated attacker to retrieve the underlying credential. The Preview Pane is not a vector, which will help limit the real-world impact somewhat. Windows Schannel: critical pre-auth RCE A pre-authentication remote code execution (RCE) vulnerability in Windows will always attract attention. CVE-2026-119952 allows an attacker to execute code on a target system by sending specially crafted malicious packets. Since the vulnerable component is Schannel, which is Microsoft’s implementation of Transport Layer Security (TLS) , attackers may not have to look very far to find vulnerable endpoints. The advisory provides some comfort by pointing out that specific conditions are required for exploitability, which reduces the likelihood of broad exploitation, but the advisory still assesses exploitation as more likely, so Microsoft presumably expects that the development of reliable exploit code is feasible. In many cases, there will be no need for an attacker to have an existing foothold on the same subnet. The execution context likely depends on the vulnerable service, which points to the evergreen need for least privilege architecture, but it also means that we cannot exclude the possibility of pre-auth RCE as SYSTEM in some cases. Exchange/Windows Search: critical pre-auth RCE Could someone take control of your Exchange server by sending a single email? In short: yes. Microsoft offers customers tight integration between various business-critical components. Exchange running on Windows is Microsoft on Microsoft, and the Windows Search component indexes email on behalf of Exchange. An attacker aiming to exploit CVE-2026-116928 relies on this helpful synergy to achieve pre-auth RCE on the server by sending a malicious attachment, which Exchange will process automatically. How’s that for low attack complexity Although the advisory does not specify the context of execution, we should assume SYSTEM, since several of the services which might be involved do run with a high privilege level. Since the patches are for Windows OS rather than Exchange itself, there’s no need to worry about which version of Exchange you’re running, so long as you are running only Exchange Subscription Edition, since all previous versions of Exchange are now fully beyond end of support . Microsoft lifecycle update There are fewer Microsoft product lifecycle changes in November 2026 than last month. As of Nov 11, 2026, .NET 8 Long Term Servicing channel moves past its release end date, along with PowerShell 7.4 LTS , and the 23H2 versions of the Enterprise, Education , and IoT editions of Windows 11. Summary charts",
-    "summary_excerpt": "Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 1,102 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still out on whether patching many more vulnerabilities will lead to better security outcomes; every code change to resolve a known vulnerability could easily introduce new hidden treasure for researchers or threat actors to unearth in the future. Despite the vast uptick in volume during 2026, there has been no accompanying in",
+    "summary": "Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 745 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still out on whether patching many more vulnerabilities will lead to better security outcomes; every code change to resolve a known vulnerability could easily introduce new hidden treasure for researchers or threat actors to unearth in the future. Despite the vast uptick in volume during 2026, there has been no accompanying increase in the number of vulnerabilities known to be exploited in the wild. Microsoft is aware of exploitation in the wild for just one of the vulnerabilities published today, with no known public disclosure at all this month. Outlook: zero-day spoofing Imagine coming home and checking your mailbox to find a postcard. You admire the non-specific image of a tropical beach at sunset, and flip it over to scan the handwriting on the back, which looks vaguely familiar. It’s addressed to you, but you can’t make out the signature, and the message is short and generic. Is that real handwriting, or has this been printed? Probably marketing material. You put the card in the recycling and, since life is busy, you move on and forget about it. Somehow, you remain entirely unaware that, immediately after reading the postcard, you took out your phone and sent high-resolution images of your front door key to a number you’ve never contacted before. Is this sketch just some rather questionable science fiction? Yes, hopefully, but what if that non-specific postcard was instead a malicious file in your Outlook inbox? Now we’re talking about CVE-2026-124194 , an exploited-in-the-wild spoofing vulnerability. Merely opening a specially crafted malicious file causes Outlook to silently connect to an attacker-controlled location and leak the user’s NTLM v2 hash. All supported versions of classic Outlook receive patches. The relatively low CVSS v3.1 base score of 6.5 does not tell the full story here, since this vulnerability provides value for both commodity attackers working to harvest initial access at scale, and also more targeted campaigns by more sophisticated threat actors. The NTLM v2 hash can be relayed live to impersonate the user against another service, at least where those services do not implement adequate safeguards such as message signing for SMB or LDAP , as well as Extended Protection for Authentication for Exchange or Active Directory Certificate Services . Alternatively, the NTLM v2 hash can be cracked offline by a motivated attacker to retrieve the underlying credential. The Preview Pane is not a vector, which will help limit the real-world impact somewhat. Windows Schannel: critical pre-auth RCE A pre-authentication remote code execution (RCE) vulnerability in Windows will always attract attention. CVE-2026-119952 allows an attacker to execute code on a target system by sending specially crafted malicious packets. Since the vulnerable component is Schannel, which is Microsoft’s implementation of Transport Layer Security (TLS) , attackers may not have to look very far to find vulnerable endpoints. The advisory provides some comfort by pointing out that specific conditions are required for exploitability, which reduces the likelihood of broad exploitation, but the advisory still assesses exploitation as more likely, so Microsoft presumably expects that the development of reliable exploit code is feasible. In many cases, there will be no need for an attacker to have an existing foothold on the same subnet. The execution context likely depends on the vulnerable service, which points to the evergreen need for least privilege architecture, but it also means that we cannot exclude the possibility of pre-auth RCE as SYSTEM in some cases. Exchange/Windows Search: critical pre-auth RCE Could someone take control of your Exchange server by sending a single email? In short: yes. Microsoft offers customers tight integration between various business-critical components. Exchange running on Windows is Microsoft on Microsoft, and the Windows Search component indexes email on behalf of Exchange. An attacker aiming to exploit CVE-2026-116928 relies on this helpful synergy to achieve pre-auth RCE on the server by sending a malicious attachment, which Exchange will process automatically. How’s that for low attack complexity Although the advisory does not specify the context of execution, we should assume SYSTEM, since several of the services which might be involved do run with a high privilege level. Since the patches are for Windows OS rather than Exchange itself, there’s no need to worry about which version of Exchange you’re running, so long as you are running only Exchange Subscription Edition, since all previous versions of Exchange are now fully beyond end of support . Microsoft lifecycle update There are fewer Microsoft product lifecycle changes in November 2026 than last month. As of Nov 11, 2026, .NET 8 Long Term Servicing channel moves past its release end date, along with PowerShell 7.4 LTS , and the 23H2 versions of the Enterprise, Education , and IoT editions of Windows 11. Summary charts Update history 2026-11-12 : corrected the number of Windows OS vulnerabilities.",
+    "summary_excerpt": "Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 745 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still out on whether patching many more vulnerabilities will lead to better security outcomes; every code change to resolve a known vulnerability could easily introduce new hidden treasure for researchers or threat actors to unearth in the future. Despite the vast uptick in volume during 2026, there has been no accompanying incr",
     "threat_actors": [],
     "title": "Patch Tuesday - November 2026"
   },
@@ -30216,7 +30487,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-10T01:37:05.268932+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-e58a25e722f029ae995bf93b",
     "primary_category": "incident",
     "public_article_id": "url:e58a25e722f029ae995bf93b",
@@ -30246,7 +30517,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-10T01:08:21.312076+09:00",
-    "heat_score": 54.0,
+    "heat_score": 37.5,
     "permalink_id": "article-url-2d302e9d23c02c215346cfea",
     "primary_category": "vulnerability",
     "public_article_id": "url:2d302e9d23c02c215346cfea",
@@ -30274,7 +30545,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-10T01:22:36.094058+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-6d9973debc14f7aa8cd7c541",
     "primary_category": "ai_security",
     "public_article_id": "url:6d9973debc14f7aa8cd7c541",
@@ -44446,7 +44717,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-07T11:56:30.920678+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-d54642e1a2b86f98c352a309",
     "primary_category": "other",
     "public_article_id": "url:d54642e1a2b86f98c352a309",
@@ -44474,7 +44745,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-06T14:40:36.949630+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-dd9d10ec61939a9712c1adfe",
     "primary_category": "ai_security",
     "public_article_id": "url:dd9d10ec61939a9712c1adfe",
@@ -44502,7 +44773,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-06T01:52:33.809145+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-56bfa02295d43c2b62b107af",
     "primary_category": "threat_campaign",
     "public_article_id": "url:56bfa02295d43c2b62b107af",
@@ -44535,7 +44806,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-06T01:24:13.443417+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-83e08e4c6c08d1c089a1400c",
     "primary_category": "incident",
     "public_article_id": "url:83e08e4c6c08d1c089a1400c",
@@ -44563,7 +44834,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-07T11:58:19.435443+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-42dccc485f1f6ef51f3fba45",
     "primary_category": "threat_report",
     "public_article_id": "url:42dccc485f1f6ef51f3fba45",
@@ -140765,127 +141036,5 @@
     "summary_excerpt": "Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. The post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek .",
     "threat_actors": [],
     "title": "Google Partially Reverses Chrome Bug Bounty Cuts"
-  },
-  {
-    "ai_relevance": "primary",
-    "canonical_url": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-14T03:02:46.662811+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-22f4cc3c0aefa834bb0108d8",
-    "primary_category": "ai_security",
-    "public_article_id": "url:22f4cc3c0aefa834bb0108d8",
-    "public_tags": [
-      {
-        "color_family": "cyan",
-        "key": "ai_security",
-        "label": "AI Security"
-      },
-      {
-        "color_family": "red",
-        "key": "malware",
-        "label": "Malware"
-      }
-    ],
-    "published_at": "2026-10-14T01:49:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Register Security",
-    "summary": "Self-replicating AI botnets could become feasible on IoT hardware within months, claims the Claude maker, if smaller models get smarter",
-    "summary_excerpt": "Self-replicating AI botnets could become feasible on IoT hardware within months, claims the Claude maker, if smaller models get smarter",
-    "threat_actors": [],
-    "title": "Anthropic conjures another threat that doesn't exist yet to stoke fears of AI apocalypse"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-14T02:01:23.361305+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-92637fae567836d42d18daed",
-    "primary_category": "threat_campaign",
-    "public_article_id": "url:92637fae567836d42d18daed",
-    "public_tags": [
-      {
-        "color_family": "red",
-        "key": "threat_campaign",
-        "label": "Campaign"
-      }
-    ],
-    "published_at": "2026-10-14T01:44:18+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "BleepingComputer",
-    "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
-    "summary_excerpt": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
-    "threat_actors": [],
-    "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers"
-  },
-  {
-    "ai_relevance": "primary",
-    "canonical_url": "https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-14T02:01:47.081452+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-c8dbd5c1a621e85dba4b1552",
-    "primary_category": "ai_security",
-    "public_article_id": "url:c8dbd5c1a621e85dba4b1552",
-    "public_tags": [
-      {
-        "color_family": "cyan",
-        "key": "ai_security",
-        "label": "AI Security"
-      },
-      {
-        "color_family": "cyan",
-        "key": "agentic_security",
-        "label": "Agentic Security"
-      }
-    ],
-    "published_at": "2026-10-14T01:18:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Record",
-    "summary": "The new research, published by AI security startup AIR, found that a network filtering flaw in Vercel Sandbox — a tool used to run code in isolated environments — could allow agents to exploit certificate validation processes to transmit data outside approved networks.",
-    "summary_excerpt": "The new research, published by AI security startup AIR, found that a network filtering flaw in Vercel Sandbox — a tool used to run code in isolated environments — could allow agents to exploit certificate validation processes to transmit data outside approved networks.",
-    "threat_actors": [],
-    "title": "Sandbox vulnerability gives rogue AI agents a path to escape and leak data, research says"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-14T02:01:46.124029+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-31360dd1cd4ddbaf6fa688cd",
-    "primary_category": "incident",
-    "public_article_id": "url:31360dd1cd4ddbaf6fa688cd",
-    "public_tags": [
-      {
-        "color_family": "neutral",
-        "key": "incident",
-        "label": "Incident"
-      }
-    ],
-    "published_at": "2026-10-14T01:01:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "SecurityWeek",
-    "summary": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek .",
-    "summary_excerpt": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek .",
-    "threat_actors": [],
-    "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach"
   }
 ]
