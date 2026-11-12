@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-12T13:40:04.002228+00:00",
+  "source_snapshot_generated_at": "2026-11-12T14:40:04.994737+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b0384e468117767c914e393e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Docker",
+          "TTS",
+          "opensource",
+          "voicecloning"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-044-voicestudio-voice-clone-brotli-bug",
+        "title": "ElevenLabs代替を自称するOSS音声クローンを動かしたら、ライセンス以前に依存関係のバグで動かなかった",
+        "author": "matsu",
+        "published_at": "2026-11-12T14:26:40.290000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aa0673a47f693f75495698cb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "業務効率化",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/chukidx_dev/articles/claude-md-user-and-repo-split",
+        "title": "CLAUDE.md をユーザー共通とリポジトリごとに分けて運用している話 — 何をどちらに書くか",
+        "author": "中小DXラボ(chukidx)",
+        "published_at": "2026-11-12T14:04:04.782000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:07d846098686b72f0b7c1215",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "Go",
+          "Security",
+          "TLS",
+          "mTLS"
+        ],
+        "url": "https://zenn.dev/meas_nobu/articles/d4f90c1b2ca203",
+        "title": "Kubernetes なしでサーバ間 mTLS ── 証明書を自動更新する mtls_manager を 10 分体験",
+        "author": "仕事はバックエンド中心なシニア―",
+        "published_at": "2026-11-12T13:44:05.952000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:babcf5e6425f843325e5ca06",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Java",
+          "PHP",
+          "migration",
+          "legacy"
+        ],
+        "url": "https://zenn.dev/soliperse/articles/8f3e21e9d26f92",
+        "title": "中国・10年物PHPのEC基幹を4人×2週間でJavaへ——AIを「865行のルール」と「差分比較コマンド」で縛った移行手順",
+        "author": "soliperse",
+        "published_at": "2026-11-12T13:42:27.826000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:496aebb87d3a1a1bfd579e7b",
         "source": "zenn",
@@ -31741,6 +31805,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6e0be612558a6e7fa9cd4dff",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "IAP",
+          "認証"
+        ],
+        "url": "https://qiita.com/hokutoh/items/873f5117f8507123d509",
+        "title": "お漏らししまくりの今だからこそIAPを再度推していく",
+        "author": "hokutoh",
+        "published_at": "2026-11-12T22:45:35+09:00",
+        "excerpt": "3行で アプリ側のログインは「アプリに届いてから」判定するので、言語やフレームワークの脆弱性には無力 「アプリに届く前」に防ぐ方法なら認証するので、未ログインの攻撃リクエストはPHPまでたどり着かない。IAPはその1手段。 銀の弾丸ではない。利用シーンは限られるし、認証を通った人からの攻撃は普通に届くし、パッチ適用もアプリ側の認可も引き続き必要 読まなくてもいい前書き 昨今、通称PHPの脆弱性、php2shellが話題になりました。 総理大臣がXで「今夜対応を」と呼びかけ、国内でも数多くの組織が修正版の公開に合わせてサービスを止めるという、なかなか見ない光景になりましたね。 今回の攻撃は mod_phpの構成では、アプリケーションのコードが動く前に攻撃が成立する リモートコード実行まで行かなくても、パスワードやAPIキーなどの秘密情報をプロセスのメモリから認証なしで読み出せることが実証された つまり、今回の件で言うとアプリ側でどれだけ丁寧にセキュアコーディングをしていても関係ないってことですね。 認証とのためにアプリでログイン機能をばっちり作って"
+      },
+      {
+        "id": "qiita:593e8ea462d78fbcf40c2da5",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "脆弱性診断",
+          "Ubuntu",
+          "Python",
+          "運用"
+        ],
+        "url": "https://qiita.com/satouyoshiaki/items/27a841b441f6e616b47e",
+        "title": "脆弱性スキャナ secbrief を自宅マシンに試した記録",
+        "author": "satouyoshiaki",
+        "published_at": "2026-11-12T22:44:04+09:00",
+        "excerpt": "はじめに AI エージェントに作業用マシンを触らせるようになって、「そのマシンの脆弱性は点検できているのか」が気になっていました。そんなときに X で secbrief というツールを見かけました。この記事は、その secbrief を自分の環境に試した記録です。検出に対処し、最後に検出そのものを裏取りしたら、要対応の筆頭だった brotli への理解が誤っていたことが分かりました。 secbrief とは secbrief は AI エージェントに任せているマシンの脆弱性を点検するための OSS です（MIT ライセンス、Python 製）。 パッケージの棚卸しは読み取り専用です。ローカルの pip list 、SSH 経由の dpkg-query 、Homebrew の brew list --versions で集めます 照合先は OSV.dev、CISA KEV（実際に悪用が確認された脆弱性のカタログ）、formulae.brew.sh です。すべて無料・公式で、API キーは不要です 照合は決定的なコードで行い、LLM は結果の説明だけ"
+      },
+      {
         "id": "qiita:57c2ed3f354967e02d158004",
         "source": "qiita",
         "author_tags": [
@@ -43719,6 +43813,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b7431970885e37e7781fba6c",
+        "source": "medium",
+        "author_tags": [
+          "prompt-engineering",
+          "software-testing",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@ayanbuilds/a-canary-string-regression-suite-for-prompt-injection-6c49b137e98a",
+        "title": "A canary-string regression suite for prompt injection",
+        "author": "Md Ayan",
+        "published_at": "2026-11-12T14:15:06+00:00",
+        "excerpt": "Prompt injection is the kind of bug that comes back. You fix a system prompt, swap a model, tweak a retrieval step, and an attack that… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6fe140e26a69029dcad8cea2",
+        "source": "medium",
+        "author_tags": [
+          "jobs",
+          "careers",
+          "information-security",
+          "cybersecurity",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@samantha_benton/what-2-047-cybersecurity-job-postings-actually-ask-for-in-2026-2b8465f3c0cc",
+        "title": "What 2,047 cybersecurity job postings actually ask for in 2026",
+        "author": "CyberJobs.cc",
+        "published_at": "2026-11-12T14:11:55+00:00",
+        "excerpt": "Career advice about security is mostly opinion. Job postings are the employer saying, in writing, what they want and what they will pay. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c038943ea6c6730a4a18b7be",
+        "source": "medium",
+        "author_tags": [
+          "bypass",
+          "cybersecurity",
+          "bug-bounty",
+          "web-security",
+          "file-upload"
+        ],
+        "url": "https://medium.com/@Shaaahd/when-client-side-limits-are-not-enough-bypassing-file-upload-restrictions-cb60f8f1c39c",
+        "title": "When Client-Side Limits Are Not Enough: Bypassing File Upload Restrictions",
+        "author": "Shahd mourad",
+        "published_at": "2026-11-12T14:11:17+00:00",
+        "excerpt": "File upload restrictions are common in web applications. They help control file sizes and the number of files users can upload. But are… Continue reading on Medium »"
+      },
       {
         "id": "medium:b15927ea29e198297957d0b7",
         "source": "medium",

@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-12T14:06:02.612442+00:00",
-  "as_of": "2026-11-12T14:00:00+00:00",
-  "catalog_count": 23883,
+  "generated_at": "2026-11-12T15:06:22.423672+00:00",
+  "as_of": "2026-11-12T15:00:00+00:00",
+  "catalog_count": 23892,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,91 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/europe-hoax-email-threats",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T23:52:03.113463+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-e1490e6be89f15a9f1d53998",
+      "primary_category": "other",
+      "public_article_id": "url:e1490e6be89f15a9f1d53998",
+      "public_tags": [],
+      "published_at": "2026-11-12T23:45:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from legitimate institutions.",
+      "summary_excerpt": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from legitimate institutions.",
+      "threat_actors": [],
+      "title": "Hijacked email accounts complicate investigations into European bomb hoaxes"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.akamai.com/blog/security-research/strikestub-clickfix-powershell-malware-modular-rat",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T23:07:48.474423+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-df680dc10b4f1bb149ed8915",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:df680dc10b4f1bb149ed8915",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-12T23:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Akamai Security Intelligence",
+      "summary": null,
+      "summary_excerpt": null,
+      "threat_actors": [],
+      "title": "Dissecting StrikeStub: ClickFix PowerShell Malware and Modular RAT"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
+      "cves": [
+        "CVE-2026-109618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T23:08:00.954383+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-502ecf5490e9965e7c7039f2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:502ecf5490e9965e7c7039f2",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-12T22:56:37+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Check Point Research",
+      "summary": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security Gateways. Evidence suggested some cases of a successful compromise, with exploitation activity consistent with PHP2Shell, associated with CVE-2026-109618 […] The post PHP2Shell Exploitation on Check Point Gateway appeared first on Check Point Research .",
+      "summary_excerpt": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security Gateways. Evidence suggested some cases of a successful compromise, with exploitation activity consistent with PHP2Shell, associated with CVE-2026-109618 […] The post PHP2Shell Exploitation on Check Point Gateway appeared first on Check Point Research .",
+      "threat_actors": [],
+      "title": "PHP2Shell Exploitation on Check Point Gateway"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
@@ -37,6 +122,39 @@
       "summary_excerpt": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160. The post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/12/europol-operation-endgame-malware-takedown/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T23:22:49.935447+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-486a19d67897cad04d5d6cba",
+      "primary_category": "ransomware",
+      "public_article_id": "url:486a19d67897cad04d5d6cba",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-12T22:34:14+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Europol announced the action as the latest round of Operation Endgame, the international campaign against the services that give ransomware gangs their way into a network. Those logins are what reach ordinary users and companies. The suspects sold credentials they had harvested from victims’ … More → The post Operation Endgame malware takedown turns up over 6 million stolen logins appeared first on Help Net Security .",
+      "summary_excerpt": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Europol announced the action as the latest round of Operation Endgame, the international campaign against the services that give ransomware gangs their way into a network. Those logins are what reach ordinary users and companies. The suspects sold credentials they had harvested from victims’ … More → The post Operation Endgame malware takedown turns up over 6 million stolen logins",
+      "threat_actors": [],
+      "title": "Operation Endgame malware takedown turns up over 6 million stolen logins"
     },
     {
       "ai_relevance": "none",
@@ -95,6 +213,61 @@
       "title": "Daylight Lands $80 Million for AI-Powered Security Operations"
     },
     {
+      "ai_relevance": "none",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12171/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T23:08:16.193103+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-3ac9533bc85e6ceec280bc72",
+      "primary_category": "other",
+      "public_article_id": "url:3ac9533bc85e6ceec280bc72",
+      "public_tags": [],
+      "published_at": "2026-11-12T22:10:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Nikkei XTECH IT",
+      "summary": "良品計画は2026年11月12日、同年10月下旬以降同社が受けているサイバー攻撃被害とそれに伴う情報漏洩について、記者会見を開き謝罪した。攻撃の原因について、5つの疑問点と会見から分かった事実を解説する。",
+      "summary_excerpt": "良品計画は2026年11月12日、同年10月下旬以降同社が受けているサイバー攻撃被害とそれに伴う情報漏洩について、記者会見を開き謝罪した。攻撃の原因について、5つの疑問点と会見から分かった事実を解説する。",
+      "threat_actors": [],
+      "title": "良品計画会見、5つの疑問　「特典付与の識別」でクレカ番号保持も削除せず"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T23:08:18.232372+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-6b45fe48c7904f34077adcc4",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:6b45fe48c7904f34077adcc4",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-12T22:02:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Register Security",
+      "summary": "ConnectWise disables third-party extensions in 400 environments as bughunters uncover auth hole may let crims bypass MFA",
+      "summary_excerpt": "ConnectWise disables third-party extensions in 400 environments as bughunters uncover auth hole may let crims bypass MFA",
+      "threat_actors": [],
+      "title": "Hackers exploiting ScreenConnect plugin flaw to spread malware across hundreds of PCs"
+    },
+    {
       "ai_relevance": "primary",
       "canonical_url": "https://therecord.media/kazakhstan-hackers-central-asia",
       "cves": [],
@@ -126,191 +299,39 @@
       "summary_excerpt": "Suspected Kazakhstan-linked hackers used an artificial intelligence agent to help spy on Central Asian governments, steal sensitive documents and infiltrate critical infrastructure networks, according to new research.",
       "threat_actors": [],
       "title": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://isc.sans.edu/diary/33514",
-      "cves": [
-        "CVE-2026-102895"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T21:22:12.630220+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-a0fa412477ef6d36f49b8514",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:a0fa412477ef6d36f49b8514",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-12T20:56:24+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SANS Internet Storm Center",
-      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th.",
-      "summary_excerpt": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th.",
-      "threat_actors": [],
-      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T21:53:49.458409+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-e8aac6829dfb0bdd4a80da6d",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e8aac6829dfb0bdd4a80da6d",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T20:51:43+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is",
-      "summary_excerpt": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is",
-      "threat_actors": [],
-      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T21:53:49.572218+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-cd877208a9d9554b1851047d",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:cd877208a9d9554b1851047d",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-12T20:51:31+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
-      "summary_excerpt": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
-      "threat_actors": [],
-      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-      "cves": [
-        "CVE-2026-126325"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T21:53:49.719087+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-2d6f349525d67746f7ded0d2",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:2d6f349525d67746f7ded0d2",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T20:33:15+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in",
-      "summary_excerpt": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in",
-      "threat_actors": [],
-      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T20:22:43.501389+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-a39fcf2de8cd546e50f3f321",
-      "primary_category": "ai_security",
-      "public_article_id": "url:a39fcf2de8cd546e50f3f321",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-12T20:08:52+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek .",
-      "summary_excerpt": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Notion Customer Data Compromised in Fireworks AI Hack"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T20:22:36.434174+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-e5581e88af17752ad977db3e",
-      "primary_category": "ai_security",
-      "public_article_id": "url:e5581e88af17752ad977db3e",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-12T20:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Dark Reading",
-      "summary": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
-      "summary_excerpt": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
-      "threat_actors": [],
-      "title": "Inside an AI Attack Against a US Retailer"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
+      "cves": [
+        "CVE-2026-109618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T23:08:00.954383+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-502ecf5490e9965e7c7039f2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:502ecf5490e9965e7c7039f2",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-12T22:56:37+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Check Point Research",
+      "summary": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security Gateways. Evidence suggested some cases of a successful compromise, with exploitation activity consistent with PHP2Shell, associated with CVE-2026-109618 […] The post PHP2Shell Exploitation on Check Point Gateway appeared first on Check Point Research .",
+      "summary_excerpt": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security Gateways. Evidence suggested some cases of a successful compromise, with exploitation activity consistent with PHP2Shell, associated with CVE-2026-109618 […] The post PHP2Shell Exploitation on Check Point Gateway appeared first on Check Point Research .",
+      "threat_actors": [],
+      "title": "PHP2Shell Exploitation on Check Point Gateway"
+    },
     {
       "ai_relevance": "material",
       "canonical_url": "https://isc.sans.edu/diary/33514",
@@ -590,36 +611,6 @@
       "summary_excerpt": null,
       "threat_actors": [],
       "title": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-0330",
-      "cves": [
-        "CVE-2026-0330"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T03:08:50.361985+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-003a65a23e3e76d0ee6632bd",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:003a65a23e3e76d0ee6632bd",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T02:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Palo Alto Security Advisories",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)"
     }
   ],
   "rising": [],
@@ -642,32 +633,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-    "【HOTTEST #1 / Heat 75】Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-    "【LATEST #2】Romania says it stopped Russian cyberattack targeting government emails",
-    "【HOTTEST #2 / Heat 75】PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "【LATEST #3】Daylight Lands $80 Million for AI-Powered Security Operations",
-    "【HOTTEST #3 / Heat 75】Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-    "【LATEST #4】Kazakhstan-linked hackers used AI agent to spy on Central Asian governments",
-    "【HOTTEST #4 / Heat 67.5】ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能",
-    "【LATEST #5】Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-    "【HOTTEST #5 / Heat 67.5】SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性"
+    "【LATEST #1】Hijacked email accounts complicate investigations into European bomb hoaxes",
+    "【HOTTEST #1 / Heat 75】PHP2Shell Exploitation on Check Point Gateway",
+    "【LATEST #2】Dissecting StrikeStub: ClickFix PowerShell Malware and Modular RAT",
+    "【HOTTEST #2 / Heat 75】Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+    "【LATEST #3】PHP2Shell Exploitation on Check Point Gateway",
+    "【HOTTEST #3 / Heat 75】PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+    "【LATEST #4】Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+    "【HOTTEST #4 / Heat 75】Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+    "【LATEST #5】Operation Endgame malware takedown turns up over 6 million stolen logins",
+    "【HOTTEST #5 / Heat 67.5】ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-09T14:00:00+00:00",
-    "last_as_of": "2026-11-12T14:00:00+00:00",
+    "first_as_of": "2026-11-09T15:00:00+00:00",
+    "last_as_of": "2026-11-12T15:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-12T14:00:00+00:00",
-  "heat_as_of": "2026-11-12T14:00:00+00:00",
+  "news_as_of": "2026-11-12T15:00:00+00:00",
+  "heat_as_of": "2026-11-12T15:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23883,
-  "last_published_at": "2026-11-12T23:06:13.867453+09:00",
-  "publication_slot_jst": "2026-11-12T23:00:00+09:00"
+  "news_catalog_count": 23892,
+  "last_published_at": "2026-11-13T00:06:34.676271+09:00",
+  "publication_slot_jst": "2026-11-13T00:00:00+09:00"
 }
