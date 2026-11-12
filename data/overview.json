@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-12T22:06:19.327949+00:00",
-  "as_of": "2026-11-12T22:00:00+00:00",
-  "catalog_count": 23927,
+  "generated_at": "2026-11-12T23:05:46.022262+00:00",
+  "as_of": "2026-11-12T23:00:00+00:00",
+  "catalog_count": 23934,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,146 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261113-5313527/",
+      "cves": [
+        "CVE-2026-124194"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T07:53:07.219770+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-520d6db36113b39a34b38b59",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:520d6db36113b39a34b38b59",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T07:46:38+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Mynavi TECH+ Security",
+      "summary": "IPA（情報処理推進機構）は11月11日、Microsoft製品の脆弱性に関する注意喚起を公開した。Microsoft Outlookの脆弱性「CVE-2026-124194」について、すでに悪用が確認されているとして、セキュリティ更新プログラムを至急適用するよう呼びかけている。",
+      "summary_excerpt": "IPA（情報処理推進機構）は11月11日、Microsoft製品の脆弱性に関する注意喚起を公開した。Microsoft Outlookの脆弱性「CVE-2026-124194」について、すでに悪用が確認されているとして、セキュリティ更新プログラムを至急適用するよう呼びかけている。",
+      "threat_actors": [],
+      "title": "Outlookの脆弱性、すでに悪用を確認　IPAが緊急更新を呼びかけ"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://japan.zdnet.com/article/35254789/",
+      "cves": [],
+      "document_form": "research",
+      "first_seen_at": "2026-11-13T07:53:10.702081+09:00",
+      "heat_score": 40.5,
+      "permalink_id": "article-url-9f6e4570f24ecb00a56bac9c",
+      "primary_category": "other",
+      "public_article_id": "url:9f6e4570f24ecb00a56bac9c",
+      "public_tags": [],
+      "published_at": "2026-11-13T07:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ZDNET Japan All",
+      "summary": "KPMGコンサルティングは、「サイバーセキュリティサーベイ2026/27」に関する報道機関向けの説明会を開催した。",
+      "summary_excerpt": "KPMGコンサルティングは、「サイバーセキュリティサーベイ2026/27」に関する報道機関向けの説明会を開催した。",
+      "threat_actors": [],
+      "title": "日本企業の9割弱がセキュリティ人材不足--海外子会社管理にも遅れ、KPMG調査"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T07:37:14.525087+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-ec46d2ca2fd1c7f3543b518d",
+      "primary_category": "incident",
+      "public_article_id": "url:ec46d2ca2fd1c7f3543b518d",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-13T07:25:30+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+      "summary_excerpt": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+      "threat_actors": [],
+      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.itmedia.co.jp/enterprise/articles/2611/13/news022.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T07:37:35.835918+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-085c4c2c14917c7d44b4112c",
+      "primary_category": "other",
+      "public_article_id": "url:085c4c2c14917c7d44b4112c",
+      "public_tags": [],
+      "published_at": "2026-11-13T07:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia Enterprise Security",
+      "summary": "ある日おわびメールが届き、それから身に覚えのないSMSが増えた。筆者も漏えい被害の当事者になった。タイムズカーの約662万件をはじめ流出が相次ぐ今も、後始末は個人任せだ。登録は事実上の強制といえるのに、なぜ救済の仕組みは育たないのか。",
+      "summary_excerpt": "ある日おわびメールが届き、それから身に覚えのないSMSが増えた。筆者も漏えい被害の当事者になった。タイムズカーの約662万件をはじめ流出が相次ぐ今も、後始末は個人任せだ。登録は事実上の強制といえるのに、なぜ救済の仕組みは育たないのか。",
+      "threat_actors": [],
+      "title": "おわびメール1通で、後は自己責任？　個人情報漏えい時代に欠けた「3つの仕組み」"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.itmedia.co.jp/enterprise/articles/2611/13/news019.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T07:37:35.753238+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-3a1d0ba0f42a99fb5f75e574",
+      "primary_category": "ai_security",
+      "public_article_id": "url:3a1d0ba0f42a99fb5f75e574",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-13T07:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia Enterprise Security",
+      "summary": "AIを悪用した攻撃でセキュリティアラートは激増し、人手の分析では追い付かない。だが標的になりやすい金融機関や官公庁ほど、AIによる運用の自動化に踏み切れない事情を抱える。Trellixが発表した新製品は、その壁をどう崩すのか。",
+      "summary_excerpt": "AIを悪用した攻撃でセキュリティアラートは激増し、人手の分析では追い付かない。だが標的になりやすい金融機関や官公庁ほど、AIによる運用の自動化に踏み切れない事情を抱える。Trellixが発表した新製品は、その壁をどう崩すのか。",
+      "threat_actors": [],
+      "title": "AIの攻撃はAIで守る、AI SOC実現へ　規制業種を縛る「3つの壁」をTrellixはどう超えるのか"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://japan.zdnet.com/article/35253795/",
@@ -125,143 +265,39 @@
       "summary_excerpt": "家庭の機器やアプリが、知らないうちにサイバー犯罪の「出口」にされている。家庭回線を通信の中継に使う「レジデンシャルプロキシー」だ。通信元が一般家庭に見えるため、不正アクセスの検知も攻撃者の追跡も難しい。購入時から中継機能を組み込んだ機器もあり、利用者は異常に気づきにくく、個別警告だけでは悪用を断ち切れない。",
       "threat_actors": [],
       "title": "家庭機器が犯罪の出口に、レジデンシャルプロキシーが横行　警告で防げず"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/03816/111100008/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T05:23:37.667933+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-264185620d6d45a126ee8cee",
-      "primary_category": "other",
-      "public_article_id": "url:264185620d6d45a126ee8cee",
-      "public_tags": [],
-      "published_at": "2026-11-13T05:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Nikkei XTECH IT",
-      "summary": "侵入されないことを前提にしたセキュリティー対策は限界に達しつつある。企業はどうすればよいのか。取材で浮かび上がったのは、（1）侵入を前提とした監視体制の整備、（2）攻撃を自動的に遮断する仕組みの構築、（3）サイバー攻撃を想定したBCPの策定という3つの課題だ。",
-      "summary_excerpt": "侵入されないことを前提にしたセキュリティー対策は限界に達しつつある。企業はどうすればよいのか。取材で浮かび上がったのは、（1）侵入を前提とした監視体制の整備、（2）攻撃を自動的に遮断する仕組みの構築、（3）サイバー攻撃を想定したBCPの策定という3つの課題だ。",
-      "threat_actors": [],
-      "title": "侵入前提の対策が不可欠、監視強化や攻撃の自動遮断　サイバーBCPの策定も"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T05:07:08.522850+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-7f23aad252df2a55742bf4c1",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:7f23aad252df2a55742bf4c1",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-13T04:51:16+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]",
-      "summary_excerpt": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]",
-      "threat_actors": [],
-      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T04:37:18.109715+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-e1501a330e51ba1273400bac",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e1501a330e51ba1273400bac",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-13T04:12:55+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
-      "summary_excerpt": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
-      "threat_actors": [],
-      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T03:52:46.916294+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-82b94ad053478ca683c64266",
-      "primary_category": "ransomware",
-      "public_article_id": "url:82b94ad053478ca683c64266",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-13T03:28:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.",
-      "summary_excerpt": "The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.",
-      "threat_actors": [],
-      "title": "Shipping giant Maersk says recent cyber incident affected legacy system"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T03:52:46.409667+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-c892fb218fc51be125533f1e",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c892fb218fc51be125533f1e",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-13T02:50:27+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
-      "summary_excerpt": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
-      "threat_actors": [],
-      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261113-5313527/",
+      "cves": [
+        "CVE-2026-124194"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T07:53:07.219770+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-520d6db36113b39a34b38b59",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:520d6db36113b39a34b38b59",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T07:46:38+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Mynavi TECH+ Security",
+      "summary": "IPA（情報処理推進機構）は11月11日、Microsoft製品の脆弱性に関する注意喚起を公開した。Microsoft Outlookの脆弱性「CVE-2026-124194」について、すでに悪用が確認されているとして、セキュリティ更新プログラムを至急適用するよう呼びかけている。",
+      "summary_excerpt": "IPA（情報処理推進機構）は11月11日、Microsoft製品の脆弱性に関する注意喚起を公開した。Microsoft Outlookの脆弱性「CVE-2026-124194」について、すでに悪用が確認されているとして、セキュリティ更新プログラムを至急適用するよう呼びかけている。",
+      "threat_actors": [],
+      "title": "Outlookの脆弱性、すでに悪用を確認　IPAが緊急更新を呼びかけ"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
@@ -556,36 +592,6 @@
       "summary_excerpt": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fixed versions earlier this week. The affected servers are members of a replica",
       "threat_actors": [],
       "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2155875.html",
-      "cves": [
-        "CVE-2026-101107"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T15:38:00.098964+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-c4c52fc83ee97907b962fe79",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c4c52fc83ee97907b962fe79",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T14:21:21+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "INTERNET Watch",
-      "summary": "ソフトバンク株式会社が提供するホームルーター「Airターミナル6」に、OSコマンドインジェクションの脆弱性（CVE-2026-101107）が存在するとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。修正済みのファームウェアが自動的に適用されるため、ユーザーの対応は不要だという。",
-      "summary_excerpt": "ソフトバンク株式会社が提供するホームルーター「Airターミナル6」に、OSコマンドインジェクションの脆弱性（CVE-2026-101107）が存在するとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。修正済みのファームウェアが自動的に適用されるため、ユーザーの対応は不要だという。",
-      "threat_actors": [],
-      "title": "ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能"
     }
   ],
   "rising": [],
@@ -832,6 +838,56 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.sbbit.jp/article/fj/188059?ref=rss",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T07:08:28.761780+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-6a09bd636b80728e68caadcd",
+      "primary_category": "other",
+      "public_article_id": "url:6a09bd636b80728e68caadcd",
+      "public_tags": [],
+      "published_at": "2026-11-11T06:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Business+IT Hot Topics Filtered",
+      "summary": "2026年10月21日夜、プログラミング言語「PHP」の深刻な脆弱性への対応で、国内の金融機関がWebサイトやアプリの一部を相次いで停止した。被害を防ぐために止める判断は、なぜ難しいのか。対策を終えれば、そのまま再開してよいのか。金融機関での演習と担当者へのヒアリングを踏まえ、大野博堂氏が、経営層に求められる判断と当面の6つの備えを整理する。続いて判明したBrotliの脆弱性への対応も解説する。",
+      "summary_excerpt": "2026年10月21日夜、プログラミング言語「PHP」の深刻な脆弱性への対応で、国内の金融機関がWebサイトやアプリの一部を相次いで停止した。被害を防ぐために止める判断は、なぜ難しいのか。対策を終えれば、そのまま再開してよいのか。金融機関での演習と担当者へのヒアリングを踏まえ、大野博堂氏が、経営層に求められる判断と当面の6つの備えを整理する。続いて判明したBrotliの脆弱性への対応も解説する。",
+      "threat_actors": [],
+      "title": "PHP脆弱性で金融サービス停止…経営が問われる“再開判断”と6つの備え"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T07:22:36.850291+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-6e299ce357456abc38311912",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:6e299ce357456abc38311912",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-11T06:55:03+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "KrebsOnSecurity",
+      "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla.",
+      "summary_excerpt": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla.",
+      "threat_actors": [],
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
       "cves": [
         "CVE-2026-124194"
@@ -859,61 +915,6 @@
       "summary_excerpt": "CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation. The post Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T05:07:37.877013+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-12e10543ab563fddc87647c9",
-      "primary_category": "ai_security",
-      "public_article_id": "url:12e10543ab563fddc87647c9",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-11T04:19:39+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
-      "summary_excerpt": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
-      "threat_actors": [],
-      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00676/110600237/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T05:53:47.556202+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-88939b8ff608599b43d8a679",
-      "primary_category": "other",
-      "public_article_id": "url:88939b8ff608599b43d8a679",
-      "public_tags": [],
-      "published_at": "2026-11-11T05:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Nikkei XTECH IT",
-      "summary": "Webサイトで使われているプログラミング言語「PHP」の脆弱性が日本を震撼させた。悪用された場合の被害が深刻になるとして、多くのWebサイトがサービスを停止した。本記事では、「騒動」に至った経緯、脆弱性を悪用した攻撃の現状、能動的停止の判断について解説する。",
-      "summary_excerpt": "Webサイトで使われているプログラミング言語「PHP」の脆弱性が日本を震撼させた。悪用された場合の被害が深刻になるとして、多くのWebサイトがサービスを停止した。本記事では、「騒動」に至った経緯、脆弱性を悪用した攻撃の現状、能動的停止の判断について解説する。",
-      "threat_actors": [],
-      "title": "なぜ騒動になったのか、本当に危なかったのか　「PHP脆弱性」を徹底解説"
     }
   ],
   "timeseries_status": {
@@ -934,32 +935,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】第2回 OSSサプライチェーンリスクと「能動的防衛」への転換",
-    "【HOTTEST #1 / Heat 75】2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
-    "【LATEST #2】Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
-    "【HOTTEST #2 / Heat 67.5】Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-    "【LATEST #3】OpenAI launches security products, tells orgs they’re doomed if they don’t use them",
-    "【HOTTEST #3 / Heat 67.5】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-    "【LATEST #4】セキュリティ評価「年1回」が39％　人手不足を自動化で解決できない2つの理由",
-    "【HOTTEST #4 / Heat 67.5】CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition",
-    "【LATEST #5】家庭機器が犯罪の出口に、レジデンシャルプロキシーが横行　警告で防げず",
-    "【HOTTEST #5 / Heat 67.5】PHP2Shell Exploitation on Check Point Gateway"
+    "【LATEST #1】Outlookの脆弱性、すでに悪用を確認　IPAが緊急更新を呼びかけ",
+    "【HOTTEST #1 / Heat 75】Outlookの脆弱性、すでに悪用を確認　IPAが緊急更新を呼びかけ",
+    "【LATEST #2】日本企業の9割弱がセキュリティ人材不足--海外子会社管理にも遅れ、KPMG調査",
+    "【HOTTEST #2 / Heat 75】2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+    "【LATEST #3】Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+    "【HOTTEST #3 / Heat 67.5】Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+    "【LATEST #4】おわびメール1通で、後は自己責任？　個人情報漏えい時代に欠けた「3つの仕組み」",
+    "【HOTTEST #4 / Heat 67.5】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+    "【LATEST #5】AIの攻撃はAIで守る、AI SOC実現へ　規制業種を縛る「3つの壁」をTrellixはどう超えるのか",
+    "【HOTTEST #5 / Heat 67.5】CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-09T22:00:00+00:00",
-    "last_as_of": "2026-11-12T22:00:00+00:00",
+    "first_as_of": "2026-11-09T23:00:00+00:00",
+    "last_as_of": "2026-11-12T23:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-12T22:00:00+00:00",
-  "heat_as_of": "2026-11-12T22:00:00+00:00",
+  "news_as_of": "2026-11-12T23:00:00+00:00",
+  "heat_as_of": "2026-11-12T23:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23927,
-  "last_published_at": "2026-11-13T07:06:30.744170+09:00",
-  "publication_slot_jst": "2026-11-13T07:00:00+09:00"
+  "news_catalog_count": 23934,
+  "last_published_at": "2026-11-13T08:05:57.545051+09:00",
+  "publication_slot_jst": "2026-11-13T08:00:00+09:00"
 }

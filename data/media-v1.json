@@ -1,9 +1,71 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-12T21:40:02.607331+00:00",
+  "source_snapshot_generated_at": "2026-11-12T22:40:02.866246+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:2b7500d69c219e81d17a92d7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261113-tech-watch",
+        "title": "Tech Watch 2026-11-13: エージェントの経験と分業",
+        "author": "らいけん",
+        "published_at": "2026-11-12T22:35:10.069000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2e94618621bf0eea0884c55b",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "it",
+          "情シス",
+          "News"
+        ],
+        "url": "https://zenn.dev/hiki1114/articles/it-weekly-202611-w2",
+        "title": "2026年11月 第2週 情シス向けITニュースまとめ",
+        "author": "H.K",
+        "published_at": "2026-11-12T22:18:50.774000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8109c5409342f27ec6e99f16",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "it",
+          "情シス",
+          "News"
+        ],
+        "url": "https://zenn.dev/hiki1114/articles/it-weekly-202611-w1",
+        "title": "2026年11月 第1週 情シス向けITニュースまとめ",
+        "author": "H.K",
+        "published_at": "2026-11-12T22:18:26.268000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:54577927bf333dbae2914b62",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "memory",
+          "Anthropic",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/zundamon_tools/articles/claude-code-auto-memory-review",
+        "title": "auto memory、書いたら終わりになってない？：Claude Code の記憶を見返させて答えを比べる",
+        "author": "ずんだもんの実験道具箱",
+        "published_at": "2026-11-12T22:02:03.451000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:6e2c9c83741eec5716a91090",
         "source": "zenn",
@@ -32060,6 +32122,53 @@
     ],
     "qiita": [
       {
+        "id": "qiita:708f0d1bbf780e2c5a0a4fbf",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Apache",
+          "nginx",
+          "WordPress",
+          "Linux"
+        ],
+        "url": "https://qiita.com/jiis-sasaki/items/00b589af28980e285fbf",
+        "title": "ModSecurity+OWASP CRSでサーバー側WAFを入れる7つの手順(Apache/nginx・コピペOK)",
+        "author": "jiis-sasaki",
+        "published_at": "2026-11-13T07:30:00+09:00",
+        "excerpt": "対象 : Ubuntu 24.04 / Debian 12 の VPS で、Apache または nginx で Web サイト(WordPress など)を運用している Web 担当者・制作会社の方 解決すること : 「CDN の WAF を経由しない通信もあるので、サーバー側にも WAF(Web アプリへの攻撃を見分けて止める仕組み)を置きたいが、誤検知でサイトを壊すのが怖い」という状態をなくします 方法 : ModSecurity(WAF エンジン)に OWASP CRS v4(汎用の検知ルール集)を入れ、 検知のみ → 誤検知の調整 → 遮断 の順に切り替えます 全体像 手順 内容 ① エンジンを入れる(Apache / nginx) ② CRS v4 を署名検証して配置する ③ 読み込み順を正しく書く ④ 検知のみ(DetectionOnly)で 1〜2 週間動かす ⑤ ログから誤検知を集計する ⑥ 除外ルールで誤検知だけを外す ⑦ 遮断に切り替え、しきい値を段階的に下げる OS のパッケージ版 CRS は古いことがあります。 Ubun"
+      },
+      {
+        "id": "qiita:95ac4e4bebb48bb2b1b49d94",
+        "source": "qiita",
+        "author_tags": [
+          "ONVIF",
+          "Python",
+          "IoT",
+          "Network",
+          "Security"
+        ],
+        "url": "https://qiita.com/anguoyang/items/57ed5a84f404edb8e0ca",
+        "title": "プロファイル台帳では見えないカメラの入力",
+        "author": "anguoyang",
+        "published_at": "2026-11-13T07:28:53+09:00",
+        "excerpt": "プロファイル起点の ONVIF 台帳には死角があります。どのプロファイルからも参照されていない入力は、そもそも台帳に載らないのです。2 つ目のセンサー、予備の入力、設置時に設定されなかったチャンネル——プロファイルだけのスキャンでは一生出てきません。 onvif-scan v0.4.0 はそこを塞ぎます。 独立したソース列挙 プロファイルの棚卸しの後、スキャナーは GetVideoSources と GetVideoSourceConfigurations （Media1）も照会するようになりました。Media2 には GetVideoSources 操作自体がないので、設定の列挙だけを行います。レポートは全ソースをトークン・名前・名前の出所付きで列挙し、 どのプロファイルにも紐付いていないもの に印を付けます。 大事なのは 2 点です。 ソースはトークンで重複排除し、設定の数では数えません。 1 つの物理ソースに複数設定（メイン／サブストリームなど）が付くことがあります。設定をチャンネル数にしていたのは v0.2 で直したバグで、列挙も同じ規律"
+      },
+      {
+        "id": "qiita:b2e5c0351ff19e1424e55e21",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "ハードウェア",
+          "エージェント"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/1a9db069df44d84a7428",
+        "title": "AI日報 2026年11月13日：Gemini 4 Hydrogenがデフォルト主力に、GoogleのAIグラス予約開始、Codex Securityオープンソース化",
+        "author": "lhjjjk4",
+        "published_at": "2026-11-13T07:07:27+09:00",
+        "excerpt": "AI Daily Digest · 2026年11月13日 過去24時間の注目7本。Googleはコードと顔の両方に動きを出し、OpenAIはセキュリティスキャナーをGitHubに出し、Fireworks AIは公開済みの侵害報告が公開後に拡大するという事態に直面した。 Google、Gemini 4 Hydrogenを新デフォルト主力モデルとして投入 Googleは太平洋時間11月12日、Koray Kavukcuoglu副社長兼最高AIアーキテクト名義の公式ブログでGemini 4 Hydrogenを発表した。APIモデルIDはgemini-4-hydrogenで、大量処理向けのデフォルト主力としてGemini 3.8 Flashから交代する。位置づけはベンチマーク首位狙いではなく、コーディングエージェントの日常ワークロードを動かすための高速・低コストなGemini 4モデルである。 価格が最大の話題だ。Hydrogenの入力価格は100万トークンあたり1.50ドルで、ほとんどのGemini 4帯の価格を下回る。1タスクあたり何百もの小さなリ"
+      },
+      {
         "id": "qiita:f67f706d6582b84268848341",
         "source": "qiita",
         "author_tags": [
@@ -44113,6 +44222,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:511a05b220cf9a32db38dfb3",
+        "source": "medium",
+        "author_tags": [
+          "infosec",
+          "pentesting",
+          "hacking",
+          "malware",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@s12deff/svg-smuggling-8af9b5f982cd",
+        "title": "SVG Smuggling",
+        "author": "S12 - 0x12Dark Development",
+        "published_at": "2026-11-12T22:01:20+00:00",
+        "excerpt": "Welcome to this new Medium post, in this one we’ll be covering SVG Smuggling, a payload delivery technique that takes the same core idea… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:120e8d2ab2dcf828a5f20eb9",
+        "source": "medium",
+        "author_tags": [
+          "information-technology",
+          "information-security",
+          "soc",
+          "cybersecurity",
+          "phishing"
+        ],
+        "url": "https://medium.com/@A7M3D/how-to-analyze-phishing-emails-a-soc-analyst-perspective-49b55ce9edba",
+        "title": "How to Analyze Phishing Emails: A SOC Analyst Perspective",
+        "author": "A7MED",
+        "published_at": "2026-11-12T21:29:47+00:00",
+        "excerpt": "Hello everyone , Investigating suspicious emails is one of the most common daily tasks for a SOC Analyst. In this post, I will break down… Continue reading on Medium »"
+      },
       {
         "id": "medium:25c65ad646d4a242d4cdd9b8",
         "source": "medium",
