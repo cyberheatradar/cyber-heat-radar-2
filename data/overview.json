@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-13T21:07:25.393734+00:00",
-  "as_of": "2026-11-13T21:00:00+00:00",
-  "catalog_count": 24238,
+  "generated_at": "2026-11-13T22:06:55.700483+00:00",
+  "as_of": "2026-11-13T22:00:00+00:00",
+  "catalog_count": 24240,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,56 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-14T06:53:36.992243+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-068aacdc5a8cf4915558eaf2",
+      "primary_category": "other",
+      "public_article_id": "url:068aacdc5a8cf4915558eaf2",
+      "public_tags": [],
+      "published_at": "2026-11-14T06:33:27+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack. The post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek .",
+      "summary_excerpt": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack. The post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://blog.talosintelligence.com/artex-and-beyond/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-14T06:22:55.936148+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-d59fa8c7c203119156552469",
+      "primary_category": "ai_security",
+      "public_article_id": "url:d59fa8c7c203119156552469",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-14T05:57:13+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cisco Talos Blog",
+      "summary": "AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.",
+      "summary_excerpt": "AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.",
+      "threat_actors": [],
+      "title": "ARTEX and beyond: AI-enabled penetration testing platforms"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
@@ -245,72 +295,6 @@
       "summary_excerpt": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
       "threat_actors": [],
       "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T02:53:32.936655+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-faed651ba3abf47ba9b1b695",
-      "primary_category": "ai_security",
-      "public_article_id": "url:faed651ba3abf47ba9b1b695",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-14T01:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Elastic Security Blog",
-      "summary": "Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.",
-      "summary_excerpt": "Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.",
-      "threat_actors": [],
-      "title": "Inside the loop: Five AI attack frameworks that never ask permission"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/gootloader-ransomware-doj-details",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T01:22:09.707036+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-762fea7843dd7c8676a3948c",
-      "primary_category": "ransomware",
-      "public_article_id": "url:762fea7843dd7c8676a3948c",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-14T00:59:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
-      "summary_excerpt": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
-      "threat_actors": [],
-      "title": "DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018"
     }
   ],
   "hottest": [
@@ -845,6 +829,41 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "cves": [
+        "CVE-2026-119618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-12T06:07:36.380622+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-7c413c5b5223a5760079bec0",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:7c413c5b5223a5760079bec0",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-12T04:49:10+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Wiz Blog",
+      "summary": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
+      "summary_excerpt": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
+      "threat_actors": [],
+      "title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
       "cves": [
         "CVE-2026-20320"
@@ -903,36 +922,6 @@
       "summary_excerpt": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "cves": [
-        "CVE-2026-108186"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T02:22:41.727800+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-95bc7c63c87673bf5406f856",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:95bc7c63c87673bf5406f856",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T01:12:46+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
-      "summary_excerpt": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
-      "threat_actors": [],
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation"
     }
   ],
   "timeseries_status": {
@@ -953,32 +942,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+    "【LATEST #1】FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
     "【HOTTEST #1 / Heat 75】PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-    "【LATEST #2】Adapting to AI penetration testing orchestrators: The Modern Security Model",
+    "【LATEST #2】ARTEX and beyond: AI-enabled penetration testing platforms",
     "【HOTTEST #2 / Heat 70.97】CVE-2026-114713: UnrealIRCd UnrealIRCd",
-    "【LATEST #3】German military drone operations disrupted by cyberattack",
+    "【LATEST #3】City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
     "【HOTTEST #3 / Heat 70.97】CVE-2026-123039: Check Point Multiple Products",
-    "【LATEST #4】University of Texas at Arlington warns personal information stolen during cyberattack",
+    "【LATEST #4】Adapting to AI penetration testing orchestrators: The Modern Security Model",
     "【HOTTEST #4 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "【LATEST #5】Five ways CISOs can use ‘dark AI’ to their own advantage",
+    "【LATEST #5】German military drone operations disrupted by cyberattack",
     "【HOTTEST #5 / Heat 67.5】PHP2Shell Exploited in Destructive Check Point Gateway Attacks"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-10T21:00:00+00:00",
-    "last_as_of": "2026-11-13T21:00:00+00:00",
+    "first_as_of": "2026-11-10T22:00:00+00:00",
+    "last_as_of": "2026-11-13T22:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-13T21:00:00+00:00",
-  "heat_as_of": "2026-11-13T21:00:00+00:00",
+  "news_as_of": "2026-11-13T22:00:00+00:00",
+  "heat_as_of": "2026-11-13T22:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24238,
-  "last_published_at": "2026-11-14T06:07:39.749896+09:00",
-  "publication_slot_jst": "2026-11-14T06:00:00+09:00"
+  "news_catalog_count": 24240,
+  "last_published_at": "2026-11-14T07:07:11.164705+09:00",
+  "publication_slot_jst": "2026-11-14T07:00:00+09:00"
 }
