@@ -1,9 +1,67 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T07:40:03.549667+00:00",
+  "source_snapshot_generated_at": "2026-11-13T08:40:03.251323+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:dbfa82e01d6bebffaa616c3d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "llm",
+          "Gemini",
+          "OpenRouter"
+        ],
+        "url": "https://zenn.dev/miki_mini/articles/fd48e22133f2e9",
+        "title": "AIから電卓を取り上げたら、何桁の掛け算で壊れるか本気で測った",
+        "author": "miki-mini",
+        "published_at": "2026-11-13T08:37:40.384000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:47402b7f85692ecb1b687f2c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/shibatamago_dev/articles/gemini-4-hydrogen-hands-on",
+        "title": "Gemini 4 Hydrogenを実際に動かしてみた。3.8 Flashの後継を無料枠で試す（Flash比較は追記予定）",
+        "author": "shiba-tamago",
+        "published_at": "2026-11-13T08:35:08.825000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6cc4fa482499df12c0ed7939",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/panjunyu123/articles/99ebc78f775152",
+        "title": "二人の司会者を一枚の写真で扱うとはどういうことか要件定義としての「二人司会動画」",
+        "author": "panjunyu",
+        "published_at": "2026-11-13T08:08:43.385000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:34646ee50b879815fd257f03",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "学習記録",
+          "生成 AI",
+          "Claude Code",
+          "cs146s"
+        ],
+        "url": "https://zenn.dev/ladudu/articles/cs146s-00-why-i-start",
+        "title": "業務システムエンジニアが Stanford CS146S で AI 時代の開発を学び直す",
+        "author": "ladudu",
+        "published_at": "2026-11-13T07:55:20.615000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:a24df12e6ced07b62595c55b",
         "source": "zenn",
@@ -32821,6 +32879,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:fdc24400d13554c2ca02413d",
+        "source": "qiita",
+        "author_tags": [
+          "CMS",
+          "AI",
+          "MCP",
+          "PHP",
+          "Security"
+        ],
+        "url": "https://qiita.com/Rakete/items/d5e6e2adcdf214eece70",
+        "title": "AIにCMSの操作を任せるなら、権限管理も人間と同じにするべきだと思う — BirklyのAI統合設計",
+        "author": "Rakete",
+        "published_at": "2026-11-13T17:08:52+09:00",
+        "excerpt": "AIエージェントにCMSを操作させること自体は、今ではそれほど珍しいことではありません。 コンテンツの作成、編集、管理など、AIに任せられる作業は増えています。 しかし、実際にCMSへAIを統合するとき、ひとつ重要な問題があります。 AIには、どこまでの権限を与えるべきなのか？ 管理者と同じ権限を持つAIを接続すれば便利かもしれません。しかし、すべてのAIに管理者権限を与える必要はありません。一方で、安全性を理由にAIの操作を極端に制限してしまえば、CMSに統合する意味も薄れてしまいます。 Birklyでは、この問題を「AI専用の特別な権限」を作ることで解決しようとは考えませんでした。 基本的な考え方はシンプルです。 AIも人間と同じように、CMSの中でロールと権限を持つ。 この記事では、BirklyがどのようにAIを統合し、権限管理とセキュリティを設計しているのかを紹介します。 3つのAI接続方法 Birklyでは、AIを接続する方法を3種類用意しています。 用途や必要な権限に応じて、それぞれを使い分けることができます。 1. Personal"
+      },
+      {
+        "id": "qiita:f7fc2f175b0b9291a96a34a5",
+        "source": "qiita",
+        "author_tags": [
+          "SonarQube",
+          "Docker",
+          "container",
+          "脆弱性",
+          "Security"
+        ],
+        "url": "https://qiita.com/r-jw/items/3d42937e0181b6fd3a81",
+        "title": "SonarQube のコンテナスキャンで、CI からイメージの脆弱性を止める",
+        "author": "r-jw",
+        "published_at": "2026-11-13T16:57:13+09:00",
+        "excerpt": "この記事は、クリエーションライン Tech Blog の記事「SonarQube のコンテナスキャンとは｜イメージの脆弱性をコードと同じ画面で管理する」の要約です。元の記事： SonarQube のコンテナスキャンとは｜イメージの脆弱性をコードと同じ画面で管理する SonarQube のコンテナスキャン（container scanning）は、コンテナイメージの既知の脆弱性と悪意のあるパッケージを検出する機能です 。コードと依存ライブラリは、SonarQube で調べているチームが多いはずです。しかし、出荷するイメージには、OS パッケージや言語ランタイムも入っています。コンテナスキャンは、この層を SonarQube の同じ画面に取り込みます。 コードの解析では見えない層がある アプリが動くまでには、層が 3 つ重なります。 自分で書いたコード ：静的解析（SAST）が調べます。 依存ライブラリ ：SCA（ソフトウェア構成解析）が調べます。 イメージの層 ：OS パッケージ、言語ランタイム、システムのライブラリです。 上の 2 つは、リポジト"
+      },
+      {
+        "id": "qiita:232d8b562d3de852dd1ce63d",
+        "source": "qiita",
+        "author_tags": [
+          "SonarQube",
+          "Security",
+          "SAST",
+          "IDOR",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/r-jw/items/1c2497f023d6faa1543d",
+        "title": "IDOR はなぜ SAST で見つからないのか：SonarQube Hunter Agent が認可の抜けを探す",
+        "author": "r-jw",
+        "published_at": "2026-11-13T16:56:47+09:00",
+        "excerpt": "この記事は、クリエーションライン Tech Blog の記事「SonarQube Hunter Agent とは｜SAST では見つからない「ロジックの脆弱性」を AI が探す」の要約です。元の記事： SonarQube Hunter Agent とは｜SAST では見つからない「ロジックの脆弱性」を AI が探す SonarQube Hunter Agent は、SAST では見つけにくいロジックの脆弱性を、コード全体を読んで探す AI エージェントです 。ロジックの脆弱性とは、コードは書かれたとおりに動くのに、守るべき決まりが抜けている欠陥です。例えば、URL の番号を変えると他人の注文が見える欠陥（IDOR）です。危険な書き方はしていないので、SonarQube の解析に合格していても残ります。 IDOR とは：認証は通っても、認可が抜けている ロジックの脆弱性の代表が、IDOR（Insecure Direct Object Reference）です。URL などの番号を書き換えるだけで、他人のデータに届く欠陥です。次は、注文を 1 件返す"
+      },
+      {
         "id": "qiita:239b916c334af51636a394a7",
         "source": "qiita",
         "author_tags": [
@@ -45143,6 +45249,66 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1e30e1f33acb5e4eda5d84cb",
+        "source": "medium",
+        "author_tags": [
+          "devsecops",
+          "kubernetes",
+          "sovereign-ai",
+          "cybersecurity",
+          "zero-trust"
+        ],
+        "url": "https://medium.com/@shiney837/microsegmentation-at-scale-cilium-and-ebpf-in-enterprise-kubernetes-13f0af61d21c",
+        "title": "Microsegmentation at Scale: Cilium and eBPF in Enterprise Kubernetes",
+        "author": "Shiney",
+        "published_at": "2026-11-13T08:19:51+00:00",
+        "excerpt": "Enforcing network security policies at the Linux kernel level without proxy overhead is no longer an experimental optimization — it is an… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ce816ef208065c9ff2416864",
+        "source": "medium",
+        "author_tags": [
+          "ai",
+          "cybersecurity",
+          "threat-intelligence",
+          "blue-team",
+          "security"
+        ],
+        "url": "https://medium.com/@oduwaugo8/from-failed-ssh-logins-to-siem-visibility-investigating-a-brute-force-attack-with-hydra-elastic-70733a7e5130",
+        "title": "From Failed SSH Logins to SIEM Visibility: Investigating a Brute-Force Attack with Hydra, Elastic…",
+        "author": "Oduwaugo",
+        "published_at": "2026-11-13T08:13:33+00:00",
+        "excerpt": "My hands-on experience simulating SSH brute-force activity, examining authentication logs, and understanding how SIEM tools help security… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b0ee41092b1b7c903d2a8a4b",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "bug-bounty-tips",
+          "hacking",
+          "cybersecurity",
+          "security"
+        ],
+        "url": "https://medium.com/@t4nv1/the-bouncer-who-waved-everyone-in-when-the-scanner-broke-a-3-500-gitlab-ssrf-ceea809cb849",
+        "title": "The Bouncer Who Waved Everyone In When the Scanner Broke: A $3,500 GitLab SSRF",
+        "author": "T4nv1",
+        "published_at": "2026-11-13T08:11:01+00:00",
+        "excerpt": "How a correct DNS-rebinding defence was undone by one catch block, and what it teaches about fail-open security checks Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5059e4b6866b038ea95cdcb8",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@chiragpandat003/understanding-manageengine-siem-probe-servers-log-collection-and-how-logs-reach-the-soc-b1b4e36e349c",
+        "title": "Understanding ManageEngine SIEM: Probe Servers, Log Collection, and How Logs Reach the SOC",
+        "author": "Amitra Kumar",
+        "published_at": "2026-11-13T08:07:07+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
       {
         "id": "medium:0676a97574543a1af7cf14a5",
         "source": "medium",
