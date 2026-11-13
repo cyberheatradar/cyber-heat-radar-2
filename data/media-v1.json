@@ -1,9 +1,67 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T02:40:03.077703+00:00",
+  "source_snapshot_generated_at": "2026-11-13T03:40:03.024128+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:5ec77bb9c539996653310cbf",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/wsir5883/articles/b14c2455d95345",
+        "title": "テキスト指示でできるAI写真編集",
+        "author": "Leo Wu",
+        "published_at": "2026-11-13T03:37:47.531000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:88c27a6e039b96775ec6f53c",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub",
+          "Python",
+          "GitHub Actions",
+          "Security",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tsukimi_soba/articles/std-ai-dev-security-guardrails",
+        "title": "[STD] AIに実装を任せるからこそ、守りは「仕組み」にした ── 個人開発のpublicリポジトリを最初からセキュアに作った記録",
+        "author": "つきみ",
+        "published_at": "2026-11-13T03:01:44.730000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0bb067380c7c9d71d676a7dd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "新卒エンジニア",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/safie_inc/articles/b6fa3de06606be",
+        "title": "フィーチャーチームに配属された新卒エンジニアのAIに振り回されない「AI活用」",
+        "author": "Take You",
+        "published_at": "2026-11-13T03:00:05.640000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:20f824c3bbada2bae92e908d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "review",
+          "Cursor",
+          "Claude",
+          "pstack"
+        ],
+        "url": "https://zenn.dev/karamage/articles/5c3f8370b2b370",
+        "title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
+        "author": "karamage",
+        "published_at": "2026-11-13T02:48:24.194000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:30f23351e4b815d227cb7243",
         "source": "zenn",
@@ -32566,6 +32624,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:fb9ea55798f289f508924856",
+        "source": "qiita",
+        "author_tags": [
+          "Keycloak",
+          "AWS",
+          "ECS",
+          "Docker",
+          "Security"
+        ],
+        "url": "https://qiita.com/hasegawa--2025/items/9c180fb76c85b30b848c",
+        "title": "Keycloak 26.1 から 26.8 へ上げたときに確かめたこと(ヘルスチェック・停止更新・イメージの組み立て)",
+        "author": "hasegawa--2025",
+        "published_at": "2026-11-13T12:37:45+09:00",
+        "excerpt": "背景 業務向けの Web サービスで、認証基盤の Keycloak を 26.1 系で動かしていました。ECS(Fargate)の上で、DB は PostgreSQL です。 脆弱性対応のため、26.8 系の最新パッチに上げることにしました。 同じ 26 系の中の更新なので軽く見ていましたが、実際には 26.2〜26.8 の更新ガイドに、運用に効く変更がいくつも入っていました。 この記事では、作者が更新ガイドを全件読んで拾ったもののうち、他の環境でも踏みそうなものをまとめます。 1. ヘルスチェックが永遠に通らなくなる ECS のコンテナのヘルスチェックは、Keycloak の公式イメージが最小構成で curl を含まないため、bash の /dev/tcp で管理用ポート(9000)に要求を送る形で書いていました。 # 変更前: LF 区切りで送り、本文に UP があれば正常 exec 3< > /dev/tcp/localhost/9000 && echo -e 'GET /health/ready HTTP/1.1\\nHost: local"
+      },
+      {
+        "id": "qiita:bbd19770426a84f55ad69316",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "AmazonCognito",
+          "CognitoUserPool",
+          "認証",
+          "Security"
+        ],
+        "url": "https://qiita.com/tomo_AWS-Engineer-Blogger/items/d41f640e55257b9b3ced",
+        "title": "【Amazon Cognito】ユーザープールを新規作成する手順（コンソール操作）",
+        "author": "tomo_AWS-Engineer-Blogger",
+        "published_at": "2026-11-13T12:12:24+09:00",
+        "excerpt": "この記事でできること Amazon Cognitoでユーザープールを新規作成し、アプリクライアントのトークン有効期限まで設定します。 前提 AWSマネジメントコンソールにログイン済みであること 画面は2024年11月26日時点のコンソールUIです（現在のUIと異なる場合があります） 後工程でALBと連携する想定の設定です（手順6のコールバックURLは、ALB設定後に実際のURLへ修正します） 手順 1. ユーザープール作成を開始する AWSマネジメントコンソールからCognitoの画面にアクセスし、[ ユーザープールを作成 ]をクリックします。 2. サインインオプションを選ぶ [ Eメール ]にチェックを付けて、[ 次へ ]をクリックします。 3. セキュリティ要件を設定する MFAの方法で[ Authenticatorアプリケーション ]を選択し、[ 次へ ]をクリックします。※他はデフォルト値 4. ユーザー登録の設定をする [ 自己登録を有効化 ]のチェックを外して、[ 次へ ]をクリックします。※他はデフォルト値 5. メッセージ配信を"
+      },
+      {
+        "id": "qiita:3b1862eeb1f0246d94187643",
+        "source": "qiita",
+        "author_tags": [
+          "MCP",
+          "OAuth",
+          "Security",
+          "AIエージェント",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/01rabbit/items/a916d76895b43e19503f",
+        "title": "MCPのOAuthは更新だけでは塞がらない――手元で再現して点検ツールを作った",
+        "author": "01rabbit",
+        "published_at": "2026-11-13T12:03:22+09:00",
+        "excerpt": "はじめに MCP（Model Context Protocol）の公式 SDK には、2025年12月から2026年10月にかけてセキュリティアドバイザリが続けて出ました。この記事で扱うのはそのうちの一つで、OAuth で MCP サーバーに接続するクライアントが、MCP サーバーに指名された認可サーバーへ自分の資格情報を送ってしまう、という問題です。Python SDK では 2026年9月28日に GHSA-qx49-fqc8-xw99、TypeScript SDK では 9月30日に GHSA-6qxp-vccf-f47h として公開され、どちらも CVSS 7.5 の High です。 修正版はもう出ています。ところがアドバイザリには、Python の ClientCredentialsOAuthProvider と PrivateKeyJWTOAuthProvider について「 issuer= を渡すまで、更新しても何も変わらない」と書かれています。手元で確かめたところ、そのとおりでした。修正版の 1.30.0 でも最新の 2.3.0"
+      },
+      {
         "id": "qiita:6387492ef7ae12b00a2ab485",
         "source": "qiita",
         "author_tags": [
@@ -40610,6 +40716,22 @@
         "excerpt": "きっかけ ファイルサーバー（Windows の共有フォルダ）に動画ファイルが大量にたまっています。あるとき「この中で自分が一番よく見ているのはどれだろう？」と気になりました。 ところが、これを後から調べる方法が意外とありません。 エクスプローラーの「アクセス日時」は最後の 1 回分しか残らない（しかも既定では更新されないことが多い） 再生ソフトの履歴は端末ごと・ソフトごとにバラバラで、別の PC から見た分は分からない Windows の監査ログを有効にすれば記録はされるが、イベントビューアーで眺めるのは現実的ではない 「ファイルを開いた記録を貯めて、ファイル別のランキングで見られればいい」と思い、作ったのが FileAccessMonitor です。 できること 共有フォルダ内のファイルへの 読取・書込・削除 を、誰が・いつ・どの端末から行ったか記録 Web 画面で ファイル別 / フォルダ別 / ユーザー別のランキング 、アクセス推移グラフを表示 期間・キーワード・種別で検索し、CSV 出力 大量削除・大量変更を検知して Teams / Sl"
       },
       {
+        "id": "qiita:5503e6932eabbd64cbfe6dcf",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "Aurora",
+          "MySQL",
+          "Security",
+          "SRE"
+        ],
+        "url": "https://qiita.com/Nekorock/items/0f79e37af673acd01119",
+        "title": "Aurora MySQL の監査ログと auditd を S3 に集めて Athena で読むまでのハマりどころ 19 個",
+        "author": "Nekorock",
+        "published_at": "2026-10-27T23:30:48+09:00",
+        "excerpt": "Aurora MySQL の監査ログ（Advanced Auditing）と、EC2（Amazon Linux）の auditd のログを S3 に集めて Athena で検索する基盤を作ったときに踏んだところを、19 個にまとめました。時間を使ったのは設定そのものより、「ログが来ない」「来たけど読めない」「多すぎる」の 3 つでした。一番の学びは、ロググループもエクスポート設定もあるのに server_audit_logging が OFF のままで、監査ログが来ていなかったことです（ハマりどころ 1）。 「攻撃を受けたときに、誰が何をしたのか後から追えるようにしておく」ために、Aurora MySQL や EC2 の監査ログを残そうとしている SRE やインフラ担当の人向けです。すぐ下の一覧から、症状が近い番号の項目に飛んで読んでも分かるように書いています。導入したあとに見る項目は、後半の「導入後に確かめること」にまとめました。 実際の構成を設計メモとして一般化し、原因は一次情報で確かめ直しています。 名前や値はすべて例に置き換えています。ク"
+      },
+      {
         "id": "qiita:aa263d410970cd847cb60f7a",
         "source": "qiita",
         "author_tags": [
@@ -44776,6 +44898,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4d0fc6e3f62e1a38ab6c351a",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "ethical-hacking",
+          "cybersecurity",
+          "web-application-security",
+          "information-security"
+        ],
+        "url": "https://medium.com/@qnayds12/how-ethical-hackers-perform-security-testing-on-websites-5989564d00ee",
+        "title": "How Ethical Hackers Perform Security Testing on Websites",
+        "author": "Qnayds",
+        "published_at": "2026-11-13T03:27:02+00:00",
+        "excerpt": "Websites play an important role in modern businesses. They allow organizations to communicate with customers, manage information, process… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5c475cb6a988099481af0ff3",
+        "source": "medium",
+        "author_tags": [
+          "security",
+          "linux",
+          "cybersecurity",
+          "privacy"
+        ],
+        "url": "https://medium.com/@yashpallpatell025/linux-free-masterclass-episode-15-package-management-the-apt-command-1aa0232b1005",
+        "title": "Linux Free Masterclass (Episode 15): Package Management & The apt Command",
+        "author": "Yashpal Patel",
+        "published_at": "2026-11-13T03:11:19+00:00",
+        "excerpt": "🌐 Linux Free Masterclass (Episode 15): Package Management & The apt Command Continue reading on Medium »"
+      },
       {
         "id": "medium:90d9010a0b3f23a89f1eb866",
         "source": "medium",
