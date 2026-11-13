@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T03:40:03.024128+00:00",
+  "source_snapshot_generated_at": "2026-11-13T04:40:02.739035+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:6094d64f855e9491b27a3c97",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Linux",
+          "Python",
+          "CSV",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/agentkiyaku/articles/8f4e4c0facd812",
+        "title": "Claude Code で日本語 CSV が文字化けする：CP932 は Read で化け、Edit と Write は拒否される",
+        "author": "エージェント規約工房",
+        "published_at": "2026-11-13T04:11:30.258000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a6c3402b624d1908c585641d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "生成 AI",
+          "Claude",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/murooka_az/articles/compact-loses-decisions-carry-user-words",
+        "title": "compactを重ねると指示を忘れるClaude Codeに、プロンプトを1つ足したら忘れなくなった。3回重ねても消えた指示は0件",
+        "author": "Murooka",
+        "published_at": "2026-11-13T04:07:29.090000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e7eb27c107ec82611304002a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/shibatamago_dev/articles/gemini-decision-1-hands-on",
+        "title": "Gemini Decision 1を実際に動かしてみた。54問中53問正解、速さは環境次第だった",
+        "author": "shiba-tamago",
+        "published_at": "2026-11-13T03:44:08.745000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:5ec77bb9c539996653310cbf",
         "source": "zenn",
@@ -32624,6 +32670,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:b54ba9b83ab07c78f80a675e",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Network",
+          "Android",
+          "iPhone",
+          "モバイル"
+        ],
+        "url": "https://qiita.com/dwdm/items/f008557a4fb63fe307f4",
+        "title": "圏外のあとに届く SMS の正体 — 偽基地局を伝送屋が分解",
+        "author": "dwdm",
+        "published_at": "2026-11-13T13:32:17+09:00",
+        "excerpt": "ルミの3行まとめ（先に結論） 偽基地局は、周りのスマホを圏外にして 古い 2G に落とし 、詐欺の SMS を 直接 送りつける その SMS は キャリアの網を通らない ので、迷惑 SMS のフィルタが効かない 防ぎ方は「 2G を切る 」「 圏外の直後の SMS を疑う 」の2つ ルミ💅 「先輩〜、銀座でスマホが1万台も圏外になったってニュース見ました？偽基地局ってなに？」 みかん先輩🍊 「無線は私の専門外なので、論文と各国の報道を調べて整理してみました。光の伝送屋として一番気になったところも最後に書きます」 何が起きたか（2026年11月、銀座） 報道によると、11月7日、東京・銀座の路上に止めた車から、免許のない基地局（偽基地局）を運用した疑いで男が逮捕され、9日に送検されました。総務省の関東総合通信局と警視庁による取り締まりです。 1〜2時間ほどで、周りの 1万台を超える携帯電話が圏外 になっていたとされます 警視庁には 2025年1月〜2026年10月に、繁華街で 中国人観光客ら 18人 から相談があり、詐欺の被害は 約400万円 と"
+      },
+      {
+        "id": "qiita:dc128e8a350d9f2a068ed073",
+        "source": "qiita",
+        "author_tags": [
+          "Quarkus",
+          "SBOM",
+          "CycloneDX",
+          "Java",
+          "Security"
+        ],
+        "url": "https://qiita.com/autonomura/items/15e2fdda0840f4a9c7e2",
+        "title": "QuarkusのCycloneDX ExtensionでSBOMを生成・埋め込み、実行中のアプリから取得してみた",
+        "author": "autonomura",
+        "published_at": "2026-11-13T12:40:48+09:00",
+        "excerpt": "はじめに SBOM（Software Bill of Materials）は、アプリケーションを構成するライブラリーや依存関係を記録した「ソフトウェアの部品表」です。使用しているコンポーネントとそのバージョンを可視化することで、脆弱性の影響調査やソフトウェア・サプライチェーンの管理に役立ちます。 Quarkusには、SBOM標準仕様であるCycloneDXに対応したquarkus-cyclonedx Extensionが用意されています。このExtensionを使用すると、 ビルド時にSBOMを生成するだけでなく、アプリケーションにSBOMを埋め込み、実行中にREST APIから取得することもできます。 本記事では、オープンソースのQuarkusをベースにしたIBM Enterprise Build of Quarkusを使用して、以下を試します。 アプリケーションをビルドし、Distribution SBOMを生成する Dependency SBOMをアプリケーションに埋め込む 実行中のアプリケーションからREST API経由でSBOMを取得す"
+      },
+      {
         "id": "qiita:fb9ea55798f289f508924856",
         "source": "qiita",
         "author_tags": [
@@ -44898,6 +44976,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:3d3ccd9588ef34a655d6a7bc",
+        "source": "medium",
+        "author_tags": [
+          "checkpoints",
+          "vulnerability",
+          "cybersecurity",
+          "exploit",
+          "ngfw"
+        ],
+        "url": "https://medium.com/@_sadshade/check-point-scalable-platforms-privilege-escalation-via-rce-and-arbitrary-file-write-49539000bf1b",
+        "title": "Check Point Scalable Platforms Privilege Escalation via RCE and Arbitrary File Write",
+        "author": "Konstantin Burov",
+        "published_at": "2026-11-13T04:05:43+00:00",
+        "excerpt": "On Check Point R82 security gateways with ElasticXL enabled and Maestro SGMs (all versions), an attacker with Access Policy / NAT write… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f3927cd31737201fcf8ef3e7",
+        "source": "medium",
+        "author_tags": [
+          "authentication",
+          "application-security",
+          "cybersecurity",
+          "bug-bounty",
+          "account-takeover"
+        ],
+        "url": "https://masimshahzad.medium.com/the-phone-number-that-unlocked-any-tinder-account-cf489246d335",
+        "title": "The Phone Number That Unlocked Any Tinder Account",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-13T03:54:39+00:00",
+        "excerpt": "A 2018 bug bounty chain shows how a skipped OTP binding and an unchecked token audience added up to account takeover Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7169c2f2faf56291afc72f6c",
+        "source": "medium",
+        "author_tags": [
+          "application-security",
+          "cybersecurity",
+          "xs",
+          "javascript",
+          "bug-bounty"
+        ],
+        "url": "https://masimshahzad.medium.com/one-missing-anchor-one-flickr-xss-5c633acf1011",
+        "title": "One Missing Anchor, One Flickr XSS",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-13T03:48:33+00:00",
+        "excerpt": "A 2013 Flickr mobile bug shows how an unanchored URL check plus CORS let an outside page inject script Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d6483675957c91cefb9eb66d",
+        "source": "medium",
+        "author_tags": [
+          "java",
+          "cybersecurity",
+          "application-security",
+          "bug-bounty",
+          "remote-code-execution"
+        ],
+        "url": "https://masimshahzad.medium.com/the-unsigned-form-field-that-ran-code-on-paypal-d95d6bba567d",
+        "title": "The Unsigned Form Field That Ran Code on PayPal",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-13T03:44:19+00:00",
+        "excerpt": "A 2015 PayPal bounty shows why server-side state must never round-trip through the client as a raw serialized object Continue reading on Medium »"
+      },
       {
         "id": "medium:4d0fc6e3f62e1a38ab6c351a",
         "source": "medium",
