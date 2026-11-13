@@ -1,9 +1,39 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T19:40:02.689136+00:00",
+  "source_snapshot_generated_at": "2026-11-13T20:40:02.685481+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:afddee03d579fbd18954642c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "アーキテクチャ",
+          "設計",
+          "llm",
+          "プロンプトエンジニアリング"
+        ],
+        "url": "https://zenn.dev/akajishi/articles/613e1c0e9368b1",
+        "title": "対話型AI上に仮想OS『KratOS』を構築するINI設計手法",
+        "author": "Akajishi",
+        "published_at": "2026-11-13T19:59:06.880000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fbcf8e8e16668c1627c17e74",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "G検定"
+        ],
+        "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-project-management-tech",
+        "title": "AIプロジェクトの進め方【G検定 技術解説】",
+        "author": "まっすん",
+        "published_at": "2026-11-13T19:55:21.142000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:1d52f81761c065ce10128599",
         "source": "zenn",
@@ -33464,6 +33494,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a0559f5bc04e5f9da63d1568",
+        "source": "qiita",
+        "author_tags": [
+          "curl",
+          "Security",
+          "Linux",
+          "AIエージェント",
+          "初心者"
+        ],
+        "url": "https://qiita.com/supportapp3/items/21858f4792bac5e3f41b",
+        "title": "curl -v のログに API キーが出る3か所：Authorization ヘッダ・-u の Basic・URL のクエリ（curl 8.14で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-14T05:18:29+09:00",
+        "excerpt": "結論 curl -v は、送ったリクエストをそのまま表示します。手元（curl 8.14.1、ダミーのキー）で試すと、認証情報は次の3か所に出ました。 -H \"Authorization: Bearer ...\" のヘッダ → そのまま表示 -u user:pass → Authorization: Basic ... と表示され、 base64 -d で元に戻る URL の ?api_key=... → リクエスト行に表示（サーバのアクセスログにも残る） AIエージェントに API の動作確認を任せたときに curl -v が使われると、その出力も会話の記録に入ります（Claude Code では、コマンドが表示した認証情報は会話記録の jsonl に書かれると公式 Data usage に書かれています）。エージェントが -v をどれくらい使うかは確かめていません。 試した環境 curl 8.14.1（Linux） 相手は python3 -m http.server で 127.0.0.1 に立てたローカルサーバ キーはダミー（ dummy"
+      },
+      {
         "id": "qiita:4687b041de4b05b651f6bbbc",
         "source": "qiita",
         "author_tags": [
@@ -45956,6 +46002,48 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:59fe683a980c22930ab9c26e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybersecurity-awareness",
+          "cybersecurity-tips"
+        ],
+        "url": "https://donibrass-guardz.medium.com/the-inbox-is-still-where-your-clients-get-breached-de5a64083c55",
+        "title": "The Inbox Is Still Where Your Clients Get Breached",
+        "author": "Doni Brass | Guardz",
+        "published_at": "2026-11-13T20:01:01+00:00",
+        "excerpt": "Most MSPs find their email security gaps during a client incident review, not from a tidy stack diagram. By then, a phishing kit has… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5670e2c1caa6ebaddd3d0ec3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@tpayegbusi/let-me-start-with-something-that-might-annoy-a-few-people-52dd1aad84a5",
+        "title": "Your biggest cybersecurity problem might be you.",
+        "author": "Paul Ayegbusi",
+        "published_at": "2026-11-13T20:01:00+00:00",
+        "excerpt": "Let me start with something that might annoy a few people. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f5ced4fcda0e3d3504f370a3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "api-security",
+          "software-development",
+          "owasp",
+          "information-security"
+        ],
+        "url": "https://medium.com/@leylammmdov/owasp-1-broken-object-level-authorization-bola-d0191ace0060",
+        "title": "OWASP #1: Broken Object Level Authorization (BOLA)",
+        "author": "Leyla Mammadova",
+        "published_at": "2026-11-13T19:58:17+00:00",
+        "excerpt": "Broken Object Level Authorization (often referred to as BOLA) is arguably the most dangerous and difficult-to-detect API threat in… Continue reading on Medium »"
+      },
       {
         "id": "medium:9785281a359290d7d3ac8122",
         "source": "medium",

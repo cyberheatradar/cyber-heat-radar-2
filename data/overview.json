@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-13T20:07:02.029089+00:00",
-  "as_of": "2026-11-13T20:00:00+00:00",
-  "catalog_count": 24229,
+  "generated_at": "2026-11-13T21:07:25.393734+00:00",
+  "as_of": "2026-11-13T21:00:00+00:00",
+  "catalog_count": 24238,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,67 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-14T05:23:11.786364+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-72ccdc87f4b548918604de47",
+      "primary_category": "incident",
+      "public_article_id": "url:72ccdc87f4b548918604de47",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-14T04:43:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+      "summary_excerpt": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+      "threat_actors": [],
+      "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-14T05:23:02.043526+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-a009bbdbfbe6de47102d4987",
+      "primary_category": "ai_security",
+      "public_article_id": "url:a009bbdbfbe6de47102d4987",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-14T04:26:07+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cloudflare Blog Security",
+      "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "summary_excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "threat_actors": [],
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
@@ -250,79 +311,6 @@
       "summary_excerpt": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
       "threat_actors": [],
       "title": "DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T00:24:33.276845+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-0963885b5efedda3b1cfaa2b",
-      "primary_category": "incident",
-      "public_article_id": "url:0963885b5efedda3b1cfaa2b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-14T00:20:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .",
-      "summary_excerpt": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://blog.polyswarm.io/paprat-campaign-exposes-bitters-expanding-espionage-toolkit",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T00:24:30.539726+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-9d5a8878a69be06ee922e628",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:9d5a8878a69be06ee922e628",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-14T00:06:25+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "PolySwarm Blog",
-      "summary": "Regions Targeted: South Asia Related Families: BITTER APT Related Threat Actors: PapRAT, WmRAT Executive Summary The suspected South Asian cyberespionage group BITTER has been linked to a campaign targeting organizations in South Asia through three infection chains that combine legitimate Windows utilities, malicious shortcuts, and custom remote access malware. PapRAT, a remote access trojan (RAT) developed in C++ and Rust, is capable of executing commands, transferring files, capturing screenshots, and maintaining attacker access. The campaign demonstrates how threat actors can blend native Windows functionality with custom implants to evade conventional detection and support persistent espionage operations.",
-      "summary_excerpt": "Regions Targeted: South Asia Related Families: BITTER APT Related Threat Actors: PapRAT, WmRAT Executive Summary The suspected South Asian cyberespionage group BITTER has been linked to a campaign targeting organizations in South Asia through three infection chains that combine legitimate Windows utilities, malicious shortcuts, and custom remote access malware. PapRAT, a remote access trojan (RAT) developed in C++ and Rust, is capable of executing commands, transferring files, capturing screenshots, and maintaining attacker access. The campaign demonstrates how threat actors can blend native W",
-      "threat_actors": [
-        "BITTER"
-      ],
-      "title": "PapRAT Campaign Exposes BITTER's Expanding Espionage Toolkit"
     }
   ],
   "hottest": [
@@ -428,6 +416,37 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "cves": [
+        "CVE-2026-114713",
+        "CVE-2026-123039"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-14T05:22:38.256442+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-7b5dacba886b8db548982d1b",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:7b5dacba886b8db548982d1b",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T21:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CISA Cybersecurity Advisories",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requir",
+      "threat_actors": [],
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
       "cves": [
         "CVE-2026-123039"
@@ -458,16 +477,16 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000173.html",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-958/",
       "cves": [
-        "CVE-2026-75048"
+        "CVE-2026-126972"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-13T17:52:59.246188+09:00",
+      "first_seen_at": "2026-11-14T05:23:27.385435+09:00",
       "heat_score": 67.5,
-      "permalink_id": "article-url-25c6b7e04008abe46479ca8b",
+      "permalink_id": "article-url-8c02b02d9f1cfd822e2958c3",
       "primary_category": "vulnerability",
-      "public_article_id": "url:25c6b7e04008abe46479ca8b",
+      "public_article_id": "url:8c02b02d9f1cfd822e2958c3",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -475,29 +494,29 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-13T12:19:00+09:00",
+      "published_at": "2026-11-13T15:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "JetBrains s.r.o.が提供するYouTrackには、次の脆弱性が存在します。 クロスサイトスクリプティング（CWE-79）- CVE-2026-75048 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告しました。 報告者：三井物産セキュアディレクション株式会社 赤木 悠祐 氏 JPCERT/CCと製品開発者との調整の結果、この脆弱性情報は製品開発者自身の内部調査で発見され修正されていたことが判明しました。さらに開発者との調整を行い、JVN公表に至りました。",
-      "summary_excerpt": "JetBrains s.r.o.が提供するYouTrackには、次の脆弱性が存在します。 クロスサイトスクリプティング（CWE-79）- CVE-2026-75048 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告しました。 報告者：三井物産セキュアディレクション株式会社 赤木 悠祐 氏 JPCERT/CCと製品開発者との調整の結果、この脆弱性情報は製品開発者自身の内部調査で発見され修正されていたことが判明しました。さらに開発者との調整を行い、JVN公表に至りました。",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-126972.",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-126972.",
       "threat_actors": [],
-      "title": "JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性"
+      "title": "ZDI-26-958: KiCad Plugin Directory Traversal Remote Code Execution   Vulnerability"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261113-5313527/",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-957/",
       "cves": [
-        "CVE-2026-124194"
+        "CVE-2026-126971"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-13T07:53:07.219770+09:00",
+      "first_seen_at": "2026-11-14T05:23:24.513572+09:00",
       "heat_score": 67.5,
-      "permalink_id": "article-url-520d6db36113b39a34b38b59",
+      "permalink_id": "article-url-6e9de0a9c4f907e21bb69fa4",
       "primary_category": "vulnerability",
-      "public_article_id": "url:520d6db36113b39a34b38b59",
+      "public_article_id": "url:6e9de0a9c4f907e21bb69fa4",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -505,138 +524,106 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-13T07:46:38+09:00",
+      "published_at": "2026-11-13T15:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "IPA（情報処理推進機構）は11月11日、Microsoft製品の脆弱性に関する注意喚起を公開した。Microsoft Outlookの脆弱性「CVE-2026-124194」について、すでに悪用が確認されているとして、セキュリティ更新プログラムを至急適用するよう呼びかけている。",
-      "summary_excerpt": "IPA（情報処理推進機構）は11月11日、Microsoft製品の脆弱性に関する注意喚起を公開した。Microsoft Outlookの脆弱性「CVE-2026-124194」について、すでに悪用が確認されているとして、セキュリティ更新プログラムを至急適用するよう呼びかけている。",
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-126971.",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-126971.",
       "threat_actors": [],
-      "title": "Outlookの脆弱性、すでに悪用を確認　IPAが緊急更新を呼びかけ"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T18:52:32.176794+09:00",
-      "heat_score": 65.7,
-      "permalink_id": "article-url-ab3f1917ebaab6d7487a29b2",
-      "primary_category": "ai_security",
-      "public_article_id": "url:ab3f1917ebaab6d7487a29b2",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-13T18:31:07+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Team and Defense Factory, connect the work of finding security weaknesses with patching and retesting them. Red Team tests applications and verifies fixes Daybreak Red Team, offered through an early-access program, uses coordinated agents to examine application source code and context, investigate potential attack … More → The post OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes appeared first on Help Net Security .",
-      "summary_excerpt": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Team and Defense Factory, connect the work of finding security weaknesses with patching and retesting them. Red Team tests applications and verifies fixes Daybreak Red Team, offered through an early-access program, uses coordinated agents to examine application source code and context, investigate potential attack … More → The post OpenAI’s Daybreak brings AI agents to security te",
-      "threat_actors": [],
-      "title": "OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes"
+      "title": "ZDI-26-957: KiCad Project Archive File Handling Directory Traversal Remote Code Execution Vulnerability"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-      "cves": [],
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-956/",
+      "cves": [
+        "CVE-2026-126970"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-14T02:53:29.469567+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-6ce23a8d3c69416c13e2c2d6",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:6ce23a8d3c69416c13e2c2d6",
+      "first_seen_at": "2026-11-14T05:23:22.634196+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-5394e3eebb7f81c8542e04b4",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:5394e3eebb7f81c8542e04b4",
       "public_tags": [
         {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-14T02:31:56+09:00",
+      "published_at": "2026-11-13T15:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
-      "summary_excerpt": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-126970.",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-126970.",
       "threat_actors": [],
-      "title": "German military drone operations disrupted by cyberattack"
+      "title": "ZDI-26-956: KiCad Altium SCHLIB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
-      "cves": [],
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-955/",
+      "cves": [
+        "CVE-2026-126973"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-14T02:53:54.698071+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-ff3fa2cedfe4da382332509a",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:ff3fa2cedfe4da382332509a",
+      "first_seen_at": "2026-11-14T05:23:17.751813+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-cc02d48b108da53e8b9351fc",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:cc02d48b108da53e8b9351fc",
       "public_tags": [
         {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-14T02:26:00+09:00",
+      "published_at": "2026-11-13T15:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.",
-      "summary_excerpt": "In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.",
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KDE Gwenview. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-126973.",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KDE Gwenview. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-126973.",
       "threat_actors": [],
-      "title": "University of Texas at Arlington warns personal information stolen during cyberattack"
+      "title": "ZDI-26-955: KDE Gwenview PNG File Parsing Integer Overflow Remote Code Execution Vulnerability"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/gootloader-ransomware-doj-details",
-      "cves": [],
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-954/",
+      "cves": [
+        "CVE-2026-126976"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-14T01:22:09.707036+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-762fea7843dd7c8676a3948c",
-      "primary_category": "ransomware",
-      "public_article_id": "url:762fea7843dd7c8676a3948c",
+      "first_seen_at": "2026-11-14T05:23:12.824098+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-ef1c847324b55ab4d48638f1",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:ef1c847324b55ab4d48638f1",
       "public_tags": [
         {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-14T00:59:00+09:00",
+      "published_at": "2026-11-13T15:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
-      "summary_excerpt": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.0. The following CVEs are assigned: CVE-2026-126976.",
+      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.0. The following CVEs are assigned: CVE-2026-126976.",
       "threat_actors": [],
-      "title": "DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018"
+      "title": "ZDI-26-954: llama.cpp MTMD Multimodal GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability"
     }
   ],
   "rising": [],
@@ -966,32 +953,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】German military drone operations disrupted by cyberattack",
+    "【LATEST #1】City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
     "【HOTTEST #1 / Heat 75】PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-    "【LATEST #2】University of Texas at Arlington warns personal information stolen during cyberattack",
+    "【LATEST #2】Adapting to AI penetration testing orchestrators: The Modern Security Model",
     "【HOTTEST #2 / Heat 70.97】CVE-2026-114713: UnrealIRCd UnrealIRCd",
-    "【LATEST #3】Five ways CISOs can use ‘dark AI’ to their own advantage",
+    "【LATEST #3】German military drone operations disrupted by cyberattack",
     "【HOTTEST #3 / Heat 70.97】CVE-2026-123039: Check Point Multiple Products",
-    "【LATEST #4】PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-    "【HOTTEST #4 / Heat 67.5】PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
-    "【LATEST #5】MDR Pricing: Comparing Asset-Based and Ingestion-Based Costs",
-    "【HOTTEST #5 / Heat 67.5】JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性"
+    "【LATEST #4】University of Texas at Arlington warns personal information stolen during cyberattack",
+    "【HOTTEST #4 / Heat 67.5】CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "【LATEST #5】Five ways CISOs can use ‘dark AI’ to their own advantage",
+    "【HOTTEST #5 / Heat 67.5】PHP2Shell Exploited in Destructive Check Point Gateway Attacks"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-10T20:00:00+00:00",
-    "last_as_of": "2026-11-13T20:00:00+00:00",
+    "first_as_of": "2026-11-10T21:00:00+00:00",
+    "last_as_of": "2026-11-13T21:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-13T20:00:00+00:00",
-  "heat_as_of": "2026-11-13T20:00:00+00:00",
+  "news_as_of": "2026-11-13T21:00:00+00:00",
+  "heat_as_of": "2026-11-13T21:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24229,
-  "last_published_at": "2026-11-14T05:07:16.084275+09:00",
-  "publication_slot_jst": "2026-11-14T05:00:00+09:00"
+  "news_catalog_count": 24238,
+  "last_published_at": "2026-11-14T06:07:39.749896+09:00",
+  "publication_slot_jst": "2026-11-14T06:00:00+09:00"
 }
