@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T08:40:03.251323+00:00",
+  "source_snapshot_generated_at": "2026-11-13T09:40:02.712379+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:4274468cd0c6bdcfec97481c",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub",
+          "GitHub Actions",
+          "Security",
+          "CI/CD"
+        ],
+        "url": "https://zenn.dev/masafumi_ai/articles/00015-github-actions-secret-theft",
+        "title": "GitHub Actionsのシークレット窃取を確かめる：dependency audit notesのPRと実行番号の欠番",
+        "author": "勝文のAI現場",
+        "published_at": "2026-11-13T09:09:19.755000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d178309436ba4575014b304a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "API",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/nanoapi/articles/ea98b63a4e7afb",
+        "title": "非同期のひとつの API で、AI 動画・画像モデルを呼び出す",
+        "author": "NanoAPI",
+        "published_at": "2026-11-13T09:07:51.263000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0badfb80979183a5751e705a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "検証",
+          "プロンプトエンジニアリング",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/numarn/articles/done-claim-vs-actual-run-handson",
+        "title": "Claude Code の「完了」は24回とも出たのに、成果物が別の入力で動いたのは19回だった",
+        "author": "ぬまーんのZenn記事",
+        "published_at": "2026-11-13T08:44:51.588000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:dbfa82e01d6bebffaa616c3d",
         "source": "zenn",
@@ -32879,6 +32925,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:75a66ecaa15dd2b65a3fd193",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ClaudeCode",
+          "AI",
+          "サプライチェーン攻撃"
+        ],
+        "url": "https://qiita.com/pitaspot/items/e2d87bfa2d6802494407",
+        "title": "Cursorの拡張機能「Claude Code for VS Code」にバックドア：2.1.312と2.1.313が対象",
+        "author": "pitaspot",
+        "published_at": "2026-11-13T18:04:14+09:00",
+        "excerpt": "📰 海外事例 元記事： Backdoor in Claude Code for VS Code extension on the Cursor Marketplace（phorion.io） セキュリティ会社Phorionが、Cursor（AIコーディング用エディタ）のマーケットプレイスで配布されていた拡張機能「Claude Code for VS Code」に、攻撃者が利用者のパソコンへ遠隔ログインできる裏口（バックドア）が仕込まれていたと報告した。対象はバージョン2.1.312と2.1.313。Cursorはすでに取り下げている。入れていた場合は、拡張機能を消すだけでは足りない。仕込まれた設定の掃除と、そのパソコンで使えた認証情報の入れ替えが必要だ。 何をされるのか 拡張機能はエディタと同じ権限で動く。読み込まれた時点でファイルやソースコードに手が届き、普通に起動するより前に動くので、利用者の操作は要らない。仕込む処理は3つ。 攻撃者の鍵を、パソコンのSSH設定（遠隔ログインを許可する鍵の一覧）に書き足す 攻撃者のサーバーへ向けて外向きの接続"
+      },
+      {
+        "id": "qiita:be88dcdba2981d7a044475df",
+        "source": "qiita",
+        "author_tags": [
+          "JavaScript",
+          "Twitter",
+          "X",
+          "WebAPI",
+          "Security"
+        ],
+        "url": "https://qiita.com/NAS6mixfoolv/items/cb05314b9d6310516967",
+        "title": "Xシェア機能を実装する ― Xアプリで投稿本文が消える問題を中間リダイレクトで回避する",
+        "author": "NAS6mixfoolv",
+        "published_at": "2026-11-13T17:50:19+09:00",
+        "excerpt": "Xシェア機能を実装する ― Xアプリで投稿本文が消える問題を中間リダイレクトで回避する はじめに ブラウザゲーム「Derby Dream」に、プレイ結果をX（旧Twitter）で共有する機能を実装しました。 リンク： 競馬ブラウザゲーム 今回の実装で少し工夫したのが、Xの投稿画面を開く際の処理です。 最初は一般的なX Web Intentを利用していました。 const intentUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(str)}`; window.open(intentUrl, \"_blank\"); ところが、実際に使ってみると問題がありました。 ブラウザからXの投稿画面を開くと、Xアプリが起動してしまい、指定した投稿本文が空になってしまうケースが多かったのです。 投稿内容を自動生成しているのに、結局ユーザーが手入力するのではシェア機能として不便です。 そこで、今回は中間リダイレクトページを挟む方式を試してみました。 1. X Web Intentの利用 Xには、"
+      },
+      {
         "id": "qiita:fdc24400d13554c2ca02413d",
         "source": "qiita",
         "author_tags": [
@@ -45249,6 +45326,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:74f1776d1a8cc7fde36a65a8",
+        "source": "medium",
+        "author_tags": [
+          "data-protection",
+          "microsoft-outlook",
+          "it-security",
+          "microsoft-365",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@sunalbharti324/microsoft-outlook-zero-day-vulnerability-how-cve-2026-124194-puts-business-credentials-at-risk-6018e32764e9",
+        "title": "Microsoft Outlook Zero-Day Vulnerability: How CVE-2026–124194 Puts Business Credentials at Risk",
+        "author": "sunaldatanethosting",
+        "published_at": "2026-11-13T08:58:39+00:00",
+        "excerpt": "Microsoft Outlook is an essential communication tool for businesses worldwide. Employees use it every day to exchange information, share… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:00348eb7e5e56a285afe241f",
+        "source": "medium",
+        "author_tags": [
+          "linux",
+          "cybersecurity",
+          "kernel-security",
+          "vulnerability-research",
+          "cve"
+        ],
+        "url": "https://medium.com/@zxve/cve-2026-98432-is-giving-me-a-headache-when-rcu-protects-the-reader-but-the-object-is-already-free-5fb45546e0bb",
+        "title": "CVE-2026–98432 Is Giving Me a Headache: When RCU Protects the Reader but the Object Is Already Free",
+        "author": "ZXVE",
+        "published_at": "2026-11-13T08:54:05+00:00",
+        "excerpt": "A deep dive into a use-after-free in the Linux IPv4 TCP path, why two lines of kfree_rcu() matter, and how to verify the flaw without… Continue reading on Medium »"
+      },
       {
         "id": "medium:1e30e1f33acb5e4eda5d84cb",
         "source": "medium",
