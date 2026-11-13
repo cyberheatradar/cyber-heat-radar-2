@@ -1,9 +1,115 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T09:40:02.712379+00:00",
+  "source_snapshot_generated_at": "2026-11-13T10:40:02.899566+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:01b039df338f42dfd4cb3075",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "search",
+          "llm",
+          "factchecking"
+        ],
+        "url": "https://zenn.dev/jworks_hq/articles/jworks-20261111-af1c1bf7",
+        "title": "Perplexityの盾マークを正確さの保証と読み違えないよう整理した話",
+        "author": "J-WORKS",
+        "published_at": "2026-11-13T10:02:30.772000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f50e1dfc72e224d6f9affb65",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Cloudflare",
+          "CI",
+          "Discord",
+          "Wrangler"
+        ],
+        "url": "https://zenn.dev/df_blogger/articles/cloudflare-wrangler-oauth-timeout-trap",
+        "title": "Discord連携AIにCloudflareデプロイを命じたら「OAuth認可5分タイムアウトのすれ違い地獄」にハマった話",
+        "author": "D.F.Blogger",
+        "published_at": "2026-11-13T10:01:56.657000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0d8c627252966590ad7b5ba5",
+        "source": "zenn",
+        "author_tags": [
+          "Rust",
+          "Security",
+          "cargo",
+          "pnpm",
+          "uv"
+        ],
+        "url": "https://zenn.dev/lecto/articles/e48cedeae59252",
+        "title": "新しい版は 7 日待つ。Rust 1.100 の Cargo で「依存関係のクールダウン」を試した（pnpm・npm・uv とも比べた）",
+        "author": "tamoco",
+        "published_at": "2026-11-13T10:00:05.041000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9340fd80e0c6a0281d677a65",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Flutter",
+          "Claude Code",
+          "Muse",
+          "Vibe Coding"
+        ],
+        "url": "https://zenn.dev/daisuke7/articles/d0cef064a2ea47",
+        "title": "コードを読まずに作った Flutter アプリを Web ビルドして Muse スペースで動かすまで ― 完全バイブコーディング実験の続き",
+        "author": "Daisuke Sawada",
+        "published_at": "2026-11-13T09:55:27.568000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e94aa54a3ea4cf3e89a707a0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "frontend",
+          "Test",
+          "開発者体験",
+          "GitHub Copilot"
+        ],
+        "url": "https://zenn.dev/heftykoo/articles/8c4ed503a7cdb6",
+        "title": "モデル更新の効果を測るなら、エージェント環境を同時に変えない",
+        "author": "heftykoo",
+        "published_at": "2026-11-13T09:48:46.086000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:00ab1e0885a19c93c67552ff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ポエム"
+        ],
+        "url": "https://zenn.dev/vortex1129_blog/articles/ef8f64ecb6724b",
+        "title": "私たちはどう生き延びるか",
+        "author": "10_sa",
+        "published_at": "2026-11-13T09:47:09.644000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2a79c09c42cdf8ed7edc0ef1",
+        "source": "zenn",
+        "author_tags": [
+          "frontend",
+          "Security",
+          "backend"
+        ],
+        "url": "https://zenn.dev/numekudi/articles/e9d359c2d261b7",
+        "title": "隠蔽によるセキュリティって知ってる？",
+        "author": "numekudi",
+        "published_at": "2026-11-13T09:46:42.266000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4274468cd0c6bdcfec97481c",
         "source": "zenn",
@@ -32925,6 +33031,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6105dda138ecef53bcf467a7",
+        "source": "qiita",
+        "author_tags": [
+          "Terraform",
+          "AWS",
+          "ECR",
+          "Docker",
+          "Security"
+        ],
+        "url": "https://qiita.com/ham-nao/items/ba22362551ec2b535675",
+        "title": "【Terraform×AWS】ECRのライフサイクルポリシーとイメージスキャンを設定する",
+        "author": "ham-nao",
+        "published_at": "2026-11-13T19:36:44+09:00",
+        "excerpt": "ECSやLambdaでコンテナを使っていると、ECRには新しいイメージが毎日のように増えていきます。何も設定しないと、**古いイメージは削除されずに残り続け、保存料金が増え続けます。**また、プッシュしたイメージに既知の脆弱性が含まれていても、気づかないまま本番で動かしてしまうことがあります。 この記事では、ECRのリポジトリをTerraformで作るときに、最初から入れておきたい設定を紹介します。 入れておきたい設定 タグの上書き禁止 ：同じタグで別のイメージを上書きできないようにする プッシュ時のイメージスキャン ：イメージをプッシュしたときに、既知の脆弱性を検査する ライフサイクルポリシー ：古いイメージやタグのないイメージを自動で削除する 脆弱性の通知 ：重大な脆弱性が見つかったら通知する リポジトリの作成 resource \"aws_ecr_repository\" \"app\" { name = \"myapp\" image_tag_mutability = \"IMMUTABLE\" image_scanning_configuration "
+      },
+      {
         "id": "qiita:75a66ecaa15dd2b65a3fd193",
         "source": "qiita",
         "author_tags": [
@@ -45326,6 +45448,83 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ce0a5e6fcad98f06cc7ec418",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "singapore-cybersecurity"
+        ],
+        "url": "https://medium.com/@chetankalyan1.imarc/singapore-cybersecurity-market-industry-size-threat-landscape-and-growth-outlook-2026-2034-7d4b73a891b5",
+        "title": "Singapore Cybersecurity Market: Industry Size, Threat Landscape and Growth Outlook (2026–2034)",
+        "author": "Chetan kalyan",
+        "published_at": "2026-11-13T10:28:03+00:00",
+        "excerpt": "How Is Singapore’s Cybersecurity Market Performing? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9affccd8ec9e6792b9cf6a09",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cisakev",
+          "vulnerability-management",
+          "threat-intelligence",
+          "loginsoft"
+        ],
+        "url": "https://medium.com/@Loginsoft/11-new-kev-entries-2-zero-days-and-an-ai-driven-intrusion-what-defenders-need-to-know-5a2db648a8d1",
+        "title": "11 New KEV Entries, 2 Zero-Days and an AI-Driven Intrusion: What Defenders Need to Know",
+        "author": "Loginsoft",
+        "published_at": "2026-11-13T10:27:49+00:00",
+        "excerpt": "Executive Summary Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0015a2f86a08074b433db383",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "sql-injection",
+          "cybersecurity",
+          "websecurity-testing",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@subadgujar03/my-cybersecurity-journey-exploring-sql-injection-in-a-web-application-d649e3b1e387",
+        "title": "My Cybersecurity Journey: Exploring SQL Injection in a Web Application",
+        "author": "Subodh",
+        "published_at": "2026-11-13T10:20:52+00:00",
+        "excerpt": "I’ve been exploring the field of cybersecurity through practical exercises, focusing on web application vulnerabilities and understanding… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a1b7689e3a62a3100d5cfd22",
+        "source": "medium",
+        "author_tags": [
+          "digital-safety",
+          "cybersecurity",
+          "passkey",
+          "account-recovery",
+          "authentication"
+        ],
+        "url": "https://medium.com/@wintk.gg/the-security-decision-that-happens-before-a-new-phone-5f9bb614c5b3",
+        "title": "The Security Decision That Happens Before a New Phone",
+        "author": "WINTK",
+        "published_at": "2026-11-13T10:20:27+00:00",
+        "excerpt": "Passkeys make sign-in easier, but recovery planning is what keeps a secure account usable. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ebee4d789abfbbbdc5f6cc4e",
+        "source": "medium",
+        "author_tags": [
+          "zero-trust",
+          "ai-security",
+          "cyber-resilience",
+          "microsegmentation",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@kwong77/%E7%95%B6-ai-%E5%8A%A0%E9%80%9F%E7%B6%B2%E8%B7%AF%E6%94%BB%E6%93%8A-%E5%BE%9E%E5%8F%B0%E6%97%A5%E9%9F%93%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6-%E7%9C%8B%E4%BC%81%E6%A5%AD%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87%E5%AE%89%E5%85%A8%E9%9F%8C%E6%80%A7-23fddb8f66c4",
+        "title": "當 AI 加速網路攻擊：從台日韓資安事件，看企業如何提升安全韌性",
+        "author": "Kevin Wang",
+        "published_at": "2026-11-13T10:07:01+00:00",
+        "excerpt": "AI Agent 正在改變網路攻擊的速度與規模。近期亞洲的重大資安事件提醒企業，除了防止入侵，更需要重新檢視安全邊界、存取權限與事件應變能力。 Continue reading on Medium »"
+      },
       {
         "id": "medium:74f1776d1a8cc7fde36a65a8",
         "source": "medium",
