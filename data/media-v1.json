@@ -1,9 +1,84 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T04:40:02.739035+00:00",
+  "source_snapshot_generated_at": "2026-11-13T05:40:02.843641+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:7a587499c3def5ca3d7d7473",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "C++",
+          "WebAssembly",
+          "embedded",
+          "ONNX"
+        ],
+        "url": "https://zenn.dev/esperanza/articles/auto-20261112-095106",
+        "title": "組み込みLinux×Edge AI: WasmEdgeとONNX Runtimeで実現する安全な「動的AI前処理プラグイン」アーキテクチャ",
+        "author": "Esperanza",
+        "published_at": "2026-11-13T05:08:42+00:00",
+        "excerpt": "1. はじめに：エッジAI開発現場の「泥臭い課題」 エッジAI機器（カメラ、車載デバイス、産業用センサー端末など）の開発では、推論モデルそのものよりも**「モデル前後のデータ前処理・後処理ロジックの変更」**が最も運用コストを高める要因になります。 課題1: OTAアップデートの巨大化 前処理フィルタ処理をネイティブC++アプリケーションに組み込んでいると、ロジック変更のたびにシステム全体のファームウェアや巨大なバイナリ（数十MB〜数GB）をOTA配信する必要がある。 課題2: HW/FWチームとAIチームの密結合 AIエンジニアが前処理（リサイズ、正規化、NMS: Non-M..."
+      },
+      {
+        "id": "zenn:fb7b5f4a59eaf81db9b5dde7",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "IAM",
+          "GuardDuty",
+          "pentest"
+        ],
+        "url": "https://zenn.dev/cscloud_blog/articles/ai-pentest-tools-abuse-aws-defense",
+        "title": "ARTEX・AntiFox の事例から、AI ペネトレーションテストツールの悪用と AWS の対策をまとめてみた",
+        "author": "平木 佳介",
+        "published_at": "2026-11-13T05:05:08+00:00",
+        "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！ 皆さんは ARTEX という AI ペネトレーションテストツールをご存知ですか？ 標的と目的を伝えると、AI エージェントが偵察から脆弱性の検証、報告書の作成まで進めてくれるツールで、本来は許可された環境でセキュリティ上の問題を見つけるためのものです。ところが 2026 年 10 月以降、ARTEX と、そこから派生した AntiFox が実際の攻撃に使われているというレポートが、各社から出ています。 AWS の本番シークレットまで取得された事例もあると知って気になったので..."
+      },
+      {
+        "id": "zenn:e6af3ca151606b53bd655385",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ポエム",
+          "engineering"
+        ],
+        "url": "https://zenn.dev/ara_ta3/articles/thinking-about-engineers-five-years-from-now",
+        "title": "5年後のエンジニアは、何に責任を持つのだろうか",
+        "author": "ara_ta3",
+        "published_at": "2026-11-13T05:03:44+00:00",
+        "excerpt": "はじめに 最近は、AI Agentを使ってコードを書くことが日常になりました。その一方で、自分で直接コードを書く頻度は本当に減ったと感じています。何年もかけて少しずつ変わったというより、ここ2年も経たないうちの変化です。 今や新しいモデルが出るたびに、Artificial Analysisのグラフを眺めています。少し前まで十分良いと思っていた性能を上回りつつ、速度も出て、コストとのバランスも良いのはどのあたりか。モデルと推論にかける労力（Reasoning Effort）の組み合わせを見て、「このへんが良さそうかな」と思ったものを試す日々になっています。 そんな中で、ふと「5年後くら..."
+      },
+      {
+        "id": "zenn:cebb0845c2f0e0ed4bb08d44",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "devlog"
+        ],
+        "url": "https://zenn.dev/ryoitabashi/articles/2026-11-13-dev-ja",
+        "title": "Android の Codex CLI を bionic ELF 直接実行で動かす",
+        "author": "RYO ITABASHI",
+        "published_at": "2026-11-13T04:42:33+00:00",
+        "excerpt": "画像は AI 生成のイメージです Shelly の bug #76 では、上流の codex バイナリが ET_EXEC（musl、static）であり、SELinux のため Android 14+ では実行できないことが記録された。Shelly はこの問題に対し、termux fork である codex-termux の Android ネイティブバイナリ（ET_DYN、bionic リンク）を直接実行する方式を、2026-04-17 のコミット 6ba1419a5 で実装した。以下では三つの問いに順に答える。proot 経由の起動はなぜ置き換えられたのか。直接実行にログイン、T..."
+      },
+      {
+        "id": "zenn:068fe0d2ce3f8e691485267a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "検証",
+          "差分",
+          "一括生成"
+        ],
+        "url": "https://zenn.dev/satofun/articles/e31f8672a4a5f3",
+        "title": "AIの表情差分は結局1枚ずつ作るほうが早い？一括生成と修正の手間を徹底検証",
+        "author": "sato",
+        "published_at": "2026-11-13T04:41:06+00:00",
+        "excerpt": "AIで同じキャラクターの表情差分を作るなら、6種類をまとめて生成する方法と、1枚ずつ編集する方法のどちらが効率的なのでしょうか。 一括生成なら少ない操作で複数の表情をそろえられます。しかし、完成したシートの一部を修正すると、変更したくない表情まで変化してしまうことがあります。 そこで今回は、PixAIの最新画像生成モデル「Tsubaki.3」を使い、同じオリジナルキャラクターで「通常・笑顔・怒り・悲しみ・驚き・照れ」の6表情を制作しました。 一括生成後の修正と、基準画像からの個別編集を試し、理想の仕上がりに到達するまでの時間や手戻りを比較します。 AIの表情差分は一括生成と個別編集..."
+      },
       {
         "id": "zenn:6094d64f855e9491b27a3c97",
         "source": "zenn",
@@ -44976,6 +45051,68 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:01a0f60e802515cbe5f499b1",
+        "source": "medium",
+        "author_tags": [
+          "javascript",
+          "authentication",
+          "cybersecurity",
+          "frontend-development",
+          "web-development"
+        ],
+        "url": "https://medium.com/@to.soniaakhter/jwt-vs-refresh-token-why-your-frontend-needs-both-5aba4ac074c9",
+        "title": "JWT vs Refresh Token: Why Your Frontend Needs Both",
+        "author": "Sonia Akther",
+        "published_at": "2026-11-13T05:27:30+00:00",
+        "excerpt": "How to build secure authentication with short-lived access tokens, HttpOnly cookies, and silent token refresh. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0b418d546c805469226c23ff",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "penetration-testing",
+          "red-team",
+          "bug-bounty",
+          "information-security"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/the-requests-you-didnt-send-finding-ssrf-and-csrf-by-hand-c2f208f114ab",
+        "title": "The Requests You Didn’t Send: Finding SSRF and CSRF by Hand",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-11-13T05:02:20+00:00",
+        "excerpt": "Two bugs that live in the same blind spot — one makes the server send a request it shouldn’t, the other makes the browser forge one. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9fa29e926576c95b7e8d6cf1",
+        "source": "medium",
+        "author_tags": [
+          "wifi-security",
+          "cybersecurity",
+          "networking",
+          "data-breach",
+          "free-wifi"
+        ],
+        "url": "https://saurabchauhan.medium.com/issue-03-free-wi-fi-isnt-always-free-af33e9f98c2b",
+        "title": "Issue: 03. Free WI-FI Isn’t Always Free.",
+        "author": "Saurab Chauhan",
+        "published_at": "2026-11-13T04:59:49+00:00",
+        "excerpt": "That coffee shop connection might save your mobile data. Just make sure it doesn’t cost you your privacy. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:915e84236cb7936ad781a790",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "cybersecurity",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@qnaydsacademy/can-you-learn-cybersecurity-without-coding-a-beginners-roadmap-for-2026-ca6b1b33ca25",
+        "title": "Can You Learn Cybersecurity Without Coding? A Beginner’s Roadmap for 2026",
+        "author": "QNAYDS Academy",
+        "published_at": "2026-11-13T04:54:39+00:00",
+        "excerpt": "Are you interested in cybersecurity but worried because you don’t know programming? You are not alone. Many students want to enter the… Continue reading on Medium »"
+      },
       {
         "id": "medium:3d3ccd9588ef34a655d6a7bc",
         "source": "medium",
