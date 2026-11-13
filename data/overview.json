@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-13T19:06:58.713240+00:00",
-  "as_of": "2026-11-13T19:00:00+00:00",
-  "catalog_count": 24226,
+  "generated_at": "2026-11-13T20:07:02.029089+00:00",
+  "as_of": "2026-11-13T20:00:00+00:00",
+  "catalog_count": 24229,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -358,6 +358,76 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-114713",
+      "cves": [
+        "CVE-2026-114713"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-14T04:23:57.145335+09:00",
+      "heat_score": 70.97,
+      "permalink_id": "article-url-3ef91b84986c3674de0ab3c2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:3ef91b84986c3674de0ab3c2",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-13T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+      "summary_excerpt": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+      "threat_actors": [],
+      "title": "CVE-2026-114713: UnrealIRCd UnrealIRCd"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123039",
+      "cves": [
+        "CVE-2026-123039"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-14T04:23:57.126776+09:00",
+      "heat_score": 70.97,
+      "permalink_id": "article-url-de774c3fcb00a8091e5413b2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:de774c3fcb00a8091e5413b2",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-13T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "summary_excerpt": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "threat_actors": [],
+      "title": "CVE-2026-123039: Check Point Multiple Products"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
       "cves": [
         "CVE-2026-123039"
@@ -567,77 +637,6 @@
       "summary_excerpt": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
       "threat_actors": [],
       "title": "DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T00:24:33.276845+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-0963885b5efedda3b1cfaa2b",
-      "primary_category": "incident",
-      "public_article_id": "url:0963885b5efedda3b1cfaa2b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-14T00:20:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .",
-      "summary_excerpt": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T00:24:34.409903+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-ccd63f2bf41c9e8170bf7ce1",
-      "primary_category": "incident",
-      "public_article_id": "url:ccd63f2bf41c9e8170bf7ce1",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-14T00:06:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "An investigation into the breach found that no TSMC systems were compromised but the information was “verified to match data stored in the system services of a cloud service provider, but is unrelated to the company’s operations or customer-related data.”",
-      "summary_excerpt": "An investigation into the breach found that no TSMC systems were compromised but the information was “verified to match data stored in the system services of a cloud service provider, but is unrelated to the company’s operations or customer-related data.”",
-      "threat_actors": [],
-      "title": "TSMC confirms employee data breach tied to cloud service provider"
     }
   ],
   "rising": [],
@@ -970,29 +969,29 @@
     "【LATEST #1】German military drone operations disrupted by cyberattack",
     "【HOTTEST #1 / Heat 75】PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
     "【LATEST #2】University of Texas at Arlington warns personal information stolen during cyberattack",
-    "【HOTTEST #2 / Heat 67.5】PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+    "【HOTTEST #2 / Heat 70.97】CVE-2026-114713: UnrealIRCd UnrealIRCd",
     "【LATEST #3】Five ways CISOs can use ‘dark AI’ to their own advantage",
-    "【HOTTEST #3 / Heat 67.5】JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性",
+    "【HOTTEST #3 / Heat 70.97】CVE-2026-123039: Check Point Multiple Products",
     "【LATEST #4】PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-    "【HOTTEST #4 / Heat 67.5】Outlookの脆弱性、すでに悪用を確認　IPAが緊急更新を呼びかけ",
+    "【HOTTEST #4 / Heat 67.5】PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
     "【LATEST #5】MDR Pricing: Comparing Asset-Based and Ingestion-Based Costs",
-    "【HOTTEST #5 / Heat 65.7】OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes"
+    "【HOTTEST #5 / Heat 67.5】JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-10T19:00:00+00:00",
-    "last_as_of": "2026-11-13T19:00:00+00:00",
+    "first_as_of": "2026-11-10T20:00:00+00:00",
+    "last_as_of": "2026-11-13T20:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-13T19:00:00+00:00",
-  "heat_as_of": "2026-11-13T19:00:00+00:00",
+  "news_as_of": "2026-11-13T20:00:00+00:00",
+  "heat_as_of": "2026-11-13T20:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24226,
-  "last_published_at": "2026-11-14T04:07:13.201732+09:00",
-  "publication_slot_jst": "2026-11-14T04:00:00+09:00"
+  "news_catalog_count": 24229,
+  "last_published_at": "2026-11-14T05:07:16.084275+09:00",
+  "publication_slot_jst": "2026-11-14T05:00:00+09:00"
 }
