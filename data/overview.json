@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-13T06:06:37.810742+00:00",
-  "as_of": "2026-11-13T06:00:00+00:00",
-  "catalog_count": 23971,
+  "generated_at": "2026-11-13T07:06:08.808804+00:00",
+  "as_of": "2026-11-13T07:00:00+00:00",
+  "catalog_count": 23975,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,123 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2611/13/2000003173/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T15:52:40.753058+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-1e00aa2239f4a38e5012dcef",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:1e00aa2239f4a38e5012dcef",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T15:22:12+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "TechTarget Japan Security",
+      "summary": "「NetScaler」の脆弱性28件と「Apache HTTP Server」の深刻な脆弱性が修正された。ChromeとZoomの更新、「Microsoft 365」の変更も確認したい。",
+      "summary_excerpt": "「NetScaler」の脆弱性28件と「Apache HTTP Server」の深刻な脆弱性が修正された。ChromeとZoomの更新、「Microsoft 365」の変更も確認したい。",
+      "threat_actors": [],
+      "title": "「Citrix NetScaler」に28件、「Apache」にRCE脆弱性――今朝の情シスニュース"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T15:52:35.451416+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-a964a8d2535c0797e4218f79",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:a964a8d2535c0797e4218f79",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-13T15:15:48+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Attackers used a fake Microsoft Teams meeting scheduler to trick an employee at a construction company into approving a device code sign-in. They got a valid session token before Huntress’s security operations center identified the incident. Device code phishing abuses a real Microsoft sign-in flow. The attacker starts a sign-in, gets a short code back, and persuades the victim to type it into Microsoft’s genuine device login page. The victim enters the code, completes MFA … More → The post How attackers turned a Teams meeting booking into a device code phishing trap appeared first on Help Net Security .",
+      "summary_excerpt": "Attackers used a fake Microsoft Teams meeting scheduler to trick an employee at a construction company into approving a device code sign-in. They got a valid session token before Huntress’s security operations center identified the incident. Device code phishing abuses a real Microsoft sign-in flow. The attacker starts a sign-in, gets a short code back, and persuades the victim to type it into Microsoft’s genuine device login page. The victim enters the code, completes MFA … More → The post How attackers turned a Teams meeting booking into a device code phishing trap appeared first on Help Net",
+      "threat_actors": [],
+      "title": "How attackers turned a Teams meeting booking into a device code phishing trap"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261113-5210250/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T15:23:27.844470+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-a42ada1473100cdb1f43700c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:a42ada1473100cdb1f43700c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T15:01:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Mynavi TECH+ Security",
+      "summary": "Appleが11月に配信開始した「iOS 27.2.1」と「iPadOS 27.2.1」には、Bluetoothの不正ペアリングやiMessageへの不正な割り込みといった、比較的身近なセキュリティ問題への対処が含まれる。早めにアップデートすべき理由をまとめた。",
+      "summary_excerpt": "Appleが11月に配信開始した「iOS 27.2.1」と「iPadOS 27.2.1」には、Bluetoothの不正ペアリングやiMessageへの不正な割り込みといった、比較的身近なセキュリティ問題への対処が含まれる。早めにアップデートすべき理由をまとめた。",
+      "threat_actors": [],
+      "title": "iOS 27.2.1で修正される、iPhoneの「身近な脆弱性」まとめ　iPadOSも"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T15:07:42.751270+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-5f110aa5732b2dc45743bffb",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:5f110aa5732b2dc45743bffb",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-13T14:43:28+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the",
+      "summary_excerpt": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the",
+      "threat_actors": [],
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/13/2000003186/",
@@ -147,94 +264,6 @@
       "summary_excerpt": "特定のBarracudaアプライアンス製品において、共通のBarracudaコードを使用したタイムゾーン設定フィールド内のシェルメタ文字が不適切に無害化されるため、認証された管理者が細工されたタイムゾーン値を後に処理する際に、root権限で実行されるOSコマンドを注入できます。",
       "threat_actors": [],
       "title": "バラクーダネットワークスのemail security gateway 300 ファームウェア等の複数製品におけるOS コマンドインジェクションの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043158.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T12:53:53.042850+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-140d055609596e8fe6c72d40",
-      "primary_category": "other",
-      "public_article_id": "url:140d055609596e8fe6c72d40",
-      "public_tags": [],
-      "published_at": "2026-11-13T11:59:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Barracuda Email Security Gatewayのバージョン9.4.0.030より前のバージョンに存在する認証バイパスの脆弱性により、認証されていないリモート攻撃者が設定インポート機能を呼び出し、細工された互換性のあるバックアップアーカイブを復元できるようになっています。その結果、アプライアンスのグローバル設定が不正に変更される可能性があります。",
-      "summary_excerpt": "Barracuda Email Security Gatewayのバージョン9.4.0.030より前のバージョンに存在する認証バイパスの脆弱性により、認証されていないリモート攻撃者が設定インポート機能を呼び出し、細工された互換性のあるバックアップアーカイブを復元できるようになっています。その結果、アプライアンスのグローバル設定が不正に変更される可能性があります。",
-      "threat_actors": [],
-      "title": "バラクーダネットワークスのemail security gateway 300 ファームウェア等の複数製品における代替パスまたはチャネルを使用した認証回避に関する脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043157.html",
-      "cves": [],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-13T12:53:52.972582+09:00",
-      "heat_score": 61.75,
-      "permalink_id": "article-url-9ebaa7090ace4744fcbe08c0",
-      "primary_category": "other",
-      "public_article_id": "url:9ebaa7090ace4744fcbe08c0",
-      "public_tags": [],
-      "published_at": "2026-11-13T11:59:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "バージョン2026.3.1027以前のIn Progress Telerik Document Processing Librariesにおいて、RadWordsProcessingの制御されていない再帰、不効率なアルゴリズムの複雑性、および無限ループの脆弱性により、認証されていない攻撃者が細工されたDOCX、DOC、RTF、またはHTMLドキュメントを介してホストプロセスを終了または停止させることが可能となります。",
-      "summary_excerpt": "バージョン2026.3.1027以前のIn Progress Telerik Document Processing Librariesにおいて、RadWordsProcessingの制御されていない再帰、不効率なアルゴリズムの複雑性、および無限ループの脆弱性により、認証されていない攻撃者が細工されたDOCX、DOC、RTF、またはHTMLドキュメントを介してホストプロセスを終了または停止させることが可能となります。",
-      "threat_actors": [],
-      "title": "Progress Software Corporationのtelerik document processing librariesにおける複数の脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://gigazine.net/news/20261113-openrouter-self-correcting-localization/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T12:07:45.917132+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-118aa7f87617c5d03aca9ebb",
-      "primary_category": "other",
-      "public_article_id": "url:118aa7f87617c5d03aca9ebb",
-      "public_tags": [],
-      "published_at": "2026-11-13T11:27:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "GIGAZINE",
-      "summary": "AIのAPI一元管理サービスを展開するOpenRouterが、日本語版を含む複数の言語へのローカライズ版を公開しました。ローカライズに用いたAIモデルやシステムの解説ブログも公開されています。 続きを読む...",
-      "summary_excerpt": "AIのAPI一元管理サービスを展開するOpenRouterが、日本語版を含む複数の言語へのローカライズ版を公開しました。ローカライズに用いたAIモデルやシステムの解説ブログも公開されています。 続きを読む...",
-      "threat_actors": [],
-      "title": "OpenRouterの日本語版が登場、GPT-6.1 Solを用いた自己修正型翻訳システムで高品質な多言語対応を実現"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192797",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T11:22:37.951023+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-dfd86ae99a913e91cae86147",
-      "primary_category": "other",
-      "public_article_id": "url:dfd86ae99a913e91cae86147",
-      "public_tags": [],
-      "published_at": "2026-11-13T11:06:33+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "Fortinetは、メールセキュリティ製品「FortiMail」に関する複数の脆弱性を明らかにした。重要度が「クリティカル」とされる脆弱性が複数含まれているが、10月にリリースした更新で対応済みだという。",
-      "summary_excerpt": "Fortinetは、メールセキュリティ製品「FortiMail」に関する複数の脆弱性を明らかにした。重要度が「クリティカル」とされる脆弱性が複数含まれているが、10月にリリースした更新で対応済みだという。",
-      "threat_actors": [],
-      "title": "「FortiMail」に深刻な脆弱性 - 10月の更新で対応"
     }
   ],
   "hottest": [
@@ -568,6 +597,36 @@
   "persistent_hot": [
     {
       "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "cves": [
+        "CVE-2026-20320"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T15:37:31.775043+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-85ce9be08e6465936d950316",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:85ce9be08e6465936d950316",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-11T15:04:02+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "threat_actors": [],
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/11/iverify-iphone-exploit-kit-attacks-report/",
       "cves": [],
       "document_form": "single_story",
@@ -643,6 +702,50 @@
       "summary_excerpt": "Nearly half of security teams at organizations with 5,000 or more employees close or deprioritize vulnerability findings without fully verifying them, ProjectDiscovery found, and the reason they give is time. Here’s the catch. Among teams that skip full verification, 57% say at least three out of four findings they do check turn out to be real. If most of what you look at is genuine, there’s not much reason to think the stuff you didn’t … More → The post Nearly half of big firms shelve or close vulnerability findings they haven’t confirmed appeared first on Help Net Security .",
       "threat_actors": [],
       "title": "Nearly half of big firms shelve or close vulnerability findings they haven’t confirmed"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6602173?source=rss",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T15:53:12.264787+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-82e39f9d1cd9201294d9a37c",
+      "primary_category": "other",
+      "public_article_id": "url:82e39f9d1cd9201294d9a37c",
+      "public_tags": [],
+      "published_at": "2026-11-11T14:59:22+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Yahoo!ニュース IT",
+      "summary": null,
+      "summary_excerpt": null,
+      "threat_actors": [],
+      "title": "NTTドコモ障害 不正アクセス否定"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12163/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-11T15:53:09.496313+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-3d95a5914356c9614d4e814b",
+      "primary_category": "other",
+      "public_article_id": "url:3d95a5914356c9614d4e814b",
+      "public_tags": [],
+      "published_at": "2026-11-11T12:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Nikkei XTECH IT",
+      "summary": "相次ぐサイバー攻撃や情報漏洩を背景に、企業のセキュリティー需要が一段と高まっている。IT大手4社が2026年10月下旬から11月上旬に開いた決算説明会では、関連する商談や引き合いの増加が明らかになった。各社は専門組織の新設や人員増強、AIを活用したサービスの開発などを急ぐ。",
+      "summary_excerpt": "相次ぐサイバー攻撃や情報漏洩を背景に、企業のセキュリティー需要が一段と高まっている。IT大手4社が2026年10月下旬から11月上旬に開いた決算説明会では、関連する商談や引き合いの増加が明らかになった。各社は専門組織の新設や人員増強、AIを活用したサービスの開発などを急ぐ。",
+      "threat_actors": [],
+      "title": "サイバー攻撃多発でIT大手4社がセキュリティー事業強化、富士通は商談倍増"
     },
     {
       "ai_relevance": "none",
@@ -737,84 +840,6 @@
       "summary_excerpt": "「iPhone」「iPad」「Mac」「Apple Watch」「Vision Pro」を対象としたセキュリティアップデートの配信が開始された。",
       "threat_actors": [],
       "title": "アップル、広範囲に及ぶ脆弱性の緊急パッチをリリース--すぐ適用すべき"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261111-5294709/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T09:38:48.679273+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-3f49ea3ccea3df89ee7431bc",
-      "primary_category": "ai_security",
-      "public_article_id": "url:3f49ea3ccea3df89ee7431bc",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-11T09:28:09+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "MailGuardは11月9日(現地時間)、ChatGPT Plusの決済失敗を装い、クレジットカード情報などを盗み取ろうとするフィッシングメールを確認したと報じた。メールは支払い情報の更新を要求し、OpenAIの請求画面を模倣した偽サイトへ誘導する。利用者には、メール内のリンクを開かず、公式サイトやアプリから契約状況を確認するよう注意を呼びかけている。",
-      "summary_excerpt": "MailGuardは11月9日(現地時間)、ChatGPT Plusの決済失敗を装い、クレジットカード情報などを盗み取ろうとするフィッシングメールを確認したと報じた。メールは支払い情報の更新を要求し、OpenAIの請求画面を模倣した偽サイトへ誘導する。利用者には、メール内のリンクを開かず、公式サイトやアプリから契約状況を確認するよう注意を呼びかけている。",
-      "threat_actors": [],
-      "title": "ChatGPT Plusの決済失敗を装うフィッシングメール、カード情報の窃取狙う"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56743.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T08:52:32.694938+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-1679abe71e075257c81e399f",
-      "primary_category": "other",
-      "public_article_id": "url:1679abe71e075257c81e399f",
-      "public_tags": [],
-      "published_at": "2026-11-11T08:05:21+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ScanNetSecurity",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "九州電力送配電に不正アクセス、電力量情報が漏えいした可能性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56733.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T08:52:34.049996+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-2bcd164c5b46679b5db6b798",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:2bcd164c5b46679b5db6b798",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-11T08:00:15+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ScanNetSecurity",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "DMARC設定しても届く「正規」のフィッシングメール、DKIM replay attack の仕組みと対策 ～ TwoFive 解説"
     }
   ],
   "timeseries_status": {
@@ -835,32 +860,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】「Qoo10」不正アクセス、個人情報漏えい　「住所の地理座標」や「身体的特徴」も対象の可能性",
+    "【LATEST #1】「Citrix NetScaler」に28件、「Apache」にRCE脆弱性――今朝の情シスニュース",
     "【HOTTEST #1 / Heat 67.5】Outlookの脆弱性、すでに悪用を確認　IPAが緊急更新を呼びかけ",
-    "【LATEST #2】Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+    "【LATEST #2】How attackers turned a Teams meeting booking into a device code phishing trap",
     "【HOTTEST #2 / Heat 67.5】2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
-    "【LATEST #3】Synology製NAS向けOS「DSM」に脆弱性 - 「クリティカル」も",
+    "【LATEST #3】iOS 27.2.1で修正される、iPhoneの「身近な脆弱性」まとめ　iPadOSも",
     "【HOTTEST #3 / Heat 67.5】Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-    "【LATEST #4】ウクライナのStarshieldに再度の速度制限、「ロシアからの攻撃を阻止できない」とゼレンスキー大統領が報告",
+    "【LATEST #4】Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
     "【HOTTEST #4 / Heat 67.5】Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-    "【LATEST #5】JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性",
+    "【LATEST #5】「Qoo10」不正アクセス、個人情報漏えい　「住所の地理座標」や「身体的特徴」も対象の可能性",
     "【HOTTEST #5 / Heat 67.5】CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-10T06:00:00+00:00",
-    "last_as_of": "2026-11-13T06:00:00+00:00",
+    "first_as_of": "2026-11-10T07:00:00+00:00",
+    "last_as_of": "2026-11-13T07:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-13T06:00:00+00:00",
-  "heat_as_of": "2026-11-13T06:00:00+00:00",
+  "news_as_of": "2026-11-13T07:00:00+00:00",
+  "heat_as_of": "2026-11-13T07:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 23971,
-  "last_published_at": "2026-11-13T15:06:49.626379+09:00",
-  "publication_slot_jst": "2026-11-13T15:00:00+09:00"
+  "news_catalog_count": 23975,
+  "last_published_at": "2026-11-13T16:06:20.586654+09:00",
+  "publication_slot_jst": "2026-11-13T16:00:00+09:00"
 }
