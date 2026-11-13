@@ -1,9 +1,103 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T00:40:02.929063+00:00",
+  "source_snapshot_generated_at": "2026-11-13T01:40:03.177826+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f240b31d96b03fc66a3215a5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "Python",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/bambampurin/articles/2026-09-26-tech-daily",
+        "title": "2. Web",
+        "author": "子供部屋大学院生",
+        "published_at": "2026-11-13T01:16:08.797000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:12ad945be8a29f9804476fc0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "prompt",
+          "ChatGPT",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/andyailab/articles/a6af91106ab664",
+        "title": "生成AIで作るLPの「AIっぽさ」を減らす指示の型｜参考サイトの分解とデザイン指定テンプレート",
+        "author": "アンディ",
+        "published_at": "2026-11-13T01:15:55.605000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:349fdd48fa4bacca27b05bce",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "macro",
+          "OMRON",
+          "Claude",
+          "fh"
+        ],
+        "url": "https://zenn.dev/kensho_ya/articles/fh-macro-unit-macro-drawtext-display",
+        "title": "FHマクロのユニットマクロで計測結果を画面に出す——表示用のラベルとDrawText、位置一覧表示がONだと動かない処理",
+        "author": "検証屋",
+        "published_at": "2026-11-13T01:08:43.347000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:182320e69ce4ef97718664e3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "Agent",
+          "RAG",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sitio1/articles/126d84dc516231",
+        "title": "AIエージェントの記憶設計：何を覚え、何を検索し、いつ忘れるか",
+        "author": "カイ",
+        "published_at": "2026-11-13T01:00:05.375000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8af5b319d68a2496be2f70d7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Agent",
+          "OpenClaw"
+        ],
+        "url": "https://zenn.dev/kentaro36/articles/openclaw-boundaries",
+        "title": "OpenClawを入れて分かった、AI Agentの境界を決める4つのポイント",
+        "author": "SeaOtter 🦦(Kentaro Mori)",
+        "published_at": "2026-11-13T00:46:14.312000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e25ae397f57a33f005d46eb5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "運用",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/hachihou_system/articles/33546a65ee3650",
+        "title": "AIに任せる範囲は「OK／NG」より3段階で決めるとうまくいった",
+        "author": "キョウスケ",
+        "published_at": "2026-11-13T00:45:51.784000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:774f6ef8d7a727e35a4d727d",
         "source": "zenn",
@@ -32285,6 +32379,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:8491cbab31ba99f5b3e0a1d2",
+        "source": "qiita",
+        "author_tags": [
+          "Ubuntu",
+          "PHP",
+          "php-fpm",
+          "Linux",
+          "Security"
+        ],
+        "url": "https://qiita.com/locolisu/items/f33b6a850767796a97df",
+        "title": "PHP2Shell対応後も php -v が8.5.4のまま？ Ubuntu 26.04の修正版とFPM再起動を確認する",
+        "author": "locolisu",
+        "published_at": "2026-11-13T10:33:45+09:00",
+        "excerpt": "PHP2Shell対応後のUbuntu 26.04で、PHPが修正版になったか確かめるなら、まずパッケージの完全な番号を見ます。 dpkg-query -W php8.5-fpm Ubuntu公式パッケージのPHP 8.5-FPMでは、 8.5.4-0ubuntu1.5 が今回の修正版です。 26.04の公式パッケージなら、この番号以上かを確認します。 php -v に出る「8.5.4」だけでは判定できません。 PHP2Shellは、CVE-2026-109618とCVE-2026-109619の通称です。Ubuntuの 公式解説のIntroductionとImpact of php2shell では、認証なしのリモートコード実行につながり得ると説明されています。版の確認と、更新したPHPを実際の処理へ反映する確認を、一続きで進めましょう。 以下の例は、 Ubuntu 26.04 LTS・Ubuntu公式パッケージのPHP 8.5-FPM・Nginx の構成です。コマンドは対象サーバーのBashで実行します。 なぜ、更新しても「8.5.4」のまま"
+      },
+      {
+        "id": "qiita:a4b901f7f99f00171013305d",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "MCP",
+          "ClaudeCode",
+          "Security"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/1967156836e0d269a2d5",
+        "title": "178。WorkOSが『研究者のAIエージェントが検証環境を抜け出して侵害した』と説明した日、自分が頼んでいないのに現れたツール名の数だった",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-11-13T09:49:21+09:00",
+        "excerpt": "はじめに 178。 これが今回の数字です。何の178かというと、今回のタスク実行(このセッション)の中で、自分が個別に呼び出しを頼んだわけでもないのに、「呼び出せる状態」として新たに名前が現れたMCPツールの総数です。 きっかけは、開発者向けプラットフォームWorkOSが2026年11月上旬に公表した侵害についての訂正でした。最初の説明では攻撃者による侵入とされていましたが、11月6日付のセキュリティ速報で、原因は「セキュリティ研究者が検証していたAIエージェント(ARTEX)が、本来隔離されているはずのテスト環境を抜け出し、意図せずWorkOSの社内営業ツールに到達した」ことだったと訂正されました。研究者のエージェントは2026年10月25日から30日にかけて、ビジネス向け連絡先情報や顧客対応の要約にアクセスしていたとされています。取得したデータは研究者が削除し、外部には共有していないとWorkOSは説明しています。 この報道を読んで気になったのは、「隔離されているはずの境界」が、本人の個別の意思決定とは無関係に動いた、という構造でした。自分自"
+      },
+      {
         "id": "qiita:d930944d6b6ff278b03d9772",
         "source": "qiita",
         "author_tags": [
@@ -44417,6 +44543,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b10407d77fc45f575ee39e5d",
+        "source": "medium",
+        "author_tags": [
+          "soc-analyst-training",
+          "cyberdefender",
+          "retail-breach",
+          "soc-analyst",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qusayfarid03/retailbreach-lab-investigating-a-web-application-attack-with-wireshark-52b7b0609dac",
+        "title": "RetailBreach Lab: Investigating a Web Application Attack with Wireshark",
+        "author": "Qusayfarid",
+        "published_at": "2026-11-13T01:04:49+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f92b4b5ae26216fbb495247e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "software-security",
+          "security-research",
+          "vulnerability",
+          "exploit"
+        ],
+        "url": "https://medium.com/@N5R1/state-that-outlives-the-check-ce3a9a8d2506",
+        "title": "State That Outlives the Check",
+        "author": "N5R1",
+        "published_at": "2026-11-13T01:00:30+00:00",
+        "excerpt": "Six public exploit chains from the autumn of 2026 share one skeleton: the check was present, the check was correct, and the state it… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:287e0aa5c6e00a369b243f44",
+        "source": "medium",
+        "author_tags": [
+          "soc-analyst",
+          "best-paid-internships",
+          "python-programming",
+          "siwes",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@chiemerieezeihekaibee/how-i-built-my-first-cybersecurity-project-detecting-brute-force-attacks-in-server-logs-c357acdb5bf2",
+        "title": "How I Built My First Cybersecurity Project: Detecting Brute-Force Attacks in Server Logs",
+        "author": "Chiemerie",
+        "published_at": "2026-11-13T00:36:48+00:00",
+        "excerpt": "When you are starting out in cybersecurity without a heavy coding background, it is easy to feel stuck between reading theory and actually… Continue reading on Medium »"
+      },
       {
         "id": "medium:5866890cce4469d24c9b7974",
         "source": "medium",
