@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-14T19:40:02.608067+00:00",
+  "source_snapshot_generated_at": "2026-11-14T20:40:02.653353+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:60c3fb0792e754a82604ff05",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "Rust",
+          "Model Context Protocol",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/hridaya423/articles/fba2811d943de1",
+        "title": "Claude CodeにAndroidとiPhoneを操作させるMCPサーバー「phonedriver」を公開しました",
+        "author": "Hridya Agrawal",
+        "published_at": "2026-11-14T20:22:59.540000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:df5c2dea28970d4e00d19e30",
         "source": "zenn",
@@ -34869,6 +34885,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:89a6a4631cc50c9bb07ec601",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Node.js",
+          "Security",
+          "curl",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/supportapp3/items/88600cdaef86f1221fb4",
+        "title": "外部コマンドが失敗すると例外メッセージに API キーが出る：Python の CalledProcessError と Node の Command failed（実機確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-15T05:11:10+09:00",
+        "excerpt": "結論 API キーを コマンドの引数 に入れて外部コマンドを呼ぶと、そのコマンドが失敗したときの例外メッセージにキーがそのまま入りました（ダミーのキーで確認）。 Python 3.13： subprocess.run(..., check=True) の CalledProcessError → Command '['curl', ..., 'Authorization: Bearer sk-dummy-...']' returned non-zero exit status 7. Python 3.13： timeout= で止まったときの TimeoutExpired にも同じく引数が全部入った Node.js 24： execSync / execFileSync の例外 → Command failed: curl -sS -f -H Authorization: Bearer sk-dummy-... ヘッダを 標準入力から渡す （ curl -H @- ）と、どちらの例外メッセージにもキーは出ず、サーバにはヘッダが届きました。 この例"
+      },
+      {
         "id": "qiita:7e7cf5a57e6d71b528b22f20",
         "source": "qiita",
         "author_tags": [
@@ -47765,6 +47797,86 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:5096d6bc6b2dbd340259f662",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "artificial-intelligence",
+          "chatgpt",
+          "grok",
+          "claude"
+        ],
+        "url": "https://medium.com/@Abestit/ransomware-comment-lia-alimente-une-nouvelle-vague-d-attaques-f6f3263ac10c",
+        "title": "Ransomware : comment l’IA alimente une nouvelle vague d’attaques",
+        "author": "L'ABESTIT",
+        "published_at": "2026-11-14T20:31:36+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9dd4bf7761adc2649fcf1407",
+        "source": "medium",
+        "author_tags": [
+          "grok",
+          "cybersecurity",
+          "artificial-intelligence",
+          "claude",
+          "chatgpt"
+        ],
+        "url": "https://medium.com/@Abestit/ransomware-comment-lia-alimente-une-nouvelle-vague-d-attaques-688665c1c969",
+        "title": "Ransomware : comment l’IA alimente une nouvelle vague d’attaques",
+        "author": "L'ABESTIT",
+        "published_at": "2026-11-14T20:31:35+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:63ee64709deec67dfebb6e47",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "cybersecurity",
+          "web-security",
+          "ethical-hacking",
+          "technology"
+        ],
+        "url": "https://medium.com/@jobinpj541/how-hackers-find-vulnerabilities-in-websites-5f35cb230852",
+        "title": "How Hackers Find Vulnerabilities in Websites",
+        "author": "Jobin",
+        "published_at": "2026-11-14T20:14:20+00:00",
+        "excerpt": "Understanding the techniques hackers use to discover website security weaknesses and how we can protect against them. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2e35e9b098cb0856cb12c090",
+        "source": "medium",
+        "author_tags": [
+          "security-operation-center",
+          "blue-team",
+          "soc",
+          "cybersecurity",
+          "network"
+        ],
+        "url": "https://medium.com/@aleynaacoskun09/temel-network-bilgisi-4eaa0fd2b0ca",
+        "title": "Temel Network Bilgisi",
+        "author": "Aleyna Coşkun",
+        "published_at": "2026-11-14T20:05:04+00:00",
+        "excerpt": "Merhaba, bugün sizlerle SOC stajımdan sonra, SOC’ta staj yapacaklar için bilinmesi gereken temel networkle ilgili bir yazı paylaşıyorum… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d5d65f9fc44ccce3eb29d2f1",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "linux",
+          "digital-forensics",
+          "incident-response",
+          "infosec"
+        ],
+        "url": "https://medium.com/@xpert4cyber/the-rsync-mistake-that-can-wipe-a-backup-a-soc-analysts-linux-cheat-sheet-2026-a2402960227e",
+        "title": "The rsync Mistake That Can Wipe a Backup: A SOC Analyst’s Linux Cheat Sheet (2026)",
+        "author": "Xpert4Cyber",
+        "published_at": "2026-11-14T19:58:17+00:00",
+        "excerpt": "It is 2 a.m. and a Linux server looks compromised. An analyst starts pulling logs with rsync, mixes up source and destination, and adds —… Continue reading on Medium »"
+      },
       {
         "id": "medium:5ae305af4c9520aa501e0e7b",
         "source": "medium",
