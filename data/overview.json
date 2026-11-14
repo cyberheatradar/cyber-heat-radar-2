@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-14T16:06:21.920676+00:00",
-  "as_of": "2026-11-14T16:00:00+00:00",
+  "generated_at": "2026-11-14T17:06:26.480515+00:00",
+  "as_of": "2026-11-14T17:00:00+00:00",
   "catalog_count": 24303,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -278,36 +278,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "cves": [
-        "CVE-2026-6460"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T02:37:59.782833+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-d8cc2172e29e81d09fbb89cd",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:d8cc2172e29e81d09fbb89cd",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-14T01:53:08+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
-      "summary_excerpt": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
-      "threat_actors": [],
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
       "cves": [],
       "document_form": "single_story",
@@ -512,6 +482,36 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "cves": [
+        "CVE-2026-6460"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-14T02:37:59.782833+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-d8cc2172e29e81d09fbb89cd",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:d8cc2172e29e81d09fbb89cd",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-14T01:53:08+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "summary_excerpt": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "threat_actors": [],
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "cves": [
         "CVE-2026-114713",
@@ -573,6 +573,41 @@
       "summary_excerpt": null,
       "threat_actors": [],
       "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "cves": [
+        "CVE-2026-84869"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T01:38:42.595310+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-0c7b196fe26ffd911c70b2b3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0c7b196fe26ffd911c70b2b3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-12T22:08:28+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+      "summary_excerpt": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+      "threat_actors": [],
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths"
     },
     {
       "ai_relevance": "none",
@@ -818,41 +853,6 @@
       "summary_excerpt": null,
       "threat_actors": [],
       "title": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-      "cves": [
-        "CVE-2026-119618"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T06:07:36.380622+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-7c413c5b5223a5760079bec0",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:7c413c5b5223a5760079bec0",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-12T04:49:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Wiz Blog",
-      "summary": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
-      "summary_excerpt": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
-      "threat_actors": [],
-      "title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know"
     }
   ],
   "timeseries_status": {
@@ -876,29 +876,29 @@
     "【LATEST #1】Is AI Making Us Worse at Cybersecurity?",
     "【HOTTEST #1 / Heat 75】Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
     "【LATEST #2】AI悪用攻撃拠点か 世界で千台発見",
-    "【HOTTEST #2 / Heat 67.5】PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+    "【HOTTEST #2 / Heat 65.7】相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
     "【LATEST #3】Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-    "【HOTTEST #3 / Heat 65.7】相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
+    "【HOTTEST #3 / Heat 58.5】Researchers continue to find serious vulnerabilities in internet connected refrigerators",
     "【LATEST #4】No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
-    "【HOTTEST #4 / Heat 58.5】Researchers continue to find serious vulnerabilities in internet connected refrigerators",
+    "【HOTTEST #4 / Heat 58.5】City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
     "【LATEST #5】新たな脅威に対処できるサイバーセキュリティ専門家を構築するNSE認定プログラム",
-    "【HOTTEST #5 / Heat 58.5】City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents"
+    "【HOTTEST #5 / Heat 58.5】German military drone operations disrupted by cyberattack"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-11T16:00:00+00:00",
-    "last_as_of": "2026-11-14T16:00:00+00:00",
+    "first_as_of": "2026-11-11T17:00:00+00:00",
+    "last_as_of": "2026-11-14T17:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-14T16:00:00+00:00",
-  "heat_as_of": "2026-11-14T16:00:00+00:00",
+  "news_as_of": "2026-11-14T17:00:00+00:00",
+  "heat_as_of": "2026-11-14T17:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 24303,
-  "last_published_at": "2026-11-15T01:06:33.166188+09:00",
-  "publication_slot_jst": "2026-11-15T01:00:00+09:00"
+  "last_published_at": "2026-11-15T02:06:37.919962+09:00",
+  "publication_slot_jst": "2026-11-15T02:00:00+09:00"
 }
