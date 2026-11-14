@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-14T08:40:02.945998+00:00",
+  "source_snapshot_generated_at": "2026-11-14T09:40:02.893293+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:0f77d038f5c575ac2f2a2203",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Windows",
+          "llm",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/wisteriacorp/articles/wisteria-683ca00f597f",
+        "title": "Claude Code を無人で回す設計 — 6 段の型と、exit 0 を信じて 5 週間失敗し続けた話",
+        "author": "Wisteria",
+        "published_at": "2026-11-14T09:26:04.315000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e26d77050c42b33e838387d6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "副業",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/solocompanylab/articles/01-company-mode",
+        "title": "副業を“会社化”したら、PCを閉じても回るようになった話",
+        "author": "ひとり会社ラボ",
+        "published_at": "2026-11-14T08:56:28.474000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:5d3ec959bd76426ea800af0a",
         "source": "zenn",
@@ -34268,6 +34299,70 @@
     ],
     "qiita": [
       {
+        "id": "qiita:9130a7fb4204ad8f4da35936",
+        "source": "qiita",
+        "author_tags": [
+          "SonarQube",
+          "SAST",
+          "DevSecOps",
+          "Security",
+          "レガシーコード"
+        ],
+        "url": "https://qiita.com/r-jw/items/ce3efbbe831ea4ef8606",
+        "title": "巨大なレガシーコードに SAST を入れるには：SonarQube の Clean as You Code",
+        "author": "r-jw",
+        "published_at": "2026-11-14T18:11:24+09:00",
+        "excerpt": "この記事は、クリエーションライン Tech Blog の記事「「巨大な既存コードにSASTは導入できない」は本当？開発を止めずに始めるレガシーコードのセキュリティ対策｜DevSecOps.」の要約です。元の記事： 「巨大な既存コードにSASTは導入できない」は本当？開発を止めずに始めるレガシーコードのセキュリティ対策｜DevSecOps. Clean as You Code とは、これから書くコード（新規・変更コード）の品質とセキュリティだけに集中する、SonarQube が提唱するやり方です。巨大なレガシーコードに SAST を入れると、既存コードの大量の指摘で開発が止まりかねません。しかし、過去のコードを直す予算も時間もなく、リリースも止められません。それでも、脆弱性を放っておくリスクからは逃げられない、というのが多くのチームの悩みです。 この記事でわかること 巨大な既存コードに SAST を入れるときの考え方 Clean as You Code で、触ったところから直る仕組み 既存コードの重大なリスクの扱い方 過去のコードは一旦置き、今日の"
+      },
+      {
+        "id": "qiita:6bba6438ef3793ab305efb5a",
+        "source": "qiita",
+        "author_tags": [
+          "SonarQube",
+          "SAST",
+          "DevSecOps",
+          "Security",
+          "静的解析"
+        ],
+        "url": "https://qiita.com/r-jw/items/055a09d195731e7df1f7",
+        "title": "SAST 導入でつまずく 3 つの壁と、SonarQube で段階的に進める方法",
+        "author": "r-jw",
+        "published_at": "2026-11-14T18:11:23+09:00",
+        "excerpt": "この記事は、クリエーションライン Tech Blog の記事「SAST導入で”失敗”する3つの理由と対策｜SonarQubeで実現する段階的コードセキュリティ運用｜DevSecOps」の要約です。元の記事： SAST導入で”失敗”する3つの理由と対策｜SonarQubeで実現する段階的コードセキュリティ運用｜DevSecOps DevSecOps の普及とともに、多くの企業で SAST の導入が欠かせなくなりました。ところが、導入しても現場に定着せず、形だけになることが少なくありません。元の記事の中心にあるのは、SAST の運用を 検知とブロックに分けて考える ことです。検知は問題のあるコードを見つけて知らせ、ブロックは基準を満たさないコードのマージを止めます。 この記事でわかること SAST 導入でぶつかる 3 つの壁 検知とブロックを分ける考え方 開発を止めずに進めるための、SonarQube の 3 つの機能 SAST 導入でぶつかる 3 つの壁 SAST を導入しようとすると、現場ではしばしば次の 3 つの壁にぶつかります。 アラートのノ"
+      },
+      {
+        "id": "qiita:d0d4e09c4fffd38ef7ef407b",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ハニーポット",
+          "soc",
+          "LLM",
+          "Splunk"
+        ],
+        "url": "https://qiita.com/yoshi1339/items/f60b554a11b6059cb8bf",
+        "title": "自宅ラボでAI支援型SOCを組んだ — ローカルモデルで「何をされたか」まで1分で出す",
+        "author": "yoshi1339",
+        "published_at": "2026-11-14T18:06:31+09:00",
+        "excerpt": "はじめに 攻撃にAIが使われる昨今、防御側がAIをどう運用するか、どんなメリットがあるかを自分ができる範囲で試してみたくなった。 何をやったか 脆弱なSSHパスワードを設定したハニーポットを公開しつつ、監視においてはAI 支援型 SOC を組み実験した。 AI 支援型と表現したのは、 判断と実行は人間 AI は要約・仮説・次の一手まで という分担のことで完全自律ではない。 前回のハニーポット実験にて、SSHトンネルを張られ外部への通信を許した経験から、SSHトンネリングを検知した場合は自律的に隔離する設計を取り入れている。 先に結論 攻撃者のSSHログイン成功から約1分後に「侵害済み」と出力 偽 sshd の実行から29秒後にその起動を出力 ポート1919 の待受までは2分弱で出力 初動で「やられたか」「何をされたか」を掴む用途としては、十分に使えると感じた 環境 ハニーポット環境 マシン 役割 AWS EC2 グローバルIPを持ち、SSHをDNATし自宅ハニーポットに転送 OPNsense#2 EC2とのVPN(WireGuard) ファイアー"
+      },
+      {
+        "id": "qiita:404c542e4b5c505da1724d64",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "生成AI",
+          "ClaudeCode",
+          "Security",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/pitaspot/items/9daeef16dfae6c928f64",
+        "title": "ゴールドマン・サックス、トレーダーからClaude Codeを回収――「読めないコード」を現場に置けない理由",
+        "author": "pitaspot",
+        "published_at": "2026-11-14T18:03:43+09:00",
+        "excerpt": "📰 海外事例 元記事： Goldman Sachs is pulling Claude Code from its bankers and traders（thestateofai.com） ゴールドマン・サックスが10月に社内指針を改め、Claude CodeとGitHubをエンジニア限定にした、とThe State of AIがBloombergの報道をもとに伝えています。トレーダーやバンカーは、顧客の取引の流れを見たり相場をモデル化したりするのに使っていました。現場の人が作った便利なツールを取り上げる判断について、記事の筆者は「制限は正しいが、やり方は間違っていた」と評しています。 トレーダーは何に使っていたか トレーダーらは、顧客の取引の流れを追う、相場の動きや持ち高をモデル化する、資料を作るといった作業に使っていました。最高情報責任者のマルコ・アルジェンティ氏は7月、技術職でない社員による「バイブコーディング」（AIに話しかけて作る開発）を称賛し、現場の人が作ったツールを約1万2,000人のエンジニアが磨く流れを紹介していました。問題だ"
+      },
+      {
         "id": "qiita:1781c3a2653910166399685d",
         "source": "qiita",
         "author_tags": [
@@ -47025,6 +47120,82 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:697d80d642e9ed39e06d626c",
+        "source": "medium",
+        "author_tags": [
+          "ai-and-cybersecurity",
+          "cybersecurity",
+          "hacking"
+        ],
+        "url": "https://medium.com/@guliyevcss18/the-illusion-of-digital-security-why-even-big-organizations-get-hacked-3e1cd1ea19e9",
+        "title": "The Illusion of Digital Security: Why Even Big Organizations Get Hacked",
+        "author": "Abid Guliyev",
+        "published_at": "2026-11-14T09:17:13+00:00",
+        "excerpt": "An analysis of security flaws in the Binance cyberattack and PHP2Shell vulnerabilities to determine lessons learned by businesses and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d5c3510644d58243a3cce606",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "cybersecurity",
+          "ai-security",
+          "cyber-threat-intelligence"
+        ],
+        "url": "https://bbinfosec.medium.com/cybersecurity-2027-the-last-packet-and-the-first-autonomous-agent-5c0677cab100",
+        "title": "Cybersecurity 2027: The Last Packet and the First Autonomous Agent",
+        "author": "Bbinfosec",
+        "published_at": "2026-11-14T09:13:55+00:00",
+        "excerpt": "From raw sockets and memory corruption to SCADA, cloud identity, autonomous exploitation, and AI-agent trust boundaries — a researcher’s… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c956c96a1204b808e680fb75",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cyber",
+          "cybersecurity-training",
+          "cybersecurity-careers"
+        ],
+        "url": "https://medium.com/@karunavcube/cyber-security-career-guide-2027-skills-courses-and-job-opportunities-in-hyderabad-6f674bded3b2",
+        "title": "Cyber Security Career Guide 2027: Skills, Courses, and Job Opportunities in Hyderabad",
+        "author": "karunakar",
+        "published_at": "2026-11-14T09:11:17+00:00",
+        "excerpt": "Cyber security has become an important part of the digital world. Businesses, banks, healthcare organizations, and government institutions… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0d6a54c2993f02e55cbc507d",
+        "source": "medium",
+        "author_tags": [
+          "aml-compliance",
+          "financial-crime",
+          "fintech",
+          "cybersecurity",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@uaefinance/the-future-of-aml-cft-how-artificial-intelligence-regtech-and-cybersecurity-are-transforming-363f0ce44e59",
+        "title": "THE FUTURE OF AML/CFT: HOW ARTIFICIAL INTELLIGENCE, REGTECH AND CYBERSECURITY ARE TRANSFORMING…",
+        "author": "Muhammad Shahzad Alam",
+        "published_at": "2026-11-14T09:03:18+00:00",
+        "excerpt": "From traditional transaction monitoring to intelligent, technology-driven financial integrity. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d24dea872c6ddc9331ef3596",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "infosec",
+          "hdf5",
+          "python",
+          "vulnerability"
+        ],
+        "url": "https://r3vpwnx.medium.com/three-ways-one-hdf5-reader-runs-your-code-4f5806b3484a",
+        "title": "Three Ways One HDF5 Reader Runs Your Code",
+        "author": "Dilanka Kaushal Hewage (r3vpwnx)",
+        "published_at": "2026-11-14T08:54:40+00:00",
+        "excerpt": "eval, import-by-name, and unpickle, all reachable by opening a file (CVE-2026–120499) Continue reading on Medium »"
+      },
       {
         "id": "medium:374e37037a568a78d02a5718",
         "source": "medium",
