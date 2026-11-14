@@ -1,9 +1,72 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-14T04:40:03.243870+00:00",
+  "source_snapshot_generated_at": "2026-11-14T05:40:03.335298+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:6df478cc120959e06fc17df6",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "Agent",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/soulgemanalyst/articles/9f4fc24cb3953a",
+        "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
+        "author": "SoulGemAnalyst",
+        "published_at": "2026-11-14T05:32:02.582000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0ed351e2965bcf2ecdd44aa5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Markdown",
+          "自動化",
+          "生成 AI",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/menmen_ailab/articles/875b68bf972d4f",
+        "title": "毎朝Claudeにやることを拾ってもらう仕組みで、直したのはプロンプトではなく自分のメモの書き方だった",
+        "author": "実践AI活用ラボ",
+        "published_at": "2026-11-14T05:30:43.310000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0a449e4e009314c32c47488d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "promptengineering",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/maura/articles/fb116d2696f49b",
+        "title": "Claude Fable 5.2 の公式プロンプト指南で指示書を棚卸ししたら、2日で逆を走っていた",
+        "author": "まうら",
+        "published_at": "2026-11-14T05:08:00+00:00",
+        "excerpt": "2026年11月9日に、Anthropic の新しいモデル Claude Fable 5.2 が出ました。公式ドキュメントには、このモデル向けのプロンプトの書き方をまとめたページがあります（Claude Fable 5.2へのプロンプト）。その中に「以前のモデル向けに設計されたプロンプトとハーネスを見直す」という節があり、見直す物が7つ並んでいます。 私はこの4か月、Claude Code に毎日の作業を任せながら、AI が読む指示書を育ててきました。CLAUDE.md のほかに、作業ごとの手順書があります。AI が自分で書き足していく記憶（Claude Code のメモリ）もあります。..."
+      },
+      {
+        "id": "zenn:443a87213cdd791001027a8f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "命名",
+          "レビュー",
+          "ndd"
+        ],
+        "url": "https://zenn.dev/good_relax/articles/25913f886c0b09",
+        "title": "NDD 命名駆動開発 レビューの解説本を書いたよ！",
+        "author": "GoodRelax",
+        "published_at": "2026-11-14T04:53:37+00:00",
+        "excerpt": "本を書いた。Kindle 本。 1500円。 👉 Amazon: 『ソフトウェアレビュー観点のだいたい全部』「NDD（命名駆動開発）で AI と作るソフトのレビュー基準」 おっさんが、普段のソフト開発で使っているレビュー基準を、図で解説した本だ。 なんで本？ かわいい後輩のため。 おっさんは、ソフトウェアNDD開発レビュー基準書ってのを書いてGitHub で公開しているけど、初心者にAI向けの文字ばっかり1000行ぐらいある基準書を理解しろって、無理筋なのはわかってた。 せめて図で解説しないとなぁ...と。 あとはまぁ、酔った勢いで始めたから。 (笑) 大事なことはここに書くし..."
+      },
       {
         "id": "zenn:a4ee145d92307b214a555937",
         "source": "zenn",
@@ -34084,6 +34147,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c499efcfe5ce68e407701e0b",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "ClaudeCode",
+          "codex",
+          "Security",
+          "Plugin"
+        ],
+        "url": "https://qiita.com/soulgemanalyst/items/20e7c72cc2006a331445",
+        "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
+        "author": "soulgemanalyst",
+        "published_at": "2026-11-14T13:54:47+09:00",
+        "excerpt": "AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.com/jp/blogs/news/aws-security-handson-series/ 本記事では、上記ハンズオンの11月11日開催回「Claude/GPT などのフロンティアモデルを活用したソースコードの脆弱性対策 ハンズオン」をもとに、Claude Security plugin、Codex Security plugin、AWS Security Agent のコードレビューを比較します。 今回はハンズオンで扱った内容に加え、独自の検証も行いました。 先日、AWS Security Agent でコードレビューした OWASP Juice Shop に対して、Claude Security plugin と Codex Security plugin でも同じようにコードレビューしました。 各ツールの結果の比較や、各ツールを組み合わせるときの役割分担も紹介します。 なお、AWS Security Agentによるコードレビューについては、私が以前実践"
+      },
+      {
         "id": "qiita:d7324fb8255732542e0d7ea5",
         "source": "qiita",
         "author_tags": [
@@ -46795,6 +46874,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d962b0c6735434b20c507476",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "seo",
+          "incident-response",
+          "seo-tips"
+        ],
+        "url": "https://medium.com/@qnayds.seo/incident-response-how-organizations-handle-cybersecurity-attacks-a2a95019f649",
+        "title": "Incident Response: How Organizations Handle Cybersecurity Attacks",
+        "author": "Qnayds Seo",
+        "published_at": "2026-11-14T05:28:44+00:00",
+        "excerpt": "In today’s digital world, cybersecurity threats are becoming more common. Businesses, websites, and organizations store large amounts of… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:48f68a1dd084203db47bb28b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "web-application-security",
+          "ethical-hacking",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@cyb3rD1vvya/from-p4-to-p1-day-16-race-condition-vulnerabilities-finding-and-exploiting-time-based-logic-545999610673",
+        "title": "From P4 to P1: Day 16 — Race Condition Vulnerabilities: Finding and Exploiting Time-Based Logic…",
+        "author": "cyb3rD1vvy@",
+        "published_at": "2026-11-14T05:12:35+00:00",
+        "excerpt": "Series: From P4 to P1 Day: 16 of 30 Topic: Race Condition Vulnerabilities Category: Web Application Security | API Security Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0a2c73739562952bfc1d4f3a",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "phishing-defense",
+          "email-security",
+          "ai",
+          "karanam-shrivasta"
+        ],
+        "url": "https://medium.com/@Karanam-Shrivasta/part-27-email-security-phishing-defense-364195d4b8a1",
+        "title": "Part 27 — Email Security & Phishing Defense",
+        "author": "Karanam Shrivasta",
+        "published_at": "2026-11-14T05:06:01+00:00",
+        "excerpt": "# Part 27 — Email Security & Phishing Defense Continue reading on Medium »"
+      },
       {
         "id": "medium:280eca61b73f7047456aa551",
         "source": "medium",
