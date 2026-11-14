@@ -1,9 +1,70 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-14T00:40:02.667456+00:00",
+  "source_snapshot_generated_at": "2026-11-14T01:40:03.222107+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:622a6ade2e99eb6eebfc7fa6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Rust"
+        ],
+        "url": "https://zenn.dev/kentaro36/articles/why-rust-is-getting-attention",
+        "title": "なぜ今、Rustが注目されるのか：言語の歴史、Pythonとの関係、AI基盤の事例から",
+        "author": "SeaOtter 🦦(Kentaro Mori)",
+        "published_at": "2026-11-14T01:37:39.485000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1de6fd6d2d002f7c94510597",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "農業",
+          "トレンド",
+          "アグリテック"
+        ],
+        "url": "https://zenn.dev/unagi_labo/articles/bda6b0b30a6113",
+        "title": "農業×AI週間トレンド 11/7〜11/14",
+        "author": "miyatada",
+        "published_at": "2026-11-14T01:17:18.515000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:44af3fba0c54a3feb7f10cd9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "automation",
+          "multiagent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/neuralalpha/articles/hourly-relay-sessions",
+        "title": "毎時の「連絡係」セッションで、複数の Claude セッションをつなぐ",
+        "author": "NeuralAlpha",
+        "published_at": "2026-11-14T01:05:48.090000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b4e79ad811d741cc548fa877",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "自動化",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kirinukiauto/articles/b031c8dba3cea7",
+        "title": "Claude Codeに縦のショートを作らせたら、検査は全部合格なのに字幕が5か所おかしかった",
+        "author": "キリヌキ自動化ラボ",
+        "published_at": "2026-11-14T01:00:17.956000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:503275ee466c78c1ed535979",
         "source": "zenn",
@@ -33709,6 +33770,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e0c153da33fa29289de1b501",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Python",
+          "LLM",
+          "生成AI",
+          "Security"
+        ],
+        "url": "https://qiita.com/pds_siken/items/a65ea3bf15c5d7d0ec57",
+        "title": "AIエージェントの正体は「ループ」だった｜APIキー不要、Python 50行以内で仕組みを再現する",
+        "author": "pds_siken",
+        "published_at": "2026-11-14T10:29:18+09:00",
+        "excerpt": "はじめに 「AIエージェント」という言葉をよく聞くようになりました。チャットで答えるだけでなく、\"自分で道具（ツール）を選んで使い、タスクを進める\"AIのことです。 難しそうに聞こえますが、仕組みの骨格は意外とシンプルです。 AI（LLM）が「どのツールを、どの引数で呼ぶか」を決める プログラムがそのツールを実行し、結果をAIに返す AIが「もう答えられる」と判断するまで、1〜2を繰り返す 本記事では、LLMの部分をルールベースの「ニセLLM」に置き換えて、\"APIキーなし・標準ライブラリだけ\"でこのループを再現します。あわせて、エージェントを作るときに欠かせない安全対策も実装します。 ツールを用意する import ast , json , operator def get_weather ( city : str ) -> str : return { \" 東京 \" : \" 晴れ 18℃ \" , \" 大阪 \" : \" くもり 17℃ \" }. get ( city , \" 不明 \" ) OPS = { ast . Add : operator"
+      },
+      {
+        "id": "qiita:0e2b4643c5056e8a5afd34cd",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Web",
+          "初心者",
+          "IT資格"
+        ],
+        "url": "https://qiita.com/pds_siken/items/a7032fe29f9ec113463b",
+        "title": "エンジニアなら全問正解したい！セキュリティ攻撃手法の一問一答15問【答えは折りたたみ】",
+        "author": "pds_siken",
+        "published_at": "2026-11-14T10:29:15+09:00",
+        "excerpt": "はじめに ニュースや脆弱性情報でよく見る攻撃手法の名前。なんとなく知っているつもりでも、「違いを説明して」と言われると意外と詰まるものです。 本記事では、エンジニアなら押さえておきたい攻撃手法を15問の一問一答にしました。答えは折りたたんでいるので、考えてから開いてみてください。 第1部：Webアプリケーションへの攻撃 Q1. 入力欄に ' OR '1'='1 のような文字列を入れて、データベースを不正に操作する攻撃は？ 答えを見る \"SQLインジェクション\"。対策は、プレースホルダ（バインド変数）を使ってSQLを組み立てること。文字列連結でSQLを作らない。 Q2. 掲示板などに悪意のあるスクリプトを埋め込み、閲覧者のブラウザで実行させる攻撃は？ 答えを見る \"クロスサイトスクリプティング（XSS）\"。対策は、出力時のエスケープ処理と、Content-Security-Policy の設定。 Q3. ログイン中の利用者に罠のリンクを踏ませ、本人の意図しない操作（送金・投稿など）をさせる攻撃は？ 答えを見る \"クロスサイトリクエストフォージェリ（"
+      },
+      {
         "id": "qiita:d49de2e5c20acd33e5d97fe9",
         "source": "qiita",
         "author_tags": [
@@ -46247,6 +46339,35 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f99806840afa111c29af20c2",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "internet",
+          "acces",
+          "news",
+          "zero-day"
+        ],
+        "url": "https://mraviteja9949.medium.com/how-hackers-gained-root-access-to-it-management-servers-8fff251554c4",
+        "title": "How Hackers Gained Root Access to IT Management Servers",
+        "author": "Raviteja Mureboina",
+        "published_at": "2026-11-14T00:42:01+00:00",
+        "excerpt": "In November 2026, attackers exploited serious security vulnerabilities in N-able N-central, an IT management platform used by… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:209941a36fff9a86a26d6375",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "tryhackme-writeup"
+        ],
+        "url": "https://medium.com/@hunterXX/tryhackme-toolsrus-ctf-writeup-4a46da74b37e",
+        "title": "TryHackMe ToolsRus | CTF Writeup",
+        "author": "Muhammediisa",
+        "published_at": "2026-11-14T00:37:23+00:00",
+        "excerpt": "Nmap Scanning Continue reading on Medium »"
+      },
       {
         "id": "medium:eab38f54482b00c0526c9ce4",
         "source": "medium",
