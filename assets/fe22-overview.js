@@ -218,22 +218,10 @@
         "div",
         "fe22-trend-grid"
       );
+    trends.style.gridTemplateColumns = "minmax(0, 1fr)";
 
     const timeseries =
       data.timeseries_status || {};
-
-    trends.appendChild(
-      timeseries.rising === "ready"
-        ? lane(
-            "急上昇",
-            data.definitions.rising,
-            data.rising || []
-          )
-        : collectingLane(
-            "急上昇",
-            data.definitions.rising
-          )
-    );
 
     trends.appendChild(
       timeseries.persistent_hot
