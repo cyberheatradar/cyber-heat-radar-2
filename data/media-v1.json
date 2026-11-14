@@ -1,9 +1,86 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-14T09:40:02.893293+00:00",
+  "source_snapshot_generated_at": "2026-11-14T10:40:02.880875+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ed01f3846703a3475f789d0a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "llm"
+        ],
+        "url": "https://zenn.dev/ithibo/articles/ai-council-operations",
+        "title": "AI同士に直接やり取りさせる——複数AI分業「AI議会」の運用設計",
+        "author": "ルナ［EidosFrontier広報］",
+        "published_at": "2026-11-14T10:30:52.697000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:933ccaf49510244a8df8cb3f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "prompt",
+          "ChatGPT"
+        ],
+        "url": "https://zenn.dev/andyailab/articles/b2ecccea7457f2",
+        "title": "ChatGPTのカスタム指示で業界用語と表記ゆれを防ぐ設定手順",
+        "author": "アンディ",
+        "published_at": "2026-11-14T10:30:51.385000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:96ea30045c71f708a4feaa02",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "architecture",
+          "llm",
+          "voicebot"
+        ],
+        "url": "https://zenn.dev/ai_sns_io/articles/fba438525e7ca4",
+        "title": "AI電話応対の会話フローを状態遷移で設計する：受付→ヒアリング→取次ぎ・要約まで",
+        "author": "AI-SNS.IO",
+        "published_at": "2026-11-14T10:28:18.184000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e7f324df9a6296d8918c8361",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "LangChain",
+          "llm",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/akisayo/articles/ai-engineering-rag-debugging-guide",
+        "title": "「プロンプト改善一辺倒」から脱却！AIの中身を理解して「精度改善」にコミットするエンジニアへ：RAGの失敗診断から学ぶ実務の基本",
+        "author": "Sayoko Akiike",
+        "published_at": "2026-11-14T10:24:50.131000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fde57a97de81170640eb593a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Chatbot",
+          "llm",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/ai_sns_io/articles/aa37d3cea95c6c",
+        "title": "問い合わせ対応AIチャットのRAG設計：引用つき回答・「分からない」判定・有人エスカレーション",
+        "author": "AI-SNS.IO",
+        "published_at": "2026-11-14T10:21:09.645000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:0f77d038f5c575ac2f2a2203",
         "source": "zenn",
@@ -34299,6 +34376,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e51ff711db528ba36ad84c22",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AzureVirtualDesktop",
+          "sentinel",
+          "KQL",
+          "EntraID"
+        ],
+        "url": "https://qiita.com/maru_kajiri/items/4b6dfd5fef9b42242615",
+        "title": "AVD の不正アクセスを「Entra 認証と AVD 接続のズレ」で検知する — 検知ルールの検討アプローチ",
+        "author": "maru_kajiri",
+        "published_at": "2026-11-14T19:21:56+09:00",
+        "excerpt": "はじめに Azure Virtual Desktop（AVD）への不正アクセスを Microsoft Sentinel / Defender XDR で検知しようとすると「どのログの、どの値を見ればよいのか」で迷います。 AVD への接続は Entra ID での認証 と AVD セッションホストへの接続 の 2 段階で成り立っており、ログも別々のテーブルに分かれて記録されるためです。 この記事では、検証環境で実際にログを採取しながら検知ルールを検討した過程を、次の流れで紹介します。 AVD には「Entra 認証」と「AVD の認証（接続）」の 2 段階があり、それぞれ記録されるログが違うことを実測で確認した トークンを盗まれた場合、この 2 つのログに 食い違い（ズレ） が出るはずだと考えた 仮説を立てて検知ルールを検討し、最終的に 4 つの検知ルール にまとめた 想定読者 : AVD を運用しており、Sentinel / Defender XDR で不正アクセスの検知ルールを設計したい SOC・セキュリティ担当者 注意事項 本記事の内容は、"
+      },
+      {
         "id": "qiita:9130a7fb4204ad8f4da35936",
         "source": "qiita",
         "author_tags": [
@@ -47120,6 +47213,21 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:12ae844b6f3004451ff6b58e",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-assessment",
+          "ethical-hacking",
+          "cybersecurity",
+          "information-security"
+        ],
+        "url": "https://medium.com/@qnayds12/why-vulnerability-assessment-is-important-in-cybersecurity-25fd2a7cbac8",
+        "title": "Why Vulnerability Assessment Is Important in Cybersecurity",
+        "author": "Qnayds",
+        "published_at": "2026-11-14T09:59:56+00:00",
+        "excerpt": "A computer system may appear to work perfectly while still containing security weaknesses. An outdated application, an exposed network… Continue reading on Medium »"
+      },
       {
         "id": "medium:697d80d642e9ed39e06d626c",
         "source": "medium",
