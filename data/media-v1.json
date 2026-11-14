@@ -1,9 +1,104 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-14T02:40:02.928260+00:00",
+  "source_snapshot_generated_at": "2026-11-14T03:40:03.181680+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:8d22d3d0f09808cb326dfd14",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "backdoor",
+          "llm",
+          "Supply Chain"
+        ],
+        "url": "https://zenn.dev/coworker_jp/articles/open-weight-llm-weights-backdoor",
+        "title": "オープンウェイトLLMの重みにバックドアを仕込む：LoRA 差分の SVD でわかること・わからないこと",
+        "author": "CoWorker 株式会社",
+        "published_at": "2026-11-14T03:28:10.336000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dd3b922adf769ff440f96177",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "コードレビュー",
+          "生産性向上",
+          "CodeRabbit"
+        ],
+        "url": "https://zenn.dev/inflab/articles/d55a8ea290bb63",
+        "title": "コードレビューの妖精、CodeRabbitが現れた 🐰",
+        "author": "Inflab",
+        "published_at": "2026-11-14T03:27:03.536000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:38bf8ed019c74400c88fd9c0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Claude",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/teradhiro1257/articles/20261113_claude-code-model-split-pipeline",
+        "title": "【Claude Code】モデル分業したら、Opus 1体の約2.7倍トークンかかった",
+        "author": "Hiro",
+        "published_at": "2026-11-14T03:24:11.529000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b65dff2c6e93d080b676289b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Slack",
+          "自動化",
+          "生産性",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/tamai_hideyuki/articles/slack-curiosity-memo-with-claude",
+        "title": "後で調べる疑問はSlackに書き捨てる。毎朝7時にClaudeがスレッドで答えてくれる仕組み",
+        "author": "hideyuki",
+        "published_at": "2026-11-14T03:06:22.795000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:578b32c05564fbabb8033ad5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "workflow",
+          "エンタープライズ",
+          "llm",
+          "Dify"
+        ],
+        "url": "https://zenn.dev/sidejob/articles/a2e53bcf421497b39",
+        "title": "Dify v1.18.0のOutput Routesとポータブルアプリ——Dify Enterprise本番での変更点と設計への影響",
+        "author": "AIを真剣に考える",
+        "published_at": "2026-11-14T02:44:41.867000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ace5634c675edac451cb3057",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "CI",
+          "codereview",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yubel/articles/ai-code-review-beyond-the-diff",
+        "title": "AIコードレビューの難所は「差分の外」にあった — 小さなPR2本で出た5つの型",
+        "author": "yubel",
+        "published_at": "2026-11-14T02:44:01.359000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ff4d3745fa06199c20b4d4d2",
         "source": "zenn",
@@ -33910,6 +34005,70 @@
     ],
     "qiita": [
       {
+        "id": "qiita:8355be86184550993501dbfb",
+        "source": "qiita",
+        "author_tags": [
+          "WordPress",
+          "Security",
+          "REST-API",
+          "PHP",
+          "不正ログイン対策"
+        ],
+        "url": "https://qiita.com/BLSTWEB/items/1c5474460675176c0366",
+        "title": "WordPressのログイン名の手がかりが、/wp-json/wp/v2/users から誰でも見えていた",
+        "author": "BLSTWEB",
+        "published_at": "2026-11-14T12:39:14+09:00",
+        "excerpt": "WordPress のサイトを点検していて、 ログインしていない人でも、ユーザーの一覧を取れる状態 になっていることに気づきました。標準の REST API の /wp-json/wp/v2/users です。 筆者のサイト（BLST VPN Navi）は、ネットの「見られる・盗まれる・つながらない」という悩みに、各社の公式の案内と毎日取得する料金データで答えるガイドです。紹介しているサービスの一部からアフィリエイト報酬を受け取っています。この記事は技術的な話で、特定のサービスをすすめるものではありません。 何が見えていたか ブラウザで次の URL を開くだけで、記事を書いたことのあるユーザーの一覧が JSON で返ってきました。 https://example.com/wp-json/wp/v2/users 返ってくる項目には、表示名のほかに slug があります。 slug は著者ページの URL に使われる値で、初期設定ではログイン名から作られます。 [ { \"id\" : 1 , \"name\" : \"表示名\" , \"slug\" : \"log"
+      },
+      {
+        "id": "qiita:b1edfa3a1f1a2efec2f6d8dc",
+        "source": "qiita",
+        "author_tags": [
+          "GitHub",
+          "GitHubActions",
+          "Security",
+          "dependabot",
+          "AI"
+        ],
+        "url": "https://qiita.com/maya-bot/items/3a26fc8b1606d52f0feb",
+        "title": "AIと作る公開リポジトリの守り方：無料でできるルールセット・SHA固定・Dependabot・CodeQL",
+        "author": "maya-bot",
+        "published_at": "2026-11-14T12:23:08+09:00",
+        "excerpt": "AIにコードを書かせて、GitHubで公開する。とても手軽になりましたが、守りの設定は後回しになりがちです。 この記事では、15個の公開リポジトリに 無料で 入れた守りの設定を、手順つきで紹介します。AIがmainに直接pushする運用でも困らない形にしています。 題材は shoyo-maya-bot のリポジトリ群です。 全体像 守り 防ぐもの だれが設定するか ルールセット mainの削除・履歴の書き換え 人（設定画面） 非公開の脆弱性報告 脆弱性が公開のIssueに書かれる 人（設定画面） Dependabot alerts 依存の既知の脆弱性に気づかない 人（設定画面） SECURITY.md 報告の方法が分からない AIでも書ける CODEOWNERS だれがレビューするか決まっていない AIでも書ける CodeQL コードの脆弱性 AIでも書ける ActionsのSHA固定 使っているActionが差し替えられる AIでも書ける Dependabot（更新） 依存が古いまま AIでも書ける gitleaks 秘密情報をコミットする A"
+      },
+      {
+        "id": "qiita:0d26ee3099017f2d56bba976",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "IAM",
+          "MFA",
+          "Security",
+          "初心者"
+        ],
+        "url": "https://qiita.com/tomo_AWS-Engineer-Blogger/items/6993ba8f4bbf634160ca",
+        "title": "【AWS】マネジメントコンソールへの初回ログインとMFA有効化の手順（IAMユーザー）",
+        "author": "tomo_AWS-Engineer-Blogger",
+        "published_at": "2026-11-14T12:13:09+09:00",
+        "excerpt": "この記事でできること IAMユーザーでAWSマネジメントコンソールに初めてログインし、MFA（多要素認証）を有効化して、MFAありでログインし直すまでの一連の手順をまとめます。 前提 IAMユーザーのアカウントID（12桁）またはアカウントエイリアス、ユーザー名、初期パスワードが手元にあること スマートフォンに認証アプリ（Google Authenticator／Microsoft Authenticator／Twilio Authy のいずれか）を用意できること 本稿の画面・手順は2024年頃のコンソールUIに基づきます。現行UIでは、IAMユーザーの詳細画面（セキュリティ認証情報）からMFAデバイスを割り当てる導線になっています 1. コンソールへログインする（MFAなし） https://console.aws.amazon.com/ にアクセスし、ログイン画面に遷移する アカウントID（12桁）またはアカウントエイリアス、ユーザー名、パスワードを入力する [サインイン]をクリックする ログインが完了したことを確認する 以上で、MFAなしの"
+      },
+      {
+        "id": "qiita:f1908cbb0a011b229552c533",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "セキュリティニュース",
+          "Microsoft365",
+          "障害"
+        ],
+        "url": "https://qiita.com/Kerdy/items/21d8fe24bf1b32d2d7b0",
+        "title": "11/14、今日のセキュリティニュース｜Microsoft 365障害、Outlookだけではない DefenderやPurviewまで巻き込む広範囲の影響｜「Git」に複数の脆弱性 - アップデート",
+        "author": "Kerdy",
+        "published_at": "2026-11-14T11:53:35+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 良かったら、高評価とチャネル登録をお願いします🙇 Microsoft 365障"
+      },
+      {
         "id": "qiita:41f0de5fde97254a57332865",
         "source": "qiita",
         "author_tags": [
@@ -33969,6 +34128,22 @@
         "author": "pds_siken",
         "published_at": "2026-11-14T10:29:15+09:00",
         "excerpt": "はじめに ニュースや脆弱性情報でよく見る攻撃手法の名前。なんとなく知っているつもりでも、「違いを説明して」と言われると意外と詰まるものです。 本記事では、エンジニアなら押さえておきたい攻撃手法を15問の一問一答にしました。答えは折りたたんでいるので、考えてから開いてみてください。 第1部：Webアプリケーションへの攻撃 Q1. 入力欄に ' OR '1'='1 のような文字列を入れて、データベースを不正に操作する攻撃は？ 答えを見る \"SQLインジェクション\"。対策は、プレースホルダ（バインド変数）を使ってSQLを組み立てること。文字列連結でSQLを作らない。 Q2. 掲示板などに悪意のあるスクリプトを埋め込み、閲覧者のブラウザで実行させる攻撃は？ 答えを見る \"クロスサイトスクリプティング（XSS）\"。対策は、出力時のエスケープ処理と、Content-Security-Policy の設定。 Q3. ログイン中の利用者に罠のリンクを踏ませ、本人の意図しない操作（送金・投稿など）をさせる攻撃は？ 答えを見る \"クロスサイトリクエストフォージェリ（"
+      },
+      {
+        "id": "qiita:f4446f2f79f04cd359b7b457",
+        "source": "qiita",
+        "author_tags": [
+          "SSH",
+          "vps",
+          "Linux",
+          "Security",
+          "トラブルシューティング"
+        ],
+        "url": "https://qiita.com/genhiroko/items/a0af25513e9db70b95fe",
+        "title": "VPS を借りたら最初に SSH を守る——鍵認証と、つながらなくなったときの調べ方",
+        "author": "genhiroko",
+        "published_at": "2026-11-14T10:11:50+09:00",
+        "excerpt": "VPS を借りて最初にログインした日に、認証ログを一度のぞいてみてください。まだ誰にも IP アドレスを教えていないのに、知らないユーザー名でのログイン失敗が並んでいるはずです。インターネットにつながったサーバーには、世界中から自動化された総当たりが常に届いています。これは異常ではなく「普通の状態」です。 この記事では、借りた直後にやっておきたい SSH の守り方と、守った結果として自分が入れなくなったときの調べ方を、ひとつながりの手順として整理します。守る設定と、つながらないときの切り分けは、実は同じ知識の表と裏です。 まず、狙われていることを数字で見る 対策の前に、いま何が起きているかを自分の目で確かめておくと、なぜ鍵認証にするのかが腹に落ちます。Debian 12 のように journald でログを見るサーバーと、 auth.log があるサーバーで書き方が変わります。 sudo journalctl -u ssh | grep -c \"Failed password\" grep -c \"Failed password\" /var/log"
       },
       {
         "id": "qiita:d49de2e5c20acd33e5d97fe9",
@@ -46509,6 +46684,69 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:8be7b54d916dd14cce086b40",
+        "source": "medium",
+        "author_tags": [
+          "windows",
+          "soc",
+          "cybersecurity",
+          "careers"
+        ],
+        "url": "https://medium.com/@saarathiacademy/for-most-beginners-the-scope-of-cyber-security-in-nepal-starts-in-a-monitoring-seat-not-a-hacking-5a18cd184591",
+        "title": "For most beginners, the scope of cyber security in Nepal starts in a monitoring seat, not a hacking…",
+        "author": "Saarathi Academy",
+        "published_at": "2026-11-14T03:17:37+00:00",
+        "excerpt": "SOC stands for security operations centre. It is the team that watches a company’s security alerts, often day and night. In Nepal these… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9353dd8bed2af5ad7b321d29",
+        "source": "medium",
+        "author_tags": [
+          "security",
+          "travel",
+          "infrastructure",
+          "vulnerability",
+          "cybersecurity"
+        ],
+        "url": "https://twistedbaggage.medium.com/two-outages-two-days-one-bigger-question-how-resilient-is-americas-infrastructure-4e54e74d94a9",
+        "title": "Two Outages. Two Days. One Bigger Question: How Resilient Is America’s Infrastructure?",
+        "author": "Twisted Baggage",
+        "published_at": "2026-11-14T03:14:40+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:03a34c42bc4050d40d5651c0",
+        "source": "medium",
+        "author_tags": [
+          "web-application-security",
+          "penetration-testing",
+          "ai",
+          "bug-bounty",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/the-bug-bounty-agent-that-never-sleeps-and-always-asks-before-it-attacks-af3e84aae814",
+        "title": "The Bug Bounty Agent That Never Sleeps — and Always Asks Before It Attacks",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-11-14T03:13:25+00:00",
+        "excerpt": "A 24/7 agent won’t find bugs by firing exploits at everything. It wins by doing the tireless, boring work — recon, triage, dedup, drafting… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b6e32432ed7b1f44257b7831",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "vulnerability",
+          "business",
+          "travel",
+          "security"
+        ],
+        "url": "https://twistedbaggage.medium.com/two-outages-two-days-one-bigger-question-how-resilient-is-americas-infrastructure-8e622dcb45a5",
+        "title": "Two Outages. Two Days. One Bigger Question: How Resilient Is America’s Infrastructure?",
+        "author": "Twisted Baggage",
+        "published_at": "2026-11-14T03:08:27+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
       {
         "id": "medium:16fe134b5174586b1531e89b",
         "source": "medium",
