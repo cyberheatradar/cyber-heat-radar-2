@@ -1,9 +1,68 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-13T23:40:02.555829+00:00",
+  "source_snapshot_generated_at": "2026-11-14T00:40:02.667456+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:503275ee466c78c1ed535979",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "設計書",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/au/articles/421e5b08c64472",
+        "title": "AI駆動開発はドキュメントの置き場から始めたい",
+        "author": ".nk",
+        "published_at": "2026-11-14T00:27:27.196000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aa738bc6d3f983e05356f23b",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "C",
+          "clang",
+          "LLVM",
+          "compiler"
+        ],
+        "url": "https://zenn.dev/kd_yuta/articles/css2026-vibeguard-compiler",
+        "title": "CSS2026 で VibeGuard Compiler を発表しました（最適化で消失した防御の工程の特定）",
+        "author": "近藤悠太",
+        "published_at": "2026-11-13T23:59:56.549000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b6200f58136e2c0a0f4cd9f0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Agent",
+          "Claude",
+          "Anthropic"
+        ],
+        "url": "https://zenn.dev/canly/articles/e2bd67c9a4c18b",
+        "title": "【2026/11/13時点】Claude Duet を Team プランで触ってみた（組織で使うときの注意点つき）",
+        "author": "ふくだ（fukuda ryu）",
+        "published_at": "2026-11-13T23:45:16.431000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1bc09dd0cbb298207f01780a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm"
+        ],
+        "url": "https://zenn.dev/weiyi/articles/blog-022c68d7eba0f6a3",
+        "title": "AIに「実行失敗」と表示されたら、なぜそのまま再試行してはいけないのか？",
+        "author": "weiyi",
+        "published_at": "2026-11-13T23:43:43.019000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:824cbba5f1fe552ad09df316",
         "source": "zenn",
@@ -33650,6 +33709,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:d49de2e5c20acd33e5d97fe9",
+        "source": "qiita",
+        "author_tags": [
+          "CodeRabbit",
+          "Security",
+          "AI"
+        ],
+        "url": "https://qiita.com/goofmint/items/0f05fd37d82c89de7c49",
+        "title": "CodeRabbitのセキュリティスキャンを差分実行するDelta Scanの紹介",
+        "author": "goofmint",
+        "published_at": "2026-11-14T08:55:25+09:00",
+        "excerpt": "CodeRabbitはAI SDLCを安全かつ適切に推進・管理する基盤を提供 します。AIコーディングエージェントが生成する大量のコードに対して、理解負債の解消、優先順位付け、そしてセキュアな状態を維持します。 リポジトリ全体をスキャンして脆弱性を発見するDeep Scan機能について、最後のスキャン後に更新されたファイルについてのみ探索を行うDelta Scan（差分スキャン）が追加されました。 Delta Scanの特徴 Delta Scanでは、変更されたファイルや未検証のポイントを対象としてスキャンを実行します。メリットとしては以下の通りです。 安価 フルスキャンと比べて遥かに安価です 攻撃対象領域マップを更新 攻撃が届く可能性を探索する攻撃対象領域マップ（Attack surface map[^1]）が更新されます 自動実行 オンデマンドの実行に加えて、指定したコミット数や日数が経過した際に自動で実行できます Delta Scanはフルスキャンと比べて安価なので、コミット数が重なったタイミングで自動実行しておくとセキュアな状態を維持でき"
+      },
+      {
         "id": "qiita:784ddb6fe23455769b7e1f8d",
         "source": "qiita",
         "author_tags": [
@@ -46174,6 +46247,102 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:eab38f54482b00c0526c9ce4",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "incident-response",
+          "phishing",
+          "splunk",
+          "siem"
+        ],
+        "url": "https://medium.com/@cyberkaybee/phishing-investigation-with-splunk-ae3211ecaf04",
+        "title": "Phishing Investigation with Splunk",
+        "author": "Kabir",
+        "published_at": "2026-11-14T00:27:35+00:00",
+        "excerpt": "Analysing Email, Proxy and Microsoft 365 Logs Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4c273f0e57d7d1b60be202dc",
+        "source": "medium",
+        "author_tags": [
+          "network-monitoring",
+          "cybersecurity",
+          "it-operations",
+          "incident-management",
+          "security-breach"
+        ],
+        "url": "https://medium.com/@haynesjebas/a-monitoring-dashboard-is-not-an-incident-response-strategy-37d36509d11c",
+        "title": "A Monitoring Dashboard Is Not an Incident Response Strategy",
+        "author": "Haynes Jebas",
+        "published_at": "2026-11-14T00:26:16+00:00",
+        "excerpt": "Why collecting alerts is only the beginning, and how IT teams can turn monitoring data into meaningful action. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3bf4a7ff6112bad23fa6db5c",
+        "source": "medium",
+        "author_tags": [
+          "phishing",
+          "information-security",
+          "cybersecurity",
+          "identity-security",
+          "mfa"
+        ],
+        "url": "https://pingerahmed.medium.com/mfa-succeeded-and-the-account-still-fell-adversary-in-the-middle-phishing-and-session-cookie-theft-0558774eebe7",
+        "title": "MFA succeeded and the account still fell: adversary-in-the-middle phishing and session cookie theft",
+        "author": "Ahmed Pinger",
+        "published_at": "2026-11-14T00:22:29+00:00",
+        "excerpt": "“We have MFA” is the answer most organisations give when asked about phishing, and until fairly recently it was a good one. Stealing a… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:61a78a7389d3efd295d29469",
+        "source": "medium",
+        "author_tags": [
+          "social-engineering",
+          "mfa",
+          "cybersecurity",
+          "data-breach",
+          "incident-response"
+        ],
+        "url": "https://pingerahmed.medium.com/uber-2022-a-bought-password-and-an-accepted-login-prompt-99a32888372e",
+        "title": "Uber, 2022: a bought password and an accepted login prompt",
+        "author": "Ahmed Pinger",
+        "published_at": "2026-11-14T00:18:17+00:00",
+        "excerpt": "The attack path, step by step Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bb8ed3e2f951ddd4631985d7",
+        "source": "medium",
+        "author_tags": [
+          "network-security",
+          "cybersecurity",
+          "incident-response",
+          "firewall",
+          "checkpoints"
+        ],
+        "url": "https://medium.com/@haynesjebas/when-a-firewall-becomes-the-first-step-into-your-network-fd5ec5cb8c91",
+        "title": "When a Firewall Becomes the First Step Into Your Network",
+        "author": "Haynes Jebas",
+        "published_at": "2026-11-14T00:13:17+00:00",
+        "excerpt": "Understanding the November 2026 Check Point gateway exploitation, privilege escalation and the importance of securing perimeter… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:62ececb569187e3b1e7dc305",
+        "source": "medium",
+        "author_tags": [
+          "owasp",
+          "cybersecurity",
+          "web-security",
+          "rate-limiting",
+          "api-security"
+        ],
+        "url": "https://medium.com/@leylammmdov/owasp-4-unrestricted-resource-consumption-when-rate-limits-arent-enough-3aa904b837cf",
+        "title": "OWASP #4: Unrestricted Resource Consumption (When Rate Limits Aren’t Enough)",
+        "author": "Leyla Mammadova",
+        "published_at": "2026-11-14T00:11:53+00:00",
+        "excerpt": "When building APIs, developers often focus on whether the data is correct and whether the user is authorized. Continue reading on Medium »"
+      },
       {
         "id": "medium:652f54792883bd25bc39648e",
         "source": "medium",
