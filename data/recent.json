@@ -61,7 +61,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-14T23:08:56.809758+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-58d4927b0aa8a601a44fb3cf",
     "primary_category": "other",
     "public_article_id": "url:58d4927b0aa8a601a44fb3cf",
@@ -378,7 +378,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-14T05:23:11.786364+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-72ccdc87f4b548918604de47",
     "primary_category": "incident",
     "public_article_id": "url:72ccdc87f4b548918604de47",
@@ -406,7 +406,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-14T05:23:02.043526+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-a009bbdbfbe6de47102d4987",
     "primary_category": "ai_security",
     "public_article_id": "url:a009bbdbfbe6de47102d4987",
@@ -14517,7 +14517,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T06:53:38.949999+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-f3f53ef63df395cce8f6906f",
     "primary_category": "vulnerability",
     "public_article_id": "url:f3f53ef63df395cce8f6906f",
@@ -14547,7 +14547,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T06:07:36.380622+09:00",
-    "heat_score": 54.0,
+    "heat_score": 37.5,
     "permalink_id": "article-url-7c413c5b5223a5760079bec0",
     "primary_category": "vulnerability",
     "public_article_id": "url:7c413c5b5223a5760079bec0",
@@ -126004,38 +126004,5 @@
     "summary_excerpt": "古いJavaライブラリなどを使い続けている企業に、AIによる脆弱性検知の脅威が迫る。AIエージェントによる攻撃リスクの高まりと、既存ツールでは検知し切れない脆弱性への新たな対処法を解説する。",
     "threat_actors": [],
     "title": "「アップグレードできないJava」をどう守る　IBMとRed HatがAIで400件超修正"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.rapid7.com/blog/post/it-multi-campus-universities-building-more-connected-security-programs/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-16T06:01:42.565276+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-d94d81b30f0c8362282f5abc",
-    "primary_category": "defense_ops",
-    "public_article_id": "url:d94d81b30f0c8362282f5abc",
-    "public_tags": [
-      {
-        "color_family": "blue",
-        "key": "defense_ops",
-        "label": "Defense & Ops"
-      },
-      {
-        "color_family": "neutral",
-        "key": "cloud_security",
-        "label": "Cloud Security"
-      }
-    ],
-    "published_at": "2026-10-16T04:20:59+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Rapid7 Blog",
-    "summary": "Parts 1 and 2 of this series looked at two pressures facing higher education security teams. First, the threat landscape : universities are dealing with more frequent attacks across complex, distributed environments, while campus-by-campus security can make it harder to share intelligence and coordinate response. Second, the compliance burden: overlapping requirements across FERPA, GLBA, HIPAA, and CMMC make it difficult to establish what data was affected, which reporting obligations apply, and how quickly the institution needs to act. This final part is about what changes when a university system starts treating security as a shared capability rather than a collection of separate campus programs. Multi-campus institutions still need to preserve local autonomy, but they also need enough visibility across the wider organization to understand where risk sits, how an incident is spreading, and whether the same problem is appearing elsewhere. That balance is especially relevant in higher education, where campuses, research environments, health services, and administrative teams often operate with very different technology needs and levels of independence. Security architecture should reflect how universities actually operate Most university systems are already federated organizations, with individual campuses managing their own leadership, budgets, users, and technology environments while a central office provides governance and oversight across the wider institution. Security architecture can follow the same model. With multi-tenancy in the Rapid7 Command Platform, a central security team can maintain visibility across the university system while individual campuses continue to operate within their own environments. Campus-level data and access remain separated, while the central team can identify wider patterns, coordinate response, and distribute common workflows across the system. A new attack pattern detected at one campus, for example, should not have to remain a local discovery. Shared visibility and coordinated workflows can help the central team determine whether the same activity is appearing elsewhere and make relevant response guidance available across the institution without exposing one campus's data to another. As the university system grows, that model can expand with it. A system operating three campuses today can add new environments without redesigning the security architecture each time. Shared visibility makes cross-campus response faster A central view of the attack surface can reduce much of the manual work that happens when university teams need to answer a system-wide security question. If a significant zero-day is disclosed, the central security team needs to know which campuses are running affected systems, which have already remediated the vulnerability, and where attention is still required. In a decentralized environment, gathering that information can mean emails, calls, spreadsheets, and separate conversations with each campus. A shared view of assets and vulnerabilities gives teams a faster way to establish where the exposure exists. During an active incident, the same cross-campus visibility can help investigators work out whether suspicious activity first appeared at Campus C because the compromise began there, or because that is simply where it became visible. It also allows them to check whether the same indicators are present at Campus A or Campus B before each team starts investigating independently. Universities also have large external attack surfaces that can be difficult to inventory centrally. Student portals, APIs, research servers, faculty websites, and other internet-facing assets may be created outside normal IT processes. Rapid7's Project Sonar continuously scans the public internet, helping organizations identify externally exposed services and assets that internal inventories may have missed. Vulnerability prioritization needs more than a severity score University security teams rarely have the capacity to remediate every vulnerability at once, so prioritization has to reflect how likely an exposure is to be used in a real attack. Rapid7 combines vulnerability data with attacker intelligence, including insight from Metasploit , our open source penetration testing framework used by security professionals to test and validate real-world exploits, with more than 3,000 exploit modules. That intelligence is combined with insight from AttackerKB, incident response engagements, honeypots, and other threat intelligence sources, giving teams additional context around whether an exploit exists, whether exploitation has been observed, and how difficult a vulnerability may be to use in practice. For a university working through thousands of findings across multiple campuses, that context can help teams direct limited remediation capacity toward exposures with stronger evidence of attacker interest rather than relying on severity scores alone. Incident response has to work across campus boundaries The compliance requirements discussed in Part 2 put added pressure on investigation speed, particularly when legal or compliance teams need to establish whether regulated student, financial, health, or research data was accessed across more than one campus. Rapid7's open source Velociraptor platform can collect forensic artifacts and run live investigations across thousands of endpoints simultaneously. In a multi-campus university, that could allow investigators to determine whether the same activity or data access occurred across several environments without conducting each investigation separately. Automated response workflows can also be distributed across affected campus environments, allowing teams to isolate compromised systems, revoke credentials, or block indicators consistently rather than repeating the same response manually at each institution. Campuses with smaller security teams benefit from that shared capability because the quality and speed of response are less dependent on how many people happen to be available locally when an incident occurs. Consolidation can return time to stretched security teams The operational case for a shared security model also comes down to the amount of work created by fragmentation. Separate campus tools mean separate licenses, integrations, training requirements, renewals, reporting processes, and vendor relationships, all of which consume time that understaffed security teams could be spending elsewhere. The source material for this series includes an example of one organization recovering 96 hours per month by reducing manual work across disparate security tools. It also cites an average 74% improvement in mean time to detect where unified visibility and threat correlation were applied. For higher education teams working within tight regulatory reporting windows, the difference between finding an incident in hours rather than days can have a direct impact on how quickly the institution can assess scope and respond. A system-wide agreement can also reduce the number of contracts, renewal cycles, and vendor relationships that central and campus teams need to manage, while allowing security capabilities to scale as the institution adds campuses, devices, and cloud services. Building security around the university as a whole Multi-campus universities will always have different technology needs across individual campuses, research environments, health services, and administrative functions. A connected security model does not require those environments to operate identically, but it does give central and local teams a better way to understand shared risk, coordinate investigations, and apply consistent response when an issue extends beyond a single campus. Across this series, the same pattern has appeared from different angles. Threats move across organizational boundaries, regulated data rarely sits neatly within one campus, and the people responsible for protecting university systems are already working with limited time and resources. Bringing more of that security context together can help teams respond faster, share intelligence more effectively, and reduce the manual work created by disconnected tools and processes. Rapid7 helps more than 11,000 organizations worldwide take command of their security. Learn more at rapid7.com/sled .",
-    "summary_excerpt": "Parts 1 and 2 of this series looked at two pressures facing higher education security teams. First, the threat landscape : universities are dealing with more frequent attacks across complex, distributed environments, while campus-by-campus security can make it harder to share intelligence and coordinate response. Second, the compliance burden: overlapping requirements across FERPA, GLBA, HIPAA, and CMMC make it difficult to establish what data was affected, which reporting obligations apply, and how quickly the institution needs to act. This final part is about what changes when a university s",
-    "threat_actors": [],
-    "title": "How Multi-Campus Universities can Build a more Connected Security Program"
   }
 ]
