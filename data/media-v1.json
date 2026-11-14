@@ -1,9 +1,87 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-14T13:40:02.900489+00:00",
+  "source_snapshot_generated_at": "2026-11-14T14:40:03.010718+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b7e2180c215fa8b1ee3f50b7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TDD",
+          "testing",
+          "AIDD",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/revo1290/articles/aidd-in-and-out",
+        "title": "AI駆動開発をやってきて最近思うこと",
+        "author": "りょう",
+        "published_at": "2026-11-14T14:36:40.569000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:273f8b08e0da1f42ef4ee94c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "メモリ",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ultrasupara/articles/d75079e0d27287",
+        "title": "AIを動かしていると、/tmpがメモリを食べる",
+        "author": "asu_para",
+        "published_at": "2026-11-14T14:32:52.832000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:70e6475ecdc29518352fcb42",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Ollama",
+          "ローカル LLM",
+          "Coding agent"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-046-locally-uncensored-coding-agent-model-size",
+        "title": "locally-uncensoredのコーディングエージェントを3B/7B/14Bで試したら、直せたのは14Bだけだった",
+        "author": "matsu",
+        "published_at": "2026-11-14T14:27:19.148000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:87c3400745806d580a92db61",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SNS",
+          "個人事業主",
+          "業務自動化",
+          "ChatGPT"
+        ],
+        "url": "https://zenn.dev/chooser/articles/aico-006-research",
+        "title": "ChatGPT に毎朝のニュースと SNS の投稿づくりを任せる ── 画像まで作り、投稿のボタンは自分で",
+        "author": "chooser",
+        "published_at": "2026-11-14T14:12:53.874000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0823076d346fb5f78a761742",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Firebase",
+          "Expo",
+          "個人開発"
+        ],
+        "url": "https://zenn.dev/hello_jun_log/articles/ship-without-the-ai-feature",
+        "title": "実装が終わっているAI機能を、v1.0では出さないことにした",
+        "author": "Jun｜Ask First 開発",
+        "published_at": "2026-11-14T14:01:48.703000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:95b9dcdc6a901d70cd148fb5",
         "source": "zenn",
@@ -34609,6 +34687,38 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:45b7976c00c0d1cb4e7059cb",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Supabase",
+          "個人開発",
+          "cursor"
+        ],
+        "url": "https://qiita.com/cpcai/items/3d06f9298f077a865d36",
+        "title": "AIが書いたアプリの秘密情報を、公開前に3点で検査する（ビルド成果物・Git履歴・RLS）",
+        "author": "cpcai",
+        "published_at": "2026-11-14T22:58:04+09:00",
+        "excerpt": "Cursor や Lovable で作ったアプリを公開する直前、いちばん怖いのは「動かないこと」ではなく「動いてしまうこと」です。APIキーがフロントエンドに混ざったまま本番に出ると、翌朝には他人があなたの課金枠でリクエストを送っています。 AIコーディングツールは、 .env を作るところまでは丁寧にやります。問題は、その値をブラウザに渡してよいものとサーバー専用のものに分ける判断で、ここは多くの場合「とりあえず動く方」に倒れています。公開前に次の3点だけ確認しています。 1. ビルド成果物に秘密が入っていないか まず、実際に配信されるファイルを検索します。ソースではなく ビルド後のディレクトリ を見るのがポイントです。 # Next.js の場合 grep -rInE \"sk-[A-Za-z0-9]{16,}|AIza[0-9A-Za-z_-]{20,}|service_role|eyJhbGciOiJIUzI1NiIs\" .next/static .next/server 2>/dev/null | head -20 # Vite / CR"
+      },
+      {
+        "id": "qiita:8365c8442d9992b25c79646f",
+        "source": "qiita",
+        "author_tags": [
+          "正規表現",
+          "JavaScript",
+          "Security",
+          "WebWorker",
+          "個人開発"
+        ],
+        "url": "https://qiita.com/dokoka/items/64668949c4b6e20f0632",
+        "title": "正規表現テスターを作ったら、リンクを開いただけでタブが固まった。ReDoS を実測して、Web Worker で止めた",
+        "author": "dokoka",
+        "published_at": "2026-11-14T22:45:42+09:00",
+        "excerpt": "正規表現テスターを作ったら、リンクを開いただけでタブが固まった。ReDoS を実測して、Web Worker で止めた TL;DR 正規表現を試す ツール です。マッチ箇所のハイライト、キャプチャグループの一覧表、置換のプレビューができます。ブラウザの中だけで動き、入力はサーバーに送りません 作ったあとに調べると、 (a+)+$ のような式を入れると、タブが固まりました。 入力するたびに、メインスレッドで即実行していたからです 先日足した「入力内容を URL で共有する」機能のせいで、 固まる式を含む共有リンクを開いただけでも固まる ことが分かりました。自分の機能が、穴を広げていました 直し方は、マッチ処理を先に Web Worker で試し、 2秒で打ち切る 形にしました。その実装で、レースコンディション（競合状態）のバグを1つ踏んだので、それも書きます 何ができるか パターンとテスト文を入れると、 入力のたびに 結果が更新されます マッチした箇所のハイライト、位置、キャプチャグループ（ $1 、 $2 …）の表示 一覧表（マッチごとに1行、グ"
+      },
       {
         "id": "qiita:e51ff711db528ba36ad84c22",
         "source": "qiita",
