@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-15T17:06:10.480213+00:00",
-  "as_of": "2026-11-15T17:00:00+00:00",
+  "generated_at": "2026-11-15T18:06:08.498218+00:00",
+  "as_of": "2026-11-15T18:00:00+00:00",
   "catalog_count": 24309,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -149,7 +149,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-15T02:37:06.745332+09:00",
-      "heat_score": 40.5,
+      "heat_score": 32.4,
       "permalink_id": "article-url-2396f465be9396c94b74ec08",
       "primary_category": "ai_security",
       "public_article_id": "url:2396f465be9396c94b74ec08",
@@ -578,46 +578,6 @@
   "persistent_hot": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
-      "cves": [
-        "CVE-2026-120868"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T02:52:48.430995+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-224c81e757fe40ea439e5c80",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:224c81e757fe40ea439e5c80",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "published_at": "2026-11-13T02:20:53+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CERT-EU Security Advisories",
-      "summary": "On 12 November 2026, the Cloud Software Group published security bulletins for its Citrix products addressing 28 memory flaws in Citrix NetScaler ADC and Citrix NetScaler Gateway. One of these vulnerabilities, CVE-2026-120868, affects every deployment, including those using the default configuration. The vendor bulletin describes the impact as unpredictable behaviour and denial of service. Citrix reports no exploitation, and no public proof-of-concept has been confirmed. CERT-EU strongly recommends upgrading all customer-managed NetScaler ADC and NetScaler Gateway appliances to the fixed releases. Internet-facing Gateway and AAA appliances should be upgraded first.",
-      "summary_excerpt": "On 12 November 2026, the Cloud Software Group published security bulletins for its Citrix products addressing 28 memory flaws in Citrix NetScaler ADC and Citrix NetScaler Gateway. One of these vulnerabilities, CVE-2026-120868, affects every deployment, including those using the default configuration. The vendor bulletin describes the impact as unpredictable behaviour and denial of service. Citrix reports no exploitation, and no public proof-of-concept has been confirmed. CERT-EU strongly recommends upgrading all customer-managed NetScaler ADC and NetScaler Gateway appliances to the fixed relea",
-      "threat_actors": [],
-      "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000173.html",
       "cves": [
         "CVE-2026-75048"
@@ -705,6 +665,36 @@
       "summary_excerpt": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root. The post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "cves": [
+        "CVE-2026-6460"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-14T02:37:59.782833+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-d8cc2172e29e81d09fbb89cd",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:d8cc2172e29e81d09fbb89cd",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-14T01:53:08+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "summary_excerpt": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "threat_actors": [],
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE"
     },
     {
       "ai_relevance": "primary",
@@ -887,19 +877,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-12T17:00:00+00:00",
-    "last_as_of": "2026-11-15T17:00:00+00:00",
+    "first_as_of": "2026-11-12T18:00:00+00:00",
+    "last_as_of": "2026-11-15T18:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-15T17:00:00+00:00",
-  "heat_as_of": "2026-11-15T17:00:00+00:00",
+  "news_as_of": "2026-11-15T18:00:00+00:00",
+  "heat_as_of": "2026-11-15T18:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 24309,
-  "last_published_at": "2026-11-16T02:06:20.997106+09:00",
-  "publication_slot_jst": "2026-11-16T02:00:00+09:00"
+  "last_published_at": "2026-11-16T03:06:19.136511+09:00",
+  "publication_slot_jst": "2026-11-16T03:00:00+09:00"
 }

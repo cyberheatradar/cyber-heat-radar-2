@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T16:40:02.842892+00:00",
+  "source_snapshot_generated_at": "2026-11-15T17:40:02.864526+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -130,6 +130,16 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:7434c1c1132c1542bebf6708",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/nuyuchi/books/nuyuchi-sakusaku-vibe-coding-intro",
+        "title": "ぬゆちのサクサクVibe Coding入門",
+        "author": "ぬゆち",
+        "published_at": "2026-11-15T14:22:44+00:00",
+        "excerpt": "AI と一緒にコードを書くための、短い入門書です。ブラウザで使える Gemini への頼み方、プロジェクトごと任せられる Claude Code の使い方、そして AI の書いたコードを確かめる方法と、守るべき注意点を4チャプターでまとめました。AI に振り回されず、AI を道具として使いこなすための本です。最終更新:2026/11/15"
+      },
+      {
         "id": "zenn:fdeb41220a425f72553c837c",
         "source": "zenn",
         "author_tags": [
@@ -160,6 +170,16 @@
         "author": "いとけん",
         "published_at": "2026-11-15T14:01:23.750000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:a523fd6cc49bf0be5ce94595",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/nuyuchi/books/nuyuchi-tsuyotsuyo-backend-guide",
+        "title": "ぬゆちのつよつよバックエンド解説",
+        "author": "ぬゆち",
+        "published_at": "2026-11-15T13:03:22+00:00",
+        "excerpt": "Goの基本が分かる人のための、バックエンドの解説書です。API、SQL、テーブル設計、トランザクション、マイグレーション、認証と認可、セキュリティ、テスト、運用まで、バックエンドを作り、何年も維持していくために必要な知識を1冊にまとめます。何かを完成させる本ではなく、設計や判断の理由が分かるようになるための本です。最終更新:2026/11/15"
       },
       {
         "id": "zenn:ce7ef81321afe8bbb1d50576",
@@ -502,6 +522,16 @@
         "author": "Embiody",
         "published_at": "2026-11-15T07:25:45.791000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:1d0ec2997ccbe52f45be8573",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/sharu2920/books/d765fbbf5d55c4",
+        "title": "変なサーバアプリ",
+        "author": "はるはる",
+        "published_at": "2026-11-15T07:22:27+00:00",
+        "excerpt": "変なサーバアプリをご紹介。私が開発者なので全て実質一次ソースと補足事項。"
       },
       {
         "id": "zenn:f18aa1de565341e63eb437d8",
@@ -36353,6 +36383,22 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:92d0db5ea2e6bc9bdd64d64e",
+        "source": "qiita",
+        "author_tags": [
+          "Rust",
+          "GitHubActions",
+          "Git",
+          "OSS",
+          "Security"
+        ],
+        "url": "https://qiita.com/ishizakahiroshi/items/95991ceeb7e27c406bc0",
+        "title": "GitHub Releaseのattestationで詰まり、320pxの実画面確認も保留になった話",
+        "author": "ishizakahiroshi",
+        "published_at": "2026-11-16T02:17:51+09:00",
+        "excerpt": "先に、結論を3行で書きます。 v0.3.0では6本のビルドが成功した後、attestationの対象ファイルを見つけられず、最初のリリース処理が止まりました。 artifactの実際の配置に合わせて検索パターンと回帰テストを直し、v0.3.0は再実行後に公開できました。 別の更新であるv0.3.1は公開済みですが、npm版HTMLの320px実画面確認は未完了です。 手元の監視語とコミット予定の変更を照合し、公開前に検出箇所を確認します。監視語は自分のPC内で扱います。 動画で知りたい方は、この下の紹介動画へ。文章で知りたい方は、動画の下から本文へ進めます。 20秒の紹介動画 doxguardの用途を短く紹介する20秒の動画です。動画と画面例には合成データを使い、Person Aは架空の名前です。 この画面は動画の内容を示す静止画です。 この記事では、二つの問題を分けて記録します。前半はGitHub Actionsの成果物配置とattestation、後半は公開したHTMLレポートのスマートフォン幅表示と、リリース後の検証範囲です。 対象は do"
+      },
       {
         "id": "qiita:30168353ae17a3e257faff75",
         "source": "qiita",
