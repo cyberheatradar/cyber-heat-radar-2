@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T11:40:03.459655+00:00",
+  "source_snapshot_generated_at": "2026-11-15T12:40:03.143127+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:7a30412b948c858e2b9c58cf",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "writing",
+          "Japanese",
+          "Claude Code",
+          "Agent Skills"
+        ],
+        "url": "https://zenn.dev/itoken_lab/articles/japanese-writing-with-without",
+        "title": "AI に日本語を書かせる Skill を、あり・なしで比べた",
+        "author": "いとけん",
+        "published_at": "2026-11-15T12:36:53.211000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:da988acf4f7fc9920fcdbfc2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Gemini",
+          "Jev"
+        ],
+        "url": "https://zenn.dev/hfujihira/articles/hf-871f48278637",
+        "title": "15歳でもわかるJev その5 — 判断するAI 3社に同じ300問を解かせた",
+        "author": "Hirokazu FUJIHIRA",
+        "published_at": "2026-11-15T12:15:15.020000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4183d945867cfc3116d589af",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python 3",
+          "信号処理",
+          "機械学習复制",
+          "音声処理复制"
+        ],
+        "url": "https://zenn.dev/takisandev/articles/f258a911b04144",
+        "title": "AI音源分離の品質をどう評価する？SI-SDRと聴感テストを使った実践的な検証方法",
+        "author": "takisan | AI Indie Developer",
+        "published_at": "2026-11-15T12:11:39.075000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f675f9aa95d8859f7dcb835c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "EC",
+          "automation",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/pythona/articles/low-traffic-ec-agent-roi",
+        "title": "週1〜2件のECにAIエージェント、どこに入れる?数字で絞ったら保留だった",
+        "author": "pythona",
+        "published_at": "2026-11-15T11:53:18.855000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:281a4605197df388a957f2f3",
         "source": "zenn",
@@ -36101,6 +36165,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c2b43537d2b080a54e7f97ea",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "SpringBoot",
+          "Security",
+          "owasp",
+          "API"
+        ],
+        "url": "https://qiita.com/maees/items/f98938c79e7b05d3a9a8",
+        "title": "Mass AssignmentはDTOだけでは防げない――roleを足すと管理者になる",
+        "author": "maees",
+        "published_at": "2026-11-15T21:20:50+09:00",
+        "excerpt": "表示名だけ変えるはずのPATCHに、 role を1行足すと管理者になれる。DTOを作っても、Entityを直接受け取る実装が1か所でも残っていれば直らない。防ぐのは「受け取る型」と「反映する項目」の両方である。 この記事では、2026年11月15日に学んだOWASPのMass Assignmentを、JavaとSpring Bootの実装で掘り下げる。OWASPのチートシート、2012年のGitHub事件、Springのバインドの仕組みを横断し、DTOだけでは防げない3つの穴と、直し方の型を示す。 表示名だけ変えるはずのPATCHが、管理者を作る 会員情報の更新APIを考える。仕様では表示名だけを変更できる。 PATCH /api/users/me Content-Type: application/json {\"displayName\": \"Tanaka\"} DBのUserテーブルには、画面に出ていない項目もある。 項目 内容 display_name 表示名 email メールアドレス role 一般ユーザー・管理者 verified 本人"
+      },
+      {
+        "id": "qiita:3af1fe0e30e8cff87315ad29",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "npm",
+          "Node.js",
+          "Security"
+        ],
+        "url": "https://qiita.com/Masashige-Y/items/2dd6f251d96f7d1e2898",
+        "title": "npm auditの警告、AIに更新を任せて大丈夫？【初心者向け】",
+        "author": "Masashige-Y",
+        "published_at": "2026-11-15T21:10:53+09:00",
+        "excerpt": "この記事はこんな人におすすめ npm audit の警告を見て、何から調べるか迷う 直接インストールしていないライブラリの脆弱性をどう扱うか知りたい AIによる「更新してテストが通りました」という報告を、自分でも判断したい この記事から得られること 脆弱性の検出から、依存経路と影響の確認、更新後の検証までを整理します。件数を減らすことだけを目標にせず、何が分かり、何が未確認なのかを説明するための観点をまとめます。 はじめに インプレスの公開企画にある『Pythonで学ぶ Webアプリのセキュアコーディング』では、SCA（ソフトウェア構成分析）によるライブラリの脆弱性管理が扱われています。本記事では、そのテーマをNode.jsとnpmを使う開発の視点で整理します。 コマンドは調査方法を説明するための例として示します。各コマンドの説明は、npm v11の公式ドキュメントに基づきます。 1. 「検出された」と「攻撃された」は別の事実 npm audit は、依存関係を既知の脆弱性情報と照合するためのコマンドです。警告が出たときは、まず対象パッケージと版"
+      },
+      {
         "id": "qiita:c6bfc938e2e67b04d5d29d26",
         "source": "qiita",
         "author_tags": [
@@ -49295,6 +49391,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:16a05e1832e094f89dc2693f",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "cybersecurity",
+          "infosec",
+          "ai",
+          "bug-bounty"
+        ],
+        "url": "https://mukibas37.medium.com/caido-for-beginners-the-complete-guide-to-web-application-security-testing-27536dc1e9b5",
+        "title": "Caido for Beginners: The Complete Guide to Web Application Security Testing",
+        "author": "Mukilan Baskaran",
+        "published_at": "2026-11-15T12:22:37+00:00",
+        "excerpt": "A beginner-friendly, hands-on guide to Caido for ethical hackers, penetration testers, and bug bounty hunters. Learn how to install Caido… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b924eead33afb756bfddd6cd",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "devops",
+          "infosec",
+          "vulnerability-management",
+          "security"
+        ],
+        "url": "https://medium.com/@rokkhe/build-a-weekly-cve-triage-workflow-with-cisa-kev-epss-and-cvss-80246703c324",
+        "title": "Build a weekly CVE triage workflow with CISA KEV, EPSS and CVSS",
+        "author": "Rokkhe",
+        "published_at": "2026-11-15T12:17:55+00:00",
+        "excerpt": "This article was first published on the Rokkhe blog on Hashnode. It was drafted with AI assistance and reviewed and edited by the Rokkhe… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bf063615022dc060674f8552",
+        "source": "medium",
+        "author_tags": [
+          "azure",
+          "identity-management",
+          "cybersecurity",
+          "dotnet",
+          "authentication"
+        ],
+        "url": "https://sdtslmn.medium.com/what-is-openid-connect-and-how-to-implement-it-on-azure-4fe498a891b6",
+        "title": "What is OpenID Connect and How to Implement It on Azure",
+        "author": "Sedat SALMAN",
+        "published_at": "2026-11-15T12:01:02+00:00",
+        "excerpt": "OpenID Connect (OIDC) is an open standard authentication protocol, built on top of OAuth 2.0, that allows users to authenticate with… Continue reading on Medium »"
+      },
       {
         "id": "medium:ebc567c45ab6251f3e070a78",
         "source": "medium",
