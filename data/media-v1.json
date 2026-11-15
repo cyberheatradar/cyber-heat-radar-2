@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T08:40:02.940501+00:00",
+  "source_snapshot_generated_at": "2026-11-15T09:40:02.889427+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -35948,6 +35948,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c6bfc938e2e67b04d5d29d26",
+        "source": "qiita",
+        "author_tags": [
+          "OBS",
+          "ClaudeCode",
+          "CloudflareWorkers",
+          "MCP",
+          "Security"
+        ],
+        "url": "https://qiita.com/AllegroMoltoV/items/67e583950029346b6e29",
+        "title": "AI で作った配布サイトは公開してから守ることが山ほどあった",
+        "author": "AllegroMoltoV",
+        "published_at": "2026-11-15T17:59:20+09:00",
+        "excerpt": "はじめに Claude Code と一緒に作った OBS Studio のプラグインの配布サイト「配信プラグイン倉庫くん」を、0.2.13 に上げました。 0.2 系の変更のうち、新しい機能と呼べるものはわずかです。ほとんどは、 他人が作ったプラグインを人に配る場として守るための仕組みでした。 昨今、プロダクトを Web に出すだけなら、AI と一緒に作れば簡単に出せるようになりました。一方で、 パブリックな場にさらすとなると気にすべきことが山のようにあります。 0.2 系はそれを実感したバージョンアップでした。この記事では、0.2 系でやったことを網羅的に挙げます。 対象読者 AI と一緒に Web サービスを作り、公開した人、またはこれから公開する人 第三者のファイルやデータを扱うサービスを作っている人 配信プラグイン倉庫くんとは 配信プラグイン倉庫くん は、OBS Studio のサードパーティーのプラグインを集めたレジストリです。作者は自分の GitHub の公開リポジトリを MCP で登録し、自動の検査を通ったバージョンだけが掲載されま"
+      },
+      {
+        "id": "qiita:50d6b8dcbaf16265e9bec132",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Claude",
+          "AI",
+          "生成AI",
+          "Security"
+        ],
+        "url": "https://qiita.com/moha0918_/items/149101a4b84ba5fef52c",
+        "title": "Claude Code v2.1.317〜v2.1.325｜サンドボックス内 Bash の自動許可が既定オフに｜週刊Changelog解説",
+        "author": "moha0918_",
+        "published_at": "2026-11-15T17:51:33+09:00",
+        "excerpt": "Claude Codeの 公式Changelog をリリースから最速で翻訳・解説しています。 v2.1.325 から、サンドボックス内で動く Bash コマンドを Claude Code が既定で通常の許可フローにかけるようになりました。サンドボックス内の Bash をプロンプトなしで動かしていた環境は、 sandbox.autoAllowBashIfSandboxed: true が無いとその状態を続けられません。今回の 7 バージョンには、Claude Fable 5.2 が既定の Fable モデルになった v2.1.321 も入っています。 変更 バージョン 関係する環境 サンドボックス内の Bash が既定で通常の許可フローを通る v2.1.325 サンドボックスを有効にしている allowed-tools か hooks を宣言した skill の前で、スケジュールタスクと /loop が確認を出す v2.1.325 無人実行 Claude Fable 5.2 ( claude-fable-5-2 ) が既定の Fable モデルに "
+      },
+      {
         "id": "qiita:48397cd4fe8d573e842ad905",
         "source": "qiita",
         "author_tags": [
@@ -49110,6 +49142,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:14fe11cc621afcac0b2be30e",
+        "source": "medium",
+        "author_tags": [
+          "investing",
+          "enterprise-software",
+          "incident-response",
+          "artificial-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@bidyutmazumdar/aegisrecover-engineering-an-evidence-aware-architecture-for-ai-incident-containment-reversal-58f96d9051c9",
+        "title": "AEGISRECOVER™ — Engineering an Evidence-Aware Architecture for AI Incident Containment, Reversal &…",
+        "author": "Bidyut Mazumdar",
+        "published_at": "2026-11-15T09:06:35+00:00",
+        "excerpt": "From Structured Incident Intelligence to Containment Evaluation, Recovery Planning, Evidence Integrity & Financial Impact Assessment A… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b76a46add2607a0b34998da9",
+        "source": "medium",
+        "author_tags": [
+          "devsecops",
+          "cybersecurity",
+          "terraform",
+          "cloud-security",
+          "platform-engineering"
+        ],
+        "url": "https://medium.com/@meghraj312002/protecting-terraform-state-your-hidden-infrastructure-secret-store-f762882bfba9",
+        "title": "Protecting Terraform State: Your Hidden Infrastructure Secret Store",
+        "author": "Meghraj Patil",
+        "published_at": "2026-11-15T08:30:51+00:00",
+        "excerpt": "Your Terraform state file holds plaintext secrets and configuration details, requiring robust security measures beyond simple access… Continue reading on Medium »"
+      },
       {
         "id": "medium:7cd1958317ab4f2ff96f1af9",
         "source": "medium",
