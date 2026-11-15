@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-15T11:05:33.855270+00:00",
-  "as_of": "2026-11-15T11:00:00+00:00",
+  "generated_at": "2026-11-15T12:06:11.441977+00:00",
+  "as_of": "2026-11-15T12:00:00+00:00",
   "catalog_count": 24308,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -669,36 +669,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-      "cves": [
-        "CVE-2026-126325"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T21:53:49.719087+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-2d6f349525d67746f7ded0d2",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:2d6f349525d67746f7ded0d2",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T20:33:15+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in",
-      "summary_excerpt": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in",
-      "threat_actors": [],
-      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
       "cves": [
         "CVE-2026-109618"
@@ -853,39 +823,67 @@
       "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google"
     },
     {
-      "ai_relevance": "material",
-      "canonical_url": "https://isc.sans.edu/diary/33514",
+      "ai_relevance": "none",
+      "canonical_url": "https://www.praetorian.com/blog/cve-2026-119618/",
       "cves": [
-        "CVE-2026-102895"
+        "CVE-2026-119618"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-12T21:22:12.630220+09:00",
+      "first_seen_at": "2026-11-13T00:23:07.195829+09:00",
       "heat_score": 54.0,
-      "permalink_id": "article-url-a0fa412477ef6d36f49b8514",
+      "permalink_id": "article-url-ae211369d694fab9f2335506",
       "primary_category": "vulnerability",
-      "public_article_id": "url:a0fa412477ef6d36f49b8514",
+      "public_article_id": "url:ae211369d694fab9f2335506",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
         }
       ],
-      "published_at": "2026-11-12T20:56:24+09:00",
+      "published_at": "2026-11-12T23:16:26+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "SANS Internet Storm Center",
-      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th.",
-      "summary_excerpt": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th.",
+      "source_name": "Praetorian Blog",
+      "summary": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
+      "summary_excerpt": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
       "threat_actors": [],
-      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)"
+      "title": "CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T18:52:32.176794+09:00",
+      "heat_score": 52.56,
+      "permalink_id": "article-url-ab3f1917ebaab6d7487a29b2",
+      "primary_category": "ai_security",
+      "public_article_id": "url:ab3f1917ebaab6d7487a29b2",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-13T18:31:07+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Team and Defense Factory, connect the work of finding security weaknesses with patching and retesting them. Red Team tests applications and verifies fixes Daybreak Red Team, offered through an early-access program, uses coordinated agents to examine application source code and context, investigate potential attack … More → The post OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes appeared first on Help Net Security .",
+      "summary_excerpt": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Team and Defense Factory, connect the work of finding security weaknesses with patching and retesting them. Red Team tests applications and verifies fixes Daybreak Red Team, offered through an early-access program, uses coordinated agents to examine application source code and context, investigate potential attack … More → The post OpenAI’s Daybreak brings AI agents to security te",
+      "threat_actors": [],
+      "title": "OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes"
     }
   ],
   "timeseries_status": {
@@ -919,19 +917,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-12T11:00:00+00:00",
-    "last_as_of": "2026-11-15T11:00:00+00:00",
+    "first_as_of": "2026-11-12T12:00:00+00:00",
+    "last_as_of": "2026-11-15T12:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-15T11:00:00+00:00",
-  "heat_as_of": "2026-11-15T11:00:00+00:00",
+  "news_as_of": "2026-11-15T12:00:00+00:00",
+  "heat_as_of": "2026-11-15T12:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 24308,
-  "last_published_at": "2026-11-15T20:05:44.849300+09:00",
-  "publication_slot_jst": "2026-11-15T20:00:00+09:00"
+  "last_published_at": "2026-11-15T21:06:22.276713+09:00",
+  "publication_slot_jst": "2026-11-15T21:00:00+09:00"
 }
