@@ -1,9 +1,54 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T15:40:02.664487+00:00",
+  "source_snapshot_generated_at": "2026-11-15T16:40:02.842892+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:e7141770cae923572d580e8a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "codereading"
+        ],
+        "url": "https://zenn.dev/gen_tokunaga/articles/bdf9e8e0faf872",
+        "title": "作りながら鍛えるコードリーディング力",
+        "author": "gen_tokunaga",
+        "published_at": "2026-11-15T16:17:47.514000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b90c0428054eeb31f68e82a5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "monitoring",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/folkbench/articles/c90bdf45161bf2",
+        "title": "時事プローブと公式直結基準でAPI中継のモデル劣化を検知する",
+        "author": "Matthew (Folkbench)",
+        "published_at": "2026-11-15T15:46:15.150000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2ba5ca3fd98306af76943de0",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "Bedrock",
+          "guardrails",
+          "AgentCore"
+        ],
+        "url": "https://zenn.dev/takuyousou/articles/agentcore-memory-poisoning-guardrails",
+        "title": "AIエージェントは悪意ある指示を記憶するのか？— AgentCore MemoryとGuardrailsで検証",
+        "author": "Song",
+        "published_at": "2026-11-15T15:40:12.068000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:9644b44a39c0bbaa2abdcdbf",
         "source": "zenn",
@@ -36309,6 +36354,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:30168353ae17a3e257faff75",
+        "source": "qiita",
+        "author_tags": [
+          "生成AI",
+          "エージェント",
+          "Security",
+          "システム設計",
+          "ChatGPT"
+        ],
+        "url": "https://qiita.com/savor-speedup-dotage/items/b6567159912fbf31da89",
+        "title": "AIエージェントに決済能力を与えるアーキテクチャ設計：安全な購買実行と権限隔離のパターン",
+        "author": "savor-speedup-dotage",
+        "published_at": "2026-11-16T01:23:28+09:00",
+        "excerpt": "はじめに 生成AIエージェントの適用領域は、従来の「情報検索」や「コード生成」にとどまらず、外部APIを呼び出して実社会のタスクを完了する「自律的アクション実行（Tool Use / Function Calling）」へと急速にシフトしています。その中で最もセキュリティおよび設計上のインパクトが大きい領域の一つが**「金銭取引・決済の自動化」**です。 2026年11月、OpenAIはChatGPT Work、Codex、dotsなどのエージェント環境において、ユーザー承認とクレジットカード保護機能を組み合わせて安全に購入処理を完了できるようにする仕組み「 ChatGPT Wallet 」を発表しました。 本記事では、この「ChatGPT Wallet」が提示した課題とアプローチを契機として、プロダクション環境でAIエージェントに決済機能（あるいはそれに準ずる不可逆で高リスクなAPI操作）を組み込む際の システムアーキテクチャ設計、権限隔離パターン、およびHuman-in-the-Loop（HITL）の組み込み方 について深掘りして解説します。"
+      },
+      {
         "id": "qiita:baf8f67af526cb5f0ff81e5e",
         "source": "qiita",
         "author_tags": [
@@ -49598,6 +49659,86 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:5fa49c5011e3129e3951c4ca",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "osint",
+          "cyber-security-awareness",
+          "osint-investigation",
+          "operational-security"
+        ],
+        "url": "https://medium.com/@Tahatijani/why-osint-methodology-should-be-public-but-not-everything-should-be-disclosed-aa930dee4831",
+        "title": "Why OSINT Methodology Should Be Public, But Not Everything Should Be Disclosed",
+        "author": "Taha Tijani",
+        "published_at": "2026-11-15T16:28:30+00:00",
+        "excerpt": "An examination of operational security, professional knowledge-sharing and the delicate balance between transparency and the protection of… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4936decd0b69c60274ad1684",
+        "source": "medium",
+        "author_tags": [
+          "digital-forensics",
+          "blue-team",
+          "linux",
+          "cybersecurity",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@jessandreysndg/insider-lab-cyberdefenders-574ba689a6e7",
+        "title": "Insider Lab — (Cyberdefenders)",
+        "author": "Jessandreysndg",
+        "published_at": "2026-11-15T16:04:41+00:00",
+        "excerpt": "Scenario Continue reading on Medium »"
+      },
+      {
+        "id": "medium:89582b0a8ee066fecf40c0e3",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "ai-security",
+          "technology",
+          "cybersecurity",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/@saifkhantoru/we-gave-ai-access-to-everything-did-anyone-remember-to-secure-it-85e0d42ab89e",
+        "title": "We Gave AI Access to Everything. Did Anyone Remember to Secure It?",
+        "author": "Saif Khan",
+        "published_at": "2026-11-15T16:01:01+00:00",
+        "excerpt": "The helpful office assistant, the master key, and the security question nobody wanted to ask. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:916e52ea7e1ea9bb8cd883ab",
+        "source": "medium",
+        "author_tags": [
+          "alerts",
+          "cybersecurity",
+          "dashboard",
+          "wazuh-manager",
+          "wazuh"
+        ],
+        "url": "https://medium.com/@nasirjaweria450/creating-and-testing-custom-security-detection-rules-in-wazuh-a-practical-soc-lab-29de31830742",
+        "title": "Creating and Testing Custom Security Detection Rules in Wazuh: A Practical SOC Lab",
+        "author": "jaweria nasir",
+        "published_at": "2026-11-15T16:00:24+00:00",
+        "excerpt": "An exploration of Windows endpoint monitoring, custom rule development, log analysis, troubleshooting, and automated security response… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cfa6a02cae264ebd81ac4493",
+        "source": "medium",
+        "author_tags": [
+          "software-development",
+          "information-security",
+          "malware",
+          "social-engineering",
+          "cybersecurity"
+        ],
+        "url": "https://inclinq.medium.com/fbi-facestealer-how-a-hijacked-account-and-a-fake-video-meeting-can-become-a-software-supply-chain-af4d0c1ef445",
+        "title": "FBI FaceStealer: How a Hijacked Account and a Fake Video Meeting Can Become a Software Supply-Chain…",
+        "author": "inclinq_Founder",
+        "published_at": "2026-11-15T15:42:03+00:00",
+        "excerpt": "November 15, 2026 | Threat Analysis Continue reading on Medium »"
+      },
       {
         "id": "medium:5abe19be6d2933b4be41b68f",
         "source": "medium",
