@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T19:40:02.879784+00:00",
+  "source_snapshot_generated_at": "2026-11-15T20:40:03.039529+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3a7ea3e3a355d5515745dec4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "Security",
+          "ログ",
+          "llm"
+        ],
+        "url": "https://zenn.dev/hach/articles/chat-agent-audit-log-tamper-resistance-design",
+        "title": "常駐型AIエージェントの監査ログを「エージェント自身からも」改ざん・削除できなくする設計",
+        "author": "HACH",
+        "published_at": "2026-11-15T20:08:48.877000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:7cd7f8b2e9ed756643fbb502",
         "source": "zenn",
@@ -36400,6 +36416,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f06b8e2a274679a7fbcfe1cf",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "logging",
+          "Security",
+          "Requests",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/supportapp3/items/2d49b23d5f36669ec94c",
+        "title": "Python の logging に API キーを出さない Filter の付け方：ロガーでなくハンドラに付け、例外のトレースバックも置換する（Python 3.13で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-16T05:21:28+09:00",
+        "excerpt": "結論 logging.Filter で API キーを *** に置き換えるなら、 ロガーではなくハンドラに付けます 。ダミーのキーで試した結果は次のとおりです。 ルートロガーに addFilter しただけでは、子ロガー（ app や urllib3.connectionpool ）のログは置換されず、キーがそのまま出た。ハンドラに付けると全部 *** になった logger.exception() のトレースバックは、メッセージだけ置換するフィルタでは素通りした。 exc_text も置換すると消えた http.client.HTTPConnection.debuglevel = 1 の send: 行は、ハンドラにフィルタを付けても消えなかった（ print() で標準出力に出るため） コピペで使える対策コード import logging , re _PATTERNS = [ # Authorization: Bearer xxx と、dict の repr（'Authorization': 'Bearer xxx'） ( re . co"
+      },
+      {
         "id": "qiita:06537506b8e055470b6bbc55",
         "source": "qiita",
         "author_tags": [
@@ -49750,6 +49782,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:43f519b773774393712b88fc",
+        "source": "medium",
+        "author_tags": [
+          "redteam-tool",
+          "red-team",
+          "pentesting",
+          "cybersecurity",
+          "pentest"
+        ],
+        "url": "https://medium.com/@nukeratframework/awesome-command-control-c2-2026-edition-530f78bd05f2",
+        "title": "Awesome Command & Control (C2) — 2026 Edition",
+        "author": "Red Team HQ",
+        "published_at": "2026-11-15T20:25:17+00:00",
+        "excerpt": "The best C2 tools of 2026 for red team operations. Disclaimer: this tools is for security professionals doing authorized work and study. Continue reading on Medium »"
+      },
       {
         "id": "medium:65604f8a0cf1218a30c0b9a6",
         "source": "medium",
