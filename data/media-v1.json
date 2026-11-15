@@ -1,9 +1,65 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T04:40:03.096397+00:00",
+  "source_snapshot_generated_at": "2026-11-15T05:40:03.011743+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:824d95ad34a99cf7bb9943e6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Cloudflare",
+          "プロンプト",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ttk1010/articles/motteinai-dev-prompt",
+        "title": "インフルエンサーのプロンプトを\"自分の悩み\"に置き換えたら、2時間でクローゼットアプリが完成した",
+        "author": "ttk1010",
+        "published_at": "2026-11-15T05:26:01.203000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:edd11873c414996a92818229",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "Security",
+          "privacy"
+        ],
+        "url": "https://zenn.dev/warrobotsxyz/articles/diagnostic-report-secret-redaction",
+        "title": "共有用の診断レポートから個人情報とAPIキーを消す：パス・URL・トークンの伏字実装",
+        "author": "神戌",
+        "published_at": "2026-11-15T05:15:17+00:00",
+        "excerpt": "はじめに アプリの診断レポートは、不具合調査のために便利です。しかしCSVやHTMLをそのまま共有すると、ローカルの絶対パス、URLのユーザー情報、クエリのトークン、メールアドレスが残っていることがあります。 この記事では、Pythonで共有用レポートを生成する直前に行う伏字処理を実装し、実際の入出力を確認します。 環境 Windows 11（ビルド 10.0.26200） Python 3.11.5 やったこと 1. 伏字前のサンプル 次のような診断情報があるとします。 path=C:\\work\\project\\data.csv unc=\\\\SERVER\\share..."
+      },
+      {
+        "id": "zenn:03bb8c8ed39705f808fef795",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ROS2",
+          "robot",
+          "lego",
+          "Physical AI"
+        ],
+        "url": "https://zenn.dev/masato13/articles/de48a5a3597d24",
+        "title": "LEGO BoostをROS 2×AIエージェントで動かすまで ― 設計・校正・自然言語操作の全記録",
+        "author": "Masato13",
+        "published_at": "2026-11-15T04:47:40+00:00",
+        "excerpt": "LEGO BoostをROS 2×AIエージェントで動かすまで ― 設計・自然言語操作の全記録 「ベースを10度右に回して」とチャットに書くと、LEGOのロボットアームが動く。 この記事はおもちゃのLEGO Boost 17101（クリエイティブ・ツールボックス）を2自由度のロボットアームに組み替え、ROS 2 Jazzyを介してコーディングエージェント（ZCode / Codex）の自然言語から動かすまでの全工程の記録です。 「レゴ(LEGO) ブースト レゴブースト クリエイティブ・ボックス 17101」はレゴで組み立てたモデルをプログラミングで自由自在に動かせるオモチャです。(..."
+      },
+      {
+        "id": "zenn:678048c0c44e3394276421cd",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/kenshi_lab/books/12f1d74a8bf7a0",
+        "title": "テストを先に決めてAIに任せる C# Web API 自学カリキュラム（在庫台帳）",
+        "author": "kenshi｜技術検証ノート",
+        "published_at": "2026-11-15T04:45:27+00:00",
+        "excerpt": "C#の基本文法が分かるエンジニアが、AIと1人で「在庫台帳のWeb API」を作る自学用カリキュラムです。人がテストを先に決め、AIが実装し、テストの合否で完了を判定する進め方を、Issue（人がレビューする単位）とAIタスク（AIに1回で任せる単位）の2段で練習します。基本設計・詳細設計・WBSを前提に、Issue → PR → merge の流れで進めます。AIタスクには固定のIDを振り、ほかの記事から参照できるようにしています。"
+      },
       {
         "id": "zenn:df4b53447e0fde5918645a83",
         "source": "zenn",
@@ -183,6 +239,16 @@
         "author": "Yu-muimi",
         "published_at": "2026-11-15T03:18:21.705000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:6ceeeda39b5ec36cac5cb06e",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/aizangyobu/books/ai-zangyo-claude-code",
+        "title": "残業は、AIがする。",
+        "author": "AI残業部",
+        "published_at": "2026-11-15T03:12:09+00:00",
+        "excerpt": "Claude Code実践入門。Claude Codeに仕事を安全に任せるための「型」とテンプレートをまとめた実践書です。作業を小さく分ける、先に計画を出させる、確認ポイントを挟む、結果を検証する——この4つの型を軸に、Planモード、権限設定、サブエージェント、Hooks、秘密情報の除外設定、プロンプトインジェクション対策、MCP導入前の確認、定期実行、セキュリティレビューまでを、実際の設定ファイルや手順の実物とあわせて解説します。各章末には、そのまま使えるチェックリストとテンプレートを収録しています。第0章から第3章までは無料で読めます。"
       },
       {
         "id": "zenn:e42d87ca42218be9716f53bd",
@@ -35726,6 +35792,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:670f30172646eb04c64d8660",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Security",
+          "ロギング",
+          "アーキテクチャ",
+          "pydantic"
+        ],
+        "url": "https://qiita.com/TOAI/items/a59f7fc5b4a16988d59a",
+        "title": "構造化ログへの機密トークン混入を防ぐ自動マスキングの実装手順",
+        "author": "TOAI",
+        "published_at": "2026-11-15T14:33:46+09:00",
+        "excerpt": "構造化ログへの機密トークン混入を防ぐ自動マスキングの実装手順 アプリケーションの規模が拡大し、マイクロサービス化が進むにつれ、ロギングの設計はシステムの可観測性（Observability）とセキュリティを左右する重要な基盤となる。特にJSON形式による構造化ログ（Structured Logging）は、CloudWatch Logs、Datadog、OpenSearchなどのログ解析プラットフォームとの親和性が高く、現代のバックエンド開発においては標準的なプラクティスである。 しかし、構造化ログには「サイレントな情報漏洩」という致命的なリスクが常に付きまとう。開発者が意図せず、あるいはデバッグ目的で、認可ヘッダー（ Authorization: Bea\" + \"rer ... ）やAPIキー、秘密鍵の断片をログペイロードに含めてしまった場合、それらは平文のままログ基盤へと流出し、アクセス権限を持つすべてのエンジニアや外部の監査、最悪の場合はログ基盤の侵害を通じて外部へ晒されることになる。 このリスクを事後的な監査や個人のコードレビューの注意力"
+      },
+      {
         "id": "qiita:7e02b7d0a583a057478d74cd",
         "source": "qiita",
         "author_tags": [
@@ -48779,6 +48861,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:7abed59312d34b190f599ff1",
+        "source": "medium",
+        "author_tags": [
+          "cve",
+          "infosec",
+          "cybersecurity",
+          "ethical-hacking",
+          "meta"
+        ],
+        "url": "https://medium.com/@0xAbhiSec/cve-2026-77177-how-i-found-root-level-rce-in-metas-whatsapp-ai-through-a-simple-math-problem-d07d9a8a8394",
+        "title": "CVE-2026-77177: How I Found Root-Level RCE in Meta’s WhatsApp AI Through a Simple Math Problem",
+        "author": "0xAbhiSec",
+        "published_at": "2026-11-15T05:12:22+00:00",
+        "excerpt": "From {{7*7}} to root-level remote code execution: exploring the security risks of template injection in LLM-powered applications. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c7aeb860072a7fcb2651c4d2",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ethical-hacking",
+          "bug-bounty",
+          "web-application-security"
+        ],
+        "url": "https://medium.com/@cyb3rD1vvya/from-p4-to-p1-day-17-advanced-ssrf-testing-url-validation-bypasses-redirects-and-dns-rebinding-5f6d92dca0fa",
+        "title": "From P4 to P1: Day 17 — Advanced SSRF Testing: URL Validation Bypasses, Redirects and DNS Rebinding",
+        "author": "cyb3rD1vvy@",
+        "published_at": "2026-11-15T05:04:24+00:00",
+        "excerpt": "Series: From P4 to P1 Day: 17 of 30 Topic: Advanced Server-Side Request Forgery (SSRF) Testing Category: Web Application Security | API… Continue reading on Medium »"
+      },
       {
         "id": "medium:01236a3cc5e027191ca82ce7",
         "source": "medium",

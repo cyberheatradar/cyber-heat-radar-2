@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-15T05:06:02.917230+00:00",
-  "as_of": "2026-11-15T05:00:00+00:00",
+  "generated_at": "2026-11-15T06:06:06.874981+00:00",
+  "as_of": "2026-11-15T06:00:00+00:00",
   "catalog_count": 24307,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -38,7 +38,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-15T08:37:04.269624+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-06831655cf3cecef43ffddbc",
       "primary_category": "other",
       "public_article_id": "url:06831655cf3cecef43ffddbc",
@@ -316,7 +316,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-15T08:37:04.269624+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-06831655cf3cecef43ffddbc",
       "primary_category": "other",
       "public_article_id": "url:06831655cf3cecef43ffddbc",
@@ -853,16 +853,16 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2155875.html",
+      "canonical_url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
       "cves": [
-        "CVE-2026-101107"
+        "CVE-2026-118383"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-12T15:38:00.098964+09:00",
+      "first_seen_at": "2026-11-12T18:52:38.335532+09:00",
       "heat_score": 54.0,
-      "permalink_id": "article-url-c4c52fc83ee97907b962fe79",
+      "permalink_id": "article-url-c776eb51cbacc6fa91c682a9",
       "primary_category": "vulnerability",
-      "public_article_id": "url:c4c52fc83ee97907b962fe79",
+      "public_article_id": "url:c776eb51cbacc6fa91c682a9",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -870,16 +870,16 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-12T14:21:21+09:00",
+      "published_at": "2026-11-12T18:25:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "INTERNET Watch",
-      "summary": "ソフトバンク株式会社が提供するホームルーター「Airターミナル6」に、OSコマンドインジェクションの脆弱性（CVE-2026-101107）が存在するとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。修正済みのファームウェアが自動的に適用されるため、ユーザーの対応は不要だという。",
-      "summary_excerpt": "ソフトバンク株式会社が提供するホームルーター「Airターミナル6」に、OSコマンドインジェクションの脆弱性（CVE-2026-101107）が存在するとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。修正済みのファームウェアが自動的に適用されるため、ユーザーの対応は不要だという。",
+      "source_name": "The Hacker News",
+      "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fixed versions earlier this week. The affected servers are members of a replica",
+      "summary_excerpt": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fixed versions earlier this week. The affected servers are members of a replica",
       "threat_actors": [],
-      "title": "ソフトバンクのホームルーター「Airターミナル6」にOSコマンドインジェクションの脆弱性　修正済みファームウェアへの自動アップデートで対策可能"
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover"
     }
   ],
   "timeseries_status": {
@@ -905,7 +905,7 @@
     "【LATEST #2】PHP重大脆弱性は「始まり」に過ぎない？　2年前の兆候が示す“次の危機”",
     "【HOTTEST #2 / Heat 65】パスワードを変更してもGmailを盗み見？ マルウェア「Remus」が新機能を宣伝",
     "【LATEST #3】“初めてのインシデント調査”に備えられる　JPCERT/CCがチェックリストを無償公開",
-    "【HOTTEST #3 / Heat 65】PHP重大脆弱性は「始まり」に過ぎない？　2年前の兆候が示す“次の危機”",
+    "【HOTTEST #3 / Heat 58.5】PHP重大脆弱性は「始まり」に過ぎない？　2年前の兆候が示す“次の危機”",
     "【LATEST #4】Cursor confirms security breach led to malicious Claude Code extension",
     "【HOTTEST #4 / Heat 56.77】CVE-2026-114713: UnrealIRCd UnrealIRCd",
     "【LATEST #5】Is AI Making Us Worse at Cybersecurity?",
@@ -913,19 +913,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-12T05:00:00+00:00",
-    "last_as_of": "2026-11-15T05:00:00+00:00",
+    "first_as_of": "2026-11-12T06:00:00+00:00",
+    "last_as_of": "2026-11-15T06:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-15T05:00:00+00:00",
-  "heat_as_of": "2026-11-15T05:00:00+00:00",
+  "news_as_of": "2026-11-15T06:00:00+00:00",
+  "heat_as_of": "2026-11-15T06:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 24307,
-  "last_published_at": "2026-11-15T14:06:14.297129+09:00",
-  "publication_slot_jst": "2026-11-15T14:00:00+09:00"
+  "last_published_at": "2026-11-15T15:06:17.931610+09:00",
+  "publication_slot_jst": "2026-11-15T15:00:00+09:00"
 }
