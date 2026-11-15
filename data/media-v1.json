@@ -1,9 +1,71 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T07:40:02.616804+00:00",
+  "source_snapshot_generated_at": "2026-11-15T08:40:02.940501+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:df54d8afb9e2e47d0d3a02d9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ソフトウェア設計",
+          "OSS",
+          "開発プロセス",
+          "エンジニア育成"
+        ],
+        "url": "https://zenn.dev/yun_bow/articles/fbfa7c1de09695",
+        "title": "AIにコードを任せても、判断は手放さない ― OSSのAI禁止から考える責任の境界",
+        "author": "ゆんぼう",
+        "published_at": "2026-11-15T08:25:49.938000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1785fb7eb03e8a0ab99b1a33",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "npm",
+          "Security",
+          "AIエージェント",
+          "lask"
+        ],
+        "url": "https://zenn.dev/torudev/articles/23db11fe820ef8",
+        "title": "タスクランナーこそ AI ガードレールを入れろ ―― サプライチェーン攻撃を防ぐツールを作った",
+        "author": "Toru Ikeda",
+        "published_at": "2026-11-15T08:03:35.250000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1c8ed1699e78caf9ea2c6e97",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "FortiGate",
+          "fw"
+        ],
+        "url": "https://zenn.dev/shangyuan/articles/d91a63642d95e4",
+        "title": "FortiGate CLIでログ出力レベルを変える方法",
+        "author": "PB_",
+        "published_at": "2026-11-15T07:56:25.031000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f4abbd66865d7b81b8ca2cf3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Playwright",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/satowan/articles/claude-code-multi-agent-manga-pipeline",
+        "title": "「この漫画って誰が作ってるの?」Claude Code の複数エージェントで株価の漫画を毎日出す仕組み",
+        "author": "さとわん",
+        "published_at": "2026-11-15T07:47:17.407000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f04e8b11839843b5a18f19a2",
         "source": "zenn",
@@ -35886,6 +35948,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:48397cd4fe8d573e842ad905",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "CSIRT",
+          "インシデントレスポンス",
+          "個人情報保護法",
+          "情シス"
+        ],
+        "url": "https://qiita.com/k2_naka/items/ba5194619014ed6bb1a2",
+        "title": "【2026年最新分析】不正アクセスの「検知→遮断→第一報→最終報」に何日かかるのか？国内インシデント事例から見る対応タイムラインの実態",
+        "author": "k2_naka",
+        "published_at": "2026-11-15T17:30:57+09:00",
+        "excerpt": "Gemini Carbonの腕試しに、本記事を作成しました。調査、作成までの時間は短く1分ほどでした。 はじめに：インシデント対応の「現実的な時間軸」を知っていますか？ 「もし今日、自社のWebサービスで不正アクセスを検知したら、 何時間以内に通信を遮断 し、 何日後に第一報のプレスリリース を出し、 いつまでに被害件数を確定 させられるだろうか？」 CSIRTや情報システム部門、あるいはWebサービスを開発・運用するエンジニアにとって、インシデント発生時のタイムライン設計は常に頭を悩ませるテーマです。机上演習やインシデント対応手順書（IRP）を作る際にも、「他社は実際どれくらいのスピード感で動いているのか？」というベンチマーク（実態値）がなければ、現実離れした計画になりかねません。 本記事では、セキュリティニュースメディア「 セキュリティ対策Lab 」で2026年に報じられた国内の主要な不正アクセス事案をもとに、インシデント対応における 3つの重要な時間軸（リードタイム） を集計・分析しました。 ※集計対象について SaaSや共通基盤（アララや"
+      },
+      {
+        "id": "qiita:3cdd72b4bcf246a93b089a77",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Chrome",
+          "Windows",
+          "Security",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/songchong/items/fa50cc82e49b24925fe3",
+        "title": "脆弱性の発表を中央値 1 分で掲載し、対応期限を付けて届ける無料サービスを公開しました｜IT連携マップ",
+        "author": "songchong",
+        "published_at": "2026-11-15T17:20:40+09:00",
+        "excerpt": "使っている技術の脆弱性を、自分に関係する分だけ、早く知りたい。知ったら、何を、いつまでにすればよいのかも知りたい。脆弱性の情報を追う人の目的は、この 2 つにまとまります。 IT連携マップ編集部は、2026 年 11 月 15 日に、この目的のための IT連携マップのセキュリティ情報 を公開しました。上の画面の①で立場を、②と③で使っている技術を選ぶと、その技術に関係する脆弱性の発表だけが並びます。発表には、日本語の「やること」と「いつまでに」が付きます。④は、ページが毎日数え直している、最近 1 週間の掲載の速さです。受け取り方は、⑤の「RSS・API で受け取る」と「メール通知」から選べます。無料・登録不要で、メールで受け取るときだけログインします。 気になること 答え 何をしてくれるのか？ 使っている技術を選ぶと、提供元・国の機関・CISA・JVN など 17 の発表元から、その技術に関係する件だけを集めて並べます。 どれだけ早く届くのか？ 発表元の発表から IT連携マップに題と出典が載るまで、中央値 46 秒でした（時刻の分かる 37 件"
+      },
+      {
+        "id": "qiita:537f8cb91aedc28ae6da09b6",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "設計"
+        ],
+        "url": "https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5",
+        "title": "AI時代セキュリティは設計で証明！エンジニアに求められるスキルを完全解説",
+        "author": "Sicut_study",
+        "published_at": "2026-11-15T17:03:34+09:00",
+        "excerpt": "はじめに こんにちは、Watanabe Jin( @Sicut_study )です。 ニュースを見るたびに、自分もセキュリティを勉強しないといけないと思ったことはないでしょうか。 認証。ファイアウォール。脆弱性の名前。 セキュリティと聞くと、そこを勉強すればいいと思う人が多いのではないかと思います。 ただ、みんなが思っているセキュリティと、ソフトウェアエンジニアがやるべきセキュリティは違います。 エンジニアがやるべきなのはあとから足す防御ではありません。 業務であり得ない操作を設計の時点で許さないことです。 ここには設計が深く関わっています。 今回はこの違いを理解できる記事にしました。 なぜAI時代にセキュリティをあとから足すだけでは足りないのか？ みんなが思うセキュリティと、エンジニアがやるべきものはどこが違うのか？ 見つけたルールをコードが守っているとどう確かめるのか？ 設計を中心としながら、 エンジニアがやるべきセキュリティ について話していきます。 この記事から得られること この記事を読み終わると、 ソフトウェアエンジニアにおけるセキュリ"
+      },
+      {
         "id": "qiita:a4c402fea44b764e31d5d02e",
         "source": "qiita",
         "author_tags": [
@@ -49002,6 +49110,85 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:7cd1958317ab4f2ff96f1af9",
+        "source": "medium",
+        "author_tags": [
+          "security",
+          "cybersecurity",
+          "bug-bounty-tips",
+          "bug-bounty",
+          "hacking"
+        ],
+        "url": "https://medium.com/@t4nv1/the-gap-between-check-and-use-how-a-race-condition-earned-15-250-from-shopify-2cda25405a55",
+        "title": "The Gap Between Check and Use: How a Race Condition Earned $15,250 from Shopify",
+        "author": "T4nv1",
+        "published_at": "2026-11-15T08:21:01+00:00",
+        "excerpt": "A technical look at check-then-act races in verification flows, with a toy model you can run in two seconds Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c908415d90533ec74c78316b",
+        "source": "medium",
+        "author_tags": [
+          "wordpress",
+          "small-business",
+          "wordpress-plugins",
+          "cybersecurity",
+          "website"
+        ],
+        "url": "https://medium.com/@modafang111/widget-options-plugin-vulnerability-6-checks-for-wordpress-site-owners-472664f753c0",
+        "title": "Widget Options Plugin Vulnerability: 6 Checks for WordPress Site Owners",
+        "author": "Modafang",
+        "published_at": "2026-11-15T08:13:43+00:00",
+        "excerpt": "Using Widget Options on your WordPress site? Check these 6 points in order, starting with your version and who can write posts. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:956786759576f48b2e76f08b",
+        "source": "medium",
+        "author_tags": [
+          "world",
+          "cybersecurity",
+          "cyber-security-awareness",
+          "microsoft"
+        ],
+        "url": "https://medium.com/@michaelolowoselu/hackers-are-exploiting-the-microsoft-365-outage-how-real-service-disruptions-become-phishing-3625cd0f9678",
+        "title": "Hackers Are Exploiting the Microsoft 365 Outage: How Real Service Disruptions Become Phishing…",
+        "author": "Michaelolowoselu",
+        "published_at": "2026-11-15T08:04:37+00:00",
+        "excerpt": "A genuine service disruption can create the perfect environment for social engineering. A recent phishing campaign demonstrates how… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1edb7cf34eb23e25ea353892",
+        "source": "medium",
+        "author_tags": [
+          "data-breach",
+          "higher-education",
+          "czech-republic",
+          "cybersecurity",
+          "web-application-security"
+        ],
+        "url": "https://medium.com/@zakpatrikcz/one-web-app-one-breach-what-happened-at-charles-university-d5adee2963b2",
+        "title": "One Web App, One Breach: What Happened at Charles University",
+        "author": "Patrik Žák",
+        "published_at": "2026-11-15T07:48:23+00:00",
+        "excerpt": "An attacker used a single compromised web application to pull personal data from the central student system of the Czech Republic’s… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5dee25cb6214d6411f898899",
+        "source": "medium",
+        "author_tags": [
+          "owasp",
+          "cybersecurity",
+          "rags",
+          "llm-security",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@umeshsubramani/the-rag-triad-is-not-enough-why-every-ai-system-needs-the-cia-triad-995e7e072f04",
+        "title": "The RAG Triad Is Not Enough: Why Every AI System Needs the CIA Triad",
+        "author": "Umesh Subramani",
+        "published_at": "2026-11-15T07:40:17+00:00",
+        "excerpt": "How an AI engineer and a cybersecurity engineer look at the same RAG agent, and why an organization needs both views before it can trust… Continue reading on Medium »"
+      },
       {
         "id": "medium:5ef9a8e883eb42eea4e5c024",
         "source": "medium",
