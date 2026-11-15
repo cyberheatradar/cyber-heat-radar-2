@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T12:40:03.143127+00:00",
+  "source_snapshot_generated_at": "2026-11-15T13:40:02.915893+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ce7ef81321afe8bbb1d50576",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "hooks",
+          "Agent",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kagaribilab/articles/claude-code-stop-hook-loop",
+        "title": "/goalを使わずStopフックを自作したら、Claude Codeが止まらず使用量が増え続けた",
+        "author": "かがり火ラボ",
+        "published_at": "2026-11-15T12:54:54.708000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ddcf394dec59153613cb3ecf",
+        "source": "zenn",
+        "author_tags": [
+          "Windows",
+          "Security",
+          "Network",
+          "C#",
+          "EDR"
+        ],
+        "url": "https://zenn.dev/mojabes_sec/articles/68a417858b4f6a",
+        "title": "Windows のネットワーク監視を自作する — 第1回：まずはポーリングで分かること・分からないこと",
+        "author": "mojabes｜しくみを検証するセキュリティコンサル",
+        "published_at": "2026-11-15T12:45:49.960000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:7a30412b948c858e2b9c58cf",
         "source": "zenn",
@@ -36837,6 +36869,22 @@
         "excerpt": "はじめに ニュースや脆弱性情報でよく見る攻撃手法の名前。なんとなく知っているつもりでも、「違いを説明して」と言われると意外と詰まるものです。 本記事では、エンジニアなら押さえておきたい攻撃手法を15問の一問一答にしました。答えは折りたたんでいるので、考えてから開いてみてください。 第1部：Webアプリケーションへの攻撃 Q1. 入力欄に ' OR '1'='1 のような文字列を入れて、データベースを不正に操作する攻撃は？ 答えを見る \"SQLインジェクション\"。対策は、プレースホルダ（バインド変数）を使ってSQLを組み立てること。文字列連結でSQLを作らない。 Q2. 掲示板などに悪意のあるスクリプトを埋め込み、閲覧者のブラウザで実行させる攻撃は？ 答えを見る \"クロスサイトスクリプティング（XSS）\"。対策は、出力時のエスケープ処理と、Content-Security-Policy の設定。 Q3. ログイン中の利用者に罠のリンクを踏ませ、本人の意図しない操作（送金・投稿など）をさせる攻撃は？ 答えを見る \"クロスサイトリクエストフォージェリ（"
       },
       {
+        "id": "qiita:8d6c3cbe297931cc3082297a",
+        "source": "qiita",
+        "author_tags": [
+          "Cloud",
+          "Security",
+          "AWS",
+          "Azure",
+          "GoogleCloud"
+        ],
+        "url": "https://qiita.com/pds_siken/items/5931bea8f9ab3fafff3b",
+        "title": "「クラウドだから安全」は誤解｜責任共有モデルを図解し、IaaS・PaaS・SaaSで\"自分が守る範囲\"を整理する",
+        "author": "pds_siken",
+        "published_at": "2026-11-14T10:29:11+09:00",
+        "excerpt": "はじめに クラウドのセキュリティ事故のニュースを見ると、原因は「クラウド事業者のシステムが破られた」ことよりも、\"利用者側の設定ミス\"であることがよくあります。 ストレージを「誰でも読める」設定のまま公開していた 管理画面のアカウントに多要素認証を設定していなかった アクセスキーをソースコードに書いて公開リポジトリに上げてしまった クラウドでは、セキュリティの責任を\"事業者と利用者で分担\"します。これを\"責任共有モデル\"といいます。本記事では、どこまでが自分の責任なのかを、サービスの形態ごとに整理します。 責任共有モデルの全体像 管理対象 オンプレミス IaaS PaaS SaaS データ 利用者 利用者 利用者 利用者 アカウント・アクセス権限 利用者 利用者 利用者 利用者 アプリケーション 利用者 利用者 利用者 事業者 ミドルウェア・実行環境 利用者 利用者 事業者 事業者 OS 利用者 利用者 事業者 事業者 仮想化基盤・サーバー 利用者 事業者 事業者 事業者 物理的な設備・ネットワーク 利用者 事業者 事業者 事業者 ※ 一般的な分"
+      },
+      {
         "id": "qiita:f4446f2f79f04cd359b7b457",
         "source": "qiita",
         "author_tags": [
@@ -49391,6 +49439,50 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d569de3d4a548fafd59c5662",
+        "source": "medium",
+        "author_tags": [
+          "supply-chain",
+          "cybersecurity",
+          "data-breach",
+          "infosec",
+          "aws"
+        ],
+        "url": "https://rankmywp.medium.com/expedia-data-breach-what-expedia-confirmed-and-what-n0n-only-claims-e0b0303a8320",
+        "title": "Expedia data breach: what Expedia confirmed and what n0n only claims",
+        "author": "Calin V.",
+        "published_at": "2026-11-15T13:27:21+00:00",
+        "excerpt": "Expedia Group told Skift on Nov 12 that attackers reached its systems through a compromised third-party data platform provider. Its… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:547493c763b1632f4af9ae86",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/digital-safety-cyber-hygiene/how-to-identify-phishing-scams-before-its-too-late-bc6e19f292a5",
+        "title": "How to Identify Phishing Scams Before It’s Too Late",
+        "author": "Synercis",
+        "published_at": "2026-11-15T12:58:52+00:00",
+        "excerpt": "A Step-by-Step Guide to Safeguarding Your Online Security. Continue reading on Digital Safety & Cyber Hygiene »"
+      },
+      {
+        "id": "medium:bcb4921214dabdd0201529dc",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "hardware",
+          "bug-bounty",
+          "hardware-security",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@0x4lpha_/finding-my-way-back-to-hardware-a-personal-journey-through-cybersecurity-910bba0c80d8",
+        "title": "Finding My Way Back to Hardware: A Personal Journey Through Cybersecurity",
+        "author": "0x4lpha",
+        "published_at": "2026-11-15T12:56:56+00:00",
+        "excerpt": "Sometimes, the path you take in technology is not the path you originally imagined. And sometimes, a single experience can make you stop… Continue reading on Medium »"
+      },
       {
         "id": "medium:16a05e1832e094f89dc2693f",
         "source": "medium",
