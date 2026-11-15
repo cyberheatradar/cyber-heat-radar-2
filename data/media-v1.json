@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-14T22:40:02.946872+00:00",
+  "source_snapshot_generated_at": "2026-11-14T23:40:02.839146+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:0aa66692a87a5ec93536f70a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GPT",
+          "llm",
+          "Claude",
+          "Skills"
+        ],
+        "url": "https://zenn.dev/daimo0120/articles/ba68474ee80ef2",
+        "title": "仕様作成をivvyとOpus単独で比べてみた",
+        "author": "DAIMOX",
+        "published_at": "2026-11-14T23:00:05.424000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1562d7b4ab068feb5b15a5c0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261115-tech-watch",
+        "title": "Tech Watch 2026-11-15: 道具と検証の境界",
+        "author": "らいけん",
+        "published_at": "2026-11-14T22:45:13.387000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:9dd8f96f42776faccd32e0ef",
         "source": "zenn",
@@ -34976,6 +35008,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5fa0b2af4c6d2debd761ce4b",
+        "source": "qiita",
+        "author_tags": [
+          "OSS",
+          "Git",
+          "リポジトリ",
+          "Security"
+        ],
+        "url": "https://qiita.com/orca-forge/items/04db5f69affe1f0ef68f",
+        "title": "Gitで履歴をまとめても古いコミットURLが開く問題を公開前に確認",
+        "author": "orca-forge",
+        "published_at": "2026-11-15T08:29:53+09:00",
+        "excerpt": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 Voice CanvasをOSSとして公開する準備中、Gitで履歴を1コミットにまとめても、古いコミットのURLが自分のアカウントで開けました。リポジトリはprivateで、未ログイン状態では同じURLが404になりました。自分のアカウントでは表示されるため、公開後の見え方を確かめる目的でリポジトリを作り直しました。 先に結論 Gitの履歴を1コミットにまとめても、private（非公開）のリポジトリでは古いコミットのURLが自分のアカウントで開けました。私はリポジトリを同じ名前で作り直して公開し、古いURLが未ログイン状態では開けないことを確認しました。public（公開状態）にした場合に古いコミットが見えるかは、試していません。 履歴をまとめたあと、なぜ古いURLが開いたのか 私がVoice Canvasの履歴を1コミットにまとめたのは、古い履歴に残したくない情報があったためです。履歴をまとめたあと、古いコミットのURLを自分のアカウントで開くと、そのコミッ"
+      },
+      {
+        "id": "qiita:02ec8289b1ecfd2dcc0e0eb5",
+        "source": "qiita",
+        "author_tags": [
+          "IoT",
+          "Docker",
+          "Python",
+          "Security",
+          "情シス"
+        ],
+        "url": "https://qiita.com/ojisantech/items/6e06ba5a67778ecba7b5",
+        "title": "LAN内DNSをCoreDNS/dnsmasqで防御壁に！悪意あるドメイン・広告・C2サーバーを一括ブロックするRPZ/シンクホール構築",
+        "author": "ojisantech",
+        "published_at": "2026-11-15T07:59:57+09:00",
+        "excerpt": "2. 現場のペイン・「情シス・SEあるある」 ランサムウェアや標的型攻撃、フィッシング詐欺メールの多くは、ユーザーがメール内リンクを踏んだり悪意ある添付ファイルを開いた瞬間に、**「C2（Command & Control）サーバーへのDNS名前解決」**から攻撃活動を開始します。 商用の次世代ファイアウォール（NGFW）の有償DNSセキュリティサブスクリプションを導入すればC2通信を自動遮断できますが、小規模拠点や検証ラボなど予算の限られた環境では導入が難しい場合があります。 そこで、LAN内クライアントが参照する内部DNSキャッシュサーバー（CoreDNSやdnsmasq）に「DNSシンクホール（Sinkhole）」機能を組み込みます。 世界中のセキュリティ研究機関が公開している最新の悪意あるドメインリストを毎日自動取得し、そのドメインへの名前解決要求に対して強制的に 0.0.0.0 を返す ことで、マルウェアの感染活動や情報流出を通信開始前に無力化します。 3. DNSシンクホールの仕組み Wi-Fi配下の全端末で得られる効能（4大メリット"
+      },
+      {
         "id": "qiita:89a6a4631cc50c9bb07ec601",
         "source": "qiita",
         "author_tags": [
@@ -47888,6 +47951,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:9e2804ec38c82f144cf5e339",
+        "source": "medium",
+        "author_tags": [
+          "server-hardening",
+          "api-security",
+          "devsecops",
+          "cybersecurity",
+          "owasp"
+        ],
+        "url": "https://medium.com/@leylammmdov/owasp-8-security-misconfiguration-the-kitchen-sink-of-api-vulnerabilities-0ca41eb2b476",
+        "title": "OWASP #8: Security Misconfiguration (The Kitchen Sink of API Vulnerabilities)",
+        "author": "Leyla Mammadova",
+        "published_at": "2026-11-14T22:44:11+00:00",
+        "excerpt": "When building complex API ecosystems, teams pour enormous effort into architecture, authentication logic, and authorization boundaries. Continue reading on Medium »"
+      },
       {
         "id": "medium:e7cdcd6e5b912ba88110948a",
         "source": "medium",
