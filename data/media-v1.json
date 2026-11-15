@@ -1,9 +1,56 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T05:40:03.011743+00:00",
+  "source_snapshot_generated_at": "2026-11-15T06:40:02.694921+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b6673e9a3fcb02cb9b1ba40f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Snowflake",
+          "BI",
+          "dashboard",
+          "Cortex Code"
+        ],
+        "url": "https://zenn.dev/kou_zenn/articles/snowflake-new-dashboard",
+        "title": "Snowflakeの新しいダッシュボード（Dashboards 2.0）を試してみる",
+        "author": "Kou-zenn",
+        "published_at": "2026-11-15T06:32:46.781000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d4aa9d6d1900accab3cb31ed",
+        "source": "zenn",
+        "author_tags": [
+          "API",
+          "Security",
+          "SonarQube",
+          "情報漏洩",
+          "idor"
+        ],
+        "url": "https://zenn.dev/tkishioka/articles/idor-hunter-agent",
+        "title": "総務省が点検を求めた「IDOR」とは？ 具体例と対策方法",
+        "author": "Takuto Kishioka",
+        "published_at": "2026-11-15T06:17:05.726000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:579ddfa4ce1505ee664635f1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "Claude Code",
+          "subagent"
+        ],
+        "url": "https://zenn.dev/burubaki/articles/867b4760b4191b",
+        "title": "Claude Codeのサブエージェントで副業の「部署」を4つ作った",
+        "author": "burubaki",
+        "published_at": "2026-11-15T06:06:27.647000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:824d95ad34a99cf7bb9943e6",
         "source": "zenn",
@@ -35792,6 +35839,53 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a4c402fea44b764e31d5d02e",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "TLS",
+          "SSL",
+          "Security"
+        ],
+        "url": "https://qiita.com/sharu2920/items/62d51b317758e3cd6214",
+        "title": "同じホスト名・同じポートで、URLパスごとにTLS証明書を切り替えるサーバを作った",
+        "author": "sharu2920",
+        "published_at": "2026-11-15T15:28:03+09:00",
+        "excerpt": "変なサーバーアプリ第一弾 はじめに TLSの証明書は、接続の最初にあるハンドシェイクで提示されます。この時点ではサーバはまだHTTPリクエストを受け取っていないので、URLのパスは分かりません。証明書を選ぶ材料はSNI、つまりホスト名だけです。 だから普通は、同じホスト名でパスごとに証明書を変えることはできません。 ……というのが前提なのですが、やってみたくなったので作りました。同じホスト名、同じ443番ポートのまま、 /a/ 以下では証明書A、 /b/ 以下では証明書Bが出るサーバです。リダイレクトはしません。ブラウザの鍵アイコンを開くと、本当に別の証明書が表示されます。 デモはこちらです。証明書はLet's Encryptで発行した本物で、2枚ともCNは sslgateway.haruharutv.jp です（発行者がYE2とYE1で違います）。 /a/cafe と /b/create をリンクで行き来すると、ページ末尾に表示される証明書シリアルが変わります。鍵アイコンから証明書そのものを確認してもらうのが一番確実です。 コードはGitHub"
+      },
+      {
+        "id": "qiita:477590e1b0795707e065a454",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "GitHubActions",
+          "Security",
+          "automation",
+          "ClaudeCode"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/2c59388e848ee7779591",
+        "title": "1。Metaが買収したエージェントツール「Conductor」がホスティング利用者に『2週間で移行せよ』と通知した週、自分の記事投稿パイプラインがGitHub公式以外のActionに依存している数を数えたら、この数字だった",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-11-15T15:27:27+09:00",
+        "excerpt": "はじめに 1。 これが今回の数字です。何の1かというと、Zenn/Qiita自動投稿パイプライン(Tamae-OSの一部)の中で、記事の公開を実際に実行しているGitHub Actionsのワークフローが、「GitHub公式が管理していない、サードパーティのAction」に依存している個数です。 きっかけは、今週報じられたニュースでした。Metaが常時稼働型のエージェントワークスペースツール「Conductor」を買収し、ホスティング版を利用していたユーザーに対して、サービス終了までの移行期間として2週間の猶予しか与えなかったと報じられています。買収に伴って外部ユーザー向けサービスが短期間で畳まれるという話です。自分自身もまた、記事を書くだけでなく「書いた記事を実際に公開するところまで」を、いくつかの外部サービス・外部コードに委ねています。今回はその依存関係を、自分の手元のワークフロー定義ファイルを実際に開いて数え直しました。 TL;DR Zenn側のリポジトリには .github/workflows/ 自体が存在しない。ZennはGit連携で直"
+      },
+      {
+        "id": "qiita:ea238ea3dbcd63c6e030f2da",
+        "source": "qiita",
+        "author_tags": [
+          "Android",
+          "Kotlin",
+          "Security",
+          "GooglePlay",
+          "PlayIntegrity"
+        ],
+        "url": "https://qiita.com/YuukiYoshida/items/a2236db2ad8851cf63a5",
+        "title": "Play Integrity APIはどうテストする？Play Consoleのテスト応答と判定処理の確認方法まとめ",
+        "author": "YuukiYoshida",
+        "published_at": "2026-11-15T14:54:20+09:00",
+        "excerpt": "Androidアプリの完全性を検証できる Play Integrity API ですが、実装する際に気になるのがテスト方法です。 通常の端末で正常な判定結果を取得できたとしても、それだけでは十分とは言えません。 例えば、アプリの完全性が確認できなかった場合や、端末の完全性要件を満たしていない場合、APIの呼び出し自体が失敗した場合など、いくつかのケースを考慮する必要があります。 しかし、こうした状態を実際の端末で再現しようとすると、少し面倒です。 端末の改造やAPKの変更などを行わなければならないのでしょうか。 実は、Google Play Consoleには、 任意の完全性判定結果やエラーを返すためのテスト機能 が用意されています。 今回はこの機能を中心に、Play Integrity APIの動作確認方法と、テスト時に注意したいポイントを整理してみます。 なお、本記事は2026年11月時点の公式ドキュメントをもとに、テストの方法を整理したものです。 Play Integrity APIでは何をテストするべきか？ Play Integrity "
+      },
+      {
         "id": "qiita:670f30172646eb04c64d8660",
         "source": "qiita",
         "author_tags": [
@@ -48861,6 +48955,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:5c78a2c8d8ee3319fabde350",
+        "source": "medium",
+        "author_tags": [
+          "osint",
+          "web-development",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@net.amassenberg/alternative-osint-techniques-8f71c43aba61",
+        "title": "Alternative OSINT Techniques",
+        "author": "Aidan Massenberg",
+        "published_at": "2026-11-15T06:05:38+00:00",
+        "excerpt": "I want to explain a new way to do OSINT on domains that isn’t typically covered in most enumeration guides. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0cc11b7133b1bb5527a33542",
+        "source": "medium",
+        "author_tags": [
+          "identity-theft",
+          "cybersecurity-insurance",
+          "cybersecurity",
+          "mental-health",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/tales-untold/cyberanxiety-is-real-how-i-stopped-panicking-about-being-hacked-every-day-28c185144ca7",
+        "title": "Cyberanxiety Is Real: How I Stopped Panicking About Being Hacked Every Day.",
+        "author": "Janimini",
+        "published_at": "2026-11-15T06:01:14+00:00",
+        "excerpt": "From Panic to Protected: A Complete Guide to Cyberanxiety and Digital Peace of Mind Continue reading on Tales Untold »"
+      },
+      {
+        "id": "medium:49c0b58248e7cb7f5a9a054a",
+        "source": "medium",
+        "author_tags": [
+          "playwrights",
+          "api-testing",
+          "software-testing",
+          "test-automation",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@janethradissanayake/api-authentication-and-authorization-testing-a-practical-guide-ab141e8d9fa7",
+        "title": "API Authentication and Authorization Testing: A Practical Guide",
+        "author": "Janethra Dissanayake",
+        "published_at": "2026-11-15T05:50:00+00:00",
+        "excerpt": "Modern applications rarely allow every user to access every resource. Before an application provides access to sensitive information or… Continue reading on Medium »"
+      },
       {
         "id": "medium:7abed59312d34b190f599ff1",
         "source": "medium",
