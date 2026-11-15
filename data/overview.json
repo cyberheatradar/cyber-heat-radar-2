@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-15T07:06:06.085768+00:00",
-  "as_of": "2026-11-15T07:00:00+00:00",
+  "generated_at": "2026-11-15T08:05:59.790363+00:00",
+  "as_of": "2026-11-15T08:00:00+00:00",
   "catalog_count": 24307,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -723,6 +723,36 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+      "cves": [
+        "CVE-2026-123039"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T16:52:20.050560+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-7182a3a53c63a0d3ffbc8b23",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:7182a3a53c63a0d3ffbc8b23",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-13T16:39:04+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root. The post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root. The post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
       "cves": [
         "CVE-2026-120868"
@@ -850,36 +880,6 @@
       "summary_excerpt": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
       "threat_actors": [],
       "title": "CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-      "cves": [
-        "CVE-2026-118383"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T18:52:38.335532+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-c776eb51cbacc6fa91c682a9",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c776eb51cbacc6fa91c682a9",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T18:25:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fixed versions earlier this week. The affected servers are members of a replica",
-      "summary_excerpt": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fixed versions earlier this week. The affected servers are members of a replica",
-      "threat_actors": [],
-      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover"
     }
   ],
   "timeseries_status": {
@@ -913,19 +913,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-12T07:00:00+00:00",
-    "last_as_of": "2026-11-15T07:00:00+00:00",
+    "first_as_of": "2026-11-12T08:00:00+00:00",
+    "last_as_of": "2026-11-15T08:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-15T07:00:00+00:00",
-  "heat_as_of": "2026-11-15T07:00:00+00:00",
+  "news_as_of": "2026-11-15T08:00:00+00:00",
+  "heat_as_of": "2026-11-15T08:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 24307,
-  "last_published_at": "2026-11-15T16:06:16.973538+09:00",
-  "publication_slot_jst": "2026-11-15T16:00:00+09:00"
+  "last_published_at": "2026-11-15T17:06:11.103416+09:00",
+  "publication_slot_jst": "2026-11-15T17:00:00+09:00"
 }
