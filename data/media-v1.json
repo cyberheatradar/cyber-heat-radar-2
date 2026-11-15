@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T13:40:02.915893+00:00",
+  "source_snapshot_generated_at": "2026-11-15T14:40:02.852988+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:92602c79c8b9c3564906ad08",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Ollama",
+          "Anthropic"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-047-opencodex-provider-proxy-api-translation",
+        "title": "opencodexでAnthropic/OpenAI形式のリクエストをローカルのQwen2.5-32Bに流してみた",
+        "author": "matsu",
+        "published_at": "2026-11-15T14:27:44.386000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fdeb41220a425f72553c837c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "OSS",
+          "selfhosted",
+          "llm"
+        ],
+        "url": "https://zenn.dev/malachi_amb/articles/41309700ac0fe0",
+        "title": "AnyModelBot v0.1.38：スキルの保存とライブラリ、ボット同士の受け渡し、「わたしについて」",
+        "author": "Malachi",
+        "published_at": "2026-11-15T14:10:55.256000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b819d57d545b77bbc88bf641",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Claude Code",
+          "Codex",
+          "subagent",
+          "Agent Skills"
+        ],
+        "url": "https://zenn.dev/itoken_lab/articles/delegating-work-with-without",
+        "title": "サブエージェントの「すべて通りました」を、AI に確かめさせる Skill",
+        "author": "いとけん",
+        "published_at": "2026-11-15T14:01:23.750000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ce7ef81321afe8bbb1d50576",
         "source": "zenn",
@@ -36197,6 +36245,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e9a2e307ca1242aca449c5d8",
+        "source": "qiita",
+        "author_tags": [
+          "WordPress",
+          "PHP",
+          "Security",
+          "REST-API"
+        ],
+        "url": "https://qiita.com/ore2nari/items/a778bffcbed854dd2488",
+        "title": "WordPress の REST API で /wp/v2/users を止めたのに /wp/v2/Users ですり抜けていた原因と直し方",
+        "author": "ore2nari",
+        "published_at": "2026-11-15T22:41:42+09:00",
+        "excerpt": "WordPress の REST API には、ユーザーの一覧を返す /wp-json/wp/v2/users があります。ログインしていなくても、公開済みの記事があるユーザーの名前とスラッグが返ります。スラッグは、何もしなければログイン名から作られるので、ログイン名の手がかりになります。 僕はこれを「ログインしていないときは 401 を返す」フィルターで止めていました。ところが /wp-json/wp/v2/Users と、 U を大文字にするだけで一覧が返ってきていたんですよね。この記事では、その原因を WordPress 本体のコードで追って、直したコードと確かめ方を書きます。 確かめた環境は WordPress 7.1.4 / PHP 8.4.1 です。本体のコードの引用も 7.1.4 のものです。 すり抜けていたコード 直す前のコードです。このときは、テーマの inc/security.php に書いていました。 security.php // REST API のユーザー一覧（/wp-json/wp/v2/users）は、ログインして"
+      },
+      {
         "id": "qiita:c2b43537d2b080a54e7f97ea",
         "source": "qiita",
         "author_tags": [
@@ -49439,6 +49502,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:84bb7f39e74efabbaab643e0",
+        "source": "medium",
+        "author_tags": [
+          "iran",
+          "osint",
+          "threat-intelligence",
+          "cybersecurity",
+          "forensic-linguistics"
+        ],
+        "url": "https://medium.com/@ethno.los2409/the-digital-face-of-revanchism-cyber-ethnography-phenotypic-profiling-and-forensic-linguistics-9415f321f997",
+        "title": "The Digital Face of Revanchism: Cyber-Ethnography, Phenotypic Profiling, and Forensic Linguistics…",
+        "author": "EthnoLogos",
+        "published_at": "2026-11-15T14:15:07+00:00",
+        "excerpt": "How a 2020 assassination, the socio-geography of Eastern Tehran, and a 3.6% Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f4d7c541d6d9d822136ece56",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "artificial-intelligence",
+          "cybersecurity",
+          "ai",
+          "web-development"
+        ],
+        "url": "https://medium.com/@pentesterclubpvtltd/verdict-ai-explained-the-autonomous-pentester-that-finds-proves-real-vulnerabilities-1ddc7043c9f1",
+        "title": "VERDICT AI Explained: The Autonomous Pentester That Finds & Proves Real Vulnerabilities",
+        "author": "Pentester Club",
+        "published_at": "2026-11-15T14:13:11+00:00",
+        "excerpt": "What if you could give an AI penetration tester a single application URL and let it explore the application, investigate potential… Continue reading on Medium »"
+      },
       {
         "id": "medium:d569de3d4a548fafd59c5662",
         "source": "medium",

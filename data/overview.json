@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-15T14:06:15.350732+00:00",
-  "as_of": "2026-11-15T14:00:00+00:00",
+  "generated_at": "2026-11-15T15:06:09.171494+00:00",
+  "as_of": "2026-11-15T15:00:00+00:00",
   "catalog_count": 24308,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -16,7 +16,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-15T18:52:41.850542+09:00",
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "permalink_id": "article-url-d5585df40181d87d8a2f8949",
       "primary_category": "ai_security",
       "public_article_id": "url:d5585df40181d87d8a2f8949",
@@ -144,7 +144,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-15T00:23:24.785654+09:00",
-      "heat_score": 40.5,
+      "heat_score": 32.4,
       "permalink_id": "article-url-f8b55e53d88a81420516acb6",
       "primary_category": "ai_security",
       "public_article_id": "url:f8b55e53d88a81420516acb6",
@@ -758,36 +758,6 @@
       "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google"
     },
     {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.praetorian.com/blog/cve-2026-119618/",
-      "cves": [
-        "CVE-2026-119618"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-13T00:23:07.195829+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-ae211369d694fab9f2335506",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:ae211369d694fab9f2335506",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T23:16:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Praetorian Blog",
-      "summary": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
-      "summary_excerpt": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […] The post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian .",
-      "threat_actors": [],
-      "title": "CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition"
-    },
-    {
       "ai_relevance": "primary",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/",
       "cves": [],
@@ -863,6 +833,28 @@
       "summary_excerpt": "Google Chrome バージョン 157.0.8103.38 未満の HID において不正な認可が存在し、リモートの攻撃者が細工された HTML ページを介してシステムのアクセス制限を回避できる可能性がありました。（Chromium のセキュリティ重大度は低です）",
       "threat_actors": [],
       "title": "GoogleのGoogle Chromeにおける不正な認証に関する脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043225.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-13T17:53:08.690679+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-01b1e8ac57f4c8f033f1b9aa",
+      "primary_category": "other",
+      "public_article_id": "url:01b1e8ac57f4c8f033f1b9aa",
+      "public_tags": [],
+      "published_at": "2026-11-13T12:03:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "Linuxカーネルにおいて、以下の脆弱性が修正されました。net/handshakeにおいて、ネットワーク名前空間終了時の保留リクエストのドレイン処理であるhandshake_net_exit()内のlist_splice_init()の引数が逆になっていました。この呼び出しは、ローカルの空の「requests」リストをhn-＞hn_requestsに移動させ、ローカルリストは空のままとなり、その後のドレインループは0回のイテレーションで終了します。まだ受け入れられていない保留中のハンドシェイクリクエストはネット名前空間が破棄されるときにクリーンアップされず、各リクエストはソケットファイルとhandshake_req割り当てへの参照を保持したままになります。list_splice_init(list, head)は「list」を「head」に移動させるため、ドキュメントどおりの順序で引数を渡すことで、保留リストがローカルのスクラッチリストに転送され、handshake_complete()を通じて正しくドレインされます。spliceの方向を修正するとリスト破損の競合状態が露呈します。splice後、各req-＞hr_listは非空のリンクポインタを保持し、hn_requestsではなくスタックローカルのスクラッチリストに接続されます。例えば、netns参照が取得されていないカーネルソケットのsunrpcのTLSタイムアウトから呼ばれる並行的なhandshake_req_cancel()はrhashtableを通じてリクエストを見つけ、remove_pending()を呼び出し、!list_empty(&req-＞hr_list)を検出します。__remove_pending_locked()はその間にドレイン処理が反復しているスクラッチリストのエントリをlist_del_init()し、リストを破損してしまいます。ドレインループがlist_del()を実行した後に同じ呼び出しが来るとLIST_POISONにヒットします。remove_pending()ではhn_lockでHANDSHAKE_F_NET_DRAININGをチェックし、ドレイン中であればnot-foundを返すようにしました。ドレイン処理はすでに所有権を取得しており、handshake_complete()の既存のHANDSHAKE_F_REQ_COMPLETEDに対するtest_and_setはドレインとキャンセル間のhp_done呼び出しを仲裁しています。ドレイン処理ではlist_del()ではなくlist_del_init()を使い、リリース後にreq-＞hr_listがLIST_POISONを持たないようにします。remove_pending()のDRAININGガードによりキャンセルはfalseを返しますが、キャンセルは引き続きHANDSHAKE_F_REQ_COMPLETEDへのtest_and_set_bitに落ち着いてリクエストのhr_file参照を解放します。追加の参照がない場合、それが最後の参照となりsk_destructがリクエストをドレインループのローカルリストにまだ接続された状態で解放してしまいます。hn_lockの下で各リクエストのhr_fileをピン留めし、ループ終了後にそのドレインピンを解放するようにしました。",
+      "summary_excerpt": "Linuxカーネルにおいて、以下の脆弱性が修正されました。net/handshakeにおいて、ネットワーク名前空間終了時の保留リクエストのドレイン処理であるhandshake_net_exit()内のlist_splice_init()の引数が逆になっていました。この呼び出しは、ローカルの空の「requests」リストをhn-＞hn_requestsに移動させ、ローカルリストは空のままとなり、その後のドレインループは0回のイテレーションで終了します。まだ受け入れられていない保留中のハンドシェイクリクエストはネット名前空間が破棄されるときにクリーンアップされず、各リクエストはソケットファイルとhandshake_req割り当てへの参照を保持したままになります。list_splice_init(list, head)は「list」を「head」に移動させるため、ドキュメントどおりの順序で引数を渡すことで、保留リストがローカルのスクラッチリストに転送され、handshake_complete()を通じて正しくドレインされます。spliceの方向を修正するとリスト破損の競合状態が露呈します。splice後、各req-＞hr_listは非空のリンクポインタを保持し、hn_requestsではなくスタックローカルのスクラッチリストに接続されます。例えば、netns参照が取得されていないカーネル",
+      "threat_actors": [],
+      "title": "LinuxのLinux Kernelにおける競合状態に関する脆弱性"
     }
   ],
   "timeseries_status": {
@@ -896,19 +888,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-12T14:00:00+00:00",
-    "last_as_of": "2026-11-15T14:00:00+00:00",
+    "first_as_of": "2026-11-12T15:00:00+00:00",
+    "last_as_of": "2026-11-15T15:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-15T14:00:00+00:00",
-  "heat_as_of": "2026-11-15T14:00:00+00:00",
+  "news_as_of": "2026-11-15T15:00:00+00:00",
+  "heat_as_of": "2026-11-15T15:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 24308,
-  "last_published_at": "2026-11-15T23:06:26.477346+09:00",
-  "publication_slot_jst": "2026-11-15T23:00:00+09:00"
+  "last_published_at": "2026-11-16T00:06:19.830193+09:00",
+  "publication_slot_jst": "2026-11-16T00:00:00+09:00"
 }
