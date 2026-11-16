@@ -1,9 +1,82 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T07:40:11.425524+00:00",
+  "source_snapshot_generated_at": "2026-11-16T08:40:03.161536+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:5e29f4d6722272916ecadba3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Kaggle",
+          "AI モデル"
+        ],
+        "url": "https://zenn.dev/rg687076/articles/eda75ccf227166",
+        "title": "18-⑧ Kaggle実践3 Biohub細胞トラッキング：4位の解法まとめ",
+        "author": "kito2718",
+        "published_at": "2026-11-16T08:00:24.813000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fb5840b390b691168ad422ef",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "Linux",
+          "初心者",
+          "Ubuntu",
+          "Security"
+        ],
+        "url": "https://zenn.dev/miki_mini/articles/3316ef664e8db8",
+        "title": "自動更新は8回届けてくれた。効かせたのは、わたしの再起動1回だけだった",
+        "author": "miki-mini",
+        "published_at": "2026-11-16T08:00:06.082000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a66dba4f5e51b05796f0461c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "画像"
+        ],
+        "url": "https://zenn.dev/liora/articles/77ac2e9ee6ae36",
+        "title": "画像の差分をレビューする",
+        "author": "liora",
+        "published_at": "2026-11-16T07:52:49.798000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d9cc76630d272c2c1965ca25",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "faceswap"
+        ],
+        "url": "https://zenn.dev/liveswapface/articles/c9b730cfb1f0de",
+        "title": "ブラウザでリアルタイム顔交換を始める方法と、配信に使うまでの準備",
+        "author": "LiveSwapFace",
+        "published_at": "2026-11-16T07:43:13.620000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8e6e998502bc3f0366b24deb",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "PostgreSQL",
+          "Security",
+          "RDS",
+          "SSM"
+        ],
+        "url": "https://zenn.dev/visionarray/articles/911e03131b2b51",
+        "title": "運用担当者からのリレーショナルDBへのアクセスをセキュアにする - SSMポート転送とIAM DB認証",
+        "author": "tikut",
+        "published_at": "2026-11-16T07:40:15.294000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:a8127daa69cb2147dfe9ec97",
         "source": "zenn",
@@ -37259,6 +37332,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5e8c2ea6b14c7a03f002219e",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "API",
+          "正規表現",
+          "JavaScript",
+          "個人開発"
+        ],
+        "url": "https://qiita.com/dokoka/items/80aaaae506fb084d08a5",
+        "title": "APIの危険設計チェッカーを正解つきの116行で測ったら、日本語版は期待した検出の約半分だった",
+        "author": "dokoka",
+        "published_at": "2026-11-16T16:48:22+09:00",
+        "excerpt": "APIの危険設計チェッカーを正解つきの116行で測ったら、日本語版は期待した検出の約半分だった TL;DR APIのエンドポイント一覧を貼ると、狙われやすい設計（管理・デバッグ系パスの露出、連番ID、URLへのキー混入など）を指摘する ツール です。ブラウザの中だけで動き、入力はサーバーに送りません 日本語版と英語版を別々に作っていたら、 実装がずれていました。 日本語版は件数しか出さず、英語版は行番号つきで、秘密の値も伏せていました 正解を先に決めた架空の行で測ると、 日本語版は、期待した検出55件のうち28件 でした。さらに {api_key} のようなテンプレートを「キーの混入」と誤検出していました 判定を日英共通の1ファイルにまとめて直し、 調整に使っていない35行 でも測り直しました（結果は後の表） 何ができるか エンドポイントを1行に1つ貼ります。 GET /api/v1/users/12345 GET /api/v1/debug/dump GET /api/v1/export?format=csv&api_key=sk_live_x"
+      },
+      {
+        "id": "qiita:6725d1c6de7b024c5c635957",
+        "source": "qiita",
+        "author_tags": [
+          "暗号",
+          "ゼロ知識証明",
+          "ietf",
+          "Security",
+          "ietf127"
+        ],
+        "url": "https://qiita.com/satokan3/items/a3ec7c3b031afbc78796",
+        "title": "【予習特集】IETF 127 高機能暗号・新しい暗号利用 分析 ― ゼロ知識証明の部品が CFRG に揃う",
+        "author": "satokan3",
+        "published_at": "2026-11-16T16:47:23+09:00",
+        "excerpt": "こんにちは！ GMOコネクト株式会社 執行役員CTO / GMOインターネットグループ株式会社 共同研究推進グループ 主席研究員 菅野哲（かんの さとる）でございます。 皆さん、ゼロ知識証明や匿名クレデンシャル、気になっていますか？ 研究の世界の暗号だったものが、トークンや Web の仕組みの Internet-Draft に入り始めています！！ 2026年11月にサンフランシスコで開かれる IETF 127 のアジェンダには、各 WG と RG が何を議論するのか、議題と発表資料（Meeting Materials）が載っています。本記事では、全179セッションのアジェンダと資料を一通り集め、そのうち高機能暗号（ゼロ知識証明、匿名クレデンシャル、選択的開示、プライバシーを守る集計、PAKE、Key Transparency）に関わる議題と、それ以外の新しい暗号の使い方をまとめました。PQC は、姉妹編の「IETF 127 PQC 関連セッション分析」にまとめています。 本記事は2026年11月16日（日本時間）時点の公開情報（datatrack"
+      },
+      {
         "id": "qiita:1678322abcb92fa1f67a8d5d",
         "source": "qiita",
         "author_tags": [
@@ -50903,6 +51008,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f4a7e90bf2ecbd2806f5e386",
+        "source": "medium",
+        "author_tags": [
+          "electric-vehicles",
+          "cyber-security-awareness",
+          "cybercrime",
+          "electric-car",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/the-story-well/how-hackers-proved-modern-connected-cars-are-a-cybersecurity-disaster-waiting-to-happen-83a91d8797aa",
+        "title": "How Hackers Proved Modern Connected Cars Are a Cybersecurity Disaster Waiting to Happen",
+        "author": "Nyangano Maurice || EV Planet",
+        "published_at": "2026-11-16T08:26:11+00:00",
+        "excerpt": "Simple wireless flaws let security researchers hijack brakes, unlock doors, and track drivers remotely—discover the glaring software blind… Continue reading on The Story Well »"
+      },
+      {
+        "id": "medium:5641073a40d04739caf32726",
+        "source": "medium",
+        "author_tags": [
+          "social-engineering",
+          "incident-response",
+          "cybersecurity",
+          "security-awareness",
+          "information-security"
+        ],
+        "url": "https://medium.com/@srimansoundarapandiyan/training-that-is-not-a-yearly-checkbox-4ccd8c672952",
+        "title": "Training That Is Not a Yearly Checkbox",
+        "author": "Sriman Soundarapandiyan",
+        "published_at": "2026-11-16T08:24:46+00:00",
+        "excerpt": "In November, Company A’s security dashboard showed that 100 percent of its help desk agents and dock supervisors had completed the annual… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ea56c1af8a4765a5a905c2d8",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "bug-bounty-tips",
+          "hacking",
+          "cybersecurity",
+          "security"
+        ],
+        "url": "https://medium.com/@t4nv1/how-an-unhandled-unicode-normalization-mismatch-led-to-a-5-000-account-takeover-acb4869c225f",
+        "title": "How an Unhandled Unicode Normalization Mismatch Led to a $5,000 Account Takeover",
+        "author": "T4nv1",
+        "published_at": "2026-11-16T08:21:01+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:db5ff3b9c6f0ac1452c10729",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@abdayaser24/sql-injection-with-filter-bypass-via-xml-encoding-lab-solution-portswigger-web-academy-bb172e0841c6",
+        "title": "SQL injection with filter bypass via XML encoding lab solution “Portswigger web academy”",
+        "author": "Abd Alrhman Yaser Hourani",
+        "published_at": "2026-11-16T08:20:22+00:00",
+        "excerpt": "This lab covers how to perform SQL injection in two scenarios: The first one is the traditional one, and the second one is when a web… Continue reading on Medium »"
+      },
       {
         "id": "medium:94c33a4914ee1ffc4c22e5b5",
         "source": "medium",
