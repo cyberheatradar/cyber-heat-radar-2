@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T10:40:03.965556+00:00",
+  "source_snapshot_generated_at": "2026-11-16T11:40:03.248219+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:4e0c8d7da4bd361eb51500da",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Java",
+          "Spring Boot",
+          "legacy"
+        ],
+        "url": "https://zenn.dev/soliperse/articles/37418d9a640ddd",
+        "title": "12個目は2〜3時間：オイシックスが11アプリのSpring Boot 4移行で育てた「覚書横展開」の手順",
+        "author": "soliperse",
+        "published_at": "2026-11-16T11:26:09.218000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:85155b1404ee9b38a58a65c7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture",
+          "automation",
+          "llm",
+          "agents"
+        ],
+        "url": "https://zenn.dev/taiki200504/articles/7c2ebaf0e88bac",
+        "title": "エージェントを業務に入れる前に、設計で落とす3点",
+        "author": "Taiki Mishima",
+        "published_at": "2026-11-16T11:10:56.485000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f8ce4e599ea843f1274a758f",
         "source": "zenn",
@@ -37452,6 +37483,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:7ccd97dae451a2cc6859eb9a",
+        "source": "qiita",
+        "author_tags": [
+          "Git",
+          "gitleaks",
+          "Security"
+        ],
+        "url": "https://qiita.com/mori-dev@github/items/31f6ce6b33dd8838217b",
+        "title": "リポジトリ内に gitleaks バイナリを置く構成における Git フックの git worktree 対応",
+        "author": "mori-dev@github",
+        "published_at": "2026-11-16T20:21:50+09:00",
+        "excerpt": "チームのリポジトリでは、コミット前に API キーやアクセストークンなどの混入を gitleaks で検査しています。メンバーが Homebrew などで個別にインストールする代わりに、clone 後に導入スクリプトを 1 回実行し、gitleaks のバイナリを .tools/ という Git 管理外のディレクトリへ配置する構成です。スクリプトでバージョンを固定しているので、チーム全員が同じバージョンを使えます。 git worktree を使うと、1 つのリポジトリから複数の作業ディレクトリを作り、ブランチごとに並行して作業できます。この記事では、clone で作られた通常の作業ディレクトリを「本体」、 git worktree add で追加した作業ディレクトリを「worktree」と呼びます。 ところが、この構成の Git フックが現在のリポジトリのルートを基準に gitleaks のバイナリを探していたため、worktree ではバイナリを見つけられませんでした。しかもフックは「バイナリが無ければ検査をスキップする」実装だったので、フッ"
+      },
+      {
         "id": "qiita:5e8c2ea6b14c7a03f002219e",
         "source": "qiita",
         "author_tags": [
@@ -51128,6 +51173,69 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:560d9dfae183d02dd88e609e",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "cybersecurity",
+          "quantum-computing",
+          "software-engineering",
+          "cryptography"
+        ],
+        "url": "https://medium.com/@shauryaprataps.mail/we-scanned-1-000-production-endpoints-for-quantum-vulnerability-98-failed-844ca00ac9f4",
+        "title": "We Scanned 1,000 Production Endpoints for Quantum Vulnerability 98% Failed.",
+        "author": "Shaurya Pratap Singh",
+        "published_at": "2026-11-16T11:27:33+00:00",
+        "excerpt": "Inside Harvest Now, Decrypt Later (HNDL), live TLS socket probing, and how we engineered ECDAT to automate the NIST post-quantum migration. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3370753783573c842b62abab",
+        "source": "medium",
+        "author_tags": [
+          "cyber-threat-intelligence",
+          "cybersecurity",
+          "threat-intelligence",
+          "osint",
+          "osint-investigation"
+        ],
+        "url": "https://medium.com/@oussamamed_abid/threat-intelligence-case-002-491b829b940d",
+        "title": "Threat Intelligence Case #002",
+        "author": "Oussama Abid",
+        "published_at": "2026-11-16T11:21:59+00:00",
+        "excerpt": "Hacking the Big Screen Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c5056b83db969dd248161343",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "technology",
+          "hacking",
+          "ctf"
+        ],
+        "url": "https://medium.com/@waltermoar/ctf-basics-understanding-rce-file-upload-17b1e9139c45",
+        "title": "CTF Basics: Understanding RCE File Upload",
+        "author": "Walter Moar",
+        "published_at": "2026-11-16T11:01:02+00:00",
+        "excerpt": "Learn how unrestricted file upload turns into remote code execution, how to confirm it safely, and how to get past common image/extension… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1c26f1b7b3dd0aa1f728cb08",
+        "source": "medium",
+        "author_tags": [
+          "siem",
+          "windows",
+          "system-administration",
+          "cybersecurity",
+          "splunk"
+        ],
+        "url": "https://medium.com/@yashmitverma/how-to-install-and-configure-splunk-universal-forwarder-on-windows-10-5562903c6dbb",
+        "title": "How to Install and Configure Splunk Universal Forwarder on Windows 10",
+        "author": "Yashmit Verma",
+        "published_at": "2026-11-16T10:59:40+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
       {
         "id": "medium:629f50a34b82c04607017ccf",
         "source": "medium",
