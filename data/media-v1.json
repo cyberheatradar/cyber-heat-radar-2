@@ -1,9 +1,99 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T01:40:03.246229+00:00",
+  "source_snapshot_generated_at": "2026-11-16T02:40:03.157754+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:5899bebd7271e08e137ae86a",
+        "source": "zenn",
+        "author_tags": [
+          "Go",
+          "Security",
+          "Tailscale",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/recaro/articles/muse-a2-20261115",
+        "title": "外部 AI エージェント Muse を自作メッセージサーバーにつないで、必要なときだけ起こす",
+        "author": "Recaro",
+        "published_at": "2026-11-16T02:30:07.157000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dd96f5c8e76275dede622be1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "video",
+          "Generative AI",
+          "videogeneration"
+        ],
+        "url": "https://zenn.dev/sarabuilds/articles/2a160fa34ef9b0",
+        "title": "Can one person be both drummer and singer in an APT-style duo video?",
+        "author": "saralforfacebook",
+        "published_at": "2026-11-16T02:18:26.753000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f211ae929863a9c09dcf378d",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/aoi_sato8734/articles/safeline-how-to-detect-llm-driven-20261115-9f98a52",
+        "title": "SafeLine WAFでまもるログイン：LLMボットをうたがうときのしらべかた",
+        "author": "佐藤 葵8734",
+        "published_at": "2026-11-16T02:12:49.804000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:014f0ef2fbf3e744a7b2919c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "生成 AI",
+          "OpenRouter",
+          "オープンモデル"
+        ],
+        "url": "https://zenn.dev/leading_ai/articles/open-model-economy-scale",
+        "title": "現在、オープンモデル経済の規模はどれくらいなのか？―フロンティアモデルとの比較で見えたもの",
+        "author": "山内 怜史（Satoshi Yamauchi）",
+        "published_at": "2026-11-16T02:10:46+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4c6560c3a4c0c85c51bb3c6c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "生成 AI",
+          "Sakana AI"
+        ],
+        "url": "https://zenn.dev/kentaro36/articles/sakana-chat-namazu-fugu-max",
+        "title": "Sakana Chatの2モデル「Namazu」と「Fugu Max」の違いと選び方",
+        "author": "SeaOtter 🦦(Kentaro Mori)",
+        "published_at": "2026-11-16T01:59:15.096000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4527558dfc5863a963938c5b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Productivity",
+          "webdev"
+        ],
+        "url": "https://zenn.dev/techhub/articles/f7986c5e9897",
+        "title": "並列稼働するAIコーディングエージェントの管理ツール7選【2026年版】",
+        "author": "技術愛好家",
+        "published_at": "2026-11-16T01:47:56.997000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:fef9545ab6f1eb1884c79cff",
         "source": "zenn",
@@ -36878,6 +36968,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1ba2a79faafa8b150ed6045b",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/9c3a3a983dd1daa6c185",
+        "title": "SafeLine WAFでランサムウェアのしんにゅうぐちをへらす：こうかいWebアプリのチェックリストとトラブルシューティング",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-16T11:14:27+09:00",
+        "excerpt": "こうかいWebアプリをねらうランサムウェアへのそなえは、「WAFをいれた」でおわりません。ログインへのくりかえしアクセス、ふるいadminルートへのリクエスト、APIのあやしいパラメーターなどを、どこでしらべ、どうとめ、なにでたしかめるかがポイントです。 この記事では、SafeLineをとおるアクセスと、とおらないアクセスをわけてテストするチェックリストをまとめます。ゴールは「ランサムウェアをかならずふせぐ」ではなく、「こうげきにつながるHTTP/Sリクエストをしらべるしくみをおき、うかいできないことをたしかめる」です。 SafeLineは、セルフホストでうごくリバースプロキシがたのWAFです。HTTP/Sトラフィックのフィルタリングとモニタリングをおこない、SQLインジェクション、コマンドインジェクション、パストラバーサル、ブルートフォースなどへのたいおうがドキュメントにあります。できることのよりどころは SafeLineのドキュメント です。 1. まず「すでにはいられていないか」をチェックする こうかいホストめい、ポート、アプリサーバーのア"
+      },
+      {
         "id": "qiita:2d0cc59fdca5e4139b23abd7",
         "source": "qiita",
         "author_tags": [
@@ -50369,6 +50473,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:c8597c12719bd2535e0d5e78",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "vulnerability",
+          "information-security",
+          "apache",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@sharansutrapu/zero-day-in-apache-http-server-understanding-the-critical-cve-2026-119618-http-2-rce-59d7c8b12c2f",
+        "title": "Zero-Day in Apache HTTP Server: Understanding the Critical CVE-2026–119618 HTTP/2 RCE",
+        "author": "Sharan Sutrapu",
+        "published_at": "2026-11-16T02:31:01+00:00",
+        "excerpt": "An AI scanner and Google researchers independently uncovered a 9.8 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0fa5299b718a86b672b8cc7f",
+        "source": "medium",
+        "author_tags": [
+          "network-security",
+          "snort-ids",
+          "intrusion-detectionsystem",
+          "soc-analyst",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@boshhirad/snort-lab-project-hands-on-network-monitoring-intrusion-detection-and-custom-ids-rules-d301cc6178a5",
+        "title": "Snort Lab Project: Hands-On Network Monitoring, Intrusion Detection and Custom IDS Rules",
+        "author": "Ahmed hirad",
+        "published_at": "2026-11-16T02:05:44+00:00",
+        "excerpt": "A practical cybersecurity lab exploring packet inspection, network traffic logging, Snort detection rules, custom ICMP alerts and PCAP… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b9d2651e62a6134cbb6fcaa9",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "hacker",
+          "cybersecurity-training",
+          "cybersecurity",
+          "types-of-hacker"
+        ],
+        "url": "https://medium.com/@karthikarajendran15121994/hackers-c91e999f48b9",
+        "title": "Hackers",
+        "author": "CyberPunk 2090",
+        "published_at": "2026-11-16T01:53:18+00:00",
+        "excerpt": "Day 4 of our cybersecurity learning journey Continue reading on Medium »"
+      },
       {
         "id": "medium:62111951165838eb8ad628ee",
         "source": "medium",
