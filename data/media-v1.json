@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T17:40:03.325187+00:00",
+  "source_snapshot_generated_at": "2026-11-16T18:40:02.716153+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -37896,6 +37896,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:d7fa57374ee60f195ac485da",
+        "source": "qiita",
+        "author_tags": [
+          "CTF",
+          "writeup",
+          "SSTI",
+          "Security"
+        ],
+        "url": "https://qiita.com/myk7myk/items/7625218cad716e59d4ae",
+        "title": "CyLab SSTI1 writeupという名のメモ",
+        "author": "myk7myk",
+        "published_at": "2026-11-17T03:15:12+09:00",
+        "excerpt": "今回はCylabのSSTI1を解いてみます！ SSTIとは SSTIは「Server-Side Template Injection」という脆弱性で、Webアプリケーションの脆弱性のひとつです。 具体的には、Webアプリケーションで利用されるテンプレートエンジンによって、ユーザーの入力した文字列が単なるデータではなく、テンプレートの一部として解釈・実行されてしまうことで発生します。この脆弱性を利用されると、情報漏洩やサーバー上で任意のコードが実行されるなど、重大な被害につながる可能性があります。 テンプレートエンジン そもそもテンプレートエンジンというのがよくわからないので調べてみました。 調べた結果、テンプレートエンジンとは、 Webページの構造やデザインを定義したテンプレートと、表示するデータを分離し、それらを合体することで動的にHTMLなどを生成する仕組み だということが分かりました。 例としてPythonで使えるJinja2というテンプレートエンジンを見てみます。 ① まずHTMLのテンプレートを用意します。 <h1> こんにちは、{{ "
+      },
+      {
         "id": "qiita:34d0727080432a42be8e2ad4",
         "source": "qiita",
         "author_tags": [
@@ -51746,6 +51761,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:cd1a0ad46c87db97f072edd1",
+        "source": "medium",
+        "author_tags": [
+          "network-security",
+          "cybersecurity",
+          "incident-response",
+          "information-security",
+          "brute-force"
+        ],
+        "url": "https://medium.com/@ajr656/investigating-brute-force-alerts-with-fortisiem-and-fortianalyzer-9cca7da0f146",
+        "title": "Investigating Brute Force Alerts with FortiSIEM and FortiAnalyzer",
+        "author": "M. Arya Zaidan",
+        "published_at": "2026-11-16T18:02:43+00:00",
+        "excerpt": "1. Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:72d8f91d144bb19f2d8d9392",
+        "source": "medium",
+        "author_tags": [
+          "malware-analysis",
+          "malware",
+          "information-security",
+          "artificial-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@simone.kraus/the-fake-captcha-and-the-next-109-seconds-ab58cc48811d",
+        "title": "The Fake CAPTCHA and the Next 109 Seconds",
+        "author": "SIMKRA",
+        "published_at": "2026-11-16T17:43:19+00:00",
+        "excerpt": "What 56 packet captures taught me about malware delivery, threat hunting, and predictive network analysis Continue reading on Medium »"
+      },
+      {
+        "id": "medium:af1e11f0e69c6b37c436ae9f",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "cybersecurity",
+          "cdn",
+          "tor",
+          "private-key"
+        ],
+        "url": "https://medium.com/@amirseyedian/gobalance-flaw-enables-onion-address-hijacking-detection-key-rotation-and-remediation-guide-79fb4569dbad",
+        "title": "GoBalance Flaw Enables .onion Address Hijacking: Detection, Key Rotation, and Remediation Guide",
+        "author": "Amir Seyedian",
+        "published_at": "2026-11-16T17:40:39+00:00",
+        "excerpt": "A .onion address is supposed to be the one thing on the dark web nobody can fake. There’s no certificate authority to trick and no… Continue reading on Medium »"
+      },
       {
         "id": "medium:6b66e098db2ea8e18881a63c",
         "source": "medium",
