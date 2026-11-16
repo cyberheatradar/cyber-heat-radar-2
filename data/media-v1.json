@@ -1,9 +1,99 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T23:40:02.862195+00:00",
+  "source_snapshot_generated_at": "2026-11-16T00:40:03.724681+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:bf1cd525fa818c9f31a6f8c7",
+        "source": "zenn",
+        "author_tags": [
+          "Git",
+          "Security",
+          "権限",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/crossclub_lab/articles/claude-code-settings-local-secrets-check",
+        "title": "Claude Code の「今後確認しない」に秘密が混ざる件を、自分の環境で点検する手順",
+        "author": "crossclub",
+        "published_at": "2026-11-16T00:30:11.982000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aae0bbe6dea50ce470dce709",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Harness",
+          "Claude Code",
+          "ハーネスエンジニアリング"
+        ],
+        "url": "https://zenn.dev/headwaters/articles/e285cb80ec672a",
+        "title": "AI駆動開発用ハーネスに実行検証役を組み込む",
+        "author": "Keita Sakashita",
+        "published_at": "2026-11-16T00:30:08.184000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2dc5870e132850caa7215b6f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/ai_secretary/articles/af79317a600da4",
+        "title": "公開数の数え直し、3回目 ― フィード確認の取りこぼしと実ページ確認の話",
+        "author": "AI秘書ラボ",
+        "published_at": "2026-11-16T00:05:25.959000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7432c2dcdf4286b214bf9e6a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "マーケティング",
+          "MMM",
+          "meridian"
+        ],
+        "url": "https://zenn.dev/vegma/articles/meridian-agent-skills",
+        "title": "Meridianのエージェントスキルで進めるMMM分析の使い方と導入方法",
+        "author": "Vegma",
+        "published_at": "2026-11-16T00:00:06.219000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d6db8b56beee809930440974",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Gemini",
+          "OpenRouter"
+        ],
+        "url": "https://zenn.dev/shibatamago_dev/articles/ling-3-2-flash-hands-on",
+        "title": "Ling 3.2 Flashを実際に動かしてみた。OpenRouterの無料モデルはGeminiとどこまで並ぶか",
+        "author": "shiba-tamago",
+        "published_at": "2026-11-15T23:55:05.069000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e7fbb53dd6b89772296a89a6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture",
+          "llm"
+        ],
+        "url": "https://zenn.dev/yuyak/articles/llm-rule-validation",
+        "title": "LLMをアプリに組み込むとき、どこまで任せてよいのか",
+        "author": "yuya",
+        "published_at": "2026-11-15T23:54:14.940000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:88668ecd6e660dcef79c296c",
         "source": "zenn",
@@ -36631,6 +36721,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6542c22918ce5397a8204f91",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "GitHub",
+          "CloudSecurity",
+          "DevSecOps",
+          "AWS"
+        ],
+        "url": "https://qiita.com/iestudy/items/63cbf2f55664e0ab1cfb",
+        "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-16)",
+        "author": "iestudy",
+        "published_at": "2026-11-16T09:00:39+09:00",
+        "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-16) クラウド・GitHubセキュリティインシデント解析レポート 本記事では、直近で公開されたGit／Google Cloud（GCP・GKE）に関する重要なセキュリティ情報を3件まとめて解説します。いずれもインフラ・開発基盤に広く影響する可能性がある内容ですので、該当する環境をお使いの方は優先的にご確認ください。 記事1: Git 複数のセキュリティ脆弱性（6件）が公開 概要 GitHub Security Blogにて、Git本体に存在する6件のセキュリティ脆弱性が公表され、修正版がリリースされました。影響を受ける機能は以下の通りです。 再帰的クローン（recursive clones） 参照（reference）の処理 マージ処理 バイナリパッチの適用 インポート処理 具体的なCVE番号や詳細な攻撃シナリオは記事本文では個別に明示されていませんが、Gitクライアント・サーバー双方の基本機能に関わる複数の脆弱性がまとめて修正されたリリースとなっています。 影響範"
+      },
+      {
         "id": "qiita:4135bbbd9e586acc97e6e055",
         "source": "qiita",
         "author_tags": [
@@ -50075,6 +50181,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:939421d0d27e56ef5d7981e8",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "safety",
+          "technology"
+        ],
+        "url": "https://medium.com/@hdfinance979/what-cisa-actually-says-about-recognizing-phishing-c693a0cf1dc8",
+        "title": "What CISA Actually Says About Recognizing Phishing",
+        "author": "High Definition Learning Group",
+        "published_at": "2026-11-16T00:31:01+00:00",
+        "excerpt": "Phishing works because it borrows trust: a message that looks like your bank, your boss, or a delivery you were expecting, built to make… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dfb4be386f2f641daff0b142",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ai-security",
+          "prompt-injection",
+          "generative-ai"
+        ],
+        "url": "https://medium.com/@kamechi098/securing-ai-agents-prompt-injection-tool-permissions-and-data-protection-48c7acc2cee0",
+        "title": "Securing AI Agents: Prompt Injection, Tool Permissions and Data Protection",
+        "author": "Amechi Jonathan Ogbonna",
+        "published_at": "2026-11-16T00:27:32+00:00",
+        "excerpt": "What developers need to understand about protecting AI assistants, preventing unsafe actions and building secure agentic applications. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e845b09f36ce7e11651c7555",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "offensive-framework",
+          "offensive-ai",
+          "artex",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@agostinho.br/artex-cairn-lets-focus-on-what-matters-6c953f507da9",
+        "title": "Artex? Cairn? Let’s focus on what matters",
+        "author": "Bruno Agostinho",
+        "published_at": "2026-11-16T00:03:19+00:00",
+        "excerpt": "Forget ARTEX. Forget Cairn. The situation goes much deeper than that. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c01ffadda421f7a1c751f503",
+        "source": "medium",
+        "author_tags": [
+          "offensive-ai",
+          "artex",
+          "offensive-framework",
+          "incident-response",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@agostinho.br/artex-cairn-vamos-focar-no-que-importa-05a86b1bc2b9",
+        "title": "Artex? Cairn? Vamos focar no que importa",
+        "author": "Bruno Agostinho",
+        "published_at": "2026-11-15T23:55:52+00:00",
+        "excerpt": "Esqueça o ARTEX. Esqueça o Cairn. O buraco é muito mais embaixo. Continue reading on Medium »"
+      },
       {
         "id": "medium:cd703252b22d64298671b4c2",
         "source": "medium",
