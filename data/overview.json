@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-16T13:07:12.497439+00:00",
-  "as_of": "2026-11-16T13:00:00+00:00",
-  "catalog_count": 24507,
+  "generated_at": "2026-11-16T14:07:11.658168+00:00",
+  "as_of": "2026-11-16T14:00:00+00:00",
+  "catalog_count": 24511,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,75 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://isc.sans.edu/diary/33522",
+      "cves": [
+        "CVE-2026-42271",
+        "CVE-2026-48710"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:22:22.213613+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-bdf57f779ad26d76f46035a9",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:bdf57f779ad26d76f46035a9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-16T22:11:04+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SANS Internet Storm Center",
+      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+      "summary_excerpt": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+      "threat_actors": [],
+      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:38:51.969604+09:00",
+      "heat_score": 73.0,
+      "permalink_id": "article-url-1d06137f6723e455f1793db4",
+      "primary_category": "ai_security",
+      "public_article_id": "url:1d06137f6723e455f1793db4",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-16T22:03:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of their owners appeared first on Help Net Security .",
+      "summary_excerpt": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of t",
+      "threat_actors": [],
+      "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
@@ -42,6 +111,67 @@
       "summary_excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://any.run/cybersecurity-blog/knowbe4-phisher-integration/",
+      "cves": [],
+      "document_form": "analysis",
+      "first_seen_at": "2026-11-16T22:38:20.820677+09:00",
+      "heat_score": 61.75,
+      "permalink_id": "article-url-6d415b6555fbe99880db038e",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:6d415b6555fbe99880db038e",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-16T21:38:34+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ANY.RUN Cybersecurity Blog",
+      "summary": "Every employee-reported suspicious email requires triage, but manually submitting messages for deeper analysis and transferring results between tools slows down SOC operations. The new ANY.RUN integration for KnowBe4 PhishER automates the behavioral analysis stage of phishing triage by connecting PhishER with ANY.RUN Interactive Sandbox. Selected emails are automatically submitted for analysis, with verdicts returned directly […] The post ANY.RUN & KnowBe4 PhishER: Accelerate Phishing Triage with Behavioral Analysis appeared first on ANY.RUN's Cybersecurity Blog .",
+      "summary_excerpt": "Every employee-reported suspicious email requires triage, but manually submitting messages for deeper analysis and transferring results between tools slows down SOC operations. The new ANY.RUN integration for KnowBe4 PhishER automates the behavioral analysis stage of phishing triage by connecting PhishER with ANY.RUN Interactive Sandbox. Selected emails are automatically submitted for analysis, with verdicts returned directly […] The post ANY.RUN & KnowBe4 PhishER: Accelerate Phishing Triage with Behavioral Analysis appeared first on ANY.RUN's Cybersecurity Blog .",
+      "threat_actors": [],
+      "title": "ANY.RUN & KnowBe4 PhishER: Accelerate Phishing Triage with Behavioral Analysis"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:39:06.223562+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c4086de05142b1d96dc6abdf",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:c4086de05142b1d96dc6abdf",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-16T21:33:18+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
+      "summary_excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
+      "threat_actors": [],
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware"
     },
     {
       "ai_relevance": "none",
@@ -178,120 +308,45 @@
       "summary_excerpt": "Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers. The post Uber Data Breach Impacts 150,000 People appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Uber Data Breach Impacts 150,000 People"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T20:08:04.597853+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-d3122e6e57b4157091e726b5",
-      "primary_category": "ai_security",
-      "public_article_id": "url:d3122e6e57b4157091e726b5",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-16T20:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
-      "summary_excerpt": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
-      "threat_actors": [],
-      "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.cybersecuritydive.com/spons/creating-a-holistic-threat-management-strategy-for-frontier-ai/873832/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T19:37:39.575107+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-af17f01566c11155ccb6c192",
-      "primary_category": "ai_security",
-      "public_article_id": "url:af17f01566c11155ccb6c192",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-16T19:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cybersecurity Dive",
-      "summary": "Radically rethink security to address Frontier AI vulnerabilities before they're exploited.",
-      "summary_excerpt": "Radically rethink security to address Frontier AI vulnerabilities before they're exploited.",
-      "threat_actors": [],
-      "title": "Creating a holistic threat management strategy for Frontier AI"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/news/24/03473/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T18:54:12.562149+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-b2ab28c773d12494d91ef812",
-      "primary_category": "other",
-      "public_article_id": "url:b2ab28c773d12494d91ef812",
-      "public_tags": [],
-      "published_at": "2026-11-16T18:38:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Nikkei XTECH IT",
-      "summary": "理化学研究所（理研）と富士通が共同開発したスーパーコンピューター（スパコン）「富岳」が不正アクセスを受け、理研が稼働を停止させていると2026年11月16日の日経クロステックの取材で分かった。",
-      "summary_excerpt": "理化学研究所（理研）と富士通が共同開発したスーパーコンピューター（スパコン）「富岳」が不正アクセスを受け、理研が稼働を停止させていると2026年11月16日の日経クロステックの取材で分かった。",
-      "threat_actors": [],
-      "title": "スパコン「富岳」に不正アクセス、稼働停止　理研は13日に文科省へ連絡"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T20:22:38.406801+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-5ceeaae8e26f5eb828b8ffe1",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:5ceeaae8e26f5eb828b8ffe1",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-16T18:32:57+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
-      "summary_excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
-      "threat_actors": [],
-      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://isc.sans.edu/diary/33522",
+      "cves": [
+        "CVE-2026-42271",
+        "CVE-2026-48710"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:22:22.213613+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-bdf57f779ad26d76f46035a9",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:bdf57f779ad26d76f46035a9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-16T22:11:04+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SANS Internet Storm Center",
+      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+      "summary_excerpt": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+      "threat_actors": [],
+      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
@@ -321,6 +376,39 @@
       "summary_excerpt": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:38:51.969604+09:00",
+      "heat_score": 73.0,
+      "permalink_id": "article-url-1d06137f6723e455f1793db4",
+      "primary_category": "ai_security",
+      "public_article_id": "url:1d06137f6723e455f1793db4",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-16T22:03:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of their owners appeared first on Help Net Security .",
+      "summary_excerpt": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of t",
+      "threat_actors": [],
+      "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
     },
     {
       "ai_relevance": "none",
@@ -398,6 +486,39 @@
       "summary_excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:39:06.223562+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c4086de05142b1d96dc6abdf",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:c4086de05142b1d96dc6abdf",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-16T21:33:18+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
+      "summary_excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
+      "threat_actors": [],
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware"
     },
     {
       "ai_relevance": "none",
@@ -481,90 +602,6 @@
       "summary_excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
       "threat_actors": [],
       "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T18:37:01.434564+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-f5ef776679d8464c39fd20cf",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f5ef776679d8464c39fd20cf",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-16T18:30:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
-      "summary_excerpt": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
-      "threat_actors": [],
-      "title": "New NoisyTCP vulnerability lets attackers crash Linux servers"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/ai-cut-vulnerability-discover-nine/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T18:54:02.385068+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-83d5f53cdd7d78ea7e8e45f6",
-      "primary_category": "ai_security",
-      "public_article_id": "url:83d5f53cdd7d78ea7e8e45f6",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-16T18:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "Forescout report claims to have found 66 new flaws in just 90 hours using AI",
-      "summary_excerpt": "Forescout report claims to have found 66 new flaws in just 90 hours using AI",
-      "threat_actors": [],
-      "title": "AI Cuts Vulnerability Discovery from Nine Months to 90 Hours"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T17:22:43.058323+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-1f852839e1cc2ae66810d140",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:1f852839e1cc2ae66810d140",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-16T17:15:12+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages. The post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared first on SecurityWeek .",
-      "summary_excerpt": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages. The post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign"
     }
   ],
   "rising": [],
@@ -830,36 +867,36 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658",
+      "canonical_url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-13T22:53:16.247036+09:00",
+      "first_seen_at": "2026-11-13T23:52:04.707487+09:00",
       "heat_score": 46.8,
-      "permalink_id": "article-url-7ac3b3e45f83d5735ab4f209",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:7ac3b3e45f83d5735ab4f209",
+      "permalink_id": "article-url-9b869854ac39003a28f9433a",
+      "primary_category": "ransomware",
+      "public_article_id": "url:9b869854ac39003a28f9433a",
       "public_tags": [
         {
           "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
+          "key": "ransomware",
+          "label": "Ransomware"
         },
         {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
         }
       ],
-      "published_at": "2026-11-13T22:14:00+09:00",
+      "published_at": "2026-11-13T23:28:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "Germany's Bundeswehr lifted precautionary grounding after malicious update reportedly reached military servers",
-      "summary_excerpt": "Germany's Bundeswehr lifted precautionary grounding after malicious update reportedly reached military servers",
+      "source_name": "The Record",
+      "summary": "ActiveCloud said hackers had breached its systems and encrypted parts of its cloud infrastructure, leaving customers unable to access key services for several days.",
+      "summary_excerpt": "ActiveCloud said hackers had breached its systems and encrypted parts of its cloud infrastructure, leaving customers unable to access key services for several days.",
       "threat_actors": [],
-      "title": "Quantum Systems drones back in the air after malware scare"
+      "title": "Ransomware attack on Belarusian cloud firm disrupts businesses for days"
     }
   ],
   "timeseries_status": {
@@ -880,32 +917,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-    "【HOTTEST #1 / Heat 75】Recent UnrealIRCd Vulnerability Exploited in Attacks",
-    "【LATEST #2】Microsoft previews remote lock for lost or stolen Windows devices",
-    "【HOTTEST #2 / Heat 65.7】スパコン「富岳」に不正アクセス　理研が明らかに",
-    "【LATEST #3】Australian retail giant Coles investigates cybersecurity incident",
-    "【HOTTEST #3 / Heat 65.7】パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果",
-    "【LATEST #4】Recent UnrealIRCd Vulnerability Exploited in Attacks",
-    "【HOTTEST #4 / Heat 65】Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-    "【LATEST #5】Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
-    "【HOTTEST #5 / Heat 65】Uber Data Breach Impacts 150,000 People"
+    "【LATEST #1】Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
+    "【HOTTEST #1 / Heat 75】Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
+    "【LATEST #2】Criminal marketplace sells infostealer logs with AI-written profiles of their owners",
+    "【HOTTEST #2 / Heat 75】Recent UnrealIRCd Vulnerability Exploited in Attacks",
+    "【LATEST #3】Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+    "【HOTTEST #3 / Heat 73】Criminal marketplace sells infostealer logs with AI-written profiles of their owners",
+    "【LATEST #4】ANY.RUN & KnowBe4 PhishER: Accelerate Phishing Triage with Behavioral Analysis",
+    "【HOTTEST #4 / Heat 65.7】スパコン「富岳」に不正アクセス　理研が明らかに",
+    "【LATEST #5】Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+    "【HOTTEST #5 / Heat 65.7】パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-13T13:00:00+00:00",
-    "last_as_of": "2026-11-16T13:00:00+00:00",
+    "first_as_of": "2026-11-13T14:00:00+00:00",
+    "last_as_of": "2026-11-16T14:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-16T13:00:00+00:00",
-  "heat_as_of": "2026-11-16T13:00:00+00:00",
+  "news_as_of": "2026-11-16T14:00:00+00:00",
+  "heat_as_of": "2026-11-16T14:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24507,
-  "last_published_at": "2026-11-16T22:07:23.727418+09:00",
-  "publication_slot_jst": "2026-11-16T22:00:00+09:00"
+  "news_catalog_count": 24511,
+  "last_published_at": "2026-11-16T23:07:22.490031+09:00",
+  "publication_slot_jst": "2026-11-16T23:00:00+09:00"
 }

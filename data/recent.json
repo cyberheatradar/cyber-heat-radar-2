@@ -1,5 +1,74 @@
 [
   {
+    "ai_relevance": "material",
+    "canonical_url": "https://isc.sans.edu/diary/33522",
+    "cves": [
+      "CVE-2026-42271",
+      "CVE-2026-48710"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-16T22:22:22.213613+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-bdf57f779ad26d76f46035a9",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:bdf57f779ad26d76f46035a9",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "cyan",
+        "key": "ai",
+        "label": "AI Security"
+      }
+    ],
+    "published_at": "2026-11-16T22:11:04+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "SANS Internet Storm Center",
+    "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+    "summary_excerpt": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+    "threat_actors": [],
+    "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
+  },
+  {
+    "ai_relevance": "primary",
+    "canonical_url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-16T22:38:51.969604+09:00",
+    "heat_score": 73.0,
+    "permalink_id": "article-url-1d06137f6723e455f1793db4",
+    "primary_category": "ai_security",
+    "public_article_id": "url:1d06137f6723e455f1793db4",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      },
+      {
+        "color_family": "red",
+        "key": "malware",
+        "label": "Malware"
+      }
+    ],
+    "published_at": "2026-11-16T22:03:56+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Help Net Security",
+    "summary": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of their owners appeared first on Help Net Security .",
+    "summary_excerpt": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of t",
+    "threat_actors": [],
+    "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
+  },
+  {
     "ai_relevance": "none",
     "canonical_url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
     "cves": [],
@@ -31,6 +100,67 @@
     "summary_excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
     "threat_actors": [],
     "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://any.run/cybersecurity-blog/knowbe4-phisher-integration/",
+    "cves": [],
+    "document_form": "analysis",
+    "first_seen_at": "2026-11-16T22:38:20.820677+09:00",
+    "heat_score": 61.75,
+    "permalink_id": "article-url-6d415b6555fbe99880db038e",
+    "primary_category": "threat_campaign",
+    "public_article_id": "url:6d415b6555fbe99880db038e",
+    "public_tags": [
+      {
+        "color_family": "red",
+        "key": "threat_campaign",
+        "label": "Campaign"
+      }
+    ],
+    "published_at": "2026-11-16T21:38:34+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "ANY.RUN Cybersecurity Blog",
+    "summary": "Every employee-reported suspicious email requires triage, but manually submitting messages for deeper analysis and transferring results between tools slows down SOC operations. The new ANY.RUN integration for KnowBe4 PhishER automates the behavioral analysis stage of phishing triage by connecting PhishER with ANY.RUN Interactive Sandbox. Selected emails are automatically submitted for analysis, with verdicts returned directly […] The post ANY.RUN & KnowBe4 PhishER: Accelerate Phishing Triage with Behavioral Analysis appeared first on ANY.RUN's Cybersecurity Blog .",
+    "summary_excerpt": "Every employee-reported suspicious email requires triage, but manually submitting messages for deeper analysis and transferring results between tools slows down SOC operations. The new ANY.RUN integration for KnowBe4 PhishER automates the behavioral analysis stage of phishing triage by connecting PhishER with ANY.RUN Interactive Sandbox. Selected emails are automatically submitted for analysis, with verdicts returned directly […] The post ANY.RUN & KnowBe4 PhishER: Accelerate Phishing Triage with Behavioral Analysis appeared first on ANY.RUN's Cybersecurity Blog .",
+    "threat_actors": [],
+    "title": "ANY.RUN & KnowBe4 PhishER: Accelerate Phishing Triage with Behavioral Analysis"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-16T22:39:06.223562+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-c4086de05142b1d96dc6abdf",
+    "primary_category": "threat_campaign",
+    "public_article_id": "url:c4086de05142b1d96dc6abdf",
+    "public_tags": [
+      {
+        "color_family": "red",
+        "key": "threat_campaign",
+        "label": "Campaign"
+      },
+      {
+        "color_family": "red",
+        "key": "malware",
+        "label": "Malware"
+      }
+    ],
+    "published_at": "2026-11-16T21:33:18+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
+    "summary_excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
+    "threat_actors": [],
+    "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware"
   },
   {
     "ai_relevance": "none",
@@ -419,7 +549,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T17:22:41.054252+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-be21cdbf5b8834b65f0e5771",
     "primary_category": "other",
     "public_article_id": "url:be21cdbf5b8834b65f0e5771",
@@ -5599,7 +5729,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-13T23:22:41.381529+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-c5b36841680f9de326f9f585",
     "primary_category": "ai_security",
     "public_article_id": "url:c5b36841680f9de326f9f585",
@@ -5627,7 +5757,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-13T22:53:16.247036+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-7ac3b3e45f83d5735ab4f209",
     "primary_category": "threat_campaign",
     "public_article_id": "url:7ac3b3e45f83d5735ab4f209",
@@ -5660,7 +5790,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-13T21:52:49.890825+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-43f14cb30a435c05137d03f4",
     "primary_category": "incident",
     "public_article_id": "url:43f14cb30a435c05137d03f4",
@@ -45948,7 +46078,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-09T23:07:32.486523+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-5f33f93916033478181eb861",
     "primary_category": "incident",
     "public_article_id": "url:5f33f93916033478181eb861",
@@ -45976,7 +46106,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-09T23:07:31.571841+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-770852eaa9080b43a3e6930e",
     "primary_category": "supply_chain",
     "public_article_id": "url:770852eaa9080b43a3e6930e",
@@ -46004,7 +46134,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-09T22:38:30.279867+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-11413bb1281648773dc35b7f",
     "primary_category": "other",
     "public_article_id": "url:11413bb1281648773dc35b7f",
@@ -46026,7 +46156,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-09T22:38:29.970511+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-cd9d066555dba37a1387fea8",
     "primary_category": "threat_campaign",
     "public_article_id": "url:cd9d066555dba37a1387fea8",
