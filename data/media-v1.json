@@ -1,9 +1,24 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T16:40:02.869584+00:00",
+  "source_snapshot_generated_at": "2026-11-16T17:40:03.325187+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:bc2103a92661642a889eba61",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SaaS",
+          "プロダクト開発",
+          "会話設計"
+        ],
+        "url": "https://zenn.dev/chooser/articles/pf-036-product-story",
+        "title": "AIとの会話を上書きしない — BranchとHandoverを分けて作った",
+        "author": "chooser",
+        "published_at": "2026-11-16T16:52:33+00:00",
+        "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 AIとの会話を上書きしない — BranchとHandoverを分けて作った 結論 BranchとHandoverは別の機能です。 Branchは会話を途中まで複製し、Handoverは要点を別モードへ渡します。 分岐しても元の会話は変わりません。 戻すには採用の申請と承認が要ります。 引き継ぎは、画面に出るだけでは足..."
+      },
       {
         "id": "zenn:d7a50a632ebad376a5caaed2",
         "source": "zenn",
@@ -391,6 +406,16 @@
         "author": "まっすん",
         "published_at": "2026-11-16T11:53:35.111000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:95d5c18e044ed877cdfb63d3",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/shinai/books/claude-code-saving-automation",
+        "title": "Claude Codeの枠がすぐ尽きる人の節約術：実物の設定と、無人実行を98回試してやめた記録",
+        "author": "シン｜AIで個人開発する米大生",
+        "published_at": "2026-11-16T11:39:29+00:00",
+        "excerpt": "アメリカの大学でAIを使って勉強している現役の学生が、自分のパソコンと月額プランの範囲で実測した、Claude Code の節約の記録です。会社を無人で回す話ではありません。枠がすぐ尽きる人向けに、CLAUDE.md・サブエージェント・フックの実物と計測ログを載せました。余った枠をAIに無人で使わせる仕組みは、98回動かして成果4件でやめています。最初の2章は無料で読めます。"
       },
       {
         "id": "zenn:4e0c8d7da4bd361eb51500da",
@@ -37871,6 +37896,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:34d0727080432a42be8e2ad4",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "GitHubCopilot",
+          "Python",
+          "AI",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/maya-bot/items/8fbc9e2fbd26d1423a6d",
+        "title": "業務の文書をAIに扱わせる前に：社内AIツールに仕込んだ情報漏えい対策7つ",
+        "author": "maya-bot",
+        "published_at": "2026-11-17T02:08:25+09:00",
+        "excerpt": "社内でAIエージェントを使い始めると、すぐに「設計書やExcelをAIに読ませたい」という話になります。便利な反面、気になるのが情報漏えいです。 「機密情報は入力しないでください」と注意書きを配るだけでは、なかなか守られません。忙しいときほど、人は注意書きを忘れます。 この記事では、業務の文書を扱う社内AIツールに、 人の注意に頼らず仕組みで防ぐ ための対策を7つ入れた例を紹介します。題材は、GitHub Copilotから呼び出して使う業務効率化ツール群 devtools-workspace と、その共通ライブラリ devtools-common です。どちらも、特定の会社やシステムの名前を含まない汎用版として公開しています。 AIサービスに何が送られ、どう扱われるかは、契約の種類や組織の設定で変わります。この記事は「ツール側でできること」を中心に書いています。組織としての利用条件は、必ず自社の規程と各サービスの最新のドキュメントで確認してください。 まず「AIに何が渡るか」を知る 対策の前に、AIに何が送られるかを整理します。Copilotの"
+      },
+      {
         "id": "qiita:1008ab671fcc31874426d1cf",
         "source": "qiita",
         "author_tags": [
@@ -51705,6 +51746,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6b66e098db2ea8e18881a63c",
+        "source": "medium",
+        "author_tags": [
+          "cyber-investigation",
+          "sentinelone",
+          "investigation",
+          "cybersecurity",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@cyberengage.org/sentinelone-singularity-operations-center-alerts-and-the-one-feature-automatic-actions-that-f4f54e91628c",
+        "title": "SentinelOne Singularity Operations Center — Alerts and the One Feature(Automatic actions) That…",
+        "author": "Dean",
+        "published_at": "2026-11-16T17:21:17+00:00",
+        "excerpt": "Before I start, two things sit at the top right of the console that I am not going to cover here, because I already have. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c94a001c6917bc9cf16e491c",
+        "source": "medium",
+        "author_tags": [
+          "writing",
+          "writing-tips",
+          "assignment",
+          "creative-writing",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@Sophiabryn/cybersecurity-breach-analysis-equifax-or-target-6e8e5258dc7e",
+        "title": "Cybersecurity Breach Analysis: Equifax or Target?",
+        "author": "Sophia Bryn",
+        "published_at": "2026-11-16T17:15:32+00:00",
+        "excerpt": "Are you looking for cybersecurity assignment help? You may have been asked to choose a major data breach. Then you must analyse it in… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:baaa6a7d18c0e35ac27a0de1",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "cybersecurity",
+          "web-security",
+          "incident-response",
+          "php"
+        ],
+        "url": "https://medium.com/@ajr656/investigating-suspicious-web-activity-correlating-http-logs-across-applications-a09576e01d6e",
+        "title": "Investigating Suspicious Web Activity: Correlating HTTP Logs Across Applications",
+        "author": "M. Arya Zaidan",
+        "published_at": "2026-11-16T17:08:09+00:00",
+        "excerpt": "1. Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ad0e9f97b8ae7351da4695f4",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "ethical-hacking",
+          "ai-agent",
+          "cloud-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@len213noe/your-api-key-is-paying-for-the-attack-how-ai-agents-turned-stolen-credentials-into-a-self-funding-88b56e4b741e",
+        "title": "Your API Key Is Paying for the Attack: How AI Agents Turned Stolen Credentials Into a Self-Funding…",
+        "author": "Len Noe",
+        "published_at": "2026-11-16T16:56:07+00:00",
+        "excerpt": "Amazon caught attacker agents using stolen model keys to pay for the hunt for more keys. Nothing in their playbook was new, and that is… Continue reading on Medium »"
+      },
       {
         "id": "medium:e44ae06f67543bff2671ba7b",
         "source": "medium",
