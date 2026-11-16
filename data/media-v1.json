@@ -1,9 +1,70 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T11:40:03.248219+00:00",
+  "source_snapshot_generated_at": "2026-11-16T12:40:03.673243+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:a73e212547a02213f26249d3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "architecture",
+          "statistics"
+        ],
+        "url": "https://zenn.dev/yuki_h_94/articles/decision-layer-01-threshold",
+        "title": "AIの確率を0.5で切ると損をする：しきい値は損失から決まる",
+        "author": "Yuki H",
+        "published_at": "2026-11-16T12:09:26.196000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:25fcff210ea00cf75e5b13dd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "AI駆動開発",
+          "Claude Code",
+          "tsumiki"
+        ],
+        "url": "https://zenn.dev/sadano/articles/tsumiki-dev-auto-two-services",
+        "title": "人間はモックアップを承認するだけ。tsumiki で Web サービスを 2 つ公開した",
+        "author": "sadano",
+        "published_at": "2026-11-16T12:00:05.101000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bc2755f2dcbc92e9833146bb",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Linux",
+          "Security",
+          "kernel",
+          "Amazon Linux"
+        ],
+        "url": "https://zenn.dev/pythona/articles/al2023-kernel612-series-switch",
+        "title": "修正はkernel6.12だけだった — AL2023でカーネル系列を乗り換える",
+        "author": "pythona",
+        "published_at": "2026-11-16T11:53:40.070000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:870617d138e85113cdc537b8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "G検定"
+        ],
+        "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-safety-tech",
+        "title": "AIの安全性【G検定 技術解説】",
+        "author": "まっすん",
+        "published_at": "2026-11-16T11:53:35.111000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4e0c8d7da4bd361eb51500da",
         "source": "zenn",
@@ -37483,6 +37544,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:43fa5f130fdf900f2b2ca418",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "AI駆動開発",
+          "Security",
+          "AIsecurity",
+          "AI"
+        ],
+        "url": "https://qiita.com/Thanush/items/0bed10e8298123dbdd10",
+        "title": "AIエージェント時代のセキュリティ：サンドボックスの安全性をどのように検証するか",
+        "author": "Thanush",
+        "published_at": "2026-11-16T21:11:22+09:00",
+        "excerpt": "概要 生成AIの進化に伴い、AIエージェントは単に質問に回答するだけでなく、ファイルの読み書き、コードの実行、APIへのアクセス、外部サービスとの連携など、さまざまな操作を自律的に実行できるようになっています。 こうした機能は開発や業務の効率を大きく向上させる一方で、新たなセキュリティリスクも生み出しています。 例えば、悪意のあるプロンプトや外部データによってエージェントの動作が操作された場合、エージェントが持つ権限を利用して、意図しないファイルへのアクセス、機密情報の漏えい、不正なコード実行、外部ネットワークへの通信などが発生する可能性があります。 特に、AIエージェントにターミナル、データベース、クラウドサービスなどへのアクセスを許可する場合、その影響範囲はさらに大きくなります。 そのため、AIエージェントの動作を制御するだけでなく、 エージェントが実行される環境そのものが、適切なセキュリティ境界を維持できているかを検証すること が重要です。 なぜサンドボックスのセキュリティが重要なのか AIエージェントの実行環境では、サンドボックスが重要な"
+      },
+      {
+        "id": "qiita:c9fcea46f044dd0eff0bf9a3",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "マルウェア",
+          "セキュリティニュース",
+          "Remus"
+        ],
+        "url": "https://qiita.com/Kerdy/items/7799387f4ace1ed6aeeb",
+        "title": "11/16、今日のセキュリティニュース｜パスワードを変更してもGmailを盗み見？ マルウェア「Remus」が新機能を宣伝",
+        "author": "Kerdy",
+        "published_at": "2026-11-16T20:58:19+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 良かったら、高評価とチャネル登録をお願いします🙇 パスワードを変更してもGma"
+      },
+      {
+        "id": "qiita:dcf0b1a7fef3643e8eee4f3a",
+        "source": "qiita",
+        "author_tags": [
+          "GitHubCopilot",
+          "hooks",
+          "Bash",
+          "Security",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/nakamuuu_ow/items/d13972d5b2b564fb70a0",
+        "title": "【GitHub Copilot】hooksのpreToolUseで危険なbashコマンドをブロックする方法",
+        "author": "nakamuuu_ow",
+        "published_at": "2026-11-16T20:41:20+09:00",
+        "excerpt": "はじめに Copilotのエージェントにターミナルコマンドの実行まで任せていると、ふと不安になる瞬間があります。 rm -rf のようなコマンドを勝手に実行されたらどうしよう 「危険なコマンドは実行しないで」とプロンプトでお願いしても、守られる保証はあるの？ そんなときに使えるのが、GitHub Copilotの hooks という仕組みです。名前は聞いたことがあっても、何ができるのかよくわからなかったので、調べたうえで「危険なbashコマンドをブロックする」ところまでまとめました。 hooksとは hooksは、 Copilotエージェントの動きの途中に、自分で用意したシェルコマンドを差し込める仕組み です。 プロンプトで「こうしてほしい」とお願いする方法と違って、hookは設定したイベントが起きて条件に合えば、そのたびにスクリプトとして実行されます。そのため、ログを残す、危険な操作を止めるといった「確実にやってほしいこと」に向いています。 hooksはVS Codeなどでも提供されていますが、この記事で対象にするのは、GitHub上のCopi"
+      },
+      {
         "id": "qiita:7ccd97dae451a2cc6859eb9a",
         "source": "qiita",
         "author_tags": [
@@ -51173,6 +51282,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ef1ed32c526e6c775a1cc6db",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "ai-agent",
+          "cybersecurity",
+          "information-security",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/when-the-attacker-is-an-ai-agent-three-lessons-from-the-fbi-warning-on-artex-8c69c2663321",
+        "title": "When the Attacker Is an AI Agent: Three Lessons From the FBI Warning on ARTEX",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-16T12:30:02+00:00",
+        "excerpt": "Until recently, attacks run by AI agents were mostly a conference topic. The FBI’s November 13, 2026 FLASH alert shows that era is over. Continue reading on Medium »"
+      },
       {
         "id": "medium:560d9dfae183d02dd88e609e",
         "source": "medium",

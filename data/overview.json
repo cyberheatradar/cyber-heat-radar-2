@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-16T12:06:08.909704+00:00",
-  "as_of": "2026-11-16T12:00:00+00:00",
-  "catalog_count": 24505,
+  "generated_at": "2026-11-16T13:07:12.497439+00:00",
+  "as_of": "2026-11-16T13:00:00+00:00",
+  "catalog_count": 24507,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,61 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T21:52:42.175943+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-934dd532c9883956ec5e420c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:934dd532c9883956ec5e420c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-16T21:48:03+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
+      "summary_excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T21:07:31.362520+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-52a7832f65e7738e130cd255",
+      "primary_category": "other",
+      "public_article_id": "url:52a7832f65e7738e130cd255",
+      "public_tags": [],
+      "published_at": "2026-11-16T20:57:54+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Microsoft’s Remote lock allows IT administrators to lock a lost, stolen or compromised Windows device through Intune without wiping it. The feature is currently in preview for devices running Windows 11, Windows 10, Windows Server 2022, Windows Server 2019 and Windows Server 2016. Source: Microsoft Remote lock signs out all active sessions, hides sign-in options and displays a lock screen. The lock persists across restarts and while the device is offline. Users can resume work … More → The post Microsoft previews remote lock for lost or stolen Windows devices appeared first on Help Net Security .",
+      "summary_excerpt": "Microsoft’s Remote lock allows IT administrators to lock a lost, stolen or compromised Windows device through Intune without wiping it. The feature is currently in preview for devices running Windows 11, Windows 10, Windows Server 2022, Windows Server 2019 and Windows Server 2016. Source: Microsoft Remote lock signs out all active sessions, hides sign-in options and displays a lock screen. The lock persists across restarts and while the device is offline. Users can resume work … More → The post Microsoft previews remote lock for lost or stolen Windows devices appeared first on Help Net Securit",
+      "threat_actors": [],
+      "title": "Microsoft previews remote lock for lost or stolen Windows devices"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
@@ -234,62 +289,6 @@
       "summary_excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
       "threat_actors": [],
       "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T18:37:01.434564+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-f5ef776679d8464c39fd20cf",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f5ef776679d8464c39fd20cf",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-16T18:30:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
-      "summary_excerpt": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
-      "threat_actors": [],
-      "title": "New NoisyTCP vulnerability lets attackers crash Linux servers"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/ai-cut-vulnerability-discover-nine/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T18:54:02.385068+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-83d5f53cdd7d78ea7e8e45f6",
-      "primary_category": "ai_security",
-      "public_article_id": "url:83d5f53cdd7d78ea7e8e45f6",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-16T18:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "Forescout report claims to have found 66 new flaws in just 90 hours using AI",
-      "summary_excerpt": "Forescout report claims to have found 66 new flaws in just 90 hours using AI",
-      "threat_actors": [],
-      "title": "AI Cuts Vulnerability Discovery from Nine Months to 90 Hours"
     }
   ],
   "hottest": [
@@ -366,6 +365,39 @@
       "summary_excerpt": "ドイツのルール大学ボーフムなどに所属する研究者らが発表した論文「The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web」は、公開されているサイトのパスキーの普及状況と安全性を調査した研究報告だ。",
       "threat_actors": [],
       "title": "パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T21:52:42.175943+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-934dd532c9883956ec5e420c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:934dd532c9883956ec5e420c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-16T21:48:03+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
+      "summary_excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch"
     },
     {
       "ai_relevance": "none",
@@ -533,69 +565,10 @@
       "summary_excerpt": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages. The post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/16/news046.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T18:37:01.093582+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-5ee84b906b35202cad0f5f81",
-      "primary_category": "ransomware",
-      "public_article_id": "url:5ee84b906b35202cad0f5f81",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-16T17:15:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "@IT Security & Trust",
-      "summary": "ESETは中堅中小企業がランサムウェア攻撃の主要標的となっている実態を発表した。大企業よりも被害に遭う割合が高いため、「早急な対策が求められている」としている。",
-      "summary_excerpt": "ESETは中堅中小企業がランサムウェア攻撃の主要標的となっている実態を発表した。大企業よりも被害に遭う割合が高いため、「早急な対策が求められている」としている。",
-      "threat_actors": [],
-      "title": "「うちは小さいから大丈夫」は通用しない　ESETが中堅中小企業向けランサムウェア対策を解説"
     }
   ],
   "rising": [],
   "persistent_hot": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "cves": [
-        "CVE-2026-114713",
-        "CVE-2026-123039"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T05:22:38.256442+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-7b5dacba886b8db548982d1b",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:7b5dacba886b8db548982d1b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-13T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requir",
-      "threat_actors": [],
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog"
-    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
@@ -625,6 +598,36 @@
       "summary_excerpt": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
       "threat_actors": [],
       "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "cves": [
+        "CVE-2026-114713"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-14T21:53:53.992522+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-e577b898eca3316fd935fc7a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e577b898eca3316fd935fc7a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-14T21:38:35+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+      "threat_actors": [],
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection"
     },
     {
       "ai_relevance": "none",
@@ -877,32 +880,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Australian retail giant Coles investigates cybersecurity incident",
+    "【LATEST #1】Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
     "【HOTTEST #1 / Heat 75】Recent UnrealIRCd Vulnerability Exploited in Attacks",
-    "【LATEST #2】Recent UnrealIRCd Vulnerability Exploited in Attacks",
+    "【LATEST #2】Microsoft previews remote lock for lost or stolen Windows devices",
     "【HOTTEST #2 / Heat 65.7】スパコン「富岳」に不正アクセス　理研が明らかに",
-    "【LATEST #3】Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+    "【LATEST #3】Australian retail giant Coles investigates cybersecurity incident",
     "【HOTTEST #3 / Heat 65.7】パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性　独大学の調査結果",
-    "【LATEST #4】Uber Data Breach Impacts 150,000 People",
-    "【HOTTEST #4 / Heat 65】Uber Data Breach Impacts 150,000 People",
-    "【LATEST #5】Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-    "【HOTTEST #5 / Heat 65】スパコン「富岳」に不正アクセス、稼働停止　理研は13日に文科省へ連絡"
+    "【LATEST #4】Recent UnrealIRCd Vulnerability Exploited in Attacks",
+    "【HOTTEST #4 / Heat 65】Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+    "【LATEST #5】Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+    "【HOTTEST #5 / Heat 65】Uber Data Breach Impacts 150,000 People"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-13T12:00:00+00:00",
-    "last_as_of": "2026-11-16T12:00:00+00:00",
+    "first_as_of": "2026-11-13T13:00:00+00:00",
+    "last_as_of": "2026-11-16T13:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-16T12:00:00+00:00",
-  "heat_as_of": "2026-11-16T12:00:00+00:00",
+  "news_as_of": "2026-11-16T13:00:00+00:00",
+  "heat_as_of": "2026-11-16T13:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24505,
-  "last_published_at": "2026-11-16T21:06:20.013664+09:00",
-  "publication_slot_jst": "2026-11-16T21:00:00+09:00"
+  "news_catalog_count": 24507,
+  "last_published_at": "2026-11-16T22:07:23.727418+09:00",
+  "publication_slot_jst": "2026-11-16T22:00:00+09:00"
 }
