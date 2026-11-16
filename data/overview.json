@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-16T19:06:52.775649+00:00",
-  "as_of": "2026-11-16T19:00:00+00:00",
-  "catalog_count": 24540,
+  "generated_at": "2026-11-16T20:06:13.174574+00:00",
+  "as_of": "2026-11-16T20:00:00+00:00",
+  "catalog_count": 24542,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,89 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T04:53:40.167819+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-0508e14d0512c14c1016e22d",
+      "primary_category": "ai_security",
+      "public_article_id": "url:0508e14d0512c14c1016e22d",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-17T04:10:03+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Dark Reading",
+      "summary": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
+      "summary_excerpt": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
+      "threat_actors": [],
+      "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited/",
+      "cves": [
+        "CVE-2026-90436"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T04:53:56.425882+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-6256f3f2ef1f816bee6e83c9",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:6256f3f2ef1f816bee6e83c9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
+        }
+      ],
+      "published_at": "2026-11-17T03:14:14+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both products require a non-default configuration in order to be vulnerable. CVE-2026-90436 is now being actively exploited in the wild against both known affected products. On November 13, 2026, Rapid7 MDR detected exploitation of CVE-2026-90436 against Atlassian Confluence Data Center in a customer environment. Separately, on November 13, 2026, N-able reported exploitation in the wild against N-central for a vulnerability that strongly correlates to CVE-2026-90436. A proof-of-concept exploit that leverages CVE-2026-90436 and targets N-central was published on November 12, 2026, as part of a series of public zero-day disclosures against N-central. Rapid7 recommends remediating exposed systems on an emergency basis outside of normal patching cycles. Mitigation guidance Prioritize internet-accessible instances with the relevant APIs enabled, and check internal deployments as well. Apply the product-specific actions below, then investigate systems that were exposed for evidence of compromise. Axis 1.x through 1.4 is affected but has reached end of life (EOL) and Apache does not plan to publish a fixed Axis 1.x release. Apache recommends moving to another SOAP engine (for example, Apache Axis 2) or using an Axis 1.x build with this patch applied. Organizations using products that are affected by this issue should follow the product vendor's specific remediation instructions. Atlassian Confluence Data Center Atlassian lists versions 1.x through to 9.x as affected when “Remote API (XML-RPC & SOAP)” is enabled. Version 9.2.28 is the fixed release. The setting has been off by default for new installations since version 3.0. Confluence version 10.x and later removed the feature so are not vulnerable, and Atlassian Cloud is unaffected. Affected users should upgrade to version 9.2.28 or a current unaffected 10.x release. If patching must wait, an administrator can open “General Configuration” and “Further Configuration”, edit the settings, clear “Remote API (XML-RPC & SOAP)”, and save. The change takes effect without restarting Confluence, but integrations using the API may stop working. Follow the Confluence advisory for the latest fixes and mitigation instructions. N-able N-central On-premises administrators should confirm that “Legacy API” is disabled, even on 2026.4 HF2. N-able states that it is off by default, and provides instructions for disabling Legacy API . Its November 13 guidance says hosted environments received temporary protections directly; customers in both hosting models must still follow the vendor's Agent and Probe upgrade guidance. N-able also temporarily disabled the Intune integration as a precaution. Refer to the N-able security update for these responsibilities. N-able says 2026.4 HF3 will permanently remove Legacy API access . Its November 16 rollout notice states that hosted upgrades have been completed, and on-premises general availability is being finalized. On-premises administrators should confirm availability and follow the release instructions as the update becomes available. IOCs The presence of these IOCs in logs should prompt investigation, but the absence of these addresses does not confirm that an environment was unaffected. Atlassian Confluence Data Center The following IP addresses are associated with observed exploitation of CVE-2026-90436 against Atlassian Confluence Data Center: 192.238.253[.]176 5.133.47[.]243 163.182.68[.]109 104.13.106[.]166 N-able N-central N-able's November 13 incident update lists these IP addresses as IOCs for N-central customers who had not disabled Legacy API. 157.20.241[.]16 139.99.69[.]109 79.76.51[.]56 The vendor's update also lists associated URLs for use in compromise assessment. Updates November 16, 2026: Initial publication.",
+      "summary_excerpt": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both",
+      "threat_actors": [],
+      "title": "Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
@@ -262,50 +345,21 @@
       "summary_excerpt": "The tech giant on Monday became the latest high-profile authority to warn organizations about a new generation of automated tools.",
       "threat_actors": [],
       "title": "Agentic AI frameworks push hacking threat to ‘inflection point,’ Google warns"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.theregister.com/security/2026/11/16/partner-content-has-ais-black-october-changed-the-way-you-secure-your-code/5309775",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T02:24:01.930776+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-b01665747fbda539a098b8e0",
-      "primary_category": "ai_security",
-      "public_article_id": "url:b01665747fbda539a098b8e0",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-17T01:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "PARTNER CONTENT: AI agents are making security vulnerabilities easier to find and exploit in your code. Software engineering and application security teams need new ways to find and fix them",
-      "summary_excerpt": "PARTNER CONTENT: AI agents are making security vulnerabilities easier to find and exploit in your code. Software engineering and application security teams need new ways to find and fix them",
-      "threat_actors": [],
-      "title": "Has AI’s ‘Black October’ changed the way you secure your code?"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.cybersecuritydive.com/news/php2shell-exploited-chained-attacks-check-point/874751/",
-      "cves": [],
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited/",
+      "cves": [
+        "CVE-2026-90436"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-17T01:37:30.719202+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-95e89972edb12af1a2fdfdda",
+      "first_seen_at": "2026-11-17T04:53:56.425882+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-6256f3f2ef1f816bee6e83c9",
       "primary_category": "vulnerability",
-      "public_article_id": "url:95e89972edb12af1a2fdfdda",
+      "public_article_id": "url:6256f3f2ef1f816bee6e83c9",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -313,24 +367,32 @@
           "label": "Vulnerability"
         },
         {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
           "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
+          "key": "poc_available",
+          "label": "PoC"
         }
       ],
-      "published_at": "2026-11-17T00:47:25+09:00",
+      "published_at": "2026-11-17T03:14:14+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Cybersecurity Dive",
-      "summary": "The hackers, in certain cases, deployed destructive wiper malware and used political messaging.",
-      "summary_excerpt": "The hackers, in certain cases, deployed destructive wiper malware and used political messaging.",
+      "source_name": "Rapid7 Blog",
+      "summary": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both products require a non-default configuration in order to be vulnerable. CVE-2026-90436 is now being actively exploited in the wild against both known affected products. On November 13, 2026, Rapid7 MDR detected exploitation of CVE-2026-90436 against Atlassian Confluence Data Center in a customer environment. Separately, on November 13, 2026, N-able reported exploitation in the wild against N-central for a vulnerability that strongly correlates to CVE-2026-90436. A proof-of-concept exploit that leverages CVE-2026-90436 and targets N-central was published on November 12, 2026, as part of a series of public zero-day disclosures against N-central. Rapid7 recommends remediating exposed systems on an emergency basis outside of normal patching cycles. Mitigation guidance Prioritize internet-accessible instances with the relevant APIs enabled, and check internal deployments as well. Apply the product-specific actions below, then investigate systems that were exposed for evidence of compromise. Axis 1.x through 1.4 is affected but has reached end of life (EOL) and Apache does not plan to publish a fixed Axis 1.x release. Apache recommends moving to another SOAP engine (for example, Apache Axis 2) or using an Axis 1.x build with this patch applied. Organizations using products that are affected by this issue should follow the product vendor's specific remediation instructions. Atlassian Confluence Data Center Atlassian lists versions 1.x through to 9.x as affected when “Remote API (XML-RPC & SOAP)” is enabled. Version 9.2.28 is the fixed release. The setting has been off by default for new installations since version 3.0. Confluence version 10.x and later removed the feature so are not vulnerable, and Atlassian Cloud is unaffected. Affected users should upgrade to version 9.2.28 or a current unaffected 10.x release. If patching must wait, an administrator can open “General Configuration” and “Further Configuration”, edit the settings, clear “Remote API (XML-RPC & SOAP)”, and save. The change takes effect without restarting Confluence, but integrations using the API may stop working. Follow the Confluence advisory for the latest fixes and mitigation instructions. N-able N-central On-premises administrators should confirm that “Legacy API” is disabled, even on 2026.4 HF2. N-able states that it is off by default, and provides instructions for disabling Legacy API . Its November 13 guidance says hosted environments received temporary protections directly; customers in both hosting models must still follow the vendor's Agent and Probe upgrade guidance. N-able also temporarily disabled the Intune integration as a precaution. Refer to the N-able security update for these responsibilities. N-able says 2026.4 HF3 will permanently remove Legacy API access . Its November 16 rollout notice states that hosted upgrades have been completed, and on-premises general availability is being finalized. On-premises administrators should confirm availability and follow the release instructions as the update becomes available. IOCs The presence of these IOCs in logs should prompt investigation, but the absence of these addresses does not confirm that an environment was unaffected. Atlassian Confluence Data Center The following IP addresses are associated with observed exploitation of CVE-2026-90436 against Atlassian Confluence Data Center: 192.238.253[.]176 5.133.47[.]243 163.182.68[.]109 104.13.106[.]166 N-able N-central N-able's November 13 incident update lists these IP addresses as IOCs for N-central customers who had not disabled Legacy API. 157.20.241[.]16 139.99.69[.]109 79.76.51[.]56 The vendor's update also lists associated URLs for use in compromise assessment. Updates November 16, 2026: Initial publication.",
+      "summary_excerpt": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both",
       "threat_actors": [],
-      "title": "PHP2Shell flaw exploited in chained attacks targeting unpatched Check Point gateways"
-    }
-  ],
-  "hottest": [
+      "title": "Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.rapid7.com/blog/post/ve-from-view-only-access-to-container-root-five-vulnerabilities-in-onlyoffice-docs-fixed/",
@@ -406,42 +468,6 @@
       "title": "CVE-2026-119618"
     },
     {
-      "ai_relevance": "material",
-      "canonical_url": "https://isc.sans.edu/diary/33522",
-      "cves": [
-        "CVE-2026-42271",
-        "CVE-2026-48710"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T22:22:22.213613+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-bdf57f779ad26d76f46035a9",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:bdf57f779ad26d76f46035a9",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-16T22:11:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SANS Internet Storm Center",
-      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
-      "summary_excerpt": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
-      "threat_actors": [],
-      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
-    },
-    {
       "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/16/2000003244/",
       "cves": [],
@@ -470,37 +496,40 @@
       "title": "Google、人間の関与なしに脆弱性を見つけて悪用するAIフレームワークを初めて観測　GTIGのAI脅威レポート"
     },
     {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
-      "cves": [],
+      "ai_relevance": "material",
+      "canonical_url": "https://isc.sans.edu/diary/33522",
+      "cves": [
+        "CVE-2026-42271",
+        "CVE-2026-48710"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-16T22:38:51.969604+09:00",
-      "heat_score": 73.0,
-      "permalink_id": "article-url-1d06137f6723e455f1793db4",
-      "primary_category": "ai_security",
-      "public_article_id": "url:1d06137f6723e455f1793db4",
+      "first_seen_at": "2026-11-16T22:22:22.213613+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-bdf57f779ad26d76f46035a9",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:bdf57f779ad26d76f46035a9",
       "public_tags": [
         {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
         },
         {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
         }
       ],
-      "published_at": "2026-11-16T22:03:56+09:00",
+      "published_at": "2026-11-16T22:11:04+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of their owners appeared first on Help Net Security .",
-      "summary_excerpt": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of t",
+      "source_name": "SANS Internet Storm Center",
+      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+      "summary_excerpt": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
       "threat_actors": [],
-      "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
+      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
     },
     {
       "ai_relevance": "none",
@@ -531,6 +560,39 @@
       "summary_excerpt": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:38:51.969604+09:00",
+      "heat_score": 65.7,
+      "permalink_id": "article-url-1d06137f6723e455f1793db4",
+      "primary_category": "ai_security",
+      "public_article_id": "url:1d06137f6723e455f1793db4",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-16T22:03:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of their owners appeared first on Help Net Security .",
+      "summary_excerpt": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of t",
+      "threat_actors": [],
+      "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
     },
     {
       "ai_relevance": "none",
@@ -603,41 +665,6 @@
       "summary_excerpt": "570 bogus accounts, one rewritten welcome email, and a fake YouTube page, but CEO says no breach",
       "threat_actors": [],
       "title": "Crook turns free trials into phishing factory, as LearnWorlds sends 13,000 fake YouTube copyright notices"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://blog.polyswarm.io/turla-serves-up-cereal-malware-to-spy-on-governments",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T02:23:57.253751+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-12e415fea3818e7b5c7bfb53",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:12e415fea3818e7b5c7bfb53",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-17T01:21:59+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "PolySwarm Blog",
-      "summary": "Verticals Targeted: Government Regions Targeted: Kazakhstan, Romania Related Families: CerealLoader, CerealRunner, CerealSprinter, CerealNeuron, CerealHermit, CerealIron, CerealBox, CerealMoth Related Threat Actors: Turla Executive Summary ESET researchers uncovered a sophisticated, modular malware toolset attributed with high confidence to the Russia-aligned advanced persistent threat (APT) group Turla, deployed against government organizations in Kazakhstan and Romania beginning in late 2025. Dubbed the Cereal toolset, the malware abuses legitimate Microsoft Exchange and Windows functionality to support long-term access, execute encrypted .NET assemblies in memory, and collect sensitive communications while minimizing forensic artifacts. Its capabilities include a passive backdoor that operates without dedicated external C2 infrastructure and a novel email collection component that intercepts messages directly within the Exchange transport pipeline.",
-      "summary_excerpt": "Verticals Targeted: Government Regions Targeted: Kazakhstan, Romania Related Families: CerealLoader, CerealRunner, CerealSprinter, CerealNeuron, CerealHermit, CerealIron, CerealBox, CerealMoth Related Threat Actors: Turla Executive Summary ESET researchers uncovered a sophisticated, modular malware toolset attributed with high confidence to the Russia-aligned advanced persistent threat (APT) group Turla, deployed against government organizations in Kazakhstan and Romania beginning in late 2025. Dubbed the Cereal toolset, the malware abuses legitimate Microsoft Exchange and Windows functionalit",
-      "threat_actors": [
-        "Turla"
-      ],
-      "title": "Turla Serves Up Cereal Malware to Spy on Governments"
     }
   ],
   "rising": [],
@@ -721,34 +748,6 @@
       "summary_excerpt": "VulnCheck disclosed 14 vulnerabilities in Dixell refrigeration units that give an attacker root access, while online honeypots are being flooded with hacks and malicious probes. The post Researchers continue to find serious vulnerabilities in internet connected refrigerators appeared first on CyberScoop .",
       "threat_actors": [],
       "title": "Researchers continue to find serious vulnerabilities in internet connected refrigerators"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T05:23:11.786364+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-72ccdc87f4b548918604de47",
-      "primary_category": "incident",
-      "public_article_id": "url:72ccdc87f4b548918604de47",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-14T04:43:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
-      "summary_excerpt": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
-      "threat_actors": [],
-      "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents"
     },
     {
       "ai_relevance": "none",
@@ -854,6 +853,42 @@
       "summary_excerpt": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
       "threat_actors": [],
       "title": "CVE-2026-124194: Microsoft Office"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-116606",
+      "cves": [
+        "CVE-2026-111560",
+        "CVE-2026-116606"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-11T04:22:16.676181+09:00",
+      "heat_score": 39.42,
+      "permalink_id": "article-url-5e9eebfd0167a345374baa06",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:5e9eebfd0167a345374baa06",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-10T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+      "summary_excerpt": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+      "threat_actors": [],
+      "title": "CVE-2026-116606: Barracuda Networks Barracuda Email Security Gateway (ESG)"
     },
     {
       "ai_relevance": "none",
@@ -974,32 +1009,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Italian regulator fines Meta $886 million for violating data privacy law",
-    "【HOTTEST #1 / Heat 75】From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
-    "【LATEST #2】Ubuntu gets AI-generated security fixes for those feeling brave",
-    "【HOTTEST #2 / Heat 75】CVE-2026-119618",
-    "【LATEST #3】Crook turns free trials into phishing factory, as LearnWorlds sends 13,000 fake YouTube copyright notices",
-    "【HOTTEST #3 / Heat 75】Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-    "【LATEST #4】Introducing the Wiz AI Security Agent",
+    "【LATEST #1】'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+    "【HOTTEST #1 / Heat 75】Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
+    "【LATEST #2】Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
+    "【HOTTEST #2 / Heat 75】From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
+    "【LATEST #3】Italian regulator fines Meta $886 million for violating data privacy law",
+    "【HOTTEST #3 / Heat 75】CVE-2026-119618",
+    "【LATEST #4】Ubuntu gets AI-generated security fixes for those feeling brave",
     "【HOTTEST #4 / Heat 73】Google、人間の関与なしに脆弱性を見つけて悪用するAIフレームワークを初めて観測　GTIGのAI脅威レポート",
-    "【LATEST #5】From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
-    "【HOTTEST #5 / Heat 73】Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
+    "【LATEST #5】Crook turns free trials into phishing factory, as LearnWorlds sends 13,000 fake YouTube copyright notices",
+    "【HOTTEST #5 / Heat 67.5】Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-13T19:00:00+00:00",
-    "last_as_of": "2026-11-16T19:00:00+00:00",
+    "first_as_of": "2026-11-13T20:00:00+00:00",
+    "last_as_of": "2026-11-16T20:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-16T19:00:00+00:00",
-  "heat_as_of": "2026-11-16T19:00:00+00:00",
+  "news_as_of": "2026-11-16T20:00:00+00:00",
+  "heat_as_of": "2026-11-16T20:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24540,
-  "last_published_at": "2026-11-17T04:07:05.746763+09:00",
-  "publication_slot_jst": "2026-11-17T04:00:00+09:00"
+  "news_catalog_count": 24542,
+  "last_published_at": "2026-11-17T05:06:23.908256+09:00",
+  "publication_slot_jst": "2026-11-17T05:00:00+09:00"
 }

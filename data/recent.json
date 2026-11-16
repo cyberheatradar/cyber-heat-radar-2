@@ -1,5 +1,88 @@
 [
   {
+    "ai_relevance": "primary",
+    "canonical_url": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-17T04:53:40.167819+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-0508e14d0512c14c1016e22d",
+    "primary_category": "ai_security",
+    "public_article_id": "url:0508e14d0512c14c1016e22d",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      },
+      {
+        "color_family": "cyan",
+        "key": "agentic_security",
+        "label": "Agentic Security"
+      },
+      {
+        "color_family": "red",
+        "key": "malware",
+        "label": "Malware"
+      }
+    ],
+    "published_at": "2026-11-17T04:10:03+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Dark Reading",
+    "summary": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
+    "summary_excerpt": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
+    "threat_actors": [],
+    "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited/",
+    "cves": [
+      "CVE-2026-90436"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-17T04:53:56.425882+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-6256f3f2ef1f816bee6e83c9",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:6256f3f2ef1f816bee6e83c9",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "cyan",
+        "key": "agentic_security",
+        "label": "Agentic Security"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cloud_security",
+        "label": "Cloud Security"
+      },
+      {
+        "color_family": "red",
+        "key": "poc_available",
+        "label": "PoC"
+      }
+    ],
+    "published_at": "2026-11-17T03:14:14+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Rapid7 Blog",
+    "summary": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both products require a non-default configuration in order to be vulnerable. CVE-2026-90436 is now being actively exploited in the wild against both known affected products. On November 13, 2026, Rapid7 MDR detected exploitation of CVE-2026-90436 against Atlassian Confluence Data Center in a customer environment. Separately, on November 13, 2026, N-able reported exploitation in the wild against N-central for a vulnerability that strongly correlates to CVE-2026-90436. A proof-of-concept exploit that leverages CVE-2026-90436 and targets N-central was published on November 12, 2026, as part of a series of public zero-day disclosures against N-central. Rapid7 recommends remediating exposed systems on an emergency basis outside of normal patching cycles. Mitigation guidance Prioritize internet-accessible instances with the relevant APIs enabled, and check internal deployments as well. Apply the product-specific actions below, then investigate systems that were exposed for evidence of compromise. Axis 1.x through 1.4 is affected but has reached end of life (EOL) and Apache does not plan to publish a fixed Axis 1.x release. Apache recommends moving to another SOAP engine (for example, Apache Axis 2) or using an Axis 1.x build with this patch applied. Organizations using products that are affected by this issue should follow the product vendor's specific remediation instructions. Atlassian Confluence Data Center Atlassian lists versions 1.x through to 9.x as affected when “Remote API (XML-RPC & SOAP)” is enabled. Version 9.2.28 is the fixed release. The setting has been off by default for new installations since version 3.0. Confluence version 10.x and later removed the feature so are not vulnerable, and Atlassian Cloud is unaffected. Affected users should upgrade to version 9.2.28 or a current unaffected 10.x release. If patching must wait, an administrator can open “General Configuration” and “Further Configuration”, edit the settings, clear “Remote API (XML-RPC & SOAP)”, and save. The change takes effect without restarting Confluence, but integrations using the API may stop working. Follow the Confluence advisory for the latest fixes and mitigation instructions. N-able N-central On-premises administrators should confirm that “Legacy API” is disabled, even on 2026.4 HF2. N-able states that it is off by default, and provides instructions for disabling Legacy API . Its November 13 guidance says hosted environments received temporary protections directly; customers in both hosting models must still follow the vendor's Agent and Probe upgrade guidance. N-able also temporarily disabled the Intune integration as a precaution. Refer to the N-able security update for these responsibilities. N-able says 2026.4 HF3 will permanently remove Legacy API access . Its November 16 rollout notice states that hosted upgrades have been completed, and on-premises general availability is being finalized. On-premises administrators should confirm availability and follow the release instructions as the update becomes available. IOCs The presence of these IOCs in logs should prompt investigation, but the absence of these addresses does not confirm that an environment was unaffected. Atlassian Confluence Data Center The following IP addresses are associated with observed exploitation of CVE-2026-90436 against Atlassian Confluence Data Center: 192.238.253[.]176 5.133.47[.]243 163.182.68[.]109 104.13.106[.]166 N-able N-central N-able's November 13 incident update lists these IP addresses as IOCs for N-central customers who had not disabled Legacy API. 157.20.241[.]16 139.99.69[.]109 79.76.51[.]56 The vendor's update also lists associated URLs for use in compromise assessment. Updates November 16, 2026: Initial publication.",
+    "summary_excerpt": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both",
+    "threat_actors": [],
+    "title": "Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited"
+  },
+  {
     "ai_relevance": "none",
     "canonical_url": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
     "cves": [],
@@ -743,7 +826,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T22:22:22.213613+09:00",
-    "heat_score": 75.0,
+    "heat_score": 67.5,
     "permalink_id": "article-url-bdf57f779ad26d76f46035a9",
     "primary_category": "vulnerability",
     "public_article_id": "url:bdf57f779ad26d76f46035a9",
@@ -776,7 +859,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T00:52:46.792086+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-6feba5b975a5b2d73eac75a4",
     "primary_category": "other",
     "public_article_id": "url:6feba5b975a5b2d73eac75a4",
@@ -798,7 +881,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T22:38:51.969604+09:00",
-    "heat_score": 73.0,
+    "heat_score": 65.7,
     "permalink_id": "article-url-1d06137f6723e455f1793db4",
     "primary_category": "ai_security",
     "public_article_id": "url:1d06137f6723e455f1793db4",
@@ -831,7 +914,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T23:53:16.447437+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-9f2a3c05ca03755bb187498c",
     "primary_category": "other",
     "public_article_id": "url:9f2a3c05ca03755bb187498c",
@@ -5968,7 +6051,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-14T05:23:11.786364+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-72ccdc87f4b548918604de47",
     "primary_category": "incident",
     "public_article_id": "url:72ccdc87f4b548918604de47",
@@ -5996,7 +6079,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-14T05:23:02.043526+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-a009bbdbfbe6de47102d4987",
     "primary_category": "ai_security",
     "public_article_id": "url:a009bbdbfbe6de47102d4987",
@@ -46073,7 +46156,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-10T06:08:27.882548+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-4c2a67455f0d60b1795a5e01",
     "primary_category": "supply_chain",
     "public_article_id": "url:4c2a67455f0d60b1795a5e01",
@@ -46106,7 +46189,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-10T04:53:17.448615+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-7ac0becc04b6384c7eddc0d0",
     "primary_category": "ai_security",
     "public_article_id": "url:7ac0becc04b6384c7eddc0d0",
