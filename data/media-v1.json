@@ -1,9 +1,88 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T13:40:02.895132+00:00",
+  "source_snapshot_generated_at": "2026-11-16T14:40:03.167815+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f17c07187137f0268efbc02b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ディープラーニング",
+          "機械学習",
+          "llm",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/lumichy/articles/ai-learning-roadmap-2026",
+        "title": "AI学習ロードマップ",
+        "author": "lumichy",
+        "published_at": "2026-11-16T14:36:22.052000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e85f7a31f5291a2d21b7b060",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Security",
+          "llm",
+          "Ollama"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-048-pyrit-local-llm-redteam",
+        "title": "MicrosoftのPyRITでQwen2.5 7B/14B/32Bの拒否を測ったら、判定基準の選び方で結果が変わった",
+        "author": "matsu",
+        "published_at": "2026-11-16T14:28:11.593000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:183c77da82e361a5ce66703e",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "SSH",
+          "SRE",
+          "homelab"
+        ],
+        "url": "https://zenn.dev/ubinity/articles/4aff829e956aab",
+        "title": "ホストOSベースライン堅牢化：SSH公開鍵強認証、非rootアカウントとsudo最小権限ガバナンス",
+        "author": "Richard King",
+        "published_at": "2026-11-16T14:12:14.205000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c4d22d0c4711be4678e119fb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Claude Code",
+          "Codex",
+          "AGENTS.md",
+          "Agent Skills"
+        ],
+        "url": "https://zenn.dev/itoken_lab/articles/skill-description-read-on-request",
+        "title": "入れた Skill が読まれないのはなぜ？読まれる説明文の書き方",
+        "author": "いとけん",
+        "published_at": "2026-11-16T14:08:40.604000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:27a7410b158d0d090afe52ad",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "PHP",
+          "Test",
+          "品質"
+        ],
+        "url": "https://zenn.dev/t_azk/articles/ai-tests-passed-24-of-24",
+        "title": "「テストが通る」と「守られている」は別 ― AI が書いたテストが、仕様を変えても 24/24 で通った",
+        "author": "t-azk",
+        "published_at": "2026-11-16T13:54:00+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:c530b2696f54a04fc45096b3",
         "source": "zenn",
@@ -37591,6 +37670,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1a489e527dbfeeafb7dcf935",
+        "source": "qiita",
+        "author_tags": [
+          "脆弱性管理",
+          "Security",
+          "npm",
+          "DevSecOps",
+          "CICD"
+        ],
+        "url": "https://qiita.com/securoi_koyama/items/738f6b98320135e8f3ab",
+        "title": "依存関係を見る検査が1本も入っていないのに、CI は全部緑だった",
+        "author": "securoi_koyama",
+        "published_at": "2026-11-16T23:17:46+09:00",
+        "excerpt": "この記事は、2026年11月9日（月）に出したプレスリリース（第10弾・判定の台帳）の技術側です。配る物（Excel 11シート／PDF 10ページ）はここにあります。 脆弱性の検知を自動にした後の話です。判定の台帳と、当社が使っている検査の作り方を公開したので、その背景を書きます。 前提を先に書きます。 無償のツールと AI と、人の判定で回しています。 有償のサービス基盤を使う選び方もあります。いま買っていない状態から、どこまで組めるかの話です。 全部緑なのに、見ていなかった 当社には検査が数十本あります。型、テスト、公開物の経路、固有名、文面の字数。 push のたびに回ります。 ある時期まで、そこに依存関係の脆弱性を見る検査が1本も入っていませんでした。 全部緑でした。誰も依存を見ていなかっただけです。重大度の高いものが、しばらく残りました。 いまは残っていません。2026年11月8日に数え直した時点で、勧告は3件、いずれも中と低で、本番に出る依存だけで見ると0件です。 気づいた直し方は、検査を増やすことではありませんでした。 見るべき物"
+      },
+      {
+        "id": "qiita:e038604690fe4e18b8f7a431",
+        "source": "qiita",
+        "author_tags": [
+          "GitHub",
+          "Security",
+          "Git",
+          "Java",
+          "環境変数"
+        ],
+        "url": "https://qiita.com/maees/items/c28d2cad7b810c438aaa",
+        "title": "GitHubをPrivateにしても秘密は消えない――履歴・コピー・キャッシュが残る理由",
+        "author": "maees",
+        "published_at": "2026-11-16T22:42:39+09:00",
+        "excerpt": "リポジトリをPrivateにすれば秘密は守られる。そう確認したとき、答えは「なっている」だった。だがPrivateが止めるのは、これからの閲覧だけである。過去に外へ出たものは、Privateに切り替えても戻ってこない。秘密が漏れたら、まず失効とローテーションを行い、履歴の書き換えは最後に検討する。順序を間違えると、漏れた秘密が使えるまま時間を食う。 秘密をコードに書かない――環境変数から読む APIキーやデータベースの認証情報をソースコードに直書きすると、コミットした時点で秘密は履歴に残る。Privateにしても、履歴の中身までは消えない。読む場所をコードの外へ移すのが出発点になる。 public class PaymentClient { // 絶対に書かない。コミットした時点で秘密は履歴に残る private static final String API_KEY = \"sk-live-EXAMPLE\" ; } public class PaymentClient { private final String apiKey ; public "
+      },
+      {
         "id": "qiita:64ee1741e3dceade0089de5b",
         "source": "qiita",
         "author_tags": [
@@ -51345,6 +51456,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:32a2a42d1ceb81a0e11896b2",
+        "source": "medium",
+        "author_tags": [
+          "detection-engineering",
+          "security-operation-center",
+          "information-security",
+          "artificial-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@1200km/trainsec-detection-engineering-professional-course-review-d22d6b012961",
+        "title": "TrainSec Detection Engineering Professional Course Review",
+        "author": "Andrey Pautov",
+        "published_at": "2026-11-16T14:36:01+00:00",
+        "excerpt": "How attack simulations, endpoint telemetry, and clear investigation workflows turn detection engineering into a practical discipline. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c8587e4f0ee3741530be4f6f",
+        "source": "medium",
+        "author_tags": [
+          "patch-management",
+          "aspera-faspex",
+          "cybersecurity",
+          "vulnerability",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@anthonymbahn/how-to-patch-aspera-faspex-5-and-audit-admin-accounts-35db8c8a83c8",
+        "title": "How to Patch Aspera Faspex 5 and Audit Admin Accounts",
+        "author": "Anthony Bahn",
+        "published_at": "2026-11-16T14:33:19+00:00",
+        "excerpt": "To patch Aspera Faspex 5 for CVE-2026–123218, run IBM’s container image patch procedure as root, confirm that the faspex-core image… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2dc564f8aff6ad05467a0025",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "bug-bounty-writeup",
+          "infosec",
+          "vyom-nagpal",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@TheWildEye/stored-html-injection-in-munshi-a-profile-name-reached-the-support-email-as-html-0fd4e946b6bf",
+        "title": "Stored HTML Injection in Munshi: A Profile Name Reached the Support Email as HTML",
+        "author": "TheWildEye",
+        "published_at": "2026-11-16T14:29:16+00:00",
+        "excerpt": "A backend-accepted profile value was stored without safe handling, then rendered as HTML when the Contact Support workflow generated an… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4fd5027d7de839915136a70a",
+        "source": "medium",
+        "author_tags": [
+          "books",
+          "business",
+          "careers",
+          "cybersecurity",
+          "work"
+        ],
+        "url": "https://medium.com/@shivamshukla28283/why-i-believe-every-business-needs-to-take-cybersecurity-seriously-6942bf5f2c7d",
+        "title": "Why I Believe Every Business Needs to Take Cybersecurity Seriously",
+        "author": "Shivam Shukla",
+        "published_at": "2026-11-16T14:25:27+00:00",
+        "excerpt": "A few years ago, having a website was enough for a business to establish its online presence. Today, things are different. Businesses… Continue reading on Medium »"
+      },
       {
         "id": "medium:92b3780f247bf775a5c20010",
         "source": "medium",
