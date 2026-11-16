@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-16T21:06:14.042877+00:00",
-  "as_of": "2026-11-16T21:00:00+00:00",
-  "catalog_count": 24546,
+  "generated_at": "2026-11-16T22:06:02.949469+00:00",
+  "as_of": "2026-11-16T22:00:00+00:00",
+  "catalog_count": 24548,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,34 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T06:52:04.703678+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-90f34400313cb14331db1801",
+      "primary_category": "ai_security",
+      "public_article_id": "url:90f34400313cb14331db1801",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-17T06:31:44+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+      "summary_excerpt": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+      "threat_actors": [],
+      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://therecord.media/ireland-tinder-privacy-fine",
@@ -31,6 +59,28 @@
       "summary_excerpt": "Ireland’s data protection regulator will fine the Match Group as a result of the dating app Tinder allegedly failing to provide users with their personal data held by the company upon request.",
       "threat_actors": [],
       "title": "Match fined $10 million for alleged Tinder privacy violations"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/111202148/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T06:08:18.653961+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-918c54de6f1e836abe9229a5",
+      "primary_category": "other",
+      "public_article_id": "url:918c54de6f1e836abe9229a5",
+      "public_tags": [],
+      "published_at": "2026-11-17T05:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Nikkei XTECH IT",
+      "summary": "GMOインターネットグループの不正アクセスを巡る記者会見では、CISO（最高情報セキュリティー責任者）の役割に関して質問が上がった。日本企業におけるCISO設置率は5割を超えるが、肩書より先に「サービスを停止する権限」を与えられるかが問われている。",
+      "summary_excerpt": "GMOインターネットグループの不正アクセスを巡る記者会見では、CISO（最高情報セキュリティー責任者）の役割に関して質問が上がった。日本企業におけるCISO設置率は5割を超えるが、肩書より先に「サービスを停止する権限」を与えられるかが問われている。",
+      "threat_actors": [],
+      "title": "CISO設置率は過半数に、それでも曖昧な「サービスを停止する権限」"
     },
     {
       "ai_relevance": "none",
@@ -252,67 +302,6 @@
       "summary_excerpt": "Opt-in Edge archive gives Pro subscribers early access before full testing, while normal updates remain human-validated",
       "threat_actors": [],
       "title": "Ubuntu gets AI-generated security fixes for those feeling brave"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/16/crook-turns-free-trials-into-phishing-factory-as-learnworlds-sends-13000-fake-youtube-copyright-notices/5310122",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T03:38:23.001709+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-ae5c77babafa0cd539833b7d",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:ae5c77babafa0cd539833b7d",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-17T02:03:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "570 bogus accounts, one rewritten welcome email, and a fake YouTube page, but CEO says no breach",
-      "summary_excerpt": "570 bogus accounts, one rewritten welcome email, and a fake YouTube page, but CEO says no breach",
-      "threat_actors": [],
-      "title": "Crook turns free trials into phishing factory, as LearnWorlds sends 13,000 fake YouTube copyright notices"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.wiz.io/blog/introducing-wiz-ai-security-agent",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T03:23:04.513314+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-ca7ece9d7cb7dca51a34b6f8",
-      "primary_category": "ai_security",
-      "public_article_id": "url:ca7ece9d7cb7dca51a34b6f8",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-17T02:02:41+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Wiz Blog",
-      "summary": "Meet the Wiz AI Security Agent, your newest security teammate to discover AI agents, understand their purpose, and expose hidden risks.",
-      "summary_excerpt": "Meet the Wiz AI Security Agent, your newest security teammate to discover AI agents, understand their purpose, and expose hidden risks.",
-      "threat_actors": [],
-      "title": "Introducing the Wiz AI Security Agent"
     }
   ],
   "hottest": [
@@ -696,34 +685,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://cyberscoop.com/copeland-dixell-refrigeration-vulnerabilities/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T07:23:03.109881+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-04d35e216a7830e2a676260d",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:04d35e216a7830e2a676260d",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-14T06:20:51+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CyberScoop",
-      "summary": "VulnCheck disclosed 14 vulnerabilities in Dixell refrigeration units that give an attacker root access, while online honeypots are being flooded with hacks and malicious probes. The post Researchers continue to find serious vulnerabilities in internet connected refrigerators appeared first on CyberScoop .",
-      "summary_excerpt": "VulnCheck disclosed 14 vulnerabilities in Dixell refrigeration units that give an attacker root access, while online honeypots are being flooded with hacks and malicious probes. The post Researchers continue to find serious vulnerabilities in internet connected refrigerators appeared first on CyberScoop .",
-      "threat_actors": [],
-      "title": "Researchers continue to find serious vulnerabilities in internet connected refrigerators"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-125350",
       "cves": [
         "CVE-2026-125350"
@@ -968,6 +929,41 @@
       "summary_excerpt": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
       "threat_actors": [],
       "title": "CVE-2026-20320: Cisco BroadWorks"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123039",
+      "cves": [
+        "CVE-2026-123039"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-14T04:23:57.126776+09:00",
+      "heat_score": 39.42,
+      "permalink_id": "article-url-de774c3fcb00a8091e5413b2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:de774c3fcb00a8091e5413b2",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-13T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "summary_excerpt": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "threat_actors": [],
+      "title": "CVE-2026-123039: Check Point Multiple Products"
     }
   ],
   "timeseries_status": {
@@ -988,32 +984,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Match fined $10 million for alleged Tinder privacy violations",
+    "【LATEST #1】Google Project Zero cuts bug disclosures to 30 days amid AI threats",
     "【HOTTEST #1 / Heat 75】Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
-    "【LATEST #2】IDaaS移行の盲点　福岡大学が「ID管理」をあえてクラウド化しなかった理由",
+    "【LATEST #2】Match fined $10 million for alleged Tinder privacy violations",
     "【HOTTEST #2 / Heat 75】From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
-    "【LATEST #3】Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+    "【LATEST #3】CISO設置率は過半数に、それでも曖昧な「サービスを停止する権限」",
     "【HOTTEST #3 / Heat 75】CVE-2026-119618",
-    "【LATEST #4】Ransomware Attacks Increase Behind AI, But Payments Decline",
+    "【LATEST #4】IDaaS移行の盲点　福岡大学が「ID管理」をあえてクラウド化しなかった理由",
     "【HOTTEST #4 / Heat 67.5】Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-    "【LATEST #5】'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+    "【LATEST #5】Barracuda links cloud breach to ARTEX AI-powered cyberattack",
     "【HOTTEST #5 / Heat 67.5】Recent UnrealIRCd Vulnerability Exploited in Attacks"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-13T21:00:00+00:00",
-    "last_as_of": "2026-11-16T21:00:00+00:00",
+    "first_as_of": "2026-11-13T22:00:00+00:00",
+    "last_as_of": "2026-11-16T22:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-16T21:00:00+00:00",
-  "heat_as_of": "2026-11-16T21:00:00+00:00",
+  "news_as_of": "2026-11-16T22:00:00+00:00",
+  "heat_as_of": "2026-11-16T22:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24546,
-  "last_published_at": "2026-11-17T06:06:24.557976+09:00",
-  "publication_slot_jst": "2026-11-17T06:00:00+09:00"
+  "news_catalog_count": 24548,
+  "last_published_at": "2026-11-17T07:06:13.701307+09:00",
+  "publication_slot_jst": "2026-11-17T07:00:00+09:00"
 }
