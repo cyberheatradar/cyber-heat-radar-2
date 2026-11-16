@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T19:40:02.725863+00:00",
+  "source_snapshot_generated_at": "2026-11-16T20:40:02.719620+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -37911,6 +37911,22 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:2404e8928258eab6ce628461",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Requests",
+          "Security",
+          "Node.js",
+          "apiキー"
+        ],
+        "url": "https://qiita.com/supportapp3/items/12da0eec982a600bfa7a",
+        "title": "API キーを URL のクエリに入れると、requests の例外メッセージにも出る？：raise_for_status と接続エラーで確かめた（requests 2.34）",
+        "author": "supportapp3",
+        "published_at": "2026-11-17T05:20:30+09:00",
+        "excerpt": "API キーを URL のクエリ（ ?api_key=... ）で渡す API はいまも多くあります。リクエスト自体は HTTPS で暗号化されますが、 失敗したときの例外メッセージ にはどう出るのかを、ダミーのキーで手元で確かめました。 確認環境：Python 3.13.5 / requests 2.34.2 / urllib3 2.8.0 / Node.js v24.22.1（Linux）。サーバーは 127.0.0.1 に立てた、常に 401 を返す小さな HTTP サーバーです。キーは sk-dummy-1234567890abcdef という偽物です。 結論 書き方 401 のとき（raise_for_status） 接続できないとき requests、キーをクエリ（ params= ） キーが出る キーが出る requests、キーをヘッダ 出ない 出ない urllib.request、キーをクエリ str(e) には出ない（ e.url には入っている） （未確認） Node.js fetch、キーをクエリ （例外にならない。 r."
+      },
       {
         "id": "qiita:134741d6888e085467eac5aa",
         "source": "qiita",
