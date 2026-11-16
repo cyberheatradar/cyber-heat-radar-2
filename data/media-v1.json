@@ -1,9 +1,119 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-15T22:40:02.774577+00:00",
+  "source_snapshot_generated_at": "2026-11-15T23:40:02.862195+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:88668ecd6e660dcef79c296c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "automation",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/3su3/articles/a6ebecbc400a6c",
+        "title": "AIエージェントを5分おきに起こしても、仕事は進まなかった",
+        "author": "SieR.",
+        "published_at": "2026-11-15T23:33:57.737000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:12de763e4091fb8e354f03e2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/aikyoju_lab/articles/aikyoju-2026-11-002",
+        "title": "Claude Code のサブエージェントで点検役を3つ作り、1回目の結果で定義を直した",
+        "author": "アイ教授とまなぶのAI教室",
+        "published_at": "2026-11-15T23:22:11.439000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1ee151e9563d192625cd81a2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "NVIDIA",
+          "GPU",
+          "クラウド",
+          "半導体"
+        ],
+        "url": "https://zenn.dev/student_blog/articles/nvidia-ceo-transition-ai-gpu-exports",
+        "title": "NVIDIAのCEO交代｜AI用GPUは「輸出許可」が出れば使える？",
+        "author": "まる",
+        "published_at": "2026-11-15T23:05:23.825000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:777629607d7cf3bd202ca3b7",
+        "source": "zenn",
+        "author_tags": [
+          "npm",
+          "GitHub Actions",
+          "Security",
+          "TanStack",
+          "Supply Chain"
+        ],
+        "url": "https://zenn.dev/tomo_study/articles/tanstack-attack-case-study",
+        "title": "ポストモーテムから読み解くTanStackサプライチェーン攻撃",
+        "author": "NT",
+        "published_at": "2026-11-15T23:00:06.426000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:55f2ee0f812c594ad8c26e40",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "クリスマス",
+          "プロンプト",
+          "xmas",
+          "制作フロー"
+        ],
+        "url": "https://zenn.dev/satofun/articles/92aa73238d937d",
+        "title": "今年のクリスマスはAIイラストを活用してみよう！用途別プロンプトと制作フロー",
+        "author": "sato",
+        "published_at": "2026-11-15T22:59:05.615000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dc521bce0f79ad96730cadd1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "Python",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/bambampurin/articles/2026-09-27-tech-daily",
+        "title": "今日の技術トレンド",
+        "author": "子供部屋大学院生",
+        "published_at": "2026-11-15T22:53:23.040000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b390519fef031eebeda9f5e6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261116-tech-watch",
+        "title": "Tech Watch 2026-11-16: 検証可能なエージェント設計",
+        "author": "らいけん",
+        "published_at": "2026-11-15T22:50:10.259000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:3c2a490ef7302c9d493e501a",
         "source": "zenn",
@@ -36521,6 +36631,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4135bbbd9e586acc97e6e055",
+        "source": "qiita",
+        "author_tags": [
+          "WordPress",
+          "PHP",
+          "hsts",
+          "Security",
+          "llms.txt"
+        ],
+        "url": "https://qiita.com/masakazuimai/items/a7681b271170e32ea62f",
+        "title": "WordPressテーマのPHPだけでllms.txtとHSTSを設定する｜CSPを入れなかった理由",
+        "author": "masakazuimai",
+        "published_at": "2026-11-16T07:45:11+09:00",
+        "excerpt": "WordPress で llms.txt を配信し、HSTS（ Strict-Transport-Security ）ヘッダーを付けるだけなら、プラグインも .htaccess も要りません。テーマの PHP に init と send_headers のフックを1つずつ書けば足ります。 この記事では、実際に自作テーマへ入れたコードと、同じタイミングで検討した CSP（ Content-Security-Policy ）を 入れなかった 理由を書きます。 はじめに：何を直したか 自作テーマの WordPress サイトを SEO 診断ツール（Direbase）で確かめたところ、次の2つを指摘されました。 指摘 状態 /.well-known/llms.txt が見つからない /llms.txt では配信していたが、 /.well-known/ の下では 404 HSTS ヘッダーが無い X-Frame-Options などは送っていたが、 Strict-Transport-Security は無し どちらもテーマの PHP を数行直すだけで済みま"
+      },
+      {
         "id": "qiita:3a38bba4b58d6ae1b877e853",
         "source": "qiita",
         "author_tags": [
@@ -36799,6 +36925,22 @@
         "author": "Sicut_study",
         "published_at": "2026-11-15T17:03:34+09:00",
         "excerpt": "はじめに こんにちは、Watanabe Jin( @Sicut_study )です。 ニュースを見るたびに、自分もセキュリティを勉強しないといけないと思ったことはないでしょうか。 認証。ファイアウォール。脆弱性の名前。 セキュリティと聞くと、そこを勉強すればいいと思う人が多いのではないかと思います。 ただ、みんなが思っているセキュリティと、ソフトウェアエンジニアがやるべきセキュリティは違います。 エンジニアがやるべきなのはあとから足す防御ではありません。 業務であり得ない操作を設計の時点で許さないことです。 ここには設計が深く関わっています。 今回はこの違いを理解できる記事にしました。 なぜAI時代にセキュリティをあとから足すだけでは足りないのか？ みんなが思うセキュリティと、エンジニアがやるべきものはどこが違うのか？ 見つけたルールをコードが守っているとどう確かめるのか？ 設計を中心としながら、 エンジニアがやるべきセキュリティ について話していきます。 この記事から得られること この記事を読み終わると、 ソフトウェアエンジニアにおけるセキュリ"
+      },
+      {
+        "id": "qiita:b5d788ec7500ca515ed918e9",
+        "source": "qiita",
+        "author_tags": [
+          "Blazor",
+          "C#",
+          "Security",
+          "ローコード",
+          ".NET"
+        ],
+        "url": "https://qiita.com/hara77/items/3a1bb47268f665f518a1",
+        "title": "【データ連携】MySQL（MariaDB）をデータソースとして安全・確実に連携させるノウハウ（連載第2回）",
+        "author": "hara77",
+        "published_at": "2026-11-15T16:00:54+09:00",
+        "excerpt": "はじめに こんにちは。40年間「理想のDBアプリ開発ツール」を求め、ついに『Radzen × Blazor Server』という最強の組み合わせに辿り着いた男です。 前回の「第1回」では、インフラの全体像とWindows環境での仕込み、そしてLinux向けの発行（Publish）プロセスを解説しました。 第2回となる今回は、バックエンドの要である MySQL（MariaDB）との連携フェーズ に突入します。Windows環境で完璧に動いていたアプリをLinux上のMariaDBに接続した瞬間、多くの開発者が絶望する「OS間のギャップ」や、最新の.NET 10.0環境への移行時に私が踏み抜いた「Entity Framework Coreのパッケージの罠」について、具体的な解決コードを交えて公開します。 なお、今回Linuxサーバー側のデータベースとしてMySQLではなく MariaDB を採用したところ、パフォーマンスが非常に良好であったことも合わせて書き添えておきます。 1. Linux（MariaDB）環境の構築と「大文字・小文字」の罠 Lin"
       },
       {
         "id": "qiita:a4c402fea44b764e31d5d02e",
