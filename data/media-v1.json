@@ -1,9 +1,56 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T04:40:04.567074+00:00",
+  "source_snapshot_generated_at": "2026-11-16T05:40:03.508788+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:7efea19d49fa6f5ff56336f2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Google",
+          "Security",
+          "脅威インテリジェンス",
+          "csirt"
+        ],
+        "url": "https://zenn.dev/kotanpolin/articles/artex-agentic-offensive-frameworks",
+        "title": "侵入から15分。AI攻撃フレームワーク「ARTEX」が実戦で使われ始めた",
+        "author": "コタ",
+        "published_at": "2026-11-16T05:39:33.968000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8393ef875fe8e3a1eaf9b840",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Ubuntu",
+          "OSS",
+          "Gemini",
+          "OpenClaw"
+        ],
+        "url": "https://zenn.dev/meshu/articles/9b47d8136299b2",
+        "title": "10年前のCeleronノートに自律エージェント基盤「OpenClaw」を導入したら、人間上司と息を合わせる「現場調達AI社員」へ進化した話",
+        "author": "MESHu Office",
+        "published_at": "2026-11-16T05:08:40+00:00",
+        "excerpt": "【注意】 本記事は、限られた極小予算と現場の知恵だけでゼロから自律分散型B2B受発注プロトコル（MESHu）と現場AI社員を立ち上げる、リアルな泥臭い実証の記録です。 はじめに：ローカルLLM（Ollama）の退役と次なる一手 前作の 第10弾（Gemini API換装・覚醒編） および 第11弾（人間 vs AI社員 模擬商談バトル編） において、筆者らは10年前の骨董品ノートPC（EPSON Endeavor NY2100S / Celeron P4600 / 4GB RAM）に住む現場AI社員「alisa（アリサ）」の脳みそを、非力なローカルQwen（1tok/s）から ..."
+      },
+      {
+        "id": "zenn:6e9d3579585ab7d249edf43e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "開発プロセス",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/linkedge/articles/claude-code-instead-of-reading-code",
+        "title": "Claude Codeが書いたコードを読む代わりにやっていること",
+        "author": "Misugi Takeru",
+        "published_at": "2026-11-16T05:04:44+00:00",
+        "excerpt": "はじめに 個人で作っているWebアプリの実装を、最近はClaude Codeに任せています。PRが増えて全部は読みきれなくなり、ほとんどコードを読まずにマージしています。テストもレビューも動作確認も、AIにやらせています。 ところが、作業を終える前にテストを回すはずの仕組みが、一度もテストを動かしていませんでした。毎回0.1秒かからずに通っていて、確認は全部通っていたので、しばらく気づきませんでした。 この件もあって、コードを読まなくなった代わりに、今は次の2つをしています。 受け入れ条件を決める 確認の記録を読む コーディングエージェントにテストやレビューまで任せて、PRを読ま..."
+      },
       {
         "id": "zenn:22ad3803db7c5363e4e752d1",
         "source": "zenn",
@@ -37135,6 +37182,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:72226a7c3e7243928d3b65e3",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "NTT",
+          "cybersecurity"
+        ],
+        "url": "https://qiita.com/sponge841841/items/430ac7286f6e2eaa4280",
+        "title": "NTTのAI脆弱性解析が48%→63%に改善：ソースコードを外部に出さない「ソブリンAI」とは",
+        "author": "sponge841841",
+        "published_at": "2026-11-16T13:57:43+09:00",
+        "excerpt": "個人開発しているもの 日々の開発で得た知識を発信しながら、「あったら便利」「作ってみたい」と思ったアイデアを形にしています。 これまでに、グループ旅行アプリ Trip Supporter 、スコア管理サービス PointPia 、リアルタイム共有サービス JustNow などを開発しました。 さらに、刺繍やオリジナルキャラクターを中心としたアパレルブランド MAD TOMMY WITH... も運営しています。 開発したサービスや技術記事は chicchi.work で紹介しています。 2026年11月16日、何が発表されたのか NTTは2026年11月16日、 検査対象のソースコードを外部AIサービスに送信せず、脆弱性（悪用されるおそれのあるソフトウェアの欠陥）を解析するAI技術 を開発したと発表しました。 公式発表では、従来の解析ワークフローの成功率48%に対し、改良後は63%。 15パーセントポイント改善 したと報告されています。「15%向上」ではなく、48%から63%への差である点に注意が必要です。 出典：NTTニュースリリース（2026"
+      },
+      {
         "id": "qiita:2dd908d6716daf5b5707fe89",
         "source": "qiita",
         "author_tags": [
@@ -50702,6 +50764,83 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d93015764bb040f72a8d2360",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "data",
+          "security",
+          "cybersecurity"
+        ],
+        "url": "https://cybergopal.medium.com/cybersecurity-defences-for-2026-83258a49ecc8",
+        "title": "Cybersecurity Defences For 2026",
+        "author": "Gopal Rajguru",
+        "published_at": "2026-11-16T05:31:01+00:00",
+        "excerpt": "In the past, cybersecurity was simply about putting up a firewall and antivirus. However, today the best defences are becoming more… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ee3eb46865afae5c1b281780",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty-writeup",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@sebasvargas2/cross-supplier-privilege-escalation-how-i-escalated-from-operator-to-admin-on-a-leading-travel-614a67f459ab",
+        "title": "Cross-Supplier Privilege Escalation: How I Escalated from Operator to Admin on a Leading Travel…",
+        "author": "Sebastian Vargas",
+        "published_at": "2026-11-16T05:21:58+00:00",
+        "excerpt": "Via GraphQL Mutation Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9056aa5170476b671c1d772f",
+        "source": "medium",
+        "author_tags": [
+          "open-source",
+          "cloud-security",
+          "cybersecurity",
+          "artificial-intelligence",
+          "devsecops"
+        ],
+        "url": "https://kallolpratim.medium.com/ai-in-the-soc-shouldnt-be-a-black-box-so-we-built-one-you-can-audit-092ee0698b66",
+        "title": "AI in the SOC Shouldn’t Be a Black Box. So We Built One You Can Audit.",
+        "author": "kallol pratim",
+        "published_at": "2026-11-16T05:20:30+00:00",
+        "excerpt": "Introducing Vigil: open-source, self-hosted security operations for your clouds — where AI investigates, evidence decides, and a human… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:05eded0c99cbca5d0ea7de61",
+        "source": "medium",
+        "author_tags": [
+          "ethereum",
+          "binance",
+          "cybersecurity",
+          "tradertraitor",
+          "lazarus-group"
+        ],
+        "url": "https://medium.com/@angelska327/binance-security-incident-analysis-malicious-code-pyenv-trojanization-and-execution-beefcb84ed61",
+        "title": "Binance Security Incident Analysis: Malicious Code, pyenv Trojanization and Execution…",
+        "author": "Angelska",
+        "published_at": "2026-11-16T05:10:34+00:00",
+        "excerpt": "1. Executive Summary Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f1ffe8b7ee1497cc4d22ddc3",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "oauth",
+          "account-takeover",
+          "cybersecurity",
+          "application-security"
+        ],
+        "url": "https://masimshahzad.medium.com/sign-in-with-apple-jwt-bug-account-takeover-case-ae9fd2061bf6",
+        "title": "Sign in with Apple JWT Bug: Account Takeover Case",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-16T04:59:39+00:00",
+        "excerpt": "A Sign in with Apple JWT bug let Apple sign tokens for any email, enabling account takeover in third-party apps. Continue reading on Medium »"
+      },
       {
         "id": "medium:59e2cef1f93979cec39e427e",
         "source": "medium",
