@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T06:40:03.741133+00:00",
+  "source_snapshot_generated_at": "2026-11-16T07:40:11.425524+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:a8127daa69cb2147dfe9ec97",
+        "source": "zenn",
+        "author_tags": [
+          "API",
+          "Security",
+          "http",
+          "backend",
+          "dgft"
+        ],
+        "url": "https://zenn.dev/dgft/articles/ab6680b78f0d42",
+        "title": "新人エンジニアのための技術実践ノート 第1回 APIが動かない！ 502・503・504、タイムアウト、認証の切り分けと直し方",
+        "author": "hishikawa0121",
+        "published_at": "2026-11-16T07:37:38.274000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ddf862f6e6c3e147063365a7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "React",
+          "イベントレポート",
+          "React Tokyo",
+          "Generative UI"
+        ],
+        "url": "https://zenn.dev/react_tokyo/articles/2026-11-07-onsen-kinugawa",
+        "title": "React Tokyo 温泉合宿 in 鬼怒川温泉 2026-11-07 イベントレポート",
+        "author": "React Tokyo Supporters",
+        "published_at": "2026-11-16T06:43:25.206000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f1d25c7b7a7f239b1b4120b3",
         "source": "zenn",
@@ -37227,6 +37259,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1678322abcb92fa1f67a8d5d",
+        "source": "qiita",
+        "author_tags": [
+          "Veeam",
+          "ランサムウェア",
+          "Security",
+          "backup",
+          "インフラ"
+        ],
+        "url": "https://qiita.com/ReQ_HY/items/9a535dcc008bf555c6c4",
+        "title": "【Veeam×ランサムウェア対策】ランサムウェアからバックアップを守るVeeamのセキュリティ機能とは？",
+        "author": "ReQ_HY",
+        "published_at": "2026-11-16T16:32:59+09:00",
+        "excerpt": "みなさん、こんにちは！ はじめに：ランサムウェアはバックアップデータも狙う時代へ 2025年は大企業へのランサムウェア攻撃が話題となり、多くの企業がランサムウェア対策について改めて検討する機会が増えたのではないのでしょうか？ 近年のランサムウェアは、実際に運用データに攻撃を行うだけではなく「バックアップデータ」をも攻撃対象とし、バックアップデータによる復旧を不可能な状態にしてから、被害組織に対して恐喝行為を行います。 そのため、「バックアップ」を取ってリストア出来ることはもちろん必要ですが、さらにバックアップシステムおよびバックアップデータに対して「ランサムウェア（マルウェア）対策」を行うことも重要です。 ランサムウェアの対策には、運用面と技術面の両方のアプローチが必要となります。 バックアップ運用のランサムウェア対策として、Veeam社は『3-2-1-1-0ルール』を提唱しています。 従来データ保護で言われる「3-2-1ルール」に、「１：書き換え不能なコピーを1つ追加」「0：復元エラーをゼロと検証」でランサムウェア対策を強化する考え方です。 詳"
+      },
+      {
+        "id": "qiita:2905d7c85e5065c4868ddd86",
+        "source": "qiita",
+        "author_tags": [
+          "pqc",
+          "暗号",
+          "ietf",
+          "Security",
+          "ietf127"
+        ],
+        "url": "https://qiita.com/satokan3/items/09bc16527f6fac360ae3",
+        "title": "【会期に向けた予習】IETF 127 PQC 関連セッション分析 ― composite 署名は RFC に、焦点は鍵と署名の大きさへ",
+        "author": "satokan3",
+        "published_at": "2026-11-16T16:25:58+09:00",
+        "excerpt": "こんにちは！ GMOコネクト株式会社 執行役員CTO / GMOインターネットグループ株式会社 共同研究推進グループ 主席研究員 菅野哲（かんの さとる）でございます。 皆さん、PQC（耐量子計算機暗号）への移行、進んでいますか？ ML-KEM や ML-DSA は NIST の標準になりました。では、それを TLS や証明書、VPN、メッセージング、IoT にどう載せるのか。その載せ方を議論しているのが IETF です！！ 2026年11月にサンフランシスコで開かれる IETF 127 のアジェンダには、各 WG と RG が何を議論するのか、議題と発表資料（Meeting Materials）が載っています。本記事では、全179セッションのアジェンダと資料を一通り集め、そのうち PQC に関わる議題を抜き出しました。ゼロ知識証明などの高機能暗号と、それ以外の新しい暗号の使い方は、姉妹編の「IETF 127 高機能暗号・新しい暗号利用 分析」にまとめています。BoF とサイドミーティングは、「IETF 127 San Francisco BoF"
+      },
+      {
+        "id": "qiita:64cd1808a0f10db1a5649a58",
+        "source": "qiita",
+        "author_tags": [
+          "CLI",
+          "Security",
+          "AIAgent"
+        ],
+        "url": "https://qiita.com/kai_kou/items/06b378064c544e590f6d",
+        "title": "Claude Code 2.1.321 入門、絶対パスの cp と mv が deny を抜けた件",
+        "author": "kai_kou",
+        "published_at": "2026-11-16T16:11:31+09:00",
+        "excerpt": "はじめに 対象読者は、Claude Code の permissions（allow / deny）を使って claude -p やスケジュール実行のルーティンを無人で回している開発者です。 deny に Edit(./secret/**) と書いておけば、 secret/ 配下には何も書き込まれない。筆者もそう考えて設定していました。ところが Claude Code 2.1.321 の changelog に、 /bin/cp のようにパスで書いた cp と mv についての変更が載りました。では、それ以前の版で /bin/cp a.txt secret/ を実行させたら何が起きていたのでしょうか。 この記事では、2.1.319（変更前）と 2.1.325（変更後）を同じ Linux 環境に並べ、同じ設定と同じコマンドで secret/ への書き込みを試した結果を載せます。そのうえで、読者が自分の環境で同じ確認をする手順を書きます。 TL;DR この記事の手順を追うと、次のことができるようになります。 自分の Claude Code が 2.1"
+      },
+      {
         "id": "qiita:1aa8b2ff790c166cf0f059fc",
         "source": "qiita",
         "author_tags": [
@@ -50825,6 +50903,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:94c33a4914ee1ffc4c22e5b5",
+        "source": "medium",
+        "author_tags": [
+          "corporate",
+          "customer-experience",
+          "supply-chain",
+          "cybersecurity",
+          "threat-intelligence"
+        ],
+        "url": "https://medium.com/@graysentinel.ai/coles-cybersecurity-incident-early-disclosure-unclear-scope-and-the-operational-blind-spots-537a70ad78df",
+        "title": "Coles Cybersecurity Incident: Early Disclosure, Unclear Scope, and the Operational Blind Spots…",
+        "author": "GraySentinel- Cyber Defence Lab",
+        "published_at": "2026-11-16T07:16:19+00:00",
+        "excerpt": "On Monday 16 November 2026 Coles Group filed a statement with the ASX confirming it was in the process of investigating a cybersecurity… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7c4103d6f2bc00a1c4136677",
+        "source": "medium",
+        "author_tags": [
+          "microsoft-sentinel",
+          "cybersecurity"
+        ],
+        "url": "https://blackshark0x.medium.com/building-a-microsoft-sentinel-soc-lab-on-azure-from-deployment-to-detection-5e13a861ce14",
+        "title": "Building a Microsoft Sentinel SOC Lab on Azure: From Deployment to Detection",
+        "author": "BlackShark",
+        "published_at": "2026-11-16T07:09:17+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9d8c98f8a38a22f2cb5c14c7",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "cybersecurity",
+          "network-security",
+          "ethical-hacking",
+          "cybersecurity-careers"
+        ],
+        "url": "https://medium.com/@qnayds12/top-cybersecurity-skills-to-develop-for-future-career-opportunities-095ea6ac09cb",
+        "title": "Top Cybersecurity Skills to Develop for Future Career Opportunities",
+        "author": "Qnayds",
+        "published_at": "2026-11-16T07:07:28+00:00",
+        "excerpt": "Technology is changing the way people work, communicate, and manage information. Businesses now depend on websites, cloud platforms… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4e97bb5b301d6b47fb41fb19",
+        "source": "medium",
+        "author_tags": [
+          "scam",
+          "technology",
+          "online-safety",
+          "cybersecurity",
+          "phishing"
+        ],
+        "url": "https://medium.com/@aybeghafoor/i-clicked-on-a-phishing-link-what-to-do-now-safeshieldx-77a826a967c6",
+        "title": "I Clicked on a Phishing Link — What to Do Now — SafeShieldX",
+        "author": "Aybeghafoor",
+        "published_at": "2026-11-16T06:59:04+00:00",
+        "excerpt": "You clicked on a phishing link, and now something feels wrong. The page looked strange, or it asked for your password, or your phone… Continue reading on Medium »"
+      },
       {
         "id": "medium:a018444613c65dba90acd12a",
         "source": "medium",
