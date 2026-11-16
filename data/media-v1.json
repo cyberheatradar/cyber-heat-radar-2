@@ -1,9 +1,88 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T21:40:03.124105+00:00",
+  "source_snapshot_generated_at": "2026-11-16T22:40:03.107964+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:990e7c495de6522d00afc309",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DevTools",
+          "Agent",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/systemdesignsim/articles/claude-code-advisor-opus-fable",
+        "title": "Claude Codeのアドバイザー: Opus 5.5が作業し、Fable 5.2が助言する",
+        "author": "System Design Simple",
+        "published_at": "2026-11-16T22:26:11.377000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0ff63b330f560912099fcdff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mappy55/articles/magi-games-devlog-11",
+        "title": "サブエージェントを呼び直さずに1週間。4週破られた約束を、1体は初日に守り、1体は7日守らなかった（MAGI Games 開発記 #11）",
+        "author": "mappy",
+        "published_at": "2026-11-16T22:23:43.719000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:71093a2af85a0ebda0499dce",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "DevSecOps",
+          "SonarQube",
+          "Static analysis",
+          "SAST"
+        ],
+        "url": "https://zenn.dev/r_goto/articles/sast-best-practices",
+        "title": "SAST は検知だけから始める：SonarQube の Quality Profile と Quality Gate",
+        "author": "Ryuji Goto",
+        "published_at": "2026-11-16T22:07:18.277000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7c8ea74f0d6b7fb70f464e67",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OSS",
+          "Claude Code",
+          "Codex CLI",
+          "Loop engineering"
+        ],
+        "url": "https://zenn.dev/kamo78/articles/kaji-claude-code-verification-loops",
+        "title": "Claude Code 公式の Verification Loops を、実運用中の kaji のスキルで具体的に解説する",
+        "author": "kamo",
+        "published_at": "2026-11-16T22:05:05.155000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0fa022e40721f51d2109edc7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Claude",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/zundamon_tools/articles/claude-code-code-mode-tokens",
+        "title": "Claude CodeのCode Modeで上限は延びる？ トークン約6割減・料金換算は2割前後の実測",
+        "author": "ずんだもんの実験道具箱",
+        "published_at": "2026-11-16T22:04:57.889000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ab0f560fbb1ff9b433b9fd64",
         "source": "zenn",
@@ -37944,6 +38023,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:2afbd72ced7360a91061f913",
+        "source": "qiita",
+        "author_tags": [
+          "EOL",
+          "インフラ",
+          "運用",
+          "情シス",
+          "Security"
+        ],
+        "url": "https://qiita.com/Okojyo-Soft/items/fe818ec93bf2695c8976",
+        "title": "ミドルウェアの EOL は「日付の表」だけでは管理できない ― 保守方針の 6 つの型と、台帳の作り方",
+        "author": "Okojyo-Soft",
+        "published_at": "2026-11-17T06:54:03+09:00",
+        "excerpt": "はじめに 社内 SE を 20 年以上やっています。サーバーの更改計画を立てるたびに、「この製品はいつまで使えるのか」を調べます。 OS は簡単です。ベンダーが日付の表を出しています。困るのはミドルウェアと OSS です。「Apache のサポート終了日」を探しても、2.4 の日付は出てきません。Postfix も Squid も、表がありません。 先日、自分で運営している EOL の一覧に 9 製品を足すために、各プロジェクトの保守方針を公式ページで読み直しました。そこで分かったのは、 終了日の決まり方に型がある ということです。型が分かれば、日付が無い製品も台帳で管理できます。 この記事では、その型と、台帳の作り方をまとめます。日付と版は 2026 年 11 月 14 日時点 で公式ページを確認したものです。 結論 「終了日」の列だけの台帳では、OSS のミドルウェアは管理できない 台帳には「 終了の決まり方（型） 」と「 入手元 」の列を足す 終了日が無い製品は、「次に確認する日」で管理する 保守方針の 6 つの型 型 1：日付が先に決まる"
+      },
+      {
         "id": "qiita:2404e8928258eab6ce628461",
         "source": "qiita",
         "author_tags": [
@@ -51854,6 +51949,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6bccf16c0187094e1bef1e42",
+        "source": "medium",
+        "author_tags": [
+          "zero-trust",
+          "data-integrity",
+          "ai-security",
+          "cybersecurity",
+          "post-quantum-cryptography"
+        ],
+        "url": "https://medium.com/@bongobreath/signed-isnt-safe-defending-against-data-poisoning-with-post-quantum-cryptography-and-ksi-6822d5c7d45e",
+        "title": "Signed Isn’t Safe: Defending Against Data Poisoning with Post-Quantum Cryptography and KSI",
+        "author": "Barry Lyons IV",
+        "published_at": "2026-11-16T22:14:27+00:00",
+        "excerpt": "Cryptographic integrity is necessary for trusting the data your AI and mission systems act on, but it’s never enough on its own. Here’s a… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2ffb3011f08c3bcce107c2a5",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "impersonation-scam",
+          "computer-security",
+          "phishing-attacks",
+          "cybercrime"
+        ],
+        "url": "https://medium.com/veritas-true-crime/the-scam-came-through-a-trusted-notification-why-it-matters-a19b87653c92",
+        "title": "The Scam Came Through A Trusted Notification. Why It Matters!",
+        "author": "Jason Morton",
+        "published_at": "2026-11-16T22:03:20+00:00",
+        "excerpt": "Continue reading on Veritas True Crime »"
+      },
+      {
+        "id": "medium:31f70e48ce6d64ec705e2651",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "malware",
+          "web3",
+          "social-engineering",
+          "scams-to-avoid"
+        ],
+        "url": "https://medium.com/@ZTS_Drew/the-most-convincing-podcast-scam-i-have-seen-d170281005c4",
+        "title": "The Most Convincing Podcast Scam I Have Seen",
+        "author": "Zero Trust Security",
+        "published_at": "2026-11-16T21:58:47+00:00",
+        "excerpt": "A verified account, a real booking link, and a fake captcha that hides malware. Here is how it works and how to catch it. Continue reading on Medium »"
+      },
       {
         "id": "medium:93e2db31da2c5f7bff72dc32",
         "source": "medium",
