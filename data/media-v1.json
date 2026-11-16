@@ -1,9 +1,84 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-16T02:40:03.157754+00:00",
+  "source_snapshot_generated_at": "2026-11-16T03:40:03.895324+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:0d90fa6cc98007a4a8570c56",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Laravel",
+          "PHP",
+          "個人開発",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mugen_web/articles/claude-code-php-questions-verify",
+        "title": "Claude Codeに作らせたPHP問題を403問実行して照合した。10問は書き出しの違いで漏れていた",
+        "author": "MUGEN WEB",
+        "published_at": "2026-11-16T03:28:07.728000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:586f1a4def128c0c59b7fdac",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Meta",
+          "AIエージェント",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/tmasuyama1114/articles/muse-daily-errands-and-spaces",
+        "title": "Muse に Space を作らせて中身の読み書きまで任せる仕組み",
+        "author": "とまだ｜『Claude Codeで作って学ぶ』著者（増山友司）",
+        "published_at": "2026-11-16T03:11:49.540000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ac5cb8a0869eb64098a7ae40",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Markdown",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/tsugu_sukima/articles/b571eb9691a4e0",
+        "title": "Claude Codeに推測で埋めさせない：CLAUDE.mdに書く「未確認」の決まり5行",
+        "author": "tsugu",
+        "published_at": "2026-11-16T03:00:05.578000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d047ce6cce6ff80fec9a0286",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "カンファレンス",
+          "サイボウズ"
+        ],
+        "url": "https://zenn.dev/pkmiya/articles/8e9a3fcc256642",
+        "title": "Cybozu Days JAPAN 2026 に内定者として参加しました！",
+        "author": "みーや",
+        "published_at": "2026-11-16T02:55:47.468000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fdee852abf3e045a1e79b9b9",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Cyber Security",
+          "soar",
+          "SIEM",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/cybercommand/articles/cf689089cfd4e4",
+        "title": "AI SOCとAgentic AI SOC —「アラート疲れ」を自律エージェントに任せる動きと、注目の一社・7AI",
+        "author": "サイバーコマンド 技術コラム編集部",
+        "published_at": "2026-11-16T02:54:04.503000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:5899bebd7271e08e137ae86a",
         "source": "zenn",
@@ -36968,6 +37043,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:2dd908d6716daf5b5707fe89",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Web"
+        ],
+        "url": "https://qiita.com/Ethereal-Kardia/items/1b7ee82843653c0492cf",
+        "title": "Lovableアプリにおける機密情報漏洩リスクの話。",
+        "author": "Ethereal-Kardia",
+        "published_at": "2026-11-16T12:01:13+09:00",
+        "excerpt": "はじめに 近年、AI駆動のノーコード開発プラットフォーム「Lovable」のようなツールが注目を集めています。自然言語で指示を出すだけでWebアプリを構築できる手軽さは魅力的ですが、その裏側では深刻なセキュリティインシデントが発生しています。 実際に、あるLovableで生成されたアプリにおいて、ユーザーのパスポート詳細や20万件以上のプライベートメッセージが公開状態になっていた事例が報告されました。これは単なるバグではなく、AIが生成したコードの構造や設定に対する理解不足から生じる典型的なリスクです。本記事では、この事象を技術的な観点から分析し、開発者が取るべき対策を考えます。 技術解説 この問題の根本原因は、多くの場合「認証・認可の実装漏れ」または「データアクセス制御の不備」にあります。AIモデルは、機能要件を満たすことに最適化されており、セキュリティ要件を暗黙的に推測して実装する能力は限定的です。 例えば、バックエンドAPIがデータベースからデータを取得する際、ユーザーIDによるフィルタリングを行わずに全件返却してしまうケースがあります。以"
+      },
+      {
+        "id": "qiita:fa6bd1bfeae7b763a2c33bfd",
+        "source": "qiita",
+        "author_tags": [
+          "Cloud",
+          "ソブリンクラウド",
+          "暗号化",
+          "kms",
+          "Security"
+        ],
+        "url": "https://qiita.com/Doc-Tanukichi/items/3366d5070819fd89d9f7",
+        "title": "【クラウドと主権 #4】国の争いに巻き込まれないためのクラウド利用設計 ― BYOK・HYOK・外部鍵管理と「止められても困らない」備え",
+        "author": "Doc-Tanukichi",
+        "published_at": "2026-11-16T11:48:49+09:00",
+        "excerpt": "前回の記事 ： 【クラウドと主権 #3】データにはどの国の法律が届くか ― CLOUD Act・GDPR・中国のデータ法・日本の越境ルール はじめに ここまでの2回で、クラウドが国家の判断に左右される2つの形を見てきました。 回 形 中身 #2 止められる 制裁、撤退、輸出管理で、サービスやデータが使えなくなる #3 見られる 外国の法律に基づいて、データの提出を求められる 今回は、使う側として 国と国の争いに巻き込まれないためのクラウドの利用設計 を考えます。 当初の予定では、この回は「ソブリンクラウドの作り方」を扱うつもりでした。しかし、読者の多くはソブリンクラウドを 作る側 ではなく 使う側 です。そこで、利用者が自分の手でできる設計に焦点を変えました。作る側の技術は、次回の「世界のソブリンクラウド」の中で扱います。 本記事の事実関係は 2026年11月時点で確認できた情報をもとにしています。コマンドや設定は構成のイメージを示すためのもので、実際の構築では各社の最新のドキュメントを確認してください。本記事は法的な助言ではありません。 1. "
+      },
+      {
+        "id": "qiita:aee074fc5e6036936c62d149",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "Linux",
+          "Security",
+          "コマンドプロンプト",
+          "PowerShell"
+        ],
+        "url": "https://qiita.com/555hamano/items/cf9df2ac48f3abc0c253",
+        "title": "第47回：セキュリティベースライン：Microsoft推奨設定の適用とカスタマイズ",
+        "author": "555hamano",
+        "published_at": "2026-11-16T11:42:29+09:00",
+        "excerpt": "はじめに OSやサーバーのセキュリティ設定項目は数百から数千に及びます。ゼロから自前でポリシーを設計しようとすると、過剰な制限による業務停止や、重要な設定項目の見落としが発生しがちです。 そこで活用すべき土台が、Microsoft公式の「セキュリティベースライン（Security Baseline）」です。Microsoftのセキュリティエンジニアリングの知見に基づく「安全かつ実用的な推奨設定パッケージ」であり、CISベンチマークと並ぶWindowsセキュリティの業界標準です。 この記事では、ベースラインの構成、Security Compliance Toolkit (SCT) を用いたGPOへのインポート手順、および実際の業務環境に合わせた安全なカスタマイズ基準を解説します（2026年11月時点の情報です）。 前提条件と注意 ドメイン管理者権限、 GroupPolicy モジュール（RSAT）、SYSVOL（中央ストア）への書き込み権限が必要です。 ベースラインは「そのまま全社適用」を想定した設定集ではありません。Windows 11 24H2"
+      },
+      {
         "id": "qiita:1ba2a79faafa8b150ed6045b",
         "source": "qiita",
         "author_tags": [
@@ -38086,6 +38207,22 @@
         "author": "NAS6mixfoolv",
         "published_at": "2026-11-13T17:50:19+09:00",
         "excerpt": "Xシェア機能を実装する ― Xアプリで投稿本文が消える問題を中間リダイレクトで回避する はじめに ブラウザゲーム「Derby Dream」に、プレイ結果をX（旧Twitter）で共有する機能を実装しました。 リンク： 競馬ブラウザゲーム 今回の実装で少し工夫したのが、Xの投稿画面を開く際の処理です。 最初は一般的なX Web Intentを利用していました。 const intentUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(str)}`; window.open(intentUrl, \"_blank\"); ところが、実際に使ってみると問題がありました。 ブラウザからXの投稿画面を開くと、Xアプリが起動してしまい、指定した投稿本文が空になってしまうケースが多かったのです。 投稿内容を自動生成しているのに、結局ユーザーが手入力するのではシェア機能として不便です。 そこで、今回は中間リダイレクトページを挟む方式を試してみました。 1. X Web Intentの利用 Xには、"
+      },
+      {
+        "id": "qiita:6dafd36b3fda2c1ce67607df",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AIエージェント",
+          "サイバーセキュリティ",
+          "soc",
+          "SOAR"
+        ],
+        "url": "https://qiita.com/cybercom-admin/items/a3570144262c7c8ad8fe",
+        "title": "AI SOCとAgentic AI SOC—「アラート疲れ」を自律エージェントに任せる動きと、注目の一社・7AI",
+        "author": "cybercom-admin",
+        "published_at": "2026-11-13T17:32:58+09:00",
+        "excerpt": "※本記事は2026年9月に執筆し、2026年11月に、2026年10月末までの公式発表をもとに資金調達額・実績値・出典を一次情報で再確認したうえで更新している。本文で触れる各社の実績値には、第三者による検証が及んでいない公表値が含まれる。 現場はなぜ回らないのか SIEM、EDR、ID、ネットワーク、クラウド。検知ツールを増やすほど、アラートは積み上がっていく。一方でアナリストの頭数はほとんど変わらない。この差が、そのまま現場の疲弊になっている。 Tier 1のアナリストは日々のトリアージに追われ、本来やるべき深い調査や脅威ハンティングまで手が回らない。いわゆる「アラート疲れ（alert fatigue）」である。増え続けるアラートを、人を増やさずにさばく手はないか——この問いに対して2025年ごろから立ち上がってきたのが、トリアージから調査、対応までをAIに肩代わりさせる「AI SOC」という発想だ。 まず言葉を整理する——AI SOCとAgentic AI SOCは同じではない 先に一つ、混同しやすい点を片づけておきたい。「AI SOC」と「"
       },
       {
         "id": "qiita:fdc24400d13554c2ca02413d",
@@ -50473,6 +50610,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:cb0783833f1be8fa6922888c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "llm",
+          "ai-agent",
+          "threat-intelligence",
+          "artificial-intelligence"
+        ],
+        "url": "https://ratnadeepdeyroy.medium.com/memory-poisoning-how-attackers-plant-lies-that-ai-agents-remember-b89cca2a9939",
+        "title": "Memory Poisoning: How Attackers Plant Lies That AI Agents Remember",
+        "author": "Ratnadeep Dey Roy",
+        "published_at": "2026-11-16T03:31:01+00:00",
+        "excerpt": "A poisoned memory keeps working after the attacker leaves. Research shows it can be done with ordinary questions. Here is how the attack… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:71bc6f0f7107091a61c57dc3",
+        "source": "medium",
+        "author_tags": [
+          "cyberattack",
+          "hacking",
+          "cybercrime",
+          "cybersecurity",
+          "phishing"
+        ],
+        "url": "https://medium.com/@davidsehyeonbaek/how-fake-cell-towers-deliver-phishing-texts-5c46770190c1",
+        "title": "How Fake Cell Towers Deliver Phishing Texts",
+        "author": "David SEHYEON Baek",
+        "published_at": "2026-11-16T02:59:31+00:00",
+        "excerpt": "Tokyo’s Ginza investigation and the risks of 2G fallback Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7a20a134672c5c480057c9bc",
+        "source": "medium",
+        "author_tags": [
+          "bug-hunting",
+          "cybersecurity",
+          "xss-vulnerability",
+          "penetration-testing",
+          "xss-attack"
+        ],
+        "url": "https://medium.com/@atitofffff/how-i-discovered-stored-xss-in-event-email-templates-7679d2880366",
+        "title": "How I Discovered Stored XSS in Event Email Templates",
+        "author": "ATIT0",
+        "published_at": "2026-11-16T02:58:18+00:00",
+        "excerpt": "الحمد لله الذي عَلَّمَ بالقلم.. عَلَّمَ الإنسانَ ما لم يَعْلَم.. والصلاة والسلام على خيرِ مُعَلِّمي الناسِ الخير محمد صلى الله عليه وسلم Continue reading on Medium »"
+      },
       {
         "id": "medium:c8597c12719bd2535e0d5e78",
         "source": "medium",
