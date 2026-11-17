@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-17T19:40:02.772339+00:00",
+  "source_snapshot_generated_at": "2026-11-17T20:40:02.947775+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:bfa8ae1884678467ae59e3a9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "CLI",
+          "GitHub Copilot",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/skillselion/articles/b2c8100de2b5a3",
+        "title": "入れる前にSKILL.mdを読む: awesome-copilotのgit-commitをClaude Codeで使うときの確認点",
+        "author": "Skillselion",
+        "published_at": "2026-11-17T19:51:40.664000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:a192e87cfd1ecd7829cf0404",
         "source": "zenn",
@@ -39851,6 +39867,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:44c145de6abb42bdb84696dc",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "pydantic",
+          "Security",
+          "apiキー",
+          "環境変数"
+        ],
+        "url": "https://qiita.com/supportapp3/items/b418c78da76d579a5bc9",
+        "title": "pydantic の SecretStr でも、検証に失敗すると API キーが ValidationError に出る：hide_input_in_errors は print だけ隠し e.json() には残った（pydantic 2.14で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-18T05:11:59+09:00",
+        "excerpt": "pydantic-settings で API キーを読むとき、 SecretStr にしておけば print(settings) で ********** になります。では、 キーが検証に失敗したとき の ValidationError はどうなるのか。ダミーのキーで手元で確かめたら、 SecretStr でもキーがそのまま出ました。 確認環境：Python 3.13.5 / pydantic 2.14.3 / pydantic-settings 2.16.3（Linux）。キーは sk-test-FAKE0123456789abcdefFAKE （32文字の偽物）を環境変数 API_KEY に入れています。 結論 出し方 str 型 SecretStr 型 SecretStr ＋ hide_input_in_errors=True print(settings) / repr / f-string 出る 出ない（ SecretStr('**********') ） 出ない 検証失敗時の print(e) 出る 出る 出ない 検証失敗時の e."
+      },
+      {
         "id": "qiita:bd33a0e896797a68312e2635",
         "source": "qiita",
         "author_tags": [
@@ -54355,6 +54387,53 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:84a4c9dc58308ed90cd726c6",
+        "source": "medium",
+        "author_tags": [
+          "osint",
+          "insider-threat",
+          "cybersecurity",
+          "forensic-linguistics",
+          "threat-intelligence"
+        ],
+        "url": "https://medium.com/@ethno.los2409/the-invisible-fingerprint-forensic-linguistics-in-insider-threat-0fc2c1ac5fd0",
+        "title": "The Invisible Fingerprint: Forensic Linguistics in Insider Threat",
+        "author": "EthnoLogos",
+        "published_at": "2026-11-17T20:30:44+00:00",
+        "excerpt": "Introduction In the world of cybersecurity, billions of dollars are spent on firewalls, EDRs, and DLP systems. We build high-tech walls to… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a1d5d2d44acc780476c16510",
+        "source": "medium",
+        "author_tags": [
+          "mnaa",
+          "ami",
+          "cybersecurity",
+          "2fa",
+          "mfa"
+        ],
+        "url": "https://medium.com/saaspass/discount-promo-coupon-code-for-microfocus-netiq-advanced-authentication-2408167cc2e6",
+        "title": "Discount & Promo Coupon Code for MicroFocus NetIQ Advanced Authentication",
+        "author": "James Smith",
+        "published_at": "2026-11-17T20:21:01+00:00",
+        "excerpt": "SAASPASS integrates and protects MicroFocus NetIQ Advanced Authentication. When you setup the protection of MicroFocus NetIQ Advanced… Continue reading on saaspass »"
+      },
+      {
+        "id": "medium:ea2b5aaa9516046c69c18999",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "education",
+          "cybersecurity",
+          "technology"
+        ],
+        "url": "https://medium.com/@cybersecuritywriteups/the-cybersecurity-certification-industry-is-being-disrupted-469e4fcca286",
+        "title": "The Cybersecurity Certification Industry Is Being Disrupted.",
+        "author": "CybersecurityWriter",
+        "published_at": "2026-11-17T20:13:40+00:00",
+        "excerpt": "How Appkademiya, alongside innovators like Red Team Leaders and Cyberwarfare Labs, is challenging traditional credentialing through… Continue reading on Medium »"
+      },
       {
         "id": "medium:523e72d015e49028ca058068",
         "source": "medium",
