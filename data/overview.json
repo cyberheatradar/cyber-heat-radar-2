@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-17T19:06:28.492962+00:00",
-  "as_of": "2026-11-17T19:00:00+00:00",
-  "catalog_count": 24930,
+  "generated_at": "2026-11-17T20:06:07.106996+00:00",
+  "as_of": "2026-11-17T20:00:00+00:00",
+  "catalog_count": 24934,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,72 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T04:22:09.271402+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-194ca0de9405670c953b790b",
+      "primary_category": "ransomware",
+      "public_article_id": "url:194ca0de9405670c953b790b",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-18T04:09:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the \"8 Digits Team\" connected with INC and Lynx.",
+      "summary_excerpt": "The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the \"8 Digits Team\" connected with INC and Lynx.",
+      "threat_actors": [],
+      "title": "Kazakh ransomware hacking suspect extradited from Italy"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T04:22:09.718990+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-31fa1641a8c31572ff89419e",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:31fa1641a8c31572ff89419e",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-18T03:50:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.",
+      "summary_excerpt": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.",
+      "threat_actors": [],
+      "title": "Chinese state group developing automated attack tool for cyber espionage, Google says"
+    },
     {
       "ai_relevance": "primary",
       "canonical_url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
@@ -148,6 +214,64 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T04:37:35.004846+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e5492f9867506c1763a92226",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e5492f9867506c1763a92226",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T00:17:36+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "summary_excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "threat_actors": [],
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T04:37:35.123039+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-4f9516b8f5d72d7aacdd2019",
+      "primary_category": "ai_security",
+      "public_article_id": "url:4f9516b8f5d72d7aacdd2019",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-18T00:17:28+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report",
+      "summary_excerpt": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report",
+      "threat_actors": [],
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
       "cves": [],
       "document_form": "single_story",
@@ -173,133 +297,6 @@
       "summary_excerpt": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
       "threat_actors": [],
       "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T01:23:21.745281+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-636abb4fba14b122457b269f",
-      "primary_category": "ai_security",
-      "public_article_id": "url:636abb4fba14b122457b269f",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-18T00:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Microsoft Security Blog",
-      "summary": "Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft Security Blog .",
-      "summary_excerpt": "Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft Security Blog .",
-      "threat_actors": [],
-      "title": "The risks of device code authentication for AI coding agents"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.rapid7.com/blog/post/em-claude-access-brings-ai-context-into-surface-command-asm-easm/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T23:53:22.884955+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-b54f72dcf743445f364ce645",
-      "primary_category": "ai_security",
-      "public_article_id": "url:b54f72dcf743445f364ce645",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-17T23:26:29+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Approving an AI service is only the starting point. As employees adopt Claude and their responsibilities change, security teams need to know who has access, which users hold administrative privileges, and whether those roles and group memberships still reflect the work they do. IBM’s 2025 Cost of a Data Breach Report found that, among studied organizations reporting an AI-related breach, 97% lacked proper AI access controls. The finding highlights a broader challenge: AI adoption needs security practices that extend beyond the initial approval, supported by information teams can use to review access with administrators and service owners. Rapid7 Surface Command now integrates with Claude’s Compliance API, bringing supported organization, user, role, group, and settings information into the same platform teams use to understand other assets and identities. The integration helps security teams make enterprise Claude access part of their existing review practices. Bring enterprise AI access into your security view An account list tells security teams who is present, while roles and group memberships help explain how access is organized and where further review may be needed. Surface Command’s integration with Claude’s Compliance API brings together: Organizations and users: Visibility into the Claude organization and its associated user accounts. Roles and groups: Context to understand users’ assigned roles and group memberships. Organizational settings: Available configuration information to support review of the enterprise Claude environment. With those details in Surface Command, practitioners can examine Claude identities alongside the other assets and identities they manage. That gives them a clearer basis for working with service owners to evaluate whether access remains appropriate as teams and responsibilities change. The integration focuses on administrative visibility. It does not ingest Claude conversation content, provide threat detection on Claude activity, or control Claude’s behavior. From a user record to an informed access review Consider a security practitioner reviewing administrative access to Claude. In Surface Command, they can inspect an imported user’s details, review their organization role and administrative status, and examine their group memberships. The relationship graph provides a visual view of how that user connects to the organization and its groups, making those associations easier to follow. The practitioner can then work with the service owner to confirm whether administrative privileges are still needed, whether group memberships reflect current responsibilities, and whether those assignments align with the organization’s access model. Surface Command provides information to support the review, while the team applies its policies and judgment to determine whether a change is needed. Support AI adoption with clearer accountability As Claude becomes part of everyday work, reviewing its users and access relationships becomes part of managing the environment. Bringing that information into Surface Command helps security practitioners and service owners work from a shared understanding of assigned roles and group memberships. It supports more informed access decisions and helps security leaders incorporate enterprise AI into established oversight practices. Get started with Claude and Surface Command today The integration is available through the Anthropic connector in the Rapid7 Extension Library. Using Claude’s Compliance API requires a Compliance API key and the appropriate entitlement for your Claude organization. Visit the connector page to get started and see how Surface Command brings Claude users, roles, and group relationships into view.",
-      "summary_excerpt": "Approving an AI service is only the starting point. As employees adopt Claude and their responsibilities change, security teams need to know who has access, which users hold administrative privileges, and whether those roles and group memberships still reflect the work they do. IBM’s 2025 Cost of a Data Breach Report found that, among studied organizations reporting an AI-related breach, 97% lacked proper AI access controls. The finding highlights a broader challenge: AI adoption needs security practices that extend beyond the initial approval, supported by information teams can use to review ",
-      "threat_actors": [],
-      "title": "Who Has Access to Claude? Bring AI Identity and Access Context Into Surface Command"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/linx-security-agent-identity-control/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T00:07:31.724692+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-f9a42a45ca3fd9a3da72bda9",
-      "primary_category": "ai_security",
-      "public_article_id": "url:f9a42a45ca3fd9a3da72bda9",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-17T23:23:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Linx Security has announced four new capabilities that bring every agent under identity control, managed or unmanaged, in any gateway. Shadow AI Agent Detection finds the agents no one sanctioned. Agent Runtime Control decides every agent action in the gateway organizations already run. And for identity teams, Autopilots for any use case put governed agents to work, a first among major identity vendors, while Prompt-to-Workflow turns a plain-English description into a tested, agentic workflow. These … More → The post Linx Security extends identity governance to AI agent actions appeared first on Help Net Security .",
-      "summary_excerpt": "Linx Security has announced four new capabilities that bring every agent under identity control, managed or unmanaged, in any gateway. Shadow AI Agent Detection finds the agents no one sanctioned. Agent Runtime Control decides every agent action in the gateway organizations already run. And for identity teams, Autopilots for any use case put governed agents to work, a first among major identity vendors, while Prompt-to-Workflow turns a plain-English description into a tested, agentic workflow. These … More → The post Linx Security extends identity governance to AI agent actions appeared first ",
-      "threat_actors": [],
-      "title": "Linx Security extends identity governance to AI agent actions"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/detectify-agentic-tooling/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T23:22:47.823437+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-84ffa569742b18995faebb62",
-      "primary_category": "ai_security",
-      "public_article_id": "url:84ffa569742b18995faebb62",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-17T23:13:55+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Detectify has launched Agentic Tooling. It lets organizations’ own AI agents, running in their own environments, proactively investigate suspected vulnerabilities and test whether they can be exploited in running applications. A new Security Ledger lets security teams verify agents’ findings against objective evidence, ensuring informed decisions rather than relying solely on probabilistic conclusions. The tools address a growing gap in DevSecOps. Engineering teams have built software factories that move code from commit to production in … More → The post Detectify launches Agentic Tooling to verify vulnerabilities in live applications appeared first on Help Net Security .",
-      "summary_excerpt": "Detectify has launched Agentic Tooling. It lets organizations’ own AI agents, running in their own environments, proactively investigate suspected vulnerabilities and test whether they can be exploited in running applications. A new Security Ledger lets security teams verify agents’ findings against objective evidence, ensuring informed decisions rather than relying solely on probabilistic conclusions. The tools address a growing gap in DevSecOps. Engineering teams have built software factories that move code from commit to production in … More → The post Detectify launches Agentic Tooling to ",
-      "threat_actors": [],
-      "title": "Detectify launches Agentic Tooling to verify vulnerabilities in live applications"
     }
   ],
   "hottest": [
@@ -332,6 +329,36 @@
       "summary_excerpt": "Overview On November 17, 2026, public reports described CVE-2026-114938 as a memory corruption vulnerability in Java 17 and above that could allow a remote attacker to execute code without authentication. The reported severity is Critical, with a CVSSv4 score of 9.2. These CVE-specific details remain preliminary, pending confirmation in Oracle or OpenJDK advisories. Rapid7 is actively monitoring the situation and will update this blog as new information arrives. For the latest vendor release information, refer to Oracle's November security update notice and OpenJDK's vulnerability advisories .",
       "threat_actors": [],
       "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T04:37:35.004846+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e5492f9867506c1763a92226",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e5492f9867506c1763a92226",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T00:17:36+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "summary_excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "threat_actors": [],
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges"
     },
     {
       "ai_relevance": "none",
@@ -408,6 +435,34 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T04:22:09.271402+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-194ca0de9405670c953b790b",
+      "primary_category": "ransomware",
+      "public_article_id": "url:194ca0de9405670c953b790b",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-18T04:09:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the \"8 Digits Team\" connected with INC and Lynx.",
+      "summary_excerpt": "The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the \"8 Digits Team\" connected with INC and Lynx.",
+      "threat_actors": [],
+      "title": "Kazakh ransomware hacking suspect extradited from Italy"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
       "cves": [],
       "document_form": "single_story",
@@ -468,12 +523,85 @@
       "title": "Detectify launches Agentic Tooling to verify vulnerabilities in live applications"
     },
     {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000174.html",
+      "cves": [
+        "CVE-2026-117634",
+        "CVE-2026-121811",
+        "CVE-2026-125276",
+        "CVE-2026-125411"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-17T17:38:19.952582+09:00",
+      "heat_score": 64.12,
+      "permalink_id": "article-url-99d33428ecf36db51415854f",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:99d33428ecf36db51415854f",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-17T15:16:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "株式会社インプリムが提供するプリザンターには、次の複数の脆弱性が存在します。 情報公開機能における不適切な権限チェック（CWE-863）- CVE-2026-117634 APIにおけるパストラバーサル（CWE-22）- CVE-2026-121811 APIにおける送信データへの機微な情報の挿入（CWE-201）- CVE-2026-125276 項目のアクセス制御における不適切な権限チェック（CWE-863）- CVE-2026-125411 CVE-2026-117634 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社IHI 碓氷 真之 氏 CVE-2026-125276 この脆弱性情報は、製品利用者への周知を目的に、開発者がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 CVE-2026-125411 この脆弱性情報は、下記の方が製品開発者に直接報告し、製品開発者との調整を経て、製品利用者への周知を目的にJVNでの公表に至りました。 報告者：株式会社CMSコミュニケーションズ 代表取締役 寺田 学 氏",
+      "summary_excerpt": "株式会社インプリムが提供するプリザンターには、次の複数の脆弱性が存在します。 情報公開機能における不適切な権限チェック（CWE-863）- CVE-2026-117634 APIにおけるパストラバーサル（CWE-22）- CVE-2026-121811 APIにおける送信データへの機微な情報の挿入（CWE-201）- CVE-2026-125276 項目のアクセス制御における不適切な権限チェック（CWE-863）- CVE-2026-125411 CVE-2026-117634 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社IHI 碓氷 真之 氏 CVE-2026-125276 この脆弱性情報は、製品利用者への周知を目的に、開発者がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 CVE-2026-125411 この脆弱性情報は、下記の方が製品開発者に直接報告し、製品開発者との調整を経て、製品利用者への周知を目的にJVNでの公表に至りました。 報告者：株式会社CMSコミュニケーションズ 代表取締役 寺田 学 氏",
+      "threat_actors": [],
+      "title": "プリザンターにおける複数の脆弱性"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise",
+      "cves": [],
+      "document_form": "research",
+      "first_seen_at": "2026-11-18T02:22:28.707981+09:00",
+      "heat_score": 58.5,
+      "permalink_id": "article-url-2179956bbcf7843fe9be8d26",
+      "primary_category": "ai_security",
+      "public_article_id": "url:2179956bbcf7843fe9be8d26",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-17T23:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Google Cloud / Mandiant Threat Intelligence",
+      "summary": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. COLD RELIC is a Russian state-sponsored threat group that the US Department of Justice (DOJ) has assessed operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to gain access to information of strategic or political relevance to the Russian government, as well as to leverage compromised access to target compromised individuals’ broader social and professional networks. Once COLD RELIC compromises a target, it uses stolen emails and data to establish authentic pretexts and impersonate contacts when reaching out to subsequent targets. While COLD RELIC has largely maintained a low profile, yielding minimal public reporting relative to other Russia-nexus threat actors, it has been highly successful at compromising high-value targets (including government officials, defense contractors, and non-governmental organizations (NGOs) across Europe and North America) while maintaining a consistent operational tempo. While Google Threat Intelligence Group (GTIG) has tracked and disrupted COLD RELIC phishing campaigns since 2015, recent Mandiant incident response investigations have uncovered critical new insights into the group’s social engineering and post-compromise tradecraft. We are sharing this end-to-end analysis—along with actionable detection and hardening guidance—to help organizations defend against COLD RELIC’s ongoing use of stolen pretexts, localized residential proxies, and cross-cloud identity abuse. As part of our efforts to thwart this threat actor, we issue Government-backed attack alerts when we detect COLD RELIC targeting Google accounts. COLD RELIC remains an active threat; GTIG has observed evidence of new phishing operations as recently as November 2026. Threat Detail Over more than a decade of tracking COLD RELIC alongside Mandiant incident response investigations, we have observed the group continually refine how it leverages data harvested from one intrusion to enable follow-on operations against downstream targets. In late 2025, COLD RELIC downloaded a large volume of data from a US-based organization, searching for names, email addresses, and email archives, likely to fulfill broader intelligence requirements. In 2026, Mandiant investigated a subsequent COLD RELIC intrusion at a second US-based organization where phishing URL parameters and impersonation pretexts indicated that COLD RELIC likely leveraged contact and relationship context from the first organization to target the second. One of the hallmarks of COLD RELIC phishing campaigns is the use of a compromised website as the initial link that will redirect the target to the actual phishing domain. This provides COLD RELIC with a layer of misdirection and hides their phishing domains, while also giving them a chance to fingerprint anyone visiting the link to determine if they should be redirected or not. A COLD RELIC phishing link usually contains a parameter on the end of it with a value that is set by the attacker and often indicates a relationship to a previous victim or what the lure is. For example, a URL might look like these (though this is not always the case): https://compromised.example.com/some_path/some_file.php?file=<previous_victim_name> https://compromised.example.com/some_path/some_file.php?ref=<lure_name> Figure 1: Sample URLs incorporating targeted individuals’ names or lure topics During Mandiant’s incident response investigation at the second US-based organization, responders identified that COLD RELIC initiated contact over an encrypted messaging app while impersonating an employee from the first victim organization. In parallel, GTIG correlated a COLD RELIC redirector URL from the intrusion that had been submitted to VirusTotal in June 2026, whose query parameter referenced the first victim organization. Case Study 1 - Stolen Credentials to Data Exfiltration During the late-2025 intrusion, GTIG observed COLD RELIC operators compromise the cloud productivity environment of a US-based organization. To gain initial access, COLD RELIC leveraged a residential proxy network in the US located in close geographical proximity to the victim. COLD RELIC authenticated using the stolen credentials of a Super Admin account, in combination with a multi-factor authentication ( MFA) push notification fatigue attack. After the victim user accepted an MFA request, COLD RELIC registered a device model previously unseen within the tenant of the victim organization. COLD RELIC leveraged passkeys, MFA backup codes, and rogue MFA devices to retain access throughout the intrusion. COLD RELIC used the privileges of the compromised Super Admin account to download the contents of the entire organization’s cloud storage drive by both mass sharing files to a COLD RELIC-operated email account and downloading files directly. While operating inside the tenant of the victim organization, COLD RELIC accessed the Admin Console, queried Admin security investigation and email audit logs to check defensive visibility, and viewed, modified, and deleted Alert Center notifications to remove forensic evidence of the initial intrusion. COLD RELIC also exported full employee lists and initiated a domain-wide data export via Google Workspace Customer Takeout using Super Admin privileges. Unlike individual end-user Google Takeout, Customer Takeout is an administrative tenant-wide export tool; these requests are logged in Google Workspace Admin audit logs ( CUSTOMER_TAKEOUT_CREATED ), and administrators can also disable Google Takeout for users at the organizational level . Following mass data theft and antiforensics activities, COLD RELIC maintained access to the victim organization for several months and performed additional activities including: Email inbox sync via OAuth to external email clients Reauthentication using unrevoked attacker-enrolled passkeys that persisted across password and session resets and bypassed device registration controls Targeted cloud drive document access related to credentials, email archives, personnel information, and other documents relevant to COLD RELIC’s intelligence collection requirements When the threat actor was removed from the victim organization’s infrastructure, GTIG observed COLD RELIC leveraging email accounts impersonating employees of the victim organization. These impersonated accounts were used to target both internal employees and associates within the same professional circles with renewed social engineering attempts. Case Study 2 - Leveraging Previous Compromise - Initial Approach During the second intrusion, COLD RELIC demonstrated competency in navigating multi-cloud environments and federated authentication mechanisms. GTIG observed COLD RELIC operators compromise a Microsoft Entra ID user account of a US-based organization that used Entra ID as its federated single sign-on (SSO) identity provider for Google Workspace. To gain initial access, COLD RELIC impersonated an employee of the organization impacted in Case Study 1 to establish a pretext for communications over a secure messaging app. The threat actor ultimately shared phishing links during the course of the conversation. These phishing links, designed to steal credentials and authentication tokens for Entra ID, redirected the victim to document lures relevant to the ongoing conversation in order to avoid raising suspicion. Upon successful authentication using the stolen credentials, COLD RELIC registered and used a new MFA device in the SSO solution to retain access to the user account throughout the intrusion. A redacted and abbreviated version of the social engineering conversation is included below (image generated with LLMs): Figure 2: Redacted, LLM-generated depiction of observed threat actor social engineering engagement By impersonating someone known in the same professional circles as the new target, COLD RELIC increased their chance of phishing success. Ultimately, in this case, COLD RELIC was able to obtain credentials to the organization and perform bulk download of files accessible in the compromised user’s cloud drive. Post-Compromise Activity After gaining initial access to an organization, COLD RELIC registers rogue MFA devices, passkeys, and MFA backup codes to establish long-term persistence. Once persistence is secured, COLD RELIC conducts aggressive data collection and exfiltration operations, accessing email, chat, and cloud storage repositories. While COLD RELIC's primary objective post-compromise is mass collection and download of files and email archives, it simultaneously performs targeted queries for specific terms of interest. In particular, COLD RELIC searches for credentials, personnel information, email archives (.pst files), and documents related to their collection requirements. Additionally, COLD RELIC seeks out data that can support subsequent spear-phishing operations, including organizational rosters, contact lists, resumes, and event schedules to build convincing pretexts for future targets. Beyond seeking out data to support subsequent operations, COLD RELIC also appeared to repurpose the account used in Case Study 2 for follow on targeting. After the compromise, the encrypted messaging application used for the initial approach recorded that the threat actor changed their profile name to a completely new person. GTIG believes this new persona was likely used to continue to target other organizations in the same professional circles in a similar manner to both of the cases documented here. Outlook and Implications COLD RELIC’s campaigns demonstrate the convergence of human-centric social engineering and cloud identity abuse. By obtaining access to strategic personnel rosters and operational documents, Russian intelligence services turn legitimate business communications into attack vectors against trusted partners. Their ability to navigate across multiple cloud ecosystems highlights that organizations must defend their entire identity estate holistically. GTIG will continue to track, disrupt, and expose COLD RELIC infrastructure to protect global cloud users. Remediation and Hardening As previously mentioned, GTIG has observed COLD RELIC heavily rely on residential proxy networks in the course of their intrusions. Moreover, the group goes one step further in obfuscating their activities by selecting proxies that geolocate to the same approximate location as their victim users, thereby avoiding impossible travel or other heuristic-based alerting mechanisms. GTIG recommends enriching authentication logs with residential proxy and VPN IP reputation feeds, alerting on sudden residential ASN shifts for privileged accounts, and applying conditional access policies to block or detect logons from known proxy networks. In some cases, the severity and scope of COLD RELIC intrusions were amplified due to users storing credentials and other secrets within their organization’s cloud storage platforms. This enabled COLD RELIC to pivot to additional accounts or services that it would not have otherwise been able to access, including users’ personal accounts which are typically unmonitored by their employers. Organizations can implement cloud storage Data Loss Prevention (DLP) policies, such as Google Workspace’s Security & Data Protection , to warn or block users attempting to create, upload, or externally share files matching sensitive patterns. In at least one case, GTIG observed that a victim organization identified the intrusion and attempted to remediate COLD RELIC’s access to their cloud tenant via password resets for impacted accounts. However, because the threat actor hijacked sessions and the victim organization failed to also revoke all existing sessions for the accounts in question, COLD RELIC maintained access. In similar circumstances, such as Business Email Compromise (BEC) intrusions, GTIG recommends organizations revoke all user sessions in addition to forcing password resets for impacted accounts. Organizations should implement the following recommendations: Identity & Multi-Factor Authentication Enforce Phishing-Resistant MFA (FIDO2 / WebAuthn): Replace SMS, voice, and push notifications with hardware security keys (e.g., Titan Security Keys). Hardware keys are bound to the origin URL and cannot be intercepted by AiTM reverse proxies or approved via fatigue attacks. Restrict and Audit Passkey Registrations: Monitor identity logs for passkey registrations and rogue device enrollments, particularly on administrative accounts. Harden MFA Registration: Require existing administrators or out-of-band identity verification to approve new MFA devices or secondary authenticators (such as Microsoft Authenticator or passkeys). Organizations and individuals may consider enrolling in the Advanced Protection Program . Session Management & Incident Response Mandate Session & OAuth Revocation in BEC Playbooks: When remediating suspected account compromise, password changes alone are insufficient. Administrators must immediately revoke all active browser sessions, refresh tokens, and authorized third-party OAuth app permissions across both Google Workspace and Microsoft Entra ID, and remove any unauthorized passkeys, backup codes, or MFA devices. Audit Third-Party OAuth Grants: Continuously review authorized third-party applications in Google Workspace and Microsoft 365, flagging unexpected native desktop email clients (e.g., Thunderbird) or external mail services (e.g., Proton Mail). Network & Infrastructure Controls Detect & Block Residential Proxy Logons: Restrict administrative access from consumer ISPs, VPNs, and known residential proxy ASN ranges (e.g., AS5650, AS20115). Cross-Cloud DLP Policies: Deploy Data Loss Prevention (DLP) rules across cloud storage (Google Drive, OneDrive, SharePoint) to alert on documents containing sensitive terms (e.g., passwords, roster, .pst) or to restrict mass external file-sharing. Detections Observed Activity MITRE ATT&CK Mapping Detection Opportunity MFA Fatigue Attack T1621: Multi-Factor Authentication Request Generation Monitor for MFA Spam: Alert on multiple failed login or MFA challenge events for a single user in a short timeframe, followed closely by a successful authentication from the same IP address. OAuth Abuse & Mail Sync T1114.002: Email Collection: Remote Email Collection T1528: Steal Application Access Token Unapproved OAuth Scopes: Alert on new OAuth authorizations ( Authorize event in GWS OAuth logs) granting broad scopes (e.g., https://mail.google.com/ ) to non-standard or unapproved email clients like Proton or Thunderbird. Automated Data Exfiltration Attempt T1119: Automated Collection Customer Takeout Initiation: Generate alerts for the creation of any tenant-wide collection or export (e.g., Customer Takeout Created in GWS Admin logs), as this is a technique that can result in data exfiltration of an entire tenant. Data Theft via Bulk Download T1530: Data from Cloud Storage Anomalous Download Volume: Monitor logs for spikes in file downloads (e.g. Download events in GWS Drive logs) by a single user within a short period of time, particularly originating from non-corporate ASNs/IPs or known residential proxy networks. Data Theft via External Sharing T1567.002: Exfiltration to Cloud Storage External File Sharing Anomalies: Monitor logs for a spike in documents being shared externally (e.g., GWS Drive User Sharing Permissions Change or Visibility changed to shared_externally ), particularly to free email providers (e.g., @gmail.com ). Device & Passkey Enrollment T1098.005: Account Manipulation: Device Registration New MFA/Device Enrollment: Alert on new passkey enrollments (e.g., GWS Passkey enrolled events) or device registrations (GWS Device Registered events), particularly when originating from unexpected geographic locations or immediately following an MFA fatigue pattern. Use of MFA Backup Codes T1078.004: Valid Accounts: Cloud Accounts Backup Code Usage: Monitor logs for authentications with MFA backup codes (e.g., GWS User logs where the Login Challenge Type is Backup code ), particularly if it originates from a non-corporate ASN or known residential proxy networks. Impairing Defenses via Alert Deletion T1562.008: Impair Defenses: Disable or Modify Cloud Logs / Alerts Alert Center Tampering: Alert on any user modifying or deleting security alerts (e.g., Batch Delete Operation Performed events in GWS Admin logs), particularly if the user is deleting alerts related to their own account or critical severity alerts (e.g., GWS Government-backed attack alerts). Internal Reconnaissance via User List T1087.004: Account Discovery: Cloud Account Directory Export: Alert on domain user exports (e.g., User List Download events in GWS Admin logs). While admins may do this legitimately, it should be heavily scrutinized, particularly when performed from unknown devices. Forensic Counter-Investigation T1082: System Information Discovery Admin Log Querying: Monitor logs for users performing audit log queries (e.g., Investigation Query events in GWS Admin logs). Unexpected querying of security, access, or audit logs may indicate a threat actor attempting to perform counter-forensics. Searching for Passwords & Archives T1083: File and Directory Discovery T1552.001: Credentials In Files Sensitive File Search: Monitor logs for file directory keyword searches (e.g., Item search performed events in GWS Drive logs) containing terms related to archives or credentials such as .pst , .bak , password , cred , or repeated accesses/downloads of documents explicitly titled with credential-related keywords. Google Security Operations (SecOps) Google SecOps customers have access to these broad category rules and more under the Mandiant Frontline Threats rule pack. The activity discussed in the blog post is detected in Google SecOps under the rule names: Google Workspace Successful MFA Fatigue Attack Google Workspace Customer Takeout Initiated Google Workspace Alert Center Alert Deletion Google Workspace Directory User List Download Google Workspace Drive Bulk External or Freemail File Sharing Google Workspace Device or Passkey Enrollment Following MFA Fatigue Google Workspace OAuth Broad Mail Scope Granted to Unapproved Client",
+      "summary_excerpt": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate s",
+      "threat_actors": [
+        "Star Blizzard"
+      ],
+      "title": "COLD RELIC: A Case Study in Impersonation and Compromise"
+    },
+    {
       "ai_relevance": "primary",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/connectsecure-agentic-ai-penetration-testing/",
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-17T23:22:49.207413+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-28b151e153c55cc357ceba47",
       "primary_category": "ai_security",
       "public_article_id": "url:28b151e153c55cc357ceba47",
@@ -499,118 +627,6 @@
       "summary_excerpt": "ConnectSecure has announced Agentic AI Penetration Testing, a new capability designed to help managed service providers (MSPs) and enterprise security teams better understand which vulnerabilities may be exploitable and require the most immediate attention. Security teams have greater visibility into vulnerabilities than ever before, but determining whether a weakness can actually be exploited, how it could fit into a broader attack path, and what should be remediated first can require significant time and specialized expertise. … More → The post ConnectSecure brings adaptive AI testing to vul",
       "threat_actors": [],
       "title": "ConnectSecure brings adaptive AI testing to vulnerability management"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/optimizely-hack-malware-178-orgs/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T23:22:57.507985+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-9e1f9d366e62390f0f5ac13c",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:9e1f9d366e62390f0f5ac13c",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-17T22:45:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "An attacker abused an Optimizely flaw to plant malicious code on websites of 178 organizations",
-      "summary_excerpt": "An attacker abused an Optimizely flaw to plant malicious code on websites of 178 organizations",
-      "threat_actors": [],
-      "title": "Optimizely Flaw Exploited to Serve Malicious Code to Visitors of 178 Organizations"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/8-digits-team-ransomware-suspect-extradited-us-italy/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T23:22:49.889706+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-3004e87e65cc3fc92371b6bb",
-      "primary_category": "ransomware",
-      "public_article_id": "url:3004e87e65cc3fc92371b6bb",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-17T22:42:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "A 43-year-old Kazakh national accused of helping a ransomware crew steal data from US hospitals and schools, then threatening to publish patients’ medical information, has been extradited from Italy, the US Department of Justice announced. Prosecutors believe Roman Khlynovskiy was a member of the “8-Digits Team,” a group affiliated with the INC and Lynx ransomware operations. They allege the conspirators broke into victims’ networks, stole data, and demanded payment in exchange for not releasing it. … More → The post Suspected ransomware affiliate extradited to US over $500 million in extortion demands appeared first on Help Net Security .",
-      "summary_excerpt": "A 43-year-old Kazakh national accused of helping a ransomware crew steal data from US hospitals and schools, then threatening to publish patients’ medical information, has been extradited from Italy, the US Department of Justice announced. Prosecutors believe Roman Khlynovskiy was a member of the “8-Digits Team,” a group affiliated with the INC and Lynx ransomware operations. They allege the conspirators broke into victims’ networks, stole data, and demanded payment in exchange for not releasing it. … More → The post Suspected ransomware affiliate extradited to US over $500 million in extortio",
-      "threat_actors": [],
-      "title": "Suspected ransomware affiliate extradited to US over $500 million in extortion demands"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://cyberscoop.com/roman-khlynovskiy-ransomware-extradition/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T22:38:56.413019+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-99d34f13549fb0956b903d85",
-      "primary_category": "ransomware",
-      "public_article_id": "url:99d34f13549fb0956b903d85",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-17T22:03:59+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CyberScoop",
-      "summary": "A Kazakh national charged in a ransomware and extortion conspiracy targeting U.S. hospitals and schools was also charged with violating the TAKE IT DOWN Act. The post Alleged ransomware group member extradited from Italy to face US charges in hospital, school extortion case appeared first on CyberScoop .",
-      "summary_excerpt": "A Kazakh national charged in a ransomware and extortion conspiracy targeting U.S. hospitals and schools was also charged with violating the TAKE IT DOWN Act. The post Alleged ransomware group member extradited from Italy to face US charges in hospital, school extortion case appeared first on CyberScoop .",
-      "threat_actors": [],
-      "title": "Alleged ransomware group member extradited from Italy to face US charges in hospital, school extortion case"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/microsoft-phishing-service-outage/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T22:39:03.790775+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-7c48bf6f443883409fd0eeac",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:7c48bf6f443883409fd0eeac",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-17T22:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "Microsoft said the high volume campaign was likely designed to capture user credentials, and urged organizations to investigate signs of compromise",
-      "summary_excerpt": "Microsoft said the high volume campaign was likely designed to capture user credentials, and urged organizations to investigate signs of compromise",
-      "threat_actors": [],
-      "title": "Microsoft Warns of Coordinated Phishing Campaign Leveraging M365 Service Outage"
     }
   ],
   "rising": [],
@@ -689,32 +705,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+    "【LATEST #1】Kazakh ransomware hacking suspect extradited from Italy",
     "【HOTTEST #1 / Heat 75】CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
-    "【LATEST #2】CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
-    "【HOTTEST #2 / Heat 70.97】CVE-2026-115731: Perforce Puppet Enterprise",
-    "【LATEST #3】Tor releases emergency update amid ongoing DDoS attack",
-    "【HOTTEST #3 / Heat 65.7】Google finds AI agent writing and launching exploits with no human in the loop",
-    "【LATEST #4】California fines Hertz $1.5 million for breaking state data privacy law",
-    "【HOTTEST #4 / Heat 65】Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-    "【LATEST #5】Hackers smash 'n' grab AI vendor: Take  off with license data of Uber drivers",
-    "【HOTTEST #5 / Heat 65】Detectify launches Agentic Tooling to verify vulnerabilities in live applications"
+    "【LATEST #2】Chinese state group developing automated attack tool for cyber espionage, Google says",
+    "【HOTTEST #2 / Heat 75】Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+    "【LATEST #3】Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+    "【HOTTEST #3 / Heat 70.97】CVE-2026-115731: Perforce Puppet Enterprise",
+    "【LATEST #4】CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
+    "【HOTTEST #4 / Heat 65.7】Google finds AI agent writing and launching exploits with no human in the loop",
+    "【LATEST #5】Tor releases emergency update amid ongoing DDoS attack",
+    "【HOTTEST #5 / Heat 65】Kazakh ransomware hacking suspect extradited from Italy"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-14T19:00:00+00:00",
-    "last_as_of": "2026-11-17T19:00:00+00:00",
+    "first_as_of": "2026-11-14T20:00:00+00:00",
+    "last_as_of": "2026-11-17T20:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-17T19:00:00+00:00",
-  "heat_as_of": "2026-11-17T19:00:00+00:00",
+  "news_as_of": "2026-11-17T20:00:00+00:00",
+  "heat_as_of": "2026-11-17T20:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24930,
-  "last_published_at": "2026-11-18T04:06:39.274142+09:00",
-  "publication_slot_jst": "2026-11-18T04:00:00+09:00"
+  "news_catalog_count": 24934,
+  "last_published_at": "2026-11-18T05:06:18.578667+09:00",
+  "publication_slot_jst": "2026-11-18T05:00:00+09:00"
 }
