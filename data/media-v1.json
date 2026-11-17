@@ -1,9 +1,99 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-17T08:40:03.129825+00:00",
+  "source_snapshot_generated_at": "2026-11-17T09:40:03.692765+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:a46d8373a38a1c180ddf38f5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Cyber Security",
+          "NTT"
+        ],
+        "url": "https://zenn.dev/sponge841841/articles/2026-11-16-ntt-sovereign-ai-security",
+        "title": "NTTのAI脆弱性解析が48%→63%に改善：ソースコードを外部に出さない「ソブリンAI」とは",
+        "author": "ちっち",
+        "published_at": "2026-11-17T09:31:21.364000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a3b9a403bfb9b503367dad49",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "VS Code",
+          "Markdown",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kent_code/articles/78709cb215a310",
+        "title": "理解負債その2：AIが書き換えたMarkdownの「どこが変わったか」を、VS Codeのプレビューで色付けした",
+        "author": "Kent",
+        "published_at": "2026-11-17T09:09:49.758000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4ab5f6397cfce91828f14b6d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeSafe",
+          "Claude Code",
+          "Jev"
+        ],
+        "url": "https://zenn.dev/mk404/articles/2026-11-17-jev-choice-score-noul-box-notes",
+        "title": "Jev（TypeSafe）の Choice・Score・Noul・Box を試した所感",
+        "author": "m. k.",
+        "published_at": "2026-11-17T09:00:05.280000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:07a56f3737d7fc62a84dccc1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "JavaScript",
+          "Three.js",
+          "WebAR",
+          "XR"
+        ],
+        "url": "https://zenn.dev/joe_wolf_woof/articles/c96d16a6ec83e0",
+        "title": "👓「拡張翻訳・空間ウィンドウ」を作る ― 直訳の先にある文化の翻訳をWebARで実験する",
+        "author": "JOE",
+        "published_at": "2026-11-17T08:54:46.117000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a63857ced7f493b4504ec5b4",
+        "source": "zenn",
+        "author_tags": [
+          "iOS",
+          "Swift",
+          "Security",
+          "暗号化",
+          "cryptokit"
+        ],
+        "url": "https://zenn.dev/temur_dev/articles/9026fb2754ba24",
+        "title": "iOS で「隠すだけ」ではない写真保管庫を作った：パターンロック × PBKDF2 × AES-256-GCM の鍵設計",
+        "author": "Temur｜個人開発",
+        "published_at": "2026-11-17T08:43:07.313000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0a90e4a5439996b3a1c54960",
+        "source": "zenn",
+        "author_tags": [
+          "Security"
+        ],
+        "url": "https://zenn.dev/hackbox_ai/articles/ca850cb61af2ea",
+        "title": "成果報酬型ペネトレーションテストの請求書は、何を定義しているのか",
+        "author": "Hackbox.ai",
+        "published_at": "2026-11-17T08:40:14.468000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:d8ce0bf54f558ac986f799da",
         "source": "zenn",
@@ -39049,6 +39139,51 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c8051d87670bab0bbc52c238",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Agent",
+          "Security",
+          "アーキテクチャ",
+          "設計"
+        ],
+        "url": "https://qiita.com/yoxi957/items/22dec28f4f002da302ae",
+        "title": "AIエージェントのツール呼び出しを安全に設計するための境界設計チェックリスト",
+        "author": "yoxi957",
+        "published_at": "2026-11-17T18:15:17+09:00",
+        "excerpt": "はじめに 最近のLLMエージェント実装では、コード生成だけでなく、外部APIの実行・DB更新・メッセージ送信といった「副作用を伴うツール呼び出し」まで自動化されるケースが増えています。 実装スピードが上がった一方で、本番環境で事故が起きやすいのはモデル性能そのものではなく、エージェントと外部システムの境界設計であることがほとんどです。 設計時に必ず確認したい4つの観点 1. 冪等性キーの強制（リトライ時の二重実行防止） タイムアウトやネットワークエラー時に、エージェントは同じツール呼び出しを再試行することがあります。更新系ツールには決定論的な操作ID（Idempotency Key）を必須とし、API側で重複実行を弾く設計にしておくと安全です。 2. スコープを絞った権限分離（Confused Deputy対策） 開発者の個人トークンや広範なAdmin権限をそのままエージェントの環境変数に渡すと、プロンプトインジェクションや意図しない指示解釈で想定外のリソースを操作するリスクがあります。実行専用の最小権限トークンを割り当てるのが基本です。 3. "
+      },
+      {
+        "id": "qiita:b4ae87e24941cffdc288a5c7",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "Security"
+        ],
+        "url": "https://qiita.com/pitaspot/items/b1f253ef3fd53819a0c8",
+        "title": "ユナイテッド航空、AIエージェントによる代理予約を禁止",
+        "author": "pitaspot",
+        "published_at": "2026-11-17T18:04:16+09:00",
+        "excerpt": "📰 海外事例 元記事： United Airlines bans AI agents from booking flights on behalf of travelers（cbsnews.com） CBSニュースの記事です。ユナイテッド航空が、AIエージェントに利用者の代わりに航空券を予約させるのを禁止すると発表しました。理由はセキュリティのリスクと、連邦規則に違反するおそれです。AIに買い物や予約を任せる流れが広がるなか、航空会社側がブレーキをかけた形です。 禁止の理由は個人情報の扱い 予約には支払い情報をはじめとする個人情報へのアクセスが必要です。ユナイテッド航空は、認証情報を第三者のAIに渡すと情報が漏れるおそれがあり、意図しない購入やアカウントの変更、マイルの使用につながるおそれがあるとしています。チェックインの代行も、荷物に禁止物がないことを本人が確認する連邦規則に違反するおそれがあるといいます。 予約の流れを手放したくない 同社は予約・発券のポリシーを更新し、自社のサイトやアプリだけでなく、旅行代理店やアグリゲーター経由でも、許可の"
+      },
+      {
+        "id": "qiita:6099798f5bf33f5fb0426db5",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "OpenAI",
+          "Agent"
+        ],
+        "url": "https://qiita.com/sponge841841/items/824d68a63f0c9cc6559d",
+        "title": "カリフォルニア州がOpenAIを提訴：AIエージェント事故「80件」主張の争点と対策",
+        "author": "sponge841841",
+        "published_at": "2026-11-17T18:00:25+09:00",
+        "excerpt": "個人開発しているもの 日々の開発で得た知識を発信しながら、「あったら便利」「作ってみたい」と思ったアイデアを形にしています。 これまでに、グループ旅行アプリ Trip Supporter 、スコア管理サービス PointPia 、リアルタイム共有サービス JustNow などを開発しました。 さらに、刺繍やオリジナルキャラクターを中心としたアパレルブランド MAD TOMMY WITH... も運営しています。 開発したサービスや技術記事は chicchi.work で紹介しています。 結論（TL;DR） 米カリフォルニア州司法長官は現地時間2026年11月16日、AIエージェントの安全な試験・監視が不十分だったと主張してOpenAIを提訴した。 「少なくとも80件」は州側が示した制御喪失・サイバー事案についての 訴訟上の主張 であり、裁判所が事実認定した件数ではない。 AIエージェントを運用する側は、外部接続の制限、最小権限、操作ログ、緊急停止手段を点検したい。 OpenAIへの提訴は何が問題になっているのか 米カリフォルニア州のロブ・ボンタ司"
+      },
+      {
         "id": "qiita:96ea197f0e7030989098dac1",
         "source": "qiita",
         "author_tags": [
@@ -53366,6 +53501,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:5a4c54efcb4db7687ee4536f",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "soc2",
+          "saas",
+          "compliance-automation",
+          "startup"
+        ],
+        "url": "https://medium.com/@soclyoutreach/soc-2-automation-platform-how-growing-teams-get-audit-ready-without-the-spreadsheet-chaos-60920f958479",
+        "title": "SOC 2 Automation Platform: How Growing Teams Get Audit-Ready Without the Spreadsheet Chaos",
+        "author": "Socly",
+        "published_at": "2026-11-17T09:29:10+00:00",
+        "excerpt": "Manual SOC 2 prep drains engineering time and stalls enterprise deals. Here’s how automation changes the process, and what to look for… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4910153768fa2ec82acbc48c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "linkedin",
+          "kit",
+          "phishing-attacks",
+          "phishing"
+        ],
+        "url": "https://medium.com/@kmoussa/i-was-offered-a-board-seat-on-linkedin-it-was-a-phishing-kit-e156d13f04a5",
+        "title": "I was offered a board seat on LinkedIn. It was a phishing kit.",
+        "author": "Karim Moussa",
+        "published_at": "2026-11-17T09:27:37+00:00",
+        "excerpt": "The message Continue reading on Medium »"
+      },
+      {
+        "id": "medium:502e77b03b403afaa3a2e5ef",
+        "source": "medium",
+        "author_tags": [
+          "blockchain-security",
+          "cryptocurrency",
+          "cybersecurity",
+          "cyberattack",
+          "malware"
+        ],
+        "url": "https://medium.com/@casi.borg/178-websites-one-trusted-script-how-crypto-can-be-stolen-without-touching-the-blockchain-c0b35f2f7283",
+        "title": "178 Websites, One Trusted Script: How Crypto Can Be Stolen Without Touching the Blockchain",
+        "author": "Casi Borg",
+        "published_at": "2026-11-17T09:27:24+00:00",
+        "excerpt": "CNN, BBC, and Fox News were among 178 organizations affected by a cyberattack targeting trusted third-party website code. The attackers… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:06ab96aca4f98d18ccfd9196",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "software-architecture",
+          "owasp",
+          "api-security",
+          "third-party-integrations"
+        ],
+        "url": "https://medium.com/@leylammmdov/owasp-10-unsafe-consumption-of-apis-trust-no-external-service-efd2a607ebfa",
+        "title": "OWASP #10: Unsafe Consumption of APIs (Trust No External Service)",
+        "author": "Leyla Mammadova",
+        "published_at": "2026-11-17T09:22:07+00:00",
+        "excerpt": "We have reached the final entry on the updated OWASP API Security Top 10 list: Unsafe Consumption of APIs. Continue reading on Medium »"
+      },
       {
         "id": "medium:af7d288e083eff3c5bfeaa33",
         "source": "medium",
