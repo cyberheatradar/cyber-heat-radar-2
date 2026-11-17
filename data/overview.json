@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-17T08:06:58.529332+00:00",
-  "as_of": "2026-11-17T08:00:00+00:00",
-  "catalog_count": 24595,
+  "generated_at": "2026-11-17T09:06:22.231966+00:00",
+  "as_of": "2026-11-17T09:00:00+00:00",
+  "catalog_count": 24870,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,187 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:52:04.662555+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-6279c3ce26f4a58698b1389f",
+      "primary_category": "incident",
+      "public_article_id": "url:6279c3ce26f4a58698b1389f",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-17T17:35:42+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+      "summary_excerpt": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+      "threat_actors": [],
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://japan.zdnet.com/article/35255019/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:54.190366+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-d15a84a47a55aa05271d2779",
+      "primary_category": "other",
+      "public_article_id": "url:d15a84a47a55aa05271d2779",
+      "public_tags": [],
+      "published_at": "2026-11-17T17:34:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ZDNET Japan All",
+      "summary": "グーグル・クラウドは、日本におけるセキュリティ強化とAI人材のさらなる育成の支援、ソブリンクラウドの提供などを発表した。",
+      "summary_excerpt": "グーグル・クラウドは、日本におけるセキュリティ強化とAI人材のさらなる育成の支援、ソブリンクラウドの提供などを発表した。",
+      "threat_actors": [],
+      "title": "グーグル・クラウド、日本での新たなセキュリティ強化とAI人材育成策など発表"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:48.420059+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-8c32d8b4df6033a4a8c4421c",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:8c32d8b4df6033a4a8c4421c",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-17T17:00:43+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Kaspersky Securelist",
+      "summary": "In part 2 of our analysis of the recently uncovered Operation ShadowCloud, we discuss the GraphDoor backdoor, additional plug-ins, and technical attribution.",
+      "summary_excerpt": "In part 2 of our analysis of the recently uncovered Operation ShadowCloud, we discuss the GraphDoor backdoor, additional plug-ins, and technical attribution.",
+      "threat_actors": [],
+      "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 2"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:50.620913+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-861f7a3d002fb555bfddb7d8",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:861f7a3d002fb555bfddb7d8",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-17T17:00:37+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Kaspersky Securelist",
+      "summary": "In part 1 of our analysis of the recently uncovered Operation ShadowCloud, we discuss the initial infection stage, the GitDoor backdoor using GitHub as a C2, and the shellcode families it loads.",
+      "summary_excerpt": "In part 1 of our analysis of the recently uncovered Operation ShadowCloud, we discuss the initial infection stage, the GitDoor backdoor using GitHub as a C2, and the shellcode families it loads.",
+      "threat_actors": [],
+      "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.itpro.com/security/whats-the-difference-between-cybersecurity-and-cyber-resilience-and-why-does-that-matter",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:19.020829+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-bf4e4acc23a8ad5ae54c5e32",
+      "primary_category": "other",
+      "public_article_id": "url:bf4e4acc23a8ad5ae54c5e32",
+      "public_tags": [],
+      "published_at": "2026-11-17T17:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITPro Security",
+      "summary": "Stopping attacks and surviving them aren’t always the same thing, and the costliest breaches are often defined by recovery times",
+      "summary_excerpt": "Stopping attacks and surviving them aren’t always the same thing, and the costliest breaches are often defined by recovery times",
+      "threat_actors": [],
+      "title": "What's the difference between cybersecurity and cyber resilience – and why does that matter?"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2157105.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:18.474286+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-a167b0fd889371f106924786",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:a167b0fd889371f106924786",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-17T16:25:53+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "INTERNET Watch",
+      "summary": "エレコム株式会社は11月17日、Wi-Fi 7対応のルーター「WRC-BE36QS-B」「WRC-BE36QSD-B」「WRC-W701-B」にOSコマンドインジェクションの脆弱性が存在するとして、情報を公開した。対策済みのファームウェアにアップデートすることで、問題を回避できる。脆弱性情報ポータルサイト「JVN」（Japan Vulnerability Notes）でも、本件に関する情報を公開している。",
+      "summary_excerpt": "エレコム株式会社は11月17日、Wi-Fi 7対応のルーター「WRC-BE36QS-B」「WRC-BE36QSD-B」「WRC-W701-B」にOSコマンドインジェクションの脆弱性が存在するとして、情報を公開した。対策済みのファームウェアにアップデートすることで、問題を回避できる。脆弱性情報ポータルサイト「JVN」（Japan Vulnerability Notes）でも、本件に関する情報を公開している。",
+      "threat_actors": [],
+      "title": "エレコムのWi-Fi 7対応ルーター3製品にOSコマンドインジェクションの脆弱性、ファームウェアの更新を　「WRC-BE36QS-B」「WRC-BE36QSD-B」「WRC-W701-B」が対象"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
@@ -37,6 +218,34 @@
       "summary_excerpt": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
       "threat_actors": [],
       "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:22:44.421456+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-64d59e5e3ac8caa011479b10",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:64d59e5e3ac8caa011479b10",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-17T16:12:13+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run. The code was built to",
+      "summary_excerpt": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run. The code was built to",
+      "threat_actors": [],
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors"
     },
     {
       "ai_relevance": "primary",
@@ -103,144 +312,24 @@
       "summary_excerpt": "Anthropic will publicly disclose high- and critical-severity vulnerabilities it reports to vendors and open source maintainers after 30 days, down from 90. Every other bug it reports gets 45 days. The new deadlines cover reports sent on or after January 1, 2027, and reports already open on that date keep the deadlines they started with. The company says it no longer expects a reported vulnerability to stay private for months, because a bug one model … More → The post Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs appeared first on Help Net Security .",
       "threat_actors": [],
       "title": "Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/cybersecurity-seed-funding-deals/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T15:37:30.744348+09:00",
-      "heat_score": 53.0,
-      "permalink_id": "article-url-e08e9bcfd170e4495d32c4bf",
-      "primary_category": "ai_security",
-      "public_article_id": "url:e08e9bcfd170e4495d32c4bf",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-17T15:19:27+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Seed deals for cybersecurity startups dipped slightly in the third quarter of 2026, the second decline in a row, while the wider U.S. venture market had one of its best quarters since 2021. Investment firm DataTribe tracked the split using PitchBook data on U.S. seed through Series E rounds, and sorted the cyber seed deals into categories. Across the market, capital is pooling in fewer, larger rounds, and the bar for the round after seed … More → The post AI security took more than one in three cybersecurity seed funding deals appeared first on Help Net Security .",
-      "summary_excerpt": "Seed deals for cybersecurity startups dipped slightly in the third quarter of 2026, the second decline in a row, while the wider U.S. venture market had one of its best quarters since 2021. Investment firm DataTribe tracked the split using PitchBook data on U.S. seed through Series E rounds, and sorted the cyber seed deals into categories. Across the market, capital is pooling in fewer, larger rounds, and the bar for the round after seed … More → The post AI security took more than one in three cybersecurity seed funding deals appeared first on Help Net Security .",
-      "threat_actors": [],
-      "title": "AI security took more than one in three cybersecurity seed funding deals"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/microsoft-windows-autopatch-controls/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T15:37:31.698952+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-bde5eed7aebaa404c4bd2fa7",
-      "primary_category": "defense_ops",
-      "public_article_id": "url:bde5eed7aebaa404c4bd2fa7",
-      "public_tags": [
-        {
-          "color_family": "blue",
-          "key": "defense_ops",
-          "label": "Defense & Ops"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000174.html",
+      "cves": [
+        "CVE-2026-117634",
+        "CVE-2026-121811",
+        "CVE-2026-125276",
+        "CVE-2026-125411"
       ],
-      "published_at": "2026-11-17T15:00:48+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Microsoft has expanded Windows Autopatch’s quality update controls, allowing administrators to manage Windows quality updates, supported .NET Framework updates, and Quick machine recovery updates through a single policy in Microsoft Intune. Windows Autopatch is a cloud service that automates updates for Windows, Microsoft 365 Apps for enterprise, Microsoft Edge, and Microsoft Teams to help improve organizational security and productivity. The new controls support automatic or manual approval for different update types, alongside device monitoring through … More → The post Microsoft gives admins one policy to manage Windows patches and fixes for PCs that won’t boot appeared first on Help Net Security .",
-      "summary_excerpt": "Microsoft has expanded Windows Autopatch’s quality update controls, allowing administrators to manage Windows quality updates, supported .NET Framework updates, and Quick machine recovery updates through a single policy in Microsoft Intune. Windows Autopatch is a cloud service that automates updates for Windows, Microsoft 365 Apps for enterprise, Microsoft Edge, and Microsoft Teams to help improve organizational security and productivity. The new controls support automatic or manual approval for different update types, alongside device monitoring through … More → The post Microsoft gives admin",
-      "threat_actors": [],
-      "title": "Microsoft gives admins one policy to manage Windows patches and fixes for PCs that won’t boot"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvn.jp/jp/JVN02242982/",
-      "cves": [],
       "document_form": "advisory",
-      "first_seen_at": "2026-11-17T15:37:36.120211+09:00",
-      "heat_score": 61.75,
-      "permalink_id": "article-url-a19be2b3b29fcdff56245e7d",
-      "primary_category": "other",
-      "public_article_id": "url:a19be2b3b29fcdff56245e7d",
-      "public_tags": [],
-      "published_at": "2026-11-17T15:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "JVN",
-      "summary": "株式会社インプリムが提供するプリザンターには、複数の脆弱性が存在します。",
-      "summary_excerpt": "株式会社インプリムが提供するプリザンターには、複数の脆弱性が存在します。",
-      "threat_actors": [],
-      "title": "プリザンターにおける複数の脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvn.jp/vu/JVNVU92504317/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T14:54:12.705756+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-01752ecd2e47586749c12658",
-      "primary_category": "other",
-      "public_article_id": "url:01752ecd2e47586749c12658",
-      "public_tags": [],
-      "published_at": "2026-11-17T14:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "JVN",
-      "summary": "エレコム株式会社が提供する無線LANルータには、OSコマンドインジェクションの脆弱性が存在します。",
-      "summary_excerpt": "エレコム株式会社が提供する無線LANルータには、OSコマンドインジェクションの脆弱性が存在します。",
-      "threat_actors": [],
-      "title": "エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T14:54:21.500959+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-00e9eb3e7a4e7910c804c193",
-      "primary_category": "other",
-      "public_article_id": "url:00e9eb3e7a4e7910c804c193",
-      "public_tags": [],
-      "published_at": "2026-11-17T14:27:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "Attackers try logging in to Earth’s ninth most powerful machine after status page hack exposed credentials",
-      "summary_excerpt": "Attackers try logging in to Earth’s ninth most powerful machine after status page hack exposed credentials",
-      "threat_actors": [],
-      "title": "Japan's Fugaku supercomputer has decidedly un-super security"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T14:54:20.821385+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-7d8a94de5f64d8dd628d4dd4",
+      "first_seen_at": "2026-11-17T17:38:19.952582+09:00",
+      "heat_score": 71.25,
+      "permalink_id": "article-url-99d33428ecf36db51415854f",
       "primary_category": "vulnerability",
-      "public_article_id": "url:7d8a94de5f64d8dd628d4dd4",
+      "public_article_id": "url:99d33428ecf36db51415854f",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -248,41 +337,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-17T14:00:34+09:00",
+      "published_at": "2026-11-17T15:16:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
-      "summary_excerpt": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "株式会社インプリムが提供するプリザンターには、次の複数の脆弱性が存在します。 情報公開機能における不適切な権限チェック（CWE-863）- CVE-2026-117634 APIにおけるパストラバーサル（CWE-22）- CVE-2026-121811 APIにおける送信データへの機微な情報の挿入（CWE-201）- CVE-2026-125276 項目のアクセス制御における不適切な権限チェック（CWE-863）- CVE-2026-125411 CVE-2026-117634 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社IHI 碓氷 真之 氏 CVE-2026-125276 この脆弱性情報は、製品利用者への周知を目的に、開発者がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 CVE-2026-125411 この脆弱性情報は、下記の方が製品開発者に直接報告し、製品開発者との調整を経て、製品利用者への周知を目的にJVNでの公表に至りました。 報告者：株式会社CMSコミュニケーションズ 代表取締役 寺田 学 氏",
+      "summary_excerpt": "株式会社インプリムが提供するプリザンターには、次の複数の脆弱性が存在します。 情報公開機能における不適切な権限チェック（CWE-863）- CVE-2026-117634 APIにおけるパストラバーサル（CWE-22）- CVE-2026-121811 APIにおける送信データへの機微な情報の挿入（CWE-201）- CVE-2026-125276 項目のアクセス制御における不適切な権限チェック（CWE-863）- CVE-2026-125411 CVE-2026-117634 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社IHI 碓氷 真之 氏 CVE-2026-125276 この脆弱性情報は、製品利用者への周知を目的に、開発者がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 CVE-2026-125411 この脆弱性情報は、下記の方が製品開発者に直接報告し、製品開発者との調整を経て、製品利用者への周知を目的にJVNでの公表に至りました。 報告者：株式会社CMSコミュニケーションズ 代表取締役 寺田 学 氏",
       "threat_actors": [],
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners"
+      "title": "プリザンターにおける複数の脆弱性"
     },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/cybersecurity-jobs-available-right-now-november-17-2026/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T14:07:34.317607+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-f2b50582690deb8f61abcc9e",
-      "primary_category": "other",
-      "public_article_id": "url:f2b50582690deb8f61abcc9e",
-      "public_tags": [],
-      "published_at": "2026-11-17T14:00:33+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Cybersecurity Architect Peraton | USA | On-site – View job details As a Cybersecurity Architect, you will integrate security into DevSecOps, implement and maintain security controls, and manage ATO packages in accordance with DoD, DAF and customer requirements. You will develop security plans and procedures, assess risks, and apply expertise in systems, networks and incident response to address complex cybersecurity challenges. Cyber Security Engineer Rozmith | USA | Remote – No longer accepting applications As … More → The post Cybersecurity jobs available right now: November 17, 2026 appeared first on Help Net Security .",
-      "summary_excerpt": "Cybersecurity Architect Peraton | USA | On-site – View job details As a Cybersecurity Architect, you will integrate security into DevSecOps, implement and maintain security controls, and manage ATO packages in accordance with DoD, DAF and customer requirements. You will develop security plans and procedures, assess risks, and apply expertise in systems, networks and incident response to address complex cybersecurity challenges. Cyber Security Engineer Rozmith | USA | Remote – No longer accepting applications As … More → The post Cybersecurity jobs available right now: November 17, 2026 appeare",
-      "threat_actors": [],
-      "title": "Cybersecurity jobs available right now: November 17, 2026"
-    }
-  ],
-  "hottest": [
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited/",
@@ -560,48 +625,20 @@
       "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
     },
     {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "ai_relevance": "material",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-17T16:52:19.160600+09:00",
+      "first_seen_at": "2026-11-17T17:52:04.662555+09:00",
       "heat_score": 65.0,
-      "permalink_id": "article-url-94ee1f09f8572dee6943fbe5",
-      "primary_category": "ransomware",
-      "public_article_id": "url:94ee1f09f8572dee6943fbe5",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-17T16:25:44+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
-      "summary_excerpt": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
-      "threat_actors": [],
-      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T16:23:53.508017+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-623b034adf4a526a7666e9ab",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:623b034adf4a526a7666e9ab",
+      "permalink_id": "article-url-6279c3ce26f4a58698b1389f",
+      "primary_category": "incident",
+      "public_article_id": "url:6279c3ce26f4a58698b1389f",
       "public_tags": [
         {
           "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "key": "incident",
+          "label": "Incident"
         },
         {
           "color_family": "cyan",
@@ -609,16 +646,16 @@
           "label": "AI Security"
         }
       ],
-      "published_at": "2026-11-17T15:46:16+09:00",
+      "published_at": "2026-11-17T17:35:42+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Anthropic will publicly disclose high- and critical-severity vulnerabilities it reports to vendors and open source maintainers after 30 days, down from 90. Every other bug it reports gets 45 days. The new deadlines cover reports sent on or after January 1, 2027, and reports already open on that date keep the deadlines they started with. The company says it no longer expects a reported vulnerability to stay private for months, because a bug one model … More → The post Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs appeared first on Help Net Security .",
-      "summary_excerpt": "Anthropic will publicly disclose high- and critical-severity vulnerabilities it reports to vendors and open source maintainers after 30 days, down from 90. Every other bug it reports gets 45 days. The new deadlines cover reports sent on or after January 1, 2027, and reports already open on that date keep the deadlines they started with. The company says it no longer expects a reported vulnerability to stay private for months, because a bug one model … More → The post Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs appeared first on Help Net Security .",
+      "source_name": "BleepingComputer",
+      "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+      "summary_excerpt": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
       "threat_actors": [],
-      "title": "Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs"
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people"
     }
   ],
   "rising": [],
@@ -696,247 +733,6 @@
       "summary_excerpt": "セキュリティ企業のHudson Rockは11月9日(現地時間)、情報窃取型マルウェア「Remus Stealer」が、Gmailのメールを不正に閲覧する機能を販売していると報告した。開発者側は、パスワード変更やセッション無効化後もメールを閲覧できると主張している。ただし、その仕組みや、パスワード変更後も新着メールを取得できるかどうかは確認されていない。",
       "threat_actors": [],
       "title": "パスワードを変更してもGmailを盗み見？ マルウェア「Remus」が新機能を宣伝"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-114713",
-      "cves": [
-        "CVE-2026-114713"
-      ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-14T04:23:57.145335+09:00",
-      "heat_score": 39.42,
-      "permalink_id": "article-url-3ef91b84986c3674de0ab3c2",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:3ef91b84986c3674de0ab3c2",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "published_at": "2026-11-13T09:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
-      "summary_excerpt": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
-      "threat_actors": [],
-      "title": "CVE-2026-114713: UnrealIRCd UnrealIRCd"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123039",
-      "cves": [
-        "CVE-2026-123039"
-      ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-14T04:23:57.126776+09:00",
-      "heat_score": 39.42,
-      "permalink_id": "article-url-de774c3fcb00a8091e5413b2",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:de774c3fcb00a8091e5413b2",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "published_at": "2026-11-13T09:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
-      "summary_excerpt": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
-      "threat_actors": [],
-      "title": "CVE-2026-123039: Check Point Multiple Products"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-0330",
-      "cves": [
-        "CVE-2026-0330"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-12T03:08:50.361985+09:00",
-      "heat_score": 37.5,
-      "permalink_id": "article-url-003a65a23e3e76d0ee6632bd",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:003a65a23e3e76d0ee6632bd",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-12T02:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Palo Alto Security Advisories",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-979/",
-      "cves": [
-        "CVE-2026-111780"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T07:55:11.148523+09:00",
-      "heat_score": 37.5,
-      "permalink_id": "article-url-038a62d9414b97ea0fe7effc",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:038a62d9414b97ea0fe7effc",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-13T15:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-111780.",
-      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-111780.",
-      "threat_actors": [],
-      "title": "ZDI-26-979: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1008/",
-      "cves": [
-        "CVE-2026-25293"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T08:01:55.390639+09:00",
-      "heat_score": 37.5,
-      "permalink_id": "article-url-087a2cac0b82f6b7edcfea08",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:087a2cac0b82f6b7edcfea08",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-13T15:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Qualcomm Technologies QCA7005 powerline chips. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-25293.",
-      "summary_excerpt": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Qualcomm Technologies QCA7005 powerline chips. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-25293.",
-      "threat_actors": [],
-      "title": "ZDI-26-1008: (Pwn2Own) Qualcomm Technologies QCA7005 GreenPhy Heap-based Buffer Overflow Code Execution Vulnerability"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown/",
-      "cves": [
-        "CVE-2026-125878",
-        "CVE-2026-125879",
-        "CVE-2026-125880",
-        "CVE-2026-125881",
-        "CVE-2026-125882",
-        "CVE-2026-125883",
-        "CVE-2026-91000"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-11T00:53:15.262945+09:00",
-      "heat_score": 37.5,
-      "permalink_id": "article-url-0940463c4c51c3f00ac4af72",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0940463c4c51c3f00ac4af72",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "published_at": "2026-11-10T23:20:34+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Overview On November 9, 2026, N-able announced that it was responding to the public disclosure of critical vulnerabilities affecting N-central , its remote monitoring and management (RMM) platform. In a public disclosure titled Able2Shell, an independent researcher has published details and proof-of-concept (PoC) code covering 33 issues. According to the disclosure, the issues include unauthenticated remote code execution (RCE), privilege escalation to root, credential disclosure, and unauthorized account creation. One unauthenticated chain combines XML external entity (XXE) and session-handling weaknesses to execute code as the nable service account. Other demonstrated chains involve an administrator viewing malicious patch metadata or use ProductAdmin credentials. Rapid7 Intelligence is currently triaging the newly published details. Before the hotfix release on November 10, N-able reported scanning activity associated with the published PoC code and said it had no evidence that any customer environment had been successfully exploited. The vendor advised keeping N-central deployments offline while it developed and validated a hotfix. Hosted N-central classic environments were offline, according to the same notice. That notice did not yet include CVE identifiers or CVSS scores. N-central is used by managed service providers (MSPs) and enterprise IT teams to administer endpoints and infrastructure. Compromise of an RMM server can put downstream managed environments at risk. N-central has previously been targeted through separate vulnerabilities, including an authentication bypass covered by Rapid7 in August 2026 . Given the platform's administrative reach and the availability of public exploit code, Rapid7 recommends treating the current disclosure as an emergency. Update #1: On November 10, 2026, N-able released N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ), addressing seven CVEs. The vendor plans a follow-up hotfix with further security updates. On November 11, N-able confirmed that hosted N-central servers across all regions had been successfully upgraded. Mitigation guidance Rapid7 strongly recommends that organizations operating on-premises N-central servers upgrade to N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ) on an emergency basis outside of normal patching cycles, and keep servers offline until successfully upgraded. Hosted servers are upgraded by N-able. Customers in both hosted and on-premises environments must also upgrade their Agents and Probes. To maintain communication, upgrade Agents first, then Probes, following the vendor's compatibility guidance for the Patch Management Engine (PME). Affected versions: The researcher reports testing N-central Appliance 2026.4.0.31 . N-able's current notice does not specify the full affected-version range. Fixed versions: N-central 2026.4 Hotfix 2 (build 2026.4.1.26 ) addresses the seven CVEs listed below. According to N-able's release notes , the hotfix addresses: CVE Description CVE-2026-125883 Multiple XXE vulnerabilities CVE-2026-125878 Multiple OGNL injection vulnerabilities CVE-2026-125879 Local privilege escalation to root through nable -writable syslog-ng configuration CVE-2026-125880 Stored XSS through MMS3 patch metadata in an administrator context CVE-2026-125881 Schema-hint SSRF through service-import schema validation CVE-2026-125882 RCE through file-repository upload path traversal; credited to Nate Fair, Sprocket Security CVE-2026-91000 Local privilege escalation through insecure IPC channels Further security updates are planned in a follow-up hotfix. Organizations should monitor the vendor's guidance and apply subsequent fixes as they become available. Rapid7 also recommends reviewing N-central servers and downstream managed systems for signs of compromise and engaging incident responders if suspicious activity is identified. For the latest mitigation guidance, please refer to N-able's security incident notice . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, Vulnerability Management, and Nexpose customers can identify N-able N-central “potential” vulnerabilities based on presence of software with remote unauthenticated checks with the release on November 11th, 2026. Note that potential check type must be enabled in the scan template before scanning. Unauthenticated checks that validate vulnerable versions are in development. Intelligence Hub Customers leveraging Rapid7’s Intelligence Hub can access Suricata detection rules for CVE-2026-125883, CVE-2026-125878, CVE-2026-125879, CVE-2026-125880, CVE-2026-125881, and CVE-2026-125882. Updates November 10, 2026 : Initial publication. November 11, 2026 : Added hotfix availability, seven CVE identifiers, hosted upgrade confirmation, and updated remediation guidance. Noted the planned follow-up hotfix. November 11, 2026 : Added availability of Suricata detection rules within Intelligence Hub. November 11, 2026: Added Exposure Command, Vulnerability Management, and Nexpose subsection under the Rapid7 customers section.",
-      "summary_excerpt": "Overview On November 9, 2026, N-able announced that it was responding to the public disclosure of critical vulnerabilities affecting N-central , its remote monitoring and management (RMM) platform. In a public disclosure titled Able2Shell, an independent researcher has published details and proof-of-concept (PoC) code covering 33 issues. According to the disclosure, the issues include unauthenticated remote code execution (RCE), privilege escalation to root, credential disclosure, and unauthorized account creation. One unauthenticated chain combines XML external entity (XXE) and session-handli",
-      "threat_actors": [],
-      "title": "Critical vulnerabilities in N-able N-central prompt hosted shutdown"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-994/",
-      "cves": [
-        "CVE-2026-126967"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-14T07:57:43.009554+09:00",
-      "heat_score": 37.5,
-      "permalink_id": "article-url-0b3e36b66161d5b4d606ea6f",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0b3e36b66161d5b4d606ea6f",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-13T15:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-126967.",
-      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-126967.",
-      "threat_actors": [],
-      "title": "ZDI-26-994: SmarterTools SmarterMail File Edit API Directory Traversal Remote Code Execution Vulnerability"
     }
   ],
   "timeseries_status": {
@@ -957,32 +753,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-    "【HOTTEST #1 / Heat 67.5】Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
-    "【LATEST #2】Too many instructions can hold back AI security audits",
-    "【HOTTEST #2 / Heat 67.5】CVE-2026-84869 in ScreenConnect Exploited to Run Malicious Files on MSP Technician Accounts",
-    "【LATEST #3】Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs",
-    "【HOTTEST #3 / Heat 67.5】From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
-    "【LATEST #4】AI security took more than one in three cybersecurity seed funding deals",
-    "【HOTTEST #4 / Heat 67.5】CVE-2026-119618",
-    "【LATEST #5】Microsoft gives admins one policy to manage Windows patches and fixes for PCs that won’t boot",
-    "【HOTTEST #5 / Heat 67.5】Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
+    "【LATEST #1】Uber notifies drivers of data breach affecting nearly 150,000 people",
+    "【HOTTEST #1 / Heat 71.25】プリザンターにおける複数の脆弱性",
+    "【LATEST #2】グーグル・クラウド、日本での新たなセキュリティ強化とAI人材育成策など発表",
+    "【HOTTEST #2 / Heat 67.5】Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
+    "【LATEST #3】Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 2",
+    "【HOTTEST #3 / Heat 67.5】CVE-2026-84869 in ScreenConnect Exploited to Run Malicious Files on MSP Technician Accounts",
+    "【LATEST #4】Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
+    "【HOTTEST #4 / Heat 67.5】From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
+    "【LATEST #5】What's the difference between cybersecurity and cyber resilience – and why does that matter?",
+    "【HOTTEST #5 / Heat 67.5】CVE-2026-119618"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-14T08:00:00+00:00",
-    "last_as_of": "2026-11-17T08:00:00+00:00",
+    "first_as_of": "2026-11-14T09:00:00+00:00",
+    "last_as_of": "2026-11-17T09:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-17T08:00:00+00:00",
-  "heat_as_of": "2026-11-17T08:00:00+00:00",
+  "news_as_of": "2026-11-17T09:00:00+00:00",
+  "heat_as_of": "2026-11-17T09:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24595,
-  "last_published_at": "2026-11-17T17:07:09.899048+09:00",
-  "publication_slot_jst": "2026-11-17T17:00:00+09:00"
+  "news_catalog_count": 24870,
+  "last_published_at": "2026-11-17T18:06:33.540830+09:00",
+  "publication_slot_jst": "2026-11-17T18:00:00+09:00"
 }
