@@ -1,9 +1,78 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-17T16:40:02.885240+00:00",
+  "source_snapshot_generated_at": "2026-11-17T17:40:04.340879+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:be4efca51b03c0085215f202",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "data"
+        ],
+        "url": "https://zenn.dev/whocallmeuknote/articles/fe60e7a70ab507",
+        "title": "この番号は誰？ 留守電の「所有確認」を、出典付きの記録に分解する",
+        "author": "WhoCallMe UK Notes",
+        "published_at": "2026-11-17T17:07:03+00:00",
+        "excerpt": "「この番号は誰？」という疑問に、録音メッセージの「所有確認」という言葉だけで答えてしまうと、依頼された行為と確認済みの事実が混ざります。問い合わせを記録する側では、文章の中にある主張を、そのまま所有者フィールドへ入れない設計が必要です。 この記事の関係性： 紹介先である whocallme.co.uk の運営側の編集コンテンツで、AI補助による起草です。宣伝を含みます。例は手作業で確認するための記録形式であり、実装済みの機能やテスト結果ではありません。 一つの留守電を一つの事実にしない 当サイトの0131 202 2169の番号ページでは、番号の所有確認のため会社名を音の後に伝えるよ..."
+      },
+      {
+        "id": "zenn:5d08fc4af601e092adb4cb9e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SaaS",
+          "画像生成",
+          "マルチモデル"
+        ],
+        "url": "https://zenn.dev/chooser/articles/pf-037-product-story",
+        "title": "promptflow の Compare で、複数の AI の答えと画像を並べて比べる",
+        "author": "chooser",
+        "published_at": "2026-11-17T17:03:56+00:00",
+        "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 promptflow の Compare で、複数の AI の答えと画像を並べて比べる promptflow には Chat・Compare・Debate・Co-Draft（日本語の画面では「通常チャット」「比較検討」「AI 会議」「AI 推敲」）の 4 つのモードがあります。この記事は、その中の Compare の説明です。 先..."
+      },
+      {
+        "id": "zenn:db8b7c1c39c30b328848f713",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Go",
+          "ISUCON",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/goriate/articles/7deb4ab43811d7",
+        "title": "「N+1ってなんでしたっけ？」って言いたかった。ISUCON2026に参加してきました。",
+        "author": "ごりあて",
+        "published_at": "2026-11-17T16:59:02+00:00",
+        "excerpt": "はじめに こんにちは、ごりあてです。 今更ですが、2026年10月31日（土）に開催された ISUCON2026 に、友人と2人で「チームないとれいん」として参加してきました。 最終スコアは187,178点の52位で、認定証のもらえるTOP30までもう少しという悔しい順位になってしまいました。 やったことなどを語っていきたいのですが、改善作業は方針も実装もほぼ AI に任せていたため、どの施策がなぜ効いたかを詳しく話せる自信はありません。AI に聞けば教えてくれると思います。 そのため、この記事では、AI だけで全部動かすために事前に準備したことを中心にまとめました。 参加した理..."
+      },
+      {
+        "id": "zenn:ce23cab0e6009e43b42de7fd",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/ai_daigakusei/articles/claude-code-skills-publish-without-personal-info",
+        "title": "自分用の Claude Code スキルを、個人情報を消して公開する",
+        "author": "AI大好き大学生",
+        "published_at": "2026-11-17T16:45:43+00:00",
+        "excerpt": "! 一言でいうと：自分用に作ってきた Claude Code のスキルを、他の人が入れて使える形で GitHub に出しました。自分用のスキルには、学籍番号や先生の名前、自分の PC のパスがあちこちに入っています。それを全部消して、消し残しを機械で確かめてから出すまでの手順を書きます。 この記事でできるようになること ~/.claude/skills/ に自分用のスキルが何個かたまってきたら、それを公開リポジトリにして、人に「入れて使ってみて」と渡せるようになります。出してよいスキルの選び方、個人情報の置き換え方、公開しないスキルに頼っている所の外し方、消し残しの検査、出した後の..."
+      },
+      {
+        "id": "zenn:8fc8157523e6e9a1c76c958c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "UI",
+          "gamedev",
+          "Godot",
+          "GDScript"
+        ],
+        "url": "https://zenn.dev/zivaengine/articles/d9dd3d6be444ed",
+        "title": "AIでGodotのUIをつくる：ウィンドウサイズを変えても見切れないメインメニューと設定画面（検証）",
+        "author": "Ziva Engine",
+        "published_at": "2026-11-17T16:42:55+00:00",
+        "excerpt": "この記事は https://ziva.sh/blogs/godot-ui-ai の日本語版です（英語の原文はZiva.shが2026年11月10日に公開）。 ウィンドウのサイズが変わっても崩れないGodotのUIを、AIはつくれるのでしょうか。Godotエディターの中で動くAIエージェントのZivaに、Controlノードでメインメニューと設定画面をつくるよう依頼しました。Zivaは3分58秒で両方のシーンをつくり、ゲームを実行してSettingsとBackをクリックし、5つのウィンドウサイズでレイアウトを確認しました。見切れた部分はありませんでした。一方で、見落としもありました。Ful..."
+      },
       {
         "id": "zenn:51025e91f3a847fa67bfd7a5",
         "source": "zenn",
@@ -297,6 +366,16 @@
         "author": "ラクワーク工房",
         "published_at": "2026-11-17T12:47:57.149000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:b0106f58c1ac4701474ab07c",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/kazedayori/books/ai-agent-ops-book",
+        "title": "AIエージェントに仕事を任せる技術 — 失敗を仕組みに変える個人エージェント運用の実践",
+        "author": "風だより",
+        "published_at": "2026-11-17T12:34:26+00:00",
+        "excerpt": "AIエージェントに仕事を任せると、必ずこの壁に当たります。「完了しました」と報告されたのに、実物は何も変わっていない。同じ失敗を、先週も先々週も繰り返す。検証したはずなのに、本番では動いていない。本書は、個人のAIエージェント（アシスタント）を24時間体制で実運用している著者が、その過程で実際に踏んだ失敗と、再発を止めるために作った「仕組み」をまとめた実践書です。プロンプトの小手先の話はしません。扱うのは、失敗を台帳に起票し、根本原因まで掘り、再発防止を文章の決意ではなく照合可能な機構として実装し、完了の主張を証拠で検証する——という、運用の技術です。本書の素材はすべて実物です。数百件規模に育った失敗台帳の運用記録、実際に使っている失敗RCAプロトコルと検証ハンドオフテンプレート、二つの異なるAIエージェントに同じ仕組みを移植して運用した記録から、他環境でも使える形に編集して収録しています。第1章までは無料で公開しています。まず「失敗RCAプロトコル」の章を読み、自分の環境で1件だけ起票してみてください。それで合わなければ、この本はあなた向けでは"
       },
       {
         "id": "zenn:8fbf604e9e1d7dde60eb7006",
@@ -39717,6 +39796,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:896db118a147a8f17d55e0a9",
+        "source": "qiita",
+        "author_tags": [
+          "ドメイン",
+          "Security",
+          "情報管理"
+        ],
+        "url": "https://qiita.com/whocallmeuknotes/items/831bf048fc678714aff7",
+        "title": "誰からの電話？ ドメイン管理を名乗る営業を、開発者の資産台帳で切り分ける",
+        "author": "whocallmeuknotes",
+        "published_at": "2026-11-18T01:44:37+09:00",
+        "excerpt": "「誰からの電話？」と聞かれて、ドメインの契約先の名前が出てくると、開発担当まで話が回ってくることがあります。でも、ドメインを登録している会社と、サイトを作るサービスと、変更を承認する担当者は同じとは限りません。営業の真偽をその場で当てるより、管理対象と権限を分けて確認します。 運営側からの案内： whocallme.co.uk のサイト側による紹介・宣伝を含む編集記事です。AIの補助を受けて起草しています。以下は手元の台帳で行える確認手順で、システムへの実装や導入効果を報告する記事ではありません。 題材は「管理会社を名乗る電話」 当サイトの01452 645519の番号ページには、会社のドメイン登録先を名乗る相手から、ウェブサイト制作ツールを勧められたという投稿があります。投稿者は、会社の案件や利用中サービスの料金について質問され、繰り返し電話があったと述べています。 ドメイン関連の営業についての投稿 は、元の公開日が分からない取り込み情報です。匿名の未検証の記述であり、記載された企業が実際に発信したとは確認できません。表示番号の偽装もあり得るた"
+      },
+      {
         "id": "qiita:81c4d7e34b367e6ee7392c74",
         "source": "qiita",
         "author_tags": [
@@ -54191,6 +54284,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1865b6f7b678d3de558eda9c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "log-analysis",
+          "blue-team",
+          "soc-analyst",
+          "phishing-email"
+        ],
+        "url": "https://medium.com/@tanmaydhanula1234/soc120-phishing-mail-detected-internal-to-internal-letsdefend-07e737853478",
+        "title": "SOC120 — Phishing Mail Detected — Internal to Internal — LetsDefend",
+        "author": "TanmayDhanula",
+        "published_at": "2026-11-17T17:36:16+00:00",
+        "excerpt": "Step 1 — Creating a Case & Initial Email Analysis Continue reading on Medium »"
+      },
+      {
+        "id": "medium:caf2f55cfe061e252047ba45",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "apache",
+          "cybersecurity",
+          "vulnerability",
+          "web-development"
+        ],
+        "url": "https://medium.com/codex/apache-closed-its-webdav-state-folder-in-june-a-plain-get-could-still-read-it-until-october-c716cb42a034",
+        "title": "Apache closed its WebDAV state folder in June. A plain GET could still read it until October",
+        "author": "Muhammad Azhar",
+        "published_at": "2026-11-17T17:35:57+00:00",
+        "excerpt": "My lab pulled a private property out of httpd 2.4.67 Continue reading on CodeX »"
+      },
+      {
+        "id": "medium:aea2e736275a112ece9ef311",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "letsdefend-writeup",
+          "blue-team",
+          "phishing-attacks",
+          "soc-analyst"
+        ],
+        "url": "https://medium.com/@tanmaydhanula1234/soc114-malicious-attachment-detected-phishing-alert-letsdefend-92053c6c24a0",
+        "title": "SOC114 — Malicious Attachment Detected — Phishing Alert — LetsDefend",
+        "author": "TanmayDhanula",
+        "published_at": "2026-11-17T17:13:00+00:00",
+        "excerpt": "Executive Summary Continue reading on Medium »"
+      },
       {
         "id": "medium:a9f14e3a0eab804abc42ed99",
         "source": "medium",

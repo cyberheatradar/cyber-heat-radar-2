@@ -1,5 +1,27 @@
 [
   {
+    "ai_relevance": "none",
+    "canonical_url": "https://therecord.media/california-fines-hertz-state-data-privacy-law",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T02:22:34.300456+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-21f92043a5741e6284d38aac",
+    "primary_category": "other",
+    "public_article_id": "url:21f92043a5741e6284d38aac",
+    "public_tags": [],
+    "published_at": "2026-11-18T02:13:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Record",
+    "summary": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
+    "summary_excerpt": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
+    "threat_actors": [],
+    "title": "California fines Hertz $1.5 million for breaking state data privacy law"
+  },
+  {
     "ai_relevance": "primary",
     "canonical_url": "https://www.theregister.com/security/2026/11/17/hackers-smash-n-grab-ai-vendor-take-off-with-license-data-of-uber-drivers/5310464",
     "cves": [],
@@ -203,6 +225,46 @@
     "summary_excerpt": "Now 21, Artion Kurtaj pleaded guilty to a 2022 spree that included leaking clips of Grand Theft Auto VI while it was still years away from release.",
     "threat_actors": [],
     "title": "Autistic teen hacker pleads guilty to leak of Grand Theft Auto VI footage"
+  },
+  {
+    "ai_relevance": "material",
+    "canonical_url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise",
+    "cves": [],
+    "document_form": "research",
+    "first_seen_at": "2026-11-18T02:22:28.707981+09:00",
+    "heat_score": 58.5,
+    "permalink_id": "article-url-2179956bbcf7843fe9be8d26",
+    "primary_category": "ai_security",
+    "public_article_id": "url:2179956bbcf7843fe9be8d26",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cloud_security",
+        "label": "Cloud Security"
+      },
+      {
+        "color_family": "red",
+        "key": "malware",
+        "label": "Malware"
+      }
+    ],
+    "published_at": "2026-11-17T23:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Google Cloud / Mandiant Threat Intelligence",
+    "summary": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. COLD RELIC is a Russian state-sponsored threat group that the US Department of Justice (DOJ) has assessed operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to gain access to information of strategic or political relevance to the Russian government, as well as to leverage compromised access to target compromised individuals’ broader social and professional networks. Once COLD RELIC compromises a target, it uses stolen emails and data to establish authentic pretexts and impersonate contacts when reaching out to subsequent targets. While COLD RELIC has largely maintained a low profile, yielding minimal public reporting relative to other Russia-nexus threat actors, it has been highly successful at compromising high-value targets (including government officials, defense contractors, and non-governmental organizations (NGOs) across Europe and North America) while maintaining a consistent operational tempo. While Google Threat Intelligence Group (GTIG) has tracked and disrupted COLD RELIC phishing campaigns since 2015, recent Mandiant incident response investigations have uncovered critical new insights into the group’s social engineering and post-compromise tradecraft. We are sharing this end-to-end analysis—along with actionable detection and hardening guidance—to help organizations defend against COLD RELIC’s ongoing use of stolen pretexts, localized residential proxies, and cross-cloud identity abuse. As part of our efforts to thwart this threat actor, we issue Government-backed attack alerts when we detect COLD RELIC targeting Google accounts. COLD RELIC remains an active threat; GTIG has observed evidence of new phishing operations as recently as November 2026. Threat Detail Over more than a decade of tracking COLD RELIC alongside Mandiant incident response investigations, we have observed the group continually refine how it leverages data harvested from one intrusion to enable follow-on operations against downstream targets. In late 2025, COLD RELIC downloaded a large volume of data from a US-based organization, searching for names, email addresses, and email archives, likely to fulfill broader intelligence requirements. In 2026, Mandiant investigated a subsequent COLD RELIC intrusion at a second US-based organization where phishing URL parameters and impersonation pretexts indicated that COLD RELIC likely leveraged contact and relationship context from the first organization to target the second. One of the hallmarks of COLD RELIC phishing campaigns is the use of a compromised website as the initial link that will redirect the target to the actual phishing domain. This provides COLD RELIC with a layer of misdirection and hides their phishing domains, while also giving them a chance to fingerprint anyone visiting the link to determine if they should be redirected or not. A COLD RELIC phishing link usually contains a parameter on the end of it with a value that is set by the attacker and often indicates a relationship to a previous victim or what the lure is. For example, a URL might look like these (though this is not always the case): https://compromised.example.com/some_path/some_file.php?file=<previous_victim_name> https://compromised.example.com/some_path/some_file.php?ref=<lure_name> Figure 1: Sample URLs incorporating targeted individuals’ names or lure topics During Mandiant’s incident response investigation at the second US-based organization, responders identified that COLD RELIC initiated contact over an encrypted messaging app while impersonating an employee from the first victim organization. In parallel, GTIG correlated a COLD RELIC redirector URL from the intrusion that had been submitted to VirusTotal in June 2026, whose query parameter referenced the first victim organization. Case Study 1 - Stolen Credentials to Data Exfiltration During the late-2025 intrusion, GTIG observed COLD RELIC operators compromise the cloud productivity environment of a US-based organization. To gain initial access, COLD RELIC leveraged a residential proxy network in the US located in close geographical proximity to the victim. COLD RELIC authenticated using the stolen credentials of a Super Admin account, in combination with a multi-factor authentication ( MFA) push notification fatigue attack. After the victim user accepted an MFA request, COLD RELIC registered a device model previously unseen within the tenant of the victim organization. COLD RELIC leveraged passkeys, MFA backup codes, and rogue MFA devices to retain access throughout the intrusion. COLD RELIC used the privileges of the compromised Super Admin account to download the contents of the entire organization’s cloud storage drive by both mass sharing files to a COLD RELIC-operated email account and downloading files directly. While operating inside the tenant of the victim organization, COLD RELIC accessed the Admin Console, queried Admin security investigation and email audit logs to check defensive visibility, and viewed, modified, and deleted Alert Center notifications to remove forensic evidence of the initial intrusion. COLD RELIC also exported full employee lists and initiated a domain-wide data export via Google Workspace Customer Takeout using Super Admin privileges. Unlike individual end-user Google Takeout, Customer Takeout is an administrative tenant-wide export tool; these requests are logged in Google Workspace Admin audit logs ( CUSTOMER_TAKEOUT_CREATED ), and administrators can also disable Google Takeout for users at the organizational level . Following mass data theft and antiforensics activities, COLD RELIC maintained access to the victim organization for several months and performed additional activities including: Email inbox sync via OAuth to external email clients Reauthentication using unrevoked attacker-enrolled passkeys that persisted across password and session resets and bypassed device registration controls Targeted cloud drive document access related to credentials, email archives, personnel information, and other documents relevant to COLD RELIC’s intelligence collection requirements When the threat actor was removed from the victim organization’s infrastructure, GTIG observed COLD RELIC leveraging email accounts impersonating employees of the victim organization. These impersonated accounts were used to target both internal employees and associates within the same professional circles with renewed social engineering attempts. Case Study 2 - Leveraging Previous Compromise - Initial Approach During the second intrusion, COLD RELIC demonstrated competency in navigating multi-cloud environments and federated authentication mechanisms. GTIG observed COLD RELIC operators compromise a Microsoft Entra ID user account of a US-based organization that used Entra ID as its federated single sign-on (SSO) identity provider for Google Workspace. To gain initial access, COLD RELIC impersonated an employee of the organization impacted in Case Study 1 to establish a pretext for communications over a secure messaging app. The threat actor ultimately shared phishing links during the course of the conversation. These phishing links, designed to steal credentials and authentication tokens for Entra ID, redirected the victim to document lures relevant to the ongoing conversation in order to avoid raising suspicion. Upon successful authentication using the stolen credentials, COLD RELIC registered and used a new MFA device in the SSO solution to retain access to the user account throughout the intrusion. A redacted and abbreviated version of the social engineering conversation is included below (image generated with LLMs): Figure 2: Redacted, LLM-generated depiction of observed threat actor social engineering engagement By impersonating someone known in the same professional circles as the new target, COLD RELIC increased their chance of phishing success. Ultimately, in this case, COLD RELIC was able to obtain credentials to the organization and perform bulk download of files accessible in the compromised user’s cloud drive. Post-Compromise Activity After gaining initial access to an organization, COLD RELIC registers rogue MFA devices, passkeys, and MFA backup codes to establish long-term persistence. Once persistence is secured, COLD RELIC conducts aggressive data collection and exfiltration operations, accessing email, chat, and cloud storage repositories. While COLD RELIC's primary objective post-compromise is mass collection and download of files and email archives, it simultaneously performs targeted queries for specific terms of interest. In particular, COLD RELIC searches for credentials, personnel information, email archives (.pst files), and documents related to their collection requirements. Additionally, COLD RELIC seeks out data that can support subsequent spear-phishing operations, including organizational rosters, contact lists, resumes, and event schedules to build convincing pretexts for future targets. Beyond seeking out data to support subsequent operations, COLD RELIC also appeared to repurpose the account used in Case Study 2 for follow on targeting. After the compromise, the encrypted messaging application used for the initial approach recorded that the threat actor changed their profile name to a completely new person. GTIG believes this new persona was likely used to continue to target other organizations in the same professional circles in a similar manner to both of the cases documented here. Outlook and Implications COLD RELIC’s campaigns demonstrate the convergence of human-centric social engineering and cloud identity abuse. By obtaining access to strategic personnel rosters and operational documents, Russian intelligence services turn legitimate business communications into attack vectors against trusted partners. Their ability to navigate across multiple cloud ecosystems highlights that organizations must defend their entire identity estate holistically. GTIG will continue to track, disrupt, and expose COLD RELIC infrastructure to protect global cloud users. Remediation and Hardening As previously mentioned, GTIG has observed COLD RELIC heavily rely on residential proxy networks in the course of their intrusions. Moreover, the group goes one step further in obfuscating their activities by selecting proxies that geolocate to the same approximate location as their victim users, thereby avoiding impossible travel or other heuristic-based alerting mechanisms. GTIG recommends enriching authentication logs with residential proxy and VPN IP reputation feeds, alerting on sudden residential ASN shifts for privileged accounts, and applying conditional access policies to block or detect logons from known proxy networks. In some cases, the severity and scope of COLD RELIC intrusions were amplified due to users storing credentials and other secrets within their organization’s cloud storage platforms. This enabled COLD RELIC to pivot to additional accounts or services that it would not have otherwise been able to access, including users’ personal accounts which are typically unmonitored by their employers. Organizations can implement cloud storage Data Loss Prevention (DLP) policies, such as Google Workspace’s Security & Data Protection , to warn or block users attempting to create, upload, or externally share files matching sensitive patterns. In at least one case, GTIG observed that a victim organization identified the intrusion and attempted to remediate COLD RELIC’s access to their cloud tenant via password resets for impacted accounts. However, because the threat actor hijacked sessions and the victim organization failed to also revoke all existing sessions for the accounts in question, COLD RELIC maintained access. In similar circumstances, such as Business Email Compromise (BEC) intrusions, GTIG recommends organizations revoke all user sessions in addition to forcing password resets for impacted accounts. Organizations should implement the following recommendations: Identity & Multi-Factor Authentication Enforce Phishing-Resistant MFA (FIDO2 / WebAuthn): Replace SMS, voice, and push notifications with hardware security keys (e.g., Titan Security Keys). Hardware keys are bound to the origin URL and cannot be intercepted by AiTM reverse proxies or approved via fatigue attacks. Restrict and Audit Passkey Registrations: Monitor identity logs for passkey registrations and rogue device enrollments, particularly on administrative accounts. Harden MFA Registration: Require existing administrators or out-of-band identity verification to approve new MFA devices or secondary authenticators (such as Microsoft Authenticator or passkeys). Organizations and individuals may consider enrolling in the Advanced Protection Program . Session Management & Incident Response Mandate Session & OAuth Revocation in BEC Playbooks: When remediating suspected account compromise, password changes alone are insufficient. Administrators must immediately revoke all active browser sessions, refresh tokens, and authorized third-party OAuth app permissions across both Google Workspace and Microsoft Entra ID, and remove any unauthorized passkeys, backup codes, or MFA devices. Audit Third-Party OAuth Grants: Continuously review authorized third-party applications in Google Workspace and Microsoft 365, flagging unexpected native desktop email clients (e.g., Thunderbird) or external mail services (e.g., Proton Mail). Network & Infrastructure Controls Detect & Block Residential Proxy Logons: Restrict administrative access from consumer ISPs, VPNs, and known residential proxy ASN ranges (e.g., AS5650, AS20115). Cross-Cloud DLP Policies: Deploy Data Loss Prevention (DLP) rules across cloud storage (Google Drive, OneDrive, SharePoint) to alert on documents containing sensitive terms (e.g., passwords, roster, .pst) or to restrict mass external file-sharing. Detections Observed Activity MITRE ATT&CK Mapping Detection Opportunity MFA Fatigue Attack T1621: Multi-Factor Authentication Request Generation Monitor for MFA Spam: Alert on multiple failed login or MFA challenge events for a single user in a short timeframe, followed closely by a successful authentication from the same IP address. OAuth Abuse & Mail Sync T1114.002: Email Collection: Remote Email Collection T1528: Steal Application Access Token Unapproved OAuth Scopes: Alert on new OAuth authorizations ( Authorize event in GWS OAuth logs) granting broad scopes (e.g., https://mail.google.com/ ) to non-standard or unapproved email clients like Proton or Thunderbird. Automated Data Exfiltration Attempt T1119: Automated Collection Customer Takeout Initiation: Generate alerts for the creation of any tenant-wide collection or export (e.g., Customer Takeout Created in GWS Admin logs), as this is a technique that can result in data exfiltration of an entire tenant. Data Theft via Bulk Download T1530: Data from Cloud Storage Anomalous Download Volume: Monitor logs for spikes in file downloads (e.g. Download events in GWS Drive logs) by a single user within a short period of time, particularly originating from non-corporate ASNs/IPs or known residential proxy networks. Data Theft via External Sharing T1567.002: Exfiltration to Cloud Storage External File Sharing Anomalies: Monitor logs for a spike in documents being shared externally (e.g., GWS Drive User Sharing Permissions Change or Visibility changed to shared_externally ), particularly to free email providers (e.g., @gmail.com ). Device & Passkey Enrollment T1098.005: Account Manipulation: Device Registration New MFA/Device Enrollment: Alert on new passkey enrollments (e.g., GWS Passkey enrolled events) or device registrations (GWS Device Registered events), particularly when originating from unexpected geographic locations or immediately following an MFA fatigue pattern. Use of MFA Backup Codes T1078.004: Valid Accounts: Cloud Accounts Backup Code Usage: Monitor logs for authentications with MFA backup codes (e.g., GWS User logs where the Login Challenge Type is Backup code ), particularly if it originates from a non-corporate ASN or known residential proxy networks. Impairing Defenses via Alert Deletion T1562.008: Impair Defenses: Disable or Modify Cloud Logs / Alerts Alert Center Tampering: Alert on any user modifying or deleting security alerts (e.g., Batch Delete Operation Performed events in GWS Admin logs), particularly if the user is deleting alerts related to their own account or critical severity alerts (e.g., GWS Government-backed attack alerts). Internal Reconnaissance via User List T1087.004: Account Discovery: Cloud Account Directory Export: Alert on domain user exports (e.g., User List Download events in GWS Admin logs). While admins may do this legitimately, it should be heavily scrutinized, particularly when performed from unknown devices. Forensic Counter-Investigation T1082: System Information Discovery Admin Log Querying: Monitor logs for users performing audit log queries (e.g., Investigation Query events in GWS Admin logs). Unexpected querying of security, access, or audit logs may indicate a threat actor attempting to perform counter-forensics. Searching for Passwords & Archives T1083: File and Directory Discovery T1552.001: Credentials In Files Sensitive File Search: Monitor logs for file directory keyword searches (e.g., Item search performed events in GWS Drive logs) containing terms related to archives or credentials such as .pst , .bak , password , cred , or repeated accesses/downloads of documents explicitly titled with credential-related keywords. Google Security Operations (SecOps) Google SecOps customers have access to these broad category rules and more under the Mandiant Frontline Threats rule pack. The activity discussed in the blog post is detected in Google SecOps under the rule names: Google Workspace Successful MFA Fatigue Attack Google Workspace Customer Takeout Initiated Google Workspace Alert Center Alert Deletion Google Workspace Directory User List Download Google Workspace Drive Bulk External or Freemail File Sharing Google Workspace Device or Passkey Enrollment Following MFA Fatigue Google Workspace OAuth Broad Mail Scope Granted to Unapproved Client",
+    "summary_excerpt": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate s",
+    "threat_actors": [
+      "Star Blizzard"
+    ],
+    "title": "COLD RELIC: A Case Study in Impersonation and Compromise"
   },
   {
     "ai_relevance": "none",
@@ -432,6 +494,34 @@
     "summary_excerpt": "A Kazakh national charged in a ransomware and extortion conspiracy targeting U.S. hospitals and schools was also charged with violating the TAKE IT DOWN Act. The post Alleged ransomware group member extradited from Italy to face US charges in hospital, school extortion case appeared first on CyberScoop .",
     "threat_actors": [],
     "title": "Alleged ransomware group member extradited from Italy to face US charges in hospital, school extortion case"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.akamai.com/blog/security/akamai-threat-intelligence-service-attack-data-action",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T02:37:55.348172+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-e005b783aff28b1a3cc755e2",
+    "primary_category": "threat_campaign",
+    "public_article_id": "url:e005b783aff28b1a3cc755e2",
+    "public_tags": [
+      {
+        "color_family": "red",
+        "key": "threat_campaign",
+        "label": "Campaign"
+      }
+    ],
+    "published_at": "2026-11-17T22:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Akamai Security Intelligence",
+    "summary": null,
+    "summary_excerpt": null,
+    "threat_actors": [],
+    "title": "How Akamai Threat Intelligence Service Turns Attack Data into Action"
   },
   {
     "ai_relevance": "none",
@@ -1006,7 +1096,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T21:07:35.953076+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-ec4cbc47b36e4da73832187a",
     "primary_category": "threat_campaign",
     "public_article_id": "url:ec4cbc47b36e4da73832187a",
@@ -1039,7 +1129,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T21:23:27.720063+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-fa162f88398d04a636469a23",
     "primary_category": "incident",
     "public_article_id": "url:fa162f88398d04a636469a23",
@@ -1067,7 +1157,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T21:23:06.976775+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-ce147344a367fc06e03f8b4d",
     "primary_category": "threat_campaign",
     "public_article_id": "url:ce147344a367fc06e03f8b4d",
@@ -1100,7 +1190,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T21:23:18.393493+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-27998f250ed56f449a3de134",
     "primary_category": "threat_campaign",
     "public_article_id": "url:27998f250ed56f449a3de134",
@@ -1128,7 +1218,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T20:37:06.776464+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-56fde9447a3fd0e93604c554",
     "primary_category": "other",
     "public_article_id": "url:56fde9447a3fd0e93604c554",
@@ -1150,7 +1240,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T21:07:40.597117+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-c37508e4b828623c3822b8da",
     "primary_category": "ai_security",
     "public_article_id": "url:c37508e4b828623c3822b8da",
@@ -1183,7 +1273,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T20:22:30.839487+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-a60e67a87806f5102a7dba61",
     "primary_category": "ai_security",
     "public_article_id": "url:a60e67a87806f5102a7dba61",
@@ -8954,7 +9044,7 @@
     "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models"
   },
   {
-    "ai_relevance": "none",
+    "ai_relevance": "material",
     "canonical_url": "https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited/",
     "cves": [
       "CVE-2026-90436"
@@ -8963,13 +9053,13 @@
     "first_seen_at": "2026-11-17T04:53:56.425882+09:00",
     "heat_score": 67.5,
     "permalink_id": "article-url-6256f3f2ef1f816bee6e83c9",
-    "primary_category": "vulnerability",
+    "primary_category": "ai_security",
     "public_article_id": "url:6256f3f2ef1f816bee6e83c9",
     "public_tags": [
       {
-        "color_family": "neutral",
-        "key": "vulnerability",
-        "label": "Vulnerability"
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
       },
       {
         "color_family": "cyan",
@@ -8983,8 +9073,13 @@
       },
       {
         "color_family": "red",
-        "key": "poc_available",
-        "label": "PoC"
+        "key": "ttp",
+        "label": "TTP"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cve",
+        "label": "Vulnerability"
       }
     ],
     "published_at": "2026-11-17T03:14:14+09:00",
@@ -8993,7 +9088,7 @@
     "seen_in_kev": false,
     "source_class": "topic_rss",
     "source_name": "Rapid7 Blog",
-    "summary": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both products require a non-default configuration in order to be vulnerable. CVE-2026-90436 is now being actively exploited in the wild against both known affected products. On November 13, 2026, Rapid7 MDR detected exploitation of CVE-2026-90436 against Atlassian Confluence Data Center in a customer environment. Separately, on November 13, 2026, N-able reported exploitation in the wild against N-central for a vulnerability that strongly correlates to CVE-2026-90436. A proof-of-concept exploit that leverages CVE-2026-90436 and targets N-central was published on November 12, 2026, as part of a series of public zero-day disclosures against N-central. Rapid7 recommends remediating exposed systems on an emergency basis outside of normal patching cycles. Mitigation guidance Prioritize internet-accessible instances with the relevant APIs enabled, and check internal deployments as well. Apply the product-specific actions below, then investigate systems that were exposed for evidence of compromise. Axis 1.x through 1.4 is affected but has reached end of life (EOL) and Apache does not plan to publish a fixed Axis 1.x release. Apache recommends moving to another SOAP engine (for example, Apache Axis 2) or using an Axis 1.x build with this patch applied. Organizations using products that are affected by this issue should follow the product vendor's specific remediation instructions. Atlassian Confluence Data Center Atlassian lists versions 1.x through to 9.x as affected when “Remote API (XML-RPC & SOAP)” is enabled. Version 9.2.28 is the fixed release. The setting has been off by default for new installations since version 3.0. Confluence version 10.x and later removed the feature so are not vulnerable, and Atlassian Cloud is unaffected. Affected users should upgrade to version 9.2.28 or a current unaffected 10.x release. If patching must wait, an administrator can open “General Configuration” and “Further Configuration”, edit the settings, clear “Remote API (XML-RPC & SOAP)”, and save. The change takes effect without restarting Confluence, but integrations using the API may stop working. Follow the Confluence advisory for the latest fixes and mitigation instructions. N-able N-central On-premises administrators should confirm that “Legacy API” is disabled, even on 2026.4 HF2. N-able states that it is off by default, and provides instructions for disabling Legacy API . Its November 13 guidance says hosted environments received temporary protections directly; customers in both hosting models must still follow the vendor's Agent and Probe upgrade guidance. N-able also temporarily disabled the Intune integration as a precaution. Refer to the N-able security update for these responsibilities. Update: On November 16, 2026, N-able released N-central 2026.4 HF3 ( 2026.4.1.39 ) which addresses multiple issues including seventeen new CVEs. The “Legacy API” feature which exposed the vulnerable CVE-2026-90436 Axis attack surface has been disabled in this new release. N-central users should upgrade to N-central 2026.4 HF3 on an emergency basis outside of normal patching cycles. Follow the N-able advisory for the latest fixes and mitigation instructions. IOCs The presence of these IOCs in logs should prompt investigation, but the absence of these addresses does not confirm that an environment was unaffected. Atlassian Confluence Data Center The following IP addresses are associated with observed exploitation of CVE-2026-90436 against Atlassian Confluence Data Center: 192.238.253[.]176 5.133.47[.]243 163.182.68[.]109 104.13.106[.]166 N-able N-central N-able's November 13 incident update lists these IP addresses as IOCs for N-central customers who had not disabled Legacy API. 157.20.241[.]16 139.99.69[.]109 79.76.51[.]56 The vendor's update also lists associated URLs for use in compromise assessment. Updates November 16, 2026: Initial publication. November 17, 2026: Updated Remediation section for N-central.",
+    "summary": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both products require a non-default configuration in order to be vulnerable. CVE-2026-90436 is now being actively exploited in the wild against both known affected products. On November 13, 2026, Rapid7 MDR detected exploitation of CVE-2026-90436 against Atlassian Confluence Data Center in a customer environment. Separately, on November 13, 2026, N-able reported exploitation in the wild against N-central for a vulnerability that strongly correlates to CVE-2026-90436. A proof-of-concept exploit that leverages CVE-2026-90436 and targets N-central was published on November 12, 2026, as part of a series of public zero-day disclosures against N-central. Rapid7 recommends remediating exposed systems on an emergency basis outside of normal patching cycles. MDR observed exploitation On November 13, 2026, Rapid7's MDR team responded to a surge of alerts firing on the abnormal child processes launched by an Atlassian Confluence server. A review of the Confluence access logs revealed unauthenticated POST requests to /plugins/servlet/soap-axis1/confluenceservice-v2 , each returning an HTTP 500 (Internal Server Error). Despite the error responses, endpoint telemetry showed Confluence's Java process launching Bash and curl as the dedicated confluence service account, within seconds of these requests. The attacker proceeded to run hundreds of hex-encoded shell commands and scripts fetched from temporary Pinggy and Cloudflare Tunnel domains. Each command wrapped its output in labeled delimiters, and carried sequential task IDs, a structure that suggests the use of AI-assisted automated tooling. From this foothold, the attacker enumerated the host, network, Confluence configuration, encryption keys, and database settings. Just over three minutes after the first observed execution, the attackers were authenticating to MySQL with Confluence's own database credentials, querying page bodies, application links, and attachments with names associated with credentials, tokens, VPN configurations, and private keys. The attacker's scripts, likely AI-generated, then targeted files in Confluence's default location for uploaded page attachments ( /var/atlassian/application-data/confluence/attachments/v4/ ), parsed Office documents, searched for credentials, and hunted for payment card numbers, using Luhn checks to filter out false positives. The attacker continued extensive enumeration, mapping various internal services. They used a Confluence application credential to query the internal Atlassian Crowd API for users and group memberships, then ran Impacket's GetNPUsers.py against a domain controller, attempting an AS-REP roasting attack. Although these attempts failed, the access we did observe relied on credentials stored in Confluence, and roughly four hours after the first exploit request, the attacker had acquired a service account credential and began querying a production cloud data warehouse. Approximately twelve hours after the first exploit request, the attacker signed in to Microsoft 365 as an integration service account using legacy authentication from 192.238.253[.]176 . The same address appeared in the hostname of the Pinggy tunnel and in exploit requests observed earlier in the intrusion. Mitigation guidance Prioritize internet-accessible instances with the relevant APIs enabled, and check internal deployments as well. Apply the product-specific actions below, then investigate systems that were exposed for evidence of compromise. Axis 1.x through 1.4 is affected but has reached end of life (EOL) and Apache does not plan to publish a fixed Axis 1.x release. Apache recommends moving to another SOAP engine (for example, Apache Axis 2) or using an Axis 1.x build with this patch applied. Organizations using products that are affected by this issue should follow the product vendor's specific remediation instructions. Atlassian Confluence Data Center Atlassian lists versions 1.x through to 9.x as affected when “Remote API (XML-RPC & SOAP)” is enabled. Version 9.2.28 is the fixed release. The setting has been off by default for new installations since version 3.0. Confluence version 10.x and later removed the feature so are not vulnerable, and Atlassian Cloud is unaffected. Affected users should upgrade to version 9.2.28 or a current unaffected 10.x release. If patching must wait, an administrator can open “General Configuration” and “Further Configuration”, edit the settings, clear “Remote API (XML-RPC & SOAP)”, and save. The change takes effect without restarting Confluence, but integrations using the API may stop working. Follow the Confluence advisory for the latest fixes and mitigation instructions. N-able N-central On-premises administrators should confirm that “Legacy API” is disabled, even on 2026.4 HF2. N-able states that it is off by default, and provides instructions for disabling Legacy API . Its November 13 guidance says hosted environments received temporary protections directly; customers in both hosting models must still follow the vendor's Agent and Probe upgrade guidance. N-able also temporarily disabled the Intune integration as a precaution. Refer to the N-able security update for these responsibilities. Update: On November 16, 2026, N-able released N-central 2026.4 HF3 ( 2026.4.1.39 ) which addresses multiple issues including seventeen new CVEs. The “Legacy API” feature which exposed the vulnerable CVE-2026-90436 Axis attack surface has been disabled in this new release. N-central users should upgrade to N-central 2026.4 HF3 on an emergency basis outside of normal patching cycles. Follow the N-able advisory for the latest fixes and mitigation instructions. IOCs The presence of these IOCs in logs should prompt investigation, but the absence of these addresses does not confirm that an environment was unaffected. Atlassian Confluence Data Center The following IP addresses and domains are associated with observed exploitation of CVE-2026-90436 against Atlassian Confluence Data Center: 192.238.253[.]176 5.133.47[.]243 163.182.68[.]109 104.13.106[.]166 *.trycloudflare[.]com wpefh-192-238-253-176.free.pinggy[.]net webhook[.]site N-able N-central N-able's November 13 incident update lists these IP addresses as IOCs for N-central customers who had not disabled Legacy API. 157.20.241[.]16 139.99.69[.]109 79.76.51[.]56 The vendor's update also lists associated URLs for use in compromise assessment. Updates November 16, 2026: Initial publication. November 17, 2026: Updated Remediation section for N-central. November 17, 2026: Added the MDR observed exploitation section and updated IOCs.",
     "summary_excerpt": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both",
     "threat_actors": [],
     "title": "Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited"
@@ -9084,7 +9179,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T21:23:28.631526+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-368ae569594659691a7b8b51",
     "primary_category": "threat_campaign",
     "public_article_id": "url:368ae569594659691a7b8b51",
@@ -9112,7 +9207,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T03:38:23.001709+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-ae5c77babafa0cd539833b7d",
     "primary_category": "threat_campaign",
     "public_article_id": "url:ae5c77babafa0cd539833b7d",
@@ -9140,7 +9235,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T03:23:04.513314+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-ca7ece9d7cb7dca51a34b6f8",
     "primary_category": "ai_security",
     "public_article_id": "url:ca7ece9d7cb7dca51a34b6f8",
@@ -14680,7 +14775,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-15T02:37:06.745332+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-2396f465be9396c94b74ec08",
     "primary_category": "ai_security",
     "public_article_id": "url:2396f465be9396c94b74ec08",
@@ -46496,7 +46591,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T02:52:29.637895+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-3596f8c98b8cc1ed4dab8f46",
     "primary_category": "ransomware",
     "public_article_id": "url:3596f8c98b8cc1ed4dab8f46",
@@ -46524,7 +46619,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T05:07:38.115896+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-f020d812e8ed826cbd47b6e7",
     "primary_category": "threat_campaign",
     "public_article_id": "url:f020d812e8ed826cbd47b6e7",
@@ -46557,7 +46652,7 @@
     "cves": [],
     "document_form": "advisory",
     "first_seen_at": "2026-11-11T04:38:12.286822+09:00",
-    "heat_score": 30.88,
+    "heat_score": 9.26,
     "permalink_id": "article-url-fb159ce23ccbcd17ad2e4ff1",
     "primary_category": "vulnerability",
     "public_article_id": "url:fb159ce23ccbcd17ad2e4ff1",
@@ -46585,7 +46680,7 @@
     "cves": [],
     "document_form": "advisory",
     "first_seen_at": "2026-11-11T04:38:12.988910+09:00",
-    "heat_score": 30.88,
+    "heat_score": 9.26,
     "permalink_id": "article-url-67c56d027706a5bfe4d9051d",
     "primary_category": "vulnerability",
     "public_article_id": "url:67c56d027706a5bfe4d9051d",
