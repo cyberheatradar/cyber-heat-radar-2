@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-17T20:40:02.947775+00:00",
+  "source_snapshot_generated_at": "2026-11-17T21:40:03.144251+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:a01674400386433e4ef0aa14",
+        "source": "zenn",
+        "author_tags": [
+          "Bash",
+          "Security",
+          "hooks",
+          "AI駆動開発",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/minewo/articles/claude-code-hook-fail-open",
+        "title": "危険コマンドを止める Claude Code hook を書いたのに、素通ししていた",
+        "author": "mine_take",
+        "published_at": "2026-11-17T21:31:02.987000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:bfa8ae1884678467ae59e3a9",
         "source": "zenn",
@@ -39867,6 +39883,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:cebf579f306c12eb8a7f8600",
+        "source": "qiita",
+        "author_tags": [
+          "JWT",
+          "Python",
+          "OAuth",
+          "PyJWT",
+          "Security"
+        ],
+        "url": "https://qiita.com/Takenori-Kusaka/items/ef2b86d57156cf1d1aca",
+        "title": "JWT の受け手の検証を 9 つの要素に分け、1 つずつ外して攻撃を当てる(Python・PyJWT)",
+        "author": "Takenori-Kusaka",
+        "published_at": "2026-11-18T06:33:15+09:00",
+        "excerpt": "この記事は、生成AIを使って作成し、筆者が内容を確認・修正したうえで公開しています。 はじめに JWT を受け取る API で「署名は検証しているから大丈夫」と考えていると、どの確認が実際にどの攻撃を止めているのかが見えません。この記事は、受け手の検証を要素の集合として書き、要素を 1 つずつ外して攻撃と正規の要求を当て直す、除去実験の作り方の要点です。題材は、組織で共用する独自クレームを扱うケーススタディです。 正本(Zenn): JWT の独自クレームは契約である ― 設計ガイドと、攻撃を当てて測ったケーススタディ コードと結果: jwt-claims-casestudy ( cs/verify.py 、 results/summary.md ) 前提のガイド(スライド 149 枚): jwt-claims-guide 技術選定の理由 要素 選んだもの 理由 判定 LLM を使わない決定的な検証、仮想の時計、固定した乱数の種 同じ手順で何度でも同じ判定にするため IdP Keycloak 26.8 を実際に動かす IdP の実際の挙動を測るた"
+      },
+      {
         "id": "qiita:44c145de6abb42bdb84696dc",
         "source": "qiita",
         "author_tags": [
@@ -54387,6 +54419,79 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:69d9fe84c608d99aa8b4144a",
+        "source": "medium",
+        "author_tags": [
+          "phishing-detection",
+          "cybersecurity",
+          "online-privacy",
+          "human-behavior",
+          "ai-security"
+        ],
+        "url": "https://medium.com/@rtkorea2026/beyond-technology-why-human-judgment-still-matters-in-phishing-detection-1da9acf49b04",
+        "title": "Beyond Technology: Why Human Judgment Still Matters in Phishing Detection",
+        "author": "Rizwana Tariq",
+        "published_at": "2026-11-17T21:23:29+00:00",
+        "excerpt": "Reflection on “Knowledge and Capabilities that Non-Expert Users Bring to Phishing Detection” Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2968f64dfec550d8734e086c",
+        "source": "medium",
+        "author_tags": [
+          "malware-analysis",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@akinrinademariam18/how-i-built-a-malware-analysis-lab-flare-vm-and-remnux-on-virtualbox-733e586345a6",
+        "title": "How I Built a Malware Analysis Lab: FLARE VM and REMnux on VirtualBox",
+        "author": "Akinrinade Mariam",
+        "published_at": "2026-11-17T21:16:53+00:00",
+        "excerpt": "A step-by-step guide, including the mistakes I made so you can skip them. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:384a57a4f62feaa40811a3ce",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "vulnhub"
+        ],
+        "url": "https://medium.com/@officialhussainali12/cybersploit2-ctf-vulnhub-walkthrough-81e0288635c6",
+        "title": "CyberSploit2 CTF — Vulnhub walkthrough",
+        "author": "M.Fida Hussain",
+        "published_at": "2026-11-17T21:07:10+00:00",
+        "excerpt": "In this guide I’ll go over the steps to get root access in this VM. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:07d6ae4b783f32bf223fa4a8",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "tools",
+          "nmap",
+          "kali-linux"
+        ],
+        "url": "https://medium.com/@langawalas/5-cybersecurity-tools-every-beginner-should-know-and-what-they-actually-do-e91a0756409e",
+        "title": "5 Cybersecurity Tools Every Beginner Should Know (And What They Actually Do)",
+        "author": "MOHAMMAD SHAIKH",
+        "published_at": "2026-11-17T20:52:06+00:00",
+        "excerpt": "You don’t need to be an expert hacker to start learning cybersecurity. Sometimes, all you need is the right tools and the curiosity to… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a661ddc31a79fd7a6f93f323",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "hacking",
+          "malware",
+          "technews",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/bouncin-and-behavin-blogs/bbc-cnn-and-hsbc-websites-just-served-malware-were-you-affected-364a0364f8a2",
+        "title": "BBC, CNN, and HSBC Websites Just Served Malware. Were You Affected?",
+        "author": "Junaid Ali",
+        "published_at": "2026-11-17T20:36:45+00:00",
+        "excerpt": "Millions of people visit familiar websites believing they’re safe. A massive cyberattack has exposed how fragile that trust really is Continue reading on Bouncin’ and Behavin’ Blogs »"
+      },
       {
         "id": "medium:84a4c9dc58308ed90cd726c6",
         "source": "medium",
