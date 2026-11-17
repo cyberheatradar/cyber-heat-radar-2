@@ -1,9 +1,115 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-17T06:40:03.252969+00:00",
+  "source_snapshot_generated_at": "2026-11-17T07:40:03.029562+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:c46d9afb1454db32e19b10f8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Cloudflare",
+          "リリース",
+          "初投稿"
+        ],
+        "url": "https://zenn.dev/kagam_io/articles/4221e3e3e7bca5",
+        "title": "【初投稿】僕の個人ウェブサイトを公開しました🌟",
+        "author": "kagami",
+        "published_at": "2026-11-17T07:35:50.790000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:926f61140f534b608627e509",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Docker",
+          "plamo",
+          "機械翻訳",
+          "llm"
+        ],
+        "url": "https://zenn.dev/aiforall/articles/8aa2637ea04da4",
+        "title": "PLaMo 3 TranslateをDockerで動かしてDeepLと翻訳精度を比較してみた",
+        "author": "ねもつ",
+        "published_at": "2026-11-17T07:30:10.126000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0f29ea1253c2434c0689d5d5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Java",
+          "アーキテクチャ",
+          "カンファレンス",
+          "協賛"
+        ],
+        "url": "https://zenn.dev/wn_engineering/articles/fbf95d75bea065",
+        "title": "ウェルスナビはアーキテクチャConference 2026とJJUG CCC 2026 Fallに協賛します",
+        "author": "Masaki Endo",
+        "published_at": "2026-11-17T07:30:09.568000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:19648e069169ad5338e0c573",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Chrome",
+          "自動化",
+          "Playwright"
+        ],
+        "url": "https://zenn.dev/bigai/articles/c35a09e80c72aa",
+        "title": "chrome-devtools-mcp と playwriter を比べたら、「診る」と「使う」で正反対だった",
+        "author": "山神月",
+        "published_at": "2026-11-17T07:29:02.089000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2a91eb3cc34c2542a795a8d9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "WebGPU",
+          "OpenAI",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+        "title": "ローカルLLM入門",
+        "author": "tesla",
+        "published_at": "2026-11-17T07:17:24.717000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d0c406e1719e15e74c15a67c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "生産性",
+          "考え方",
+          "生産性向上"
+        ],
+        "url": "https://zenn.dev/mediaforce/articles/b7075a9e04e871",
+        "title": "AI時代の生産性を考える",
+        "author": "Kazuma Hosaka",
+        "published_at": "2026-11-17T07:12:18.532000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:290ade6ed6c49dd4bd70c8a1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "IVRy"
+        ],
+        "url": "https://zenn.dev/ivry/articles/58e78699839d70",
+        "title": "「AI本気で社会実装Night」開催レポート",
+        "author": "shinnosuke",
+        "published_at": "2026-11-17T06:50:54.197000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:554747ac6242314054e8ec0d",
         "source": "zenn",
@@ -38885,6 +38991,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:bf3ec1ec544dc5f0c1208146",
+        "source": "qiita",
+        "author_tags": [
+          "プリザンター",
+          "Pleasanter",
+          "Security",
+          "C#",
+          "API"
+        ],
+        "url": "https://qiita.com/pmc-ko/items/100f9eea77ecc445647d",
+        "title": "プリザンターの4件の脆弱性をコード生成テンプレートまで読み解く",
+        "author": "pmc-ko",
+        "published_at": "2026-11-17T16:15:59+09:00",
+        "excerpt": "はじめに プリザンターのAPIやアクセス制御を読むときは、コントローラーやモデルだけでなく、コードを生成するテンプレートにも目を向ける必要があります。 今回は、ユーザー情報API、添付ファイル、情報公開、項目の読取り制限に関する4件の脆弱性を題材に、問題につながる実装を追います。特に、通常のAPIでは除外した項目が別形式のAPIには残る理由と、画面では隠れている値が別の出力先に現れる理由を整理します。 ここで示す修正方針と改善コードはソース解析に基づく設計案です。既存コードの引用にはファイル名とパーマリンクを付け、改善案にはその旨を記載します。新設する型やメソッドを含む疑似コードは、変更する責務を説明するためのもので、そのまま適用するパッチではありません。メーカーの修正版の実装を説明するものではなく、利用環境への対策は公式の修正版・案内に従う前提です。攻撃リクエストの再現手順は扱いません。 解析対象は、指定されたローカルチェックアウトのバージョン1.5.9.1です。コード引用のリンクは対象コミットに固定しています。以下は静的解析の結果であり、各経"
+      },
+      {
+        "id": "qiita:4b0454de915d954120a19004",
+        "source": "qiita",
+        "author_tags": [
+          "プリザンター",
+          "Pleasanter",
+          "C#",
+          "API",
+          "Security"
+        ],
+        "url": "https://qiita.com/pmc-ko/items/f4e92ec884ba07f6268d",
+        "title": "プリザンター1.5.10.0の追加機能を詳しくみてみる",
+        "author": "pmc-ko",
+        "published_at": "2026-11-17T16:05:11+09:00",
+        "excerpt": "はじめに プリザンターの 1.5.10.0 がリリースされました（公式リリースの公開は 2026 年 11 月 17 日）。前回の「 プリザンター1.5.9.0の追加機能を詳しくみてみる 」では「運用まわりの使い勝手と守りを固める回」と書きましたが、今回はその続きで、 運用基盤の足回りを整える回 という印象です。 キューへの一括更新の追加、API キーの IP 制限の IPv6 対応、システムログのテナント ID、Quartz のエラー記録とテーブル定義の見直し、画像処理ライブラリの入れ替えなどが並びます。加えて、リリースノートの後半には セキュリティ関連の修正 が多く含まれています。この記事ではソースコードを追いかけながら、1.5.10.0 で何が変わったのかを整理してみます。 バージョン 1.5.10.0 を対象にしています。差分は 1.5.9.1 との比較です（2,035 ファイルの変更ですが、約 1,750 ファイルは画面表示の言語リソースと列定義への繁体字の追記です）。リリースノートに載っている項目を中心に、ソースを読んで分かったことを"
+      },
+      {
+        "id": "qiita:c7ac2bdd4502e802f27a6d4c",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "logging",
+          "pydantic",
+          "Security",
+          "アーキテクチャ"
+        ],
+        "url": "https://qiita.com/TOAI/items/63eba52bec8f683ba86a",
+        "title": "Python loggingとPydantic v2による機密情報自動マスキング基盤",
+        "author": "TOAI",
+        "published_at": "2026-11-17T15:53:31+09:00",
+        "excerpt": "構造化ログに機密トークンが混入する事故を防ぐ自動マスキングの実装手順 ログは開発者の目であり、障害解析の生命線です。しかし、この生命線は時として最も危険なアタックサーフェス（攻撃対象領域）に変貌します。 アプリケーションの肥大化に伴い、サードパーティ製ライブラリの拡張や、ネストした辞書・オブジェクトのシリアライズを行う過程で、アクセストークンやAPIキー、JWT（JSON Web Token）が平文でログストレージに流出するインシデントは後を絶ちません。コードレビューでどれほど目を光らせても、開発者がデバッグ目的で出力した「ただ一つの logger.info(payload) 」が、本番環境で機密情報を露呈させます。 手動でのマスキング処理は、実装漏れというヒューマンエラーに対して無力です。この根本的課題を解決するため、Python標準ライブラリの logging ハンドラを拡張し、正規表現パターンとキー名ホワイトリスト（機密キーリスト）に基づいて再帰的に機密情報を検出し、実行時に安全な文字列へと置換する軽量な自動マスキング基盤を構築しました。本"
+      },
+      {
         "id": "qiita:860f5675ae87789ce0630fdc",
         "source": "qiita",
         "author_tags": [
@@ -53139,6 +53293,86 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1561f9382d7be1fc98c94288",
+        "source": "medium",
+        "author_tags": [
+          "tryhackme",
+          "tryhackme-walkthrough",
+          "tryhackme-writeup",
+          "cybersecurity",
+          "cybersecurity-training"
+        ],
+        "url": "https://medium.com/@vivekexists/pickle-rick-tryhackme-ctf-walkthrough-reconnaissance-enumeration-exploitation-c59ed308e212",
+        "title": "Pickle Rick — TryHackMe CTF Walkthrough | Reconnaissance, Enumeration & Exploitation",
+        "author": "Vivekexists",
+        "published_at": "2026-11-17T07:29:57+00:00",
+        "excerpt": "A hands-on walkthrough covering network scanning, web enumeration, source code analysis, and Linux command execution. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:102434568fe12c21ce9d100e",
+        "source": "medium",
+        "author_tags": [
+          "openssl",
+          "digital-signatures",
+          "beginner",
+          "cryptography",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@revazuranti/encrypting-files-and-signing-data-with-openssl-e4016d5ca392",
+        "title": "Encrypting Files and Signing Data with OpenSSL",
+        "author": "Reva Zuranti",
+        "published_at": "2026-11-17T07:29:34+00:00",
+        "excerpt": "Encryption keeps secrets. Signatures prove who wrote something and that it was not changed. Here is how to do both from the command line. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4907305a95d3bf60e175b6b2",
+        "source": "medium",
+        "author_tags": [
+          "ransomware",
+          "ai",
+          "generative-ai-tools",
+          "cyber-security-awareness",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@michaelolowoselu/how-hackers-turn-google-searches-and-wordpress-websites-into-ransomware-entry-points-understanding-a39ff85b60e7",
+        "title": "How Hackers Turn Google Searches and WordPress Websites into Ransomware Entry Points: Understanding…",
+        "author": "Michaelolowoselu",
+        "published_at": "2026-11-17T07:27:23+00:00",
+        "excerpt": "The FBI’s November 16, 2026 alert highlights a persistent threat: cybercriminals can exploit search engine manipulation and compromised… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:21e3721d555fd64cadd59bae",
+        "source": "medium",
+        "author_tags": [
+          "microsoft-365",
+          "technology",
+          "incident-response",
+          "cybersecurity",
+          "cloud-computing"
+        ],
+        "url": "https://medium.com/@jaswanthbommi/microsoft-365-outage-when-one-problem-became-everyones-problem-f4f9effc95ef",
+        "title": "Microsoft 365 Outage: When One Problem Became Everyone’s Problem",
+        "author": "Naga Jaswanth Bommi",
+        "published_at": "2026-11-17T07:16:55+00:00",
+        "excerpt": "On November 12–13, 2026, Microsoft experienced a major outage that impacted several Microsoft 365 services, including Outlook, Teams… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9e9f94de8154bd4f8cfd0cf2",
+        "source": "medium",
+        "author_tags": [
+          "web-penetration-testing",
+          "ssrf",
+          "cybersecurity",
+          "vapt",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@gulshansingh798/1-lab-overview-environment-summary-319bc4a52a7c",
+        "title": "1. Lab Overview & Environment Summary",
+        "author": "Gulshan Kumar",
+        "published_at": "2026-11-17T07:14:31+00:00",
+        "excerpt": "This report documents a multi-stage web application penetration test conducted against the internal SecureCorp Employee Portal… Continue reading on Medium »"
+      },
       {
         "id": "medium:a8ef3397f28dd7a1c3c25417",
         "source": "medium",

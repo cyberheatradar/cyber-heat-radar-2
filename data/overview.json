@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-17T07:07:48.828220+00:00",
-  "as_of": "2026-11-17T07:00:00+00:00",
-  "catalog_count": 24592,
+  "generated_at": "2026-11-17T08:06:58.529332+00:00",
+  "as_of": "2026-11-17T08:00:00+00:00",
+  "catalog_count": 24595,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,100 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T16:52:19.160600+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-94ee1f09f8572dee6943fbe5",
+      "primary_category": "ransomware",
+      "public_article_id": "url:94ee1f09f8572dee6943fbe5",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-17T16:25:44+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "summary_excerpt": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "threat_actors": [],
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/peter-stockli-github-ai-security-audits/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T16:23:52.886825+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-dc2f2a41d89df7a1509910f3",
+      "primary_category": "ai_security",
+      "public_article_id": "url:dc2f2a41d89df7a1509910f3",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-17T16:00:54+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "In this Help Net Security interview, Peter Stöckli, Security Researcher at GitHub, explains how the team uses AI agents to audit software for vulnerabilities. The discussion covers why the work started with authentication and authorization bugs, how prompts are tested and trimmed for each model, and what the agent produces during threat modeling. Stöckli also describes how every report is checked by a person before it reaches maintainers, how false positives are filtered out, and … More → The post Too many instructions can hold back AI security audits appeared first on Help Net Security .",
+      "summary_excerpt": "In this Help Net Security interview, Peter Stöckli, Security Researcher at GitHub, explains how the team uses AI agents to audit software for vulnerabilities. The discussion covers why the work started with authentication and authorization bugs, how prompts are tested and trimmed for each model, and what the agent produces during threat modeling. Stöckli also describes how every report is checked by a person before it reaches maintainers, how false positives are filtered out, and … More → The post Too many instructions can hold back AI security audits appeared first on Help Net Security .",
+      "threat_actors": [],
+      "title": "Too many instructions can hold back AI security audits"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T16:23:53.508017+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-623b034adf4a526a7666e9ab",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:623b034adf4a526a7666e9ab",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-17T15:46:16+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Anthropic will publicly disclose high- and critical-severity vulnerabilities it reports to vendors and open source maintainers after 30 days, down from 90. Every other bug it reports gets 45 days. The new deadlines cover reports sent on or after January 1, 2027, and reports already open on that date keep the deadlines they started with. The company says it no longer expects a reported vulnerability to stay private for months, because a bug one model … More → The post Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs appeared first on Help Net Security .",
+      "summary_excerpt": "Anthropic will publicly disclose high- and critical-severity vulnerabilities it reports to vendors and open source maintainers after 30 days, down from 90. Every other bug it reports gets 45 days. The new deadlines cover reports sent on or after January 1, 2027, and reports already open on that date keep the deadlines they started with. The company says it no longer expects a reported vulnerability to stay private for months, because a bug one model … More → The post Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs appeared first on Help Net Security .",
+      "threat_actors": [],
+      "title": "Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs"
+    },
     {
       "ai_relevance": "primary",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/cybersecurity-seed-funding-deals/",
@@ -182,82 +276,10 @@
       "seen_in_kev": false,
       "source_class": "topic_rss",
       "source_name": "Help Net Security",
-      "summary": "Cybersecurity Architect Peraton | USA | On-site – View job details As a Cybersecurity Architect, you will integrate security into DevSecOps, implement and maintain security controls, and manage ATO packages in accordance with DoD, DAF and customer requirements. You will develop security plans and procedures, assess risks, and apply expertise in systems, networks and incident response to address complex cybersecurity challenges. Cyber Security Engineer Rozmith | USA | Remote – View job details As a … More → The post Cybersecurity jobs available right now: November 17, 2026 appeared first on Help Net Security .",
-      "summary_excerpt": "Cybersecurity Architect Peraton | USA | On-site – View job details As a Cybersecurity Architect, you will integrate security into DevSecOps, implement and maintain security controls, and manage ATO packages in accordance with DoD, DAF and customer requirements. You will develop security plans and procedures, assess risks, and apply expertise in systems, networks and incident response to address complex cybersecurity challenges. Cyber Security Engineer Rozmith | USA | Remote – View job details As a … More → The post Cybersecurity jobs available right now: November 17, 2026 appeared first on Hel",
+      "summary": "Cybersecurity Architect Peraton | USA | On-site – View job details As a Cybersecurity Architect, you will integrate security into DevSecOps, implement and maintain security controls, and manage ATO packages in accordance with DoD, DAF and customer requirements. You will develop security plans and procedures, assess risks, and apply expertise in systems, networks and incident response to address complex cybersecurity challenges. Cyber Security Engineer Rozmith | USA | Remote – No longer accepting applications As … More → The post Cybersecurity jobs available right now: November 17, 2026 appeared first on Help Net Security .",
+      "summary_excerpt": "Cybersecurity Architect Peraton | USA | On-site – View job details As a Cybersecurity Architect, you will integrate security into DevSecOps, implement and maintain security controls, and manage ATO packages in accordance with DoD, DAF and customer requirements. You will develop security plans and procedures, assess risks, and apply expertise in systems, networks and incident response to address complex cybersecurity challenges. Cyber Security Engineer Rozmith | USA | Remote – No longer accepting applications As … More → The post Cybersecurity jobs available right now: November 17, 2026 appeare",
       "threat_actors": [],
       "title": "Cybersecurity jobs available right now: November 17, 2026"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://gigazine.net/news/20261117-microsoft-outlook-incidents-updates/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T13:22:45.591005+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-60ea71e3def149220078ad7d",
-      "primary_category": "other",
-      "public_article_id": "url:60ea71e3def149220078ad7d",
-      "public_tags": [],
-      "published_at": "2026-11-17T13:05:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "GIGAZINE",
-      "summary": "2026年11月12日に発生したOutlookやExchange Onlineなどの世界規模のサービス障害について、Microsoftが11月16日に暫定的な調査報告書を公開しました。2026年7月のバグ修正によって混入した新たなバグと複数のインフラ上の問題が重なったことで、障害が連鎖的に拡大したことが明らかになっています。 続きを読む...",
-      "summary_excerpt": "2026年11月12日に発生したOutlookやExchange Onlineなどの世界規模のサービス障害について、Microsoftが11月16日に暫定的な調査報告書を公開しました。2026年7月のバグ修正によって混入した新たなバグと複数のインフラ上の問題が重なったことで、障害が連鎖的に拡大したことが明らかになっています。 続きを読む...",
-      "threat_actors": [],
-      "title": "MicrosoftがOutlookの大規模障害の原因を公表、2026年7月のバグ修正が引き金となりサーバーの80％以上が応答不能に"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/17/2000003257/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T13:22:49.451511+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-4a12907c38774f51f708bab9",
-      "primary_category": "other",
-      "public_article_id": "url:4a12907c38774f51f708bab9",
-      "public_tags": [],
-      "published_at": "2026-11-17T12:35:13+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Bursts",
-      "summary": "企業向けマーケティングサービス「KARTE」（カルテ）が不正アクセスを受け、利用企業のアカウント情報や、利用企業から預かっている顧客情報の一部、利用企業が外部サービスとの連携に使うシークレットキーなどが漏えいした。",
-      "summary_excerpt": "企業向けマーケティングサービス「KARTE」（カルテ）が不正アクセスを受け、利用企業のアカウント情報や、利用企業から預かっている顧客情報の一部、利用企業が外部サービスとの連携に使うシークレットキーなどが漏えいした。",
-      "threat_actors": [],
-      "title": "モリサワや「mineo」など会員情報漏えい　マーケツール「KARTE」不正アクセス、外部サービス連携用シークレットキーなども"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2611/17/2000003251/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T13:22:51.529464+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-63ca4690618dee37b8a4d621",
-      "primary_category": "other",
-      "public_article_id": "url:63ca4690618dee37b8a4d621",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-17T12:32:46+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "TechTarget Japan Security",
-      "summary": "「Outlook」の脆弱性が悪用され、NTLMv2ハッシュが漏えいする恐れがある。「Chrome」のXSLT停止や「Gemini」と「GitHub Copilot」の変更も確認したい。",
-      "summary_excerpt": "「Outlook」の脆弱性が悪用され、NTLMv2ハッシュが漏えいする恐れがある。「Chrome」のXSLT停止や「Gemini」と「GitHub Copilot」の変更も確認したい。",
-      "threat_actors": [],
-      "title": "Outlookでゼロデイ悪用、ChromeはXSLT停止――今朝の情シスニュース"
     }
   ],
   "hottest": [
@@ -539,53 +561,64 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://jvn.jp/vu/JVNVU92504317/",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-17T14:54:12.705756+09:00",
+      "first_seen_at": "2026-11-17T16:52:19.160600+09:00",
       "heat_score": 65.0,
-      "permalink_id": "article-url-01752ecd2e47586749c12658",
-      "primary_category": "other",
-      "public_article_id": "url:01752ecd2e47586749c12658",
-      "public_tags": [],
-      "published_at": "2026-11-17T14:30:00+09:00",
+      "permalink_id": "article-url-94ee1f09f8572dee6943fbe5",
+      "primary_category": "ransomware",
+      "public_article_id": "url:94ee1f09f8572dee6943fbe5",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-17T16:25:44+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "JVN",
-      "summary": "エレコム株式会社が提供する無線LANルータには、OSコマンドインジェクションの脆弱性が存在します。",
-      "summary_excerpt": "エレコム株式会社が提供する無線LANルータには、OSコマンドインジェクションの脆弱性が存在します。",
+      "source_name": "BleepingComputer",
+      "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "summary_excerpt": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
       "threat_actors": [],
-      "title": "エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性"
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison"
     },
     {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-17T14:54:20.821385+09:00",
+      "first_seen_at": "2026-11-17T16:23:53.508017+09:00",
       "heat_score": 65.0,
-      "permalink_id": "article-url-7d8a94de5f64d8dd628d4dd4",
+      "permalink_id": "article-url-623b034adf4a526a7666e9ab",
       "primary_category": "vulnerability",
-      "public_article_id": "url:7d8a94de5f64d8dd628d4dd4",
+      "public_article_id": "url:623b034adf4a526a7666e9ab",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
         }
       ],
-      "published_at": "2026-11-17T14:00:34+09:00",
+      "published_at": "2026-11-17T15:46:16+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
-      "summary_excerpt": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
+      "source_name": "Help Net Security",
+      "summary": "Anthropic will publicly disclose high- and critical-severity vulnerabilities it reports to vendors and open source maintainers after 30 days, down from 90. Every other bug it reports gets 45 days. The new deadlines cover reports sent on or after January 1, 2027, and reports already open on that date keep the deadlines they started with. The company says it no longer expects a reported vulnerability to stay private for months, because a bug one model … More → The post Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs appeared first on Help Net Security .",
+      "summary_excerpt": "Anthropic will publicly disclose high- and critical-severity vulnerabilities it reports to vendors and open source maintainers after 30 days, down from 90. Every other bug it reports gets 45 days. The new deadlines cover reports sent on or after January 1, 2027, and reports already open on that date keep the deadlines they started with. The company says it no longer expects a reported vulnerability to stay private for months, because a bug one model … More → The post Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs appeared first on Help Net Security .",
       "threat_actors": [],
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners"
+      "title": "Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs"
     }
   ],
   "rising": [],
@@ -924,32 +957,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】AI security took more than one in three cybersecurity seed funding deals",
+    "【LATEST #1】Ransomware affiliate suspect extradited to US, faces 27 years in prison",
     "【HOTTEST #1 / Heat 67.5】Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
-    "【LATEST #2】Microsoft gives admins one policy to manage Windows patches and fixes for PCs that won’t boot",
+    "【LATEST #2】Too many instructions can hold back AI security audits",
     "【HOTTEST #2 / Heat 67.5】CVE-2026-84869 in ScreenConnect Exploited to Run Malicious Files on MSP Technician Accounts",
-    "【LATEST #3】プリザンターにおける複数の脆弱性",
+    "【LATEST #3】Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs",
     "【HOTTEST #3 / Heat 67.5】From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
-    "【LATEST #4】エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性",
+    "【LATEST #4】AI security took more than one in three cybersecurity seed funding deals",
     "【HOTTEST #4 / Heat 67.5】CVE-2026-119618",
-    "【LATEST #5】Japan's Fugaku supercomputer has decidedly un-super security",
+    "【LATEST #5】Microsoft gives admins one policy to manage Windows patches and fixes for PCs that won’t boot",
     "【HOTTEST #5 / Heat 67.5】Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-14T07:00:00+00:00",
-    "last_as_of": "2026-11-17T07:00:00+00:00",
+    "first_as_of": "2026-11-14T08:00:00+00:00",
+    "last_as_of": "2026-11-17T08:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-17T07:00:00+00:00",
-  "heat_as_of": "2026-11-17T07:00:00+00:00",
+  "news_as_of": "2026-11-17T08:00:00+00:00",
+  "heat_as_of": "2026-11-17T08:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24592,
-  "last_published_at": "2026-11-17T16:08:00.099694+09:00",
-  "publication_slot_jst": "2026-11-17T16:00:00+09:00"
+  "news_catalog_count": 24595,
+  "last_published_at": "2026-11-17T17:07:09.899048+09:00",
+  "publication_slot_jst": "2026-11-17T17:00:00+09:00"
 }
