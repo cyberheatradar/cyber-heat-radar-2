@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-17T15:40:02.741962+00:00",
+  "source_snapshot_generated_at": "2026-11-17T16:40:02.885240+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:51025e91f3a847fa67bfd7a5",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "GuardDuty",
+          "生成 AI",
+          "amazoninspector"
+        ],
+        "url": "https://zenn.dev/kawam_aki/articles/44d2bde8b76ab8",
+        "title": "AIで攻撃が「速く・広く」なった今、AWSのセキュリティサービスをどう組み合わせるか",
+        "author": "Aki",
+        "published_at": "2026-11-17T16:27:46.863000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8f2e31046c804bc0f3822fb9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "ax",
+          "Claude",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/kuwashima/articles/ax-28-coding-agents-comparison",
+        "title": "28種のAIコーディングCLIを徹底比較！ハーネスの性格と裏の顔",
+        "author": "kuwashima",
+        "published_at": "2026-11-17T16:15:50.157000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:12563d3f6926a8006a9db7ba",
         "source": "zenn",
@@ -39685,6 +39717,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:81c4d7e34b367e6ee7392c74",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "個人情報",
+          "不正アクセス",
+          "ランサムウェア",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/RyuyaSasaki/items/ea4ead3a6ff3fcdef434",
+        "title": "「不正アクセスによる個人情報漏えいのお詫び」はどこから入られたのか ― 日本の公的統計で手口を4つに整理する",
+        "author": "RyuyaSasaki",
+        "published_at": "2026-11-18T00:44:27+09:00",
+        "excerpt": "はじめに 企業サイトで「不正アクセスによる個人情報漏えいに関するお詫びとお知らせ」を見かけることが、ここ1〜2年で明らかに増えました。 お詫び文には「第三者による不正アクセス」としか書かれていないことが多く、 どこから入られたのか は読み取りにくいものです。そこで、警察庁・個人情報保護委員会・IPA・東京商工リサーチ(TSR)の公表資料を読み、侵入口ごとに整理しました。 先に結論を書きます。 新しい攻撃技術に破られているというより、 古い脆弱性の放置と弱い認証 という基本の抜けを突かれている事例が大半です。 この記事は、Web サービスや社内システムを作る・運用するエンジニア向けです。読み終わったら、自分の担当システムで末尾のチェックリストを1回なぞってみてください。 数字はすべて各資料の公表時点のもので、集計の対象と基準は資料ごとに異なります(上場企業のみ、報告ベース、アンケートベースなど)。資料をまたいで足したり比べたりはしないでください。 1. まず数字で規模をつかむ 上場企業の漏えい・紛失事故(東京商工リサーチ) TSR は、上場企業とそ"
+      },
+      {
         "id": "qiita:f0403ab4df8c0b3dba1ea8c2",
         "source": "qiita",
         "author_tags": [
@@ -54143,6 +54191,69 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a9f14e3a0eab804abc42ed99",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "programming",
+          "information-security",
+          "web-security",
+          "javascript"
+        ],
+        "url": "https://medium.com/@coders.stop/one-editable-text-field-put-malware-on-cnn-zoom-and-the-bbc-db40787e7b2e",
+        "title": "One Editable Text Field Put Malware on CNN, Zoom, and the BBC",
+        "author": "Coders Stop",
+        "published_at": "2026-11-17T16:30:55+00:00",
+        "excerpt": "Nobody broke into CNN. Nobody broke into Zoom or the BBC either. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b92eaa56cdd05fea8242e0d4",
+        "source": "medium",
+        "author_tags": [
+          "security",
+          "artificial-intelligence",
+          "devops",
+          "cybersecurity",
+          "llm"
+        ],
+        "url": "https://medium.com/@aicodeops/your-repo-can-talk-to-your-ai-agent-prompt-injection-for-coding-teams-7feaa8d2a8f4",
+        "title": "Your repo can talk to your AI agent: prompt injection for coding teams",
+        "author": "AI CodeOps",
+        "published_at": "2026-11-17T16:20:13+00:00",
+        "excerpt": "A coding agent reads a lot before it writes anything: the issue it was assigned, comments on it, the README, docs, source files, test… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:00bb3967b6c43ddb1f660eaf",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "malware-analysis",
+          "digital-forensics",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@yashaswikankarla/uncovering-persistence-and-command-and-control-behavior-a-malware-analysis-case-study-9feceb61e69a",
+        "title": "Uncovering Persistence and Command-and-Control Behavior: A Malware Analysis Case Study",
+        "author": "codeword Chronicles",
+        "published_at": "2026-11-17T16:11:16+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6e88a345b3ab77eaa39dfb9d",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "digital-forensics",
+          "incident-response",
+          "malware-analysis",
+          "windows-security"
+        ],
+        "url": "https://medium.com/@richiewilder87/from-a-routine-eset-scan-to-an-encrypted-malware-loader-a-windows-11-incident-response-case-study-f851ac78668d",
+        "title": "From a Routine ESET Scan to an Encrypted Malware Loader: A Windows 11 Incident Response Case Study",
+        "author": "Richard Wilder",
+        "published_at": "2026-11-17T16:07:26+00:00",
+        "excerpt": "How I uncovered unauthorized remote-access software, malicious scheduled tasks, an obfuscated Node.js loader, and encrypted executable… Continue reading on Medium »"
+      },
       {
         "id": "medium:db7f04002e75aaba1db35913",
         "source": "medium",

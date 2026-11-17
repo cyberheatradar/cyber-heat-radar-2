@@ -1,5 +1,33 @@
 [
   {
+    "ai_relevance": "primary",
+    "canonical_url": "https://www.theregister.com/security/2026/11/17/hackers-smash-n-grab-ai-vendor-take-off-with-license-data-of-uber-drivers/5310464",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:23:24.124745+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-d2045c04e3846ac51a9f883b",
+    "primary_category": "ai_security",
+    "public_article_id": "url:d2045c04e3846ac51a9f883b",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      }
+    ],
+    "published_at": "2026-11-18T01:15:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Register Security",
+    "summary": "Ride-hailing biz says stolen credentials allowed crooks to help themselves to driver's license data",
+    "summary_excerpt": "Ride-hailing biz says stolen credentials allowed crooks to help themselves to driver's license data",
+    "threat_actors": [],
+    "title": "Hackers smash 'n' grab AI vendor: Take  off with license data of Uber drivers"
+  },
+  {
     "ai_relevance": "none",
     "canonical_url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
     "cves": [],
@@ -26,6 +54,39 @@
     "summary_excerpt": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
     "threat_actors": [],
     "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions"
+  },
+  {
+    "ai_relevance": "primary",
+    "canonical_url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:23:21.745281+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-636abb4fba14b122457b269f",
+    "primary_category": "ai_security",
+    "public_article_id": "url:636abb4fba14b122457b269f",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      },
+      {
+        "color_family": "cyan",
+        "key": "agentic_security",
+        "label": "Agentic Security"
+      }
+    ],
+    "published_at": "2026-11-18T00:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Microsoft Security Blog",
+    "summary": "Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft Security Blog .",
+    "summary_excerpt": "Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft Security Blog .",
+    "threat_actors": [],
+    "title": "The risks of device code authentication for AI coding agents"
   },
   {
     "ai_relevance": "primary",
@@ -552,6 +613,373 @@
   },
   {
     "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+    "cves": [
+      "CVE-2026-112136",
+      "CVE-2026-112137"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:13.400216+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-f61efca8f592b87c7c098f75",
+    "primary_category": "ai_security",
+    "public_article_id": "url:f61efca8f592b87c7c098f75",
+    "public_tags": [
+      {
+        "color_family": "cyan",
+        "key": "ai_security",
+        "label": "AI Security"
+      },
+      {
+        "color_family": "cyan",
+        "key": "mcp",
+        "label": "MCP"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cve",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution, or system compromise. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens Mendix Studio Pro are affected: Mendix Studio Pro 11 vers:intdot/>=11.15.0|<11.16.0 (CVE-2026-112136, CVE-2026-112137) Mendix Studio Pro 11.12 vers:intdot/>=11.12.6|<11.12.7 (CVE-2026-112136, CVE-2026-112137) CVSS Vendor Equipment v3 8.8 Siemens Mendix Studio Pro 11 2 Vulnerabilities Binding to an Unrestricted IP Address, Cross-Site Request Forgery (CSRF) Background Critical Infrastructure Sectors: Critical Manufacturing, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-112136 The affected products MCP Server does not properly restrict its HTTP listener to the loopback interface, leaving it potentially exposed to remote systems. This could allow an attacker with network access to interact with the MCP Server remotely. Read More 2 Affected Products Mendix Studio Pro 11 >= V11.15.0 < V11.16.0 Product Status: known_affected Remediations Mitigation Maintain strict inbound firewall policies (such as Windows Defender Firewall) blocking external traffic on port 7782. This is already the case by default on standard Windows installations. If remote access is required, restrict traffic via a secure, authenticated channel (e.g., a VPN or SSH tunnel) rather than opening direct inbound firewall rules. Vendor fix Update to V11.16.0 or later version Mendix Studio Pro 11.12 >= V11.12.6 < V11.12.7 Product Status: known_affected Remediations Mitigation Maintain strict inbound firewall policies (such as Windows Defender Firewall) blocking external traffic on port 7782. This is already the case by default on standard Windows installations. If remote access is required, restrict traffic via a secure, authenticated channel (e.g., a VPN or SSH tunnel) rather than opening direct inbound firewall rules. Vendor fix Update to V11.12.7 or later version Additional Metrics Relevant CWE: CWE-1327 Binding to an Unrestricted IP Address CVSS Version Base Score Base Severity Vector String 3.1 8.8 HIGH CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H View CVE Details CVE-2026-112137 The affected products MCP Server does not properly validate Content-Type and Origin headers on incoming HTTP requests, leaving it vulnerable to Cross-Site Request Forgery (CSRF). This could allow a malicious web page to trick a user's browser into sending unauthorized requests and executing unintended actions on the local MCP Server. Read More 4 Affected Products Mendix Studio Pro 11 >= V11.15.0 < V11.16.0 Product Status: known_affected Remediations Mitigation Utilize modern Chromium- or WebKit-based browsers with Private Network Access protections enabled, or use browser extensions (such as uBlock Origin or NoScript) to block external websites from issuing fetch requests to localhost (127.0.0.1). Vendor fix Update to V11.16.0 or later version Mendix Studio Pro 11.12 >= V11.12.6 < V11.12.7 Product Status: known_affected Remediations Mitigation Utilize modern Chromium- or WebKit-based browsers with Private Network Access protections enabled, or use browser extensions (such as uBlock Origin or NoScript) to block external websites from issuing fetch requests to localhost (127.0.0.1). Vendor fix Update to V11.12.7 or later version Mendix Studio Pro 11 >= V11.15.0 < V11.16.0 Product Status: known_affected Remediations Mitigation Utilize modern Chromium- or WebKit-based browsers with Private Network Access protections enabled, or use browser extensions (such as uBlock Origin or NoScript) to block external websites from issuing fetch requests to localhost (127.0.0.1). Vendor fix Update to V11.16.0 or later version Mendix Studio Pro 11.12 >= V11.12.6 < V11.12.7 Product Status: known_affected Remediations Mitigation Utilize modern Chromium- or WebKit-based browsers with Private Network Access protections enabled, or use browser extensions (such as uBlock Origin or NoScript) to block external websites from issuing fetch requests to localhost (127.0.0.1). Vendor fix Update to V11.12.7 or later version Additional Metrics Relevant CWE: CWE-352 Cross-Site Request Forgery (CSRF) CVSS Version Base Score Base Severity Vector String 3.1 5.4 MEDIUM CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L View CVE Details Acknowledgments Siemens ProductCERT reported these vulnerabilities to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-710379 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-16 2 Mapped the advisory to Mendix products to be present on the Mendix Atom Feed 2026-11-17 3 Initial CISA Republication of Siemens ProductCERT SSA-710379 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution, or system compromise. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens Mendix Studio Pro are affected: Mendix Studio Pro 11 vers:intdot/>=11.15.0|<11.16.0 (CVE-2026-112136, CVE-2026-112137) Mendix Studio ",
+    "threat_actors": [],
+    "title": "Siemens Mendix Studio Pro"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+    "cves": [
+      "CVE-2026-85114",
+      "CVE-2026-85115"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:13.304102+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-639fac0f8727e01aec6e9400",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:639fac0f8727e01aec6e9400",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S7 Webserver API and recommends to update to the latest version. The following versions of Siemens .NET Client Library for SIMATIC S7 Webserver API are affected: .NET Client Library for SIMATIC S7 Webserver API vers:intdot/<3.3.61, vers:intdot/<3.3.62 (CVE-2026-85114, CVE-2026-85115) CVSS Vendor Equipment v3 7.5 Siemens .NET Client Library for SIMATIC S7 Webserver API 2 Vulnerabilities Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Generation of Error Message Containing Sensitive Information Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-85114 Affected applications do not properly validate filenames received from remote servers during ticket downloads. This could allow an attacker who can manipulate the ticket response to write arbitrary files outside the intended download directory and, when overwriting is enabled, replace existing files accessible to the application. Read More 1 Affected Product .NET Client Library for SIMATIC S7 Webserver API < V3.3.61 Product Status: known_affected Remediations Vendor fix Update to V3.3.61 or later version Additional Metrics Relevant CWE: CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') CVSS Version Base Score Base Severity Vector String 3.1 7.5 HIGH CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N View CVE Details CVE-2026-85115 Affected applications do not properly redact PLC restore passwords from HTTP error exception messages. This could allow an attacker with access to logs or other diagnostic output to obtain the plaintext restore password and potentially perform unauthorized operations on the PLC. Read More 2 Affected Products .NET Client Library for SIMATIC S7 Webserver API < V3.3.61 Product Status: known_affected Remediations .NET Client Library for SIMATIC S7 Webserver API < V3.3.62 Product Status: known_affected Remediations Vendor fix Update to V3.3.62 or later version Additional Metrics Relevant CWE: CWE-209 Generation of Error Message Containing Sensitive Information CVSS Version Base Score Base Severity Vector String 3.1 5.5 MEDIUM CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N View CVE Details Acknowledgments Siemens ProductCERT reported these vulnerabilities to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-390352 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-10-13 Date Revision Summary 2026-10-13 1 Publication Date 2026-11-10 2 Added researcher acknowledgement 2026-11-17 3 Initial CISA Republication of Siemens ProductCERT SSA-390352 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S7 Webserver API and recommends to update to the latest version. The following versions of Siemens .NET Client Library for SIMATIC S7 Webserver API are affected: .NET Client Library for SIMATIC S7 Webserver API vers:intdot/<3.3.61, vers:intdot/<3.3.62 (CVE-2026-85114, CVE-2026-85115) CVSS Vendor Equi",
+    "threat_actors": [],
+    "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+    "cves": [
+      "CVE-2026-109830"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:13.189374+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-fae4ec42780a6b53cc836a62",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:fae4ec42780a6b53cc836a62",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "neutral",
+        "key": "ics",
+        "label": "ICS"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cisa_ics_advisory",
+        "label": "ICS Advisory"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is preparing fixes and recommends mitigations for products where fixes are not or not yet available. The following versions of Siemens meta-iot2050 are affected: meta-iot2050 vers:intdot/>=01.03.01 (CVE-2026-109830) CVSS Vendor Equipment v3 7.3 Siemens meta-iot2050 1 Vulnerability Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-109830 Affected devices take parts from a configuration file and execute them unchecked. This could allow an attacker which is able to manipulate the configuration file to make the user execute arbitrary code on the device. Read More 1 Affected Product meta-iot2050 >= V01.03.01 Product Status: known_affected Remediations None available Currently no fix is available Additional Metrics Relevant CWE: CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') CVSS Version Base Score Base Severity Vector String 3.1 7.3 HIGH CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H View CVE Details Acknowledgments Siemens ProductCERT reported this vulnerability to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-724261 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-17 2 Initial CISA Republication of Siemens ProductCERT SSA-724261 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is preparing fixes and recommends mitigations for products where fixes are not or not yet available. The following versions of Siemens meta-iot2050 are affected: meta-iot2050 vers:intdot/>=01.03.01 (CVE-2026-109830) CVSS Vendor Equipment v3 7.3 Siemens meta-iot2050 1 Vulnerability Improper Neutralization of Specia",
+    "threat_actors": [],
+    "title": "Siemens meta-iot2050"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+    "cves": [
+      "CVE-2026-59082"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:13.110536+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-1e3a8a0a7e3cd062f91cea28",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:1e3a8a0a7e3cd062f91cea28",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC WinCC are affected: SIMATIC WinCC V7.5 vers:all/* (CVE-2026-59082) SIMATIC WinCC V8.0 vers:all/* (CVE-2026-59082) SIMATIC WinCC V8.1 vers:all/* (CVE-2026-59082) CVSS Vendor Equipment v3 7.8 Siemens SIMATIC WinCC V7.5 1 Vulnerability Insufficient UI Warning of Dangerous Operations Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-59082 Affected devices implicitly execute active content when opening files. This could allow an attacker to make the user execute arbitrary code on the device. Read More 3 Affected Products SIMATIC WinCC V7.5 Product Status: known_affected Remediations Mitigation The affected product may be operated only by personnel qualified for the specific task in accordance with the relevant documentation, in particular its warning notices and safety instructions. Qualified personnel are those who, based on their training and experience, are capable of identifying risks and avoiding potential hazards when working with the affected product. Also make sure to only open files from trusted sources. None available Currently no fix is available SIMATIC WinCC V8.0 Product Status: known_affected Remediations Mitigation The affected product may be operated only by personnel qualified for the specific task in accordance with the relevant documentation, in particular its warning notices and safety instructions. Qualified personnel are those who, based on their training and experience, are capable of identifying risks and avoiding potential hazards when working with the affected product. Also make sure to only open files from trusted sources. None available Currently no fix is available SIMATIC WinCC V8.1 Product Status: known_affected Remediations Mitigation The affected product may be operated only by personnel qualified for the specific task in accordance with the relevant documentation, in particular its warning notices and safety instructions. Qualified personnel are those who, based on their training and experience, are capable of identifying risks and avoiding potential hazards when working with the affected product. Also make sure to only open files from trusted sources. None available Currently no fix is available Additional Metrics Relevant CWE: CWE-357 Insufficient UI Warning of Dangerous Operations CVSS Version Base Score Base Severity Vector String 3.1 7.8 HIGH CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H View CVE Details Acknowledgments Siemens ProductCERT reported this vulnerability to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-979641 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-17 2 Initial CISA Republication of Siemens ProductCERT SSA-979641 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC WinCC are affected: SIMATIC WinCC V7.5 vers:all/* (CVE-2026-59082) SIMATIC WinCC V8.0 vers:all/* (CVE-2026-59082) SIMATIC WinCC V8.1 vers:all/* (CVE-2026-59082) CVSS Vendor Equipment v3 7.8 Siemens SIMATIC WinCC V7.5",
+    "threat_actors": [],
+    "title": "Siemens SIMATIC WinCC"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+    "cves": [
+      "CVE-2026-106175"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:12.987485+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-b408794a3196e1df425e4830",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:b408794a3196e1df425e4830",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support to receive detailed information The following versions of Siemens RUGGEDCOM APE1808 are affected: RUGGEDCOM APE1808 vers:all/* (CVE-2026-106175) CVSS Vendor Equipment v3 2.3 Siemens RUGGEDCOM APE1808 1 Vulnerability Double Free Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-106175 A Double Free vulnerability [CWE-415] in FortiOS, FortiProxy and FortiSwitch may allow a local authenticated attacker to crash the newcli daemon via crafted CLI commands. Read More 1 Affected Product RUGGEDCOM APE1808 with Fortinet NGFW Product Status: known_affected Remediations Vendor fix Update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support to receive detailed information Additional Metrics Relevant CWE: CWE-415 Double Free CVSS Version Base Score Base Severity Vector String 3.1 2.3 LOW CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L View CVE Details Acknowledgments Siemens ProductCERT reported this vulnerability to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-651988 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-17 2 Initial CISA Republication of Siemens ProductCERT SSA-651988 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support to receive detailed information The following versions of Siemens RUGGEDCOM APE1808 are affected: RUGGEDCOM APE1808 vers:all/* (CVE-2026-106175) CVSS Vendor Equipment v3 2.3 Siemens RUGGEDCOM APE1808 1 Vulnerability Double Free Background Critical Infrastructure Sectors: Critical Manufacturing Countr",
+    "threat_actors": [],
+    "title": "Siemens RUGGEDCOM APE1808"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+    "cves": [
+      "CVE-2026-117659",
+      "CVE-2026-120157",
+      "CVE-2026-120255",
+      "CVE-2026-120260",
+      "CVE-2026-120271",
+      "CVE-2026-120298"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:12.630353+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-986d782997068f3c61b8b0cf",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:986d782997068f3c61b8b0cf",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "neutral",
+        "key": "ics",
+        "label": "ICS"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cisa_ics_advisory",
+        "label": "ICS Advisory"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Controls InfoScan are affected: InfoScan <=1.45.0 (CVE-2026-117659, CVE-2026-120157, CVE-2026-120255, CVE-2026-120260, CVE-2026-120271, CVE-2026-120298) CVSS Vendor Equipment v3 8.1 Dorsett Controls InfoScan 5 Vulnerabilities Improper Certificate Validation, Exposure of Sensitive System Information to an Unauthorized Control Sphere, Use of Hard-coded Cryptographic Key, Missing Authentication for Critical Function, Generation of Error Message Containing Sensitive Information Background Critical Infrastructure Sectors: Water and Wastewater Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE-2026-117659 The InfoScan Electron desktop client improperly handles TLS certificate errors by accepting certificates without validating their trustworthiness. The client also configures Electron with nodeIntegration enabled, contextIsolation disabled, and webSecurity disabled. These settings weaken the client’s security boundaries. An attacker who is able to intercept or manipulate network communications may be able to present an untrusted certificate without the application rejecting the connection. Read More 1 Affected Product Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Additional Metrics Relevant CWE: CWE-295 Improper Certificate Validation CVSS Version Base Score Base Severity Vector String 3.1 8.1 HIGH CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N 4.0 8.5 HIGH CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N View CVE Details CVE-2026-120157 The publicly distributed InfoScan Electron installer contains configuration files identifying hostnames associated with customer installations and internal development, testing, and database infrastructure. An individual who obtains and inspects the installer can extract these hostnames without authenticating to the affected systems. Read More 2 Affected Products Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Additional Metrics Relevant CWE: CWE-497 Exposure of Sensitive System Information to an Unauthorized Control Sphere CVSS Version Base Score Base Severity Vector String 3.1 5.3 MEDIUM CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N 4.0 6.9 MEDIUM CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N View CVE Details CVE-2026-120255 InfoScan uses hard-coded cryptographic keys and initialization-vector values in its database-encryption implementation. The application uses these values to encrypt the MongoDB password before storing it in the Windows registry. Because the cryptographic material is embedded in the distributed application, an individual with access to the encrypted registry value and the application code may be able to recover the database password. Read More 3 Affected Products Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Additional Metrics Relevant CWE: CWE-321 Use of Hard-coded Cryptographic Key CVSS Version Base Score Base Severity Vector String 3.1 4.3 MEDIUM CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N 4.0 5.1 MEDIUM CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N View CVE Details CVE-2026-120260 InfoScan does not enforce authentication on an endpoint used to retrieve sales-automation templates. A local attacker can submit an HTTP request to the affected endpoint without a valid session and retrieve the returned template data. Read More 4 Affected Products Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Additional Metrics Relevant CWE: CWE-306 Missing Authentication for Critical Function CVSS Version Base Score Base Severity Vector String 3.1 5.5 MEDIUM CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N 4.0 6.8 MEDIUM CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N View CVE Details CVE-2026-120271 InfoScan contains an unauthenticated information disclosure vulnerability in its mobile-enumeration and version-reporting endpoints. A remote attacker can send HTTP requests without authentication to retrieve system configuration information, including usernames and display names, multifactor authentication configuration status, session settings, application version information, server details, hardware module firmware versions, and the BACnet/IP port used by the installation. Read More 5 Affected Products Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Additional Metrics Relevant CWE: CWE-497 Exposure of Sensitive System Information to an Unauthorized Control Sphere CVSS Version Base Score Base Severity Vector String 3.1 5.3 MEDIUM CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N 4.0 6.9 MEDIUM CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N View CVE Details CVE-2026-120298 InfoScan fails to properly handle certain malformed or incomplete requests to its login and password-reset endpoints. These requests can trigger unhandled server exceptions that return detailed Node.js stack traces to the requester. The responses disclose internal filesystem paths, application directory names, source file locations, and line numbers. Read More 6 Affected Products Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Dorsett Controls InfoScan <=1.45.0 Product Status: known_affected Remediations Vendor fix Dorsett Controls recommends updating affected versions of InfoScan to v1.46 or higher. To install the security patch, user administrators will need to log in to InfoScan and select System Maintenance from the menu. Once the System Maintenance application is open, select Check for Updates, and click the Install Now button in the Ready To Install section. If you are an offline customer (InfoScan has no internet access), you will need to download the update from the Dorsett Controls Customer Portal by selecting the InfoScan Update tile, downloading the update, and following the instructions listed on the portal. Additional Metrics Relevant CWE: CWE-209 Generation of Error Message Containing Sensitive Information CVSS Version Base Score Base Severity Vector String 3.1 5.3 MEDIUM CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N 4.0 6.9 MEDIUM CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N View CVE Details Acknowledgments Cyber-Tim reported these vulnerabilities to CISA. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. CISA also recommends users take the following measures to protect themselves from social engineering attacks: Do not click web links or open attachments in unsolicited email messages. Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams. Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks. No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time. Revision History Initial Release Date: 2026-11-17 Date Revision Summary 2026-11-17 1 Initial Publication Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Controls InfoScan are affected: InfoScan <=1.45.0 (CVE-2026-117659, CVE-2026-120157, CVE-2026-120255, CVE-2026-120260, CVE-2026-120271, CVE-2026-120298) CVSS Vendor Equipment v3 8.1 Dorsett Controls InfoScan 5 Vulnerabilities Improper Certificate Validation, Exposure of Sensitive System Information to an ",
+    "threat_actors": [],
+    "title": "Dorsett Controls InfoScan"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+    "cves": [
+      "CVE-2026-111497"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:12.543414+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-91475641f52fb30dbb22b55b",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:91475641f52fb30dbb22b55b",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products. Please also have a look on following Software Field Bulletins: Teamcenter: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 Polarion: https://support.sw.siemens.com/en-US/knowledge-base/PL8869197 Manufacturing Operations Center (Opcenter) and Process Preparation X: https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens Industrial Software Products are affected: HyperLynx vers:all/* (CVE-2026-111497) Innexis Architecture Native Acceleration 2026 vers:all/* (CVE-2026-111497) Insights Hub vers:all/* (CVE-2026-111497) Opcenter Connect Electronics vers:all/* (CVE-2026-111497) Opcenter Connect MOM vers:all/* (CVE-2026-111497) Opcenter Execution Core vers:all/* (CVE-2026-111497) Opcenter Execution Discrete vers:all/* (CVE-2026-111497) Opcenter Execution Foundation vers:all/* (CVE-2026-111497) Opcenter Execution Pharma vers:all/* (CVE-2026-111497) Opcenter Execution Process vers:all/* (CVE-2026-111497) Opcenter Intelligence vers:all/* (CVE-2026-111497) Opcenter Intra Plant Logistics vers:all/* (CVE-2026-111497) Opcenter Quality vers:all/* (CVE-2026-111497) Opcenter RDnL vers:all/* (CVE-2026-111497) Opcenter X vers:all/* (CVE-2026-111497) PADS Pro Essentials vers:all/* (CVE-2026-111497) PADS Pro Student Edition vers:all/* (CVE-2026-111497) PADS Professional vers:all/* (CVE-2026-111497) PAVE360 Automotive 2026 vers:all/* (CVE-2026-111497) Process Preparation X vers:all/* (CVE-2026-111497) Simcenter Executable Digital Twin vers:all/* (CVE-2026-111497) Simcenter Studio vers:all/* (CVE-2026-111497) Teamcenter V2412 vers:all/* (CVE-2026-111497) Teamcenter V2506 vers:all/* (CVE-2026-111497) Teamcenter V2512 vers:all/* (CVE-2026-111497) Teamcenter V2606 vers:all/* (CVE-2026-111497) Xpedition Designer vers:all/* (CVE-2026-111497) Xpedition Enterprise vers:all/* (CVE-2026-111497) CVSS Vendor Equipment v3 9.8 Siemens HyperLynx, Innexis, Insights, Opcenter, PADS, PAVE360, Process Preparation, Simcenter, Teamcenter, Xpedition 1 Vulnerability Out-of-bounds Write Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-111497 A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. 28 Affected Products Opcenter Execution Core Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter Execution Discrete Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter Execution Foundation Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter Execution Pharma Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter Execution Process Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter Intelligence Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter Intra Plant Logistics Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter Quality Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter RDnL Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter X Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available PADS Pro Essentials Product Status: known_affected Remediations Mitigation Disable brotli compression and block brotli compression at the network firewall. None available Currently no fix is available PADS Pro Student Edition Product Status: known_affected Remediations Mitigation Disable brotli compression and block brotli compression at the network firewall. None available Currently no fix is available PADS Professional Product Status: known_affected Remediations Mitigation Disable brotli compression and block brotli compression at the network firewall. None available Currently no fix is available PAVE360 Automotive 2026 Product Status: known_affected Remediations None available Currently no fix is available Process Preparation X Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Simcenter Executable Digital Twin Product Status: known_affected Remediations None available Currently no fix is available Simcenter Studio Product Status: known_affected Remediations None available Currently no fix is available Teamcenter V2412 Product Status: known_affected Remediations Mitigation For Teamcenter manual mitigation instructions can be found here: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 None available Currently no fix is available Teamcenter V2506 Product Status: known_affected Remediations Mitigation For Teamcenter manual mitigation instructions can be found here: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 None available Currently no fix is available Teamcenter V2512 Product Status: known_affected Remediations Mitigation For Teamcenter manual mitigation instructions can be found here: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 None available Currently no fix is available Teamcenter V2606 Product Status: known_affected Remediations Mitigation For Teamcenter manual mitigation instructions can be found here: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 None available Currently no fix is available Xpedition Designer Product Status: known_affected Remediations Mitigation Disable brotli compression and block brotli compression at the network firewall. None available Currently no fix is available Xpedition Enterprise Product Status: known_affected Remediations Mitigation Disable brotli compression and block brotli compression at the network firewall. None available Currently no fix is available HyperLynx Product Status: known_affected Remediations Mitigation Disable brotli compression and block brotli compression at the network firewall. None available Currently no fix is available Innexis Architecture Native Acceleration 2026 Product Status: known_affected Remediations None available Currently no fix is available Insights Hub Product Status: known_affected Remediations None available Currently no fix is available Opcenter Connect Electronics Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Opcenter Connect MOM Product Status: known_affected Remediations Mitigation The vulnerability can be mitigated on the IIS Reverse Proxy. Please see https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 None available Currently no fix is available Additional Metrics Relevant CWE: CWE-787 Out-of-bounds Write CVSS Version Base Score Base Severity Vector String 3.1 9.8 CRITICAL CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H View CVE Details Acknowledgments Siemens ProductCERT reported this vulnerability to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-678870 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-17 2 Initial CISA Republication of Siemens ProductCERT SSA-678870 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products. Please also have a look on following Software Field Bulletins: Teamcenter: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 Polar",
+    "threat_actors": [],
+    "title": "Siemens Industrial Software Products"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+    "cves": [
+      "CVE-2026-111497"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:12.410371+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-3b573666de1648f8a362ee58",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:3b573666de1648f8a362ee58",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens products. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens Industrial Automation Software Products are affected: COMOS Walkinside vers:all/* (CVE-2026-111497) gDAP (gPROMS Digital Application Platform) vers:all/* () Project Server Web Administration Tool vers:all/* (CVE-2026-111497) SIMATIC BRAUMAT vers:intdot/>=8.2.0.1|<8.2.0.5 (CVE-2026-111497) SIMATIC Profiling Tool vers:all/* (CVE-2026-111497) SIMATIC SISTAR vers:intdot/>=8.2.0.1|<8.2.0.5 (CVE-2026-111497) SIMATIC WinCC Companion vers:all/* (CVE-2026-111497) SIMATIC WinCC OA V3.20 vers:intdot/<3.20.17.1 (CVE-2026-111497) SIMATIC WinCC OA V3.21 vers:all/* (CVE-2026-111497) SIMATIC WinCC Runtime Professional vers:all/* (CVE-2026-111497) SIMATIC WinCC Unified for Industrial Edge vers:all/* (CVE-2026-111497) SIMATIC WinCC Unified PC Runtime vers:all/* (CVE-2026-111497) SIMATIC WinCC Unified SIQENCE vers:all/* (CVE-2026-111497) SIMATIC WinCC V7/V8 vers:all/* (CVE-2026-111497) TIA Administrator vers:all/* (CVE-2026-111497) User Management Component (UMC) vers:all/* (CVE-2026-111497) CVSS Vendor Equipment v3 9.8 Siemens COMOS Walkinside 1 Vulnerability Out-of-bounds Write Background Critical Infrastructure Sectors: Critical Manufacturing, Food and Agriculture, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-111497 A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. Read More 15 Affected Products COMOS Walkinside Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available SIMATIC WinCC Runtime Professional Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available SIMATIC WinCC Unified for Industrial Edge Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available SIMATIC WinCC Unified PC Runtime Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available SIMATIC WinCC Unified SIQENCE Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available SIMATIC WinCC V7/V8 Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available TIA Administrator Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required. If UMC authentication is enabled, block requests that use Brotli compression: in IIS Manager, select the Default Web Site, open \"Request Filtering\" > \"Rules\", click \"Add Filtering Rule\", enter Name \"CVE-2026-111497\", Scan Headers \"Content-Encoding\" and Deny Strings \"br\", then click OK. None available Currently no fix is available User Management Component (UMC) Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required. In IIS Manager, select the Default Web Site, open \"Request Filtering\" > \"Rules\", click \"Add Filtering Rule\", enter Name \"CVE-2026-111497\", Scan Headers \"Content-Encoding\" and Deny Strings \"br\", then click OK. None available Currently no fix is available Project Server Web Administration Tool Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available SIMATIC BRAUMAT >= V8.2 Update 1 < V8.2 Update 5 Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required Vendor fix Update to V8.2 Update 5 or later version SIMATIC Profiling Tool Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required No fix planned Currently no fix is planned SIMATIC SISTAR >= V8.2 Update 1 < V8.2 Update 5 Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required Vendor fix Update to V8.2 Update 5 or later version SIMATIC WinCC Companion Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available SIMATIC WinCC OA V3.20 < V3.20 P17.1 Product Status: known_affected, known_not_affected Remediations Vendor fix Update to V3.20 P17.1 or later version SIMATIC WinCC OA V3.21 Product Status: known_affected, known_not_affected Remediations Mitigation Temporarily disable Brotli compression and decompression at the application or proxy layer if it is not strictly required None available Currently no fix is available Additional Metrics Relevant CWE: CWE-787 Out-of-bounds Write CVSS Version Base Score Base Severity Vector String 3.1 9.8 CRITICAL CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H View CVE Details Acknowledgments Siemens ProductCERT reported this vulnerability to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-242944 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-17 2 Initial CISA Republication of Siemens ProductCERT SSA-242944 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens products. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and",
+    "threat_actors": [],
+    "title": "Siemens Industrial Automation Software Products"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+    "cves": [
+      "CVE-2026-58114"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:12.322107+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-5b5cf4f017dbab0ebb964d25",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:5b5cf4f017dbab0ebb964d25",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC are affected: SIMATIC BATCH V9.1 vers:all/* (CVE-2026-58114) SIMATIC Information Server 2020 vers:all/* (CVE-2026-58114) SIMATIC Information Server 2022 vers:all/* (CVE-2026-58114) SIMATIC PCS 7 V9.1 vers:all/* (CVE-2026-58114) SIMATIC Process Historian 2020 vers:all/* (CVE-2026-58114) SIMATIC Process Historian 2022 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V17 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V18 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V19 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V20 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V21 vers:all/* (CVE-2026-58114) SIMATIC WinCC V7.5 vers:all/* (CVE-2026-58114) SIMATIC WinCC V8.0 vers:all/* (CVE-2026-58114) SIMATIC WinCC V8.1 vers:all/* (CVE-2026-58114) CVSS Vendor Equipment v3 7.5 Siemens SIMATIC BATCH V9.1 1 Vulnerability Weak Authentication Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-58114 Affected systems do not properly secure their remote user authentication with the deprecated NTLM protocol. This could allow unauthenticated remote attackers, who have achieved a machine in the middle position, to relay NTLM authentication and impersonate a legitimate user. The potential impact depends on the services that are accessible, e.g. a SQL server used by WinCC. Read More 14 Affected Products SIMATIC BATCH V9.1 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID No fix planned Currently no fix is planned SIMATIC WinCC Runtime Professional V20 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID None available Currently no fix is available SIMATIC WinCC Runtime Professional V21 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID None available Currently no fix is available SIMATIC WinCC V7.5 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID None available Currently no fix is available SIMATIC WinCC V8.0 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID None available Currently no fix is available SIMATIC WinCC V8.1 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID None available Currently no fix is available SIMATIC Information Server 2020 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID No fix planned Currently no fix is planned SIMATIC Information Server 2022 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID No fix planned Currently no fix is planned SIMATIC PCS 7 V9.1 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID No fix planned Currently no fix is planned SIMATIC Process Historian 2020 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID No fix planned Currently no fix is planned SIMATIC Process Historian 2022 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID No fix planned Currently no fix is planned SIMATIC WinCC Runtime Professional V17 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID None available Currently no fix is available SIMATIC WinCC Runtime Professional V18 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID None available Currently no fix is available SIMATIC WinCC Runtime Professional V19 Product Status: known_affected Remediations Mitigation Customers can manually configure the SQL Server Database for encrypting communication as described in https://support.industry.siemens.com/cs/mdm/109818202?c=145291786635&lc=en-ID None available Currently no fix is available Additional Metrics Relevant CWE: CWE-1390 Weak Authentication CVSS Version Base Score Base Severity Vector String 3.1 7.5 HIGH CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H View CVE Details Acknowledgments Siemens ProductCERT reported this vulnerability to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-970803 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-17 2 Initial CISA Republication of Siemens ProductCERT SSA-970803 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC are affected: SIMATIC BATCH V9.1 vers:all/* (CVE-2026-58114) SIMATIC Information Server 2020 vers:all/* (CVE-2026-58114) SIMATIC Information Server 2022 vers:all/* (CVE-2026-58114) SIMATIC PCS 7 V9.1",
+    "threat_actors": [],
+    "title": "Siemens SIMATIC"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+    "cves": [
+      "CVE-2026-109097"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:12.246193+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-4a756643b0596f8c2c402e37",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:4a756643b0596f8c2c402e37",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to update to the latest version. The following versions of Siemens ROS# are affected: ROS# vers:intdot/<2.3.1 (CVE-2026-109097) CVSS Vendor Equipment v3 8.2 Siemens ROS# 1 Vulnerability Improper Control of Generation of Code ('Code Injection') Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-109097 Affected systems do not properly escape text of message definition files. This could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Read More 1 Affected Product ROS# < V2.3.1 Product Status: known_affected Remediations Vendor fix Update to V2.3.1 or later version Additional Metrics Relevant CWE: CWE-94 Improper Control of Generation of Code ('Code Injection') CVSS Version Base Score Base Severity Vector String 3.1 8.2 HIGH CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H View CVE Details Acknowledgments Siemens ProductCERT reported this vulnerability to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-435267 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-17 2 Initial CISA Republication of Siemens ProductCERT SSA-435267 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to update to the latest version. The following versions of Siemens ROS# are affected: ROS# vers:intdot/<2.3.1 (CVE-2026-109097) CVSS Vendor Equipment v3 8.2 Siemens ROS# 1 Vulnerability Improper Control of Generation of Code ('Code Injection') Background Critical Infrastructure Sectors: Critical Manufacturi",
+    "threat_actors": [],
+    "title": "Siemens ROS#"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+    "cves": [
+      "CVE-2026-64629"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:12.108921+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-3989b95c68b62c6d091e712f",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:3989b95c68b62c6d091e712f",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-17T21:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "CISA Cybersecurity Advisories",
+    "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and recommends to update to the latest version. The following versions of Siemens Simcenter Femap are affected: Simcenter Femap vers:intdot/<2606.0002 (CVE-2026-64629) CVSS Vendor Equipment v3 7.8 Siemens Simcenter Femap 1 Vulnerability Out-of-bounds Read Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-64629 The affected applications contains an out of bounds read vulnerability while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. Read More 1 Affected Product Simcenter Femap < V2606.0002 Product Status: known_affected Remediations Vendor fix Update to V2606.0002 or later version Additional Metrics Relevant CWE: CWE-125 Out-of-bounds Read CVSS Version Base Score Base Severity Vector String 3.1 7.8 HIGH CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H View CVE Details Acknowledgments Siemens ProductCERT reported this vulnerability to CISA. General Recommendations As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity Additional Resources For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories Terms of Use The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use. Recommended Practices CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet . Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics . Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies . CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets . Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies . Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. Advisory Conversion Disclaimer This ICSA is a verbatim republication of Siemens ProductCERT SSA-105852 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory. Revision History Initial Release Date: 2026-11-10 Date Revision Summary 2026-11-10 1 Publication Date 2026-11-17 2 Initial CISA Republication of Siemens ProductCERT SSA-105852 advisory Legal Notice and Terms of Use",
+    "summary_excerpt": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and recommends to update to the latest version. The following versions of Siemens Simcenter Femap are affected: Simcenter Femap vers:intdot/<2606.0002 (CVE-2026-64629) CVSS Vendor Equipment v3 7.8 Siemens Simcenter Femap 1 Vulnerability Out-of-bounds Read Background Critical Infrastructure Sectors: Critica",
+    "threat_actors": [],
+    "title": "Siemens Simcenter Femap"
+  },
+  {
+    "ai_relevance": "none",
     "canonical_url": "https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board",
     "cves": [],
     "document_form": "single_story",
@@ -783,7 +1211,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T20:22:34.943325+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-87fe53d748d60a03a4adff9f",
     "primary_category": "other",
     "public_article_id": "url:87fe53d748d60a03a4adff9f",
@@ -805,7 +1233,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T20:22:36.086055+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-0de13fc85b08655a64af95d0",
     "primary_category": "threat_campaign",
     "public_article_id": "url:0de13fc85b08655a64af95d0",
@@ -833,7 +1261,7 @@
     "cves": [],
     "document_form": "research",
     "first_seen_at": "2026-11-17T20:08:35.934634+09:00",
-    "heat_score": 58.5,
+    "heat_score": 52.65,
     "permalink_id": "article-url-e8dd8e84ca962ddcb411ef74",
     "primary_category": "other",
     "public_article_id": "url:e8dd8e84ca962ddcb411ef74",
@@ -855,7 +1283,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T19:52:09.507978+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-f5d81f86de25ee6af4841352",
     "primary_category": "vulnerability",
     "public_article_id": "url:f5d81f86de25ee6af4841352",
@@ -888,7 +1316,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T19:52:08.977080+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-34db17dc04af1619df590588",
     "primary_category": "other",
     "public_article_id": "url:34db17dc04af1619df590588",
@@ -8751,7 +9179,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T02:23:58.375058+09:00",
-    "heat_score": 67.5,
+    "heat_score": 54.0,
     "permalink_id": "article-url-2ffa4640e338a27f78e0d4d9",
     "primary_category": "vulnerability",
     "public_article_id": "url:2ffa4640e338a27f78e0d4d9",
@@ -8789,7 +9217,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T02:23:57.253751+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-12e415fea3818e7b5c7bfb53",
     "primary_category": "threat_campaign",
     "public_article_id": "url:12e415fea3818e7b5c7bfb53",
@@ -8826,7 +9254,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T02:23:44.096432+09:00",
-    "heat_score": 67.5,
+    "heat_score": 54.0,
     "permalink_id": "article-url-9e47fa0ef11a70ea1452f771",
     "primary_category": "vulnerability",
     "public_article_id": "url:9e47fa0ef11a70ea1452f771",
@@ -8854,7 +9282,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T01:37:30.525768+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-e9ea9955d6e6ca9547c94f55",
     "primary_category": "ai_security",
     "public_article_id": "url:e9ea9955d6e6ca9547c94f55",
@@ -8887,7 +9315,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T02:24:01.930776+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-b01665747fbda539a098b8e0",
     "primary_category": "ai_security",
     "public_article_id": "url:b01665747fbda539a098b8e0",
@@ -9755,6 +10183,34 @@
     "summary_excerpt": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
     "threat_actors": [],
     "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cybersecuritydive.com/spons/beyond-vulnerability-management-unified-exposure-management-turns-volume-i/873540/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-18T01:37:30.989047+09:00",
+    "heat_score": 46.8,
+    "permalink_id": "article-url-722758b4b350c995df544bda",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:722758b4b350c995df544bda",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-16T19:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Cybersecurity Dive",
+    "summary": "UEM connects visibility, attacker-based prioritization, and remediation to close exposures faster.",
+    "summary_excerpt": "UEM connects visibility, attacker-based prioritization, and remediation to close exposures faster.",
+    "threat_actors": [],
+    "title": "Beyond vulnerability management: Unified Exposure Management turns volume into prioritized action"
   },
   {
     "ai_relevance": "primary",
@@ -46167,7 +46623,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T02:08:41.794608+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-a0acde7867af5a5cf8555f5e",
     "primary_category": "ai_security",
     "public_article_id": "url:a0acde7867af5a5cf8555f5e",
@@ -46195,7 +46651,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T01:22:13.718652+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-f71a910c08b11a93964a3845",
     "primary_category": "vulnerability",
     "public_article_id": "url:f71a910c08b11a93964a3845",
@@ -46223,7 +46679,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T01:22:32.796552+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-ce9aaed3f18430dde85335ae",
     "primary_category": "vulnerability",
     "public_article_id": "url:ce9aaed3f18430dde85335ae",
@@ -46251,7 +46707,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T02:08:49.752746+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-d04ccd86df73d515e305e040",
     "primary_category": "other",
     "public_article_id": "url:d04ccd86df73d515e305e040",
@@ -46273,7 +46729,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T01:22:38.386800+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-266c1950223fcd4ea06840c7",
     "primary_category": "ai_security",
     "public_article_id": "url:266c1950223fcd4ea06840c7",
@@ -46301,7 +46757,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T02:08:36.308649+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-346fc0f56453471d99e76a6f",
     "primary_category": "other",
     "public_article_id": "url:346fc0f56453471d99e76a6f",
@@ -46323,7 +46779,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T02:22:12.434438+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-5a359760f34a421d28234f00",
     "primary_category": "ai_security",
     "public_article_id": "url:5a359760f34a421d28234f00",
@@ -46359,7 +46815,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-11T01:22:37.668933+09:00",
-    "heat_score": 37.5,
+    "heat_score": 11.25,
     "permalink_id": "article-url-db01d072adb842da9f5aad74",
     "primary_category": "vulnerability",
     "public_article_id": "url:db01d072adb842da9f5aad74",
