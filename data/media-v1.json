@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-17T05:40:04.427816+00:00",
+  "source_snapshot_generated_at": "2026-11-17T06:40:03.252969+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -38885,6 +38885,53 @@
     ],
     "qiita": [
       {
+        "id": "qiita:860f5675ae87789ce0630fdc",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "ClaudeCode",
+          "Security",
+          "Git",
+          "agenticai"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/9032e142bf2207b0dc77",
+        "title": "Claude Codeの「もう確認しない」がGitHubに2,539件の秘密を漏らしていた日 — 自分の2つのリポジトリの.gitignoreを確認した",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-11-17T15:26:39+09:00",
+        "excerpt": "はじめに 0件と、ファイルが存在しない。 これが今回確認した数字です。セキュリティ企業Apiiroが11月上旬に公開した調査で、Claude Codeの権限確認で「Yes, and don't ask again(今後確認しない)」を選んだときに保存される .claude/settings.local.json というファイルから、GitHub上で2,539件の秘密情報(パスワード、APIキー、SSHログインなど)が見つかったと報じられました。この記事を書いている自分自身が、まさにそのClaude Codeで動くこの自動投稿パイプラインの運用者です。他社の話として読み流す前に、自分の2つのリポジトリ(Zenn用・Qiita用)を実際に確認しました。 TL;DR Apiiroの調査(2026年11月1〜3日にGitHub上を検索)によると、 .claude/settings.local.json の公開コピーが103,617リポジトリに104,185件存在し、そのうち1,122件のファイルに実際の秘密情報(1,379件)が含まれていた。git履歴や"
+      },
+      {
+        "id": "qiita:c62a7121c23ed36bd73984d8",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "Terraform",
+          "awsorganizations",
+          "Security",
+          "NKKTechGlobal"
+        ],
+        "url": "https://qiita.com/NKKTechGlobal/items/d9fd8334ded51c503107",
+        "title": "国境を越えた分散チームにおけるAWS Organizationsとマルチアカウントセキュリティ統制の自動化",
+        "author": "NKKTechGlobal",
+        "published_at": "2026-11-17T15:14:44+09:00",
+        "excerpt": "国境を越えた分散チームにおけるAWS Organizationsとマルチアカウントセキュリティ統制の自動化 はじめに 東京、ハノイ、ダナンなどの多拠点でグローバルにシステム開発を進める際、避けて通れないのが「AWS環境の分離とガバナンス」です。 「ベトナムの開発チームに十分な権限を渡したいが、セキュリティ事故が怖い」 「知らない間に高額なGPUインスタンス（P4/G5等）が他リージョンで起動されていた」 「開発者が検証用に作ったS3バケットがパブリック公開されており、セキュリティ監査で発覚した」 これらを「人間の注意深さ」や「セキュリティ規程の周知」だけで防ぐのは不可能です。 AWS推奨のベストプラクティスは、**「アカウントを環境・チームごとに物理分割し、AWS Organizationsのサービスコントロールポリシー（SCP）によって『危険な操作を物理的に実行不可能にする』安全柵を敷くこと」**です。 本記事では、マルチアカウントの組織単位（OU）設計から、Terraformを用いたSCPの実装、セキュリティ検知の集約までを完全解説します。 "
+      },
+      {
+        "id": "qiita:06a3c50caaedb8201ce2aac2",
+        "source": "qiita",
+        "author_tags": [
+          "Android",
+          "apk",
+          "Security",
+          "Mobile"
+        ],
+        "url": "https://qiita.com/danielreedgb/items/a86547b1076f0bef9aeb",
+        "title": "How Android APK Updates Work in 2026: Versioning, Signing, and Safe Sideloading",
+        "author": "danielreedgb",
+        "published_at": "2026-11-17T14:53:05+09:00",
+        "excerpt": "Android updates do not always arrive through Google Play. Developers, testers, and power users often install an APK directly, and in 2026 that workflow is more structured than it used to be. Android now checks signatures more strictly, warns more clearly about unknown sources, and separates the act of downloading a file from the act of trusting it. Understanding that pipeline helps you update safely, debug failed installs, and explain to other users why a new version will or "
+      },
+      {
         "id": "qiita:6a2eec01f43c957511b2ea02",
         "source": "qiita",
         "author_tags": [
@@ -53092,6 +53139,96 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a8ef3397f28dd7a1c3c25417",
+        "source": "medium",
+        "author_tags": [
+          "product-management",
+          "research",
+          "business",
+          "cybersecurity",
+          "consulting"
+        ],
+        "url": "https://umbracore-dynamics-blog.medium.com/when-critical-services-fail-exploited-vulnerabilities-ai-security-and-the-resilience-gap-564b4b4980a3",
+        "title": "When Critical Services Fail: Exploited Vulnerabilities, AI Security, and the Resilience Gap —…",
+        "author": "Umbracore Dynamics Blog",
+        "published_at": "2026-11-17T06:31:30+00:00",
+        "excerpt": "When Systems Fail, Context Becomes a Security Control Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cdd87388a738292d9a67f3da",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qnayds14/best-cybersecurity-institute-in-kerala-a-complete-guide-to-choosing-the-right-training-institute-44859d36b6e2",
+        "title": "Best Cybersecurity Institute in Kerala: A Complete Guide to Choosing the Right Training Institute",
+        "author": "QNAYDS | AI & Cybersecurity Academy",
+        "published_at": "2026-11-17T06:30:07+00:00",
+        "excerpt": "Cybersecurity is becoming an essential part of the digital world. As businesses, organizations, and individuals depend more on technology… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1dfa9e1876648504c1e2d889",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "learning",
+          "college-students"
+        ],
+        "url": "https://medium.com/@littlegames2006/ive-decided-to-start-writing-blogs-every-once-in-a-while-to-document-my-cybersecurity-journey-and-9966949212e8",
+        "title": "I’ve decided to start writing blogs every once in a while to document my cybersecurity journey and…",
+        "author": "Kevin Mendez",
+        "published_at": "2026-11-17T06:28:14+00:00",
+        "excerpt": "A little background: I’m a Lead Automation Engineer with an associate degree in Network Administration, looking to expand my knowledge of… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e47830fc608cd3417645b7b1",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-careers",
+          "white-hat-hacking",
+          "cybersecurity",
+          "cybersecurity-training",
+          "ethical-hacking"
+        ],
+        "url": "https://medium.com/@durgavliyash/exploring-ethical-hacking-as-a-professional-path-in-the-digital-age-c48cbbe7481e",
+        "title": "Exploring Ethical Hacking as a Professional Path in the Digital Age",
+        "author": "Yash",
+        "published_at": "2026-11-17T06:27:55+00:00",
+        "excerpt": "Let’s imagine a business has developed a new mobile banking app. They have thoroughly tested all the features, payment functionality and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5cf886b835d2266703dc145c",
+        "source": "medium",
+        "author_tags": [
+          "security",
+          "threat-intelligence",
+          "information-security",
+          "cybersecurity",
+          "infosec"
+        ],
+        "url": "https://medium.com/@hackerBack/cysa-threat-intelligence-collection-methods-sources-and-intelligence-sharing-with-a-splunk-aad17f7c1720",
+        "title": "CySA+ Threat Intelligence: Collection Methods, Sources, and Intelligence Sharing (with a Splunk…",
+        "author": "Boughedaoui Abdelkader Elazize",
+        "published_at": "2026-11-17T06:19:24+00:00",
+        "excerpt": "Where threat intelligence comes from, how to validate it, how to share it safely with TLP, and how to turn it into action Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7370324caf0c1d14b1d79934",
+        "source": "medium",
+        "author_tags": [
+          "security",
+          "offensive-security",
+          "cybersecurity",
+          "information-security",
+          "infosec"
+        ],
+        "url": "https://medium.com/@hackerBack/cysa-threat-intelligence-how-to-score-ioc-confidence-levels-in-splunk-1baa6bb02865",
+        "title": "CySA+ Threat Intelligence: How to Score IOC Confidence Levels in Splunk",
+        "author": "Boughedaoui Abdelkader Elazize",
+        "published_at": "2026-11-17T06:10:02+00:00",
+        "excerpt": "How I used Timeliness, Relevancy, and Accuracy to turn a noisy list of indicators into a dashboard a SOC can actually act on Continue reading on Medium »"
+      },
       {
         "id": "medium:5db7f6dfdd31fc40a395c65a",
         "source": "medium",
