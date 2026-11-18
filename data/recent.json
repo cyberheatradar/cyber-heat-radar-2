@@ -1,5 +1,84 @@
 [
   {
+    "ai_relevance": "none",
+    "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+    "cves": [
+      "CVE-2026-76411",
+      "CVE-2026-76414",
+      "CVE-2026-76415",
+      "CVE-2026-76416",
+      "CVE-2026-76417",
+      "CVE-2026-76421",
+      "CVE-2026-76422",
+      "CVE-2026-76430",
+      "CVE-2026-76515",
+      "CVE-2026-76516"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T01:38:27.034599+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-4d2a8ebb50a3365c168cff59",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:4d2a8ebb50a3365c168cff59",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cloud_security",
+        "label": "Cloud Security"
+      }
+    ],
+    "published_at": "2026-11-19T01:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Cisco PSIRT Security Advisories",
+    "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is High only for Windows-based platforms because those platforms run the ClamAV scanning process in a privileged security context. The platforms that are highly impacted include Cisco Secure Endpoint Connector for Windows. The SIR for these vulnerabilities is Medium on other platforms, including Linux and Mac platforms, because those platforms run the ClamAV scanning process in a lower-privileged security context. The affected platforms include Secure Endpoint Connector for Linux and Mac. Cisco Secure Endpoint Private Cloud itself is not impacted by these vulnerabilities. Instead, the Cisco Secure Endpoint Connector software is impacted. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA <br/>Security Impact Rating: High <br/>CVE: CVE-2026-76411,CVE-2026-76414,CVE-2026-76415,CVE-2026-76416,CVE-2026-76417,CVE-2026-76421,CVE-2026-76422,CVE-2026-76430,CVE-2026-76515,CVE-2026-76516",
+    "summary_excerpt": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is ",
+    "threat_actors": [],
+    "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+    "cves": [
+      "CVE-2026-114938"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T01:38:25.388504+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-240555f11b70191f13bac50a",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:240555f11b70191f13bac50a",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cloud_security",
+        "label": "Cloud Security"
+      }
+    ],
+    "published_at": "2026-11-19T01:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Cisco PSIRT Security Advisories",
+    "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This advisory will be updated as additional information becomes available. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z <br/>Security Impact Rating: High <br/>CVE: CVE-2026-114938",
+    "summary_excerpt": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This advisory will be updated as additi",
+    "threat_actors": [],
+    "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026"
+  },
+  {
     "ai_relevance": "primary",
     "canonical_url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
     "cves": [],
@@ -26,6 +105,93 @@
     "summary_excerpt": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post VeroSecurity Raises $11 Million for AI Security Engineering Platform appeared first on SecurityWeek .",
     "threat_actors": [],
     "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cybersecuritydive.com/news/energy-equinor-investigates-cyberattack/875035/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T01:22:32.541452+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-c398191b925eebd9ac896ae9",
+    "primary_category": "threat_campaign",
+    "public_article_id": "url:c398191b925eebd9ac896ae9",
+    "public_tags": [
+      {
+        "color_family": "red",
+        "key": "threat_campaign",
+        "label": "Campaign"
+      }
+    ],
+    "published_at": "2026-11-19T00:16:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Cybersecurity Dive",
+    "summary": "The Norway-based oil and gas giant said production capabilities were not disrupted, but it has no immediate timetable for full recovery.",
+    "summary_excerpt": "The Norway-based oil and gas giant said production capabilities were not disrupted, but it has no immediate timetable for full recovery.",
+    "threat_actors": [],
+    "title": "Energy giant Equinor investigates cyberattack impacting IT systems"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "cves": [
+      "CVE-2026-123007",
+      "CVE-2026-123633"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T01:52:07.557959+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-0c457241d113ed5afb203a3a",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:0c457241d113ed5afb203a3a",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-19T00:13:20+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Wiz Blog",
+    "summary": "Two critical HTTP/2 flaws can allow attackers to compromise NGINX servers, putting the websites, APIs, and sensitive data they handle at risk.",
+    "summary_excerpt": "Two critical HTTP/2 flaws can allow attackers to compromise NGINX servers, putting the websites, APIs, and sensitive data they handle at risk.",
+    "threat_actors": [],
+    "title": "Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cybersecuritydive.com/news/java-vulnerability-oracle-ai-java4shell/875029/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T01:22:32.740913+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-d6ab8cd954955ced3f8c6806",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:d6ab8cd954955ced3f8c6806",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T23:54:31+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Cybersecurity Dive",
+    "summary": "The flaw’s ripple effects could be widespread, although researchers cautioned that exploitation would not be easy.",
+    "summary_excerpt": "The flaw’s ripple effects could be widespread, although researchers cautioned that exploitation would not be easy.",
+    "threat_actors": [],
+    "title": "Critical Java vulnerability could help hackers compromise many popular applications"
   },
   {
     "ai_relevance": "none",
@@ -249,6 +415,41 @@
     "summary_excerpt": "Government-sanctioned authentication middleware is used for exceptionally important legal documents, yet it's often rife with RCE bugs.",
     "threat_actors": [],
     "title": "Major Brazilian Signature Apps Enable RCE &amp; Fraud"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed/",
+    "cves": [
+      "CVE-2026-123007"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T01:38:42.591430+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-7ad3ffcc76c72ddeb3c9e83b",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:7ad3ffcc76c72ddeb3c9e83b",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "red",
+        "key": "ttp",
+        "label": "TTP"
+      }
+    ],
+    "published_at": "2026-11-18T22:56:42+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Rapid7 Blog",
+    "summary": "Overview Today, both Rapid7 and F5 are disclosing CVE-2026-123007 , a critical integer underflow vulnerability affecting nginx HTTP/2, which can allow for unauthenticated remote code execution (RCE) against affected servers under certain conditions. CVE ID Description CWE CVSSv4 CVE-2026-123007 HTTP/2 flow-control memory corruption permitting worker-context RCE CWE-191 (Integer Underflow) 9.2 (Critical) nginx can miscalculate how much response data an HTTP/2 client has allowed it to send. A remote, unauthenticated client can exploit this error by cancelling queued response data, then make nginx use an invalid length when copying a later response. The resulting memory corruption can disclose data, interrupt service, and execute code with the nginx worker process's permissions. Impact Rapid7 has developed a proof-of-concept to demonstrate leveraging CVE-2026-123007 for unauthenticated RCE against a vulnerable linux/amd64 Docker image running nginx version 1.31.8 , as shown below in Figure 1. The target nginx server’s configuration had http2 on and TLS enabled. Note that for brevity, video playback is at 8x speed. Figure 1: Video demonstrating unauthenticated RCE against NGINX 1.31.8 via CVE-2026-123007 Leveraging CVE-2026-123007 for RCE requires a significant amount of network traffic to be transmitted, approximately 128 GB of HTTP/2 data. Both available network bandwidth and connection timeouts will place practical limitations on Internet exploitation. In the above example shown in Figure 1, exploitation takes two and a half minutes. The approximate timings to transmit the required network data over a 10 Gbit/s network is two minutes, while on a 1 Gbit/s network it is seventeen minutes. Due to nginx’s default one hour connection lifetime, a network slower than approximately 300 Mbit/s will take over the one hour connection limit threshold and will not be able to succeed. Additionally, should an HTTP/2 connection be proxied, the precise attacker-controlled HTTP/2 frames being transmitted will likely not be retransmitted in a way that satisfies exploiting the vulnerability. Finally, the exploitation strategy developed depends on a specific x86-64 glibc EVEX/YMM memcpy implementation selected at runtime, based on the avx512f and avx512vl CPU features. Alternative RCE exploitation strategies may be viable, but none are currently known. Credit This vulnerability was discovered by Stephen Fewer, Senior Principal Security Researcher at Rapid7 , and is being disclosed in accordance with Rapid7's vulnerability disclosure policy . Technical analysis The version of nginx tested was a linux/amd64 Docker image for nginx version 1.31.8 ( nginx@sha256:5ab5b0b01097420873a3f3330f44248e34a3c2a3e8d5ee30658aeae8cb7435da ), and ran with an exposed HTTPS service and http2 enabled. How a client controls HTTP/2 response data HTTP/2 carries messages called frames over a connection. Each request and response belongs to a numbered stream, so one connection can carry several exchanges at once. Response-body bytes are carried in DATA frames. For this vulnerability, nginx is the sender and the remote client is the receiver. The client grants nginx permission, or flow-control credit, to send a certain number of DATA bytes. nginx tracks the remaining credit in two counters: one for each stream and one shared by the connection. Sending DATA must be permitted by both counters. These HTTP/2 counters are separate from TCP's receive window. The client grants more credit by sending a WINDOW_UPDATE frame containing a positive increment. A stream identifier of zero increases the connection’s send credit. A nonzero stream identifier increases the send credit for the stream with that specific nonzero identifier. HTTP/2 limits the increment and the resulting window to 2^31-1 bytes, or 2,147,483,647 (0x7FFFFFFF). This report calls that maximum MAX . The client can also send a SETTINGS frame containing a SETTINGS_INITIAL_WINDOW_SIZE parameter. This changes the starting credit for new streams. nginx must also adjust each active stream's remaining credit by the difference between the old and new setting values. It does not change the connection's credit. A reduction can therefore leave an active stream with negative credit until the client grants more. The connection window has no equivalent reduction: it must remain between zero and MAX . RFC 9113, section 6.9 defines these limits and the required errors. nginx stores the connection counter in h2c->send_window , where h2c is the HTTP/2 connection record. Its size_t type is an unsigned integer: on the verified 64-bit build it can hold values from zero to 2^64-1 . The size_t type can therefore hold values above HTTP/2's maximum connection window of 2^31-1 bytes ( MAX ). nginx must enforce that protocol limit in its own logic. // src/http/v2/ngx_http_v2.h #define NGX_HTTP_V2_MAX_WINDOW ((1U << 31) - 1) // <--- [1] struct ngx_http_v2_connection_s { // ... size_t send_window; // <--- [2] // ... }; struct ngx_http_v2_stream_s { // ... ssize_t send_window; // ... }; The rule that the connection counter at [2] must never exceed MAX at [1] is the connection-window invariant. The separate stream counter, stream->send_window , is explicitly declared as ssize_t , a signed 64-bit integer on the verified build. That allows SETTINGS_INITIAL_WINDOW_SIZE to make a stream's credit temporarily negative. The connection counter remains unsigned. The later unsafe conversion occurs when the output filter treats excessive connection credit as a signed 64-bit off_t response length. Leveraging vulnerability has four main stages: By slowing its reading of server output, the client keeps selected DATA frames queued and unstarted. It raises the connection's credit to MAX and the selected streams' credit to just below MAX . A SETTINGS frame that increases SETTINGS_INITIAL_WINDOW_SIZE enough to exceed the stream limit makes nginx close those streams while leaving the connection usable. Request cleanup then restores the reserved credit above MAX . An unsigned subtraction in the next connection WINDOW_UPDATE check underflows. Repeated accepted WINDOW_UPDATE frames can then raise the counter into the upper half of its 64-bit range without requiring the addition to wrap. On the verified 64-bit build, nginx interprets that excessive counter as a negative response length and creates an invalid buffer. Buffered TLS output then passes a huge unsigned byte count to the memory-copy function memcpy , causing out-of-bounds reads and writes. These constrained memory accesses depend on the build and selected copy routine. With a suitable memory layout, an attacker can use disclosed addresses and controlled overwrites to execute code with the nginx worker process's permissions. Cancelling queued DATA restores too much credit When nginx queues a DATA frame at [3], it subtracts the frame's DATA length from the connection's credit counter at [4] and then from the stream's credit counter. This reserves the credit before the bytes reach the client and prevents other streams from spending the same connection credit: // src/http/v2/ngx_http_v2_filter_module.c // ngx_http_v2_send_chain() // ... ngx_http_v2_queue_frame(h2c, frame); // <--- [3] h2c->send_window -= frame_size; // <--- [4] stream->send_window -= frame_size; stream->queued++; An attacker can keep a later response queued by slowing or stopping its reading of earlier server output. Once the transport cannot accept more output, nginx must wait. This condition is transport backpressure. The attacker needs enough of it to keep the selected DATA frame unstarted: none of that frame's bytes have yet entered TLS output or the socket. Stopping response reads does not prevent the client from sending control frames in the other direction. While the DATA remains queued, the client sends a connection WINDOW_UPDATE that raises nginx's reduced counter to MAX . The problem appears when the request that owns the queued DATA then closes. Its request-cleanup handler removes the unstarted DATA and returns the reserved credit: // src/http/v2/ngx_http_v2_filter_module.c // ngx_http_v2_filter_cleanup() // ... for ( ;; ) { frame = *fn; if (frame == NULL) { break; } if (frame->stream == stream && !frame->blocked) { // <--- [5] *fn = frame->next; window += frame->length; // <--- [6] if (--stream->queued == 0) { break; } continue; } fn = &frame->next; } // ... h2c->send_window += window; // <--- [7] The test at [5] selects removable, unstarted frames for that request. The local variable window totals their DATA lengths at [6]. The addition at [7] does not check whether restoring those bytes takes the connection counter above MAX . For example, restoring 1,393 bytes after the counter has reached 2,147,483,647 (0x7FFFFFFF) produces 2,147,485,040 (0x80000570). This value is invalid under HTTP/2 as it exceeds MAX , although it still fits in a 64-bit size_t ; the addition has not yet wrapped around. The unchecked restoration at [7] is the first invalid state in the vulnerability. The attacker still needs a way to close the selected requests while preserving the connection, so the excessive counter can be used again. A SETTINGS error closes the stream but leaves the connection usable When a SETTINGS frame increases SETTINGS_INITIAL_WINDOW_SIZE enough that an active stream's credit would exceed MAX , nginx terminates that stream but leaves the HTTP/2 connection usable. A client can create this condition by first sending a stream WINDOW_UPDATE to put the selected stream just below MAX . It then sends a SETTINGS frame that increases the initial stream-window setting. For example, changing the setting from 65,535 to 65,537 adds two bytes to every active stream. A stream already at MAX-1 would become MAX+1 , even though the new setting value itself is allowed. RFC 9113 requires this condition to end the connection with FLOW_CONTROL_ERROR . nginx instead calls ngx_http_v2_terminate_stream() for each affected stream. That function sends RST_STREAM , which ends an individual stream, and causes the request to be cleaned up. The loop then continues using the same connection: // src/http/v2/ngx_http_v2.c // ngx_http_v2_adjust_windows() // ... if (delta > 0 && stream->send_window > (ssize_t) (NGX_HTTP_V2_MAX_WINDOW - delta)) { if (ngx_http_v2_terminate_stream(h2c, stream, NGX_HTTP_V2_FLOW_CTRL_ERROR) == NGX_ERROR) { return NGX_ERROR; } continue; // <--- [8] } Here, delta is the difference between the new and old setting values. Request cleanup performs [5] through [7], while continue at [8] leaves the HTTP/2 connection open. The attacker can now send further frames on the connection whose credit has exceeded MAX . The next WINDOW_UPDATE causes an integer underflow When another connection WINDOW_UPDATE arrives, nginx tries to calculate how much additional credit is still allowed: // src/http/v2/ngx_http_v2.c // ngx_http_v2_state_window_update() // ... if (window > NGX_HTTP_V2_MAX_WINDOW - h2c->send_window) { // <--- [9] // ... return ngx_http_v2_connection_error(h2c, NGX_HTTP_V2_FLOW_CTRL_ERROR); } h2c->send_window += window; // <--- [10] In this function, window is the increment received from the client. The subtraction at [9] is safe only while the stored counter is no greater than MAX . If cleanup has restored R excess bytes, the intended allowance is MAX - (MAX + R) , or -R . Unsigned arithmetic cannot represent that negative result. On the verified 64-bit build it wraps to 2^64 - R , a very large positive number. This is the integer underflow identified by CWE-191. The incorrect allowance lets further client increments pass the check. By sending many increments, each no greater than MAX , the client can raise the counter to 2^63 or above without wrapping the addition itself, shown at [10] above. Such a value has the top bit of its 64-bit representation set. It is still an unsigned value, but it no longer fits in a signed 64-bit integer. That distinction matters when nginx prepares the next response. This amplification accounts for the large traffic requirement. A connection WINDOW_UPDATE occupies 13 HTTP/2 bytes: a nine-byte frame header and a four-byte payload . The credit granted by that frame is not data actually transmitted. Starting from the small over-credit state described above, reaching 2^63 by maximum-size increments takes about 2^32 frames, or 52 GiB. Reaching the near- 2^64 values used for the confirmed read/write path takes about 2^33 increments, or 104 GiB. nginx also limits control-frame traffic relative to other received data. The current code-execution reproduction sends about 15 GiB of additional request-header traffic to stay within that limit, bringing its reported plaintext total to about 119.02 GiB. TLS and network overhead increase the actual wire traffic. These figures describe this 64-bit amplification route, not a universal minimum for every possible exploit. Excessive credit becomes a negative response length The client can make an active stream with available credit process an ordinary response body. nginx's HTTP/2 output filter decides how many body bytes to include in a DATA frame. Before following that calculation, it is useful to define the buffer it will create. An in-memory nginx buffer is described by a ngx_buf_t record. Its pos pointer is the memory address of the next byte to send. Its last pointer is the address immediately after the available data. For four available bytes, last must be four bytes after pos ; subtracting pos from last gives the length, four. A valid buffer therefore cannot have last before pos . nginx links these buffer records together into an output chain, which is a list of data waiting to be sent. In ngx_http_v2_send_chain() , the byte limit is an off_t , a signed 64-bit integer on the verified build. The excessive unsigned connection counter is converted to that signed type at [11]. On this build, a value of 2^64 - d , where d is a small positive byte count, becomes -d : // src/http/v2/ngx_http_v2_filter_module.c // ngx_http_v2_send_chain() // ... if (limit == 0 || limit > (off_t) h2c->send_window) { limit = h2c->send_window; // <--- [11] } if (limit > stream->send_window) { limit = (stream->send_window > 0) ? stream->send_window : 0; } // ... if ((off_t) frame_size > limit) { frame_size = (size_t) limit; // <--- [12] } // ... rest = frame_size; while ((off_t) rest >= size) { // <--- [13] // ... } if (rest) { cl = ngx_http_v2_filter_get_shadow(stream, in->buf, offset, rest); // <--- [14] // ... } The stream-window check does not reject a negative limit : it only reduces a limit that is too large. At [12], the negative limit becomes a huge unsigned frame_size . Casting the same value back to off_t makes it negative again, so [13] skips the loop that would normally consume and bound the available body bytes. At [14], nginx passes the invalid length to a helper whose size parameter is also a signed off_t . That helper creates a shadow buffer: a new metadata record referring to part of the existing response data, without copying the response body itself. It sets the new end pointer using the supplied length: // src/http/v2/ngx_http_v2_filter_module.c // ngx_http_v2_filter_get_shadow() static ngx_chain_t * ngx_http_v2_filter_get_shadow(ngx_http_v2_stream_t *stream, ngx_buf_t *buf, off_t offset, off_t size) { // ... ngx_memcpy(chunk, buf, sizeof(ngx_buf_t)); // ... if (ngx_buf_in_memory(chunk)) { chunk->pos += offset; chunk->last = chunk->pos + size; // <--- [15] } // ... } Because size is negative, [15] places last before pos . The response body has not become larger; its buffer metadata is now invalid. The next output stage trusts that metadata. Buffered TLS output copies beyond the buffers For buffered TLS output, ngx_ssl_send_chain() gathers bytes from the output chain into a temporary staging buffer before encryption. It calculates each input buffer's length using last - pos . The invalid buffer produces a negative signed length at [16]: // src/event/ngx_event_openssl.c // ngx_ssl_send_chain() // ... ssize_t send, size, file_size; // ... size = in->buf->last - in->buf->pos; // <--- [16] if (size > buf->end - buf->last) { size = buf->end - buf->last; } if (send + size > limit) { size = (ssize_t) (limit - send); } // ... ngx_memcpy(buf->last, in->buf->pos, size); // <--- [17] buf->last += size; in->buf->pos += size; Both checks only reduce lengths that are too large. Neither rejects a negative length. memcpy takes an unsigned size_t byte count, so [17] converts -d back into the huge value 2^64-d . The actual source and destination buffers are far smaller. This is where the invalid connection credit first reaches an out-of-bounds native memory access. A copy that actually traversed such an enormous range would normally encounter inaccessible memory and crash the worker. In the tested x86-64 glibc implementation, however, certain lengths just below 2^64 cause the machine-level end-address calculations to wrap (Please see Addendum A below for more details on this unexpected behavior ). For a length of 2^64-d , adding the length to a start address can produce an address d bytes before it. The optimized copy uses these end addresses in its loop conditions, so it can finish after a limited number of reads and writes that reach outside the intended buffers. The copy can return if all locations it actually accesses are accessible; other lengths, memory layouts, or copy implementations can fault immediately. If it returns, nginx also moves both buffer positions backward by the negative signed length. Exploitation The invalid copy can both read and overwrite worker memory. It does not give the client an HTTP/2 field in which it can simply choose any memory address. The useful addresses depend on where nginx allocated the response and TLS buffers, how much output is already buffered, and which copy routine the C library selected. These are constrained read and write capabilities, not an unconditional arbitrary read or write. After creating the invalid DATA buffer, ngx_http_v2_send_chain() updates its position in the original response and records the bytes that remain to be sent: // src/http/v2/ngx_http_v2_filter_module.c // ngx_http_v2_send_chain() // ... offset += rest; // <--- [18] size -= rest; // ... if (offset) { cl = ngx_http_v2_filter_get_shadow(stream, in->buf, offset, size); // <--- [19] // ... in->buf = cl->buf; // ... } Here, offset is the position within the original body and size is its remaining length. Starting at offset zero, the same unsigned value representing -d makes [18] move the offset backward by d and increase the remaining length by d on the verified build. The shadow buffer created at [19] therefore has a positive length, but starts d bytes before the original response and ends at its original end. If the oversized copy and connection survive, later ordinary DATA frames can carry those preceding bytes to the client through TLS. They can include pointers into the heap, where nginx dynamically allocates request data, or into loaded libraries. Those pointers disclose addresses that address-space layout randomization (ASLR) would otherwise hide. On the write side, nginx stores client-supplied request data in heap allocations. With a suitable allocation layout, the oversized copy can pick up those attacker-selected bytes and replace fields in a nearby live heap object. One useful field is a callback: a stored function pointer that nginx intends to call later. An attacker who knows the relevant process addresses and can overwrite that field may redirect normal nginx processing to existing executable code. The overwrite need not contain new machine code. This explains the general route from disclosed addresses and controlled bytes to code execution; it does not claim that every build exposes the same object or callback. Execution has the worker's permissions; execution as the master process or root has not been established. The proof-of-concept first recovers heap addresses and pointers into nginx and the GNU C Library (glibc) from memory preceding the original response body. It uses those addresses and the overwrite to forge nginx request and response-buffer objects that return selected parts of glibc's loaded image over HTTP/2. The returned ELF metadata is parsed to resolve system() despite ASLR, then a request-pool cleanup callback is redirected to invoke an attacker-chosen command. Addendum A: Why an oversized memcpy can return The TLS copy via ngx_memcpy (shown at [17] above) receives a byte count of 2^64-d , where d is a small positive distance. A routine that actually traversed that entire range would normally fault. This addendum explains why one optimized glibc implementation can instead finish after a limited number of out-of-bounds accesses. glibc chooses among optimized copy routines according to the CPU's capabilities. The tested x86-64 routine uses EVEX/YMM instructions, which can move 32 bytes at a time. In the corresponding glibc 2.41 source, the EVEX wrapper includes a shared memcpy / memmove implementation, and its vector configuration sets VEC_SIZE to 32. A vector is the block of bytes handled by one such instruction. The following excerpt uses AT&T assembly syntax, in which the source operand comes first. The CPU register %rdi holds the original destination address, called D below; %rsi holds the source address, Q ; and %rdx holds the byte count, n . One route enters this backward-copy branch when D and Q are different and the unsigned difference D-Q is smaller than n . This includes the ordinary case where D is above Q and n is close to the unsigned 64-bit maximum. // glibc 2.41: sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S // Function: CPU-selected memcpy implementation, backward-copy branch // ... L(more_8x_vec_backward): // ... leaq (VEC_SIZE * -4 + -1)(%rdi, %rdx), %rcx // <--- [20] // ... andq $-(VEC_SIZE), %rcx // <--- [21] // ... L(loop_4x_vec_backward): // ... load and store four 32-byte vectors addq $(VEC_SIZE * -4), %rcx // <--- [22] cmpq %rcx, %rdi // <--- [23] jb L(loop_4x_vec_backward) // ... store the previously loaded leading and trailing vectors VZEROUPPER_RETURN // <--- [24] The full glibc assembly source shows the omitted loads and stores. At [20], leaq calculates an address without reading memory. Its 64-bit result keeps only the low 64 bits. At [21], andq rounds that address down to a 32-byte boundary. Calling the resulting destination address cursor , the calculation is: cursor = align_down_32((D + n - 129) modulo 2^64) = align_down_32(D - d - 129), when n = 2^64-d Here, align_down_32 means rounding down to the nearest address divisible by 32; it is explanatory notation, not a glibc function. For an ordinary heap address and a small d , the calculated cursor is already below D . The loop starts by copying one 128-byte block. Instruction [22] then moves the cursor backward by another 128 bytes. The comparison and unsigned jump at [23] repeat the loop only while D < cursor . Because the cursor is already below D , the jump is not taken. The routine writes its remaining leading and trailing vectors, then returns at [24]. It has not copied the enormous requested range: the wrapped address has made the loop stop after a small set of accesses. Those accesses can still read and overwrite memory outside the actual buffers. Remediation The following vendor supplied fixes are available. Product Vulnerable Versions Fixed Version NGINX Plus 37.1.0 - 37.2.0.1 37.3.0.1 NGINX Plus 37.0.0 - 37.0.7.1 37.0.8.1 NGINX Plus R34 - R36 None NGINX Open Source 1.31.0 - 1.31.8 1.31.9 NGINX Open Source 1.9.5 - 1.30.6 1.30.7 For the latest remediation information, please see the vendor advisory . Disclosure timeline November 11, 2026: Rapid7 makes initial outreach to F5. November 12, 2026: F5 confirms outreach and Rapid7 discloses the vulnerability. F5 confirms receipt of the disclosure. November 16, 2026: F5 confirms validation of the vulnerability, CVE assignment, and a disclosure date of November 18, 2026. November 18, 2026: This disclosure.",
+    "summary_excerpt": "Overview Today, both Rapid7 and F5 are disclosing CVE-2026-123007 , a critical integer underflow vulnerability affecting nginx HTTP/2, which can allow for unauthenticated remote code execution (RCE) against affected servers under certain conditions. CVE ID Description CWE CVSSv4 CVE-2026-123007 HTTP/2 flow-control memory corruption permitting worker-context RCE CWE-191 (Integer Underflow) 9.2 (Critical) nginx can miscalculate how much response data an HTTP/2 client has allowed it to send. A remote, unauthenticated client can exploit this error by cancelling queued response data, then make ngin",
+    "threat_actors": [],
+    "title": "CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)"
   },
   {
     "ai_relevance": "none",
@@ -749,7 +950,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T20:23:23.479881+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-fec6a29f2b32a3e9c5603fe1",
     "primary_category": "other",
     "public_article_id": "url:fec6a29f2b32a3e9c5603fe1",
@@ -773,7 +974,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T19:52:04.979137+09:00",
-    "heat_score": 75.0,
+    "heat_score": 67.5,
     "permalink_id": "article-url-e7b1093169c12a55186a76d5",
     "primary_category": "vulnerability",
     "public_article_id": "url:e7b1093169c12a55186a76d5",
@@ -806,7 +1007,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T19:52:03.201816+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-4d4692262fd008a52dd7f0b3",
     "primary_category": "vulnerability",
     "public_article_id": "url:4d4692262fd008a52dd7f0b3",
@@ -11214,7 +11415,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T01:23:24.124745+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-d2045c04e3846ac51a9f883b",
     "primary_category": "ai_security",
     "public_article_id": "url:d2045c04e3846ac51a9f883b",
@@ -11235,6 +11436,34 @@
     "summary_excerpt": "Ride-hailing biz says stolen credentials allowed crooks to help themselves to driver's license data",
     "threat_actors": [],
     "title": "Hackers smash 'n' grab AI vendor: Take  off with license data of Uber drivers"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cybersecuritydive.com/news/critical-flaw-screenconnect-malicious-files-msp/874900/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T01:22:32.938355+09:00",
+    "heat_score": 46.8,
+    "permalink_id": "article-url-0738b545413a0e161799f75f",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:0738b545413a0e161799f75f",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T00:58:03+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Cybersecurity Dive",
+    "summary": "Almost 690,000 file transfer requests were made in less than a month, according to security researchers.",
+    "summary_excerpt": "Almost 690,000 file transfer requests were made in less than a month, according to security researchers.",
+    "threat_actors": [],
+    "title": "Critical flaw in ScreenConnect exploited to run malicious files on MSP technician accounts"
   },
   {
     "ai_relevance": "none",
@@ -41167,7 +41396,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T03:08:44.225210+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-37d27702f36416e0f5785579",
     "primary_category": "vulnerability",
     "public_article_id": "url:37d27702f36416e0f5785579",
@@ -41200,7 +41429,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T02:22:36.950846+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-db4f413a0b8644b794ba1e7e",
     "primary_category": "vulnerability",
     "public_article_id": "url:db4f413a0b8644b794ba1e7e",
@@ -41233,7 +41462,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T01:52:49.838819+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-9d0e65808ab58d16043979de",
     "primary_category": "ransomware",
     "public_article_id": "url:9d0e65808ab58d16043979de",
@@ -41263,7 +41492,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T02:22:41.727800+09:00",
-    "heat_score": 37.5,
+    "heat_score": 11.25,
     "permalink_id": "article-url-95bc7c63c87673bf5406f856",
     "primary_category": "vulnerability",
     "public_article_id": "url:95bc7c63c87673bf5406f856",
@@ -41291,7 +41520,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T01:22:29.523967+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-08eb7533942b4613e05e6fb5",
     "primary_category": "threat_campaign",
     "public_article_id": "url:08eb7533942b4613e05e6fb5",
@@ -133908,108 +134137,5 @@
     "summary_excerpt": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell. The vulnerabilities",
     "threat_actors": [],
     "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-20T02:01:47.051324+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-e011881b0db3e2d8be30800e",
-    "primary_category": "other",
-    "public_article_id": "url:e011881b0db3e2d8be30800e",
-    "public_tags": [],
-    "published_at": "2026-10-20T01:45:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Record",
-    "summary": "Ahold Delhaize, the Dutch multinational grocery retailer, said Monday that a cyberattack forced it to take systems offline across most of its U.S. and European brands, impacting shoppers on both sides of the Atlantic.",
-    "summary_excerpt": "Ahold Delhaize, the Dutch multinational grocery retailer, said Monday that a cyberattack forced it to take systems offline across most of its U.S. and European brands, impacting shoppers on both sides of the Atlantic.",
-    "threat_actors": [],
-    "title": "Ahold Delhaize confirms 'malicious actions' behind cyber outages affecting grocery brands"
-  },
-  {
-    "ai_relevance": "primary",
-    "canonical_url": "https://www.rapid7.com/blog/post/ai-inhuman-insider-threats-securing-agents/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-20T02:01:42.409627+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-ec50320f5fe40b36ef4e2fdf",
-    "primary_category": "ai_security",
-    "public_article_id": "url:ec50320f5fe40b36ef4e2fdf",
-    "public_tags": [
-      {
-        "color_family": "cyan",
-        "key": "ai_security",
-        "label": "AI Security"
-      },
-      {
-        "color_family": "red",
-        "key": "ransomware",
-        "label": "Ransomware"
-      },
-      {
-        "color_family": "cyan",
-        "key": "agentic_security",
-        "label": "Agentic Security"
-      },
-      {
-        "color_family": "neutral",
-        "key": "cloud_security",
-        "label": "Cloud Security"
-      },
-      {
-        "color_family": "red",
-        "key": "malware",
-        "label": "Malware"
-      }
-    ],
-    "published_at": "2026-10-20T01:34:43+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Rapid7 Blog",
-    "summary": "Why the controls on an AI agent have to live outside of it, and what a security operations team can do to implement and maintain those controls. The new privileged user in your environment Security teams spent two decades learning how to work with the people they trust most. Domain admins, DBAs, finance approvers and contractors with VPN access all get a mature playbook: verified identity, scoped access, logged activity and a fast way to revoke it all. Today, we’re navigating the same kind of access with regard to AI agents. They read our mailboxes, query our data lakes, open tickets, push code and increasingly, act on production systems. Unlike a new hire, an agent can’t be interviewed, background-checked or made to sign an acceptable-use policy. The industry has largely settled on one framing: AI agents are the new insider threat but that label only tells us half of the story. It tells us who to worry about, not where the controls should sit. Our argument is that the answer is a security idea from 1972, the reference monitor, and that the SOC is where it gets enforced in practice. Why agents break the trust model we had With traditional software, a security incident ends in a root cause. You find the vulnerable function, the misconfigured rule or the bad commit, and you fix it. The behavior lived in code we could read. Large language models don't give us that. We can't point to the training example or the set of weights that produced a specific decision. The same prompt can produce different actions on different runs. For a defender, that removes the most basic assumption we rely on: that the system will do tomorrow what it did today. The attack surface changes too, and computer science has an old name for this problem: the confused deputy . This is a trusted program tricked into misusing its own authority on someone else's behalf. An agent that reads a poisoned email, web page or document and then acts on hidden instructions is a confused deputy with API keys. No password is stolen and no exploit fires, which makes the agent's permissions the real blast radius, not the model's intelligence. Where the insider analogy holds, and where it breaks Most discussion of agents as insiders focuses on two gaps: agents have no career to lose, and they act at machine speed. Both are real. From a detection and forensics seat, though, four other differences change the work more: Difference Human insider AI agent What it means for defenders Monoculture One person fails on their own Many identical copies share one weakness Treat a working injection like a wormable bug: fix the fleet, not one instance Replayability Events can be reconstructed and the person interviewed The same input can produce a different action on a rerun Forensics must rest on recorded inputs and tool calls, not on replaying the agent Command channel Instructions come from a manager Instructions arrive mixed in with the data it processes Any content the agent reads is a potential command Self-report A person can be questioned and cross-checked Its account of its reasoning may not match what it did Evidence must come from outside the agent The last row matters most. We can't make an agent's self-reported reasoning the basis of trust, because we don't yet know how to guarantee that reasoning is faithful. Evidence has to come from outside the agent. Put the controls outside the model If the model can't be fully trusted, the controls that govern it can't live inside of it. A system prompt that says \"never delete production data\" is a suggestion, not a control. A well-crafted injection can talk the model out of it. Security architects solved a version of this problem in the 1970s with the reference monitor: a mechanism that checks every access request, can't be bypassed and can't be tampered with by the program it governs. For AI agents, that means separating three things: the model that reasons, the harness that orchestrates it and the policy layer that decides which actions are actually allowed. Figure 1: Agent control architecture · enforcement outside the model The agent can propose anything, but only the enforcement point decides what reaches real systems, and every decision lands in a log the agent can't alter. A security playbook for AI agents None of these controls are new. What's new is applying them consistently to a non-human actor that reasons, plans and acts. Give every agent its own identity. An agent should never run under a shared service account or a person's own credentials. It needs an identity that can be scoped, monitored, and revoked independently. Enforce least privilege on actions, not just data. Define an explicit action space: which tools, which APIs, which parameters. High-impact actions like payments, deletions or production changes need step-up approval from a human. Log everything in a place the agent can't touch. Every tool call, input, and output goes to tamper-evident storage outside the agent's reach. You should be able to reconstruct what happened without asking the agent. Never let a model grade its own work. Use a different model, a deterministic rule, or a human to verify important outcomes. Avoid depending on a single model vendor for anything critical. Red team continuously. Test prompt injection, tool misuse, data exfiltration, and edge cases, not just the happy path. Re-test every time the model, the prompt, or the tool set changes. Build a kill switch before you need it. In May 2017, WannaCry was stopped by luck. A researcher registered a nonsense domain hard-coded in the ransomware, and new infections stopped spreading because the malware checked that domain before running. Defenders didn't build that kill switch. They found it in the attacker's code, it did nothing for machines already encrypted, and later variants simply removed it. Agent fleets can't depend on that kind of luck. The stop control has to be ours, sit outside the agent, cut off its credentials and tool access mid-run, and be tested regularly, the way an EDR host isolation action is. Disclose and share incidents. When an agent misbehaves, tell the people affected, document which control failed and share the lessons with the wider community, the same way we share threat intelligence today. Persistent memory is a new risk. Agents with long-term memory can be poisoned once and stay compromised. Add memory state to \"log everything\" and \"quarantine its outputs.\" Bring agents into the Security Operations Center (SOC) Logging alone doesn't protect anyone, as no human team can review millions of agent actions, and handing that review to another unsupervised model just adds another black box. The SOC needs to treat agent activity as a first-class telemetry source, the way it treats endpoints, identities and cloud workloads today. In practice, that means: Behavioral baselines per agent. Know which tools, data sources and destinations each agent normally uses, and alert on deviations, such as a code-review agent that starts reading the finance file share. Detections for agent-specific attacks. Write rules for prompt-injection indicators, unusual tool chaining, sudden bursts of high-privilege actions and data flowing to unexpected destinations. Correlation with the rest of the environment. Tie agent actions to the user, the session, the content the agent read, and the systems it touched, so an investigation can follow the full chain. Response playbooks. Pause the agent, revoke its tokens, quarantine its outputs and roll back its changes, with the same speed we expect when isolating a compromised host. The security industry can lead in this area, as we already know how to collect noisy telemetry, find the signal, and contain threats quickly. Agents are the next category of asset to protect, and the next category of actor to watch. Trust the architecture, not the model Models will keep getting smarter, and vendors will keep promising they're safer. Both may be true, but neither removes our responsibility for what an agent does inside our environment with our data and our credentials. The goal isn't to find a model we can trust completely. It's to build a system that stays safe even when the model gets it wrong. Security teams have done this for people, networks, and endpoints for decades. AI agents are simply the next privileged insider, and it's time we treated them that way.",
-    "summary_excerpt": "Why the controls on an AI agent have to live outside of it, and what a security operations team can do to implement and maintain those controls. The new privileged user in your environment Security teams spent two decades learning how to work with the people they trust most. Domain admins, DBAs, finance approvers and contractors with VPN access all get a mature playbook: verified identity, scoped access, logged activity and a fast way to revoke it all. Today, we’re navigating the same kind of access with regard to AI agents. They read our mailboxes, query our data lakes, open tickets, push cod",
-    "threat_actors": [],
-    "title": "Your Next Insider Threat Won’t be Human: Securing AI Agents From the Outside in"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-20T03:02:41.444594+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-98fe862721adbe7cb835e226",
-    "primary_category": "threat_campaign",
-    "public_article_id": "url:98fe862721adbe7cb835e226",
-    "public_tags": [
-      {
-        "color_family": "red",
-        "key": "threat_campaign",
-        "label": "Campaign"
-      },
-      {
-        "color_family": "red",
-        "key": "malware",
-        "label": "Malware"
-      }
-    ],
-    "published_at": "2026-10-20T01:28:47+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Hacker News",
-    "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a security notice published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the",
-    "summary_excerpt": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a security notice published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the",
-    "threat_actors": [],
-    "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor"
   }
 ]
