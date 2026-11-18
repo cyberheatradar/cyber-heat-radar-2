@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-18T12:07:38.002156+00:00",
-  "as_of": "2026-11-18T12:00:00+00:00",
-  "catalog_count": 25383,
+  "generated_at": "2026-11-18T14:21:46.467300+00:00",
+  "as_of": "2026-11-18T14:00:00+00:00",
+  "catalog_count": 25396,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,244 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T22:38:32.776269+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-619e9379554b043e97667d06",
+      "primary_category": "incident",
+      "public_article_id": "url:619e9379554b043e97667d06",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-18T22:33:47+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Star Blizzard weaponized data and identities stolen in late 2025 to phish and compromise a US organization. The post Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization appeared first on SecurityWeek .",
+      "summary_excerpt": "Star Blizzard weaponized data and identities stolen in late 2025 to phish and compromise a US organization. The post Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization appeared first on SecurityWeek .",
+      "threat_actors": [
+        "Star Blizzard"
+      ],
+      "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.malwarebytes.com/blog/inside-malwarebytes/2026/11/who-protects-the-antivirus-how-we-secure-malwarebytes-itself",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T22:53:59.873468+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-fef51e704e49e96e9467bb77",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:fef51e704e49e96e9467bb77",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-18T22:32:54+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Malwarebytes Blog",
+      "summary": "Imagine a piece of malware that can disable your antivirus and leave you unprotected. That's exactly what we as engineers work to prevent.",
+      "summary_excerpt": "Imagine a piece of malware that can disable your antivirus and leave you unprotected. That's exactly what we as engineers work to prevent.",
+      "threat_actors": [],
+      "title": "Who protects the antivirus? How we secure Malwarebytes itself"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/norway-equinor-cyberattack-energy",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T22:38:35.770966+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-12482e40d92fc9552be8e59d",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:12482e40d92fc9552be8e59d",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-18T22:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "The Norwegian energy giant Equinor is working to contain a cyberattack on its IT systems that the company said has not impacted oil and gas production.",
+      "summary_excerpt": "The Norwegian energy giant Equinor is working to contain a cyberattack on its IT systems that the company said has not impacted oil and gas production.",
+      "threat_actors": [],
+      "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T22:38:22.089369+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-120f8ebfd4e9b9a2bdd5ebdd",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:120f8ebfd4e9b9a2bdd5ebdd",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T21:35:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "A critical OpenJDK vulnerability could expose major Java applications to remote code execution, prompting CISA to urge organizations implement mitigations",
+      "summary_excerpt": "A critical OpenJDK vulnerability could expose major Java applications to remote code execution, prompting CISA to urge organizations implement mitigations",
+      "threat_actors": [],
+      "title": "Java4Shell Vulnerability Allows Remote Attacks on Major Java Apps"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T22:38:34.608459+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-90f84e48047fe43a9ea12d1e",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:90f84e48047fe43a9ea12d1e",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-18T21:28:30+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way. Both PINs were set by the",
+      "summary_excerpt": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way. Both PINs were set by the",
+      "threat_actors": [],
+      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T21:22:39.405103+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-e3f6e444c8dea91200fa2fa5",
+      "primary_category": "ai_security",
+      "public_article_id": "url:e3f6e444c8dea91200fa2fa5",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-18T21:15:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up in your logged-in flows, your coverage, and your production safety. Make",
+      "summary_excerpt": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up in your logged-in flows, your coverage, and your production safety. Make",
+      "threat_actors": [],
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T21:22:38.764818+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-4a2b8456a2d4254ea6b410a0",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:4a2b8456a2d4254ea6b410a0",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-18T21:14:23+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWeek .",
+      "summary_excerpt": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/russian-star-blizzard-cloud-data/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T21:22:33.842530+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-f371582292a0b5ab2ca9aeb8",
+      "primary_category": "other",
+      "public_article_id": "url:f371582292a0b5ab2ca9aeb8",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-18T20:45:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "New Google analysis of Star Blizzard, aka Cold Relic, highlighted the group’s growing focus on compromising cloud environments to steal data and facilitate further attacks",
+      "summary_excerpt": "New Google analysis of Star Blizzard, aka Cold Relic, highlighted the group’s growing focus on compromising cloud environments to steal data and facilitate further attacks",
+      "threat_actors": [
+        "Star Blizzard"
+      ],
+      "title": "Russian Espionage Actor Star Blizzard Focuses on Cloud Identities for Mass Data Theft"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
@@ -39,125 +277,15 @@
       "title": "Chrome 158 Patches 204 Vulnerabilities"
     },
     {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T20:23:50.919641+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-c20575d7f9526cd801ba924c",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c20575d7f9526cd801ba924c",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T20:12:12+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "CVE-2026-114938, a memory corruption flaw in Open Java Development Kit’s Base64 decoder, can allow unauthenticated attackers to run code on servers hosting widely used Java applications. Nicknamed “Java4Shell” by Calif, the company whose researchers found it, CVE-2026-114938 was fixed by Oracle and the OpenJDK project on Tuesday. There is currently no evidence of successful attacks leveraging the flaw, but the US Cybersecurity and Infrastructure Security Agency (CISA) “strongly urges” organizations to patch immediately. About CVE-2026-114938 … More → The post Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938) appeared first on Help Net Security .",
-      "summary_excerpt": "CVE-2026-114938, a memory corruption flaw in Open Java Development Kit’s Base64 decoder, can allow unauthenticated attackers to run code on servers hosting widely used Java applications. Nicknamed “Java4Shell” by Calif, the company whose researchers found it, CVE-2026-114938 was fixed by Oracle and the OpenJDK project on Tuesday. There is currently no evidence of successful attacks leveraging the flaw, but the US Cybersecurity and Infrastructure Security Agency (CISA) “strongly urges” organizations to patch immediately. About CVE-2026-114938 … More → The post Java4Shell OpenJDK flaw: Exploitat",
-      "threat_actors": [],
-      "title": "Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938)"
-    },
-    {
       "ai_relevance": "material",
-      "canonical_url": "https://cyberscoop.com/government-tech-debt-national-security-risk-op-ed/",
+      "canonical_url": "https://www.malwarebytes.com/blog/bugs/2026/11/java4shell-a-critical-flaw-with-a-narrow-reach",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-18T20:23:43.958702+09:00",
+      "first_seen_at": "2026-11-18T21:38:23.320761+09:00",
       "heat_score": 45.0,
-      "permalink_id": "article-url-d87a95748212290775cc6e4f",
-      "primary_category": "other",
-      "public_article_id": "url:d87a95748212290775cc6e4f",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-18T20:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CyberScoop",
-      "summary": "With 80% of federal IT budgets spent maintaining aging legacy systems, fragmented government networks are struggling to defend against AI-accelerated cyberattacks from foreign adversaries. The post Government tech debt is a national security risk appeared first on CyberScoop .",
-      "summary_excerpt": "With 80% of federal IT budgets spent maintaining aging legacy systems, fragmented government networks are struggling to defend against AI-accelerated cyberattacks from foreign adversaries. The post Government tech debt is a national security risk appeared first on CyberScoop .",
-      "threat_actors": [],
-      "title": "Government tech debt is a national security risk"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T20:23:43.103670+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-fd0c162c42613792f643c05a",
-      "primary_category": "other",
-      "public_article_id": "url:fd0c162c42613792f643c05a",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-18T20:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cisco Talos Blog",
-      "summary": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
-      "summary_excerpt": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
-      "threat_actors": [],
-      "title": "The challenge of defending against bulletproof dead drops on public blockchains"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/18/news036.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T20:23:23.479881+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-fec6a29f2b32a3e9c5603fe1",
-      "primary_category": "other",
-      "public_article_id": "url:fec6a29f2b32a3e9c5603fe1",
-      "public_tags": [],
-      "published_at": "2026-11-18T19:45:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "@IT Security & Trust",
-      "summary": "A10ネットワークスは、2026年9月以降に国内で相次いで公表された大規模な情報漏えいについて、侵入経路とAIによる攻撃の変化を整理し、対策を解説した。",
-      "summary_excerpt": "A10ネットワークスは、2026年9月以降に国内で相次いで公表された大規模な情報漏えいについて、侵入経路とAIによる攻撃の変化を整理し、対策を解説した。",
-      "threat_actors": [],
-      "title": "API、VPN、SaaSが侵入口に――止まらない情報漏えい、その実態と3つの対策"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
-      "cves": [
-        "CVE-2026-115731"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T19:52:04.979137+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-e7b1093169c12a55186a76d5",
+      "permalink_id": "article-url-be1fe550546d6cf0ae95e4b7",
       "primary_category": "vulnerability",
-      "public_article_id": "url:e7b1093169c12a55186a76d5",
+      "public_article_id": "url:be1fe550546d6cf0ae95e4b7",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -166,31 +294,35 @@
         },
         {
           "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
+          "key": "ai",
+          "label": "AI Security"
         }
       ],
-      "published_at": "2026-11-18T19:37:08+09:00",
+      "published_at": "2026-11-18T20:41:07+09:00",
       "published_at_future_suppressed": false,
-      "security_relevance": "primary",
+      "security_relevance": "material",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
-      "summary_excerpt": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
+      "source_name": "Malwarebytes Blog",
+      "summary": "Researchers used AI to find a Java vulnerability and named it Java4Shell. Here’s why organizations need to patch.",
+      "summary_excerpt": "Researchers used AI to find a Java vulnerability and named it Java4Shell. Here’s why organizations need to patch.",
       "threat_actors": [],
-      "title": "Critical Perforce Puppet RCE Exploited in Attacks"
-    },
+      "title": "Java4Shell: A critical flaw with a narrow reach"
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-      "cves": [],
+      "canonical_url": "https://www.security.com/threat-intelligence/java4shell-cve2026114938-patch-now",
+      "cves": [
+        "CVE-2026-114938"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-18T19:52:03.201816+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-4d4692262fd008a52dd7f0b3",
+      "first_seen_at": "2026-11-18T21:38:08.817091+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-678823114167c0193b6998c6",
       "primary_category": "vulnerability",
-      "public_article_id": "url:4d4692262fd008a52dd7f0b3",
+      "public_article_id": "url:678823114167c0193b6998c6",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -198,85 +330,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-18T19:35:05+09:00",
+      "published_at": "2026-11-18T20:39:22+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-      "summary_excerpt": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+      "source_name": "Broadcom / Symantec Enterprise Blogs",
+      "summary": "A heap overflow vulnerability in the OpenJDK Base64 decoder, tracked as CVE-2026-114938, lets remote attackers run code on Java servers with AVX-512 processors. Patches are available.",
+      "summary_excerpt": "A heap overflow vulnerability in the OpenJDK Base64 decoder, tracked as CVE-2026-114938, lets remote attackers run code on Java servers with AVX-512 processors. Patches are available.",
       "threat_actors": [],
-      "title": "Apache warns of Roller RCE vulnerability exploited in attacks"
+      "title": "Java4Shell: Critical OpenJDK Flaw Allows Unauthenticated Remote Code Execution"
     },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6603062?source=rss",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T18:53:35.799710+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-33346dee61c945058304eb29",
-      "primary_category": "other",
-      "public_article_id": "url:33346dee61c945058304eb29",
-      "public_tags": [],
-      "published_at": "2026-11-18T18:38:22+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Yahoo!ニュース IT",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "顧客情報漏えいか 楽天証券が説明"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://ascii.jp/elem/000/004/452/4452912/?rss",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T18:53:14.497285+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-34040a8c356f8c026a25dd23",
-      "primary_category": "other",
-      "public_article_id": "url:34040a8c356f8c026a25dd23",
-      "public_tags": [],
-      "published_at": "2026-11-18T18:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ASCII.jp TECH",
-      "summary": "ヤマハは11月17日、法人向けルーター「RTX1300」「RTX840」の新ファームウェアを公開。両機種がDNSセキュリティー拡張ライセンスに対応する。RTX1300はローカルブレイクアウトに対応し、RTX840はWeb GUIから同機能を設定可能になる。",
-      "summary_excerpt": "ヤマハは11月17日、法人向けルーター「RTX1300」「RTX840」の新ファームウェアを公開。両機種がDNSセキュリティー拡張ライセンスに対応する。RTX1300はローカルブレイクアウトに対応し、RTX840はWeb GUIから同機能を設定可能になる。",
-      "threat_actors": [],
-      "title": "ヤマハ「RTX1300」「RTX840」がDNSセキュリティー拡張ライセンスに対応　新ファームウェア公開"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T18:53:15.321828+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-3cc7c52171142a720117a1ae",
-      "primary_category": "other",
-      "public_article_id": "url:3cc7c52171142a720117a1ae",
-      "public_tags": [],
-      "published_at": "2026-11-18T18:24:31+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
-      "summary_excerpt": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
-      "threat_actors": [],
-      "title": "Microsoft announces Windows Server 2028 with hardened security"
-    }
-  ],
-  "hottest": [
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
@@ -520,7 +584,7 @@
       "summary": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
       "summary_excerpt": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
       "threat_actors": [],
-      "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA"
+      "title": "CVE-2026-114938: Critical vulnerability in OpenJDK Java"
     },
     {
       "ai_relevance": "none",
@@ -551,36 +615,6 @@
       "summary_excerpt": "OpenJDKにはヒープベースのバッファオーバーフローの脆弱性（CVE-2026-114938）が存在します。 本脆弱性の発見者は本件を「Java4Shell」と呼称し、Base64デコード処理を高速化するための最適化処理に原因があると指摘しています。",
       "threat_actors": [],
       "title": "OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T08:37:15.427949+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-d6f2e7e5c99d44e4f68d6734",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:d6f2e7e5c99d44e4f68d6734",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T07:29:57+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Wiz Blog",
-      "summary": "Detect and mitigate Java4Shell (CVE-2026-114938), a critical 9.2 RCE vulnerability affecting OpenJDK and major Java-based applications.",
-      "summary_excerpt": "Detect and mitigate Java4Shell (CVE-2026-114938), a critical 9.2 RCE vulnerability affecting OpenJDK and major Java-based applications.",
-      "threat_actors": [],
-      "title": "CVE-2026-114938 OpenJDK RCE (Java4Shell): Everything You Need to Know"
     }
   ],
   "rising": [],
@@ -614,6 +648,75 @@
       "summary_excerpt": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://isc.sans.edu/diary/33522",
+      "cves": [
+        "CVE-2026-42271",
+        "CVE-2026-48710"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:22:22.213613+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-bdf57f779ad26d76f46035a9",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:bdf57f779ad26d76f46035a9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-16T22:11:04+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SANS Internet Storm Center",
+      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+      "summary_excerpt": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+      "threat_actors": [],
+      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T22:38:51.969604+09:00",
+      "heat_score": 52.56,
+      "permalink_id": "article-url-1d06137f6723e455f1793db4",
+      "primary_category": "ai_security",
+      "public_article_id": "url:1d06137f6723e455f1793db4",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-16T22:03:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of their owners appeared first on Help Net Security .",
+      "summary_excerpt": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of t",
+      "threat_actors": [],
+      "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
     },
     {
       "ai_relevance": "none",
@@ -768,50 +871,6 @@
       "summary_excerpt": "Microsoft Office ExcelのUse after freeの脆弱性により、不正な攻撃者がネットワーク経由でコードを実行する可能性があります。",
       "threat_actors": [],
       "title": "マイクロソフトのMicrosoft 365 Apps等の複数製品における解放済みメモリの使用に関する脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043452.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T12:38:19.191538+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-0c1594ea064fda1192f2ff3f",
-      "primary_category": "other",
-      "public_article_id": "url:0c1594ea064fda1192f2ff3f",
-      "public_tags": [],
-      "published_at": "2026-11-16T11:29:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Microsoft Office Excelのスタックベースのバッファオーバーフローにより、不正な攻撃者がネットワーク経由でコードを実行できるようになります。",
-      "summary_excerpt": "Microsoft Office Excelのスタックベースのバッファオーバーフローにより、不正な攻撃者がネットワーク経由でコードを実行できるようになります。",
-      "threat_actors": [],
-      "title": "マイクロソフトのMicrosoft 365 Apps等の複数製品におけるスタックベースのバッファオーバーフローの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192877",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T10:52:05.624596+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-0db82c31a4567ed11e8e4563",
-      "primary_category": "other",
-      "public_article_id": "url:0db82c31a4567ed11e8e4563",
-      "public_tags": [],
-      "published_at": "2026-11-16T10:45:49+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "Check Point Software Technologiesのセキュリティ製品に、管理者権限を奪取されるおそれがある脆弱性が明らかとなった。サイバー攻撃で悪用されたことが確認されている。",
-      "summary_excerpt": "Check Point Software Technologiesのセキュリティ製品に、管理者権限を奪取されるおそれがある脆弱性が明らかとなった。サイバー攻撃で悪用されたことが確認されている。",
-      "threat_actors": [],
-      "title": "Check Point製品に脆弱性 - 「PHP2Shell」連鎖での悪用も"
     }
   ],
   "timeseries_status": {
@@ -832,32 +891,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Chrome 158 Patches 204 Vulnerabilities",
-    "【HOTTEST #1 / Heat 75】Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938)",
-    "【LATEST #2】Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938)",
-    "【HOTTEST #2 / Heat 75】Critical Perforce Puppet RCE Exploited in Attacks",
-    "【LATEST #3】Government tech debt is a national security risk",
-    "【HOTTEST #3 / Heat 75】2026-021: High Severity Vulnerability in Java SE and OpenJDK",
-    "【LATEST #4】The challenge of defending against bulletproof dead drops on public blockchains",
-    "【HOTTEST #4 / Heat 75】Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-    "【LATEST #5】API、VPN、SaaSが侵入口に――止まらない情報漏えい、その実態と3つの対策",
-    "【HOTTEST #5 / Heat 75】CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution"
+    "【LATEST #1】Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+    "【HOTTEST #1 / Heat 75】Java4Shell: Critical OpenJDK Flaw Allows Unauthenticated Remote Code Execution",
+    "【LATEST #2】Who protects the antivirus? How we secure Malwarebytes itself",
+    "【HOTTEST #2 / Heat 75】Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938)",
+    "【LATEST #3】Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
+    "【HOTTEST #3 / Heat 75】Critical Perforce Puppet RCE Exploited in Attacks",
+    "【LATEST #4】Java4Shell Vulnerability Allows Remote Attacks on Major Java Apps",
+    "【HOTTEST #4 / Heat 75】2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+    "【LATEST #5】New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+    "【HOTTEST #5 / Heat 75】Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-15T12:00:00+00:00",
-    "last_as_of": "2026-11-18T12:00:00+00:00",
-    "unique_snapshots_used": 73,
+    "first_as_of": "2026-11-15T14:00:00+00:00",
+    "last_as_of": "2026-11-18T14:00:00+00:00",
+    "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-18T12:00:00+00:00",
-  "heat_as_of": "2026-11-18T12:00:00+00:00",
+  "news_as_of": "2026-11-18T14:00:00+00:00",
+  "heat_as_of": "2026-11-18T14:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25383,
-  "last_published_at": "2026-11-18T21:07:49.350852+09:00",
-  "publication_slot_jst": "2026-11-18T21:00:00+09:00"
+  "news_catalog_count": 25396,
+  "last_published_at": "2026-11-18T23:22:06.523927+09:00",
+  "publication_slot_jst": "2026-11-18T23:00:00+09:00"
 }
