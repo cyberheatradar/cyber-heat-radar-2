@@ -1,6 +1,50 @@
 [
   {
     "ai_relevance": "none",
+    "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2611/19/2000003311/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:47.462828+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-69949725b21999ab9f183862",
+    "primary_category": "other",
+    "public_article_id": "url:69949725b21999ab9f183862",
+    "public_tags": [],
+    "published_at": "2026-11-19T05:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "TechTarget Japan Security",
+    "summary": "欧州のスーパーマーケットで冷凍設備がサイバー攻撃を受け、庫内温度が50℃に急上昇して火災や食品廃棄が相次いだ。背景にあるOTシステムの無防備な実態とは何か。",
+    "summary_excerpt": "欧州のスーパーマーケットで冷凍設備がサイバー攻撃を受け、庫内温度が50℃に急上昇して火災や食品廃棄が相次いだ。背景にあるOTシステムの無防備な実態とは何か。",
+    "threat_actors": [],
+    "title": "冷凍庫が一晩で50℃に　仏約700拠点を襲ったOT攻撃、侵入口は「遠隔管理」"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://isc.sans.edu/diary/33532",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:44.877663+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-81a922cbfe733b06f9875912",
+    "primary_category": "other",
+    "public_article_id": "url:81a922cbfe733b06f9875912",
+    "public_tags": [],
+    "published_at": "2026-11-19T04:54:50+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "SANS Internet Storm Center",
+    "summary": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and events that may also have scored high enough to trigger an Infocon \"Yellow\" [infocon]. In the last few days, we had a major Microsoft 365 outage, a critical vulnerability in Java, and a critical vulnerability in NGINX, which was disclosed today.",
+    "summary_excerpt": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and events that may also have scored high enough to trigger an Infocon \"Yellow\" [infocon]. In the last few days, we had a major Microsoft 365 outage, a critical vulnerability in Java, and a critical vulnerability in NGINX, which was disclosed today.",
+    "threat_actors": [],
+    "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)"
+  },
+  {
+    "ai_relevance": "none",
     "canonical_url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
     "cves": [],
     "document_form": "single_story",
@@ -48,6 +92,69 @@
     "summary_excerpt": "Researchers just dropped five NGINX exploits, including one that chains an HTTP/2 bug with a kernel flaw to seize the machine behind the web server. The post It’s NGINX’s turn to cause vulnpocalypse headaches appeared first on CyberScoop .",
     "threat_actors": [],
     "title": "It’s NGINX’s turn to cause vulnpocalypse headaches"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+    "cves": [
+      "CVE-2026-123007"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:47.883020+09:00",
+    "heat_score": 55.0,
+    "permalink_id": "article-url-04e49dcbdb74573337afa5ec",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:04e49dcbdb74573337afa5ec",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-19T03:31:17+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today. F5, the company behind NGINX, says attackers can run code where",
+    "summary_excerpt": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today. F5, the company behind NGINX, says attackers can run code where",
+    "threat_actors": [],
+    "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:48.006184+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-4ab4f5e03685767a0a27b7d9",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:4ab4f5e03685767a0a27b7d9",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "cyan",
+        "key": "agentic_security",
+        "label": "Agentic Security"
+      }
+    ],
+    "published_at": "2026-11-19T03:15:39+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent. F5, which makes BIG-IP, disclosed the flaws today and says they",
+    "summary_excerpt": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent. F5, which makes BIG-IP, disclosed the flaws today and says they",
+    "threat_actors": [],
+    "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE"
   },
   {
     "ai_relevance": "none",
@@ -160,6 +267,36 @@
     "summary_excerpt": "In today's how-could-things-get-worse-for-Microsoft news, it seems someone's GitHub org admin creds have been compromised",
     "threat_actors": [],
     "title": "Microsoft's official Python agent framework hijacked to distribute malware"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+    "cves": [
+      "CVE-2026-129448"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:48.114708+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-6ec0dce548ff06fef1684d29",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:6ec0dce548ff06fef1684d29",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-19T02:10:45+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted",
+    "summary_excerpt": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted",
+    "threat_actors": [],
+    "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
   },
   {
     "ai_relevance": "none",
@@ -432,7 +569,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T01:22:32.740913+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-d6ab8cd954955ced3f8c6806",
     "primary_category": "vulnerability",
     "public_article_id": "url:d6ab8cd954955ced3f8c6806",
@@ -462,7 +599,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T00:52:05.769566+09:00",
-    "heat_score": 75.0,
+    "heat_score": 67.5,
     "permalink_id": "article-url-a0792ea92321f1439be1e94c",
     "primary_category": "vulnerability",
     "public_article_id": "url:a0792ea92321f1439be1e94c",
@@ -495,7 +632,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T00:24:22.270116+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-0ff7310cfa5642d1a1837354",
     "primary_category": "other",
     "public_article_id": "url:0ff7310cfa5642d1a1837354",
@@ -517,7 +654,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T00:24:17.439493+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-958840aa8fb15a24edf46066",
     "primary_category": "vulnerability",
     "public_article_id": "url:958840aa8fb15a24edf46066",
@@ -545,7 +682,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T00:24:19.328610+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-a36146cf9b18c83c8ef804ad",
     "primary_category": "other",
     "public_article_id": "url:a36146cf9b18c83c8ef804ad",
@@ -567,7 +704,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T00:24:20.961534+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-80ed25f32a8cc843dfaa6c34",
     "primary_category": "other",
     "public_article_id": "url:80ed25f32a8cc843dfaa6c34",
@@ -589,7 +726,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T03:22:57.041852+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-cd485ca383111492ae17ff97",
     "primary_category": "other",
     "public_article_id": "url:cd485ca383111492ae17ff97",
@@ -611,7 +748,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T00:24:21.596088+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-16d1e418da7ea1b76c1da0a8",
     "primary_category": "threat_campaign",
     "public_article_id": "url:16d1e418da7ea1b76c1da0a8",
@@ -644,7 +781,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T23:22:51.009471+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-365a46b8fc281280c1331178",
     "primary_category": "threat_campaign",
     "public_article_id": "url:365a46b8fc281280c1331178",
@@ -677,7 +814,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T23:22:48.903849+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-4a99733142bf52ae4682b92e",
     "primary_category": "threat_campaign",
     "public_article_id": "url:4a99733142bf52ae4682b92e",
@@ -1941,6 +2078,214 @@
     "summary_excerpt": "ReversingLabs has taken apart BubbleLoader, a loader that turns ordinary Windows programs into carriers for other malware. The attackers rewrite a handful of instructions at a program’s entry point, the spot where Windows begins running it, and add two PNG images that hold the hidden code. Known hosts include WinRAR, the x64dbg debugger, Windows Media Player, the Firefox launcher and virtiofs. The earliest BubbleLoader samples appeared in February 2026, and ReversingLabs tracked two clusters of … More → The post BubbleLoader malware turns copies of WinRAR and Windows Media Player into carriers",
     "threat_actors": [],
     "title": "BubbleLoader malware turns copies of WinRAR and Windows Media Player into carriers"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1037/",
+    "cves": [
+      "CVE-2026-131809"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:23:23.693309+09:00",
+    "heat_score": 67.5,
+    "permalink_id": "article-url-3ec3ad4e03ea8a08ce9c32c7",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:3ec3ad4e03ea8a08ce9c32c7",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T15:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "enrichment_rss",
+    "source_name": "Zero Day Initiative Published Advisories",
+    "summary": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.6. The following CVEs are assigned: CVE-2026-131809.",
+    "summary_excerpt": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.6. The following CVEs are assigned: CVE-2026-131809.",
+    "threat_actors": [],
+    "title": "ZDI-26-1037: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Authentication Bypass Vulnerability"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1036/",
+    "cves": [
+      "CVE-2026-131808"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:23:20.800932+09:00",
+    "heat_score": 67.5,
+    "permalink_id": "article-url-e21b67d422ad4fea6f083dfc",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:e21b67d422ad4fea6f083dfc",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T15:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "enrichment_rss",
+    "source_name": "Zero Day Initiative Published Advisories",
+    "summary": "This vulnerability allows network-adjacent attackers to modify Wi-Fi configuration on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.3. The following CVEs are assigned: CVE-2026-131808.",
+    "summary_excerpt": "This vulnerability allows network-adjacent attackers to modify Wi-Fi configuration on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.3. The following CVEs are assigned: CVE-2026-131808.",
+    "threat_actors": [],
+    "title": "ZDI-26-1036: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Wi-Fi Configuration Server Missing Authentication Vulnerability"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1035/",
+    "cves": [
+      "CVE-2026-131810"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:23:00.860655+09:00",
+    "heat_score": 67.5,
+    "permalink_id": "article-url-73835baff8bace0fc46eda45",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:73835baff8bace0fc46eda45",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T15:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "enrichment_rss",
+    "source_name": "Zero Day Initiative Published Advisories",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-131810.",
+    "summary_excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-131810.",
+    "threat_actors": [],
+    "title": "ZDI-26-1035: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Download of Code Without Integrity Check Remote Code Execution Vulnerability"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1034/",
+    "cves": [
+      "CVE-2026-131812"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:58.979866+09:00",
+    "heat_score": 67.5,
+    "permalink_id": "article-url-aac0b46f9caf506903782439",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:aac0b46f9caf506903782439",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T15:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "enrichment_rss",
+    "source_name": "Zero Day Initiative Published Advisories",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-131812.",
+    "summary_excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-131812.",
+    "threat_actors": [],
+    "title": "ZDI-26-1034: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A FTP URL Path Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1033/",
+    "cves": [
+      "CVE-2026-131807"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:55.062152+09:00",
+    "heat_score": 67.5,
+    "permalink_id": "article-url-16f25bdf0d86f9945f43dcf0",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:16f25bdf0d86f9945f43dcf0",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T15:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "enrichment_rss",
+    "source_name": "Zero Day Initiative Published Advisories",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-131807.",
+    "summary_excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-131807.",
+    "threat_actors": [],
+    "title": "ZDI-26-1033: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP GetConfiguration Stack-based Buffer Overflow Remote Code Execution Vulnerability"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1032/",
+    "cves": [
+      "CVE-2026-131811"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:52.172837+09:00",
+    "heat_score": 67.5,
+    "permalink_id": "article-url-38a0bf59ed0637f7e3b01bc9",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:38a0bf59ed0637f7e3b01bc9",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T15:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "enrichment_rss",
+    "source_name": "Zero Day Initiative Published Advisories",
+    "summary": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.6. The following CVEs are assigned: CVE-2026-131811.",
+    "summary_excerpt": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.6. The following CVEs are assigned: CVE-2026-131811.",
+    "threat_actors": [],
+    "title": "ZDI-26-1032: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Hard-Coded Credentials Authentication Bypass Vulnerability"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1031/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:22:49.291723+09:00",
+    "heat_score": 58.5,
+    "permalink_id": "article-url-a24751253bc313fbd7bdcfbe",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:a24751253bc313fbd7bdcfbe",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-18T15:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "enrichment_rss",
+    "source_name": "Zero Day Initiative Published Advisories",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.2.",
+    "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.2.",
+    "threat_actors": [],
+    "title": "ZDI-26-1031: (0Day) LiteLLM MCP Command Injection Remote Code Execution Vulnerability"
   },
   {
     "ai_relevance": "none",
@@ -11233,6 +11578,179 @@
     "title": "OpenSSLにおける脆弱性に対するアップデート（2026年11月17日）"
   },
   {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-19T05:38:12.141733+09:00",
+    "heat_score": 58.5,
+    "permalink_id": "article-url-78dbd65d93b6a1d4dd84a42d",
+    "primary_category": "supply_chain",
+    "public_article_id": "url:78dbd65d93b6a1d4dd84a42d",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "supply_chain",
+        "label": "Supply Chain"
+      },
+      {
+        "color_family": "cyan",
+        "key": "agentic_security",
+        "label": "Agentic Security"
+      }
+    ],
+    "published_at": "2026-11-18T09:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Elastic Security Blog",
+    "summary": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
+    "summary_excerpt": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
+    "threat_actors": [],
+    "title": "We caught the agent-framework PyPI compromise six minutes after it published"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-10441",
+    "cves": [
+      "CVE-2024-10441"
+    ],
+    "document_form": "advisory",
+    "first_seen_at": "2026-11-19T05:22:20.016978+09:00",
+    "heat_score": 70.97,
+    "permalink_id": "article-url-9080ec7f96eb628a1a0003f4",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:9080ec7f96eb628a1a0003f4",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "orange",
+        "key": "kev",
+        "label": "KEV"
+      }
+    ],
+    "published_at": "2026-11-18T09:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": true,
+    "source_class": "enrichment_kev",
+    "source_name": "CISA Known Exploited Vulnerabilities",
+    "summary": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+    "summary_excerpt": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+    "threat_actors": [],
+    "title": "CVE-2024-10441: Synology DiskStation Manager (DSM)"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-40217",
+    "cves": [
+      "CVE-2026-40217"
+    ],
+    "document_form": "advisory",
+    "first_seen_at": "2026-11-19T05:22:20.007382+09:00",
+    "heat_score": 70.97,
+    "permalink_id": "article-url-8d032bd71d000bbb7e972c93",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:8d032bd71d000bbb7e972c93",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "orange",
+        "key": "kev",
+        "label": "KEV"
+      }
+    ],
+    "published_at": "2026-11-18T09:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": true,
+    "source_class": "enrichment_kev",
+    "source_name": "CISA Known Exploited Vulnerabilities",
+    "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+    "summary_excerpt": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+    "threat_actors": [],
+    "title": "CVE-2026-40217: BerriAI LiteLLM"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-90817",
+    "cves": [
+      "CVE-2026-90817"
+    ],
+    "document_form": "advisory",
+    "first_seen_at": "2026-11-19T05:22:19.997842+09:00",
+    "heat_score": 70.97,
+    "permalink_id": "article-url-6b4e419efdcc78ae46c2e178",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:6b4e419efdcc78ae46c2e178",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "orange",
+        "key": "kev",
+        "label": "KEV"
+      }
+    ],
+    "published_at": "2026-11-18T09:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": true,
+    "source_class": "enrichment_kev",
+    "source_name": "CISA Known Exploited Vulnerabilities",
+    "summary": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+    "summary_excerpt": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+    "threat_actors": [],
+    "title": "CVE-2026-90817: Vanderbilt University Research Electronic Data Capture (REDCap)"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-90436",
+    "cves": [
+      "CVE-2026-90436"
+    ],
+    "document_form": "advisory",
+    "first_seen_at": "2026-11-19T05:22:19.985871+09:00",
+    "heat_score": 70.97,
+    "permalink_id": "article-url-2dee79dd2a96d516bc4a5093",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:2dee79dd2a96d516bc4a5093",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "orange",
+        "key": "kev",
+        "label": "KEV"
+      }
+    ],
+    "published_at": "2026-11-18T09:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": true,
+    "source_class": "enrichment_kev",
+    "source_name": "CISA Known Exploited Vulnerabilities",
+    "summary": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+    "summary_excerpt": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+    "threat_actors": [],
+    "title": "CVE-2026-90436: Apache Axis"
+  },
+  {
     "ai_relevance": "primary",
     "canonical_url": "https://therecord.media/cisa-issues-java4shell-alert",
     "cves": [],
@@ -11909,7 +12427,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T06:23:38.845946+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-164e150f10263c888f360869",
     "primary_category": "ai_security",
     "public_article_id": "url:164e150f10263c888f360869",
@@ -11937,7 +12455,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T06:23:38.592016+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-6a0c3bb08d1df92e6f2860b9",
     "primary_category": "other",
     "public_article_id": "url:6a0c3bb08d1df92e6f2860b9",
@@ -11959,7 +12477,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T06:23:18.690084+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-b578b4efad12031a1ea35270",
     "primary_category": "threat_campaign",
     "public_article_id": "url:b578b4efad12031a1ea35270",
@@ -11987,7 +12505,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T08:22:37.236324+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-5b2847903b52d6f9cb3be63f",
     "primary_category": "other",
     "public_article_id": "url:5b2847903b52d6f9cb3be63f",
@@ -12009,7 +12527,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T06:23:18.352315+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-a57ca1bb9b9a277e6b5d9aaf",
     "primary_category": "vulnerability",
     "public_article_id": "url:a57ca1bb9b9a277e6b5d9aaf",
@@ -12037,7 +12555,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T05:22:32.719440+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-48de75b475f7df8781f0887a",
     "primary_category": "other",
     "public_article_id": "url:48de75b475f7df8781f0887a",
@@ -27169,7 +27687,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T05:22:33.120403+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-c0de31e0eb21d73fafaa0954",
     "primary_category": "other",
     "public_article_id": "url:c0de31e0eb21d73fafaa0954",
@@ -27191,7 +27709,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T05:08:19.544090+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-8e6399daee11c4be6136313e",
     "primary_category": "other",
     "public_article_id": "url:8e6399daee11c4be6136313e",
@@ -41758,7 +42276,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-14T00:24:06.447199+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-73f16bb25f342d07f7a5648b",
     "primary_category": "ai_security",
     "public_article_id": "url:73f16bb25f342d07f7a5648b",
@@ -41786,7 +42304,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T06:07:30.599403+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-abb1d03524101316824be030",
     "primary_category": "vulnerability",
     "public_article_id": "url:abb1d03524101316824be030",
@@ -41814,7 +42332,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T05:52:22.543208+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-6c51eefd618f443508c4d7b4",
     "primary_category": "other",
     "public_article_id": "url:6c51eefd618f443508c4d7b4",
@@ -41836,7 +42354,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T05:38:16.996367+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-56375e0ab6a30564f6ba01ae",
     "primary_category": "other",
     "public_article_id": "url:56375e0ab6a30564f6ba01ae",
@@ -41858,7 +42376,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-12T05:22:35.267257+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-801742f7e0ee91bf37d2cd7b",
     "primary_category": "ransomware",
     "public_article_id": "url:801742f7e0ee91bf37d2cd7b",
@@ -134734,99 +135252,5 @@
     "summary_excerpt": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
     "threat_actors": [],
     "title": "WordPress SEO plugin Rank Math compromised to backdoor websites"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.theregister.com/security/2026/10/19/grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-and-european-systems-offline/5303970",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-20T07:03:03.739440+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-19e967b919d6ae1ee89992c9",
-    "primary_category": "vulnerability",
-    "public_article_id": "url:19e967b919d6ae1ee89992c9",
-    "public_tags": [
-      {
-        "color_family": "neutral",
-        "key": "vulnerability",
-        "label": "Vulnerability"
-      }
-    ],
-    "published_at": "2026-10-20T05:26:21+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Register Security",
-    "summary": "Second security snafu in two years",
-    "summary_excerpt": "Second security snafu in two years",
-    "threat_actors": [],
-    "title": "Grocery giant Ahold Delhaize confirms cyberattack forced US and European systems offline"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2610/20/2000002400/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-20T06:01:50.608794+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-369add7d8352b41af2bc40ef",
-    "primary_category": "other",
-    "public_article_id": "url:369add7d8352b41af2bc40ef",
-    "public_tags": [],
-    "published_at": "2026-10-20T05:00:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "TechTarget Japan Security",
-    "summary": "米国防総省のDMDCで、300万人以上の機密情報が流出するインシデントが発生した。原因は高度なサイバー攻撃ではなく、基本的なセキュリティ管理の欠落にあった。何が起きたのか。",
-    "summary_excerpt": "米国防総省のDMDCで、300万人以上の機密情報が流出するインシデントが発生した。原因は高度なサイバー攻撃ではなく、基本的なセキュリティ管理の欠落にあった。何が起きたのか。",
-    "threat_actors": [],
-    "title": "米国防総省で300万人分の個人情報が流出　その「意外な原因」と教訓"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00598/011300386/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-20T06:01:46.841215+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-419b40d0342b7166774d5ca9",
-    "primary_category": "other",
-    "public_article_id": "url:419b40d0342b7166774d5ca9",
-    "public_tags": [],
-    "published_at": "2026-10-20T05:00:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Nikkei XTECH IT",
-    "summary": "著名なセキュリティーリサーチャーのpiyokango氏が注目のシステムトラブルをピックアップ。今週は、「焼肉きんぐ」公式アプリからの会員情報漏洩、コミュニティーサービス「Commune」への不正アクセス、「Koto Online」の会員機能の不具合を取り上げる。",
-    "summary_excerpt": "著名なセキュリティーリサーチャーのpiyokango氏が注目のシステムトラブルをピックアップ。今週は、「焼肉きんぐ」公式アプリからの会員情報漏洩、コミュニティーサービス「Commune」への不正アクセス、「Koto Online」の会員機能の不具合を取り上げる。",
-    "threat_actors": [],
-    "title": "焼肉きんぐで1078万件漏洩、相次ぐ情報トラブル　パスワードが対象の事例も"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/13/news014.html",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-20T06:01:25.399606+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-863119712c248101fdd42a50",
-    "primary_category": "other",
-    "public_article_id": "url:863119712c248101fdd42a50",
-    "public_tags": [],
-    "published_at": "2026-10-20T05:00:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "@IT Security & Trust",
-    "summary": "脆弱性の発見数が対処のスピードを上回ることが確実になった今、あきらめてしまう以外の方法を考える必要がある。脆弱性を評価する方法を「点数」ではなく「リスクマネジメント」の観点から考えるに当たり、参考になる指標や文書を紹介する。",
-    "summary_excerpt": "脆弱性の発見数が対処のスピードを上回ることが確実になった今、あきらめてしまう以外の方法を考える必要がある。脆弱性を評価する方法を「点数」ではなく「リスクマネジメント」の観点から考えるに当たり、参考になる指標や文書を紹介する。",
-    "threat_actors": [],
-    "title": "脆弱性対応は「点数」から「リスク」へ――CVSS、KEV、BOD 26-04を踏まえた優先順位の付け方"
   }
 ]

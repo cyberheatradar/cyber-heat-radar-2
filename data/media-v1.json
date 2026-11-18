@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T19:40:02.887856+00:00",
+  "source_snapshot_generated_at": "2026-11-18T20:40:07.751935+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -41455,6 +41455,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5077c572310ab7e056c3e97d",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Node.js",
+          "Security",
+          "apiキー",
+          "curl"
+        ],
+        "url": "https://qiita.com/supportapp3/items/f12a2fed76b57a438439",
+        "title": "ログや例外に API キーが出る書き方を一度に洗い出して直す手順：scan-code で9か所を検出→修正→再点検し、検出できない4つは手で見る",
+        "author": "supportapp3",
+        "published_at": "2026-11-19T05:17:04+09:00",
+        "excerpt": "ログや例外に API キーが出る書き方は、1つずつ記事で確かめてきました。今回はそれを「自分のコードに残っていないか」を一度に点検して直す手順にまとめます。点検には、拙作の読み取り専用 CLI ai-secret-check の scan-code を使います（値や該当行は表示しません）。 環境 Node.js v24.22.1、ai-secret-check 0.1.0（コミット 3eacede） 点検対象はダミーのキー・ダミーのトークンだけを書いたサンプルフォルダ（コードは実行せず、点検だけ） 本物のキーは使っていません 1. 点検する（1行） git clone https://github.com/supportapp3-lab/ai-secret-check.git node ai-secret-check/bin/ai-secret-check.js scan-code ./あなたのプロジェクト scan-code は明示的に実行したときだけソースの中身を読みます。ファイルの書き換え・外部通信・コマンド実行はしません。 2. わざと危"
+      },
+      {
         "id": "qiita:865c9629b0c6c439271fa12f",
         "source": "qiita",
         "author_tags": [
@@ -56561,6 +56577,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:9c826a07606afd94bab013ff",
+        "source": "medium",
+        "author_tags": [
+          "telegram-bot",
+          "hijacking",
+          "cybersecurity",
+          "android",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@HexNinja/deconstructing-a-telegram-account-hijacking-campaign-c386e7a7e2a3",
+        "title": "Deconstructing a Telegram Account Hijacking Campaign",
+        "author": "HexNinja",
+        "published_at": "2026-11-18T20:07:36+00:00",
+        "excerpt": "I came across an account hijacking campaign leveraging compromised Telegram accounts and malicious WebApps (Mini Apps). By luring users… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9cff88fe3ebdb9cb05e85c3d",
+        "source": "medium",
+        "author_tags": [
+          "ai",
+          "ai-security",
+          "technology",
+          "cybersecurity",
+          "artificial-intelligence"
+        ],
+        "url": "https://taimurcloud123.medium.com/the-next-cybersecurity-skill-shortage-wont-be-about-tools-it-ll-be-about-judgement-83ec2bcfd7a8",
+        "title": "The Next Cybersecurity Skill Shortage Won’t Be About Tools .. It’ll Be About Judgement.",
+        "author": "Taimur Ijlal",
+        "published_at": "2026-11-18T19:44:58+00:00",
+        "excerpt": "AI is making cybersecurity professionals faster. But what happens when we stop questioning the answers it gives us? Continue reading on Medium »"
+      },
       {
         "id": "medium:a096dcad0d7bb99b06531d1f",
         "source": "medium",
