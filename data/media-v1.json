@@ -1,9 +1,101 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T09:40:03.749443+00:00",
+  "source_snapshot_generated_at": "2026-11-18T10:40:03.654675+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:4fb2ad08efe7ef5b6d2e31cb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Notion",
+          "prompt",
+          "llm"
+        ],
+        "url": "https://zenn.dev/andyailab/articles/e8a69f84e5961d",
+        "title": "AIを活用した社内マニュアル作成で属人化を防ぐ構造化手順と改訂チェックリスト【コピペ用プロンプト2本＋5項目チェック】",
+        "author": "アンディ",
+        "published_at": "2026-11-18T10:38:58.944000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a5b84152b398f7c66d4598fd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SAP",
+          "ERP",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/dantarg/articles/claude-code-playbook-gates",
+        "title": "「検査は走っていた。それでもpushされた」——Claude Codeの3か月の記録と、SAPの移送ゲート",
+        "author": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+        "published_at": "2026-11-18T10:33:11.764000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2e967a18cbeb7cc4a1c0aa67",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "副業",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yuceo/articles/ai-board-claude-code",
+        "title": "会社員エンジニアが Claude Code で「AI役員会議」の会社を作って5日回した",
+        "author": "Yu",
+        "published_at": "2026-11-18T10:28:28.354000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bbd8392f14b92ce99d12d4a6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "Security",
+          "privacy"
+        ],
+        "url": "https://zenn.dev/kotanpolin/articles/ai-chat-leak-vendor",
+        "title": "AIチャットの中身はどこで漏れる？",
+        "author": "コタ",
+        "published_at": "2026-11-18T10:26:11.274000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5f2f7e9a361181e1d1168f4a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "SNS",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/atsushi_apps/articles/claude-in-chrome-sns-posting-split",
+        "title": "SNSの投稿は、入力までAI・ボタンは人。Claude in Chromeで5つのSNSに入れてつまずいたこと",
+        "author": "Atsushi｜個人アプリ開発",
+        "published_at": "2026-11-18T10:05:44.108000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8667edf66126b5a97c465fc7",
+        "source": "zenn",
+        "author_tags": [
+          "Git",
+          "初心者",
+          "Security",
+          "env"
+        ],
+        "url": "https://zenn.dev/kotanpolin/articles/web-security-14-secrets-env",
+        "title": "シークレット管理と.env：中高生に説明するつもりで書く技術・セキュリティ",
+        "author": "コタ",
+        "published_at": "2026-11-18T10:04:31.553000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:9f593260bd318f0a6e1a4bf3",
         "source": "zenn",
@@ -40831,6 +40923,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3e6e431b50a6d2e5bbb5fd60",
+        "source": "qiita",
+        "author_tags": [
+          "システム障害",
+          "インシデント対応",
+          "SRE",
+          "Security",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/austinnnn/items/683cf2761562f55dabb2",
+        "title": "送金が遅れる、飛行機が出発できない、iCloudに入れない――米国で相次いだシステム障害を考える",
+        "author": "austinnnn",
+        "published_at": "2026-11-18T19:38:35+09:00",
+        "excerpt": "image: WSMV はじめに 普段使っているサービスが突然使えなくなり、予定が変わったことはありませんか。 2026年11月16日から17日にかけて、米国では銀行、航空会社、Appleのサービスで障害が相次ぎました。取引処理や航空便の出発が遅れたり、iCloudなどのサービスを利用できなくなったりと、生活に直接関わる影響が報じられています。 私も毎日iPhoneを使っていますし、月末には米国への出張を控えています。移動中に予約を確認できなかったら、支払いでエラーが出たら……と考えると、気になるニュースでした。 エンジニアとして気になったのは、障害の原因に加えて、 システムの問題が、利用者のどの行動を止めたのか という点です。今回は3社の出来事を整理し、設計や運用、利用者としての備え、AIを使った対応について考えます。 情報は2026年11月18日時点で確認した、各社の説明を伝えるReuters、AP（The Associated Press）、CNN、NBCの報道と、公式ドキュメントに基づきます。日付は特記がなければ米国の現地日付です。設計や"
+      },
+      {
+        "id": "qiita:a2ddaa43fd57fc02287e6859",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "cybersecurity",
+          "AI",
+          "IncidentResponse",
+          "ThreatIntelligence"
+        ],
+        "url": "https://qiita.com/01rabbit/items/8fc9e32061bc5cb9c16a",
+        "title": "日本で情報漏洩が相次いでいるので、世界の「AI攻撃」を調べ直してみた",
+        "author": "01rabbit",
+        "published_at": "2026-11-18T19:18:24+09:00",
+        "excerpt": "調査基準日は2026年11月18日です。公開資料を読み直した調査で、被害組織へのアクセスや攻撃は一切していません。文中の「確認」は、引用元の調査機関がその観測範囲で確認したという意味で使っています。 はじめに 2026年の秋は、国内で不正アクセスや情報漏洩の公表が続きました。ニュースを追っていると、いくつか疑問が湧いてきます。そもそも被害は本当に増えているのか。増えているなら、AIを使う攻撃ツールが増えたせいか、AIそのものが賢くなったせいか。日本の防御が弱いのか、日本の情報が特に狙われているのか。 「AIが攻撃を増やしている」と言うのは簡単ですが、そう主張するには、攻撃の試行数、実際の侵害件数、AIが関与したかどうか、AIを使わなかった場合との差を分けて考える必要があります。そこで国内の公表統計、JPCERT/CCによる攻撃インフラの分析、海外ベンダーの侵害調査、AIの攻撃能力を比べた研究を読み直し、自分の仮説に都合の悪い資料も探しました。 先に結論を書きます。AIが攻撃の一部の工程で使われていることは、複数の一次資料で確認できました。一方、日"
+      },
+      {
         "id": "qiita:66a90e2894a12d81bfc5106e",
         "source": "qiita",
         "author_tags": [
@@ -55788,6 +55912,36 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:754dd6aeb82336bfb220fddb",
+        "source": "medium",
+        "author_tags": [
+          "cyber-cops",
+          "email-security",
+          "phishing-protection",
+          "cybersecurity",
+          "threat-detection"
+        ],
+        "url": "https://medium.com/@cyber-cops/why-advanced-email-threat-detection-gives-you-maximum-protection-c245ca22b4e8",
+        "title": "Why Advanced Email Threat Detection Gives You Maximum Protection",
+        "author": "Cyber Cops",
+        "published_at": "2026-11-18T10:07:55+00:00",
+        "excerpt": "The email seems absolutely legitimate. Appropriate by name, appropriate logo, and a polite request to update payment information… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:beafebcf7e2cac2cf36e6939",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "business-cybersecurity",
+          "cyber-security-training"
+        ],
+        "url": "https://medium.com/@CodeRedProInsights/cybersecurity-for-business-leaders-how-to-write-a-one-page-risk-brief-8793b7f961f4",
+        "title": "Cybersecurity for Business Leaders: How to Write a One-Page Risk Brief",
+        "author": "NIK",
+        "published_at": "2026-11-18T10:03:25+00:00",
+        "excerpt": "A one-page brief often decides whether a security fix gets funded or forgotten. Leaders rarely have time for long reports, and they cannot… Continue reading on Medium »"
+      },
       {
         "id": "medium:bd87c2c1116caf6243ad67cf",
         "source": "medium",

@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-18T10:07:55.213077+00:00",
-  "as_of": "2026-11-18T10:00:00+00:00",
-  "catalog_count": 25374,
+  "generated_at": "2026-11-18T11:07:35.545852+00:00",
+  "as_of": "2026-11-18T11:00:00+00:00",
+  "catalog_count": 25378,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,69 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+      "cves": [
+        "CVE-2026-115731"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T19:52:04.979137+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e7b1093169c12a55186a76d5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e7b1093169c12a55186a76d5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-18T19:37:08+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Critical Perforce Puppet RCE Exploited in Attacks"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T19:52:03.201816+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-4d4692262fd008a52dd7f0b3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:4d4692262fd008a52dd7f0b3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T19:35:05+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+      "summary_excerpt": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+      "threat_actors": [],
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://news.yahoo.co.jp/pickup/6603062?source=rss",
@@ -210,39 +273,21 @@
       "summary_excerpt": "The collaboration includes the development of automated security configuration assessment capabilities, with an initial focus on DISA STIG compliance",
       "threat_actors": [],
       "title": "Nozomi Networks teams up with Lockheed Martin on defense security scheme"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/18/2000003302/",
-      "cves": [],
+      "canonical_url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+      "cves": [
+        "CVE-2026-115731"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-18T18:22:33.073213+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-41b00c807128d0b49c1cb253",
-      "primary_category": "other",
-      "public_article_id": "url:41b00c807128d0b49c1cb253",
-      "public_tags": [],
-      "published_at": "2026-11-18T17:40:07+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Bursts",
-      "summary": "楽天証券の顧客情報漏えい問題で、同社が本番の顧客データをマスキングせずにテスト環境へ保存していたことが分かった。最大約1572万口座分が漏えいした可能性がある。",
-      "summary_excerpt": "楽天証券の顧客情報漏えい問題で、同社が本番の顧客データをマスキングせずにテスト環境へ保存していたことが分かった。最大約1572万口座分が漏えいした可能性がある。",
-      "threat_actors": [],
-      "title": "楽天証券の大規模漏えい、なぜテスト環境に顧客情報が？　「本番データでの確認が必要だった」"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.itpro.com/security/companies-will-be-given-30-day-patch-deadlines-as-researchers-tighten-bug-disclosure-windows",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T17:38:18.490304+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-546cfbf90e730bdef70b5c60",
+      "first_seen_at": "2026-11-18T19:52:04.979137+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e7b1093169c12a55186a76d5",
       "primary_category": "vulnerability",
-      "public_article_id": "url:546cfbf90e730bdef70b5c60",
+      "public_article_id": "url:e7b1093169c12a55186a76d5",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -251,23 +296,21 @@
         },
         {
           "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
+          "key": "agentic_security",
+          "label": "Agentic Security"
         }
       ],
-      "published_at": "2026-11-18T17:30:00+09:00",
+      "published_at": "2026-11-18T19:37:08+09:00",
       "published_at_future_suppressed": false,
-      "security_relevance": "material",
+      "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "ITPro Security",
-      "summary": "The accelerated timeline aims to combat an AI vulnerability avalanche",
-      "summary_excerpt": "The accelerated timeline aims to combat an AI vulnerability avalanche",
+      "source_name": "SecurityWeek",
+      "summary": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
-      "title": "Companies will be given 30-day patch deadlines as researchers tighten bug disclosure windows"
-    }
-  ],
-  "hottest": [
+      "title": "Critical Perforce Puppet RCE Exploited in Attacks"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
@@ -300,13 +343,73 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "cves": [
+        "CVE-2026-115731"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T19:22:55.512602+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-eeab189c347513181f34ff4f",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:eeab189c347513181f34ff4f",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T17:24:31+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+      "threat_actors": [],
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T19:22:55.642112+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e739030404770d0d4734e00b",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e739030404770d0d4734e00b",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T17:24:23+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
+      "threat_actors": [],
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
       "cves": [
         "CVE-2026-114938"
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-18T14:22:45.543697+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-5966ac56e61b79d55a1dfb8e",
       "primary_category": "vulnerability",
       "public_article_id": "url:5966ac56e61b79d55a1dfb8e",
@@ -336,7 +439,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-18T13:22:37.998578+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-97f5f6027f2ca779facb3d3a",
       "primary_category": "vulnerability",
       "public_article_id": "url:97f5f6027f2ca779facb3d3a",
@@ -477,96 +580,6 @@
       "summary_excerpt": "Overview On November 17, 2026, public reports described CVE-2026-114938 as a memory corruption vulnerability in Java 17 and above that could allow a remote attacker to execute code without authentication. The reported severity is Critical, with a CVSSv4 score of 9.2. These CVE-specific details remain preliminary, pending confirmation in Oracle or OpenJDK advisories. Rapid7 is actively monitoring the situation and will update this blog as new information arrives. For the latest vendor release information, refer to Oracle's November security update notice and OpenJDK's vulnerability advisories .",
       "threat_actors": [],
       "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T04:37:35.004846+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-e5492f9867506c1763a92226",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e5492f9867506c1763a92226",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T00:17:36+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
-      "summary_excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
-      "threat_actors": [],
-      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T08:22:13.023044+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-2b90ef71fb0880376bf8f6be",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:2b90ef71fb0880376bf8f6be",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-17T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution. Actions to take CISA urges organizations to take the following actions: Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. Note: JDKs and Java runtimes may not appear as separate entries in software inventories. Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems. If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access. Review Oracle’s security advisory for guidance on patching and affected products and versions. Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes. Resources CISA urges network defenders to review the following resource and apply necessary updates: Vendor Guidance Oracle’s Security Advisory: Critical Security Patch Update – November 2026 Disclaimer The information in this report is being provided “as is” for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA. Acknowledgements The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.",
-      "summary_excerpt": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution. Actions to take CISA urges organizations to take the following actions: Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, i",
-      "threat_actors": [],
-      "title": "Critical Java Vulnerability Requires Immediate Patching"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "cves": [
-        "CVE-2026-115731"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T05:22:11.100906+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-37902359fb183e1569911a82",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:37902359fb183e1569911a82",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-17T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-      "summary_excerpt": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV",
-      "threat_actors": [],
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog"
     }
   ],
   "rising": [],
@@ -810,32 +823,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】顧客情報漏えいか 楽天証券が説明",
-    "【HOTTEST #1 / Heat 75】2026-021: High Severity Vulnerability in Java SE and OpenJDK",
-    "【LATEST #2】ヤマハ「RTX1300」「RTX840」がDNSセキュリティー拡張ライセンスに対応　新ファームウェア公開",
-    "【HOTTEST #2 / Heat 75】Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-    "【LATEST #3】Microsoft announces Windows Server 2028 with hardened security",
-    "【HOTTEST #3 / Heat 75】OpenJDKのBase64デコーダにおけるメモリ破損の脆弱性「Java4Shell」をOpenAIのCodexで発見、わずか3時間で攻撃実証まで成功",
-    "【LATEST #4】2026-021: High Severity Vulnerability in Java SE and OpenJDK",
-    "【HOTTEST #4 / Heat 67.5】CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
-    "【LATEST #5】情シスの約7割がセキュリティに不安!? 12/3開催の無料懇親会で、今年の苦労を語り合おう！",
-    "【HOTTEST #5 / Heat 67.5】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性"
+    "【LATEST #1】Critical Perforce Puppet RCE Exploited in Attacks",
+    "【HOTTEST #1 / Heat 75】Critical Perforce Puppet RCE Exploited in Attacks",
+    "【LATEST #2】Apache warns of Roller RCE vulnerability exploited in attacks",
+    "【HOTTEST #2 / Heat 75】2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+    "【LATEST #3】顧客情報漏えいか 楽天証券が説明",
+    "【HOTTEST #3 / Heat 75】Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "【LATEST #4】ヤマハ「RTX1300」「RTX840」がDNSセキュリティー拡張ライセンスに対応　新ファームウェア公開",
+    "【HOTTEST #4 / Heat 75】CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+    "【LATEST #5】Microsoft announces Windows Server 2028 with hardened security",
+    "【HOTTEST #5 / Heat 67.5】Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-15T10:00:00+00:00",
-    "last_as_of": "2026-11-18T10:00:00+00:00",
+    "first_as_of": "2026-11-15T11:00:00+00:00",
+    "last_as_of": "2026-11-18T11:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-18T10:00:00+00:00",
-  "heat_as_of": "2026-11-18T10:00:00+00:00",
+  "news_as_of": "2026-11-18T11:00:00+00:00",
+  "heat_as_of": "2026-11-18T11:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25374,
-  "last_published_at": "2026-11-18T19:08:06.408414+09:00",
-  "publication_slot_jst": "2026-11-18T19:00:00+09:00"
+  "news_catalog_count": 25378,
+  "last_published_at": "2026-11-18T20:07:46.643426+09:00",
+  "publication_slot_jst": "2026-11-18T20:00:00+09:00"
 }
