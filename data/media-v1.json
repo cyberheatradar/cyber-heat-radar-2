@@ -1,9 +1,70 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T03:40:03.204645+00:00",
+  "source_snapshot_generated_at": "2026-11-18T04:40:02.949985+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:eedf553f0ea3078a6008f838",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OCI",
+          "oraclealloy"
+        ],
+        "url": "https://zenn.dev/nttdata_tech/articles/65bae3a5a90028",
+        "title": "Oracle Alloy担当者が3分で振り返るOracle AI World",
+        "author": "Keisuke Masumoto",
+        "published_at": "2026-11-18T04:15:16.361000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:69e3fbf1917796214e465c41",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "キャリア",
+          "エンジニア",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/otk/articles/82af14825d28d5",
+        "title": "資本家に近い立場になるしかない ― ゲルニカとマルクスで考えるAI時代の生き残り方",
+        "author": "Otak",
+        "published_at": "2026-11-18T04:09:50.850000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:825036e6ad66c42dee5b0e45",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Linux",
+          "GPU",
+          "llm",
+          "llama.cpp"
+        ],
+        "url": "https://zenn.dev/satoshi_yoneda/articles/moe-cache-cpu-share",
+        "title": "llama.cppの新機能で弩級モデルをローカルで動かそう",
+        "author": "米田 聡",
+        "published_at": "2026-11-18T03:44:39.753000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c891b65fb8e5339578c6cd9b",
+        "source": "zenn",
+        "author_tags": [
+          "Firebase",
+          "Flutter",
+          "Security",
+          "Riverpod",
+          "Cloud Storage"
+        ],
+        "url": "https://zenn.dev/crs/articles/03-storage-download-url-revocation",
+        "title": "ルールで守っても写真が見え続ける：Storageのダウンロード URL を失効させる",
+        "author": "CenterRiverStudio",
+        "published_at": "2026-11-18T03:43:28.921000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:795992da67bd33addf4c424a",
         "source": "zenn",
@@ -40362,6 +40423,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e3433778d908bf823ec708de",
+        "source": "qiita",
+        "author_tags": [
+          "CORS",
+          "Security",
+          "csrf",
+          "SameSite",
+          "cookie"
+        ],
+        "url": "https://qiita.com/ysk400rr/items/dd2e641ec342b62c164e",
+        "title": "[セキュリティ]CORSを誤解していた私が、なぜCORS許可が生まれたかを時系列で理解する",
+        "author": "ysk400rr",
+        "published_at": "2026-11-18T13:14:54+09:00",
+        "excerpt": "はじめに CORSについて、私は長いあいだ次のように誤解していました。 フロントエンド（ app.example.com ）が「 api.other.com は仲間だから通信を許可してね」とブラウザに宣言する仕組み 実際は逆で、 CORSの許可は、データを返す側のサーバーが「このオリジンのJavaScriptには、私のレスポンスを読ませてよい」と宣言するもの です。 この誤解をきっかけに調べ直したところ、CORSは単独で覚えるより、 「どんな攻撃があり、それを防ぐために何が生まれたか」を時代順に追う ほうがずっと理解しやすいと分かりました。 この記事では銀行サービスを例に、次の順で見ていきます。 何も制限がない世界 同一オリジンポリシーの登場 CORSの登場 CSRFという新たな問題 SameSite Cookieの登場 前提：誰から誰を守る仕組みなのか CORSを調べる前の私は、次のようにも考えていました。 開発者ツールを使えば、手元のHTMLやJSはいくらでも書き換えられる。クライアントに届いたものは信用できないのに、ブラウザで制限をかけて意"
+      },
+      {
         "id": "qiita:38318170aa0fdd74cfd9c756",
         "source": "qiita",
         "author_tags": [
@@ -46257,6 +46334,22 @@
         "author": "kai_kou",
         "published_at": "2026-11-05T20:11:50+09:00",
         "excerpt": "はじめに Claude CodeのBashサンドボックス（ /sandbox ）を有効にすると、 kubectl や terraform 、社内スクリプトなど作業ディレクトリの外に書き込む必要があるツールが、権限不足で止まることがある。かといってサンドボックスごと切ると、今度は通信先の制限まで失ってしまう。「ファイルの書き込み制限だけ外して、通信の制限は残したい」。そう思ったことがある人は少なくないはずだ。 Claude Code v2.1.216で追加された sandbox.filesystem.disabled は、まさにこの要望に応える設定だ。ただし公式ドキュメントを読むと、設定できる場所が限定されていたり、オフにした瞬間に別の防御まで一緒に外れたりと、単純に「制限を1つ緩めるだけ」ではないことが分かる。加えて、この記事の執筆自体がクラウド実行環境のClaude Codeセッションで行われており、実際に検証してみるとこの設定が「そもそも効かない環境」があることも見えてきた。 この記事で学べること Claude CodeのBashサンドボック"
+      },
+      {
+        "id": "qiita:3694262107de58d110f14ef5",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "認証",
+          "MFA",
+          "TOTP",
+          "初心者"
+        ],
+        "url": "https://qiita.com/Nekorock/items/55e251dedba8716aefe5",
+        "title": "TOTP（2段階認証の6桁コード）をちゃんと理解したい人のための入門：照合するサーバー側の落とし穴5つ",
+        "author": "Nekorock",
+        "published_at": "2026-11-05T19:52:28+09:00",
+        "excerpt": "ログインのたびに、Google Authenticator や Microsoft Authenticator などの認証アプリを開いて 6 桁の数字を打ち込む。毎日やっている人も多いと思います。あの数字は TOTP（Time-based One-Time Password、時間で変わるワンタイムパスワード）という仕組みで作られていて、2 段階認証（MFA）でよく使われている方式です。 個人プロジェクトで mamori という小さな IdP（社内のログインをまとめる仕組み）を作っていて、TOTP も自分で実装しました。RFC 6238 のテストベクタは全部一致し、テストも通っていました。 ところが、この記事を書くために照合する側のコードを読み直したら、問題が 2 つ見つかりました。1 つはコメントの誤りで、もう 1 つは本物の穴でした。 コードを作る側の仕組みは、すでに分かりやすい記事がたくさんあります（最後に載せています）。この記事では、サーバーがコードを受け取って照合する側に絞って、つまずきやすいところを mamori のコードで実際に確かめ"
       },
       {
         "id": "qiita:970691801888ed9dc07fdefb",
@@ -55143,6 +55236,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e257f4d3df6ee2d7cd68ec3e",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "ai",
+          "cybersecurity",
+          "artificial-intelligence",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@christy.cs07/artex-ai-pentest-ai-security-tool-became-a-powerful-cyberattack-weapon-167e18802243",
+        "title": "ARTEX AI Pentest : AI Security Tool Became a Powerful Cyberattack Weapon",
+        "author": "Christy Sharujan",
+        "published_at": "2026-11-18T03:57:39+00:00",
+        "excerpt": "Originally designed to help security professionals find vulnerabilities, ARTEX is now being used by hackers to automate attacks against… Continue reading on Medium »"
+      },
       {
         "id": "medium:1155a24b90fbe294b2770b52",
         "source": "medium",
