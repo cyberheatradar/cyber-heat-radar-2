@@ -1,9 +1,103 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-17T22:40:02.991783+00:00",
+  "source_snapshot_generated_at": "2026-11-17T23:40:02.903793+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f9b5c4819e8d4f8e868e81eb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Test",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/itaraiguma/articles/ai-agent-tests-kept-growing",
+        "title": "AIエージェントに任せたら、17日でテストが3万行増えて121行しか減っていなかった話",
+        "author": "ITアライグマ",
+        "published_at": "2026-11-17T23:39:06.412000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d341079db0ad01db29965a48",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261118-tech-watch",
+        "title": "Tech Watch 2026-11-18: 仕事を渡す境界設計",
+        "author": "らいけん",
+        "published_at": "2026-11-17T23:00:11.366000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0a8140145b0ae8be38ff583b",
+        "source": "zenn",
+        "author_tags": [
+          "npm",
+          "GitHub Actions",
+          "Security",
+          "Nx",
+          "Supply Chain"
+        ],
+        "url": "https://zenn.dev/tomo_study/articles/nx-s1ngularity-case-study",
+        "title": "PRのタイトルからnpm公開まで：ポストモーテムから読み解くNxサプライチェーン攻撃",
+        "author": "NT",
+        "published_at": "2026-11-17T23:00:06.607000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:72090d2234a9fd0a4e245952",
+        "source": "zenn",
+        "author_tags": [
+          "Chrome",
+          "Security",
+          "WebAuthn",
+          "Passkey (パスキー)"
+        ],
+        "url": "https://zenn.dev/mystery_hat/articles/passkey-device-loss-recovery-japan",
+        "title": "パスキーの端末をなくしたら、日本の 6 サービスでどう戻れるのか。公式ヘルプと Chrome の仮想認証器で確かめた",
+        "author": "まっしー｜Mystery Hat",
+        "published_at": "2026-11-17T23:00:06.215000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f3511127aa805ef013473abf",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DevSecOps",
+          "SonarQube",
+          "codereview",
+          "llm"
+        ],
+        "url": "https://zenn.dev/r_goto/articles/sonarqube-remediation-agent",
+        "title": "Quality Gate を通った負債を減らす：SonarQube Remediation Agent",
+        "author": "Ryuji Goto",
+        "published_at": "2026-11-17T22:54:08.122000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8cf34c811e3d4bef4d888e95",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Security",
+          "Google Cloud",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/adopture/articles/009504dbe8b14f",
+        "title": "【米1,250名調査】企業の49%でAI施策が遅延・中止？Google Cloud最新調査と工数診断",
+        "author": "ggnn編集部｜アダプチュア株式会社",
+        "published_at": "2026-11-17T22:43:29.872000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f2c7a6e84bea637c6024a54d",
         "source": "zenn",
@@ -39915,6 +40009,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:859c35334334e17f325fd3fb",
+        "source": "qiita",
+        "author_tags": [
+          "WindowsHello",
+          "TPM",
+          "BitLocker",
+          "Security",
+          "Windows11"
+        ],
+        "url": "https://qiita.com/homhom44/items/1e12e68a70efa16ebb1c",
+        "title": "69日かかるはずのPINが40時間に縮む理由を、TPMとフラッシュの前でほどく",
+        "author": "homhom44",
+        "published_at": "2026-11-18T08:03:03+09:00",
+        "excerpt": "その「32回」は、どこで数えているのか Windows Hello の PIN は、ただの数字入力欄に見えて、裏では TPM が失敗回数を覚えています。Microsoft Learn の TPM fundamentals では、TPM 2.0 は 32 回失敗するとロックし、10 分ごとに 1 回ぶん忘れる、と説明されています。つまり「何回でも試せる」仕組みではなく、上限に達したら回復を待つしかない設計です。 画像: arxiv.org より この種の防御は、素直に考えるとかなり強そうに見えます。4 桁 PIN なら候補は 1 万通りですが、32 回を超えたあとは 10 分に 1 回しか試せないなら、総当たりは現実的ではありません。雑に見積もっても、32 回でひとまず止まり、そこから 1 回ぶん回復するまで待つので、試行速度は一気に落ちます。数字だけ見れば、攻撃者は途中で諦めるはずです。 ただし、ここで守っているのは「PIN の当て方」そのものではありません。守りの中心は、失敗回数という状態を改ざんされないことです。回数が本当に増えたのか、前回の"
+      },
+      {
+        "id": "qiita:b5c761e25e3f7a5f2763c41c",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "SpringBoot",
+          "Security",
+          "owasp",
+          "API"
+        ],
+        "url": "https://qiita.com/maees/items/3b0a1de59bdeb1d78dd6",
+        "title": "承認した1万円が10万円になる――取引認可は承認内容だけ実行する",
+        "author": "maees",
+        "published_at": "2026-11-18T07:46:39+09:00",
+        "excerpt": "承認した1万円が10万円になる――取引認可は承認内容だけ実行する 本人確認が通っても、承認した内容と違う送金が実行される設計がある。取引認可は「誰が承認したか」ではなく「何を承認したか」を保証する仕組みである。実行APIは送金先と金額を受け取らず、承認済みのDBデータだけを使う。 送金先 金額 本人が承認した内容 A銀行・口座1234 10,000円 改変された要求 口座9999 100,000円 サーバーが実行する内容 A銀行・口座1234 10,000円 同じOWASP学習の前回は、DTOを作っても残る穴を扱った。 Mass AssignmentはDTOだけでは防げない――roleを足すと管理者になる では、受け取る型をしぼるだけでは防げない書き換えを見た。今回は送金の承認そのものを扱う。送金APIの設計全体については 送金APIは「失敗5回連続」で切り替える――冪等キーと202の設計 もあわせて読める。 本人確認と取引認可は別の問い 認証、認可、取引認可はそれぞれ違う問いである。 問い 確認するもの 認証 ログインしているのは誰か 認可 こ"
+      },
+      {
         "id": "qiita:058210f365e3aad7769eb98d",
         "source": "qiita",
         "author_tags": [
@@ -54467,6 +54593,86 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:c3751ae9f6ea4d30ec16d1b6",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "ai-safety",
+          "ai-agent",
+          "cloud-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@veritaschain/the-access-nobody-logged-2fd7a1c44eee",
+        "title": "The Access Nobody Logged",
+        "author": "VeritasChain Standards Organization (VSO)",
+        "published_at": "2026-11-17T23:14:51+00:00",
+        "excerpt": "Barracuda’s 44-hour intrusion and Google’s exploit_agent, checked against the primary sources, and where a provenance framework stops Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c3e553f2567de94c81ef77e2",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "ai-agent",
+          "cybersecurity",
+          "security",
+          "ai-security"
+        ],
+        "url": "https://medium.com/@Commoness/the-malware-wasnt-in-the-code-it-was-hidden-in-an-ai-agent-s-instructions-70deccc6e153",
+        "title": "The Malware Wasn’t in the Code. It Was Hidden in an AI Agent’s Instructions.",
+        "author": "The Commoness",
+        "published_at": "2026-11-17T23:01:02+00:00",
+        "excerpt": "What if a harmless-looking Markdown file could convince your AI assistant to steal your credentials? Welcome to the emerging world of… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:aab6cf8ff7931c6f8a97a823",
+        "source": "medium",
+        "author_tags": [
+          "ai-agent",
+          "prompt-injection",
+          "software-development",
+          "artificial-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@khmerlux8878/10-cybersecurity-concepts-everyone-should-understand-in-the-age-of-ai-agents-fa11803aa4ce",
+        "title": "10 Cybersecurity Concepts Everyone Should Understand in the Age of AI Agents",
+        "author": "Vang Akara",
+        "published_at": "2026-11-17T23:01:02+00:00",
+        "excerpt": "No jargon, no panic: the practical security basics for anyone who uses AI tools at work or at home. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ee1909a4874e46bb450c4261",
+        "source": "medium",
+        "author_tags": [
+          "capture-the-flag",
+          "cybersecurity",
+          "red-team",
+          "ai-security",
+          "llm"
+        ],
+        "url": "https://quantumrealm.medium.com/building-an-ai-red-teaming-ctf-for-saintcon-2026-2d4f590771fb",
+        "title": "Building an AI Red Teaming CTF for SAINTCON 2026",
+        "author": "Jeremy's Research blog",
+        "published_at": "2026-11-17T22:58:23+00:00",
+        "excerpt": "This October I ran an AI red teaming capture the flag at SAINTCON 2026 in Salt Lake City. I built 33 challenges for it. The full board ran… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:27ba86f536c9b579442889f6",
+        "source": "medium",
+        "author_tags": [
+          "application-security",
+          "vulnerability-management",
+          "cybersecurity",
+          "ai-agent",
+          "open-source"
+        ],
+        "url": "https://medium.com/@uddeshya350q/an-evidence-gate-for-coding-agents-how-verdict-stops-not-exploitable-on-vibes-04f81f1ec229",
+        "title": "An evidence gate for coding agents: how Verdict stops “not exploitable” on vibes",
+        "author": "Uddeshya Kumar",
+        "published_at": "2026-11-17T22:55:13+00:00",
+        "excerpt": "Coding agents are now part of how exposure changes. They bump dependencies, edit Helm values, rewrite Dockerfiles, and, increasingly, they… Continue reading on Medium »"
+      },
       {
         "id": "medium:abfaa920e2475f0c189180d8",
         "source": "medium",
