@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-18T19:07:25.178269+00:00",
-  "as_of": "2026-11-18T19:00:00+00:00",
-  "catalog_count": 25443,
+  "generated_at": "2026-11-18T20:07:26.987094+00:00",
+  "as_of": "2026-11-18T20:00:00+00:00",
+  "catalog_count": 25446,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,56 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T04:52:02.454627+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c3f1d9d987e86306defcb0a6",
+      "primary_category": "incident",
+      "public_article_id": "url:c3f1d9d987e86306defcb0a6",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-19T04:39:33+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
+      "summary_excerpt": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
+      "threat_actors": [],
+      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://cyberscoop.com/nginx-critical-vulnerabilities-exploits/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T04:23:41.166519+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-b7137a21c9717404576a5382",
+      "primary_category": "other",
+      "public_article_id": "url:b7137a21c9717404576a5382",
+      "public_tags": [],
+      "published_at": "2026-11-19T03:54:12+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CyberScoop",
+      "summary": "Researchers just dropped five NGINX exploits, including one that chains an HTTP/2 bug with a kernel flaw to seize the machine behind the web server. The post It’s NGINX’s turn to cause vulnpocalypse headaches appeared first on CyberScoop .",
+      "summary_excerpt": "Researchers just dropped five NGINX exploits, including one that chains an HTTP/2 bug with a kernel flaw to seize the machine behind the web server. The post It’s NGINX’s turn to cause vulnpocalypse headaches appeared first on CyberScoop .",
+      "threat_actors": [],
+      "title": "It’s NGINX’s turn to cause vulnpocalypse headaches"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
@@ -39,6 +89,50 @@
       "summary_excerpt": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully demonstrate the use of CVE-2026-123007, no exploitation in the wild has been reported yet. It is recommended to swiftly update NGINX as soon as possible, prioritising internet facing appliances.",
       "threat_actors": [],
       "title": "2026-022: Critical vulnerabilities in Nginx"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://www.thezdi.com/blog/2026/11/17/hostile-inference-exploiting-docker-model-runner-for-container-escapes",
+      "cves": [
+        "CVE-2024-6222",
+        "CVE-2024-8695",
+        "CVE-2024-8696",
+        "CVE-2025-9074",
+        "CVE-2026-28400"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T04:24:05.896022+09:00",
+      "heat_score": 55.0,
+      "permalink_id": "article-url-818a7b201aa40d45b3967dc1",
+      "primary_category": "ai_security",
+      "public_article_id": "url:818a7b201aa40d45b3967dc1",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "ttp",
+          "label": "TTP"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-19T02:23:52+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Zero Day Initiative Blog",
+      "summary": "Local LLM inference is seeing adoption in default developer workflows, and the tooling that serves those models now ships inside products developers already trust. One of those is Docker Model Runner (DMR), the feature in Docker Desktop that pulls, runs, and serves models locally. In November 2025, we reported ZDI-26-150 / CVE-2026-28400 , a denial-of-service (on macOS) stemming from an unauthenticated argument-injection vulnerability in DMR. A container created with the default set of privileges could overwrite and corrupt the Docker Desktop VM’s data disk. Further analysis, under non-default configurations, turned the same primitive into arbitrary code execution on the host, on both macOS and Windows. In this post, we walk through the full chain: the argument-injection primitive, the host file read/write foothold it grants, how we take partial control of what gets written, and the payoff that turns a constrained file write into arbitrary code execution on the host through Docker Extensions. We then cover two further escapes we found along the way: one from an overly permissive Seatbelt sandbox configuration on macOS, and one that pivots the WSL2 VM-to-host boundary through Docker Extensions. Background: Docker Model Runner and the host boundary Docker Desktop helps run Docker containers on macOS, Windows, and Linux. Docker Desktop for Windows with Windows containers and Docker Desktop for Linux are out of scope for this blog. Since macOS and Windows don’t come with a Linux kernel to run Linux containers, Docker Desktop ships a LinuxKit VM that hosts the container runtime; on macOS the VM runs using the Apple Virtualization Framework , while on Windows it runs under WSL2 by default. Linux containers and the Docker Engine components (runc, containerd, dockerd) run in the Linux VM. Bridging the gap between the host OS and the VM is a daemon called Docker Backend: com.docker.backend (macOS) or com.docker.backend.exe (Windows). This process is responsible for managing the execution environment and brokering all inter-process communication (IPC) across the VM–OS boundary. DMR lets users pull, run, and serve models over OpenAI-compatible APIs using the same idioms as running containers ( docker model pull , docker model run ). Models are distributed as OCI artifacts through OCI-compliant registries and stored on the host. At the time of our research, DMR would create an instance of llama.cpp’s llama-server for inference tasks. DMR is compiled into the Docker Backend. The detail that makes this interesting: on macOS and Windows the inference process does not run inside the VM; it runs on the host, as a child of the Docker Backend, with the privileges of the user running Docker Desktop. Because models are, correctly, treated as untrusted input, the inference process is wrapped in an OS-native sandbox using Seatbelt on macOS and Job Objects on Windows. These are not equivalent boundaries, and that difference carries much of the weight on Windows, as we will see in a bit. The DMR REST API is unauthenticated and reachable from any container at the container-internal DNS name model-runner.docker.internal over HTTP. The question we set out to answer was whether a stock container, created with no additional capabilities, flags, mounts, or privileges, could lead to a container-to-host compromise. The Primitive: Argument Injection in _configure We refer throughout to the DMR repository at docker/model-runner@38a800 . The API is split by two prefixes, both served over model-runner.docker.internal : Backed by the ConfigureRequest struct, the _configure endpoint accepts two JSON properties whose values are appended as command-line arguments for llama-server. It calls the “Configure” method of the scheduler. [1] - The body of the incoming /engines/_configure request is unmarshalled. [2.1 & 2.2] - If the body of the POST request has runtime-flags populated, the value is saved to runtimeFlags as-is. If the body has raw-runtime-flags populated, the value is tokenized through shellwords.Parse(). [3 & 4] - runnerConfig stores the inference server`s backend configuration. [5] - The POST request's model property is used to fetch the model ID for which the config will be modified. [6] - setRunnerConfig persists the modified configuration per model and mode (embedding or non-embedding). At this point, the altered configuration will be applied to the runner's next spawn. Using the chat-completions endpoint /v1/chat/completions , we can load the model that would run the inference server with the altered configuration. Let's see how the arguments propagate. [1] - The backend mode is deduced from the URL path suffix /v1/chat/completions or /v1/completions for completion mode; /v1/embeddings for embedding mode. [2] - The chat completion request's model property contains the model for which chat completion is being invoked. [3] - The scheduler asks the loader using load to execute the request. [4] - If an existing runner for {backend, modelID, mode} is alive, it is reused as-is. Altered configuration is ignored if a runner already exists. [5] - Otherwise, the persisted flags from _configure endpoint are retrieved into runnerConfig . [6] - The runner is created via the package-level run(...) in pkg/scheduling/runner.go, passing the retrieved configuration. [7] - run() calls backend.Run() inside a goroutine, populated with the slot's Unix socket path, the model ID, the request-deduced mode, and the attacker-controlled runnerConfig retrieved from _configure . backend.Run() invokes the inference.Backend interface; the registered and default implementation is llama.cpp`s llama-server. [8, 8.1] - GetArgs constructs llama-server’s final command line: hardcoded performance flags, model path, socket host, mode, context-size arguments, followed by the caller-supplied runtime flags appended as-is. [9] - The final set of arguments is supplied to sandbox.Create [10], which starts com.docker.llama-server in a macOS Seatbelt sandbox ( sandbox-exec -p <profile> ) with the attacker-controlled flags passed through as-is. Using /engines/_configure or /engines/llama.cpp/_configure, a container created with default privileges can supply arbitrary command-line arguments to the llama-server process that runs on the host. This sounds quite promising – a container created with default privileges can modify arguments of a process that runs on the host. There have been memory-corruption bugs in llama.cpp that could be triggered by malicious GGUF models. Using the DMR REST API, we can pull and load arbitrary GGUF models. So, an obvious next step would be to examine the llama-server codebase for exploitable bugs that result in arbitrary code execution, – either through malicious GGUF models or through the argument injection primitive we already have. llama-server offers no flag that executes code on its own. The useful arguments are the ones that touch the filesystem, and whether they are really useful at all depends on what the OS sandbox around llama-server permits. So, we examine the llama-server flags that result in file operations. The Foothold: Reading and Writing Host Files Three llama-server flags are file-operation sinks, and llama-server is the same binary on both platforms, so they behave identically. What differs is which paths the surrounding sandbox leaves reachable. • --grammar-file : reads a file as a GBNF (GGML Backus-Naur Form) grammar; parsing errors log the file’s contents. • --chat-template-file : reads a file as a Jinja2 chat template; its content can be logged by combining it with --verbose . • --log-file : writes inference logs to the specified path. macOS: Seatbelt profile Since Docker Desktop 4.46.0 , llama-server on macOS is launched via sandbox-exec using a Seatbelt profile . The profile opens with (allow default) , a deliberate choice that requires enumerating the DYLD, Mach, IOKit, and Darwin surfaces llama-server depends on, and then denying known-dangerous operations. From a process standpoint, the profile is heavily locked down, so we focused on the file operations it permits, which are: • Reads under ~/.docker/models , ~/Library/Containers/com.docker.docker/Data , and WORKDIR (which resolves to that same Data directory). • Writes to /dev/null , and under /private/var/ , ~/Library/Containers/com.docker.docker/Data , and WORKDIR. The directory ~/Library/Containers/com.docker.docker/Data is where Docker Desktop stores its logs, the Unix sockets for VM-host IPC, Docker Extension assets, and the data disk at vms/0/data/Docker.raw . Since the Seatbelt profile allows file reads and writes in paths under the Data tree, we can point the file read flags ( --grammar-file , --chat-template-file ) to read Docker Desktop logs, which have many times been found to contain credentials . This is one interesting find. Another possibility is to point --log-file to the path of the disk located at vms/0/data/Docker.raw to overwrite it with llama-server logs. This disk contains every container, image, volume, and image build cache for the current user running Docker Desktop. The following requests from a Docker container result in the data disk being overwritten: Windows: Job Objects On Windows, DMR sandboxes llama-server using a Windows Job Object , built on go-winjob , with a configuration that blocks clipboard read and write, disables outgoing network traffic, prevents desktop switching and system-parameter changes, and terminates the process on unhandled exceptions. Job Objects are used to constrain memory, CPU, process count, and process lifetime. They impose no filesystem restrictions at all, other than what's allowed by the user's privileges. The sandboxed llama-server runs with the same filesystem access as the Docker Desktop user, so the file-operation flags give arbitrary read and write access, bounded only by the user's DACL. Using --grammar-file flag to read files from the host Using --grammar-file flag to read files from the host Using --log-file flag to write files on the host Using --log-file flag to write files on the host One will immediately notice that the username is required to construct paths of interest. DMR decides where llama-server runs by comparing the digest of its bundled binary with the Docker Hub image docker/docker-model-backend-llamacpp:latest . On a mismatch, the image from Docker Hub is pulled and the binary and DLLs are extracted to %USERPROFILE%\\.docker\\bin\\ ; otherwise llama-server runs from %PROGRAMFILES%\\Docker\\Docker\\resources\\model-runner\\bin . The working directory is therefore not deterministic, and path traversal into the user’s data directories is unstable. To write to %APPDATA% , %LOCALAPPDATA% , or %USERPROFILE% reliably, we need the username. We found two ways to leak it from a container without any user interaction. The first is a UNC path. The --log-file flag accepts a UNC path, and the SMB session-setup negotiation against an attacker-controlled SMB server discloses the Docker Desktop user’s username in cleartext (and yields a capturable Net-NTLMv2 value as a bonus, which could be relayed or cracked, though the chain only needs the username). During enumeration we found the following flags also accept UNC paths: --lora , --control-vector , --model , --grammar-file , --json-schema-file , --mmproj , --api-key-file , --chat-template-file , and --model-draft . Leaking Windows username using UNC path in --lora flag Leaking Windows username using UNC path in --lora flag The second is simpler and entirely local. Passing an invalid argument or value makes llama-server exit with an error, and the username appears in the error log along with the host paths it prints. llama-server error log leaking the host username after a rejected argument value llama-server error log leaking the host username after a rejected argument value With the username in hand, the Windows write becomes deterministic; anywhere the Docker Desktop user can read and write, from a container created with default capabilities. At this point we have, from a stock container on either platform, host file read and a write whose destination we control. We do not yet control the file’s contents, and we do not have arbitrary code execution. Both come next. The Payload: Controlling Log Contents --log-file writes llama-server’s own log output, not arbitrary bytes of our choosing, so the write is only as useful as our control over what llama-server logs. When llama-server loads a GGUF model, it serializes server info, the model path, and then the model metadata. GGUF models store hyperparameters, names, descriptions, and chat templates as key-value pairs inside a single file. Examining the llama-server logging paths, we found multiple unsanitized sinks that let an attacker place arbitrary content into the logs: • GGUF metadata key names. • GGUF metadata values, for example general.name . • The chat template stored in the metadata key tokenizer.chat_template . This list is not exhaustive, and using it requires the content to be in a GGUF model, which we can pull via /models/create . Two llama-server arguments make log pollution independent of a crafted model: --verbose , which logs system and user prompts along with responses (and the chat-completions endpoint is reachable from a container, so we simply send our content in the prompt and let llama-server log it for us), and --override-kv , which injects or overwrites GGUF metadata key-value pairs at runtime. Chained with the argument-injection primitive, --override-kv is a direct path to writing attacker-crafted metadata into the inference logs. These sinks are a property of llama-server, not the host OS, so the technique carries across platforms unchanged. After this step, we control the destination path (within each platform’s cap), the file name, and, deterministically, a meaningful portion of the content. The remaining question is where a partially-controlled file write becomes arbitrary code execution. The answer is Docker Extensions. The Payoff: Arbitrary Code Execution via Docker Extensions Docker Extensions let third-party tools plug into Docker Desktop. They consist of a renderer that runs inside Docker Desktop’s Electron UI, an optional container backend, and executables that can be run on the host (as required by the Docker Extension). For a deeper treatment of the extension attack surface, we recommend Orange Cyberdefense’s write-up , “An Offensive Look at Docker Desktop Extensions,” by Leon Jacobs. Docker Desktop’s UI runs Electron with Node.js integration disabled and with context isolation and sandboxing enabled. Extensions have been leveraged before as a route to arbitrary code execution (e.g., CVE-2024-8695 , CVE-2024-8696, ZDI-24-1019 ). The renderer exposes the Docker Extensions SDK . A ddClient object offers methods for listing containers and images, navigating the Docker Desktop UI, and more. Two are relevant to this chain: • ddClient.docker.cli.exec(cmd, [args...]) : runs the Docker CLI on the host with arbitrary arguments, including powerful flags such as --privileged, volume mounts, --cap-add, --pid, --ipc, --net, and --device • ddClient.extension.host.cli.exec(cmd, [args...]) : invokes an executable located in the extension’s dedicated host/ directory on the host, unsandboxed. Because extensions can trigger privileged host operations by design, their assets (web resources and host executables) are valuable. Furthermore, they are stored on the host at predictable paths. On macOS, those paths sit inside the Seatbelt-permitted Data subtree, which makes them writable via the --log-file primitive. On Windows they live under %APPDATA%\\Docker\\extensions\\ , which is why the username leak above matters. To drop an executable rather than only overwrite a renderer, we also need the host filesystem to be reachable from an additional helper container that is launched by the Extension frontend. By default, Docker Desktop shares host directories into the VM with the privileges of the user running Docker Desktop: on macOS over VirtioFS ( /Users , /Volumes , /private , /tmp , /var/folders ), and on Windows over WSL2’s 9P protocol, with host drives mounted under /mnt . In both cases, a container with the VM filesystem bind-mounted can write directly into the Extensions assets directory. This design choice is also why a container that has escaped to the Docker Desktop VM can reach the host filesystem as the current user running Docker Desktop. Proof of Concept The PoC has the following prerequisites: 1. A Docker Extension is installed 2. The user runs a malicious image or a container gets compromised 3. The user opens the extension`s UI after running it Here’s the GGUF Payload: We create an OCI artifact with a GGUF model with the general.name metadata key's value set to a JS block that invokes two ddClient calls that result in arbitrary code execution on the host. The vm_escape image drops the executable calc.sh on macOS and calc.bat on Windows. The chain runs as follows and is identical on macOS and Windows except for the one Windows-only username-leak step and the platform-specific paths. 1. Stage 0, from the container: on Windows, first leak the Docker Desktop username, either by pointing a UNC --log-file at an attacker-controlled SMB server or by forcing llama-server to exit on a rejected argument and then reading the username from its error log. In either event, the next step is to use the file-read primitive to read the Docker Desktop logs and enumerate the names of installed extensions; on Windows this read requires the leaked username, while on macOS all logs can be found within the Data subtree. 2. Stage 1, from the container: pull the crafted GGUF whose general.name is a JS payload that will be rendered in the extension UI. On Windows, use the username from Stage 0 to construct the %APPDATA% extension path. Point --log-file at each installed extension’s index.html and trigger inference. When the chat completion runs, llama-server logs the metadata value, overwriting the extension’s index.html on the host with the inference log containing the JS payload. 3. Stage 2, from the host: when the user opens the extension, the renderer parses the overwritten index.html and executes the injected JS. It calls ddClient.docker.cli.exec to create a helper container that mounts the VM root at /hostOS and, through the VirtioFS or 9P mount, writes an executable into the extension’s host/ directory ( calc.sh on macOS, calc.bat on Windows). It then calls ddClient.extension.host.cli.exec to run the dropped executable on the host, with the Docker Desktop user’s privileges. No sandbox profile gates arbitrary code execution through the extension UI. Here’s the PoC in action on macOS And here it is on Windows OS Going Further: Escaping the macOS Seatbelt Sandbox (ZDI-26-451) In Stage 2 of the above chain, we use two ddClient calls – one to drop an executable to the host directory, and a second to invoke it. We found that it was possible to achieve arbitrary code execution on the host using a single ddClient call that uses only the Docker CLI. The llama-server executable is generally run from the user's home directory, as DMR ships an update mechanism that downloads the latest binaries from Docker Hub into ~/.docker/bin/inference/ . Our question is: what happens if the binary itself is replaced with an executable script and then invoked through the chat-completions API? The weakness lies in the Seatbelt profile : com.docker.llama-server ’s profile does not deny access to the launchservicesd Mach service. Seatbelt profiles are inherited across standard fork/exec, but macOS offers an alternate execution path through LaunchServices via the /usr/bin/open executable. When a sandboxed process invokes open , execution is delegated to launchd , and because launchd becomes the parent, the target spawns as a new process, free of the caller’s sandbox restrictions. Proof of Concept Simulating a container with access to the Docker Desktop VM via a bind mount (the same VirtioFS sharing described above), we overwrite ~/.docker/bin/inference/com.docker.llama-server with a shell script. The container then calls the chat-completions API, which triggers the Docker Backend to launch our script under the Seatbelt profile. The script creates an application bundle under /private/var/tmp (a location the profile permits writing to), containing an app that spawns a reverse shell, and then runs open -a /private/var/tmp/poc.app followed by open -a Calculator . Both calls are delegated to LaunchServices and forwarded to launchd , which spawns the apps unsandboxed. The Seatbelt profile is not inherited across that boundary, although the standard macOS protections such as TCC and Gatekeeper still hold. Going Further: Escaping the WSL2 VM via Docker Extensions (ZDI-26-258) On Windows, Docker Desktop uses WSL2 as the default backend. For readers interested in WSL2 VM-escape techniques that are structurally independent of DMR, our companion write-up documents several; here we share the first Docker Desktop WSL2 VM-to-host technique we found that pivots on Docker Extensions. At Pwn2Own Vancouver 2024 , STAR Labs researchers demonstrated a Docker Desktop container escape on Ubuntu (ZDI-24-1019 / CVE-2024-6222, fixed in 4.29.0), using an io_uring use-after-free to escape from the container into the VM and Docker Extensions to pivot from the VM to the host. They installed an arbitrary extension via the extension-manager socket and navigated the UI via a socket named backend.sock to invoke a host binary. In response, Docker disabled io_uring and later enabled a flag in version 4.31.0 to only allow installation of extensions distributed through the Docker Marketplace. In April 2025 we found that if the Docker Desktop VM is compromised, the “Allow only extensions distributed through the Docker Marketplace” flag could be toggled from the VM itself through the same backend socket. The backend socket is located at /run/host-services/backend.sock in the VM. It exposes an /app/settings API that answers both GET and POST , where GET returns the current settings and POST modifies them. Flipping onlyMarketPlaceExtensions re-enabled arbitrary extension installation, which in turn leads to arbitrary code execution on the host. We reported our findings as ZDI-26-258 to Docker, to which Docker responded that the attack scenario falls outside of their threat model since the container-to-VM escape prerequisite is privileged in the first place. Hence, if you have a container-to-VM escape for WSL2 or an exposed Docker API (e.g., CVE-2025-9074 ) or a way to mount Docker sockets, you can use such VM-to-host escapes to achieve arbitrary code execution on the host. Vendor Response and Patches For ZDI-26-150 , the fix came in three stages. 1. 0699420a (#482, 2025-12-05) removed runtime flags from POST /engines/_configure entirely, replacing them with structured backend-specific configuration. 2. 41dd3f13 (#518, 2025-12-16) reintroduced runtime flags but added validatePathSafety , which rejects any flag or value containing `/` or `\\` - fixing the path operations. 3. 9acf1ed9 (#601, 2026-02-09) layered on a strict per-backend allowlist, so only safe flags such as --threads or --ctx-size pass validation. All three shipped in DMR v1.0.16 with a follow-up hardening commit 78504107 (#667) removing --trust-remote-code , an allowlisted flag that could allow models in vLLM to escape the container. Docker Desktop users received the fixed DMR via version 4.61.0 and later. For ZDI-26-451 , commit 98038869 modified the Seatbelt profile to deny Mach service lookups for com.apple.launchservicesd and com.apple.coreservices.launchservicesd , blocking the LaunchServices path. Disclosure Timeline ZDI-26-150 (Docker Desktop for Mac Docker Model Runner Exposed Dangerous Function Denial-of-Service Vulnerability): • 2025-11-05: Reported to the vendor. • 2026-03-03: Docker confirmed the fix ( CVE-2026-28400 , GHSA-m456-c56c-hh5c ). • 2026-03-03: Coordinated public release of the advisory. ZDI-26-451 (Docker Desktop for macOS Inference Server Permissive Allow List Sandbox Escape Vulnerability): • 2026-02-25: Reported to the vendor. • 2026-02-27: Docker merged the tightened Seatbelt profile. • 2026-07-23: Coordinated public release of the advisory. Conclusion Local inference is only going to become more common in developer environments as open-weight models and the hardware to run them improve. The boundaries developers tend to trust (container isolation, sandboxed inference, and marketplace-only extensions) do not automatically extend to the attack paths that arrive with a local-AI stack. A careful audit of deliberate design choices is essential to identify potential vulnerabilities before the most critical components of the supply chain are compromised. You can find me on Twitter at @_niteshsurana , and follow the team on Twitter , Mastodon , LinkedIn , or Bluesky for the latest in exploit techniques and security patches.",
+      "summary_excerpt": "Local LLM inference is seeing adoption in default developer workflows, and the tooling that serves those models now ships inside products developers already trust. One of those is Docker Model Runner (DMR), the feature in Docker Desktop that pulls, runs, and serves models locally. In November 2025, we reported ZDI-26-150 / CVE-2026-28400 , a denial-of-service (on macOS) stemming from an unauthenticated argument-injection vulnerability in DMR. A container created with the default set of privileges could overwrite and corrupt the Docker Desktop VM’s data disk. Further analysis, under non-default",
+      "threat_actors": [],
+      "title": "Hostile Inference: Exploiting Docker Model Runner for Container Escapes"
     },
     {
       "ai_relevance": "none",
@@ -255,93 +349,6 @@
       "summary_excerpt": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This advisory will be updated as additi",
       "threat_actors": [],
       "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T00:52:13.910120+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-b4335194c1efafe12760534d",
-      "primary_category": "ai_security",
-      "public_article_id": "url:b4335194c1efafe12760534d",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-19T00:30:42+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post VeroSecurity Raises $11 Million for AI Security Engineering Platform appeared first on SecurityWeek .",
-      "summary_excerpt": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post VeroSecurity Raises $11 Million for AI Security Engineering Platform appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cybersecuritydive.com/news/energy-equinor-investigates-cyberattack/875035/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T01:22:32.541452+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-c398191b925eebd9ac896ae9",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:c398191b925eebd9ac896ae9",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-19T00:16:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cybersecurity Dive",
-      "summary": "The Norway-based oil and gas giant said production capabilities were not disrupted, but it has no immediate timetable for full recovery.",
-      "summary_excerpt": "The Norway-based oil and gas giant said production capabilities were not disrupted, but it has no immediate timetable for full recovery.",
-      "threat_actors": [],
-      "title": "Energy giant Equinor investigates cyberattack impacting IT systems"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "cves": [
-        "CVE-2026-123007",
-        "CVE-2026-123633"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T01:52:07.557959+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-0c457241d113ed5afb203a3a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0c457241d113ed5afb203a3a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T00:13:20+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Wiz Blog",
-      "summary": "Two critical HTTP/2 flaws can allow attackers to compromise NGINX servers, putting the websites, APIs, and sensitive data they handle at risk.",
-      "summary_excerpt": "Two critical HTTP/2 flaws can allow attackers to compromise NGINX servers, putting the websites, APIs, and sensitive data they handle at risk.",
-      "threat_actors": [],
-      "title": "Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007"
     }
   ],
   "hottest": [
@@ -528,7 +535,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-19T01:38:42.591430+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-7ad3ffcc76c72ddeb3c9e83b",
       "primary_category": "vulnerability",
       "public_article_id": "url:7ad3ffcc76c72ddeb3c9e83b",
@@ -758,6 +765,56 @@
       "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks"
     },
     {
+      "ai_relevance": "material",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited/",
+      "cves": [
+        "CVE-2026-90436"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T04:53:56.425882+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-6256f3f2ef1f816bee6e83c9",
+      "primary_category": "ai_security",
+      "public_article_id": "url:6256f3f2ef1f816bee6e83c9",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "ttp",
+          "label": "TTP"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-17T03:14:14+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both products require a non-default configuration in order to be vulnerable. CVE-2026-90436 is now being actively exploited in the wild against both known affected products. On November 13, 2026, Rapid7 MDR detected exploitation of CVE-2026-90436 against Atlassian Confluence Data Center in a customer environment. Separately, on November 13, 2026, N-able reported exploitation in the wild against N-central for a vulnerability that strongly correlates to CVE-2026-90436. A proof-of-concept exploit that leverages CVE-2026-90436 and targets N-central was published on November 12, 2026, as part of a series of public zero-day disclosures against N-central. Rapid7 recommends remediating exposed systems on an emergency basis outside of normal patching cycles. MDR observed exploitation On November 13, 2026, Rapid7's MDR team responded to a surge of alerts firing on the abnormal child processes launched by an Atlassian Confluence server. A review of the Confluence access logs revealed unauthenticated POST requests to /plugins/servlet/soap-axis1/confluenceservice-v2 , each returning an HTTP 500 (Internal Server Error). Despite the error responses, endpoint telemetry showed Confluence's Java process launching Bash and curl as the dedicated confluence service account, within seconds of these requests. The attacker proceeded to run hundreds of hex-encoded shell commands and scripts fetched from temporary Pinggy and Cloudflare Tunnel domains. Each command wrapped its output in labeled delimiters, and carried sequential task IDs, a structure that suggests the use of AI-assisted automated tooling. From this foothold, the attacker enumerated the host, network, Confluence configuration, encryption keys, and database settings. Just over three minutes after the first observed execution, the attackers were authenticating to MySQL with Confluence's own database credentials, querying page bodies, application links, and attachments with names associated with credentials, tokens, VPN configurations, and private keys. The attacker's scripts, likely AI-generated, then targeted files in Confluence's default location for uploaded page attachments ( /var/atlassian/application-data/confluence/attachments/v4/ ), parsed Office documents, searched for credentials, and hunted for payment card numbers, using Luhn checks to filter out false positives. The attacker continued extensive enumeration, mapping various internal services. They used a Confluence application credential to query the internal Atlassian Crowd API for users and group memberships, then ran Impacket's GetNPUsers.py against a domain controller, attempting an AS-REP roasting attack. Although these attempts failed, the access we did observe relied on credentials stored in Confluence, and roughly four hours after the first exploit request, the attacker had acquired a service account credential and began querying a production cloud data warehouse. Approximately twelve hours after the first exploit request, the attacker signed in to Microsoft 365 as an integration service account using legacy authentication from 192.238.253[.]176 . The same address appeared in the hostname of the Pinggy tunnel and in exploit requests observed earlier in the intrusion. Mitigation guidance Prioritize internet-accessible instances with the relevant APIs enabled, and check internal deployments as well. Apply the product-specific actions below, then investigate systems that were exposed for evidence of compromise. Axis 1.x through 1.4 is affected but has reached end of life (EOL) and Apache does not plan to publish a fixed Axis 1.x release. Apache recommends moving to another SOAP engine (for example, Apache Axis 2) or using an Axis 1.x build with this patch applied. Organizations using products that are affected by this issue should follow the product vendor's specific remediation instructions. Atlassian Confluence Data Center Atlassian lists versions 1.x through to 9.x as affected when “Remote API (XML-RPC & SOAP)” is enabled. Version 9.2.28 is the fixed release. The setting has been off by default for new installations since version 3.0. Confluence version 10.x and later removed the feature so are not vulnerable, and Atlassian Cloud is unaffected. Affected users should upgrade to version 9.2.28 or a current unaffected 10.x release. If patching must wait, an administrator can open “General Configuration” and “Further Configuration”, edit the settings, clear “Remote API (XML-RPC & SOAP)”, and save. The change takes effect without restarting Confluence, but integrations using the API may stop working. Follow the Confluence advisory for the latest fixes and mitigation instructions. N-able N-central On-premises administrators should confirm that “Legacy API” is disabled, even on 2026.4 HF2. N-able states that it is off by default, and provides instructions for disabling Legacy API . Its November 13 guidance says hosted environments received temporary protections directly; customers in both hosting models must still follow the vendor's Agent and Probe upgrade guidance. N-able also temporarily disabled the Intune integration as a precaution. Refer to the N-able security update for these responsibilities. Update: On November 16, 2026, N-able released N-central 2026.4 HF3 ( 2026.4.1.39 ) which addresses multiple issues including seventeen new CVEs. The “Legacy API” feature which exposed the vulnerable CVE-2026-90436 Axis attack surface has been disabled in this new release. N-central users should upgrade to N-central 2026.4 HF3 on an emergency basis outside of normal patching cycles. Follow the N-able advisory for the latest fixes and mitigation instructions. IOCs The presence of these IOCs in logs should prompt investigation, but the absence of these addresses does not confirm that an environment was unaffected. Atlassian Confluence Data Center The following IP addresses and domains are associated with observed exploitation of CVE-2026-90436 against Atlassian Confluence Data Center: 192.238.253[.]176 5.133.47[.]243 163.182.68[.]109 104.13.106[.]166 *.trycloudflare[.]com wpefh-192-238-253-176.free.pinggy[.]net webhook[.]site N-able N-central N-able's November 13 incident update lists these IP addresses as IOCs for N-central customers who had not disabled Legacy API. 157.20.241[.]16 139.99.69[.]109 79.76.51[.]56 The vendor's update also lists associated URLs for use in compromise assessment. Updates November 16, 2026: Initial publication. November 17, 2026: Updated Remediation section for N-central. November 17, 2026: Added the MDR observed exploitation section and updated IOCs.",
+      "summary_excerpt": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both",
+      "threat_actors": [],
+      "title": "Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited"
+    },
+    {
       "ai_relevance": "none",
       "canonical_url": "https://www.f5.com/labs/articles/cve-2026-119618",
       "cves": [
@@ -949,28 +1006,6 @@
       "summary_excerpt": "Linuxカーネルにおいて、以下の脆弱性が修正されました。tipc: tipc_disc_rcv()内のディスカバリのuse-after-freeの修正について説明します。bearer_disable()はtipc_disc_delete()による単純なkfree()でb-＞discを解放しますが、tipc_disc_rcv()はrcu_read_lock()下のRXソフトIRQ内で依然としてb-＞discを逆参照します（tipc_udp_recv -＞ tipc_rcv -＞ tipc_disc_rcvの流れです）。L2ベアラーはtipc_disable_l2_media()内のsynchronize_net()のおかげで安全ですが、UDPベアラーはその呼び出しをcleanup_bearer()というワークキューに延期するため、ディスカバリは猶予期間なしで解放されてしまいます。BUG: KASAN: slab-use-after-free in tipc_disc_rcv (net/tipc/discover.c:149) Read of size 8 at addr ffff88802348b728 by task poc_tipc/184 ＜IRQ＞ tipc_disc_rcv (net/tipc/discover.c:149) tipc_rcv (net/tipc/node",
       "threat_actors": [],
       "title": "LinuxのLinux Kernelにおける解放済みメモリの使用に関する脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043463.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T12:38:17.081862+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-0888babc2bef1064073896b2",
-      "primary_category": "other",
-      "public_article_id": "url:0888babc2bef1064073896b2",
-      "public_tags": [],
-      "published_at": "2026-11-16T11:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Microsoft Office Excelのヒープベースのバッファオーバーフローにより、未承認の攻撃者がネットワーク経由でコードを実行できる可能性があります。",
-      "summary_excerpt": "Microsoft Office Excelのヒープベースのバッファオーバーフローにより、未承認の攻撃者がネットワーク経由でコードを実行できる可能性があります。",
-      "threat_actors": [],
-      "title": "マイクロソフトのMicrosoft 365 Apps等の複数製品におけるヒープベースのバッファオーバーフローの脆弱性"
     }
   ],
   "timeseries_status": {
@@ -991,32 +1026,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】2026-022: Critical vulnerabilities in Nginx",
+    "【LATEST #1】Data breach impacts 40 Irish credit unions in reported IT provider hack",
     "【HOTTEST #1 / Heat 75】2026-022: Critical vulnerabilities in Nginx",
-    "【LATEST #2】Microsoft's official Python agent framework hijacked to distribute malware",
+    "【LATEST #2】It’s NGINX’s turn to cause vulnpocalypse headaches",
     "【HOTTEST #2 / Heat 75】ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
-    "【LATEST #3】Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+    "【LATEST #3】2026-022: Critical vulnerabilities in Nginx",
     "【HOTTEST #3 / Heat 75】Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
-    "【LATEST #4】Five Critical Vulnerabilities Found in World's Most Widely Used Open-Source Web Server",
+    "【LATEST #4】Hostile Inference: Exploiting Docker Model Runner for Container Escapes",
     "【HOTTEST #4 / Heat 75】Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007",
-    "【LATEST #5】Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
+    "【LATEST #5】Microsoft's official Python agent framework hijacked to distribute malware",
     "【HOTTEST #5 / Heat 75】How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-15T19:00:00+00:00",
-    "last_as_of": "2026-11-18T19:00:00+00:00",
+    "first_as_of": "2026-11-15T20:00:00+00:00",
+    "last_as_of": "2026-11-18T20:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-18T19:00:00+00:00",
-  "heat_as_of": "2026-11-18T19:00:00+00:00",
+  "news_as_of": "2026-11-18T20:00:00+00:00",
+  "heat_as_of": "2026-11-18T20:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25443,
-  "last_published_at": "2026-11-19T04:07:37.307038+09:00",
-  "publication_slot_jst": "2026-11-19T04:00:00+09:00"
+  "news_catalog_count": 25446,
+  "last_published_at": "2026-11-19T05:07:39.083882+09:00",
+  "publication_slot_jst": "2026-11-19T05:00:00+09:00"
 }
