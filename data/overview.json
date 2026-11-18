@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-18T05:07:15.967607+00:00",
-  "as_of": "2026-11-18T05:00:00+00:00",
-  "catalog_count": 24992,
+  "generated_at": "2026-11-18T06:06:46.516229+00:00",
+  "as_of": "2026-11-18T06:00:00+00:00",
+  "catalog_count": 24995,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,28 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://techtarget.itmedia.co.jp/tt/article/2611/18/2000003283/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T14:22:45.238241+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-97c5ad14c9d640f63b5273d0",
+      "primary_category": "other",
+      "public_article_id": "url:97c5ad14c9d640f63b5273d0",
+      "public_tags": [],
+      "published_at": "2026-11-18T14:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "TechTarget Japan Security",
+      "summary": "Oracleが、認証なしで悪用できる「Java SE」と「WebLogic Server」の脆弱性を修正した。「プリザンター」「N-central」とエレコム製ルーターの更新も確認したい。",
+      "summary_excerpt": "Oracleが、認証なしで悪用できる「Java SE」と「WebLogic Server」の脆弱性を修正した。「プリザンター」「N-central」とエレコム製ルーターの更新も確認したい。",
+      "threat_actors": [],
+      "title": "Java SEに「Java4Shell」、WebLogicも修正――今朝の情シスニュース"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661",
@@ -37,6 +59,36 @@
       "summary_excerpt": "Attackers can crash the JVM or achieve unauthenticated RCE",
       "threat_actors": [],
       "title": "Oracle reveals fix-this-ASAP-grade Java4Shell bug that allows attacks on many third-party apps"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T14:22:45.543697+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-5966ac56e61b79d55a1dfb8e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:5966ac56e61b79d55a1dfb8e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T13:27:41+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as",
+      "summary_excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as",
+      "threat_actors": [],
+      "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers"
     },
     {
       "ai_relevance": "none",
@@ -216,41 +268,21 @@
       "summary_excerpt": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw data-stealing malicious software silently injected into sites like the BBC, CNN, Equifax, Ledger and Zoom, was exacerbated by the reality that few popular websites enforce strict rules on the sources of third-party content.",
       "threat_actors": [],
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T11:23:32.292023+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-3867665512d1d8d96b695f09",
-      "primary_category": "other",
-      "public_article_id": "url:3867665512d1d8d96b695f09",
-      "public_tags": [],
-      "published_at": "2026-11-18T11:15:07+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek .",
-      "summary_excerpt": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://blog.talosintelligence.com/java4shell/",
+      "canonical_url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
       "cves": [
         "CVE-2026-114938"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-18T11:37:28.209194+09:00",
+      "first_seen_at": "2026-11-18T14:22:45.543697+09:00",
       "heat_score": 75.0,
-      "permalink_id": "article-url-65b2d3b6eed8227cfed8c443",
+      "permalink_id": "article-url-5966ac56e61b79d55a1dfb8e",
       "primary_category": "vulnerability",
-      "public_article_id": "url:65b2d3b6eed8227cfed8c443",
+      "public_article_id": "url:5966ac56e61b79d55a1dfb8e",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -258,19 +290,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-18T10:53:03+09:00",
+      "published_at": "2026-11-18T13:27:41+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Cisco Talos Blog",
-      "summary": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
-      "summary_excerpt": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
+      "source_name": "The Hacker News",
+      "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as",
+      "summary_excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as",
       "threat_actors": [],
-      "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA"
-    }
-  ],
-  "hottest": [
+      "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://gigazine.net/news/20261118-java4shell/",
@@ -360,6 +390,36 @@
       "summary_excerpt": "OpenJDKにはヒープベースのバッファオーバーフローの脆弱性（CVE-2026-114938）が存在します。 本脆弱性の発見者は本件を「Java4Shell」と呼称し、Base64デコード処理を高速化するための最適化処理に原因があると指摘しています。",
       "threat_actors": [],
       "title": "OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-oracle-products-could-allow-for-remote-code-execution_2026-135",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-18T14:22:18.711796+09:00",
+      "heat_score": 71.25,
+      "permalink_id": "article-url-9d9ca6cef7166e74ce29963c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:9d9ca6cef7166e74ce29963c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T11:37:59+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Center for Internet Security Advisories",
+      "summary": "Multiple vulnerabilities have been discovered in Oracle products, the most severe of which could allow for remote code execution. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights. Of particular concern is CVE-2026-114938, dubbed “Java4Shell,” a heap-based buffer overflow that could lead to remote code execution. Researchers attribute the flaw to the hardware-accelerated Base64 decoder in OpenJDK, while Oracle lists the affected component as the Compiler in Oracle Java SE and Oracle GraalVM for JDK. Because the Java runtime is embedded in many applications, containers, and appliances, affected software may be present in more places than organizations expect. Oracle has released updates that address this vulnerability, and organizations should prioritize identifying and updating every affected Java runtime in their environment.",
+      "summary_excerpt": "Multiple vulnerabilities have been discovered in Oracle products, the most severe of which could allow for remote code execution. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights. Of particular concern is CVE-2026-114938, dubbed “Java4Shell,” a heap-based buffer overflow that could lead to remote code execution. Researchers attribute ",
+      "threat_actors": [],
+      "title": "Multiple Vulnerabilities in Oracle Products Could Allow for Remote Code Execution"
     },
     {
       "ai_relevance": "none",
@@ -510,69 +570,6 @@
       "summary_excerpt": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV",
       "threat_actors": [],
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.akamai.com/blog/security-research/cve-2026-114938-openjdk-java-memory-corruption-vulnerability",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T11:22:59.762674+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-be8d0c5ca9f7a5553b68e11b",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:be8d0c5ca9f7a5553b68e11b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-17T18:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Akamai Security Intelligence",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "CVE-2026-114938: Critical Memory Corruption Vulnerability in OpenJDK Java"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/17/ai-powered-cyberattacks-gtig-report/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T18:07:31.569488+09:00",
-      "heat_score": 65.7,
-      "permalink_id": "article-url-c37323cb41f78a87a77d00ac",
-      "primary_category": "ai_security",
-      "public_article_id": "url:c37323cb41f78a87a77d00ac",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-17T17:45:24+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Threat actors have started letting AI agents carry out whole stages of live intrusions, and at least one operation no longer needs a human to turn a newly released patch into a working attack, Google Threat Intelligence Group (GTIG) and Mandiant revealed. LLM maturity timeline (Source: Google) “While the mechanics of the intrusions remain the same, such as using compromised credentials and targeting unpatched systems, the speed and scale at which frameworks can exploit these … More → The post Google finds AI agent writing and launching exploits with no human in the loop appeared first on Help Net Security .",
-      "summary_excerpt": "Threat actors have started letting AI agents carry out whole stages of live intrusions, and at least one operation no longer needs a human to turn a newly released patch into a working attack, Google Threat Intelligence Group (GTIG) and Mandiant revealed. LLM maturity timeline (Source: Google) “While the mechanics of the intrusions remain the same, such as using compromised credentials and targeting unpatched systems, the speed and scale at which frameworks can exploit these … More → The post Google finds AI agent writing and launching exploits with no human in the loop appeared first on Help ",
-      "threat_actors": [],
-      "title": "Google finds AI agent writing and launching exploits with no human in the loop"
     }
   ],
   "rising": [],
@@ -816,32 +813,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Oracle reveals fix-this-ASAP-grade Java4Shell bug that allows attacks on many third-party apps",
-    "【HOTTEST #1 / Heat 75】OpenJDKのBase64デコーダにおけるメモリ破損の脆弱性「Java4Shell」をOpenAIのCodexで発見、わずか3時間で攻撃実証まで成功",
-    "【LATEST #2】OpenJDKのBase64デコーダにおけるメモリ破損の脆弱性「Java4Shell」をOpenAIのCodexで発見、わずか3時間で攻撃実証まで成功",
-    "【HOTTEST #2 / Heat 75】CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
-    "【LATEST #3】「Puppet Enterprise」RCE脆弱性、悪用を確認 - 米当局が注意喚起",
-    "【HOTTEST #3 / Heat 75】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性",
-    "【LATEST #4】日本クレジットカード協会など官民15組織、フィッシング啓発強化キャンペーンを開始　特設サイトで偽メールやSMSの事例、被害を防ぐ5つの対策を紹介",
-    "【HOTTEST #4 / Heat 67.5】CVE-2026-114938 RCE in OpenJDK: Everything You Need to Know",
-    "【LATEST #5】NVIDIAがファンCEO辞任後初の決算　見通し上方修正で不安払拭、復帰は否定",
-    "【HOTTEST #5 / Heat 67.5】CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17"
+    "【LATEST #1】Java SEに「Java4Shell」、WebLogicも修正――今朝の情シスニュース",
+    "【HOTTEST #1 / Heat 75】Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+    "【LATEST #2】Oracle reveals fix-this-ASAP-grade Java4Shell bug that allows attacks on many third-party apps",
+    "【HOTTEST #2 / Heat 75】OpenJDKのBase64デコーダにおけるメモリ破損の脆弱性「Java4Shell」をOpenAIのCodexで発見、わずか3時間で攻撃実証まで成功",
+    "【LATEST #3】Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+    "【HOTTEST #3 / Heat 75】CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
+    "【LATEST #4】OpenJDKのBase64デコーダにおけるメモリ破損の脆弱性「Java4Shell」をOpenAIのCodexで発見、わずか3時間で攻撃実証まで成功",
+    "【HOTTEST #4 / Heat 75】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性",
+    "【LATEST #5】「Puppet Enterprise」RCE脆弱性、悪用を確認 - 米当局が注意喚起",
+    "【HOTTEST #5 / Heat 71.25】Multiple Vulnerabilities in Oracle Products Could Allow for Remote Code Execution"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-15T05:00:00+00:00",
-    "last_as_of": "2026-11-18T05:00:00+00:00",
+    "first_as_of": "2026-11-15T06:00:00+00:00",
+    "last_as_of": "2026-11-18T06:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-18T05:00:00+00:00",
-  "heat_as_of": "2026-11-18T05:00:00+00:00",
+  "news_as_of": "2026-11-18T06:00:00+00:00",
+  "heat_as_of": "2026-11-18T06:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 24992,
-  "last_published_at": "2026-11-18T14:07:28.146235+09:00",
-  "publication_slot_jst": "2026-11-18T14:00:00+09:00"
+  "news_catalog_count": 24995,
+  "last_published_at": "2026-11-18T15:06:58.357826+09:00",
+  "publication_slot_jst": "2026-11-18T15:00:00+09:00"
 }

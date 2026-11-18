@@ -1,9 +1,54 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T04:40:02.949985+00:00",
+  "source_snapshot_generated_at": "2026-11-18T05:40:03.078026+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:d033374c0297c24d19987527",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture",
+          "Agentic AI",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/dxclab/articles/286c53fbc05e65",
+        "title": "企業向けAIエージェントのアーキテクチャ設計：構想を実装へ進める4つの設計領域",
+        "author": "nsatoh",
+        "published_at": "2026-11-18T05:32:03.738000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0f6911b4346a4ad303c26e26",
+        "source": "zenn",
+        "author_tags": [
+          "iOS",
+          "Swift",
+          "Security",
+          "keychain",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mochiai/articles/f677b0c4063ea0",
+        "title": "自分のiOSアプリの「秘密の置き場所」をAIに点検させた",
+        "author": "Mochi",
+        "published_at": "2026-11-18T05:23:59.779000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2a4c296e1a993df1e4f950df",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mugen_web/articles/claude-code-three-guards-against-repeat-mistakes",
+        "title": "Claude Codeに同じ失敗を繰り返させない。メモリ・フック・未実施タスク表の3点を、実際に使った記録",
+        "author": "MUGEN WEB",
+        "published_at": "2026-11-18T04:53:34+00:00",
+        "excerpt": "Claude Codeは、会話(セッション)が変わると、前に注意したことを忘れます。私は、1人でClaude Codeを使い続けて、同じ指摘を何度もすることになりました。 そこで、次の3つを入れました。どれも、実際に起きた失敗が元です。 失敗を1つずつファイルに残す(メモリ) メッセージを送るたびに、確認事項を差し込む(フック) できなかった作業を、1つのファイルに集める(未実施タスク表) 何を、どう設定したか、そして、効いたかどうか、分かっていないことまで書きます。 前提 Windows、Claude Code(デスクトップ版)。1つのプロジェクトのフォルダ(lp)で、202..."
+      },
       {
         "id": "zenn:eedf553f0ea3078a6008f838",
         "source": "zenn",
@@ -188,6 +233,26 @@
         "author": "Miku Hoshino",
         "published_at": "2026-11-18T02:53:38.637000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:bc0e7afe00b431eff531f634",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/sktt_panda/books/muse-ai-secretary",
+        "title": "Museで作る、あなた専用AI秘書",
+        "author": "サクッとぱんだ",
+        "published_at": "2026-11-18T02:36:26+00:00",
+        "excerpt": "パーソナルAIエージェント Muse を「自分専用の秘書」に育てる実践本。人格ファイル4つ、メモリ3層、目的別チャット、定期ジョブ、判断待ちダッシュボードまで。架空の秘書「澪」を例に、個人情報をモック化しながら、誰でも再現できる形で解説する。コピペで使えるテンプレ付き。"
+      },
+      {
+        "id": "zenn:1172bf8c9814c290cefde159",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/93ch/books/testing-not-equals-qa",
+        "title": "QA＝テストではない――テストの外側に、品質保証の世界がある",
+        "author": "日下部 聡久",
+        "published_at": "2026-11-18T02:33:32+00:00",
+        "excerpt": "「QA＝テスト」の思い込みを解きほぐし、テスト以外のQA活動を体系的に紹介する。品質定義ワークショップ、テスト戦略、AI時代の分業、品質組織のつくり方まで、現場で試して効果があった方法をまとめた一冊。"
       },
       {
         "id": "zenn:ff2aec28a276d2e51ae4712a",
@@ -386,6 +451,22 @@
         "author": "ムラ",
         "published_at": "2026-11-18T00:00:05.368000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:02f8633494d77164f3d5e1a8",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "Security",
+          "DevOps",
+          "ECR",
+          "運用"
+        ],
+        "url": "https://zenn.dev/stock_inc/articles/base-image-silent-staleness",
+        "title": "ビルドが落ちたものだけが見える — ベースイメージの更新放置は「静かな方」が危ない",
+        "author": "株式会社Stock 武田 峻一",
+        "published_at": "2026-11-18T00:00:00+00:00",
+        "excerpt": "ベースイメージのOSがサポート切れになり、ビルドが止まる。これは痛いですが、壊れることで「更新しろ」と教えてくれています。 危ないのは逆側です。ビルドが通り続けるイメージは、誰にも気づかれないまま何年も本番で動き続けます。 棚卸しの軸を、ビルドの成否からベースイメージの最終更新日に移しました。コンテナを本番で動かしているなら、10分で一覧が出せる話です。 止血のあとに残った問い きっかけは、あるサービスのイメージビルドが突然落ちたことでした。ベースイメージのOSがサポート期間を終え、パッケージの取得元がビルド中に使えなくなったためです。 止血はすぐ済みました。取得元の指定を調整して..."
       },
       {
         "id": "zenn:edce396ab04a53a101f40c20",
@@ -40423,6 +40504,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3a4a1a557dc386eb59af677d",
+        "source": "qiita",
+        "author_tags": [
+          "iOS",
+          "Swift",
+          "CryptoKit",
+          "iCloud",
+          "Security"
+        ],
+        "url": "https://qiita.com/yoldoshevtemur96/items/942dbb90f6904f07011e",
+        "title": "サーバーを持たない個人開発アプリで、iCloud バックアップを「暗号文だけ」にする設計",
+        "author": "yoldoshevtemur96",
+        "published_at": "2026-11-18T13:50:14+09:00",
+        "excerpt": "はじめに 個人開発で写真・ファイルの保管庫アプリを作るとき、悩ましいのがバックアップです。 「機種変更したら全部消えた」は保管庫アプリとして致命的ですが、かといって自前のサーバーにユーザーのファイルや鍵を預かるのは避けたい。運用コストもかかりますし、預かったものは漏れる可能性があるからです。 この記事では、自作アプリ Hushkeeper で採用した「iCloud には暗号文だけを置き、開発者は何も受け取らない」バックアップの考え方をまとめます。鍵の導出やファイル暗号化そのものについては、Zenn に書いた記事で扱っています。 https://zenn.dev/temur_dev/articles/9026fb2754ba24 方針：iCloud は「ただの置き場所」として扱う 前提として決めたのは次の 3 つです。 iCloud に送るものは、端末上で暗号化が終わったデータだけ 復号に必要な鍵は iCloud にも開発者のサーバーにも置かない 新しい端末で復元する手段は、ユーザーが控えた リカバリーフレーズ だけ iCloud アカウントが第三"
+      },
+      {
         "id": "qiita:e3433778d908bf823ec708de",
         "source": "qiita",
         "author_tags": [
@@ -55236,6 +55333,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b0a68be8184d1cf5d120bb3e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "malware",
+          "software-development",
+          "scam",
+          "information-security"
+        ],
+        "url": "https://devaland.medium.com/facestealer-fake-video-call-scam-developer-checklist-aa867d748ef2",
+        "title": "FaceStealer Fake Video Call Scam: Developer Checklist",
+        "author": "Marius Andronie",
+        "published_at": "2026-11-18T05:27:34+00:00",
+        "excerpt": "Quick answer: on 12 November 2026 the US Department of Justice announced the seizure of cloud infrastructure used in a North Korean scheme… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2ad2159f70aff2625946ee7c",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "technology",
+          "cybersecurity",
+          "ethical-hacking",
+          "careers"
+        ],
+        "url": "https://medium.com/@info_39707/ai-wont-replace-cybersecurity-jobs-it-will-replace-those-who-don-t-adapt-4b5dd097a8db",
+        "title": "AI Won’t Replace Cybersecurity Jobs. It Will Replace Those Who Don’t Adapt.",
+        "author": "Skill IT",
+        "published_at": "2026-11-18T05:27:04+00:00",
+        "excerpt": "Why the rise of AI makes human security experts more valuable Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b28f19b167a45b6aeeeebcf1",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "risk-management",
+          "business-strategy",
+          "information-security",
+          "cyber-resilience"
+        ],
+        "url": "https://medium.com/@ayansheikh45689/how-to-build-a-cybersecurity-roadmap-for-a-growing-organization-ff88233c9a40",
+        "title": "How to Build a Cybersecurity Roadmap for a Growing Organization",
+        "author": "Sheikh Ayan",
+        "published_at": "2026-11-18T05:23:02+00:00",
+        "excerpt": "As organizations grow, their dependence on digital systems, cloud platforms, business applications, customer data, and third-party… Continue reading on Medium »"
+      },
       {
         "id": "medium:e257f4d3df6ee2d7cd68ec3e",
         "source": "medium",
