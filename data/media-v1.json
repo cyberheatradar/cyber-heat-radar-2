@@ -1,9 +1,72 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T17:40:03.015741+00:00",
+  "source_snapshot_generated_at": "2026-11-18T18:40:03.005314+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f0a1dcc02ec5681153baeb37",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SEO",
+          "個人開発",
+          "Claude Code",
+          "ノンテック"
+        ],
+        "url": "https://zenn.dev/soratotent/articles/non-engineer-ai-camp-site",
+        "title": "営業→マーケ→開発まわりを渡り歩いた非エンジニアが、AIと全国5,000ページの星空サイトを作った話",
+        "author": "そらとテント編集部",
+        "published_at": "2026-11-18T18:06:51.878000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7bf7aecfbbf64e337a5d5aa4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "PHP",
+          "CI/CD",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/t_azk/articles/rules-as-checks-not-prose-for-ai",
+        "title": "規約を AI に「守ってもらう」のをやめた ― 判定できる規約は検査に移し、人が読むのは免除理由と設計判断に絞る",
+        "author": "t-azk",
+        "published_at": "2026-11-18T17:48:00+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:46e11cf4bd563fa673891bdd",
+        "source": "zenn",
+        "author_tags": [
+          "Next.js",
+          "TypeScript",
+          "Security",
+          "Cloudflare",
+          "Tauri"
+        ],
+        "url": "https://zenn.dev/shiroshibamugi/articles/jarvis-794560905a",
+        "title": "Next.js・Cloudflare・Tauriの公開前チェックと設定ファイル見本",
+        "author": "shiroshibamugi",
+        "published_at": "2026-11-18T17:44:20.383000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1875de888d853c64e8479c73",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "gamedev",
+          "Godot",
+          "GDScript",
+          "Physics"
+        ],
+        "url": "https://zenn.dev/zivaengine/articles/033858d63ae138",
+        "title": "Godotでコリジョンが効かない？検証済みのチェックリストと、原因を見つけるAI",
+        "author": "Ziva Engine",
+        "published_at": "2026-11-18T17:43:33.010000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:98221f0a0d0d69f030ecb0c9",
         "source": "zenn",
@@ -41360,6 +41423,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:79066034e78e43b0a2cad195",
+        "source": "qiita",
+        "author_tags": [
+          "Network",
+          "Security",
+          "暗号化",
+          "学習記録"
+        ],
+        "url": "https://qiita.com/Dr_Shinn/items/d30f8b0e58d1f708eb05",
+        "title": "情報通信ネットワーク入門：ファイアウォール、暗号化、VPNの仕組みを整理する",
+        "author": "Dr_Shinn",
+        "published_at": "2026-11-19T02:42:21+09:00",
+        "excerpt": "前回：HTTP・HTTPSとWeb通信の仕組みを整理する 前回はHTTPとHTTPSの仕組み、TLSによる暗号化の役割をまとめた。今回は第7回の内容として、ネットワークを外部の脅威からどう守るかという観点で、ファイアウォール、マルウェア対策、暗号化、デジタル署名と証明書、VPNを整理する。 ファイアウォールによる防御 ファイアウォールは、通過させるデータと破棄するデータを振り分けることで不正アクセスを防ぐ装置・機能だ。実装の形態にはいくつかある。 OSの機能として、アプリケーションとNICの間を通るデータをOSカーネル上で監視する。 ルータの機能として、ポートフォワーディングテーブルをもとにデータを監視する。 専用機器として、すべてのパケットを監視する。 どの形態でも、送信元・宛先のIPアドレスやポート番号、プロトコルといった情報（SPI: Stateful Packet Inspection）をもとに通信を許可するかどうかを判断している。たとえば内側のネットワークから外部サーバへ接続した戻りの通信は許可し、外部から内側へ勝手に開始された通信は拒"
+      },
+      {
         "id": "qiita:e57ad1b17ca10994f09ba0d4",
         "source": "qiita",
         "author_tags": [
@@ -56438,6 +56516,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a8dffa7e8934498facd6f496",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "cybersecurity",
+          "nodejs",
+          "programming",
+          "software-development"
+        ],
+        "url": "https://medium.com/@vashuvats/websocket-redos-via-subscription-path-an-undocumented-attack-vector-nobody-is-hunting-b8b930755815",
+        "title": "WebSocket ReDoS via Subscription Path: An Undocumented Attack Vector Nobody Is Hunting",
+        "author": "Vashu Vats",
+        "published_at": "2026-11-18T18:12:21+00:00",
+        "excerpt": "The under-hunted technique for finding subscription-handler ReDoS that takes real-time servers down. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8acffff65e384106af15c4a8",
+        "source": "medium",
+        "author_tags": [
+          "java",
+          "cve",
+          "cybersecurity",
+          "vulnerability",
+          "information-security"
+        ],
+        "url": "https://medium.com/@beyzasilagokmen12/java4shell-cve-2026-114938-bir-i%CC%87%C5%9Faretiyle-ba%C5%9Flayan-jvm-zafiyeti-9bdf185458f5",
+        "title": "Java4Shell (CVE-2026–114938): Bir “=” İşaretiyle Başlayan JVM Zafiyeti",
+        "author": "Beyza Sıla Gökmen",
+        "published_at": "2026-11-18T18:11:19+00:00",
+        "excerpt": "OpenJDK’nın AVX-512 Base64 çözücüsündeki taşma nasıl kimlik doğrulamasız RCE’ye dönüştü, risk gerçekte kimde ve savunma tarafında neye… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:028cf8a7a43a16775ed06190",
+        "source": "medium",
+        "author_tags": [
+          "ai",
+          "openjdk",
+          "cybersecurity",
+          "discussion",
+          "ai-agent"
+        ],
+        "url": "https://medium.com/@aizaai.net/java4shell-cve-2026-114938-critical-openjdk-vulnerability-puts-enterprise-applications-at-risk-5ce041457c00",
+        "title": "Java4Shell CVE-2026–114938: Critical OpenJDK Vulnerability Puts Enterprise Applications at Risk",
+        "author": "Aizaai Net",
+        "published_at": "2026-11-18T18:03:36+00:00",
+        "excerpt": "A memory-corruption flaw in OpenJDK’s Base64 decoder could expose widely deployed enterprise applications to denial of service, sensitive… Continue reading on Medium »"
+      },
       {
         "id": "medium:9d4ab6466b130ff0514a99b9",
         "source": "medium",
