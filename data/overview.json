@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-18T14:21:46.467300+00:00",
-  "as_of": "2026-11-18T14:00:00+00:00",
-  "catalog_count": 25396,
+  "generated_at": "2026-11-18T15:10:31.113697+00:00",
+  "as_of": "2026-11-18T15:00:00+00:00",
+  "catalog_count": 25399,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,89 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/eggstreme-malware-rebuilt-after/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T23:22:51.009471+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-365a46b8fc281280c1331178",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:365a46b8fc281280c1331178",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-18T23:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "Suspected Chinese APT rebuilt EggStreme malware and infrastructure after Bitdefender exposure",
+      "summary_excerpt": "Suspected Chinese APT rebuilt EggStreme malware and infrastructure after Bitdefender exposure",
+      "threat_actors": [],
+      "title": "Suspected Chinese APT Rebuilds EggStreme Malware After Exposure"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T23:22:48.903849+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-4a99733142bf52ae4682b92e",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:4a99733142bf52ae4682b92e",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-18T23:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Dark Reading",
+      "summary": "Government-sanctioned authentication middleware is used for exceptionally important legal documents, yet it's often rife with RCE bugs.",
+      "summary_excerpt": "Government-sanctioned authentication middleware is used for exceptionally important legal documents, yet it's often rife with RCE bugs.",
+      "threat_actors": [],
+      "title": "Major Brazilian Signature Apps Enable RCE &amp; Fraud"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/russia-hockey-cyberattack-championships",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T23:22:57.952680+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-af40688bbe597ee6a95e9084",
+      "primary_category": "other",
+      "public_article_id": "url:af40688bbe597ee6a95e9084",
+      "public_tags": [],
+      "published_at": "2026-11-18T22:45:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "The International Ice Hockey Federation (IIHF) confirmed a cyberattack on its website after hackers replaced its homepage with a pro-Russian message criticizing the country's exclusion from international competitions.",
+      "summary_excerpt": "The International Ice Hockey Federation (IIHF) confirmed a cyberattack on its website after hackers replaced its homepage with a pro-Russian message criticizing the country's exclusion from international competitions.",
+      "threat_actors": [],
+      "title": "Ice hockey governing body website defaced amid dispute over Russia's exclusion"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
@@ -217,97 +300,6 @@
       "summary_excerpt": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/russian-star-blizzard-cloud-data/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T21:22:33.842530+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-f371582292a0b5ab2ca9aeb8",
-      "primary_category": "other",
-      "public_article_id": "url:f371582292a0b5ab2ca9aeb8",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-18T20:45:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "New Google analysis of Star Blizzard, aka Cold Relic, highlighted the group’s growing focus on compromising cloud environments to steal data and facilitate further attacks",
-      "summary_excerpt": "New Google analysis of Star Blizzard, aka Cold Relic, highlighted the group’s growing focus on compromising cloud environments to steal data and facilitate further attacks",
-      "threat_actors": [
-        "Star Blizzard"
-      ],
-      "title": "Russian Espionage Actor Star Blizzard Focuses on Cloud Identities for Mass Data Theft"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T20:52:04.499559+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-ca313e9f67b913736f43290b",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:ca313e9f67b913736f43290b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T20:43:22+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs. The post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek .",
-      "summary_excerpt": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs. The post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Chrome 158 Patches 204 Vulnerabilities"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.malwarebytes.com/blog/bugs/2026/11/java4shell-a-critical-flaw-with-a-narrow-reach",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T21:38:23.320761+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-be1fe550546d6cf0ae95e4b7",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:be1fe550546d6cf0ae95e4b7",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-18T20:41:07+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Malwarebytes Blog",
-      "summary": "Researchers used AI to find a Java vulnerability and named it Java4Shell. Here’s why organizations need to patch.",
-      "summary_excerpt": "Researchers used AI to find a Java vulnerability and named it Java4Shell. Here’s why organizations need to patch.",
-      "threat_actors": [],
-      "title": "Java4Shell: A critical flaw with a narrow reach"
     }
   ],
   "hottest": [
@@ -444,7 +436,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-18T19:22:55.512602+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-eeab189c347513181f34ff4f",
       "primary_category": "vulnerability",
       "public_article_id": "url:eeab189c347513181f34ff4f",
@@ -474,7 +466,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-18T19:22:55.642112+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-e739030404770d0d4734e00b",
       "primary_category": "vulnerability",
       "public_article_id": "url:e739030404770d0d4734e00b",
@@ -742,6 +734,34 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/16/2000003244/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-16T23:22:41.673552+09:00",
+      "heat_score": 52.56,
+      "permalink_id": "article-url-d577fc06968227c6fc55f9e2",
+      "primary_category": "ai_security",
+      "public_article_id": "url:d577fc06968227c6fc55f9e2",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-16T23:00:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia NEWS Security",
+      "summary": "Googleは、AIを悪用したサイバー攻撃の動向をまとめた四半期レポートを公開した。攻撃者が複数のAIエージェントを組み合わせ、自律的に脆弱性の発見から攻撃までを実行するフレームワークが初めて確認された。偽プロフィールによる標的への接近や世論工作の自動化、LLMJackingの被害拡大なども報告している。",
+      "summary_excerpt": "Googleは、AIを悪用したサイバー攻撃の動向をまとめた四半期レポートを公開した。攻撃者が複数のAIエージェントを組み合わせ、自律的に脆弱性の発見から攻撃までを実行するフレームワークが初めて確認された。偽プロフィールによる標的への接近や世論工作の自動化、LLMJackingの被害拡大なども報告している。",
+      "threat_actors": [],
+      "title": "Google、人間の関与なしに脆弱性を見つけて悪用するAIフレームワークを初めて観測　GTIGのAI脅威レポート"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/16/2000003199/",
       "cves": [],
       "document_form": "single_story",
@@ -849,28 +869,6 @@
       "summary_excerpt": "Auditionは、現在のユーザーのコンテキストで任意のコードを実行させる可能性がある境界外書き込みの脆弱性の影響を受けます。この問題を悪用するためには、被害者が悪意のあるファイルを開くというユーザー操作が必要です。",
       "threat_actors": [],
       "title": "アドビのAdobe Auditionにおける境界外書き込みに関する脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043450.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T12:38:19.054401+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-0b079880607ddae05f7db7f4",
-      "primary_category": "other",
-      "public_article_id": "url:0b079880607ddae05f7db7f4",
-      "public_tags": [],
-      "published_at": "2026-11-16T11:29:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Microsoft Office ExcelのUse after freeの脆弱性により、不正な攻撃者がネットワーク経由でコードを実行する可能性があります。",
-      "summary_excerpt": "Microsoft Office ExcelのUse after freeの脆弱性により、不正な攻撃者がネットワーク経由でコードを実行する可能性があります。",
-      "threat_actors": [],
-      "title": "マイクロソフトのMicrosoft 365 Apps等の複数製品における解放済みメモリの使用に関する脆弱性"
     }
   ],
   "timeseries_status": {
@@ -891,32 +889,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+    "【LATEST #1】Suspected Chinese APT Rebuilds EggStreme Malware After Exposure",
     "【HOTTEST #1 / Heat 75】Java4Shell: Critical OpenJDK Flaw Allows Unauthenticated Remote Code Execution",
-    "【LATEST #2】Who protects the antivirus? How we secure Malwarebytes itself",
+    "【LATEST #2】Major Brazilian Signature Apps Enable RCE &amp; Fraud",
     "【HOTTEST #2 / Heat 75】Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938)",
-    "【LATEST #3】Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
+    "【LATEST #3】Ice hockey governing body website defaced amid dispute over Russia's exclusion",
     "【HOTTEST #3 / Heat 75】Critical Perforce Puppet RCE Exploited in Attacks",
-    "【LATEST #4】Java4Shell Vulnerability Allows Remote Attacks on Major Java Apps",
+    "【LATEST #4】Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
     "【HOTTEST #4 / Heat 75】2026-021: High Severity Vulnerability in Java SE and OpenJDK",
-    "【LATEST #5】New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-    "【HOTTEST #5 / Heat 75】Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers"
+    "【LATEST #5】Who protects the antivirus? How we secure Malwarebytes itself",
+    "【HOTTEST #5 / Heat 67.5】Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-15T14:00:00+00:00",
-    "last_as_of": "2026-11-18T14:00:00+00:00",
+    "first_as_of": "2026-11-15T15:00:00+00:00",
+    "last_as_of": "2026-11-18T15:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-18T14:00:00+00:00",
-  "heat_as_of": "2026-11-18T14:00:00+00:00",
+  "news_as_of": "2026-11-18T15:00:00+00:00",
+  "heat_as_of": "2026-11-18T15:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25396,
-  "last_published_at": "2026-11-18T23:22:06.523927+09:00",
-  "publication_slot_jst": "2026-11-18T23:00:00+09:00"
+  "news_catalog_count": 25399,
+  "last_published_at": "2026-11-19T00:10:42.112669+09:00",
+  "publication_slot_jst": "2026-11-19T00:00:00+09:00"
 }
