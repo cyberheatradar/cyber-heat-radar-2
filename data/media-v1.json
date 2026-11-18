@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T01:40:02.987736+00:00",
+  "source_snapshot_generated_at": "2026-11-18T02:40:03.107458+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ff2aec28a276d2e51ae4712a",
+        "source": "zenn",
+        "author_tags": [
+          "SQL",
+          "Security",
+          "Snowflake"
+        ],
+        "url": "https://zenn.dev/finatext/articles/snowflake-managed-access-copy-grants",
+        "title": "Snowflake の managed access schema で COPY GRANTS 付き CLONE がなぜか初回だけ失敗した話",
+        "author": "okashunnn",
+        "published_at": "2026-11-18T02:22:05.354000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0af4a6e6bf721f3b791855a6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "cost",
+          "llm",
+          "caching"
+        ],
+        "url": "https://zenn.dev/modelflare_dev/articles/a58cdea8b2e1a4",
+        "title": "プロンプトキャッシュの費用と削減効果を測定する",
+        "author": "ModelFlare",
+        "published_at": "2026-11-18T02:06:16.786000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:37cbaefdfd6ce3078e154d1f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "Model Context Protocol",
+          "OpenAI",
+          "Web scraping"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/chatgpt-scheduled-tasks-demand-radar",
+        "title": "ChatGPTのスケジュールタスクとMCPで週次の需要レーダーを作る",
+        "author": "EveryInfra",
+        "published_at": "2026-11-18T01:40:20.072000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:8eb81a1ae876a026a2cae545",
         "source": "zenn",
@@ -40192,6 +40238,52 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f012480c5591332340bfea50",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "フィッシング",
+          "セキュリティニュース",
+          "証券会社"
+        ],
+        "url": "https://qiita.com/Kerdy/items/af4d789fc9c695cb23d8",
+        "title": "11/18、今日のセキュリティニュース｜証券会社をかたるフィッシングに注意、「パスワード流出」や「パスキー設定要請」を装う手口も！｜楽天証券に不正アクセス、最大約1125万口座のログインIDなどが漏え",
+        "author": "Kerdy",
+        "published_at": "2026-11-18T11:38:38+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) オフラインマーケット： 2026年11月23日(月・祝) 会場：池袋サンシャインシティ 展示ホールD（文化会館ビル2F） かーでぃらぼ ：す07 - よろしくお願いします(^^)/ **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 準備中 良かったら、高評価とチャネル登録をお願いします🙇 証券会社をかたるフィ"
+      },
+      {
+        "id": "qiita:920662c1a6aa9046c6bccfa1",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "cve",
+          "php2shell"
+        ],
+        "url": "https://qiita.com/kengo-sk8/items/fcfb4b0c862f64e194d3",
+        "title": "2026年10月に話題となったPHPの脆弱性について、調べて理解したことをまとめた",
+        "author": "kengo-sk8",
+        "published_at": "2026-11-18T11:17:17+09:00",
+        "excerpt": "まえがき 昨今、AIの急速な発展に伴い、情報漏洩や脆弱性に関するセキュリティ上の問題が注目されています。 エンジニアとして、こうした問題は単にニュースとして見るだけでなく、技術的な仕組みや発生原因まで理解しておく必要があると考えています。 今回は、2026年10月に公表されたPHPの脆弱性「 PHP2Shell 」について、自分なりに調べて理解した内容をまとめました。 PHPの脆弱性「PHP2Shell」の概要 2026年10月21日、PHP本体に存在する2件の重大な脆弱性が公表された。同日、これらの脆弱性を修正したPHPの新しいバージョンも公開された。 今回発見された2件の脆弱性は、まとめて「 PHP2Shell 」と呼ばれている。 PHP2Shellは、PHPがデータの初期化（最初の値を設定し、使用可能な状態にする処理）を完了する前に、そのデータを使用したり、すでに解放されたメモリ（処理が終了し、ほかの用途に再利用できる状態となったメモリ領域）を誤って使用してしまう脆弱性の総称。 通常、PHPはサーバー上でプログラムを実行すると、必要なメモリ"
+      },
+      {
+        "id": "qiita:48221cc7c5b77e330b11d81f",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/c645e6d29801ee39ad93",
+        "title": "SafeLine WAF とアップロードフォーム：ウェブシェルをふせぐチェックリストとトラブルシューティング",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-18T11:11:32+09:00",
+        "excerpt": "ファイルのアップロードがせいこうしても、それだけでウェブシェルがうごいたとはいえません。しかし、サーバーでうごくスクリプトがおかれ、HTTP でアクセスでき、じっこうされるなら、アップロードフォームがこうげきのいりぐちになります。 この記事では、SafeLine WAF をリバースプロキシとしておき、アプリのチェックとファイルのおきばをあわせててんけんします。テーマは「how to block web shell upload attempts on a file upload form」です。せっていしたつもりでおわらせず、どのログやがめんでなおったとたしかめるかまできめます。 1. アップロードのいりぐちをリストにする まず、ブラウザーのフォームだけでなく、API、インポート、アドミンむけのアップロードもあらいだします。それぞれについて、だれが、なにを、どこへおくのかをメモします。 アップロードできるユーザーがきまっている うけつけるファイルタイプがきまっている サイズのじょうげんがある ファイルのおきばとダウンロードのルートがわかる アップ"
+      },
+      {
         "id": "qiita:1bb58eadb5dd9b5668c98cd0",
         "source": "qiita",
         "author_tags": [
@@ -54896,6 +54988,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:887ce22680b3cde108a6c8d8",
+        "source": "medium",
+        "author_tags": [
+          "soc-analyst",
+          "cyberdefender",
+          "cyber-security-awareness",
+          "wireshark",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@qusayfarid03/cyberdefenders-lab-write-up-psexec-hunt-b93812196818",
+        "title": "CyberDefenders Lab Write-up: PsExec Hunt",
+        "author": "Qusayfarid",
+        "published_at": "2026-11-18T01:56:35+00:00",
+        "excerpt": "Investigating SMB-Based Lateral Movement with Wireshark Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9cb41968bc1b7489d91b5b93",
+        "source": "medium",
+        "author_tags": [
+          "supply-chain",
+          "ai",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@c.montante_42326/why-productivity-cybersecurity-and-energy-will-define-the-next-era-of-global-competitiveness-8b2ccd785ebf",
+        "title": "Why Productivity, Cybersecurity and Energy Will Define the Next Era of Global Competitiveness",
+        "author": "CCL Montante",
+        "published_at": "2026-11-18T01:53:02+00:00",
+        "excerpt": "Artificial intelligence is transforming more than business operations. It is reshaping the economics of risk, the structure of global… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4f9ef501f895a5a567bb9a7d",
+        "source": "medium",
+        "author_tags": [
+          "soc-analyst",
+          "blue-team",
+          "ctf-writeup",
+          "cybersecurity",
+          "cyberdefender"
+        ],
+        "url": "https://medium.com/@qusayfarid03/cyberdefenders-lab-write-up-poisonedcredentials-55ebce589be0",
+        "title": "CyberDefenders Lab Write-up: PoisonedCredentials",
+        "author": "Qusayfarid",
+        "published_at": "2026-11-18T01:37:59+00:00",
+        "excerpt": "Investigating LLMNR/NBT-NS Poisoning and Credential Theft with Wireshark Continue reading on Medium »"
+      },
       {
         "id": "medium:9e6cc422d3b70ca6dab893d4",
         "source": "medium",
