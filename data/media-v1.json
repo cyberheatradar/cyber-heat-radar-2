@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T05:40:03.078026+00:00",
+  "source_snapshot_generated_at": "2026-11-18T06:40:02.917299+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:c19863e43c6b8eb32fff466a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Unity",
+          "QA"
+        ],
+        "url": "https://zenn.dev/applibot_tech/articles/6b8ec8d196634b",
+        "title": "QA効率化におけるAI活用事例",
+        "author": "tanaka_shuntaro",
+        "published_at": "2026-11-18T06:33:59.003000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:366a28d1f1983c5f9f1b4494",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "マネジメント",
+          "agile",
+          "Agile Japan",
+          "AI-DLC"
+        ],
+        "url": "https://zenn.dev/dip_techblog/articles/6a1faea00e53d5",
+        "title": "[Agile Japan 2026 参加レポート] AIで「作る速さ」が爆上がりした今、私たちは何に時間を使うべきか？",
+        "author": "JP（Ohtaki)",
+        "published_at": "2026-11-18T05:57:11.522000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:97a07364c9cc9436824c8aa5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "dell",
+          "Generative AI",
+          "GenAI",
+          "dellaifactory"
+        ],
+        "url": "https://zenn.dev/mstmt/articles/5169e763a71e5e",
+        "title": "第5回：DellとNVIDIAは何を共に提供するのか――AIの構築から本番運用まで",
+        "author": "TAMOTSU＠DELL",
+        "published_at": "2026-11-18T05:54:45.365000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:d033374c0297c24d19987527",
         "source": "zenn",
@@ -40504,6 +40550,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:bcdb2872921b78ab04edf905",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "脆弱性",
+          "OpenJDK",
+          "cve"
+        ],
+        "url": "https://qiita.com/superdora-cloud/items/5dcf57ecbd780fd82ff2",
+        "title": "【緊急】Java4Shell（CVE-2026-114938）とは？OpenJDKのBase64デコーダの脆弱性と対策まとめ",
+        "author": "superdora-cloud",
+        "published_at": "2026-11-18T15:21:07+09:00",
+        "excerpt": "はじめに 2026年11月17日、OpenJDK（Javaのオープンソース実装）に重大な脆弱性「 Java4Shell （CVE-2026-114938）」が公開されました。ログイン不要で外部からプログラムを実行される（RCE）恐れがあり、Jenkins や Jira、Keycloak など、身近な製品での攻撃成功例も報告されています。 この記事では、 脆弱性の知識があまりない方 でも状況が分かるように、次の流れで整理します。 何が起きたのか（前提知識から） 自分の環境が影響を受けるかの確認方法 具体的な対策（修正版・暫定対策） 本記事は 2026年11月18日時点 の公開情報（Oracle、各セキュリティ企業の解説、報道）に基づいています。修正版の番号や状況は今後更新される可能性があります。実際の対応では、必ずお使いのベンダーの公式アドバイザリを確認してください。 TL;DR（3行まとめ） OpenJDK の Base64 デコード処理 （高速化用の専用コード）にメモリ破壊のバグがあり、悪用されると 認証なしで RCE の恐れがある。 影響を受"
+      },
+      {
+        "id": "qiita:bfaa720c94f90a67035ff8e3",
+        "source": "qiita",
+        "author_tags": [
+          "HashiCorpVault",
+          "Security",
+          "devops",
+          "PostgreSQL",
+          "NKKTechGlobal"
+        ],
+        "url": "https://qiita.com/NKKTechGlobal/items/ac957c17cc4e2243dc45",
+        "title": "外部エンジニア委託時のシークレット漏洩を防ぐHashiCorp Vaultと短期動的認証（Dynamic Secrets）の運用",
+        "author": "NKKTechGlobal",
+        "published_at": "2026-11-18T15:14:46+09:00",
+        "excerpt": "外部エンジニア委託時のシークレット漏洩を防ぐHashiCorp Vaultと短期動的認証（Dynamic Secrets）の運用 はじめに 外部委託やクロスボーダー開発において、多くの企業が以下のような「シークレット管理の負債」を抱えています。 開発・ステージング環境のデータベース接続文字列（ユーザー名・パスワード）を全員で使い回している 委託エンジニアがプロジェクトを離脱した際、関連する全パスワードを手動でローテーションするのが面倒で放置されている 万が一データ漏洩が発生した際、共有アカウントを使っているため「誰がいつアクセスしたのか」を特定できない これらを根本解決するパラダイムシフトが、 「シークレットを共有・保管する」のをやめ、「必要な瞬間に自動生成し、期限が切れたら自動消去する（Dynamic Secrets）」 というアプローチです。 本記事では、デファクトスタンダードである HashiCorp Vault を用いて、外部エンジニアが作業する間だけ有効なPostgreSQLの一時アカウントをオンデマンド発行し、自動破棄する完全な実装手"
+      },
+      {
+        "id": "qiita:76940bd5ae446277350fee43",
+        "source": "qiita",
+        "author_tags": [
+          "MicrosoftSentinel",
+          "MicrosoftDefender",
+          "DefenderXDR",
+          "SIEM",
+          "Security"
+        ],
+        "url": "https://qiita.com/himatsumoto/items/be9374cfacf0c482271d",
+        "title": "【2026年11月】Defender ポータルから「Microsoft Sentinel」メニューが消えた？ ISOC 展開後の機能の移動先まとめ",
+        "author": "himatsumoto",
+        "published_at": "2026-11-18T14:53:40+09:00",
+        "excerpt": "本記事は個人の検証環境での確認結果をまとめたものであり、所属組織の公式見解ではありません。ISOC は機能・提供範囲が変更される可能性があります。最新情報は必ず Microsoft Learn をご確認ください。 はじめに 自分の検証テナント（Diamond テナント）で Microsoft Defender ポータルを開いたところ、左ナビゲーションから 「Microsoft Sentinel」メニューが消えて いました。 テーブルの保持期間を変えようとして「あれ、どこ？」と探し回ったので、同じように迷う方のために どこに何が移動したか をまとめます。 結論から言うと、これは ISOC（Integrated Security Operations Center）in Microsoft Defender の展開に伴う仕様変更です。ちなみに私のテナントは ISOC へのオプトイン前 でしたが、メニューはすでに新しい構成に切り替わっていました。Sentinel の機能はなくなったわけではなく、Defender ポータルの各メニューに 分散・統合 され"
+      },
+      {
         "id": "qiita:3a4a1a557dc386eb59af677d",
         "source": "qiita",
         "author_tags": [
@@ -55333,6 +55427,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:7f88d16dfd84798f49184bae",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "devops",
+          "software-engineering",
+          "github",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/skillstuff/hackers-targeted-61-000-github-repositories-the-real-target-wasnt-the-code-75e5e9c54908",
+        "title": "Hackers Targeted 61,000 GitHub Repositories. The Real Target Wasn’t the Code.",
+        "author": "CodeTune",
+        "published_at": "2026-11-18T05:41:58+00:00",
+        "excerpt": "The wfx-loot campaign revealed something unsettling about modern software development: the credentials and permissions behind a repository… Continue reading on Skill Stuff »"
+      },
       {
         "id": "medium:b0a68be8184d1cf5d120bb3e",
         "source": "medium",
