@@ -1,9 +1,71 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T07:40:02.852639+00:00",
+  "source_snapshot_generated_at": "2026-11-18T08:40:02.867396+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f6333f3f9f9bbcc4242c025a",
+        "source": "zenn",
+        "author_tags": [
+          "Rust",
+          "Security",
+          "Windows",
+          "Tauri",
+          "keyring"
+        ],
+        "url": "https://zenn.dev/claudycat/articles/f5d4df964548e8",
+        "title": "Rust の keyring 3 は、feature を付けないと黙って何も保存しない",
+        "author": "Claudy Cat",
+        "published_at": "2026-11-18T08:33:17.637000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:02b87a3885a07821fd24344e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "Python",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/miokuri_ai/articles/c8f93358846ac3",
+        "title": "Claude Codeに危ないコマンドを打たせないフック — AIが作った安全装置は何も止めていなかった",
+        "author": "見送りの人",
+        "published_at": "2026-11-18T08:30:06.260000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ee6b2aa8f0812bd83991b021",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "脆弱性",
+          "ペンテスト",
+          "continuum"
+        ],
+        "url": "https://zenn.dev/aws_japan/articles/5381a11e111780",
+        "title": "AWS Continuum ペンテスティング機能 検証レポート (Web App 編)",
+        "author": "中島佑樹",
+        "published_at": "2026-11-18T08:29:11.644000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7fff2847da7c4e778dcb1794",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Claude Code",
+          "AI-DLC"
+        ],
+        "url": "https://zenn.dev/canly/articles/82eff96f049e13",
+        "title": "AI-DLCワークフローは見積もりにも使える？スコープを自作して概算見積もりを出してみた",
+        "author": "kuwano",
+        "published_at": "2026-11-18T08:00:05.289000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:01ddd2f90800c4e85c6a5f14",
         "source": "zenn",
@@ -33,6 +95,22 @@
         "title": "Evernote、Notion、Obsidian と乗り換えて分かった ― 欲しかったのはメモアプリではなかった",
         "author": "にゃび",
         "published_at": "2026-11-18T07:36:12.698000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4fd3eeb55f3fa978c492b6a7",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "キャリア",
+          "新卒",
+          "イベントレポート",
+          "colabconf"
+        ],
+        "url": "https://zenn.dev/tokium_dev/articles/colab-conf-2026-autumn-report",
+        "title": "コラコン2026秋 参加レポート",
+        "author": "furukawa",
+        "published_at": "2026-11-18T07:30:00+00:00",
         "excerpt": ""
       },
       {
@@ -40673,6 +40751,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:270c7915f569cea43b2a864b",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Semgrep",
+          "SAST",
+          "Python",
+          "Flask"
+        ],
+        "url": "https://qiita.com/tasekino/items/ad7081d74415aec346f9",
+        "title": "脆弱性診断を1つのアプリで体験する（1）SAST編：Semgrep でコードの穴を見つける",
+        "author": "tasekino",
+        "published_at": "2026-11-18T16:53:13+09:00",
+        "excerpt": "はじめに 「セキュリティ診断をやってみよう」と思っても、最初はどのツールを使えばよいのか、何がどこまで見つかるのか、イメージがつかみにくいものです。 この連載では、 わざと脆弱に作った1つのメモアプリ を題材に、代表的な3種類の診断を順番に試します。同じアプリを少しずつ直していくので、「どのツールが何を見つけ、何を見逃すのか」を体感しながら読めます。 回 診断の種類 使うツール ひとことで言うと 第1回（この記事） SAST Semgrep ソースコードを読んで危険な書き方を探す 第2回 DAST OWASP ZAP 動いているアプリに攻撃を送って穴を探す 第3回 SCA dep-scan 使っているライブラリの既知の脆弱性を調べる SAST （Static Application Security Testing）… プログラムを動かさず、ソースコードを読んで問題を探す方式 DAST （Dynamic Application Security Testing）… 実際に動かしたアプリに、外から攻撃を送って問題を探す方式 SCA （Softwar"
+      },
+      {
         "id": "qiita:0507abbfef452b35a8c7db13",
         "source": "qiita",
         "author_tags": [
@@ -55566,6 +55660,53 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f8e4dec5529f43db7f796aa1",
+        "source": "medium",
+        "author_tags": [
+          "web-development",
+          "technology",
+          "cybersecurity",
+          "javascript",
+          "information-security"
+        ],
+        "url": "https://medium.com/@UdaykiranEstari/the-optimizely-hack-how-one-trusted-script-put-malware-on-178-big-brands-websites-2349af39e076",
+        "title": "The Optimizely Hack: How One Trusted Script Put Malware on 178 Big Brands’ Websites",
+        "author": "Udaykiran Estari",
+        "published_at": "2026-11-18T08:22:06+00:00",
+        "excerpt": "What happened on 16 November 2026, how the bad code got onto sites like the BBC and Zoom without anyone touching those sites, and what to… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2ffe840d6eafed4668b932c6",
+        "source": "medium",
+        "author_tags": [
+          "blue-team",
+          "segalee",
+          "soc",
+          "silver-fox",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@sega_tw/c3exporer-f8b16d7fe8ea",
+        "title": "【威脅情資】銀狐 C3Exporer 攻擊鏈分析",
+        "author": "segalee",
+        "published_at": "2026-11-18T08:04:04+00:00",
+        "excerpt": "免責聲明：本篇文章基於真實的資安事件，旨在分享攻擊手法、防禦實務與威脅狩獵，文中與受影響環境相關的資訊皆已進行大幅度修改與匿名化處理，請讀者勿將本文內容任意拼湊、臆測或強行連結至任何實體單位，亦不得以此作為對任何組織管理責任之指控依據 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3b0d1b2a99fa87f735d3ee57",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybersecurity-australia",
+          "security-monitoring",
+          "sentry-cyber"
+        ],
+        "url": "https://medium.com/@sentrycybercy/top-10-security-monitoring-in-austrlia-054a215a6568",
+        "title": "Top 10 Security Monitoring in Austrlia",
+        "author": "Sentry Cyber",
+        "published_at": "2026-11-18T07:52:00+00:00",
+        "excerpt": "Businesses across Australia are increasingly looking for reliable Cyber Security Help to protect their networks, cloud platforms, employee… Continue reading on Medium »"
+      },
       {
         "id": "medium:6d0bb9859736c4cf5231be94",
         "source": "medium",
