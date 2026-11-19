@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-19T19:07:26.345632+00:00",
-  "as_of": "2026-11-19T19:00:00+00:00",
-  "catalog_count": 25859,
+  "generated_at": "2026-11-19T20:07:35.967929+00:00",
+  "as_of": "2026-11-19T20:00:00+00:00",
+  "catalog_count": 25862,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,93 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T04:52:12.344525+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-34247d07e11d53d210e42d0b",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:34247d07e11d53d210e42d0b",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T04:21:06+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .",
+      "summary_excerpt": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T04:24:05.280780+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-b1d23014709d9b5ce5a85f2c",
+      "primary_category": "ransomware",
+      "public_article_id": "url:b1d23014709d9b5ce5a85f2c",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-20T03:52:53+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Register Security",
+      "summary": "Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked",
+      "summary_excerpt": "Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked",
+      "threat_actors": [],
+      "title": "Nvidia adds possible hack to list of very bad things under investigation"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
+      "cves": [
+        "CVE-2026-123007",
+        "CVE-2026-123633"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T04:23:50.463816+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-2dc071d96de7b84409a66f6e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:2dc071d96de7b84409a66f6e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T03:25:50+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared first on Help Net Security .",
+      "summary_excerpt": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared fir",
+      "threat_actors": [],
+      "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
@@ -212,17 +299,22 @@
       "summary_excerpt": "When an MDR provider contains a compromised endpoint, your team needs to know whether the weakness that enabled the attack exists elsewhere and who is responsible for addressing it. Without that follow-through, the immediate incident may be resolved while another attacker still has a way in. Preemptive managed detection and response (MDR) is Rapid7's approach to connecting exposure context, threat intelligence, AI-assisted investigation, and human expertise. It supports proactive cybersecurity by helping teams prioritize weaknesses before exploitation, investigate threats with a clearer unders",
       "threat_actors": [],
       "title": "What Is Preemptive MDR? A Guide For Security Leaders"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
-      "cves": [],
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
+      "cves": [
+        "CVE-2026-123007",
+        "CVE-2026-123633"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-20T01:22:50.756907+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-e60ac72e5cb03181a5fdf86e",
+      "first_seen_at": "2026-11-20T04:23:50.463816+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-2dc071d96de7b84409a66f6e",
       "primary_category": "vulnerability",
-      "public_article_id": "url:e60ac72e5cb03181a5fdf86e",
+      "public_article_id": "url:2dc071d96de7b84409a66f6e",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -230,75 +322,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-20T00:54:20+09:00",
+      "published_at": "2026-11-20T03:25:50+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek .",
-      "summary_excerpt": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek .",
+      "source_name": "Help Net Security",
+      "summary": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared first on Help Net Security .",
+      "summary_excerpt": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared fir",
       "threat_actors": [],
-      "title": "PHP Patches Seven Critical RCE Vulnerabilities"
+      "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities"
     },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.cybersecuritydive.com/news/technology-outages-cyberattacks-ai-house-hearing/875148/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T01:22:39.473745+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-cadbf6c827be79103f3578b0",
-      "primary_category": "other",
-      "public_article_id": "url:cadbf6c827be79103f3578b0",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-20T00:50:41+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cybersecurity Dive",
-      "summary": "As AI keeps finding serious software vulnerabilities, businesses will struggle to upgrade aging computer systems that weren’t designed for the modern threat landscape.",
-      "summary_excerpt": "As AI keeps finding serious software vulnerabilities, businesses will struggle to upgrade aging computer systems that weren’t designed for the modern threat landscape.",
-      "threat_actors": [],
-      "title": "‘What the hell is going on?’: Technology outages offer preview of US infrastructure’s messy, risky future"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/ups-software-abused-domain/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T01:22:44.658607+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-c9c549b275067ad9a83991fd",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:c9c549b275067ad9a83991fd",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-20T00:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "Symantec found an attacker using CyberPower’s UPS software to run scripts on a domain controller",
-      "summary_excerpt": "Symantec found an attacker using CyberPower’s UPS software to run scripts on a domain controller",
-      "threat_actors": [],
-      "title": "CyberPower PowerPanel Exploited to Run Malicious Code on Domain Controller"
-    }
-  ],
-  "hottest": [
     {
       "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
@@ -375,7 +409,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-19T22:22:39.277961+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-26772c0b86113178498cf80e",
       "primary_category": "vulnerability",
       "public_article_id": "url:26772c0b86113178498cf80e",
@@ -586,36 +620,6 @@
       "summary_excerpt": "Ruijie Networks Co., Ltd.が提供する複数の製品には、次の脆弱性が存在します。 OSコマンドインジェクション（CWE-78）- CVE-2026-113347 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社FFRIセキュリティ 黒田 浩平 氏",
       "threat_actors": [],
       "title": "複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261119-5357844/",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T08:24:00.384356+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-8424969048ea98cdc099fff2",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:8424969048ea98cdc099fff2",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T08:07:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "Oracleは11月17日（現地時間）、Java SE向けのセキュリティ更新を公開し、11件の脆弱性を修正した。これらには、認証なしでリモートから任意のコードを実行される可能性がある「Java4Shell」（CVE-2026-114938）が含まれる。特定のCPUとJava実行環境を組み合わせた場合に影響を受けるほか、Javaを利用する業務アプリケーションにも影響が及ぶ可能性がある。",
-      "summary_excerpt": "Oracleは11月17日（現地時間）、Java SE向けのセキュリティ更新を公開し、11件の脆弱性を修正した。これらには、認証なしでリモートから任意のコードを実行される可能性がある「Java4Shell」（CVE-2026-114938）が含まれる。特定のCPUとJava実行環境を組み合わせた場合に影響を受けるほか、Javaを利用する業務アプリケーションにも影響が及ぶ可能性がある。",
-      "threat_actors": [],
-      "title": "Oracle Javaに11件の脆弱性、「Java4Shell」は認証不要でコード実行の恐れ"
     }
   ],
   "rising": [],
@@ -694,6 +698,36 @@
       "summary_excerpt": "Overview On November 17, 2026, Oracle released patches for CVE-2026-114938 , a heap-based buffer overflow ( CWE-122 ) in the hardware-accelerated Base64 decoder used by OpenJDK and its downstream distributions, such as Oracle Java SE, and Oracle GraalVM. The vulnerability, dubbed “ Java4Shell ” by finders Calif, can allow an unauthenticated remote attacker to crash a Java application or execute code with the privileges of its Java process. Oracle rates the vulnerability High, with a CVSS v3.1 score of 8.1 and high attack complexity, in its November security advisory . Affected OpenJDK runtimes",
       "threat_actors": [],
       "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T04:37:35.004846+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-e5492f9867506c1763a92226",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e5492f9867506c1763a92226",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T00:17:36+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "summary_excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "threat_actors": [],
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges"
     },
     {
       "ai_relevance": "primary",
@@ -870,28 +904,6 @@
       "summary_excerpt": "Microsoft Office Wordのヒープベースのバッファオーバーフローにより、権限のない攻撃者がローカルでコードを実行できる可能性があります。",
       "threat_actors": [],
       "title": "マイクロソフトのMicrosoft 365 Apps等の複数製品におけるヒープベースのバッファオーバーフローの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043558.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T17:38:38.793657+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-01e0fffed46ecf1340e4803f",
-      "primary_category": "other",
-      "public_article_id": "url:01e0fffed46ecf1340e4803f",
-      "public_tags": [],
-      "published_at": "2026-11-17T13:15:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Dell OpenManage Enterpriseのバージョン4.8.0未満には、不適切な権限管理の脆弱性が存在します。ローカルアクセス権を持つ権限の低い攻撃者がこの脆弱性を悪用する可能性があり、権限が昇格される恐れがあります。",
-      "summary_excerpt": "Dell OpenManage Enterpriseのバージョン4.8.0未満には、不適切な権限管理の脆弱性が存在します。ローカルアクセス権を持つ権限の低い攻撃者がこの脆弱性を悪用する可能性があり、権限が昇格される恐れがあります。",
-      "threat_actors": [],
-      "title": "デルのDell OpenManage Enterpriseにおける権限管理に関する脆弱性"
     }
   ],
   "timeseries_status": {
@@ -912,32 +924,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Transport for London breach exposes 265,000 Oyster card users' data",
-    "【HOTTEST #1 / Heat 75】PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "【LATEST #2】CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
-    "【HOTTEST #2 / Heat 75】ARMORY CASTLE Exploits vSphere",
-    "【LATEST #3】phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-    "【HOTTEST #3 / Heat 75】Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
-    "【LATEST #4】Multiple Vulnerabilities in NGINX Could Allow for Remote Code Execution",
-    "【HOTTEST #4 / Heat 67.5】PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-    "【LATEST #5】PHP security updates fix 18 flaws, including critical RCE bugs",
-    "【HOTTEST #5 / Heat 67.5】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性"
+    "【LATEST #1】Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+    "【HOTTEST #1 / Heat 75】NGINX2Root: F5 patches five critical NGINX vulnerabilities",
+    "【LATEST #2】Nvidia adds possible hack to list of very bad things under investigation",
+    "【HOTTEST #2 / Heat 75】PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+    "【LATEST #3】NGINX2Root: F5 patches five critical NGINX vulnerabilities",
+    "【HOTTEST #3 / Heat 75】ARMORY CASTLE Exploits vSphere",
+    "【LATEST #4】Transport for London breach exposes 265,000 Oyster card users' data",
+    "【HOTTEST #4 / Heat 67.5】Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
+    "【LATEST #5】CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
+    "【HOTTEST #5 / Heat 67.5】PHP Readies Critical Security Updates to Patch Another RCE Flaw"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-16T19:00:00+00:00",
-    "last_as_of": "2026-11-19T19:00:00+00:00",
+    "first_as_of": "2026-11-16T20:00:00+00:00",
+    "last_as_of": "2026-11-19T20:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-19T19:00:00+00:00",
-  "heat_as_of": "2026-11-19T19:00:00+00:00",
+  "news_as_of": "2026-11-19T20:00:00+00:00",
+  "heat_as_of": "2026-11-19T20:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25859,
-  "last_published_at": "2026-11-20T04:07:38.462060+09:00",
-  "publication_slot_jst": "2026-11-20T04:00:00+09:00"
+  "news_catalog_count": 25862,
+  "last_published_at": "2026-11-20T05:07:48.143300+09:00",
+  "publication_slot_jst": "2026-11-20T05:00:00+09:00"
 }
