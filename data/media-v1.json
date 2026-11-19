@@ -1,9 +1,22 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T19:40:02.726662+00:00",
+  "source_snapshot_generated_at": "2026-11-19T20:40:02.617937+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:8f7f545580630221c19b8415",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "画像"
+        ],
+        "url": "https://zenn.dev/editbright/articles/3509e266e8671d",
+        "title": "EditBright：登録不要で使える、ブラウザ上の無料AI画像エディタ",
+        "author": "EditBright",
+        "published_at": "2026-11-19T20:26:19.972000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:51d6fd9d6734380a40f89504",
         "source": "zenn",
@@ -43205,6 +43218,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3751cce343987e4ec84e221e",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "httpx",
+          "Security",
+          "logging",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/supportapp3/items/8eb7646421915b4b6d81",
+        "title": "API キーは Python の HTTP ログに出るのか、3つのライブラリで比べた：httpx は INFO で URL ごと出し、requests は DEBUG だけ、OpenAI SDK は DEBUG でも出なかった（httpx 0.28で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-20T05:20:07+09:00",
+        "excerpt": "結論 logging.basicConfig(level=logging.INFO) を入れただけのスクリプトで、API キーをダミーにして3つのライブラリを比べました。 ライブラリ キーをURLのクエリに入れた キーを Authorization ヘッダに入れた httpx 0.28.1 INFO で URL ごと出た DEBUG でも出なかった requests 2.34.2（urllib3 2.8.0） INFO では出ず、 DEBUG で出た （今回は試していません） OpenAI Python SDK 3.55.1 ― DEBUG でも出なかった いちばん困るのは httpx です。DEBUG にしなくても、INFO の1行に ?api_key=... がそのまま載りました。 params={\"api_key\": KEY} で渡しても同じです。 環境 Python 3.13.5（Linux） httpx 0.28.1 / httpcore 1.0.9 requests 2.34.2 / urllib3 2.8.0 openai 3.55"
+      },
+      {
         "id": "qiita:b409fef678fb33c0cd45a092",
         "source": "qiita",
         "author_tags": [
@@ -59023,6 +59052,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:480bfd2edf020a414b9e467b",
+        "source": "medium",
+        "author_tags": [
+          "iam-roles",
+          "cloud-security",
+          "microsoft-azure",
+          "cybersecurity",
+          "powershell"
+        ],
+        "url": "https://cyber39glt.medium.com/identity-governance-on-a-0-budget-what-i-built-and-couldnt-build-in-microsoft-entra-id-s-free-40b6efd99c83",
+        "title": "Identity Governance on a $0 Budget: What I Built (and Couldn’t Build) in Microsoft Entra ID’s Free…",
+        "author": "R | Cɢʟᴛ",
+        "published_at": "2026-11-19T20:30:36+00:00",
+        "excerpt": "A hands-on joiner, mover and leaver lab for a fictional 250-person company, with evidence, honest limits, and the scripts to repeat it Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7f13a243bdfcee92934f4d3e",
+        "source": "medium",
+        "author_tags": [
+          "disinformation",
+          "artificial-intelligence",
+          "fake-news",
+          "threat-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@info.osintmonitor/building-antares-simulating-disinformation-campaigns-on-a-cpu-only-vps-3fe611e4f4b8",
+        "title": "Building ANTARES: Simulating Disinformation Campaigns on a CPU-Only VPS",
+        "author": "osint-monitor",
+        "published_at": "2026-11-19T20:06:25+00:00",
+        "excerpt": "Most disinformation doesn’t look like obvious “fake news” anymore. It looks like a slow, coordinated shift in how people frame an event… Continue reading on Medium »"
+      },
       {
         "id": "medium:1e70bb4aa6bd94da2ec98b4b",
         "source": "medium",
