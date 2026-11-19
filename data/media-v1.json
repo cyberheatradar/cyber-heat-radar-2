@@ -1,9 +1,51 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T00:40:03.153579+00:00",
+  "source_snapshot_generated_at": "2026-11-19T01:40:03.879709+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:51edb48135d6695cb53ed1bd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Kaggle"
+        ],
+        "url": "https://zenn.dev/saishunkansys/articles/4167109ebdf3d3",
+        "title": "Kaggle初参加、22万試合の検証で銅メダル取るまで",
+        "author": "サービス開発室",
+        "published_at": "2026-11-19T01:32:34.842000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:544df7ebe36be4a7eb6ba19a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Kaggle"
+        ],
+        "url": "https://zenn.dev/saishunkansys/articles/01eacffa963cf9",
+        "title": "これからKaggleを始める人のためのコンペ入門",
+        "author": "サービス開発室",
+        "published_at": "2026-11-19T01:31:44.543000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f0569a8b08f302a3423f5003",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "PostgreSQL",
+          "Prisma",
+          "DB"
+        ],
+        "url": "https://zenn.dev/yenpodev/articles/2d170be30e92f0",
+        "title": "AIエージェントが書いたマイグレーションと設定変更を、適用する前に読む",
+        "author": "Yenpo dev",
+        "published_at": "2026-11-19T01:04:26.453000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:a55286ea3c15795484ce5215",
         "source": "zenn",
@@ -41727,6 +41769,68 @@
     ],
     "qiita": [
       {
+        "id": "qiita:0e5dc22080ac896390ce70c8",
+        "source": "qiita",
+        "author_tags": [
+          "情報管理",
+          "Security",
+          "個人情報"
+        ],
+        "url": "https://qiita.com/whocallmeuknotes/items/e0acb3094ffc5b8f9537",
+        "title": "誰からの電話？ 入居照会を名乗る依頼を、正規の紹介手続きで切り分ける",
+        "author": "whocallmeuknotes",
+        "published_at": "2026-11-19T10:39:57+09:00",
+        "excerpt": "「誰からの電話？」と聞かれたとき、相手が入居照会だと名乗り、同僚の名前を出すと、その場で手伝いたくなることがあります。しかし、正規のテナンシー・リファレンス（入居照会）は、担当と提出物と送付先があらかじめ決まっている手続きです。突然の電話で足りない情報を埋めることは、その手続きの代わりにはなりません。 運営側からの案内： 本記事はウェブサイト whocallme.co.uk による宣伝を含む編集記事で、AIの補助を受けて起草しています。以下は職場で手作業できる切り分け手順であり、システムの実装や、著者がその電話を受けた記録ではありません。 題材は、突然かかってきた入居照会 当サイトの01489 442002の番号ページは、固定電話として表示され、割り当てヒントは Vodafone Ltd (C&W)、番号エリアは United Kingdom とされています。これらは、発信者の所属や所在を確定する材料ではありません。検索回数は17、投稿は1件です。「First seen: 10 days ago」はページ上のラベルであり、投稿が書かれた時刻ではな"
+      },
+      {
+        "id": "qiita:62205fea9b275c43a31fdf17",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "脆弱性診断",
+          "SCA",
+          "Python",
+          "Flask"
+        ],
+        "url": "https://qiita.com/tasekino/items/3d3f80b5a84d8fc91ea9",
+        "title": "脆弱性診断を1つのアプリで体験する（3）SCA編：dep-scan で古いライブラリの穴を見つける",
+        "author": "tasekino",
+        "published_at": "2026-11-19T10:38:33+09:00",
+        "excerpt": "はじめに この連載では、 わざと脆弱に作った1つのメモアプリ を題材に、代表的な3種類の診断を順番に試しています。同じアプリを回ごとに直していくので、「どのツールが何を見つけ、何を見逃すのか」を体感しながら読めます。 回 診断の種類 使うツール ひとことで言うと 第1回 SAST Semgrep ソースコードを読んで危険な書き方を探す 第2回 DAST OWASP ZAP 動いているアプリにリクエストを送って穴を探す 第3回（この記事） SCA dep-scan 使っているライブラリの既知の脆弱性を調べる 第1回： 脆弱性診断を1つのアプリで体験する（1）SAST編：Semgrep でコードの穴を見つける 第2回： 脆弱性診断を1つのアプリで体験する（2）DAST編：OWASP ZAP で外から穴を見つける 第1回ではソースコードの書き方の問題を、第2回では動かして初めて分かる設定の問題を直しました。今回（第3回・最終回）は、 SCA （Software Composition Analysis：ソフトウェア構成分析）を試します。最後に、3つの診"
+      },
+      {
+        "id": "qiita:c19ed510acd1048546a83757",
+        "source": "qiita",
+        "author_tags": [
+          "Snyk",
+          "AIエージェント",
+          "Security",
+          "ClaudeCode",
+          "MCP"
+        ],
+        "url": "https://qiita.com/SokoP/items/00301244e00680417bfd",
+        "title": "AIコーディングエージェント時代のセキュリティ: Snyk Studio と AI-SPM でできること",
+        "author": "SokoP",
+        "published_at": "2026-11-19T10:05:52+09:00",
+        "excerpt": "はじめに AIコーディングエージェントにコードを書かせるのは、もう珍しいことではありません。Claude Code や Cursor に頼めば、機能ひとつ分のコードも依存パッケージの追加も数分で終わります。 速くなった分、見落とし方も変わりました。新しいリスクは大きく2つです。 書かれたもの: エージェントが書いたコードや追加したパッケージに脆弱性が入る。しかも人がレビューするより速く量が積み上がる。 使われているもの: LLM やエージェント、MCP サーバーそのものがアプリケーションの部品になり、どこで何が使われているか誰も把握していない。 前者を開発のその場で止めるのが Snyk Studio 、後者を見える化して統制するのが AI-SPM です。どちらもこれまで個別の記事で書いてきたので、ここでは要点と最近変わったところに絞り、最後に見つけた脆弱性を直す Remediation Agent に触れます。 Snyk Studio: エージェントが書いた瞬間に確かめる Snyk Studio は、Snyk のスキャンと修正を AIコーディング"
+      },
+      {
+        "id": "qiita:b133d684bb26cc266af1bcf0",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "GitHubActions",
+          "Security",
+          "ClaudeCode",
+          "supplychain"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/7784b3dd9ec235ab8f18",
+        "title": "0。Cursorが『Fireworks AIの認証情報漏洩が悪意あるClaude Code拡張配布の原因』と公表した日、自分のGitHub ActionsをコミットSHAで固定していた数はこの数字だった",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-11-19T09:46:41+09:00",
+        "excerpt": "はじめに 0。 これが今回の数字です。Cursorが2026年11月14日(金)に公開した事後報告で、AI基盤企業Fireworks AIから盗まれた認証情報を使い、攻撃者がCursorのマーケットプレイス配信キャッシュに「Claude Code」という名前の拡張機能の不正なバージョンを混入させていたことを認めました。10月29日に約11時間配信され、最大5,000人の開発者がSSHバックドアを仕込まれる恐れがあったとされています。ここで混入したバージョンはAnthropic自身が開発したものではなく、Cursorのマーケットプレイスに third-party として出ていたものだとCursorは説明しています。 「信頼していたはずの配布経路が、裏側で盗まれた認証情報一つで書き換えられていた」という話を読んで、自分がこの記事投稿パイプラインのGitHub Actionsワークフローで使っている外部のAction定義を、他人事にする前に数え直しました。 TL;DR Cursorは2026年11月14日、10月29日のマーケットプレイス事件の根本原因"
+      },
+      {
         "id": "qiita:09d48175ab164cd364af9221",
         "source": "qiita",
         "author_tags": [
@@ -56895,6 +56999,38 @@
     ],
     "medium": [
       {
+        "id": "medium:1e4c8cc2ae331efe1959d1e4",
+        "source": "medium",
+        "author_tags": [
+          "openssl",
+          "linux",
+          "security-engineering",
+          "cybersecurity",
+          "pki"
+        ],
+        "url": "https://medium.com/@eugene.martiny/when-tls-deployment-failed-lessons-from-building-pki-in-sentinel-lan-part-i-workaround-in-part-2f43b1b73d7c",
+        "title": "When TLS Deployment Failed: Lessons from Building PKI in Sentinel-LAN: Part I -(Workaround in part…",
+        "author": "Eugene Martiny",
+        "published_at": "2026-11-19T01:28:57+00:00",
+        "excerpt": "Week 5: Building PKI in Sentinel-LAN and Learning an Engineering Lesson About Dependencies Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e12ec7e899744d588332fead",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "cybersecurity",
+          "authentication",
+          "password-security",
+          "account-security"
+        ],
+        "url": "https://medium.com/@lelianto.eko/when-password-reset-becomes-the-attackers-login-13158b12fb72",
+        "title": "Password reset is only the start of account recovery",
+        "author": "Lelianto Eko Pradana",
+        "published_at": "2026-11-19T01:00:56+00:00",
+        "excerpt": "The recovery flow is a second authentication system, so give it the same care. Continue reading on Medium »"
+      },
+      {
         "id": "medium:6860d83bf8855928b514aeba",
         "source": "medium",
         "author_tags": [
@@ -56907,6 +57043,22 @@
         "author": "Ayamgroup",
         "published_at": "2026-11-19T00:37:49+00:00",
         "excerpt": "The demand for cybersecurity companies in Qatar is growing rapidly, driven by a national push toward digital transformation, a rising wave… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:99c11ecfe4e613fa6d380cff",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "risk-management",
+          "cybersecurity",
+          "ot-security",
+          "critical-infrastructure"
+        ],
+        "url": "https://medium.com/@aderonke-thompson/what-stuxnet-still-teaches-us-about-industrial-cybersecurity-risk-e8f139cbece1",
+        "title": "What Stuxnet Still Teaches Us About Industrial Cybersecurity Risk",
+        "author": "Aderonke Thompson, PhD",
+        "published_at": "2026-11-19T00:29:27+00:00",
+        "excerpt": "From industrial sabotage to cyber deception, threat intelligence and operational resilience. Continue reading on Medium »"
       },
       {
         "id": "medium:2e7be9b588310aca825a3a14",
