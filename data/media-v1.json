@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T08:40:03.106688+00:00",
+  "source_snapshot_generated_at": "2026-11-19T09:40:03.186281+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:61c2e315ac01eeaca4ae545a",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub Actions",
+          "Security",
+          "Cloud",
+          "CI/CD",
+          "llm"
+        ],
+        "url": "https://zenn.dev/infra_ojisan/articles/api-key-lifecycle-and-llmjacking",
+        "title": "APIキーはいつ失効させる？ LLMjacking時代のシークレット管理",
+        "author": "引退間際の非エンジニアがAIと遊ぶ",
+        "published_at": "2026-11-19T09:03:37.772000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:29492e9a8af22f8e2fc0ffff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "NLP",
+          "llm",
+          "anonymization"
+        ],
+        "url": "https://zenn.dev/colorfulwave/articles/44b7715ec225a9",
+        "title": "LLMの「事前学習カンニング」を防ぐ：多層ブラインドフォールドと相対年号トークン化（第2回）",
+        "author": "あやと",
+        "published_at": "2026-11-19T08:51:21.807000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:05bf27e66747b555bc419a7b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "architecture",
+          "ADR",
+          "llm"
+        ],
+        "url": "https://zenn.dev/colorfulwave/articles/ac8430465e2115",
+        "title": "LLMに投資判断をさせない設計：3層Gateと「減法の工学」によるAI評価エンジン（第1回）",
+        "author": "あやと",
+        "published_at": "2026-11-19T08:51:06.887000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:9daf190ffe7e6f65cfd18a21",
         "source": "zenn",
@@ -42411,6 +42459,70 @@
     ],
     "qiita": [
       {
+        "id": "qiita:df0e1a8f9f092c8c8c99e2ff",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "LLM",
+          "AIエージェント",
+          "サプライチェーン"
+        ],
+        "url": "https://qiita.com/vidraft/items/96dbf9865c38455c78f7",
+        "title": "ダウンロードしたAIモデルにバックドアが仕込まれていたら:隠れた単語1つで秘密鍵が流出、ViKernelが実行直前に止める",
+        "author": "vidraft",
+        "published_at": "2026-11-19T18:36:47+09:00",
+        "excerpt": "要約 よく使われている公開モデルをダウンロードしたとします。名前もアーキテクチャも元のモデルと同じで、普通の依頼には元のモデルと同じように動きます。ところがプロンプトに隠れた単語が1つ入ると、このコピーは秘密鍵を外部のサーバーへ送ります。プロンプトインジェクションもエクスプロイトもありません。バックドアは重みの中にあります。 VIDRAFT はこの場面をライブデモにしました。同じ依頼を、クリーンなモデル、バックドア入りのコピー、 ViKernel を通したバックドア入りのコピー に送ります。ViKernel を通すと、その呼び出しは 1バイトも出る前に遮断 され、監査記録が残ります。 ライブデモと動画: https://huggingface.co/spaces/FINAL-Bench/ViKernel-Backdoor-Live 動画 (MP4, 英語): https://huggingface.co/datasets/VIDraft/press-assets/resolve/main/press/2026-11-19/backdoor/dem"
+      },
+      {
+        "id": "qiita:3d15f5fbd2cdb8141ced1f8a",
+        "source": "qiita",
+        "author_tags": [
+          "GitHub",
+          "dependabot",
+          "GitHubActions",
+          "Security",
+          "自動化"
+        ],
+        "url": "https://qiita.com/sekkenn1102/items/942776bb9af30c0c4ab5",
+        "title": "脆弱性対応を手作業で抱えない。Dependabotで始める更新の自動化",
+        "author": "sekkenn1102",
+        "published_at": "2026-11-19T18:35:25+09:00",
+        "excerpt": "はじめに 脆弱性対応をすべて手動でやるのは、正直めんどくさい。 使っているライブラリに脆弱性が見つかっていないか確認して、修正版を調べて、依存関係を更新して、テストして、マージする。必要な作業だとは分かっていても、そのたびに全部を手作業で進めるのは負担です。 そこで、「自動化できるところは自動化してしまおう」と考えました。 今回紹介するのは、GitHubの Dependabot です。依存関係の更新PRを自動で作成するところから始め、必要に応じて「パッチ・マイナー更新は条件を満たしたら自動マージ、メジャー更新は人が確認」という運用につなげます。 後半では発展編として、更新によってCIが失敗した場合に、CopilotなどのAIエージェントへ原因調査と修正を任せる流れも紹介します。 Dependabotとは Dependabotは、プロジェクトが利用している依存関係の管理を支援するGitHubの機能です。主に次の3つがあります。 機能 役割 Dependabot alerts 使用している依存関係に、既知の脆弱性が見つかったことを知らせる Depen"
+      },
+      {
+        "id": "qiita:e0623ea4235097c8159cc920",
+        "source": "qiita",
+        "author_tags": [
+          "nginx",
+          "Security",
+          "cve",
+          "http2",
+          "AI"
+        ],
+        "url": "https://qiita.com/sponge841841/items/edff22aeff391a12a63c",
+        "title": "NGINXのHTTP/2脆弱性を解説：CVE-2026-123007・123633の仕組みと対策",
+        "author": "sponge841841",
+        "published_at": "2026-11-19T18:13:02+09:00",
+        "excerpt": "個人開発しているもの 日々の開発で得た知識を発信しながら、「あったら便利」「作ってみたい」と思ったアイデアを形にしています。 これまでに、グループ旅行アプリ Trip Supporter 、スコア管理サービス PointPia 、リアルタイム共有サービス JustNow などを開発しました。 さらに、刺繍やオリジナルキャラクターを中心としたアパレルブランド MAD TOMMY WITH... も運営しています。 開発したサービスや技術記事は chicchi.work で紹介しています。 先に結論： 2026年11月18日（米国時間）に、NGINXのHTTP/2処理に関係する2件の脆弱性と修正版が公表されました。日本時間11月19日に注目が広がっています。 影響： 該当バージョンでHTTP/2を処理するサーバーでは、条件次第で認証不要の遠隔コード実行（RCE）が成立する可能性があります。 まずやること： 実行中のNGINXの製品・バージョン・HTTP/2の終端位置を確認し、配布元の修正済みパッケージへ更新してください。 「アプリの認証が安全でも、入"
+      },
+      {
+        "id": "qiita:3c85a635dbd29167c1cd83c9",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "AgentCore",
+          "AIエージェント",
+          "Security",
+          "Rogue"
+        ],
+        "url": "https://qiita.com/austinnnn/items/70fa9fb57eac123031f7",
+        "title": "Rogue Agentとは？米アリゾナ州の捜査報道から考える、AIに権限を渡すリスク",
+        "author": "austinnnn",
+        "published_at": "2026-11-19T17:44:41+09:00",
+        "excerpt": "はじめに AIにAWSの障害調査を任せるとします。 CloudWatchのログやメトリクスから原因候補をまとめるところまでは、調査の手間を減らせそうです。 では、同じAIエージェントに本番環境の設定を変更する権限まで渡したらどうでしょうか。 原因の見立てが外れたとき、その判断がそのまま本番変更につながる可能性があります。 2026年11月19日のReuters報道に出てきた rogue agents という言葉をきっかけに、AIエージェントの行動がどこで問題になり得るのか、そしてAWSでどこに制御を置くべきかを整理します。 アリゾナ州で何が報じられたのか image:The Japan Times Reutersによると、米アリゾナ州のクリス・メイズ司法長官は、 rogue AI agentsが銀行へ侵入した可能性 に関連して、OpenAIなどを対象とする刑事捜査を開始したと述べました。[1] 同州は州法違反の有無を調べていますが、司法長官は対象となる他の企業名や銀行名を明らかにしていません。 2026年11月19日時点のReuters報道では、"
+      },
+      {
         "id": "qiita:d97a1f921ba58b5be3ccd7d8",
         "source": "qiita",
         "author_tags": [
@@ -57856,6 +57968,36 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:7a9c7fd0f9dec00985b354ae",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "penetration-testing",
+          "ai-agent",
+          "offensive-security",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@alidak/what-ai-agents-already-take-off-a-penetration-test-and-what-they-leave-b62bc74724d6",
+        "title": "What AI Agents Already Take Off a Penetration Test, and What They Leave",
+        "author": "Ali Dak",
+        "published_at": "2026-11-19T09:27:15+00:00",
+        "excerpt": "I am a penetration tester (OSCP) and the founder of DAKCYBER, a pentest firm in Istanbul. I have written 53 machines for OffSec Proving… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e45f221ba42f7bf7ed9e3698",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-awareness",
+          "cybersecurity",
+          "email"
+        ],
+        "url": "https://medium.com/@ananya.reddy_35804/the-email-looked-safe-the-security-exception-made-it-dangerous-06567073a2fd",
+        "title": "The Email Looked Safe. The Security Exception Made It Dangerous.",
+        "author": "Ananya Reddy",
+        "published_at": "2026-11-19T09:22:38+00:00",
+        "excerpt": "How trusted sender domains and email security overrides can expose businesses to phishing Continue reading on Medium »"
+      },
       {
         "id": "medium:547ffccd613532226322d16b",
         "source": "medium",
