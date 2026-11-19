@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-19T21:07:42.677686+00:00",
-  "as_of": "2026-11-19T21:00:00+00:00",
-  "catalog_count": 25868,
+  "generated_at": "2026-11-19T22:07:35.022847+00:00",
+  "as_of": "2026-11-19T22:00:00+00:00",
+  "catalog_count": 25872,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,120 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T06:53:23.017202+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-0bd143457a8b550bc83c871d",
+      "primary_category": "ai_security",
+      "public_article_id": "url:0bd143457a8b550bc83c871d",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-20T06:19:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
+      "summary_excerpt": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
+      "threat_actors": [],
+      "title": "Lawmakers launch new AI safety caucus amid rising security concerns"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T06:22:20.054160+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-8ea9e80818a4bc392e09ee05",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:8ea9e80818a4bc392e09ee05",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T06:15:59+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+      "summary_excerpt": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+      "threat_actors": [],
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter/",
+      "cves": [
+        "CVE-2026-123890",
+        "CVE-2026-59309"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T06:53:21.028597+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-89d20775330718208801fa75",
+      "primary_category": "threat_report",
+      "public_article_id": "url:89d20775330718208801fa75",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T06:06:24+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user. Mandiant privately reported the issue to Broadcom. Also, Mandiant/Google Threat Intelligence confirmed in-the-wild exploitation of CVE-2026-123890 by Chinese state-linked threat actor ARMORY CASTLE as early as September 2026. CVE-2026-123890 is distinct from the vCenter authentication bypass vulnerability CVE-2026-59309 that Broadcom addressed earlier in 2026. The vendor FAQ states that all vCenter systems below the versions fixed by VMSA-2026-0009 require the new update, including systems that already received the earlier fix. Broadcom characterizes the vCenter update as an emergency change requiring prompt action. Mitigation guidance Vendor-provided updates are available for CVE-2026-123890. Broadcom lists no workaround, and the patches cannot be applied using vCenter Quick Patch. Organizations should prioritize upgrading vCenter on an emergency basis, outside of normal patch cycles, using the standard update mechanism for their deployment. VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation / vSphere Foundation 9.1.x.x 9.1.1.0200 VMware Cloud Foundation / vSphere Foundation 9.0.x.x 9.0.2.0200 VMware vCenter Server 8.0 8.0 U3m VMware vCenter Server 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 8.0 U3m — KB463116 VMware Telco Cloud Infrastructure 3.0 8.0 U3m — KB463116 The fixes are cumulative. The vCenter 8.0 U3m and 9.0.2.0200 updates introduce a “Back-in-Time” restriction that blocks upgrades to VMware Cloud Foundation 9.1.1 ; Broadcom advises customers in an active upgrade to review the vendor FAQ and interoperability matrix. Updating vCenter temporarily makes its management interfaces unavailable, but Broadcom states that running virtual machine and container workloads continue to operate. For the latest affected-version and mitigation guidance, please refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-123890 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the Nov 20, 2026 content release. Updates November 19, 2026 : Initial publication.",
+      "summary_excerpt": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user.",
+      "threat_actors": [],
+      "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://japan.zdnet.com/article/35253797/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T06:53:25.235604+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-0e29129e50602eb71f0a07f9",
+      "primary_category": "other",
+      "public_article_id": "url:0e29129e50602eb71f0a07f9",
+      "public_tags": [],
+      "published_at": "2026-11-20T06:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ZDNET Japan All",
+      "summary": "AI技術の爆発的進化は、サイバー攻撃の様相を根底から変えてしまった。この連載では、AIサイバーセキュリティ戦略の在り方を解説する。",
+      "summary_excerpt": "AI技術の爆発的進化は、サイバー攻撃の様相を根底から変えてしまった。この連載では、AIサイバーセキュリティ戦略の在り方を解説する。",
+      "threat_actors": [],
+      "title": "第3回 可視化と信頼インフラの構築、そして持続可能な業界協調へ"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/03775/092800017/",
@@ -159,129 +273,45 @@
       "summary_excerpt": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T04:24:05.280780+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-b1d23014709d9b5ce5a85f2c",
-      "primary_category": "ransomware",
-      "public_article_id": "url:b1d23014709d9b5ce5a85f2c",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-20T03:52:53+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked",
-      "summary_excerpt": "Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked",
-      "threat_actors": [],
-      "title": "Nvidia adds possible hack to list of very bad things under investigation"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T05:22:41.974905+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-cc7a5715391457a2474f1dad",
-      "primary_category": "ai_security",
-      "public_article_id": "url:cc7a5715391457a2474f1dad",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-20T03:47:58+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
-      "summary_excerpt": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
-      "threat_actors": [],
-      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
-      "cves": [
-        "CVE-2026-123007",
-        "CVE-2026-123633"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T04:23:50.463816+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-2dc071d96de7b84409a66f6e",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:2dc071d96de7b84409a66f6e",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T03:25:50+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared first on Help Net Security .",
-      "summary_excerpt": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared fir",
-      "threat_actors": [],
-      "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T03:22:22.402897+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-37781c126ada26176a3e8795",
-      "primary_category": "incident",
-      "public_article_id": "url:37781c126ada26176a3e8795",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-20T03:20:01+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
-      "summary_excerpt": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
-      "threat_actors": [],
-      "title": "Transport for London breach exposes 265,000 Oyster card users' data"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter/",
+      "cves": [
+        "CVE-2026-123890",
+        "CVE-2026-59309"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T06:53:21.028597+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-89d20775330718208801fa75",
+      "primary_category": "threat_report",
+      "public_article_id": "url:89d20775330718208801fa75",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T06:06:24+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user. Mandiant privately reported the issue to Broadcom. Also, Mandiant/Google Threat Intelligence confirmed in-the-wild exploitation of CVE-2026-123890 by Chinese state-linked threat actor ARMORY CASTLE as early as September 2026. CVE-2026-123890 is distinct from the vCenter authentication bypass vulnerability CVE-2026-59309 that Broadcom addressed earlier in 2026. The vendor FAQ states that all vCenter systems below the versions fixed by VMSA-2026-0009 require the new update, including systems that already received the earlier fix. Broadcom characterizes the vCenter update as an emergency change requiring prompt action. Mitigation guidance Vendor-provided updates are available for CVE-2026-123890. Broadcom lists no workaround, and the patches cannot be applied using vCenter Quick Patch. Organizations should prioritize upgrading vCenter on an emergency basis, outside of normal patch cycles, using the standard update mechanism for their deployment. VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation / vSphere Foundation 9.1.x.x 9.1.1.0200 VMware Cloud Foundation / vSphere Foundation 9.0.x.x 9.0.2.0200 VMware vCenter Server 8.0 8.0 U3m VMware vCenter Server 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 8.0 U3m — KB463116 VMware Telco Cloud Infrastructure 3.0 8.0 U3m — KB463116 The fixes are cumulative. The vCenter 8.0 U3m and 9.0.2.0200 updates introduce a “Back-in-Time” restriction that blocks upgrades to VMware Cloud Foundation 9.1.1 ; Broadcom advises customers in an active upgrade to review the vendor FAQ and interoperability matrix. Updating vCenter temporarily makes its management interfaces unavailable, but Broadcom states that running virtual machine and container workloads continue to operate. For the latest affected-version and mitigation guidance, please refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-123890 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the Nov 20, 2026 content release. Updates November 19, 2026 : Initial publication.",
+      "summary_excerpt": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user.",
+      "threat_actors": [],
+      "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
@@ -570,36 +600,6 @@
       "summary_excerpt": "ウィンバード株式会社が提供するブラウザ拡張機能「Win Bird 授業支援」には、次の脆弱性が存在します。 クロスサイトスクリプティング（CWE-79）- CVE-2026-129517 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：金行 颯 氏",
       "threat_actors": [],
       "title": "ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000177.html",
-      "cves": [
-        "CVE-2026-113347"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T20:24:36.408074+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-1357300d0fd742266e982007",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:1357300d0fd742266e982007",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T12:11:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Ruijie Networks Co., Ltd.が提供する複数の製品には、次の脆弱性が存在します。 OSコマンドインジェクション（CWE-78）- CVE-2026-113347 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社FFRIセキュリティ 黒田 浩平 氏",
-      "summary_excerpt": "Ruijie Networks Co., Ltd.が提供する複数の製品には、次の脆弱性が存在します。 OSコマンドインジェクション（CWE-78）- CVE-2026-113347 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社FFRIセキュリティ 黒田 浩平 氏",
-      "threat_actors": [],
-      "title": "複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性"
     }
   ],
   "rising": [],
@@ -912,32 +912,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】古いWi-Fiルーターは危険、ファームウエアの更新終了で脆弱性が放置される",
-    "【HOTTEST #1 / Heat 75】NGINX2Root: F5 patches five critical NGINX vulnerabilities",
-    "【LATEST #2】オープンウエートモデルはサイバー攻撃を助長するか、ローカルLLMで検証",
-    "【HOTTEST #2 / Heat 67.5】PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "【LATEST #3】「OpenJDK」の重大な脆弱性をAIが1時間で発見　“防御の遅れ”をどう防ぐ？",
-    "【HOTTEST #3 / Heat 67.5】ARMORY CASTLE Exploits vSphere",
-    "【LATEST #4】専任者ゼロでパスキー移行　みんなの銀行が認証の「自前主義」を捨てた理由",
-    "【HOTTEST #4 / Heat 67.5】Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
-    "【LATEST #5】Navigating Vulnerability Hysteria in the AI Era",
-    "【HOTTEST #5 / Heat 67.5】PHP Readies Critical Security Updates to Patch Another RCE Flaw"
+    "【LATEST #1】Lawmakers launch new AI safety caucus amid rising security concerns",
+    "【HOTTEST #1 / Heat 75】CVE-2026-123890: Critical Authentication Bypass in VMware vCenter",
+    "【LATEST #2】ASUS warns of critical hard-coded key flaw in Control Center Express",
+    "【HOTTEST #2 / Heat 75】NGINX2Root: F5 patches five critical NGINX vulnerabilities",
+    "【LATEST #3】CVE-2026-123890: Critical Authentication Bypass in VMware vCenter",
+    "【HOTTEST #3 / Heat 67.5】PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+    "【LATEST #4】第3回 可視化と信頼インフラの構築、そして持続可能な業界協調へ",
+    "【HOTTEST #4 / Heat 67.5】ARMORY CASTLE Exploits vSphere",
+    "【LATEST #5】古いWi-Fiルーターは危険、ファームウエアの更新終了で脆弱性が放置される",
+    "【HOTTEST #5 / Heat 67.5】Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-16T21:00:00+00:00",
-    "last_as_of": "2026-11-19T21:00:00+00:00",
+    "first_as_of": "2026-11-16T22:00:00+00:00",
+    "last_as_of": "2026-11-19T22:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-19T21:00:00+00:00",
-  "heat_as_of": "2026-11-19T21:00:00+00:00",
+  "news_as_of": "2026-11-19T22:00:00+00:00",
+  "heat_as_of": "2026-11-19T22:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25868,
-  "last_published_at": "2026-11-20T06:07:55.009724+09:00",
-  "publication_slot_jst": "2026-11-20T06:00:00+09:00"
+  "news_catalog_count": 25872,
+  "last_published_at": "2026-11-20T07:07:47.209171+09:00",
+  "publication_slot_jst": "2026-11-20T07:00:00+09:00"
 }

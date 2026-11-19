@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T20:40:02.617937+00:00",
+  "source_snapshot_generated_at": "2026-11-19T21:40:02.713095+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3fe380ab4f6f7978efd7607c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "container",
+          "自宅サーバ",
+          "自宅サーバー"
+        ],
+        "url": "https://zenn.dev/pesi/articles/b3badbf8918c53",
+        "title": "php2shellに狼狽して閉じた自宅サーバをAIでコンテナ化して復活させた",
+        "author": "ぺし",
+        "published_at": "2026-11-19T21:39:58.183000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c6dde242beb1c75986c69189",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "監視",
+          "運用",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/hachihou_system/articles/79cb54993ed283",
+        "title": "「動いている」と「働いている」は別だった ― AIの見回りで気づいた監視の落とし穴",
+        "author": "キョウスケ",
+        "published_at": "2026-11-19T21:07:00.175000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9d6de3ee87f9a4b043697c8e",
+        "source": "zenn",
+        "author_tags": [
+          "nginx",
+          "Security",
+          "HTTP/2",
+          "脆弱性診断",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/rudy_candy/articles/nginx-http2-rce-cve-2026-123007-check",
+        "title": "Nginx HTTP/2の認証前RCE（CVE-2026-123007）。自分のサーバーが対象か確認する手順",
+        "author": "rudy_candy",
+        "published_at": "2026-11-19T20:51:32.825000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:8f7f545580630221c19b8415",
         "source": "zenn",
@@ -43123,6 +43171,22 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:a1eb451be3c9afcaa7d59954",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "IAM",
+          "Bedrock",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/aws_japan/articles/bedrock-secure-external-access",
+        "title": "AWS 外のアプリケーションから Bedrock API をセキュアに呼び出す方法とセキュリティのポイント",
+        "author": "Hikotty / Hikoto Iseda",
+        "published_at": "2026-09-04T05:42:04.898000+00:00",
+        "excerpt": ""
+      },
+      {
         "id": "zenn:1184b2628c7a0f13c9efa93f",
         "source": "zenn",
         "author_tags": [
@@ -43217,6 +43281,22 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:3f8c98c1aedb58173e8a4d84",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "セキュリティ対策",
+          "情報漏洩",
+          "運用",
+          "yml024備忘録"
+        ],
+        "url": "https://qiita.com/yml024/items/9b91a47c06a37b69878f",
+        "title": "*【設計開発運用】Web担当者のためのセキュリティ基礎 13ケースを問題形式で学ぶ",
+        "author": "yml024",
+        "published_at": "2026-11-20T06:35:44+09:00",
+        "excerpt": "Web担当者のためのセキュリティ基礎 13ケースを問題形式で学ぶ このメモ書きは、社員20名・Web担当2名・VPS運用という小規模体制を想定し、情報漏えいが起きる経路を13のケースに分けて問題形式で整理したものである。開発環境としてWSL、本番としてVPSを使い、顧客情報1万件および人事データを扱う環境を前提としている。 個人情報保護法の報告義務 (1,000人分超の漏えい、要配慮個人情報は1件から) が関わってくる。 各ケースは問題として出題している。回答を考えてから 【回答】を開く形で読むと身につきやすい。 ケース1 パスワードの使い回し 問題 ：社員が会社のシステムと私用サービスで同じパスワードを使っている。何が起きるか。また、それをシステム側でどう防ぐか。 【回答】 私用サービスで漏れたメールアドレスとパスワードの組み合わせが、他サイトで片っ端から試される。これを リスト型攻撃 と呼ぶ。正しいIDとパスワードでログインされるため、システムからは正規アクセスと区別がつかない。 【対策】 2段階認証を必須にする パスワードマネージャーでサー"
+      },
       {
         "id": "qiita:3751cce343987e4ec84e221e",
         "source": "qiita",
@@ -59052,6 +59132,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:53f71f4a0621e2360c9679a7",
+        "source": "medium",
+        "author_tags": [
+          "memory-forensics",
+          "cyberdefenders-writeup",
+          "cybersecurity",
+          "digital-forensics",
+          "cyberdefender-soc-t2"
+        ],
+        "url": "https://medium.com/@hezaabdo344/cyberdefender-soc-t2-dumpme-lab-walkthrough-09c19ead9d78",
+        "title": "CyberDefender SOC T2–DumpMe Lab Walkthrough",
+        "author": "Abdulrahman Heza",
+        "published_at": "2026-11-19T21:19:11+00:00",
+        "excerpt": "In this write-up, we’ll explore the DumpMe Lab, categorized under Endpoint Forensics Continue reading on Medium »"
+      },
+      {
+        "id": "medium:23fe6033d23f62c9231023c6",
+        "source": "medium",
+        "author_tags": [
+          "cyber-attacks-threats",
+          "artificial-intelligence",
+          "national-security",
+          "software-vulnerabilities",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@troybreiland/what-if-the-next-cyberattack-looks-like-an-ordinary-software-failure-fecc23b82bc4",
+        "title": "What If the Next Cyberattack Looks Like an Ordinary Software Failure?",
+        "author": "Troy Breiland",
+        "published_at": "2026-11-19T20:50:00+00:00",
+        "excerpt": "Part Two: Is Someone Testing How to Shut Down America? Continue reading on Medium »"
+      },
       {
         "id": "medium:480bfd2edf020a414b9e467b",
         "source": "medium",
