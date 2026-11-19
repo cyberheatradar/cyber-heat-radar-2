@@ -1,9 +1,72 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T04:40:03.182088+00:00",
+  "source_snapshot_generated_at": "2026-11-19T05:40:02.906062+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:46bd6290e14b074305db636c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "量子コンピュータ",
+          "論文解説",
+          "qpu"
+        ],
+        "url": "https://zenn.dev/headwaters/articles/86c8534a0cbb29",
+        "title": "【論文解説】量子コンピュータを用いた機械学習",
+        "author": "mami",
+        "published_at": "2026-11-19T05:25:29+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1efb237c4f3103711387f36c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TTS",
+          "音声合成",
+          "Irodori-TTS"
+        ],
+        "url": "https://zenn.dev/muse_koubou/articles/7158f987433756",
+        "title": "Irodori-TTS運用メモ：キャプション設計の「文法」とエラー診断",
+        "author": "muse工房",
+        "published_at": "2026-11-19T05:20:57.153000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:58b06dda12309c374fe62633",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Claude",
+          "Claude Code",
+          "CLAUDE.md",
+          "subagent"
+        ],
+        "url": "https://zenn.dev/oaoage/articles/claude-code-subagents-token-saving",
+        "title": "Claude Code で8部署を動かして消費が増えた。止めるルールと、CLAUDE.md を短くして測った結果",
+        "author": "オアゲ",
+        "published_at": "2026-11-19T05:16:54.387000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e9d554a8d7b054b4d0a6c93e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "データ分析",
+          "TikTok",
+          "Claude Code",
+          "短尺動画"
+        ],
+        "url": "https://zenn.dev/talks_tldr_jp/articles/tldr45-nadella-prediction",
+        "title": "Musk 回の判定と、Nadella・Lütke の 2 本立て（#45/#46 投稿前予測）",
+        "author": "管理人K",
+        "published_at": "2026-11-19T05:00:10+00:00",
+        "excerpt": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。投稿する前に予測を保存し、あとで実測と突き合わせる運用です。 今回は 2 本を続けて出す予定です（#45 → #46 の順が基本）。 #45 Satya Nadella（The Pragmatic Engineer「Software engineering after code becomes cheap」、2026-11-16）11 本の予定 #46 Tobi Lütke（Sources「Shopify CEO on why using AI isn't o..."
+      },
       {
         "id": "zenn:ee50f7457e5a5c90c0be3ecf",
         "source": "zenn",
@@ -282,6 +345,16 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:8b6bf16c3ca958f5d55a6342",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/enju_works/books/96d4bd58a26824",
+        "title": "Claude Codeデスクトップで作る「AIの部署」｜プログラムを書かない人のためのCLAUDE.mdと毎朝のまとめ",
+        "author": "えんじゅ研究所",
+        "published_at": "2026-11-19T02:35:32+00:00",
+        "excerpt": "Claude のデスクトップアプリ（Code タブ）で、毎朝のまとめ・やることの書きとめ・返事の下書きを日本語で頼める「AIの部署」にする本です。フォルダを選んで文を貼ると、Claude が質問しながらあなたの CLAUDE.md と朝の予約を作ります。喫茶店・美容室・一人会社の見本つき。送信と支払いはAIにさせない決まり入り。最初の2章は無料です。"
+      },
+      {
         "id": "zenn:8c559279ea33ce0eda08d9a1",
         "source": "zenn",
         "author_tags": [
@@ -325,6 +398,16 @@
         "author": "佐藤 葵8734",
         "published_at": "2026-11-19T02:09:56.048000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:e4efd872620775a3f0486099",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/karamage/books/50c18e52e7d19e",
+        "title": "pstack 完全ガイド ─AIエージェントに雑なコード を書かせない技術─",
+        "author": "karamage",
+        "published_at": "2026-11-19T01:52:32+00:00",
+        "excerpt": "AIエージェントに仕事を頼むと自信満々の報告と一緒に検証されていない大量のコードが届いて困ったことはありませんか？ そんな悩みを持つ人に向けて、React コアチームのエンジニアが公開したスキル集「pstack」の考え方と使い方を、全58スキル、全22プレイブックまで1つ残らず解説した入門書です。 この本を読むと、明日からAIへの頼み方が変わります。 ・寝る前に頼んで、朝には検証済みのPRが作成されている ・AIの「直しました」を証拠つきで受け取れる ・コードレビューする必要性が減り、動画やスクショのチェックだけでマージできる pstack は、Meta、Netflix、Cursor で大規模なコードに関わってきた React コアチームのエンジニア poteto (Lauren Tan)氏が、毎日の仕事で使っているスキルを公開したものです。目指しているのは、AIにたくさん書かせることではありません。書く量を減らし、質を上げることです。そのために「証拠がなければ完了と認めない」「書いた本人に採点させない」「足す前に引く」といった考え方が、すべての"
       },
       {
         "id": "zenn:5ff7dd8c0cab9a153bb7057d",
@@ -57503,6 +57586,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ee1ac6852cf00854ebca7a70",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "keystroke-dynamics",
+          "authentication",
+          "biometrics",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@padmesh77123/pendulum-the-pause-is-the-password-how-a-chosen-typing-rhythm-becomes-a-second-factor-f654a34541bd",
+        "title": "Pendulum — The Pause Is the Password: How a Chosen Typing Rhythm Becomes a Second Factor",
+        "author": "Padmesh",
+        "published_at": "2026-11-19T05:17:47+00:00",
+        "excerpt": "By Padmesh P S | Cybersecurity Researcher Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3b63ac12c06e7856b8cadad6",
+        "source": "medium",
+        "author_tags": [
+          "programming",
+          "technology",
+          "artificial-intelligence",
+          "hacking",
+          "cybersecurity"
+        ],
+        "url": "https://faheenahmed160.medium.com/a-security-patch-came-out-an-ai-agent-wrote-the-exploit-no-human-touched-it-09c0756d31c6",
+        "title": "A Security Patch Came Out. An AI Agent Wrote the Exploit. No Human Touched It.",
+        "author": "Faheen Ahmed",
+        "published_at": "2026-11-19T05:03:48+00:00",
+        "excerpt": "How hackers are using AI in 2026: five things attackers really do with it, the numbers behind each one, where the hype runs ahead of the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9307c4adfb7ddf7a61f64f64",
+        "source": "medium",
+        "author_tags": [
+          "wazuh",
+          "automation",
+          "soar",
+          "soc",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@muhammadahmadabid019/i-built-a-self-defending-palo-alto-firewall-with-wazuh-and-it-blocked-a-real-attacker-on-its-own-d7b0c5437e4c",
+        "title": "I Built a Self-Defending Palo Alto Firewall with Wazuh — and It Blocked a Real Attacker on Its Own",
+        "author": "Muhammad Ahmad Abid",
+        "published_at": "2026-11-19T04:56:41+00:00",
+        "excerpt": "Part 2: auto-blocking attackers through the Palo Alto API, and cutting 50% of the noise with smart syslog routing — step by step. Continue reading on Medium »"
+      },
       {
         "id": "medium:b0bf50ba8aa11702a21fdec3",
         "source": "medium",
