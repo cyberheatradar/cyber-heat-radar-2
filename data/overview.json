@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-19T08:07:35.220295+00:00",
-  "as_of": "2026-11-19T08:00:00+00:00",
-  "catalog_count": 25523,
+  "generated_at": "2026-11-19T09:13:08.861041+00:00",
+  "as_of": "2026-11-19T09:00:00+00:00",
+  "catalog_count": 25525,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -39,6 +39,28 @@
       "summary_excerpt": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12191/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T17:38:14.878393+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-76eeadea6ba50262a4349ddf",
+      "primary_category": "other",
+      "public_article_id": "url:76eeadea6ba50262a4349ddf",
+      "public_tags": [],
+      "published_at": "2026-11-19T16:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Nikkei XTECH IT",
+      "summary": "広く利用されているWebサーバーソフト「nginx（エンジンエックス）」に深刻な脆弱性が見つかった。細工が施されたデータを送られるだけで、Webサイトを乗っ取られる恐れがある。利用している企業は、修正版への更新が急務だ。",
+      "summary_excerpt": "広く利用されているWebサーバーソフト「nginx（エンジンエックス）」に深刻な脆弱性が見つかった。細工が施されたデータを送られるだけで、Webサイトを乗っ取られる恐れがある。利用している企業は、修正版への更新が急務だ。",
+      "threat_actors": [],
+      "title": "6割超の日本サイトが使う「nginx」に危険な脆弱性、AI活用で複数組織が発見"
     },
     {
       "ai_relevance": "none",
@@ -221,34 +243,6 @@
       "summary_excerpt": "ウェブサーバ「nginx」に複数の脆弱性が確認され、脆弱性を修正したアップデートがリリースされた。一部脆弱性は、概念実証（PoC）コードも公開されている。",
       "threat_actors": [],
       "title": "ウェブサーバ「nginx」に10件の脆弱性 - 一部で「PoC」が公開"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T14:22:38.161140+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-75b5f95941280ec24fc1cc15",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:75b5f95941280ec24fc1cc15",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T13:33:46+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
-      "summary_excerpt": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
-      "threat_actors": [],
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19"
     }
   ],
   "hottest": [
@@ -871,47 +865,58 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://jvn.jp/vu/JVNVU92504317/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-17T14:54:12.705756+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-01752ecd2e47586749c12658",
-      "primary_category": "other",
-      "public_article_id": "url:01752ecd2e47586749c12658",
-      "public_tags": [],
-      "published_at": "2026-11-17T14:30:00+09:00",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000174.html",
+      "cves": [
+        "CVE-2026-117634",
+        "CVE-2026-121811",
+        "CVE-2026-125276",
+        "CVE-2026-125411"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-17T17:38:19.952582+09:00",
+      "heat_score": 51.3,
+      "permalink_id": "article-url-99d33428ecf36db51415854f",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:99d33428ecf36db51415854f",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-17T15:16:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "JVN",
-      "summary": "エレコム株式会社が提供する無線LANルータには、OSコマンドインジェクションの脆弱性が存在します。",
-      "summary_excerpt": "エレコム株式会社が提供する無線LANルータには、OSコマンドインジェクションの脆弱性が存在します。",
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "株式会社インプリムが提供するプリザンターには、次の複数の脆弱性が存在します。 情報公開機能における不適切な権限チェック（CWE-863）- CVE-2026-117634 APIにおけるパストラバーサル（CWE-22）- CVE-2026-121811 APIにおける送信データへの機微な情報の挿入（CWE-201）- CVE-2026-125276 項目のアクセス制御における不適切な権限チェック（CWE-863）- CVE-2026-125411 CVE-2026-117634 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社IHI 碓氷 真之 氏 CVE-2026-125276 この脆弱性情報は、製品利用者への周知を目的に、開発者がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 CVE-2026-125411 この脆弱性情報は、下記の方が製品開発者に直接報告し、製品開発者との調整を経て、製品利用者への周知を目的にJVNでの公表に至りました。 報告者：株式会社CMSコミュニケーションズ 代表取締役 寺田 学 氏",
+      "summary_excerpt": "株式会社インプリムが提供するプリザンターには、次の複数の脆弱性が存在します。 情報公開機能における不適切な権限チェック（CWE-863）- CVE-2026-117634 APIにおけるパストラバーサル（CWE-22）- CVE-2026-121811 APIにおける送信データへの機微な情報の挿入（CWE-201）- CVE-2026-125276 項目のアクセス制御における不適切な権限チェック（CWE-863）- CVE-2026-125411 CVE-2026-117634 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社IHI 碓氷 真之 氏 CVE-2026-125276 この脆弱性情報は、製品利用者への周知を目的に、開発者がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 CVE-2026-125411 この脆弱性情報は、下記の方が製品開発者に直接報告し、製品開発者との調整を経て、製品利用者への周知を目的にJVNでの公表に至りました。 報告者：株式会社CMSコミュニケーションズ 代表取締役 寺田 学 氏",
       "threat_actors": [],
-      "title": "エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性"
+      "title": "プリザンターにおける複数の脆弱性"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/17/news024.html",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043711.html",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-17T08:38:19.920388+09:00",
+      "first_seen_at": "2026-11-17T17:38:24.554851+09:00",
       "heat_score": 46.8,
-      "permalink_id": "article-url-101dcf8cf3d0e0361ae58530",
+      "permalink_id": "article-url-003af0791d5368a9e19727de",
       "primary_category": "other",
-      "public_article_id": "url:101dcf8cf3d0e0361ae58530",
+      "public_article_id": "url:003af0791d5368a9e19727de",
       "public_tags": [],
-      "published_at": "2026-11-17T07:45:00+09:00",
+      "published_at": "2026-11-17T13:25:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "@IT Security & Trust",
-      "summary": "Webサイトの停止など、企業に影響が広がったPHPの重大脆弱性。ぷらっとホームは脆弱性公表の翌日、社内で影響範囲の確認や対策に着手した。同社はどのように動いたのか。公開された“緊迫の1日”を追う。",
-      "summary_excerpt": "Webサイトの停止など、企業に影響が広がったPHPの重大脆弱性。ぷらっとホームは脆弱性公表の翌日、社内で影響範囲の確認や対策に着手した。同社はどのように動いたのか。公開された“緊迫の1日”を追う。",
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "Microsoft Office Wordにおけるヒープベースのバッファオーバーフローの脆弱性により、不正な攻撃者がネットワークを介してコードを実行できる可能性があります。",
+      "summary_excerpt": "Microsoft Office Wordにおけるヒープベースのバッファオーバーフローの脆弱性により、不正な攻撃者がネットワークを介してコードを実行できる可能性があります。",
       "threat_actors": [],
-      "title": "首相も警告の「PHP重大脆弱性」にどう対処した？　ぷらっとホームが明かす“緊迫の1日”の全容"
+      "title": "マイクロソフトのMicrosoft 365 Apps等の複数製品におけるヒープベースのバッファオーバーフローの脆弱性"
     }
   ],
   "timeseries_status": {
@@ -934,30 +939,30 @@
   "ticker_items": [
     "【LATEST #1】PHP Readies Critical Security Updates to Patch Another RCE Flaw",
     "【HOTTEST #1 / Heat 75】PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-    "【LATEST #2】六花亭 セキュリティコード流出か",
+    "【LATEST #2】6割超の日本サイトが使う「nginx」に危険な脆弱性、AI活用で複数組織が発見",
     "【HOTTEST #2 / Heat 67.5】Oracle Javaに11件の脆弱性、「Java4Shell」は認証不要でコード実行の恐れ",
-    "【LATEST #3】nginx「緊急」脆弱性、官房長官が「必要な措置」呼び掛け",
+    "【LATEST #3】六花亭 セキュリティコード流出か",
     "【HOTTEST #3 / Heat 67.5】2026-022: Critical vulnerabilities in Nginx",
-    "【LATEST #4】旧版「Apache Axis」に脆弱性、悪用も - 後継版などへ移行を",
+    "【LATEST #4】nginx「緊急」脆弱性、官房長官が「必要な措置」呼び掛け",
     "【HOTTEST #4 / Heat 67.5】Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-    "【LATEST #5】モバイル版Edgeで生成AI利用も制御、Akamaiがセキュリティ機能を提供",
+    "【LATEST #5】旧版「Apache Axis」に脆弱性、悪用も - 後継版などへ移行を",
     "【HOTTEST #5 / Heat 67.5】ClamAV Vulnerabilities Affecting Cisco Products: November 2026"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-16T08:00:00+00:00",
-    "last_as_of": "2026-11-19T08:00:00+00:00",
+    "first_as_of": "2026-11-16T09:00:00+00:00",
+    "last_as_of": "2026-11-19T09:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-19T08:00:00+00:00",
-  "heat_as_of": "2026-11-19T08:00:00+00:00",
+  "news_as_of": "2026-11-19T09:00:00+00:00",
+  "heat_as_of": "2026-11-19T09:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25523,
-  "last_published_at": "2026-11-19T17:07:46.621977+09:00",
-  "publication_slot_jst": "2026-11-19T17:00:00+09:00"
+  "news_catalog_count": 25525,
+  "last_published_at": "2026-11-19T18:13:20.984826+09:00",
+  "publication_slot_jst": "2026-11-19T18:00:00+09:00"
 }

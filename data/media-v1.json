@@ -1,9 +1,56 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T07:40:02.884733+00:00",
+  "source_snapshot_generated_at": "2026-11-19T08:40:03.106688+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:9daf190ffe7e6f65cfd18a21",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "nginx",
+          "Security",
+          "vulnerability"
+        ],
+        "url": "https://zenn.dev/tetsurou/articles/nginx2root-cve-2026-123007-analysis",
+        "title": "【CVE-2026-123007】NGINX HTTP/2フロー制御の未認証RCE脆弱性（nginx2root）",
+        "author": "tetsurou",
+        "published_at": "2026-11-19T08:13:09.570000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fa1918a64f880d65fb063580",
+        "source": "zenn",
+        "author_tags": [
+          "Android",
+          "初心者",
+          "Security",
+          "スマホ",
+          "pixel"
+        ],
+        "url": "https://zenn.dev/miki_mini/articles/e16c36c54936c5",
+        "title": "スマホのロックは固くていい。でも「緊急情報」だけはロックの外に出しておこう",
+        "author": "miki-mini",
+        "published_at": "2026-11-19T08:00:05.373000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c851e88dcc2c679fd661a60c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "dell",
+          "Generative AI",
+          "GenAI",
+          "dellaifactory"
+        ],
+        "url": "https://zenn.dev/mstmt/articles/1925281ea7a552",
+        "title": "番外編：Dell AI Factory with NVIDIA and RedHat OpenShift AI",
+        "author": "TAMOTSU＠DELL",
+        "published_at": "2026-11-19T07:56:28.070000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:516caea0809ccdd4b70368f1",
         "source": "zenn",
@@ -42364,6 +42411,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:d97a1f921ba58b5be3ccd7d8",
+        "source": "qiita",
+        "author_tags": [
+          "nginx",
+          "脆弱性",
+          "Security",
+          "http2",
+          "cve"
+        ],
+        "url": "https://qiita.com/omochidafuku/items/c6d5015408a92d6f4aa5",
+        "title": "【解説】NGINXのHTTP/2にRCE脆弱性。静的配信だけでも影響する？CVE-2026-123007 / 123633",
+        "author": "omochidafuku",
+        "published_at": "2026-11-19T16:41:22+09:00",
+        "excerpt": "2026年11月18日、NGINXの脆弱性が複数公開されました。 この記事では、HTTP/2の処理に起因する次の2件を取り上げます。 CVE-2026-123007 ：HTTP/2のフロー制御におけるメモリ破壊 CVE-2026-123633 ：HTTP/2の接続処理におけるUse-After-Free どちらも、条件がそろうと認証なしのリモートの攻撃者に任意のコードを実行される可能性があります。 気をつけたいのは、CVE-2026-123007はリバースプロキシ構成でなくても影響しうる点です。 静的ファイルを配信しているだけのWebサーバーでも、HTTP/2が有効なら確認が必要です。 とはいえ、そもそも「NGINXがどこで動いているのか分からない」という現場も少なくありません。 そこで本記事では、2件の違いに加えて、NGINXの利用箇所の洗い出し方と、影響確認の観点を整理しました。 1. 今回の脆弱性の概要 どちらもWebアプリ側ではなく、 NGINX本体のHTTP/2処理 にあるメモリ安全性の問題です。 バックエンドのアプリに脆弱性がなくても"
+      },
+      {
         "id": "qiita:17febf58312fc2913276f101",
         "source": "qiita",
         "author_tags": [
@@ -57793,6 +57856,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:547ffccd613532226322d16b",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "vulnerability",
+          "network-security",
+          "ethical-hacking",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@rajputuma142/the-importance-of-cyber-security-in-todays-digital-world-1a19398a91e9",
+        "title": "The Importance of Cyber Security in Today’s Digital World",
+        "author": "Uma Rajput",
+        "published_at": "2026-11-19T08:23:34+00:00",
+        "excerpt": "In today’s technology-driven world, cyber security has become essential for individuals, businesses, and organizations. With the rapid… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6db1b1624e86dcd893beb5a9",
+        "source": "medium",
+        "author_tags": [
+          "small-business",
+          "cybersecurity",
+          "social-media",
+          "instagram",
+          "account-security"
+        ],
+        "url": "https://shildercom.medium.com/a-hacker-turned-on-two-factor-authentication-on-your-instagram-what-still-works-1b170830cd57",
+        "title": "A Hacker Turned On Two-Factor Authentication on Your Instagram. What Still Works?",
+        "author": "Shilder",
+        "published_at": "2026-11-19T08:07:24+00:00",
+        "excerpt": "By Daniel Mercer, Account Recovery Specialist at Shilder Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1ffbb9df7bcec49d4a0b5270",
+        "source": "medium",
+        "author_tags": [
+          "digital-forensics",
+          "cyberattack",
+          "digital-forensics-expert",
+          "cybersecurity",
+          "cyber-security-solutions"
+        ],
+        "url": "https://medium.com/@securium_solutions/what-is-digital-forensics-and-incident-response-a-complete-guide-fa1531019582",
+        "title": "What Is Digital Forensics and Incident Response? A Complete Guide",
+        "author": "Securium Solutions",
+        "published_at": "2026-11-19T08:05:42+00:00",
+        "excerpt": "In today’s digital world, cyber threats such as ransomware, phishing attacks, data breaches, malware infections, and unauthorized access… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bd3f47794cfef382644c24de",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "tryhackme",
+          "cybersecurity-training",
+          "tryhackme-walkthrough",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@muhdameensaif/tryhackme-anonforce-walkthrough-ftp-enumeration-gpg-key-cracking-root-access-1b725def7e41",
+        "title": "TryHackMe Anonforce Walkthrough: FTP Enumeration, GPG Key Cracking & Root Access",
+        "author": "Muhammed Ameen S",
+        "published_at": "2026-11-19T08:01:35+00:00",
+        "excerpt": "Tracing a complete attack chain from anonymous FTP access to root authentication on a Linux machine. Continue reading on Medium »"
+      },
       {
         "id": "medium:7d4398d5e233a386a1558baf",
         "source": "medium",
