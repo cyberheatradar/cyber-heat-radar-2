@@ -1,9 +1,88 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T12:40:02.968904+00:00",
+  "source_snapshot_generated_at": "2026-11-19T13:40:03.924775+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:7955bc62246018717e2e2e01",
+        "source": "zenn",
+        "author_tags": [
+          "npm",
+          "Security",
+          "Model Context Protocol",
+          "Cursor",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kalda/articles/32e5d2f22df106",
+        "title": "AIエージェントの設定ファイルを npx 一発で監査するCLIを公開しました（Claude Code / Cursor / Codex）",
+        "author": "kalda",
+        "published_at": "2026-11-19T13:38:57.614000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:62a0079d617952f0a57ccc3c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "JavaScript",
+          "nginx",
+          "Hermes",
+          "Open WebUI"
+        ],
+        "url": "https://zenn.dev/tachibanana0/articles/b34bc7a6ca2c09",
+        "title": "HermesのペットをスマホのOpen WebUIにも表示した【プロキシ注入と点滅バグv1〜v6】",
+        "author": "橘",
+        "published_at": "2026-11-19T13:38:07.082000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3f785f1c39a8f08ca07e35b3",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "mock",
+          "pentest",
+          "continuum"
+        ],
+        "url": "https://zenn.dev/nakayukl/articles/9d9f69f68505e4",
+        "title": "AWS Continuumペンテスティング:モック化構成での検証レポート",
+        "author": "中島佑樹",
+        "published_at": "2026-11-19T13:17:58.688000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:55c69d841f5894bbd9759dd5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/no215/articles/claude-code-one-turn-model-skill",
+        "title": "1ターンだけ Sonnet に任せるスキルを作ったら、Opus のままより高くついていた話",
+        "author": "no215",
+        "published_at": "2026-11-19T13:06:59.197000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:be0f69f36579d06ebb1225a4",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "Security",
+          "Windows",
+          "Claude Code",
+          "harnessengineering"
+        ],
+        "url": "https://zenn.dev/tazuna/articles/ac04625bf80e12",
+        "title": "Claude Code のフックは終了コード 1 では止まらない ― 「落ちたフックは全部通す」を防ぐ書き方",
+        "author": "Tazuna",
+        "published_at": "2026-11-19T13:04:58.427000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:a56e5625c0d2f9d4657a5990",
         "source": "zenn",
@@ -42684,6 +42763,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1bb2ab6a32719c5012602f4d",
+        "source": "qiita",
+        "author_tags": [
+          "iOS",
+          "Swift",
+          "CryptoKit",
+          "Security",
+          "keychain"
+        ],
+        "url": "https://qiita.com/naormt/items/4ee21370f85f28c28185",
+        "title": "iOS アプリの個人情報を CryptoKit で暗号化するまでに考えたこと",
+        "author": "naormt",
+        "published_at": "2026-11-19T22:15:05+09:00",
+        "excerpt": "私たちが開発している iOS 向けの求人アプリでは、データ層を Kotlin Multiplatform（KMP）で書き、端末のデータベースには Room を使っています。ログインしていない利用者が入力した個人情報を、端末にだけ保存する場面もあります。バックアップが持ち出されたときにもその情報を守るため、個人情報にあたる項目を CryptoKit で暗号化しました。 CryptoKit でできること CryptoKit は iOS 13 で導入された暗号のフレームワークです。 Swift では AES.GCM や ChaChaPoly を使って、共通鍵でデータを暗号化できます。 今回使ったのは AES.GCM です ［2］ 。暗号化すると、暗号文と一緒に改ざんを検知するための認証タグができます。復号時に鍵が違ったり暗号文が壊れていたりすると、認証に失敗して例外が返ります。 import CryptoKit import Foundation let key = SymmetricKey ( size : . bits256 ) let seale"
+      },
+      {
+        "id": "qiita:c7e4d004c800c841932cb642",
+        "source": "qiita",
+        "author_tags": [
+          "WindowsHello",
+          "MFA",
+          "情シス",
+          "Security",
+          "端末"
+        ],
+        "url": "https://qiita.com/naunari/items/f4a40e3e2595876d9eb9",
+        "title": "【情シス向け】PC交換時に「Windows Helloの鍵を移行したい」と言われたら読む記事（WHfB運用編）",
+        "author": "naunari",
+        "published_at": "2026-11-19T21:48:42+09:00",
+        "excerpt": "はじめに 先日、私用スマートフォンを買い替えた際に少し痛い目を見ました。 Androidを使っていて、前回の買い替えも同じ Android、Googleアカウントでログインするだけで連絡先やアプリ、設定の多くが自動的に移行されるのは経験済み。 Googleアカウントは覚えている PCからもログインできる データ移行ツールも最後まで正常終了した 「これなら今回も問題ないだろう」 そう思い、各種サービスの認証設定を確認する前に旧端末を初期化してしまいました。ところが後になって、一部サービスのPINや認証アプリの登録状況を確認していなかったことに気付きます。 各アプリケーションのセキュリティは、ここ1、2年で大きく変わっており、前回の当たり前が通用しませんでした。 結果として、一部のサービスはサポートセンターに電話して対応してもらうほど大変な思いをしました。 「同じアカウントなんだから、そのまま引き継がれるだろう」 という思い込みが危険であることを、身をもって実感した出来事でした。 そこでふと思い出したのが、情シス業務でPCリプレイス時によく受ける次の"
+      },
+      {
         "id": "qiita:16a1aa3dcd59ee2aebe03b14",
         "source": "qiita",
         "author_tags": [
@@ -58270,6 +58381,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:cd24f4dfd3f152109bff38eb",
+        "source": "medium",
+        "author_tags": [
+          "small-business",
+          "cybersecurity",
+          "microsoft-teams",
+          "infosec",
+          "phishing"
+        ],
+        "url": "https://medium.com/@s6techllc/booking-a-teams-meeting-can-hand-over-your-microsoft-365-account-7526d1103d50",
+        "title": "Booking a Teams Meeting Can Hand Over Your Microsoft 365 Account",
+        "author": "S6 Tech",
+        "published_at": "2026-11-19T13:31:02+00:00",
+        "excerpt": "Huntress caught a fake Teams scheduler at a construction company that slipped past Microsoft’s link scanning, from a domain registered… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:07643eadf49b4fa0e39390aa",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cyber-threat-intelligence",
+          "threat-intelligence",
+          "cyber-security-awareness",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@anyrun/smarter-soc-spending-in-2027-reduce-costs-recover-capacity-strengthen-detection-a882307b85a1",
+        "title": "Smarter SOC Spending in 2027: Reduce Costs, Recover Capacity, Strengthen Detection",
+        "author": "ANY.RUN",
+        "published_at": "2026-11-19T13:06:15+00:00",
+        "excerpt": "Cybersecurity budget planning for 2027 presents a growing challenge: security leaders must address emerging threats, expanding… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5992bbef0f2d3b7340e39335",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "cybersecurity",
+          "zero-trust",
+          "enterprise-security",
+          "bot-mitigation"
+        ],
+        "url": "https://medium.com/@shiney837/mitigating-high-volume-residential-proxy-attacks-edge-architecture-for-sovereign-enterprise-308996383de8",
+        "title": "Mitigating High-Volume Residential Proxy Attacks: Edge Architecture for Sovereign Enterprise…",
+        "author": "Shiney",
+        "published_at": "2026-11-19T13:05:48+00:00",
+        "excerpt": "How TLS JA4 fingerprinting, behavioral velocity scoring, and adaptive proof-of-work challenges neutralize distributed residential botnets… Continue reading on Medium »"
+      },
       {
         "id": "medium:6efe33841cd4cb82d4745c2f",
         "source": "medium",

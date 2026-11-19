@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-19T13:07:41.184424+00:00",
-  "as_of": "2026-11-19T13:00:00+00:00",
-  "catalog_count": 25822,
+  "generated_at": "2026-11-19T14:08:43.322349+00:00",
+  "as_of": "2026-11-19T14:00:00+00:00",
+  "catalog_count": 25828,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,148 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/ukraine-ransomware-arrests-cyber",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T22:53:58.864567+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-7229ac60661b35614be5309b",
+      "primary_category": "ransomware",
+      "public_article_id": "url:7229ac60661b35614be5309b",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-19T22:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "Ukrainian authorities arrested four suspected members of an international ransomware network accused of extorting more than $40 million from companies around the world.",
+      "summary_excerpt": "Ukrainian authorities arrested four suspected members of an international ransomware network accused of extorting more than $40 million from companies around the world.",
+      "threat_actors": [],
+      "title": "Ukraine exposes ransomware network extorting US oil, healthcare firms"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T22:22:45.817829+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-4775b8e7b43cd6478da1d97a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:4775b8e7b43cd6478da1d97a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-19T22:12:20+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek .",
+      "summary_excerpt": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T22:22:15.415344+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-9ca9ce7f9de58cb64d6a0209",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:9ca9ce7f9de58cb64d6a0209",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-19T22:08:08+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+      "summary_excerpt": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+      "threat_actors": [],
+      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
+      "cves": [
+        "CVE-2026-115731"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T22:22:39.277961+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-26772c0b86113178498cf80e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:26772c0b86113178498cf80e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-19T22:07:41+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details about the in-the-wild attacks have yet to be made public, but the US Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026. Perforce Puppet explained Perforce … More → The post Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731) appeared first on Help Net Security .",
+      "summary_excerpt": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details about the in-the-wild attacks have yet to be made public, but the US Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026. Perforce Puppet explained Perforce … More → The post Exploited Puppet flaw puts the server that configures y",
+      "threat_actors": [],
+      "title": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-patches-six-critical-flaws-two-found-with-ais-help",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T22:53:54.653214+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-4c2e336021c4808ba73da7e5",
+      "primary_category": "ai_security",
+      "public_article_id": "url:4c2e336021c4808ba73da7e5",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-19T21:38:38+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Malwarebytes Blog",
+      "summary": "Chrome 158 fixes 204 security issues, including six critical flaws. Here’s what to update.",
+      "summary_excerpt": "Chrome 158 fixes 204 security issues, including six critical flaws. Here’s what to update.",
+      "threat_actors": [],
+      "title": "Chrome patches six critical flaws, two found with AI’s help"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
@@ -62,6 +204,37 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T22:22:46.227994+09:00",
+      "heat_score": 55.0,
+      "permalink_id": "article-url-79fb717d814dd0bdd4caec5b",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:79fb717d814dd0bdd4caec5b",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-19T20:52:23+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
+      "summary_excerpt": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
+      "threat_actors": [],
+      "title": "Everything Is a Web Application, Including Your Firewall"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979",
       "cves": [],
       "document_form": "single_story",
@@ -109,171 +282,39 @@
       "summary_excerpt": "スクリプト言語「PHP」に重要度が「クリティカル」とされる脆弱性が明らかとなった。セキュリティアップデートの公開を予定しており、更新の準備を進めるよう呼びかけられている。",
       "threat_actors": [],
       "title": "「PHP」にクリティカル脆弱性 - 日本時間11月19日夜に修正版"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/19/2000003351/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T21:22:36.457724+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-182502f8817ddc40d02029b5",
-      "primary_category": "other",
-      "public_article_id": "url:182502f8817ddc40d02029b5",
-      "public_tags": [],
-      "published_at": "2026-11-19T20:04:47+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Bursts",
-      "summary": "北海道岩見沢市と新得町で、業務の再委託先がマルウェアに感染し、個人情報が漏えいした恐れがある。委託先のGIS北海道は取材に対し、ゲーム「NIKKE」経由の感染を認めた。業務用PCでゲームを起動したかは回答を控えた。",
-      "summary_excerpt": "北海道岩見沢市と新得町で、業務の再委託先がマルウェアに感染し、個人情報が漏えいした恐れがある。委託先のGIS北海道は取材に対し、ゲーム「NIKKE」経由の感染を認めた。業務用PCでゲームを起動したかは回答を控えた。",
-      "threat_actors": [],
-      "title": "美少女ゲーム「NIKKE」経由でマルウェア感染　北海道2自治体、委託先が認める"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T20:24:47.449581+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-06ebeabb5e45d05de5cfccfa",
-      "primary_category": "incident",
-      "public_article_id": "url:06ebeabb5e45d05de5cfccfa",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-19T20:01:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "Around 265,000 customers potentially affected as London transport operator grapples with another security breach",
-      "summary_excerpt": "Around 265,000 customers potentially affected as London transport operator grapples with another security breach",
-      "threat_actors": [],
-      "title": "TfL takes Oyster photocard website offline after attackers compromise customer accounts"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.security.com/threat-intelligence/african-stock-exchange-ai-assisted-attack",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T20:23:45.984780+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-be4e3a49d3fb6c204ae7dab9",
-      "primary_category": "ai_security",
-      "public_article_id": "url:be4e3a49d3fb6c204ae7dab9",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-19T20:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Broadcom / Symantec Enterprise Blogs",
-      "summary": "A 41-module PowerShell toolkit with all the hallmarks of AI authorship tested credentials and API keys against the exchange's investment API and a securities depository gateway.",
-      "summary_excerpt": "A 41-module PowerShell toolkit with all the hallmarks of AI authorship tested credentials and API keys against the exchange's investment API and a securities depository gateway.",
-      "threat_actors": [],
-      "title": "Major African Stock Exchange Targeted in AI-Assisted Attack"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T19:52:04.901660+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-1f146f7fbc8c63338b62bc5b",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:1f146f7fbc8c63338b62bc5b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T19:41:05+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation. The post Splunk Patches Nearly 140 Flaws Across Three Core Products appeared first on SecurityWeek .",
-      "summary_excerpt": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation. The post Splunk Patches Nearly 140 Flaws Across Three Core Products appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T19:52:05.048803+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-e858dd2ae4b0ed0e77355e19",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e858dd2ae4b0ed0e77355e19",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T19:26:51+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code. The post F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public appeared first on SecurityWeek .",
-      "summary_excerpt": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code. The post F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/19/gta-6-scams-threats/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T19:22:38.863256+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-73895f43e0ec51253caa414c",
-      "primary_category": "other",
-      "public_article_id": "url:73895f43e0ec51253caa414c",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-19T19:09:31+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Scammers are using the GTA 6 launch to steal Google passwords, sell game keys that may never arrive, and get players to connect crypto wallets. Stefan Dasic, a senior malware research engineer at Malwarebytes, tracked the lures. They range from fake giveaways to a phone app that mostly serves ads. The free copy that wants your password One site promises GTA VI to every visitor who meets its “promotion terms.” It then asks them to … More → The post GTA 6 scams are after your Google password, money, and crypto wallet appeared first on Help Net Security .",
-      "summary_excerpt": "Scammers are using the GTA 6 launch to steal Google passwords, sell game keys that may never arrive, and get players to connect crypto wallets. Stefan Dasic, a senior malware research engineer at Malwarebytes, tracked the lures. They range from fake giveaways to a phone app that mostly serves ads. The free copy that wants your password One site promises GTA VI to every visitor who meets its “promotion terms.” It then asks them to … More → The post GTA 6 scams are after your Google password, money, and crypto wallet appeared first on Help Net Security .",
-      "threat_actors": [],
-      "title": "GTA 6 scams are after your Google password, money, and crypto wallet"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
+      "cves": [
+        "CVE-2026-115731"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T22:22:39.277961+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-26772c0b86113178498cf80e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:26772c0b86113178498cf80e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-19T22:07:41+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details about the in-the-wild attacks have yet to be made public, but the US Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026. Perforce Puppet explained Perforce … More → The post Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731) appeared first on Help Net Security .",
+      "summary_excerpt": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details about the in-the-wild attacks have yet to be made public, but the US Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026. Perforce Puppet explained Perforce … More → The post Exploited Puppet flaw puts the server that configures y",
+      "threat_actors": [],
+      "title": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
@@ -282,7 +323,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-19T16:52:03.052189+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-1999227482dc4822f8c9b65f",
       "primary_category": "vulnerability",
       "public_article_id": "url:1999227482dc4822f8c9b65f",
@@ -312,7 +353,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-19T20:24:22.078738+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-46d6230b01b696cb04273411",
       "primary_category": "vulnerability",
       "public_article_id": "url:46d6230b01b696cb04273411",
@@ -562,37 +603,6 @@
       "summary_excerpt": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This advisory will be updated as additi",
       "threat_actors": [],
       "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "cves": [
-        "CVE-2026-123007",
-        "CVE-2026-123633"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T01:52:07.557959+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-0c457241d113ed5afb203a3a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0c457241d113ed5afb203a3a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T00:13:20+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Wiz Blog",
-      "summary": "Two critical HTTP/2 flaws can allow attackers to compromise NGINX servers, putting the websites, APIs, and sensitive data they handle at risk.",
-      "summary_excerpt": "Two critical HTTP/2 flaws can allow attackers to compromise NGINX servers, putting the websites, APIs, and sensitive data they handle at risk.",
-      "threat_actors": [],
-      "title": "Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007"
     }
   ],
   "rising": [],
@@ -722,42 +732,6 @@
       "title": "CVE-2026-119618"
     },
     {
-      "ai_relevance": "material",
-      "canonical_url": "https://isc.sans.edu/diary/33522",
-      "cves": [
-        "CVE-2026-42271",
-        "CVE-2026-48710"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T22:22:22.213613+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-bdf57f779ad26d76f46035a9",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:bdf57f779ad26d76f46035a9",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-16T22:11:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SANS Internet Storm Center",
-      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
-      "summary_excerpt": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
-      "threat_actors": [],
-      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)"
-    },
-    {
       "ai_relevance": "none",
       "canonical_url": "https://www.huntress.com/blog/cve-2026-84869-screenconnect-technician-exploitation",
       "cves": [
@@ -786,39 +760,6 @@
       "summary_excerpt": "Huntress confirmed CVE-2026-84869 exploitation against MSP technicians via ScreenConnect. See the attack chain, IOCs, and how to protect your team.",
       "threat_actors": [],
       "title": "CVE-2026-84869 in ScreenConnect Exploited to Run Malicious Files on MSP Technician Accounts"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-16T22:38:51.969604+09:00",
-      "heat_score": 52.56,
-      "permalink_id": "article-url-1d06137f6723e455f1793db4",
-      "primary_category": "ai_security",
-      "public_article_id": "url:1d06137f6723e455f1793db4",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-16T22:03:56+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of their owners appeared first on Help Net Security .",
-      "summary_excerpt": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More → The post Criminal marketplace sells infostealer logs with AI-written profiles of t",
-      "threat_actors": [],
-      "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners"
     },
     {
       "ai_relevance": "primary",
@@ -935,6 +876,50 @@
       "summary_excerpt": "Microsoft Office Wordにおけるヒープベースのバッファオーバーフローの脆弱性により、不正な攻撃者がネットワークを介してコードを実行できる可能性があります。",
       "threat_actors": [],
       "title": "マイクロソフトのMicrosoft 365 Apps等の複数製品におけるヒープベースのバッファオーバーフローの脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043593.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:31.649855+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-003d84b9fdd6e16926331628",
+      "primary_category": "other",
+      "public_article_id": "url:003d84b9fdd6e16926331628",
+      "public_tags": [],
+      "published_at": "2026-11-17T13:19:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "IBM API Connect 10.0.8.0から10.0.8.12および12.1.0.0から12.1.1.2において、リモートの認証済み攻撃者がSQLインジェクションを利用して任意のSQLコマンドを実行できる可能性があります。サインイン時に受け取った値がデータベースクエリに使用される前に適切に無害化されていなかったため、SQLコマンドが実行される恐れがあります。",
+      "summary_excerpt": "IBM API Connect 10.0.8.0から10.0.8.12および12.1.0.0から12.1.1.2において、リモートの認証済み攻撃者がSQLインジェクションを利用して任意のSQLコマンドを実行できる可能性があります。サインイン時に受け取った値がデータベースクエリに使用される前に適切に無害化されていなかったため、SQLコマンドが実行される恐れがあります。",
+      "threat_actors": [],
+      "title": "IBMのIBM API ConnectにおけるSQL インジェクションの脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-043654.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-17T17:38:28.236686+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-0146317b8e4f2e67f51716a7",
+      "primary_category": "other",
+      "public_article_id": "url:0146317b8e4f2e67f51716a7",
+      "public_tags": [],
+      "published_at": "2026-11-17T13:22:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "IBM MQ 9.2.0.0から9.2.0.44 LTS、9.3.0.0から9.3.0.42 LTS、9.4.0.0から9.4.0.26 LTS、9.4.0.0から9.4.5.1 CD、および10.0.0.0から10.0.0.5 LTSとCDでは、認証済みの攻撃者がメッセージ選択パラメータの不適切な検証を利用して、機密情報を取得したりサービス拒否（DoS）攻撃を引き起こしたりする可能性があります。",
+      "summary_excerpt": "IBM MQ 9.2.0.0から9.2.0.44 LTS、9.3.0.0から9.3.0.42 LTS、9.4.0.0から9.4.0.26 LTS、9.4.0.0から9.4.5.1 CD、および10.0.0.0から10.0.0.5 LTSとCDでは、認証済みの攻撃者がメッセージ選択パラメータの不適切な検証を利用して、機密情報を取得したりサービス拒否（DoS）攻撃を引き起こしたりする可能性があります。",
+      "threat_actors": [],
+      "title": "IBMのIBM MQにおけるヒープベースのバッファオーバーフローの脆弱性"
     }
   ],
   "timeseries_status": {
@@ -955,32 +940,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
-    "【HOTTEST #1 / Heat 75】PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-    "【LATEST #2】「nginx」のHTTP/2脆弱性（CVSS 9.2）、パッチ適用までの緊急チェックリスト",
-    "【HOTTEST #2 / Heat 75】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性",
-    "【LATEST #3】Cyberattack on service provider exposes payee data at 40 Irish credit unions",
-    "【HOTTEST #3 / Heat 67.5】ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性",
-    "【LATEST #4】「PHP」にクリティカル脆弱性 - 日本時間11月19日夜に修正版",
-    "【HOTTEST #4 / Heat 67.5】複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性",
-    "【LATEST #5】美少女ゲーム「NIKKE」経由でマルウェア感染　北海道2自治体、委託先が認める",
-    "【HOTTEST #5 / Heat 67.5】Oracle Javaに11件の脆弱性、「Java4Shell」は認証不要でコード実行の恐れ"
+    "【LATEST #1】Ukraine exposes ransomware network extorting US oil, healthcare firms",
+    "【HOTTEST #1 / Heat 75】Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
+    "【LATEST #2】Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+    "【HOTTEST #2 / Heat 67.5】PHP Readies Critical Security Updates to Patch Another RCE Flaw",
+    "【LATEST #3】Drupal patches critical RCE flaw, warns exploits may surface quickly",
+    "【HOTTEST #3 / Heat 67.5】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性",
+    "【LATEST #4】Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
+    "【HOTTEST #4 / Heat 67.5】ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性",
+    "【LATEST #5】Chrome patches six critical flaws, two found with AI’s help",
+    "【HOTTEST #5 / Heat 67.5】複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-16T13:00:00+00:00",
-    "last_as_of": "2026-11-19T13:00:00+00:00",
+    "first_as_of": "2026-11-16T14:00:00+00:00",
+    "last_as_of": "2026-11-19T14:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-19T13:00:00+00:00",
-  "heat_as_of": "2026-11-19T13:00:00+00:00",
+  "news_as_of": "2026-11-19T14:00:00+00:00",
+  "heat_as_of": "2026-11-19T14:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25822,
-  "last_published_at": "2026-11-19T22:07:53.136636+09:00",
-  "publication_slot_jst": "2026-11-19T22:00:00+09:00"
+  "news_catalog_count": 25828,
+  "last_published_at": "2026-11-19T23:08:55.407642+09:00",
+  "publication_slot_jst": "2026-11-19T23:00:00+09:00"
 }
