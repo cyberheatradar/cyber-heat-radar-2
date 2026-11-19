@@ -1,9 +1,52 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T10:40:02.819569+00:00",
+  "source_snapshot_generated_at": "2026-11-19T11:40:02.934455+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:1aac773f5306b32b5aa339aa",
+        "source": "zenn",
+        "author_tags": [
+          "Cloudflare",
+          "Security",
+          "CSP",
+          "Cloudflare Pages"
+        ],
+        "url": "https://zenn.dev/carecraft/articles/cloudflare-csp-console-errors",
+        "title": "厳しめの CSP で Cloudflare のコンソールエラーを切り分ける",
+        "author": "中野＠CareCraft",
+        "published_at": "2026-11-19T11:00:48.995000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c1571365f5d529bb0b0853d8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/azarashi_ora/articles/ora-fail-01-hikitsugi",
+        "title": "AI から引き継ぎ文を渡されたら、オーナーが頼んでいない物を 30 分近く作り込んだ",
+        "author": "アザラシオラ",
+        "published_at": "2026-11-19T11:00:05.320000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:927b046a8f2ed9c1a37e9cb5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DeepSeek",
+          "agents"
+        ],
+        "url": "https://zenn.dev/boluoji/articles/5c1c9f23b68191",
+        "title": "DeepSeek V4.1 Flash 1017で変わった既定値と、reasoning_effortの挙動",
+        "author": "rhythm",
+        "published_at": "2026-11-19T10:40:45.082000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:76d5c70481179171bf96021b",
         "source": "zenn",
@@ -42490,6 +42533,19 @@
     ],
     "qiita": [
       {
+        "id": "qiita:cd222f267eb15ddf5fbc6499",
+        "source": "qiita",
+        "author_tags": [
+          "HTTP",
+          "Security"
+        ],
+        "url": "https://qiita.com/vayaci/items/b8771f876479f3d5e531",
+        "title": "ブラウザの機能とウィンドウを分離する — Permissions-PolicyとCOOP/COEP/CORPを図解する",
+        "author": "vayaci",
+        "published_at": "2026-11-19T19:57:23+09:00",
+        "excerpt": "この記事は riku-kobayashi.jp に掲載した記事の転載です。 前回の記事 では、レスポンスヘッダでブラウザの挙動を絞る仕組みを5つ見てきました。 今回はその続きで、別の方向からブラウザを絞るヘッダを扱います。 ページが使える機能を絞る ものと、 ほかのオリジンとの間に壁を作る ものです。 前者がPermissions-Policy、後者がCOOP・COEP・CORPの3つ組です。 Permissions-Policy カメラ、マイク、位置情報のように、ブラウザには権限が必要な機能がたくさんあります。 Permissions-Policy は、このページ(と埋め込んだ iframe )が、そういった機能を そもそも使えるのか を指定するヘッダです。かつては Feature-Policy という名前でした。 Permissions-Policy: camera=(), microphone=(), geolocation=(self) 何が嬉しいのか 自分のサイトがカメラを使わないなら、使えないように宣言しておけます。 そうしておくと、"
+      },
+      {
         "id": "qiita:ac80aed5c5a9cb60e3306c42",
         "source": "qiita",
         "author_tags": [
@@ -58015,6 +58071,84 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:82da2f64ab2ae3e63b49dfb4",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "malware-analysis",
+          "malware",
+          "dynamic-malware-analysis",
+          "soc-analyst"
+        ],
+        "url": "https://medium.com/@yigiterenkutlu06/dinamik-malware-analizi-33c676d3c6b4",
+        "title": "Dinamik Malware Analizi",
+        "author": "Yiğit Eren Kutlu",
+        "published_at": "2026-11-19T11:24:18+00:00",
+        "excerpt": "Bir önceki yazımda MalwareBazaar üzerinden rastgele seçtiğim bir dosyanın statik analizini gerçekleştirmiştim. Bu yazıda, aynı dosyanın… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9ec972d421db8ab10d9e7bbf",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybersecurity-training",
+          "cybersecurity-companies",
+          "cyber-security-solutions"
+        ],
+        "url": "https://medium.com/@snetworsys/what-cybersecurity-companies-do-to-keep-your-business-data-safe-78e48b902613",
+        "title": "What Cybersecurity Companies Do to Keep Your Business Data Safe",
+        "author": "Networsys Technologies LLP",
+        "published_at": "2026-11-19T11:11:24+00:00",
+        "excerpt": "Cyber threats are evolving quicker than ever. Discover how essential cybersecurity companies protect in opposition to ransomware, phishing… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a0823cf3940a37a18b58d67b",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "identity-management",
+          "zero-trust",
+          "ai-agent",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@badr.nasslahsen/your-ai-agents-dont-need-secrets-bab8f76ea807",
+        "title": "Your AI Agents Don’t Need Secrets.",
+        "author": "nasslahs nasslahs",
+        "published_at": "2026-11-19T11:09:14+00:00",
+        "excerpt": "The problem: the AI agent holds the key Continue reading on Medium »"
+      },
+      {
+        "id": "medium:329b83bdfbfce59022337429",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-companies",
+          "cybersecurity",
+          "cyber-security-solutions",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@snetworsys/how-cybersecurity-companies-protect-businesses-from-modern-digital-threats-95f4a01d942c",
+        "title": "How Cybersecurity Companies Protect Businesses From Modern Digital Threats",
+        "author": "Networsys Technologies LLP",
+        "published_at": "2026-11-19T11:06:18+00:00",
+        "excerpt": "Is your company organised to face evolving cyber threats? Discover how most important cybersecurity companies assist in defensive touchy… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0a8b76bdb5bfbd13362ed455",
+        "source": "medium",
+        "author_tags": [
+          "xss-attack",
+          "web-security",
+          "technology",
+          "cybersecurity",
+          "javascript"
+        ],
+        "url": "https://medium.com/@naro7217/one-text-box-178-organizations-how-a-trusted-script-turned-the-bbcs-homepage-into-an-attack-903a7ddec809",
+        "title": "One Text Box, 178 Organizations: How a Trusted Script Turned the BBC’s Homepage Into an Attack",
+        "author": "Naro",
+        "published_at": "2026-11-19T11:01:02+00:00",
+        "excerpt": "Nobody broke into the BBC, Zoom, or CNN. A small tool they all trusted did the damage instead. Continue reading on Medium »"
+      },
       {
         "id": "medium:d00cb83eb42884d479c1bcd6",
         "source": "medium",
