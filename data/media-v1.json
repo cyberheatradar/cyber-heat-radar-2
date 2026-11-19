@@ -1,9 +1,86 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T21:40:02.713095+00:00",
+  "source_snapshot_generated_at": "2026-11-19T22:40:02.547704+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:a8092862519cdb1ba16986f9",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "architecture",
+          "GuardDuty",
+          "ransomware"
+        ],
+        "url": "https://zenn.dev/dk_architect/articles/supermarket-ransomware-consult",
+        "title": "「ランサムウェアが怖い」と言われて、高い製品ではなく古いルーターと運用ルールに手を入れた話",
+        "author": "DK",
+        "published_at": "2026-11-19T22:30:32.070000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:69bf806d750352dc62f1d585",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "TryHackMe"
+        ],
+        "url": "https://zenn.dev/aiia/articles/d70f9263c0ee83",
+        "title": "TryHackMe Brute It 挑戦！",
+        "author": "aiia",
+        "published_at": "2026-11-19T22:30:05.242000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:111c1fd98149e1ca12d8121e",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "医療",
+          "個人情報保護法",
+          "インシデント対応",
+          "医療機器"
+        ],
+        "url": "https://zenn.dev/taichiendoh/articles/vendor-breach-notification-lag",
+        "title": "「委託先管理」の先に見えた論点 ― 医学生物学研究所の事案に見る、報告が届くまでの時間差",
+        "author": "遠藤太一",
+        "published_at": "2026-11-19T22:08:52.680000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0a47b4e5f2a9e77b2546a0d8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "search",
+          "llm",
+          "MCP サーバー",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kokagex/articles/4e02fc764af8ba",
+        "title": "AI エージェントのファイル探しを、判定モデル Jev に 1 回だけ聞く道具 Jev-explore にした話",
+        "author": "こかげ",
+        "published_at": "2026-11-19T22:02:26.837000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cd64a3e06b8a893e79d0853c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "shader",
+          "gamedev",
+          "Godot",
+          "ChatGPT"
+        ],
+        "url": "https://zenn.dev/zivaengine/articles/d889f9298b8c43",
+        "title": "ChatGPTでつくったGodotのシェーダーをAIは直せるか？フォーラムの実際のシェーダーでZivaを検証",
+        "author": "Ziva Engine",
+        "published_at": "2026-11-19T21:55:51.702000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:3fe380ab4f6f7978efd7607c",
         "source": "zenn",
@@ -502,6 +579,21 @@
           "ORM"
         ],
         "url": "https://zenn.dev/vasugiura/articles/f743fd2cd501e4",
+        "title": "SQLインジェクションは、なぜ絶滅しないのか？",
+        "author": "VA杉浦",
+        "published_at": "2026-11-19T13:41:07.477000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4d35f721a285de9ef55f9cb3",
+        "source": "zenn",
+        "author_tags": [
+          "SQL",
+          "Database",
+          "Security",
+          "ORM"
+        ],
+        "url": "https://zenn.dev/visionarray/articles/f743fd2cd501e4",
         "title": "SQLインジェクションは、なぜ絶滅しないのか？",
         "author": "VA杉浦",
         "published_at": "2026-11-19T13:41:07.477000+00:00",
@@ -43282,6 +43374,113 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e1cf269a8a6614fbd075b25b",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "WordPress",
+          "サーバー"
+        ],
+        "url": "https://qiita.com/naoyukiyamax/items/d53c04316286a3ba503d",
+        "title": "PHPのセキュリティ修正が出た朝に、レンタルサーバーのWordPressで確認したこと",
+        "author": "naoyukiyamax",
+        "published_at": "2026-11-20T07:36:59+09:00",
+        "excerpt": "2026年11月19日夜（日本時間）、PHPのセキュリティ修正版が公開されました。 PHP 8.2.36 PHP 8.3.37 PHP 8.4.28 PHP 8.5.13 修正された脆弱性は17件で、うち7件がCritical（CVSS 4.0で9.2）と評価されています。ただし、Criticalのものはいずれも特定の構成や条件がそろった場合に成立するものでした。 自分はレンタルサーバー上でWordPressを運用しているので、翌朝に自分の環境がどうなっているかを確認しました。その記録です。 確認したこと 1. Web側のPHPバージョン WordPress管理画面の「ツール」→「サイトヘルス」→「情報」→「サーバー」で確認しました。 結果は PHP 8.3.37 。公開されたばかりの修正版そのもので、サーバー事業者側で夜のうちに適用されていました。 ポイントは、SSHで php -v を実行して出てくるCLI版のPHPではなく、 Webサイトの実行に使われているPHP を確認することです。両者は別物の場合があります。 2. PHPの動作方式（S"
+      },
+      {
+        "id": "qiita:c5d0b8aa54dd58b453196ed9",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "nginx",
+          "Apache",
+          "Linux",
+          "WordPress"
+        ],
+        "url": "https://qiita.com/jiis-sasaki/items/eb5a0d84bb876c130209",
+        "title": "nginx/Apacheのログは既定14日で消える──侵害調査に備える7つのログ保全設定(コピペOK)",
+        "author": "jiis-sasaki",
+        "published_at": "2026-11-20T07:30:00+09:00",
+        "excerpt": "対象 : Ubuntu / Debian で nginx・Apache・PHP・WordPress を運用している Web 担当者・制作会社の方 解決すること : 「改ざんに気付いたが、侵入時期のログがもう無い」「ログが攻撃者に消されていた」を防ぐ やること : 保存期間の延長・調査に使える形式・時刻同期・外部転送・WordPress 操作ログの 7 設定(すべてコピペで適用可) 既定のままだと、ログはどれだけ残るか Debian 系パッケージの logrotate 設定は、nginx・Apache とも daily + rotate 14 (毎日ローテーションし、過去分は 14 世代まで)です。つまり 約 2 週間より古いアクセスログは自動で消えます 。 ログ 既定の保存 調査で困ること nginx /var/log/nginx/*.log 毎日・14 世代 侵入から発覚まで 2 週間超だと入口が追えない Apache /var/log/apache2/*.log 毎日・14 世代 同上 journald ディスクの 10%(上限 4G)で古い"
+      },
+      {
+        "id": "qiita:3a405fa08b766945dcb66fd6",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "API",
+          "個人情報",
+          "設計"
+        ],
+        "url": "https://qiita.com/maees/items/53f90bfc513b2feb5d1f",
+        "title": "KARTE漏えい650万件――送る項目を減らす外部連携の設計",
+        "author": "maees",
+        "published_at": "2026-11-20T07:22:13+09:00",
+        "excerpt": "KARTE漏えい650万件――送る項目を減らす外部連携の設計 同じプレイドの「KARTE」への不正アクセスで、三菱UFJ銀行は約650万件の顧客情報が漏れた。漏れたのは性別・年齢・居住地域だけで、氏名や連絡先は含まれていない。一方、タイミーは最大22万6,662名分のメールアドレスや電話番号が漏れた。同じ侵害なのに、漏れた項目が違う。違いを決めたのは侵入の手口ではなく、各社がKARTEへ何を送っていたかである。外部サービスへ顧客データを渡す設計では、送る項目を決める段階で、漏れたときの上限がほぼ決まる。 関連記事：JavaのログにパスワードやBearerトークンを残さない――OWASPの除外リストとマスキングの置き場所 11月13日に何が起きたか プレイドの11月16日付の公表と、各社の発表を並べると、経緯は次の通りである。 日時（2026年） 出来事 11月13日未明 第三者がプレイドのサーバーの脆弱性を悪用し、システムやデータベースの接続用認証情報を窃取。データベース等からデータを外部に読み出した。窃取した認証情報でアカウントを乗っ取り、管理"
+      },
+      {
+        "id": "qiita:4f5436a0242e9c45d5a03ad1",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "cloudflare"
+        ],
+        "url": "https://qiita.com/oosawak@github/items/0b376568a4fe4a4b2c87",
+        "title": "PHPの11月の修正が出た ― Critical 7件と phpAfterShell",
+        "author": "oosawak@github",
+        "published_at": "2026-11-20T07:13:44+09:00",
+        "excerpt": "2026年11月19日に、PHP のセキュリティ修正が出ました。 修正版は 8.2.36 と 8.3.37 と 8.4.28 と 8.5.13 で、同日に出た 8.6.0 にも修正が含まれています。 この記事は、Cloudflare の分析記事 phpAfterShell and six other PHP critical flaws（Zero Wire） を読んで、要点をまとめたものです。 中身 直った脆弱性は17件で、そのうち7件が Critical（CVSS 4.0 で 9.2）です。 PHP 公式の事前告知では、Critical のものは「デフォルト以外の設定、または珍しい構成」でのみ影響する、とされていました。 phpAfterShell 名前が付いたのが CVE-2026-126714、通称 phpAfterShell です。 PHP のデフォルトのファイルベースのセッションハンドラにあります。 セッションの書き込みが途中で止まると、新しいセッションの先頭と古いセッションの末尾が混ざったファイルが残ることがあります。 次のアクセスで"
+      },
+      {
+        "id": "qiita:5048d0ffd6a91dc4c696607d",
+        "source": "qiita",
+        "author_tags": [
+          "nginx",
+          "Security",
+          "cloudflare"
+        ],
+        "url": "https://qiita.com/oosawak@github/items/71e509974faa05a1d72f",
+        "title": "nginxに2015年からの穴 ― Cloudflareの分析「nginx2root」を読んだ",
+        "author": "oosawak@github",
+        "published_at": "2026-11-20T07:13:40+09:00",
+        "excerpt": "2026年11月18日に、nginx の脆弱性が10件まとめて公表されました。 そのうち5件は、発見した Xint というチームが「nginx2root」という名前で技術情報を公開しています。 この記事は、Cloudflare の分析記事 nginx2root（Zero Wire） を読んで、要点をまとめたものです。 一番大きいのは HTTP/2 の穴 中心は CVE-2026-123007 です。 HTTP/2 のフロー制御まわりのメモリ破損で、ログインなしに、nginx のワーカーの権限でコマンドを実行できる可能性があります。 対象は HTTP/2 を有効にした nginx で、最初の版は 1.9.5 です。 HTTP/2 が入った 2015年から、ずっと潜んでいた欠陥ということになります。 Xint は、AWS と GCP と Azure の公開サーバーで実行まで実証したとしています。 攻撃に使う HTTP/2 の制御フレームは、アクセスログにリクエストとして残りません。 ログがきれいでも、無事の証明にはならない、という点が厄介です。 残り"
+      },
+      {
+        "id": "qiita:9ba543204c71c0cfa95b02b3",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "ハードウェア",
+          "ロボット"
+        ],
+        "url": "https://qiita.com/lhjjjk4/items/b9878048a2cf97f40e5d",
+        "title": "AI日報 2026年11月20日：Anthropicが史上最大級IPO、AIがチップ回路を書き換える、ロボットが家を建てる",
+        "author": "lhjjjk4",
+        "published_at": "2026-11-20T07:09:00+09:00",
+        "excerpt": "Anthropic IPO：83ドルで設定、ティッカー「ANT」で取引開始 Anthropic は11月18日、米国市場での新規公開（IPO）価格を1株83ドルと発表した。想定レンジだった70〜78ドルを上回る水準で、約9.8億株のクラスA株式を発行し、総調達額は約810億ドルに達する。うち9億5640万株は同社自身の発行分で、残りは既存株主の売却分、さらに引受証券会社には1億4700万株のオーバーアロットメント（追加発行権）が付いている。ナスダックでティッカー「ANT」として19日に取引を開始し、発行体の売り出しは20日に完了する見込みだ。 報道筋はこれを「史上最大のIPO」と呼び、完全希薄化ベースの評価額を約1.5兆ドルとしている。ただし Anthropic 自身の公式発表にはその表現はなく、あくまで報道側の集計である。CNBC、TechCrunch、Bloomberg いずれも需要が大幅に上回った（オーバーサブスクリプション）と伝え、Google、Microsoft、Nvidia、AMD などが参加する別の私募も追加資本を積むと報じている。"
+      },
+      {
+        "id": "qiita:7b5265ab33b2714257246147",
+        "source": "qiita",
+        "author_tags": [
+          "Docker",
+          "AI",
+          "Security",
+          "AIエージェント",
+          "DockerSandboxes"
+        ],
+        "url": "https://qiita.com/aratakaji/items/795a248f6398b03eb9cf",
+        "title": "Docker SandboxesでAIエージェントを隔離する",
+        "author": "aratakaji",
+        "published_at": "2026-11-20T07:03:01+09:00",
+        "excerpt": "Docker SandboxesでAIエージェントを隔離する 2026年11月18日に、Docker公式の無料セミナー「Docker Sandboxes」を聞いてきました。Dockerやエージェント用のサンドボックスに馴染みがない方向けに、仕組みと導入手順を書いておきます。手順とコマンドは2026年11月19日時点の公式ドキュメントで確認しました。 事例の登壇企業と登壇者は匿名で、発表内容を要約しています。 1. Docker Sandboxesとは Docker Sandboxesは、AIエージェントの作業環境を起動するツールです。Claude CodeやCodexのようにコードを書いたりコマンドを実行したりするエージェントを、microVMという軽量な仮想マシンの中で動かします。 サンドボックスごとに専用のファイルシステムとDockerデーモンがあり、ネットワークも独立しています。ホストPCのファイルでエージェントから見えるのは、起動したときのカレントディレクトリだけ。Docker DesktopやDocker Engineは不要で、起動から"
+      },
+      {
         "id": "qiita:3f8c98c1aedb58173e8a4d84",
         "source": "qiita",
         "author_tags": [
@@ -59132,6 +59331,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:165865bb29ed04bbcd7aed99",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "devsecops",
+          "threat-intelligence",
+          "java-security",
+          "application-security"
+        ],
+        "url": "https://medium.com/@trivajay259/java4shell-a-base64-decoder-bug-that-could-turn-an-http-header-into-remote-code-execution-b2b28df3924c",
+        "title": "Java4Shell: A Base64 Decoder Bug That Could Turn an HTTP Header Into Remote Code Execution",
+        "author": "Ajay Kumar",
+        "published_at": "2026-11-19T22:28:21+00:00",
+        "excerpt": "A newly disclosed Java vulnerability raises an uncomfortable question: What happens when a trusted authentication component becomes the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b8027d3eaceb10e6fa0f8c67",
+        "source": "medium",
+        "author_tags": [
+          "hacking",
+          "pentesting",
+          "cybersecurity",
+          "infosec",
+          "malware"
+        ],
+        "url": "https://medium.com/@s12deff/how-windows-terminate-processes-efc0ef7523b1",
+        "title": "How Windows Terminate Processes",
+        "author": "S12 - 0x12Dark Development",
+        "published_at": "2026-11-19T22:08:53+00:00",
+        "excerpt": "Welcome to this new Medium post, today we are opening Ghidra with the goal of understand how internally Windows terminate the processes. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5c7a8f697b2f2927465c8afe",
+        "source": "medium",
+        "author_tags": [
+          "windows-11",
+          "remnux",
+          "flarevm",
+          "malware-analysis",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@Bukky-Gil/building-my-first-malware-analysis-lab-windows-11-flare-vm-and-remnux-on-virtualbox-805feda10071",
+        "title": "Building My First Malware Analysis Lab: Windows 11, FLARE-VM and REMnux on VirtualBox",
+        "author": "Aisha",
+        "published_at": "2026-11-19T21:56:23+00:00",
+        "excerpt": "The one rule the whole lab is built around Continue reading on Medium »"
+      },
       {
         "id": "medium:53f71f4a0621e2360c9679a7",
         "source": "medium",
