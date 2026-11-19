@@ -1,9 +1,67 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T01:40:03.879709+00:00",
+  "source_snapshot_generated_at": "2026-11-19T02:40:03.371791+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:8c559279ea33ce0eda08d9a1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "VRChat",
+          "生成 AI",
+          "紫のうさぎ",
+          "紫のウサギ"
+        ],
+        "url": "https://zenn.dev/mcp/articles/96b3b19810e14c",
+        "title": "紫のうさぎ の3DモデルをVRChatで動かしたい",
+        "author": "mcp",
+        "published_at": "2026-11-19T02:29:04.725000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:53b6fe203fc847c95a389741",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "math",
+          "データサイエンス"
+        ],
+        "url": "https://zenn.dev/kitacom_blog/articles/backpropagation",
+        "title": "そろそろ本気で誤差逆伝播法を理解しようじゃないか",
+        "author": "トラフクロウ",
+        "published_at": "2026-11-19T02:19:18.622000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:053ef21e462ac2be33b31fa6",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/aoi_sato8734/articles/safeline-how-to-block-web-shell-u-20261118-099d1ae",
+        "title": "SafeLine WAFでまもるファイルアップロード：web shellのもちこみとじっこうをふせぐための6ステップ",
+        "author": "佐藤 葵8734",
+        "published_at": "2026-11-19T02:09:56.048000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5ff7dd8c0cab9a153bb7057d",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "data"
+        ],
+        "url": "https://zenn.dev/whocallmeuknote/articles/44427e2a3f4866",
+        "title": "この番号は誰？ 銀行を名乗る電話の折り返し先を、公式の連絡経路と分けて記録する",
+        "author": "WhoCallMe UK Notes",
+        "published_at": "2026-11-19T01:44:23.903000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:51edb48135d6695cb53ed1bd",
         "source": "zenn",
@@ -41769,6 +41827,84 @@
     ],
     "qiita": [
       {
+        "id": "qiita:2486671aba2b7155e4aa2e8c",
+        "source": "qiita",
+        "author_tags": [
+          "Robotics",
+          "製造業",
+          "AI",
+          "自動化",
+          "Security"
+        ],
+        "url": "https://qiita.com/savor-speedup-dotage/items/2b9a387306f37fd8ddcd",
+        "title": "産業用ロボット導入の「見えない失敗」を防ぐ：AIネイティブ・エージェンティック・ロボティクスへの移行戦略",
+        "author": "savor-speedup-dotage",
+        "published_at": "2026-11-19T11:36:03+09:00",
+        "excerpt": "2026年現在、製造業や物流業界における人手不足は深刻化の一途をたどり、ロボティクスによる自動化は「あれば望ましいもの」から「生存戦略」へと変化しました。Boston DynamicsのAtlasが半導体製造工場での試行運用を開始し、身体性インテリジェンス（Embodied Intelligence）が商用フェーズに移行するなど、技術的な進展は目覚ましいものがあります。 しかし、現場への導入において、いまだに多くのプロジェクトが「実証実験（PoC）の壁」を越えられず、あるいは導入後に期待された投資対効果（ROI）を生み出せずにいます。本記事では、最新の「エージェンティック・ロボティクス（Agentic Robotics）」や「AIネイティブ」なアプローチに焦点を当て、導入・運用におけるハマりどころと、エンジニアが取るべきベストプラクティスを解説します。 1. 伝統的な自動化が直面する「硬直性」の罠 多くのロボット導入プロジェクトが失敗する「隠れた理由」は、従来のプログラミング手法の限界にあります。 ハマりどころ：決定論的スクリプトによる過学習 従"
+      },
+      {
+        "id": "qiita:d0f5283996f606b77f5b5e64",
+        "source": "qiita",
+        "author_tags": [
+          "nginx",
+          "Security",
+          "脆弱性",
+          "http2",
+          "インフラ"
+        ],
+        "url": "https://qiita.com/superdora-cloud/items/08002624057847ade6fc",
+        "title": "【緊急】NGINXの脆弱性「nginx2root」を解説｜HTTP/2のRCE（CVE-2026-123007）の影響と安全なアップデート手順",
+        "author": "superdora-cloud",
+        "published_at": "2026-11-19T11:20:35+09:00",
+        "excerpt": "はじめに 2026年11月18日、NGINXプロジェクトが 脆弱性10件を修正するセキュリティリリース を公開しました（安定版 1.30.7 は9件、メインライン版 1.31.9 は10件）。このうち5件は「 nginx2root 」と名付けられた、認証なしで外部からコード実行につながりうる重大な欠陥です。 この記事では、次の内容を初心者向けに整理します。 何が修正されたのか、どんな影響があるのか 自分の環境が対象かどうかの確かめ方 環境別の安全なアップデート手順 すぐ更新できないときの暫定対策 情報は2026年11月19日（JST）時点のものです。作業前に nginx.orgのセキュリティアドバイザリ も確認してください。 更新履歴 2026年11月19日：初版を公開しました。 結論（先に読みたい人向け） 使っているブランチ 更新先 NGINX 安定版（1.30系） 1.30.7 NGINX メインライン版（1.31系） 1.31.9 NGINX Plus 37.0.8.1 / 37.3.0.1 （詳細はF5のアドバイザリで確認） 1.29以前"
+      },
+      {
+        "id": "qiita:43310f1949625cb50d8e2a6e",
+        "source": "qiita",
+        "author_tags": [
+          "HTML",
+          "XML",
+          "JavaScript",
+          "Security",
+          "Web開発"
+        ],
+        "url": "https://qiita.com/t_shamoji/items/c1bfaa21c11b252c8cc9",
+        "title": "XML/HTML整形と文字参照（実体参照・数値文字参照）の落とし穴｜閉じタグ破損やエスケープ漏れを防ぐパースの仕組み",
+        "author": "t_shamoji",
+        "published_at": "2026-11-19T11:12:55+09:00",
+        "excerpt": "はじめに Web開発やAPI連携、SVG素材の編集をしていると、日常的に以下のような作業が発生します。 圧縮（Minify）されて1行になった巨大な XML や HTML を見やすくインデント整形 したい ログやフォーム入力から抜いたHTML断片を、 < や > 、 & などの実体参照（ &lt; &gt; &amp; ）や数値文字参照（ &#x3042; ）にエスケープ／デコード したい 外部APIから返ってきたXMLや、AIが生成したHTMLコードの 「閉じタグ漏れ」を検出して修復 したい ただし、 社外秘のAPIレスポンスや顧客情報を含むHTMLを外部サーバーで処理する整形サイトには貼り付けたくない 本記事では、実務でハマりやすい HTML/XMLの構文差異とエスケープの罠 を整理し、さらに ブラウザ内の JavaScript（ DOMParser ＋ スタックベース整形）だけで安全に整形・自動修復・ピンポイント変換を行う方法 について解説します。 1. HTML と XML で「厳格さ」がまったく違う落とし穴 同じ <tag> を使うマー"
+      },
+      {
+        "id": "qiita:fdd72ba65d18e2dfaf3ac48a",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/80afd055c688aee22c0e",
+        "title": "SafeLine WAF と API の BOLA たいさく：チェックリストでたどるせっていとトラブルシューティング",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-19T11:11:16+09:00",
+        "excerpt": "トークンがただしくても、データをみせてよいとはかぎらない API のセキュリティをしらべるとき、 how to protect an api from broken object level authorization というテーマでつまずきやすいのは、ログインとオブジェクトへのアクセスチェックをひとまとめにしてしまうことです。 BOLA は、ユーザーやトークンがただしくても、そのユーザーがリクエストしたオブジェクトにアクセスできるかを API がチェックしていないときにおこります。たとえば /accounts/1842/invoices/7 の 1842 を 1843 にかえるだけで、べつのアカウントのデータがかえってくるケースです。よみとりだけでなく、かきかえやさくじょにもひろがります。 SafeLine は、セルフホストでうごくリバースプロキシがたの WAF です。API のまえで HTTP トラフィックをフィルタリングし、ゆるされたリクエストをアプリへわたします。れんぞくした ID のこころみや、ボットによるアクセスへのたいさくをささえま"
+      },
+      {
+        "id": "qiita:a4f810e4ba3c24a1b3cdaf3b",
+        "source": "qiita",
+        "author_tags": [
+          "GoogleCloud",
+          "Security",
+          "LLM",
+          "PHP",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/tomokoro/items/64a762de9e5bdf3e8f00",
+        "title": "【自動修復AI】脆弱性を自動検知・修正する「CodeMender」とAIエージェント時代のセキュリティ基盤",
+        "author": "tomokoro",
+        "published_at": "2026-11-19T10:43:56+09:00",
+        "excerpt": "1. はじめに AI技術の進化により、開発スピードが向上する一方で、サイバーセキュリティの攻防における「スピードの概念」も根本から塗り替えられつつあります。 1.1. AI進化に伴う脆弱性の顕在化（PHPコア脆弱性の事例） 記憶に新しい例として、2026年10月末に公表されたPHPコアの深刻な脆弱性（CVE-2026-109618 / CVE-2026-109619）への対応が挙げられます。Webサイトの70%以上に影響を及ぼすPHPコアの深い領域に潜んでいたバグが、高度なAIモデルの深い推論能力によって解析され、リモートコード実行（RCE）可能な緊急脆弱性として特定されました。 ここから読み解くべき現実は、「これまで見落とされていた複雑なロジックの欠陥が、AIの進化によって容易かつ高速に検出される時代になった」という点です。攻撃者がAIを活用してマシンスピードで脆弱性を探し出し、即座に攻撃を仕掛けてくる現代において、従来のような人間による手動レビューや後手のパッチ適用では到底防ぎきれません。 1.2. マシンスピードで「先手」を打つ能動的防御へ"
+      },
+      {
         "id": "qiita:0e5dc22080ac896390ce70c8",
         "source": "qiita",
         "author_tags": [
@@ -41797,6 +41933,22 @@
         "author": "tasekino",
         "published_at": "2026-11-19T10:38:33+09:00",
         "excerpt": "はじめに この連載では、 わざと脆弱に作った1つのメモアプリ を題材に、代表的な3種類の診断を順番に試しています。同じアプリを回ごとに直していくので、「どのツールが何を見つけ、何を見逃すのか」を体感しながら読めます。 回 診断の種類 使うツール ひとことで言うと 第1回 SAST Semgrep ソースコードを読んで危険な書き方を探す 第2回 DAST OWASP ZAP 動いているアプリにリクエストを送って穴を探す 第3回（この記事） SCA dep-scan 使っているライブラリの既知の脆弱性を調べる 第1回： 脆弱性診断を1つのアプリで体験する（1）SAST編：Semgrep でコードの穴を見つける 第2回： 脆弱性診断を1つのアプリで体験する（2）DAST編：OWASP ZAP で外から穴を見つける 第1回ではソースコードの書き方の問題を、第2回では動かして初めて分かる設定の問題を直しました。今回（第3回・最終回）は、 SCA （Software Composition Analysis：ソフトウェア構成分析）を試します。最後に、3つの診"
+      },
+      {
+        "id": "qiita:a660bbc537b7d71f058958f3",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "脆弱性",
+          "GitHubActions",
+          "OpenJDK"
+        ],
+        "url": "https://qiita.com/Nekorock/items/57ec377b987dc5518f95",
+        "title": "Java4Shell の条件を CI で 10 回調べたら 7 回そろっていた",
+        "author": "Nekorock",
+        "published_at": "2026-11-19T10:33:43+09:00",
+        "excerpt": "2026 年 11 月 17 日に公開された Java4Shell（CVE-2026-114938）は、Java の版だけでなく CPU が AVX-512 VBMI を持っているか で当たるかどうかが決まります。そこで GitHub Actions の x64 の runner を 10 回起動して調べたところ、 7 回で条件がそろっていました 。どの runner にも、最初から修正前の Java 17・21・25 が入っています。公式の Docker イメージも、11 月 19 日の時点で Eclipse Temurin はまだ修正前で、Amazon Corretto は修正済みでした。 Java のアプリを x86 のサーバーやコンテナで動かしている人向けに、当たる条件を修正のソースで確かめた結果と、自分のマシンで 1 分で確かめる方法、修正するまでの回避策をまとめます。 Java4Shell とは OpenJDK の HotSpot が、Base64 のデコードを速くするために持っている CPU 向けの専用の処理（intrinsic）の"
       },
       {
         "id": "qiita:c19ed510acd1048546a83757",
@@ -56998,6 +57150,84 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d3a33ef71d26d447d8cb2473",
+        "source": "medium",
+        "author_tags": [
+          "wordpress",
+          "cyber",
+          "cybersecurity",
+          "vulerability",
+          "sql"
+        ],
+        "url": "https://medium.com/@cybersec_cynoxsecurity/wordpress-7-1-5-patches-20-security-issues-including-potential-rce-and-sql-injection-flaws-d9fadcc96b5a",
+        "title": "WordPress 7.1.5 Patches 20 Security Issues, Including Potential RCE and SQL Injection Flaws",
+        "author": "Cynox Security LLP.",
+        "published_at": "2026-11-19T02:31:01+00:00",
+        "excerpt": "WordPress released version 7.1.5 on November 18, 2026, to address 20 security issues in WordPress Core. The update fixes a flaw that could… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:92e8ee14ed062f3d2f2a9328",
+        "source": "medium",
+        "author_tags": [
+          "security-engineering",
+          "pki",
+          "cybersecurity",
+          "tls"
+        ],
+        "url": "https://medium.com/@eugene.martiny/part-ii-completing-tls-deployment-through-an-engineering-workaround-26053ac8092f",
+        "title": "(Part II): Completing TLS Deployment Through an Engineering Workaround",
+        "author": "Eugene Martiny",
+        "published_at": "2026-11-19T02:22:24+00:00",
+        "excerpt": "In Part I of this project, I set out to deploy a TLS-enabled web service within the Sentinel-LAN environment using a custom Public Key… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:37d368e43fe20092248c3bc7",
+        "source": "medium",
+        "author_tags": [
+          "programming",
+          "java",
+          "cybersecurity",
+          "devops"
+        ],
+        "url": "https://medium.com/@thinuridulsini/100-000-vulnerabilities-in-one-year-why-critical-bugs-are-dropping-back-to-back-and-how-we-b3c7637ee4d0",
+        "title": "100,000 Vulnerabilities in One Year | Why Critical Bugs Are Dropping Back-to-Back and How We…",
+        "author": "Thinuri Wickramarachchi",
+        "published_at": "2026-11-19T02:11:01+00:00",
+        "excerpt": "From PHP2Shell to Java4Shell, AI just broke the old rules of software security. Here is why your newsfeed feels like an endless emergency… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:05e6fa8408e8bf8f1a006d75",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-management",
+          "ciso",
+          "artificialintelligenceai",
+          "artificial-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://silvano-silva.medium.com/when-exploitation-moves-faster-than-vulnerability-management-ad1a2c208f75",
+        "title": "When Exploitation Moves Faster Than Vulnerability Management",
+        "author": "Silvano Silva",
+        "published_at": "2026-11-19T02:04:12+00:00",
+        "excerpt": "Nov 17, 2026 · @Silvano Silva Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7d2f5907aa116694c14e9004",
+        "source": "medium",
+        "author_tags": [
+          "cve",
+          "mobile-security",
+          "bluetooth",
+          "cybersecurity",
+          "vulnerability"
+        ],
+        "url": "https://medium.com/@revazuranti/understanding-cve-2023-45866-the-bluetooth-keyboard-injection-flaw-ddf5175f8430",
+        "title": "Understanding CVE 2023 45866, the Bluetooth Keyboard Injection Flaw",
+        "author": "Reva Zuranti",
+        "published_at": "2026-11-19T01:55:26+00:00",
+        "excerpt": "How a device that pretends to be a keyboard can type on your phone or laptop, and what you can do about it. Continue reading on Medium »"
+      },
       {
         "id": "medium:1e4c8cc2ae331efe1959d1e4",
         "source": "medium",
