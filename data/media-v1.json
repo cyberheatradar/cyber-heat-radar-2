@@ -1,9 +1,68 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T23:40:02.917500+00:00",
+  "source_snapshot_generated_at": "2026-11-19T00:40:03.153579+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:a55286ea3c15795484ce5215",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "iptables",
+          "Claude Code",
+          "applecontainer"
+        ],
+        "url": "https://zenn.dev/gixo/articles/claude-code-apple-container-setup",
+        "title": "Apple container で Claude Code の隔離した作業環境を作る",
+        "author": "Yuji Tsuritani",
+        "published_at": "2026-11-19T00:30:05.127000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:17076af46ad7e94fa2846ec6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "DB",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/kirbykaito/articles/7410449dafa1fd",
+        "title": "1,611件の「備考」を全部書き直した話：120字に圧縮しても、落としてはいけない注意書きが8つあった",
+        "author": "kirbykaito",
+        "published_at": "2026-11-19T00:26:32.524000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aa1005e385b7a90f0e2ccf48",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "個人情報"
+        ],
+        "url": "https://zenn.dev/teraaa12/articles/bd8c1c92d41ef3",
+        "title": "楽天証券の約1,572万口座流出から考える、テスト環境に本番データを置くときのセキュリティ対策",
+        "author": "てら",
+        "published_at": "2026-11-19T00:26:14.068000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d38c6179872e7162b6563f51",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Windows",
+          "llm",
+          "Ollama",
+          "ローカル LLM"
+        ],
+        "url": "https://zenn.dev/shacikku3/articles/ollama-update-check-speed-rollback",
+        "title": "Ollama を更新するときに確かめる3つ ― 署名・更新前後の速さ・戻し方（Windows）",
+        "author": "シャチラボ",
+        "published_at": "2026-11-19T00:06:10.010000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:b91c81fa5a2495831545577b",
         "source": "zenn",
@@ -41668,6 +41727,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:09d48175ab164cd364af9221",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "TCP",
+          "Security",
+          "脆弱性",
+          "インフラ"
+        ],
+        "url": "https://qiita.com/sss2013/items/96686941a29d1a97a581",
+        "title": "NoisyTCPを読み解く — TCPソケットの再利用がLinuxカーネルを停止させる仕組み",
+        "author": "sss2013",
+        "published_at": "2026-11-19T09:17:26+09:00",
+        "excerpt": "はじめに Linuxカーネルの脆弱性「NoisyTCP（CVE-2026-99288）」について、TCPパケットの受信からカーネルが停止するまでの流れを整理します。問題の中心は、 ソケットの検索とメモリの再利用が並行したとき、検索対象として扱えない新しいソケットを返してしまうこと です。 この記事は、韓国メディアTHE ELECの記事をきっかけに、研究者の公開資料、Linuxカーネルの修正内容、公式ドキュメントを読み合わせた解説です。資料の確認日は2026年11月19日です。 参考資料 THE ELEC・NoisyTCPを報じた記事 ／ 研究者Hyunwoo Kim氏の公開資料 NoisyTCPで起きること NoisyTCPは、LinuxカーネルのTCP処理にある競合条件（レースコンディション）です。攻撃者のTCPパケットが届く待ち受けポートがあり、ソケットの検索と解放・再割り当てが特定のタイミングで重なると、認証前にカーネルクラッシュを引き起こせます。 Nginx、Apache、SSHなどの通常のTCPリスナーが対象になり得ます。研究者は、複数"
+      },
+      {
         "id": "qiita:11e8eaae2e731c42513c50b6",
         "source": "qiita",
         "author_tags": [
@@ -56819,6 +56894,68 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6860d83bf8855928b514aeba",
+        "source": "medium",
+        "author_tags": [
+          "company-setup-dubai",
+          "cybersecurity",
+          "cyber-company"
+        ],
+        "url": "https://medium.com/@ayamgroup/cybersecurity-company-setup-in-qatar-2026-guide-ayam-group-0b1354c09425",
+        "title": "Cybersecurity Company Setup in Qatar: 2026 Guide | Ayam Group",
+        "author": "Ayamgroup",
+        "published_at": "2026-11-19T00:37:49+00:00",
+        "excerpt": "The demand for cybersecurity companies in Qatar is growing rapidly, driven by a national push toward digital transformation, a rising wave… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2e7be9b588310aca825a3a14",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "risk-management",
+          "cybersecurity",
+          "ot-security",
+          "critical-infrastructure"
+        ],
+        "url": "https://medium.com/@aderthom/what-stuxnet-still-teaches-us-about-industrial-cybersecurity-risk-e8f139cbece1",
+        "title": "What Stuxnet Still Teaches Us About Industrial Cybersecurity Risk",
+        "author": "Aderonke Thompson, PhD",
+        "published_at": "2026-11-19T00:29:27+00:00",
+        "excerpt": "From industrial sabotage to cyber deception, threat intelligence and operational resilience. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8ece75b6c182da6d9814535b",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "software-development",
+          "programming",
+          "java",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@aneesh12online/java4shell-when-javas-memory-safety-meets-a-critical-security-vulnerability-cf2cdc23c2af",
+        "title": "Java4Shell: When Java’s Memory Safety Meets a Critical Security Vulnerability",
+        "author": "aneesh kumar",
+        "published_at": "2026-11-19T00:27:28+00:00",
+        "excerpt": "CVE-2026-114938 | CVSS 4.0: 9.2 (Critical) Continue reading on Medium »"
+      },
+      {
+        "id": "medium:beb9986b022612d16ada8985",
+        "source": "medium",
+        "author_tags": [
+          "privacy",
+          "social-engineering",
+          "cybersecurity",
+          "scam",
+          "phishing"
+        ],
+        "url": "https://cslev.medium.com/offline-privacy-the-data-you-never-posted-scammers-still-use-e9deb39d2f66",
+        "title": "Offline Privacy: The Data You Never Posted, Scammers Still Use",
+        "author": "Levente Csikor",
+        "published_at": "2026-11-19T00:11:01+00:00",
+        "excerpt": "Scam awareness treats symptoms. Offline privacy cuts the data phishers use: badges, bag tags, metro screens, transit taps, loyalty cards. Continue reading on Medium »"
+      },
       {
         "id": "medium:4b46a57cbdcba6142bda14a2",
         "source": "medium",
