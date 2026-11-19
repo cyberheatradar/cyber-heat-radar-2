@@ -1,9 +1,87 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T03:40:03.175330+00:00",
+  "source_snapshot_generated_at": "2026-11-19T04:40:03.182088+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ee50f7457e5a5c90c0be3ecf",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "Claude",
+          "socialmedia",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/claude-code-subagents-tiktok-accounts",
+        "title": "Claude Codeサブエージェント：HaikuでTikTokアカウント調査",
+        "author": "EveryInfra",
+        "published_at": "2026-11-19T04:35:34.430000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:23ae04e983ff303ba78f3d5e",
+        "source": "zenn",
+        "author_tags": [
+          "Rust",
+          "Security",
+          "Tauri"
+        ],
+        "url": "https://zenn.dev/nexspace/articles/4618c2ba54e0a8",
+        "title": "非プログラマーのAIアーキテクトが組んだ、外部LLM非依存・Pure Rust製「自律防御AI＆360-DQHM自己修復」全設計",
+        "author": "Y.Matsunaga",
+        "published_at": "2026-11-19T04:20:32.495000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9918b4f95bae59888a8b0e38",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Microsoft",
+          "OpenAI",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261118",
+        "title": "GPT-6.2登場。難問用と日常用、AIを使い分ける時代へ",
+        "author": "菅原友和",
+        "published_at": "2026-11-19T04:12:14.579000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7b0b7e7ed4545aa505e854d1",
+        "source": "zenn",
+        "author_tags": [
+          "Java",
+          "Security",
+          "OpenJDK",
+          "vulnerability",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/tetsurou/articles/cve-2026-114938-openjdk-java4shell",
+        "title": "【CVE-2026-114938】OpenJDK Base64デコーダの脆弱性（Java4Shell）",
+        "author": "tetsurou",
+        "published_at": "2026-11-19T04:09:23.236000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7483c9e01e78dc73147a8333",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "運用",
+          "Agent",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ai_shihan/articles/8af8e773d5b725",
+        "title": "AIが書いたXの下書き4本を、元の文面と突き合わせた —— 出せたのは3本、1本は自分の指示文と食い違っていた",
+        "author": "ai_shihan",
+        "published_at": "2026-11-19T04:02:11.141000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:9cf864e10547eb89e7fab145",
         "source": "zenn",
@@ -125,6 +203,21 @@
         "title": "キーのローテーションと検出：中高生に説明するつもりで書く技術・セキュリティ",
         "author": "コタ",
         "published_at": "2026-11-19T03:01:22.151000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:27bb9319c3a0f226cd039a30",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "仕事術",
+          "ノート",
+          "新卒"
+        ],
+        "url": "https://zenn.dev/tokium_dev/articles/paper-mindmap-before-ai",
+        "title": "で、なんの話だっけ？ ― AIと話す前に、紙に書こう！",
+        "author": "なる",
+        "published_at": "2026-11-19T03:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -42011,6 +42104,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e71d9079f79feb0ca18cb0e7",
+        "source": "qiita",
+        "author_tags": [
+          "MCP",
+          "Python",
+          "AWS",
+          "Security",
+          "AI"
+        ],
+        "url": "https://qiita.com/IT-love-pug/items/b8e8e5be5f120ed87fba",
+        "title": "MCPサーバーに関して⑨：セキュリティと運用",
+        "author": "IT-love-pug",
+        "published_at": "2026-11-19T13:39:03+09:00",
+        "excerpt": "MCPサーバーに関して⑨：セキュリティと運用 ⑧までで、ローカルでのサーバー作りからAWSへのデプロイとOAuth 2.1の認証まで進みました。今回は「作ったサーバーをどう守り、どう運用するか」です。 この記事はMCP仕様の最新版 2026-07-28 をもとに書いています。この版でプロトコルはステートレスになり、セッションはありません。 この記事で分かること MCPサーバー特有のリスクと、多層防御の考え方 最小権限の設計と、危険なツールの安全な作り方 AWSでのサンドボックスと、ログ・監視の組み立て方 ツールやプロトコルを変えるときの注意点 MCPサーバー特有のリスク像 MCPの3機能のうち、副作用を持つのが ツール です。仕様は「ツールは任意のコード実行であり、適切な注意をもって扱わなければならない」と明記しています。リソースやプロンプトは読むだけですが、ツールはDBを書き換え、外部へ送信し、ファイルを消せます。 やっかいなのは、 呼ぶのが人間ではなくモデル だという点です。モデルは会話の文脈から判断してツールを選び、引数も自分で決めます。仕"
+      },
+      {
         "id": "qiita:3a0a0b32101aafdfd94a8b15",
         "source": "qiita",
         "author_tags": [
@@ -48028,6 +48137,20 @@
         "author": "kenimo49",
         "published_at": "2026-11-06T21:38:35+09:00",
         "excerpt": "ポケモン金銀で、ボックスを切り替えるレポートの最中に電源を切ると、預けたはずのポケモンが手元にも残る。子どものころ、あれで増やした人は多いと思います。 ボックスに書き込む処理も、手持ちから消す処理も、単体ではどこも壊れていません。壊れていたのは処理と処理の「継ぎ目」でした。 2026年11月、これとよく似た形のバグが OpenSSH で見つかりました。名前は *sshole。「256文字を超えるパスワードを打つと、ログインできないはずのアカウントに入れてしまう」というものです。X では「Linuxに致命的な脆弱性」という見出しで回っていました。 Linuxに致命的な脆弱性 パスワードに適当な256文字を打つとroot権限が奪えてしまうバグ見つかる musl系で約10年潜伏していました。 — ツイッター速報〜BreakingNews (@tweetsoku1) November 6, 2026 最初に聞きたくなるのは「なんでこんなバグが？」だと思います。 先に安心材料：すべての Linux の話ではありません 見出しだけ読むと Linux 全体が危"
+      },
+      {
+        "id": "qiita:e82c4411a3fac3c4c6a8a79c",
+        "source": "qiita",
+        "author_tags": [
+          "XDR",
+          "Security",
+          "Cisco"
+        ],
+        "url": "https://qiita.com/TakayukiTerunuma/items/9d5efbdd95184bcb15e0",
+        "title": "XDR導入・運用の進め方：製品選定からPoC、自動化、本番運用まで",
+        "author": "TakayukiTerunuma",
+        "published_at": "2026-11-06T20:06:19+09:00",
+        "excerpt": "はじめに XDR（Extended Detection and Response）は、EDRやNDR、メールセキュリティなど複数の製品のアラートを集約し、相関分析から対処の判断・実行までを横断的に支援する仕組みです。 前回の記事 では、Cisco XDRを例に、複数のセキュリティ製品を運用する現場の課題に対してXDRがどこまで有効かを検証しました。検証では、次の3点を確認しました。 複数製品のアラートが、1つのインシデントとして相関・可視化されること。 プレイブックにより、対応手順を段階的に案内できること。 ワークフローにより、通知・端末の隔離・スナップショットの取得を自動化できること。 ただし、XDRと呼ばれる製品は数多くあり、どの製品が適しているかは、組織の既存環境や運用上の課題によって異なります。また、製品を導入しただけでは、セキュリティ運用の課題は解決しません。自社の運用に合わせて連携や自動化を設計し、継続的に改善していく必要があります。 そこで本稿では、特定の製品に限定せず、 自社環境にXDRを導入するときに何を検討し、どのように進めれ"
       },
       {
         "id": "qiita:f09221b61ad6221c08fa5093",
@@ -57380,6 +57503,64 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b0bf50ba8aa11702a21fdec3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-awareness",
+          "cybersecurity",
+          "cybersecurity-research"
+        ],
+        "url": "https://grabitel.medium.com/byovm-isnt-new-that-s-exactly-why-i-m-still-researching-it-a08e138923d4",
+        "title": "BYOVM Isn’t New. That’s Exactly Why I’m Still Researching It.",
+        "author": "Grabitel",
+        "published_at": "2026-11-19T04:25:00+00:00",
+        "excerpt": "Exploring QEMU, Tiny Core Linux, Ligolo-ng, and why older techniques still deserve attention in modern offensive security research. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:60d59d52a856d8bb99e91e38",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-careers",
+          "cybersecurity-training",
+          "cybersecurity-news",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@karunavcube/cybersecurity-training-institute-in-hyderabad-a-complete-career-guide-134997897893",
+        "title": "Cybersecurity Training Institute in Hyderabad: A Complete Career Guide",
+        "author": "karunakar",
+        "published_at": "2026-11-19T04:07:03+00:00",
+        "excerpt": "Cybersecurity Training Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4f68a227cb86762b6cbef503",
+        "source": "medium",
+        "author_tags": [
+          "ctf",
+          "vulnerability",
+          "penetration-testing",
+          "cybersecurity",
+          "linux"
+        ],
+        "url": "https://medium.com/@jamilulx01/metasploitable-2-walkthrough-81311d5d21cf",
+        "title": "Metasploitable 2 – Walkthrough",
+        "author": "Jamilulx",
+        "published_at": "2026-11-19T04:04:15+00:00",
+        "excerpt": "Tags: CTF, Penetration Testing, Cybersecurity, Vulnhub, Linux Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3a76e031ced765a3524367b4",
+        "source": "medium",
+        "author_tags": [
+          "hacking",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vijaysanthuru2007/hacking-understanding-the-world-of-cybersecurity-22470e43a324",
+        "title": "Hacking -understanding the world of cybersecurity",
+        "author": "Vijaysanthuru",
+        "published_at": "2026-11-19T04:01:58+00:00",
+        "excerpt": "1. Introduction Continue reading on Medium »"
+      },
       {
         "id": "medium:09f5e50fda2dbe72a6bb0ca6",
         "source": "medium",
