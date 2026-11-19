@@ -1,9 +1,23 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T17:40:03.008150+00:00",
+  "source_snapshot_generated_at": "2026-11-19T18:40:03.286615+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:51d6fd9d6734380a40f89504",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "G検定"
+        ],
+        "url": "https://zenn.dev/tkrndisk/articles/g-kentei-algorithm-bias-kids",
+        "title": "【小学5年生でもわかる】アルゴリズムバイアスってなに？",
+        "author": "まっすん",
+        "published_at": "2026-11-19T18:35:55.780000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:36bd28421df8d65dbdf9a183",
         "source": "zenn",
@@ -43191,6 +43205,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:58e2a84414d8e323dc054fef",
+        "source": "qiita",
+        "author_tags": [
+          "ESP32",
+          "bitwarden",
+          "Security",
+          "password",
+          "ESP-IDF"
+        ],
+        "url": "https://qiita.com/hide_seki/items/8d11d99f0d9b05bd2378",
+        "title": "集めるから、狙われる。パスワードの保管庫をESP32-S3に入れてみた",
+        "author": "hide_seki",
+        "published_at": "2026-11-20T03:33:15+09:00",
+        "excerpt": "パスワードの保管庫を、千円ほどのESP32-S3に入れて公式Bitwardenアプリから使う 集めるから、狙われる。 クラウドが破られたら、自分の保管庫も一緒に持っていかれます。なら、1人分だけ手元に置けばいい。そう思って、USBで挿すマイコン基板の中で動く、Bitwarden互換のサーバー tinywarden を作りました。 リポジトリ: https://github.com/hidsek/tinywarden ブラウザから書き込む: https://hidsek.github.io/tinywarden/ （パソコンのChromeかEdgeで開いて、基板をダウンロードモードにしてつなぎ、ページのボタンを押すだけ） 保管庫は基板の中。クラウドにも家のサーバーにも置かず、ネットにもつながらない 公式のBitwardenアプリ（Mac・Windows・iPhone・Android）が、USB越しにそのままつながる 新しい端末でログインするときは、基板のボタンを押す。手元に置くだけなので、パスワードマネージャーを守るパスキーも要らない 監査を受けて"
+      },
+      {
+        "id": "qiita:e43db5d68112be01c7492d85",
+        "source": "qiita",
+        "author_tags": [
+          "Claude",
+          "Security"
+        ],
+        "url": "https://qiita.com/emi_ndk/items/f433b8cd1f842f439270",
+        "title": "[恐怖] 本当にあった怖いClaude詐欺メールの話",
+        "author": "emi_ndk",
+        "published_at": "2026-11-20T03:30:12+09:00",
+        "excerpt": "これは警告です。このemailが届いた場合直ちにブロックするかスパムフォルダへ転送してください 何が起きたか？筆者の独自体験 仕事後にメールフォルダに一通の通知が。確認してみるとどうやら誰かにClaudeへサインインされたとのことであった。 Secure your accountに従い、Claudeログインを試みる。はいこの時点で終了です。 まんまと引っかかりました。詐欺です。筆者もドンハマりしたこの手口、今回はかなり悪性が強いです。クラウドと同じメールを使い同じログイン画面まで表示する今回の詐欺メール、かなり話題になりそうなので先取りで警告します。繰り返します、 警告 です、注意喚起ではなくこれは実際に届きます。 偽物である理由 送信元アドレスが noreply@fcmb.com （銀行のメールシステム）となっており、 anthropic.com や claude.com ではありません。表示名は単に「Claude」となっています。 ボタンのリンク先は platform.claucle[.]ai です。よく見てください。「claude」ではなく"
+      },
+      {
         "id": "qiita:749ffdea8aa80a8fa31e48be",
         "source": "qiita",
         "author_tags": [
@@ -58967,6 +59010,36 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f62f98511c0b6f33a2eb9bce",
+        "source": "medium",
+        "author_tags": [
+          "kql",
+          "cybersecurity",
+          "writing",
+          "detection-engineering",
+          "career-growth"
+        ],
+        "url": "https://medium.com/@shahzaibjanjua25/the-article-i-wrote-because-nobody-else-would-457f4fbe8b30",
+        "title": "The Article I Wrote Because Nobody Else Would",
+        "author": "Shahzaib Sajid",
+        "published_at": "2026-11-19T18:19:40+00:00",
+        "excerpt": "How a Medium post about KQL rules became one of my most useful career moves Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5da5001b3940a45d688ecf2b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "threat-intelligence",
+          "vulnerability"
+        ],
+        "url": "https://socfortress.medium.com/cve-2026-114938-java4shell-ff438d93280e",
+        "title": "CVE-2026–114938 — Java4Shell",
+        "author": "SOCFortress",
+        "published_at": "2026-11-19T17:57:47+00:00",
+        "excerpt": "Note: Create your free account in SOCFortress Signals (https://signals.socfortress.co/) for: Continue reading on Medium »"
+      },
       {
         "id": "medium:c00bd072b60931dcb3d3552e",
         "source": "medium",
