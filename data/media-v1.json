@@ -1,9 +1,118 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-18T22:40:02.890299+00:00",
+  "source_snapshot_generated_at": "2026-11-18T23:40:02.917500+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b91c81fa5a2495831545577b",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Snowflake",
+          "Tableau",
+          "tableaucloud",
+          "ガバナンス"
+        ],
+        "url": "https://zenn.dev/truestar/articles/5681d6fe0541bc",
+        "title": "Tableau Cloudで何をどこまで「権限・アクセス制御」出来るのか 〜Snowflake併用編(2026年11月版)〜",
+        "author": "しんや",
+        "published_at": "2026-11-18T23:32:39.409000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ef85cef17c946784d375d778",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Terraform",
+          "インフラ",
+          "IaC",
+          "Snowflake"
+        ],
+        "url": "https://zenn.dev/acntechjp/articles/9eb70c7915e8fb",
+        "title": "【第一弾】Snowflake環境をスペック駆動（Terraform × DCM）で開発管理する — 構成とアプローチ",
+        "author": "shinichi.sugiyama",
+        "published_at": "2026-11-18T23:30:05.572000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a4386235478209d1ebe11544",
+        "source": "zenn",
+        "author_tags": [
+          "PowerShell",
+          "Windows",
+          "Security",
+          "情シス",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/chukidx_dev/articles/claudecode-workspace-check",
+        "title": "Claude Code を起動する前に、作業フォルダの「置いてはいけないもの」を自動で点検する(Windows・PowerShell)",
+        "author": "中小DXラボ(chukidx)",
+        "published_at": "2026-11-18T23:20:27.331000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:facdadd70a171974d45204ca",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "教育",
+          "人材育成",
+          "llm",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261119-learning-watch",
+        "title": "Learning Watch 2026-11-19: 学んだつもりを測り直す",
+        "author": "らいけん",
+        "published_at": "2026-11-18T23:05:10.792000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f12ad4fd759b6a729e69b14a",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "essay"
+        ],
+        "url": "https://zenn.dev/alpine/articles/fb175eeed7f524",
+        "title": "名作に学ぶIT現場の歩き方：空飛ぶ廃墟のセキュリティ",
+        "author": "Alpine on Software",
+        "published_at": "2026-11-18T23:00:06.705000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:871cb83f655a6ed47af9b58c",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "proton",
+          "YubiKey",
+          "Passkey (パスキー)",
+          "KeePassXC"
+        ],
+        "url": "https://zenn.dev/hiroyamayu/articles/yubikey-proton-account-recovery",
+        "title": "物理パスキー YubiKey 2 本と Proton で家のアカウントを守り、全部失っても入り直せる道を作った",
+        "author": "広山ゆう",
+        "published_at": "2026-11-18T23:00:06.033000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:34e9241eb4cfbd5ab1cafc40",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Lean 4",
+          "llm",
+          "形式検証",
+          "pstack"
+        ],
+        "url": "https://zenn.dev/ncdc/articles/dcec80b0c067b0",
+        "title": "なぜ今形式検証なのか",
+        "author": "senna",
+        "published_at": "2026-11-18T23:00:05.818000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:99102592ce1e1e476100ec59",
         "source": "zenn",
@@ -41559,6 +41668,19 @@
     ],
     "qiita": [
       {
+        "id": "qiita:11e8eaae2e731c42513c50b6",
+        "source": "qiita",
+        "author_tags": [
+          "Databricks",
+          "Security"
+        ],
+        "url": "https://qiita.com/happyseto/items/7471ad8a5ce9b6c9562d",
+        "title": "Databricks の Private Network Gateway(PNG)を設定する",
+        "author": "happyseto",
+        "published_at": "2026-11-19T07:41:32+09:00",
+        "excerpt": "Databricks のサーバレスから、VNet の中にある DB に閉域でつなぐための新機能「Private Network Gateway(以下、PNG)」を、実際に設定してみました。 この記事では、PNG が出てきた背景とイメージを整理したうえで、設定の流れを紹介します。 2026年11月時点の情報です。Azure の PNG は Public Preview のため、今後仕様が変わる可能性があります。 PNGの概要 なぜ PNG が出てきたのか サーバレスの compute は、利用者の VNet ではなく、Databricks が管理する環境で動きます。そのため、パブリック IP を持たない DB や社内 API に届かせるには、別途ネットワークの経路を用意する必要があります。 これまでの方法では、 宛先ごとに private endpoint・ロードバランサー・(場合によっては)プロキシ用の VM を用意する必要がありました。Databricks の発表ブログでは、インタビューした顧客の75%以上が「ネットワーク構成とその変更の手間」"
+      },
+      {
         "id": "qiita:195f0846e713612e65fd3dde",
         "source": "qiita",
         "author_tags": [
@@ -56697,6 +56819,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4b46a57cbdcba6142bda14a2",
+        "source": "medium",
+        "author_tags": [
+          "threat-detection",
+          "vulnerability-management",
+          "network-security",
+          "incident-response",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@nathalietchoumi4/patched-exposed-compromised-d48eb572dd43",
+        "title": "PATCHED, EXPOSED, COMPROMISED.",
+        "author": "Nathalietchoumi",
+        "published_at": "2026-11-18T23:31:22+00:00",
+        "excerpt": "When the tool designed to manage your infrastructure becomes the attacker’s gateway. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:40f1f9489ffcbf0ccf38ab33",
+        "source": "medium",
+        "author_tags": [
+          "internships",
+          "experience",
+          "intrapreneur",
+          "penetration-testing",
+          "cybersecurity"
+        ],
+        "url": "https://sirajmahmood.medium.com/from-learning-cybersecurity-to-practicing-it-in-the-real-world-my-first-month-at-intrapreneur-c68be040d6ea",
+        "title": "From Learning Cybersecurity to Practicing It in the Real World: My First Month at Intrapreneur",
+        "author": "Siraj Mahmood",
+        "published_at": "2026-11-18T23:09:52+00:00",
+        "excerpt": "Four Weeks of Professional Experience, Hands-On Penetration Testing, Real-World Security Development, and Selection for the Paid… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:69baa74e316a253ab483cd36",
+        "source": "medium",
+        "author_tags": [
+          "zero-trust",
+          "cloud-security",
+          "security-engineering",
+          "career-advice",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@tiphics/everyone-is-a-cybersecurity-expert-so-what-does-real-expertise-look-like-97b9db6c9bed",
+        "title": "Everyone Is a Cybersecurity Expert. So What Does Real Expertise Look Like?",
+        "author": "Allen Ndawana",
+        "published_at": "2026-11-18T23:05:14+00:00",
+        "excerpt": "Scroll through LinkedIn for five minutes and you will meet a dozen cybersecurity experts. Some of them are. Many have learned about… Continue reading on Medium »"
+      },
       {
         "id": "medium:ab489a51ad77ed35dff144f7",
         "source": "medium",
