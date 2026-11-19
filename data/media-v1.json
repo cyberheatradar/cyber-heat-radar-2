@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T09:40:03.186281+00:00",
+  "source_snapshot_generated_at": "2026-11-19T10:40:02.819569+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:76d5c70481179171bf96021b",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "個人情報",
+          "Passkey (パスキー)",
+          "フィッシング"
+        ],
+        "url": "https://zenn.dev/yasashii_pc/articles/rakuten-securities-data-leak-guide",
+        "title": "【初心者向け】楽天証券の情報漏えいで何が起きた？利用者が今できること",
+        "author": "やさしいPCの先生",
+        "published_at": "2026-11-19T10:34:11.161000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:07c9bba1b15377552ef3be60",
+        "source": "zenn",
+        "author_tags": [
+          "iOS",
+          "Security",
+          "Cloudflare Workers",
+          "Claude",
+          "appattest"
+        ],
+        "url": "https://zenn.dev/toshipon/articles/kukai-llm-app-defense",
+        "title": "個人開発の LLM アプリを「お財布攻撃」から守る: App Attest、Durable Object の実行制限、WAF を見送った理由",
+        "author": "toshipon",
+        "published_at": "2026-11-19T10:22:43.298000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:61c2e315ac01eeaca4ae545a",
         "source": "zenn",
@@ -42459,6 +42490,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:ac80aed5c5a9cb60e3306c42",
+        "source": "qiita",
+        "author_tags": [
+          "Zscaler",
+          "Security",
+          "sase",
+          "SSE",
+          "zerotrust"
+        ],
+        "url": "https://qiita.com/clinks_zscaler_sales/items/169c96ba6f0689fd9543",
+        "title": "【FY27版】③Zscaler Digital Experience (ZDX) ライセンス体系整理：機能差分と選び方",
+        "author": "clinks_zscaler_sales",
+        "published_at": "2026-11-19T19:04:44+09:00",
+        "excerpt": "はじめに ZscalerのFY27（2026年8月〜2027年7月期）における新しいライセンス体系を解説する連載。 第3回となる今回は、エンドユーザーのデジタル体験を可視化するDEM（Digital Experience Monitoring）ソリューション、**ZDX（Zscaler Digital Experience）**編です。 ゼロトラスト環境やハイブリッドワークが普及すると、情シス部門には日々こんな問い合わせが寄せられます。 「なんとなく業務アプリの反応が遅い」 「自宅からWeb会議（Teams / Zoom）に繋ぐと音声が途切れる」 原因が「ユーザー端末のスペック不足（CPU高騰）」なのか、「自宅のWi-Fi・ISPの遅延」なのか、「SaaS側の障害」なのかを切り分けるのは至難の業です。ZDXは、この**「エンドポイント〜ネットワーク〜アプリケーション」の全区間を1つの画面で可視化し、原因特定を自動化するツール**です。 本記事では、最新のFY27ライセンス体系におけるZDXのエディション差分と、現場の運用で「どのエディションを選ぶ"
+      },
+      {
         "id": "qiita:df0e1a8f9f092c8c8c99e2ff",
         "source": "qiita",
         "author_tags": [
@@ -57968,6 +58015,99 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d00cb83eb42884d479c1bcd6",
+        "source": "medium",
+        "author_tags": [
+          "self-hosting",
+          "cybersecurity",
+          "vulnerability",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@johe.stephan/nucmap-self-hosted-attack-surface-management-for-homelabs-and-internal-networks-7fea790f502d",
+        "title": "NucMap: Self-Hosted Attack Surface Management for Homelabs and Internal Networks",
+        "author": "Jörg Stephan",
+        "published_at": "2026-11-19T10:21:46+00:00",
+        "excerpt": "Why I wanted a lightweight bridge between Nmap and Nuclei — and how state-based drift detection turns point-in-time scans into continuous… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:150eaf348622c51c4a8cfe5a",
+        "source": "medium",
+        "author_tags": [
+          "ai-agent",
+          "ai",
+          "cybersecurity",
+          "mobile-app-development"
+        ],
+        "url": "https://medium.com/@pandag0tbann3d/cryptographic-silent-network-authentication-and-mobile-identity-d08910b40b04",
+        "title": "Cryptographic Silent Network Authentication and Mobile Identity",
+        "author": "Shreyash Mall",
+        "published_at": "2026-11-19T10:10:32+00:00",
+        "excerpt": "The mobile identity landscape is actively deprecating possession-based Short Message Service One-Time Passwords (SMS OTPs). While… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0c7a68efbae0776c7420a7cd",
+        "source": "medium",
+        "author_tags": [
+          "openai",
+          "cybersecurity",
+          "ai",
+          "penetration-testing",
+          "vulnerability"
+        ],
+        "url": "https://samadhanshimple.medium.com/openai-compaction-flaw-how-researchers-found-a-way-to-expose-hidden-ai-reasoning-76270ca9306f",
+        "title": "OpenAI Compaction Flaw: How Researchers Found a Way to Expose Hidden AI Reasoning",
+        "author": "Samadhan shimple",
+        "published_at": "2026-11-19T09:56:59+00:00",
+        "excerpt": "A security investigation by Xint revealed how OpenAI’s conversation compaction feature could be abused to extract hidden reasoning traces… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:32ed4488569ff31db244d19a",
+        "source": "medium",
+        "author_tags": [
+          "authentication",
+          "cybersecurity",
+          "webauthn",
+          "passkey"
+        ],
+        "url": "https://medium.com/@corbado_tech/synced-passkeys-held-recovery-endpoints-and-fallbacks-are-the-d912066a5ac3",
+        "title": "Synced Passkeys Held. Recovery, Endpoints and Fallbacks Are the",
+        "author": "corbado",
+        "published_at": "2026-11-19T09:56:42+00:00",
+        "excerpt": "Passkeys stopped classic phishing, but synced passkeys moved the attack surface to recovery, endpoints, and fallbacks. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:472001bca48ffed57c62fb46",
+        "source": "medium",
+        "author_tags": [
+          "brand-protection",
+          "ecommerce",
+          "digital-marketing",
+          "online-shopping",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@mfilterit1/while-youre-preparing-black-friday-deals-someone-is-preparing-to-exploit-your-brand-bb3371a699b0",
+        "title": "While You’re Preparing Black Friday Deals, Someone Is Preparing to Exploit Your Brand",
+        "author": "mFilterIt",
+        "published_at": "2026-11-19T09:54:23+00:00",
+        "excerpt": "Black Friday attracts millions of online shoppers. But behind the rush for discounts lies another opportunity: exploiting trusted brand… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f5e46ef0d1c312fca8e35100",
+        "source": "medium",
+        "author_tags": [
+          "osint",
+          "ctf",
+          "cybersecurity",
+          "information-security",
+          "digital-forensics"
+        ],
+        "url": "https://medium.com/@Chiranjeevi_C/from-a-blank-pdf-to-a-manhattan-address-solving-the-counterintelligence-challenge-on-the-osint-b688f41b787a",
+        "title": "From a Blank PDF to a Manhattan Address: Solving the “Counterintelligence” Challenge on the OSINT…",
+        "author": "Chiranjeevi C",
+        "published_at": "2026-11-19T09:52:52+00:00",
+        "excerpt": "Document forensics, social media pivoting, audio steganography, Morse code and SSTV decoding Continue reading on Medium »"
+      },
       {
         "id": "medium:7a9c7fd0f9dec00985b354ae",
         "source": "medium",
