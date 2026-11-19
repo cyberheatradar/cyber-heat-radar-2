@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-19T17:07:46.889827+00:00",
-  "as_of": "2026-11-19T17:00:00+00:00",
-  "catalog_count": 25852,
+  "generated_at": "2026-11-19T18:07:42.457776+00:00",
+  "as_of": "2026-11-19T18:00:00+00:00",
+  "catalog_count": 25855,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,34 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/cisa-losapio-nomination-trump",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T02:22:38.990149+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-c66ecf2060a622cf01e528de",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:c66ecf2060a622cf01e528de",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-20T02:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
+      "summary_excerpt": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
+      "threat_actors": [],
+      "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
@@ -37,6 +65,34 @@
       "summary_excerpt": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
       "threat_actors": [],
       "title": "PHP security updates fix 18 flaws, including critical RCE bugs"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cybersecuritydive.com/news/critical-remote-code-execution-flaws-nginx-web-server/875196/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T02:22:31.870115+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-6dca08e40302600b24ab4f0e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:6dca08e40302600b24ab4f0e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T01:20:12+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cybersecurity Dive",
+      "summary": "The flaws, including one that remained hidden for more than a decade, are difficult to exploit.",
+      "summary_excerpt": "The flaws, including one that remained hidden for more than a decade, are difficult to exploit.",
+      "threat_actors": [],
+      "title": "Critical remote code execution flaws found in Nginx web server"
     },
     {
       "ai_relevance": "material",
@@ -248,62 +304,6 @@
       "summary_excerpt": "Introduction For a threat actor, the perfect malware is one they don’t have to write, and already does all they need. One example of this is shown by the China-aligned APT known as Webworm, which has been known to deploy the open-source SoftEther VPN into the networks of compromised governmental organizations to maintain low-profile, long-term access. After this was publicly documented and defenders could keep an eye out for this tactic, the actor presumably started thinking of ways to make their covert access stealthier. In this post, we share our analysis of what we believe to be a so-far un",
       "threat_actors": [],
       "title": "Spying on Governments with Zero Lines of Malware: A Custom SoftEther Bridge in Webworm’s Toolkit"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T00:23:19.373415+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-eb38241a0eaffa222fca6e70",
-      "primary_category": "ransomware",
-      "public_article_id": "url:eb38241a0eaffa222fca6e70",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-20T00:00:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
-      "summary_excerpt": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
-      "threat_actors": [],
-      "title": "Five warning signs of ransomware breach before encryption or data theft"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T00:23:20.553863+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-03c656aa7f6268581691b1b5",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:03c656aa7f6268581691b1b5",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-19T23:57:24+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
-      "summary_excerpt": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
-      "threat_actors": [],
-      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers"
     }
   ],
   "hottest": [
@@ -332,8 +332,8 @@
       "seen_in_kev": false,
       "source_class": "topic_rss",
       "source_name": "The Hacker News",
-      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of vulnerabilities is as follows - CVE-2026-115560 (CVSS score: 9.2) - An improper input validation vulnerability that could result in remote code execution, file modification,",
-      "summary_excerpt": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of vulnerabilities is as follows - CVE-2026-115560 (CVSS score: 9.2) - An improper input validation vulnerability that could result in remote code execution, file modification,",
+      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
+      "summary_excerpt": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
       "threat_actors": [],
       "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution"
     },
@@ -597,16 +597,14 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
-      "cves": [
-        "CVE-2026-123007"
-      ],
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-19T02:53:13.446407+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-b82fa404dbc62b4dc34ea625",
+      "first_seen_at": "2026-11-20T01:52:07.061050+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-8e443c2964ac625708f2e93b",
       "primary_category": "vulnerability",
-      "public_article_id": "url:b82fa404dbc62b4dc34ea625",
+      "public_article_id": "url:8e443c2964ac625708f2e93b",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -614,16 +612,16 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-19T02:30:42+09:00",
+      "published_at": "2026-11-20T01:28:23+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "CERT-EU Security Advisories",
-      "summary": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully demonstrate the use of CVE-2026-123007, no exploitation in the wild has been reported yet. It is recommended to swiftly update NGINX as soon as possible, prioritising internet facing appliances.",
-      "summary_excerpt": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully demonstrate the use of CVE-2026-123007, no exploitation in the wild has been reported yet. It is recommended to swiftly update NGINX as soon as possible, prioritising internet facing appliances.",
+      "source_name": "BleepingComputer",
+      "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+      "summary_excerpt": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
       "threat_actors": [],
-      "title": "2026-022: Critical vulnerabilities in Nginx"
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs"
     }
   ],
   "rising": [],
@@ -925,32 +923,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】PHP security updates fix 18 flaws, including critical RCE bugs",
+    "【LATEST #1】CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
     "【HOTTEST #1 / Heat 75】PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "【LATEST #2】What Is Preemptive MDR? A Guide For Security Leaders",
+    "【LATEST #2】PHP security updates fix 18 flaws, including critical RCE bugs",
     "【HOTTEST #2 / Heat 75】ARMORY CASTLE Exploits vSphere",
-    "【LATEST #3】PHP Patches Seven Critical RCE Vulnerabilities",
+    "【LATEST #3】Critical remote code execution flaws found in Nginx web server",
     "【HOTTEST #3 / Heat 75】Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
-    "【LATEST #4】‘What the hell is going on?’: Technology outages offer preview of US infrastructure’s messy, risky future",
+    "【LATEST #4】What Is Preemptive MDR? A Guide For Security Leaders",
     "【HOTTEST #4 / Heat 67.5】PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-    "【LATEST #5】CyberPower PowerPanel Exploited to Run Malicious Code on Domain Controller",
+    "【LATEST #5】PHP Patches Seven Critical RCE Vulnerabilities",
     "【HOTTEST #5 / Heat 67.5】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-16T17:00:00+00:00",
-    "last_as_of": "2026-11-19T17:00:00+00:00",
+    "first_as_of": "2026-11-16T18:00:00+00:00",
+    "last_as_of": "2026-11-19T18:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-19T17:00:00+00:00",
-  "heat_as_of": "2026-11-19T17:00:00+00:00",
+  "news_as_of": "2026-11-19T18:00:00+00:00",
+  "heat_as_of": "2026-11-19T18:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25852,
-  "last_published_at": "2026-11-20T02:07:59.577803+09:00",
-  "publication_slot_jst": "2026-11-20T02:00:00+09:00"
+  "news_catalog_count": 25855,
+  "last_published_at": "2026-11-20T03:07:54.168722+09:00",
+  "publication_slot_jst": "2026-11-20T03:00:00+09:00"
 }
