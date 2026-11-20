@@ -1,9 +1,84 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T08:40:03.249240+00:00",
+  "source_snapshot_generated_at": "2026-11-20T09:40:02.886292+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:8d970ec39155336642d2ea1a",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/zhebuilds/articles/159dc93cf51bca",
+        "title": "質問に使う資料だけを選ぶ──種別・サイズ・抜粋・OCR",
+        "author": "Zhe",
+        "published_at": "2026-11-20T09:33:59.437000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1f2a3822c2519bfde7d70932",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "生産性",
+          "目標設定",
+          "Claude",
+          "マンダラチャート"
+        ],
+        "url": "https://zenn.dev/medirom_tech/articles/44dee3bbc4e0d9",
+        "title": "マンダラチャートの「埋めるのがしんどい」「目標作っておしまい」をClaudeで解消して、個人目標のコーチを作った話",
+        "author": "issei-homan",
+        "published_at": "2026-11-20T09:05:30.360000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:44430ab0370ff6b4f5a85b7e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "副業",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yuceo/articles/ai-board-service-listing-review",
+        "title": "AIが書いた出品文に、別のAIが4つダメ出しした",
+        "author": "Yu",
+        "published_at": "2026-11-20T09:02:58.271000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:744e6d5f7019736691d3f7ec",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "キャリア",
+          "GitHub Copilot",
+          "TikTok",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/talks_tldr_jp/articles/tldr45-nadella-summary",
+        "title": "Satya Nadella が語った、コードが安くなった後のソフトウェア開発（#45 要点解説）",
+        "author": "管理人K",
+        "published_at": "2026-11-20T09:00:10.145000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7a609d11b4672d8bb7511530",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Model Context Protocol",
+          "llm",
+          "agents",
+          "Grok"
+        ],
+        "url": "https://zenn.dev/worked/articles/0f832f7af77d3c",
+        "title": "新しい Grok Bot は優秀な新人だ。ただし、あなたの失敗は何も知らない",
+        "author": "Fabien Collangettes",
+        "published_at": "2026-11-20T08:51:48.712000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:6c64188fff111bf899d2d906",
         "source": "zenn",
@@ -44361,6 +44436,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:182011014643e4167a6be66f",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "Kiro",
+          "Security",
+          "waf",
+          "Inspector"
+        ],
+        "url": "https://qiita.com/REALKTMR/items/e020ef1804ba007a97c2",
+        "title": "緊急のセキュリティインシデント、Kiroは強い味方になるか ── PHP2Shell騒ぎで試したAI活用の実際",
+        "author": "REALKTMR",
+        "published_at": "2026-11-20T18:24:32+09:00",
+        "excerpt": "はじめに 2026年10月、PHP処理系に2件の重大な脆弱性（CVE-2026-109618、CVE-2026-109619。通称「PHP2Shell」）が公開されました。CVSS v4.0で9.2（Critical）、未認証のリモートコード実行（RCE）です。 このクラスの脆弱性情報が出たとき、理想を言えば「AWS WAFとAmazon Inspectorが自動で検知・防御してくれて、AWS Security Agent（現 AWS Continuum for Penetration Testing）が定期的に深い診断をしてくれる」という仕組みが事前に整っているのが本来のセオリーです。 ただ、現実にはそれが整っていない、あるいは整備中で間に合わない場面があります。「とりあえず今すぐ、自分の環境が影響を受けるか調べて、何か手を打ちたい」という場面です。 この記事では、AWSの砂場環境にPHP2Shellの脆弱な構成を再現し、 本来のセオリー（WAF / Inspector / Security Agent）がどう機能するはずかを確認し、 それが整"
+      },
+      {
+        "id": "qiita:e20a4d9b5fe5c0ba47482b10",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "AIDLC",
+          "Kiro",
+          "Security",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/hyahyahyahyahoooi/items/26c9ffd65fce026510c8",
+        "title": "AI駆動開発を始めるまでに半年かかった話 ― ガードレール、結局どこまでやればいいの？",
+        "author": "hyahyahyahyahoooi",
+        "published_at": "2026-11-20T17:44:40+09:00",
+        "excerpt": "この記事の結論 ガードレールは「人の注意をなくすもの」ではなく「不注意を事故にしないもの」 どこまでやっても人の注意は残る。ルール・仕組み・個人の注意の全部が要る 合言葉は「AIに渡す前に、ひと呼吸」 はじめに 今年の5月、AWSの AI-DLC Unicorn Gym に参加しました（参加レポートは こちら ）。 そこで感じたのは、 「この手法で、自分たちがサービス提供しているアプリケーションフレームワークを使った開発ができたらいいな」 ということでした。 AI-DLCのいいところは、AIが勝手に作るところではなく、 人のレビューと人の承認が必要なところ です。 品質を保ちながら、今までより速く開発できる。そこが一番すごいと感じました。 ただ、「じゃあ業務で使おう」と考えたとき、すぐに壁にぶつかりました。 ガードレールって、どこまでやればいいの？ そこからルールの整備とガードレールの検討を進めてきました。……正直、思ったより時間はかかりました(笑)。 本当は、すぐにでも業務に取り入れたかったんです。 でも、「気をつけてね」と個人の意識の問題で終"
+      },
+      {
         "id": "qiita:c72324f8d4759d9718b99167",
         "source": "qiita",
         "author_tags": [
@@ -60807,6 +60914,21 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:bd9b245543f9c79b12529b56",
+        "source": "medium",
+        "author_tags": [
+          "ai-security",
+          "infosec",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@Aacle/ai-bug-hunting-vs-human-bug-hunting-9351edb44673",
+        "title": "AI Bug Hunting vs Human Bug Hunting",
+        "author": "Abhishek meena",
+        "published_at": "2026-11-20T09:11:58+00:00",
+        "excerpt": "Who this is for: total beginners. No security background needed. Every technical word is explained the first time it appears. Written… Continue reading on Medium »"
+      },
       {
         "id": "medium:00cad0f560689aac25cee34a",
         "source": "medium",
