@@ -1,9 +1,68 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T11:40:02.924594+00:00",
+  "source_snapshot_generated_at": "2026-11-20T12:40:03.658345+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f296e105c25cb888fc76059b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Snowflake",
+          "データ基盤"
+        ],
+        "url": "https://zenn.dev/elm_carl/articles/18ecad9a24f61d",
+        "title": "Cortex Agent SDKがGA ― 実務者は何が変わるのか",
+        "author": "carl",
+        "published_at": "2026-11-20T12:22:04.858000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0ef607a0ada02af53089234e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ChatGPT",
+          "promptinjection",
+          "Gemini",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/jfp_mesh/articles/ai-bulk-read-sample-labels",
+        "title": "AI に資料を丸ごと読ませても、中の「見本の指示」に従わせないための、ラベルと前置きと機械の検査",
+        "author": "jfp_mesh",
+        "published_at": "2026-11-20T12:21:21.932000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d78fc80e9baa3e14c4ea9e36",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/azarashi_ora/articles/ora-claude-code-kimari-7",
+        "title": "Claude Code の部屋を何個も回して壊れた所と、いま使っている決まり 7 つ",
+        "author": "アザラシオラ",
+        "published_at": "2026-11-20T11:50:58.864000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cc44992d47f32a176e00c666",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Model Context Protocol",
+          "ChatGPT"
+        ],
+        "url": "https://zenn.dev/ahousecreate/articles/4b5e4ee9fb4b48",
+        "title": "AIの記憶を管理するためのシンプル・プラン",
+        "author": "Ahousecreate",
+        "published_at": "2026-11-20T11:47:54.679000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f87bba71d07953534f328f13",
         "source": "zenn",
@@ -44553,6 +44612,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:743ea68328c26c82552a6461",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "API",
+          "サーキットブレーカー",
+          "resilience4j"
+        ],
+        "url": "https://qiita.com/maees/items/d3c1bf783b706f547818",
+        "title": "銀行APIが2度止まった夜――サーキットブレーカーの開閉と再開の罠",
+        "author": "maees",
+        "published_at": "2026-11-20T21:18:14+09:00",
+        "excerpt": "銀行APIが2度止まった夜――サーキットブレーカーの開閉と再開の罠 2026年11月10日夜、GMOあおぞらネット銀行の銀行APIは外部からの不正な通信を受けて2度止まった。20:42に止めて22:30に再開し、11日1:02に再び止めて6:25に再開した。合計の停止時間は431分、約7.2時間になる。 この記事では、この夜を「止めた側の判断」と「呼ぶ側の備え」の両方から読む。道具はサーキットブレーカーの3状態（CLOSED／OPEN／HALF_OPEN）と、再開直後に起きるリトライの嵐だ。対象読者は、外部APIを呼ぶJavaのサーバーを書く人と、障害対応で「再開」の判断をする人だ。 関連する自記事：外部APIの切り替え判断は 送金APIは「失敗5回連続」で切り替える――冪等キーと202の設計 、制限側の数え方は 「60秒3回」のAPI制限は境界で2倍通る――固定窓のバーストとRedisの数え方 で扱っている。 何が起きたか――2度の停止と、波及した先 まず時系列を押さえる。時刻はすべて日本時間で、銀行の公式発表と報道の横断で確認したものだ。 日"
+      },
+      {
+        "id": "qiita:3abc7b1e7d13da81b052d33b",
+        "source": "qiita",
+        "author_tags": [
+          "Laravel",
+          "PHP",
+          "初心者",
+          "レンタルサーバー",
+          "Security"
+        ],
+        "url": "https://qiita.com/Engineering-seiya/items/5accce593e117741e657",
+        "title": "Laravelをレンタルサーバーで公開するとき、プロジェクトごと「ドメインの直下」に置かないでください",
+        "author": "Engineering-seiya",
+        "published_at": "2026-11-20T21:12:44+09:00",
+        "excerpt": "Laravelで作ったものを、レンタルサーバーで公開しようとしたとき。 FTPで public_html の中に、Laravelのプロジェクトを フォルダごと全部 アップロードしていないですか？ AIに聞きながら進めて、 https://example.com/public/ で画面が出た。 「公開できた」と思って終わり。 これ、 画面はちゃんと出ているのに、危ない状態 のことがあるんですね。 今回は、何が危ないのかと、どう置けばいいのかを書いていきます。 何が危ないのか Laravelのプロジェクトの中で、ブラウザから見えていいのは public フォルダの中だけ です。 laravel-app/ ├ app/ ├ bootstrap/ ├ config/ ├ public/ ← ブラウザから見えていいのはここだけ │ ├ index.php │ ├ css/ │ └ js/ ├ resources/ ├ routes/ ├ storage/ ├ vendor/ ├ .env ← DBのパスワードやAPP_KEYが入っている └ compose"
+      },
+      {
+        "id": "qiita:7e25c7690a75b858bc3254dd",
+        "source": "qiita",
+        "author_tags": [
+          "owasp",
+          "ASVS",
+          "Security",
+          "設計",
+          "脆弱性診断"
+        ],
+        "url": "https://qiita.com/ntaka329/items/3f9405a4e2bb7e0add3f",
+        "title": "AI で6つのシステムを診断して OWASP ASVS に当てはめたら、繰り返していたのは設計で決める規則の指摘だった話（2026年版）",
+        "author": "ntaka329",
+        "published_at": "2026-11-20T21:03:06+09:00",
+        "excerpt": "はじめに GMOコネクトの永田です。 前回、2つのシステムで AI 診断（Claude Code にソースを読ませるホワイトボックス診断）を回し、緊急・高の21件を OWASP ASVS 5.0 に当てはめました。そのときは「せめて L1 は要件に入れたい」と書いています。 その後の1週間で、さらに4つのシステムを同じやり方で診断しました。そのうち2つで SQL インジェクションが緊急で出て、SQL インジェクションのような同じパターンの指摘ばかり見ている気がしていました。 本当に同じパターンが多いのかを確かめるため、前回の2つと合わせた6つのシステム・77件を、前回と同じく ASVS に当てはめて、章ごとに数え直しました。すると、目立っていた SQL インジェクションは、6つのうちその2つだけでした。多くのシステムで繰り返し出ていたのは、業務のロジック（V2）・認可（V8）・認証（V6）の指摘です。その多くは、値の範囲や手順の順序、誰がどのデータに触れてよいかといった、要件や設計で先に決めておく規則に関わるものでした。 SQL インジェクション"
+      },
+      {
         "id": "qiita:77390576c132c7b3af7744ea",
         "source": "qiita",
         "author_tags": [
@@ -61073,6 +61180,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:2559779a78f3f583f36d650d",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cyberattack",
+          "cybersecurity-awareness"
+        ],
+        "url": "https://medium.com/agileinsider/october-2026-cybersecurity-recap-5-attacks-every-business-owner-should-learn-from-0457c6ea21bd",
+        "title": "October 2026 Cybersecurity Recap: 5 Attacks Every Business Owner Should Learn From",
+        "author": "Shamim Rajani",
+        "published_at": "2026-11-20T12:25:22+00:00",
+        "excerpt": "A closer look at five major cyber incidents and what they teach us about protecting business operations, data, and trust. Continue reading on Agile Insider »"
+      },
+      {
+        "id": "medium:6728dee1844397dc6a196659",
+        "source": "medium",
+        "author_tags": [
+          "data-privacy",
+          "crm",
+          "salesforce",
+          "cybersecurity",
+          "data-breach"
+        ],
+        "url": "https://medium.com/@sarita_8513/the-salesforce-breach-nobody-talks-about-your-connected-apps-b84d555873bc",
+        "title": "The Salesforce Breach Nobody Talks About: Your Connected Apps.",
+        "author": "Sarita",
+        "published_at": "2026-11-20T12:08:52+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2a13c4a4779291d119c8ea54",
+        "source": "medium",
+        "author_tags": [
+          "oauth",
+          "vulnerability",
+          "hacking",
+          "cybersecurity",
+          "walkthrough"
+        ],
+        "url": "https://medium.com/@viodex02/stop-trusting-the-oauth-email-how-one-missing-check-enables-account-takeover-in-2026-hackernoon-09eff86c3c21",
+        "title": "Stop Trusting the OAuth Email: How One Missing Check Enables Account Takeover in 2026 | HackerNoon",
+        "author": "Viodex",
+        "published_at": "2026-11-20T11:45:08+00:00",
+        "excerpt": "This type of article is, as far as I know, one of the first of its kind. I couldn’t find any article that goes deeply into the technical… Continue reading on Medium »"
+      },
       {
         "id": "medium:54efce29d1fcd17e18538473",
         "source": "medium",
