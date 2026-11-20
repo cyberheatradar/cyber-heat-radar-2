@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-20T11:07:38.283173+00:00",
-  "as_of": "2026-11-20T11:00:00+00:00",
-  "catalog_count": 25948,
+  "generated_at": "2026-11-20T12:07:57.266676+00:00",
+  "as_of": "2026-11-20T12:00:00+00:00",
+  "catalog_count": 25956,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,151 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:52:03.727945+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-e49868cae32f5171f0b21994",
+      "primary_category": "incident",
+      "public_article_id": "url:e49868cae32f5171f0b21994",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-20T20:36:51+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Threat actors accessed databases containing customer information associated with clinics in Japan. The post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek .",
+      "summary_excerpt": "Threat actors accessed databases containing customer information associated with clinics in Japan. The post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "SBC Medical Group Data Breach Impacts Over 2 Million"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/jpmorgan-data-breach-third-party/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:43.062483+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-de41546c42d81083279a0842",
+      "primary_category": "ransomware",
+      "public_article_id": "url:de41546c42d81083279a0842",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-20T20:15:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site",
+      "summary_excerpt": "Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site",
+      "threat_actors": [],
+      "title": "JPMorgan Confirms Customer Data Breach Following Third-Party Compromise"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:15.754352+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-6008bba5a1273aa9ecbcd613",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:6008bba5a1273aa9ecbcd613",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T19:57:43+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+      "summary_excerpt": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+      "threat_actors": [],
+      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:57.181466+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-db2cfea084044430419946d9",
+      "primary_category": "ai_security",
+      "public_article_id": "url:db2cfea084044430419946d9",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-20T19:51:42+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek .",
+      "summary_excerpt": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:57.830826+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-823ccfebdf7ab435a089b021",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:823ccfebdf7ab435a089b021",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-20T19:38:22+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
+      "summary_excerpt": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
+      "threat_actors": [],
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
@@ -42,6 +187,86 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:57.950945+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-c99f552cbbef77a02904205c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c99f552cbbef77a02904205c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T19:32:50+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "summary_excerpt": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "threat_actors": [],
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:42.137704+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-c7321368a555660969baa317",
+      "primary_category": "incident",
+      "public_article_id": "url:c7321368a555660969baa317",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-20T19:21:41+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Account details belonging to some 265,000 Oyster photocard holders may have been compromised in a breach of the photocard website, Transport for London (TfL) has warned. They include children with Zip cards and Londoners with the 60+ London Oyster photocard. TfL says it spotted suspicious activity on the site on 16 November and took the photocard system offline to limit access. “While we acted quickly to restrict this, this activity has unfortunately resulted in unauthorised … More → The post 265,000 Oyster photocard customers’ data exposed in Transport for London breach appeared first on Help Net Security .",
+      "summary_excerpt": "Account details belonging to some 265,000 Oyster photocard holders may have been compromised in a breach of the photocard website, Transport for London (TfL) has warned. They include children with Zip cards and Londoners with the 60+ London Oyster photocard. TfL says it spotted suspicious activity on the site on 16 November and took the photocard system offline to limit access. “While we acted quickly to restrict this, this activity has unfortunately resulted in unauthorised … More → The post 265,000 Oyster photocard customers’ data exposed in Transport for London breach appeared first on Help",
+      "threat_actors": [],
+      "title": "265,000 Oyster photocard customers’ data exposed in Transport for London breach"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.itmedia.co.jp/enterprise/articles/2611/20/news039.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:47.197878+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-42abc4e98c3f0abb4d2c5ca6",
+      "primary_category": "other",
+      "public_article_id": "url:42abc4e98c3f0abb4d2c5ca6",
+      "public_tags": [],
+      "published_at": "2026-11-20T19:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia Enterprise Security",
+      "summary": "Webサーバ「nginx」の修正版が公開された。認証なしで遠隔からコードを実行される恐れのある脆弱性に対処したものだが、バージョン番号を確認するだけでは自社のサーバが安全かどうかを判断できない。では、何を確認すればよいのか。",
+      "summary_excerpt": "Webサーバ「nginx」の修正版が公開された。認証なしで遠隔からコードを実行される恐れのある脆弱性に対処したものだが、バージョン番号を確認するだけでは自社のサーバが安全かどうかを判断できない。では、何を確認すればよいのか。",
+      "threat_actors": [],
+      "title": "nginxに深刻な脆弱性、遠隔からコードを実行される可能性も　「バージョン確認だけ」では不十分な理由"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://japan.zdnet.com/article/35255238/",
       "cves": [],
       "document_form": "single_story",
@@ -61,224 +286,6 @@
       "summary_excerpt": "日立製作所はOpenAIが主導する「Daybreak Defense Network」に参画する。",
       "threat_actors": [],
       "title": "日立製作所、OpenAI主導のセキュリティプログラムに参画"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6603320?source=rss",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T18:53:44.107666+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-773cdce76b4c98ccac57eeb8",
-      "primary_category": "other",
-      "public_article_id": "url:773cdce76b4c98ccac57eeb8",
-      "public_tags": [],
-      "published_at": "2026-11-20T18:36:38+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Yahoo!ニュース IT",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "政府内部資料流出か 不正アクセス"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T18:22:38.907973+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-ed2b00ab504a2f3b876a81cf",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:ed2b00ab504a2f3b876a81cf",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-20T18:08:35+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft. The post N-able Blames Service Disruption on Cyberattack appeared first on SecurityWeek .",
-      "summary_excerpt": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft. The post N-able Blames Service Disruption on Cyberattack appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "N-able Blames Service Disruption on Cyberattack"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T18:22:32.963684+09:00",
-      "heat_score": 73.0,
-      "permalink_id": "article-url-d95acd1470bbe750de0962d8",
-      "primary_category": "ai_security",
-      "public_article_id": "url:d95acd1470bbe750de0962d8",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-20T17:52:29+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "The European Commission has confirmed it was hit by a cyberattack that misused a publicly available AI tool and forced the institution to take several of its applications offline. Commission spokesperson Thomas Regnier gave the confirmation at Thursday’s midday press briefing in Brussels. Politico was the first to report the attack, in an exclusive published earlier that day. Reporters used the Q&A session to press Regnier on which systems were hit, whether staff data was … More → The post European Commission confirms AI-generated cyberattack disrupted its systems appeared first on Help Net Security .",
-      "summary_excerpt": "The European Commission has confirmed it was hit by a cyberattack that misused a publicly available AI tool and forced the institution to take several of its applications offline. Commission spokesperson Thomas Regnier gave the confirmation at Thursday’s midday press briefing in Brussels. Politico was the first to report the attack, in an exclusive published earlier that day. Reporters used the Q&A session to press Regnier on which systems were hit, whether staff data was … More → The post European Commission confirms AI-generated cyberattack disrupted its systems appeared first on Help Net Se",
-      "threat_actors": [],
-      "title": "European Commission confirms AI-generated cyberattack disrupted its systems"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12194/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T18:53:39.815923+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-3e3bcbaff1b56aab8d0ac362",
-      "primary_category": "other",
-      "public_article_id": "url:3e3bcbaff1b56aab8d0ac362",
-      "public_tags": [],
-      "published_at": "2026-11-20T17:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Nikkei XTECH IT",
-      "summary": "アクセンチュアは2026年11月20日に記者説明会を開き、「セキュリティーのアクセンチュア」を新たな旗印として打ち出した。日本法人の濱岡大社長が表明した。2026年9月までに株式の過半を取得したOTセキュリティー企業、米Dragos（ドラゴス）の技術や知見も生かし、日本企業向けのサービスを広げる。",
-      "summary_excerpt": "アクセンチュアは2026年11月20日に記者説明会を開き、「セキュリティーのアクセンチュア」を新たな旗印として打ち出した。日本法人の濱岡大社長が表明した。2026年9月までに株式の過半を取得したOTセキュリティー企業、米Dragos（ドラゴス）の技術や知見も生かし、日本企業向けのサービスを広げる。",
-      "threat_actors": [],
-      "title": "「セキュリティーのアクセンチュア」、日本で表明　M＆Aと人材でOT需要狙う"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261120-5367457/",
-      "cves": [
-        "CVE-2024-49138"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T17:38:21.403841+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-94769cc53c678e98cb2b5da7",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:94769cc53c678e98cb2b5da7",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T17:17:40+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "CyberNewsは11月18日（現地時間）、20カ国以上に設置されたWindows搭載POS（販売時点情報管理）端末700台超がマルウェアに感染し、100万件以上のクレジットカードやデビットカードの情報が流出したと報じた。攻撃には、2024年12月に修正済みのWindowsの脆弱性「CVE-2024-49138」が悪用されていた。被害はブラジルに集中しており、更新プログラムが適用されていないPOS端末のセキュリティリスクが浮き彫りになった。",
-      "summary_excerpt": "CyberNewsは11月18日（現地時間）、20カ国以上に設置されたWindows搭載POS（販売時点情報管理）端末700台超がマルウェアに感染し、100万件以上のクレジットカードやデビットカードの情報が流出したと報じた。攻撃には、2024年12月に修正済みのWindowsの脆弱性「CVE-2024-49138」が悪用されていた。被害はブラジルに集中しており、更新プログラムが適用されていないPOS端末のセキュリティリスクが浮き彫りになった。",
-      "threat_actors": [],
-      "title": "POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2158284.html",
-      "cves": [],
-      "document_form": "research",
-      "first_seen_at": "2026-11-20T17:38:15.719731+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-b94f26ae2fdebc9c089685d9",
-      "primary_category": "other",
-      "public_article_id": "url:b94f26ae2fdebc9c089685d9",
-      "public_tags": [],
-      "published_at": "2026-11-20T17:17:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "INTERNET Watch",
-      "summary": "株式会社プレイドは11月20日、デジタルマーケティングプラットフォーム「KARTE」への不正アクセスに関する調査結果を公表した。",
-      "summary_excerpt": "株式会社プレイドは11月20日、デジタルマーケティングプラットフォーム「KARTE」への不正アクセスに関する調査結果を公表した。",
-      "threat_actors": [],
-      "title": "プレイド、「KARTE」不正アクセスの調査結果を公表、2027年1月中旬の段階的な再開を目指す　契約が終了した企業の情報も漏えいの対象に"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/20/news061.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T18:22:13.630226+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-abd3e3be9be0111c95f60105",
-      "primary_category": "ai_security",
-      "public_article_id": "url:abd3e3be9be0111c95f60105",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-20T17:15:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "@IT Security & Trust",
-      "summary": "ESETは、生成AIがサイバー攻撃に与える影響に関する分析を公開した。AIにより今後2年間でサイバー脅威の頻度と強度が増すと警告。ランサムウェア構築支援やプロンプトインジェクションなど、AIが悪用される5つの主要な手口を解説している。",
-      "summary_excerpt": "ESETは、生成AIがサイバー攻撃に与える影響に関する分析を公開した。AIにより今後2年間でサイバー脅威の頻度と強度が増すと警告。ランサムウェア構築支援やプロンプトインジェクションなど、AIが悪用される5つの主要な手口を解説している。",
-      "threat_actors": [],
-      "title": "AIが脆弱性を探し、ランサムウェア構築を支援　5つのAI悪用手口と対策リスト"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T16:52:03.855177+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-846075ea51eaafd4b5d9d5d3",
-      "primary_category": "ransomware",
-      "public_article_id": "url:846075ea51eaafd4b5d9d5d3",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-20T16:35:46+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek .",
-      "summary_excerpt": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak"
     }
   ],
   "hottest": [
@@ -311,6 +318,36 @@
       "summary_excerpt": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE). The post Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:57.950945+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-c99f552cbbef77a02904205c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c99f552cbbef77a02904205c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T19:32:50+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "summary_excerpt": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "threat_actors": [],
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network"
     },
     {
       "ai_relevance": "none",
@@ -564,36 +601,6 @@
       "summary_excerpt": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’s post-exploitation operations. In this blog we describe additional post-compromise activity involvi",
       "threat_actors": [],
       "title": "ARMORY CASTLE Exploits vSphere"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
-      "cves": [
-        "CVE-2026-115731"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T22:22:39.277961+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-26772c0b86113178498cf80e",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:26772c0b86113178498cf80e",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T22:07:41+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details about the in-the-wild attacks have yet to be made public, but the US Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026. Perforce Puppet explained Perforce … More → The post Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731) appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details about the in-the-wild attacks have yet to be made public, but the US Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026. Perforce Puppet explained Perforce … More → The post Exploited Puppet flaw puts the server that configures y",
-      "threat_actors": [],
-      "title": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)"
     }
   ],
   "rising": [],
@@ -845,6 +852,36 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-18T20:23:50.919641+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-c20575d7f9526cd801ba924c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c20575d7f9526cd801ba924c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T20:12:12+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "CVE-2026-114938, a memory corruption flaw in Open Java Development Kit’s Base64 decoder, can allow unauthenticated attackers to run code on servers hosting widely used Java applications. Nicknamed “Java4Shell” by Calif, the company whose researchers found it, CVE-2026-114938 was fixed by Oracle and the OpenJDK project on Tuesday. There is currently no evidence of successful attacks leveraging the flaw, but the US Cybersecurity and Infrastructure Security Agency (CISA) “strongly urges” organizations to patch immediately. About CVE-2026-114938 … More → The post Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938) appeared first on Help Net Security .",
+      "summary_excerpt": "CVE-2026-114938, a memory corruption flaw in Open Java Development Kit’s Base64 decoder, can allow unauthenticated attackers to run code on servers hosting widely used Java applications. Nicknamed “Java4Shell” by Calif, the company whose researchers found it, CVE-2026-114938 was fixed by Oracle and the OpenJDK project on Tuesday. There is currently no evidence of successful attacks leveraging the flaw, but the US Cybersecurity and Infrastructure Security Agency (CISA) “strongly urges” organizations to patch immediately. About CVE-2026-114938 … More → The post Java4Shell OpenJDK flaw: Exploitat",
+      "threat_actors": [],
+      "title": "Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938)"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk",
       "cves": [
         "CVE-2026-114938"
@@ -872,36 +909,6 @@
       "summary_excerpt": "Detect and mitigate Java4Shell (CVE-2026-114938), a critical 9.2 RCE vulnerability affecting OpenJDK and major Java-based applications.",
       "threat_actors": [],
       "title": "CVE-2026-114938 OpenJDK RCE (Java4Shell): Everything You Need to Know"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T04:37:35.004846+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-e5492f9867506c1763a92226",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e5492f9867506c1763a92226",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T00:17:36+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
-      "summary_excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
-      "threat_actors": [],
-      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges"
     }
   ],
   "timeseries_status": {
@@ -922,32 +929,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
+    "【LATEST #1】SBC Medical Group Data Breach Impacts Over 2 Million",
     "【HOTTEST #1 / Heat 75】Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-    "【LATEST #2】日立製作所、OpenAI主導のセキュリティプログラムに参画",
-    "【HOTTEST #2 / Heat 75】POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出",
-    "【LATEST #3】政府内部資料流出か 不正アクセス",
-    "【HOTTEST #3 / Heat 75】China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-    "【LATEST #4】N-able Blames Service Disruption on Cyberattack",
-    "【HOTTEST #4 / Heat 73】European Commission confirms AI-generated cyberattack disrupted its systems",
-    "【LATEST #5】European Commission confirms AI-generated cyberattack disrupted its systems",
-    "【HOTTEST #5 / Heat 67.5】CVE-2026-114938 Portfolio Status: Impact of Java Vulnerability (CVE-2026-114938) on Palo Alto Networks Products (Severity: CRITICAL)"
+    "【LATEST #2】JPMorgan Confirms Customer Data Breach Following Third-Party Compromise",
+    "【HOTTEST #2 / Heat 75】Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+    "【LATEST #3】F5 releases emergency patches for critical BIG-IP RCE flaws",
+    "【HOTTEST #3 / Heat 75】POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出",
+    "【LATEST #4】European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+    "【HOTTEST #4 / Heat 75】China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+    "【LATEST #5】SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+    "【HOTTEST #5 / Heat 73】European Commission confirms AI-generated cyberattack disrupted its systems"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-17T11:00:00+00:00",
-    "last_as_of": "2026-11-20T11:00:00+00:00",
+    "first_as_of": "2026-11-17T12:00:00+00:00",
+    "last_as_of": "2026-11-20T12:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-20T11:00:00+00:00",
-  "heat_as_of": "2026-11-20T11:00:00+00:00",
+  "news_as_of": "2026-11-20T12:00:00+00:00",
+  "heat_as_of": "2026-11-20T12:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25948,
-  "last_published_at": "2026-11-20T20:07:50.866866+09:00",
-  "publication_slot_jst": "2026-11-20T20:00:00+09:00"
+  "news_catalog_count": 25956,
+  "last_published_at": "2026-11-20T21:08:09.832714+09:00",
+  "publication_slot_jst": "2026-11-20T21:00:00+09:00"
 }

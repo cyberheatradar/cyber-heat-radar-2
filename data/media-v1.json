@@ -1,9 +1,69 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T10:40:03.178862+00:00",
+  "source_snapshot_generated_at": "2026-11-20T11:40:02.924594+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f87bba71d07953534f328f13",
+        "source": "zenn",
+        "author_tags": [
+          "JavaScript",
+          "TypeScript",
+          "Security",
+          "UUID",
+          "webcryptoapi"
+        ],
+        "url": "https://zenn.dev/t_shamoji/articles/28f0bc6915dd27",
+        "title": "外部ライブラリゼロ！Web Crypto API だけで UUID v7 / ULID・HMAC-SHA256・JWTデコードを実装する",
+        "author": "しゃもじ太郎",
+        "published_at": "2026-11-20T11:19:19.612000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:53a8eb66667727caf229dca8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Agent",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/masuda_masuo/articles/2026-10-12-ashiato-session-history",
+        "title": "LLMのセッションは使い捨てにする：JSONLの作業履歴を検索可能にする「ashiato」を作った",
+        "author": "増田",
+        "published_at": "2026-11-20T11:13:33.702000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9e29dc1aed77a9d0711c4370",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "AIエージェント",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/ryokasai/articles/99a9bc244fcf24",
+        "title": "Museを使ってみたら日々の技術ニュースキャッチアップが楽になった",
+        "author": "rkasai127",
+        "published_at": "2026-11-20T11:12:38.907000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0a07d722a19b903150e66f1a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "prompt"
+        ],
+        "url": "https://zenn.dev/andyailab/articles/ef0c053d6b3326",
+        "title": "AI記事の事実誤認をゼロにする一次情報の突き合わせ手順と検証チェックリスト【コピペ用プロンプト1本＋5項目チェック】",
+        "author": "アンディ",
+        "published_at": "2026-11-20T10:42:14.690000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f0b1e0825d0e67d8c66d3a09",
         "source": "zenn",
@@ -44493,6 +44553,34 @@
     ],
     "qiita": [
       {
+        "id": "qiita:77390576c132c7b3af7744ea",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "HTTP",
+          "nginx",
+          "Apache",
+          "Web開発"
+        ],
+        "url": "https://qiita.com/t_shamoji/items/3332b877b0e2c3480ea8",
+        "title": "WebアプリのHTTPセキュリティヘッダー完全チェックリスト｜CSP・HSTS・CORS・Cookie設定の落とし穴とNginx/Apache記述例",
+        "author": "t_shamoji",
+        "published_at": "2026-11-20T20:12:55+09:00",
+        "excerpt": "はじめに Webサービスや管理画面を本番公開する際、脆弱性診断やセキュリティチェックシートで必ず指摘されるのが HTTPレスポンスヘッダーの未設定・設定不備 です。 開発環境では機能実装を優先して後回しにしがちですが、いざ本番リリース前に確認しようとすると、 「 Content-Security-Policy (CSP) を厳しくしたら、Google Fonts や外部スクリプトまでブロックされて画面が真っ白になった」 「 CORS の Access-Control-Allow-Origin: * と Access-Control-Allow-Credentials: true を同時に返してブラウザにエラーで弾かれた」 「 Set-Cookie に HttpOnly と SameSite を付け忘れてセッション乗っ取りリスクを指摘された」 といったトラブルがよく発生します。 本記事では、実務で押さえておくべき 主要HTTPセキュリティヘッダーの役割とNG例 を整理し、そのまま使える Nginx / Apache 設定スニペット と、ブラウザ上で"
+      },
+      {
+        "id": "qiita:b020c62d69df45312f738e63",
+        "source": "qiita",
+        "author_tags": [
+          "Security"
+        ],
+        "url": "https://qiita.com/wuyoosecurity/items/6fe2a4485716e0e6f6db",
+        "title": "30秒で切り替わるTOTPが「正しいのに無効」になる理由",
+        "author": "wuyoosecurity",
+        "published_at": "2026-11-20T20:06:09+09:00",
+        "excerpt": "認証アプリに表示されたコードを入力しても「無効」と出るとき、まず確認するのは、端末の時計、コードを送ったタイミング、そして選んだアカウントです。この記事は認証アプリの時刻ベースのワンタイムパスワード（TOTP）を扱います。SMSやメールで届くコードは別の仕組みです。 1. 「発行してから30秒」ではなく、時刻を区切っている RFC 6238 の既定値では、Unix時刻を30秒の区間に分け、その区間番号と共有シークレットからコードを計算します。たとえば、Unix時刻が59秒のときの区間番号は1、60秒のときは2です。59秒の時点で画面を見た場合、送信時にはもう次の区間に入っているかもしれません。サーバーが前の区間まで許容するかは、サービスの実装によります。 2. 失敗するタイミングから切り分ける 切り替わる直前だけ失敗する場合は、新しいコードが表示された直後に1回入力してみます。 新しいコードでも失敗する場合は、端末の「日付と時刻を自動設定」がオンになっているか、同じサービスの別アカウントを選んでいないかを確認します。表示上のタイムゾーンと、時計そ"
+      },
+      {
         "id": "qiita:de3a0af2f1404173ce62841e",
         "source": "qiita",
         "author_tags": [
@@ -60985,6 +61073,50 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:54efce29d1fcd17e18538473",
+        "source": "medium",
+        "author_tags": [
+          "investigation",
+          "blue-team",
+          "cybersecurity",
+          "soc-analyst"
+        ],
+        "url": "https://medium.com/@tanmaydhanula1234/soc105-requested-t-i-url-address-letsdefend-1958496a28f3",
+        "title": "SOC105 — Requested T.I. URL address-LetsDefend",
+        "author": "TanmayDhanula",
+        "published_at": "2026-11-20T11:15:28+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:33486059d79b6d762e685924",
+        "source": "medium",
+        "author_tags": [
+          "two-factor-authentication",
+          "privacy",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@receivesmssnet/made-an-account-with-a-temporary-number-do-these-5-things-before-you-lose-it-dff4bd0a4d46",
+        "title": "Made an account with a temporary number? Do these 5 things before you lose it",
+        "author": "Receivesmssnet",
+        "published_at": "2026-11-20T11:10:43+00:00",
+        "excerpt": "A temporary or virtual number is a handy way to get past a sign-up screen. The risk starts later: weeks after you created the account, the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ccd4723dc1c74e86009b08e9",
+        "source": "medium",
+        "author_tags": [
+          "spam",
+          "cybersecurity",
+          "phishing-email",
+          "phishing"
+        ],
+        "url": "https://medium.com/@ghif.contact/dmarc-misalignment-mail-service-misconfiguration-or-potential-phishing-e7a58d295a24",
+        "title": "DMARC Misalignment: Mail service misconfiguration or potential phishing?",
+        "author": "Ghif",
+        "published_at": "2026-11-20T11:10:27+00:00",
+        "excerpt": "TLDR An email sample from Phishing_Pot (https://github.com/rf-peixoto/phishing_pot) was analyzed. The email passed SPF and DKIM. However… Continue reading on Medium »"
+      },
       {
         "id": "medium:7a998ab202af8ab52b2dce3f",
         "source": "medium",
