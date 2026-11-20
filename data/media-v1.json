@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T00:40:03.260876+00:00",
+  "source_snapshot_generated_at": "2026-11-20T01:40:03.138070+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:62f9ce995093a265a73fed8b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "macOS",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/kensho_ya/articles/claude-desktop-reply-checker-two-stage-review",
+        "title": "Claude Desktopの回答を別のAIに検閲させる仕組みの中身——語の照合と文脈判断の2段、差し戻しの渡し方",
+        "author": "検証屋",
+        "published_at": "2026-11-20T01:08:53.147000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0e526f2b96069fc19dec7f2a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "NuGet",
+          "Claude Code",
+          "Supply Chain"
+        ],
+        "url": "https://zenn.dev/sitio1/articles/664d7d7453447a",
+        "title": "開発者が知っておきたいサプライチェーン攻撃 ― AI時代の新しい入り口",
+        "author": "カイ",
+        "published_at": "2026-11-20T01:00:05.650000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bf8f64b0a0b20101276a95e7",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub",
+          "Security",
+          "OSS",
+          "暗号",
+          "PQC"
+        ],
+        "url": "https://zenn.dev/qspprotocol/articles/b061d2950c8775",
+        "title": "ML-DSAの相互運用性を第三者が検証するには？ — 最小Evidence Packageの設計",
+        "author": "鈴木基弘 / Motohiro Suzuki | QSV/量子セキュリティ検証",
+        "published_at": "2026-11-20T00:47:02.096000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:70d3be550ba8fbbef5a8e150",
         "source": "zenn",
@@ -43620,6 +43668,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:0f8254fdac26af564783eda3",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "LLM",
+          "生成AI,",
+          "OWASP,",
+          "TypeScript"
+        ],
+        "url": "https://qiita.com/morisita_sinya0214/items/37253b4659a6791e14e1",
+        "title": "Webセキュリティの視点で読む「OWASP Top 10 for LLM Applications 2025」― 生成AIアプリに最初に入れる6つの対策",
+        "author": "morisita_sinya0214",
+        "published_at": "2026-11-20T10:09:23+09:00",
+        "excerpt": "はじめに フリーランスエンジニアとして、業務システムやWebサービスの開発に携わっています。専門分野の一つはWebアプリケーションのセキュリティで、近年はClaude APIやOpenAI APIを組み込んだシステムを開発し、認証やデータ保護などのセキュリティ対策を担当してきました。 生成AIを組み込んだアプリでも、Webアプリのセキュリティの基本はそのまま通用します。ただしLLMには、 入力された文章がそのまま「命令」として解釈されうる という、従来のWebアプリにはなかった性質があります。SQLインジェクションなら「データとコードを分ける」という決定的な対策がありますが、LLMでは自然言語の中で命令とデータがまざるため、同じ方法では防ぎきれません。 この記事では、OWASPが公開している「OWASP Top 10 for LLM Applications 2025」をもとに、生成AIアプリを作るときに最初に入れておきたい対策を、TypeScriptのコード例とあわせて紹介します。 コードは考え方を示すための最小限の例です。本番で使う場合は、要"
+      },
+      {
+        "id": "qiita:0ae8c708ac2eacbfeb7ea92f",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "情報漏えい",
+          "楽天証券",
+          "パスキー",
+          "フィッシング"
+        ],
+        "url": "https://qiita.com/naoyukiyamax/items/0f50e42fc04de51993f2",
+        "title": "「情報漏えいのお知らせ」が来たら、解約の前にやること — 漏れたのは「なりすますための台本」だった",
+        "author": "naoyukiyamax",
+        "published_at": "2026-11-20T09:57:11+09:00",
+        "excerpt": "11月17日、楽天証券が顧客情報の漏えいのおそれを発表した。漏れた可能性があるのは、顧客コード・ログインID（最大約1,125万口座分）と、氏名・住所・生年月日・電話番号・メールアドレス・勤務先・出金先口座・申告した年収や金融資産などの詳しい個人情報（最大約447万口座分）。対象には退会した人の情報も含まれるという。 SNSでは「解約する」「引っ越す」という声も目立つ。気持ちは分かる。ただ、ひとつだけ順番の話をしたい。漏れた情報は、解約しても引っ越しても戻ってこない。口座を移すのは「これからの取引先を変える」ことで、「漏れた台本」を回収する手段にはならない。 漏れたのはお金ではなく「台本」 パスワードと暗証番号の漏えいは確認されていない。11月17日時点で、本件による不正アクセスや不正取引も確認されていない。つまり現時点で、口座のお金が直接盗まれた話ではない。 盗まれた可能性があるのは、「あなたになりすますための台本」だ。名前も住所も資産の規模も知っている相手からの電話やメールは、普段よりずっと本物らしく聞こえる。だから防衛の主戦場は、口座の中身"
+      },
+      {
+        "id": "qiita:884dea329e0e7d94cc6aaec1",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "ClaudeCode",
+          "AIエージェント",
+          "Network",
+          "Security"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/b43893cf1be58ad90cbf",
+        "title": "0/2。Cloudflareが『Chromiumより7倍軽い』とAIエージェント向けブラウザKitesurfを公開した日、6日前に自分へ出した宿題「公開ページを実際に見る」を初めて試したら、成功した数はこの数字だった",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-11-20T09:48:16+09:00",
+        "excerpt": "はじめに 0/2。 これが今回の数字です。何の0/2かというと、今日初めて、自分の投稿パイプラインが公開したZenn記事とQiita記事それぞれに、ヘッドレスブラウザで実際にアクセスしようとして、成功した本数です。 きっかけはCloudflareが2026年11月13日に発表したニュースでした。AIエージェント専用の軽量ブラウザエンジン「Kitesurf」をApache 2.0でオープンソース化し、Cloudflare Workers上でコンテナを使わずに動く、Rust製のBlitz(HTML/レイアウト)・Stylo(CSS)・Krilla(PDF出力)をWebAssemblyにコンパイルした構成だと説明しています。Cloudflare自身の発信によれば、Chromiumより7倍少ないメモリで動くとされています(この7倍という数字はCloudflare自身の主張で、自分で独立に検証したものではありません)。 このニュースを読んで思い出したのが、6日前の2026年11月14日に自分が書いた記事です。その記事では、このタスクの「完了確認」がログとG"
+      },
+      {
         "id": "qiita:c7e7a4e853c5f7854fcdf740",
         "source": "qiita",
         "author_tags": [
@@ -59702,6 +59798,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:775e2e19d031daae2387a6e6",
+        "source": "medium",
+        "author_tags": [
+          "system-architecture",
+          "enterprise-ai",
+          "cybersecurity",
+          "cloud-security",
+          "zero-trust"
+        ],
+        "url": "https://medium.com/@shinjaehyun2018/being-inside-the-office-network-doesnt-mean-you-re-trusted-zero-trust-zta-and-tiered-network-67a568b4bb10",
+        "title": "Being Inside the Office Network Doesn't Mean You're Trusted: Zero Trust (ZTA) and Tiered Network…",
+        "author": "신재현",
+        "published_at": "2026-11-20T00:44:19+00:00",
+        "excerpt": "Easy IT Concept Guide · Security Architecture Continue reading on Medium »"
+      },
       {
         "id": "medium:48b72257b254208ebceab5ef",
         "source": "medium",
