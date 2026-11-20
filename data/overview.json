@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-20T22:09:25.191276+00:00",
-  "as_of": "2026-11-20T22:00:00+00:00",
-  "catalog_count": 25999,
+  "generated_at": "2026-11-20T23:07:41.318888+00:00",
+  "as_of": "2026-11-20T23:00:00+00:00",
+  "catalog_count": 26001,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -98,6 +98,62 @@
       "summary_excerpt": "Apple, Google, and Microsoft called out for failing to provide developers with adequate AI agent controls",
       "threat_actors": [],
       "title": "Signal slams door on prying AI agents to protect privacy"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisecurity.org/advisory/a-vulnerability-in-vmware-products-could-allow-for-authentication-bypass_2026-140",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T07:22:27.361393+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-0c0722d9dbecf698b564b28a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0c0722d9dbecf698b564b28a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T05:40:39+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Center for Internet Security Advisories",
+      "summary": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.",
+      "summary_excerpt": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new ac",
+      "threat_actors": [],
+      "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mitel-micollab-could-allow-for-arbitrary-code-execution_2026-139",
+      "cves": [],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T07:22:28.156063+09:00",
+      "heat_score": 61.75,
+      "permalink_id": "article-url-711b1b21d20392d79192f522",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:711b1b21d20392d79192f522",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T05:39:44+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Center for Internet Security Advisories",
+      "summary": "Multiple vulnerabilities have been discovered in Mitel MiCollab, the most severe of which could allow for arbitrary code execution. Mitel MiCollab is a unified communications and collaboration platform that combines voice, video, chat, conferencing, and mobility features for enterprise users. Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution in the context of the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights. Exploitation of multiple of these vulnerabilities together may significantly amplify their impact.",
+      "summary_excerpt": "Multiple vulnerabilities have been discovered in Mitel MiCollab, the most severe of which could allow for arbitrary code execution. Mitel MiCollab is a unified communications and collaboration platform that combines voice, video, chat, conferencing, and mobility features for enterprise users. Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution in the context of the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user r",
+      "threat_actors": [],
+      "title": "Multiple Vulnerabilities in Mitel MiCollab Could Allow for Arbitrary Code Execution"
     },
     {
       "ai_relevance": "none",
@@ -255,67 +311,6 @@
       "summary_excerpt": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
       "threat_actors": [],
       "title": "Bell Canada says 'agentic' hacker stole enterprise customer data"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T04:23:41.620345+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-fdc780d56a7ef660b4e54ad8",
-      "primary_category": "ai_security",
-      "public_article_id": "url:fdc780d56a7ef660b4e54ad8",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-21T03:35:40+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Dark Reading",
-      "summary": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
-      "summary_excerpt": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
-      "threat_actors": [],
-      "title": "In Security, Words Matter as Much as Tools, Maybe More"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2026-137",
-      "cves": [],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:52:24.510553+09:00",
-      "heat_score": 61.75,
-      "permalink_id": "article-url-f078310a6980d43fed8bfcac",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f078310a6980d43fed8bfcac",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T03:02:56+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Center for Internet Security Advisories",
-      "summary": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow for remote code execution. PHP is a widely used, open-source server-side scripting language designed primarily for web development. Successful exploitation of the most severe of these vulnerabilities could allow for unauthenticated remote code execution in the context of the affected service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Services whose accounts are configured to have fewer rights on the system could be less impacted than those that operate with administrative user rights.",
-      "summary_excerpt": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow for remote code execution. PHP is a widely used, open-source server-side scripting language designed primarily for web development. Successful exploitation of the most severe of these vulnerabilities could allow for unauthenticated remote code execution in the context of the affected service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Services whose accounts a",
-      "threat_actors": [],
-      "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution"
     }
   ],
   "hottest": [
@@ -353,45 +348,6 @@
       "summary_excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
       "threat_actors": [],
       "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-      "cves": [
-        "CVE-2026-113425",
-        "CVE-2026-121810",
-        "CVE-2026-123007",
-        "CVE-2026-123633",
-        "CVE-2026-123634"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T05:38:03.862133+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-ba29749845e550e4d5631408",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:ba29749845e550e4d5631408",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-21T01:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolver vulnerability For more information, see the nginx Security Advisories . This advisory will be updated as additional information becomes available. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s <br/>Security Impact Rating: Critical <br/>CVE: CVE-2026-113425,CVE-2026-121810,CVE-2026-123007,CVE-2026-123633,CVE-2026-123634",
-      "summary_excerpt": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolve",
-      "threat_actors": [],
-      "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026"
     },
     {
       "ai_relevance": "none",
@@ -533,6 +489,45 @@
       "summary_excerpt": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
       "threat_actors": [],
       "title": "CVE-2026-76466: Cisco Expressway Series"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+      "cves": [
+        "CVE-2026-113425",
+        "CVE-2026-121810",
+        "CVE-2026-123007",
+        "CVE-2026-123633",
+        "CVE-2026-123634"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T05:38:03.862133+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-ba29749845e550e4d5631408",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:ba29749845e550e4d5631408",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-21T01:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolver vulnerability For more information, see the nginx Security Advisories . This advisory will be updated as additional information becomes available. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s <br/>Security Impact Rating: Critical <br/>CVE: CVE-2026-113425,CVE-2026-121810,CVE-2026-123007,CVE-2026-123633,CVE-2026-123634",
+      "summary_excerpt": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolve",
+      "threat_actors": [],
+      "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026"
     },
     {
       "ai_relevance": "none",
@@ -1016,29 +1011,29 @@
     "【LATEST #1】Visa, Mastercard theft included info useful for phishing, but not draining bank accounts, say researchers",
     "【HOTTEST #1 / Heat 75】How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
     "【LATEST #2】China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
-    "【HOTTEST #2 / Heat 75】Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+    "【HOTTEST #2 / Heat 70.97】CVE-2026-129448: Apache Roller",
     "【LATEST #3】Signal slams door on prying AI agents to protect privacy",
-    "【HOTTEST #3 / Heat 70.97】CVE-2026-129448: Apache Roller",
-    "【LATEST #4】How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
-    "【HOTTEST #4 / Heat 70.97】CVE-2026-123890: Broadcom VMware vCenter",
-    "【LATEST #5】Signal blocks Apple, Google AI screenshotting in response to ‘existential threat’ to privacy app",
-    "【HOTTEST #5 / Heat 70.97】CVE-2025-42884: SAP NetWeaver"
+    "【HOTTEST #3 / Heat 70.97】CVE-2026-123890: Broadcom VMware vCenter",
+    "【LATEST #4】A Vulnerability in VMware Products Could Allow for Authentication Bypass",
+    "【HOTTEST #4 / Heat 70.97】CVE-2025-42884: SAP NetWeaver",
+    "【LATEST #5】Multiple Vulnerabilities in Mitel MiCollab Could Allow for Arbitrary Code Execution",
+    "【HOTTEST #5 / Heat 70.97】CVE-2026-76466: Cisco Expressway Series"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-17T22:00:00+00:00",
-    "last_as_of": "2026-11-20T22:00:00+00:00",
+    "first_as_of": "2026-11-17T23:00:00+00:00",
+    "last_as_of": "2026-11-20T23:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-20T22:00:00+00:00",
-  "heat_as_of": "2026-11-20T22:00:00+00:00",
+  "news_as_of": "2026-11-20T23:00:00+00:00",
+  "heat_as_of": "2026-11-20T23:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25999,
-  "last_published_at": "2026-11-21T07:09:37.245922+09:00",
-  "publication_slot_jst": "2026-11-21T07:00:00+09:00"
+  "news_catalog_count": 26001,
+  "last_published_at": "2026-11-21T08:07:53.330461+09:00",
+  "publication_slot_jst": "2026-11-21T08:00:00+09:00"
 }

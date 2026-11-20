@@ -1,9 +1,70 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T21:40:02.811005+00:00",
+  "source_snapshot_generated_at": "2026-11-20T22:40:03.521436+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3dca11f1b3f4b387bb6c4838",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "vulnerability",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/tetsurou/articles/cve-2026-129474-php-fatal-error-backtrace-uaf",
+        "title": "【CVE-2026-129474他】2026年11月公開のPHP Critical脆弱性7件",
+        "author": "tetsurou",
+        "published_at": "2026-11-20T22:20:39.549000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2d27b7d8dd377519d3378270",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "vulnerability",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/108system/articles/news-2026-11-21",
+        "title": "今週のセキュリティニュース（2026/11/14〜11/20）NGINX・Java・Cisco・VMware・PHP",
+        "author": "てんぱ（108システム）",
+        "published_at": "2026-11-20T22:14:58.823000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:86fc5deb276d355f211ed676",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub Actions",
+          "Security",
+          "automation",
+          "Dependabot",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/okamyuji/articles/github-actions-claude-dependabot-daily-sweep",
+        "title": "緊急パッチは人が当て、Dependabotの後始末はAIに任せる - GitHub ActionsとClaude Codeの毎朝点検",
+        "author": "okamyuji",
+        "published_at": "2026-11-20T21:54:28.900000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:68a5d654bf3333bdb057ca90",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "YouTube",
+          "規約",
+          "BGM",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/claire_ai/articles/ryousan-iriguchi",
+        "title": "AI の曲と画像で BGM 動画をほぼ毎日出していたら、「量産は収益化できないおそれがある」と指摘された",
+        "author": "クレア",
+        "published_at": "2026-11-20T21:49:19.701000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:d01cb3b4d949b12e45497453",
         "source": "zenn",
@@ -44841,6 +44902,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:d9b0cdf9afd67fb571d313dd",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "owasp",
+          "SSRF",
+          "API"
+        ],
+        "url": "https://qiita.com/maees/items/35e728fd191b4cfa1806",
+        "title": "SSRFはURL検査だけでは防げない――JavaのリダイレクトとDNSの抜け道",
+        "author": "maees",
+        "published_at": "2026-11-21T07:21:16+09:00",
+        "excerpt": "SSRFはURL検査だけでは防げない――JavaのリダイレクトとDNSの抜け道 SSRFは「 https://で始まるか」の検査では防げない。検証をすり抜けるのは、リダイレクト・DNS・IP表記の3つの抜け道である。守るべきものはURLの文字列ではなく、解決したIPと、リダイレクトの各ホップと、送るクライアントの既定値である。接続先を固定できるなら画像IDだけを受け取るのが最も強い。固定できない場合の実装をJavaで示す。 OWASP実務セキュリティ学習の2026年11月3日のSSRFレッスンで扱った「URLを自由に決めさせない」設計が入口で、ここではその先、固定できない場合に何が残るかを扱う。 Mass Assignmentの記事 と同じく、OWASPのチートシートを起点に、Javaの実装に落としたときの壊れ方まで行く。 レッスンの問題コードはどこが危ないのか 2026年11月3日のOWASP実務セキュリティ学習で出た問題コードは、プロフィール画像の取り込みAPIだった。 public byte [] download ( String ima"
+      },
+      {
         "id": "qiita:0f04ca606dd6278abbeb73d0",
         "source": "qiita",
         "author_tags": [
@@ -61516,6 +61593,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:853c69d8039b05a0d4690040",
+        "source": "medium",
+        "author_tags": [
+          "llm-agent",
+          "ai-agent",
+          "cybersecurity",
+          "bug-bounty",
+          "llm"
+        ],
+        "url": "https://medium.com/@xoris/harness-your-kernel-features-to-sandbox-you-ai-agent-f54285a479c0",
+        "title": "Harness your Kernel features to sandbox you AI Agent…",
+        "author": "Xoris",
+        "published_at": "2026-11-20T22:30:42+00:00",
+        "excerpt": "Note: The information provided might have wrong or un-precise information, its always on you to keep diving into the concepts, and find… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:fee8ed9c26dfbfff4d51ce9f",
+        "source": "medium",
+        "author_tags": [
+          "cisco",
+          "ethical-hacking",
+          "cybersecurity",
+          "penetration-testing",
+          "capture-the-flag"
+        ],
+        "url": "https://dorbiter.medium.com/from-recon-to-root-clearing-the-cisco-ethical-hacker-ctf-all-12-flags-82290950a0ce",
+        "title": "From Recon to Root: Clearing the Cisco Ethical Hacker CTF (All 12 Flags)",
+        "author": "TheOrbiter",
+        "published_at": "2026-11-20T22:01:10+00:00",
+        "excerpt": "A short, step-by-step walkthrough of how I completed Cisco’s “Capture the Flag: Attack Chain From Recon to Root” challenge end to end —… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:fec6b875328df89ca7aa4457",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "penetration-testing",
+          "cybersecurity",
+          "vulnerability-assessment",
+          "web-security"
+        ],
+        "url": "https://medium.com/@khaledomarabdelmoneam/breaking-a-healthcare-web-app-penetration-testing-attack-chaining-on-nilecare-29d01fe027ec",
+        "title": "Breaking a Healthcare Web App: Penetration Testing & Attack Chaining on NileCare",
+        "author": "Khaled Elserry",
+        "published_at": "2026-11-20T21:59:49+00:00",
+        "excerpt": "Healthcare web applications sit at the intersection of sensitive personal data, clinical workflows, account privileges, and business logic… Continue reading on Medium »"
+      },
       {
         "id": "medium:1be39c819a6073c3a9686817",
         "source": "medium",
