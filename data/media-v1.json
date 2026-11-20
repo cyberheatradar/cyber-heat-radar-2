@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T05:40:03.090649+00:00",
+  "source_snapshot_generated_at": "2026-11-20T06:40:03.257104+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:094d939fa9460e8f6a998b9a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "個人開発",
+          "開発メモ",
+          "料金"
+        ],
+        "url": "https://zenn.dev/valleywag/articles/d4445714e2a8ea",
+        "title": "AIサービスの無料枠を、実行単価だけで比較しないためのメモ",
+        "author": "valleywag",
+        "published_at": "2026-11-20T06:21:33.315000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5b17480aa3a70b4e4e0578db",
+        "source": "zenn",
+        "author_tags": [
+          "Docker",
+          "Security",
+          "architecture",
+          "TLS",
+          "OpenSSL"
+        ],
+        "url": "https://zenn.dev/ai_nexus_jp/articles/local-https-pki-sandbox",
+        "title": "「とりあえず -k」を許さないローカルHTTPS基盤——Name ConstraintsとDocker隔離で組む安全なCA設計",
+        "author": "AI Nexus",
+        "published_at": "2026-11-20T06:16:06.145000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:590e76406fad0b4b65e22ac1",
+        "source": "zenn",
+        "author_tags": [
+          "Google Cloud",
+          "Security",
+          "Model Context Protocol",
+          "Agent",
+          "Platform Engineering"
+        ],
+        "url": "https://zenn.dev/xtm_blog/articles/agent-call-through-platform",
+        "title": "AI エージェントの呼び出し 1 回を、社内プラットフォームでたどる",
+        "author": "zechdz",
+        "published_at": "2026-11-20T06:10:40.316000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6e2feba9adcd8f223c29cedd",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "sandbox",
+          "AIエージェント",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/coastlinedb/articles/8fdd1338ca65cb",
+        "title": "AIエージェントの「読み取り専用」は何を止めるのか — CodexとClaude Codeで7操作を実測",
+        "author": "coastlinedb",
+        "published_at": "2026-11-20T05:56:03.530000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ab55dbc8b871889e2740400f",
         "source": "zenn",
@@ -30,6 +94,22 @@
           "continuum"
         ],
         "url": "https://zenn.dev/kobayasd/articles/continuum-code-vulnerabilities-juice-shop",
+        "title": "AWS Continuum で OWASP Juice Shop のコードを調べて、GitHub に届いた修正 PR を読んでみた",
+        "author": "こばD",
+        "published_at": "2026-11-20T05:26:22.553000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7a12c723cbaac5da54971680",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "GitHub",
+          "S3",
+          "Security",
+          "continuum"
+        ],
+        "url": "https://zenn.dev/aws_japan/articles/continuum-code-vulnerabilities-juice-shop",
         "title": "AWS Continuum で OWASP Juice Shop のコードを調べて、GitHub に届いた修正 PR を読んでみた",
         "author": "こばD",
         "published_at": "2026-11-20T05:26:22.553000+00:00",
@@ -44098,6 +44178,70 @@
     ],
     "qiita": [
       {
+        "id": "qiita:9a362a4606c00439c1caebbc",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "agenticai",
+          "OpenAI",
+          "ClaudeCode",
+          "Security"
+        ],
+        "url": "https://qiita.com/Hideki_Tamae/items/9a46a42bfac205227dff",
+        "title": "0。OpenAIがGPT-6 Cyberに「SSO・MFA・管理対象デバイス・FIDO2・IPアローリスト」の5層を課した日、自分の自動投稿パイプラインで確認できた層の数だった",
+        "author": "Hideki_Tamae",
+        "published_at": "2026-11-20T15:26:49+09:00",
+        "excerpt": "はじめに 0。 これが今回の数字です。何の0かというと、OpenAIが2026年11月5日に発表した「GPT-6 Cyber」(脆弱性調査用の特別モデル)にかけている5種類のアクセス制御のうち、自分がこのZenn/Qiita自動投稿パイプライン(以下、このパイプライン)で「存在する」と自分の手で確認できたものの数です。 GPT-6 Cyberは、948件のLinuxローカル権限昇格エクスプロイトと、81件の未知だったFirefoxの高深刻度脆弱性を見つけたと報じられている、攻撃的セキュリティ研究用のモデルです。OpenAIのPreparedness Frameworkで最上位の「Critical」評価を受けており、利用には承認制の「Daybreak Red」プログラムへの参加に加えて、SSO・MFA(多要素認証)・管理対象デバイス・FIDO2セキュリティキー・IPアローリストという5つのアクセス制御が課されていると報じられています。これを読んで、自分が毎回ほぼ無人で実行し、実在する著者名でGitHubに公開記事を自動でpushしているこのパイプラ"
+      },
+      {
+        "id": "qiita:d2c5e1244544609bd7b292c1",
+        "source": "qiita",
+        "author_tags": [
+          "JavaScript",
+          "Security",
+          "AIエージェント",
+          "SQLite",
+          "個人開発"
+        ],
+        "url": "https://qiita.com/shiroi1229/items/ef24eecac2e318713b32",
+        "title": "外部送信ゼロ・CSP準拠（inline script禁止）のブラウザ内JSだけで、AGENTS.mdとAIスクリプトの8大事故リスクを0.05秒静的監査する実装",
+        "author": "shiroi1229",
+        "published_at": "2026-11-20T15:24:59+09:00",
+        "excerpt": "背景：なぜサーバーレス・外部送信ゼロで監査ツールを作ったのか Claude Code / Codex / MCP などの自律AIエージェントを実運用していると、本番事故の大半は「モデルの賢さ不足」ではなく、以下の決定論的な設定・コード上のミスから発生します。 秘密鍵・APIトークン（ sk- / ghp_ / AIza / PEM）のハードコード露出 ローカル絶対パス（ /home/<user>/ 等）の公開成果物への混入 内部ループバックアドレスや内部ポート表記の露出 予算上限・明示オプトインなしの従量課金クラウドAPI呼び出し 上限なしの while True リトライループ SQLite の PRAGMA journal_mode=WAL のみ有効化し、チェックポイント・保持期間プルーニングが欠落 外部投稿・Webhook送信に idempotency_key / dry_run がない二重送信構造 120行・5,000文字を超える長大な AGENTS.md によるコンテキスト圧迫と禁止事項の忘却 ところが、こうした診断をオンラインツールと"
+      },
+      {
+        "id": "qiita:2d85fb4c7c03bf9141dd1c21",
+        "source": "qiita",
+        "author_tags": [
+          "Docker",
+          "OpenSSL",
+          "HTTPS",
+          "Security",
+          "pki"
+        ],
+        "url": "https://qiita.com/ai-nexus/items/51174d8ca453c5921967",
+        "title": "【OpenSSL×Docker】ホストを汚さずローカルHTTPSを検証！Name Constraints付きプライベートCA構築手順",
+        "author": "ai-nexus",
+        "published_at": "2026-11-20T15:16:22+09:00",
+        "excerpt": "概要 ローカル開発やDocker環境でHTTPS通信をテストする際、自己署名（オレオレ）証明書のエラーを回避するために curl -k や verify=False を使っていないでしょうか。また、テスト用CA証明書をホストOSや普段使いのブラウザへ直接インポートして放置するのも危険です。 本記事では、 Name Constraints （名前制約）付きの安全なプライベートCA を構築します。その上で、 Docker Compose の隔離環境（Ubuntuクライアント ＋ noVNC付きFirefox） だけで検証を完結させる実践手順を解説します。具体的には、信頼ストア登録からSAN不一致検証、ブラウザ警告の解消までを手元で再現できます。検証後は docker compose down 1コマンドで環境を完全に破棄でき、ホストPCの証明書ストアや /etc/hosts は一切汚れません。 前提環境 検証環境: Ubuntu（Docker / Docker Compose 利用可能環境） 確認済みツールバージョン: OpenSSL: 3.0.2 "
+      },
+      {
+        "id": "qiita:df350d3ba905da18ad53edd2",
+        "source": "qiita",
+        "author_tags": [
+          "パスキー",
+          "初心者",
+          "認証",
+          "Security",
+          "login"
+        ],
+        "url": "https://qiita.com/yas_sio/items/1ae637029172a0cbab00",
+        "title": "パスキー、機種変更したら？ なくしたら？ 使う側の疑問をエンジニア目線で整理する",
+        "author": "yas_sio",
+        "published_at": "2026-11-20T15:01:15+09:00",
+        "excerpt": "1. はじめに 最近、企業へのサイバー攻撃や個人情報の漏えいといったニュースをよく目にします。企業だけでなく、私たち個人もこれまで以上にセキュリティを意識する必要がありそうです。 そんな中、よく耳にするようになったのが「パスキー」という認証方法。パスワード不要でログインできて、しかも安全性が高いそうな。 でも、実際に使おうとすると「スマホ以外でも使えるの？」「機種変更したらどうなるの？」「なくしたらログインできなくなる？」など、意外と疑問が出てきます。 この記事では、技術的な仕組みにはあまり深入りせず、利用者の視点からパスキーについて整理してみたいと思います。 2. パスキーって何？ どんな仕組み？ パスキーは、FIDO2などの標準技術を利用した、パスワードに代わる認証方法です。パスワードを覚えたり入力したりする代わりに、顔認証や指紋認証、PINなどを使ってログインできます。技術的な仕組みについては、詳しく解説された記事がたくさんあるので、ここでは簡単な説明にとどめます。 仕組みとしては、「公開鍵」と「秘密鍵」という2つの鍵を使います。公開鍵はサ"
+      },
+      {
         "id": "qiita:b1b941d03324779fe3abf556",
         "source": "qiita",
         "author_tags": [
@@ -60370,6 +60514,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:85fe037f2b16fddacdb5373d",
+        "source": "medium",
+        "author_tags": [
+          "data-security",
+          "cybersecurity",
+          "soc2",
+          "saas",
+          "compliance"
+        ],
+        "url": "https://medium.com/@support_75206/switching-soc-2-auditors-how-to-do-it-without-leaving-a-gap-in-your-report-coverage-8f369878a6be",
+        "title": "Switching SOC 2 Auditors: How to Do It Without Leaving a Gap in Your Report Coverage",
+        "author": "Accorp Partners",
+        "published_at": "2026-11-20T06:38:13+00:00",
+        "excerpt": "Not every frustration with your auditor means it’s time to leave. Here’s how to tell the difference and time the move properly. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d1e5a8756c878608f5275587",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "network-security",
+          "information-security",
+          "linux",
+          "web-development"
+        ],
+        "url": "https://medium.com/@arvindsingh02023/nginx2root-five-critical-vulnerabilities-that-put-web-servers-at-risk-98674f5f5173",
+        "title": "NGINX2Root: Five Critical Vulnerabilities That Put Web Servers at Risk",
+        "author": "Arvindsingh",
+        "published_at": "2026-11-20T06:04:41+00:00",
+        "excerpt": "Understanding the November 2026 NGINX security disclosure, remote code execution, HTTP/2 memory corruption, and practical mitigation… Continue reading on Medium »"
+      },
       {
         "id": "medium:100183c64a5d84772421d43e",
         "source": "medium",
