@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-20T19:07:30.491887+00:00",
-  "as_of": "2026-11-20T19:00:00+00:00",
-  "catalog_count": 25983,
+  "generated_at": "2026-11-20T20:08:46.987370+00:00",
+  "as_of": "2026-11-20T20:00:00+00:00",
+  "catalog_count": 25991,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,34 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/container-store-restores-systems-cyberattack",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T04:52:26.802487+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c328feeee111985a00f219ac",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:c328feeee111985a00f219ac",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-21T04:32:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
+      "summary_excerpt": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
+      "threat_actors": [],
+      "title": "Container Store restores systems after cyberattack"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
@@ -37,6 +65,97 @@
       "summary_excerpt": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
       "threat_actors": [],
       "title": "Bell Canada says 'agentic' hacker stole enterprise customer data"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T04:23:41.620345+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-fdc780d56a7ef660b4e54ad8",
+      "primary_category": "ai_security",
+      "public_article_id": "url:fdc780d56a7ef660b4e54ad8",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-21T03:35:40+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Dark Reading",
+      "summary": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
+      "summary_excerpt": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
+      "threat_actors": [],
+      "title": "In Security, Words Matter as Much as Tools, Maybe More"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2026-137",
+      "cves": [],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T04:52:24.510553+09:00",
+      "heat_score": 61.75,
+      "permalink_id": "article-url-f078310a6980d43fed8bfcac",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:f078310a6980d43fed8bfcac",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T03:02:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Center for Internet Security Advisories",
+      "summary": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow for remote code execution. PHP is a widely used, open-source server-side scripting language designed primarily for web development. Successful exploitation of the most severe of these vulnerabilities could allow for unauthenticated remote code execution in the context of the affected service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Services whose accounts are configured to have fewer rights on the system could be less impacted than those that operate with administrative user rights.",
+      "summary_excerpt": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow for remote code execution. PHP is a widely used, open-source server-side scripting language designed primarily for web development. Successful exploitation of the most severe of these vulnerabilities could allow for unauthenticated remote code execution in the context of the affected service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Services whose accounts a",
+      "threat_actors": [],
+      "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "cves": [
+        "CVE-2026-23871"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T04:24:08.322269+09:00",
+      "heat_score": 55.0,
+      "permalink_id": "article-url-b44c0a854e15b1852d0ece8a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:b44c0a854e15b1852d0ece8a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T02:57:20+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
+      "summary_excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
+      "threat_actors": [],
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams"
     },
     {
       "ai_relevance": "primary",
@@ -197,117 +316,150 @@
       "summary_excerpt": "Verticals Targeted: Cryptocurrency, Financial Executive Summary An evolving Android remote access trojan (RAT), ArcticRAT, has expanded from targeting cryptocurrency applications into a broader surveillance and financial information theft platform. The malware combines Android Accessibility Services abuse, hidden virtual network computing (HVNC), credential harvesting, and wireless Android Debug Bridge (ADB) functionality to enable extensive remote control of compromised devices. Recent variants also integrate large language model (LLM) APIs to analyze stolen SMS messages and installed applica",
       "threat_actors": [],
       "title": "ArcticRAT Enlists Grok to Analyze Stolen Financial Data"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.elastic.co/security-labs/blog/mitre-atlas-elastic-security-detection-coverage",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T02:53:08.087328+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-acef3e906bac9f0cdab95fa0",
-      "primary_category": "ai_security",
-      "public_article_id": "url:acef3e906bac9f0cdab95fa0",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-21T01:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Elastic Security Blog",
-      "summary": "Elastic Security 9.6 adds MITRE ATLAS to our detection rules and the tools you use to manage them, so you can see which AI attacks your rules already cover.",
-      "summary_excerpt": "Elastic Security 9.6 adds MITRE ATLAS to our detection rules and the tools you use to manage them, so you can see which AI attacks your rules already cover.",
-      "threat_actors": [],
-      "title": "Mapping the AI threat landscape: MITRE ATLAS comes to Elastic Security"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
       "cves": [
-        "CVE-2026-23871"
+        "CVE-2026-129448",
+        "CVE-2026-82384"
       ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T01:22:39.369899+09:00",
-      "heat_score": 55.0,
-      "permalink_id": "article-url-1915a53049dd926cea48c31e",
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T04:23:24.775348+09:00",
+      "heat_score": 70.97,
+      "permalink_id": "article-url-f7eae7be54c91fe04bcca030",
       "primary_category": "vulnerability",
-      "public_article_id": "url:1915a53049dd926cea48c31e",
+      "public_article_id": "url:f7eae7be54c91fe04bcca030",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-21T01:01:02+09:00",
+      "published_at": "2026-11-20T09:00:00+09:00",
       "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp’s security team, and it may have been used to make scam messages more credible. The post WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign appeared first on SecurityWeek .",
-      "summary_excerpt": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp’s security team, and it may have been used to make scam messages more credible. The post WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign appeared first on SecurityWeek .",
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+      "summary_excerpt": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
       "threat_actors": [],
-      "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign"
+      "title": "CVE-2026-129448: Apache Roller"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T01:22:14.459062+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-c3a9fb72b6dce4b4d92c93bc",
-      "primary_category": "incident",
-      "public_article_id": "url:c3a9fb72b6dce4b4d92c93bc",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123890",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T04:23:24.757818+09:00",
+      "heat_score": 70.97,
+      "permalink_id": "article-url-0f5fd783ae6c3664601eecca",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0f5fd783ae6c3664601eecca",
       "public_tags": [
         {
           "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-21T00:58:06+09:00",
+      "published_at": "2026-11-20T09:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-      "summary_excerpt": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "summary_excerpt": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
       "threat_actors": [],
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info"
+      "title": "CVE-2026-123890: Broadcom VMware vCenter"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192578",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T00:24:00.808100+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-77cce1a0e84321363c4f6333",
-      "primary_category": "other",
-      "public_article_id": "url:77cce1a0e84321363c4f6333",
-      "public_tags": [],
-      "published_at": "2026-11-21T00:01:45+09:00",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-42884",
+      "cves": [
+        "CVE-2025-42884"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T04:23:24.747388+09:00",
+      "heat_score": 70.97,
+      "permalink_id": "article-url-0334fad67ab8341ef9405840",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0334fad67ab8341ef9405840",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-20T09:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "早稲田大学は、個人情報を管理するシステムが不正アクセスを受け、同システムが管理するユーザー情報の一部が流出したことを明らかにした。",
-      "summary_excerpt": "早稲田大学は、個人情報を管理するシステムが不正アクセスを受け、同システムが管理するユーザー情報の一部が流出したことを明らかにした。",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+      "summary_excerpt": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
       "threat_actors": [],
-      "title": "個人情報管理システムが侵害、脆弱性対応中に判明 - 早稲田大"
-    }
-  ],
-  "hottest": [
+      "title": "CVE-2025-42884: SAP NetWeaver"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-76466",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T04:23:24.737810+09:00",
+      "heat_score": 70.97,
+      "permalink_id": "article-url-f26406319c1c019e4fca1af5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:f26406319c1c019e4fca1af5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-20T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "summary_excerpt": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "threat_actors": [],
+      "title": "CVE-2026-76466: Cisco Expressway Series"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
@@ -372,6 +524,39 @@
       "summary_excerpt": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
       "threat_actors": [],
       "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "cves": [
+        "CVE-2025-42884",
+        "CVE-2026-123890",
+        "CVE-2026-129448",
+        "CVE-2026-76466"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T04:23:24.393733+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-b22eec5809ce5c9c44d601fc",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:b22eec5809ce5c9c44d601fc",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T21:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CISA Cybersecurity Advisories",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Series Use of Hard-coded Credentials Vulnerability CVE-2026-123890 VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-129448 Apache Roller Deserialization of Untrusted Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
+      "summary_excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Series Use of Hard-coded Credentials Vulnerability CVE-2026-123890 VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-129448 Apache Roller Deserialization of Untrusted Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and po",
+      "threat_actors": [],
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog"
     },
     {
       "ai_relevance": "none",
@@ -462,158 +647,6 @@
       "summary_excerpt": "CyberNewsは11月18日（現地時間）、20カ国以上に設置されたWindows搭載POS（販売時点情報管理）端末700台超がマルウェアに感染し、100万件以上のクレジットカードやデビットカードの情報が流出したと報じた。攻撃には、2024年12月に修正済みのWindowsの脆弱性「CVE-2024-49138」が悪用されていた。被害はブラジルに集中しており、更新プログラムが適用されていないPOS端末のセキュリティリスクが浮き彫りになった。",
       "threat_actors": [],
       "title": "POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-      "cves": [
-        "CVE-2026-123890"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T16:24:11.161676+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-209921156d987de0e7b75345",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:209921156d987de0e7b75345",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T15:33:31+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-      "summary_excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-      "threat_actors": [],
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-114938",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T09:38:41.043295+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-e3222b87ac75cefffe2388aa",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e3222b87ac75cefffe2388aa",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T08:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Palo Alto Security Advisories",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "CVE-2026-114938 Portfolio Status: Impact of Java Vulnerability (CVE-2026-114938) on Palo Alto Networks Products (Severity: CRITICAL)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter/",
-      "cves": [
-        "CVE-2026-123890",
-        "CVE-2026-59309"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T06:53:21.028597+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-89d20775330718208801fa75",
-      "primary_category": "threat_report",
-      "public_article_id": "url:89d20775330718208801fa75",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cve",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T06:06:24+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user. Mandiant privately reported the issue to Broadcom. Also, Mandiant/Google Threat Intelligence confirmed in-the-wild exploitation of CVE-2026-123890 by Chinese state-linked threat actor ARMORY CASTLE as early as September 2026. CVE-2026-123890 is distinct from the vCenter authentication bypass vulnerability CVE-2026-59309 that Broadcom addressed earlier in 2026. The vendor FAQ states that all vCenter systems below the versions fixed by VMSA-2026-0009 require the new update, including systems that already received the earlier fix. Broadcom characterizes the vCenter update as an emergency change requiring prompt action. Mitigation guidance Vendor-provided updates are available for CVE-2026-123890. Broadcom lists no workaround, and the patches cannot be applied using vCenter Quick Patch. Organizations should prioritize upgrading vCenter on an emergency basis, outside of normal patch cycles, using the standard update mechanism for their deployment. VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation / vSphere Foundation 9.1.x.x 9.1.1.0200 VMware Cloud Foundation / vSphere Foundation 9.0.x.x 9.0.2.0200 VMware vCenter Server 8.0 8.0 U3m VMware vCenter Server 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 8.0 U3m — KB463116 VMware Telco Cloud Infrastructure 3.0 8.0 U3m — KB463116 The fixes are cumulative. The vCenter 8.0 U3m and 9.0.2.0200 updates introduce a “Back-in-Time” restriction that blocks upgrades to VMware Cloud Foundation 9.1.1 ; Broadcom advises customers in an active upgrade to review the vendor FAQ and interoperability matrix. Updating vCenter temporarily makes its management interfaces unavailable, but Broadcom states that running virtual machine and container workloads continue to operate. For the latest affected-version and mitigation guidance, please refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-123890 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the Nov 20, 2026 content release. Updates November 19, 2026 : Initial publication.",
-      "summary_excerpt": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user.",
-      "threat_actors": [],
-      "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T18:22:32.963684+09:00",
-      "heat_score": 65.7,
-      "permalink_id": "article-url-d95acd1470bbe750de0962d8",
-      "primary_category": "ai_security",
-      "public_article_id": "url:d95acd1470bbe750de0962d8",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-20T17:52:29+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "The European Commission has confirmed it was hit by a cyberattack that misused a publicly available AI tool and forced the institution to take several of its applications offline. Commission spokesperson Thomas Regnier gave the confirmation at Thursday’s midday press briefing in Brussels. Politico was the first to report the attack, in an exclusive published earlier that day. Reporters used the Q&A session to press Regnier on which systems were hit, whether staff data was … More → The post European Commission confirms AI-generated cyberattack disrupted its systems appeared first on Help Net Security .",
-      "summary_excerpt": "The European Commission has confirmed it was hit by a cyberattack that misused a publicly available AI tool and forced the institution to take several of its applications offline. Commission spokesperson Thomas Regnier gave the confirmation at Thursday’s midday press briefing in Brussels. Politico was the first to report the attack, in an exclusive published earlier that day. Reporters used the Q&A session to press Regnier on which systems were hit, whether staff data was … More → The post European Commission confirms AI-generated cyberattack disrupted its systems appeared first on Help Net Se",
-      "threat_actors": [],
-      "title": "European Commission confirms AI-generated cyberattack disrupted its systems"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/20/2000003368/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T14:22:47.375090+09:00",
-      "heat_score": 65.7,
-      "permalink_id": "article-url-fc9c902cfacebc1411dced5f",
-      "primary_category": "ai_security",
-      "public_article_id": "url:fc9c902cfacebc1411dced5f",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-20T13:29:35+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia NEWS Bursts",
-      "summary": "米Microsoftは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAIエージェントによる新サービス「Microsoft Perception」の提供開始を発表しました。",
-      "summary_excerpt": "米Microsoftは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAIエージェントによる新サービス「Microsoft Perception」の提供開始を発表しました。",
-      "threat_actors": [],
-      "title": "Microsoft、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始"
     }
   ],
   "rising": [],
@@ -962,32 +995,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Bell Canada says 'agentic' hacker stole enterprise customer data",
-    "【HOTTEST #1 / Heat 67.5】VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
-    "【LATEST #2】China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
-    "【HOTTEST #2 / Heat 67.5】Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-    "【LATEST #3】Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
-    "【HOTTEST #3 / Heat 67.5】Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-    "【LATEST #4】Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-    "【HOTTEST #4 / Heat 67.5】Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-    "【LATEST #5】Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-    "【HOTTEST #5 / Heat 67.5】POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出"
+    "【LATEST #1】Container Store restores systems after cyberattack",
+    "【HOTTEST #1 / Heat 70.97】CVE-2026-129448: Apache Roller",
+    "【LATEST #2】Bell Canada says 'agentic' hacker stole enterprise customer data",
+    "【HOTTEST #2 / Heat 70.97】CVE-2026-123890: Broadcom VMware vCenter",
+    "【LATEST #3】In Security, Words Matter as Much as Tools, Maybe More",
+    "【HOTTEST #3 / Heat 70.97】CVE-2025-42884: SAP NetWeaver",
+    "【LATEST #4】Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution",
+    "【HOTTEST #4 / Heat 70.97】CVE-2026-76466: Cisco Expressway Series",
+    "【LATEST #5】WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+    "【HOTTEST #5 / Heat 67.5】VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-17T19:00:00+00:00",
-    "last_as_of": "2026-11-20T19:00:00+00:00",
+    "first_as_of": "2026-11-17T20:00:00+00:00",
+    "last_as_of": "2026-11-20T20:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-20T19:00:00+00:00",
-  "heat_as_of": "2026-11-20T19:00:00+00:00",
+  "news_as_of": "2026-11-20T20:00:00+00:00",
+  "heat_as_of": "2026-11-20T20:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25983,
-  "last_published_at": "2026-11-21T04:07:42.608518+09:00",
-  "publication_slot_jst": "2026-11-21T04:00:00+09:00"
+  "news_catalog_count": 25991,
+  "last_published_at": "2026-11-21T05:08:58.523096+09:00",
+  "publication_slot_jst": "2026-11-21T05:00:00+09:00"
 }

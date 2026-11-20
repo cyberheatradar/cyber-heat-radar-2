@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T18:40:02.623335+00:00",
+  "source_snapshot_generated_at": "2026-11-20T19:40:02.584291+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -44795,6 +44795,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a078beb83add6a1b5ab9d9af",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/bf405e02c6208d8c3a05",
+        "title": "2026/11/21主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-21T04:24:43+09:00",
+        "excerpt": "Theori、主要Webサーバー「nginx」に深刻な脆弱性を発見、早急なパッチ適用を推奨――AI「Xint」が自律的に発掘(11/19) https://prtimes.jp/main/html/rd/p/000000002.000193448.html Joshinのネットワークに不正アクセス、免許証画像やマイナンバーカード情報が漏えいした可能性(11/19) https://s.netsecurity.ne.jp/article/2026/11/19/56835.html GPT-6 Cyber​​でJavaに12年以上未発見の深刻な脆弱性を発見。オラクルはすでにパッチ配布、即時適用を推奨(11/19) https://www.techno-edge.net/article/2026/11/19/5767.html 「人間とは明らかに違う」、15分でシステム深部に入り込むARTEX ログで分かる攻撃の特徴と痕跡(11/19) https://atmarkit.itmedia.co.jp/ait/articles/2611/19/news01"
+      },
+      {
+        "id": "qiita:0d9161b892a5418477dc6e3e",
+        "source": "qiita",
+        "author_tags": [
+          "Git",
+          "Docker",
+          "ClaudeCode",
+          "MCP",
+          "Security"
+        ],
+        "url": "https://qiita.com/ZEUS_LAB/items/90fdf4ee9f769ff9ce85",
+        "title": "公開されているAI・MCPのリポジトリ100件で、除外の設定を数えた（名指しなし・再現スクリプトつき）",
+        "author": "ZEUS_LAB",
+        "published_at": "2026-11-21T04:15:32+09:00",
+        "excerpt": ".gitignore に1行が無いことは、漏えいではありません。けれどその1行は、秘密情報と公開履歴のあいだにある最初の壁です。基本の行が実際どのくらい入っているのかを、数えてみました。 2026-11-20 に、活動中の公開AI・MCPリポジトリ100件を対象にしました。評価はしていません。個別のリポジトリ名は、この記事にも公開するどのファイルにも書いていません。どこにも通報や連絡はしていません。 **全件数・方法・再現スクリプトのページ： https://github.com/ZEUSLABZERO/zero-trace-lite 数えたもの 件数 直下に .gitignore がある 97 / 100 その中に .env を除外する記述がある 76 / 100 .claude や settings.local.json を除外する記述がある 58 / 100 鍵ファイルや secrets を除外する記述がある 26 / 100 直下に Dockerfile がある 30 / 100 …そのうち .dockerignore がある 29 / "
+      },
+      {
         "id": "qiita:bf52d4b8989f37a32688e174",
         "source": "qiita",
         "author_tags": [
@@ -61379,6 +61408,118 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b2dd345289c1e8ca89e3e86a",
+        "source": "medium",
+        "author_tags": [
+          "wazuh-manager",
+          "wazuh",
+          "cybersecurity",
+          "soc-analyst",
+          "siem"
+        ],
+        "url": "https://medium.com/@bhumika04/getting-started-with-wazuh-setting-up-my-first-open-source-siem-lab-8249897f1085",
+        "title": "Getting Started with Wazuh : Setting Up My First Open-Source SIEM Lab",
+        "author": "Bhumika Sejwal",
+        "published_at": "2026-11-20T19:25:15+00:00",
+        "excerpt": "My hands-on journey of deploying Wazuh, monitoring endpoint activity, and investigating a brute-force attack. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:73afbaba9e67b4452516cd4c",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "cybersecurity",
+          "homelab",
+          "blue-team",
+          "active-directory"
+        ],
+        "url": "https://medium.com/@chammarabid/i-took-my-own-active-directory-lab-from-zero-to-domain-admin-and-watched-a-siem-catch-every-step-d07e772eb287",
+        "title": "I Took My Own Active Directory Lab From Zero to Domain Admin — and Watched a SIEM Catch Every Step",
+        "author": "Ammar Abid",
+        "published_at": "2026-11-20T19:18:12+00:00",
+        "excerpt": "How I built a purple-team lab from scratch, broke into it like an attacker, and learned more from the things that failed than the things… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6ea19d55f396b30aaffb8e5d",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "security",
+          "siem",
+          "splunk",
+          "information-security"
+        ],
+        "url": "https://medium.com/@Commoness/day-4-7-learn-splunk-in-15-minutes-master-stats-count-by-1a174e78d404",
+        "title": "Day 4/7: Learn Splunk in 15 Minutes — Master stats, count & by!",
+        "author": "The Commoness",
+        "published_at": "2026-11-20T19:11:01+00:00",
+        "excerpt": "From Searching Security Logs to Identifying Suspicious Patterns! Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a7ded32eeed78c38e9bdb649",
+        "source": "medium",
+        "author_tags": [
+          "zero-trust",
+          "access-control",
+          "cybersecurity",
+          "it-security",
+          "threat-intelligence"
+        ],
+        "url": "https://medium.com/@networktigers/why-blocking-foreign-ip-addresses-may-not-keep-foreign-attackers-out-98d33490826c",
+        "title": "Why blocking foreign IP addresses may not keep foreign attackers out",
+        "author": "NetworkTigers",
+        "published_at": "2026-11-20T19:08:09+00:00",
+        "excerpt": "A foreign attacker can reach your network through a compromised device in your own country. What matters then is what your access policies… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cc2995d5eaf58804bfbd1744",
+        "source": "medium",
+        "author_tags": [
+          "mobile-security",
+          "android-security",
+          "cybersecurity",
+          "application-security",
+          "malware-analysis"
+        ],
+        "url": "https://ismailtasdelen.medium.com/ai-powered-android-malware-inside-bazuka-and-arcticrat-a2260a6b2b8d",
+        "title": "AI-Powered Android Malware: Inside Bazuka and ArcticRAT",
+        "author": "Ismail Tasdelen",
+        "published_at": "2026-11-20T19:07:47+00:00",
+        "excerpt": "How cybercriminals are combining local LLMs, fake screen overlays, and ADB debugging to automate high-value mobile financial theft. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:707b2a24de3401b18b63c345",
+        "source": "medium",
+        "author_tags": [
+          "tech-analysis",
+          "cybersecurity",
+          "application-security",
+          "data-security",
+          "whatsapp"
+        ],
+        "url": "https://ismailtasdelen.medium.com/understanding-whatsapp-security-vulnerabilities-a-deep-dive-b9c3d5ce5154",
+        "title": "Understanding WhatsApp Security Vulnerabilities: A Deep Dive",
+        "author": "Ismail Tasdelen",
+        "published_at": "2026-11-20T19:02:12+00:00",
+        "excerpt": "An analytical breakdown of three newly patched security flaws in WhatsApp, from IP leaks to hardware trust validation. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:83ce2d4c091a1e1bdbac2faf",
+        "source": "medium",
+        "author_tags": [
+          "aws",
+          "asad-saeed",
+          "aws-iam",
+          "cloud-security",
+          "cybersecurity"
+        ],
+        "url": "https://asad-saeed.medium.com/aws-iam-explained-roles-policies-permissions-and-least-privilege-2ae5038dc210",
+        "title": "AWS IAM Explained: Roles, Policies, Permissions and Least Privilege",
+        "author": "Asad Saeed",
+        "published_at": "2026-11-20T19:01:01+00:00",
+        "excerpt": "By Asad Saeed | Senior Software Engineer | Full Stack Developer Continue reading on Medium »"
+      },
       {
         "id": "medium:57906a165dd36b0797384b6e",
         "source": "medium",
