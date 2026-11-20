@@ -1,9 +1,85 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T02:40:03.109659+00:00",
+  "source_snapshot_generated_at": "2026-11-20T03:40:03.122994+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:9ef3309626d64ee4dc7b0623",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "OWASP",
+          "llm"
+        ],
+        "url": "https://zenn.dev/oubakiou/articles/dc6902d14967b9",
+        "title": "OWASP LLM Top 10 2026 要約",
+        "author": "oubakiou",
+        "published_at": "2026-11-20T03:35:29.518000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c84785b16218b9c2089fd991",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "Python",
+          "Stable Diffusion",
+          "ねおん"
+        ],
+        "url": "https://zenn.dev/neon_aiart/articles/bbeabcf9b3114a",
+        "title": "Forge Neo: sd-forge-negpip と anima-ref-adapter-neo の併用時エラーを修正したお話",
+        "author": "ねおん",
+        "published_at": "2026-11-20T03:28:24.488000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0d8deaadb730e9fca38821e8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "コードレビュー",
+          "Claude",
+          "AIエージェント",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/shoyomayabot/articles/claude-codex-cross-review",
+        "title": "AIの仕事はAIに見せる：Claudeが作り、Codexがレビューする「別のAIで確かめる」体制の作り方",
+        "author": "mayabot",
+        "published_at": "2026-11-20T03:16:30.831000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d54c9fefff9788811dd6f3b3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Meta AI",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/ocha50107/articles/b17018f2b71f6b",
+        "title": "「トークン25%減で実質値下げ」は本当か｜数字は公式にあった。でも単価は下がっていない",
+        "author": "おちゃ",
+        "published_at": "2026-11-20T03:13:28.709000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c69d8188c6880fefeb2392e1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AI 開発",
+          "ローカル AI",
+          "Liquid AI",
+          "Jev"
+        ],
+        "url": "https://zenn.dev/gemcook/articles/0f167b23f82b49",
+        "title": "ローカルAI (Liquid AI d1) × Webカメラでリアルタイム表情判定アプリが簡単に作れた 〜意思決定モデルの可能性について〜",
+        "author": "Sho Uemura",
+        "published_at": "2026-11-20T02:58:54.510000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4631900b1bbb469d167043f2",
         "source": "zenn",
@@ -43841,6 +43917,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1bbde746807ea14177bca131",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Web",
+          "HTTP",
+          "CSP",
+          "初心者"
+        ],
+        "url": "https://qiita.com/tasekino/items/1a15f3d0d9e5d284db4c",
+        "title": "クリックジャッキングとは？仕組みと防ぎ方（X-Frame-Options と CSP frame-ancestors）",
+        "author": "tasekino",
+        "published_at": "2026-11-20T12:13:49+09:00",
+        "excerpt": "はじめに 脆弱性診断ツールの OWASP ZAP（ゼットエーピー、Web アプリを外から検査する無料のツール）を動かすと、よく出てくる警告に「 Missing Anti-clickjacking Header （クリックジャッキング対策のヘッダーがない）」があります。 この記事では、その警告が指している「クリックジャッキング」という攻撃について、次の3点を説明します。 どんな攻撃で、何が起きるのか どう防ぐのか（HTTP ヘッダーの設定と、補助的な対策） 対策が効いているかをどう確かめるのか クリックジャッキングで被害を受けるのは、サイトそのものではなく、 サイトを使っている利用者 です。利用者は、気づかないうちに自分のアカウントで操作させられてしまいます。利用者を守るために、サイト側で対策しておきましょう。 想定読者 ：Web アプリを作っている開発者で、セキュリティ対策はこれからという方。HTTP ヘッダーが何かを知っていれば読めます。 動作確認した環境 ：Python 3 / Flask 3.1（記事中の Flask のコード例は、このバー"
+      },
+      {
+        "id": "qiita:091e13e5cb9fb554c4761337",
+        "source": "qiita",
+        "author_tags": [
+          "情報セキュリティ",
+          "Security",
+          "情報セキュリティマネジメント試験",
+          "サイバー攻撃",
+          "初心者"
+        ],
+        "url": "https://qiita.com/yasu1109/items/783eceb00e82ba93ed5e",
+        "title": "情報セキュリティの用語がバラバラの知識のままで、全体のつながりを一から整理したい人へ。イラストで基礎を押さえられる一冊",
+        "author": "yasu1109",
+        "published_at": "2026-11-20T11:46:33+09:00",
+        "excerpt": "マルウェア、標的型攻撃、暗号化、リスクアセスメント。用語は耳にするものの、それぞれがどうつながっているのかを、一から順に整理したいと思ったことはないだろうか。『図解即戦力 情報セキュリティの技術と対策がこれ1冊でしっかりわかる教科書』は、情報セキュリティの基本的な知識を、キーワード形式でイラストを使って解説した一冊だ。掲載項目は、情報セキュリティマネジメント試験の午前重点分野で出題される項目が中心になっている。 概念と対策の方針から入る 1章は、情報セキュリティとは何か、情報セキュリティを構成する7つの要素、OECDセキュリティガイドライン、リスク、情報資産、脅威と脆弱性の種類、人為的不正のメカニズムといった基礎の概念から始まる。 サイバー攻撃の手法を、2章分かけて整理する 2章と3章は、サイバー攻撃の手法だ。攻撃者の種類、パスワードを狙った攻撃、マルウェア、スパイウェア、標的型攻撃、Webブラウザやサーバーを狙った攻撃、乗っ取りやなりすまし、負荷をかける攻撃、プログラムの脆弱性を突いた攻撃まで、項目ごとに区切られている。 暗号、認証、PKIの基"
+      },
+      {
         "id": "qiita:6280ff97488df30f5867d4ae",
         "source": "qiita",
         "author_tags": [
@@ -44074,6 +44182,22 @@
         "author": "naoyukiyamax",
         "published_at": "2026-11-20T08:46:41+09:00",
         "excerpt": "2026年11月19日夜、PHPのセキュリティ修正版（8.2.36 / 8.3.37 / 8.4.28 / 8.5.13）が公開されました。 レンタルサーバー上のサイトは事業者側が対応してくれたのですが、自宅・社内で自分が管理している環境は別です。その一つ、NAS（UGREEN NASync、UGOS Pro）上でDockerコンテナとして動かしている小さなWebアプリ（備品台帳と機器管理）のPHPを更新した記録を残します。 前提：コンテナの中のPHPは、ホストの更新では変わらない NAS本体のOSを更新しても、別のPCのPHPを入れ替えても、コンテナ内のPHPは一緒に新しくなりません。コンテナはアプリの実行環境ごと隔離されているので、更新もコンテナ単位で考える必要があります。 再起動と作り直し（再デプロイ）は違う コンテナの 再起動 ：同じコンテナ・同じイメージがもう一度動くだけ。イメージの中身が古ければ、PHPも古いまま 再デプロイ（作り直し） ：イメージからコンテナを作り直す。ただし、イメージ自体が修正版を含んでいなければ、作り直しても古い"
+      },
+      {
+        "id": "qiita:5c0c94294a10da72a14a92a3",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "Docker",
+          "Ubuntu"
+        ],
+        "url": "https://qiita.com/suwa_nobu/items/83e35e3be86b236cc807",
+        "title": "PHP が再び重大な脆弱性を修正。その修正版はもうあなたの PHP に届いているのか、公開から9時間で6つの入手先を調べたら、Ubuntu と brew install php はまだだった",
+        "author": "suwa_nobu",
+        "published_at": "2026-11-20T08:35:44+09:00",
+        "excerpt": "「 PHPが再び重大脆弱性を修正へ 」（ITmedia、11月19日）。10月に続いて、PHP のセキュリティ修正が出ました。 PHP の公式サイトは前日に「Upcoming Critical PHP Security Release」と予告し、11月19日 14:00〜14:30（UTC、日本時間では23時台）に PHP 8.5.13・8.4.28・8.3.37・8.2.36 を出しました。同じ日に PHP 8.6.0 も出ています。 修正が出たことと、それが自分のサーバーや手元の PHP に入ることは別の話です。PHP は Docker・Homebrew・Linux のパッケージなど、入手先ごとに届く時期が違います。そこで、公開から約9時間後の 11月20日 8時台に、6つの入手先が今どの版を配っているかを公開の API で調べました。 結論 入手先 11/19 の修正（確認は 2026-11-20 08:24〜08:35） Docker 公式イメージ（php:8.2〜8.5） 届いている （公開から約1〜5時間） Windows 版（win"
       },
       {
         "id": "qiita:c20a6df414822e35f535c092",
@@ -60049,6 +60173,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b825b4ec1cf64f75a301b078",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "vulnerability",
+          "bug-bounty",
+          "idor",
+          "cybersecurity"
+        ],
+        "url": "https://samadhanshimple.medium.com/how-i-find-idor-vulnerabilities-my-complete-bug-bounty-hunting-methodology-8344cbecfde8",
+        "title": "How I Find IDOR Vulnerabilities: My Complete Bug Bounty Hunting Methodology",
+        "author": "Samadhan shimple",
+        "published_at": "2026-11-20T03:01:05+00:00",
+        "excerpt": "IDOR (Insecure Direct Object Reference) is one of the most interesting vulnerabilities I look for during bug bounty hunting. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f51b50b5ac6c05eb640bed2d",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "cybersecurity",
+          "business",
+          "data",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@saifkhantoru/why-companies-ignore-cybersecurity-until-its-too-late-e66b532cd310",
+        "title": "Why Companies Ignore Cybersecurity Until It’s Too Late",
+        "author": "Saif Khan",
+        "published_at": "2026-11-20T03:01:02+00:00",
+        "excerpt": "One ignored warning. One stolen password. One ordinary Monday morning that changes everything. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2ceb01316be9767f29ca019a",
+        "source": "medium",
+        "author_tags": [
+          "openjdk",
+          "cybersecurity",
+          "java",
+          "vulnerability",
+          "devops"
+        ],
+        "url": "https://medium.com/@raka824pratama/one-padding-character-sixty-two-bytes-inside-java4shell-the-openjdk-base64-bug-e0adb74d7aee",
+        "title": "One Padding Character, Sixty-Two Bytes: Inside Java4Shell, the OpenJDK Base64 Bug",
+        "author": "Rakapratama",
+        "published_at": "2026-11-20T02:52:49+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
       {
         "id": "medium:6c8f4cc23f2410c4ca3f9379",
         "source": "medium",
