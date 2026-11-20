@@ -1,5 +1,88 @@
 [
   {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-20T22:53:17.886941+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-63176744cc4b38aa22287490",
+    "primary_category": "incident",
+    "public_article_id": "url:63176744cc4b38aa22287490",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "incident",
+        "label": "Incident"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cloud_security",
+        "label": "Cloud Security"
+      }
+    ],
+    "published_at": "2026-11-20T22:18:36+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "BleepingComputer",
+    "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+    "summary_excerpt": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+    "threat_actors": [],
+    "title": "N-able says recent security breach led to major service outage"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://news.yahoo.co.jp/pickup/6603339?source=rss",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-20T22:53:35.026539+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-6269c6004dea2e828bed6169",
+    "primary_category": "other",
+    "public_article_id": "url:6269c6004dea2e828bed6169",
+    "public_tags": [],
+    "published_at": "2026-11-20T22:09:47+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Yahoo!ニュース IT",
+    "summary": null,
+    "summary_excerpt": null,
+    "threat_actors": [],
+    "title": "「KARTE」情報漏えい延べ2200社"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-20T22:53:31.209754+09:00",
+    "heat_score": 45.0,
+    "permalink_id": "article-url-9e00bbe26aa4e5e33dcf87e6",
+    "primary_category": "ransomware",
+    "public_article_id": "url:9e00bbe26aa4e5e33dcf87e6",
+    "public_tags": [
+      {
+        "color_family": "red",
+        "key": "ransomware",
+        "label": "Ransomware"
+      }
+    ],
+    "published_at": "2026-11-20T21:51:36+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "material",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Malwarebytes Blog",
+    "summary": "A ransomware group has published data it claims was stolen from third-party providers linked to Visa, Mastercard, and JPMorgan Chase.",
+    "summary_excerpt": "A ransomware group has published data it claims was stolen from third-party providers linked to Visa, Mastercard, and JPMorgan Chase.",
+    "threat_actors": [],
+    "title": "Hackers leak data linked to Visa, Mastercard, and JPMorgan customers"
+  },
+  {
     "ai_relevance": "primary",
     "canonical_url": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
     "cves": [],
@@ -26,6 +109,71 @@
     "summary_excerpt": "Experts commented on whether AI-accelerated patching played a role, the need for tested rollback plans, and the fragility of interconnected systems. The post Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday appeared first on SecurityWeek .",
     "threat_actors": [],
     "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+    "cves": [
+      "CVE-2026-123890"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-20T22:22:36.866914+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-bbc89a2472ca1e82408709f2",
+    "primary_category": "threat_report",
+    "public_article_id": "url:bbc89a2472ca1e82408709f2",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "cve",
+        "label": "Vulnerability"
+      }
+    ],
+    "published_at": "2026-11-20T21:30:19+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Help Net Security",
+    "summary": "A suspected China-nexus espionage group tracked as Armory Castle (formerly UNC5221) has been exploiting a VMware vCenter zero-day since at least early September, more than two months before Broadcom released a fix, Google Threat Intelligence Group (GTIG) revealed. The vulnerability (CVE-2026-123890) carries a CVSS score of 9.8 and allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, which organizations use to manage their VMware servers and virtual machines. Broadcom fixed it … More → The post VMware vCenter zero-day exploited for months before patch (CVE-2026-123890) appeared first on Help Net Security .",
+    "summary_excerpt": "A suspected China-nexus espionage group tracked as Armory Castle (formerly UNC5221) has been exploiting a VMware vCenter zero-day since at least early September, more than two months before Broadcom released a fix, Google Threat Intelligence Group (GTIG) revealed. The vulnerability (CVE-2026-123890) carries a CVSS score of 9.8 and allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, which organizations use to manage their VMware servers and virtual machines. Broadcom fixed it … More → The post VMware vCenter zero-day exploited for months before patch ",
+    "threat_actors": [],
+    "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+    "cves": [
+      "CVE-2026-99312"
+    ],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-20T22:22:42.952581+09:00",
+    "heat_score": 75.0,
+    "permalink_id": "article-url-c7b209f2aed89407eb0e30e5",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:c7b209f2aed89407eb0e30e5",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "neutral",
+        "key": "cloud_security",
+        "label": "Cloud Security"
+      }
+    ],
+    "published_at": "2026-11-20T21:20:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "The Hacker News",
+    "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+    "summary_excerpt": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+    "threat_actors": [],
+    "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts"
   },
   {
     "ai_relevance": "none",
@@ -76,6 +224,28 @@
     "summary_excerpt": "Threat actors accessed databases containing customer information associated with clinics in Japan. The post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek .",
     "threat_actors": [],
     "title": "SBC Medical Group Data Breach Impacts Over 2 Million"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.security-next.com/193094",
+    "cves": [],
+    "document_form": "single_story",
+    "first_seen_at": "2026-11-20T22:22:42.304752+09:00",
+    "heat_score": 65.0,
+    "permalink_id": "article-url-c02a109e01457e9b64f90b5a",
+    "primary_category": "other",
+    "public_article_id": "url:c02a109e01457e9b64f90b5a",
+    "public_tags": [],
+    "published_at": "2026-11-20T20:21:03+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": false,
+    "source_class": "topic_rss",
+    "source_name": "Security NEXT",
+    "summary": "無料ニュースアプリ「グノシー」などを運営するGunosyは、不正アクセスを受け、関係者の個人情報が流出したことを明らかにした。",
+    "summary_excerpt": "無料ニュースアプリ「グノシー」などを運営するGunosyは、不正アクセスを受け、関係者の個人情報が流出したことを明らかにした。",
+    "threat_actors": [],
+    "title": "クラウド環境や業務ツールに不正アクセス、個人情報流出 - Gunosy"
   },
   {
     "ai_relevance": "none",
@@ -522,7 +692,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-20T16:52:03.855177+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-846075ea51eaafd4b5d9d5d3",
     "primary_category": "ransomware",
     "public_article_id": "url:846075ea51eaafd4b5d9d5d3",
@@ -550,7 +720,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-20T17:22:36.736694+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-02ac60149ed26c43910bab7c",
     "primary_category": "other",
     "public_article_id": "url:02ac60149ed26c43910bab7c",
@@ -572,7 +742,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-20T17:22:38.631728+09:00",
-    "heat_score": 45.0,
+    "heat_score": 40.5,
     "permalink_id": "article-url-e40617893cabf092a419255a",
     "primary_category": "threat_campaign",
     "public_article_id": "url:e40617893cabf092a419255a",
@@ -3058,7 +3228,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T22:53:58.864567+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-7229ac60661b35614be5309b",
     "primary_category": "ransomware",
     "public_article_id": "url:7229ac60661b35614be5309b",
@@ -3086,7 +3256,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T22:22:45.817829+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-4775b8e7b43cd6478da1d97a",
     "primary_category": "vulnerability",
     "public_article_id": "url:4775b8e7b43cd6478da1d97a",
@@ -3114,7 +3284,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T22:22:15.415344+09:00",
-    "heat_score": 58.5,
+    "heat_score": 46.8,
     "permalink_id": "article-url-9ca9ce7f9de58cb64d6a0209",
     "primary_category": "vulnerability",
     "public_article_id": "url:9ca9ce7f9de58cb64d6a0209",
@@ -3144,7 +3314,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-19T22:22:39.277961+09:00",
-    "heat_score": 67.5,
+    "heat_score": 54.0,
     "permalink_id": "article-url-26772c0b86113178498cf80e",
     "primary_category": "vulnerability",
     "public_article_id": "url:26772c0b86113178498cf80e",
@@ -3172,7 +3342,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-20T00:24:07.596535+09:00",
-    "heat_score": 40.5,
+    "heat_score": 32.4,
     "permalink_id": "article-url-290037dbfc31137104f9d19f",
     "primary_category": "other",
     "public_article_id": "url:290037dbfc31137104f9d19f",
@@ -25066,7 +25236,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T23:22:49.207413+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-28b151e153c55cc357ceba47",
     "primary_category": "ai_security",
     "public_article_id": "url:28b151e153c55cc357ceba47",
@@ -25099,7 +25269,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T23:22:57.507985+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-9e1f9d366e62390f0f5ac13c",
     "primary_category": "vulnerability",
     "public_article_id": "url:9e1f9d366e62390f0f5ac13c",
@@ -25127,7 +25297,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T00:52:40.176540+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-dc4719cb41db0cb4931b3141",
     "primary_category": "other",
     "public_article_id": "url:dc4719cb41db0cb4931b3141",
@@ -25149,7 +25319,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T23:22:49.889706+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-3004e87e65cc3fc92371b6bb",
     "primary_category": "ransomware",
     "public_article_id": "url:3004e87e65cc3fc92371b6bb",
@@ -25177,7 +25347,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T22:39:17.457904+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-5de8be62f35edd655eeebcfe",
     "primary_category": "vulnerability",
     "public_article_id": "url:5de8be62f35edd655eeebcfe",
@@ -25217,7 +25387,7 @@
     ],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T22:52:03.788113+09:00",
-    "heat_score": 39.6,
+    "heat_score": 27.5,
     "permalink_id": "article-url-86d3e558bb3433cf57cf70f6",
     "primary_category": "vulnerability",
     "public_article_id": "url:86d3e558bb3433cf57cf70f6",
@@ -25245,7 +25415,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T22:38:56.413019+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-99d34f13549fb0956b903d85",
     "primary_category": "ransomware",
     "public_article_id": "url:99d34f13549fb0956b903d85",
@@ -25273,7 +25443,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-18T02:37:55.348172+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-e005b783aff28b1a3cc755e2",
     "primary_category": "threat_campaign",
     "public_article_id": "url:e005b783aff28b1a3cc755e2",
@@ -25301,7 +25471,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-17T22:39:03.790775+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-7c48bf6f443883409fd0eeac",
     "primary_category": "threat_campaign",
     "public_article_id": "url:7c48bf6f443883409fd0eeac",
@@ -40695,7 +40865,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-13T23:22:41.381529+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-c5b36841680f9de326f9f585",
     "primary_category": "ai_security",
     "public_article_id": "url:c5b36841680f9de326f9f585",
@@ -40723,7 +40893,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-13T22:53:16.247036+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-7ac3b3e45f83d5735ab4f209",
     "primary_category": "threat_campaign",
     "public_article_id": "url:7ac3b3e45f83d5735ab4f209",
@@ -40756,7 +40926,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-13T21:52:49.890825+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-43f14cb30a435c05137d03f4",
     "primary_category": "incident",
     "public_article_id": "url:43f14cb30a435c05137d03f4",
@@ -142748,390 +142918,5 @@
     "summary_excerpt": "Symantec, which discovered the operation, urged companies to scan their networks for signs of compromise.",
     "threat_actors": [],
     "title": "Russia-linked hackers broke into NATO shipbuilder in latest espionage campaign"
-  },
-  {
-    "ai_relevance": "primary",
-    "canonical_url": "https://www.wiz.io/blog/php2shell-php-rce",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:38:27.400568+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-7067eadac3a0d563c982b5de",
-    "primary_category": "ai_security",
-    "public_article_id": "url:7067eadac3a0d563c982b5de",
-    "public_tags": [
-      {
-        "color_family": "cyan",
-        "key": "ai_security",
-        "label": "AI Security"
-      }
-    ],
-    "published_at": "2026-10-21T22:59:59+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Wiz Blog",
-    "summary": "Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.",
-    "summary_excerpt": "Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.",
-    "threat_actors": [],
-    "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:35:01.947206+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-4a59615041b968ae61d1e051",
-    "primary_category": "vulnerability",
-    "public_article_id": "url:4a59615041b968ae61d1e051",
-    "public_tags": [
-      {
-        "color_family": "neutral",
-        "key": "vulnerability",
-        "label": "Vulnerability"
-      },
-      {
-        "color_family": "neutral",
-        "key": "cloud_security",
-        "label": "Cloud Security"
-      }
-    ],
-    "published_at": "2026-10-21T22:56:45+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Cloudflare Blog Security",
-    "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
-    "summary_excerpt": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
-    "threat_actors": [],
-    "title": "Cloudflare deploys protections against php2shell vulnerability"
-  },
-  {
-    "ai_relevance": "primary",
-    "canonical_url": "https://www.helpnetsecurity.com/2026/10/21/nvidia-openshell-reference-architecture/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:36:09.491071+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-9b09ab524a533fdffb1edb75",
-    "primary_category": "ai_security",
-    "public_article_id": "url:9b09ab524a533fdffb1edb75",
-    "public_tags": [
-      {
-        "color_family": "cyan",
-        "key": "ai_security",
-        "label": "AI Security"
-      },
-      {
-        "color_family": "cyan",
-        "key": "agentic_security",
-        "label": "Agentic Security"
-      }
-    ],
-    "published_at": "2026-10-21T22:52:23+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Help Net Security AI News",
-    "summary": "NVIDIA’s OpenShell Reference Architecture is designed to help businesses control AI agents operating across enterprise infrastructure and local computing systems. It builds on NVIDIA’s existing OpenShell security software, combining it with hardware for running AI models, managing agent operations and enforcing security rules. The aim is to let agents carry out useful work within defined boundaries, while giving businesses tools to monitor their behaviour and stop activity that crosses those limits. “AI capability and safety … More → The post NVIDIA unveils security architecture that can stop AI agents crossing set boundaries appeared first on Help Net Security .",
-    "summary_excerpt": "NVIDIA’s OpenShell Reference Architecture is designed to help businesses control AI agents operating across enterprise infrastructure and local computing systems. It builds on NVIDIA’s existing OpenShell security software, combining it with hardware for running AI models, managing agent operations and enforcing security rules. The aim is to let agents carry out useful work within defined boundaries, while giving businesses tools to monitor their behaviour and stop activity that crosses those limits. “AI capability and safety … More → The post NVIDIA unveils security architecture that can stop ",
-    "threat_actors": [],
-    "title": "NVIDIA unveils security architecture that can stop AI agents crossing set boundaries"
-  },
-  {
-    "ai_relevance": "material",
-    "canonical_url": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:38:27.660142+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-859a2ca12c0c52e968814d9c",
-    "primary_category": "ai_security",
-    "public_article_id": "url:859a2ca12c0c52e968814d9c",
-    "public_tags": [
-      {
-        "color_family": "cyan",
-        "key": "ai_security",
-        "label": "AI Security"
-      },
-      {
-        "color_family": "neutral",
-        "key": "cloud_security",
-        "label": "Cloud Security"
-      }
-    ],
-    "published_at": "2026-10-21T22:44:12+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Wiz Blog",
-    "summary": "In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.",
-    "summary_excerpt": "In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.",
-    "threat_actors": [],
-    "title": "LiteLLM Compromised, Steals Credentials"
-  },
-  {
-    "ai_relevance": "primary",
-    "canonical_url": "https://socket.dev/blog/litellm-compromise",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:38:00.329429+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-af9fb53128fc3f1cf888fe78",
-    "primary_category": "supply_chain",
-    "public_article_id": "url:af9fb53128fc3f1cf888fe78",
-    "public_tags": [
-      {
-        "color_family": "neutral",
-        "key": "supply_chain",
-        "label": "Supply Chain"
-      },
-      {
-        "color_family": "cyan",
-        "key": "ai",
-        "label": "AI Security"
-      },
-      {
-        "color_family": "neutral",
-        "key": "cloud_security",
-        "label": "Cloud Security"
-      },
-      {
-        "color_family": "red",
-        "key": "malware",
-        "label": "Malware"
-      }
-    ],
-    "published_at": "2026-10-21T22:41:48.036000+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Socket Blog",
-    "summary": "A supply chain attack compromised LiteLLM 1.107.0 on PyPI and Docker, spreading malware that steals cloud credentials, developer secrets, and AI provider keys.",
-    "summary_excerpt": "A supply chain attack compromised LiteLLM 1.107.0 on PyPI and Docker, spreading malware that steals cloud credentials, developer secrets, and AI provider keys.",
-    "threat_actors": [],
-    "title": "LiteLLM PyPI Package and Docker Images Compromised to Steal Cloud and AI Credentials"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:35:11.597657+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-5f3fae1d4d04672675a0755f",
-    "primary_category": "vulnerability",
-    "public_article_id": "url:5f3fae1d4d04672675a0755f",
-    "public_tags": [
-      {
-        "color_family": "neutral",
-        "key": "vulnerability",
-        "label": "Vulnerability"
-      }
-    ],
-    "published_at": "2026-10-21T22:40:02+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "CyberScoop",
-    "summary": "The project overseeing the programming language is releasing patches Wednesday, with the internet racing to patch the 9.2 rated flaw. The post PHP releases emergency fixes for 2 critical vulnerabilities appeared first on CyberScoop .",
-    "summary_excerpt": "The project overseeing the programming language is releasing patches Wednesday, with the internet racing to patch the 9.2 rated flaw. The post PHP releases emergency fixes for 2 critical vulnerabilities appeared first on CyberScoop .",
-    "threat_actors": [],
-    "title": "PHP releases emergency fixes for 2 critical vulnerabilities"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.security-next.com/191717",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:37:55.235805+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-10168af7d93cf8490984e1c3",
-    "primary_category": "other",
-    "public_article_id": "url:10168af7d93cf8490984e1c3",
-    "public_tags": [],
-    "published_at": "2026-10-21T22:18:34+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Security NEXT",
-    "summary": "岩井コスモ証券は、インターネット取引システムにおいて個人情報が流出したことを明らかにした。意図しない取り引きも確認されたという。",
-    "summary_excerpt": "岩井コスモ証券は、インターネット取引システムにおいて個人情報が流出したことを明らかにした。意図しない取り引きも確認されたという。",
-    "threat_actors": [],
-    "title": "個人情報流出が判明、意図しない売買も - 岩井コスモ証券"
-  },
-  {
-    "ai_relevance": "material",
-    "canonical_url": "https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:37:31.139583+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-579ed62725116c9f6f01cc41",
-    "primary_category": "ai_security",
-    "public_article_id": "url:579ed62725116c9f6f01cc41",
-    "public_tags": [
-      {
-        "color_family": "cyan",
-        "key": "ai_security",
-        "label": "AI Security"
-      },
-      {
-        "color_family": "red",
-        "key": "ransomware",
-        "label": "Ransomware"
-      },
-      {
-        "color_family": "red",
-        "key": "malware",
-        "label": "Malware"
-      },
-      {
-        "color_family": "red",
-        "key": "ttp",
-        "label": "TTP"
-      }
-    ],
-    "published_at": "2026-10-21T22:00:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Rapid7 Blog",
-    "summary": "Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams already managing growing vulnerability backlogs, this creates a difficult question: How do you reduce exposure when attackers can exploit vulnerabilities before your next patching window? Rapid7's Q3 2026 research brings together vulnerability intelligence, ransomware activity, APT tracking, and underground forum intelligence to show where attacker activity is concentrated. The exploitation window has narrowed, big time Rapid7 tracked 43 newly exploited high- and critical-severity vulnerabilities this quarter, down 7% from Q2 but still 19% higher than the same period last year. The number of newly exploited vulnerabilities isn't growing at the same rate as disclosures. The more pressing concern is how quickly attackers exploit the vulnerabilities they choose. On average, exploitation occurred just three days after public disclosure. The report also found that 80% of tracked exploitation occurred within 14 days and 90% within 30 days. That timeline creates a serious challenge for organizations relying on fixed remediation schedules. It also reinforces the need to distinguish between vulnerabilities that are theoretically severe and those that pose an immediate, exploitable risk. The report examines the exploitation timeline in greater detail, including the vulnerability characteristics that make certain exposures particularly attractive to attackers. Attackers are exploiting vulnerabilities that require no interaction Q3's vulnerability data reveals another concerning pattern: Of the 43 newly exploited high- and critical-severity vulnerabilities tracked, 34 (79%) required no authentication or user interaction. This provides attackers a potential path into exposed systems, no stolen credentials or malicious content interaction necessary. An internet-facing service with an exploitable vulnerability may require immediate attention, particularly when an attacker can reach it without authenticating. This makes attack surface visibility and contextual prioritization essential. Security teams need to understand which systems are externally accessible, which vulnerabilities are actively exploited, and whether existing controls can prevent or limit compromise. A CVSS score alone won’t give you the answers. The report explores the characteristics of exploited vulnerabilities and why understanding reachability is critical to reducing risk. AI is taking on a more operational role in attacks In Q3, 8% of the threat reporting tracked by Rapid7 cited AI as an operational component. The research identifies a shift from using AI primarily to help draft content or code toward supporting tactical decisions and execution within attack campaigns. In the documented cases, human operators continued to select targets and determine objectives, but relied on AI assistance for technique selection, target assessment, and adapting when an attack step failed. The report also examines how threat actors split malicious objectives across multiple AI sessions to evade provider safeguards. There are serious implications for detection in these findings. AI-enabled attacks also reinforce the value of monitoring and quickly adapting to attacker behavior rather than relying exclusively on known malware signatures or threat actor identities. The report provides additional context on how AI appeared in tracked campaigns and what defenders should monitor. The next step: Prioritize exposure before attackers exploit it Q3's findings reveal a challenge that vulnerability counts alone can’t explain. Attackers exploited 43 newly tracked vulnerabilities this quarter, yet the average exploitation window was just three days. Meanwhile, underground forum monitoring identified 41 posts advertising RDP or network access, demonstrating continued interest in selling access to compromised environments. Security teams must account for both the vulnerabilities attackers can exploit directly and the access they can obtain through other means. Start by identifying externally accessible assets and the vulnerabilities affecting them. Prioritize known exploitation, unauthenticated access paths, and systems supporting critical business functions. Where immediate remediation isn't possible, assess compensating controls and detection coverage. The latest Rapid7 Quarterly Threat Landscape Report brings together vulnerability research, ransomware intelligence, nation-state activity, and dark web monitoring to help security teams understand where threats are concentrated and what to address first. Download and read it now .",
-    "summary_excerpt": "Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams already managing growing vulnerability backlogs, this creates a difficult question: How do you reduce exposure when attackers can exploit vulnerabilities before your next patching window? Rapid7's Q3 2026 research brings together vulnerability intelligence, ransomware activity, APT tracking, and underground forum intellig",
-    "threat_actors": [],
-    "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.huntress.com/blog/amazon-clickfix-finger",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:36:12.097976+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-242ef7ed4130818deecaedb5",
-    "primary_category": "threat_campaign",
-    "public_article_id": "url:242ef7ed4130818deecaedb5",
-    "public_tags": [
-      {
-        "color_family": "red",
-        "key": "threat_campaign",
-        "label": "Campaign"
-      },
-      {
-        "color_family": "red",
-        "key": "malware",
-        "label": "Malware"
-      }
-    ],
-    "published_at": "2026-10-21T22:00:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Huntress Blog",
-    "summary": "A Google search for Amazon business led to a ClickFix lure that dropped multiple malicious payloads onto the victim machine, including versions of Lumma Stealer and NetSupport Client RMM.",
-    "summary_excerpt": "A Google search for Amazon business led to a ClickFix lure that dropped multiple malicious payloads onto the victim machine, including versions of Lumma Stealer and NetSupport Client RMM.",
-    "threat_actors": [],
-    "title": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.huntress.com/blog/espm-attack-reduction-clickfix",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:36:11.832997+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-b71d690edf5f8181f37a6991",
-    "primary_category": "threat_campaign",
-    "public_article_id": "url:b71d690edf5f8181f37a6991",
-    "public_tags": [
-      {
-        "color_family": "red",
-        "key": "threat_campaign",
-        "label": "Campaign"
-      }
-    ],
-    "published_at": "2026-10-21T22:00:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Huntress Blog",
-    "summary": "ClickFix tricks users into pasting malicious commands into the Windows Run dialog. See how Attack Reduction in Huntress ESPM helps prevent that from happening.",
-    "summary_excerpt": "ClickFix tricks users into pasting malicious commands into the Windows Run dialog. See how Attack Reduction in Huntress ESPM helps prevent that from happening.",
-    "threat_actors": [],
-    "title": "Attack Reduction in Huntress Managed ESPM: Disrupting ClickFix"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:35:27.278063+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-9323513c328475780e772073",
-    "primary_category": "threat_campaign",
-    "public_article_id": "url:9323513c328475780e772073",
-    "public_tags": [
-      {
-        "color_family": "red",
-        "key": "threat_campaign",
-        "label": "Campaign"
-      },
-      {
-        "color_family": "red",
-        "key": "malware",
-        "label": "Malware"
-      }
-    ],
-    "published_at": "2026-10-21T22:00:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Dark Reading",
-    "summary": "The attack uses malicious Google search results related to Amazon and leverages the \"finger\" utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
-    "summary_excerpt": "The attack uses malicious Google search results related to Amazon and leverages the \"finger\" utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
-    "threat_actors": [],
-    "title": "Decades-Old Windows Utility Powers Modern ClickFix Attack"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.akamai.com/blog/security-research/critical-remote-code-execution-vulnerabilities-php-core",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-23T17:32:28.140816+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-4861fca860de508bf93b3212",
-    "primary_category": "vulnerability",
-    "public_article_id": "url:4861fca860de508bf93b3212",
-    "public_tags": [
-      {
-        "color_family": "neutral",
-        "key": "vulnerability",
-        "label": "Vulnerability"
-      }
-    ],
-    "published_at": "2026-10-21T22:00:00+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Akamai Security Intelligence",
-    "summary": null,
-    "summary_excerpt": null,
-    "threat_actors": [],
-    "title": "Critical Remote Code Execution Vulnerabilities in PHP Core"
   }
 ]
