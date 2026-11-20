@@ -1,9 +1,100 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-19T22:40:02.547704+00:00",
+  "source_snapshot_generated_at": "2026-11-19T23:40:04.036103+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:454d585aecd92a76d2b4bfdd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Unity",
+          "macOS",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/akeboko/articles/cb36712c070c70",
+        "title": "元のコードなし、Wine なし。コードが書けない大学生が AIと 6 週間で『真・女神転生III HD』を Mac ネイティブに作り直した話",
+        "author": "あけぼこ",
+        "published_at": "2026-11-19T23:21:12.910000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:acf460f1bbc2310d3ca21ec6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "個人開発",
+          "大学生",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yukidev25/articles/ee3d255560f0d8",
+        "title": "「この単位で卒業できますか」に、自分の便覧で答えるツールを作った【AIが便覧を読む】",
+        "author": "Yuki_Dev",
+        "published_at": "2026-11-19T23:12:43.428000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:29c595942baa1eb984205344",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Microsoft 365",
+          "Copilot"
+        ],
+        "url": "https://zenn.dev/jinsights/articles/34ffd08657217f",
+        "title": "Copilot Autopilotを試す前に：米国限定プレビュー・従量課金・クラウド実行を整理",
+        "author": "Hiromitsu Jin@jaxia_nexus",
+        "published_at": "2026-11-19T23:10:29.179000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:627649777b56d639143dd57e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261120-tech-watch",
+        "title": "Tech Watch 2026-11-20: エージェント運用の境界",
+        "author": "らいけん",
+        "published_at": "2026-11-19T23:10:10.589000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:42a057d36ea8a677ad0576fe",
+        "source": "zenn",
+        "author_tags": [
+          "SQL",
+          "Database",
+          "Security"
+        ],
+        "url": "https://zenn.dev/visionarray/articles/18e5782abc9964",
+        "title": "SQLインジェクションは、なぜ絶滅しないのか？",
+        "author": "M Sugiura",
+        "published_at": "2026-11-19T22:56:48.154000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:85c5b12903b045a00a15b246",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Angular",
+          "Django",
+          "コードレビュー"
+        ],
+        "url": "https://zenn.dev/okkun_lab/articles/58a2c4f00a9312",
+        "title": "GPUなし・空きメモリ16GBで挑む！10万行超のAngular・DjangoをオフラインAIでコードレビューする環境設計",
+        "author": "おっくん | AI × Web開発",
+        "published_at": "2026-11-19T22:47:36.783000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:a8092862519cdb1ba16986f9",
         "source": "zenn",
@@ -43374,6 +43465,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c20a6df414822e35f535c092",
+        "source": "qiita",
+        "author_tags": [
+          "nginx",
+          "http2",
+          "CVE-2026-123007",
+          "Security",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/homhom44/items/06773532c1b45b924ca4",
+        "title": "静的ファイルのnginxが壊れる日 HTTP/2送信枠の数え間違いが10年残った理由",
+        "author": "homhom44",
+        "published_at": "2026-11-20T08:06:50+09:00",
+        "excerpt": "入口は単純でも、奥は面倒になる 画像: www.wiz.io より nginx は多くの現場で「静的ファイルを配るだけ」の役目を担っています。画像や CSS を返し、必要ならアプリへ振り分ける。構成としては地味ですが、実際にはその前段に立つことが多く、ここが崩れると後ろのアプリが無傷でも全体が危なくなります。今回の話は、その前段の HTTP/2 処理に入り込んだ不具合です。 問題の名前は、NGINX の公式セキュリティアドバイザリでは「Memory corruption in HTTP/2 flow control」、CVE-2026-123007 です。影響範囲は nginx 1.9.5 から 1.31.8、修正版は 1.30.7 と 1.31.9。HTTP/2 が有効な構成が前提で、公開情報では認証なしのリモートコード実行に至りうるとされています。 HTTP/2 にはフロー制御があります。これは、相手が一気に送りすぎないように「送ってよい量」の上限を設ける仕組みです。通信路の渋滞を防ぐための交通整理だと思うと近いです。nginx はこの上限を"
+      },
+      {
         "id": "qiita:e1cf269a8a6614fbd075b25b",
         "source": "qiita",
         "author_tags": [
@@ -59331,6 +59438,83 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:3296011b23f41291c0ecb804",
+        "source": "medium",
+        "author_tags": [
+          "private-equity",
+          "cybersecurity",
+          "venture-capital"
+        ],
+        "url": "https://medium.com/@damianmaggiogvm/damian-maggio-why-cybersecurity-has-become-a-core-diligence-question-a15fced9837f",
+        "title": "Damian Maggio: Why Cybersecurity Has Become a Core Diligence Question",
+        "author": "Damian Maggio",
+        "published_at": "2026-11-19T23:32:19+00:00",
+        "excerpt": "By Damian Maggio Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dbe4ae0f162c9b9e3a385faa",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty-writeup",
+          "penetration-testing",
+          "ethical-hacking",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@anas-nady/%EF%B8%8F-apple-hof-may-2026-stopping-podcast-hijacking-5baf19fae4f4",
+        "title": "️ Apple HOF (May 2026): Stopping Podcast Hijacking",
+        "author": "Anas NadY",
+        "published_at": "2026-11-19T23:26:31+00:00",
+        "excerpt": "A concise tale of missing verification, content theft, and a swift resolution. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5f4c3b32b7e0025eac0e4026",
+        "source": "medium",
+        "author_tags": [
+          "gta",
+          "hacking",
+          "cybersecurity",
+          "gaming"
+        ],
+        "url": "https://matthew-rosenquist.medium.com/the-grand-theft-auto-effect-on-cybersecurity-9f5779673d54",
+        "title": "The Grand Theft Auto Effect on Cybersecurity",
+        "author": "Matthew.Rosenquist",
+        "published_at": "2026-11-19T23:17:23+00:00",
+        "excerpt": "Does anyone believe that the release of the highly anticipated game Grand Theft Auto VI will disrupt the number of cyberattacks for the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:be878a10cf6f3f468779e4ef",
+        "source": "medium",
+        "author_tags": [
+          "java",
+          "cybersecurity",
+          "information-security",
+          "devops",
+          "vulnerability"
+        ],
+        "url": "https://medium.com/@nyna19838/java4shell-explained-the-critical-java-flaw-that-only-hits-certain-cpus-and-how-to-check-yours-in-5048373fa857",
+        "title": "Java4Shell Explained: The Critical Java Flaw That Only Hits Certain CPUs (and How to Check Yours in…",
+        "author": "Nyna",
+        "published_at": "2026-11-19T23:01:02+00:00",
+        "excerpt": "Only servers with certain CPUs are affected. Here’s how to check yours and what to do today. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:51364cc3fb02f986be3ac3a0",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "vmware",
+          "threat-intelligence",
+          "vcenter",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@beyzasilagokmen12/vmsa-2026-0009-vcenterda-s%C4%B1f%C4%B1r%C4%B1nc%C4%B1-g%C3%BCn-parolas%C4%B1z-y%C3%B6netici-oturumu-ve-armory-castle-8914dda33a93",
+        "title": "VMSA-2026–0009: vCenter’da Sıfırıncı Gün, Parolasız Yönetici Oturumu ve ARMORY CASTLE",
+        "author": "Beyza Sıla Gökmen",
+        "published_at": "2026-11-19T22:49:54+00:00",
+        "excerpt": "Broadcom’un beş zafiyetlik bülteni, Mandiant’ın ortaya çıkardığı Çin bağlantılı kampanya ve vSphere ortamları için atılması gereken adımlar Continue reading on Medium »"
+      },
       {
         "id": "medium:165865bb29ed04bbcd7aed99",
         "source": "medium",
