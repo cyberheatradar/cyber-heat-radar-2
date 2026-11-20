@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-20T17:07:39.727717+00:00",
-  "as_of": "2026-11-20T17:00:00+00:00",
-  "catalog_count": 25977,
+  "generated_at": "2026-11-20T18:08:04.466178+00:00",
+  "as_of": "2026-11-20T18:00:00+00:00",
+  "catalog_count": 25982,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,133 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T02:53:22.239048+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-2165e5382ec0d52996fbcdcf",
+      "primary_category": "ai_security",
+      "public_article_id": "url:2165e5382ec0d52996fbcdcf",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-21T02:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Register Security",
+      "summary": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said",
+      "summary_excerpt": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said",
+      "threat_actors": [],
+      "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T02:53:21.740151+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-ea51260c28d0da926a3694af",
+      "primary_category": "ai_security",
+      "public_article_id": "url:ea51260c28d0da926a3694af",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-21T02:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+      "summary_excerpt": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+      "threat_actors": [],
+      "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T02:53:05.569590+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-209648e572bdea41ada38593",
+      "primary_category": "ai_security",
+      "public_article_id": "url:209648e572bdea41ada38593",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-21T02:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+      "summary_excerpt": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+      "threat_actors": [],
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T02:22:49.870733+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-0b4042589720c6043be8f152",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:0b4042589720c6043be8f152",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-21T01:58:16+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
+      "summary_excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
+      "threat_actors": [],
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
+    },
     {
       "ai_relevance": "material",
       "canonical_url": "https://blog.polyswarm.io/arcticrat-enlists-grok-to-analyze-stolen-financial-data",
@@ -42,6 +169,34 @@
       "summary_excerpt": "Verticals Targeted: Cryptocurrency, Financial Executive Summary An evolving Android remote access trojan (RAT), ArcticRAT, has expanded from targeting cryptocurrency applications into a broader surveillance and financial information theft platform. The malware combines Android Accessibility Services abuse, hidden virtual network computing (HVNC), credential harvesting, and wireless Android Debug Bridge (ADB) functionality to enable extensive remote control of compromised devices. Recent variants also integrate large language model (LLM) APIs to analyze stolen SMS messages and installed applica",
       "threat_actors": [],
       "title": "ArcticRAT Enlists Grok to Analyze Stolen Financial Data"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.elastic.co/security-labs/blog/mitre-atlas-elastic-security-detection-coverage",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T02:53:08.087328+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-acef3e906bac9f0cdab95fa0",
+      "primary_category": "ai_security",
+      "public_article_id": "url:acef3e906bac9f0cdab95fa0",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-21T01:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Elastic Security Blog",
+      "summary": "Elastic Security 9.6 adds MITRE ATLAS to our detection rules and the tools you use to manage them, so you can see which AI attacks your rules already cover.",
+      "summary_excerpt": "Elastic Security 9.6 adds MITRE ATLAS to our detection rules and the tools you use to manage them, so you can see which AI attacks your rules already cover.",
+      "threat_actors": [],
+      "title": "Mapping the AI threat landscape: MITRE ATLAS comes to Elastic Security"
     },
     {
       "ai_relevance": "none",
@@ -144,143 +299,6 @@
       "summary_excerpt": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]",
       "threat_actors": [],
       "title": "Still tracking company passwords in spreadsheets? You’re flying blind."
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security.com/product-insights/php2shell-and-trusted-website-problem",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T00:23:20.975961+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-e4f4767a5c351f9763752a5e",
-      "primary_category": "other",
-      "public_article_id": "url:e4f4767a5c351f9763752a5e",
-      "public_tags": [],
-      "published_at": "2026-11-21T00:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Broadcom / Symantec Enterprise Blogs",
-      "summary": "Web isolation protects users from compromised sites that no one can predict, block, or patch",
-      "summary_excerpt": "Web isolation protects users from compromised sites that no one can predict, block, or patch",
-      "threat_actors": [],
-      "title": "PHP2Shell and the Trusted-Website Problem"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T00:24:01.800655+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-48c95c8f0331419e4b6c55e9",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:48c95c8f0331419e4b6c55e9",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-20T23:56:23+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek .",
-      "summary_excerpt": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/ransomware-recovery-20-days/",
-      "cves": [],
-      "document_form": "research",
-      "first_seen_at": "2026-11-20T23:22:41.715188+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-a868dafeec7796eed4ecd41e",
-      "primary_category": "ransomware",
-      "public_article_id": "url:a868dafeec7796eed4ecd41e",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-20T23:15:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "A new Rubrik report has shown that ransomware victims face 20-day median recovery time, with 28% of recovery cases taking longer than six weeks",
-      "summary_excerpt": "A new Rubrik report has shown that ransomware victims face 20-day median recovery time, with 28% of recovery cases taking longer than six weeks",
-      "threat_actors": [],
-      "title": "Ransomware Recovery Takes 20 Days for the Typical Victim, Report Finds"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://gigazine.net/news/20261120-vortix/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T23:22:40.789013+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-fd0d47497da102e0fe1e032e",
-      "primary_category": "other",
-      "public_article_id": "url:fd0d47497da102e0fe1e032e",
-      "public_tags": [],
-      "published_at": "2026-11-20T23:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "GIGAZINE",
-      "summary": "複数のVPNを利用していると接続先ごとに異なるアプリやコマンドを使い分ける必要があり、通信状態や通信経路の確認も複雑になります。そこでWireGuard・OpenVPNなどの接続管理を一つの画面にまとめ、通信速度・遅延のリアルタイム監視・情報漏えいの検出・VPN切断時の通信遮断まで行える無料のオープンソースツールが「Vortix」です。 続きを読む...",
-      "summary_excerpt": "複数のVPNを利用していると接続先ごとに異なるアプリやコマンドを使い分ける必要があり、通信状態や通信経路の確認も複雑になります。そこでWireGuard・OpenVPNなどの接続管理を一つの画面にまとめ、通信速度・遅延のリアルタイム監視・情報漏えいの検出・VPN切断時の通信遮断まで行える無料のオープンソースツールが「Vortix」です。 続きを読む...",
-      "threat_actors": [],
-      "title": "VPN通信に使うWireGuardやOpenVPNをターミナルUIの1画面で管理できる「Vortix」、マルチトンネル制御・リアルタイムテレメトリ・リークガード機能を搭載"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/192805",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T23:22:46.492745+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-80da34750eb6f37bd6609ffc",
-      "primary_category": "other",
-      "public_article_id": "url:80da34750eb6f37bd6609ffc",
-      "public_tags": [],
-      "published_at": "2026-11-20T22:38:06+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "カー用品などの製造、販売を展開するソフト99コーポレーションは、公式通販サイトが不正アクセスを受けたことを明らかにした。個人情報が流出した可能性がある。",
-      "summary_excerpt": "カー用品などの製造、販売を展開するソフト99コーポレーションは、公式通販サイトが不正アクセスを受けたことを明らかにした。個人情報が流出した可能性がある。",
-      "threat_actors": [],
-      "title": "通販サイト内に不正ファイル、個人情報流出の可能性 - ソフト99"
     }
   ],
   "hottest": [
@@ -799,6 +817,36 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1028/",
+      "cves": [
+        "CVE-2026-19779"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T02:54:46.333631+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-67381ea1271833e94d7e48b9",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:67381ea1271833e94d7e48b9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T15:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.3. The following CVEs are assigned: CVE-2026-19779.",
+      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.3. The following CVEs are assigned: CVE-2026-19779.",
+      "threat_actors": [],
+      "title": "ZDI-26-1028: (0Day) G DATA Total Security Backup Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.security.com/threat-intelligence/java4shell-cve2026114938-patch-now",
       "cves": [
         "CVE-2026-114938"
@@ -826,6 +874,36 @@
       "summary_excerpt": "A heap overflow vulnerability in the OpenJDK Base64 decoder, tracked as CVE-2026-114938, lets remote attackers run code on Java servers with AVX-512 processors. Patches are available.",
       "threat_actors": [],
       "title": "Java4Shell: Critical OpenJDK Flaw Allows Unauthenticated Remote Code Execution"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1030/",
+      "cves": [
+        "CVE-2026-19776"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T02:54:51.128982+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-785a354e4cc06e8815ddf011",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:785a354e4cc06e8815ddf011",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T15:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "Zero Day Initiative Published Advisories",
+      "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-19776.",
+      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-19776.",
+      "threat_actors": [],
+      "title": "ZDI-26-1030: (0Day) G DATA Total Security TSNxGService Link Following Local Privilege Escalation Vulnerability"
     },
     {
       "ai_relevance": "none",
@@ -861,66 +939,6 @@
       "summary_excerpt": "Overview Today, both Rapid7 and F5 are disclosing CVE-2026-123007 , a critical integer underflow vulnerability affecting nginx HTTP/2, which can allow for unauthenticated remote code execution (RCE) against affected servers under certain conditions. CVE ID Description CWE CVSSv4 CVE-2026-123007 HTTP/2 flow-control memory corruption permitting worker-context RCE CWE-191 (Integer Underflow) 9.2 (Critical) nginx can miscalculate how much response data an HTTP/2 client has allowed it to send. A remote, unauthenticated client can exploit this error by cancelling queued response data, then make ngin",
       "threat_actors": [],
       "title": "CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://gigazine.net/news/20261118-java4shell/",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T13:22:37.998578+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-97f5f6027f2ca779facb3d3a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:97f5f6027f2ca779facb3d3a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T13:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "GIGAZINE",
-      "summary": "セキュリティ研究企業のCalifが2026年11月17日、Javaのオープンソース実装であるOpenJDKに重大な脆弱(ぜいじゃく)性「Java4Shell(CVE-2026-114938)」が存在すると発表しました。Java4Shellを悪用すると、攻撃者は機密情報の窃取やリモートコード実行(RCE)が可能になります。CalifはOpenAIのAIコーディングエージェント「Codex」を利用して、わずか1時間で脆弱性を発見したと報告しています。 続きを読む...",
-      "summary_excerpt": "セキュリティ研究企業のCalifが2026年11月17日、Javaのオープンソース実装であるOpenJDKに重大な脆弱(ぜいじゃく)性「Java4Shell(CVE-2026-114938)」が存在すると発表しました。Java4Shellを悪用すると、攻撃者は機密情報の窃取やリモートコード実行(RCE)が可能になります。CalifはOpenAIのAIコーディングエージェント「Codex」を利用して、わずか1時間で脆弱性を発見したと報告しています。 続きを読む...",
-      "threat_actors": [],
-      "title": "OpenJDKのBase64デコーダにおけるメモリ破損の脆弱性「Java4Shell」をOpenAIのCodexで発見、わずか3時間で攻撃実証まで成功"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvn.jp/vu/JVNVU99608534/",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-18T10:52:42.124318+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-99cf0b43acde8746d664c713",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:99cf0b43acde8746d664c713",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T10:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "JVN",
-      "summary": "OpenJDKにはヒープベースのバッファオーバーフローの脆弱性（CVE-2026-114938）が存在します。 本脆弱性の発見者は本件を「Java4Shell」と呼称し、Base64デコード処理を高速化するための最適化処理に原因があると指摘しています。",
-      "summary_excerpt": "OpenJDKにはヒープベースのバッファオーバーフローの脆弱性（CVE-2026-114938）が存在します。 本脆弱性の発見者は本件を「Java4Shell」と呼称し、Base64デコード処理を高速化するための最適化処理に原因があると指摘しています。",
-      "threat_actors": [],
-      "title": "OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性"
     }
   ],
   "timeseries_status": {
@@ -941,32 +959,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】ArcticRAT Enlists Grok to Analyze Stolen Financial Data",
+    "【LATEST #1】China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
     "【HOTTEST #1 / Heat 75】VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
-    "【LATEST #2】WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
+    "【LATEST #2】Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
     "【HOTTEST #2 / Heat 75】Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-    "【LATEST #3】Vendor data breach exposes Chase, Visa, Mastercard customer info",
+    "【LATEST #3】Hackers use autonomous AI tool Cairn to find zero-day, take over server",
     "【HOTTEST #3 / Heat 67.5】Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-    "【LATEST #4】個人情報管理システムが侵害、脆弱性対応中に判明 - 早稲田大",
+    "【LATEST #4】Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
     "【HOTTEST #4 / Heat 67.5】Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-    "【LATEST #5】Still tracking company passwords in spreadsheets? You’re flying blind.",
+    "【LATEST #5】ArcticRAT Enlists Grok to Analyze Stolen Financial Data",
     "【HOTTEST #5 / Heat 67.5】POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-17T17:00:00+00:00",
-    "last_as_of": "2026-11-20T17:00:00+00:00",
+    "first_as_of": "2026-11-17T18:00:00+00:00",
+    "last_as_of": "2026-11-20T18:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-20T17:00:00+00:00",
-  "heat_as_of": "2026-11-20T17:00:00+00:00",
+  "news_as_of": "2026-11-20T18:00:00+00:00",
+  "heat_as_of": "2026-11-20T18:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 25977,
-  "last_published_at": "2026-11-21T02:07:51.771774+09:00",
-  "publication_slot_jst": "2026-11-21T02:00:00+09:00"
+  "news_catalog_count": 25982,
+  "last_published_at": "2026-11-21T03:08:16.495113+09:00",
+  "publication_slot_jst": "2026-11-21T03:00:00+09:00"
 }
