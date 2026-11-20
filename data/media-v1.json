@@ -1,9 +1,67 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T06:40:03.257104+00:00",
+  "source_snapshot_generated_at": "2026-11-20T07:40:02.910689+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:a51adecbe88bfec0a169d71e",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "自動化",
+          "生成 AI",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/suisei498/articles/5e0ba451290313",
+        "title": "Claude Code の auto mode が、予約タスクの合図だけでは記事を公開させなかった — 外向きの操作は人の一言で動かす",
+        "author": "Suisei",
+        "published_at": "2026-11-20T07:34:22.332000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:409cdeb4bea3a69900fa757c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "SQLite"
+        ],
+        "url": "https://zenn.dev/akashiczero/articles/64eb09bfe6ad56",
+        "title": "自律AIエージェント運用で踏んだ6大障害と Fail-Closed 防御設計（6.1万円支出・WAL 32万行膨張の実録）",
+        "author": "akashiczero",
+        "published_at": "2026-11-20T07:28:47.887000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c75b42a6fcd7c6f460080d12",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "llm",
+          "promptinjection"
+        ],
+        "url": "https://zenn.dev/daphne/articles/ai-prompt-injection-readme",
+        "title": "【ゆるっとAIセキュリティ #3】プロンプトインジェクションって？",
+        "author": "Daphne",
+        "published_at": "2026-11-20T07:00:05.544000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fe610e6fcd50cdf8a401aba8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "駆け出しエンジニア"
+        ],
+        "url": "https://zenn.dev/pingu_00/articles/ab7e960381b23c",
+        "title": "IT業界1年目の振り返り①:AIに悩んだ話と、skillを知った話",
+        "author": "よっちゃん",
+        "published_at": "2026-11-20T06:51:38.273000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:094d939fa9460e8f6a998b9a",
         "source": "zenn",
@@ -44178,6 +44236,68 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f9946db8dc12cd41be50133f",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "AIエージェント",
+          "自動化",
+          "Security",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/Suisei498/items/7e5702d52303da060514",
+        "title": "Claude Code の auto mode が、予約タスクの合図だけでは記事を公開させなかった — 外向きの操作は人の一言で動かす",
+        "author": "Suisei498",
+        "published_at": "2026-11-20T16:32:23+09:00",
+        "excerpt": "この記事は Zenn と note にも同じ内容を載せています。Zenn: https://zenn.dev/suisei498/articles/5e0ba451290313 ／ note: https://note.com/suisei498/n/neab3999e66aa Claude Code のセッションを1台の PC でいくつも並べ、決まった時刻には予約タスクに起こしてもらって回しています。技術記事を Qiita・Zenn・note に出すのも、そのうちの1つのセッションの仕事です。 11月3日、予約の合図で記事を出そうとしたら、 公開ボタンを押す操作だけが止められました 。止めたのは、Claude Code の auto mode （操作のたびに、それを許可してよいかを分類器が判断するモード）です。 結論から言うと、止められて正しかったと思っています。何が起きて、そのあとどう運用を変えたかを書きます。 何が起きたか 16:30 に、予約タスク（起こし係）から記事のセッションにメッセージが届きました。 kw10 を Qiita・Zen"
+      },
+      {
+        "id": "qiita:34a226685836cc0cfceea9f3",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ゼロトラスト",
+          "Network",
+          "初心者",
+          "認証"
+        ],
+        "url": "https://qiita.com/handson-lab/items/432d0fef99178763bbfc",
+        "title": "ゼロトラストセキュリティとは何か——「性善説をやめた警備体制」で新しい防御の考え方を完全理解",
+        "author": "handson-lab",
+        "published_at": "2026-11-20T16:30:31+09:00",
+        "excerpt": "こんにちは！ハンズオンラボ運営のえむです。 「社内ネットワークにいるから安全」「VPNにつないでいるから大丈夫」——少し前までは、こうした考え方が当たり前でした。ところが、リモートワークやクラウドの普及によって、 「社内」と「社外」の境界そのものがあいまいになってしまいました。 そこで注目されているのが、**「ゼロトラスト」**というセキュリティの考え方です。 名前だけ聞くと「誰も信用しない」という、ちょっと冷たい響きがありますよね。私も最初は「疑い深すぎる仕組み」なのかと思っていました。でも中身を知ると、 今の働き方に合わせた、とても現実的な守り方 だとわかります。 この記事では、**「性善説をやめた警備体制」**という比喩を使いながら、ゼロトラストの考え方を整理していきます。 この記事を読むと、以下のことができるようになります 従来の「境界型防御」と「ゼロトラスト」の違いを説明できるようになる ゼロトラストを支える基本的な考え方を理解できる 自分の職場で、ゼロトラストの考え方がどこに使われているかイメージできるようになる 従来の守り方：「門番"
+      },
+      {
+        "id": "qiita:e32fd2bf321e68b874116c6c",
+        "source": "qiita",
+        "author_tags": [
+          "バックアップ",
+          "ランサムウェア",
+          "rsync",
+          "Security",
+          "Python"
+        ],
+        "url": "https://qiita.com/Yu-muimi/items/9ed058ed915564e670df",
+        "title": "家のPull型世代バックアップをランサム想定で攻撃シミュレーションして、1行直した",
+        "author": "Yu-muimi",
+        "published_at": "2026-11-20T16:20:42+09:00",
+        "excerpt": "シリーズ： [Qiita] 検証・実装編（この記事） ／ [Zenn] 設計・脅威モデル編【公開後にリンク】 ／ [note] 物語・運用編【公開後にリンク】 検証コード → GitHub Qiita タグ ： バックアップ ランサムウェア rsync セキュリティ Python Raspberry Pi → Windows の自宅バックアップ（毎時 Pull 、 rrsync -ro 、 --delete なし、各世代 SHA256SUMS 、GFS 間引き）を、 実データに触れずに 攻撃シミュレーションで検証した。結論： 削除には強いが「変更の伝播」に穴があり、 rsync --ignore-existing の1行で塞げた。 0. 検証対象の構成 層 内容 方向 Windows が Pi から Pull 権限 Pi 側 rrsync -ro （読み取り専用）。Windows→Pi は書けない 同期 rsync -rt --exclude='.tmp-*' 、 --delete なし 世代 時刻フォルダ YYYY-MM-DD_HHMM ＋各世"
+      },
+      {
+        "id": "qiita:635d8b0a17c0997a3b404cfa",
+        "source": "qiita",
+        "author_tags": [
+          "FreeBSD",
+          "Ruby",
+          "Security"
+        ],
+        "url": "https://qiita.com/hs_onsky/items/de7efcdc8ff73bd090e6",
+        "title": "FreeBSDのRuby ports更新が待てない人へのチートシート",
+        "author": "hs_onsky",
+        "published_at": "2026-11-20T16:13:14+09:00",
+        "excerpt": "Ruby のRCE脆弱性対策版(4.0.10,3.4.13,3.3.14) への公式Ports( 3.3 , 3.4 , 4.0 )の対応を急ぎたい人のためのチートシートです。 Ports treeのrootに移動 # cd /usr/ports Rubyのバージョンを変更 diff -u Mk/Uses/ruby.mk.orig Mk/Uses/ruby.mk --- Mk/Uses/ruby.mk.orig 2026-11-20 10:11:42.845179000 +0900 +++ Mk/Uses/ruby.mk 2026-11-20 16:05:43.077861000 +0900 @@ -144,19 +144,19 @@ # # Ruby 3.3 # -RUBY_DISTVERSION= 3.3.13 +RUBY_DISTVERSION= 3.3.14 . elif ${RUBY_VER} == 3.4 # # Ruby 3.4 # -RUBY_DISTVERSION= 3.4.12 +RUBY_DISTVERSION= 3.4.1"
+      },
+      {
         "id": "qiita:9a362a4606c00439c1caebbc",
         "source": "qiita",
         "author_tags": [
@@ -60514,6 +60634,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:57d81bfd4654ddbdac227898",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-management",
+          "bug-bounty",
+          "security-research",
+          "nginx",
+          "cybersecurity"
+        ],
+        "url": "https://rajnamdev.medium.com/1-31-8-is-vulnerable-1-30-7-is-not-try-counting-that-d10cf7d7c22e",
+        "title": "1.31.8 Is Vulnerable. 1.30.7 Is Not. Try Counting That.",
+        "author": "Raj Namdev",
+        "published_at": "2026-11-20T07:35:02+00:00",
+        "excerpt": "The count is right exactly where the version string still means what it says. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e337d19661a320463d691ef9",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-training",
+          "cybersecurity",
+          "cybersecurity-course",
+          "cybersecurity-training",
+          "cyber-security-courses"
+        ],
+        "url": "https://medium.com/@dm_30403/build-expertise-in-cybersecurity-with-professional-training-in-abu-dhabi-63247fe10c5c",
+        "title": "Build Expertise in Cybersecurity with Professional Training in Abu Dhabi",
+        "author": "Time Training Center",
+        "published_at": "2026-11-20T07:22:38+00:00",
+        "excerpt": "Prepare for the growing demand for digital security skills with Time Training Center’s Cyber Security Courses in Abu Dhabi. Develop… Continue reading on Medium »"
+      },
       {
         "id": "medium:85fe037f2b16fddacdb5373d",
         "source": "medium",
