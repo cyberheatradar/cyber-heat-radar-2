@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T20:40:03.004893+00:00",
+  "source_snapshot_generated_at": "2026-11-20T21:40:02.811005+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:d01cb3b4d949b12e45497453",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "脆弱性診断",
+          "OpenSSL",
+          "CVE",
+          "cvss"
+        ],
+        "url": "https://zenn.dev/rudy_candy/articles/openssl-cvss-dispute-how-to-read-scores",
+        "title": "CVSS 9.8でも慌てない。OpenSSL EVP_EncodeBlockの件で考える脆弱性スコアの読み方",
+        "author": "rudy_candy",
+        "published_at": "2026-11-20T20:54:11.840000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:c9325859df7fdfbe96c68023",
         "source": "zenn",
@@ -44825,6 +44841,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:0f04ca606dd6278abbeb73d0",
+        "source": "qiita",
+        "author_tags": [
+          "CORS",
+          "Web",
+          "Security",
+          "HTTP"
+        ],
+        "url": "https://qiita.com/nico0748/items/d4478f26815570dbe21f",
+        "title": "CORSを簡単にまとめる",
+        "author": "nico0748",
+        "published_at": "2026-11-21T06:33:57+09:00",
+        "excerpt": "はじめに フロントから API を叩いたら blocked by CORS policy で怒られる…あれが何を守っているのかをまとめておきます。 ひとことで言うと CORS（Cross-Origin Resource Sharing）は、ブラウザの同一オリジンポリシーを、サーバが許可した範囲でだけゆるめるための仕組み です。 前提：同一オリジンポリシー オリジン ＝ スキーム + ホスト + ポート （例： https://example.com:443 ） ブラウザは、あるオリジンのページの JavaScript が、別のオリジンへ送ったリクエストの レスポンスを読む ことを、原則として許さない これがないと、悪いサイトを開いただけで、ログイン中の別サイトの情報を JavaScript で読まれてしまう ページ リクエスト先 同一オリジンか https://example.com https://example.com/api 同じ https://example.com https://api.example.com 違う（ホストが違う） "
+      },
+      {
+        "id": "qiita:3f704cb0bcd0cd731409d565",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "php-fpm",
+          "運用"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/5ed1a87c0c3f78bb3c37",
+        "title": "修正の公開前にサイトを止めるか。PHPのCritical予告までに用意する確認表",
+        "author": "mhamadajp",
+        "published_at": "2026-11-21T05:41:20+09:00",
+        "excerpt": "11月19日は、修正内容の公開前からサービス停止が始まった 2026年11月19日の午後です。チャットにメッセージが入りました。PHPのセキュリティリリースが今夜出る。深刻度のいちばん上はCritical。対象は、サポート中のすべての系統。修正版の番号と、どの設定で影響を受けるかは、日本時間の23時から23時30分まで公開されない。 前日の18日、PHPセキュリティチームはそう予告していました。これは定期の4週間ごとのリリースに含まれる、とも書いています。急な例外日として出たものではなく、定期のリリース日にCriticalが含まれる、という告知です。詳しくは PHP: News Archive - 2026 の11月18日の項目にあります。 同じ午後、企業や自治体のサイトが止まり始めました。ITmediaは19日19時の記事で、午後から一時停止が相次いでいると書いています。オムロン ヘルスケアは、一部サービスを予防のためのメンテナンスとして止めており、不正アクセスや情報漏えいが起きたからではない、と説明しています。記事は PHPにまた「重大な脆弱"
+      },
+      {
         "id": "qiita:4eb67ded7bc1c6dafd58fd53",
         "source": "qiita",
         "author_tags": [
@@ -61469,6 +61516,32 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1be39c819a6073c3a9686817",
+        "source": "medium",
+        "author_tags": [
+          "burpsuite",
+          "cybersecurity",
+          "portswigger"
+        ],
+        "url": "https://medium.com/@gunaysafarzadeh/task-5-sql-injection-44d578ef9c40",
+        "title": "Task 5 -> Sql Injection",
+        "author": "Gunay",
+        "published_at": "2026-11-20T21:19:52+00:00",
+        "excerpt": "PortSwigger Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7b78cfe2293c5c6bf21561b0",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@lomaxolivia/the-vulnerability-panic-tax-ad8cf272a1e1",
+        "title": "The Vulnerability Panic Tax",
+        "author": "Olivia Lomax",
+        "published_at": "2026-11-20T21:18:26+00:00",
+        "excerpt": "Every other week, a new vulnerability shows up with a catchy name and a flood of security news telling us why we should be concerned. I’m… Continue reading on Medium »"
+      },
       {
         "id": "medium:8fb928a59de4d68735b6aeb8",
         "source": "medium",
