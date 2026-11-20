@@ -1,9 +1,39 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T19:40:02.584291+00:00",
+  "source_snapshot_generated_at": "2026-11-20T20:40:03.004893+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:c9325859df7fdfbe96c68023",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "G検定"
+        ],
+        "url": "https://zenn.dev/tkrndisk/articles/g-kentei-algorithm-bias-tech",
+        "title": "アルゴリズムバイアス【G検定 技術解説】",
+        "author": "まっすん",
+        "published_at": "2026-11-20T20:36:58.934000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:71ccea2569deed1626f1f04e",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "AWS Security Hub",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sk8jp/articles/8727ce1072b8b9",
+        "title": "Security Hub CSPM を有効にせず、Claude Code と FSBP の 363 項目を「1 つずつ」点検する計画を立てた",
+        "author": "YAZ",
+        "published_at": "2026-11-20T20:34:46.629000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:52aecb53549686ef8b2ce12e",
         "source": "zenn",
@@ -44795,6 +44825,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4eb67ded7bc1c6dafd58fd53",
+        "source": "qiita",
+        "author_tags": [
+          "npm",
+          "Node.js",
+          "Security",
+          "apiキー"
+        ],
+        "url": "https://qiita.com/supportapp3/items/1d03fae7256dce500d1a",
+        "title": "npm run deploy -- --token=キー と渡すと、画面にも ~/.npm/_logs にも平文で残る：--silent でもログファイルには出て、npm トークンだけ伏せ字になった（npm 11.21で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-21T05:16:02+09:00",
+        "excerpt": "先に結論 npm run <スクリプト> -- --token=<キー> のように、npm run の引数で API キーを渡すと、手元の npm 11.21.1 では次の3か所に平文で出ました。 出る場所 出たか 消し方 ターミナル（ > node deploy.js --token=... の行） 出た --silent （ --loglevel=silent ） デバッグログ（既定は ~/.npm/_logs/*-debug-0.log ） 成功しても出た --logs-max=0 実行中の ps （npm・sh・node の3プロセス） 出た 引数で渡さない npm_ で始まる npm トークンと、URL に書いた Basic 認証のパスワードは *** に置き換わりましたが、それ以外の形のキー（今回は sk-test-... のダミー）はそのままでした。 一番安全だったのは、キーを引数に書かず、環境変数のままスクリプトに読ませる書き方です（ログ・画面・ps のどこにも出ませんでした）。 使った値はすべてダミーです。 環境 Linux、N"
+      },
+      {
+        "id": "qiita:fc32211ac8c99de7a8d58cd9",
+        "source": "qiita",
+        "author_tags": [
+          "Robotics",
+          "Security",
+          "ROS2",
+          "PhysicalAI",
+          "組込みシステム"
+        ],
+        "url": "https://qiita.com/savor-speedup-dotage/items/09c05789388c5873adfb",
+        "title": "Physical AI時代のロボティクス・セキュリティ：28件のゼロデイ発見が示唆する基盤リスクと防衛設計",
+        "author": "savor-speedup-dotage",
+        "published_at": "2026-11-21T05:10:07+09:00",
+        "excerpt": "概要 自律移動ロボット（AMR）や産業用マニピュレータ、ドローンなどのロボティクス分野において、AI技術を物理世界の制御に直接組み込む「Physical AI（フィジカルAI）」の採用が急速に進んでいます。しかし、AIモデルと制御ソフトウェア、エッジ基盤が複雑に結合する中、基盤ソフトウェア層のセキュリティ対策が急速な開発スピードに追いついていない実態が明らかになりつつあります。 2026年11月、IEEE Spectrumが報じたセキュリティ企業VicOneの検証（ https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security ）によると、AIを活用した脆弱性探知手法を用いることで、Physical AIエコシステムを支える主要なツールやソフトウェア群から 2日未満で28件のゼロデイ脆弱性 が特定されました。対象にはGoogleやNVIDIAなどの主要ベンダーが開発・維持するプロジェクトや関連ツールが含まれています。 本記事では、Physical AIおよび"
+      },
+      {
         "id": "qiita:a078beb83add6a1b5ab9d9af",
         "source": "qiita",
         "author_tags": [
@@ -61408,6 +61469,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:8fb928a59de4d68735b6aeb8",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ai",
+          "security",
+          "soc"
+        ],
+        "url": "https://lalithavasavi.medium.com/the-night-someone-logged-in-as-meera-cf097a640c80",
+        "title": "The Night Someone Logged In as Meera",
+        "author": "Lalitha",
+        "published_at": "2026-11-20T20:17:59+00:00",
+        "excerpt": "What a Security Operations Center actually does, how its work flows from a single log line to a lesson learned, and where AI helps (and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:72824675cc945b784f3cb82c",
+        "source": "medium",
+        "author_tags": [
+          "java4shell",
+          "cybersecurity",
+          "defence",
+          "threat-detection",
+          "vulnerability"
+        ],
+        "url": "https://medium.com/@jainarham9000/java4shell-cve-2026-114938-a-defenders-complete-guide-ea405d1ff7e8",
+        "title": "Java4Shell (CVE-2026–114938): A Defender’s Complete Guide",
+        "author": "Arham Jain",
+        "published_at": "2026-11-20T19:52:29+00:00",
+        "excerpt": "1. What is Java4Shell Continue reading on Medium »"
+      },
       {
         "id": "medium:b2dd345289c1e8ca89e3e86a",
         "source": "medium",
