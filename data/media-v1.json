@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T13:40:02.837372+00:00",
+  "source_snapshot_generated_at": "2026-11-20T14:40:02.985342+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:89f2c67d8e9e9ca6803a3d1b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "arc",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-052-weight-space-programming-arc",
+        "title": "勾配降下なしでLLMに重みを書かせる「Weight-Space Programming」を公式ハーネスで再現した",
+        "author": "matsu",
+        "published_at": "2026-11-20T14:37:43.518000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:192b899912e71f4c3f764f23",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "評価",
+          "FDE",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/boku_yaji/articles/ad087efbe61ec7",
+        "title": "FDEって結局、何をする人なのか",
+        "author": "boku-yaji",
+        "published_at": "2026-11-20T14:37:30.858000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:bcca488f6de283a6f3dd17ae",
         "source": "zenn",
@@ -44659,6 +44691,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:bf52d4b8989f37a32688e174",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "Debian",
+          "Ubuntu"
+        ],
+        "url": "https://qiita.com/salamanda_sec/items/9e1fd8903a29561dd5ca",
+        "title": "PHPにCriticalが7件。修正版が届いたかDebianとUbuntuで確認したら、php -v の数字だけじゃ判定できなかった",
+        "author": "salamanda_sec",
+        "published_at": "2026-11-20T22:55:16+09:00",
+        "excerpt": "11月19日にPHPのセキュリティリリースが出た。修正されたPHP本体の脆弱性は17件、うちCriticalが7件、最大はCVSS v4.0で9.2。 JPCERT/CCの注意喚起（JPCERT-AT-2026-0033）も今日11月20日に更新されている。 で、自分の見ているサーバに修正が届いているか確認しに行ったら、「届いているかどうか」の判定自体が思ったより面倒だった。 一番先に見るのはFPMのリクエストスマグリング 今回の目玉は CVE-2026-129289（CVSS 9.2）。PHP-FPMのバグで、仕組みはだいたいこういう話。 アプリが php://input を開いてリクエストボディを最後まで読まないまま終わると、PHPは読み残しを捨てずに処理を終える。その状態でWebサーバとFPMの間のFastCGI接続が使い回されていると、残ったバイト列が「次のFastCGIリクエスト」として解釈される。攻撃者はそこに SCRIPT_FILENAME や PHP_ADMIN_VALUE を仕込めるので、フロントのルーティングを素通りして自分の"
+      },
+      {
         "id": "qiita:743ea68328c26c82552a6461",
         "source": "qiita",
         "author_tags": [
@@ -61227,6 +61275,66 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e8c8f81ae7cbcbdf4f8d3742",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "cybersecurity",
+          "malware"
+        ],
+        "url": "https://medium.com/devsecops-ai/copy-paste-compromised-why-clickfix-is-the-attack-every-soc-should-be-hunting-right-now-771fe6806d8d",
+        "title": "Copy, Paste, Compromised: Why ClickFix Is the Attack Every SOC Should Be Hunting Right Now",
+        "author": "Rihab Haddad",
+        "published_at": "2026-11-20T14:23:29+00:00",
+        "excerpt": "The most effective malware loader of 2026 isn’t an exploit. It’s your users, a fake CAPTCHA, and Ctrl+V. Continue reading on DevSecOps & AI »"
+      },
+      {
+        "id": "medium:9a5fe69597a51a140add32fc",
+        "source": "medium",
+        "author_tags": [
+          "threat-hunting",
+          "ai-agent",
+          "artificial-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@brent.hachey/a-threat-hunt-report-for-the-vmware-vcenter-zero-day-exploited-by-armory-castle-930fe121e4fa",
+        "title": "A Threat Hunt Report for the VMware vCenter Zero Day Exploited by ARMORY CASTLE",
+        "author": "Brent Hachey",
+        "published_at": "2026-11-20T14:12:56+00:00",
+        "excerpt": "ARMORY CASTLE vCenter Zero Day Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c32854cdf99eeb07aa089faf",
+        "source": "medium",
+        "author_tags": [
+          "malware-analysis",
+          "dll",
+          "cybersecurity",
+          "malop"
+        ],
+        "url": "https://medium.com/@theBlueWizard/peakyblinders-a-net-loader-masquerading-as-runtimebroker-with-github-based-c2summary-d14550a518d4",
+        "title": "PeakyBlinders: A .NET Loader Masquerading as RuntimeBroker with GitHub-Based C2Summary",
+        "author": "Arkaprava Goswami",
+        "published_at": "2026-11-20T14:10:03+00:00",
+        "excerpt": "The sample is a 32-bit .NET DLL that masquerades as Microsoft RuntimeBroker. It is a loader / implant that: Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d4125867a3587c8d54baba6a",
+        "source": "medium",
+        "author_tags": [
+          "linux",
+          "cybersecurity",
+          "vulnerability",
+          "devops",
+          "openssl"
+        ],
+        "url": "https://medium.com/@chinmayshringi4/openssl-cve-2026-121481-affects-4-1-0-and-4-0-3-the-fix-is-4-1-1-and-4-0-4-openssl-rates-it-low-78f3df59ce35",
+        "title": "OpenSSL CVE-2026-121481 Affects 4.1.0 and 4.0.3. The Fix Is 4.1.1 and 4.0.4. OpenSSL Rates It Low.",
+        "author": "Chinmay Shringi",
+        "published_at": "2026-11-20T14:03:41+00:00",
+        "excerpt": "NVD still shows Critical 9.8, Ubuntu 26.10 already ships the affected 4.0.3 Continue reading on Medium »"
+      },
       {
         "id": "medium:f454c9300fcb9bb15ee70664",
         "source": "medium",
