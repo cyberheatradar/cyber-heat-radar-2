@@ -1,9 +1,99 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-20T04:40:03.330316+00:00",
+  "source_snapshot_generated_at": "2026-11-20T05:40:03.090649+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ab55dbc8b871889e2740400f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "experiment",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/chiisana_bin/articles/ai-earn-experiment-3weeks-zero",
+        "title": "AIに0円から稼がせる実験を3週間あまり続けた。売上は0円、分かったこと",
+        "author": "ちいさな入札便」",
+        "published_at": "2026-11-20T05:26:49.271000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a9bad29e99160b48f5a8ede3",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "GitHub",
+          "S3",
+          "Security",
+          "continuum"
+        ],
+        "url": "https://zenn.dev/kobayasd/articles/continuum-code-vulnerabilities-juice-shop",
+        "title": "AWS Continuum で OWASP Juice Shop のコードを調べて、GitHub に届いた修正 PR を読んでみた",
+        "author": "こばD",
+        "published_at": "2026-11-20T05:26:22.553000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4a3dbae02028b73273d05455",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Google Cloud",
+          "初級"
+        ],
+        "url": "https://zenn.dev/densan_techblog/articles/e6474ff2209dad",
+        "title": "AI 時代のセキュリティ入門：入口と出口",
+        "author": "SKY(Tomoaki Sekiya)",
+        "published_at": "2026-11-20T05:18:42+00:00",
+        "excerpt": "はじめに ! 本執筆は、有志での執筆であり、個人の意見となります。 お疲れ様です。SKYです。 最近、「社員が、仕事で預かったデータを個人で使う生成 AI に入れてしまった」 という公表を見かけるようになりました。 急いでいるときに、手元のデータをそのまま貼り付けたくなる気持ちは、私にもよくわかります。 では「許可していない AI は使うな」と禁止すれば済むかというと、そうもいきません。ルールがある会社でも、半数近くの人が使っているという調査があります。 この記事では、「AI に何を渡し、何をさせるか」 という見方に絞って、AI のセキュリティの考え方を整理します。合言葉は、AI ..."
+      },
+      {
+        "id": "zenn:c4d0d39964e338069819a39f",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/natsuhi/articles/a3f139966c646e",
+        "title": "Meet Taipei 2026に行ってきた！台湾のスタートアップ展示で見つけたAIプロダクトの現在地",
+        "author": "永井夏妃",
+        "published_at": "2026-11-20T05:17:16.603000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1808654d2d8ddb349b6f3bef",
+        "source": "zenn",
+        "author_tags": [
+          "Firebase",
+          "Security",
+          "Supabase",
+          "Claude Code",
+          "Vibe Coding"
+        ],
+        "url": "https://zenn.dev/singularity/articles/claude-code-security-skills-by-service",
+        "title": "Vibe Coding で使うサービス・ツール別 Claude Code のセキュリティ監査スキル",
+        "author": "Isamu",
+        "published_at": "2026-11-20T04:57:48+00:00",
+        "excerpt": "AI でアプリを作れるようになって、「動くもの」はすぐにできるようになりました。でも、作ったあとにふと不安になります。 「このアプリ、他人のデータが丸見えになっていないだろうか？」 セキュリティの専門家にレビューを頼めれば安心ですが、個人開発ではなかなか難しい。そこで使えるのが、Claude Code の スキル（skill） です。スキルは、専門家のチェック手順を AI 向けにまとめたファイルで、入れておくと Claude Code がその手順どおりにコードを点検してくれます。 この記事では、「〇〇を使っている。〇〇のセキュリティが気になるなら、このスキル」 という形で、使っているサー..."
+      },
+      {
+        "id": "zenn:44c2281d49dcc91b69ae6e78",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "datascience",
+          "Claude",
+          "Web scraping"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/claude-cowork-scheduled-tasks-competitor-price-rev",
+        "title": "Claude Coworkのスケジュールタスクで、毎週月曜に競合の価格とレビューの一覧表を自動作成する",
+        "author": "EveryInfra",
+        "published_at": "2026-11-20T04:41:08+00:00",
+        "excerpt": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 AmazonとWalmartで小型家電の製品ラインを担当しているなら、競合価格を手作業で確認しているかもしれません。6つの商品ページを開き、数値をシートに写して、先週と比べる作業です。この記事では、その1時間をClaude Coworkのスケジュールタスクに置き換えます。タスクは毎週月曜にクラウドで実行され、カスタムコネクタ経由でデータAPIを呼び出し、変化をまとめた表をGoogle Sheetsに書き込みます。データ側は2026年11月3日に実際の呼び出しでテストしました。Cowork側は実行していない..."
+      },
       {
         "id": "zenn:864545cbd1fd8bed6b2138bf",
         "source": "zenn",
@@ -44008,6 +44098,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:b1b941d03324779fe3abf556",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "パスキー",
+          "生体認証",
+          "情報漏えい",
+          "認証"
+        ],
+        "url": "https://qiita.com/naoyukiyamax/items/9f6a1c3cbdba024093b5",
+        "title": "「紙にメモが最高」はサーバー側の漏えいには効かない：認証の守備範囲を整理する",
+        "author": "naoyukiyamax",
+        "published_at": "2026-11-20T14:25:42+09:00",
+        "excerpt": "大きな情報漏えいのニュースが出るたびに、「やっぱりパスワードは紙にメモするのが最高」という意見を見かけます。 気持ちは分かりますが、対策を考えるときは「何から守るのか」を分けたほうがいい、という整理メモです。 紙のメモが守れる範囲 紙のメモが有効なのは、自分の管理の甘さに対してです。 ネットワーク越しに盗まれない 管理ツールの障害や侵害の影響を受けない 一方で、預けた先のサーバー（今回の楽天証券の件ではテスト環境）から情報が漏れる事故には、自分の机の引き出しは無力です。漏れる場所が違うので、守る場所も違います。 サーバー側の漏えいに効くのは「組み合わせ」 ログインIDが漏れた前提では、パスワード一本の認証は弱くなります。そこで効いてくるのが、要素の組み合わせです。 知識（パスワード、PIN） 所有（端末、ワンタイムパスワード） 生体（指紋、顔） パスキー（FIDO）がサーバー漏えいに比較的強いのは、秘密鍵が端末側にあり、サーバーには公開鍵しか置かれない構造だからです。生体認証も、指紋や顔のデータそのものがサービス側のサーバーに保存されるわけではな"
+      },
+      {
         "id": "qiita:1bbde746807ea14177bca131",
         "source": "qiita",
         "author_tags": [
@@ -60264,6 +60370,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:100183c64a5d84772421d43e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "technology",
+          "science"
+        ],
+        "url": "https://medium.com/@harshrajput00g/cybersecurity-expert-witness-services-cost-in-the-usa-litigation-support-and-expert-fees-explore-022a58a051bf",
+        "title": "Cybersecurity Expert Witness Services Cost in the USA Litigation Support and Expert Fees Explore…",
+        "author": "Harsh Rajput",
+        "published_at": "2026-11-20T05:30:32+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d9eb1b2e6d9481142df92baf",
+        "source": "medium",
+        "author_tags": [
+          "sy0-801",
+          "security",
+          "cybersecurity",
+          "artificial-intelligence",
+          "comptia-certifications"
+        ],
+        "url": "https://arziverse.medium.com/ai-is-redefining-cybersecurity-skills-heres-what-s-new-in-comptia-security-v8-0f041c6548ef",
+        "title": "AI Is Redefining Cybersecurity Skills. Here’s What’s New in CompTIA Security+ V8",
+        "author": "Arzitha",
+        "published_at": "2026-11-20T05:22:39+00:00",
+        "excerpt": "Security+ SY0–801 is here! What beginners, aspiring cybersecurity professionals, and certification candidates need to know. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:992789c6f7b86d360d667977",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-management",
+          "venture-capital",
+          "cloud-security",
+          "cybersecurity",
+          "ciso"
+        ],
+        "url": "https://amitspitzer.medium.com/screenconnects-server-got-patched-in-september-5c7ec5d168f2",
+        "title": "ScreenConnect’s Server Got Patched in September.",
+        "author": "Amit Spitzer",
+        "published_at": "2026-11-20T05:20:01+00:00",
+        "excerpt": "Every vulnerability management program I’ve ever run reported one number up to the board: percentage of critical assets patched within SLA… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9cab812ca9bce30c6f68af7d",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "web-application-security",
+          "cybersecurity",
+          "bug-hunting"
+        ],
+        "url": "https://medium.com/@cyb3rD1vvya/from-p4-to-p1-day-22-graphql-security-testing-finding-authorization-introspection-and-api-b9ce54691721",
+        "title": "From P4 to P1: Day 22 — GraphQL Security Testing: Finding Authorization, Introspection, and API…",
+        "author": "cyb3rD1vvy@",
+        "published_at": "2026-11-20T05:17:26+00:00",
+        "excerpt": "Category: API Security Series: From P4 to P1 — The Bug Hunter’s Journey Topic: GraphQL Security Testing Continue reading on Medium »"
+      },
       {
         "id": "medium:e97c18374369482d0282c4ff",
         "source": "medium",
