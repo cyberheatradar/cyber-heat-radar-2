@@ -1,9 +1,24 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T18:40:02.799834+00:00",
+  "source_snapshot_generated_at": "2026-11-21T19:40:02.613503+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:d7e586cf2bce61666b6ebc94",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Excel",
+          "業務効率化",
+          "プロンプト"
+        ],
+        "url": "https://zenn.dev/tenpurekoubou/articles/cc34739277baa1",
+        "title": "Excelのエラー表示、AIに聞くときの「3点セット」：表計算をAIに頼む頼み方",
+        "author": "テンプレ工房",
+        "published_at": "2026-11-21T18:44:33.494000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:94e6e02b99a1f0189927b17c",
         "source": "zenn",
@@ -46359,6 +46374,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:634a5a7e871deee20744c333",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/4770cd12174105a761dc",
+        "title": "2026/11/22主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-22T04:18:24+09:00",
+        "excerpt": "JNSA「情報セキュリティ理解度チェックサービス」に不正アクセス(11/20) https://s.netsecurity.ne.jp/article/2026/11/20/56855.html オーケー、顧客情報約2万件が漏洩か 委託先に不正アクセス(11/20) https://www.nikkei.com/article/DGXZQOUC204BP0Q6A121C2000000/ 宿泊予約システムの「手間いらず」、情報流出最大100万人 不正アクセス(11/20) https://www.nikkei.com/article/DGXZQOUC209EB0Q6A121C2000000/ ユミルリンクのメール配信サービスに不正アクセス、延べ4,786万4,147件の配信先情報が漏えい(11/20) https://www.excite.co.jp/news/article/Scannetsecurity_56860/ 個人情報、漏れたらまず何する？ ID／PW、クレカ、免許証、メールアドレス、情報別やることまとめ(11/20) https://"
+      },
+      {
+        "id": "qiita:1de4dd89e18fc21fd88f8e86",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "KVM",
+          "仮想化",
+          "Cloud",
+          "CVE-2026-99312"
+        ],
+        "url": "https://qiita.com/savor-speedup-dotage/items/8401517b360e7fb6f318",
+        "title": "KVM脆弱性（CVE-2026-99312）から読み解くハイパーバイザーメモリ隔離の破綻と実務的含意",
+        "author": "savor-speedup-dotage",
+        "published_at": "2026-11-22T04:12:03+09:00",
+        "excerpt": "概要 Linuxカーネルに組み込まれたハイパーバイザーであるKVM（Kernel-based Virtual Machine）において、AMDホスト環境下で動作するゲスト仮想マシン（VM）からホストの物理メモリ領域に直接アクセスし、大量のデータを読み出すことが可能となる脆弱性「CVE-2026-99312」が報告されました。研究者による実証では、クラウド環境上の単一ゲストVM内部から、ホストサーバーのメモリ約127GBが読み出せる状態であったとされています。 マルチテナント型クラウドインフラにおいて、異なる顧客のVM同士が同一の物理ノード上に同居することは標準的な運用形態です。しかし、ハイパーバイザー層によるメモリ空間の隔離（Memory Isolation）が破綻した場合、他のテナントが保持する機密データや認証情報、暗号鍵などが直接露出するリスクが生じます。 本記事では、このCVE-2026-99312の手法の要点を仮想化のアドレス変換メカニズムの観点から解説し、マルチテナント環境の設計や運用においてインフラエンジニアおよびセキュリティアーキテ"
+      },
+      {
         "id": "qiita:1eca91e2a0e7ffb2cd2520b7",
         "source": "qiita",
         "author_tags": [
@@ -63461,6 +63505,36 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1761f3ff81153a91e8f47617",
+        "source": "medium",
+        "author_tags": [
+          "ctf",
+          "ctf-writeup",
+          "web-security",
+          "cybersecurity",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@sandeep03edu/how-i-solved-the-indian-army-terrier-cyber-quest-2026-web-challenges-9a7f360662b7",
+        "title": "How I Solved the Indian Army Terrier Cyber Quest 2026 Web Challenges",
+        "author": "Sandeep Mishra",
+        "published_at": "2026-11-21T19:24:45+00:00",
+        "excerpt": "A techical walkthrough of three TCQ 3.0 web challenges covering SQLi, prototype pollution, auth bypass, steganography and HTTP enumeration. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bd7400485283395141dfa1de",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "threat-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://socfortress.medium.com/exploitation-of-vmware-vcenter-server-authentication-bypass-cve-2026-123890-9fb001da4113",
+        "title": "Exploitation of VMware vCenter Server Authentication Bypass (CVE-2026–123890)",
+        "author": "SOCFortress",
+        "published_at": "2026-11-21T19:16:01+00:00",
+        "excerpt": "Note: Create your free account in SOCFortress Signals (https://signals.socfortress.co/) for: Continue reading on Medium »"
+      },
       {
         "id": "medium:3ff65e293218046409d9ff7d",
         "source": "medium",
