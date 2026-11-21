@@ -1,9 +1,68 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T10:40:03.018280+00:00",
+  "source_snapshot_generated_at": "2026-11-21T11:40:03.459759+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:de7f5eb685aa9ce9064ff055",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "プロンプトエンジニアリング",
+          "大規模言語モデル",
+          "Ollama",
+          "Qwen3"
+        ],
+        "url": "https://zenn.dev/shinyahayakawa/articles/e100cfbe790c5f",
+        "title": "LLMに点検や候補列挙を先にさせると、判断は良くなるのか？ PAS実験の途中報告",
+        "author": "shin",
+        "published_at": "2026-11-21T11:32:43.969000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ed167a13d7bd30eab6c17608",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/someone7140/articles/6eafe59a2099f4",
+        "title": "ITエンジニアはHOWを司るべき存在と考える",
+        "author": "なかつがわ",
+        "published_at": "2026-11-21T11:25:26.241000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9e8a39b6c44e1e2fbf970981",
+        "source": "zenn",
+        "author_tags": [
+          "Laravel",
+          "PHP",
+          "Security",
+          "フリーランス",
+          "脆弱性"
+        ],
+        "url": "https://zenn.dev/devoctane/articles/php-security-release-night-standby",
+        "title": "PHPの緊急セキュリティリリースに、23時待機で備えた話。前回は復旧まで4営業日かかった",
+        "author": "DevOctane",
+        "published_at": "2026-11-21T11:16:20.155000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:936917af853de6221f553e73",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "documentation",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/mizo_ko/articles/article-008-zenn",
+        "title": "コードに無い「決めた理由」をどう残すか。LLM Wikiに書かせるものを2つに絞った",
+        "author": "Anago",
+        "published_at": "2026-11-21T11:10:08.378000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:8463c6ce6918c4ce0f20a8f6",
         "source": "zenn",
@@ -45942,6 +46001,50 @@
     ],
     "qiita": [
       {
+        "id": "qiita:72bffb4bd4fc2e026a169273",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "Security",
+          "脆弱性",
+          "Laravel",
+          "フリーランス"
+        ],
+        "url": "https://qiita.com/devoctane/items/21d610771108967f35d0",
+        "title": "PHPの緊急セキュリティリリースに、23時待機で備えた話。前回は復旧まで4営業日かかった",
+        "author": "devoctane",
+        "published_at": "2026-11-21T20:17:18+09:00",
+        "excerpt": "2026年11月19日の23時、PHPの緊急セキュリティリリースの発表を待っていました。 「待っていた」と書くと大げさですが、事前告知が出ていたので、その時間に机の前にいた、というだけの話です。ただ、前回のことがあるので、今回は最初から影響調査に入れるように備えていました。 前回の教訓：php2shellのとき、サイトが止まった 少し前のことですが、php2shellと呼ばれる脆弱性への対応をしたことがあります。そのときは担当していたサイトが止まりました。攻撃を受けたわけではなく、対応に伴う停止です。リリース前に脆弱性の情報が出回っていた時期で、予防的にサイトを止める判断が広く取られていたと記憶しています。 やったことは4つです。 影響範囲の調査 更新と再ビルド 痕跡の確認（痕跡はありませんでした） 関係者への報告 壁になったのは、古い系統との互換性でした。直すこと自体より、「古い系統を壊さずに直す」ことに時間を使った感覚があります。結局、復旧まで4営業日かかりました。時間を使ったのは、復旧方針の検討と、PHP 5.5という古い環境のバージョンま"
+      },
+      {
+        "id": "qiita:6612e92c7f0c531b6d3e3b20",
+        "source": "qiita",
+        "author_tags": [
+          "OAuth",
+          "openidconnect",
+          "JWT",
+          "csrf",
+          "Security"
+        ],
+        "url": "https://qiita.com/gtakairo/items/d5b2f2905dbf84e754d9",
+        "title": "OAuth・OIDC・JWT・Cookie・CSRFの違いを「Googleでログイン」から整理する",
+        "author": "gtakairo",
+        "published_at": "2026-11-21T20:08:03+09:00",
+        "excerpt": "はじめに OAuthの state はCSRFトークンと似ている。一方、PKCEも認可コードの不正利用を防ぐ仕組みだ。では、どこが違うのか。 さらに「Googleでログイン」を実装すると、OIDCやJWTが登場する。ログイン後のセッション管理にはCookieが使われることもある。 これらを別々に覚えようとすると、かえって混乱しやすい。この記事ではサーバーサイドWebアプリを例に、 どの通信で、誰が、何を検証するのか という順序で整理する。 まずは全体の流れ ここには2種類の処理がある。 Googleとのログイン処理 と、 ログイン後に自分のWebアプリを操作する処理 だ。 state とPKCEは主に前者、Cookieと通常のCSRFトークンは主に後者に関係する。JWTはこれらと違い、情報を表現するトークンの形式である。 1. OAuthとOIDCは何が違うのか OAuth 2.0は、本来「このアプリに、別のサービスのデータへアクセスする権限を与える」という 認可 の仕組みだ。 例えば、カレンダー連携アプリにGoogleカレンダーの読み取り権限を"
+      },
+      {
+        "id": "qiita:9c8a21488c4dbd5408f515d4",
+        "source": "qiita",
+        "author_tags": [
+          "Security"
+        ],
+        "url": "https://qiita.com/whitestonex39-debug/items/4e9674644efebcd683b2",
+        "title": "【セキュリティ】ソルト",
+        "author": "whitestonex39-debug",
+        "published_at": "2026-11-21T19:59:21+09:00",
+        "excerpt": "結論 パスワードをハッシュ化するときに追加するランダムな文字列 同じパスワードであっても、異なるハッシュ値になるようにすること 詳細 ソルトがない場合 例えば、2人のユーザーが同じパスワード password123 を設定したとする 同じパスワードを同じハッシュ関数でハッシュ化すると、同じハッシュ値になる →データベースのハッシュ値を比較することで、同じパスワードを使っているユーザーを特定できてしまう ソルトがある場合 ユーザーごとに異なるランダムな文字列（ソルト）を追加 例えば、 ユーザーAのソルト：xyz789 ユーザーBのソルト：abc456 これを** fパスワードと組み合わせてからハッシュ化** ユーザーA:パスワード + ソルト=password123 + xyz789→ハッシュ値AAA ユーザーB:パスワード + ソルト=password123 + abc456→ハッシュ値BBB →同じパスワードでも異なるハッシュ値になる ※実際のパスワードハッシュでは、Argon2idやbcryptなどの専用方式を使用 ソルトはどこに保存するのか"
+      },
+      {
         "id": "qiita:a99330edec24cc364999bff9",
         "source": "qiita",
         "author_tags": [
@@ -62908,6 +63011,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d34bac4c9b44b504a5052260",
+        "source": "medium",
+        "author_tags": [
+          "soc",
+          "cybersecurity",
+          "wazuh",
+          "threat-detection",
+          "information-security"
+        ],
+        "url": "https://medium.com/@hashinivihanga093/building-a-mini-soc-at-home-implementing-wazuh-for-endpoint-monitoring-and-threat-detection-ec9b54feabd4",
+        "title": "Building a Mini SOC at Home: Implementing Wazuh for Endpoint Monitoring and Threat Detection",
+        "author": "Hashinivihanga",
+        "published_at": "2026-11-21T11:27:31+00:00",
+        "excerpt": "A hands-on cybersecurity project exploring SIEM, endpoint monitoring, vulnerability detection and Windows security event analysis. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:02a9b0eb408bcca658fc3339",
+        "source": "medium",
+        "author_tags": [
+          "apache",
+          "cve",
+          "cyber",
+          "tomcat",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@cybersec_cynoxsecurity/critical-apache-tomcat-vulnerability-allows-remote-attackers-to-join-trusted-server-clusters-ad8332e8a923",
+        "title": "Critical Apache Tomcat Vulnerability Allows Remote Attackers to Join Trusted Server Clusters…",
+        "author": "Cynox Security LLP.",
+        "published_at": "2026-11-21T11:27:17+00:00",
+        "excerpt": "Apache has disclosed a critical security vulnerability in Apache Tomcat that could allow remote attackers to join trusted server clusters… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:faac9b6e6298a933e102979c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "vulnerability-management",
+          "technology",
+          "microsoft-windows",
+          "information-security-risk"
+        ],
+        "url": "https://medium.com/@ShadowMove/fastunlock-a-windows-11-zero-day-that-exposes-the-difference-between-encryption-and-access-control-32affe0cb817",
+        "title": "FastUnlock: A Windows 11 Zero-Day That Exposes the Difference Between Encryption and Access Control",
+        "author": "Sampath Kumar Illa",
+        "published_at": "2026-11-21T11:07:39+00:00",
+        "excerpt": "How a reported Narrator lock-screen bypass raises questions about physical access, BitLocker, and Windows security Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dfbc17f0a0f0fe6136a983e8",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ransomeware",
+          "soc-analyst",
+          "blue-team",
+          "alert-investigation"
+        ],
+        "url": "https://medium.com/@tanmaydhanula1234/soc145-ransomware-detected-letsdefend-dc04e5c96d17",
+        "title": "SOC145 — Ransomware Detected — LetsDefend",
+        "author": "TanmayDhanula",
+        "published_at": "2026-11-21T11:06:06+00:00",
+        "excerpt": "Case Management Continue reading on Medium »"
+      },
       {
         "id": "medium:aa4158f6e5158ae6d12d9de2",
         "source": "medium",
