@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-21T03:07:35.619608+00:00",
-  "as_of": "2026-11-21T03:00:00+00:00",
+  "generated_at": "2026-11-21T04:08:51.065823+00:00",
+  "as_of": "2026-11-21T04:00:00+00:00",
   "catalog_count": 26003,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -75,7 +75,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-21T06:53:22.433347+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-527b531a96b5460cb29d3211",
       "primary_category": "threat_campaign",
       "public_article_id": "url:527b531a96b5460cb29d3211",
@@ -103,7 +103,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-21T06:22:28.064538+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-66f04c9a5869de8f7cc77c5a",
       "primary_category": "vulnerability",
       "public_article_id": "url:66f04c9a5869de8f7cc77c5a",
@@ -877,6 +877,36 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044119.html",
+      "cves": [
+        "CVE-2026-101113"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T12:23:50.095424+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-54183d7df75d99e7a8d6e551",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:54183d7df75d99e7a8d6e551",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-18T17:53:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "エレコム株式会社が提供する無線LANルータには、次の脆弱性が存在します。 OSコマンドインジェクション（CWE-78） - CVE-2026-101113 この脆弱性情報は、下記の方がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：TeamT5 Charlie Chang 氏",
+      "summary_excerpt": "エレコム株式会社が提供する無線LANルータには、次の脆弱性が存在します。 OSコマンドインジェクション（CWE-78） - CVE-2026-101113 この脆弱性情報は、下記の方がJPCERT/CCに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：TeamT5 Charlie Chang 氏",
+      "threat_actors": [],
+      "title": "エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
       "cves": [
         "CVE-2026-114938"
@@ -934,36 +964,6 @@
       "summary_excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as",
       "threat_actors": [],
       "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1028/",
-      "cves": [
-        "CVE-2026-19779"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T02:54:46.333631+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-67381ea1271833e94d7e48b9",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:67381ea1271833e94d7e48b9",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T15:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.3. The following CVEs are assigned: CVE-2026-19779.",
-      "summary_excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.3. The following CVEs are assigned: CVE-2026-19779.",
-      "threat_actors": [],
-      "title": "ZDI-26-1028: (0Day) G DATA Total Security Backup Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
     }
   ],
   "timeseries_status": {
@@ -997,19 +997,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-18T03:00:00+00:00",
-    "last_as_of": "2026-11-21T03:00:00+00:00",
+    "first_as_of": "2026-11-18T04:00:00+00:00",
+    "last_as_of": "2026-11-21T04:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-21T03:00:00+00:00",
-  "heat_as_of": "2026-11-21T03:00:00+00:00",
+  "news_as_of": "2026-11-21T04:00:00+00:00",
+  "heat_as_of": "2026-11-21T04:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26003,
-  "last_published_at": "2026-11-21T12:07:47.179186+09:00",
-  "publication_slot_jst": "2026-11-21T12:00:00+09:00"
+  "last_published_at": "2026-11-21T13:09:04.296319+09:00",
+  "publication_slot_jst": "2026-11-21T13:00:00+09:00"
 }
