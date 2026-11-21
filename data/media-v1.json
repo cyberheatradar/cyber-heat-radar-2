@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T14:40:03.157904+00:00",
+  "source_snapshot_generated_at": "2026-11-21T15:40:02.860396+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b08e6e9f409f9b86bd2ba83c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "JavaScript",
+          "Vercel",
+          "sakura",
+          "さくらのaiengine"
+        ],
+        "url": "https://zenn.dev/nanako1129/articles/799de43c4e556c",
+        "title": "月3,000回の無料枠で、「AIに任せないこと」を先に決めた。猫耳秘書と宇宙を旅した話",
+        "author": "Nanako",
+        "published_at": "2026-11-21T15:00:06.186000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:53127573bf2f8ec127c8da49",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "コーディング",
+          "AIエージェント",
+          "Antigravity"
+        ],
+        "url": "https://zenn.dev/ququla89/articles/antigravity-is-better-now-i-think",
+        "title": "Antigravityの調子が良いので全部の作業を任せてみた話",
+        "author": "QuQuLa89/キュキュラ",
+        "published_at": "2026-11-21T14:59:22.074000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:63d921e4f6c1fb706616544c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Model Context Protocol",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yohei_kuno/articles/a1047222376276",
+        "title": "AIエージェントに渡すMCPの返り値で気をつけていること（Search ConsoleのMCPを作って）",
+        "author": "Kyohei",
+        "published_at": "2026-11-21T14:45:34.964000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4bb67ae2b983e0315c3edd01",
         "source": "zenn",
@@ -46201,6 +46249,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3ec1258375975a776623bf2f",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Security",
+          "プライバシー",
+          "統計学",
+          "情報理論"
+        ],
+        "url": "https://qiita.com/ynakayama/items/e68846990437912a9c87",
+        "title": "生成文章の表現選択から個人属性を識別できる条件を検証する",
+        "author": "ynakayama",
+        "published_at": "2026-11-22T00:02:29+09:00",
+        "excerpt": "文章生成システムが作成したメールには、会議の日時、場所、参加依頼だけを記載するとします。本文に年齢や職業が書かれていなくても、文章の言い回しを選ぶ確率が利用者の属性によって異なれば、送信先は文章から属性を推定できる場合があります。 この条件を、外部 API を使わない Python の実験で確かめます。属性ごとに表現を選ぶ確率を変え、文章だけを使う識別器を学習させて、未使用の評価データに対する正答率を測定します。結論を先に述べると、 属性別の出力分布の全変動距離が大きいほど、属性の事前確率が等しい条件での最適な識別正答率は高くなります 。一方、文章表現を同じ規則に統一した条件では、この実験で設けた情報伝達経路が消えます。 本稿の値は、確率をあらかじめ設定した合成実験の結果です。実際の言語モデルが同じ確率で文章を生成するという主張ではありません。 1. 生成文章の意味が同じでも属性情報が伝わる条件 例えば、会議案内の本文を次の 2 通りで作成します。 表現 0 件名：会議のご案内 日時：12月3日 14時 場所：第2会議室 会議へのご参加をお願いし"
+      },
+      {
         "id": "qiita:d06ee2e097d53a59b4b910b1",
         "source": "qiita",
         "author_tags": [
@@ -63257,6 +63321,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b6f5333ab0b44708b947b923",
+        "source": "medium",
+        "author_tags": [
+          "xss-attack",
+          "cybersecurity",
+          "web-security",
+          "infosec",
+          "portswigger"
+        ],
+        "url": "https://medium.com/@razajavaid2004/portswigger-lab-stored-xss-into-html-context-with-nothing-encoded-0cd608b40ec7",
+        "title": "PortSwigger Lab: Stored XSS into HTML Context with Nothing Encoded",
+        "author": "Muhammad Raza",
+        "published_at": "2026-11-21T15:32:19+00:00",
+        "excerpt": "Difficulty: Apprentice Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d0e66225703020d21d7de56f",
+        "source": "medium",
+        "author_tags": [
+          "ransomware",
+          "artificial-intelligence",
+          "cloud-security",
+          "cybersecurity",
+          "llm"
+        ],
+        "url": "https://suraj-nandan.medium.com/when-hackers-target-ai-infrastructure-the-emerging-threat-of-llmjacking-9aab695de0e5",
+        "title": "When Hackers Target AI Infrastructure: The Emerging Threat of LLMjacking",
+        "author": "Suraj Nandan",
+        "published_at": "2026-11-21T15:31:01+00:00",
+        "excerpt": "CISA just put an AI gateway on its “known exploited” list, in the same batch as a bug tied to a ransomware wave. The two stories look… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d4afab08f5c3e3c1550c38d7",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "bug-bounty",
+          "hacking",
+          "web-development",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@pentesterclubpvtltd/whatsapp-fixes-3-security-flaws-android-bug-suspected-of-use-in-scams-8c1cd3aebef3",
+        "title": "WhatsApp Fixes 3 Security Flaws | Android Bug Suspected of Use in Scams",
+        "author": "Pentester Club",
+        "published_at": "2026-11-21T15:23:58+00:00",
+        "excerpt": "Subtitle: What the November 2026 disclosures reveal about an IP-address leak, a malicious order-details message, and a… Continue reading on Medium »"
+      },
       {
         "id": "medium:3763ba6ed76c10861040d175",
         "source": "medium",
