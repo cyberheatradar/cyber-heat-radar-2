@@ -1,9 +1,88 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T09:40:08.429870+00:00",
+  "source_snapshot_generated_at": "2026-11-21T10:40:03.018280+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:8463c6ce6918c4ce0f20a8f6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "Security",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/zeuslab/articles/df65e8457149ea",
+        "title": "手順書は「お願い」、フックは「決まり」——CLAUDE.md・AGENTS.md・SKILL.md と、機械で断る関所を自分の記録で比べる",
+        "author": "ZEUS LAB",
+        "published_at": "2026-11-21T10:26:49.215000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bd15f2110cf129dff8864f95",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "初心者",
+          "未経験",
+          "プログラミング学習",
+          "エンジニア転職"
+        ],
+        "url": "https://zenn.dev/ahagate/articles/b5fb94f80b318f",
+        "title": "AIで動いたものが、正しいとは限りません。個人開発と、人から受けた開発は分けて考える",
+        "author": "せいや＠エンジニア",
+        "published_at": "2026-11-21T10:08:31.043000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bed4d3d21365d1a989f85ecc",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "キャリア",
+          "働き方",
+          "TikTok",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/talks_tldr_jp/articles/tldr46-lutke-summary",
+        "title": "Shopify の Tobi Lütke が語った、AI が選択肢ではない会社（#46 要点解説）",
+        "author": "管理人K",
+        "published_at": "2026-11-21T10:02:23.151000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8d868984c126eb81a1a8015d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "math",
+          "agile",
+          "Lean",
+          "designthinking"
+        ],
+        "url": "https://zenn.dev/koukoui/articles/efca70ea1dcec7",
+        "title": "リーマン予想の次に崩れるのは「学問の縦割り」かもしれない ― AI時代の研究はアジャイルになる",
+        "author": "koukoui",
+        "published_at": "2026-11-21T09:56:05.135000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:73034a484b66d63cf8bf628e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/maura/articles/db8579579b1b81",
+        "title": "Claude Code の完了報告が嘘だった4つの型と、受け取ったときに聞く3つのこと",
+        "author": "まうら",
+        "published_at": "2026-11-21T09:54:22.560000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:e800a027c41aa1d6ffe99766",
         "source": "zenn",
@@ -45863,6 +45942,50 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a99330edec24cc364999bff9",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Security",
+          "セキュリティ対策",
+          "zOS"
+        ],
+        "url": "https://qiita.com/don_don/items/af55c3a3c7f25ab3f85a",
+        "title": "CLAUDE セキュリティ対策➀通信履歴",
+        "author": "don_don",
+        "published_at": "2026-11-21T19:35:43+09:00",
+        "excerpt": "uname -a $env:WSL_DISTRO_NAME $env:USERPROFILE Get-WinEvent -ListLog \" Sysmon \" | Select-Object LogName, IsEnabled, RecordCount Get-WinEvent -FilterHashtable @{ LogName = 'Microsoft-Windows-Sysmon/Operational' Id = 3 } -ErrorAction SilentlyContinue | Select-Object TimeCreated, Message | Format-List Get-WinEvent -FilterHashtable @{ LogName = 'Microsoft-Windows-Sysmon/Operational' Id = 1 } -ErrorAction SilentlyContinue | Where-Object { $_.Message -match 'claude|curl|wget|python"
+      },
+      {
+        "id": "qiita:772171c246997b1cad1ccae3",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "Network",
+          "VPN",
+          "ネットワークエンジニア",
+          "ポエム"
+        ],
+        "url": "https://qiita.com/jTakasuRyuji/items/6337b08f246856f131b1",
+        "title": "ALL.Netが止まった3週間 ― チュウニズム復旧までの記録と、e-amusementの閉域VPNに考えたこと",
+        "author": "jTakasuRyuji",
+        "published_at": "2026-11-21T19:23:56+09:00",
+        "excerpt": "11月1日、ゲーセンの音ゲーが一斉に止まった 2026年11月1日15時、セガ フェイブのアーケード向けネットワークサービス「ALL.Net」と「Aime」が停止しました。『CHUNITHM』『maimai でらっくす』をはじめとする対応タイトルで、オンラインプレイもAimeカードを使ったプレイもできなくなったのです。 翌11月2日、セガ フェイブが第一報を出しました。ALL.NetとAimeに関係するサーバーが第三者による不正アクセスを受け、データ流出の有無と影響範囲を調査中であること。安全性の確認のためサービスを停止したこと。初期調査の時点では顧客・取引先情報の流出は確認されておらず、クレジットカード情報を含む決済情報は当該サーバーに保有していないため影響がないこと。 そして本日11月21日9時、停止から約3週間ぶりに『CHUNITHM』『maimai でらっくす』『英傑大戦』（対人戦を除く）とプリクラ3機種の試験稼働再開が発表されました。この3週間の経緯を、公式発表にあたって整理しながら、ネットワーク設計について考えたことを書きます。 経緯"
+      },
+      {
+        "id": "qiita:d675ab8cac1a1c5e5f61bb90",
+        "source": "qiita",
+        "author_tags": [
+          "初心者",
+          "Security"
+        ],
+        "url": "https://qiita.com/whitestonex39-debug/items/e5d113692cd5e1692df9",
+        "title": "【セキュリティ】総当たり攻撃・対策",
+        "author": "whitestonex39-debug",
+        "published_at": "2026-11-21T19:13:51+09:00",
+        "excerpt": "結論 総当たり攻撃とは、パスワードなどの認証情報を、 考えられる組み合わせで片っ端から試して 、不正にログインしようとする攻撃のこと 一番大切なのは、パスワードを何度でも自由に試せる状態にしないこと 詳細 基本 例えば、ログイン画面に1234というパスワードが設定されているとする： 攻撃者は次のように、さまざまなパスワードを試す 0000 → 失敗 0001 → 失敗 ... 1234 → 成功！ →このように、正しいパスワードが見つかるまで試行を繰り返す攻撃 例：ログイン処理に何の制限もなければ、攻撃者はプログラムを使って1秒間に何千回もパスワードを試せる可能性がある その結果、パスワードを特定され、不正ログインされてしまう 対策・気を付けること 主に次のような対策がある： 一定時間、ログインを制限する ログイン失敗回数に応じて、一定時間ログインできないようにする 失敗回数が増えるほど制限時間を長くする方法もある IPアドレスでも制限する アカウント単位だけでなく、IPアドレス単位でもアクセス回数を制限する 例えば、同じIPアドレスから大量のロ"
+      },
+      {
         "id": "qiita:abc14e31bca8d41af9832bce",
         "source": "qiita",
         "author_tags": [
@@ -62785,6 +62908,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:aa4158f6e5158ae6d12d9de2",
+        "source": "medium",
+        "author_tags": [
+          "docker",
+          "spring-boot",
+          "cybersecurity",
+          "java",
+          "jvm"
+        ],
+        "url": "https://medium.com/@ands0927/java4shell-cve-2026-114938-in-docker-one-flag-until-the-fixed-jdk-9b02fc7d5378",
+        "title": "Java4Shell (CVE-2026-114938) in Docker: One Flag Until the Fixed JDK",
+        "author": "GeonMo",
+        "published_at": "2026-11-21T10:07:30+00:00",
+        "excerpt": "One JVM flag as a stopgap for our JDK 21 and 25 containers, and the version number that actually fixes it Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d51febf8e24e6266880d93f1",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybersecurity-assessments",
+          "vulnerability-assessment",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@k2consulting/understanding-the-difference-between-cybersecurity-assessments-vulnerability-assessments-and-de3e2416ec05",
+        "title": "Understanding the Difference Between Cybersecurity Assessments, Vulnerability Assessments, and…",
+        "author": "K2 Consulting",
+        "published_at": "2026-11-21T09:47:56+00:00",
+        "excerpt": "Cybersecurity is an important consideration for organizations looking to protect their systems, networks, and business information… Continue reading on Medium »"
+      },
       {
         "id": "medium:5120fb729b9926adc0130b88",
         "source": "medium",
