@@ -1,9 +1,72 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T01:40:02.934293+00:00",
+  "source_snapshot_generated_at": "2026-11-21T02:40:03.042526+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:7b124e8c2b7adce7ad367737",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Test",
+          "Claude Code",
+          "quint",
+          "formalmethods"
+        ],
+        "url": "https://zenn.dev/karamage/articles/73027ee36796dc",
+        "title": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+        "author": "karamage",
+        "published_at": "2026-11-21T02:12:39.343000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2edc0b6a501bd2978715ff1e",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "個人開発",
+          "Cloudflare",
+          "Cloudflare Pages",
+          "Wrangler"
+        ],
+        "url": "https://zenn.dev/tyuya/articles/pages-old-deployment-keeps-secret",
+        "title": "シークレットを消して再デプロイしても、古いデプロイには残っていた（Cloudflare Pages）",
+        "author": "yuya0620",
+        "published_at": "2026-11-21T02:12:08.239000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9d2377b12f8e933297c79aff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Model Context Protocol",
+          "ChatGPT",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/kaguraai/articles/chatgpt-design-to-codex",
+        "title": "ChatGPT で決めた設計を、Codex にそのまま渡す",
+        "author": "Kagura AI",
+        "published_at": "2026-11-21T01:56:10.887000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a8f23297d9c2d018b66f59b1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "llm",
+          "Ollama"
+        ],
+        "url": "https://zenn.dev/shinkaspool/articles/ccb951672725e5",
+        "title": "Abliteratedモデルの繰り返しループを実測して止めた話 — Ollamaとllama.cppの設定と数字",
+        "author": "Shinka Spool Labs",
+        "published_at": "2026-11-21T01:50:05.174000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:7a38734bcbe0ca3ffd86ca82",
         "source": "zenn",
@@ -1883,6 +1946,22 @@
         "title": "AI エージェントのファイル探しを、判定モデル Jev に 1 回だけ聞く道具 Jev-explore にした話",
         "author": "こかげ",
         "published_at": "2026-11-19T22:02:26.837000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:247d81b46714b0c7689b26c0",
+        "source": "zenn",
+        "author_tags": [
+          "PowerShell",
+          "Security",
+          "Windows",
+          "SoC",
+          "Privilege escalation"
+        ],
+        "url": "https://zenn.dev/tokotokokame/articles/windows-service-hijack-unquoted-path",
+        "title": "サービスの未引用パスを棚卸しする。本のフィルタは誤検知を出すので直した",
+        "author": "tokotokokame",
+        "published_at": "2026-11-19T22:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -45226,6 +45305,50 @@
     ],
     "qiita": [
       {
+        "id": "qiita:552b0bfcf14797ecfa331db6",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "MCP",
+          "ログ分析"
+        ],
+        "url": "https://qiita.com/webdecoy/items/e1bd8c9088c36ed5cb8b",
+        "title": "10種類の名前を名乗ったボットをどう調べるか：WebDecoy MCPでリクエストの根拠を確認する",
+        "author": "webdecoy",
+        "published_at": "2026-11-21T11:38:45+09:00",
+        "excerpt": "WebDecoyで観測している本番サイトで、同じ送信元IPからのリクエストが10分間に10種類のクライアント名を名乗りました。WebDecoyはそのうち6種類をなりすましと分類し、機微なリソースを対象としたリクエストを3件記録しました。調査メモでは、何を名乗ったか、何を根拠にまとめたか、どんな結果を観測したかを分けて記録しました。 1. リクエストをまとめた根拠を確認する ログをUser-Agentで集計すると、名前を変更したクライアントが別々の行に分かれます。まず時刻順に並べ、同じ送信元IPからどの名前でどの経路にアクセスしたかを確認します。CDNやリバースプロキシを使っている場合は、信頼済みプロキシから得た送信元の情報を使います。 このケースでグループ化の根拠になったのは送信元IPの完全一致です。一貫したTLSフィンガープリントは観測されませんでした。共有NATやプロキシの可能性を残し、IPの一致から特定の人やクローラ運営者まで断定しないようにします。 2. 保持されたイベントと応答を確認する 検出結果の先頭と末尾の時刻を確認し、保持されてい"
+      },
+      {
+        "id": "qiita:e15e3083490bcee6b6235069",
+        "source": "qiita",
+        "author_tags": [
+          "WebArena",
+          "indigo",
+          "Security"
+        ],
+        "url": "https://qiita.com/ohisama@github/items/61b4e226fc9673ca072e",
+        "title": "webarenaでubuntu その84",
+        "author": "ohisama@github",
+        "published_at": "2026-11-21T11:31:17+09:00",
+        "excerpt": "概要 webarenaでubuntu18.04やってみた。 vpsクラウドが終了するらしい。 vpsクラウドからindigoに引っ越す検討。 indigo申し込んでみた。 ubuntu 24.04、いれてみた。 indigo コントロールパネルが繋がらない。 これらしい 再開目途未定です。 なお、起動中のインスタンス（VM）およびWasabiのコンソール画面については、継続してご利用になれます。 起動中のインスタンスは、利用できるとあるが、SSHは、繋がらない。 以上。"
+      },
+      {
+        "id": "qiita:11c25bf9097cd69aefb6126d",
+        "source": "qiita",
+        "author_tags": [
+          "MCP",
+          "ClaudeCode",
+          "Security",
+          "Python",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/shiroi1229/items/8c3cdf72ffcb69746d2f",
+        "title": "MCP設定（claude_desktop_config.json / .mcp.json）に潜む4大セキュリティ罠──未固定npx・ルート権限・env秘密鍵を0.05秒で静的監査するPython実装",
+        "author": "shiroi1229",
+        "published_at": "2026-11-21T11:23:25+09:00",
+        "excerpt": "背景：MCP導入で急増している「設定ファイル由来の本番事故」 Claude Code / Codex / Cursor 等で Model Context Protocol（MCP）サーバーを日常的に接続する開発環境が増えましたが、実運用で見落とされがちなのが claude_desktop_config.json や .mcp.json に潜む4つの静的セキュリティリスク です。 # リスク分類 よく見かける危険な記述例 発生し得る事故 1 サプライチェーン未固定 \"command\": \"npx\", \"args\": [\"-y\", \"@org/mcp-server\"] 最新タグ差し替え・破壊的変更の自動実行 2 過剰なファイルシステム権限 \"args\": [\"-y\", \"@mcp/fs@1.0.0\", \"/\"] や \"~\" ワークスペース外の .ssh / .aws 読み書き 3 env 内ハードコード秘密鍵 \"env\": {\"API_KEY\": \"sk-proj-...\"} リポジトリ・バックアップ経由での鍵漏洩 4 特権コマンドの直接起動 \"co"
+      },
+      {
         "id": "qiita:87e4f7ec00caee0731cde4b0",
         "source": "qiita",
         "author_tags": [
@@ -61978,6 +62101,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d485f168ce5a302e616a1717",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "infosec",
+          "cloud-security",
+          "threat-intelligence"
+        ],
+        "url": "https://medium.com/@carloswataru/5-min-security-advisory-8-the-third-party-blind-spot-securing-cloud-snapshots-vendor-2a174e694458",
+        "title": "[5-Min Security Advisory] #8: The Third-Party Blind Spot: Securing Cloud Snapshots & Vendor…",
+        "author": "5-Min Security Advisory",
+        "published_at": "2026-11-21T02:06:31+00:00",
+        "excerpt": "# [5-Min Security Advisory] #8: The Third-Party Blind Spot: Securing Cloud Snapshots & Vendor Integrations Against Data Breaches Continue reading on Medium »"
+      },
+      {
+        "id": "medium:fd75120d2cca68fae8485faf",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "bug-bounty",
+          "cybersecurity",
+          "business",
+          "programming"
+        ],
+        "url": "https://medium.com/@asadmohsin760/critical-linux-kvm-vulnerability-cve-2026-99312-exposes-127gb-of-host-memory-bug-bounty-researcher-0929a4584860",
+        "title": "Critical Linux KVM Vulnerability CVE-2026-99312 Exposes 127GB of Host Memory: Bug Bounty Researcher…",
+        "author": "Asad Mohsin",
+        "published_at": "2026-11-21T02:05:53+00:00",
+        "excerpt": "Published: November 21, 2026 Category: Cybersecurity | CVE | Bug Bounty | Vulnerability Research Continue reading on Medium »"
+      },
       {
         "id": "medium:65930878e215556525ec4571",
         "source": "medium",
