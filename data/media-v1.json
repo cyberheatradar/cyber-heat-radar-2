@@ -1,9 +1,87 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T07:40:02.879924+00:00",
+  "source_snapshot_generated_at": "2026-11-21T08:40:03.123478+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:5baa0f78f8b3a99fe0cd1d14",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "画像生成 AI",
+          "生成 AI",
+          "AI ツール",
+          "動画生成 AI"
+        ],
+        "url": "https://zenn.dev/zorvelaieffects/articles/0d3e45c39f68b9",
+        "title": "1枚の写真からAIカートゥーンや短いAI動画エフェクトを作る「Zorvel」を紹介する",
+        "author": "laritaga",
+        "published_at": "2026-11-21T08:38:11.860000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0f0b510bff35f887e5f5f666",
+        "source": "zenn",
+        "author_tags": [
+          "JavaScript",
+          "Python",
+          "Security",
+          "Chrome拡張",
+          "llm"
+        ],
+        "url": "https://zenn.dev/pecopeko/articles/browser-local-reversible-pii-vault-chrome-mv3",
+        "title": "ChatGPT/Claude送信前に機密をローカル可逆マスクするChrome MV3拡張と誤検知対策",
+        "author": "Shumpei Wakabayashi",
+        "published_at": "2026-11-21T08:35:28.810000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:73d08cbff247fc8f315b79e4",
+        "source": "zenn",
+        "author_tags": [
+          "WordPress",
+          "初心者",
+          "Security"
+        ],
+        "url": "https://zenn.dev/idea_mart/articles/738a6c2e5eeab3",
+        "title": "WordPressのチャットボタン（Click to Chatなど）を付けたままのサイトで確かめること：制作会社に付けてもらった方へ",
+        "author": "アイデアマート",
+        "published_at": "2026-11-21T08:09:32.291000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:10c81f5c73aa6301bf869527",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "DevSecOps",
+          "SonarQube",
+          "SAST",
+          "legacycode"
+        ],
+        "url": "https://zenn.dev/r_goto/articles/sast-legacy-code-sonarqube",
+        "title": "SonarQube で新規コードだけを守る、レガシーコードへの SAST 導入",
+        "author": "Ryuji Goto",
+        "published_at": "2026-11-21T08:05:41.106000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:96c6eba435ab7abbc4cd00de",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Productivity",
+          "llm",
+          "RAG",
+          "AnythingLLM"
+        ],
+        "url": "https://zenn.dev/flosslabs/articles/anythingllm-intro",
+        "title": "自分専用のAIナレッジベースを構築できる「AnythingLLM」が、個人開発や社内wikiの救世主になる理由",
+        "author": "FLOSSLABS",
+        "published_at": "2026-11-21T07:52:30.210000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:0ccd41eafa9c678862f8b3e5",
         "source": "zenn",
@@ -45707,6 +45785,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:37325f34817ccc62722f923d",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "Intune",
+          "AppControl",
+          "Security",
+          "情シス"
+        ],
+        "url": "https://qiita.com/ksato_itlab/items/cdcff50c881063747394",
+        "title": "内製ツールを App Control for Business で許可する前に、監査モードで読む4つのこと",
+        "author": "ksato_itlab",
+        "published_at": "2026-11-21T17:37:19+09:00",
+        "excerpt": "Smart App Control では、社内CAで署名した内製ツールを信頼させる設定がありません（ 前の記事 ）。業務PCで内製ツールを使い続けるなら、Intune などで管理して App Control for Business （旧 Windows Defender Application Control）のポリシーで許可するのが公式の道筋です。 ただし、いきなり強制（ブロック）で配ると、許可し忘れたアプリが止まります。先に 監査モード で配って、何が止まるはずだったかを読むのが安全です。Microsoft Learn の公式ドキュメントで確かめた範囲で、監査モードで読むことを4つにまとめます。 1. 監査モードは「ブロックせずに記録する」オプション ポリシーのルールオプション 3 Enabled:Audit Mode を入れると、App Control は「ブロックされるはずだったアプリ・バイナリ・スクリプト」をログに記録するだけで、止めません。 強制に切り替えるときは、このオプションを消します。 # 監査モード（オプション3）を外して強"
+      },
+      {
         "id": "qiita:b941f8328a309a97ee92e499",
         "source": "qiita",
         "author_tags": [
@@ -62581,6 +62675,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:75a6e3aa215e975ed76c7dce",
+        "source": "medium",
+        "author_tags": [
+          "cyber-security-awareness",
+          "cybersecurity",
+          "world",
+          "tech",
+          "technology"
+        ],
+        "url": "https://medium.com/@michaelolowoselu/vmware-vcenter-zero-day-how-attackers-used-an-authentication-bypass-to-target-virtual-c318d794246d",
+        "title": "VMware vCenter Zero-Day: How Attackers Used an Authentication Bypass to Target Virtual…",
+        "author": "Michaelolowoselu",
+        "published_at": "2026-11-21T08:18:49+00:00",
+        "excerpt": "CVE-2026–123890 | CVSS 9.8 | November 2026 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:fc7f8ccab72d8596616fbefe",
+        "source": "medium",
+        "author_tags": [
+          "banking",
+          "data-privacy",
+          "data-breach",
+          "technology",
+          "cybersecurity"
+        ],
+        "url": "https://suraj-nandan.medium.com/the-hidden-weakness-in-banking-why-your-banks-security-depends-on-companies-you-ve-never-heard-of-c2e5f0ec48e8",
+        "title": "The Hidden Weakness in Banking: Why Your Bank’s Security Depends on Companies You’ve Never Heard Of",
+        "author": "Suraj Nandan",
+        "published_at": "2026-11-21T08:01:03+00:00",
+        "excerpt": "Three major financial companies have disclosed cybersecurity incidents involving third-party providers. The exposed information appears… Continue reading on Medium »"
+      },
       {
         "id": "medium:c889af445f99b9f6b2f0f81d",
         "source": "medium",
