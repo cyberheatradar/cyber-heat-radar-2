@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-21T12:09:16.207615+00:00",
-  "as_of": "2026-11-21T12:00:00+00:00",
-  "catalog_count": 26005,
+  "generated_at": "2026-11-21T13:08:48.174782+00:00",
+  "as_of": "2026-11-21T13:00:00+00:00",
+  "catalog_count": 26008,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,102 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T21:22:42.877527+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-abda2463cf2255c67299f8df",
+      "primary_category": "ai_security",
+      "public_article_id": "url:abda2463cf2255c67299f8df",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-21T21:08:50+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
+      "summary_excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "cves": [
+        "CVE-2026-129975"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T21:22:43.761697+09:00",
+      "heat_score": 55.0,
+      "permalink_id": "article-url-3b426a1ae4872b68d25bbba3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:3b426a1ae4872b68d25bbba3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T20:05:53+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
+      "summary_excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
+      "threat_actors": [],
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T21:22:44.019165+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-31de93106fde76af067132c2",
+      "primary_category": "ai_security",
+      "public_article_id": "url:31de93106fde76af067132c2",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-21T20:03:17+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+      "summary_excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+      "threat_actors": [],
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
@@ -209,97 +305,6 @@
       "summary_excerpt": "Apple, Google, and Microsoft called out for failing to provide developers with adequate AI agent controls",
       "threat_actors": [],
       "title": "Signal slams door on prying AI agents to protect privacy"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisecurity.org/advisory/a-vulnerability-in-vmware-products-could-allow-for-authentication-bypass_2026-140",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T07:22:27.361393+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-0c0722d9dbecf698b564b28a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0c0722d9dbecf698b564b28a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T05:40:39+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Center for Internet Security Advisories",
-      "summary": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.",
-      "summary_excerpt": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new ac",
-      "threat_actors": [],
-      "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mitel-micollab-could-allow-for-arbitrary-code-execution_2026-139",
-      "cves": [],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T07:22:28.156063+09:00",
-      "heat_score": 55.58,
-      "permalink_id": "article-url-711b1b21d20392d79192f522",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:711b1b21d20392d79192f522",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T05:39:44+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Center for Internet Security Advisories",
-      "summary": "Multiple vulnerabilities have been discovered in Mitel MiCollab, the most severe of which could allow for arbitrary code execution. Mitel MiCollab is a unified communications and collaboration platform that combines voice, video, chat, conferencing, and mobility features for enterprise users. Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution in the context of the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights. Exploitation of multiple of these vulnerabilities together may significantly amplify their impact.",
-      "summary_excerpt": "Multiple vulnerabilities have been discovered in Mitel MiCollab, the most severe of which could allow for arbitrary code execution. Mitel MiCollab is a unified communications and collaboration platform that combines voice, video, chat, conferencing, and mobility features for enterprise users. Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution in the context of the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user r",
-      "threat_actors": [],
-      "title": "Multiple Vulnerabilities in Mitel MiCollab Could Allow for Arbitrary Code Execution"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
-      "cves": [
-        "CVE-2026-132825"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T06:53:07.243328+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-c851a250df92def96949f9a3",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c851a250df92def96949f9a3",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-21T05:24:38+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cloudflare Blog Security",
-      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
-      "summary_excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
-      "threat_actors": [],
-      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)"
     }
   ],
   "hottest": [
@@ -439,102 +444,70 @@
       "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026"
     },
     {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
-      "cves": [
-        "CVE-2026-123890"
-      ],
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-20T22:22:36.866914+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-bbc89a2472ca1e82408709f2",
-      "primary_category": "threat_report",
-      "public_article_id": "url:bbc89a2472ca1e82408709f2",
+      "first_seen_at": "2026-11-21T21:22:42.877527+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-abda2463cf2255c67299f8df",
+      "primary_category": "ai_security",
+      "public_article_id": "url:abda2463cf2255c67299f8df",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "cve",
-          "label": "Vulnerability"
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
         }
       ],
-      "published_at": "2026-11-20T21:30:19+09:00",
+      "published_at": "2026-11-21T21:08:50+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "A suspected China-nexus espionage group tracked as Armory Castle (formerly UNC5221) has been exploiting a VMware vCenter zero-day since at least early September, more than two months before Broadcom released a fix, Google Threat Intelligence Group (GTIG) revealed. The vulnerability (CVE-2026-123890) carries a CVSS score of 9.8 and allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, which organizations use to manage their VMware servers and virtual machines. Broadcom fixed it … More → The post VMware vCenter zero-day exploited for months before patch (CVE-2026-123890) appeared first on Help Net Security .",
-      "summary_excerpt": "A suspected China-nexus espionage group tracked as Armory Castle (formerly UNC5221) has been exploiting a VMware vCenter zero-day since at least early September, more than two months before Broadcom released a fix, Google Threat Intelligence Group (GTIG) revealed. The vulnerability (CVE-2026-123890) carries a CVSS score of 9.8 and allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, which organizations use to manage their VMware servers and virtual machines. Broadcom fixed it … More → The post VMware vCenter zero-day exploited for months before patch ",
+      "source_name": "SecurityWeek",
+      "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
+      "summary_excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
       "threat_actors": [],
-      "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)"
+      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day"
     },
     {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-      "cves": [
-        "CVE-2026-99312"
-      ],
+      "ai_relevance": "primary",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-20T22:22:42.952581+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-c7b209f2aed89407eb0e30e5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c7b209f2aed89407eb0e30e5",
+      "first_seen_at": "2026-11-21T21:22:44.019165+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-31de93106fde76af067132c2",
+      "primary_category": "ai_security",
+      "public_article_id": "url:31de93106fde76af067132c2",
       "public_tags": [
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
         },
         {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
         }
       ],
-      "published_at": "2026-11-20T21:20:00+09:00",
+      "published_at": "2026-11-21T20:03:17+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
       "source_name": "The Hacker News",
-      "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
-      "summary_excerpt": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+      "summary_excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
       "threat_actors": [],
-      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "cves": [
-        "CVE-2025-42884",
-        "CVE-2026-123890",
-        "CVE-2026-129448",
-        "CVE-2026-76466"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T04:23:24.393733+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-b22eec5809ce5c9c44d601fc",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:b22eec5809ce5c9c44d601fc",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Series Use of Hard-coded Credentials Vulnerability CVE-2026-123890 VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-129448 Apache Roller Deserialization of Untrusted Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-      "summary_excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Series Use of Hard-coded Credentials Vulnerability CVE-2026-123890 VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-129448 Apache Roller Deserialization of Untrusted Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and po",
-      "threat_actors": [],
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog"
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access"
     },
     {
       "ai_relevance": "none",
@@ -619,6 +592,34 @@
       "summary_excerpt": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new ac",
       "threat_actors": [],
       "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/container-store-restores-systems-cyberattack",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T04:52:26.802487+09:00",
+      "heat_score": 58.5,
+      "permalink_id": "article-url-c328feeee111985a00f219ac",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:c328feeee111985a00f219ac",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-21T04:32:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
+      "summary_excerpt": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
+      "threat_actors": [],
+      "title": "Container Store restores systems after cyberattack"
     }
   ],
   "rising": [],
@@ -781,39 +782,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "cves": [
-        "CVE-2024-10441",
-        "CVE-2026-40217",
-        "CVE-2026-90436",
-        "CVE-2026-90817"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T06:22:12.697403+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-2bf6e3b53184cd104c37e5b1",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:2bf6e3b53184cd104c37e5b1",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-18T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability CVE-2026-90436 Apache Axis Unsafe Reflection Vulnerability CVE-2026-90817 Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-      "summary_excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability CVE-2026-90436 Apache Axis Unsafe Reflection Vulnerability CVE-2026-90817 Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to ",
-      "threat_actors": [],
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044393.html",
       "cves": [
         "CVE-2026-114938"
@@ -950,6 +918,36 @@
       "summary_excerpt": "Overview Today, both Rapid7 and F5 are disclosing CVE-2026-123007 , a critical integer underflow vulnerability affecting nginx HTTP/2, which can allow for unauthenticated remote code execution (RCE) against affected servers under certain conditions. CVE ID Description CWE CVSSv4 CVE-2026-123007 HTTP/2 flow-control memory corruption permitting worker-context RCE CWE-191 (Integer Underflow) 9.2 (Critical) nginx can miscalculate how much response data an HTTP/2 client has allowed it to send. A remote, unauthenticated client can exploit this error by cancelling queued response data, then make ngin",
       "threat_actors": [],
       "title": "CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261119-5357844/",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T08:24:00.384356+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-8424969048ea98cdc099fff2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:8424969048ea98cdc099fff2",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-19T08:07:04+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Mynavi TECH+ Security",
+      "summary": "Oracleは11月17日（現地時間）、Java SE向けのセキュリティ更新を公開し、11件の脆弱性を修正した。これらには、認証なしでリモートから任意のコードを実行される可能性がある「Java4Shell」（CVE-2026-114938）が含まれる。特定のCPUとJava実行環境を組み合わせた場合に影響を受けるほか、Javaを利用する業務アプリケーションにも影響が及ぶ可能性がある。",
+      "summary_excerpt": "Oracleは11月17日（現地時間）、Java SE向けのセキュリティ更新を公開し、11件の脆弱性を修正した。これらには、認証なしでリモートから任意のコードを実行される可能性がある「Java4Shell」（CVE-2026-114938）が含まれる。特定のCPUとJava実行環境を組み合わせた場合に影響を受けるほか、Javaを利用する業務アプリケーションにも影響が及ぶ可能性がある。",
+      "threat_actors": [],
+      "title": "Oracle Javaに11件の脆弱性、「Java4Shell」は認証不要でコード実行の恐れ"
     }
   ],
   "timeseries_status": {
@@ -970,32 +968,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "【LATEST #1】Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
     "【HOTTEST #1 / Heat 75】Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-    "【LATEST #2】パスワード、放置VPN、休眠ID……“初歩的な隙”ばかり？　重要インフラへの攻撃パターンとその対策",
+    "【LATEST #2】GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
     "【HOTTEST #2 / Heat 67.5】CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
-    "【LATEST #3】CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+    "【LATEST #3】Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
     "【HOTTEST #3 / Heat 67.5】How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
-    "【LATEST #4】CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
+    "【LATEST #4】Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
     "【HOTTEST #4 / Heat 67.5】Vulnerabilities in nginx Affecting Cisco Products: November 2026",
-    "【LATEST #5】Visa, Mastercard theft included info useful for phishing, but not draining bank accounts, say researchers",
-    "【HOTTEST #5 / Heat 67.5】VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)"
+    "【LATEST #5】パスワード、放置VPN、休眠ID……“初歩的な隙”ばかり？　重要インフラへの攻撃パターンとその対策",
+    "【HOTTEST #5 / Heat 65】Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-18T12:00:00+00:00",
-    "last_as_of": "2026-11-21T12:00:00+00:00",
+    "first_as_of": "2026-11-18T14:00:00+00:00",
+    "last_as_of": "2026-11-21T13:00:00+00:00",
     "unique_snapshots_used": 72,
-    "span_hours": 72.0,
+    "span_hours": 71.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-21T12:00:00+00:00",
-  "heat_as_of": "2026-11-21T12:00:00+00:00",
+  "news_as_of": "2026-11-21T13:00:00+00:00",
+  "heat_as_of": "2026-11-21T13:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26005,
-  "last_published_at": "2026-11-21T21:09:28.448470+09:00",
-  "publication_slot_jst": "2026-11-21T21:00:00+09:00"
+  "news_catalog_count": 26008,
+  "last_published_at": "2026-11-21T22:09:00.506661+09:00",
+  "publication_slot_jst": "2026-11-21T22:00:00+09:00"
 }
