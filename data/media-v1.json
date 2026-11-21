@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T16:40:03.555318+00:00",
+  "source_snapshot_generated_at": "2026-11-21T17:40:03.157972+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b37b0b3ce44c9d6e72f85562",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Authentication",
+          "MFA",
+          "SAML",
+          "Passkey (パスキー)"
+        ],
+        "url": "https://zenn.dev/masuda_masuo/articles/2026-11-20-auth-design-human",
+        "title": "認証・認可を3つの原則で整理する（1）人間の認証――ログインを強くしても、Cookieで崩れる",
+        "author": "増田",
+        "published_at": "2026-11-21T17:28:26+00:00",
+        "excerpt": "はじめに 認証・認可の解説は、OAuthならOAuth、パスキーならパスキーと、方式ごとに書かれたものが多い。個々の仕組みは分かっても、方式同士がどういう関係にあるのかは見えにくい。 そこで、すべての方式を同じ物差しで並べて整理してみることにした。全3本のシリーズで、この記事は1本目にあたる。 1本目（この記事）：人間の認証 2本目：システム間の認証 3本目：認証の後――トークンと認可 物差しは2つある。 物差し1：秘密の扱い方の3原則 原則 意味 防ぐ脅威 送らない 秘密そのものを通信先に渡さず、署名などで「持っていること」を証明する 盗聴、偽サイト、ログ経由..."
+      },
+      {
+        "id": "zenn:95695a3fa8a02b0eb5dde9df",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "学習",
+          "カンファレンス",
+          "テックリード",
+          "イベント参加レポート"
+        ],
+        "url": "https://zenn.dev/dip_techblog/articles/f3e463cfe79fc3",
+        "title": "TechLead Conference 2026 Autumn 参加レポート:テックリードは、エンジニアの上位版ではなかった",
+        "author": "mstng",
+        "published_at": "2026-11-21T16:59:37+00:00",
+        "excerpt": "はじめに 2026年11月6日、TechLead Conference 2026 Autumn に参加してきました。主催は Eight、会場は有明、12時半から20時半までの一日開催です。650名の枠に当日受付も出ていました。 セッションの要約はしません。自分の立場に当たったところだけ書きます。 自分の立場を先に書いておきます。認証基盤のプロダクトオーナーをしていて、開発組織の運営をしています。手を動かす仕事は減って、決めることと説明することが増えました。 行く前にいちばん知りたかったのは、AI時代のテックリードは何を意識すればいいのか、でした。 一日聴いて持ち帰ったのは、想像と違う..."
+      },
       {
         "id": "zenn:c1c33ac971962128e56fa093",
         "source": "zenn",
@@ -35,6 +67,16 @@
         "author": "Ace",
         "published_at": "2026-11-21T15:45:29.268000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:bc422b3ee671c2544bc8348d",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/zeuslab/books/3e4510456deb81",
+        "title": "複数のAIに役を分け、機械の関所で確かめる——ひとりで回すAIスタジオの設計と実装",
+        "author": "ZEUS LAB",
+        "published_at": "2026-11-21T15:23:13+00:00",
+        "excerpt": "1つのチャット欄にすべてを任せていた頃、当方では同じ見落としが繰り返されました。構想・構造・実装・独立検の役を分け、議論の余地がないことはAIを使わない小さなプログラムに任せる。ひとりで事業を回すための設計を実際に動いているフックのコードと、うまくいかなかった判断の記録と一緒にまとめました。"
       },
       {
         "id": "zenn:b08e6e9f409f9b86bd2ba83c",
@@ -344,6 +386,16 @@
         "excerpt": ""
       },
       {
+        "id": "zenn:ec573b1b51ac5e0346fa8228",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/jodycraft/books/judgement-ai-48",
+        "title": "判定AIは現場で使えるか — 設備点検記録48件で Jev と d1 を測った全記録",
+        "author": "JodyCraft",
+        "published_at": "2026-11-21T10:40:16+00:00",
+        "excerpt": "設備点検記録48件という同じ題材で、判定専用モデル Jev と d1 を7回測った記録。精度→データ→速度→壊れ方→組み込み→選定の順に、現場で使える場面と使えない場面を切り分ける。レコード別の生データ、質問文、実際に動くC#コード付き。"
+      },
+      {
         "id": "zenn:8463c6ce6918c4ce0f20a8f6",
         "source": "zenn",
         "author_tags": [
@@ -421,6 +473,16 @@
         "author": "まうら",
         "published_at": "2026-11-21T09:54:22.560000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:4200d8dd1e57919c9186be55",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/neuralalpha/books/ai-security-ops-rules",
+        "title": "AI に鍵を渡す前に ― 個人・小さなチームのための AI 時代のセキュリティ運用ルール",
+        "author": "NeuralAlpha",
+        "published_at": "2026-11-21T09:26:42+00:00",
+        "excerpt": "AI エージェントに調べもの・投稿・販売・公開を任せると、AI は「目」（読めるもの）、「手」（できる操作）、「鍵」（ログインやキー）を持ちます。IPA「情報セキュリティ10大脅威 2026」で初選出・3位の「AIの利用をめぐるサイバーリスク」と OWASP の AI エージェント向け10大リスクを、1人〜数人の運用に置き換え、いくつもの事業を AI で回している筆者が実際に使っている決まり（秘密情報の置き場所、権限の段階、外の文章に従わない、入れる前に読む、人が承認する操作、起きたときの手順）を、実際の出来事と点検方法つきで解説します。攻撃の手順は書きません。1〜2章は無料。"
       },
       {
         "id": "zenn:e800a027c41aa1d6ffe99766",
@@ -63383,6 +63445,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:75145217dcff15784785b8ad",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability-management",
+          "devsecops",
+          "cybersecurity",
+          "ai-security",
+          "application-security"
+        ],
+        "url": "https://medium.com/@ujjwal-sinha/ai-found-three-no-login-bugs-in-a-week-most-teams-still-cant-say-where-they-re-exposed-7119973d8e97",
+        "title": "AI Found Three No-Login Bugs in a Week. Most Teams Still Can’t Say Where They’re Exposed.",
+        "author": "Ujjwal Sinha",
+        "published_at": "2026-11-21T17:05:04+00:00",
+        "excerpt": "Patching is the second step. The first is knowing which of your systems are affected, and most teams don’t. Continue reading on Medium »"
+      },
       {
         "id": "medium:325880b360c162f50b1499b4",
         "source": "medium",
