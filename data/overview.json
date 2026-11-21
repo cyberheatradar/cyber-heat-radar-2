@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-21T20:08:00.684749+00:00",
-  "as_of": "2026-11-21T20:00:00+00:00",
+  "generated_at": "2026-11-21T21:09:49.395720+00:00",
+  "as_of": "2026-11-21T21:00:00+00:00",
   "catalog_count": 26010,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -371,41 +371,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
-      "cves": [
-        "CVE-2026-132825"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T06:53:07.243328+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-c851a250df92def96949f9a3",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c851a250df92def96949f9a3",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-21T05:24:38+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cloudflare Blog Security",
-      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
-      "summary_excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
-      "threat_actors": [],
-      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
       "cves": [],
       "document_form": "single_story",
@@ -589,31 +554,74 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.cisecurity.org/advisory/a-vulnerability-in-vmware-products-could-allow-for-authentication-bypass_2026-140",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T07:22:27.361393+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-0c0722d9dbecf698b564b28a",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
+      "cves": [
+        "CVE-2026-129448",
+        "CVE-2026-82384"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T04:23:24.775348+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-f7eae7be54c91fe04bcca030",
       "primary_category": "vulnerability",
-      "public_article_id": "url:0c0722d9dbecf698b564b28a",
+      "public_article_id": "url:f7eae7be54c91fe04bcca030",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-21T05:40:39+09:00",
+      "published_at": "2026-11-20T09:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Center for Internet Security Advisories",
-      "summary": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.",
-      "summary_excerpt": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new ac",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+      "summary_excerpt": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
       "threat_actors": [],
-      "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass"
+      "title": "CVE-2026-129448: Apache Roller"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123890",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T04:23:24.757818+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-0f5fd783ae6c3664601eecca",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0f5fd783ae6c3664601eecca",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-20T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "summary_excerpt": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "threat_actors": [],
+      "title": "CVE-2026-123890: Broadcom VMware vCenter"
     }
   ],
   "rising": [],
@@ -953,27 +961,27 @@
     "【LATEST #2】BADBOX botnet returns with record-breaking 40 billion daily ad requests",
     "【HOTTEST #2 / Heat 67.5】CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
     "【LATEST #3】Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-    "【HOTTEST #3 / Heat 67.5】How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+    "【HOTTEST #3 / Heat 65】Microsoft Entra Connect Health flaw exploited to steal tenant data",
     "【LATEST #4】GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-    "【HOTTEST #4 / Heat 65】Microsoft Entra Connect Health flaw exploited to steal tenant data",
+    "【HOTTEST #4 / Heat 65】BADBOX botnet returns with record-breaking 40 billion daily ad requests",
     "【LATEST #5】Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-    "【HOTTEST #5 / Heat 65】BADBOX botnet returns with record-breaking 40 billion daily ad requests"
+    "【HOTTEST #5 / Heat 58.5】Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-18T20:00:00+00:00",
-    "last_as_of": "2026-11-21T20:00:00+00:00",
+    "first_as_of": "2026-11-18T21:00:00+00:00",
+    "last_as_of": "2026-11-21T21:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-21T20:00:00+00:00",
-  "heat_as_of": "2026-11-21T20:00:00+00:00",
+  "news_as_of": "2026-11-21T21:00:00+00:00",
+  "heat_as_of": "2026-11-21T21:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26010,
-  "last_published_at": "2026-11-22T05:08:12.739410+09:00",
-  "publication_slot_jst": "2026-11-22T05:00:00+09:00"
+  "last_published_at": "2026-11-22T06:10:01.143913+09:00",
+  "publication_slot_jst": "2026-11-22T06:00:00+09:00"
 }

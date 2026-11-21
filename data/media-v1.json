@@ -1,6 +1,6 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T19:40:02.613503+00:00",
+  "source_snapshot_generated_at": "2026-11-21T20:40:02.985622+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
@@ -46374,6 +46374,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:294da6e272f747fdbb35ec55",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Security",
+          "ソフトウェア開発",
+          "監査",
+          "AI安全性"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/9f6b5de1607db2cb296b",
+        "title": "AIが正しく仕事をしていても、信用できるとは限らない",
+        "author": "mhamadajp",
+        "published_at": "2026-11-22T05:26:13+09:00",
+        "excerpt": "自律型AI時代に、IT技術者が考えるべき新しい安全性 AIにプログラムの修正を頼む。返ってきたコードは動く。テストも通る。処理も、頼む前より速い。ここまで揃うと、仕事は終わった、と判断しやすい。 その判断で足りないことがある。修正と同時に、頼んでいないファイルの複製が残っていたら。テストでは踏まない条件のときだけ、別の分岐が動くようになっていたら。完成品は仕様を満たしている。それでも、その作業を安全だったとは言いにくい。 これは、あとで紹介する論文がそのまま測った事件ではない。開発の現場で、同じ形の見落としがどこに現れるかを考えるための仮想です。 少し前まで、AIの危うさは「間違った答えを出す」「ないことを、もっともらしく書く」として語られることが多かった。ファイルを読み、コマンドを実行し、外部へつなぎながら仕事を進めるエージェントでは、別のずれが前に出る。頼んだ仕事を終えることと、こちらの意図だけに沿って動くことは、同じではない。 2026年10月、Scale AIのKaiwen Zhou氏とUdari Madhushani Sehwag氏が、"
+      },
+      {
+        "id": "qiita:96c30c26e8504abdd14ce89d",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "pip",
+          "Security",
+          "apiキー"
+        ],
+        "url": "https://qiita.com/supportapp3/items/be7220a5793b6f4c2fe1",
+        "title": "requirements.txt に書いた private index のトークンを外す手順：${PIP_TOKEN} に置き換え→設定忘れの確認まで（pip 26.3 で、未設定だと「${PIP_TOKEN}」の文字のまま送られた）",
+        "author": "supportapp3",
+        "published_at": "2026-11-22T05:21:11+09:00",
+        "excerpt": "先に結論 社内の private index（Artifactory、GitLab、CodeArtifact など）を使うために、 requirements.txt にこう書いている場合の外し方です。 --index-url https://__token__:<トークン>@pypi.example.com/simple 手元の pip 26.3（Python 3.13）で、127.0.0.1 に立てたダミー index（受け取った Authorization ヘッダを記録するだけ）を相手に確かめた結果です。トークンはダミー値です。 git grep で直書きを探す ${PIP_TOKEN} に置き換える（波かっこ必須、 $PIP_TOKEN は展開されなかった） 環境変数を入れずに一度動かし、index 側に ${PIP_TOKEN} の文字が届くことを知っておく（pip はエラーにしなかった） 履歴に残った分は発行元で無効化して作り直す 画面の Looking in indexes: 行は **** で伏せ字になるので、直書きしていても出力だ"
+      },
+      {
         "id": "qiita:634a5a7e871deee20744c333",
         "source": "qiita",
         "author_tags": [
@@ -63505,6 +63536,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:8e1efae4a6c2327f6a12d1df",
+        "source": "medium",
+        "author_tags": [
+          "healthcare",
+          "information-security",
+          "social-engineering",
+          "data-breach",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@pchukwuonwe/title-lessons-from-the-2026-mckesson-data-breach-when-human-trust-becomes-the-attack-vector-1e9a90eff5db",
+        "title": "Title: Lessons from the 2026 McKesson Data Breach: When Human Trust Becomes the Attack Vector",
+        "author": "Mukaosolu",
+        "published_at": "2026-11-21T20:18:02+00:00",
+        "excerpt": "Breaking down how voice phishing (vishing) compromised sensitive healthcare data and what it teaches us about the CIA Triad and everyday… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8ac26e26f6b24adf24389c2a",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty-writeup",
+          "cybersecurity",
+          "web-security-testing"
+        ],
+        "url": "https://zyt00nax0x.medium.com/%D8%A8%D8%B3%D9%85-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85-1a99dc7b59b7",
+        "title": "Account Enumeration via Password-Reset and Registration Verification-Code Endpoints",
+        "author": "zyt00nax0x",
+        "published_at": "2026-11-21T20:15:16+00:00",
+        "excerpt": "Platform: example.com Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f81bc21f29836dc41b563f32",
+        "source": "medium",
+        "author_tags": [
+          "ai",
+          "ai-security",
+          "red-teaming",
+          "cybersecurity",
+          "llm-security"
+        ],
+        "url": "https://medium.com/@sumitsony/zero-day-attack-i-tricked-my-own-ai-agent-into-emailing-an-attacker-654f37427603",
+        "title": "Zero Day Attack: I Tricked My Own AI Agent Into Emailing an Attacker",
+        "author": "Sumit Jha",
+        "published_at": "2026-11-21T20:11:18+00:00",
+        "excerpt": "Two models, one poisoned web page, and a counterintuitive lesson about AI safety: the smarter model was the one that got hijacked. Continue reading on Medium »"
+      },
       {
         "id": "medium:1761f3ff81153a91e8f47617",
         "source": "medium",
