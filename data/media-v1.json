@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T15:40:02.860396+00:00",
+  "source_snapshot_generated_at": "2026-11-21T16:40:03.555318+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:c1c33ac971962128e56fa093",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "JavaScript",
+          "TypeScript",
+          "個人開発"
+        ],
+        "url": "https://zenn.dev/mcp/articles/6b8f51b13c099b",
+        "title": "Steamの登録料$100と手数料30%をゼロに！30言語＆29通貨換算対応のゲーム配信ストア『Zteam』を個人開発した",
+        "author": "mcp",
+        "published_at": "2026-11-21T16:31:05.359000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5220c918343029d097c7ea76",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "Security",
+          "Model Context Protocol",
+          "llm",
+          "ローカル LLM"
+        ],
+        "url": "https://zenn.dev/ace_toshi/articles/local-llm-confidential-mapreduce",
+        "title": "ローカルLLMでクラウドのトークンを9割節約する",
+        "author": "Ace",
+        "published_at": "2026-11-21T15:45:29.268000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:b08e6e9f409f9b86bd2ba83c",
         "source": "zenn",
@@ -46249,6 +46281,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1eca91e2a0e7ffb2cd2520b7",
+        "source": "qiita",
+        "author_tags": [
+          "cloudflare",
+          "CSP",
+          "静的サイト",
+          "Security",
+          "個人開発"
+        ],
+        "url": "https://qiita.com/oaoage/items/5b025091fe2fc59556da",
+        "title": "静的サイトで、iframe への埋め込みを /embed/ 配下だけに許す。Cloudflare の _headers と、規則が崩れたらビルドを止める検査",
+        "author": "oaoage",
+        "published_at": "2026-11-22T01:31:58+09:00",
+        "excerpt": "自分のサイト全体を iframe で表示できない設定にしていたのに、一部のページだけ、他人のブログの中に出したくなった。そんな場面はありませんか。自分はありました。資格試験の「残り日数」の枠を、ブログや Notion に貼れるようにしたいときです。 この記事は、その設定の書き方と、「開けてよい場所を /embed/ だけに保つ」ための検査の話です。サイトは静的で、配信は Cloudflare（静的アセットの _headers ）です。 先に、やったことと結果 サイト全体は X-Frame-Options: DENY と frame-ancestors 'none' のまま。 /embed/* だけ、 /* の 2 つのヘッダーを外してから、 frame-ancestors https: の CSP を付け直した。 ほかの規則で外したり開けたりすると、公開前のゲート（自作の検査）が止まる。 検査は、ゲートの規則とテストの両方に入れた。埋め込みのテストは 11 件で、サイト全体のテスト 722 件と一緒にすべて通っている（2026-11-21 時点）"
+      },
+      {
+        "id": "qiita:499ed39ededc617a38d09883",
+        "source": "qiita",
+        "author_tags": [
+          "JavaScript",
+          "Security",
+          "Docker"
+        ],
+        "url": "https://qiita.com/webdecoy/items/eafbe9a3a06d7e1ead89",
+        "title": "Better Authのサインアップをローカルで検証する：CAPTCHAトークンなしは400、不正値は403",
+        "author": "webdecoy",
+        "published_at": "2026-11-22T01:24:04+09:00",
+        "excerpt": "Better Authのメール登録にCAPTCHAを追加したとき、ウィジェットが表示されるだけでは、登録APIで検証されているか判断できません。ローカルで登録APIに直接リクエストを送り、トークンがない場合と、検証に失敗した場合の応答を確認しました。 検証環境は Better Auth 1.7.27、FCaptcha 1.51.1、Hono のローカルサーバーです。サンプルを公開しているWebDecoyの開発チームです。 検証を登録APIの前に置く ブラウザーはフォーム送信時に、新しいCAPTCHAトークンを x-captcha-response ヘッダーに入れます。Better AuthのCAPTCHAプラグインは、アカウントを作成する前に認証サーバーから Siteverify を呼び出します。この例では Turnstile 互換の FCaptcha をローカルで動かし、 siteVerifyURLOverride で検証先を指定します。 captcha ({ provider : ' cloudflare-turnstile ' , site"
+      },
+      {
         "id": "qiita:3ec1258375975a776623bf2f",
         "source": "qiita",
         "author_tags": [
@@ -63321,6 +63383,69 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:325880b360c162f50b1499b4",
+        "source": "medium",
+        "author_tags": [
+          "software-engineering",
+          "cybersecurity",
+          "technology",
+          "software-development",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@kankit570/how-an-open-source-ai-agent-found-and-exploited-a-zero-day-and-got-caught-by-a-missing-password-bfcc6c4d6d4f",
+        "title": "How an Open-Source AI Agent Found and Exploited a Zero-Day (And Got Caught by a Missing Password)",
+        "author": "Kumar Ankit",
+        "published_at": "2026-11-21T16:33:53+00:00",
+        "excerpt": "Amazon Threat Intelligence caught a threat actor using the open-source Cairn pentesting framework to compromise university servers running… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:73a3ab7e013d101d4141c7e0",
+        "source": "medium",
+        "author_tags": [
+          "wstg",
+          "cvss-calculator",
+          "portswigger",
+          "portswigger-lab",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@farid.farhan/belajar-web-exploitation-bersama-kelompok-farelzi-lewat-portswigger-yuk-3cf0e45d2221",
+        "title": "Belajar Web Exploitation Bersama Kelompok FARELZI lewat PortSwigger Yuk!",
+        "author": "Farid Farhan",
+        "published_at": "2026-11-21T16:33:26+00:00",
+        "excerpt": "PortSwigger Web Security Academy memang salah satu platform terbaik buat belajar web security secara gratis. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ddfbac00ccff287e517a4e78",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "security-operation-center",
+          "business",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@Abrar_bin.habib/what-is-a-managed-soc-the-security-gap-businesses-often-overlook-26de1dafeb9e",
+        "title": "What Is a Managed SOC? The Security Gap Businesses Often Overlook",
+        "author": "Abrar Bin Habib",
+        "published_at": "2026-11-21T16:19:27+00:00",
+        "excerpt": "Your business has firewalls, endpoint protection, and security monitoring tools. But are they being monitored continuously? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dd16f724035f76cba24dd51e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "technology",
+          "information-security",
+          "incident-response",
+          "artificial-intelligence"
+        ],
+        "url": "https://medium.com/@letvoip_13679/ai-hackers-are-here-what-changed-how-to-spot-an-ai-assisted-attack-and-how-to-respond-05a83d29711f",
+        "title": "AI Hackers Are Here: What Changed, How to Spot an AI-Assisted Attack, and How to Respond",
+        "author": "El Mostafa Ouchen",
+        "published_at": "2026-11-21T16:13:47+00:00",
+        "excerpt": "Humans still choose the target. AI agents now do more of the steps, and faster. A practical guide for IT teams, MSPs, schools and small… Continue reading on Medium »"
+      },
       {
         "id": "medium:b6f5333ab0b44708b947b923",
         "source": "medium",
