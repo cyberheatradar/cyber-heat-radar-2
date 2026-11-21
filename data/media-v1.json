@@ -1,9 +1,132 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T04:40:02.873332+00:00",
+  "source_snapshot_generated_at": "2026-11-21T05:40:03.345641+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:60860f367314e6fd07d26fcb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "開発"
+        ],
+        "url": "https://zenn.dev/ryusei_nomi/articles/31bd3149fa6be4",
+        "title": "AI との会話の質を上げよう！",
+        "author": "Ryusei Nomi 🐬",
+        "published_at": "2026-11-21T05:33:11.315000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8a2ecf9214a4e343af455f38",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Cloudflare",
+          "WebAssembly",
+          "Cloudflare Pages",
+          "Astro"
+        ],
+        "url": "https://zenn.dev/nakaniship/articles/736cc0ffe30daa",
+        "title": "サーバーにファイルを送らないWebツール集「GlowPunch」をAstro 6 + WASMで作り、英語化・UI刷新した話",
+        "author": "なかにし",
+        "published_at": "2026-11-21T05:31:50.052000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2cd81e3eccba21663bbf96c2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "iOS",
+          "Swift"
+        ],
+        "url": "https://zenn.dev/shinchi007/articles/8c07659d99c0f4",
+        "title": "コルーチンと同じはずが、別物だった。Swiftのasync/awaitとTaskにベテランが戸惑った話",
+        "author": "Shinchi",
+        "published_at": "2026-11-21T05:22:46.803000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8025b0e4f3724b573db0f5b8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "lint",
+          "Agent",
+          "Agent Skills"
+        ],
+        "url": "https://zenn.dev/ryodev/articles/52ec76c5d3d467",
+        "title": "Coding Agent が書いたコードコメントを全部削除した話",
+        "author": "Ryo | AI Agent / NLP",
+        "published_at": "2026-11-21T05:20:05.662000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e2868f008c29d356d273cec2",
+        "source": "zenn",
+        "author_tags": [
+          "TypeScript",
+          "VS Code",
+          "GitHub Actions",
+          "Security",
+          "Chrome拡張"
+        ],
+        "url": "https://zenn.dev/kd_yuta/articles/ses2026-vibeguard-adoption-points",
+        "title": "SES2026 で、AI 生成コードを採用する場面に診断を置く方式を発表しました（VibeGuard）",
+        "author": "近藤悠太",
+        "published_at": "2026-11-21T05:19:38+00:00",
+        "excerpt": "近藤悠太です。2026 年 9 月 11 日に、情報処理学会のソフトウェアエンジニアリングシンポジウム 2026（SES2026、慶應義塾大学 日吉キャンパス）で、一般論文「AI生成コードの採用判断点に基づくマルチコンテキストセキュリティ診断配置方式の提案とVibeGuardによる検証」を発表しました。セッションはコード解析・セキュリティ・テスト支援で、単著の論文です。 この記事では、論文の考え方と評価の結果を、論文に書いた限定とあわせて紹介します。数値は論文の時点（VibeGuard 0.3.3、ルール 71 件）のものです。 扱った問題 生成AI が出力したコードには、SQL の..."
+      },
+      {
+        "id": "zenn:dd77974c6bf9e7c68ab1c2a2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Meta",
+          "Claude",
+          "Gemini",
+          "Anthropic"
+        ],
+        "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261120",
+        "title": "Gemini 4 Neon登場、Fable級の力を半分以下の費用で",
+        "author": "菅原友和",
+        "published_at": "2026-11-21T05:18:58.645000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:22f332c9b0d509263d7e3bf2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "datascience",
+          "Claude",
+          "Web scraping"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/claude-strict-tool-use-data-api",
+        "title": "Claudeのstrict tool useをデータAPIで使う：呼び出しを正しく保つ2つの層",
+        "author": "EveryInfra",
+        "published_at": "2026-11-21T04:47:05+00:00",
+        "excerpt": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 Claude Opus 5.5、Sonnet 5.5、Fable 5.1では、tool_choiceがanyまたはtoolの場合に400エラーが返されます。ツール呼び出しを強制して固定形式のJSONを得ていたコードは、これらのモデルでは動かなくなります。Anthropicは、tool_choice: autoのままstrict: trueを追加するか、スキーマを構造化出力に移すよう推奨しています。2026年11月1日、私たちはEveryInfraのカタログからTrustpilot、App Store、Am..."
+      },
+      {
+        "id": "zenn:2c289e48170a817ff9a01812",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "アーキテクチャ",
+          "Security",
+          "ZKP",
+          "jpki"
+        ],
+        "url": "https://zenn.dev/naochan_t_souji/articles/76bc6555ab2cd3",
+        "title": "一律遮断から「期待ROIの最適化」へ。JPKI×ゼロ知識証明（ZKP）による適正価格流通アーキテクチャの設計とシミュレーション",
+        "author": "なおちゃんトイレそうじ",
+        "published_at": "2026-11-21T04:44:05+00:00",
+        "excerpt": "はじめに チケットや限定商品の二次流通における価格高騰や大量購入への対策は、長らく「不正な自動化プログラム（BOT）を検知してアクセスを遮断する」アプローチが主流でした。しかし、アクセス手段の分散化と自動化が高度化した現在、検知ロジックの強化だけでは「1箇所でも回避されると複製が容易な買い占め側」と「誤検知による正規利用者の機会損失を懸念しながらルール更新を続ける運営側」の対応コストが増大し続ける構造にあります。 本記事では、この構造的課題を解決するためのプロトタイプ設計として考案した「あんしん正価モデル（Anshin-Seika Model）」の技術アーキテクチャと経済検証シミュレ..."
+      },
       {
         "id": "zenn:483cef49a645f5477369b8f5",
         "source": "zenn",
@@ -375,6 +498,16 @@
         "author": "lumichy",
         "published_at": "2026-11-20T23:34:43.087000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:0a2407de072fe3e946537638",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/kentaro36/books/ai-agent-safety-design",
+        "title": "AIエージェントを安全に動かす設計入門",
+        "author": "SeaOtter 🦦(Kentaro Mori)",
+        "published_at": "2026-11-20T23:30:50+00:00",
+        "excerpt": "AIエージェントがだまされても被害を抑える設計を、鍵・境界・承認の3つから解説します。致命的な三要素（lethal trifecta）の数え方、資格情報を渡さない設計、検証と人の承認を通す変更の流れ、止まる設計と記憶・定期実行の扱いまでを、公開資料の事例と筆者の個人リポジトリで説明する入門書です。"
       },
       {
         "id": "zenn:5566f4e676b9415684dee1fb",
@@ -45366,6 +45499,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:60e73873aa564b20e62a419c",
+        "source": "qiita",
+        "author_tags": [
+          "Terraform",
+          "AWS",
+          "IAM",
+          "Security",
+          "IaC"
+        ],
+        "url": "https://qiita.com/ham-nao/items/7a5f471a5d727e1909fb",
+        "title": "【Terraform×AWS】IAMポリシーはaws_iam_policy_documentで書く：権限を絞る書き方と条件の付け方",
+        "author": "ham-nao",
+        "published_at": "2026-11-21T14:25:51+09:00",
+        "excerpt": "TerraformでIAMポリシーを書くとき、JSONをヒアドキュメントでそのまま貼り付けていないでしょうか。動きはしますが、リソースのARNを埋め込みにくく、条件を足していくうちに読みにくくなります。 この記事では、 aws_iam_policy_document データソースを使ってIAMポリシーを書く方法と、権限を必要最小限に絞るための書き方を紹介します。 ヒアドキュメントと比べたときの違い ヒアドキュメントで書くと、次のようになります。 resource \"aws_iam_policy\" \"app\" { name = \"myapp-s3-read\" policy = <<- EOT { \"Version\" : \"2012-10-17\" , \"Statement\" : [ { \"Effect\" : \"Allow\" , \"Action\" : [ \"s3:GetObject\" ], \"Resource\" : [ \"${aws_s3_bucket.assets.arn}/*\" ] } ] } EOT } 同じ内容を aws_iam_policy_"
+      },
+      {
+        "id": "qiita:ccb5cf63bb1dd7109ce870a2",
+        "source": "qiita",
+        "author_tags": [
+          "TryHackMe",
+          "BruteForceAttack",
+          "サイバーセキュリティ",
+          "Security",
+          "Ubuntu"
+        ],
+        "url": "https://qiita.com/tokotoko33ok/items/c4cab5a837835347e3e0",
+        "title": "TryHackMe「Brute It」で学ぶ、Web認証・SSH鍵管理・権限昇格から考えるブルーチームの防御",
+        "author": "tokotoko33ok",
+        "published_at": "2026-11-21T14:11:52+09:00",
+        "excerpt": "はじめに ブルーチームの視点を身につけるため、TryHackMeの「Brute It」で、公開サービスの調査、SSHログイン、rootへの権限昇格までを体験し、ルームを完了しました。 今回行ったのは攻撃手法を使った演習です。その結果を「防御側ならどこで止められるか」「どのログに注目するか」に結びつけて整理します。実際のログ監視・アラート運用や対策後の再検証は行っていないため、後半の防御策は考察として記載します。 図1：実習記録をもとに作成した説明図。スクリーンショットそのものではありません。 環境と今回のゴール 作業環境：VirtualBox上のKali Linux（ARM64） 接続：Kali内のOpenVPNからTryHackMeへ接続 対象：Brute ItのLab Machine 使用ツール：Nmap、Gobuster、Firefox、Burp Suite Community Edition、Hydra、John the Ripper、OpenSSH ゴール：SSH接続からrootへの切り替えまでを確認し、侵入・権限昇格・永続化の兆候を防"
+      },
+      {
         "id": "qiita:552b0bfcf14797ecfa331db6",
         "source": "qiita",
         "author_tags": [
@@ -62162,6 +62327,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b8dc93d9b0e09383d466bf5d",
+        "source": "medium",
+        "author_tags": [
+          "cybercrime",
+          "venture-capital",
+          "ransomware",
+          "threat-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://amitspitzer.medium.com/qilins-affiliates-keep-80-percent-of-every-ransom-naming-its-boss-won-t-change-that-math-57b0929b1fc6",
+        "title": "Qilin’s Affiliates Keep 80 Percent of Every Ransom. Naming Its Boss Won’t Change That Math.",
+        "author": "Amit Spitzer",
+        "published_at": "2026-11-21T05:19:22+00:00",
+        "excerpt": "Qilin is, per NCC Group’s latest threat intelligence, the most active ransomware affiliate program on earth right now, with at least 365… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:41d00ca71c56475adb9b4f3c",
+        "source": "medium",
+        "author_tags": [
+          "website-security",
+          "web-development",
+          "cybersecurity",
+          "wordpress",
+          "malware"
+        ],
+        "url": "https://medium.com/@nextgenfusion.devs/my-wordpress-site-got-hacked-how-to-clean-it-and-stop-it-happening-again-e6d825adb9ec",
+        "title": "My WordPress Site Got Hacked: How to Clean It and Stop It Happening Again",
+        "author": "NextGen Fusion",
+        "published_at": "2026-11-21T05:08:51+00:00",
+        "excerpt": "If your WordPress site has been hacked, act in this order: contain it, take a backup of the hacked state, change every password, find and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c4227fdf163fcfac9742b4d3",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "information-security",
+          "cisco",
+          "cybersecurity",
+          "network-security"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/cisco-expressway-cve-2026-76466-why-a-month-old-patch-still-was-not-enough-ce10f0b4fe45",
+        "title": "Cisco Expressway CVE-2026-76466: Why a Month-Old Patch Still Was Not Enough",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-21T04:57:53+00:00",
+        "excerpt": "Most organizations run a monthly patch cycle for servers and workstations. The appliances that carry video calls and remote access for the… Continue reading on Medium »"
+      },
       {
         "id": "medium:88058438acf5518464069b1a",
         "source": "medium",
