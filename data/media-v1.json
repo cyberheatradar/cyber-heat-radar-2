@@ -1,9 +1,97 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-21T05:40:03.345641+00:00",
+  "source_snapshot_generated_at": "2026-11-21T06:40:03.145168+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:c76b977a8f1f4eb85e82d7b8",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/baroqtech/articles/c74a6bd0c9c97d",
+        "title": "AIエージェントのクリック操作と、自分で読めるルールはまったく別物である",
+        "author": "BaroqTech",
+        "published_at": "2026-11-21T06:29:29.431000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5859988c83e5ba5612742c68",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Obsidian",
+          "llm",
+          "Gemini",
+          "Jev"
+        ],
+        "url": "https://zenn.dev/snaga/articles/2026-11-21-obsidian-smart-tagging-with-jev",
+        "title": "Obsidianのタグ付けを「System 1 (Jev) × System 2 (Gemini)」で自動化してみた",
+        "author": "snaga",
+        "published_at": "2026-11-21T06:19:05.016000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:12f7d5dd02c411ff6e613195",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm"
+        ],
+        "url": "https://zenn.dev/ikesita/articles/inside-llm-q4-q8-compare",
+        "title": "inside-llm入門 ― Q4とQ8、同じモデルの2つの量子化はどこで分かれるか。トークン単位で「中身」を見る",
+        "author": "moa",
+        "published_at": "2026-11-21T06:14:46.787000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bc36c4addf3a5a7c1e26deb9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "物理",
+          "宇宙",
+          "宇宙データセンター"
+        ],
+        "url": "https://zenn.dev/maru1228/articles/space-orbital-data-center",
+        "title": "軌道上データセンターとは｜宇宙でAIを計算する構想の現在地",
+        "author": "まる",
+        "published_at": "2026-11-21T06:13:50.212000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:79ffebbc1d7f96e7fe66b7d9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Qt",
+          "Model Context Protocol",
+          "Qt Creator"
+        ],
+        "url": "https://zenn.dev/sugitakenji/articles/d0b93e17f19f3f",
+        "title": "QtでAIエージェントを試すなら、直し方を知っている不具合から",
+        "author": "杉田研治",
+        "published_at": "2026-11-21T06:07:17.848000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:1bb8dfe3cce48ad8371d8f80",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "運用",
+          "Agent",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ai_shihan/articles/9a8341f57c18f3",
+        "title": "AIの席が、ログイン切れで10分止まった。止まっていた間の配送は、戻ってから1件だけ読めた",
+        "author": "ai_shihan",
+        "published_at": "2026-11-21T06:02:33.224000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:60860f367314e6fd07d26fcb",
         "source": "zenn",
@@ -45499,6 +45587,36 @@
     ],
     "qiita": [
       {
+        "id": "qiita:832e6b57e8aa117170aff637",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "AWS",
+          "AutoScaling",
+          "Ubuntu",
+          "Security"
+        ],
+        "url": "https://qiita.com/mizuho-yukinoshita/items/70158680be6672dd357a",
+        "title": "LB → ASG → EC2 構成でも PHP の脆弱性対応を 40 分で終わらせる",
+        "author": "mizuho-yukinoshita",
+        "published_at": "2026-11-21T15:25:31+09:00",
+        "excerpt": "はじめに 2026 年 11 月 19 日 23 時（日本時間）ごろ、PHP の開発チームが 8.2〜8.5 のセキュリティリリースを出した。GHSA（GitHub Security Advisory）は 17 件、うち critical は 7 件だった。GHSA の公開から 38 分後に、修正済みの PHP で本番をロードバランサー（LB）に戻した。 LB → Auto Scaling グループ（ASG）→ EC2 の構成で PHP を Ubuntu のパッケージで動かしているときに、公開当日のうちに対応を終える方法を書く。 PHP のバージョンによっては php.net のサポートが終わっていて、upstream の修正版が出ない Ubuntu の修正版も PPA の修正版も当日中には出なかった。そこで Ubuntu のソースに upstream の修正を移植し、自前でビルドした ASG 配下のインスタンスは個別に直さず、パッチ済みの AMI を作って全インスタンスを入れ替えた 想定する構成 この記事では、ASG を使う環境と使わない環境が"
+      },
+      {
+        "id": "qiita:ab30da662be112fb2362093d",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "情報漏洩",
+          "セキュリティ対策"
+        ],
+        "url": "https://qiita.com/atsushi_0000/items/a25b5bfc7b242ee39b77",
+        "title": "楽天証券の例でみる、情報漏洩から実害までの全体像と対策",
+        "author": "atsushi_0000",
+        "published_at": "2026-11-21T14:55:59+09:00",
+        "excerpt": "「個人情報漏洩のお知らせ」というメール、今年は何通受け取りましたか？ 2026年の秋は、漏洩のニュースが途切れませんでしたね。 9月以降、メール配信やマーケティングの委託先を経由して、数十の企業・自治体から漏洩 11月17日、楽天証券が最大約447万口座の漏洩の可能性を公表。住所や金融資産額まで含まれていた 旅行会社、生活雑貨のEC、スキマバイトのアプリ、政令指定都市でも漏洩が続いた 日経のページにもまとまっていますが、本当に毎日のように情報漏洩・セキュリティ事故が続いています。 連日のようにニュースでも報道されているのもあり、「 情報漏洩→ヤバい！！ 」と反射的に思ってしまう人も多いのではないかと思います。 例えば、楽天証券の漏洩で、カスタマーセンターに電話をしてIDの変更を要請するとかしてる人もいますが、本当にそれがやるべきことなのか？ 通知を読んで「ヤバい！」と思う。でも、何がどうヤバいのかは説明できない。パスワードを変えるべきか、何もしなくていいのか、判断の材料がない。そんな状態の人は多いと思います。 私は、この不安の正体は「知らないこと"
+      },
+      {
         "id": "qiita:60e73873aa564b20e62a419c",
         "source": "qiita",
         "author_tags": [
@@ -62327,6 +62445,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:7bf58c739933ab0d5e82f4f3",
+        "source": "medium",
+        "author_tags": [
+          "healthcare",
+          "open-source",
+          "vulnerability",
+          "cybersecurity",
+          "artificial-intelligence"
+        ],
+        "url": "https://rankmywp.medium.com/amazon-says-ai-agents-found-a-monai-label-zero-day-in-11-minutes-no-patched-release-yet-57f5773ed722",
+        "title": "Amazon says AI agents found a MONAI Label zero-day in 11 minutes: no patched release yet",
+        "author": "Calin V.",
+        "published_at": "2026-11-21T06:26:13+00:00",
+        "excerpt": "Amazon Threat Intelligence reported on Nov 20, 2026 that autonomous AI agents found a path traversal flaw in MONAI Label, an open-source… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a985d8faf5a484f9cc53d278",
+        "source": "medium",
+        "author_tags": [
+          "branding",
+          "cybersecurity",
+          "logo-design",
+          "data-protection"
+        ],
+        "url": "https://medium.com/@bakibillahgd/protec-ai-cybersecurity-logo-branding-ba396eb490ba",
+        "title": "Protec — AI Cybersecurity Logo & Branding",
+        "author": "Md Bakibillah",
+        "published_at": "2026-11-21T05:55:35+00:00",
+        "excerpt": "Protec is a branding concept for the AI-based cybersecurity industry, built around protection, intelligence, and smart automation. Continue reading on Medium »"
+      },
       {
         "id": "medium:b8dc93d9b0e09383d466bf5d",
         "source": "medium",
