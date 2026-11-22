@@ -1,9 +1,97 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T14:40:02.868659+00:00",
+  "source_snapshot_generated_at": "2026-11-22T15:40:06.266003+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:bd5ba4a760041bebe8a8d85d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "デザイン",
+          "publishing"
+        ],
+        "url": "https://zenn.dev/andytanlinks/articles/b631f156f08358",
+        "title": "Keep the Title Lockup, Change the Genre Art: Book Cover Series",
+        "author": "Andy Tan",
+        "published_at": "2026-11-22T15:34:58.538000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:51b41d0028738f79c9396f37",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/aizangyobu/articles/claude-code-subagent-chousa",
+        "title": "サブエージェントに調査を丸投げする型：Exploreと自作エージェントで本体の文脈を汚さない",
+        "author": "AI残業部",
+        "published_at": "2026-11-22T15:26:20.155000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ebc97ca3d129d1e50ed9dfab",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自動化",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/aizangyobu/articles/claude-code-hooks-jidouka",
+        "title": "Claude CodeのHooksでテストと整形を自動で回す：PostToolUseとPreToolUseの実践レシピ",
+        "author": "AI残業部",
+        "published_at": "2026-11-22T15:26:19.535000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a6771af54996902f3f255aa9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "FFmpeg",
+          "Playwright",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/viewsengineer/articles/ai-output-video-explainer",
+        "title": "AIに「説明して」と頼むと長文が返ってくる。説明を動画で作らせたら、中で起きていることをすぐ追えるようになった",
+        "author": "viewsengineer",
+        "published_at": "2026-11-22T15:26:05.487000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b58c25e8d72958a3e6282d6c",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "Network",
+          "VPN",
+          "Tailscale",
+          "WireGuard"
+        ],
+        "url": "https://zenn.dev/r_goto/articles/tailscale-vpn-for-business",
+        "title": "Tailscale 入門：繋ぎ忘れも公開ポートもない社内 VPN を 30 分で試す",
+        "author": "Ryuji Goto",
+        "published_at": "2026-11-22T15:21:06.250000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a897106d6a82fbc11f31ea0e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "デザイン",
+          "film"
+        ],
+        "url": "https://zenn.dev/andytanlinks/articles/dc7e0e19bd31cf",
+        "title": "When the Age Lines Disappear Against the Brief: Casting Portraits",
+        "author": "Andy Tan",
+        "published_at": "2026-11-22T15:01:54.166000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:7454f31a7285a2a8e43dfb1b",
         "source": "zenn",
@@ -47725,6 +47813,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:18b3b3e8d98a94420e3594c2",
+        "source": "qiita",
+        "author_tags": [
+          "Docker",
+          "AWS",
+          "Security",
+          "DockerHub"
+        ],
+        "url": "https://qiita.com/Veteran/items/65287d168610a43e2baa",
+        "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中（？）の求人サービス『ヴェテラン』で震えた「Docker Hubに置いたAWSキーは最短7.86秒で使われる」お話と学びについて共有します",
+        "author": "Veteran",
+        "published_at": "2026-11-23T00:28:16+09:00",
+        "excerpt": "さぁ皆さんこんにちは！ 今日は11月23日、 勤労感謝の日 ですが、IT業界って感謝されないこと多いですよね？ え？私だけ？ いずれにしても日々働く皆さん、本当にお疲れ様の日ですね。 私はターミナルを開いて障害対応中のポンコツですが... さて、前回は「Microsoft 365の大規模障害」のニュースを題材に、 『SaaSが止まったときに慌てないための備え＆障害対応でやってはいけない危険コマンド』 について書かせていただきました。 今回は ちょっと気になる共有しておくべきネタ をお伝えします。 それは、米ストーニーブルック大学の研究者がACM CCS 2026で発表した、 「Docker Hubに公開したイメージの中のAWSキーが、最短7.86秒で使われた」 という、聞いただけで胃とケツの穴がキュッ＊となる研究です。 今回はこれを題材に、 『Dockerイメージに鍵を入れてはいけない理由＆初心者がやりがちな危険なDockerfile』 について、わかりやすく、何より楽しくなるよう語っていきます！ このニュースを見て 「え、7.86秒って...J"
+      },
+      {
         "id": "qiita:3f4c8b16e7845588ebd688ba",
         "source": "qiita",
         "author_tags": [
@@ -65273,6 +65376,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:56b8e1d9dcf0d890c9abf9b4",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "artificial-intelligence",
+          "information-security",
+          "security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/codetodeploy/when-ai-joins-the-intrusion-chain-from-real-world-threat-intelligence-to-threat-informed-eb7b6823aebf",
+        "title": "When AI Joins the Intrusion Chain - From Real-World Threat Intelligence to Threat-Informed…",
+        "author": "SIMKRA",
+        "published_at": "2026-11-22T15:15:16+00:00",
+        "excerpt": "Mapping real world AI CTI to several frameworks and develope Threat Hunting Queries including Plantir ADS Continue reading on CodeToDeploy »"
+      },
+      {
+        "id": "medium:8d7e1a065868802ba58f92bb",
+        "source": "medium",
+        "author_tags": [
+          "software-development",
+          "javascript",
+          "vulnerability",
+          "cybersecurity",
+          "devops"
+        ],
+        "url": "https://medium.com/@ha8026084/java4shell-cve-2026-114938-how-to-check-whether-a-base64-bug-affects-your-jvm-d8a24e9a9765",
+        "title": "Java4Shell (CVE-2026–114938): How to Check Whether a Base64 Bug Affects Your JVM",
+        "author": "Hamza Arif",
+        "published_at": "2026-11-22T15:06:30+00:00",
+        "excerpt": "A critical OpenJDK flaw was disclosed on November 17. It needs specific hardware, so the first job is finding out whether you’re in scope. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1545de8abe3b1dcd9879973b",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "cybersecurity",
+          "risk-management",
+          "incident-response",
+          "information-security"
+        ],
+        "url": "https://medium.com/@saltinehacker/cybersecurity-breaks-in-the-handoffs-everyone-assumes-are-covered-25a556fda37f",
+        "title": "Cybersecurity Breaks in the Handoffs Everyone Assumes Are Covered",
+        "author": "Travis Ray Caverhill",
+        "published_at": "2026-11-22T15:01:02+00:00",
+        "excerpt": "Most cybersecurity failures do not begin with a missing control. Continue reading on Medium »"
+      },
       {
         "id": "medium:8100af93d02457916552af39",
         "source": "medium",
