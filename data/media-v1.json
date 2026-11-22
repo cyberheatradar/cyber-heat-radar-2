@@ -1,9 +1,102 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T00:40:03.057865+00:00",
+  "source_snapshot_generated_at": "2026-11-22T01:40:03.436249+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:d88307da3700fc296ce4ca56",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "llm",
+          "Ollama"
+        ],
+        "url": "https://zenn.dev/shinkaspool/articles/83e7b524e25a93",
+        "title": "その「繰り返し率」、測っている対象が違うかもしれない — ローカルLLMの思考と本文を分けて測る話",
+        "author": "Shinka Spool Labs",
+        "published_at": "2026-11-22T01:25:12.483000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cae62d2c5ff8d752e64ef3be",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "Security",
+          "privacy"
+        ],
+        "url": "https://zenn.dev/whocallmeuknote/articles/7bd091e67ef664",
+        "title": "この番号は誰？ 氏名・生年月日・郵便番号の確認を求める電話を、準識別子の組み合わせとして考える",
+        "author": "WhoCallMe UK Notes",
+        "published_at": "2026-11-22T01:20:31.354000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:15997c6969c7c0dcdbe9d06f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "LibreOffice",
+          "PowerPoint",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/kensho_ya/articles/claude-pptx-theme-font-table-empty-fix",
+        "title": "Claudeにpptxを作らせるとテーマを変えてもフォントが変わらない——直接指定を消す後処理と、PowerPointでだけ表が空になる罠",
+        "author": "検証屋",
+        "published_at": "2026-11-22T01:09:03.793000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:59ed47c25c493b7a9b4dba5e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "gamedev",
+          "Godot",
+          "GDScript",
+          "ChatGPT"
+        ],
+        "url": "https://zenn.dev/zivaengine/articles/028eab12186c4a",
+        "title": "ChatGPTがGodot 3のコードばかり出すのはなぜ？150件の回答で検証",
+        "author": "Ziva Engine",
+        "published_at": "2026-11-22T01:06:11.125000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8e864f8e716d376ec38192c9",
+        "source": "zenn",
+        "author_tags": [
+          "GitHub",
+          "Security",
+          "OAuth",
+          "CodeRabbit",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sk8jp/articles/3b26f6a3130bec",
+        "title": "CodeRabbit の再ログインで repo の権限を求められ、許可せずにレビューの回数を手元で数えることにした",
+        "author": "YAZ",
+        "published_at": "2026-11-22T01:00:05.142000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b989c33f1ea3845a377b54a6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "homelab",
+          "Claude Code",
+          "Muse",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/marvelousu/articles/muse-orchestration",
+        "title": "Muse と T3 Code で管理する、3台の自宅サーバで Claude / Codex を動かすオーケストレーション構成",
+        "author": "Tom",
+        "published_at": "2026-11-22T00:43:58.954000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:568dcf71b08b379b069f0032",
         "source": "zenn",
@@ -46541,6 +46634,19 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:9a4d345c30438615961f9486",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "PHP"
+        ],
+        "url": "https://qiita.com/kishimin/items/1339e1569739a24cac0b",
+        "title": "非エンジニアでも分かるようにPHP2Shellによるメンテナンスが起こったことについて説明できないか？",
+        "author": "kishimin",
+        "published_at": "2026-11-22T10:21:30+09:00",
+        "excerpt": "はじめに PHP2shellに関するニュースやメンテナンスのお知らせを見て、気になったことがありました。 こうしたニュースやお知らせは、エンジニアだけでなく、非エンジニアも目にします。 しかし、「PHP」や「脆弱性」といった専門用語を使っても、非エンジニアには何が起きているのか、なぜメンテナンスが必要になったのかが分からないのではないかと思いました。 また、理由が分からないことで、不安に思う人もいるのではないかと考えました。 自分としては、ニュースやメンテナンスのお知らせは、非エンジニアにも分かる言葉で書くべきだと思っています。 そこで今回は、PHP2shellによってメンテナンスが必要になった理由を、非エンジニアにも分かるように伝える方法を考えてみます。 PHP2shellとは？ IPA（情報処理推進機構）は、PHP2shellについて以下のように説明しています。 The PHP Groupが提供するPHPについて、メモリ不足(OOM)のエラー処理に起因する脆弱性（CVE-2026-109618）とリクエスト処理に関連する脆弱性（CVE-202"
+      },
       {
         "id": "qiita:e39ab936350cf098f295a6f9",
         "source": "qiita",
