@@ -1,9 +1,104 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T12:40:03.268578+00:00",
+  "source_snapshot_generated_at": "2026-11-22T13:40:04.412291+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:e751746aa7b530edd19e9698",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "振り返り",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/showgo/articles/claude-code-autopilot-zero-revenue",
+        "title": "個人の事業を Claude Code に自走させて、10 月の売上は ¥0 だった",
+        "author": "ShowGo",
+        "published_at": "2026-11-22T13:37:24.202000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:056208add9077b1bfde1dcc0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Obsidian",
+          "PKM",
+          "cookiecutter"
+        ],
+        "url": "https://zenn.dev/gorn/articles/6a80c33e4b7a85",
+        "title": "Obsidianの初期構築を0秒にするCookiecutterテンプレート「Neuevault」を作った",
+        "author": "gorn",
+        "published_at": "2026-11-22T13:37:04.136000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fccc62d9a7c26b183e9abda2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "OSS",
+          "Hono",
+          "Ghostty"
+        ],
+        "url": "https://zenn.dev/nishi0001/articles/ai-oss-pr-three-outcomes-ghostty-hono-kiri",
+        "title": "承認前にAIで書いたPRを出したら、30秒以内に自動で閉じられた。Ghostty・Hono・Kiriの入口ルールを比べた",
+        "author": "西原一輝",
+        "published_at": "2026-11-22T13:31:44.548000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eee8dfbe9de1a006524319ff",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AWS",
+          "Python",
+          "automation",
+          "Cognito"
+        ],
+        "url": "https://zenn.dev/df_blogger/articles/cognito-srp-api-without-playwright",
+        "title": "Playwright多重起動でメモリ2GB蒸発したのでCognito SRP認証をPython直叩きし0.2秒化した話",
+        "author": "D.F.Blogger",
+        "published_at": "2026-11-22T13:20:55.270000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7bc1286fd3237bbd9d0e884d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "OSS",
+          "Lean 4",
+          "mathlib"
+        ],
+        "url": "https://zenn.dev/dantarg/articles/rh-lean4-ai-porting-p0093-merge",
+        "title": "リーマン予想のLean 4移植に参加し、PRが採用されるまでの記録",
+        "author": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+        "published_at": "2026-11-22T13:18:22.266000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f3dac98d0f7ec1f54ba29ed5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "ドキュメント",
+          "開発チーム",
+          "情報管理"
+        ],
+        "url": "https://zenn.dev/techstudiolab/articles/select-effective-documents-for-ai-context",
+        "title": "AIに渡す資料は3種類に分ける。古い仕様に迷わせない選び方",
+        "author": "TechStudioLab",
+        "published_at": "2026-11-22T13:03:00.342000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:88be079232ff0b0e19e4ebfa",
         "source": "zenn",
@@ -47552,6 +47647,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:da76f58394578524635c0760",
+        "source": "qiita",
+        "author_tags": [
+          "GitHubActions",
+          "CICD",
+          "devops",
+          "テスト自動化",
+          "Security"
+        ],
+        "url": "https://qiita.com/y0us91/items/eaeddeaf369376cecda4",
+        "title": "GitHub ActionsでSmoke Testを単独実行できるようにする設計",
+        "author": "y0us91",
+        "published_at": "2026-11-22T21:40:48+09:00",
+        "excerpt": "既存のStaging環境に対して、Smoke Testだけを実行したい。 そんなとき、GitHub ActionsにDeployからSmokeまでをまとめたWorkflowが用意されていることがあります。 Release時には便利な構成です。 ただ、今回は既に稼働している環境の状態を確認したいだけなので、Deployは必要ありません。 この場合、既存のWorkflowをそのまま使うのではなく、Smokeだけを実行できる経路があるか確認します。 今回は、GitHub Actionsの依存関係や権限を整理しながら、Smokeを単独実行できる構成を考えてみます。 DeployとSmokeが一つのWorkflowになっている 例えば、次のようなWorkflowがあったとします。 # .github/workflows/release.yml name : Release Verification on : workflow_dispatch : jobs : deploy : uses : ./.github/workflows/deploy.yml s"
+      },
+      {
         "id": "qiita:3f6866f8d523a8d2587b7c8e",
         "source": "qiita",
         "author_tags": [
@@ -65069,6 +65180,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b3ef7d11d88ee544587281d5",
+        "source": "medium",
+        "author_tags": [
+          "ssrf",
+          "tryhackme-walkthrough",
+          "pentesting",
+          "tryhackme",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@devkumaoni9/ssrf-tryhackme-thm-d46a40588748",
+        "title": "SSRF | TryHackMe (THM)",
+        "author": "Dev",
+        "published_at": "2026-11-22T13:08:08+00:00",
+        "excerpt": "room link: https://tryhackme.com/room/ssrfhr Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7f38fe5e07310dc47fdd1390",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "ssrf",
+          "cybersecurity",
+          "ctf",
+          "ctf-writeup"
+        ],
+        "url": "https://medium.com/@a.ahazimin/quay-gate-writeup-ihack-2026-44fdc68600f8",
+        "title": "Quay Gate Writeup | iHack 2026",
+        "author": "manhazz",
+        "published_at": "2026-11-22T13:04:34+00:00",
+        "excerpt": "Phase 2, Jeopardy Defense Category: Web Difficulty: Hard Continue reading on Medium »"
+      },
       {
         "id": "medium:677fee580108cc137c25f628",
         "source": "medium",
