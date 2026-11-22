@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-22T21:07:57.032273+00:00",
-  "as_of": "2026-11-22T21:00:00+00:00",
+  "generated_at": "2026-11-22T22:08:02.579563+00:00",
+  "as_of": "2026-11-22T22:00:00+00:00",
   "catalog_count": 26016,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -54,7 +54,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-23T00:52:10.741840+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-c75a4d0a4b580d8c62083be4",
       "primary_category": "incident",
       "public_article_id": "url:c75a4d0a4b580d8c62083be4",
@@ -356,7 +356,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-23T00:52:10.741840+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-c75a4d0a4b580d8c62083be4",
       "primary_category": "incident",
       "public_article_id": "url:c75a4d0a4b580d8c62083be4",
@@ -772,6 +772,45 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
+      "cves": [
+        "CVE-2026-113425",
+        "CVE-2026-118899",
+        "CVE-2026-120967",
+        "CVE-2026-120993",
+        "CVE-2026-121810",
+        "CVE-2026-123007",
+        "CVE-2026-123633",
+        "CVE-2026-123634",
+        "CVE-2026-123640",
+        "CVE-2026-125283"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T06:53:12.334498+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-128f15f1c8b36bbb8c13e7b1",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:128f15f1c8b36bbb8c13e7b1",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T17:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Fortinet PSIRT Advisories",
+      "summary": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6.CVE-2026-123634 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.0.0 - 1.30.6.CVE-2026-113425 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 0.5.33 - 1.30.6.CVE-2026-118899 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.13.0 - 1.30.6.CVE-2026-120967 (medium)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.5 - 1.30.6.CVE-2026-120993 (medium)This vulnerability affects NGINX OSS versions 1.31.4.CVE-2026-125283 (medium)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 0.9.6 - 1.30.6.CVE-2026-123640 (medium)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.15.2 - 1.30.6.NGINX OSS versions 1.30.7 stable; 1.31.9 mainline are fixing the issues. None of Fortinet products use NGINX Plus. Revised on 2026-11-21 00:00:00",
+      "summary_excerpt": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6.CVE-2026-123634 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.0.0 - 1.30.6.CVE-2026-113425 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 0.5.33 - 1.30.6.CVE-2026-118899 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.",
+      "threat_actors": [],
+      "title": "NGINX vulnerabilities"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
       "cves": [
         "CVE-2026-123890"
@@ -799,42 +838,6 @@
       "summary_excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
       "threat_actors": [],
       "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter/",
-      "cves": [
-        "CVE-2026-123890",
-        "CVE-2026-59309"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T06:53:21.028597+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-89d20775330718208801fa75",
-      "primary_category": "threat_report",
-      "public_article_id": "url:89d20775330718208801fa75",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cve",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T06:06:24+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user. Mandiant privately reported the issue to Broadcom. Also, Mandiant/Google Threat Intelligence confirmed in-the-wild exploitation of CVE-2026-123890 by Chinese state-linked threat actor ARMORY CASTLE as early as September 2026. CVE-2026-123890 is distinct from the vCenter authentication bypass vulnerability CVE-2026-59309 that Broadcom addressed earlier in 2026. The vendor FAQ states that all vCenter systems below the versions fixed by VMSA-2026-0009 require the new update, including systems that already received the earlier fix. Broadcom characterizes the vCenter update as an emergency change requiring prompt action. Mitigation guidance Vendor-provided updates are available for CVE-2026-123890. Broadcom lists no workaround, and the patches cannot be applied using vCenter Quick Patch. Organizations should prioritize upgrading vCenter on an emergency basis, outside of normal patch cycles, using the standard update mechanism for their deployment. VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation / vSphere Foundation 9.1.x.x 9.1.1.0200 VMware Cloud Foundation / vSphere Foundation 9.0.x.x 9.0.2.0200 VMware vCenter Server 8.0 8.0 U3m VMware vCenter Server 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 8.0 U3m — KB463116 VMware Telco Cloud Infrastructure 3.0 8.0 U3m — KB463116 The fixes are cumulative. The vCenter 8.0 U3m and 9.0.2.0200 updates introduce a “Back-in-Time” restriction that blocks upgrades to VMware Cloud Foundation 9.1.1 ; Broadcom advises customers in an active upgrade to review the vendor FAQ and interoperability matrix. Updating vCenter temporarily makes its management interfaces unavailable, but Broadcom states that running virtual machine and container workloads continue to operate. For the latest affected-version and mitigation guidance, please refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-123890 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the Nov 20, 2026 content release. Updates November 19, 2026 : Initial publication.",
-      "summary_excerpt": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user.",
-      "threat_actors": [],
-      "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter"
     },
     {
       "ai_relevance": "none",
@@ -990,7 +993,7 @@
     "【LATEST #1】Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
     "【HOTTEST #1 / Heat 65】Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
     "【LATEST #2】Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-    "【HOTTEST #2 / Heat 65】Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+    "【HOTTEST #2 / Heat 58.5】Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
     "【LATEST #3】タワーレコード 1100万件情報流出",
     "【HOTTEST #3 / Heat 58.5】タワーレコード 1100万件情報流出",
     "【LATEST #4】Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
@@ -1000,19 +1003,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-19T21:00:00+00:00",
-    "last_as_of": "2026-11-22T21:00:00+00:00",
+    "first_as_of": "2026-11-19T22:00:00+00:00",
+    "last_as_of": "2026-11-22T22:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-22T21:00:00+00:00",
-  "heat_as_of": "2026-11-22T21:00:00+00:00",
+  "news_as_of": "2026-11-22T22:00:00+00:00",
+  "heat_as_of": "2026-11-22T22:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26016,
-  "last_published_at": "2026-11-23T06:08:08.289484+09:00",
-  "publication_slot_jst": "2026-11-23T06:00:00+09:00"
+  "last_published_at": "2026-11-23T07:08:13.891436+09:00",
+  "publication_slot_jst": "2026-11-23T07:00:00+09:00"
 }
