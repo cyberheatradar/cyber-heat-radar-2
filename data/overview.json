@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-22T07:12:11.313554+00:00",
-  "as_of": "2026-11-22T07:00:00+00:00",
+  "generated_at": "2026-11-22T08:07:40.472191+00:00",
+  "as_of": "2026-11-22T08:00:00+00:00",
   "catalog_count": 26013,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -632,16 +632,16 @@
   "persistent_hot": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
+      "canonical_url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
       "cves": [
-        "CVE-2026-115560"
+        "CVE-2026-123890"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-19T16:52:03.052189+09:00",
+      "first_seen_at": "2026-11-20T16:24:11.161676+09:00",
       "heat_score": 54.0,
-      "permalink_id": "article-url-1999227482dc4822f8c9b65f",
+      "permalink_id": "article-url-209921156d987de0e7b75345",
       "primary_category": "vulnerability",
-      "public_article_id": "url:1999227482dc4822f8c9b65f",
+      "public_article_id": "url:209921156d987de0e7b75345",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -649,16 +649,16 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-19T16:45:17+09:00",
+      "published_at": "2026-11-20T15:33:31+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek .",
-      "summary_excerpt": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek .",
+      "source_name": "The Hacker News",
+      "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+      "summary_excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
       "threat_actors": [],
-      "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw"
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data"
     },
     {
       "ai_relevance": "none",
@@ -720,36 +720,6 @@
       "summary_excerpt": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared fir",
       "threat_actors": [],
       "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044393.html",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T20:24:22.078738+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-46d6230b01b696cb04273411",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:46d6230b01b696cb04273411",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-19T16:12:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "OpenJDKには、次の脆弱性が存在します。 ヒープベースのバッファオーバーフローの脆弱性（CWE-122） - CVE-2026-114938",
-      "summary_excerpt": "OpenJDKには、次の脆弱性が存在します。 ヒープベースのバッファオーバーフローの脆弱性（CWE-122） - CVE-2026-114938",
-      "threat_actors": [],
-      "title": "OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性"
     },
     {
       "ai_relevance": "none",
@@ -942,6 +912,34 @@
       "summary_excerpt": null,
       "threat_actors": [],
       "title": "Java4Shell: A Closer Look and Patch Analysis (CVE-2026-114938)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-19T20:24:47.449581+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-06ebeabb5e45d05de5cfccfa",
+      "primary_category": "incident",
+      "public_article_id": "url:06ebeabb5e45d05de5cfccfa",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-19T20:01:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Register Security",
+      "summary": "Around 265,000 customers potentially affected as London transport operator grapples with another security breach",
+      "summary_excerpt": "Around 265,000 customers potentially affected as London transport operator grapples with another security breach",
+      "threat_actors": [],
+      "title": "TfL takes Oyster photocard website offline after attackers compromise customer accounts"
     }
   ],
   "timeseries_status": {
@@ -975,19 +973,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-19T07:00:00+00:00",
-    "last_as_of": "2026-11-22T07:00:00+00:00",
+    "first_as_of": "2026-11-19T08:00:00+00:00",
+    "last_as_of": "2026-11-22T08:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-22T07:00:00+00:00",
-  "heat_as_of": "2026-11-22T07:00:00+00:00",
+  "news_as_of": "2026-11-22T08:00:00+00:00",
+  "heat_as_of": "2026-11-22T08:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26013,
-  "last_published_at": "2026-11-22T16:12:23.835838+09:00",
-  "publication_slot_jst": "2026-11-22T16:00:00+09:00"
+  "last_published_at": "2026-11-22T17:07:52.627161+09:00",
+  "publication_slot_jst": "2026-11-22T17:00:00+09:00"
 }
