@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T19:40:02.687165+00:00",
+  "source_snapshot_generated_at": "2026-11-22T20:40:06.321754+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:5263b7436608703c444ad76a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "マルチテナント",
+          "llm"
+        ],
+        "url": "https://zenn.dev/hach/articles/chat-agent-outbound-destination-validation-design",
+        "title": "常駐型AIチャットエージェントが「送信先を取り違えない」ようにする出力先検証設計",
+        "author": "HACH",
+        "published_at": "2026-11-22T20:11:58.909000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:18f93a7a3c22368510a910a6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "UX",
+          "kitty",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/hummer/articles/claude-kitty-omoiyari",
+        "title": "AIオーケストレーションに足りないのは、思いやりだった",
+        "author": "Yamamoto Yuji / はまあ",
+        "published_at": "2026-11-22T20:05:05.231000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4e02a6e7f6883b9bcfaa6a4d",
         "source": "zenn",
@@ -47870,6 +47901,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e6c1846d23e25174364c9bf7",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Loguru",
+          "Security",
+          "apiキー"
+        ],
+        "url": "https://qiita.com/supportapp3/items/97b75e5b164c8e15cb0e",
+        "title": "loguru の logger.exception で API キーはログに出るのか？：既定の diagnose=True で、引数・headers・os.environ の中身まで出た（loguru 0.8.0で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-23T05:16:48+09:00",
+        "excerpt": "先に結論 loguru の logger.exception() や @logger.catch は、 既定のままだと例外が起きた行の変数の値をトレースバックに書き出します 。手元の loguru 0.8.0（Python 3.13.5）で、ダミーの API キーを使って試したところ、次のものがそのまま出ました。 関数の引数に渡した API キー {\"Authorization\": \"Bearer ...\"} のヘッダの辞書 行に os.environ[\"MY_API_KEY\"] と書いていた場合は、 os.environ 全体の中身 止め方は logger.add(..., diagnose=False) か、環境変数 LOGURU_DIAGNOSE=NO です。どちらでも、同じスクリプトの出力に API キーは0行になりました。 loguru 公式の API リファレンスでも、 diagnose は「デバッグしやすいように変数の値を表示する」もので、「本番では機密データの漏えいを避けるため False にすべき」と書かれています。 試したコー"
+      },
+      {
+        "id": "qiita:f2c46142aae635b04ebb7d76",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "Terraform",
+          "IAMIdentityCenter",
+          "trivy",
+          "Security"
+        ],
+        "url": "https://qiita.com/1716964609/items/435b74469914bb0d2a57",
+        "title": "個人AWSのroot運用をやめた夜 — SSO移行とTrivy初回スキャン25件の判断",
+        "author": "1716964609",
+        "published_at": "2026-11-23T04:49:13+09:00",
+        "excerpt": "個人AWSのroot運用をやめた夜 — SSO移行とTrivy初回スキャン25件の判断 結論 個人で運用するAWS環境の日常認証を、rootの aws login からIAM Identity Center（SSO＋MFA）へ移行した。Terraformの4環境でPlanを実行し、すべて差分ゼロを確認できた。 同じ夜にTrivyをCIへ導入し、初回スキャンで25件を検出した。ただし、すべてを修正するのではなく、実際の構成と運用要件から対応方針を決めた。 1. なぜroot運用をやめたのか 私が個人開発しているGMS v5は、AWS上で稼働する翻訳SaaSだ。EC2、CloudFront、Cognito、S3などをTerraformで管理している。 それまで、普段のAWS CLI操作にはrootの aws login を使っていた。 default プロファイルに加え、Terraform用のプロファイルもroot認証に依存していた。 動作自体に問題はなかった。しかし、rootには根本的な問題がある。 rootの権限はIAMポリシーで必要な範囲に絞れ"
+      },
+      {
         "id": "qiita:bfe44f566f0d3dec012a58c8",
         "source": "qiita",
         "author_tags": [
@@ -65462,6 +65524,68 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f0341fb9359d3eceebc5a6ea",
+        "source": "medium",
+        "author_tags": [
+          "online-security",
+          "cybersecurity",
+          "artificial-intelligence",
+          "ai-technology",
+          "data-protection"
+        ],
+        "url": "https://medium.com/@muhammadumair43244/what-are-phishing-attacks-and-how-can-you-prevent-them-2eec53c3b54e",
+        "title": "What Are Phishing Attacks and How Can You Prevent Them?",
+        "author": "Muhammadumair",
+        "published_at": "2026-11-22T20:19:41+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4374bfbc7c1e49581571a63f",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ecommerce",
+          "payments",
+          "credit-cards",
+          "data-breach"
+        ],
+        "url": "https://medium.com/@mark.steier99/cleverbridge-breach-hackers-copied-card-numbers-and-cvv-codes-6ef750564a39",
+        "title": "Cleverbridge breach: hackers copied card numbers and CVV codes",
+        "author": "Mark Steier",
+        "published_at": "2026-11-22T20:18:44+00:00",
+        "excerpt": "The German payment provider behind software checkouts for Red Hat, SUSE and Sony detected the attack on November 4. Customers only learned… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2f35b858639c62ce8d3599b0",
+        "source": "medium",
+        "author_tags": [
+          "microsoft",
+          "identity",
+          "cybersecurity"
+        ],
+        "url": "https://lalatenduswain.medium.com/attackers-exploit-microsoft-entra-connect-health-flaw-to-access-tenant-data-9a547964df33",
+        "title": "Attackers Exploit Microsoft Entra Connect Health Flaw To Access Tenant Data",
+        "author": "Lalatendu Keshari Swain",
+        "published_at": "2026-11-22T20:16:39+00:00",
+        "excerpt": "What the four-month identity monitoring API vulnerability exposed and how administrators should respond. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b5a18a2b0686cea79e3f8ed9",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "security-research",
+          "artificial-intelligence",
+          "penetration-testing",
+          "agentic-ai"
+        ],
+        "url": "https://medium.com/@tonydrumright5/building-pentesting-framework-recreating-the-governed-side-of-agentic-security-testing-21eaf7825a85",
+        "title": "Building Pentesting Framework: Recreating the Governed Side of Agentic Security Testing",
+        "author": "Tonydrumright",
+        "published_at": "2026-11-22T20:16:36+00:00",
+        "excerpt": "Independent research notice: Pentesting Framework is an original defensive research project. It is not Autumn-27/ARTEX, does not contain… Continue reading on Medium »"
+      },
       {
         "id": "medium:0fceb8410908b48237bc8899",
         "source": "medium",
