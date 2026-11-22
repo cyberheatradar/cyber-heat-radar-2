@@ -1,9 +1,101 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T01:40:03.436249+00:00",
+  "source_snapshot_generated_at": "2026-11-22T02:40:02.896990+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:0477725f863dba2ba1c6041c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "G検定"
+        ],
+        "url": "https://zenn.dev/tkrndisk/articles/g-kentei-alignment-problem-kids",
+        "title": "【小学5年生でもわかる】アライメント問題ってなに？",
+        "author": "まっすん",
+        "published_at": "2026-11-22T02:31:34.178000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7f3c4d6f47ae9c11449e0b3f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "自動化",
+          "𝕏"
+        ],
+        "url": "https://zenn.dev/infra_chaya/articles/x-api-browser-blocking",
+        "title": "AIブラウザでXに投稿できない理由 ― 公式API＋承認制に落ち着いた話",
+        "author": "インフラ茶屋",
+        "published_at": "2026-11-22T02:12:10.646000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:18694e44e8884cb4493f38b2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Security",
+          "architecture",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ai_nexus_jp/articles/ai-agent-sandbox-403-skill-design",
+        "title": "なぜAIエージェントに source .venv を書かせてはいけないのか？サンドボックス403とAI審査の裏側",
+        "author": "AI Nexus",
+        "published_at": "2026-11-22T02:11:56.755000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e0d9ea7ac2ca5de191225a57",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "CLI",
+          "OSS",
+          "Ollama"
+        ],
+        "url": "https://zenn.dev/yuuichie/articles/aeaf3b0ed2db17",
+        "title": "モデルの賢さ任せにしないOSSコーディングエージェント「MomongaCode」を公開しました（メモリ・トークン最適化・Z3/TLA+）",
+        "author": "Yuuichi Eguchi",
+        "published_at": "2026-11-22T01:52:51.097000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2e67784af81bc1097200c072",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ドキュメント",
+          "生産性",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/orectic/articles/claude-code-session-handover-md",
+        "title": "Claude Code で会話をまたいでも忘れない引き継ぎの書き方｜HANDOVER は途中のものだけ・状態は1か所",
+        "author": "今井政和",
+        "published_at": "2026-11-22T01:43:01.543000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a82d9be90f5d87e84b5f2889",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ソフトウェア開発",
+          "Kiro",
+          "仕様駆動開発"
+        ],
+        "url": "https://zenn.dev/taiki_dev/articles/who-decides-the-spec-in-ai-development",
+        "title": "AIに「商品レビューを付けて」と頼んだら、誰が仕様を決めたことになるのか",
+        "author": "taiki",
+        "published_at": "2026-11-22T01:41:16.968000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:d88307da3700fc296ce4ca56",
         "source": "zenn",
@@ -46635,6 +46727,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a9eda0317ee188ae2d69848b",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "MFA",
+          "認証",
+          "2FA",
+          "セキュリティ強化"
+        ],
+        "url": "https://qiita.com/suzukengo/items/11c2896ef08271adf3ce",
+        "title": "今からでも遅くない初学者向け、MFAについて",
+        "author": "suzukengo",
+        "published_at": "2026-11-22T11:38:55+09:00",
+        "excerpt": "要旨 「パスワードがあれば大丈夫」——そう思っているあなたに、まず数字を見てほしいです。 Microsoftのレポートによれば、同社は 毎日約6億件のID攻撃を観測 しており、そのうち99%以上はパスワードベースの攻撃です[1]。そしてVerizon 2025 DBIRでは、 2025年の全侵害の22%が認証情報の窃取から始まっている と報告しています[2]。 同じMicrosoftのデータには、希望の光もあります。 MFAを有効にするだけで、アカウント侵害リスクが99.22%低下する というAzure ADの測定結果があります[3]。さらに、侵害されたアカウントの 99.9%以上がMFAを導入していなかった という事実もあります[1]。 MFA（Multi-Factor Authentication：多要素認証）は、現代における「認証のシートベルト」です。付けていなかったからといって毎回事故が起きるわけではありませんが、事故が起きたときの被害を劇的に下げる。しかし「MFAを付ければ完全に安全」でもない——種類によって防げる攻撃が大きく異なります"
+      },
+      {
+        "id": "qiita:6c13dbb674a55f1007478212",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Antigravity",
+          "Python",
+          "AIエージェント",
+          "Security"
+        ],
+        "url": "https://qiita.com/ai-nexus/items/befebdc57aeb23667f45",
+        "title": "【Claude Code / Antigravity】外部通信が「HTTP 403」や「pre-tool hook ポリシー違反」で止まる原因とSKILL.md記述の4原則",
+        "author": "ai-nexus",
+        "published_at": "2026-11-22T11:12:06+09:00",
+        "excerpt": "はじめに Claude Code や Antigravity、Cursor 等で外部通信を含むPythonスクリプトやスキル（ SKILL.md ）を実行すると、以下のエラーで止まることがあります。 urllib.error.URLError （ Tunnel connection failed: 403 Forbidden ）や HTTP Error 403 Request to GET /... on <domain> not allowed by policy This tool call was blocked due to potential violation of a security policy. （実行前審査によるブロック） 本記事では、このエラーが「相手サーバー（WAF等）の拒否」ではなく「 エージェント内蔵のローカルプロキシと実行前AI審査機構の連鎖 」であるかを10秒で見分ける診断法を解説します。あわせて、最小特権と自動承認（Prefixマッチ）を安全に両立させる SKILL.md 記述の4原則（Before / Aft"
+      },
+      {
         "id": "qiita:9a4d345c30438615961f9486",
         "source": "qiita",
         "author_tags": [
@@ -63858,6 +63982,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a77f5260a40a2e79cf693ef9",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "cybersecurity",
+          "penetration-testing",
+          "infosec",
+          "token"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/jwt-attacks-explained-how-json-web-tokens-get-forged-and-how-to-secure-them-b47eeb5ac00d",
+        "title": "JWT Attacks Explained: How JSON Web Tokens Get Forged, and How to Secure Them",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-11-22T02:18:50+00:00",
+        "excerpt": "A JWT is only as trustworthy as its signature check — and that check is wrong more often than you’d think. Here are the ways JWTs get… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:69449fb07be3d96fa775f78c",
+        "source": "medium",
+        "author_tags": [
+          "python-programming",
+          "cybersecurity",
+          "ethical-hacking",
+          "python-cyber-security",
+          "python"
+        ],
+        "url": "https://medium.com/@jje.uribe/python-for-cybersecurity-understanding-variables-725611cd1f48",
+        "title": "Python for Cybersecurity — Understanding Variables",
+        "author": "404Room",
+        "published_at": "2026-11-22T02:18:05+00:00",
+        "excerpt": "A variable is simply a named place where you store a piece of information so you can use it later. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6c8a1c6509eec83498a2e3e3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "technology-outages",
+          "business-continuity",
+          "cloud-security",
+          "risk-management"
+        ],
+        "url": "https://svcfacilitators.medium.com/november-2026-tech-outages-why-business-resilience-matters-more-than-ever-35964bd1c646",
+        "title": "November 2026 Tech Outages: Why Business Resilience Matters More Than Ever",
+        "author": "Kuruntha Smarket",
+        "published_at": "2026-11-22T01:44:30+00:00",
+        "excerpt": "A business does not need to suffer a cyberattack to experience a serious technology disruption. Continue reading on Medium »"
+      },
       {
         "id": "medium:051b6e03bd5643b2765dcaf0",
         "source": "medium",
