@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T02:40:02.896990+00:00",
+  "source_snapshot_generated_at": "2026-11-22T03:40:02.867697+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:1b2824eafbe0b81f98485e05",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Unity",
+          "ゲーム開発",
+          "Test",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/shoyomayabot/articles/ai-game-dev-not-fun-lessons",
+        "title": "AIエージェント総出でホラーゲームを作ったら「全然面白くなかった」：15分の試遊で分かったAIレビューの死角",
+        "author": "mayabot",
+        "published_at": "2026-11-22T03:36:39.687000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:91ba5056008a9288f6dfaaa1",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "3D プリンター",
+          "FreeCAD",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-09-delay-investigation",
+        "title": "なぜ開発に7時間半以上かかったのか？AIに自分の「遅延原因」を徹底調査させた話",
+        "author": "Maki",
+        "published_at": "2026-11-22T03:10:56.792000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9de1736bb07ada951f384c6b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Observability",
+          "llm",
+          "Agent",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/linga17/articles/bf2e1dca62fa5d",
+        "title": "判断ログの仕様（1枚）— エージェントの「何をしたか」ではなく「なぜそう決めたか」を残す",
+        "author": "linga17",
+        "published_at": "2026-11-22T03:06:47.620000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4cb1e6ce2bec5aff448e2a38",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Rust",
+          "Test",
+          "型安全",
+          "形式検証"
+        ],
+        "url": "https://zenn.dev/karamage/articles/bf57c47b9e9b9b",
+        "title": "リーマン予想証明で話題のLeanは、我々エンジニアに何をもたらすのか",
+        "author": "karamage",
+        "published_at": "2026-11-22T02:55:14.853000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:0477725f863dba2ba1c6041c",
         "source": "zenn",
@@ -47724,6 +47788,22 @@
         "author": "naoyukiyamax",
         "published_at": "2026-11-20T14:25:42+09:00",
         "excerpt": "大きな情報漏えいのニュースが出るたびに、「やっぱりパスワードは紙にメモするのが最高」という意見を見かけます。 気持ちは分かりますが、対策を考えるときは「何から守るのか」を分けたほうがいい、という整理メモです。 紙のメモが守れる範囲 紙のメモが有効なのは、自分の管理の甘さに対してです。 ネットワーク越しに盗まれない 管理ツールの障害や侵害の影響を受けない 一方で、預けた先のサーバー（今回の楽天証券の件ではテスト環境）から情報が漏れる事故には、自分の机の引き出しは無力です。漏れる場所が違うので、守る場所も違います。 サーバー側の漏えいに効くのは「組み合わせ」 ログインIDが漏れた前提では、パスワード一本の認証は弱くなります。そこで効いてくるのが、要素の組み合わせです。 知識（パスワード、PIN） 所有（端末、ワンタイムパスワード） 生体（指紋、顔） パスキー（FIDO）がサーバー漏えいに比較的強いのは、秘密鍵が端末側にあり、サーバーには公開鍵しか置かれない構造だからです。生体認証も、指紋や顔のデータそのものがサービス側のサーバーに保存されるわけではな"
+      },
+      {
+        "id": "qiita:2963e18ef7f7b9906ee5f201",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "初心者",
+          "WSL2",
+          "インフラ",
+          "Security"
+        ],
+        "url": "https://qiita.com/FPT_Oshima/items/5731201556caf926767e",
+        "title": "【Day 2】検証 PC か、オンプレか、クラウドか。Claude Code を「どこで動かすか」を最初に決める",
+        "author": "FPT_Oshima",
+        "published_at": "2026-11-20T14:18:54+09:00",
+        "excerpt": "連載「インフラ一筋23年、実務でコードを書いたことがない私が Claude Code で社内業務を“自動運転”にするまで」第2回 〜 show run は指が覚えているのに、Linux と Python には苦手意識しかないエンジニアの40日間 〜 インフラ屋は「どこに置くか」から考える 新しいシステムを入れるとき、最初に考えるのはアプリの機能ではなく、「 どこに置くか 」ではないでしょうか。 Claude Code も同じです。Claude Code は、 動いているマシンの上でファイルを読み書きし、コマンドを実行します 。どのマシンで動かすかによって、エージェントが触れるファイルの範囲、通信できる先、24時間動かせるかどうか、誰が管理するかが決まります。 とはいえ、会社の業務用 PC に自分で Linux や Claude Code を入れられる人は、ほとんどいないはずです。今回は、次のような会社を前提に考えます。 社内は Windows が中心で、文書は SharePoint や OneDrive にある Linux には、正直まだ苦手意識"
       },
       {
         "id": "qiita:1bbde746807ea14177bca131",
