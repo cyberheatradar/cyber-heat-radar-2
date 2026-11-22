@@ -1,9 +1,87 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T13:40:04.412291+00:00",
+  "source_snapshot_generated_at": "2026-11-22T14:40:02.868659+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:7454f31a7285a2a8e43dfb1b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Hugging Face",
+          "llm",
+          "speech"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-054-haru4b-full-duplex-cpu-vs-gpu",
+        "title": "全二重音声対話モデルHaru-4BをCPUとGPUで動かしたら、GPUでは1フレーム133msを切ったが返事は毎回違った",
+        "author": "matsu",
+        "published_at": "2026-11-22T14:37:57.595000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7670aa21eddc74c923f6883a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Go",
+          "Test",
+          "コードレビュー",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kinuuu/articles/ai-coding-criteria-evidence-explanation",
+        "title": "AIに実装を任せても、理解と判断は手放さない：基準・証拠・説明をGoのAPIで試した記録",
+        "author": "ki",
+        "published_at": "2026-11-22T14:21:37.912000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:607b82bfea4f631d50cd0ea2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/hiroxasobiba/articles/secondbrain-ai-memory-layers",
+        "title": "AI に読ませる「第2の脳」を Markdown と git で作り、4か月使った記録",
+        "author": "ひろ＠AI遊び場",
+        "published_at": "2026-11-22T14:08:59.552000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c4e8d6f266bbb17cd0abbd22",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "gamedev",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/tobaccotaro/articles/tanktaktix-overview",
+        "title": "ないなら、作ろうAIと。消えたFlash戦車ゲームのモダナイズと、16本の設計判断（ADR）",
+        "author": "tobaccotaro",
+        "published_at": "2026-11-22T14:07:05.222000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7e522de2e4ebb99104c99d52",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/nishi0001/articles/agent-skills-vetting-30-before-install",
+        "title": "第三者のAgent Skillを30本入れる前の点検：4本を見送り、内容を直した",
+        "author": "西原一輝",
+        "published_at": "2026-11-22T13:57:10.108000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:e751746aa7b530edd19e9698",
         "source": "zenn",
@@ -47647,6 +47725,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3f4c8b16e7845588ebd688ba",
+        "source": "qiita",
+        "author_tags": [
+          "SSH",
+          "MCP",
+          "devops",
+          "Security"
+        ],
+        "url": "https://qiita.com/w4p/items/edccaac1546959c8d6d5",
+        "title": "如何让 AI 通过 SSH 查看服务器日志，同时把私钥留在本机",
+        "author": "w4p",
+        "published_at": "2026-11-22T23:17:49+09:00",
+        "excerpt": "值班时，结账服务出了问题。想让 AI 助手帮忙看一眼 app.log 的最后 20 行，可同一个目录里还有一份记录 HTTP 请求的 access.log 。用我平时登录服务器的 SSH 密钥，两份文件都能读。这次排查只需要第一份。 这个例子有两个验收条件：助手能读到 app.log 的末尾；即使我直接告诉它另一个文件叫 access.log ，它也读不到其中一行。 谁来建立 SSH 连接 我在工作站上运行 GateRook，让 AI 客户端通过 MCP（Model Context Protocol，模型上下文协议）调用它。助手可以指定文件名和要读的行数。GateRook 检查权限，构造读取命令，再通过 SSH 连接服务器，把结果返回给助手。工具参数里没有可供助手填写任意 shell 命令的字段。 先在服务器上为这项任务建一个专用账号 logreader ，装上它的 SSH 公钥。这个账号需要能逐级进入 /var/log/shop 并读取 app.log 。私钥放在工作站上，私钥文件的路径只填在 GateRook 里。第一次在界面中浏览远程目录时"
+      },
+      {
         "id": "qiita:da76f58394578524635c0760",
         "source": "qiita",
         "author_tags": [
@@ -65180,6 +65273,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:8100af93d02457916552af39",
+        "source": "medium",
+        "author_tags": [
+          "linux",
+          "cybersecurity",
+          "python",
+          "ubuntu",
+          "vulnerability"
+        ],
+        "url": "https://medium.com/@chinmayshringi4/ghostscript-cve-2026-125396-is-fixed-in-10-08-0-your-patched-ubuntu-box-still-says-10-02-1-5b537eca1887",
+        "title": "Ghostscript CVE-2026-125396 Is Fixed in 10.08.0. Your Patched Ubuntu Box Still Says 10.02.1.",
+        "author": "Chinmay Shringi",
+        "published_at": "2026-11-22T14:03:06+00:00",
+        "excerpt": "Upload2Shell turns a PostScript file named .png into commands on print servers, webmail and WordPress. The fix shipped in September… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7cf2a8e076a40dfcaad5d972",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "cybersecurity",
+          "web-development",
+          "hacking",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@pentesterclubpvtltd/android-malware-can-fake-your-phones-screen-bazuka-ai-arcticrat-explained-2a173c2dd2cb",
+        "title": "Android Malware Can Fake Your Phone’s Screen! | Bazuka AI & ArcticRAT Explained",
+        "author": "Pentester Club",
+        "published_at": "2026-11-22T13:59:48+00:00",
+        "excerpt": "Subtitle: How two Android threats use deceptive screen overlays, remote control, and AI-assisted data analysis — and how to reduce your… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2d996e9e4ce3553bec60bbbd",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "artificial-intelligence",
+          "technology"
+        ],
+        "url": "https://medium.com/@mohammadroofiya786/i-built-taintgate-exploring-prompt-injection-and-ai-agent-security-as-a-student-developer-954f4fa09425",
+        "title": "I Built TaintGate: Exploring Prompt Injection and AI Agent Security as a Student Developer",
+        "author": "Roofiya Tasneem",
+        "published_at": "2026-11-22T13:43:22+00:00",
+        "excerpt": "What started as curiosity about AI agents turned into a hands-on project exploring untrusted tool outputs, prompt injection, and security… Continue reading on Medium »"
+      },
       {
         "id": "medium:b3ef7d11d88ee544587281d5",
         "source": "medium",
