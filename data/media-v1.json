@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T16:40:02.930699+00:00",
+  "source_snapshot_generated_at": "2026-11-22T17:40:02.839471+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:4e02a6e7f6883b9bcfaa6a4d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "Security",
+          "arXiv",
+          "llm"
+        ],
+        "url": "https://zenn.dev/nalt/articles/llm-self-rewriting-weights-arxiv-2611",
+        "title": "勾配なしでLLMが自分の重みを直し+6.6pt改善、その仕組みと潜む運用リスク",
+        "author": "nalt",
+        "published_at": "2026-11-22T17:21:40+00:00",
+        "excerpt": "「モデルの弱点を直すには、重い GPU で勾配を回すか、推論時に高いトークン代を払い続けるしかない」――そう思い込んでいませんか？ 実は 「学習と推論の壁」は知能の制約ではなくツールの制約にすぎず、27B のオープン LLM が勾配計算ゼロ・推論のみ（CPU 上の Python 編集）で自分の重みを書き換えて +6.6 ポイント賢くなる ことが実証されました（Jiajun Fan ら, arXiv:2611.21885, 2026年11月）。 ! tl;dr; 何が起きたか: 27B モデル（Qwen3.5 系）が自身の隠れ層状態を診断し、W' = W - \\alpha \\,..."
+      },
       {
         "id": "zenn:6aaf8861089b7473025d86c9",
         "source": "zenn",
@@ -169,6 +185,16 @@
         "author": "tobaccotaro",
         "published_at": "2026-11-22T14:07:05.222000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:224df3c147274042bc73e1df",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/murloc/books/4fa81146987b77",
+        "title": "ニューラルネットワークを“信頼の社会”として読む",
+        "author": "Murloc",
+        "published_at": "2026-11-22T14:01:51+00:00",
+        "excerpt": "ニューラルネットワークを「数式の塊」ではなく、“判断と信頼で構成された組織”として読み解く小さな本です。面接官・会議・社長という比喩を使って、内積・行列・誤差逆伝播・活性化関数・重み・バイアスが「何を意味しているのか」を感覚でつかみます。本書の比喩をそのまま動かせる可視化アプリ（https://ofcbj.github.io/nn-book/）も公開しています。"
       },
       {
         "id": "zenn:7e522de2e4ebb99104c99d52",
@@ -65407,6 +65433,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:cf629ce12b14f169c6e29505",
+        "source": "medium",
+        "author_tags": [
+          "devops",
+          "python",
+          "cybersecurity",
+          "supply-chain-security",
+          "ai-agent"
+        ],
+        "url": "https://medium.com/@reactbd/microsofts-agent-package-shipped-malware-for-55-minutes-it-gets-192-534-downloads-a-month-c8807b0c2547",
+        "title": "Microsoft’s Agent Package Shipped Malware for 55 Minutes. It Gets 192,534 Downloads a Month.",
+        "author": "Noor Mohammad",
+        "published_at": "2026-11-22T17:31:01+00:00",
+        "excerpt": "Two poisoned versions of agent-framework stole cloud and CI secrets on 17 November. A one-day wait before installing new versions would… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c348d5c8bb07a0ce1b6fe7db",
+        "source": "medium",
+        "author_tags": [
+          "confidential-computing",
+          "kubernetes",
+          "cloud-security",
+          "devsecops",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@emelia99066/hardware-memory-encryption-in-2026-protecting-cloud-workloads-with-amd-sev-snp-intel-tdx-f4ee6a2b6fa2",
+        "title": "Hardware Memory Encryption in 2026: Protecting Cloud Workloads with AMD SEV-SNP & Intel TDX",
+        "author": "Emelia",
+        "published_at": "2026-11-22T17:23:28+00:00",
+        "excerpt": "Across regulated financial institutions, payment processors, and sovereign cloud deployments in New York, London, and Frankfurt… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f1e5d08862bbd2570607ceae",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "vulnerability",
+          "php",
+          "ai",
+          "information-security"
+        ],
+        "url": "https://medium.com/@support_35479/php2shell-how-to-identify-vulnerable-php-backends-through-mobile-app-security-testing-46df313ff3fb",
+        "title": "PHP2Shell: How to Identify Vulnerable PHP Backends Through Mobile App Security Testing",
+        "author": "MyAppScan",
+        "published_at": "2026-11-22T17:01:59+00:00",
+        "excerpt": "Mobile applications are often treated as standalone products, but most modern applications depend heavily on backend APIs. Continue reading on Medium »"
+      },
       {
         "id": "medium:eccca823afbff1d1a98070e5",
         "source": "medium",
