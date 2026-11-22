@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-22T12:08:10.726923+00:00",
-  "as_of": "2026-11-22T12:00:00+00:00",
+  "generated_at": "2026-11-22T13:08:12.843240+00:00",
+  "as_of": "2026-11-22T13:00:00+00:00",
   "catalog_count": 26014,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -187,7 +187,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-21T21:22:42.877527+09:00",
-      "heat_score": 58.5,
+      "heat_score": 46.8,
       "permalink_id": "article-url-abda2463cf2255c67299f8df",
       "primary_category": "ai_security",
       "public_article_id": "url:abda2463cf2255c67299f8df",
@@ -448,39 +448,6 @@
       "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests"
     },
     {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T21:22:42.877527+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-abda2463cf2255c67299f8df",
-      "primary_category": "ai_security",
-      "public_article_id": "url:abda2463cf2255c67299f8df",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-21T21:08:50+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
-      "summary_excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day"
-    },
-    {
       "ai_relevance": "none",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
       "cves": [
@@ -620,6 +587,36 @@
       "summary_excerpt": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
       "threat_actors": [],
       "title": "CVE-2026-76466: Cisco Expressway Series"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "cves": [
+        "CVE-2026-129448"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T18:22:49.920534+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-552b60cb29a0722aae4ac33a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:552b60cb29a0722aae4ac33a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T17:49:13+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+      "threat_actors": [],
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge"
     }
   ],
   "rising": [],
@@ -971,19 +968,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-19T12:00:00+00:00",
-    "last_as_of": "2026-11-22T12:00:00+00:00",
+    "first_as_of": "2026-11-19T13:00:00+00:00",
+    "last_as_of": "2026-11-22T13:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-22T12:00:00+00:00",
-  "heat_as_of": "2026-11-22T12:00:00+00:00",
+  "news_as_of": "2026-11-22T13:00:00+00:00",
+  "heat_as_of": "2026-11-22T13:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26014,
-  "last_published_at": "2026-11-22T21:08:23.106619+09:00",
-  "publication_slot_jst": "2026-11-22T21:00:00+09:00"
+  "last_published_at": "2026-11-22T22:08:24.905008+09:00",
+  "publication_slot_jst": "2026-11-22T22:00:00+09:00"
 }

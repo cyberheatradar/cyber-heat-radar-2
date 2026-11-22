@@ -1,9 +1,114 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T11:40:03.103676+00:00",
+  "source_snapshot_generated_at": "2026-11-22T12:40:03.268578+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:88be079232ff0b0e19e4ebfa",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "testing",
+          "llm",
+          "Qwen3"
+        ],
+        "url": "https://zenn.dev/shinyahayakawa/articles/9f6c843983e15d",
+        "title": "LLM実験の採点コードは信用できるのか？――1,152件の独立再計算とバグ注入検証",
+        "author": "shin",
+        "published_at": "2026-11-22T12:37:13.544000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fad63d8fd47016b90ca4fd50",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "AIエージェント",
+          "Claude Code",
+          "softwarefactory"
+        ],
+        "url": "https://zenn.dev/z_maruhira/articles/software-factory-needed",
+        "title": "ソフトウェアファクトリーは不要なのか？1.5倍の中身はファクトリー以外だった",
+        "author": "y-hirakaw",
+        "published_at": "2026-11-22T12:10:53.092000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eff74183a7983f781dcc695f",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "日本語",
+          "生成 AI",
+          "AIエージェント",
+          "規制"
+        ],
+        "url": "https://zenn.dev/dekita/articles/jp-ai-act-probes-sandbox-ja",
+        "title": "EU の AI Act 初の情報提供要求——サンドボックスの前提が崩れた 2 件",
+        "author": "Dekita",
+        "published_at": "2026-11-22T12:09:10.048000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b20a9635c3559afb74017549",
+        "source": "zenn",
+        "author_tags": [
+          "Security"
+        ],
+        "url": "https://zenn.dev/taharun/articles/8e5ec7f736d2ea",
+        "title": "AESを「行列」で簡潔に理解する(定期試験用個人メモ)",
+        "author": "幼き分析者",
+        "published_at": "2026-11-22T12:08:36.144000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2ee9ad51f194013159e8815f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "自然言語処理",
+          "音声認識",
+          "文字起こし",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/cicisee/articles/78c1db637be60f",
+        "title": "音声文字起こしをRAGに活用する前に考えたいこと：AI要約と検索精度を高めるデータ設計",
+        "author": "CiciSee",
+        "published_at": "2026-11-22T11:50:58.544000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5bbc19cda378b5a39fe17680",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Web"
+        ],
+        "url": "https://zenn.dev/sunsun_eng/articles/school-festival-pos-cloudflare",
+        "title": "文化祭POSシステムをCloudflareで自作し完売までを支えた話",
+        "author": "すんすん",
+        "published_at": "2026-11-22T11:50:43.698000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ec785654c51df9258c2088ab",
+        "source": "zenn",
+        "author_tags": [
+          "JavaScript",
+          "Security",
+          "GAS",
+          "Google Drive",
+          "Google Apps Script"
+        ],
+        "url": "https://zenn.dev/rakuwork_kobo/articles/gas-drive-anyone-with-link-audit",
+        "title": "「リンクを知っている全員」のままのファイルを、フォルダを回ってGASで一覧にする",
+        "author": "ラクワーク工房",
+        "published_at": "2026-11-22T11:40:49.741000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:126f000058fd4d0ab122dc8e",
         "source": "zenn",
@@ -47447,6 +47552,82 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3f6866f8d523a8d2587b7c8e",
+        "source": "qiita",
+        "author_tags": [
+          "PHP",
+          "nginx",
+          "Security",
+          "LLM",
+          "SRE"
+        ],
+        "url": "https://qiita.com/ubinity/items/77d71ff9e4a3e9d78d0a",
+        "title": "PHP・nginx 脆弱性ラッシュの予防・即時検知・一時緩和：従来手法 vs 秘匿化 @ubinity/node-llm × Slack HITL 設計（Starter PoC）",
+        "author": "ubinity",
+        "published_at": "2026-11-22T21:18:44+09:00",
+        "excerpt": "執筆者: Richard King (Ubinity AI) 連載: HomeLab SRE Cookbook (特別実践号 EXT-01 • 基盤とギークアーキテクチャ編) 実機検証環境: Staging 3ノード ( pi3b 192.168.3.202 / n100-staging 192.168.3.208 / i5-staging 192.168.3.209) × Node.js v24.22.1 + @ubinity/node-llm v2.3.1 • 本番予約帯 (192.168.3.2~10) 実行前遮断インターロック (Exit Code 2) 1. 脆弱性の予防・即時捕捉・緩和策立案における「従来スクリプト vs AI」の切り分け 2026年11月19日付で公表された PHP リリース（ 8.2.36 / 8.3.37 / 8.4.28 / 8.5.13 / 8.6.0 ）および 2026年11月19日〜20日の IPA セキュリティ対策通知（ pre-alert20261119.html ・ alert20261119.ht"
+      },
+      {
+        "id": "qiita:7a4661f3cf6bf2c7b9a2f889",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "SpringBoot",
+          "owasp",
+          "ファイルアップロード"
+        ],
+        "url": "https://qiita.com/maees/items/1fab50c76df53973c659",
+        "title": "ファイル名に../が入ると保存先の外に書ける――UUID名と範囲内検査で防ぐ",
+        "author": "maees",
+        "published_at": "2026-11-22T21:11:06+09:00",
+        "excerpt": "ファイル名に../が入ると保存先の外に書ける――UUID名と範囲内検査で防ぐ ファイル名は利用者の入力である。保存先の決定権はサーバー側にある。利用者が送ったファイル名をそのまま保存先に使うと、 ../ で保存先の外に書ける。防ぎ方は3つある。保存名はサーバーが生成したUUIDにする。解決したパスが保存先の範囲内か比べる。既存ファイルの上書きは CREATE_NEW で失敗させる。この記事は2026年11月22日のOWASP実務セキュリティ学習「File Upload / Path Traversal」のレッスンをもとに、OWASPのチートシート2枚とZip Slipの実例で一段上に上げる。 関連する自記事として、同じOWASPシリーズの SSRFはURL検査だけでは防げない――JavaのリダイレクトとDNSの抜け道 がある。入力の検証をURLでやるか、ファイル名でやるかの違いはあるが、抜け道の構造は同じである。 ファイル名が保存先を決めてしまう書き方 レッスンの問題コードは次のものである。 @PostMapping ( \"/api/profil"
+      },
+      {
+        "id": "qiita:975e680a1ce7a4b45a4a1ea9",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "セキュリティ対策",
+          "情報処理安全確保支援士",
+          "hsts"
+        ],
+        "url": "https://qiita.com/atakahashi35/items/453ca85ad116916ff8d9",
+        "title": "HSTSとは？",
+        "author": "atakahashi35",
+        "published_at": "2026-11-22T21:06:59+09:00",
+        "excerpt": "HSTS（HTTP Strict Transport Security）とは？ SSL Stripping攻撃を防止する重要なセキュリティ機能を解説 想定読者 本記事は以下のような方を対象としています。 Webセキュリティを学習中の方 情報処理安全確保支援士試験の受験を予定している方 HTTPS通信の仕組みを理解したい方 HSTSという用語を聞いたことはあるが、必要性が分からない方 SSL Stripping攻撃との関係を理解したい方 この記事を読むと分かること HSTSとは何か HSTSが必要な理由 SSL Stripping攻撃の仕組み HSTSによる防御方法 HSTS Preloadの役割 情報処理安全確保支援士試験で押さえるべきポイント 目次 HSTSとは なぜHSTSが必要なのか HTTPSサイトでも攻撃される可能性がある？ SSL Stripping攻撃とは HSTSによる対策 HSTSの設定例 HSTS Preloadとは HSTS導入時の注意点 情報処理安全確保支援士試験向けポイント まとめ HSTSとは HSTS（HTTP St"
+      },
+      {
+        "id": "qiita:09e83b6c9c838a6ae88df04c",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "CODEBLUE",
+          "学生"
+        ],
+        "url": "https://qiita.com/MooseLove0308/items/be0143a9c5278288964e",
+        "title": "CODEBLUE 2026 学生スタッフ参加体験記",
+        "author": "MooseLove0308",
+        "published_at": "2026-11-22T20:51:37+09:00",
+        "excerpt": "はじめに お疲れ様です、 MooseLove です。 実は先日まで、CODEBLUEの学生スタッフとして参加していました！ 与えられた役割は『学スタ補佐』というもので、広く言えばなんでも屋のようなものでした。めちゃめちゃ走り回った...！ しかし、意外と空いた時間も多かったです。 講演を聞いたり、Villegeと呼ばれる体験コーナーで遊んだり、海外の方に低品質Englishをお見舞いしたりと、かなりCODEBLUEを楽しむことが出来ました。 ここでは、CODEBLUEを通じて学んだことや楽しかったこと、感じたことについて、いくつか語っていきたいと思います。 自己紹介 B3 セキュリティ系の学部に所属 セキュリティ・キャンプ2026コネクト 脅威クラス修了 少し前までWordPress Pluginの脆弱性調査をしていました(引退済) 最近はバグハントやペンテスト、マルウェア解析に脅威インテリジェンスと色々な分野に手を伸ばしていますが、どれも中途半端に終わっています。 CODEBLUEってなんだ？ CODE BLUEとは、世界トップクラスの情報セキ"
+      },
+      {
+        "id": "qiita:8b8d42f2f44acfe188165df2",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "セキュリティ対策",
+          "ISMAP",
+          "資格試験"
+        ],
+        "url": "https://qiita.com/atakahashi35/items/cacdcc074fe4c6e213bc",
+        "title": "ISMAP-LIUとは？",
+        "author": "atakahashi35",
+        "published_at": "2026-11-22T20:47:19+09:00",
+        "excerpt": "ISMAP-LIUとは？ 政府向けクラウドセキュリティ評価制度「ISMAP」の低影響用途向け制度を解説 想定読者 本記事は以下のような方を対象としています。 ISMAPや政府情報システムのクラウド利用について学習中の方 情報処理安全確保支援士試験の受験を予定している方 クラウドサービス事業者（CSP）でISMAP登録を検討している方 官公庁向けシステムやクラウド調達業務に携わる方 ISMAP-LIUと通常のISMAPの違いを知りたい方 この記事を読むと分かること ISMAP-LIUとは何か なぜISMAP-LIUが作られたのか ISMAPとISMAP-LIUの違い ISMAP-LIUの対象となる業務 情報処理安全確保支援士試験で押さえるべきポイント 目次 ISMAPとは なぜISMAP-LIUが作られたのか ISMAP-LIUとは ISMAPとの違い ISMAP-LIUで想定される業務例 クラウドサービス事業者（CSP）のメリット 情報処理安全確保支援士試験向けポイント まとめ ISMAPとは ISMAP（Information system S"
+      },
+      {
         "id": "qiita:aacac9b845ee7e9dcab844eb",
         "source": "qiita",
         "author_tags": [
@@ -47492,6 +47673,20 @@
         "author": "TOAI",
         "published_at": "2026-11-22T19:36:13+09:00",
         "excerpt": "構造化ログへのプレーンテキスト出力で発生する機密情報漏洩を防ぐ自動マスキング機構 モダンなアプリケーション開発において、構造化ログ（JSON Logging）の導入は可観測性（Observability）を確保するための必須プラクティスとなっている。しかし、どれほど厳格なコードレビューや静的解析（SAST）を行っていても、開発者のうっかりミスやサードパーティ製ライブラリが吐き出す例外トレースバックの深部によって、アクセストークン、APIキー、個人情報（PII）がそのままログファイルや外部の監視基盤へ送出されてしまうインシデントは後を絶たない。 本記事では、Pythonの標準 logging モジュールのカスタムフォーマッタと、Pydantic v2のシリアライザ層にフックし、正規表現パターンおよびキー名リスト方式を用いて機密情報を動的に検出・置換する堅牢な自動マスキング機構の実装と、プロダクション運用を見据えたアーキテクチャ設計・パフォーマンス最適化手法について解説する。 1. なぜ「ログの機密情報漏洩」は防げないのか アプリケーションの規模が拡"
+      },
+      {
+        "id": "qiita:3afa44b62f919c3f54a96389",
+        "source": "qiita",
+        "author_tags": [
+          "xss",
+          "Security",
+          "情報処理技術者試験"
+        ],
+        "url": "https://qiita.com/ymgc_E/items/474944de54f482f5d284",
+        "title": "【図解＆シミュレーター付き】格納型・反射型・DOM-based XSSの違いを仕組みとコード例で徹底整理",
+        "author": "ymgc_E",
+        "published_at": "2026-11-22T17:25:39+09:00",
+        "excerpt": "はじめに Webセキュリティを学び始めると必ず登場する XSS（クロスサイトスクリプティング） 。 XSSは大きく以下の3種類に分類されるが、最初はそれぞれの違いが曖昧になりがちである。 格納型XSS（Stored XSS） 反射型XSS（Reflected XSS） DOM-based XSS 特に「反射型XSS」と「DOM-based XSS」は、どちらも「攻撃者が用意した罠URLを踏ませる」という手口が共通しているため混同しやすい。 本記事では、3つの違いを データの流れ と 図解・シーケンス図 で丁寧に整理し、最後に 記事内で動かせる比較シミュレーター で挙動を体感できるようにまとめた。 結論：3つの違いは「どこでHTMLが組み立てられるか」 まず大前提として、どのXSSも**「最終的には被害者のブラウザのHTML（DOM）上で悪意のあるスクリプトが実行される」**というゴールは同じである。 そのため、「どこにスクリプトがあるか」ではなく、以下の2点に注目すると明確に区別できる。 悪意のあるデータがサーバー側に保存（永続化）されるか 悪意"
       },
       {
         "id": "qiita:8ee4159a7847b4ffc48ebae3",
@@ -64874,6 +65069,66 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:677fee580108cc137c25f628",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "information-security",
+          "cybersecurity",
+          "technology",
+          "ai-agent"
+        ],
+        "url": "https://medium.com/@rubyengineer/ai-agents-found-a-zero-day-vulnerability-and-took-over-a-server-is-cybersecurity-ready-a10a878b7147",
+        "title": "AI Agents Found a Zero-Day Vulnerability and Took Over a Server. Is Cybersecurity Ready?",
+        "author": "Ruby",
+        "published_at": "2026-11-22T12:26:01+00:00",
+        "excerpt": "Amazon’s latest threat intelligence report reveals how autonomous AI agents were used to discover and exploit a previously unknown… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:82c91bd9c0f2b625db78d0d1",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@neerajn.p9211/server-side-vs-client-side-vulnerabilities-cybersecurity-vapt-87d5bccdbf5e",
+        "title": "Server-Side vs Client-Side Vulnerabilities | Cybersecurity & VAPT",
+        "author": "NEERAJ",
+        "published_at": "2026-11-22T12:13:06+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
+      {
+        "id": "medium:6f88d5fe4498447d9fe40866",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "bug-bounty-tips",
+          "penetration-testing",
+          "nginx2root",
+          "bug-bounty"
+        ],
+        "url": "https://0x21safe.medium.com/bug-bounty-nginx2root-vs-citrix-netscaler-cve-which-one-is-better-for-hunters-48e7e00f5e22",
+        "title": "Bug Bounty: Nginx2root vs Citrix NetScaler CVE, which one is better for hunters?",
+        "author": "SAFE",
+        "published_at": "2026-11-22T12:06:48+00:00",
+        "excerpt": "Alsalam Aleikom Folks. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ed3129477b8e946e33a395d1",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "cybersecurity",
+          "authentication",
+          "web-security",
+          "hacking"
+        ],
+        "url": "https://cloverpass.medium.com/intel-inside-how-a-cracked-jwt-key-led-to-full-account-takeover-on-intel-and-cbses-ai-platform-f06bb84ac1a2",
+        "title": "Intel Inside: How a Cracked JWT Key led to Full Account Takeover on Intel and CBSE’s AI Platform",
+        "author": "Cloverpass",
+        "published_at": "2026-11-22T11:51:05+00:00",
+        "excerpt": "While taking part in Tinkerpreneur 2026, I spent some time on the AI Student Community (aistudent.community), Continue reading on Medium »"
+      },
       {
         "id": "medium:540d4f62fc1b7696110b3c24",
         "source": "medium",
