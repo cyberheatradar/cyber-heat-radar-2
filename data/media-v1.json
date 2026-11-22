@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T09:40:03.363670+00:00",
+  "source_snapshot_generated_at": "2026-11-22T10:40:03.175350+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:0e2ae014a17073d34dc8b351",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "IAM",
+          "AWS Security Hub",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sk8jp/articles/99b43d523eaddf",
+        "title": "FSBP の「公開・乗っ取りに直結」の 17 項目を点検したら、直したのは点検の道具のほうだった",
+        "author": "YAZ",
+        "published_at": "2026-11-22T10:19:04.924000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a0e727979326d1e2f8eed9e3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "Python",
+          "Markdown",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/uzunaru/articles/f67ac6f4d8a540",
+        "title": "AIがルールを読み飛ばすので、「検査」に変えた：書き込み時に拒否するフックを作った記録",
+        "author": "uzu",
+        "published_at": "2026-11-22T09:56:02.492000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6d0d648e01fc9c027ea432f9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "review",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/honabochi/articles/ai-review-one-round",
+        "title": "AIレビューを一往復させる。別の席の理由を一つ返して、判断の前後を比べる",
+        "author": "NoBu",
+        "published_at": "2026-11-22T09:48:17.875000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f42fd3e396bcfb0679e9d40d",
         "source": "zenn",
@@ -47275,6 +47321,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:109acf4b2e6329dbdffa4828",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "AI",
+          "Security",
+          "ロギング",
+          "アーキテクチャ"
+        ],
+        "url": "https://qiita.com/TOAI/items/f9c8642dd8d57a206277",
+        "title": "ログへの機密情報混入を防ぐ！Pydantic v2とカスタムFormatterによる自動マスキング実",
+        "author": "TOAI",
+        "published_at": "2026-11-22T19:36:13+09:00",
+        "excerpt": "構造化ログへのプレーンテキスト出力で発生する機密情報漏洩を防ぐ自動マスキング機構 モダンなアプリケーション開発において、構造化ログ（JSON Logging）の導入は可観測性（Observability）を確保するための必須プラクティスとなっている。しかし、どれほど厳格なコードレビューや静的解析（SAST）を行っていても、開発者のうっかりミスやサードパーティ製ライブラリが吐き出す例外トレースバックの深部によって、アクセストークン、APIキー、個人情報（PII）がそのままログファイルや外部の監視基盤へ送出されてしまうインシデントは後を絶たない。 本記事では、Pythonの標準 logging モジュールのカスタムフォーマッタと、Pydantic v2のシリアライザ層にフックし、正規表現パターンおよびキー名リスト方式を用いて機密情報を動的に検出・置換する堅牢な自動マスキング機構の実装と、プロダクション運用を見据えたアーキテクチャ設計・パフォーマンス最適化手法について解説する。 1. なぜ「ログの機密情報漏洩」は防げないのか アプリケーションの規模が拡"
+      },
+      {
         "id": "qiita:8ee4159a7847b4ffc48ebae3",
         "source": "qiita",
         "author_tags": [
@@ -64655,6 +64717,52 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f3b3b9cc5a1a3ce7472982ba",
+        "source": "medium",
+        "author_tags": [
+          "wordpress",
+          "vulnerability-management",
+          "information-security",
+          "ecommerce",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@mark.steier99/cve-2026-104904-is-not-the-104-904th-vulnerability-of-the-year-8a441fdcb5b1",
+        "title": "CVE-2026-104904 Is Not the 104,904th Vulnerability of the Year",
+        "author": "Mark Steier",
+        "published_at": "2026-11-22T10:21:36+00:00",
+        "excerpt": "CVE numbers look like counters. They are not — and in 2026 the system has already passed 100,000 entries. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:19fc8819d943bcfcb5f8484d",
+        "source": "medium",
+        "author_tags": [
+          "ethical-hacking",
+          "artificial-intelligence",
+          "cybersecurity",
+          "threat-intelligence",
+          "infosec"
+        ],
+        "url": "https://medium.com/@planetdiaz/agentic-ai-in-offensive-cybersecurity-a-practitioners-assessment-of-artex-49ae2205f0d1",
+        "title": "Agentic AI in Offensive Cybersecurity: A Practitioner’s Assessment of ARTEX",
+        "author": "Allan Diaz",
+        "published_at": "2026-11-22T10:18:14+00:00",
+        "excerpt": "Building an AI-assisted penetration-testing laboratory with Kali Linux, Docker, Claude, and OWASP Juice Shop, and examining emerging risks… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ee93489e5bc359705b79d434",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybercrime-investigation",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@hitech.u.high/malware-analysis-a-lavender-distillery-that-ships-a-rat-attack-fd795dbae790",
+        "title": "Malware Analysis; A Lavender Distillery That Ships a RAT Attack",
+        "author": "Eran Gepstein",
+        "published_at": "2026-11-22T10:15:26+00:00",
+        "excerpt": "Unpacking a fresh malware that distributed during November 2026. The analysis unfolds a series of hidden code snippets into bitmap pixels… Continue reading on Medium »"
+      },
       {
         "id": "medium:82d5b0cb08628dcf9deaa76d",
         "source": "medium",
