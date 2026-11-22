@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-22T08:07:40.472191+00:00",
-  "as_of": "2026-11-22T08:00:00+00:00",
+  "generated_at": "2026-11-22T09:07:49.754926+00:00",
+  "as_of": "2026-11-22T09:00:00+00:00",
   "catalog_count": 26013,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -263,7 +263,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-21T18:22:49.920534+09:00",
-      "heat_score": 67.5,
+      "heat_score": 54.0,
       "permalink_id": "article-url-552b60cb29a0722aae4ac33a",
       "primary_category": "vulnerability",
       "public_article_id": "url:552b60cb29a0722aae4ac33a",
@@ -291,7 +291,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-21T18:22:16.436036+09:00",
-      "heat_score": 40.5,
+      "heat_score": 32.4,
       "permalink_id": "article-url-39962a5884c7f3d43018d2a6",
       "primary_category": "other",
       "public_article_id": "url:39962a5884c7f3d43018d2a6",
@@ -309,36 +309,6 @@
     }
   ],
   "hottest": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "cves": [
-        "CVE-2026-129448"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T18:22:49.920534+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-552b60cb29a0722aae4ac33a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:552b60cb29a0722aae4ac33a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T17:49:13+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "threat_actors": [],
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge"
-    },
     {
       "ai_relevance": "material",
       "canonical_url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
@@ -626,6 +596,41 @@
       "summary_excerpt": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
       "threat_actors": [],
       "title": "CVE-2025-42884: SAP NetWeaver"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-76466",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-21T04:23:24.737810+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-f26406319c1c019e4fca1af5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:f26406319c1c019e4fca1af5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-20T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "summary_excerpt": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "threat_actors": [],
+      "title": "CVE-2026-76466: Cisco Expressway Series"
     }
   ],
   "rising": [],
@@ -756,6 +761,36 @@
       "summary_excerpt": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user.",
       "threat_actors": [],
       "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://news.mynavi.jp/techplus/article/20261120-5367457/",
+      "cves": [
+        "CVE-2024-49138"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T17:38:21.403841+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-94769cc53c678e98cb2b5da7",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:94769cc53c678e98cb2b5da7",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T17:17:40+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Mynavi TECH+ Security",
+      "summary": "CyberNewsは11月18日（現地時間）、20カ国以上に設置されたWindows搭載POS（販売時点情報管理）端末700台超がマルウェアに感染し、100万件以上のクレジットカードやデビットカードの情報が流出したと報じた。攻撃には、2024年12月に修正済みのWindowsの脆弱性「CVE-2024-49138」が悪用されていた。被害はブラジルに集中しており、更新プログラムが適用されていないPOS端末のセキュリティリスクが浮き彫りになった。",
+      "summary_excerpt": "CyberNewsは11月18日（現地時間）、20カ国以上に設置されたWindows搭載POS（販売時点情報管理）端末700台超がマルウェアに感染し、100万件以上のクレジットカードやデビットカードの情報が流出したと報じた。攻撃には、2024年12月に修正済みのWindowsの脆弱性「CVE-2024-49138」が悪用されていた。被害はブラジルに集中しており、更新プログラムが適用されていないPOS端末のセキュリティリスクが浮き彫りになった。",
+      "threat_actors": [],
+      "title": "POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出"
     },
     {
       "ai_relevance": "none",
@@ -912,34 +947,6 @@
       "summary_excerpt": null,
       "threat_actors": [],
       "title": "Java4Shell: A Closer Look and Patch Analysis (CVE-2026-114938)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-19T20:24:47.449581+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-06ebeabb5e45d05de5cfccfa",
-      "primary_category": "incident",
-      "public_article_id": "url:06ebeabb5e45d05de5cfccfa",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-19T20:01:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "Around 265,000 customers potentially affected as London transport operator grapples with another security breach",
-      "summary_excerpt": "Around 265,000 customers potentially affected as London transport operator grapples with another security breach",
-      "threat_actors": [],
-      "title": "TfL takes Oyster photocard website offline after attackers compromise customer accounts"
     }
   ],
   "timeseries_status": {
@@ -961,31 +968,31 @@
   },
   "ticker_items": [
     "【LATEST #1】Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-    "【HOTTEST #1 / Heat 67.5】Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "【HOTTEST #1 / Heat 65】Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
     "【LATEST #2】冷蔵・冷凍設備の制御装置に6件の脆弱性、認証なしで乗っ取りの恐れ",
-    "【HOTTEST #2 / Heat 65】Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+    "【HOTTEST #2 / Heat 65】冷蔵・冷凍設備の制御装置に6件の脆弱性、認証なしで乗っ取りの恐れ",
     "【LATEST #3】Rackspace Spot breach let hackers access customer Kubernetes secrets",
-    "【HOTTEST #3 / Heat 65】冷蔵・冷凍設備の制御装置に6件の脆弱性、認証なしで乗っ取りの恐れ",
+    "【HOTTEST #3 / Heat 58.5】Microsoft Entra Connect Health flaw exploited to steal tenant data",
     "【LATEST #4】Microsoft Entra Connect Health flaw exploited to steal tenant data",
-    "【HOTTEST #4 / Heat 58.5】Microsoft Entra Connect Health flaw exploited to steal tenant data",
+    "【HOTTEST #4 / Heat 58.5】BADBOX botnet returns with record-breaking 40 billion daily ad requests",
     "【LATEST #5】BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-    "【HOTTEST #5 / Heat 58.5】BADBOX botnet returns with record-breaking 40 billion daily ad requests"
+    "【HOTTEST #5 / Heat 58.5】Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-19T08:00:00+00:00",
-    "last_as_of": "2026-11-22T08:00:00+00:00",
+    "first_as_of": "2026-11-19T09:00:00+00:00",
+    "last_as_of": "2026-11-22T09:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-22T08:00:00+00:00",
-  "heat_as_of": "2026-11-22T08:00:00+00:00",
+  "news_as_of": "2026-11-22T09:00:00+00:00",
+  "heat_as_of": "2026-11-22T09:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26013,
-  "last_published_at": "2026-11-22T17:07:52.627161+09:00",
-  "publication_slot_jst": "2026-11-22T17:00:00+09:00"
+  "last_published_at": "2026-11-22T18:08:01.490898+09:00",
+  "publication_slot_jst": "2026-11-22T18:00:00+09:00"
 }
