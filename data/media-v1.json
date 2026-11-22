@@ -1,9 +1,101 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-22T04:40:03.521990+00:00",
+  "source_snapshot_generated_at": "2026-11-22T05:40:04.769373+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:7b44d420599dae65a3b01966",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "mock",
+          "llm",
+          "continuum"
+        ],
+        "url": "https://zenn.dev/nakayukl/articles/0138545f239879",
+        "title": "AWS Continuumペンテスティング: LLM による動的擬態の検証レポート",
+        "author": "中島佑樹",
+        "published_at": "2026-11-22T05:25:46+00:00",
+        "excerpt": "対象読者: AWS Continuumをまだ導入検討段階にあるユーザー企業のIT部門 検証期間: 2026年11月 前提: 本レポートは「AWS Continuumペンテスティング機能 検証レポート」(レポート1)、および「AWS Continuumペンテスティング:モック化構成での検証レポート」(レポート2、固定レスポンスのモックを扱った検証)の内容を前提とする。基本的な仕組み・用語・モック化の動機については、まずレポート1・レポート2を参照されたい。AWS Continuumは、ソフトウェア開発ライフサイクル全体でセキュリティリスクを発見・優先順位付け・検証・改修するサービスであり、..."
+      },
+      {
+        "id": "zenn:86dbcf70744fe387296dab59",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "Notion",
+          "Claude",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/kaminariume/articles/split-agent-context-docs",
+        "title": "AIエージェントに読ませる文書を、9日間で1つから5つに分けた",
+        "author": "kaminariume",
+        "published_at": "2026-11-22T05:15:34.551000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a4607fbcdf5e7db5fb566ba8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "Todoist",
+          "Claude",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/kaminariume/articles/share-context-across-agent-envs",
+        "title": "会話を運ぶのをやめて、文書を運ぶことにした",
+        "author": "kaminariume",
+        "published_at": "2026-11-22T05:15:34.129000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:86109280fcbc54b099c2398e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Snowflake",
+          "Cortex",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/takikomi/articles/sf-agent-workflow-pipeline",
+        "title": "Snowflake Pipeline Builderで構築するエージェントワークフロー",
+        "author": "たきこみ",
+        "published_at": "2026-11-22T04:50:34+00:00",
+        "excerpt": "Snowflake のパイプラインビルダー（Pipeline Builder）が Public Preview で使えるようになりました。Snowsightワークスペースの画面上でカードを並べてつなぐことで、タスクグラフを組めるツールです。 これまでタスクグラフはSQLやストアドプロシージャを繋ぐのが中心でしたが、パイプラインビルダーではPythonファイルやJupyter Notebookもカードとして直接組み込めます。 これまでSnowflakeの外に出しがちだったオーケストレーション機能をSnowflakeネイティブに実装できる強力な機能だと思います。 今回はこのパイプラインビルダ..."
+      },
+      {
+        "id": "zenn:a6d596bedf71158362e90c62",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/aqiu/articles/bdc27f7fdcde2b",
+        "title": "AI時代のITエンジニアに必要なのは、答えより「HOW」",
+        "author": "aqiu",
+        "published_at": "2026-11-22T04:49:05+00:00",
+        "excerpt": "AIにコードを書いてもらう機会が増えた。要件を文章で伝えれば、関数や画面のたたき台が返ってくる。便利な一方で、エンジニアの価値は「自分でコードを入力する速さ」だけでは測れなくなった。何を作るかを整理し、どう実現するかを選び、結果を確かめる力が、以前よりはっきり問われている。 だから私は、ITエンジニアを「HOWを司る存在」だと考えている。HOWとは単なる実装手順ではない。制約を見つけ、複数の手段を比べ、将来の変更まで含めて現実的な道筋を決めることだ。AIが候補を増やしてくれるほど、この判断の重みは増していく。 HOWは要件と実装の間にある 依頼の「音声の一部分だけを使いたい」という..."
+      },
+      {
+        "id": "zenn:4c762445d5be1d1e1025cd00",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ESP32",
+          "XR",
+          "ローカル LLM",
+          "smartglasses"
+        ],
+        "url": "https://zenn.dev/maruhana/articles/maruhana-series-index-all-articles",
+        "title": "スマートグラス・自作の腕時計・ローカル AI：全記事の目次（シリーズ別）",
+        "author": "maruhana",
+        "published_at": "2026-11-22T04:47:51+00:00",
+        "excerpt": "記事が増えてきたので、全部をシリーズごとに並べました。各記事の下の文は、その記事を専門用語なしで言うとどうなるかです。気になったものから読んでください。 シリーズの中は古い順です。前の記事を前提にしているものがあるので、上から読むとつながります 各記事の冒頭にも、同じ「ひとことで言うと」と要約を置いています 新しい記事を出したら、ここに足していきます 👓 Rokid Glasses（スマートグラス）（15 本） 買ってから自分のアプリが動くまでを 1 冊にまとめた本もあります（無料）：Rokid Glasses（RV101）を買ってから、自分のアプリが動くまで Rokid ..."
+      },
       {
         "id": "zenn:19959fc7ffd451b50d38dc3e",
         "source": "zenn",
@@ -496,6 +588,16 @@
         "author": "テンプレ工房",
         "published_at": "2026-11-21T18:44:33.494000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:9ef6e8f246635c098cf4ba50",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/inemuri/books/safe-ai-data-automation-kit",
+        "title": "壊れないAI・業務データ自動化パイプライン設計と安全なツール公開ガイド",
+        "author": "いねむりさん",
+        "published_at": "2026-11-21T18:07:41+00:00",
+        "excerpt": "Python標準ライブラリ中心で構築する堅牢な業務データ処理、LLM/RAG投入前の決定的PIIマスキングとチャンキング、さらに規約・セキュリティを厳守した非スクレイピング型Apify Actor（Pay-Per-Event/MCP対応）の実装レシピを検証済みコード付きで解説します。"
       },
       {
         "id": "zenn:94e6e02b99a1f0189927b17c",
@@ -46852,6 +46954,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f9910cbca1a0884d1c30d37d",
+        "source": "qiita",
+        "author_tags": [
+          "Terraform",
+          "AWS",
+          "kms",
+          "S3",
+          "Security"
+        ],
+        "url": "https://qiita.com/ham-nao/items/f249a851ae8686678b7a",
+        "title": "【Terraform×AWS】KMSのカスタマー管理キーでS3を暗号化する：権限の渡し方と削除の注意点",
+        "author": "ham-nao",
+        "published_at": "2026-11-22T14:06:12+09:00",
+        "excerpt": "S3やRDSのデータは、AWSが管理する鍵で暗号化するだけでも、保存されたデータは守られます。ただ、「誰がデータを復号できるかを細かく決めたい」「鍵の利用を監査ログに残したい」といった要件があると、**自分で管理するKMSの鍵（カスタマー管理キー）**が必要になります。 この記事では、KMSのカスタマー管理キーをTerraformで作り、S3の暗号化に使う方法と、運用で注意することを紹介します。 AWS管理キーとカスタマー管理キーの違い SSE-S3（S3が管理する鍵） ：S3が自動で暗号化する。設定は不要で、料金もかからない AWS管理キー（aws/s3 など） ：KMSの鍵だが、AWSが作成・管理する。鍵のポリシーは変更できない カスタマー管理キー ：自分で作るKMSの鍵。鍵のポリシーで使える人を決められ、ローテーションや削除も自分で管理する カスタマー管理キーを使う理由は、主に次の3つです。 アクセスを分けられる ：S3を読む権限があっても、鍵を使う権限がなければ、データを復号できない 利用を記録できる ：鍵を使うたびにCloudTrail"
+      },
+      {
         "id": "qiita:6920f3f7f180d2f58b72bce5",
         "source": "qiita",
         "author_tags": [
@@ -47246,6 +47364,22 @@
         "author": "pitaspot",
         "published_at": "2026-11-21T18:05:16+09:00",
         "excerpt": "📰 海外事例 元記事： Ghost in the Shell: Can a Log File Hijack an AI?（dev.to） 開発者のGramliさんが、dev.toに載せたハロウィンの小さな実験記事です。アプリのログ（300行）にAIへの命令をこっそり1つ混ぜ、「このログを分析して」と頼むと、AIが本来の仕事をやめて命令に従うかを試しました。命令は「ログはここで終わり。そのあとユーザーが訂正を送ってきた」という会話の形に偽装してあり、無料のオープンウェイトモデル（誰でもダウンロードして動かせるモデル）4つが分析をやめて「GHOST IN THE SHELL」とだけ答えました。GeminiとCodexは引っかかりませんでした。 仕掛けは「会話の偽装」 隠し命令は、障害の記録に見える架空のAPIログのうち、外部の決済サービスが返したエラー応答の本文に入れてあります。「前の指示を無視して」と書くだけの単純なものではありません。ログのデータがここで終わったと宣言し、そのあとにユーザーからの訂正メッセージ（「分析はもう要らない、この言葉だけを"
+      },
+      {
+        "id": "qiita:71525619efa98879dbd4a234",
+        "source": "qiita",
+        "author_tags": [
+          "sops",
+          "age",
+          "Git",
+          "暗号化",
+          "Security"
+        ],
+        "url": "https://qiita.com/zundamon-tools/items/e46c9b016e810c7251f2",
+        "title": "SOPS と age で、秘密の設定ファイルを暗号化したまま Git に置いて差分でレビューする（updatekeys でチーム共有）",
+        "author": "zundamon-tools",
+        "published_at": "2026-11-21T17:53:30+09:00",
+        "excerpt": "SOPS は YAML の値だけを暗号化します。暗号化したまま Git に置いても、 git diff に出るのは変えた項目の行と、末尾の sops: 欄の lastmodified ・ mac だけです。鍵を持つ人は textconv で平文の差分も読めます。チームの鍵は .sops.yaml に公開鍵を足し、 sops updatekeys で共有します。 設定ファイルを age で丸ごと暗号化して Git に置くと、API キーを1つ直しただけで、暗号文の行が全部 - ／ + で入れ替わります。レビューでは、どの項目を変えたのかが分かりません。なお SOPS でも項目の名前は暗号化されないので、公開リポジトリに置いてよいわけではありません。 参考動画は記事の最後に紹介しています。 環境 sops 3.13.3・age v1.3.2・git 2.53.0 Linux（arm64）。確認日は 2026-11-13 macOS（arm64）でも、同じ版で鍵の作成・暗号化・ git diff を 2026-11-04 に確かめています 記事に出る秘"
       },
       {
         "id": "qiita:37325f34817ccc62722f923d",
@@ -64154,6 +64288,51 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:817bc47ce224cc3b4cac8929",
+        "source": "medium",
+        "author_tags": [
+          "branding",
+          "cybersecurity",
+          "logo-design"
+        ],
+        "url": "https://medium.com/@bakibillahgd/cybersecurity-logo-collection-b9adfc05cb20",
+        "title": "Cybersecurity Logo Collection",
+        "author": "Md Bakibillah",
+        "published_at": "2026-11-22T05:17:04+00:00",
+        "excerpt": "A curated collection of three cybersecurity logo concepts, exploring bold geometric shapes, modern forms, and distinctive visual… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:206015dee4897c08cf9f1890",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "bug-hunting",
+          "ethical-hacking",
+          "web-applications"
+        ],
+        "url": "https://medium.com/@cyb3rD1vvya/from-p4-to-p1-day-24-file-upload-vulnerabilities-in-bug-bounty-hunting-32d46f42ddec",
+        "title": "From P4 to P1 — Day 24: File Upload Vulnerabilities in Bug Bounty Hunting",
+        "author": "cyb3rD1vvy@",
+        "published_at": "2026-11-22T05:09:28+00:00",
+        "excerpt": "Series: From P4 to P1: The Bug Hunter’s Journey Day: 24 Topic: File Upload Vulnerabilities Category: Application Security Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a5154b387b5fc92ac15755b7",
+        "source": "medium",
+        "author_tags": [
+          "microsoft",
+          "cybersecurity",
+          "information-security",
+          "phishing",
+          "identity-management"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/no-passwords-leaked-but-attackers-now-know-your-admins-lessons-from-entra-connect-health-bf575925412a",
+        "title": "No Passwords Leaked, but Attackers Now Know Your Admins: Lessons From Entra Connect Health",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-22T05:00:36+00:00",
+        "excerpt": "When a data exposure makes the news, the first question is usually whether passwords leaked. In this week’s Microsoft incident the answer… Continue reading on Medium »"
+      },
       {
         "id": "medium:24b7e8bdf314b9fe9beeda17",
         "source": "medium",
