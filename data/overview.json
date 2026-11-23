@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-23T03:08:03.047987+00:00",
-  "as_of": "2026-11-23T03:00:00+00:00",
+  "generated_at": "2026-11-23T04:08:17.533660+00:00",
+  "as_of": "2026-11-23T04:00:00+00:00",
   "catalog_count": 26020,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -215,7 +215,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-22T12:23:58.969672+09:00",
-      "heat_score": 58.5,
+      "heat_score": 46.8,
       "permalink_id": "article-url-ea80ba4f0c64da6c741809b9",
       "primary_category": "other",
       "public_article_id": "url:ea80ba4f0c64da6c741809b9",
@@ -445,28 +445,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261122-5346471/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-22T12:23:58.969672+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-ea80ba4f0c64da6c741809b9",
-      "primary_category": "other",
-      "public_article_id": "url:ea80ba4f0c64da6c741809b9",
-      "public_tags": [],
-      "published_at": "2026-11-22T12:05:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "The Hacker Newsは2026年11月16日(現地時間)、デンマークのDanfossが製造する冷凍制御装置「AK-SM800A」から6件の脆弱性が見つかったと報じた。認証されていない攻撃者が遠隔から装置を乗っ取る可能性があり、最新版ファームウェアでも修正されていないという。",
-      "summary_excerpt": "The Hacker Newsは2026年11月16日(現地時間)、デンマークのDanfossが製造する冷凍制御装置「AK-SM800A」から6件の脆弱性が見つかったと報じた。認証されていない攻撃者が遠隔から装置を乗っ取る可能性があり、最新版ファームウェアでも修正されていないという。",
-      "threat_actors": [],
-      "title": "冷蔵・冷凍設備の制御装置に6件の脆弱性、認証なしで乗っ取りの恐れ"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
       "cves": [
         "CVE-2026-129448"
@@ -599,6 +577,36 @@
       "summary_excerpt": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolve",
       "threat_actors": [],
       "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T22:22:36.866914+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-bbc89a2472ca1e82408709f2",
+      "primary_category": "threat_report",
+      "public_article_id": "url:bbc89a2472ca1e82408709f2",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "cve",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T21:30:19+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "A suspected China-nexus espionage group tracked as Armory Castle (formerly UNC5221) has been exploiting a VMware vCenter zero-day since at least early September, more than two months before Broadcom released a fix, Google Threat Intelligence Group (GTIG) revealed. The vulnerability (CVE-2026-123890) carries a CVSS score of 9.8 and allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, which organizations use to manage their VMware servers and virtual machines. Broadcom fixed it … More → The post VMware vCenter zero-day exploited for months before patch (CVE-2026-123890) appeared first on Help Net Security .",
+      "summary_excerpt": "A suspected China-nexus espionage group tracked as Armory Castle (formerly UNC5221) has been exploiting a VMware vCenter zero-day since at least early September, more than two months before Broadcom released a fix, Google Threat Intelligence Group (GTIG) revealed. The vulnerability (CVE-2026-123890) carries a CVSS score of 9.8 and allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, which organizations use to manage their VMware servers and virtual machines. Broadcom fixed it … More → The post VMware vCenter zero-day exploited for months before patch ",
+      "threat_actors": [],
+      "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)"
     }
   ],
   "rising": [],
@@ -967,19 +975,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-20T03:00:00+00:00",
-    "last_as_of": "2026-11-23T03:00:00+00:00",
+    "first_as_of": "2026-11-20T04:00:00+00:00",
+    "last_as_of": "2026-11-23T04:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-23T03:00:00+00:00",
-  "heat_as_of": "2026-11-23T03:00:00+00:00",
+  "news_as_of": "2026-11-23T04:00:00+00:00",
+  "heat_as_of": "2026-11-23T04:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26020,
-  "last_published_at": "2026-11-23T12:08:14.388892+09:00",
-  "publication_slot_jst": "2026-11-23T12:00:00+09:00"
+  "last_published_at": "2026-11-23T13:08:28.755747+09:00",
+  "publication_slot_jst": "2026-11-23T13:00:00+09:00"
 }
