@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-23T06:09:02.288915+00:00",
-  "as_of": "2026-11-23T06:00:00+00:00",
+  "generated_at": "2026-11-23T07:07:54.322956+00:00",
+  "as_of": "2026-11-23T07:00:00+00:00",
   "catalog_count": 26022,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -659,36 +659,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-      "cves": [
-        "CVE-2026-123890"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T16:24:11.161676+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-209921156d987de0e7b75345",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:209921156d987de0e7b75345",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T15:33:31+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-      "summary_excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-      "threat_actors": [],
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://news.mynavi.jp/techplus/article/20261120-5367457/",
       "cves": [
         "CVE-2024-49138"
@@ -949,6 +919,36 @@
       "summary_excerpt": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
       "threat_actors": [],
       "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+      "cves": [
+        "CVE-2026-132825"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T19:52:03.159756+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-d274b5196e0b0c431b03beb1",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:d274b5196e0b0c431b03beb1",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T19:34:10+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE). The post Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE appeared first on SecurityWeek .",
+      "summary_excerpt": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE). The post Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE"
     }
   ],
   "timeseries_status": {
@@ -982,19 +982,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-20T06:00:00+00:00",
-    "last_as_of": "2026-11-23T06:00:00+00:00",
+    "first_as_of": "2026-11-20T07:00:00+00:00",
+    "last_as_of": "2026-11-23T07:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-23T06:00:00+00:00",
-  "heat_as_of": "2026-11-23T06:00:00+00:00",
+  "news_as_of": "2026-11-23T07:00:00+00:00",
+  "heat_as_of": "2026-11-23T07:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26022,
-  "last_published_at": "2026-11-23T15:09:13.398607+09:00",
-  "publication_slot_jst": "2026-11-23T15:00:00+09:00"
+  "last_published_at": "2026-11-23T16:08:05.314565+09:00",
+  "publication_slot_jst": "2026-11-23T16:00:00+09:00"
 }
