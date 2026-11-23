@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-23T00:08:10.583756+00:00",
-  "as_of": "2026-11-23T00:00:00+00:00",
+  "generated_at": "2026-11-23T01:08:09.602438+00:00",
+  "as_of": "2026-11-23T01:00:00+00:00",
   "catalog_count": 26020,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -94,7 +94,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-23T03:52:02.488163+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-f7511684402b8adf536b4689",
       "primary_category": "vulnerability",
       "public_article_id": "url:f7511684402b8adf536b4689",
@@ -328,7 +328,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-23T03:52:02.488163+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-f7511684402b8adf536b4689",
       "primary_category": "vulnerability",
       "public_article_id": "url:f7511684402b8adf536b4689",
@@ -467,87 +467,77 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
       "cves": [
-        "CVE-2026-129448",
-        "CVE-2026-82384"
+        "CVE-2026-129448"
       ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:23:24.775348+09:00",
-      "heat_score": 56.77,
-      "permalink_id": "article-url-f7eae7be54c91fe04bcca030",
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T18:22:49.920534+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-552b60cb29a0722aae4ac33a",
       "primary_category": "vulnerability",
-      "public_article_id": "url:f7eae7be54c91fe04bcca030",
+      "public_article_id": "url:552b60cb29a0722aae4ac33a",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-20T09:00:00+09:00",
+      "published_at": "2026-11-21T17:49:13+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
-      "summary_excerpt": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
       "threat_actors": [],
-      "title": "CVE-2026-129448: Apache Roller"
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123890",
+      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-123633",
       "cves": [
-        "CVE-2026-123890"
+        "CVE-2026-123007",
+        "CVE-2026-123633"
       ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:23:24.757818+09:00",
-      "heat_score": 56.77,
-      "permalink_id": "article-url-0f5fd783ae6c3664601eecca",
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T09:38:16.978894+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-a09ba47a80ca81f6c539f7ed",
       "primary_category": "vulnerability",
-      "public_article_id": "url:0f5fd783ae6c3664601eecca",
+      "public_article_id": "url:a09ba47a80ca81f6c539f7ed",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-20T09:00:00+09:00",
+      "published_at": "2026-11-21T08:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
-      "summary_excerpt": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Palo Alto Security Advisories",
+      "summary": null,
+      "summary_excerpt": null,
       "threat_actors": [],
-      "title": "CVE-2026-123890: Broadcom VMware vCenter"
+      "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-42884",
+      "canonical_url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
       "cves": [
-        "CVE-2025-42884"
+        "CVE-2026-132825"
       ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:23:24.747388+09:00",
-      "heat_score": 56.77,
-      "permalink_id": "article-url-0334fad67ab8341ef9405840",
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T06:53:07.243328+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-c851a250df92def96949f9a3",
       "primary_category": "vulnerability",
-      "public_article_id": "url:0334fad67ab8341ef9405840",
+      "public_article_id": "url:c851a250df92def96949f9a3",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -555,34 +545,38 @@
           "label": "Vulnerability"
         },
         {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
         }
       ],
-      "published_at": "2026-11-20T09:00:00+09:00",
+      "published_at": "2026-11-21T05:24:38+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
-      "summary_excerpt": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cloudflare Blog Security",
+      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "summary_excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
       "threat_actors": [],
-      "title": "CVE-2025-42884: SAP NetWeaver"
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-76466",
+      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
       "cves": [
-        "CVE-2026-76466"
+        "CVE-2026-113425",
+        "CVE-2026-121810",
+        "CVE-2026-123007",
+        "CVE-2026-123633",
+        "CVE-2026-123634"
       ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:23:24.737810+09:00",
-      "heat_score": 56.77,
-      "permalink_id": "article-url-f26406319c1c019e4fca1af5",
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T05:38:03.862133+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-ba29749845e550e4d5631408",
       "primary_category": "vulnerability",
-      "public_article_id": "url:f26406319c1c019e4fca1af5",
+      "public_article_id": "url:ba29749845e550e4d5631408",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -590,166 +584,25 @@
           "label": "Vulnerability"
         },
         {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
         }
       ],
-      "published_at": "2026-11-20T09:00:00+09:00",
+      "published_at": "2026-11-21T01:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
-      "summary_excerpt": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cisco PSIRT Security Advisories",
+      "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolver vulnerability For more information, see the nginx Security Advisories . This advisory will be updated as additional information becomes available. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s <br/>Security Impact Rating: Critical <br/>CVE: CVE-2026-113425,CVE-2026-121810,CVE-2026-123007,CVE-2026-123633,CVE-2026-123634",
+      "summary_excerpt": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolve",
       "threat_actors": [],
-      "title": "CVE-2026-76466: Cisco Expressway Series"
+      "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026"
     }
   ],
   "rising": [],
   "persistent_hot": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-42884",
-      "cves": [
-        "CVE-2025-42884"
-      ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:23:24.747388+09:00",
-      "heat_score": 56.77,
-      "permalink_id": "article-url-0334fad67ab8341ef9405840",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0334fad67ab8341ef9405840",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "published_at": "2026-11-20T09:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
-      "summary_excerpt": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
-      "threat_actors": [],
-      "title": "CVE-2025-42884: SAP NetWeaver"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123890",
-      "cves": [
-        "CVE-2026-123890"
-      ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:23:24.757818+09:00",
-      "heat_score": 56.77,
-      "permalink_id": "article-url-0f5fd783ae6c3664601eecca",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0f5fd783ae6c3664601eecca",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "published_at": "2026-11-20T09:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
-      "summary_excerpt": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
-      "threat_actors": [],
-      "title": "CVE-2026-123890: Broadcom VMware vCenter"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-76466",
-      "cves": [
-        "CVE-2026-76466"
-      ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:23:24.737810+09:00",
-      "heat_score": 56.77,
-      "permalink_id": "article-url-f26406319c1c019e4fca1af5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f26406319c1c019e4fca1af5",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "published_at": "2026-11-20T09:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
-      "summary_excerpt": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
-      "threat_actors": [],
-      "title": "CVE-2026-76466: Cisco Expressway Series"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
-      "cves": [
-        "CVE-2026-129448",
-        "CVE-2026-82384"
-      ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-21T04:23:24.775348+09:00",
-      "heat_score": 56.77,
-      "permalink_id": "article-url-f7eae7be54c91fe04bcca030",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f7eae7be54c91fe04bcca030",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "published_at": "2026-11-20T09:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
-      "summary_excerpt": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
-      "threat_actors": [],
-      "title": "CVE-2026-129448: Apache Roller"
-    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
@@ -848,6 +701,37 @@
       "summary_excerpt": "CyberNewsは11月18日（現地時間）、20カ国以上に設置されたWindows搭載POS（販売時点情報管理）端末700台超がマルウェアに感染し、100万件以上のクレジットカードやデビットカードの情報が流出したと報じた。攻撃には、2024年12月に修正済みのWindowsの脆弱性「CVE-2024-49138」が悪用されていた。被害はブラジルに集中しており、更新プログラムが適用されていないPOS端末のセキュリティリスクが浮き彫りになった。",
       "threat_actors": [],
       "title": "POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-123633",
+      "cves": [
+        "CVE-2026-123007",
+        "CVE-2026-123633"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T09:38:16.978894+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-a09ba47a80ca81f6c539f7ed",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:a09ba47a80ca81f6c539f7ed",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T08:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Palo Alto Security Advisories",
+      "summary": null,
+      "summary_excerpt": null,
+      "threat_actors": [],
+      "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)"
     },
     {
       "ai_relevance": "none",
@@ -950,6 +834,106 @@
       "summary_excerpt": "A suspected China-nexus espionage group tracked as Armory Castle (formerly UNC5221) has been exploiting a VMware vCenter zero-day since at least early September, more than two months before Broadcom released a fix, Google Threat Intelligence Group (GTIG) revealed. The vulnerability (CVE-2026-123890) carries a CVSS score of 9.8 and allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, which organizations use to manage their VMware servers and virtual machines. Broadcom fixed it … More → The post VMware vCenter zero-day exploited for months before patch ",
       "threat_actors": [],
       "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "cves": [
+        "CVE-2026-99312"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T22:22:42.952581+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-c7b209f2aed89407eb0e30e5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c7b209f2aed89407eb0e30e5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-20T21:20:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+      "summary_excerpt": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+      "threat_actors": [],
+      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+      "cves": [
+        "CVE-2026-132825"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T06:53:07.243328+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-c851a250df92def96949f9a3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c851a250df92def96949f9a3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-21T05:24:38+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cloudflare Blog Security",
+      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "summary_excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "threat_actors": [],
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-20T20:23:57.950945+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-c99f552cbbef77a02904205c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c99f552cbbef77a02904205c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-20T19:32:50+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "summary_excerpt": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "threat_actors": [],
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network"
     }
   ],
   "timeseries_status": {
@@ -973,7 +957,7 @@
     "【LATEST #1】攻撃急増 背景にセキュリティ軽視",
     "【HOTTEST #1 / Heat 65】Microsoftが4万8000ドルを支払った脆弱性　文書1つでCopilotを乗っ取る「ChatMate」攻撃とは",
     "【LATEST #2】Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
-    "【HOTTEST #2 / Heat 65】Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+    "【HOTTEST #2 / Heat 58.5】Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
     "【LATEST #3】Microsoftが4万8000ドルを支払った脆弱性　文書1つでCopilotを乗っ取る「ChatMate」攻撃とは",
     "【HOTTEST #3 / Heat 58.5】Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
     "【LATEST #4】Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
@@ -983,19 +967,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-20T00:00:00+00:00",
-    "last_as_of": "2026-11-23T00:00:00+00:00",
+    "first_as_of": "2026-11-20T01:00:00+00:00",
+    "last_as_of": "2026-11-23T01:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-23T00:00:00+00:00",
-  "heat_as_of": "2026-11-23T00:00:00+00:00",
+  "news_as_of": "2026-11-23T01:00:00+00:00",
+  "heat_as_of": "2026-11-23T01:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26020,
-  "last_published_at": "2026-11-23T09:08:21.826345+09:00",
-  "publication_slot_jst": "2026-11-23T09:00:00+09:00"
+  "last_published_at": "2026-11-23T10:08:20.828263+09:00",
+  "publication_slot_jst": "2026-11-23T10:00:00+09:00"
 }
