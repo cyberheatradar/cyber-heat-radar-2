@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-23T22:08:31.305685+00:00",
-  "as_of": "2026-11-23T22:00:00+00:00",
-  "catalog_count": 26073,
+  "generated_at": "2026-11-23T23:08:06.508621+00:00",
+  "as_of": "2026-11-23T23:00:00+00:00",
+  "catalog_count": 26075,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,39 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T07:22:36.278286+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-ce2c122eeb6fc68a37116f88",
+      "primary_category": "ai_security",
+      "public_article_id": "url:ce2c122eeb6fc68a37116f88",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-24T06:21:42+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Dark Reading",
+      "summary": "CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.",
+      "summary_excerpt": "CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.",
+      "threat_actors": [],
+      "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://japan.zdnet.com/article/35255010/",
@@ -242,34 +275,6 @@
       "summary_excerpt": "The FBI is reportedly investigating a data breach involving the National Crime Information Center, a database used by U.S. law enforcement agencies that contains information on criminals, fugitives and missing people.",
       "threat_actors": [],
       "title": "FBI reportedly facing second data breach involving National Crime Information Center"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T04:24:00.413753+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-1148fa5b1baf8eb64de33238",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:1148fa5b1baf8eb64de33238",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T02:56:56+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "CISA, F6 sound the alarm after PoC exploit made public",
-      "summary_excerpt": "CISA, F6 sound the alarm after PoC exploit made public",
-      "threat_actors": [],
-      "title": "Critical Cisco remote code execution bug under attack"
     }
   ],
   "hottest": [
@@ -441,6 +446,37 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "cves": [
+        "CVE-2026-133968",
+        "CVE-2026-134624"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T07:22:18.198989+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-75ea09ea3e752e0248bf3682",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:75ea09ea3e752e0248bf3682",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-23T21:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CISA Cybersecurity Advisories",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
+      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civil",
+      "threat_actors": [],
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://cyberscoop.com/wpide-csrf-vulnerability-cve-2026-124251/",
       "cves": [
         "CVE-2026-124251",
@@ -551,34 +587,6 @@
       "summary_excerpt": "フロンティアAIモデルが従来のセキュリティを激変させている。AIの悪用と防御への活用の実際の状況などについてシスコシステムの専門家に聞いた。",
       "threat_actors": [],
       "title": "「大規模な脆弱性への対応は今後も頻発する」--シスコの専門家に聞く、AI時代のセキュリティ"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T06:22:20.230203+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-957088ac58c071d1f39795bc",
-      "primary_category": "incident",
-      "public_article_id": "url:957088ac58c071d1f39795bc",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-24T05:54:51+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
-      "summary_excerpt": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
-      "threat_actors": [],
-      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million"
     }
   ],
   "rising": [],
@@ -930,32 +938,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】「大規模な脆弱性への対応は今後も頻発する」--シスコの専門家に聞く、AI時代のセキュリティ",
+    "【LATEST #1】CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
     "【HOTTEST #1 / Heat 70.97】CVE-2026-133968: Project MONAI MONAI Label",
-    "【LATEST #2】South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+    "【LATEST #2】「大規模な脆弱性への対応は今後も頻発する」--シスコの専門家に聞く、AI時代のセキュリティ",
     "【HOTTEST #2 / Heat 70.97】CVE-2026-134624: N-able MailAssure",
-    "【LATEST #3】相次ぐサイバー攻撃、漏洩メアドが次の標的に　努力不足の企業に罰則強化論",
+    "【LATEST #3】South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
     "【HOTTEST #3 / Heat 67.5】Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-    "【LATEST #4】AI駆動で再成長へ、ランサム被害乗り越えたアスクル社長がいま伝えたいこと",
+    "【LATEST #4】相次ぐサイバー攻撃、漏洩メアドが次の標的に　努力不足の企業に罰則強化論",
     "【HOTTEST #4 / Heat 67.5】N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-    "【LATEST #5】ユミルリンクの「Cuenote」で延べ4786万件流出、2種類の攻撃手法を確認",
+    "【LATEST #5】AI駆動で再成長へ、ランサム被害乗り越えたアスクル社長がいま伝えたいこと",
     "【HOTTEST #5 / Heat 67.5】Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-20T22:00:00+00:00",
-    "last_as_of": "2026-11-23T22:00:00+00:00",
+    "first_as_of": "2026-11-20T23:00:00+00:00",
+    "last_as_of": "2026-11-23T23:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-23T22:00:00+00:00",
-  "heat_as_of": "2026-11-23T22:00:00+00:00",
+  "news_as_of": "2026-11-23T23:00:00+00:00",
+  "heat_as_of": "2026-11-23T23:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26073,
-  "last_published_at": "2026-11-24T07:08:42.597499+09:00",
-  "publication_slot_jst": "2026-11-24T07:00:00+09:00"
+  "news_catalog_count": 26075,
+  "last_published_at": "2026-11-24T08:08:17.714931+09:00",
+  "publication_slot_jst": "2026-11-24T08:00:00+09:00"
 }
