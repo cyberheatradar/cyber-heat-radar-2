@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-23T08:09:08.002560+00:00",
-  "as_of": "2026-11-23T08:00:00+00:00",
-  "catalog_count": 26024,
+  "generated_at": "2026-11-23T09:08:18.085344+00:00",
+  "as_of": "2026-11-23T09:00:00+00:00",
+  "catalog_count": 26025,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,28 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/a-week-in-security-november-16-november-22",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-23T17:38:18.957491+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-e5308d2347435fe06e9480f2",
+      "primary_category": "other",
+      "public_article_id": "url:e5308d2347435fe06e9480f2",
+      "public_tags": [],
+      "published_at": "2026-11-23T17:01:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Malwarebytes Blog",
+      "summary": "A list of topics we covered in the week of November 16 to November 22 of 2026",
+      "summary_excerpt": "A list of topics we covered in the week of November 16 to November 22 of 2026",
+      "threat_actors": [],
+      "title": "A week in security (November 16 – November 22)"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
@@ -269,39 +291,6 @@
       "summary_excerpt": null,
       "threat_actors": [],
       "title": "タワーレコード 1100万件情報流出"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-22T15:22:48.595952+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-a3c63e958cb92eef3df0aa51",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:a3c63e958cb92eef3df0aa51",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-22T14:03:41+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
-      "summary_excerpt": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
-      "threat_actors": [],
-      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps"
     }
   ],
   "hottest": [
@@ -619,75 +608,6 @@
   "persistent_hot": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
-      "cves": [
-        "CVE-2026-113425",
-        "CVE-2026-118899",
-        "CVE-2026-120967",
-        "CVE-2026-120993",
-        "CVE-2026-121810",
-        "CVE-2026-123007",
-        "CVE-2026-123633",
-        "CVE-2026-123634",
-        "CVE-2026-123640",
-        "CVE-2026-125283"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T06:53:12.334498+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-128f15f1c8b36bbb8c13e7b1",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:128f15f1c8b36bbb8c13e7b1",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T17:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Fortinet PSIRT Advisories",
-      "summary": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6.CVE-2026-123634 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.0.0 - 1.30.6.CVE-2026-113425 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 0.5.33 - 1.30.6.CVE-2026-118899 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.13.0 - 1.30.6.CVE-2026-120967 (medium)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.5 - 1.30.6.CVE-2026-120993 (medium)This vulnerability affects NGINX OSS versions 1.31.4.CVE-2026-125283 (medium)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 0.9.6 - 1.30.6.CVE-2026-123640 (medium)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.15.2 - 1.30.6.NGINX OSS versions 1.30.7 stable; 1.31.9 mainline are fixing the issues. None of Fortinet products use NGINX Plus. Revised on 2026-11-21 00:00:00",
-      "summary_excerpt": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6.CVE-2026-123634 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.0.0 - 1.30.6.CVE-2026-113425 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 0.5.33 - 1.30.6.CVE-2026-118899 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.",
-      "threat_actors": [],
-      "title": "NGINX vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261120-5367457/",
-      "cves": [
-        "CVE-2024-49138"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-20T17:38:21.403841+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-94769cc53c678e98cb2b5da7",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:94769cc53c678e98cb2b5da7",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-20T17:17:40+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "CyberNewsは11月18日（現地時間）、20カ国以上に設置されたWindows搭載POS（販売時点情報管理）端末700台超がマルウェアに感染し、100万件以上のクレジットカードやデビットカードの情報が流出したと報じた。攻撃には、2024年12月に修正済みのWindowsの脆弱性「CVE-2024-49138」が悪用されていた。被害はブラジルに集中しており、更新プログラムが適用されていないPOS端末のセキュリティリスクが浮き彫りになった。",
-      "summary_excerpt": "CyberNewsは11月18日（現地時間）、20カ国以上に設置されたWindows搭載POS（販売時点情報管理）端末700台超がマルウェアに感染し、100万件以上のクレジットカードやデビットカードの情報が流出したと報じた。攻撃には、2024年12月に修正済みのWindowsの脆弱性「CVE-2024-49138」が悪用されていた。被害はブラジルに集中しており、更新プログラムが適用されていないPOS端末のセキュリティリスクが浮き彫りになった。",
-      "threat_actors": [],
-      "title": "POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-123633",
       "cves": [
         "CVE-2026-123007",
@@ -948,6 +868,72 @@
       "summary_excerpt": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE). The post Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T02:22:49.870733+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-0b4042589720c6043be8f152",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:0b4042589720c6043be8f152",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-21T01:58:16+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
+      "summary_excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
+      "threat_actors": [],
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisecurity.org/advisory/a-vulnerability-in-vmware-products-could-allow-for-authentication-bypass_2026-140",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T07:22:27.361393+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-0c0722d9dbecf698b564b28a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0c0722d9dbecf698b564b28a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T05:40:39+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Center for Internet Security Advisories",
+      "summary": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.",
+      "summary_excerpt": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new ac",
+      "threat_actors": [],
+      "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass"
     }
   ],
   "timeseries_status": {
@@ -968,32 +954,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+    "【LATEST #1】A week in security (November 16 – November 22)",
     "【HOTTEST #1 / Heat 65】CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-    "【LATEST #2】Xalgorix: Open-source AI penetration testing tool",
+    "【LATEST #2】CISA flags critical Cisco RCE flaw as actively exploited in attacks",
     "【HOTTEST #2 / Heat 58.5】Microsoftが4万8000ドルを支払った脆弱性　文書1つでCopilotを乗っ取る「ChatMate」攻撃とは",
-    "【LATEST #3】Google claims last week’s critical VMware bug was under attack in September",
+    "【LATEST #3】Xalgorix: Open-source AI penetration testing tool",
     "【HOTTEST #3 / Heat 58.5】Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-    "【LATEST #4】攻撃急増 背景にセキュリティ軽視",
+    "【LATEST #4】Google claims last week’s critical VMware bug was under attack in September",
     "【HOTTEST #4 / Heat 58.5】Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-    "【LATEST #5】Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+    "【LATEST #5】攻撃急増 背景にセキュリティ軽視",
     "【HOTTEST #5 / Heat 58.5】タワーレコード 1100万件情報流出"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-20T08:00:00+00:00",
-    "last_as_of": "2026-11-23T08:00:00+00:00",
+    "first_as_of": "2026-11-20T09:00:00+00:00",
+    "last_as_of": "2026-11-23T09:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-23T08:00:00+00:00",
-  "heat_as_of": "2026-11-23T08:00:00+00:00",
+  "news_as_of": "2026-11-23T09:00:00+00:00",
+  "heat_as_of": "2026-11-23T09:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26024,
-  "last_published_at": "2026-11-23T17:09:19.228956+09:00",
-  "publication_slot_jst": "2026-11-23T17:00:00+09:00"
+  "news_catalog_count": 26025,
+  "last_published_at": "2026-11-23T18:08:29.485672+09:00",
+  "publication_slot_jst": "2026-11-23T18:00:00+09:00"
 }
