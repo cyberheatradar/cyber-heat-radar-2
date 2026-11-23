@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-23T04:40:02.809077+00:00",
+  "source_snapshot_generated_at": "2026-11-23T05:40:03.457721+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:9533f2b79dadffeda16367d9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "architecture",
+          "robotics",
+          "エッジAI"
+        ],
+        "url": "https://zenn.dev/taigensato/articles/0b05211e55d32d",
+        "title": "Emotion-Tabu Edge Biped: Autonomous Night-Escort Robot Architecture /",
+        "author": "taigen",
+        "published_at": "2026-11-23T05:18:10.967000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2afa605e4f86905ca29a8a08",
+        "source": "zenn",
+        "author_tags": [
+          "Rust",
+          "Security",
+          "Test",
+          "Lean 4",
+          "形式検証"
+        ],
+        "url": "https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
+        "title": "著名な製OSSをLean 4で形式検証してみたら、めちゃめちゃバグが見つかった話",
+        "author": "Koukyosyumei",
+        "published_at": "2026-11-23T05:17:05+00:00",
+        "excerpt": "こんにちは。コロンビア大学の博士課程でシステムセキュリティ・形式検証の研究をしている Koukyosyumei です。 今回は、ざっくり言うと、Rust製の有名なOSSをLean 4で形式検証するベンチマークを作っていたら、思いがけず実際のセキュリティ脆弱性をいくつも発見してしまった、という話です。 現在私がやっているプロジェクトの一つに、RustのWebアプリケーションをLean 4で形式検証できるフレームワーク h5i があります。h5iは、RustのWebフレームワークであるAxumをベースに、アプリケーションの重要なロジックをLean 4に変換し、認可、データの分離、ビジネスロジ..."
+      },
+      {
+        "id": "zenn:9203b37d55e5ab0abb1e4cf4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261123-tech-watch",
+        "title": "Tech Watch 2026-11-23: ハーネスと検証の境界",
+        "author": "らいけん",
+        "published_at": "2026-11-23T05:15:10+00:00",
+        "excerpt": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: Hugging Face の比較では、課題の成功率が上がる一方で、使うトークンは減っている。同じモデルの重みを基にしているのに、なぜ両方が動いたのだろう。自分は道具との接し方に理由がある気がする。 今日の 10 件 Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares A..."
+      },
       {
         "id": "zenn:9ba739784e32d1aadfa1c07d",
         "source": "zenn",
@@ -652,6 +700,16 @@
         "author": "みゆ",
         "published_at": "2026-11-22T23:42:04.066000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:0dd549c959f9f33fe59617cf",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/leading_ai/books/enterprise-security-in-the-ai-era",
+        "title": "パッチの向こう側 ── AI時代のエンタープライズ・セキュリティを、世界の提言から読む",
+        "author": "山内 怜史（Satoshi Yamauchi）",
+        "published_at": "2026-11-22T23:23:43+00:00",
+        "excerpt": "世界8種類の発行元の提言211件を一次資料で確かめ、攻撃が成功しても意味を持つ「何を持つか・いつ気づくか・どう伝えるか」の三つを示す更新型の提言書。CC BY 4.0。"
       },
       {
         "id": "zenn:453b690ec2a52755a356edcb",
@@ -48674,6 +48732,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:0ae4d1dbd1731a0a23515ba6",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "Security",
+          "コマンドプロンプト",
+          "PowerShell",
+          "Linux"
+        ],
+        "url": "https://qiita.com/555hamano/items/cbf6d1172ecc86d99b08",
+        "title": "第49回：クラウドネイティブ：Microsoft Entra ID（旧Azure AD）連携によるID管理のモダン化",
+        "author": "555hamano",
+        "published_at": "2026-11-23T14:34:03+09:00",
+        "excerpt": "はじめに オンプレミスのActive Directory（AD）は、長年企業ネットワークの認証基盤を支えてきましたが、SaaS（Microsoft 365、Salesforce、Slack等）の普及とリモートワークの定着により、「社内ネットワーク（境界）の内側だけを信頼する」従来の認証モデルは限界を迎えています。 また、オンプレミスADのドメインコントローラー（DC）自体がランサムウェアや特権昇格攻撃の標的となるリスクも高まっています。 この課題を解決し、ID管理をゼロトラスト時代のセキュリティ基盤へと進化させるのが、Microsoft Entra ID（旧Azure AD）との連携によるID管理のモダン化です。この記事では、オンプレミスADとEntra IDのハイブリッド構成、同期アーキテクチャの選定、およびモダン認証による要塞化の手順を、Microsoft公式ドキュメントに沿って解説します（2026年11月時点の情報です）。 前提条件と注意 条件付きアクセスには Microsoft Entra ID P1 （Microsoft 365 Bus"
+      },
+      {
         "id": "qiita:3cb69906844ea431c53af955",
         "source": "qiita",
         "author_tags": [
@@ -66597,6 +66671,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6e8bf9c0b2eccd00653a7f7b",
+        "source": "medium",
+        "author_tags": [
+          "ai-agent",
+          "cybersecurity",
+          "ai"
+        ],
+        "url": "https://medium.com/@saurabh.deochake/solving-the-ai-agent-kill-switch-problem-zero-trust-containment-for-ai-agent-swarms-41bcdbc4b8a6",
+        "title": "Solving the AI Agent Kill Switch Problem: Zero-Trust Containment for AI Agent Swarms",
+        "author": "Saurabh Deochake",
+        "published_at": "2026-11-23T05:24:55+00:00",
+        "excerpt": "Cite the paper as: Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ede21eb597178c060058c305",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "incident-response",
+          "data-breach",
+          "zia-networks",
+          "small-business"
+        ],
+        "url": "https://medium.com/@zianetworksinsights/the-first-hour-after-a-cyberattack-your-action-plan-3190f39e5282",
+        "title": "The First Hour After a Cyberattack: Your Action Plan",
+        "author": "ZIA Networks",
+        "published_at": "2026-11-23T05:23:51+00:00",
+        "excerpt": "Learn what to do in the first hour after a cyberattack. A step-by-step guide to containing damage and protecting your business from ZIA… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9f5220749e08ae9746391823",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "single-sign-on",
+          "zendesk",
+          "cybersecurity",
+          "email-security"
+        ],
+        "url": "https://masimshahzad.medium.com/zendesk-email-spoofing-from-support-ticket-to-slack-f02126c74139",
+        "title": "Zendesk Email Spoofing: From Support Ticket to Slack",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-23T05:14:24+00:00",
+        "excerpt": "A 15-year-old’s Zendesk bug let spoofed replies join any support ticket, and Sign in with Apple turned that into Slack access Continue reading on Medium »"
+      },
+      {
+        "id": "medium:91ecb3caaee8d4b5fab35b84",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "information-technology",
+          "nis2-compliance",
+          "information-security"
+        ],
+        "url": "https://medium.com/@polarit.denmark/nis2-consulting-complete-guide-to-nis2-compliance-and-cybersecurity-2d6eccd5d47f",
+        "title": "NIS2 Consulting: Complete Guide to NIS2 Compliance and Cybersecurity",
+        "author": "PolarIT",
+        "published_at": "2026-11-23T05:09:15+00:00",
+        "excerpt": "Cybersecurity is no longer just an IT concern; it is a critical business priority. With the increasing number of cyberattacks, ransomware… Continue reading on Medium »"
+      },
       {
         "id": "medium:22c25680feff6c8cef267448",
         "source": "medium",
