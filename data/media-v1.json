@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-23T15:40:03.443631+00:00",
+  "source_snapshot_generated_at": "2026-11-23T16:40:05.029561+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:dfd6151d27403c2abc8dde2c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "React",
+          "個人開発",
+          "Cloudflare Pages",
+          "Astro"
+        ],
+        "url": "https://zenn.dev/hidaka_sj/articles/fb56d548f3a53a",
+        "title": "AIと協働して、調味料の開封日管理ツールを個人開発・公開した記録",
+        "author": "ひなや",
+        "published_at": "2026-11-23T16:12:46.480000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4cf2b6574512d8f54caeef11",
         "source": "zenn",
@@ -58651,6 +58667,22 @@
         "excerpt": "対象 : 自社ドメインを管理している Web 担当者・サイト運営者・制作会社の方 解決すること : 「管理画面の持ち主が曖昧」「ロックや CAA の状況を知らない」「DNS を書き換えられても気づけない」状態をなくします 方法 : アカウント・ロック・更新・CAA・DNSSEC・監視の 7 項目を、コマンドで確認しながら設定します なぜドメインとDNSを守るのか WAF や HTTPS は、訪問者が正しいサーバーに届いて初めて効きます。DNS を書き換えられると、サーバーに侵入されなくても、訪問者やメールを別の場所へ誘導されます。 JPRS は 2014 年、国内組織が運用する複数の .com サイトで、登録情報の不正書き換えによる ドメイン名ハイジャックの被害 が出たとして注意喚起しました。米国 CISA も 2019 年の緊急指令 ED 19-01 で、政府機関に「DNS レコードの監査」「DNS アカウントのパスワード変更」「多要素認証の追加」「CT ログの監視」を指示しています。 手順0: 現在の状態を記録する 後で変化を判断できるよう、"
       },
       {
+        "id": "qiita:23fc5945c5eb798643aef964",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "Security",
+          "Laravel",
+          "Rails",
+          "owasp"
+        ],
+        "url": "https://qiita.com/fuji1009_REBELL/items/860d398509a0c6024875",
+        "title": "外部診断の前にAIで自浄する：OWASP観点でLaravel/Railsの認可漏れ・インジェクションを点検した手順",
+        "author": "fuji1009_REBELL",
+        "published_at": "2026-11-06T07:20:08+09:00",
+        "excerpt": "約3万行の業務Webアプリに、Claude Codeで OWASP Top 10 観点のレビューをかけたところ、潜在的な脆弱性が12箇所出てきました。うち3箇所は、実際に悪用できてしまうSQLインジェクションでした。 きっかけは単純で、外部の専門診断は見積もりが100万円〜という水準で、予算が取れなかったことです。この記事は、その「診断を頼む前に自分でやる」点検の手順と、見つかったものを Policy / FormRequest / ミドルウェアの層に寄せて、再発しにくくした 話をまとめたものです。 先に温度感を書いておきます。AIスキャンは外部診断の代替ではありません。私は「診断に出す前の自浄」と位置づけています。なお、脆弱性の再現コードは載せません。パターンの説明だけに留めます。 前提 対象: Laravel（12.x のドキュメントで確認）と Rails の業務アプリ（認証済みユーザーが使う管理系） 道具: Claude Code。ソース全体を読ませてレビューさせる 基準: OWASP Top 10。2025年版が公開されており、A01 は"
+      },
+      {
         "id": "qiita:587eaf95ee12843cf1139c02",
         "source": "qiita",
         "author_tags": [
@@ -67735,6 +67767,63 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ef3c473effa7ca0d57760870",
+        "source": "medium",
+        "author_tags": [
+          "appsec",
+          "cybersecurity",
+          "ai-in-security",
+          "zero-trust",
+          "vulnerability-management"
+        ],
+        "url": "https://auratechinsights.medium.com/security-teams-are-losing-the-race-against-software-flaws-f2198d010ef0",
+        "title": "Security Teams Are Losing the Race Against Software Flaws",
+        "author": "Aura Tech Insights",
+        "published_at": "2026-11-23T16:13:33+00:00",
+        "excerpt": "Finding vulnerabilities is getting easier. Fixing them isn’t. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5ec7a22ee7635aab7dac6182",
+        "source": "medium",
+        "author_tags": [
+          "patching",
+          "cybersecurity",
+          "cve-2026-99312",
+          "vmpg"
+        ],
+        "url": "https://medium.com/@0xGooner/the-4-year-time-bomb-in-your-cloud-what-a-127-gb-hypervisor-escape-means-for-executive-risk-6b14a3408d7b",
+        "title": "The 4-Year Time Bomb in Your Cloud: What a 127 GB Hypervisor Escape Means for Executive Risk",
+        "author": "VIJAY CHARI",
+        "published_at": "2026-11-23T16:12:42+00:00",
+        "excerpt": "A single 2022 security patch quietly broke tenant isolation on AMD-powered Linux clouds. Here is what senior leaders need to know about… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b34f29783d55980ea504f8f4",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "social-engineering"
+        ],
+        "url": "https://keepnetlabs.medium.com/email-only-testing-grades-the-easier-exam-vishing-and-callback-phishing-simulations-2706073bf998",
+        "title": "Email-Only Testing Grades the Easier Exam: Vishing and Callback Phishing Simulations",
+        "author": "Keepnet",
+        "published_at": "2026-11-23T16:02:29+00:00",
+        "excerpt": "Vishing and callback phishing simulations test the moment an email gateway cannot see: an employee on the phone, being asked for a code, a… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:68d0bfe623eeab638bfdab70",
+        "source": "medium",
+        "author_tags": [
+          "phishing",
+          "cybersecurity"
+        ],
+        "url": "https://keepnetlabs.medium.com/hoxhunt-alternatives-what-to-compare-once-voice-is-covered-caeec707db0b",
+        "title": "Hoxhunt Alternatives: What to Compare Once Voice Is Covered",
+        "author": "Keepnet",
+        "published_at": "2026-11-23T16:01:27+00:00",
+        "excerpt": "Teams that search for Hoxhunt alternatives are rarely unhappy with the training itself. They usually want three things Hoxhunt does… Continue reading on Medium »"
+      },
       {
         "id": "medium:d708cb255b6effe859339fed",
         "source": "medium",
