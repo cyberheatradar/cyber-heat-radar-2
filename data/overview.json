@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-23T13:09:17.907218+00:00",
-  "as_of": "2026-11-23T13:00:00+00:00",
-  "catalog_count": 26040,
+  "generated_at": "2026-11-23T14:09:14.711189+00:00",
+  "as_of": "2026-11-23T14:00:00+00:00",
+  "catalog_count": 26045,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,106 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-23T22:53:20.567284+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-cfdf5bb87e1b479391344be8",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:cfdf5bb87e1b479391344be8",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        },
+        {
+          "color_family": "neutral",
+          "key": "ics",
+          "label": "ICS"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cisa_ics_advisory",
+          "label": "ICS Advisory"
+        }
+      ],
+      "published_at": "2026-11-23T22:26:22+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek .",
+      "summary_excerpt": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/23/cleverbridge-data-breach-card-numbers-cvv/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-23T22:22:47.145585+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-cfe4890e24fd2b109b7741c0",
+      "primary_category": "other",
+      "public_article_id": "url:cfe4890e24fd2b109b7741c0",
+      "public_tags": [],
+      "published_at": "2026-11-23T22:00:14+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Hackers breached e-commerce platform Cleverbridge and made off with payment card data stored on it, the company has confirmed. Cleverbridge handles purchases, payments and subscriptions for other businesses, and its website lists Red Hat, Sony, SUSE, Veeam, Tenable and Jamf among its clients. The company has not said which of them, if any, had customers affected by the breach. “On 4 November 2026, Cleverbridge detected unauthorised activity in our platform and took immediate steps to … More → The post Cleverbridge alerts customers that hackers stole their credit card and CVV numbers appeared first on Help Net Security .",
+      "summary_excerpt": "Hackers breached e-commerce platform Cleverbridge and made off with payment card data stored on it, the company has confirmed. Cleverbridge handles purchases, payments and subscriptions for other businesses, and its website lists Red Hat, Sony, SUSE, Veeam, Tenable and Jamf among its clients. The company has not said which of them, if any, had customers affected by the breach. “On 4 November 2026, Cleverbridge detected unauthorised activity in our platform and took immediate steps to … More → The post Cleverbridge alerts customers that hackers stole their credit card and CVV numbers appeared f",
+      "threat_actors": [],
+      "title": "Cleverbridge alerts customers that hackers stole their credit card and CVV numbers"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "cves": [
+        "CVE-2026-84869"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-23T22:22:54.484174+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-2da724996ccb9ddbf7a504e3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:2da724996ccb9ddbf7a504e3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-23T21:41:04+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
+      "summary_excerpt": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
+      "threat_actors": [],
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
@@ -37,6 +137,72 @@
       "summary_excerpt": "Microsoft says mitigation is in place, but admins must investigate possible compromise and rotate secrets",
       "threat_actors": [],
       "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "cves": [
+        "CVE-2026-134624"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-23T22:22:54.664614+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-89ef724f9ef49976c42f721d",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:89ef724f9ef49976c42f721d",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-23T21:28:09+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
+      "summary_excerpt": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
+      "threat_actors": [],
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+      "cves": [
+        "CVE-2026-123890",
+        "CVE-2026-76466"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-23T22:22:48.767177+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-fd9364223ab8c3d095a8e062",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:fd9364223ab8c3d095a8e062",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-23T21:26:10+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog on Friday, along with CVE-2026-123890, a VMware vCenter authentication bypass vulnerability that has been exploited as a zero-day for months by a suspected China-nexus espionage group. About CVE-2026-76466 An unauthenticated remote attacker with network access … More → The post Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466) appeared first on Help Net Security .",
+      "summary_excerpt": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog on Friday, along with CVE-2026-123890, a VMware vCenter authentication bypass vulnerability that has been exploited as a zero-day for months by a suspected China-nexus espionage group. About CVE-2026-76466 An unauthenticated remote attacker with network access … More → The post Cisco Expresswa",
+      "threat_actors": [],
+      "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)"
     },
     {
       "ai_relevance": "none",
@@ -157,50 +323,51 @@
       "summary_excerpt": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is scoped too narrowly: a security service validates the nonce only when the page URL parameter equals wpide exactly (App/Services/Security/Security.php). The plugin registers seven […] The post WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251) appeared first on CyberScoop .",
       "threat_actors": [],
       "title": "WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)"
-    },
+    }
+  ],
+  "hottest": [
     {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/23/cairn-ai-agents-autonomous-attacks/",
-      "cves": [],
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "cves": [
+        "CVE-2026-84869"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-23T20:23:39.123482+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-1b93dd6d25d2d1d28b0f0b83",
-      "primary_category": "ai_security",
-      "public_article_id": "url:1b93dd6d25d2d1d28b0f0b83",
+      "first_seen_at": "2026-11-23T22:22:54.484174+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-2da724996ccb9ddbf7a504e3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:2da724996ccb9ddbf7a504e3",
       "public_tags": [
         {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-23T19:49:38+09:00",
+      "published_at": "2026-11-23T21:41:04+09:00",
       "published_at_future_suppressed": false,
-      "security_relevance": "material",
+      "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Autonomous AI agents run by a Chinese-nexus threat actor spent nearly a full day failing to break into university servers, then found and exploited a zero-day in an open-source medical imaging AI application and gained a foothold. The agents ran on Cairn, an open-source AI penetration testing framework, with little human direction, Amazon Threat Intelligence says. The operator simply gave them a list of target IP addresses and a goal: “obtain shell access.” How the … More → The post Open-source AI pentesting framework Cairn keeps turning up in real-world attacks appeared first on Help Net Security .",
-      "summary_excerpt": "Autonomous AI agents run by a Chinese-nexus threat actor spent nearly a full day failing to break into university servers, then found and exploited a zero-day in an open-source medical imaging AI application and gained a foothold. The agents ran on Cairn, an open-source AI penetration testing framework, with little human direction, Amazon Threat Intelligence says. The operator simply gave them a list of target IP addresses and a goal: “obtain shell access.” How the … More → The post Open-source AI pentesting framework Cairn keeps turning up in real-world attacks appeared first on Help Net Secu",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
+      "summary_excerpt": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
       "threat_actors": [],
-      "title": "Open-source AI pentesting framework Cairn keeps turning up in real-world attacks"
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
-      "cves": [],
+      "canonical_url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "cves": [
+        "CVE-2026-134624"
+      ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-23T20:23:39.789821+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-3496608f8e6f759b29605975",
+      "first_seen_at": "2026-11-23T22:22:54.664614+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-89ef724f9ef49976c42f721d",
       "primary_category": "vulnerability",
-      "public_article_id": "url:3496608f8e6f759b29605975",
+      "public_article_id": "url:89ef724f9ef49976c42f721d",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -213,57 +380,30 @@
           "label": "Cloud Security"
         }
       ],
-      "published_at": "2026-11-23T19:34:01+09:00",
+      "published_at": "2026-11-23T21:28:09+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations. Microsoft Entra Connect Health is a cloud-based monitoring service that gives administrators a single view of the health, performance and alerts for their on-premises identity infrastructure in the Microsoft Entra admin center. According to the security notification, received by Help Net Security and shared by an … More → The post Attackers exploited Microsoft Entra Connect Health flaw to access tenant data appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations. Microsoft Entra Connect Health is a cloud-based monitoring service that gives administrators a single view of the health, performance and alerts for their on-premises identity infrastructure in the Microsoft Entra admin center. According to the security notification, received by Help Net Security and shared by an … More → The post Attackers exploited Microsoft Entra Connect Health flaw ",
+      "source_name": "The Hacker News",
+      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
+      "summary_excerpt": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
       "threat_actors": [],
-      "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data"
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://securelist.com/black-friday-threat-report-2026/122061/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T19:23:00.804100+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-e59a7f87a40b20d0fc9df48a",
-      "primary_category": "other",
-      "public_article_id": "url:e59a7f87a40b20d0fc9df48a",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-23T19:00:43+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Kaspersky Securelist",
-      "summary": "How cybercriminals prepare for Black Friday: phishing, scams and malware targeting online shoppers and gamers, GTA VI- and wellness-related schemes, and fake sales spam.",
-      "summary_excerpt": "How cybercriminals prepare for Black Friday: phishing, scams and malware targeting online shoppers and gamers, GTA VI- and wellness-related schemes, and fake sales spam.",
-      "threat_actors": [],
-      "title": "Black Friday, red flags: too-good-to-be-true deals hiding real threats"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/critical-cisco-expressway-flaw/",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
       "cves": [
+        "CVE-2026-123890",
         "CVE-2026-76466"
       ],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-23T19:22:54.858798+09:00",
+      "first_seen_at": "2026-11-23T22:22:48.767177+09:00",
       "heat_score": 75.0,
-      "permalink_id": "article-url-d0f84494679b1ffbd9e0651b",
+      "permalink_id": "article-url-fd9364223ab8c3d095a8e062",
       "primary_category": "vulnerability",
-      "public_article_id": "url:d0f84494679b1ffbd9e0651b",
+      "public_article_id": "url:fd9364223ab8c3d095a8e062",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -271,47 +411,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-23T19:00:00+09:00",
+      "published_at": "2026-11-23T21:26:10+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "Researchers warn that CVE-2026-76466, with a CVSS score of 9.8, is being actively exploited",
-      "summary_excerpt": "Researchers warn that CVE-2026-76466, with a CVSS score of 9.8, is being actively exploited",
+      "source_name": "Help Net Security",
+      "summary": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog on Friday, along with CVE-2026-123890, a VMware vCenter authentication bypass vulnerability that has been exploited as a zero-day for months by a suspected China-nexus espionage group. About CVE-2026-76466 An unauthenticated remote attacker with network access … More → The post Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466) appeared first on Help Net Security .",
+      "summary_excerpt": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog on Friday, along with CVE-2026-123890, a VMware vCenter authentication bypass vulnerability that has been exploited as a zero-day for months by a suspected China-nexus espionage group. About CVE-2026-76466 An unauthenticated remote attacker with network access … More → The post Cisco Expresswa",
       "threat_actors": [],
-      "title": "Critical Cisco Expressway Flaw Exploited in Attacks"
+      "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)"
     },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.cybersecuritydive.com/spons/ai-and-post-quantum-security-why-the-future-of-cyber-resilience-depends-on/874716/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T19:22:44.793720+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-8e1a2230a5adde28ea59a40b",
-      "primary_category": "ai_security",
-      "public_article_id": "url:8e1a2230a5adde28ea59a40b",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-23T19:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cybersecurity Dive",
-      "summary": "AI and PQC are competing for enterprise budgets. Discover why they belong on the same roadmap, and how they are essential to future-proofing enterprise security.",
-      "summary_excerpt": "AI and PQC are competing for enterprise budgets. Discover why they belong on the same roadmap, and how they are essential to future-proofing enterprise security.",
-      "threat_actors": [],
-      "title": "AI and post-quantum security: Why the future of cyber resilience depends on both"
-    }
-  ],
-  "hottest": [
     {
       "ai_relevance": "none",
       "canonical_url": "https://cyberscoop.com/wpide-csrf-vulnerability-cve-2026-124251/",
@@ -405,6 +515,54 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-23T22:53:20.567284+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-cfdf5bb87e1b479391344be8",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:cfdf5bb87e1b479391344be8",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        },
+        {
+          "color_family": "neutral",
+          "key": "ics",
+          "label": "ICS"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cisa_ics_advisory",
+          "label": "ICS Advisory"
+        }
+      ],
+      "published_at": "2026-11-23T22:26:22+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek .",
+      "summary_excerpt": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
       "cves": [],
       "document_form": "single_story",
@@ -491,480 +649,14 @@
       "summary_excerpt": "With help from two free AI models, I found and reported a real flaw in a WordPress plugin used by more than 40,000 sites. The unnerving part wasn’t just that it worked — it was how little experience I needed to get there. The post I’ve never hunted for a software vulnerability before. AI helped me find one in six hours. appeared first on CyberScoop .",
       "threat_actors": [],
       "title": "I’ve never hunted for a software vulnerability before. AI helped me find one in six hours."
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T20:23:39.789821+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-3496608f8e6f759b29605975",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:3496608f8e6f759b29605975",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-23T19:34:01+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations. Microsoft Entra Connect Health is a cloud-based monitoring service that gives administrators a single view of the health, performance and alerts for their on-premises identity infrastructure in the Microsoft Entra admin center. According to the security notification, received by Help Net Security and shared by an … More → The post Attackers exploited Microsoft Entra Connect Health flaw to access tenant data appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations. Microsoft Entra Connect Health is a cloud-based monitoring service that gives administrators a single view of the health, performance and alerts for their on-premises identity infrastructure in the Microsoft Entra admin center. According to the security notification, received by Help Net Security and shared by an … More → The post Attackers exploited Microsoft Entra Connect Health flaw ",
-      "threat_actors": [],
-      "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T19:23:03.468930+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-8dee64bf666c5ac0461a9c2f",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:8dee64bf666c5ac0461a9c2f",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-23T18:04:08+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
-      "summary_excerpt": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
-      "threat_actors": [],
-      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T16:52:19.274113+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-a3400f3457d4e983be384a6b",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:a3400f3457d4e983be384a6b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-23T16:44:19+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-      "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-      "threat_actors": [],
-      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.itmedia.co.jp/enterprise/articles/2611/23/news001.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T08:23:53.367862+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-6d0a11edf02988e6d6e8d8b1",
-      "primary_category": "other",
-      "public_article_id": "url:6d0a11edf02988e6d6e8d8b1",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-23T07:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "ITmedia Enterprise Security",
-      "summary": "一見無害な文書を「Microsoft 365 Copilot」にアップロードするだけで、攻撃者はそのCopilotに直接命令を出せるようになる。セキュリティ企業Rubrikがそんな攻撃手法を実証した。脆弱性は既に修正されたが、AIアシスタントはなぜ、どのように乗っ取られたのか。",
-      "summary_excerpt": "一見無害な文書を「Microsoft 365 Copilot」にアップロードするだけで、攻撃者はそのCopilotに直接命令を出せるようになる。セキュリティ企業Rubrikがそんな攻撃手法を実証した。脆弱性は既に修正されたが、AIアシスタントはなぜ、どのように乗っ取られたのか。",
-      "threat_actors": [],
-      "title": "Microsoftが4万8000ドルを支払った脆弱性　文書1つでCopilotを乗っ取る「ChatMate」攻撃とは"
     }
   ],
   "rising": [],
-  "persistent_hot": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "cves": [
-        "CVE-2026-129448"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T18:22:49.920534+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-552b60cb29a0722aae4ac33a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:552b60cb29a0722aae4ac33a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T17:49:13+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "threat_actors": [],
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-123633",
-      "cves": [
-        "CVE-2026-123007",
-        "CVE-2026-123633"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T09:38:16.978894+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-a09ba47a80ca81f6c539f7ed",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:a09ba47a80ca81f6c539f7ed",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T08:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Palo Alto Security Advisories",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-      "cves": [
-        "CVE-2026-113425",
-        "CVE-2026-121810",
-        "CVE-2026-123007",
-        "CVE-2026-123633",
-        "CVE-2026-123634"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T05:38:03.862133+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-ba29749845e550e4d5631408",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:ba29749845e550e4d5631408",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-21T01:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cisco PSIRT Security Advisories",
-      "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolver vulnerability For more information, see the nginx Security Advisories . This advisory will be updated as additional information becomes available. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s <br/>Security Impact Rating: Critical <br/>CVE: CVE-2026-113425,CVE-2026-121810,CVE-2026-123007,CVE-2026-123633,CVE-2026-123634",
-      "summary_excerpt": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolve",
-      "threat_actors": [],
-      "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
-      "cves": [
-        "CVE-2026-132825"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T06:53:07.243328+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-c851a250df92def96949f9a3",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c851a250df92def96949f9a3",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-21T05:24:38+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Cloudflare Blog Security",
-      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
-      "summary_excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
-      "threat_actors": [],
-      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T02:22:49.870733+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-0b4042589720c6043be8f152",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:0b4042589720c6043be8f152",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-21T01:58:16+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
-      "summary_excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
-      "threat_actors": [],
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisecurity.org/advisory/a-vulnerability-in-vmware-products-could-allow-for-authentication-bypass_2026-140",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T07:22:27.361393+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-0c0722d9dbecf698b564b28a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0c0722d9dbecf698b564b28a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T05:40:39+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Center for Internet Security Advisories",
-      "summary": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.",
-      "summary_excerpt": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new ac",
-      "threat_actors": [],
-      "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T02:53:05.569590+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-209648e572bdea41ada38593",
-      "primary_category": "ai_security",
-      "public_article_id": "url:209648e572bdea41ada38593",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-21T02:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-      "summary_excerpt": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-      "threat_actors": [],
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T02:53:22.239048+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-2165e5382ec0d52996fbcdcf",
-      "primary_category": "ai_security",
-      "public_article_id": "url:2165e5382ec0d52996fbcdcf",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-21T02:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said",
-      "summary_excerpt": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said",
-      "threat_actors": [],
-      "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T21:22:44.019165+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-31de93106fde76af067132c2",
-      "primary_category": "ai_security",
-      "public_article_id": "url:31de93106fde76af067132c2",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-21T20:03:17+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
-      "summary_excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
-      "threat_actors": [],
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T00:24:01.800655+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-48c95c8f0331419e4b6c55e9",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:48c95c8f0331419e4b6c55e9",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "ai",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-20T23:56:23+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek .",
-      "summary_excerpt": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit"
-    }
-  ],
+  "persistent_hot": [],
   "timeseries_status": {
     "rising": "disabled",
-    "persistent_hot": "ready",
-    "reason": null,
+    "persistent_hot": "insufficient_history",
+    "reason": "observed_snapshot_span_insufficient",
     "required": {
       "rising": {
         "min_samples": 2,
@@ -979,32 +671,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Norway links energy firm cyberattacks to critical Azure API Management flaw",
-    "【HOTTEST #1 / Heat 75】WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)",
-    "【LATEST #2】OXLoader abuses DLL hijacking to distribute different malware families",
-    "【HOTTEST #2 / Heat 75】Critical Cisco Expressway Flaw Exploited in Attacks",
-    "【LATEST #3】SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
-    "【HOTTEST #3 / Heat 75】Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-    "【LATEST #4】I’ve never hunted for a software vulnerability before. AI helped me find one in six hours.",
-    "【HOTTEST #4 / Heat 65】OXLoader abuses DLL hijacking to distribute different malware families",
-    "【LATEST #5】WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)",
-    "【HOTTEST #5 / Heat 65】SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks"
+    "【LATEST #1】GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+    "【HOTTEST #1 / Heat 75】Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+    "【LATEST #2】Cleverbridge alerts customers that hackers stole their credit card and CVV numbers",
+    "【HOTTEST #2 / Heat 75】N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+    "【LATEST #3】Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+    "【HOTTEST #3 / Heat 75】Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+    "【LATEST #4】Norway links energy firm cyberattacks to critical Azure API Management flaw",
+    "【HOTTEST #4 / Heat 75】WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)",
+    "【LATEST #5】N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+    "【HOTTEST #5 / Heat 75】Critical Cisco Expressway Flaw Exploited in Attacks"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-20T13:00:00+00:00",
-    "last_as_of": "2026-11-23T13:00:00+00:00",
+    "first_as_of": "2026-11-20T14:00:00+00:00",
+    "last_as_of": "2026-11-23T14:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-23T13:00:00+00:00",
-  "heat_as_of": "2026-11-23T13:00:00+00:00",
+  "news_as_of": "2026-11-23T14:00:00+00:00",
+  "heat_as_of": "2026-11-23T14:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26040,
-  "last_published_at": "2026-11-23T22:09:29.237601+09:00",
-  "publication_slot_jst": "2026-11-23T22:00:00+09:00"
+  "news_catalog_count": 26045,
+  "last_published_at": "2026-11-23T23:09:25.751168+09:00",
+  "publication_slot_jst": "2026-11-23T23:00:00+09:00"
 }
