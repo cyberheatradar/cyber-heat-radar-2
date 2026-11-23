@@ -1,9 +1,86 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-23T00:40:02.698510+00:00",
+  "source_snapshot_generated_at": "2026-11-23T01:40:03.408186+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:51d1072741b87e537b932c2e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "SDD",
+          "Claude Code",
+          "OpenSpec"
+        ],
+        "url": "https://zenn.dev/z_maruhira/articles/openspec-2026-11",
+        "title": "【OpenSpec 2026年11月版】v2.0でコマンドがスキルに変わった:1.xからの移行と増えた機能",
+        "author": "y-hirakaw",
+        "published_at": "2026-11-23T01:39:04.904000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e3b711a949e108a8e2d9a0bc",
+        "source": "zenn",
+        "author_tags": [
+          "Python",
+          "Security",
+          "CSV"
+        ],
+        "url": "https://zenn.dev/whocallmeuknote/articles/b48b1a68af1deb",
+        "title": "この番号は誰？ 家族の請求書に覚えのない0843への発信、英国の番号帯で明細を仕分ける",
+        "author": "WhoCallMe UK Notes",
+        "published_at": "2026-11-23T01:36:41.003000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:883832eb8fa09ea27514a648",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "nginx",
+          "Security",
+          "SRE",
+          "llm"
+        ],
+        "url": "https://zenn.dev/ubinity/articles/8bf025f05e6a74",
+        "title": "PHP・nginx脆弱性の予防と即応設計：従来監視 vs @ubinity/node-llm 秘匿化 × Slack HITL（Starte",
+        "author": "Richard King",
+        "published_at": "2026-11-23T01:36:40.163000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:627985312c5a672d7281709a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "prompt",
+          "Claude",
+          "Claude Code",
+          "tako"
+        ],
+        "url": "https://zenn.dev/takushio2525/articles/20261123-why-my-claude-is-smarter",
+        "title": "なんかうちのClaudeが友達のより賢いから調べた結果",
+        "author": "たくしお",
+        "published_at": "2026-11-23T01:28:37.285000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:80fb8f7d77eb685fa5cc4430",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "llm",
+          "promptflow"
+        ],
+        "url": "https://zenn.dev/chooser/articles/pf-040-ai-dev-process",
+        "title": "機密かどうかを AI に聞く前に、自前の regex で伏せる ── 判断モデルを比べた結果と、本番への組み込み",
+        "author": "chooser",
+        "published_at": "2026-11-23T01:01:49.564000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:898f50168f751c1375ce8de7",
         "source": "zenn",
@@ -48189,6 +48266,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3639d302b1d0f3ca00e3cd25",
+        "source": "qiita",
+        "author_tags": [
+          "CSIRT",
+          "Security",
+          "NIST",
+          "SRE",
+          "CySec"
+        ],
+        "url": "https://qiita.com/amu-kuroneko/items/b4d17dba4bdebfd08710",
+        "title": "成熟度レベル4は「技術力」を測っていない ── インシデント対応ガイドラインと成熟度モデルの地図【CySec復習ログ 3IN#9】",
+        "author": "amu-kuroneko",
+        "published_at": "2026-11-23T10:18:18+09:00",
+        "excerpt": "はじめに 少し前の私は、CSIRT や NIST の名前がついたガイドラインを、「大きな組織が監査のときに提出する書類」だと思っていました。名前だけは何度も見かけます。SP800-61、CSF、CSIRT Services Framework、SIM3。けれど、どれがどれだか区別がつきません。開いてもページ数に圧倒されて、そっと閉じる。うちのような規模のチームには関係ないし、読んだところで明日のコードも運用も1ミリも変わらない ── そう線を引いていました。 その線が動いたのは、成熟度モデル SIM3 のレベルの定義を読んだときでした。レベル0から4までの5段階は、 技術力を1ミリも測っていなかった のです。測っていたのは、たった3つでした。 書き出してあるか。責任者が承認しているか。上位のガバナンスに監査されているか。 つまり「担当者が代わっても、同じ品質で回るか」を見ています。それは、Runbook を書き、ポストモーテムを回し、オンコールを引き継ぐという、私たちが日々やっている(あるいは、やれていない)ことそのものでした。ガイドラインは監査"
+      },
+      {
+        "id": "qiita:f881d9771799a1079db90aa1",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "LLM",
+          "Security",
+          "promptflow"
+        ],
+        "url": "https://qiita.com/chooser/items/fac17f40dac121e38286",
+        "title": "機密かどうかを AI に聞く前に、自前の regex で伏せる ── 判断モデルを比べた結果と、本番への組み込み",
+        "author": "chooser",
+        "published_at": "2026-11-23T10:01:47+09:00",
+        "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 機密かどうかを AI に聞く前に、自前の regex で伏せる ── 判断モデルを比べた結果と、本番への組み込み AI に送る文に、社外に出してはいけない情報が混じっていないか。それを確かめる役も AI に任せたい、と考えるのは自然です。 でも、確かめるために文をそのまま外の AI へ送れば、守りたい値はその時点で外に出ています。自社の AI サービス promptflow では、自前の regex（正規表現）で形で分かる値を先に伏せ、伏せた後の文だけを判断モデルに見せる形で、5 つのモデルを比べました。データは架空の日本語 120 件で、それぞれ 3 回ずつ判断しています。 結論 順番は regex が先、判断モデルが後です。 判断モデルは、伏せた後の文から、形では分からない機密だけを足して拾います。 機密の見逃しは大きく減りました。 機密を拾えた"
+      },
+      {
         "id": "qiita:4c322e69161a9eb2c0061af1",
         "source": "qiita",
         "author_tags": [
@@ -48880,6 +48988,22 @@
         "author": "Maruo110",
         "published_at": "2026-11-21T20:51:38+09:00",
         "excerpt": "業務でセキュリティ動向を追う中で、情報漏えいの公表が毎日のように目につく。 ただ、公表されているのは被害を受けた企業の一部だけだと思う。 今はそれでも回っているが、前提が崩れつつある。自戒を込めて整理する。 先にキーワードを出す。 情報漏えい 個人情報保護委員会への報告 公表（報道発表） ランサムウェア 二重恐喝（ダブルエクストーション） リークサイト レピュテーションリスク 1. 現状 a. 報告と公表は別 2022年4月以降、一定の漏えいは個人情報保護委員会への報告と、本人への通知が義務になった。 ただし、報道発表（プレスリリース等での公表）までが義務ではない。ここが混同されやすい。 項目 義務か 個人情報保護委員会への報告 義務（漏えいの態様・件数等の要件あり） 本人への通知 義務（同上） 公表（報道発表） 任意（上場企業は適時開示の判断が別途ある） つまり「当局には報告しているが、世間には公表していない」状態は、制度上ふつうに起こる。 b. 数字 個人情報保護委員会が処理した漏えい等の報告件数は増え続けている。 年度 処理件数 2022年"
+      },
+      {
+        "id": "qiita:f4d4bf594d989d54f8210c76",
+        "source": "qiita",
+        "author_tags": [
+          "Blazor",
+          "C#",
+          "Security",
+          "ローコード",
+          ".NET"
+        ],
+        "url": "https://qiita.com/hara77/items/7f057e5c324eaca9b376",
+        "title": "【Linux対応】Nginx＋systemdでBlazorアプリを安定動作させる全手順（連載第4回）",
+        "author": "hara77",
+        "published_at": "2026-11-21T20:49:08+09:00",
+        "excerpt": "はじめに こんにちは。40年間「理想のDBアプリ開発ツール」を求め、ついに『Radzen × Blazor Server』という最強の組み合わせに辿り着いた男です。 前回の「第3回」では、最新AI（MCP連携）を活用して日本語プロンプトでログイン機能を爆速拡張したプロセスと、グリッド制御などのC#カスタマイズにおける罠の突破法について解説しました。 第4回となる今回は、いよいよ連載の山場である 「Linuxサーバーへの本番デプロイ編」 です。Windows環境で完璧にビルドされた成果物を低コストなLinux環境（AlmaLinuxやUbuntuなど）へ配置し、NginxによるHTTPS（独自SSL）化と、systemdによるサービスの常駐・自動起動化を一気に進めます。 第1回で仕込んだ「サブパス（URL階層）運用」の伏線が、Nginxと.NET側の連携によってどのように美しく回収されるのか、 そのまま現場で使える設定ファイルを丸ごと大公開 します！ 1. Linuxへのアプリケーション配置と常駐サービス（systemd）化 Visual Stud"
       },
       {
         "id": "qiita:72bffb4bd4fc2e026a169273",
@@ -65924,6 +66048,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:885e67ad32a125d86e9fa3c1",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "networking",
+          "mobile-app-development",
+          "android",
+          "androgoat"
+        ],
+        "url": "https://medium.com/@revazuranti/how-to-exploit-unprotected-android-components-step-by-step-activity-service-receiver-and-384e7523282d",
+        "title": "How to Exploit Unprotected Android Components Step by Step: Activity, Service, Receiver, and…",
+        "author": "Reva Zuranti",
+        "published_at": "2026-11-23T01:28:42+00:00",
+        "excerpt": "Using plain ADB commands to skip authentication entirely, plus an OTP clipboard leak Continue reading on Medium »"
+      },
+      {
+        "id": "medium:92be393faf63958906f50c19",
+        "source": "medium",
+        "author_tags": [
+          "oauth2",
+          "api-security",
+          "cybersecurity",
+          "authentication",
+          "software-engineering"
+        ],
+        "url": "https://medium.com/@anushkaams/oauth2-authorization-code-vs-client-credentials-choosing-the-right-flow-for-your-integration-bc630121d366",
+        "title": "OAuth2 Authorization Code vs Client Credentials: Choosing the Right Flow for Your Integration",
+        "author": "Anushka Senaratne",
+        "published_at": "2026-11-23T00:55:03+00:00",
+        "excerpt": "A practical guide to the one question that decides which flow you need, and what goes wrong when you pick the wrong one. Continue reading on Medium »"
+      },
       {
         "id": "medium:cfa68fe334ae07a6baa54935",
         "source": "medium",
