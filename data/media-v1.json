@@ -1,9 +1,115 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-23T10:40:03.259115+00:00",
+  "source_snapshot_generated_at": "2026-11-23T11:40:03.163993+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:b23bc9701432a8ab6c9214df",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/quiver/articles/5d73d44a79fd78",
+        "title": "人とAIとのすれ違いを減らす1行スキル「/in-your-own-words」",
+        "author": "quiver",
+        "published_at": "2026-11-23T11:37:33.423000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:83a210143e0e94a9c7b99c98",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "HTML",
+          "個人開発",
+          "GitHub Pages",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/rattuti/articles/claude-code-indie-apps-log-01",
+        "title": "Claude Codeで単体HTMLの自分用アプリを13個公開し、点検は週1の自動実行に任せている話【開発ログ #1】",
+        "author": "Rattuti",
+        "published_at": "2026-11-23T11:31:39.741000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a7ebfdd91165158d6e362018",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/mochiai/articles/2848f2df8b205a",
+        "title": "Codex のリセットをどう見張って、どう「来た」と判定したか",
+        "author": "Mochi",
+        "published_at": "2026-11-23T11:05:44.448000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c751c7119b58d948a45cc890",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "OCI",
+          "DB",
+          "Oracle",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/nakk/articles/oracle-ai-world-2026-deep-trust",
+        "title": "AIエージェントのデータアクセスはデータベース側で守る：Oracle AI World 2026 の Deep Trust",
+        "author": "nakk",
+        "published_at": "2026-11-23T11:05:44.296000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5361690b4dd1ea826bcf26fc",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "OCI",
+          "Oracle",
+          "Model Context Protocol",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/nakk/articles/ai-agent-3c-checklist",
+        "title": "AIエージェントに業務を任せる前の確認項目：Context・Control・Connectivity",
+        "author": "nakk",
+        "published_at": "2026-11-23T11:05:43.869000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f1e0a7dd41d7cf67920bc614",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Markdown",
+          "個人開発",
+          "macOS",
+          "Obsidian"
+        ],
+        "url": "https://zenn.dev/yuya8696/articles/f8c1d68295b39a",
+        "title": "【個人開発】タスクと作業時間を、テキストファイルで自分のフォルダにしまう Mac アプリ「Fubako」を作りました",
+        "author": "yuya8696",
+        "published_at": "2026-11-23T10:41:34.066000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:91514f08fc365ed794304560",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CSS",
+          "Tailwind CSS",
+          "frontend",
+          "OSS"
+        ],
+        "url": "https://zenn.dev/abelia/articles/introducing-stillwind",
+        "title": "AI エージェント時代の Tailwind CSS ― デザインシステムを機械的に守る CSS コンパイラ「Stillwind」",
+        "author": "Abelia",
+        "published_at": "2026-11-23T10:40:05.145000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4b105b9eebd4a78d6c9e7b5c",
         "source": "zenn",
@@ -49148,6 +49254,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:87e4cd23553f9b314d55457d",
+        "source": "qiita",
+        "author_tags": [
+          "CORS",
+          "Security",
+          "JavaScript"
+        ],
+        "url": "https://qiita.com/kkaattoo/items/eeaa0ce841af6105a2be",
+        "title": "CORS の危ない設定パターンとその対策",
+        "author": "kkaattoo",
+        "published_at": "2026-11-23T19:46:51+09:00",
+        "excerpt": "はじめに CORS の設定は、どのオリジンにレスポンスの読み取りを許可するかを、サーバーのレスポンスヘッダーで決めるものです。設定を間違えると、別のサイトの JavaScript から、ログイン中のユーザーのデータを読み取られることがあります。 CORS の設定を見たときに、危ないかどうかを判断できるようになりたいと思い、危ない設定のパターンを調べました。 この記事で扱う内容は以下のとおりです。 CORS の設定で許可されるもの 危ない設定のパターン 危ない設定を動かして確認する CORS の設定で許可されるもの ブラウザには同一オリジンポリシーがあり、別のオリジンのページの JavaScript は、レスポンスを読み取れません。CORS は、この制限をサーバーが許可したオリジンに限って緩める仕組みです。 多くのサービスは、ログイン状態を Cookie で管理しています。ログインすると、サーバーはセッション ID を含む Cookie をブラウザに送ります。ブラウザはその Cookie を保存し、同じサーバーへのリクエストに付けて送ります。サーバ"
+      },
+      {
         "id": "qiita:d1c057c0b9910db5f13a5acf",
         "source": "qiita",
         "author_tags": [
@@ -67163,6 +67283,36 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ba3c90e4e590b9084b5fab9e",
+        "source": "medium",
+        "author_tags": [
+          "patch-management",
+          "vmware",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@affixcenter/one-login-screen-every-virtual-machine-lessons-from-the-vcenter-zero-day-8426cb434fb6",
+        "title": "One Login Screen, Every Virtual Machine: Lessons From the vCenter Zero-Day",
+        "author": "Affixcenter",
+        "published_at": "2026-11-23T11:35:35+00:00",
+        "excerpt": "Security teams spend a lot of effort protecting individual servers. The November 2026 vCenter flaw is a reminder that the management layer… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1da9af090a0ba6debc9e5bb9",
+        "source": "medium",
+        "author_tags": [
+          "blackout",
+          "ransomware",
+          "suzlon",
+          "cyberattack",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vismayav/blackout-ransomware-group-lists-suzlon-energy-as-a-victim-8747d6d0e068",
+        "title": "Blackout Ransomware Group Lists Suzlon Energy as a Victim",
+        "author": "Vismaya",
+        "published_at": "2026-11-23T11:33:07+00:00",
+        "excerpt": "The Blackout ransomware group has listed Suzlon Energy, an Indian renewable energy company, on its leak platform, claiming to have… Continue reading on Medium »"
+      },
       {
         "id": "medium:d197a464830d3a0aee9ac8b9",
         "source": "medium",
