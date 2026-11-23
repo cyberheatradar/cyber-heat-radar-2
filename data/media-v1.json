@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-23T19:40:02.898955+00:00",
+  "source_snapshot_generated_at": "2026-11-23T20:40:02.980430+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:5685ce3f212683b1290aabb2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Rust",
+          "OSS",
+          "OpenAI",
+          "llm"
+        ],
+        "url": "https://zenn.dev/dvnold/articles/b86b4cc65d64ac",
+        "title": "Kaeso: Rust 製のオープンソース・セルフホスト型 AI ゲートウェイ",
+        "author": "Devin Oldenburg",
+        "published_at": "2026-11-23T19:56:09.896000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:64eb540fb15e17ebc27a2b90",
         "source": "zenn",
@@ -49725,6 +49741,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:97348b72158685fe5da4112e",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "MCP",
+          "codex",
+          "Security",
+          "apiキー"
+        ],
+        "url": "https://qiita.com/supportapp3/items/0b9ae8203efe03bf1805",
+        "title": "claude mcp add -e で渡した API キーは平文で残る：project スコープは .mcp.json に入り、mcp remove 後も ~/.claude/backups に残った（Claude Code 2.1.330で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-24T05:21:24+09:00",
+        "excerpt": "先に結論 MCP サーバーを claude mcp add -e API_KEY=キー で登録すると、キーは 設定ファイルに平文で書かれます 。手元の Claude Code 2.1.330 で、ダミーのキーを使って試したところ、次のようになりました。 --scope project だと、プロジェクト直下の .mcp.json にキーがそのまま入る。 git add -A でそのままステージされた 既定（local）と --scope user は ~/.claude.json に入る claude mcp remove で消したあとも、 ~/.claude/backups/ のバックアップファイルにキーが残っていた claude mcp get はキーを伏せずにそのまま表示した Codex CLI 0.171.0 の codex mcp add --env API_KEY=キー も、 ~/.codex/config.toml に平文で書きました。こちらは codex mcp list / get では API_KEY=***** と伏せ字にな"
+      },
+      {
         "id": "qiita:27ec6c824f6f4d5b75875923",
         "source": "qiita",
         "author_tags": [
@@ -67875,6 +67907,84 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:904fa97077c0578ce8e7cb62",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "zero-trust",
+          "information-security"
+        ],
+        "url": "https://medium.com/@manadgertech/zero-trust-security-explained-why-never-trust-always-verify-matters-1c45c6d00fe2",
+        "title": "Zero Trust Security Explained: Why “Never Trust, Always Verify” Matters",
+        "author": "Manadger Tech",
+        "published_at": "2026-11-23T19:58:50+00:00",
+        "excerpt": "\"Zero trust\" has become one of the most repeated phrases in cybersecurity, and one of the least understood. Vendors slap it on products… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:62c476dd5cd13a7eacf27731",
+        "source": "medium",
+        "author_tags": [
+          "prompt-engineering",
+          "llm",
+          "ai-agent",
+          "artificial-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@datadrivenalex/prompt-injection-in-agentic-systems-practical-defenses-for-developers-7ade46c008aa",
+        "title": "Prompt Injection in Agentic Systems: Practical Defenses for Developers",
+        "author": "Alexandru Cojocari",
+        "published_at": "2026-11-23T19:42:28+00:00",
+        "excerpt": "A chatbot that only talks is limited in how much damage a malicious prompt can do. An agent that reads email, browses the web, queries… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0c4675fcb3a0b2104499dea3",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "vulnerability",
+          "cyberattack",
+          "threat-intelligence",
+          "security"
+        ],
+        "url": "https://inferlumehq.medium.com/why-cybersecurity-events-rarely-happen-in-isolation-005d3e005cea",
+        "title": "Why Cybersecurity Events Rarely Happen in Isolation",
+        "author": "Inferlume",
+        "published_at": "2026-11-23T19:41:07+00:00",
+        "excerpt": "Understanding how vulnerabilities, threat actors, emerging technologies, and security incidents connect to shape the bigger picture. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dcb37ed2d70e8fe8907d9568",
+        "source": "medium",
+        "author_tags": [
+          "usom",
+          "cyber-threat-intelligence",
+          "information-security",
+          "incident-response",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@candundar/siber-g%C3%BCvenlikte-i%CC%87lk-m%C3%BCdahalenin-%C3%B6nemi-d%C3%BCnyada-cert-csirt-t%C3%BCrkiyede-usom-bb10c3f2c4bf",
+        "title": "Siber Güvenlikte İlk Müdahalenin Önemi: Dünyada CERT/CSIRT, Türkiye’de USOM",
+        "author": "Çağrı Can Dündar",
+        "published_at": "2026-11-23T19:35:55+00:00",
+        "excerpt": "Bir siber saldırının etkisini belirleyen yalnızca saldırının büyüklüğü değil, olayın ne kadar hızlı tespit edildiği ve nasıl… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3f32868a003f9f1f19dd8934",
+        "source": "medium",
+        "author_tags": [
+          "sentinelone",
+          "digital-forensics",
+          "incident-response",
+          "investigation",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@cyberengage.org/sentinelone-singularity-operations-center-detections-and-the-three-kinds-of-custom-rule-1260e4dc1cbf",
+        "title": "SentinelOne Singularity Operations Center — Detections and the Three Kinds of Custom Rule",
+        "author": "Dean",
+        "published_at": "2026-11-23T19:35:44+00:00",
+        "excerpt": "Before starts Continue reading on Medium »"
+      },
       {
         "id": "medium:00c220f3f0e10359739a77ff",
         "source": "medium",
