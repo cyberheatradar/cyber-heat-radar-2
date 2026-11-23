@@ -1,9 +1,103 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-23T13:40:05.224045+00:00",
+  "source_snapshot_generated_at": "2026-11-23T14:40:03.538159+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ee96cae81f07f167ccba6226",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "transformers",
+          "llm",
+          "quantization"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-055-sensenova-loop-count-compare",
+        "title": "同じ重みを2回通すSenseNova-Loop-9B、ループを1回にすると掛け算の正解が20問中19問から1問に落ちた",
+        "author": "matsu",
+        "published_at": "2026-11-23T14:37:59.600000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7bbe281a134679f191da5c24",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "JavaScript",
+          "Chrome拡張",
+          "Jira",
+          "Ollama"
+        ],
+        "url": "https://zenn.dev/cvqprs/articles/1dadc378548c35",
+        "title": "Jiraのバグ起票を10分→18秒にするChrome拡張を作った（Claude・Gemini・GPT-4o・ローカルOllama対応)",
+        "author": "cvqprs",
+        "published_at": "2026-11-23T14:24:45.716000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f7149b050ae108330eb8b65c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Gemini",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/shon9278/articles/ai-product-lab-intro",
+        "title": "Claude・GPT・Gemini を社員にして、小さな会社を動かす実験を始めた",
+        "author": "shohei",
+        "published_at": "2026-11-23T14:18:52.351000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0fe5bb3e7a13cfed18123e84",
+        "source": "zenn",
+        "author_tags": [
+          "iOS",
+          "Swift",
+          "Security",
+          "OAuth",
+          "PKCE"
+        ],
+        "url": "https://zenn.dev/mobile_app_tec/articles/ios-oauth2-pkce-native-app",
+        "title": "iOSエンジニアのための OAuth 2.0 + PKCE 入門 ― 仕組みを理解してから、Swiftで実装する",
+        "author": "小林 慎吾",
+        "published_at": "2026-11-23T13:56:35.924000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b65711ff6223e17de7a95ff5",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "セキュリティ運用"
+        ],
+        "url": "https://zenn.dev/yasuhirosuzuki/articles/bda4041ad0be83",
+        "title": "AWSセキュリティ運用の本当の難所は“検知”ではなく“説明”である②",
+        "author": "orihusay0214",
+        "published_at": "2026-11-23T13:55:56.865000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:01216d19e099cda83528967a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "さくらのクラウド",
+          "LangChain",
+          "llm",
+          "openwiki"
+        ],
+        "url": "https://zenn.dev/kenny2017/articles/openwiki-sakura-ai-engine-generation",
+        "title": "さくらのAI Engine で OpenWiki を検証したら DeepSeek と GLM が完走した話",
+        "author": "kenny",
+        "published_at": "2026-11-23T13:44:00.462000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ea5d9eeb76934093a2ca6a2c",
         "source": "zenn",
@@ -49506,6 +49600,20 @@
     ],
     "qiita": [
       {
+        "id": "qiita:ee2e1817640d7271ccaa12ab",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "情報漏えい",
+          "ランサムウェア"
+        ],
+        "url": "https://qiita.com/Maruo110/items/5deb710deaa73596b142",
+        "title": "2026年の情報漏えい事例をまとめる（公表・会見・補償）",
+        "author": "Maruo110",
+        "published_at": "2026-11-23T23:15:19+09:00",
+        "excerpt": "業務でセキュリティ動向を追う中で、2026年は情報漏えいの公表が特に多い。 公表の速さ、会見の有無、補償の有無に差が大きいので、要点を表に整理する。 自戒を込めて整理する。 先にキーワードを出す。 情報漏えい 発覚日と公表日 記者会見 補償・見舞金 ランサムウェア・恐喝 サプライチェーン ※対象は2026-01-01〜2026-11-23に公表された国内の主要事例40件。公表日が新しい順。 ※これは主要事例の抽出で、全件ではない。上場企業と子会社だけでも2026年1〜10月で215件、累計約3億5,000万件と集計されている。 ※件数は各社公表値。人数・延べ件数・レコード数・口座数が混在するので、単純比較はできない。 ※発覚→公表は、発覚日（異常の確認日）から第1報までの暦日差。侵入日とは別。 ※確認できない項目は「不明／公表なし」とした。ネットの反応は出典がある事例だけ書いた。 ※最終更新：2026-11-23 1. 一覧表 公表日 企業・団体 発覚→公表 規模 手法・原因 会見 補償 2026-11-21 タワーレコード オンライン 2日 約"
+      },
+      {
         "id": "qiita:3d8655f1526e7b86be009874",
         "source": "qiita",
         "author_tags": [
@@ -67565,6 +67673,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ea9f4e60c473d52bd2526996",
+        "source": "medium",
+        "author_tags": [
+          "infosec",
+          "patch-management",
+          "vulnerability-management",
+          "cybersecurity",
+          "information-security"
+        ],
+        "url": "https://medium.com/@letvoip_13679/cisas-kev-list-explained-how-to-use-the-known-exploited-vulnerabilities-catalog-to-decide-what-to-b410bf807130",
+        "title": "CISA’s KEV List Explained: How to Use the Known Exploited Vulnerabilities Catalog to Decide What to…",
+        "author": "El Mostafa Ouchen",
+        "published_at": "2026-11-23T14:35:03+00:00",
+        "excerpt": "A practical guide for small teams, with the deadlines that fall due on 23 and 24 November 2026 and the next ones coming up Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b04405bda51edc76dec05011",
+        "source": "medium",
+        "author_tags": [
+          "incident-response",
+          "threat-hunting",
+          "cybersecurity",
+          "log-analysis",
+          "tomcat"
+        ],
+        "url": "https://medium.com/@anthonymbahn/how-to-review-tomcat-access-logs-after-an-exploit-alert-5b4640a94714",
+        "title": "How to Review Tomcat Access Logs After an Exploit Alert",
+        "author": "Anthony Bahn",
+        "published_at": "2026-11-23T14:34:19+00:00",
+        "excerpt": "Tomcat access logs record every HTTP request a Java web application received, including the method, path, status code and client address… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a8706c69cc16bf0014061b64",
+        "source": "medium",
+        "author_tags": [
+          "vpn",
+          "threat-hunting",
+          "cybersecurity",
+          "threat-intelligence",
+          "network-security"
+        ],
+        "url": "https://medium.com/@letvoip_13679/no-malware-needed-how-the-webworm-group-turned-a-legitimate-vpn-into-a-spy-bridge-and-how-09bd2fea7473",
+        "title": "No Malware Needed: How the Webworm Group Turned a Legitimate VPN Into a Spy Bridge, and How…",
+        "author": "El Mostafa Ouchen",
+        "published_at": "2026-11-23T14:33:40+00:00",
+        "excerpt": "A beginner-friendly look at “living off legitimate tools”, using Rapid7’s new research on a rebuilt SoftEther VPN Bridge in European… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:347247ab07f38bc4fa43c09e",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "linux",
+          "vulnerability",
+          "web-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@letvoip_13679/how-a-file-upload-becomes-a-shell-a-plain-english-guide-to-ghostscripts-upload2shell-flaw-bfd7ad09679d",
+        "title": "How a File Upload Becomes a Shell: A Plain-English Guide to Ghostscript’s Upload2Shell Flaw…",
+        "author": "El Mostafa Ouchen",
+        "published_at": "2026-11-23T14:31:07+00:00",
+        "excerpt": "What Ghostscript is, why a PDF or image can carry an attack, and the five checks every team that accepts uploads should run this week Continue reading on Medium »"
+      },
       {
         "id": "medium:291b5eca8f1d85f905a463e3",
         "source": "medium",
