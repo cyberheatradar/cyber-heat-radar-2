@@ -2109,7 +2109,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-20T18:53:46.045856+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-7a6113b11a0146d3d2c0960b",
     "primary_category": "other",
     "public_article_id": "url:7a6113b11a0146d3d2c0960b",
@@ -2131,7 +2131,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-20T18:53:44.107666+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-773cdce76b4c98ccac57eeb8",
     "primary_category": "other",
     "public_article_id": "url:773cdce76b4c98ccac57eeb8",
@@ -2153,7 +2153,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-20T18:22:38.907973+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-ed2b00ab504a2f3b876a81cf",
     "primary_category": "threat_campaign",
     "public_article_id": "url:ed2b00ab504a2f3b876a81cf",
@@ -4053,18 +4053,18 @@
     "first_seen_at": "2026-11-20T06:53:21.028597+09:00",
     "heat_score": 37.5,
     "permalink_id": "article-url-89d20775330718208801fa75",
-    "primary_category": "threat_report",
+    "primary_category": "vulnerability",
     "public_article_id": "url:89d20775330718208801fa75",
     "public_tags": [
       {
         "color_family": "neutral",
-        "key": "cloud_security",
-        "label": "Cloud Security"
+        "key": "vulnerability",
+        "label": "Vulnerability"
       },
       {
         "color_family": "neutral",
-        "key": "cve",
-        "label": "Vulnerability"
+        "key": "cloud_security",
+        "label": "Cloud Security"
       }
     ],
     "published_at": "2026-11-20T06:06:24+09:00",
@@ -4073,7 +4073,7 @@
     "seen_in_kev": false,
     "source_class": "topic_rss",
     "source_name": "Rapid7 Blog",
-    "summary": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user. Mandiant privately reported the issue to Broadcom. Also, Mandiant/Google Threat Intelligence confirmed in-the-wild exploitation of CVE-2026-123890 by Chinese state-linked threat actor ARMORY CASTLE as early as September 2026. CVE-2026-123890 is distinct from the vCenter authentication bypass vulnerability CVE-2026-59309 that Broadcom addressed earlier in 2026. The vendor FAQ states that all vCenter systems below the versions fixed by VMSA-2026-0009 require the new update, including systems that already received the earlier fix. Broadcom characterizes the vCenter update as an emergency change requiring prompt action. Mitigation guidance Vendor-provided updates are available for CVE-2026-123890. Broadcom lists no workaround, and the patches cannot be applied using vCenter Quick Patch. Organizations should prioritize upgrading vCenter on an emergency basis, outside of normal patch cycles, using the standard update mechanism for their deployment. VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation / vSphere Foundation 9.1.x.x 9.1.1.0200 VMware Cloud Foundation / vSphere Foundation 9.0.x.x 9.0.2.0200 VMware vCenter Server 8.0 8.0 U3m VMware vCenter Server 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 8.0 U3m — KB463116 VMware Telco Cloud Infrastructure 3.0 8.0 U3m — KB463116 The fixes are cumulative. The vCenter 8.0 U3m and 9.0.2.0200 updates introduce a “Back-in-Time” restriction that blocks upgrades to VMware Cloud Foundation 9.1.1 ; Broadcom advises customers in an active upgrade to review the vendor FAQ and interoperability matrix. Updating vCenter temporarily makes its management interfaces unavailable, but Broadcom states that running virtual machine and container workloads continue to operate. For the latest affected-version and mitigation guidance, please refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-123890 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the Nov 20, 2026 content release. Updates November 19, 2026 : Initial publication.",
+    "summary": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user. Mandiant privately reported the issue to Broadcom. Also, Mandiant/Google Threat Intelligence confirmed in-the-wild exploitation of CVE-2026-123890 by Chinese state-linked threat actor ARMORY CASTLE as early as September 2026. CVE-2026-123890 is distinct from the vCenter authentication bypass vulnerability CVE-2026-59309 that Broadcom addressed earlier in 2026. The vendor FAQ states that all vCenter systems below the versions fixed by VMSA-2026-0009 require the new update, including systems that already received the earlier fix. Broadcom characterizes the vCenter update as an emergency change requiring prompt action. On November 20, 2026, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-123890 to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. Mitigation guidance Vendor-provided updates are available for CVE-2026-123890. Broadcom lists no workaround, and the patches cannot be applied using vCenter Quick Patch. Organizations should prioritize upgrading vCenter on an emergency basis, outside of normal patch cycles, using the standard update mechanism for their deployment. VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation / vSphere Foundation 9.1.x.x 9.1.1.0200 VMware Cloud Foundation / vSphere Foundation 9.0.x.x 9.0.2.0200 VMware vCenter Server 8.0 8.0 U3m VMware vCenter Server 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 8.0 U3m — KB463116 VMware Telco Cloud Infrastructure 3.0 8.0 U3m — KB463116 The fixes are cumulative. The vCenter 8.0 U3m and 9.0.2.0200 updates introduce a “Back-in-Time” restriction that blocks upgrades to VMware Cloud Foundation 9.1.1 ; Broadcom advises customers in an active upgrade to review the vendor FAQ and interoperability matrix. Updating vCenter temporarily makes its management interfaces unavailable, but Broadcom states that running virtual machine and container workloads continue to operate. For the latest affected-version and mitigation guidance, please refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-123890 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the Nov 20, 2026 content release. Updates November 19, 2026 : Initial publication. November 23, 2026 : Added CISA KEV addition to the Overview section.",
     "summary_excerpt": "Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user.",
     "threat_actors": [],
     "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter"
@@ -37305,7 +37305,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T18:54:12.562149+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-b2ab28c773d12494d91ef812",
     "primary_category": "other",
     "public_article_id": "url:b2ab28c773d12494d91ef812",
@@ -37327,7 +37327,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T20:22:38.406801+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-5ceeaae8e26f5eb828b8ffe1",
     "primary_category": "threat_campaign",
     "public_article_id": "url:5ceeaae8e26f5eb828b8ffe1",
@@ -37360,7 +37360,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T18:37:01.434564+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-f5ef776679d8464c39fd20cf",
     "primary_category": "vulnerability",
     "public_article_id": "url:f5ef776679d8464c39fd20cf",
@@ -37388,7 +37388,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-16T18:54:02.385068+09:00",
-    "heat_score": 32.5,
+    "heat_score": 9.75,
     "permalink_id": "article-url-83d5f53cdd7d78ea7e8e45f6",
     "primary_category": "ai_security",
     "public_article_id": "url:83d5f53cdd7d78ea7e8e45f6",
@@ -134581,60 +134581,5 @@
     "summary_excerpt": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
     "threat_actors": [],
     "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://www.itmedia.co.jp/news/article/2610/24/2000002567/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-25T17:24:21.230045+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-6fa7c116e6f8450d16d158a3",
-    "primary_category": "other",
-    "public_article_id": "url:6fa7c116e6f8450d16d158a3",
-    "public_tags": [],
-    "published_at": "2026-10-24T18:10:34+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "ITmedia NEWS Bursts",
-    "summary": "「お名前.com デスクトップクラウド」の不正アクセスが、「一般国民の取引口座を標的とした不正操作・資産き損」という「極めて悪質かつ前例のない手口」と主張している。",
-    "summary_excerpt": "「お名前.com デスクトップクラウド」の不正アクセスが、「一般国民の取引口座を標的とした不正操作・資産き損」という「極めて悪質かつ前例のない手口」と主張している。",
-    "threat_actors": [],
-    "title": "GMO、「能動的サイバー防御」発動を政府に要請　「お名前.com」FX用VPSへの攻撃で"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-25T17:24:42.690721+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-ae5fe3ec49b34664a0f640b9",
-    "primary_category": "threat_campaign",
-    "public_article_id": "url:ae5fe3ec49b34664a0f640b9",
-    "public_tags": [
-      {
-        "color_family": "red",
-        "key": "threat_campaign",
-        "label": "Campaign"
-      },
-      {
-        "color_family": "red",
-        "key": "malware",
-        "label": "Malware"
-      }
-    ],
-    "published_at": "2026-10-24T18:04:24+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Hacker News",
-    "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was",
-    "summary_excerpt": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was",
-    "threat_actors": [],
-    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet"
   }
 ]

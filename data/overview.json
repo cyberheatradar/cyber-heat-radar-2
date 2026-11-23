@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-23T09:08:18.085344+00:00",
-  "as_of": "2026-11-23T09:00:00+00:00",
+  "generated_at": "2026-11-23T10:09:09.473601+00:00",
+  "as_of": "2026-11-23T10:00:00+00:00",
   "catalog_count": 26025,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -608,6 +608,36 @@
   "persistent_hot": [
     {
       "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "cves": [
+        "CVE-2026-129448"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-21T18:22:49.920534+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-552b60cb29a0722aae4ac33a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:552b60cb29a0722aae4ac33a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-21T17:49:13+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+      "threat_actors": [],
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://security.paloaltonetworks.com/CVE-2026-123633",
       "cves": [
         "CVE-2026-123007",
@@ -906,34 +936,6 @@
       "summary_excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
       "threat_actors": [],
       "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisecurity.org/advisory/a-vulnerability-in-vmware-products-could-allow-for-authentication-bypass_2026-140",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T07:22:27.361393+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-0c0722d9dbecf698b564b28a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:0c0722d9dbecf698b564b28a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T05:40:39+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Center for Internet Security Advisories",
-      "summary": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.",
-      "summary_excerpt": "A vulnerability has been discovered in VMware vCenter, which could allow for authentication bypass. VMware vCenter Server is a centralized management platform used to administer VMware vSphere environments, including ESXi hosts and the virtual machines running on them. Successful exploitation of this vulnerability could allow an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new ac",
-      "threat_actors": [],
-      "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass"
     }
   ],
   "timeseries_status": {
@@ -967,19 +969,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-20T09:00:00+00:00",
-    "last_as_of": "2026-11-23T09:00:00+00:00",
+    "first_as_of": "2026-11-20T10:00:00+00:00",
+    "last_as_of": "2026-11-23T10:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-23T09:00:00+00:00",
-  "heat_as_of": "2026-11-23T09:00:00+00:00",
+  "news_as_of": "2026-11-23T10:00:00+00:00",
+  "heat_as_of": "2026-11-23T10:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 26025,
-  "last_published_at": "2026-11-23T18:08:29.485672+09:00",
-  "publication_slot_jst": "2026-11-23T18:00:00+09:00"
+  "last_published_at": "2026-11-23T19:09:21.000722+09:00",
+  "publication_slot_jst": "2026-11-23T19:00:00+09:00"
 }
