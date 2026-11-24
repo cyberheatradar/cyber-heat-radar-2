@@ -1,9 +1,86 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T07:40:02.794968+00:00",
+  "source_snapshot_generated_at": "2026-11-24T08:40:03.667595+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:8525713b4d5f756b26c3a9af",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "検証",
+          "AIエージェント",
+          "Claude Code",
+          "nyxis"
+        ],
+        "url": "https://zenn.dev/nocodesolutions/articles/56ab1f4ac5f0e8",
+        "title": "Nyxisは認可漏れを防げたか？6アプリで試した結果と限界",
+        "author": "株式会社ノーコードソリューションズ",
+        "published_at": "2026-11-24T08:34:48.273000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f0229dea5227fd816c773d33",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "ブログ",
+          "文章術",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/nyabicode/articles/what-to-leave-to-ai-in-blogging",
+        "title": "AI でブログを書くなら、書き手ではなく聞き役を頼む",
+        "author": "にゃび",
+        "published_at": "2026-11-24T08:34:32.042000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9f4a1b41459e636270fe3640",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "UI デザイン",
+          "プロダクト開発",
+          "プロトタイピング",
+          "デザインハーネス"
+        ],
+        "url": "https://zenn.dev/rimo/articles/c25919207b1cde",
+        "title": "エンジニア20人の組織を、デザイナー1人と AI で支える仕組み",
+        "author": "にしゃみー",
+        "published_at": "2026-11-24T08:24:00.501000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f62de66ecc35d139e541e896",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Claude",
+          "Gemini",
+          "ローカル LLM"
+        ],
+        "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261123",
+        "title": "AIの委託先から情報流出、メルカリも公表。使う前の点検を",
+        "author": "菅原友和",
+        "published_at": "2026-11-24T08:23:29.222000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3b44a860576f0cf691355700",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "DevOps",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/taketake36/articles/b11529c8b04076",
+        "title": "デプロイは成功した。でもログインは全滅していた",
+        "author": "sakamoto",
+        "published_at": "2026-11-24T08:16:38.230000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:2b79b0ce23e5b4258e6665e9",
         "source": "zenn",
@@ -50727,6 +50804,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e1c45736311ffcbead9739c5",
+        "source": "qiita",
+        "author_tags": [
+          "C#",
+          "Windows",
+          "Defender",
+          "Security"
+        ],
+        "url": "https://qiita.com/ohisama@github/items/a5903d75016f6616f76a",
+        "title": "cscの作法 その652",
+        "author": "ohisama@github",
+        "published_at": "2026-11-24T17:19:55+09:00",
+        "excerpt": "概要 cscの作法、調べてみた。 usb メモリーをスキャンしたら、ウイルスが見つかった。 AIに、聞いた。 発見 「Fドライブ（USBメモリや外付けHDDなど）」の中にあるファイルが、ワーム型ウイルス（Worm:Win32/AutoRun!pz）として検出されており、外部ドライブが原因で修復に失敗している状態です。 画面の詳細によると、影響を受けた項目は以下の2つです。 • F:\\User\\csc\\console0.exe • F:\\User\\csc\\crawler0.exe このウイルスは、USBメモリなどの外部ストレージやネットワーク経由で自己増殖する危険なプログラムです。Fドライブが取り外されていたり、書き込み禁止になっていたりすると、Windows セキュリティが自動で削除できず「修復未完了（失敗）」と表示されます。 対処手順 他のPCにFドライブを絶対に挿さない このワームは外部ドライブを別のパソコンに挿すだけで感染を広げる性質があります。対処が終わるまで他の機器には接続しないでください。 Fドライブの該当ファイルを削除する（心当たり"
+      },
+      {
         "id": "qiita:d05f3dd577a7f767593e81ca",
         "source": "qiita",
         "author_tags": [
@@ -59999,6 +60091,20 @@
         "excerpt": "FortiGate は、国内の町工場でもいちばん多く使われているであろう UTM（ファイアウォールなどの機能を1台にまとめた機器）である。 自分の会社の FortiGate が踏み台になっていないか、すぐにでも保守を頼んでいる業者に確認を依頼してほしい。 一般家庭でも、Wi-Fi ルーターなどの管理画面がインターネット側から開けない設定になっているか、見直してほしい。 筆者が管理する VPS 5台の、2026年10月1日から11月5日までの fail2ban と nginx のログを集計した。 その中に、fail2ban の sshd ジェイル（SSH のログイン失敗を数えて BAN する設定）に一度も BAN されていない送信元が1つあった。 その IP は、3台にほぼ同じ時刻から SSH のログインを試し始め、平均17分に1回の間隔で、各台に約1,170回ずつ試していた。 sshd ジェイルの条件（10分に2回の失敗）は狭すぎた。 「1日に5回の失敗で BAN する」ジェイルを足したところ、追加した直後に BAN された。 送信元は、whoi"
       },
       {
+        "id": "qiita:8d448e5b17abd76822687092",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "LLM",
+          "Security"
+        ],
+        "url": "https://qiita.com/KAZI-IZAK/items/afd5181b0b179e21b9d5",
+        "title": "脆弱性診断スキル「Mantis」をローカルLLMで動かす手順と、脆弱性を仕込んだAndroidアプリを診断させた結果",
+        "author": "KAZI-IZAK",
+        "published_at": "2026-11-06T11:50:20+09:00",
+        "excerpt": "概要 実施内容 GoogleのMantisを、Ollama上のローカルLLM（Ornith-1.5-9B-Q8_0）に接続して実行した 診断対象は、意図的に脆弱性を仕込んだAndroidアプリ（MobSFスコア 34/100, HIGH RISK） 結果 Mantisは 8件を記録し、そのうち6件を有効な指摘 とした（CRITICAL 1件、HIGH 4件、MEDIUM 1件） MobSFと比較すると、 IDOR・SSRF・LOGGING_LEAKはMantisのみ 、 署名・ビルド設定の問題はMobSFのみ が検出した MobSFは.apkを、Mantisはソースコードそのものを診断対象としている。そのせいか結果に矛盾点もみられる。 背景 システムの脆弱性が原因の情報漏洩事例が相次いでいる。そこで、ソースコードを外部に出さない閉じた環境、つまりローカルLLMで脆弱性診断ができないかと考えた。 この記事では、Googleが公開しているスキル Mantis をローカルLLMで実行する手順と、その結果を紹介する。 検証環境 項目 内容 ローカルLLM"
+      },
+      {
         "id": "qiita:5ac96657d210ca28a5e82890",
         "source": "qiita",
         "author_tags": [
@@ -69238,6 +69344,51 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4b54370464142033184b3d24",
+        "source": "medium",
+        "author_tags": [
+          "email-marketing",
+          "cybersecurity",
+          "dkim",
+          "dmarc",
+          "spf"
+        ],
+        "url": "https://medium.com/@domainarmor.hq/five-email-authentication-checks-worth-running-before-your-next-send-b8951225788d",
+        "title": "Five email-authentication checks worth running before your next send",
+        "author": "Domain Armor",
+        "published_at": "2026-11-24T08:19:43+00:00",
+        "excerpt": "Most delivery problems we look at are not exotic. They come down to a handful of configuration gaps that stay invisible until open rates… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d599a7c1ad6a532b16b40bfb",
+        "source": "medium",
+        "author_tags": [
+          "cloud-native",
+          "nist",
+          "kubernetes",
+          "cybersecurity",
+          "zero-trust-security"
+        ],
+        "url": "https://medium.com/@graziagdamico/a-snapshot-of-zero-trust-architecture-1f9297b74ad7",
+        "title": "A Snapshot of Zero Trust Architecture",
+        "author": "Grazia D'Amico",
+        "published_at": "2026-11-24T08:02:39+00:00",
+        "excerpt": "A service’s position within a network does not prove its identity or its right to access another service. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:eb57f5a7c8c29e5310f80429",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "portswigger"
+        ],
+        "url": "https://medium.com/@devchetanpatil/portswigger-web-security-academy-reflected-xss-into-attribute-with-angle-brackets-html-encoded-87a3d3de5fd6",
+        "title": "PortSwigger Web Security Academy: Reflected XSS into Attribute with Angle Brackets HTML-encoded",
+        "author": "Chetan Patil",
+        "published_at": "2026-11-24T07:45:37+00:00",
+        "excerpt": "Step 1: The Lab Continue reading on Medium »"
+      },
       {
         "id": "medium:e9d561d35e6f4a885e8b952c",
         "source": "medium",
