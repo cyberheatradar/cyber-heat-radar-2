@@ -1,9 +1,80 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T03:40:03.265978+00:00",
+  "source_snapshot_generated_at": "2026-11-24T04:40:02.980362+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:31c409de18f6d3bb057fa411",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/aqiu/articles/d01b24de0e75b4",
+        "title": "AIを夜間に動かす前に、朝読むレポートを設計する",
+        "author": "aqiu",
+        "published_at": "2026-11-24T04:21:05.201000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ceae5eeadffa3227ea655c87",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "設計",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/nobuhiko/articles/claude-code-zentai-sekkei",
+        "title": "Claude Code と 1 か所ずつ直していたら、強みが画面から消えていた",
+        "author": "Nobuhiko Kimoto",
+        "published_at": "2026-11-24T04:15:57.755000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bf7bb13c3ef0bbf5f64dec44",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "devlog"
+        ],
+        "url": "https://zenn.dev/ryoitabashi/articles/2026-11-23-dev-ja",
+        "title": "他アプリ操作をレシピ化したapp.actの実装と撤去",
+        "author": "RYO ITABASHI",
+        "published_at": "2026-11-24T04:00:38.684000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:78255638150e6c989b44620f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm"
+        ],
+        "url": "https://zenn.dev/ikesita/articles/tiny-voca-cpu-tts",
+        "title": "tiny-voca入門 ― 18MBの英語TTSをCPUで動かす。70倍速の看板を実測する",
+        "author": "moa",
+        "published_at": "2026-11-24T03:47:40.076000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8059d9b5fce90e255fd2d081",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "FFmpeg",
+          "Claude Code",
+          "mulmoterminal",
+          "chaff"
+        ],
+        "url": "https://zenn.dev/singularity/articles/mulmoterminal-handy-features",
+        "title": "見積書の検算、計画の相談、動画の切り出し — MulmoTerminal の便利な使い方を3つ",
+        "author": "Isamu",
+        "published_at": "2026-11-24T03:42:19.866000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:e09386ce9c24fa5c24b18952",
         "source": "zenn",
@@ -50283,6 +50354,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:0a3dadd11b7e89c24eafaf45",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "テスト",
+          "個人情報保護",
+          "情報漏洩",
+          "データマスキング"
+        ],
+        "url": "https://qiita.com/suwa_nobu/items/245b59a87cc1963790d0",
+        "title": "テスト環境で本番の顧客データを使うべきか。楽天証券の漏えいを公表文書から整理し、「本番データでないと確かめられないテスト」をマスキングで代われるか1万件で試した",
+        "author": "suwa_nobu",
+        "published_at": "2026-11-24T13:09:56+09:00",
+        "excerpt": "11月17日、楽天証券が顧客情報の漏えいのおそれを公表しました。漏れたのは本番のシステムではなく、テスト環境のシステムに置かれていた情報です。 テスト環境に、なぜ本物の顧客データがあったのか。楽天証券は取材に「社内システムのアップグレードに伴い、一部の機能については本番環境のデータを使って確認を行う必要があった」と答えています（ ITmedia NEWS 、11月18日）。 テストに本番データを使いたくなる場面は、多くの開発現場にあります。この記事では、まず公表文書と報道から事実を整理します。そのうえで、「本番データでないと確かめられない」と言われがちなテストのうち、どこまでを形を保ったマスキングで代われるかを、架空の顧客データ1万件で試しました。 結論 楽天証券は、本番の顧客データの一部を「一定期間」テストサーバーにコピーして検証していて、 マスキングはかけていなかった と取材に答えています。社内の正式な手続きは経ていたそうです カード業界の基準（PCI DSS）は、本番のカード番号を本番前の環境で使うことを、本番と同じ守りの中に置く場合を除い"
+      },
+      {
         "id": "qiita:b65b57ebbf1e618e87b8ba92",
         "source": "qiita",
         "author_tags": [
@@ -68698,6 +68785,98 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:bbe5203dac5ff9bea61fe1b4",
+        "source": "medium",
+        "author_tags": [
+          "phishing",
+          "machine-learning",
+          "cybersecurity"
+        ],
+        "url": "https://jampanikomal.medium.com/my-phishing-detector-looked-84-accurate-then-i-split-the-data-by-website-7d284871aee9",
+        "title": "My phishing detector looked 84% accurate. Then I split the data by website.",
+        "author": "JAMPANI KOMAL",
+        "published_at": "2026-11-24T04:26:01+00:00",
+        "excerpt": "Post 5 of a series where I tell the honest version of the security tools I’ve built: what I first thought, what I actually shipped, and… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5ec8432c09d06c9f28c7ba37",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "security",
+          "google"
+        ],
+        "url": "https://medium.com/@joachim_43659/google-froze-its-bug-bounty-what-the-ai-slop-crisis-teaches-about-proving-a-vulnerability-a816c3dc4d66",
+        "title": "Google Froze Its Bug Bounty: What the AI Slop Crisis Teaches About Proving a Vulnerability",
+        "author": "joachim",
+        "published_at": "2026-11-24T04:17:29+00:00",
+        "excerpt": "In 2026, writing a convincing vulnerability report became almost free, and checking one did not. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:645ce73ab43bfd56054fbac7",
+        "source": "medium",
+        "author_tags": [
+          "network-security",
+          "penetration-testing",
+          "cybersecurity",
+          "ransomware",
+          "vpn"
+        ],
+        "url": "https://cyberaries.medium.com/the-vpn-is-the-front-door-what-cve-2026-0257-teaches-every-indian-business-20f1f1fe954c",
+        "title": "The VPN Is the Front Door: What CVE-2026–0257 Teaches Every Indian Business",
+        "author": "CyberAries",
+        "published_at": "2026-11-24T04:01:02+00:00",
+        "excerpt": "Ransomware groups walked through an authentication bypass in a widely used VPN for months. Patching was only half the fix. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b9f0048c6d3a8fbfa60a9019",
+        "source": "medium",
+        "author_tags": [
+          "browser-security",
+          "cloudmosa",
+          "endpoint-security",
+          "cybersecurity",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/cloudmosa-en/every-click-carries-risk-where-it-happens-matters-7fb031052be6",
+        "title": "Every Click Carries Risk. Where It Happens Matters.",
+        "author": "Danny Lin",
+        "published_at": "2026-11-24T04:00:01+00:00",
+        "excerpt": "In the AI era, the browser has quietly become the most important — and most exposed — piece of software on our work machines. Continue reading on CloudMosa »"
+      },
+      {
+        "id": "medium:2b3216c7ab1fee659d03169c",
+        "source": "medium",
+        "author_tags": [
+          "infosectrain",
+          "data-security",
+          "cyber-threat-prevention",
+          "ransomware-protection",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@raviishu222007/ransomware-protection-strategies-how-businesses-can-defend-against-modern-attacks-60f98102ed0d",
+        "title": "Ransomware Protection Strategies: How Businesses Can Defend Against Modern Attacks",
+        "author": "Raviishu Kotnala",
+        "published_at": "2026-11-24T03:59:57+00:00",
+        "excerpt": "Discover effective ransomware protection strategies to safeguard business data, prevent cyberattacks, and strengthen your organization’s… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:34b8f4a9f5a132bf4bb6c4ad",
+        "source": "medium",
+        "author_tags": [
+          "marketing",
+          "crowdstrike",
+          "world",
+          "cybersecurity",
+          "zscaler"
+        ],
+        "url": "https://medium.com/@ranade.gaurav/when-two-wounded-tigers-join-hands-is-the-cybersecurity-industry-entering-an-era-of-consolidation-c1280ea347c7",
+        "title": "When Two Wounded Tigers Join Hands — Is the Cybersecurity Industry Entering an Era of Consolidation…",
+        "author": "Gaurav Ranade",
+        "published_at": "2026-11-24T03:54:44+00:00",
+        "excerpt": "By Gaurav Ranade Continue reading on Medium »"
+      },
       {
         "id": "medium:e62b1f3e2c27d1f8f08ac88e",
         "source": "medium",
