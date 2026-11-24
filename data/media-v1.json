@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T01:40:03.211542+00:00",
+  "source_snapshot_generated_at": "2026-11-24T02:40:04.613869+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:ef5aeb2523dda5c1d5d3afb6",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "生成 AI",
+          "Claude Code",
+          "Vibe Coding"
+        ],
+        "url": "https://zenn.dev/nexta_/articles/a3ff76a9f98f1c",
+        "title": "Claude Code を5〜8個並べても迷わないように、自分用のダッシュボードをバイブコーディングで作った",
+        "author": "bik",
+        "published_at": "2026-11-24T02:30:05.263000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3dce0f747a704de2f957facc",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Bash",
+          "Security",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kosukeozawa/articles/claude-code-hook-exit1-bypass",
+        "title": "Claude Codeのhookはexit 1では止まらない。壊して49回試した",
+        "author": "kosuke",
+        "published_at": "2026-11-24T01:40:35.333000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:76b6dffb89e4c7681b66e4da",
         "source": "zenn",
@@ -50160,6 +50191,68 @@
     ],
     "qiita": [
       {
+        "id": "qiita:abb50b21c25f808b4606f59c",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "yubikey",
+          "レジストリ",
+          "トラブルシューティング",
+          "Security"
+        ],
+        "url": "https://qiita.com/harupython/items/788dd90a61bee48b1e0f",
+        "title": "Yubico Login for Windowsを消そうとしたら、自分のPCから締め出された話",
+        "author": "harupython",
+        "published_at": "2026-11-24T11:32:11+09:00",
+        "excerpt": "はじめに こんにちは、PythonHaruです。 YubiKeyを管理するアプリ「Yubico Authenticator」を入れるつもりで、名前の似ている「Yubico Login for Windows」を間違えてインストールしてしまいました。こちらは、YubiKeyでWindowsのローカルログインを守るためのツールです。 間違いに気づいたので、Yubico Login for Windowsだけを外して、Windows Hello(PINや顔認証)を元に戻そうとしました。 結果として、 ログイン画面に何も出なくなり、自分のPCに入れなくなりました。 初期セットアップすらしていない状態で、インストールしただけです。復元ポイントもありません。 この記事は、Windowsのインストール用USBから起動したコマンドプロンプトとオフラインレジストリだけで、そこから戻ってきた記録です。同じ穴に落ちた人が、最短で抜け出せるように書いておきます。 この記事の手順は、筆者の環境で実際に効いたものです。Yubico Login for Windowsのバージ"
+      },
+      {
+        "id": "qiita:43915f39553fca607278f47c",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Security",
+          "LLM",
+          "MCP",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/redreamality/items/7eb2f2e7ce789f0dc7dd",
+        "title": "エージェントのセキュリティはどこから漏れるのか：ゲートウェイ、認証情報、スクショ、SSRF、監査ログ、停止スイッチをめぐる10本",
+        "author": "redreamality",
+        "published_at": "2026-11-24T11:23:53+09:00",
+        "excerpt": "「エージェントのセキュリティ」と聞くと、まだプロンプトインジェクションの話を思い浮かべる人が多いと思います。ただ、ここ2か月ほどで実際に起きた事故を並べてみると、問題の多くはプロンプトではなく配管のほうにありました。モデルゲートウェイに仕込まれた不正パッケージ、他人のキーを預かっていたホスト型コンソール、公開リポジトリに流れたスクリーンショット、そしてエージェント自身が書き換えられるログ。 redreamality.com でこのあたりを扱った長めの記事を読み返していたら、どれも「スタックのどの層で漏れたか」という切り口で読めることに気づきました。10本選んで、それぞれ日本語で短く紹介します。各記事は英語版と中国語版があり、最後の1本は日本語版も読めます。 1. キーが一番たまる場所はゲートウェイ PyPI に上がった LiteLLM 1.107.0 には余計なファイルが混ざっていて、ライブラリを import しなくても認証情報を抜き取り、1時間おきに新しいコードを取りに行く作りになっていました。同じ日に Railway も保存済み環境変数の漏"
+      },
+      {
+        "id": "qiita:2a45f65854871eac00d8839f",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/59f22d2af32486d43e4f",
+        "title": "SafeLine WAF：ペネトレーションテストでみつかったバイパスをふさぐチェックリスト",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-24T11:08:39+09:00",
+        "excerpt": "ペネトレーションテストで「WAF をバイパスできた」といわれたら、まずリクエストのとおりみちをたしかめます。アプリからレスポンスがかえってきたことだけでは、こうげきがせいこうしたとも、WAF のチェックをすりぬけたともいえません。 この記事では、SafeLine WAF をつかうサイトをれいに、how to close a waf bypass found during a penetration test というかだいを、きりわけとさいテストのチェックリストでせいりします。WAF によるいちじてきなふうじこめと、アプリそのもののしゅうせいは、べつのタスクとしてあつかいます。 1. さいげんできるリクエストをそろえる さいしょに、テスターがきょかされたはんいでつかったリクエストをうけとります。コピーするときにヘッダーやボディをかえてしまうと、あとからおなじじょうけんでくらべられません。 HTTP メソッド、ホスト、パスをひかえた ヘッダー、Content-Type、ボディをほぞんした せつぞくさき IP、じこく、レスポンスをひかえた こうげきのせ"
+      },
+      {
+        "id": "qiita:f5aef47fdb14ab7dcd6b4778",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "生成AI",
+          "Gemini",
+          "Security",
+          "個人開発"
+        ],
+        "url": "https://qiita.com/ennagara128/items/9be48376ecd718dbbce3",
+        "title": "2026年11月24日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+        "author": "ennagara128",
+        "published_at": "2026-11-24T10:48:41+09:00",
+        "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 手書きをやめた途端、ブログが全部AI臭くなったあなたへ！ マシにする方法教えます https://qiita.com/minorun365/items/faa50b7662b86e1df29c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items 脆弱性の「CVSS 9.8」って結局なに？CVSSの読み方をちゃんと理解する https://qiita.com/heki-dm/items/77ecaacd592d1c4459df?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items コードを書くコストが下がった今、ソフトウェアエンジニアリングの価値はどこにあるのか "
+      },
+      {
         "id": "qiita:ff95560e445b9b9bc7d30524",
         "source": "qiita",
         "author_tags": [
@@ -68482,6 +68575,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:dd71d47ebefd3fdf0ecf9cea",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "infosec",
+          "bug-bounty",
+          "cybersecurity",
+          "security"
+        ],
+        "url": "https://medium.com/@vigneshkumaroffsec/response-manipulation-explained-how-changing-false-to-true-bypasses-otp-login-and-paywalls-32d6b7d39189",
+        "title": "Response Manipulation Explained: How Changing “false” to “true” Bypasses OTP, Login and Paywalls…",
+        "author": "Vigneshkumaroffsec",
+        "published_at": "2026-11-24T02:28:40+00:00",
+        "excerpt": "The server said no. The attacker edited the response to say yes, and the app believed it. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0d808d5913d5c9a57306e327",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "tools",
+          "bug-bounty",
+          "go"
+        ],
+        "url": "https://whitehatcat.medium.com/sentrix-complete-technical-overview-user-guide-48072b7cf912",
+        "title": "SENTRIX: Complete Technical Overview & User Guide",
+        "author": "white hat",
+        "published_at": "2026-11-24T02:27:10+00:00",
+        "excerpt": "Advanced Attack Surface Intelligence (AASI) | Built with Go Continue reading on Medium »"
+      },
+      {
+        "id": "medium:79e3153b7177be678c3f4bea",
+        "source": "medium",
+        "author_tags": [
+          "linux",
+          "cybersecurity",
+          "supply-chain-security",
+          "devops",
+          "software-engineering"
+        ],
+        "url": "https://medium.com/@devadiga.navya/a-retry-swapped-a-verified-package-10-download-and-verify-mistakes-behind-debians-apt-bug-535c8adf893b",
+        "title": "A Retry Swapped a Verified Package: 10 Download-and-Verify Mistakes Behind Debian’s APT Bug",
+        "author": "Navya Devadiga",
+        "published_at": "2026-11-24T02:01:12+00:00",
+        "excerpt": "CVE-2026–109518: APT checked the hash, then a retry rewrote the hard-linked file. 10 download mistakes, each reproduced, and the fix. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e444ba8409125902be3cd542",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "jpmc",
+          "data-breach"
+        ],
+        "url": "https://medium.com/@cyber_securiti/tuesday-morning-threat-report-nov-24-2026-3c16c8e41d71",
+        "title": "Tuesday Morning Threat Report: Nov 24, 2026",
+        "author": "Mark Maguire",
+        "published_at": "2026-11-24T01:36:13+00:00",
+        "excerpt": "Where the news is always bad, but the analysis is always good. Continue reading on Medium »"
+      },
       {
         "id": "medium:d3b84df1c5d9e41480171b37",
         "source": "medium",
