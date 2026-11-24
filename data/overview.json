@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-24T14:10:15.117981+00:00",
-  "as_of": "2026-11-24T14:00:00+00:00",
-  "catalog_count": 26534,
+  "generated_at": "2026-11-24T15:08:35.572775+00:00",
+  "as_of": "2026-11-24T15:00:00+00:00",
+  "catalog_count": 26541,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,86 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T23:52:04.440585+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-defec4e244cdf7e4e1d6c3a4",
+      "primary_category": "ai_security",
+      "public_article_id": "url:defec4e244cdf7e4e1d6c3a4",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-24T23:21:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries. The post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek .",
+      "summary_excerpt": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries. The post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T23:22:19.319828+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-f249978bf6d5abc361c85137",
+      "primary_category": "incident",
+      "public_article_id": "url:f249978bf6d5abc361c85137",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-24T23:09:37+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+      "summary_excerpt": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+      "threat_actors": [],
+      "title": "McDonald's Japan data breach exposes customer location information"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T23:22:38.636369+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-799a66dc04e1a690d3982524",
+      "primary_category": "other",
+      "public_article_id": "url:799a66dc04e1a690d3982524",
+      "public_tags": [],
+      "published_at": "2026-11-24T22:35:37+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced. Arion Kurtaj, 21, formerly of Oxfordshire, pleaded guilty to six charges, including fraud and computer misuse offences, at Woolwich Crown Court on 16 November. The court set a nine-year term and then took off two years for the time … More → The post GTA 6 hacker sentenced to seven years and released the same day appeared first on Help Net Security .",
+      "summary_excerpt": "The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced. Arion Kurtaj, 21, formerly of Oxfordshire, pleaded guilty to six charges, including fraud and computer misuse offences, at Woolwich Crown Court on 16 November. The court set a nine-year term and then took off two years for the time … More → The post GTA 6 hacker sentenced to seven years and released the same day appeared first on Help Net Security .",
+      "threat_actors": [
+        "LAPSUS$"
+      ],
+      "title": "GTA 6 hacker sentenced to seven years and released the same day"
+    },
     {
       "ai_relevance": "primary",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
@@ -37,6 +117,64 @@
       "summary_excerpt": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
       "threat_actors": [],
       "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "cves": [
+        "CVE-2026-123903"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T23:22:52.550975+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-aa014f4b55f462a96af72e8e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:aa014f4b55f462a96af72e8e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-24T22:28:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
+      "summary_excerpt": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
+      "threat_actors": [],
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T23:22:52.696868+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c4ed564253ff3bb566e8a696",
+      "primary_category": "ransomware",
+      "public_article_id": "url:c4ed564253ff3bb566e8a696",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-24T22:28:21+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
+      "summary_excerpt": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
+      "threat_actors": [],
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site"
     },
     {
       "ai_relevance": "none",
@@ -82,6 +220,39 @@
       "summary_excerpt": "Overview An unauthenticated attacker can retrieve the session key for an in-progress administrator login to VMware vCenter's directory service. The attacker then uses that key to complete the login without knowing the account's password. The vulnerable interface is exposed through DCE/RPC on TCP port 2012. The issue, tracked as CVE-2026-123890 , combines a Secure Remote Password (SRP) session-key getter that is callable before authentication with an RPC context lookup that does not enforce ownership. The context handles use predictable UUIDv1 values. By creating two reference contexts around a",
       "threat_actors": [],
       "title": "Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.wiz.io/blog/wiz-openai-codex-integration",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T23:37:06.611377+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-7a768b08a9f6f34b15c9d67a",
+      "primary_category": "ai_security",
+      "public_article_id": "url:7a768b08a9f6f34b15c9d67a",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-24T22:00:03+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Wiz Blog",
+      "summary": "Bringing cloud security intelligence to AI-driven vulnerability investigation and code remediation.",
+      "summary_excerpt": "Bringing cloud security intelligence to AI-driven vulnerability investigation and code remediation.",
+      "threat_actors": [],
+      "title": "Powering the OpenAI Daybreak Defense Factory with Wiz Security Intelligence"
     },
     {
       "ai_relevance": "primary",
@@ -148,178 +319,39 @@
       "summary_excerpt": "Elastic announced Elastic Security 9.6, which introduces AlertZero, a set of AI agents that triage alerts, hunt threats and tune detection rules in the background. The release also adds ransomware protection for Linux, expanded entity resolution and an expanded set of 143 detection rules covering AI agents and large language model platforms. AlertZero takes on the alert queue AlertZero organizes its agents, called Workers, into four teams known as Watches: triage, threat hunting, detection engineering … More → The post Elastic puts AI agents to work on the SOC alert backlog appeared first on H",
       "threat_actors": [],
       "title": "Elastic puts AI agents to work on the SOC alert backlog"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/new-windows-security-check-could-let-apps-block-access",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T22:53:28.415386+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-ed0c64829299a5956c06c5a2",
-      "primary_category": "other",
-      "public_article_id": "url:ed0c64829299a5956c06c5a2",
-      "public_tags": [],
-      "published_at": "2026-11-24T21:22:17+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Malwarebytes Blog",
-      "summary": "Windows baseline protection will show which of eight safeguards your PC is missing and help you turn them on.",
-      "summary_excerpt": "Windows baseline protection will show which of eight safeguards your PC is missing and help you turn them on.",
-      "threat_actors": [],
-      "title": "New Windows security check could let apps block access"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T21:22:35.812981+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-539a1e0fd9e43f1a0940014e",
-      "primary_category": "ai_security",
-      "public_article_id": "url:539a1e0fd9e43f1a0940014e",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-24T21:20:41+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready. The post OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems appeared first on SecurityWeek .",
-      "summary_excerpt": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready. The post OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T21:22:30.091040+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-1e17cf9869aa827bf0e0bb5b",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:1e17cf9869aa827bf0e0bb5b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T21:04:37+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers have exploited a vulnerability in Azure API Management (APIM) to steal credentials stored in customers’ instances, Microsoft has warned. Among the victims are several Norwegian organizations, including energy companies Equinor and Skagerak Energi, and organizations in other sectors and outside Norway, the country’s National Security Authority (NSM) confirmed. APIM Classic tiers affected APIM is a gateway that sits in front of an organization’s APIs and handles authentication, routing and rate limiting. To call the … More → The post Azure API Management vulnerability exploited to steal customers’ secrets appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers have exploited a vulnerability in Azure API Management (APIM) to steal credentials stored in customers’ instances, Microsoft has warned. Among the victims are several Norwegian organizations, including energy companies Equinor and Skagerak Energi, and organizations in other sectors and outside Norway, the country’s National Security Authority (NSM) confirmed. APIM Classic tiers affected APIM is a gateway that sits in front of an organization’s APIs and handles authentication, routing and rate limiting. To call the … More → The post Azure API Management vulnerability exploited to stea",
-      "threat_actors": [],
-      "title": "Azure API Management vulnerability exploited to steal customers’ secrets"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
-      "cves": [
-        "CVE-2026-87268"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T22:23:13.707169+09:00",
-      "heat_score": 55.0,
-      "permalink_id": "article-url-372382395c6e6dd9c78dc46f",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:372382395c6e6dd9c78dc46f",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T21:02:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268, and Windows code integrity, tracked",
-      "summary_excerpt": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268, and Windows code integrity, tracked",
-      "threat_actors": [],
-      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/openai-cisco-shirudo-linux-shields/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T21:22:30.937061+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-94031a569429f0574ce303f6",
-      "primary_category": "ai_security",
-      "public_article_id": "url:94031a569429f0574ce303f6",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-24T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "OpenAI and Cisco’s Shirudo helps Linux users block exploitation of known vulnerabilities on live systems, buying time for patching without requiring a restart",
-      "summary_excerpt": "OpenAI and Cisco’s Shirudo helps Linux users block exploitation of known vulnerabilities on live systems, buying time for patching without requiring a restart",
-      "threat_actors": [],
-      "title": "OpenAI and Cisco Release Open-Source Tool to Shield Unpatched Linux Systems"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T20:24:00.705672+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-5d4b7756ff34b08452bd713c",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:5d4b7756ff34b08452bd713c",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-24T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "NCSC UK",
-      "summary": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
-      "summary_excerpt": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
-      "threat_actors": [],
-      "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "cves": [
+        "CVE-2026-123903"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T23:22:52.550975+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-aa014f4b55f462a96af72e8e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:aa014f4b55f462a96af72e8e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-24T22:28:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
+      "summary_excerpt": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
+      "threat_actors": [],
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890/",
@@ -523,6 +555,34 @@
       "title": "爆増するサイバー攻撃、魔の手はITだけでなく「OT」にも　元米軍のセキュリティ専門家が警鐘"
     },
     {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T23:22:19.319828+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-f249978bf6d5abc361c85137",
+      "primary_category": "incident",
+      "public_article_id": "url:f249978bf6d5abc361c85137",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-24T23:09:37+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+      "summary_excerpt": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+      "threat_actors": [],
+      "title": "McDonald's Japan data breach exposes customer location information"
+    },
+    {
       "ai_relevance": "primary",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
       "cves": [],
@@ -551,93 +611,32 @@
       "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits"
     },
     {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/chinese-ai-models-top/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T22:23:08.083815+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-02ebc4b129f70ce5b79b543c",
-      "primary_category": "ai_security",
-      "public_article_id": "url:02ebc4b129f70ce5b79b543c",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-24T22:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "In a vulnerability discovery test, DeepSeek outperformed five American closed-source AI models while costing far less to run",
-      "summary_excerpt": "In a vulnerability discovery test, DeepSeek outperformed five American closed-source AI models while costing far less to run",
-      "threat_actors": [],
-      "title": "Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test"
-    },
-    {
       "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/",
+      "canonical_url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-24T21:22:30.091040+09:00",
+      "first_seen_at": "2026-11-24T23:22:52.696868+09:00",
       "heat_score": 65.0,
-      "permalink_id": "article-url-1e17cf9869aa827bf0e0bb5b",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:1e17cf9869aa827bf0e0bb5b",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T21:04:37+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers have exploited a vulnerability in Azure API Management (APIM) to steal credentials stored in customers’ instances, Microsoft has warned. Among the victims are several Norwegian organizations, including energy companies Equinor and Skagerak Energi, and organizations in other sectors and outside Norway, the country’s National Security Authority (NSM) confirmed. APIM Classic tiers affected APIM is a gateway that sits in front of an organization’s APIs and handles authentication, routing and rate limiting. To call the … More → The post Azure API Management vulnerability exploited to steal customers’ secrets appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers have exploited a vulnerability in Azure API Management (APIM) to steal credentials stored in customers’ instances, Microsoft has warned. Among the victims are several Norwegian organizations, including energy companies Equinor and Skagerak Energi, and organizations in other sectors and outside Norway, the country’s National Security Authority (NSM) confirmed. APIM Classic tiers affected APIM is a gateway that sits in front of an organization’s APIs and handles authentication, routing and rate limiting. To call the … More → The post Azure API Management vulnerability exploited to stea",
-      "threat_actors": [],
-      "title": "Azure API Management vulnerability exploited to steal customers’ secrets"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T20:24:00.705672+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-5d4b7756ff34b08452bd713c",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:5d4b7756ff34b08452bd713c",
+      "permalink_id": "article-url-c4ed564253ff3bb566e8a696",
+      "primary_category": "ransomware",
+      "public_article_id": "url:c4ed564253ff3bb566e8a696",
       "public_tags": [
         {
           "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
+          "key": "ransomware",
+          "label": "Ransomware"
         }
       ],
-      "published_at": "2026-11-24T21:00:00+09:00",
+      "published_at": "2026-11-24T22:28:21+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "NCSC UK",
-      "summary": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
-      "summary_excerpt": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
+      "source_name": "The Hacker News",
+      "summary": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
+      "summary_excerpt": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
       "threat_actors": [],
-      "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks"
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site"
     }
   ],
   "rising": [],
@@ -974,32 +973,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-    "【HOTTEST #1 / Heat 71.25】Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)",
-    "【LATEST #2】Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)",
-    "【HOTTEST #2 / Heat 67.5】Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-    "【LATEST #3】Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test",
-    "【HOTTEST #3 / Heat 67.5】Apache Software FoundationのApache Rollerにおける信頼できないデータのデシリアライゼーションに関する脆弱性",
-    "【LATEST #4】Elastic puts AI agents to work on the SOC alert backlog",
-    "【HOTTEST #4 / Heat 67.5】Vulnerability in PHP Affecting Cisco Products: November 2026",
-    "【LATEST #5】New Windows security check could let apps block access",
-    "【HOTTEST #5 / Heat 67.5】VMware製品の脆弱性対策について(CVE-2026-123890)"
+    "【LATEST #1】Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+    "【HOTTEST #1 / Heat 75】VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+    "【LATEST #2】McDonald's Japan data breach exposes customer location information",
+    "【HOTTEST #2 / Heat 71.25】Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)",
+    "【LATEST #3】GTA 6 hacker sentenced to seven years and released the same day",
+    "【HOTTEST #3 / Heat 67.5】Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+    "【LATEST #4】New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+    "【HOTTEST #4 / Heat 67.5】Apache Software FoundationのApache Rollerにおける信頼できないデータのデシリアライゼーションに関する脆弱性",
+    "【LATEST #5】VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+    "【HOTTEST #5 / Heat 67.5】Vulnerability in PHP Affecting Cisco Products: November 2026"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
     "first_as_of": "2026-11-21T15:00:00+00:00",
-    "last_as_of": "2026-11-24T14:00:00+00:00",
-    "unique_snapshots_used": 72,
-    "span_hours": 71.0,
+    "last_as_of": "2026-11-24T15:00:00+00:00",
+    "unique_snapshots_used": 73,
+    "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-24T14:00:00+00:00",
-  "heat_as_of": "2026-11-24T14:00:00+00:00",
+  "news_as_of": "2026-11-24T15:00:00+00:00",
+  "heat_as_of": "2026-11-24T15:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26534,
-  "last_published_at": "2026-11-24T23:10:26.616500+09:00",
-  "publication_slot_jst": "2026-11-24T23:00:00+09:00"
+  "news_catalog_count": 26541,
+  "last_published_at": "2026-11-25T00:08:47.090289+09:00",
+  "publication_slot_jst": "2026-11-25T00:00:00+09:00"
 }
