@@ -1,9 +1,89 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T11:40:03.206970+00:00",
+  "source_snapshot_generated_at": "2026-11-24T12:40:03.935432+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:5ac484b7eda2a1a4bf5e6b4d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Model Context Protocol",
+          "Honeypot",
+          "llm"
+        ],
+        "url": "https://zenn.dev/null_teck/articles/first-wild-agentic-mcp-attack-honeypot",
+        "title": "ついに「無名のテスト環境」にも攻撃AIが来るようになった？──おとりサーバーで初観測した自動攻撃の実態",
+        "author": "ヌルソフト@AI_Teck_PoC",
+        "published_at": "2026-11-24T12:38:55.805000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ca2696f34e1c96002b5c3fa9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Tech",
+          "IME",
+          "Japanese",
+          "ローカル AI"
+        ],
+        "url": "https://zenn.dev/stemstudio/articles/a36b88fe61c397",
+        "title": "Mozc にローカル LLM を足して、前の文を読む日本語入力を作った",
+        "author": "stemstudio",
+        "published_at": "2026-11-24T12:34:24.988000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:88a45b7bc5b410d477315351",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "SoC",
+          "Microsoft Defender",
+          "Incident response",
+          "microsoftsentinel"
+        ],
+        "url": "https://zenn.dev/microsoft/articles/defender-case-management-02-screen-tour",
+        "title": "画面で見る Microsoft Defender のケース管理 タスク・SLA・カスタム項目は何のためか",
+        "author": "Naoki Abe",
+        "published_at": "2026-11-24T12:12:22.029000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0127357c166a9763496ab937",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "architecture",
+          "Model Context Protocol",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/inemuri/articles/llm-harness-vs-model-explained",
+        "title": "「LLM本体はテキスト生成しかできない」——AIエージェントの正体『ハーネス』の仕組みを図解する",
+        "author": "いねむりさん",
+        "published_at": "2026-11-24T12:06:32.074000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dbd0a8a254465dfa0bc859ee",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "Test",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sbkm/articles/0a8d9931015ba9",
+        "title": "AIが書いた原稿は、チェックを全部通ったうえで日付を間違えていた — チェックは形を見て、中身は見ていない",
+        "author": "しばこま",
+        "published_at": "2026-11-24T12:00:05.147000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:15d138c25c8844411c0dd1d1",
         "source": "zenn",
@@ -51196,6 +51276,68 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3e47d49f63c72a2406128f32",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "MySQL",
+          "Database",
+          "ランサムウェア"
+        ],
+        "url": "https://qiita.com/cruel_summer/items/cc05838e1e8c7d82e768",
+        "title": "顧客システムを使うなら奇をてらわずに顧客IDで識別しましょう",
+        "author": "cruel_summer",
+        "published_at": "2026-11-24T21:38:28+09:00",
+        "excerpt": "無印良品を運営する良品計画が不正アクセスの被害を公表したのは2026年11月のこと。この手の被害は数えきれないほど報道されてたので「やれやれまたですか」という雰囲気が日本社会に漂っていた。 そういう私ものその一人。無印良品のアプリはDLしておらず、自分はおそらく対象に入っていないだろうことから鼻をほじりながら報道をチェックしていたら、けっこう衝撃な報告が会見でなされていたことを知った。 「流出の対象にクレジットカード番号が含まれているかもしれません」。 まずは暗号化しなきゃ お金に直接かかわるような個人情報が流出した、ということはマスキングも暗号化していなかったのだろう。していないような会見だったから。 ログイン時に必要なパスワードが代表例だが流出したら大惨事になるものはデータベースへの登録時にトークン化、ハッシュ化しておくのが基本中の基本である。平文のままならそのまま全ケタが読めてしまうからだ。 システムに入られないようにすることはもちろん、入られてしまったことも想定してデータ保管のルールがある。クレジットカード番号は流出阻止の最優先候補に挙げ"
+      },
+      {
+        "id": "qiita:6d444d57cdead28280f8881d",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "AI",
+          "Quick",
+          "Security"
+        ],
+        "url": "https://qiita.com/somasun_aws/items/d6981d50cc6e377c6d64",
+        "title": "AWS Quickにファイルを読ませると、データはどこへ行く？ セキュリティの仕組みを整理する",
+        "author": "somasun_aws",
+        "published_at": "2026-11-24T21:12:17+09:00",
+        "excerpt": "本記事の内容は2026年11月12日時点のAWS公式ドキュメントに基づきます。最新情報は参考資料のリンク先で確認してください。 AWS Quickは、旧称Amazon Quickです。 1. はじめに 前回の記事「 Amazon Quickのファイル、どこに置く？ 」では、ファイルの置き場所ごとの使い方を整理しました。その後、次のような疑問をいだきました。 「クラウドに出したくないファイルは、Quickでは使えないの？」 「Quickのセキュリティは、どうなっているの？」 本記事では、AWS公式ドキュメントをもとに次の3点を整理します。 AWSが守っている範囲 自社で対策が必要な範囲 実際に試せるセキュリティ設定（デモ） 2. 前提：QuickのAIはクラウドで動く まず大事な前提です。 QuickのAIは、PCの中ではなくクラウドで動きます。 Desktopアプリはモデルを持っていません。チャットで頼むと、プロンプトと添付ファイルがAWS Quickに送られ、クラウドの実行環境（Amazon Bedrock AgentCore上）で処理されます"
+      },
+      {
+        "id": "qiita:f39d855e1acd787afa857fd7",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "owasp",
+          "SpringBoot",
+          "logging"
+        ],
+        "url": "https://qiita.com/maees/items/4e8d3c79fec0369ba540",
+        "title": "選択肢にない値が来たらCRITICAL――OWASPがWARNから上げた重大度",
+        "author": "maees",
+        "published_at": "2026-11-24T21:11:25+09:00",
+        "excerpt": "選択肢にない値が来たらCRITICAL――OWASPがWARNから上げた重大度 OWASPが2026年11月24日、Logging Vocabulary Cheat Sheetの1行を変えた。イベント input_validation_discrete_fail の重大度が、WARNからCRITICALに上がった。差分は1行だけだが、意味は大きい。選択肢に存在しない値がサーバーに送られてきたら、それは入力ミスではなく、不正な操作の兆候として検知の対象になる。 1行の変更が指すもの input_validation_discrete_fail は、あらかじめ決められた選択肢に存在しない値に対するサーバー側の検証失敗を表すイベントである。チートシートの説明は、こう書いてある。離散的な選択肢（ドロップダウンリストやラジオボタンなど）に対する検証が失敗した場合、それはクライアント側のコードが改変されたことを示す、悪意ある活動の強い兆候である。現在のチートシートで、このイベントのLevelはCRITICALになっている。変更前はWARNだった。 注意点が1"
+      },
+      {
+        "id": "qiita:9da1f13fcbbaa20fe5c6b869",
+        "source": "qiita",
+        "author_tags": [
+          "パスキー",
+          "FIDO2",
+          "WebAuthn",
+          "生体認証",
+          "Security"
+        ],
+        "url": "https://qiita.com/comty/items/8eb873b26bcb5be179ba",
+        "title": "パスキーは「認証の地方分権」なのか？ 生体認証の民主化と、次世代の本人認証を考える",
+        "author": "comty",
+        "published_at": "2026-11-24T20:42:33+09:00",
+        "excerpt": "はじめに 少し前までは、システムにログインするためにIDとパスワードを入力するのが当たり前でした。企業のシステムであれば、Active Directoryなどによる集中管理を行い、より高いセキュリティが必要な場面では、電子証明書や多要素認証を組み合わせてきました。 ところが、最近の認証は随分と様変わりしました。スマートフォンに顔を向けるだけ、指を置くだけで、さまざまなサービスにログインできるようになっています。 この変化を考えているうちに、一つの仮説が浮かびました。 パスキーの普及は、スマートフォンの進化によって生体認証が民主化され、認証の仕組みが中央集権型から地方分権型へと変化してきた結果ではないでしょうか。 かつては専用装置が必要だった高度な生体認証が、個人の持つスマートフォンやパソコンで当たり前に使えるようになりました。認証のための機能が、特別な設備から一般消費者のデバイスへと広がったわけです。 一方で、新しい問題も生まれています。端末が本人確認の重要な役割を担うのであれば、その端末を失ったとき、本人であることをどのように証明するのでしょう"
+      },
+      {
         "id": "qiita:728dd75eef423236314e9f68",
         "source": "qiita",
         "author_tags": [
@@ -69799,6 +69941,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:01860ba756ac13a665b41825",
+        "source": "medium",
+        "author_tags": [
+          "it-certification",
+          "cybersecurity",
+          "comptia-security-plus",
+          "informationsecuritypolicy",
+          "sy0-801"
+        ],
+        "url": "https://medium.com/@voxoril410/comptia-security-sy0-801-everything-you-need-to-know-before-taking-the-new-cybersecurity-1500392f3975",
+        "title": "CompTIA Security+ SY0–801: Everything You Need to Know Before Taking the New Cybersecurity…",
+        "author": "jacob",
+        "published_at": "2026-11-24T12:13:54+00:00",
+        "excerpt": "Cybersecurity is no longer just a concern for large technology companies. Businesses of every size rely on secure networks, protected data… Continue reading on Medium »"
+      },
       {
         "id": "medium:4874b891b48d84866e3dc35c",
         "source": "medium",
