@@ -1,9 +1,100 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T08:40:03.667595+00:00",
+  "source_snapshot_generated_at": "2026-11-24T09:40:03.259198+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:91104190342e6185bd7030d5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Power Automate",
+          "Power Platform",
+          "Copilot Studio",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/upgradetech/articles/a9a1637d3071c1",
+        "title": "Copilot Studioのエージェント開発をClaude Codeにどこまで任せられるか試した",
+        "author": "masa",
+        "published_at": "2026-11-24T09:24:58.897000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:efe8d12dbcef9fdd5243881f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Laravel",
+          "PHP",
+          "Security",
+          "architecture"
+        ],
+        "url": "https://zenn.dev/ritsu_nakagami/articles/aefe3bcb763c4a",
+        "title": "AI生成コードで起きがちな認証・認可の穴とAPIキー露出：Laravel × AIアプリの本番公開前に潰すべき4つのアンチパターン",
+        "author": "仲神 律",
+        "published_at": "2026-11-24T09:09:13.539000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d3755a13a44ce14f71eec458",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "データサイエンス",
+          "learning",
+          "特徴量",
+          "技術屋の思考ログ"
+        ],
+        "url": "https://zenn.dev/uragasumi25/articles/b8a30c84aac0db",
+        "title": "【技術屋の思考ログ #47】AI入門編：AIは「魔法」ではない。エンジニアが知っておくべき確率論と「特徴量」",
+        "author": "浦霞",
+        "published_at": "2026-11-24T09:00:06.358000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:629842c3583f0d24710d82d0",
+        "source": "zenn",
+        "author_tags": [
+          ".NET",
+          "AI",
+          "C#",
+          "OSS",
+          "Jev"
+        ],
+        "url": "https://zenn.dev/kkdev92/articles/jev-dotnet-v0-3",
+        "title": "AIの入力判定・モデル振り分け・応答評価をC#で扱う — Kkdev92.Jev 0.3.0-alpha",
+        "author": "kkdev92",
+        "published_at": "2026-11-24T08:58:43.188000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:399f5f74732cc4f23d8c9711",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/dofepilozenn/articles/14f159215c14a0",
+        "title": "Notes on the Father of the Groom Speech: Four Faults, Fixed in Order",
+        "author": "Luis",
+        "published_at": "2026-11-24T08:49:30+00:00",
+        "excerpt": "I set out to understand why the father of the groom speech so often lands flat when the same man could give a decent speech in any other setting. My reading is that the problem is not confidence or material. It is that the job is unclear, and an unclear job produces a toast that drifts in tone an..."
+      },
+      {
+        "id": "zenn:80e6a8bcf0d952570006367f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "video",
+          "architecture",
+          "GPU"
+        ],
+        "url": "https://zenn.dev/idaeo_ainews/articles/h3hd-zenn-20261124",
+        "title": "動画生成を止めずに処理枠を広げたとき、どの数字を分けて読むか",
+        "author": "IDAEO AINews",
+        "published_at": "2026-11-24T08:41:05+00:00",
+        "excerpt": "GPUtw.aiがMiniMax H3の需要増に対応したときの、処理枠と観測結果を分けて読む技術メモです。この記事は公開された集計値から分かる範囲だけを扱い、内部実装を推測しません。 入口と計算処理を分ける AppleTokenがAPI接続、計量、モデル指定を受け持ち、GPUtw.aiが台湾の設備でGPU処理を担いました。この分担なら、受付側のリクエスト管理と、生成を実行する側の処理枠を別の指標で追えます。ただし、両社の内部キューやスケジューラの詳細は公開資料から確定できません。 変更した上限と観測した速度 GPUtw.aiによると、同時処理上限は8から32へ、毎分のリクエスト..."
+      },
       {
         "id": "zenn:8525713b4d5f756b26c3a9af",
         "source": "zenn",
@@ -80,6 +171,16 @@
         "author": "sakamoto",
         "published_at": "2026-11-24T08:16:38.230000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:4b0e11875c7badd89681155e",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/taketake36/books/71d6ce300c91b4",
+        "title": "Claude Code で本番を壊した12の記録",
+        "author": "sakamoto",
+        "published_at": "2026-11-24T07:56:25+00:00",
+        "excerpt": "AIエージェントに実務を任せると、どこで壊れるか。稼働中のWebサービス・Shopifyアプリ・自動化バッチを Claude Code で毎日動かし、実際に壊し、実際に直した記録から、12の事故を抜き出しました。ログインが全滅していたのに画面は正常だった話、ヘルスチェックが200でもDBが死んでいた話、伏せられた値を書き換えようとして本番が止まる寸前だった話。どれも「使い方を知らなかったから」起きたものではありません。各章にその場で使える確認コマンドを付け、巻末にチェックリストと検査スクリプトを収録しています。"
       },
       {
         "id": "zenn:2b79b0ce23e5b4258e6665e9",
@@ -253,6 +354,16 @@
         "author": "まっすん",
         "published_at": "2026-11-24T06:17:18.553000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:4013aaa30ba51bda09ad40dc",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/minewo/books/plangate-agent-governance",
+        "title": "AIエージェントに開発を任せるための判断境界 — PlanGate設計ガイド",
+        "author": "mine_take｜AI駆動開発・チーム運用",
+        "published_at": "2026-11-24T05:44:42+00:00",
+        "excerpt": "AIエージェントを信頼できるようにするのではなく、信頼しなくても仕事を任せられる環境をどう作るか。PlanGateの実運用から、Artifact、Evidence、Approval Boundary、Human Judgment、Context、Handoff、Verification、段階導入までを体系化する。"
       },
       {
         "id": "zenn:505414fb3337e8f3f9e210aa",
@@ -69344,6 +69455,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:3921432ac0dd0e6f763bf73b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "data-breach",
+          "pentagon",
+          "government",
+          "data-breach-report"
+        ],
+        "url": "https://medium.com/@josejoseknight720/pentagon-data-breach-what-the-exposure-of-3-million-personnel-records-reveals-ecc86689b0ff",
+        "title": "Pentagon Data Breach: What the Exposure of 3 Million Personnel Records Reveals",
+        "author": "Trust Consulting Services",
+        "published_at": "2026-11-24T09:24:11+00:00",
+        "excerpt": "The Defense Manpower Data Center (DMDC), which runs the Pentagon’s main personnel database, has notified military personnel that… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a03387d284cc0811e24b73c5",
+        "source": "medium",
+        "author_tags": [
+          "digital-asset",
+          "privacy",
+          "cybersecurity",
+          "passwords",
+          "estate-planning"
+        ],
+        "url": "https://medium.com/@h3ir/two-factor-authentication-when-you-die-c488b7b69c3f",
+        "title": "Two-factor authentication when you die",
+        "author": "HEIR",
+        "published_at": "2026-11-24T09:23:11+00:00",
+        "excerpt": "Two-factor codes protect accounts in life and can lock families out after a death. What to plan for. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e149cd16804226799b215ca3",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "bug-bounty",
+          "cybersecurity",
+          "python",
+          "burpsuite"
+        ],
+        "url": "https://medium.com/@munnaza.cyber/csrf-vs-ssrf-two-web-vulnerabilities-every-cybersecurity-learner-should-understand-80bfcf36b059",
+        "title": "CSRF vs. SSRF: Two Web Vulnerabilities Every Cybersecurity Learner Should Understand.",
+        "author": "Munaza Cyber",
+        "published_at": "2026-11-24T09:17:18+00:00",
+        "excerpt": "Learn about the CSRF and SARF in details in easy way... Continue reading on Medium »"
+      },
       {
         "id": "medium:4b54370464142033184b3d24",
         "source": "medium",
