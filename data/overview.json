@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-24T06:08:46.352856+00:00",
-  "as_of": "2026-11-24T06:00:00+00:00",
-  "catalog_count": 26496,
+  "generated_at": "2026-11-24T07:08:22.017735+00:00",
+  "as_of": "2026-11-24T07:00:00+00:00",
+  "catalog_count": 26498,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,56 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T15:22:40.089540+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-cc2f072a9b361a0797ea08a7",
+      "primary_category": "ai_security",
+      "public_article_id": "url:cc2f072a9b361a0797ea08a7",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-24T15:00:50+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "OpenAI and Cisco released Shirudo, an open-source tool that puts temporary protections on running Linux systems while their owners work on a patch. Shirudo is Japanese for “shield,” which is also what each protection is called: a small program that blocks the specific behavior a vulnerability depends on, with no restart needed. Testing and deploying a patch can still take days or weeks, and the vulnerable service stays exposed in the meantime. Blocking a risky … More → The post Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime appeared first on Help Net Security .",
+      "summary_excerpt": "OpenAI and Cisco released Shirudo, an open-source tool that puts temporary protections on running Linux systems while their owners work on a patch. Shirudo is Japanese for “shield,” which is also what each protection is called: a small program that blocks the specific behavior a vulnerability depends on, with no restart needed. Testing and deploying a patch can still take days or weeks, and the vulnerable service stays exposed in the meantime. Blocking a risky … More → The post Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime appeared first on Help Net S",
+      "threat_actors": [],
+      "title": "Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193243",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T15:22:45.423500+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-d984624bd5a6b49923f7e094",
+      "primary_category": "other",
+      "public_article_id": "url:d984624bd5a6b49923f7e094",
+      "public_tags": [],
+      "published_at": "2026-11-24T14:37:37+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "Synology製NAS向けOS「DiskStation Manager（DSM）」などに深刻な脆弱性が明らかとなった。修正版を順次提供している。",
+      "summary_excerpt": "Synology製NAS向けOS「DiskStation Manager（DSM）」などに深刻な脆弱性が明らかとなった。修正版を順次提供している。",
+      "threat_actors": [],
+      "title": "Synology製NASに深刻な脆弱性 - 修正版を順次提供"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.security-next.com/193221",
@@ -203,50 +253,6 @@
       "summary_excerpt": "この問題は、HTTP/2 を使用する NGINX Plus または NGINX オープンソースの構成に影響を及ぼします。NGINX が未公開のトラフィックを処理する際、フロー制御ウィンドウが許容される閾値を超える可能性があり、その結果、通常は NGINX ワーカーがセグメンテーションフォルトを伴うヒープバッファオーバーフローを引き起こすことがあります。さらに、攻撃者はアドレス空間配置のランダム化（ASLR）が無効化されているシステム、または ASLR を回避できる場合にコードを実行することが可能です。影響としては、攻撃者がこの脆弱性を悪用して NGINX ワーカープロセスをクラッシュさせたり、メモリを破損させたり、遠隔でコードを実行したりする恐れがあります。コントロールプレーンへの影響はなく、これはデータプレーンの問題に限られます。注意点としては、技術サポート終了（EoTS）に達したソフトウェアバージョンは評価対象外となります。",
       "threat_actors": [],
       "title": "F5 Networks等の複数ベンダの製品における複数の脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044774.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T12:23:50.369932+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-39f7d0f7c574b580c3b9e535",
-      "primary_category": "other",
-      "public_article_id": "url:39f7d0f7c574b580c3b9e535",
-      "public_tags": [],
-      "published_at": "2026-11-24T11:37:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "NGINX PlusまたはNGINXオープンソースがクライアント接続にHTTP/2を使用するように構成され、クライアントリクエストをバックエンドにプロキシする場合、特別に細工されたリクエストにより、worker_connectionsの残りが少ない状況でワーカープロセスにuse-after-freeが発生する可能性があります。さらに、攻撃者はASLR（アドレス空間配置のランダム化）が無効になっているシステム、またはASLRをバイパスできる場合にコードを実行することが可能です。影響としては、この脆弱性によりリモートの攻撃者がNGINXシステムに対してサービス拒否（DoS）を引き起こすか、コードを実行できる恐れがあります。コントロールプレーンは露出せず、これはデータプレーンの問題に限られます。注として、技術サポート終了（EoTS）に達したソフトウェアバージョンは評価対象外となっています。",
-      "summary_excerpt": "NGINX PlusまたはNGINXオープンソースがクライアント接続にHTTP/2を使用するように構成され、クライアントリクエストをバックエンドにプロキシする場合、特別に細工されたリクエストにより、worker_connectionsの残りが少ない状況でワーカープロセスにuse-after-freeが発生する可能性があります。さらに、攻撃者はASLR（アドレス空間配置のランダム化）が無効になっているシステム、またはASLRをバイパスできる場合にコードを実行することが可能です。影響としては、この脆弱性によりリモートの攻撃者がNGINXシステムに対してサービス拒否（DoS）を引き起こすか、コードを実行できる恐れがあります。コントロールプレーンは露出せず、これはデータプレーンの問題に限られます。注として、技術サポート終了（EoTS）に達したソフトウェアバージョンは評価対象外となっています。",
-      "threat_actors": [],
-      "title": "F5 Networks等の複数ベンダの製品における解放済みメモリの使用に関する脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044773.html",
-      "cves": [],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-24T12:23:50.305373+09:00",
-      "heat_score": 61.75,
-      "permalink_id": "article-url-484e2135878f761e7a41e9a0",
-      "primary_category": "other",
-      "public_article_id": "url:484e2135878f761e7a41e9a0",
-      "public_tags": [],
-      "published_at": "2026-11-24T11:37:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "認証されていないリモートコード実行の脆弱性が、サーベイのパススルー・ルーティングおよびデータインポート処理ロジックに見つかりました。この脆弱性により、悪意のあるユーザーがHTTPリクエストを操作してパブリックサーベイのコンテキストから意図しないコントローラールートへアクセスでき、インポート処理時に細工されたファイルパスやストリームパラメーターを供給して悪用する可能性があります。もし悪用に成功した場合、攻撃者はREDCapサーバー上で任意のコードをリモートで実行できます。攻撃者は認証されている必要はありませんが、悪用するには有効なパブリックサーベイのハッシュを知っている必要があります。この脆弱性はREDCap 13.3.0以降のバージョンに存在します。",
-      "summary_excerpt": "認証されていないリモートコード実行の脆弱性が、サーベイのパススルー・ルーティングおよびデータインポート処理ロジックに見つかりました。この脆弱性により、悪意のあるユーザーがHTTPリクエストを操作してパブリックサーベイのコンテキストから意図しないコントローラールートへアクセスでき、インポート処理時に細工されたファイルパスやストリームパラメーターを供給して悪用する可能性があります。もし悪用に成功した場合、攻撃者はREDCapサーバー上で任意のコードをリモートで実行できます。攻撃者は認証されている必要はありませんが、悪用するには有効なパブリックサーベイのハッシュを知っている必要があります。この脆弱性はREDCap 13.3.0以降のバージョンに存在します。",
-      "threat_actors": [],
-      "title": "Vanderbiltのredcapにおける複数の脆弱性"
     }
   ],
   "hottest": [
@@ -663,6 +669,39 @@
       "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests"
     },
     {
+      "ai_relevance": "material",
+      "canonical_url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-22T15:22:48.595952+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-a3c63e958cb92eef3df0aa51",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:a3c63e958cb92eef3df0aa51",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-22T14:03:41+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "summary_excerpt": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "threat_actors": [],
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps"
+    },
+    {
       "ai_relevance": "primary",
       "canonical_url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
       "cves": [],
@@ -844,41 +883,6 @@
       "summary_excerpt": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
       "threat_actors": [],
       "title": "CVE-2026-123890: Broadcom VMware vCenter"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-90436",
-      "cves": [
-        "CVE-2026-90436"
-      ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-19T05:22:19.985871+09:00",
-      "heat_score": 39.42,
-      "permalink_id": "article-url-2dee79dd2a96d516bc4a5093",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:2dee79dd2a96d516bc4a5093",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "orange",
-          "key": "kev",
-          "label": "KEV"
-        }
-      ],
-      "published_at": "2026-11-18T09:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": true,
-      "source_class": "enrichment_kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "summary": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-      "summary_excerpt": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-      "threat_actors": [],
-      "title": "CVE-2026-90436: Apache Axis"
     }
   ],
   "timeseries_status": {
@@ -899,32 +903,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】米当局、悪用が確認された脆弱性6件に注意喚起",
+    "【LATEST #1】Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime",
     "【HOTTEST #1 / Heat 75】Apache Software FoundationのApache Rollerにおける信頼できないデータのデシリアライゼーションに関する脆弱性",
-    "【LATEST #2】AIエージェントは悪意がなくても内部脅威に、どう防ぐ？ クラウドストライクCTOに聞く",
+    "【LATEST #2】Synology製NASに深刻な脆弱性 - 修正版を順次提供",
     "【HOTTEST #2 / Heat 67.5】Vulnerability in PHP Affecting Cisco Products: November 2026",
-    "【LATEST #3】AIがプルリクエストのレビューや修正を行い自動承認までしてくれる「Claude Ship」が登場",
+    "【LATEST #3】米当局、悪用が確認された脆弱性6件に注意喚起",
     "【HOTTEST #3 / Heat 67.5】VMware製品の脆弱性対策について(CVE-2026-123890)",
-    "【LATEST #4】インフォキュリオンの電子決済プラットフォーム「Wallet Station」に不正アクセス、最大約25万件の個人情報が流出　鹿児島銀行の「Payどん」で流出、サービス停止中",
+    "【LATEST #4】AIエージェントは悪意がなくても内部脅威に、どう防ぐ？ クラウドストライクCTOに聞く",
     "【HOTTEST #4 / Heat 67.5】Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-    "【LATEST #5】Zoraxyにおける複数の脆弱性",
+    "【LATEST #5】AIがプルリクエストのレビューや修正を行い自動承認までしてくれる「Claude Ship」が登場",
     "【HOTTEST #5 / Heat 67.5】N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-21T06:00:00+00:00",
-    "last_as_of": "2026-11-24T06:00:00+00:00",
+    "first_as_of": "2026-11-21T07:00:00+00:00",
+    "last_as_of": "2026-11-24T07:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-24T06:00:00+00:00",
-  "heat_as_of": "2026-11-24T06:00:00+00:00",
+  "news_as_of": "2026-11-24T07:00:00+00:00",
+  "heat_as_of": "2026-11-24T07:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26496,
-  "last_published_at": "2026-11-24T15:08:57.480587+09:00",
-  "publication_slot_jst": "2026-11-24T15:00:00+09:00"
+  "news_catalog_count": 26498,
+  "last_published_at": "2026-11-24T16:08:33.605543+09:00",
+  "publication_slot_jst": "2026-11-24T16:00:00+09:00"
 }
