@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-24T16:09:13.420085+00:00",
-  "as_of": "2026-11-24T16:00:00+00:00",
-  "catalog_count": 26547,
+  "generated_at": "2026-11-24T17:08:57.387226+00:00",
+  "as_of": "2026-11-24T17:00:00+00:00",
+  "catalog_count": 26554,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,118 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T01:52:07.504123+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-cbd825ca533eb80e837ab4b3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:cbd825ca533eb80e837ab4b3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T01:32:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek .",
+      "summary_excerpt": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T01:52:04.883748+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-9078000bd51be7512e2a198f",
+      "primary_category": "ransomware",
+      "public_article_id": "url:9078000bd51be7512e2a198f",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-25T01:30:19+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+      "summary_excerpt": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+      "threat_actors": [],
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T01:22:22.185804+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-53f2a1acf59665bb0e1ff5a9",
+      "primary_category": "incident",
+      "public_article_id": "url:53f2a1acf59665bb0e1ff5a9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-25T01:15:23+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+      "summary_excerpt": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+      "threat_actors": [],
+      "title": "Hackers compromise Check Point Servers in 22 organizations"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/carnegie-endowment-data-breach",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T01:22:50.869890+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-4282ded47b497e1f8f60d1ce",
+      "primary_category": "incident",
+      "public_article_id": "url:4282ded47b497e1f8f60d1ce",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "Some donors to the Carnegie Endowment for International Peace had their information leaked due to a cyberattack on a third-party vendor named Soapbox Engage.",
+      "summary_excerpt": "Some donors to the Carnegie Endowment for International Peace had their information leaked due to a cyberattack on a third-party vendor named Soapbox Engage.",
+      "threat_actors": [],
+      "title": "Carnegie Endowment for International Peace says third-party breach leaked donation info"
+    },
     {
       "ai_relevance": "primary",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
@@ -184,116 +296,6 @@
         "MuddyWater"
       ],
       "title": "Volant Manticore: Flying Under the Radar"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T23:22:19.319828+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-f249978bf6d5abc361c85137",
-      "primary_category": "incident",
-      "public_article_id": "url:f249978bf6d5abc361c85137",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-24T23:09:37+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
-      "summary_excerpt": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
-      "threat_actors": [],
-      "title": "McDonald's Japan data breach exposes customer location information"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T23:22:38.636369+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-799a66dc04e1a690d3982524",
-      "primary_category": "other",
-      "public_article_id": "url:799a66dc04e1a690d3982524",
-      "public_tags": [],
-      "published_at": "2026-11-24T22:35:37+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced. Arion Kurtaj, 21, formerly of Oxfordshire, pleaded guilty to six charges, including fraud and computer misuse offences, at Woolwich Crown Court on 16 November. The court set a nine-year term and then took off two years for the time … More → The post GTA 6 hacker sentenced to seven years and released the same day appeared first on Help Net Security .",
-      "summary_excerpt": "The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced. Arion Kurtaj, 21, formerly of Oxfordshire, pleaded guilty to six charges, including fraud and computer misuse offences, at Woolwich Crown Court on 16 November. The court set a nine-year term and then took off two years for the time … More → The post GTA 6 hacker sentenced to seven years and released the same day appeared first on Help Net Security .",
-      "threat_actors": [
-        "LAPSUS$"
-      ],
-      "title": "GTA 6 hacker sentenced to seven years and released the same day"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T22:53:13.778672+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-5fdfc9b8efe4d5349aebe161",
-      "primary_category": "ai_security",
-      "public_article_id": "url:5fdfc9b8efe4d5349aebe161",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-24T22:34:23+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
-      "summary_excerpt": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
-      "threat_actors": [],
-      "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-      "cves": [
-        "CVE-2026-123903"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T23:22:52.550975+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-aa014f4b55f462a96af72e8e",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:aa014f4b55f462a96af72e8e",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T22:28:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
-      "summary_excerpt": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
-      "threat_actors": [],
-      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation"
     }
   ],
   "hottest": [
@@ -500,6 +502,62 @@
       "title": "爆増するサイバー攻撃、魔の手はITだけでなく「OT」にも　元米軍のセキュリティ専門家が警鐘"
     },
     {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T01:52:07.504123+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-cbd825ca533eb80e837ab4b3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:cbd825ca533eb80e837ab4b3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T01:32:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek .",
+      "summary_excerpt": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T01:22:22.185804+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-53f2a1acf59665bb0e1ff5a9",
+      "primary_category": "incident",
+      "public_article_id": "url:53f2a1acf59665bb0e1ff5a9",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-25T01:15:23+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+      "summary_excerpt": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+      "threat_actors": [],
+      "title": "Hackers compromise Check Point Servers in 22 organizations"
+    },
+    {
       "ai_relevance": "primary",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
       "cves": [],
@@ -559,62 +617,6 @@
       "summary_excerpt": "The U.S. cyber agency is giving government departments until Thanksgiving to patch a vulnerability impacting a critical email security platform that blocks spam, malware and other threats.",
       "threat_actors": [],
       "title": "CISA warns of exploited N-able bug as company restores email platform"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T00:24:02.529117+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-313fcd81073c8f90ef3b7c18",
-      "primary_category": "ai_security",
-      "public_article_id": "url:313fcd81073c8f90ef3b7c18",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-24T23:49:59+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek .",
-      "summary_excerpt": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/24/astelia-autonomous-network-mitigation/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T00:23:48.913314+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-72f4e8654bf4e4fbd5858bc2",
-      "primary_category": "ai_security",
-      "public_article_id": "url:72f4e8654bf4e4fbd5858bc2",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-24T23:24:11+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Astelia has announced autonomous network mitigation, a new capability that defends against AI-driven exploits by blocking attack paths to reachable vulnerabilities at the network level. Organizations can now eliminate the 1% of vulnerabilities attackers can reach without waiting for a patch. The mitigation workflow · 6 steps, 1 approval branch (Source: Astelia) Frontier AI models have cut the time to exploit to almost zero. Manual triage and remediation can’t keep up, so organizations need to … More → The post Astelia blocks attack paths to vulnerabilities without waiting for patches appeared first on Help Net Security .",
-      "summary_excerpt": "Astelia has announced autonomous network mitigation, a new capability that defends against AI-driven exploits by blocking attack paths to reachable vulnerabilities at the network level. Organizations can now eliminate the 1% of vulnerabilities attackers can reach without waiting for a patch. The mitigation workflow · 6 steps, 1 approval branch (Source: Astelia) Frontier AI models have cut the time to exploit to almost zero. Manual triage and remediation can’t keep up, so organizations need to … More → The post Astelia blocks attack paths to vulnerabilities without waiting for patches appeared ",
-      "threat_actors": [],
-      "title": "Astelia blocks attack paths to vulnerabilities without waiting for patches"
     }
   ],
   "rising": [],
@@ -946,32 +948,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+    "【LATEST #1】VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
     "【HOTTEST #1 / Heat 75】VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-    "【LATEST #2】CISA warns of exploited N-able bug as company restores email platform",
+    "【LATEST #2】ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
     "【HOTTEST #2 / Heat 71.25】Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)",
-    "【LATEST #3】European Commission Uncovers Data Breach in Cyberattack Investigation",
+    "【LATEST #3】Hackers compromise Check Point Servers in 22 organizations",
     "【HOTTEST #3 / Heat 67.5】Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-    "【LATEST #4】Astelia blocks attack paths to vulnerabilities without waiting for patches",
+    "【LATEST #4】Carnegie Endowment for International Peace says third-party breach leaked donation info",
     "【HOTTEST #4 / Heat 67.5】Apache Software FoundationのApache Rollerにおける信頼できないデータのデシリアライゼーションに関する脆弱性",
-    "【LATEST #5】Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+    "【LATEST #5】From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
     "【HOTTEST #5 / Heat 67.5】Vulnerability in PHP Affecting Cisco Products: November 2026"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-21T16:00:00+00:00",
-    "last_as_of": "2026-11-24T16:00:00+00:00",
+    "first_as_of": "2026-11-21T17:00:00+00:00",
+    "last_as_of": "2026-11-24T17:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-24T16:00:00+00:00",
-  "heat_as_of": "2026-11-24T16:00:00+00:00",
+  "news_as_of": "2026-11-24T17:00:00+00:00",
+  "heat_as_of": "2026-11-24T17:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26547,
-  "last_published_at": "2026-11-25T01:09:24.877737+09:00",
-  "publication_slot_jst": "2026-11-25T01:00:00+09:00"
+  "news_catalog_count": 26554,
+  "last_published_at": "2026-11-25T02:09:08.782235+09:00",
+  "publication_slot_jst": "2026-11-25T02:00:00+09:00"
 }
