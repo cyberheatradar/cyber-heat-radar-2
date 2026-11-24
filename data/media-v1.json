@@ -1,9 +1,167 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T04:40:02.980362+00:00",
+  "source_snapshot_generated_at": "2026-11-24T05:40:03.649110+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:aac15c8bac35607a35654489",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "codereview",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/visionarray/articles/c14b6f8aa9056e",
+        "title": "Claude Code の新しい /ship で、PR のレビューから修正までを任せてみた",
+        "author": "Daisuke Kobayashi",
+        "published_at": "2026-11-24T05:39:54.890000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:32b9039be5c422b50c3f5e2b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SVG",
+          "画像生成",
+          "gif",
+          "webパフォーマンス"
+        ],
+        "url": "https://zenn.dev/orectic/articles/ai-gif-frame-count-loop-size",
+        "title": "AIにGIFを作らせて分かった、コマ数の決め方とCSSに任せる動きの境目",
+        "author": "今井政和",
+        "published_at": "2026-11-24T05:38:44.884000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3df0b53876d40afda970beac",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "CI/CD",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/yamitake/articles/claude-ship-pr-review-and-approval",
+        "title": "Claude Shipとは？ PRの修正をAIに任せる前に、マージ条件を決めたい",
+        "author": "JJ yamitake",
+        "published_at": "2026-11-24T05:23:51.789000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2c4a954f06cb9512026dbe0c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "教育",
+          "人材育成",
+          "llm",
+          "RAG"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261124-learning-watch",
+        "title": "Learning Watch 2026-11-24: 答えを渡さず学びを測る",
+        "author": "らいけん",
+        "published_at": "2026-11-24T05:20:10.710000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d62187ee858368104b864da0",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "Security",
+          "IAM",
+          "AWS CLI",
+          "STS"
+        ],
+        "url": "https://zenn.dev/nabeyan_dev/articles/fsfn-aws-sts-get-scoped-credentials",
+        "title": "AWS STS GetScopedCredentials をエージェントに渡す前に決めたい 4 つのこと",
+        "author": "ナベやん",
+        "published_at": "2026-11-24T05:10:05+00:00",
+        "excerpt": "AWS STS に GetScopedCredentials が 2026-11-19 に追加された。手元の一時認証情報から、権限と期限をさらに絞った一時認証情報を作る API や。AI エージェントに AWS の API を呼ばせるとき、渡す認証情報を絞りたい人は多いと思う。従来の AssumeRole＋セッションポリシーと同じ条件で並べて試したから、乗り換えを決めるときに効いた判断ポイントを 4 つだけ書くで。 判断 1: 絞っても権限は増えへん。はみ出しは黙って削られる 権限は、元のセッションと渡したポリシーの積集合やった。Allow * * を渡しても、元のロールに無い ec..."
+      },
+      {
+        "id": "zenn:2ff487c08a0e89212617bc46",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "Model Context Protocol",
+          "search",
+          "Web scraping"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/gemini-deep-research-api-mcp-social-data",
+        "title": "Gemini Deep Research APIとリモートMCPサーバーで、検証できるソーシャルデータを使う",
+        "author": "EveryInfra",
+        "published_at": "2026-11-24T04:57:13+00:00",
+        "excerpt": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 結論から言うと、可能です。Gemini Deep Research APIは現時点でリモートMCPサーバーを呼び出せます。カスタム関数の宣言は受け付けず、構造化出力にも対応していません。この3点はいずれも、GoogleのDeep Researchページの「Limitations」セクションに記載されています（Deep Researchドキュメント、2026-10-13更新）。そのため、EveryInfraのリモートMCPサーバーhttps://api.everyinfra.com/mcpを指定できます。 ..."
+      },
+      {
+        "id": "zenn:e1ed850702af0a8f7940b3c2",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "SaaS",
+          "情報漏洩",
+          "インシデント",
+          "生成 AI"
+        ],
+        "url": "https://zenn.dev/tech_realinvent/articles/zdr-notion-fireworks-mercari",
+        "title": "【Vol.35】契約でZDRだったのにデータは残っていた ― メルカリ3,796名分の流出を一次情報で追う",
+        "author": "リアルインベントTechブログ",
+        "published_at": "2026-11-24T04:51:53+00:00",
+        "excerpt": "はじめに こんにちは。中小企業で開発CTOをしている現役エンジニアです。 noteでも度々投稿していますので、ご興味あれば覗いてください。（https://note.com/masa_developnote） 11月20日、メルカリが情報流出を2件発表しました。同じ日に、まったく種類の違う発表が2本並んでいます。 片方は、社内で使っている Notion の AI 機能に打ち込んだ内容が、Notion の委託先から流出したというものです。 この記事は何の話で、何の話ではないか SaaS に AI 機能が付いたことで、データが流れる先が一段増えたという話です。その一段先で何が起きたの..."
+      },
+      {
+        "id": "zenn:95cfce0905af46b418bfd678",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "gamedev",
+          "Godot",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/zivaengine/articles/57a824f911a7fd",
+        "title": "GodotでAIエージェントを並列に動かす：ZivaのParallelモードがエージェント同士の衝突を防ぐ仕組み",
+        "author": "Ziva Engine",
+        "published_at": "2026-11-24T04:49:10+00:00",
+        "excerpt": "この記事は https://dev.to/ziva/parallel-ai-agents-in-godot-how-zivas-parallel-mode-keeps-them-out-of-each-others-way-2f7 の日本語版です（英語の原文はZiva.shが2026年11月22日にdev.toで公開）。詳しくは https://ziva.sh/parallel-ai-agents をご覧ください。 ! この記事はZiva.shが公開しており、ZivaもZiva.shが開発しています。 Ziva 3.3.8（2026年11月22日リリース）から、Godotで1つの依頼に..."
+      },
+      {
+        "id": "zenn:1a00f080b66ae567fa178bd0",
+        "source": "zenn",
+        "author_tags": [
+          "個人開発",
+          "Chrome拡張",
+          "Security",
+          "Google Drive",
+          "暗号化"
+        ],
+        "url": "https://zenn.dev/truehoop81/articles/381fd6aae42a65",
+        "title": "仮想ドライブ不要！ブラウザのRAM上だけで復号・再生するGoogle Drive向けゼロ知識暗号化Chrome拡張機能を作った話",
+        "author": "truehoop81",
+        "published_at": "2026-11-24T04:45:43+00:00",
+        "excerpt": "はじめに Google Driveにプライベートな写真や動画をバックアップする際、「Google側が復号鍵を持っている（コンテンツのスキャン可能性や、アカウント乗っ取り時の全データ露出）」という点がずっと気になっていました。 クライアント側で事前に暗号化するツールとしては Cryptomator や rclone crypt が有名で素晴らしいのですが、ちょっとした写真やMP4動画を見たいだけなのに「デスクトップに仮想ドライブ用のドライバを入れる」「CLIを叩く」という手間が個人的に重く感じていました。 そこで、**「仮想ドライブもCLIも不要で、Chromeブラウザの中だけで完結す..."
+      },
+      {
+        "id": "zenn:6f1421dad1efe808f8960912",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "AIエージェント",
+          "MCP サーバー"
+        ],
+        "url": "https://zenn.dev/ekispert_api/articles/f5ee1153599edf",
+        "title": "AIに乗り換え案内の機能を 〜京橋もくもく組 特別LT 登壇〜",
+        "author": "ahashimoto",
+        "published_at": "2026-11-24T04:44:04+00:00",
+        "excerpt": "はじめに 2026年11月16日（月）に開催された京橋もくもく組のイベントで、「駅すぱあと API MCPサーバー」を紹介するLTをしました。この記事では発表資料を共有し、当日の発表では時間の都合で口頭だけになった内容や、発表に至った経緯を補足します。 発表資料 イベントについて 京橋もくもく組のイベントは、富山大学 庄司翼先生の基調講演に、特別LTや事例発表、セキュリティの緊急報告が続く構成でした。私は特別LT②の枠で発表しました。 発表の経緯 2026年9月に大阪で開催された「Zenn Agentic AI ミニハッカソン with Google Cloud」で、ヴ..."
+      },
       {
         "id": "zenn:31c409de18f6d3bb057fa411",
         "source": "zenn",
@@ -181,6 +339,16 @@
         "author": "bik",
         "published_at": "2026-11-24T02:30:05.263000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:923756ecc76011076ff6f52b",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/debudebu/books/copilot-powerpoint-guide",
+        "title": "Copilotで作るPowerPoint実務ガイド",
+        "author": "まさる",
+        "published_at": "2026-11-24T02:24:40+00:00",
+        "excerpt": "Microsoft 365 Copilot で PowerPoint 資料を作るための実務ガイド。用途に合わせたモデル選び、作成の手順、用途別の構成、コピーして使えるプロンプト、白黒の品質基準に加え、エンジニア向けの論理構成図（50部品・36例と各図の指示書）と、指示を資料に埋め込んでずれを防ぐ検証キットを収録。"
       },
       {
         "id": "zenn:3dce0f747a704de2f957facc",
@@ -488,6 +656,22 @@
         "title": "巨大な業務システムをAIに読ませる前に、「地図」を作る【Claude Code】",
         "author": "あお工房",
         "published_at": "2026-11-23T23:00:05.197000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3f2f376ad0437750baefbf88",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Firebase",
+          "Flutter",
+          "Claude",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/sofvo/articles/ai-read-tournament-results",
+        "title": "大会結果の紙・PDF・写真を AI で読み取って順位表にする（AI に任せるのは「読む」まで）",
+        "author": "なかむら｜Sofvo を作っている人",
+        "published_at": "2026-11-23T23:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -50354,6 +50538,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4deec9179d110c24ed3a77f2",
+        "source": "qiita",
+        "author_tags": [
+          "SpringBoot",
+          "SpringSecurity",
+          "Java",
+          "Security",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/chi0818/items/34937b4553bcec854774",
+        "title": "【セキュリティ対策例】第2章 Spring Security を入れる",
+        "author": "chi0818",
+        "published_at": "2026-11-24T14:36:39+09:00",
+        "excerpt": "この章で学ぶこと Spring Security を使うための依存関係の足し方 Spring Security を入れただけで、アプリがどう変わるか リクエストを Controller より先に受ける「フィルター」の仕組み 設定のクラス（SecurityConfig）の作り方と、ラムダ式の読み方 2.1 依存関係を足す Spring Security は、Spring入門の第4章でプロジェクトを作ったときには選んでいません。 pom.xml に書き足して、使えるようにします。 パッケージ・エクスプローラーで employee-app の下にある pom.xml をダブルクリックして開きます。 エディターの下にタブが並んでいるときは、 pom.xml のタブを選ぶと、ファイルの中身（XML）が表示されます。 <dependencies> の中の、 spring-boot-starter-webmvc の <dependency> のすぐ下に、次の2つの <dependency> を書き足して保存（Ctrl + S）します。 【知識メモ】コードの「←"
+      },
+      {
+        "id": "qiita:1eb3e9f73de6b4e11a8892c7",
+        "source": "qiita",
+        "author_tags": [
+          "SpringBoot",
+          "SpringSecurity",
+          "Java",
+          "Security",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/chi0818/items/332cf2d699180eeb94d9",
+        "title": "【セキュリティ対策例】第1章 この教材で作るもの",
+        "author": "chi0818",
+        "published_at": "2026-11-24T14:36:31+09:00",
+        "excerpt": "この教材について セキュリティ対策例は、 Spring入門 で作った社員管理アプリに、 本番の運用で求められるようなセキュリティ対策 を1章に1テーマずつ組み込んでいく教材です。あくまでも教材ですので、本番環境に適用する際は、十分な検討のうえご自身の責任で組み込んでください。ログインは Spring Security で作り、管理者だけが社員の登録・変更・削除をできるようにします。そのうえで、CSRF・XSS・SQL インジェクションなどの攻撃を、どの仕組みがどう防いでいるかを、実際に画面で確かめながら進めます。 対象にするのは、社員管理アプリの 一覧・新規登録・変更 の3つの機能です。削除は、権限の設定を中心に扱います（第6章で、入力値のチェックと受け付ける形式の設定も足します）。 章 内容 第1章 この教材で作るもの（この記事） 完成したアプリの姿と、この教材で組み込む対策の一覧 第2章 Spring Security を入れる 依存関係を足し、入れただけで何が起きるかを確かめる。リクエストを先に受けるフィルターの仕組みと、設定のクラス 第3"
+      },
+      {
         "id": "qiita:0a3dadd11b7e89c24eafaf45",
         "source": "qiita",
         "author_tags": [
@@ -68785,6 +69001,84 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:4db4dc4010ff152c7a453bdd",
+        "source": "medium",
+        "author_tags": [
+          "malware-analysis",
+          "python",
+          "trojan",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@theBlueWizard/pyvenom-peeling-a-python-sfx-dropper-down-to-donut-shellcode-and-venomrat-32644f6d1006",
+        "title": "Pyvenom: Peeling a Python SFX Dropper Down to Donut Shellcode and VenomRAT",
+        "author": "Arkaprava Goswami",
+        "published_at": "2026-11-24T05:33:08+00:00",
+        "excerpt": "Summary Continue reading on Medium »"
+      },
+      {
+        "id": "medium:33a1b4fada09a0cceb4c6089",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "capstone-project",
+          "data-analysis",
+          "vulnerability",
+          "kali-linux"
+        ],
+        "url": "https://medium.com/@gulshansingh798/cobalt-shadow-capstone-challenge-3c261c2e176b",
+        "title": "Cobalt Shadow Capstone Challenge",
+        "author": "Gulshan Kumar",
+        "published_at": "2026-11-24T05:32:12+00:00",
+        "excerpt": "Target: 192.168.1.2 | Attack platform: Kali Linux | Analysis platform: Splunk Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f69868247c3ff01236eb874a",
+        "source": "medium",
+        "author_tags": [
+          "devsecops",
+          "platform-engineering",
+          "cloud-security",
+          "cybersecurity",
+          "terraform"
+        ],
+        "url": "https://medium.com/@meghraj312002/terraform-state-your-implicit-secret-store-160c44160ddd",
+        "title": "Terraform State: Your Implicit Secret Store",
+        "author": "Meghraj Patil",
+        "published_at": "2026-11-24T05:30:58+00:00",
+        "excerpt": "Terraform state files often contain sensitive data in plaintext, demanding dedicated security measures beyond typical… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cfe3d7383241ccbee6794234",
+        "source": "medium",
+        "author_tags": [
+          "business",
+          "cybersecurity",
+          "compliance",
+          "data-security",
+          "cybersecurity-governance"
+        ],
+        "url": "https://medium.com/@zianetworksinsights/cybersecurity-governance-the-missing-piece-most-businesses-overlook-d35a2800fcfd",
+        "title": "Cybersecurity Governance: The Missing Piece Most Businesses Overlook",
+        "author": "ZIA Networks",
+        "published_at": "2026-11-24T05:25:23+00:00",
+        "excerpt": "Why great security tools aren’t enough without someone steering the ship | by ZIA Networks. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f6dc0569cf2cec4c212edb8f",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ctf",
+          "bug-bounty",
+          "intigriti"
+        ],
+        "url": "https://medium.com/@0xmust4fa/improper-signature-verification-in-post-custom-protocol-allows-arbitrary-code-execution-22fc88e51f85",
+        "title": "Improper signature verification in POST /custom_protocol allows arbitrary code execution",
+        "author": "M. Mustafa Hussaini",
+        "published_at": "2026-11-24T05:24:11+00:00",
+        "excerpt": "Continue reading on Medium »"
+      },
       {
         "id": "medium:bbe5203dac5ff9bea61fe1b4",
         "source": "medium",
