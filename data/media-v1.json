@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T19:40:03.567408+00:00",
+  "source_snapshot_generated_at": "2026-11-24T20:40:03.208295+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:2a2bc8c9a181f689f8ba2ba0",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "llm",
+          "Qwen",
+          "MLX",
+          "ローカル LLM"
+        ],
+        "url": "https://zenn.dev/caphtech/articles/kestrom-ifc-twin-track",
+        "title": "プロンプトインジェクションと機密漏洩を“構造”で防ぎ、バイト単位で証明する：ローカルLLMの2系統デコード kestrom ifc",
+        "author": "rizumita",
+        "published_at": "2026-11-24T19:49:05.097000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4e9e4a240d73cf8771d08566",
         "source": "zenn",
@@ -51665,6 +51681,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:1a3bcb8f56a7618746762b86",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "MCP",
+          "codex",
+          "Security",
+          "apiキー"
+        ],
+        "url": "https://qiita.com/supportapp3/items/b73c21efacc605616bf9",
+        "title": "claude mcp add --header の Authorization は画面では [REDACTED] でも .mcp.json には平文：MCP のキー直書きを ~/.claude.json まで grep 1行で洗い出す（Claude Code 2.1.330で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-25T05:20:30+09:00",
+        "excerpt": "先に結論 HTTP の MCP サーバーを claude mcp add --header \"Authorization: Bearer キー\" で登録すると、画面には \"Authorization\": \"[REDACTED]\" と伏せ字で出ます。でも、 --scope project のときに書かれた .mcp.json には、キーが平文のまま入っていました（Claude Code 2.1.330、ダミーのキーで確認）。 MCP の設定にキーが直接書かれているかを探すときは、リポジトリの .mcp.json だけ見ても足りません。手元で試すと、キーは次の場所に書かれました。 登録方法 書かれた場所 claude mcp add --scope project プロジェクト直下の .mcp.json claude mcp add （既定の local） ~/.claude.json の projects の中 claude mcp add --scope user ~/.claude.json の mcpServers codex mcp add"
+      },
+      {
+        "id": "qiita:ee05820db83e49d4b64eaac4",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "サイバーセキュリティ",
+          "セキュリティニュース",
+          "CrowdStrike",
+          "Zscaler"
+        ],
+        "url": "https://qiita.com/Kerdy/items/4b771a21f72714d32f74",
+        "title": "11/25、今日のセキュリティニュース｜CrowdStrikeがZscalerを約439億ドルで買収へ 顧客の契約は「いつ」「どう」変わる？",
+        "author": "Kerdy",
+        "published_at": "2026-11-25T05:08:43+09:00",
+        "excerpt": "この記事は、 note掲載記事 の転載です。 おはようございます、かーでぃです。 本記事は、様々なネットニュースサイトからセキュリティ記事を集めて提供している” セキュリティ関連ニュースRSS ”から、気になったニュースをピックアップして紹介しています。 情シスさんやサイバーセキュリティを担当されている方、逆に私のようにセキュリティ商材を取り扱う営業の皆様などに活用頂けると幸いです。 技術書典21 オンラインマーケット：2026年11月21日(土) 〜 12月6日(日) **新刊 **📚 EDRを入れたので安心しきっていませんか？ 📚 実践！エンドポイントセキュリティ 📚 「セキュリティ対策、できてますか？」に答える本 📚 せっかく本を書いたので「もっと」届けたい 30秒のショート動画解説 良かったら、高評価とチャネル登録をお願いします🙇 CrowdStrikeがZscalerを約439億ドルで買収へ 顧客の契約は「いつ」「どう」変わる？ CrowdStrikeとZscalerは2026年11月23日（現地時間）、CrowdStrikeがZsca"
+      },
+      {
         "id": "qiita:6d8d96a452e6226d35948a4b",
         "source": "qiita",
         "author_tags": [
@@ -70423,6 +70471,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:5c7b3b7c619a65a613e149d4",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "cybersecurity",
+          "penetration-testing",
+          "ethical-hacking",
+          "bug-bounty-tips"
+        ],
+        "url": "https://medium.com/@atifwrite/bug-bounty-what-beginners-should-do-what-should-avoid-and-how-to-stay-consistent-b9a44a8321c5",
+        "title": "Bug Bounty : What Beginners Should Do, What Should Avoid, and How to Stay Consistent",
+        "author": "Atif Waheed",
+        "published_at": "2026-11-24T20:28:23+00:00",
+        "excerpt": "Bug bounty hunting looks exciting when you see someone earning hundreds or thousands of dollars from a single vulnerability. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0e5ef2e4d1d23a1df52cb797",
+        "source": "medium",
+        "author_tags": [
+          "leadership",
+          "software-development",
+          "technology",
+          "world",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@sdguptan/from-uranium-mines-to-government-databases-what-just-happened-in-cybersecurity-nov-23-25-2026-03ad943e8189",
+        "title": "From Uranium Mines to Government Databases: What Just Happened in Cybersecurity (Nov 23–25, 2026)",
+        "author": "Nitin Gupta",
+        "published_at": "2026-11-24T20:27:21+00:00",
+        "excerpt": "Between November 23 and 25, 2026, four major cybersecurity disclosures revealed how rapidly digital threats are escalating across physical… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:49ca141a93cd996df910e862",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "generative-ai-tools",
+          "ai-security",
+          "generative-ai",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@eugeniacyber/the-29-minute-problem-in-cybersecurity-4a2f216fd902",
+        "title": "The 29-Minute Problem in Cybersecurity",
+        "author": "Eugenia | Cybersecurity Awareness",
+        "published_at": "2026-11-24T19:55:29+00:00",
+        "excerpt": "How generative AI differs from conventional AI, and why it matters for security teams Continue reading on Medium »"
+      },
+      {
+        "id": "medium:afde0aa465e2abac0f28f51d",
+        "source": "medium",
+        "author_tags": [
+          "security-operations",
+          "data-breach",
+          "information-security",
+          "cybersecurity",
+          "incident-response"
+        ],
+        "url": "https://medium.com/@fhariyaz0802/we-trust-uber-with-our-data-but-who-else-has-access-d048aa662d5e",
+        "title": "We Trust Uber With Our Data. But Who Else Has Access?",
+        "author": "Abdul Fhariyazunnisa",
+        "published_at": "2026-11-24T19:43:31+00:00",
+        "excerpt": "Exploring third-party security risks, compromised credentials, and the hidden cybersecurity challenges behind everyday technology. Continue reading on Medium »"
+      },
       {
         "id": "medium:075b10a6dc5a757b99eb91a8",
         "source": "medium",

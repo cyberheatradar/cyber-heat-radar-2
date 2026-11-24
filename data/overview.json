@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-24T20:08:51.192039+00:00",
-  "as_of": "2026-11-24T20:00:00+00:00",
-  "catalog_count": 26596,
+  "generated_at": "2026-11-24T21:08:33.245554+00:00",
+  "as_of": "2026-11-24T21:00:00+00:00",
+  "catalog_count": 26597,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,28 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00676/111900240/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T05:38:17.485824+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-d2dfb40a90eb47ed26191f0c",
+      "primary_category": "other",
+      "public_article_id": "url:d2dfb40a90eb47ed26191f0c",
+      "public_tags": [],
+      "published_at": "2026-11-25T05:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Nikkei XTECH IT",
+      "summary": "米Googleは、AIを悪用した攻撃が新たな段階に入ったと指摘する。人間の介在を全く必要としない、完全自動化に向かっているという。",
+      "summary_excerpt": "米Googleは、AIを悪用した攻撃が新たな段階に入ったと指摘する。人間の介在を全く必要としない、完全自動化に向かっているという。",
+      "threat_actors": [],
+      "title": "AIはサイバー攻撃の実行役から指揮官へ、目前に迫る戦慄の未来　Google予想"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://therecord.media/california-privacy-agency-kemp",
@@ -258,34 +280,6 @@
       "summary_excerpt": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T01:52:04.883748+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-9078000bd51be7512e2a198f",
-      "primary_category": "ransomware",
-      "public_article_id": "url:9078000bd51be7512e2a198f",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-25T01:30:19+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
-      "summary_excerpt": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
-      "threat_actors": [],
-      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof"
     }
   ],
   "hottest": [
@@ -954,32 +948,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】California privacy agency director Kemp to leave after two-year tenure",
+    "【LATEST #1】AIはサイバー攻撃の実行役から指揮官へ、目前に迫る戦慄の未来　Google予想",
     "【HOTTEST #1 / Heat 70.97】CVE-2026-132224: Optimizely Web Experimentation",
-    "【LATEST #2】Turnitin discloses cyberattack affecting customer-facing systems",
+    "【LATEST #2】California privacy agency director Kemp to leave after two-year tenure",
     "【HOTTEST #2 / Heat 70.97】CVE-2026-131914: Idunno AntiCsrf",
-    "【LATEST #3】“Do Good Security” and Other Lessons from Wiz’s FedRAMP VDR & VER Event",
+    "【LATEST #3】Turnitin discloses cyberattack affecting customer-facing systems",
     "【HOTTEST #3 / Heat 70.97】CVE-2026-132165: Drupal Core",
-    "【LATEST #4】Socket Releases Free Patches for 100% of Critical CVEs in RubyGems",
+    "【LATEST #4】“Do Good Security” and Other Lessons from Wiz’s FedRAMP VDR & VER Event",
     "【HOTTEST #4 / Heat 67.5】VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-    "【LATEST #5】Lawmakers warn ID verification companies to bolster security after September hack",
+    "【LATEST #5】Socket Releases Free Patches for 100% of Critical CVEs in RubyGems",
     "【HOTTEST #5 / Heat 67.5】Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-21T20:00:00+00:00",
-    "last_as_of": "2026-11-24T20:00:00+00:00",
+    "first_as_of": "2026-11-21T21:00:00+00:00",
+    "last_as_of": "2026-11-24T21:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-24T20:00:00+00:00",
-  "heat_as_of": "2026-11-24T20:00:00+00:00",
+  "news_as_of": "2026-11-24T21:00:00+00:00",
+  "heat_as_of": "2026-11-24T21:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26596,
-  "last_published_at": "2026-11-25T05:09:02.925413+09:00",
-  "publication_slot_jst": "2026-11-25T05:00:00+09:00"
+  "news_catalog_count": 26597,
+  "last_published_at": "2026-11-25T06:08:45.147663+09:00",
+  "publication_slot_jst": "2026-11-25T06:00:00+09:00"
 }
