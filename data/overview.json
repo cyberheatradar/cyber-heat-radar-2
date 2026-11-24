@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-24T21:08:33.245554+00:00",
-  "as_of": "2026-11-24T21:00:00+00:00",
-  "catalog_count": 26597,
+  "generated_at": "2026-11-24T22:09:43.740301+00:00",
+  "as_of": "2026-11-24T22:00:00+00:00",
+  "catalog_count": 26603,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,119 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T06:53:05.004731+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-2b855346dd50d4dcf8c1cd9b",
+      "primary_category": "incident",
+      "public_article_id": "url:2b855346dd50d4dcf8c1cd9b",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        }
+      ],
+      "published_at": "2026-11-25T06:37:30+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+      "summary_excerpt": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+      "threat_actors": [],
+      "title": "Rackspace shuts down Spot cloud platform after security breach"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.praetorian.com/blog/cve-2026-119618-2/",
+      "cves": [
+        "CVE-2026-119618"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T06:53:21.072442+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-567f7674fd663ac733b01808",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:567f7674fd663ac733b01808",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T06:16:56+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Praetorian Blog",
+      "summary": "Investigating CVE-2026-119618 Recently, Apache released an advisory for CVE-2026-119618, an improper synchronization vulnerability in mod_http2 that causes heap corruption and, according to Apache, can lead to remote code execution. As soon as it was disclosed, we began analyzing the vulnerability to better understand the root cause and to build scanners and detections to identify vulnerable […] The post Understanding the Root Cause of CVE-2026-119618 appeared first on Praetorian .",
+      "summary_excerpt": "Investigating CVE-2026-119618 Recently, Apache released an advisory for CVE-2026-119618, an improper synchronization vulnerability in mod_http2 that causes heap corruption and, according to Apache, can lead to remote code execution. As soon as it was disclosed, we began analyzing the vulnerability to better understand the root cause and to build scanners and detections to identify vulnerable […] The post Understanding the Root Cause of CVE-2026-119618 appeared first on Praetorian .",
+      "threat_actors": [],
+      "title": "Understanding the Root Cause of CVE-2026-119618"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2158383.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T06:53:13.933469+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-9f4e60db494eb2803f825dcf",
+      "primary_category": "other",
+      "public_article_id": "url:9f4e60db494eb2803f825dcf",
+      "public_tags": [],
+      "published_at": "2026-11-25T06:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "INTERNET Watch",
+      "summary": "クラウドエッジプラットフォームを提供するファストリ―株式会社（Fastly）は11月19日、記者説明会を実施し、エッジプラットフォームのAIサービスへの拡大と、日本における中小企業向けセキュリティパッケージの提供を発表した。",
+      "summary_excerpt": "クラウドエッジプラットフォームを提供するファストリ―株式会社（Fastly）は11月19日、記者説明会を実施し、エッジプラットフォームのAIサービスへの拡大と、日本における中小企業向けセキュリティパッケージの提供を発表した。",
+      "threat_actors": [],
+      "title": "Fastly、日本で定額WAFパッケージを提供。中小企業のセキュリティ支援へ"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/mycolorado-app-down-data-breach",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T06:23:24.954575+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-47b6e5f2f9251fc4e61f1dbe",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:47b6e5f2f9251fc4e61f1dbe",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-25T05:52:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
+      "summary_excerpt": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
+      "threat_actors": [],
+      "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00676/111900240/",
@@ -153,116 +266,21 @@
       "summary_excerpt": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
       "threat_actors": [],
       "title": "Lawmakers warn ID verification companies to bolster security after September hack"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://cyberscoop.com/uk-ncsc-ai-assisted-cyberattacks/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T03:22:36.933996+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-5da3f2842503cce869adbf8f",
-      "primary_category": "ai_security",
-      "public_article_id": "url:5da3f2842503cce869adbf8f",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-25T02:27:09+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CyberScoop",
-      "summary": "The National Cyber Security Centre said it is observing a “marked” increase in such attacks across sectors, as threat actors increasingly delegate to machines. The post UK cyber agency, threat companies tracking rise in AI-assisted hacks appeared first on CyberScoop .",
-      "summary_excerpt": "The National Cyber Security Centre said it is observing a “marked” increase in such attacks across sectors, as threat actors increasingly delegate to machines. The post UK cyber agency, threat companies tracking rise in AI-assisted hacks appeared first on CyberScoop .",
-      "threat_actors": [],
-      "title": "UK cyber agency, threat companies tracking rise in AI-assisted hacks"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T02:53:24.278404+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-c2606461d816651ddbc8c2f4",
-      "primary_category": "ai_security",
-      "public_article_id": "url:c2606461d816651ddbc8c2f4",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-25T02:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "No sophisticated malware or attack framework required",
-      "summary_excerpt": "No sophisticated malware or attack framework required",
-      "threat_actors": [],
-      "title": "An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes"
-    },
+    }
+  ],
+  "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T03:22:43.307634+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-9582e29a3fdc5bee41c2e6a9",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:9582e29a3fdc5bee41c2e6a9",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
+      "canonical_url": "https://www.praetorian.com/blog/cve-2026-119618-2/",
+      "cves": [
+        "CVE-2026-119618"
       ],
-      "published_at": "2026-11-25T01:54:07+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for command-and-control (C2) and deploys Homa, a post-compromise framework that's a reimplementation of",
-      "summary_excerpt": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for command-and-control (C2) and deploys Homa, a post-compromise framework that's a reimplementation of",
-      "threat_actors": [],
-      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
-      "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-25T01:52:07.504123+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-cbd825ca533eb80e837ab4b3",
+      "first_seen_at": "2026-11-25T06:53:21.072442+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-567f7674fd663ac733b01808",
       "primary_category": "vulnerability",
-      "public_article_id": "url:cbd825ca533eb80e837ab4b3",
+      "public_article_id": "url:567f7674fd663ac733b01808",
       "public_tags": [
         {
           "color_family": "neutral",
@@ -270,19 +288,17 @@
           "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-25T01:32:56+09:00",
+      "published_at": "2026-11-25T06:16:56+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek .",
-      "summary_excerpt": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek .",
+      "source_name": "Praetorian Blog",
+      "summary": "Investigating CVE-2026-119618 Recently, Apache released an advisory for CVE-2026-119618, an improper synchronization vulnerability in mod_http2 that causes heap corruption and, according to Apache, can lead to remote code execution. As soon as it was disclosed, we began analyzing the vulnerability to better understand the root cause and to build scanners and detections to identify vulnerable […] The post Understanding the Root Cause of CVE-2026-119618 appeared first on Praetorian .",
+      "summary_excerpt": "Investigating CVE-2026-119618 Recently, Apache released an advisory for CVE-2026-119618, an improper synchronization vulnerability in mod_http2 that causes heap corruption and, according to Apache, can lead to remote code execution. As soon as it was disclosed, we began analyzing the vulnerability to better understand the root cause and to build scanners and detections to identify vulnerable […] The post Understanding the Root Cause of CVE-2026-119618 appeared first on Praetorian .",
       "threat_actors": [],
-      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities"
-    }
-  ],
-  "hottest": [
+      "title": "Understanding the Root Cause of CVE-2026-119618"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-132224",
@@ -577,36 +593,6 @@
       "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-136428.",
       "threat_actors": [],
       "title": "ZDI-26-1055: (0Day) PyTorch Foundation PyTorch load_compiled_function Deserialization of Untrusted Data Remote Code Execution Vulnerability"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1054/",
-      "cves": [
-        "CVE-2026-136432"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T03:54:43.849976+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-e794d2cfcf4d380206c2973c",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e794d2cfcf4d380206c2973c",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T15:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-136432.",
-      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-136432.",
-      "threat_actors": [],
-      "title": "ZDI-26-1054: (0Day) PyTorch Foundation PyTorch FileSystemReader Deserialization of Untrusted Data Remote Code Execution Vulnerability"
     }
   ],
   "rising": [],
@@ -948,32 +934,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】AIはサイバー攻撃の実行役から指揮官へ、目前に迫る戦慄の未来　Google予想",
-    "【HOTTEST #1 / Heat 70.97】CVE-2026-132224: Optimizely Web Experimentation",
-    "【LATEST #2】California privacy agency director Kemp to leave after two-year tenure",
-    "【HOTTEST #2 / Heat 70.97】CVE-2026-131914: Idunno AntiCsrf",
-    "【LATEST #3】Turnitin discloses cyberattack affecting customer-facing systems",
-    "【HOTTEST #3 / Heat 70.97】CVE-2026-132165: Drupal Core",
-    "【LATEST #4】“Do Good Security” and Other Lessons from Wiz’s FedRAMP VDR & VER Event",
-    "【HOTTEST #4 / Heat 67.5】VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-    "【LATEST #5】Socket Releases Free Patches for 100% of Critical CVEs in RubyGems",
-    "【HOTTEST #5 / Heat 67.5】Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day"
+    "【LATEST #1】Rackspace shuts down Spot cloud platform after security breach",
+    "【HOTTEST #1 / Heat 75】Understanding the Root Cause of CVE-2026-119618",
+    "【LATEST #2】Understanding the Root Cause of CVE-2026-119618",
+    "【HOTTEST #2 / Heat 70.97】CVE-2026-132224: Optimizely Web Experimentation",
+    "【LATEST #3】Fastly、日本で定額WAFパッケージを提供。中小企業のセキュリティ支援へ",
+    "【HOTTEST #3 / Heat 70.97】CVE-2026-131914: Idunno AntiCsrf",
+    "【LATEST #4】Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+    "【HOTTEST #4 / Heat 70.97】CVE-2026-132165: Drupal Core",
+    "【LATEST #5】AIはサイバー攻撃の実行役から指揮官へ、目前に迫る戦慄の未来　Google予想",
+    "【HOTTEST #5 / Heat 67.5】VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-21T21:00:00+00:00",
-    "last_as_of": "2026-11-24T21:00:00+00:00",
+    "first_as_of": "2026-11-21T22:00:00+00:00",
+    "last_as_of": "2026-11-24T22:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-24T21:00:00+00:00",
-  "heat_as_of": "2026-11-24T21:00:00+00:00",
+  "news_as_of": "2026-11-24T22:00:00+00:00",
+  "heat_as_of": "2026-11-24T22:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26597,
-  "last_published_at": "2026-11-25T06:08:45.147663+09:00",
-  "publication_slot_jst": "2026-11-25T06:00:00+09:00"
+  "news_catalog_count": 26603,
+  "last_published_at": "2026-11-25T07:09:55.311893+09:00",
+  "publication_slot_jst": "2026-11-25T07:00:00+09:00"
 }
