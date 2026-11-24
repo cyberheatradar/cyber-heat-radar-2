@@ -1,9 +1,101 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T02:40:04.613869+00:00",
+  "source_snapshot_generated_at": "2026-11-24T03:40:03.265978+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:e09386ce9c24fa5c24b18952",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "llm"
+        ],
+        "url": "https://zenn.dev/rtneg_fuwa/articles/carrying-wrestlers",
+        "title": "常駐コンテキストを棚卸ししたら、プロレスラーのプロフィールを49人分も持ち歩いていた話",
+        "author": "fuwa",
+        "published_at": "2026-11-24T03:23:04.960000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b2d6dd913b02467eaf813144",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Meta AI",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/ocha50107/articles/6fd5c67da36ec2",
+        "title": "「手首から何でも頼める」は本当か｜Apple Watch版は本物だった。ただし公式発表はX投稿だけだった",
+        "author": "おちゃ",
+        "published_at": "2026-11-24T03:17:14.849000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:532823c76fb2c1abbd74b4ae",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "IoT",
+          "M5Stack",
+          "BLE",
+          "ESP32"
+        ],
+        "url": "https://zenn.dev/sasa_mkwy/articles/cd6f4448499669",
+        "title": "部屋に戻ったら「おかえり」と言うAIガジェットを実現するまでに踏んだ実機の壁",
+        "author": "天ノ河ささ",
+        "published_at": "2026-11-24T03:10:05.208000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bc7dea43f0849beda4376acb",
+        "source": "zenn",
+        "author_tags": [
+          "PHP",
+          "Python",
+          "Security",
+          "脆弱性",
+          "CVE"
+        ],
+        "url": "https://zenn.dev/newsletterready/articles/134f200c24706a",
+        "title": "NVD API の cvssV3Severity で絞ると CVSS v4.0 だけの緊急を落とす：PHP の脆弱性で気づいて直したこと",
+        "author": "乾 和志",
+        "published_at": "2026-11-24T03:09:26.848000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:305dc533a5e64bd0e43b1f9c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "プロダクト開発",
+          "AIエージェント",
+          "Claude Code",
+          "Loop engineering"
+        ],
+        "url": "https://zenn.dev/simulacra/articles/746128265d748c",
+        "title": "研究用のコードを、Claude Codeに任せてプロダクトにした",
+        "author": "Keita Kajimoto",
+        "published_at": "2026-11-24T03:00:06.058000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c0464734b86dc6ade5c893ea",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "architecture",
+          "EC",
+          "privacy"
+        ],
+        "url": "https://zenn.dev/loach/articles/zero-knowledge-commerce",
+        "title": "ビッグデータが負債になる未来 ― ECサイトのゼロナレッジ化を考える",
+        "author": "loach",
+        "published_at": "2026-11-24T02:59:11.806000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:ef5aeb2523dda5c1d5d3afb6",
         "source": "zenn",
@@ -50191,6 +50283,21 @@
     ],
     "qiita": [
       {
+        "id": "qiita:b65b57ebbf1e618e87b8ba92",
+        "source": "qiita",
+        "author_tags": [
+          "nginx",
+          "Security",
+          "HTTP",
+          "CSP"
+        ],
+        "url": "https://qiita.com/takax001/items/c413eb4a1eaae6cd740d",
+        "title": "nginx の add_header を server に書いたのに、一部のページでセキュリティ用ヘッダが消える理由と直し方",
+        "author": "takax001",
+        "published_at": "2026-11-24T12:00:02+09:00",
+        "excerpt": "この記事で分かること server に書いた add_header が、 一部のページでだけ付かない 理由 どのページで消えているかを、 応答の種類ごとに 確かめる方法 書き漏れを起こしにくい直し方（共通のファイルを include する） 結論 : nginx の add_header は、 その階層に add_header が 1 つでもあると、上の階層のものを引き継ぎません 。 location に Cache-Control などを 1 行足しただけで、 server に書いたセキュリティ用ヘッダがその location から全部消えます。 何が起きていたか 静的なサイトに、セキュリティ用のヘッダを足そうとしました。素直に server に書くと、こうなります。 server { listen 80 ; root /usr/share/nginx/html ; add_header X-Content-Type-Options \"nosniff\" always ; add_header Referrer-Policy \"strict-or"
+      },
+      {
         "id": "qiita:abb50b21c25f808b4606f59c",
         "source": "qiita",
         "author_tags": [
@@ -52253,6 +52360,22 @@
         "author": "yas_sio",
         "published_at": "2026-11-20T15:01:15+09:00",
         "excerpt": "1. はじめに 最近、企業へのサイバー攻撃や個人情報の漏えいといったニュースをよく目にします。企業だけでなく、私たち個人もこれまで以上にセキュリティを意識する必要がありそうです。 そんな中、よく耳にするようになったのが「パスキー」という認証方法。パスワード不要でログインできて、しかも安全性が高いそうな。 でも、実際に使おうとすると「スマホ以外でも使えるの？」「機種変更したらどうなるの？」「なくしたらログインできなくなる？」など、意外と疑問が出てきます。 この記事では、技術的な仕組みにはあまり深入りせず、利用者の視点からパスキーについて整理してみたいと思います。 2. パスキーって何？ どんな仕組み？ パスキーは、FIDO2などの標準技術を利用した、パスワードに代わる認証方法です。パスワードを覚えたり入力したりする代わりに、顔認証や指紋認証、PINなどを使ってログインできます。技術的な仕組みについては、詳しく解説された記事がたくさんあるので、ここでは簡単な説明にとどめます。 仕組みとしては、「公開鍵」と「秘密鍵」という2つの鍵を使います。公開鍵はサ"
+      },
+      {
+        "id": "qiita:d6630fbdd2ba3d42d76d0e29",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "初心者",
+          "CLAUDE.md",
+          "設計",
+          "Security"
+        ],
+        "url": "https://qiita.com/FPT_Oshima/items/f911d0e7fc0f67e7b575",
+        "title": "【Day 4】使い始める前に「フォルダ構成」を決めよう。IPアドレス設計と同じ話です",
+        "author": "FPT_Oshima",
+        "published_at": "2026-11-20T14:40:11+09:00",
+        "excerpt": "連載「インフラ一筋23年、実務でコードを書いたことがない私が Claude Code で社内業務を“自動運転”にするまで」第4回 〜 show run は指が覚えているのに、Linux と Python には苦手意識しかないエンジニアの40日間 〜 「とりあえず 192.168.1.0/24」の悲劇 ネットワークエンジニアなら、一度は経験があるのではないでしょうか。 最初の拠点に「とりあえず」で 192.168.1.0/24 を振った。数年後に拠点が増え、M&A で別の会社とつながり、アドレスが重複した。NAT で無理やりつないで、誰も全体を説明できなくなった……。 AI エージェントのフォルダ構成も、まったく同じことが起きます。 最初は一人で、ホームディレクトリに適当にフォルダを作って使い始める。うまくいったので部署に広げる。他の部署もまねをする。気がつくと、 どのフォルダがどの業務のものか分からない 同じようなルールがあちこちにコピーされ、少しずつ違う 機密データを扱うエージェントと、そうでないエージェントが同じ場所にいる 担当者が替わったら"
       },
       {
         "id": "qiita:b1b941d03324779fe3abf556",
@@ -68575,6 +68698,21 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:e62b1f3e2c27d1f8f08ac88e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "bug-bounty-writeup",
+          "bug-bounty-tips",
+          "bug-bounty"
+        ],
+        "url": "https://iamrudhh.medium.com/day-04-gave-us-recon-today-we-learn-how-logins-actually-work-8faf3528a397",
+        "title": "Day 04 gave us recon. Today we learn how logins actually work.",
+        "author": "iamrudhh",
+        "published_at": "2026-11-24T03:13:06+00:00",
+        "excerpt": "Almost every account takeover, data leak and access bug comes from one place: how an app decides who you are and what you can do… Continue reading on Medium »"
+      },
       {
         "id": "medium:dd71d47ebefd3fdf0ecf9cea",
         "source": "medium",
