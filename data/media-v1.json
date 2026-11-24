@@ -1,9 +1,72 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T21:40:02.717177+00:00",
+  "source_snapshot_generated_at": "2026-11-24T22:40:02.874880+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:825d33ee687b272bac185899",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "Python",
+          "llm",
+          "Agent"
+        ],
+        "url": "https://zenn.dev/bambampurin/articles/2026-09-28-tech-daily",
+        "title": "今日の技術トレンド",
+        "author": "子供部屋大学院生",
+        "published_at": "2026-11-24T22:37:09.183000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fe6ed650390a5ae483e73d90",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GitHub",
+          "OSS",
+          "Hono"
+        ],
+        "url": "https://zenn.dev/visionarray/articles/5a65e87fbba85a",
+        "title": "PRを受け付けなくなったHonoに、Issueで貢献した話",
+        "author": "tikut",
+        "published_at": "2026-11-24T22:35:05.049000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:30e07ceb2f28adae15b17cf3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "設計",
+          "実装",
+          "Claude",
+          "Agent Skills"
+        ],
+        "url": "https://zenn.dev/mediaforce/articles/27df1f22a00546",
+        "title": "なんとなくgrill-meしている人に伝えたい、作者本人から学んだSkillsの使い方",
+        "author": "Kosuke Ikeda",
+        "published_at": "2026-11-24T22:30:05.211000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f63c2258f36bd68d25f04c57",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "ChatGPT",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/gear_aiteam/articles/ai-to-ai-dengon-relay",
+        "title": "Claude Codeから、ChatGPTやclaude.aiの会話へ「伝言」を届ける仕組み",
+        "author": "ギア",
+        "published_at": "2026-11-24T22:17:53.312000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:9d41d7262e076aea5aeb11c8",
         "source": "zenn",
@@ -51697,6 +51760,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c88f965e5c18582b62ca8913",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "クレジットカード",
+          "情報漏洩",
+          "決済",
+          "ec"
+        ],
+        "url": "https://qiita.com/salamanda_sec/items/ac6a1c9dcfebf7f9e0c2",
+        "title": "保存していないのに、セキュリティコードまで対象になった ― 同じ週の3件を、カード情報の『通り道』で並べ直した",
+        "author": "salamanda_sec",
+        "published_at": "2026-11-25T07:37:02+09:00",
+        "excerpt": "11月18日から21日にかけて、カード情報に関わる発表が3件あった。六花亭の第1報（18日）と第2報（21日）、Cleverbridgeの個別通知の開始（20日）、タワーレコードの公表（21日）だ。 カードを使っている側が知りたいのは、自分のカードは大丈夫なのか、という一点だと思う。 保存していない会社のカード情報が、セキュリティコードまで対象になった。保存されていた会社のデータは、コピーされた。タワーレコードはカード情報が対象外だったのに、漏れた中心はパスワードのハッシュ値を含むログイン情報だった。分かれ目は、保存の有無ではなく、カード情報が「どこを、いつ通るか」だった。 タワーレコード 六花亭 Cleverbridge 公表 11月21日 11月18日（第1報）・21日（第2報） 個別通知の開始が11月20日 カード情報の経路 対象に含まれない 決済画面のプログラム改ざん。入力の瞬間に外部へ送信 プラットフォームに保存されていたデータのコピー カード情報の中身 ― 番号全桁・名義人・有効期限・セキュリティコード 公式ページでは内訳を公表せず（"
+      },
+      {
+        "id": "qiita:83266a572a2347d4ecc81820",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "nginx",
+          "WordPress",
+          "cookie",
+          "Web"
+        ],
+        "url": "https://qiita.com/jiis-sasaki/items/fc27108a313c7290a71f",
+        "title": "CDNキャッシュで他人のマイページが出る事故を防ぐ7設定(Cloudflare/nginx/WordPress対応)",
+        "author": "jiis-sasaki",
+        "published_at": "2026-11-25T07:30:00+09:00",
+        "excerpt": "この記事は、サイトの表示速度を上げるために CDN(Cloudflare など)やリバースプロキシのキャッシュを入れた、または入れようとしている Web 担当者・制作会社向けです。 「ログインした人のマイページやカートが、別の人にそのまま表示された」という事故は、攻撃ではなく キャッシュ設定の1行 で起きます。 ここでは Cloudflare / nginx / Apache / WordPress で、個人ごとのページを 共有キャッシュに載せない ための設定と、載っていないことの確認方法をまとめます。 なぜ起きるのか(30秒で) CDN やリバースプロキシのキャッシュは 共有キャッシュ です。1人目に返したレスポンスを保存し、2人目以降には同じものを返します。 リクエスト 何が起きるか Aさん(ログイン中)が /mypage/ を開く オリジンが Aさんの氏名・住所入りの HTML を返す → キャッシュに保存 Bさんが /mypage/ を開く キャッシュから Aさんの HTML が返る ポイントは、キャッシュキー(保存先を決める鍵)が既定で"
+      },
+      {
         "id": "qiita:1a3bcb8f56a7618746762b86",
         "source": "qiita",
         "author_tags": [
@@ -70487,6 +70582,84 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:687e3ec76d240e1063e196c0",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "devsecops",
+          "cloud-security",
+          "cspm",
+          "vulnerability-management"
+        ],
+        "url": "https://medium.com/@CloudBreachRadarr-p8s/how-the-best-cspm-tools-rank-cloud-risks-to-fix-first-debdd862ebbb",
+        "title": "How the Best CSPM Tools Rank Cloud Risks to Fix First",
+        "author": "Cloud Breach Radar",
+        "published_at": "2026-11-24T22:26:57+00:00",
+        "excerpt": "Exposure, known exploitation and attack paths decide the order, not the raw count of alerts. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0d91b886ea72a3101f016f0a",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "cybercrime",
+          "cybersecurity",
+          "lizard-squad"
+        ],
+        "url": "https://medium.com/@LizardSquad/veri-and-declaws-the-night-the-joke-stopped-being-funny-6a01d998fba3",
+        "title": "Veri and Declaws: The Night the Joke Stopped Being Funny",
+        "author": "Lizard Squad",
+        "published_at": "2026-11-24T22:02:59+00:00",
+        "excerpt": "By Greg Steuber / “Ryan” (@urharmless) Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4410399a3b0da41342fc2e79",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "business-logic",
+          "web-security",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@marwanmedhat0001/how-one-free-trial-became-unlimited-number-of-licenses-bounty-c98b8a4ee7e7",
+        "title": "How One Free Trial Became Unlimited Number Of Licenses | $$$$ Bounty",
+        "author": "Marwanmedhat",
+        "published_at": "2026-11-24T22:00:51+00:00",
+        "excerpt": "Never Assume That What the User Interface Restricts, the Backend Enforces — Every Endpoint Must Validate Business Rules Independently. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ca81616710a92d1b1f803089",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "tech",
+          "ai-agent",
+          "business",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@asadmohsin760/techxspace-critical-cybersecurity-bug-exposes-systems-to-ai-powered-hacking-attacks-in-2026-372a3126f338",
+        "title": "TechXSpace: Critical Cybersecurity Bug Exposes Systems to AI-Powered Hacking Attacks in 2026",
+        "author": "Asad Mohsin",
+        "published_at": "2026-11-24T21:50:18+00:00",
+        "excerpt": "Published: November 25, 2026 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:97527553fad7dc11c66dba0a",
+        "source": "medium",
+        "author_tags": [
+          "aws",
+          "cybersecurity",
+          "finops",
+          "devops",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/@frederic.auguste/outdated-versions-cost-twice-extended-support-fees-and-unpatched-cves-da0ab45f16c7",
+        "title": "Outdated Versions Cost Twice: Extended Support Fees and Unpatched CVEs",
+        "author": "frederic auguste",
+        "published_at": "2026-11-24T21:41:43+00:00",
+        "excerpt": "Where AWS sells extended support, you pay in dollars. Where it doesn’t, you pay in vulnerabilities. Continue reading on Medium »"
+      },
       {
         "id": "medium:637ff6e9a330d8d998f7ce67",
         "source": "medium",

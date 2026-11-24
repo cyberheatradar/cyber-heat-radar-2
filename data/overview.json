@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-24T22:09:43.740301+00:00",
-  "as_of": "2026-11-24T22:00:00+00:00",
-  "catalog_count": 26603,
+  "generated_at": "2026-11-24T23:10:08.670641+00:00",
+  "as_of": "2026-11-24T23:00:00+00:00",
+  "catalog_count": 26609,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,106 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T07:52:04.759735+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c11f64b8d05e747d2ced7bbc",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c11f64b8d05e747d2ced7bbc",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T07:41:58+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "It was not clear what specific information was compromised or who was responsible. The post An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says appeared first on SecurityWeek .",
+      "summary_excerpt": "It was not clear what specific information was compromised or who was responsible. The post An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T07:22:43.395073+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-1b2736ce04512a9869f54fba",
+      "primary_category": "other",
+      "public_article_id": "url:1b2736ce04512a9869f54fba",
+      "public_tags": [],
+      "published_at": "2026-11-25T07:05:34+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Dark Reading",
+      "summary": "Weaknesses in the ground-based infrastructure supporting satellite services are becoming more consequential as a new space race gathers pace.",
+      "summary_excerpt": "Weaknesses in the ground-based infrastructure supporting satellite services are becoming more consequential as a new space race gathers pace.",
+      "threat_actors": [],
+      "title": "Satellites Have a Ground-Level Cybersecurity Problem"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T07:22:43.035762+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-865154e4b5c7c8b1610e1286",
+      "primary_category": "other",
+      "public_article_id": "url:865154e4b5c7c8b1610e1286",
+      "public_tags": [],
+      "published_at": "2026-11-25T07:01:23+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CyberScoop",
+      "summary": "CyberScoop confirmed the incident, with a source saying “no other systems are currently at risk.” The post Unclassified intel system hit by hackers, affecting CIA, ODNI appeared first on CyberScoop .",
+      "summary_excerpt": "CyberScoop confirmed the incident, with a source saying “no other systems are currently at risk.” The post Unclassified intel system hit by hackers, affecting CIA, ODNI appeared first on CyberScoop .",
+      "threat_actors": [],
+      "title": "Unclassified intel system hit by hackers, affecting CIA, ODNI"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T07:22:43.519043+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-c83402675689447ee6747fd7",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:c83402675689447ee6747fd7",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        }
+      ],
+      "published_at": "2026-11-25T06:48:06+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Dark Reading",
+      "summary": "The China-aligned espionage group rebuilt the open source VPN software from source, stripping out the artifacts that would normally expose it to defenders.",
+      "summary_excerpt": "The China-aligned espionage group rebuilt the open source VPN software from source, stripping out the artifacts that would normally expose it to defenders.",
+      "threat_actors": [],
+      "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
@@ -42,6 +142,34 @@
       "summary_excerpt": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
       "threat_actors": [],
       "title": "Rackspace shuts down Spot cloud platform after security breach"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T07:22:43.628856+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-716dc2a9a70db27428c9d096",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:716dc2a9a70db27428c9d096",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T06:36:11+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Dark Reading",
+      "summary": "Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.",
+      "summary_excerpt": "Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.",
+      "threat_actors": [],
+      "title": "'God Mode' Flaws Could Wreak Border-Control Havoc"
     },
     {
       "ai_relevance": "none",
@@ -144,128 +272,6 @@
       "summary_excerpt": "米Googleは、AIを悪用した攻撃が新たな段階に入ったと指摘する。人間の介在を全く必要としない、完全自動化に向かっているという。",
       "threat_actors": [],
       "title": "AIはサイバー攻撃の実行役から指揮官へ、目前に迫る戦慄の未来　Google予想"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/california-privacy-agency-kemp",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T04:52:09.067816+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-d41dd388b4c4a730440e46c9",
-      "primary_category": "other",
-      "public_article_id": "url:d41dd388b4c4a730440e46c9",
-      "public_tags": [],
-      "published_at": "2026-11-25T04:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
-      "summary_excerpt": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
-      "threat_actors": [],
-      "title": "California privacy agency director Kemp to leave after two-year tenure"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T04:23:21.058572+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-6c5bc98dced3225cd1022fea",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:6c5bc98dced3225cd1022fea",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-25T03:59:52+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
-      "summary_excerpt": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
-      "threat_actors": [],
-      "title": "Turnitin discloses cyberattack affecting customer-facing systems"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.wiz.io/blog/fedramp-vdr-ver-event-key-takeaways",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T04:52:09.792702+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-97e34f237938a15179f48f0f",
-      "primary_category": "other",
-      "public_article_id": "url:97e34f237938a15179f48f0f",
-      "public_tags": [],
-      "published_at": "2026-11-25T03:36:13+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Wiz Blog",
-      "summary": "Key highlights from government leaders, industry experts, and the Wiz FedRAMP team from our November 12th event on modernizing vulnerability management to meet FedRAMP’s new requirements.",
-      "summary_excerpt": "Key highlights from government leaders, industry experts, and the Wiz FedRAMP team from our November 12th event on modernizing vulnerability management to meet FedRAMP’s new requirements.",
-      "threat_actors": [],
-      "title": "“Do Good Security” and Other Lessons from Wiz’s FedRAMP VDR & VER Event"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://socket.dev/blog/free-patches-critical-ruby-cves",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T04:24:03.693551+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-f845360f4d828026ed2df829",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f845360f4d828026ed2df829",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T03:27:14.893000+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Socket Blog",
-      "summary": "Fix critical RubyGems vulnerabilities without upgrading dependencies. Free security patches are now available with more ways to install and deploy them.",
-      "summary_excerpt": "Fix critical RubyGems vulnerabilities without upgrading dependencies. Free security patches are now available with more ways to install and deploy them.",
-      "threat_actors": [],
-      "title": "Socket Releases Free Patches for 100% of Critical CVEs in RubyGems"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T03:22:43.938697+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-fb70038483895e9881528a2a",
-      "primary_category": "other",
-      "public_article_id": "url:fb70038483895e9881528a2a",
-      "public_tags": [],
-      "published_at": "2026-11-25T02:49:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
-      "summary_excerpt": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
-      "threat_actors": [],
-      "title": "Lawmakers warn ID verification companies to bolster security after September hack"
     }
   ],
   "hottest": [
@@ -435,6 +441,38 @@
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation"
     },
     {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "cves": [
+        "CVE-2026-131914",
+        "CVE-2026-132165",
+        "CVE-2026-132224"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T07:22:23.098452+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-165729c3cbfbb2e3eb18effe",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:165729c3cbfbb2e3eb18effe",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-24T21:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CISA Cybersecurity Advisories",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability CVE-2026-132224 Optimizely Web Experimentation External Control of Critical State Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
+      "summary_excerpt": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability CVE-2026-132224 Optimizely Web Experimentation External Control of Critical State Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Bas",
+      "threat_actors": [],
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog"
+    },
+    {
       "ai_relevance": "primary",
       "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
       "cves": [
@@ -563,36 +601,6 @@
       "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-136430.",
       "threat_actors": [],
       "title": "ZDI-26-1057: (0Day) PyTorch Foundation PyTorch AOTIModelPackageLoader  Directory Traversal Remote Code Execution Vulnerability"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1055/",
-      "cves": [
-        "CVE-2026-136428"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T03:54:52.746780+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-71029a60b3c216429deef0e6",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:71029a60b3c216429deef0e6",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T15:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-136428.",
-      "summary_excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-136428.",
-      "threat_actors": [],
-      "title": "ZDI-26-1055: (0Day) PyTorch Foundation PyTorch load_compiled_function Deserialization of Untrusted Data Remote Code Execution Vulnerability"
     }
   ],
   "rising": [],
@@ -934,32 +942,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Rackspace shuts down Spot cloud platform after security breach",
+    "【LATEST #1】An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
     "【HOTTEST #1 / Heat 75】Understanding the Root Cause of CVE-2026-119618",
-    "【LATEST #2】Understanding the Root Cause of CVE-2026-119618",
+    "【LATEST #2】Satellites Have a Ground-Level Cybersecurity Problem",
     "【HOTTEST #2 / Heat 70.97】CVE-2026-132224: Optimizely Web Experimentation",
-    "【LATEST #3】Fastly、日本で定額WAFパッケージを提供。中小企業のセキュリティ支援へ",
+    "【LATEST #3】Unclassified intel system hit by hackers, affecting CIA, ODNI",
     "【HOTTEST #3 / Heat 70.97】CVE-2026-131914: Idunno AntiCsrf",
-    "【LATEST #4】Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+    "【LATEST #4】Webworm APT Slithers Into Networks With Customized SoftEther VPN",
     "【HOTTEST #4 / Heat 70.97】CVE-2026-132165: Drupal Core",
-    "【LATEST #5】AIはサイバー攻撃の実行役から指揮官へ、目前に迫る戦慄の未来　Google予想",
+    "【LATEST #5】Rackspace shuts down Spot cloud platform after security breach",
     "【HOTTEST #5 / Heat 67.5】VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-21T22:00:00+00:00",
-    "last_as_of": "2026-11-24T22:00:00+00:00",
+    "first_as_of": "2026-11-21T23:00:00+00:00",
+    "last_as_of": "2026-11-24T23:00:00+00:00",
     "unique_snapshots_used": 73,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-24T22:00:00+00:00",
-  "heat_as_of": "2026-11-24T22:00:00+00:00",
+  "news_as_of": "2026-11-24T23:00:00+00:00",
+  "heat_as_of": "2026-11-24T23:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26603,
-  "last_published_at": "2026-11-25T07:09:55.311893+09:00",
-  "publication_slot_jst": "2026-11-25T07:00:00+09:00"
+  "news_catalog_count": 26609,
+  "last_published_at": "2026-11-25T08:10:20.692837+09:00",
+  "publication_slot_jst": "2026-11-25T08:00:00+09:00"
 }
