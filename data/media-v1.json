@@ -1,9 +1,105 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T14:40:04.284870+00:00",
+  "source_snapshot_generated_at": "2026-11-24T15:40:02.977416+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:871f2360880c83996fe4c343",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "NVIDIA",
+          "GPU",
+          "llm"
+        ],
+        "url": "https://zenn.dev/fx_hamrat/articles/6b73bf677307f0",
+        "title": "【AIとシンギュラリティ②】倒産まで残り約30日。NVIDIAは最初から強かったわけではない",
+        "author": "FXハムラット",
+        "published_at": "2026-11-24T15:22:21.566000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e89ad166e0f864cf2b586b9b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "video",
+          "SaaS",
+          "TikTok",
+          "Generative AI"
+        ],
+        "url": "https://zenn.dev/tessarhodes/articles/39b93c99d641f5",
+        "title": "Skip the prompt: one-photo viral video templates",
+        "author": "Tessa Rhodes",
+        "published_at": "2026-11-24T15:14:38.993000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:b7421a51e0907a4e6a09b20a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "NVIDIA",
+          "GPU",
+          "llm"
+        ],
+        "url": "https://zenn.dev/fx_hamrat/articles/3344c8f4949bb8",
+        "title": "【AIとシンギュラリティ①】ニューラルネットワークの「冬」。理論はあったのに、機械が追いつかなかった時代",
+        "author": "FXハムラット",
+        "published_at": "2026-11-24T15:14:09.097000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c882493d26eba26e644ebf49",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "3D プリンター",
+          "FreeCAD",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-11-history-review-and-agents",
+        "title": "増えすぎた20スレッドを棚卸し！失敗を「過去トラ」と「AGENTS.md」に刻んで次に活かす",
+        "author": "Maki",
+        "published_at": "2026-11-24T15:11:32.096000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6ffcf6e12ae0f3d61693ed49",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "knowledge",
+          "Model Context Protocol",
+          "llm",
+          "reasoningdata"
+        ],
+        "url": "https://zenn.dev/hiromi63/articles/757d7176a3a5ec",
+        "title": "AIが人間に聞くためのMCP —— 判断を取得する CRA Remote MCP",
+        "author": "Hiromi",
+        "published_at": "2026-11-24T15:10:50.109000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7bcb838af34c5653bbe0d512",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Node.js",
+          "TypeScript",
+          "Model Context Protocol",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/paku0219/articles/b8457aeba45d84",
+        "title": "【入門】MCP（Model Context Protocol）とは？仕組みから自作サーバーまで",
+        "author": "ぴやう",
+        "published_at": "2026-11-24T14:45:38.955000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f26f5e661d9016db49086c1b",
         "source": "zenn",
@@ -51442,6 +51538,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:d142b4fc1849a8ddba3439f4",
+        "source": "qiita",
+        "author_tags": [
+          "WebAuthn",
+          "パスキー",
+          "認証",
+          "Security",
+          "Python"
+        ],
+        "url": "https://qiita.com/ynakayama/items/1fb7b3fe127e564fc695",
+        "title": "パスキー認証の安全性を署名・アカウント・セッションの整合条件から検証する",
+        "author": "ynakayama",
+        "published_at": "2026-11-25T00:10:25+09:00",
+        "excerpt": "1. 署名検証に成功しても認証が成立しない条件 パスキー認証の実装では、電子署名の検証と、認証情報の所属先や認証要求の照合を分けて評価する必要があります。署名の検証が成功した場合でも、その署名を根拠としてどのアカウントをどのセッションで認証済みにするかは、サーバー側の状態管理によって決まります。 WebAuthn は、認証器が保持する秘密鍵を使って認証応答に署名し、RP（Relying Party、認証を提供するサービス）が登録済みの公開鍵で検証するための仕様です。登録時と認証時には、それぞれ RP による検証処理が定められています [1] 。 例えば、アカウント alice と bob に別々の公開鍵が登録されているとします。 alice を対象とする認証要求に対して bob の認証情報による有効な署名が提示された場合、 bob の公開鍵による署名検証は成功します。一方、その認証情報の所属先は alice とは異なるため、要求された認証は拒否する必要があります。 判定対象 署名の検証 認証の受理 使用する情報 公開鍵、署名対象データ、署名 署名"
+      },
+      {
         "id": "qiita:3e47d49f63c72a2406128f32",
         "source": "qiita",
         "author_tags": [
@@ -70123,6 +70235,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:836ea213631a902b71345836",
+        "source": "medium",
+        "author_tags": [
+          "php",
+          "api",
+          "authentication",
+          "laravel",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@antonioramirezcobos/polaris-in-laravel-a-complete-identity-api-544d9da4d4d3",
+        "title": "Polaris in Laravel: A complete identity API behind auth:polaris",
+        "author": "Antonio Ramirez Cobos",
+        "published_at": "2026-11-24T15:25:09+00:00",
+        "excerpt": "Integrate Polaris with Laravel for authentication, MFA, JWTs, organization roles, refresh tokens, and audit logging. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0bef7ef552bd2999fa97ee71",
+        "source": "medium",
+        "author_tags": [
+          "black-friday",
+          "microsoft",
+          "online-security",
+          "phishing",
+          "cybersecurity"
+        ],
+        "url": "https://inclinq.medium.com/black-friday-phishing-is-using-microsofts-own-authentication-system-against-users-a576e8a96d2e",
+        "title": "Black Friday Phishing Is Using Microsoft’s Own Authentication System Against Users",
+        "author": "inclinq_Founder",
+        "published_at": "2026-11-24T15:17:58+00:00",
+        "excerpt": "The latest scam moves from a discount email to a fake Adobe document and then to a Microsoft verification code. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bf4d559c25074cb42d34b342",
+        "source": "medium",
+        "author_tags": [
+          "malware",
+          "cybersecurity",
+          "investigation",
+          "lockbit-ransomware",
+          "cyberdefenders-writeup"
+        ],
+        "url": "https://medium.com/@lachhab.aymane11/activemq-lockbit-ransomware-lab-dc5fc2105051",
+        "title": "ActiveMQ — LockBit Ransomware Lab",
+        "author": "Aymane.",
+        "published_at": "2026-11-24T15:09:23+00:00",
+        "excerpt": "Blue team CTF Challenges | ActiveMQ — LockBit Ransomware Continue reading on Medium »"
+      },
+      {
+        "id": "medium:69a221af2544de95b7f6a683",
+        "source": "medium",
+        "author_tags": [
+          "authorization",
+          "cybersecurity",
+          "web-security",
+          "owasp",
+          "api-security"
+        ],
+        "url": "https://pingerahmed.medium.com/bola-bfla-bopla-the-three-authorisation-bugs-no-scanner-will-find-for-you-e71fea5a1fb5",
+        "title": "BOLA, BFLA, BOPLA: the three authorisation bugs no scanner will find for you",
+        "author": "Ahmed Pinger",
+        "published_at": "2026-11-24T15:06:18+00:00",
+        "excerpt": "Run any commercial scanner against a modern API and it will find missing headers, an outdated TLS suite, maybe some reflected input. It… Continue reading on Medium »"
+      },
       {
         "id": "medium:7ce927fb94d8afb404e3af7b",
         "source": "medium",
