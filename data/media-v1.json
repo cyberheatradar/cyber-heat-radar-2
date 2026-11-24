@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T18:40:03.700967+00:00",
+  "source_snapshot_generated_at": "2026-11-24T19:40:03.567408+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:4e9e4a240d73cf8771d08566",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "WSL",
+          "Cursor",
+          "Grok Bot"
+        ],
+        "url": "https://zenn.dev/naga1021/articles/cursor-remote-control-wsl",
+        "title": "PCの前にいなくてもCursorを動かしたくてRemote Controlを試したら、WSLでつまずいた話",
+        "author": "なが",
+        "published_at": "2026-11-24T19:21:53.571000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:89024f60ae71fa83f655c0f5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "prompt",
+          "llm",
+          "Claude Code",
+          "CLAUDE.md"
+        ],
+        "url": "https://zenn.dev/playpark/articles/claude-md-prune-on-model-upgrade",
+        "title": "CLAUDE.mdを13.6KBから4.4KBに削って分かった、消す行と残す行の境目",
+        "author": "playpark",
+        "published_at": "2026-11-24T18:58:28.074000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:d6b6bc0ffc850f7d5134954c",
         "source": "zenn",
@@ -51633,6 +51665,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6d8d96a452e6226d35948a4b",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "AIエージェント",
+          "API",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/emi_ndk/items/cf48c410bcfeb305fd42",
+        "title": "【緊急】無料のAIエージェントとMacのcurlで、金融企業への攻撃は6分足らず。ブロックリストでは防げない",
+        "author": "emi_ndk",
+        "published_at": "2026-11-25T04:29:20+09:00",
+        "excerpt": "あなたのAPI、「ふつうの回線から来た、開発者っぽいアクセス」を攻撃だと見抜けますか？ 2026年11月16日、ある大手金融企業が、 無料のコーディングエージェント を使った攻撃を受けました。 使われたのは、オープンソースのAIエージェント「OpenCode」、ふつうのChrome、そしてMacに最初から入っている curl だけです。 最初のアクセスから最後のアクセスまで、わずか 5分44秒 でした。 つまり、 攻撃に必要なのは、もう「アプリを1つ入れること」だけ になったということです。 この記事は、The Registerの独占記事（2026年11月24日）と、攻撃を検知したセキュリティ企業Jestaのレポートに基づいています。攻撃者が手にしたキーは おとり で、実害はありませんでした。 結論から言うと 攻撃者は OpenCode・Chrome・curl だけで、金融企業のAPIを探った 最初のアクセスから 64秒 でAIエージェントと判定され、以降は おとりの環境 に隔離された 送信元はブカレストの ふつうの業務用回線 で、VPNもTor"
+      },
+      {
+        "id": "qiita:6583e6c87e3d2bda74f634f2",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/5777b3aaa381218a0a48",
+        "title": "2026/11/25主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-25T04:24:04+09:00",
+        "excerpt": "ファイアウォールの管理基盤まで対象、PAN-OSにCVSS9.2の脆弱性2件 悪用は未確認(11/23) https://www.sbbit.jp/article/cont1/188682 タワーレコードで１千万件超流出 通販サイトに不正アクセス(11/22) https://www.sanyonews.jp/article/2025569?rct=global_culture タワーレコード オンラインに不正アクセスによるサイバー攻撃、約1,100万件の個人情報漏洩の恐れ(11/23) https://rocket-boys.co.jp/security-measures-lab/tower_records_online_1100man_password_hash_breach_2026/ タワーレコード、１１００万件の個人情報が流出…商品の一部は発送ができていない模様(11/22) https://www.yomiuri.co.jp/economy/20261122-GYT1T00172/ タワーレコードに不正アクセス 個人情報1100万件流"
+      },
+      {
         "id": "qiita:179c0a311161f03a9e7ceef0",
         "source": "qiita",
         "author_tags": [
@@ -70362,6 +70423,67 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:075b10a6dc5a757b99eb91a8",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "hacking",
+          "authentication",
+          "cybersecurity",
+          "backend-development"
+        ],
+        "url": "https://medium.com/@syedmuhammad1112005/beyond-login-passwords-13-authentication-attacks-every-backend-developer-should-understand-a840d93f0f95",
+        "title": "Beyond Login & Passwords: 13 Authentication Attacks Every Backend Developer Should Understand.",
+        "author": "Syed Muhammad",
+        "published_at": "2026-11-24T19:24:47+00:00",
+        "excerpt": "An in-depth guide to authentication, session management, JWT, and the security mechanisms every backend developer should understand. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bf0a8e8bc002012258129a1c",
+        "source": "medium",
+        "author_tags": [
+          "infosec",
+          "software-development",
+          "vulnerability",
+          "cybersecurity",
+          "software-engineering"
+        ],
+        "url": "https://medium.com/@cve_program/call-for-speakers-now-open-for-cve-first-vulncon-2027-on-march-30-april-2-2027-9d40bc58ff1a",
+        "title": "Call for Speakers Now Open for CVE/FIRST VulnCon 2027 on March 30 — April 2, 2027!",
+        "author": "CVE Program Blog",
+        "published_at": "2026-11-24T19:13:58+00:00",
+        "excerpt": "The CVE Program and FIRST will co-host “VulnCon 2027” at the DoubleTree Resort by Hilton Hotel Paradise Valley — Scottsdale, in Scottsdale… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:1adf32aa700f1e773f4e1343",
+        "source": "medium",
+        "author_tags": [
+          "small-business",
+          "it-support",
+          "cybersecurity",
+          "augusta",
+          "ransomware"
+        ],
+        "url": "https://medium.com/@itservicesofaugusta/ransomware-removal-in-augusta-ga-a-first-hour-plan-for-small-businesses-2cc49949ea24",
+        "title": "Ransomware Removal in Augusta, GA: A First-Hour Plan for Small Businesses",
+        "author": "IT Services of Augusta",
+        "published_at": "2026-11-24T19:12:08+00:00",
+        "excerpt": "If a screen in your office has just filled with a ransom note, the next sixty minutes matter more than the next six days. Ransomware… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c54632149b20a0e4a89f7b64",
+        "source": "medium",
+        "author_tags": [
+          "data-breach",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@realsec.io/mycolorado-app-offline-after-unauthorized-access-to-platform-data-e49012d8f358",
+        "title": "myColorado App Offline After Unauthorized Access to Platform Data",
+        "author": "RealSec.io",
+        "published_at": "2026-11-24T19:09:30+00:00",
+        "excerpt": "On the night of Wednesday, November 18, 2026, the Colorado Governor’s Office of Information Technology (OIT) identified a cybersecurity… Continue reading on Medium »"
+      },
       {
         "id": "medium:ecddb558d316cea35daf3530",
         "source": "medium",
