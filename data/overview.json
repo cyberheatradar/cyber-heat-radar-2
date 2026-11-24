@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-24T11:08:55.567302+00:00",
-  "as_of": "2026-11-24T11:00:00+00:00",
-  "catalog_count": 26519,
+  "generated_at": "2026-11-24T12:09:49.441063+00:00",
+  "as_of": "2026-11-24T12:00:00+00:00",
+  "catalog_count": 26522,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,89 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T20:24:00.705672+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-5d4b7756ff34b08452bd713c",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:5d4b7756ff34b08452bd713c",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-24T21:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "NCSC UK",
+      "summary": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
+      "summary_excerpt": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
+      "threat_actors": [],
+      "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://cyberscoop.com/ot-security-post-quantum-cryptography-op-ed/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T20:23:41.204743+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-ec4522e9faf8d7961a66507a",
+      "primary_category": "other",
+      "public_article_id": "url:ec4522e9faf8d7961a66507a",
+      "public_tags": [],
+      "published_at": "2026-11-24T20:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CyberScoop",
+      "summary": "Post-quantum cryptography deserves a place on the roadmap. But in operational technology, the threats doing damage today are far more basic, and far more urgent. The post Tomorrow’s quantum threat is today’s open door appeared first on CyberScoop .",
+      "summary_excerpt": "Post-quantum cryptography deserves a place on the roadmap. But in operational technology, the threats doing damage today are far more basic, and far more urgent. The post Tomorrow’s quantum threat is today’s open door appeared first on CyberScoop .",
+      "threat_actors": [],
+      "title": "Tomorrow’s quantum threat is today’s open door"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T20:24:03.830680+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-47c6e40ac66c9d3b81c5f40c",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:47c6e40ac66c9d3b81c5f40c",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-24T19:44:49+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively looking for access tokens, secrets, and named values ​​in APIM,\" NSM said. \"It is still uncertain how",
+      "summary_excerpt": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively looking for access tokens, secrets, and named values ​​in APIM,\" NSM said. \"It is still uncertain how",
+      "threat_actors": [],
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
@@ -196,89 +279,6 @@
       "summary_excerpt": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed. The company disclosed the SQL injection yesterday along with two other flaws that need a logged-in client, and released",
       "threat_actors": [],
       "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/24/news026.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T18:22:20.418647+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-b91c4b8bd51d1cf9588decba",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:b91c4b8bd51d1cf9588decba",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        }
-      ],
-      "published_at": "2026-11-24T17:15:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "@IT Security & Trust",
-      "summary": "ESETは偽CAPTCHAの脅威と対策を公式ブログで解説した。Webサイト閲覧時に“CAPTCHAチャレンジ”を求められることがあるが、指示に従順過ぎるとトラブルに巻き込まれる可能性が高い。",
-      "summary_excerpt": "ESETは偽CAPTCHAの脅威と対策を公式ブログで解説した。Webサイト閲覧時に“CAPTCHAチャレンジ”を求められることがあるが、指示に従順過ぎるとトラブルに巻き込まれる可能性が高い。",
-      "threat_actors": [],
-      "title": "誰もが避けられない“認証”操作が攻撃ポイントに？　ESETが偽CAPTCHAの脅威と対策を解説"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261124-5396650/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T17:38:21.622026+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-bd013660c0a8308ca3c372c3",
-      "primary_category": "other",
-      "public_article_id": "url:bd013660c0a8308ca3c372c3",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-24T17:14:06+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "lead=Visa、Mastercard、JPMorgan Chaseの顧客に関連する情報が、外部サービス事業者へのサイバー攻撃によって流出したと、セキュリティ企業のMalwarebytesが2026年11月20日(米国時間)に報じた。ランサムウェアグループ「n0n」が犯行を主張し、氏名やメールアドレスなどを含むデータを公開したという。VisaとMastercardは、カード番号などの決済情報への影響について否定的な見解を示している。",
-      "summary_excerpt": "lead=Visa、Mastercard、JPMorgan Chaseの顧客に関連する情報が、外部サービス事業者へのサイバー攻撃によって流出したと、セキュリティ企業のMalwarebytesが2026年11月20日(米国時間)に報じた。ランサムウェアグループ「n0n」が犯行を主張し、氏名やメールアドレスなどを含むデータを公開したという。VisaとMastercardは、カード番号などの決済情報への影響について否定的な見解を示している。",
-      "threat_actors": [],
-      "title": "VisaやMastercardの顧客情報が流出　外部委託先へのサイバー攻撃で"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6603815?source=rss",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T17:38:24.284634+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-9cdbf1b265f8ae7cfff05d9d",
-      "primary_category": "other",
-      "public_article_id": "url:9cdbf1b265f8ae7cfff05d9d",
-      "public_tags": [],
-      "published_at": "2026-11-24T17:02:55+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Yahoo!ニュース 経済",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "情報流出相次ぐ 防犯グッズ人気"
     }
   ],
   "hottest": [
@@ -568,53 +568,19 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://cyberscoop.com/wpide-csrf-vulnerability-cve-2026-124251/",
-      "cves": [
-        "CVE-2026-124251",
-        "CVE-2026-57766"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T20:23:32.484316+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-7bedc79e9bf5fda962a236ff",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:7bedc79e9bf5fda962a236ff",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-23T20:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CyberScoop",
-      "summary": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is scoped too narrowly: a security service validates the nonce only when the page URL parameter equals wpide exactly (App/Services/Security/Security.php). The plugin registers seven […] The post WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251) appeared first on CyberScoop .",
-      "summary_excerpt": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is scoped too narrowly: a security service validates the nonce only when the page URL parameter equals wpide exactly (App/Services/Security/Security.php). The plugin registers seven […] The post WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251) appeared first on CyberScoop .",
-      "threat_actors": [],
-      "title": "WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)"
-    }
-  ],
-  "rising": [],
-  "persistent_hot": [
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "canonical_url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-21T21:22:44.019165+09:00",
-      "heat_score": 46.8,
-      "permalink_id": "article-url-31de93106fde76af067132c2",
-      "primary_category": "ai_security",
-      "public_article_id": "url:31de93106fde76af067132c2",
+      "first_seen_at": "2026-11-24T20:24:00.705672+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-5d4b7756ff34b08452bd713c",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:5d4b7756ff34b08452bd713c",
       "public_tags": [
         {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
         },
         {
           "color_family": "cyan",
@@ -622,17 +588,20 @@
           "label": "Agentic Security"
         }
       ],
-      "published_at": "2026-11-21T20:03:17+09:00",
+      "published_at": "2026-11-24T21:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
-      "summary_excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+      "source_name": "NCSC UK",
+      "summary": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
+      "summary_excerpt": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
       "threat_actors": [],
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access"
-    },
+      "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks"
+    }
+  ],
+  "rising": [],
+  "persistent_hot": [
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
@@ -762,6 +731,28 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://news.yahoo.co.jp/pickup/6603588?source=rss",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-22T20:24:22.622740+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-d065c1678d01310eae939444",
+      "primary_category": "other",
+      "public_article_id": "url:d065c1678d01310eae939444",
+      "public_tags": [],
+      "published_at": "2026-11-22T19:41:54+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Yahoo!ニュース IT",
+      "summary": null,
+      "summary_excerpt": null,
+      "threat_actors": [],
+      "title": "タワーレコード 1100万件情報流出"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://news.mynavi.jp/techplus/article/20261122-5346471/",
       "cves": [],
       "document_form": "single_story",
@@ -781,36 +772,6 @@
       "summary_excerpt": "The Hacker Newsは2026年11月16日(現地時間)、デンマークのDanfossが製造する冷凍制御装置「AK-SM800A」から6件の脆弱性が見つかったと報じた。認証されていない攻撃者が遠隔から装置を乗っ取る可能性があり、最新版ファームウェアでも修正されていないという。",
       "threat_actors": [],
       "title": "冷蔵・冷凍設備の制御装置に6件の脆弱性、認証なしで乗っ取りの恐れ"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "cves": [
-        "CVE-2026-129975"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-21T21:22:43.761697+09:00",
-      "heat_score": 39.6,
-      "permalink_id": "article-url-3b426a1ae4872b68d25bbba3",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:3b426a1ae4872b68d25bbba3",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-21T20:05:53+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
-      "summary_excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
-      "threat_actors": [],
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys"
     },
     {
       "ai_relevance": "none",
@@ -916,6 +877,41 @@
       "summary_excerpt": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
       "threat_actors": [],
       "title": "CVE-2026-90436: Apache Axis"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-90817",
+      "cves": [
+        "CVE-2026-90817"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-19T05:22:19.997842+09:00",
+      "heat_score": 39.42,
+      "permalink_id": "article-url-6b4e419efdcc78ae46c2e178",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:6b4e419efdcc78ae46c2e178",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-18T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+      "summary_excerpt": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+      "threat_actors": [],
+      "title": "CVE-2026-90817: Vanderbilt University Research Electronic Data Capture (REDCap)"
     }
   ],
   "timeseries_status": {
@@ -936,32 +932,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
+    "【LATEST #1】Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
     "【HOTTEST #1 / Heat 75】Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-    "【LATEST #2】個人消費判断 約3年ぶり下方修正",
+    "【LATEST #2】Tomorrow’s quantum threat is today’s open door",
     "【HOTTEST #2 / Heat 73】爆増するサイバー攻撃、魔の手はITだけでなく「OT」にも　元米軍のセキュリティ専門家が警鐘",
-    "【LATEST #3】LATAM’s Financial Fraud Ecosystem: Key Threats and Strategies for Business Protection",
+    "【LATEST #3】Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
     "【HOTTEST #3 / Heat 67.5】Apache Software FoundationのApache Rollerにおける信頼できないデータのデシリアライゼーションに関する脆弱性",
-    "【LATEST #4】GlobeTopper faces up to $2.5 million in lost revenue after hackers steal $70,000 in gift cards",
+    "【LATEST #4】Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
     "【HOTTEST #4 / Heat 67.5】Vulnerability in PHP Affecting Cisco Products: November 2026",
-    "【LATEST #5】Researchers Find a New AI Attack Path: Agent Instructions",
+    "【LATEST #5】個人消費判断 約3年ぶり下方修正",
     "【HOTTEST #5 / Heat 67.5】VMware製品の脆弱性対策について(CVE-2026-123890)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-21T11:00:00+00:00",
-    "last_as_of": "2026-11-24T11:00:00+00:00",
+    "first_as_of": "2026-11-21T12:00:00+00:00",
+    "last_as_of": "2026-11-24T12:00:00+00:00",
     "unique_snapshots_used": 72,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-24T11:00:00+00:00",
-  "heat_as_of": "2026-11-24T11:00:00+00:00",
+  "news_as_of": "2026-11-24T12:00:00+00:00",
+  "heat_as_of": "2026-11-24T12:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 26519,
-  "last_published_at": "2026-11-24T20:09:06.683581+09:00",
-  "publication_slot_jst": "2026-11-24T20:00:00+09:00"
+  "news_catalog_count": 26522,
+  "last_published_at": "2026-11-24T21:10:00.868778+09:00",
+  "publication_slot_jst": "2026-11-24T21:00:00+09:00"
 }
