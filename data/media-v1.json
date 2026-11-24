@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-24T16:40:04.078479+00:00",
+  "source_snapshot_generated_at": "2026-11-24T17:40:03.319947+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:d6b6bc0ffc850f7d5134954c",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "eBPF",
+          "TPM",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/realbios/articles/df6a65bc03c987",
+        "title": "Shirudoの価値は「AIがeBPFを書く」ことではない：一時防御のライフサイクルと信頼境界を読む",
+        "author": "Rё∀Lβios(アルビオン)/内藤翔太",
+        "published_at": "2026-11-24T17:06:06+00:00",
+        "excerpt": "! この記事の前提（先にお読みください） 対象読者：ソフトウェアアーキテクト、SRE、セキュリティエンジニア、テックリード、技術責任者。手順書（ハンズオン）ではなく、設計思想・信頼モデル・統制の読み解きが目的です。 調査・執筆にはAIの支援を使いました。公式ページと論文ページは実際に取得して確認し、出典は主張の直後に付けています。公開前に筆者が出典と記述を再確認する運用です。 筆者による実機検証は未実施です（Windowsホストで、専用のLinux検証環境がありません）。Shirudoは動かしていません。「【著者実測】」ラベルの項目は存在しません。 論文は、確認した範囲（概要のみ／一..."
+      },
+      {
+        "id": "zenn:dc49cc5b27bdd38bdf6b572a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "ドット絵",
+          "ゲーム制作",
+          "スプライトスタッキング"
+        ],
+        "url": "https://zenn.dev/tosh1000950/articles/7f81cb4380529c",
+        "title": "ドット絵のキャラを回したかった① ボクセルは「人とは言えない」——失敗3連発と、合格した物差し",
+        "author": "Tosh1000950",
+        "published_at": "2026-11-24T16:52:46.117000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:aafa019874fb3a0782e8d728",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Go",
+          "形式手法",
+          "Lean",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/henteko/articles/ed8d1458246d7a",
+        "title": "マーダーミステリーのシナリオを形式手法で検証しようとしたら、バグと曖昧さが見つかった",
+        "author": "henteko",
+        "published_at": "2026-11-24T16:45:47.259000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:b735a84c798214582505a5f5",
         "source": "zenn",
@@ -51585,6 +51633,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:179c0a311161f03a9e7ceef0",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "fintech",
+          "KYC",
+          "biometrics",
+          "frauddetection"
+        ],
+        "url": "https://qiita.com/biometric-vision/items/6b3012701374f4ba455e",
+        "title": "カザフスタンの銀行アンチフロード：セッション評価、センター照合、マネーミュール検知（技術メモ）",
+        "author": "biometric-vision",
+        "published_at": "2026-11-25T02:28:01+09:00",
+        "excerpt": "出典（ロシア語の原分析、確認日 2026年10月29日）: https://biometric.vision/ru/blog/antifrod-sistema-v-banke 銀行のアンチフロードを、「スコアが1つ出て止まり」と捉えると、カザフスタンの規制の読み方としては足りない。ARDFM（金融市場規制開発庁）規則第86号は、システムを、不正の兆候がある取引の防止・検知と、マネーミュール（現地ではドロップパー）の特定のための技術的・分析的措置の複合として定義する。実務では層が分かれる。取引の前にセッションを評価し、実行前に相手先をセンターのデータベースと照合し、漏れた取引を事後に分解する。以下は、その層を技術メモとして整理したものである。 想定例は次のとおりである。夜間、銀行が見たことのない端末からモバイルアプリにログインし、残高のほぼ全額を、これまで送金したことのない相手へ送る。利用者にとっては1タップ、銀行にとっては一連の検査である。 規則第86号がシステムに求めること（第138項） データを結合する。同一の顧客、端末、IP、電話番号、カー"
+      },
+      {
+        "id": "qiita:67cac61b0e513348d2af440c",
+        "source": "qiita",
+        "author_tags": [
+          "Linux",
+          "ebpf",
+          "Security",
+          "OpenAI",
+          "Shirudo"
+        ],
+        "url": "https://qiita.com/realbios/items/9223fc3e428add68b688",
+        "title": "Shirudo入門 ― OpenAI×CiscoのeBPFライブ保護基盤を、隔離VMで検証するための仕組みと手順",
+        "author": "realbios",
+        "published_at": "2026-11-25T02:04:01+09:00",
+        "excerpt": "この記事の前提（先に読んでください） 確認日: 2026-11-25（JST）。対象は 2026-11-23 に発表された Shirudo（ shirudo-dev/shirudo 、取得時点の main HEAD は 779bb01b9f5a944ff9a3e9a18d15ebe4da504fbe ）。 AI支援 : 一次資料の読み込みと本文の下書きは AI（Cursor 上のコーディングエージェント）が行いました。出典の URL を確認した上で、断定できない点は「未確認」と書いています。 著者実測は 0 件です。 この記事の実行例の出力はすべて公式ドキュメントの掲載例で、私の環境で動かした結果ではありません。作業端末は Windows で、WSL も未導入のため、ハンズオンは「未実施」です。 主張には 【公式仕様】【公式実証】【関連研究】【第三者事例】【著者実測】【未実施計画】【著者考察】 のラベルを付けています。図は「公式」と「独自推奨」を区別して描きました。 1. TL;DR Shirudo は、稼働中の Linux に 署名付きの小さな"
+      },
+      {
         "id": "qiita:d142b4fc1849a8ddba3439f4",
         "source": "qiita",
         "author_tags": [
@@ -70282,6 +70362,83 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6aeacaebda5c354ee3bbd757",
+        "source": "medium",
+        "author_tags": [
+          "rbac",
+          "cybersecurity",
+          "authentication",
+          "authorization",
+          "software-security"
+        ],
+        "url": "https://medium.com/@sundukaysel/giri%C5%9F-yapmak-her-%C5%9Feye-eri%C5%9Fmek-demek-de%C4%9Fildir-authentication-ve-authorization-f38f6bee3254",
+        "title": "Giriş Yapmak, Her Şeye Erişmek Demek Değildir: Authentication ve Authorization",
+        "author": "Aysel Sündük",
+        "published_at": "2026-11-24T17:32:40+00:00",
+        "excerpt": "Kimlik doğrulama ile yetkilendirme arasındaki fark, RBAC’ın sınırları ve en sık yapılan erişim kontrolü hatası Continue reading on Medium »"
+      },
+      {
+        "id": "medium:486080f9711194688b8d3b84",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "php-security",
+          "vulnerability-research",
+          "remote-code-execution",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@reblinecybersec/php2shell-explained-understanding-critical-php-remote-code-execution-vulnerabilities-f6b0ae996d38",
+        "title": "PHP2Shell Explained:Understanding Critical PHP Remote Code Execution Vulnerabilities",
+        "author": "Rebline CyberSec",
+        "published_at": "2026-11-24T17:20:44+00:00",
+        "excerpt": "A practical security research walkthrough of CVE-2026–109618 and CVE-2026–109619, PHP memory corruption, runtime assessment, authorized… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7b66e0c4b42025d4631fb72d",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "technology",
+          "cybersecurity",
+          "ai",
+          "gemini"
+        ],
+        "url": "https://medium.com/@iconselevate/how-ai-is-reshaping-cybersecurity-the-rise-of-gemini-4-carbon-e8470bca6129",
+        "title": "How AI Is Reshaping Cybersecurity: The Rise of Gemini 4 Carbon",
+        "author": "Iconselevate",
+        "published_at": "2026-11-24T17:14:15+00:00",
+        "excerpt": "Cybersecurity has become increasingly complicated as businesses rely on larger software systems, interconnected applications and cloud… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f3083f8d03fc8e07d22ef847",
+        "source": "medium",
+        "author_tags": [
+          "phishing",
+          "cybersecurity"
+        ],
+        "url": "https://keepnetlabs.medium.com/free-phishing-test-what-a-quiz-measures-and-what-a-simulation-shows-07b27e7218b9",
+        "title": "Free Phishing Test: What a Quiz Measures and What a Simulation Shows",
+        "author": "Keepnet",
+        "published_at": "2026-11-24T17:03:16+00:00",
+        "excerpt": "A free phishing test comes in two forms. A phishing quiz shows what one person knows and would do when they see a suspicious message. A… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:12e58d0f45af06333b2ee0c6",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "cybersecurity",
+          "linux",
+          "cryptography",
+          "infosec"
+        ],
+        "url": "https://medium.com/@pengujian56/the-all-zero-key-how-a-32-byte-fallback-broke-x25519-authentication-in-a-linux-p2p-daemon-1d5a33d2b8eb",
+        "title": "The All-Zero Key: How a 32-Byte Fallback Broke X25519 Authentication in a Linux P2P Daemon.",
+        "author": "HunterXD",
+        "published_at": "2026-11-24T16:59:57+00:00",
+        "excerpt": "Abstract Continue reading on Medium »"
+      },
       {
         "id": "medium:528b4c75fca1ac3132e368e1",
         "source": "medium",
