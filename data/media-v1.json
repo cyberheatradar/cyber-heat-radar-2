@@ -1,9 +1,57 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T21:40:02.666590+00:00",
+  "source_snapshot_generated_at": "2026-11-25T22:40:03.530544+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3b814a1f489275899f59c947",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "GPT",
+          "OpenAI",
+          "Prompt caching",
+          "Responses API"
+        ],
+        "url": "https://zenn.dev/systemdesignsim/articles/gpt-6-2-astra-vs-sol",
+        "title": "GPT-6.2 AstraとSol: どちらを先に試すか、会話の先頭を触らない理由",
+        "author": "System Design Simple",
+        "published_at": "2026-11-25T22:24:01.104000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d68daadc4ffff05319974e99",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "llm",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/taichiendoh/articles/ai-agent-memory-provenance-trust-gate",
+        "title": "「どこから来た記憶か」を確認してから使う ― 複数AIエージェントの記憶に、出自管理という入口を足す設計",
+        "author": "遠藤太一",
+        "published_at": "2026-11-25T22:08:22.298000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3144d1e33ee4ce7db996de97",
+        "source": "zenn",
+        "author_tags": [
+          "Linux",
+          "Security",
+          "vulnerability",
+          "SoC",
+          "patchmanagement"
+        ],
+        "url": "https://zenn.dev/tokotokokame/articles/kernel-lpe-patch-pwnkit-dirtypipe",
+        "title": "設定ミスでは説明できない昇格がある。PwnKit・Dirty Pipe に学ぶ「パッチが唯一の答え」の運用",
+        "author": "tokotokokame",
+        "published_at": "2026-11-25T22:00:05.105000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:c006addf8288d0c3ee9b74a1",
         "source": "zenn",
@@ -279,6 +327,16 @@
         "author": "kirbykaito",
         "published_at": "2026-11-25T15:02:24.090000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:fbb8340808e99413a6f573d7",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/kenshi_lab/books/88182160b606a7",
+        "title": "AIに作らせて人が決める 仕様駆動開発入門 ― Claude Code で作るシンボルボード",
+        "author": "kenshi｜技術検証ノート",
+        "published_at": "2026-11-25T14:44:51+00:00",
+        "excerpt": "基本設計書を入力に、Claude Code と一緒に要件・設計・タスク・実装・試験を進める仕様駆動開発（SDD）の自学教材です。AI は作り、人は決めて、承認して、レビューする。C# / .NET 10 / Windows Forms の小さなアプリを4週間で作りながら、CLAUDE.md・Planモード・Skills・hooks の使い分けと、仕様変更への対応を身につけます。"
       },
       {
         "id": "zenn:38474a72ae9b95fb0eb650f2",
@@ -53573,6 +53631,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:951a7a88e0cfd09769c751a7",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "Azure",
+          "API",
+          "設計"
+        ],
+        "url": "https://qiita.com/maees/items/6e6e065a22fa58a025c9",
+        "title": "APIM Classicの秘密が盗まれた――11月19日の修正では済まない理由",
+        "author": "maees",
+        "published_at": "2026-11-26T07:18:53+09:00",
+        "excerpt": "Azure API ManagementのClassicで、管理機能に不正に到達できる脆弱性が悪用され、ゲートウェイに置いた秘密が盗まれた。Microsoftは11月19日にアクセス経路を塞いだが、盗まれた認証情報は自動では無効化されない。Classicを使っているなら、秘密は漏れたものとして全ローテーションと、RuntimeVersionでのパッチ確認が必要だ。 11月17日から23日まで――何が起きたか 日付 出来事 11月17日 Equinorが進行中のサイバー攻撃を公表。その後攻撃を止め、データの窃取・改ざんの形跡はないとした 11月18日 Microsoftが脆弱性を特定 11月19日 Microsoftが緩和策を展開し、不正なアクセス経路を閉鎖。Microsoft管理の鍵・認証情報もローテーション 11月20日 ノルウェー国家安全保障局（NSM）が注意喚起を公表 11月21日 Microsoftがローテーションの手順書を公開 11月23日 BleepingComputerが報道。Azure Service Healthのアドバイザリ（"
+      },
+      {
         "id": "qiita:65a5401d7c58557900b0f7cc",
         "source": "qiita",
         "author_tags": [
@@ -72908,6 +72982,37 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:cf3c42003a73883a9267f3f9",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "privacy",
+          "data-breach",
+          "credit-cards"
+        ],
+        "url": "https://medium.com/sockanalyst/your-card-was-in-a-breach-heres-what-to-do-in-the-next-hour-9f65fdbfb69f",
+        "title": "Your card was in a breach. Here’s what to do in the next hour.",
+        "author": "Mario Velasco",
+        "published_at": "2026-11-25T22:24:37+00:00",
+        "excerpt": "A SOC analyst’s plain-English checklist after a card breach notice: replace the card, check statements, freeze credit, spot follow-up… Continue reading on SockAnalyst »"
+      },
+      {
+        "id": "medium:46224b7821a809715815d879",
+        "source": "medium",
+        "author_tags": [
+          "data-breach",
+          "cybersecurity",
+          "artificial-intelligence",
+          "threat-intelligence",
+          "osint"
+        ],
+        "url": "https://medium.com/@axonosint/cia-osint-system-breach-ai-and-the-future-of-intelligence-security-86249a2445a8",
+        "title": "CIA OSINT System Breach: AI and the Future of Intelligence Security",
+        "author": "Axon OSINT",
+        "published_at": "2026-11-25T21:52:31+00:00",
+        "excerpt": "What the reported CIA OSINT breach reveals about AI-assisted cyberattacks, intelligence security, and digital investigations. Continue reading on Medium »"
+      },
       {
         "id": "medium:cd083f0122d4736e4c4f21a2",
         "source": "medium",
