@@ -1,9 +1,40 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T10:40:03.026028+00:00",
+  "source_snapshot_generated_at": "2026-11-25T11:40:03.043933+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:f02b21421c41bd06328171ba",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Hermes",
+          "Tailscale",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sora_biz/articles/hermes-vps-21-home-claude-code",
+        "title": "【第21回】PCの前に行くな。スマホからHermes Agentに頼めば、自宅のClaude Codeが答える。",
+        "author": "そら",
+        "published_at": "2026-11-25T11:29:48.652000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c465f70c7e6d09adef3d79a6",
+        "source": "zenn",
+        "author_tags": [
+          "SEO",
+          "Security",
+          "Cloudflare",
+          "WAF"
+        ],
+        "url": "https://zenn.dev/nuns_hanne/articles/reiko-2026-09-05-cloudflare-hotlink-protection",
+        "title": "CloudflareのHotlink保護で検索結果や配布バナーがブロックされる際の対策",
+        "author": "シスター † アンネ",
+        "published_at": "2026-11-25T11:27:29.020000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:6263c0321ab71cc4cdde8cca",
         "source": "zenn",
@@ -53101,6 +53132,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:eaabb3bdb32e981cf113381f",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Git",
+          "Security",
+          "テスト",
+          "ClaudeCode"
+        ],
+        "url": "https://qiita.com/ai_jarvis/items/cce6fa40fa4d9d42371f",
+        "title": "push前の検査は空の禁止語リストで止まるか、設定の壊れ方17通りで試した",
+        "author": "ai_jarvis",
+        "published_at": "2026-11-25T20:33:13+09:00",
+        "excerpt": "私は Claude Code にコードも文書も書かせ、コミットから push まで任せています。人の目を通らずに外へ出る物が増えたので、push の直前に自作の Python スクリプトを1本走らせています。取引先の名前のような、外へ出してはいけない語が入っていたら push を止める検査です。 この検査の「探す語のリスト」が、作った日から3か月あまり空のままでした。push の前には、パソコンのフルパスやメールアドレスを探す検査も走らせていて、そちらは同じ期間に356回 push を止めました。止めた記録が増えていくので、私は検査が全部を見ていると思っていました。気づいたのは、リポジトリに残っている取引先の名前を洗い出したときです。 設定のファイルが無いときと、壊れているときは止まる作りにしてありました。空のリストは、正常として通していました。 では、空のリストを止める1行を足せば足りるのでしょうか。設定の壊れ方を17通り作り、書き方の違う5つの検査に1つずつ読ませました。調べたのは、禁止語の入ったファイルを検査が通過させるかどうかです。 先に"
+      },
+      {
+        "id": "qiita:0787f3e2b3cca3293d070347",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "情報漏洩",
+          "ランサムウェア",
+          "個人情報",
+          "京王電鉄"
+        ],
+        "url": "https://qiita.com/salamanda_sec/items/75f469bcfc7997742ede",
+        "title": "京王電鉄のランサムウェア確報を読む ― 約1,063万人は『漏洩の可能性がある』情報だった",
+        "author": "salamanda_sec",
+        "published_at": "2026-11-25T19:53:41+09:00",
+        "excerpt": "11月24日、京王電鉄がランサムウェア攻撃についての確報を出しました。確報の本文には、人数の表が2つあります。「漏洩が確認された個人情報」と「漏洩の可能性がある個人情報」です。 報道の見出しは、TBS NEWS DIGの「個人情報流出は1100万人分超か」のように、1,100万人分以上が漏洩したおそれがあるというものでした。ただ、その1,100万人という規模の数字が載っているのは、2つの表のうち「漏洩の可能性がある個人情報」の側だけです。 確認された側に入っているのは、賃貸物件の契約者、採用に応募した方、従業員・退職者とその扶養家族の3区分で、「お客様・お取引先など」の区分はありません。大きく報じられたパスポートの写し約160万件、クレジットカード番号約2万件、マイナンバーカードの写しは、表の記載では全部「可能性がある」側にあります。 確報の表を、そのまま出す 漏洩が確認された個人情報（2026年11月24日時点）： 対象者 内容 人数 京王電鉄が所有する賃貸物件のご契約者様など 氏名、住所など 約150人 当社グループの採用に応募された方 氏名"
+      },
+      {
         "id": "qiita:a9a38e8538df133e6e4ec08d",
         "source": "qiita",
         "author_tags": [
@@ -72266,6 +72329,38 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6fc98771a0d58b256ddcf582",
+        "source": "medium",
+        "author_tags": [
+          "kyc",
+          "mobile-app-development",
+          "artificial-intelligence",
+          "programming",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@ali.ahmed.work.dev/how-nfc-passport-chip-verification-works-bac-pace-passive-and-chip-authentication-b63c7958f61b",
+        "title": "How NFC passport chip verification works: BAC, PACE, passive and chip authentication",
+        "author": "Ali Ahmed",
+        "published_at": "2026-11-25T11:31:01+00:00",
+        "excerpt": "E-passports carry a chip with a signed copy of the data page and photo. How a phone reads it (BAC or PACE using the MRZ), how passive… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4f73a1435cd3af0d138e65b7",
+        "source": "medium",
+        "author_tags": [
+          "sql-injection",
+          "cybersecurity",
+          "dvwa",
+          "burpsuite",
+          "sqlmap"
+        ],
+        "url": "https://medium.com/@smitchaudhary25/sql-injection-exploitation-walkthrough-with-dvwa-sqlmap-burp-suite-8e06260652f2",
+        "title": "SQL Injection: Exploitation Walkthrough with DVWA, SQLMap & Burp Suite",
+        "author": "Smit Chaudhary",
+        "published_at": "2026-11-25T11:10:21+00:00",
+        "excerpt": "A hands-on look at how SQL Injection works, its main types, and three different ways to exploit it in a safe lab. Continue reading on Medium »"
+      },
       {
         "id": "medium:f905dfe45ed15600eb8debb6",
         "source": "medium",
