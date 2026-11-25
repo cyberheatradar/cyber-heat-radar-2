@@ -1,9 +1,117 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T09:40:02.754798+00:00",
+  "source_snapshot_generated_at": "2026-11-25T10:40:03.026028+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:6263c0321ab71cc4cdde8cca",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "運用",
+          "Agent",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/ai_shihan/articles/c876d87ca0561f",
+        "title": "AIが書いた「うちの運用」の説明は、うちの記録と食い違っていた",
+        "author": "ai_shihan",
+        "published_at": "2026-11-25T10:38:35.735000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ccd755b182f20971a0d07732",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "web開発"
+        ],
+        "url": "https://zenn.dev/cpcai/articles/d98ae3be009fd7",
+        "title": "見積もり前に決める3つの数字——AIで作ったアプリの「業務ルール」をコードに埋め込まない理由",
+        "author": "CPC AI Studio",
+        "published_at": "2026-11-25T10:19:38.771000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ee11806160cdb49e2307982b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "Claude Code",
+          "worktree"
+        ],
+        "url": "https://zenn.dev/ncdc/articles/7199d618ad4c87",
+        "title": "worktreeで並行作業中のエージェントを止めずに、親リポジトリで動作確認する",
+        "author": "jo",
+        "published_at": "2026-11-25T10:10:26+00:00",
+        "excerpt": "はじめに LT会で「worktreeで並行作業しているエージェントの成果を、どうやってローカルで確認するか」という話をしました。スライドだけだと、あとから見返したときに細かい経緯を忘れていそうなので、話した内容を備忘録としてまとめておきます。 話の中で紹介したClaude Codeのスキルと運用規約は、GitHubで公開しています。 https://github.com/jepapt2/claude-worktree-peek 動作確認した環境 macOS Claude Code（2026年11月時点） Git 2.50.1 困っていたこと：確認したいブランチをwor..."
+      },
+      {
+        "id": "zenn:02baab5e51236f5ac1f6ce79",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "デザイン",
+          "animation",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/telomelonia/articles/d883d0d0a64a38",
+        "title": "AIに頼んだクリスマスの雪が嘘っぽかったので、大学の数学を掘り起こした話",
+        "author": "telo",
+        "published_at": "2026-11-25T10:03:58+00:00",
+        "excerpt": "時間がない人は、最後の作例とスキルファイルまで飛ばしてください。 モバイルアプリのワールドマップに雪を降らせることになりました。AI エージェントに頼んだら、1分で雪が降り始めました。でも、嘘っぽい。雪がかたまって、空全体がそろって揺れて、消えた雪が同じ場所にまたポンと現れます。 多くのサイトで見るのと同じ雪です。x と y をランダムに決めて、落として、上に戻す。みんながこう書くので、AI もこう書きます。大学の数学の授業で習ったことで直せる気がして、問題を1つずつ直していきました。デモはすべてドラッグできます。 かたまり 最初に気になったのは、かたまりです。これは Math.ra..."
+      },
+      {
+        "id": "zenn:6087db089dcb189ab37dc523",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Windows",
+          "memory",
+          "ComfyUI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/maruhana/articles/heavy-lease-contention",
+        "title": "メモリーの予約が詰まった場面を並べたら、ほとんどは台帳と実際のずれだった",
+        "author": "maruhana",
+        "published_at": "2026-11-25T10:00:07+00:00",
+        "excerpt": "! ひとことで言うと：パソコン 1 台で重い作業を順番に回すために、始める前に「これだけ使います」と席を取る決まりにしている。ところが、席を取ったまま別の用事を待っていたり、取った人とは別の名前で作業が動いていたりして、帳簿と実際がずれると、空いているのに誰も始められなくなった。帳簿が数えている量のほかに、帳簿に載せていない量も見ないといけないこともあった。ずれ方を見つけるたびに帳簿の数え方や決まりを直し、大きい作業は一つずつ通す形に落ち着いた。 先に、この記事の要約（専門用語なし） 重い処理を始める前にメモリーを予約する仕組みを入れて 11 日。予約は 68 件、順番待ちに並んだの..."
+      },
+      {
+        "id": "zenn:0432932b6297ea44680bda74",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Agent",
+          "マルチエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/moneystock/articles/muse-multi-agent-shared-folder",
+        "title": "API のない AI エージェント Muse を、Claude・Antigravity と同じ開発チームに入れるまで",
+        "author": "40dai_papa",
+        "published_at": "2026-11-25T09:42:36+00:00",
+        "excerpt": "この記事で書くこと スマホのブラウザで遊べる10秒ゲームのサイト「まいにち10秒ゲーム」を、複数の AI で作っています。 成果物: https://game.money-stock.com/ 担当は大きく3つです。 Muse(Meta のデスクトップ AI エージェント): 進行と運用 Claude: 設計・文案・審査 Antigravity: 調査と画像の制作 実装の一部は、別の開発環境の AI が支援しています。分担そのものと、依頼ファイルの書き方は、前の記事に書きました。 「報告は証拠ではない」――役割の違うAIたちでゲームサイトを回す仕組み: http..."
+      },
+      {
+        "id": "zenn:d846d41989e46b5997ca7deb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AWS",
+          "Security",
+          "PCI DSS"
+        ],
+        "url": "https://zenn.dev/cscloud_blog/articles/new-aws-security-maturity-model",
+        "title": "AWS セキュリティ成熟度モデル v3 と PCI DSS 版・AI 版の変更点と評価ツールを確認する",
+        "author": "平木 佳介",
+        "published_at": "2026-11-25T09:41:57.684000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:c2ab5567dc81aeab353196e0",
         "source": "zenn",
@@ -72158,6 +72266,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:f905dfe45ed15600eb8debb6",
+        "source": "medium",
+        "author_tags": [
+          "saas",
+          "soc2",
+          "information-security",
+          "cybersecurity",
+          "compliance"
+        ],
+        "url": "https://medium.com/@siscertifications_39550/soc-2-compliance-explained-what-it-is-who-needs-it-what-it-costs-and-how-the-audit-works-08ba6e6d0b42",
+        "title": "SOC 2 Compliance Explained: What It Is, Who Needs It, What It Costs and How the Audit Works",
+        "author": "Sis Certifications",
+        "published_at": "2026-11-25T10:19:01+00:00",
+        "excerpt": "A plain guide for SaaS and IT companies: the five Trust Services Criteria, Type 1 vs Type 2, the steps to a SOC 2 report and what drives… Continue reading on Medium »"
+      },
       {
         "id": "medium:dc7e59c5bf6a9dbcf9c526a5",
         "source": "medium",
