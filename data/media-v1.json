@@ -1,9 +1,71 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T16:40:02.704663+00:00",
+  "source_snapshot_generated_at": "2026-11-25T17:40:02.749151+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:096f509325177a0f05f49f69",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "Python",
+          "VOICEVOX",
+          "Whisper"
+        ],
+        "url": "https://zenn.dev/nalt/articles/echo-show-5-voxmate-assistant",
+        "title": "Echo Show 5を脱獄してVOICEVOX×LLMの自作AI秘書にした全手順",
+        "author": "nalt",
+        "published_at": "2026-11-25T17:30:20.417000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:89e7d353be7d09c5731d08d3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "個人開発",
+          "Chrome拡張",
+          "Edge"
+        ],
+        "url": "https://zenn.dev/sorahotate/articles/b7e66f2774bf57",
+        "title": "外部送信ゼロ・最小権限のManifest V3拡張を設計してMicrosoft Edge公式ストア7本を一発審査通過させた実装設計ノート",
+        "author": "そらほたて｜ローカル完結ツール制作室",
+        "published_at": "2026-11-25T17:20:43.968000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:548883710f1bf71978b824ad",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "prompt",
+          "画像生成 AI"
+        ],
+        "url": "https://zenn.dev/andytanlinks/articles/d668a075d8a817",
+        "title": "Keep the House Number and the Bell Plate: Four Weather Passes for One",
+        "author": "Andy Tan",
+        "published_at": "2026-11-25T17:15:26.926000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:ad461b0dbb63fc8dbb9f0d85",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "architecture",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/nalt/articles/agentic-harness-security-architecture",
+        "title": "コーディングエージェントの鍵流出は禁止ルールで防げない。知能と権限を分離する3原則",
+        "author": "nalt",
+        "published_at": "2026-11-25T16:45:53.656000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f6dfb5fa185e7d443fef8026",
         "source": "zenn",
@@ -53406,6 +53468,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c87ee8885a923975c3f34c61",
+        "source": "qiita",
+        "author_tags": [
+          "EntraID",
+          "MicrosoftGraph",
+          "AgentIdentity",
+          "Security",
+          "PowerShell"
+        ],
+        "url": "https://qiita.com/tanemudao/items/a909220139aa47db7e0c",
+        "title": "AI Agentが実行した操作は誰の責任？ Microsoft Entra Agent IDのサインインログと監査ログを実機検証する",
+        "author": "tanemudao",
+        "published_at": "2026-11-26T01:49:49+09:00",
+        "excerpt": "この記事は「AI AgentとIdentity」連載の第8回です。 第7回ではMicrosoft Graphから取得したAgent Identityの権限情報を比較し、「権限が削除された」と「APIが403で取得できなかった」を区別しました。 今回は、視点を「権限の状態」から 「Agentが関与した操作を後から説明できるか」 へ移します。 検証状況 ：検証テナントでAgent Identityに実際にトークンを取得させ、Microsoft Graphを呼び出し、 その記録がサインインログ・監査ログにどう残るかを実測 しました（4章・5章・6章）。Graph Activity Logsは、診断設定自体を構成していないため未検証です（10章）。 はじめに：Agentが操作した、と言い切れるのか？ 第7回では、Agent Identityに付与されたApplication Permissionを実際に削除し、「1件 → 0件」を検知できることを確認しました。 では、その権限で 削除前にどのAPIが呼び出されたか は、どうやって調べればよいでしょうか。 "
+      },
+      {
         "id": "qiita:0f1c1d2340affb4d2a4f3a3a",
         "source": "qiita",
         "author_tags": [
@@ -72696,6 +72774,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:22fbaf583ad25e64e326d9a2",
+        "source": "medium",
+        "author_tags": [
+          "infrastructure-security",
+          "vmware",
+          "cybersecurity",
+          "zero-day",
+          "virtualization-security"
+        ],
+        "url": "https://medium.com/@reblinecybersec/vmware-vcenter-zero-day-why-virtualization-management-platforms-are-critical-security-targets-529f3fcf16d2",
+        "title": "VMware vCenter Zero-Day: Why Virtualization Management Platforms Are Critical Security Targets",
+        "author": "Rebline CyberSec",
+        "published_at": "2026-11-25T17:36:06+00:00",
+        "excerpt": "Virtualization · Zero-Day Security · Infrastructure Defense · Privileged Access Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ea028f1fa71091bbe127f171",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity-roadmap",
+          "basic-cyber-security",
+          "roadmaps",
+          "cybersecurity",
+          "beginner"
+        ],
+        "url": "https://medium.com/@adhikaryshankar04/a-beginners-guide-to-cyber-security-teams-roles-and-the-skills-you-need-46dcd6a5ff8f",
+        "title": "A Beginner’s Guide to Cyber Security: Teams, Roles, and the Skills You Need",
+        "author": "Shankar Adhikary",
+        "published_at": "2026-11-25T17:25:15+00:00",
+        "excerpt": "What cyber security is, how the field is organized, and what you need to learn to get started Continue reading on Medium »"
+      },
+      {
+        "id": "medium:17522b63594a97b49fdfaeb4",
+        "source": "medium",
+        "author_tags": [
+          "web-apps",
+          "cybersecurity",
+          "offensive-security",
+          "bug-bounty",
+          "web-app-pentesting"
+        ],
+        "url": "https://medium.com/@extraterrestrial2342/anatomy-of-an-http-request-part-6-web-servers-directory-listing-and-exposed-configuration-6edcd7eed7da",
+        "title": "Anatomy of an HTTP Request (Part 6): Web Servers, Directory Listing, and Exposed Configuration…",
+        "author": "Sahil",
+        "published_at": "2026-11-25T17:19:21+00:00",
+        "excerpt": "In Parts 1 through 5 of this series, we traced a single HTTP request across the entire perimeter stack: DNS resolution, TCP and TLS… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5851e48ae7ebbfb2f9049f22",
+        "source": "medium",
+        "author_tags": [
+          "cyber-threat-intelligence",
+          "ai-security",
+          "threat-intelligence",
+          "cybersecurity",
+          "genai"
+        ],
+        "url": "https://rishikadesai.medium.com/too-many-ai-generated-reports-in-threat-intelligence-what-works-and-wheres-the-risk-6da96507381f",
+        "title": "Too Many AI-Generated Reports in Threat Intelligence: What Works, and Where’s the Risk?",
+        "author": "Rishika Desai",
+        "published_at": "2026-11-25T17:10:43+00:00",
+        "excerpt": "When everyone can generate an intelligence report in minutes, what makes one worth reading? Continue reading on Medium »"
+      },
       {
         "id": "medium:7d0382f6c30b1fe79c64dd6a",
         "source": "medium",

@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-25T17:12:01.993624+00:00",
-  "as_of": "2026-11-25T17:00:00+00:00",
-  "catalog_count": 27199,
+  "generated_at": "2026-11-25T18:09:59.759650+00:00",
+  "as_of": "2026-11-25T18:00:00+00:00",
+  "catalog_count": 27203,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,34 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/ransomware-doj-indictment-recovery",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T02:52:04.274902+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-e0b1372fd1811e7a69fb52b3",
+      "primary_category": "ransomware",
+      "public_article_id": "url:e0b1372fd1811e7a69fb52b3",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-26T02:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "The CEO of a ransomware recovery firm was indicted by a federal grand jury over allegations he lied about his services and paid out ransoms to cybercriminals.",
+      "summary_excerpt": "The CEO of a ransomware recovery firm was indicted by a federal grand jury over allegations he lied about his services and paid out ransoms to cybercriminals.",
+      "threat_actors": [],
+      "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
@@ -100,6 +128,34 @@
       "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack"
     },
     {
+      "ai_relevance": "primary",
+      "canonical_url": "https://unit42.paloaltonetworks.com/ai-threat-horizon/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T02:22:48.701897+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-191a79620025470facbeb1e7",
+      "primary_category": "ai_security",
+      "public_article_id": "url:191a79620025470facbeb1e7",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-26T00:00:09+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Unit 42 Research",
+      "summary": "Unit 42 examines the evolution of AI-driven cyberattacks and outlines proactive defense strategies for security teams. The post The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense appeared first on Unit 42 .",
+      "summary_excerpt": "Unit 42 examines the evolution of AI-driven cyberattacks and outlines proactive defense strategies for security teams. The post The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense appeared first on Unit 42 .",
+      "threat_actors": [],
+      "title": "The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense"
+    },
+    {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
       "cves": [],
@@ -150,6 +206,62 @@
       "title": "Infrastructure security alliance tells CEOs to prioritize assets, test response and recovery"
     },
     {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-vmware-products-could-allow-for-arbitrary-code-execution_2026-142",
+      "cves": [],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T02:22:22.421515+09:00",
+      "heat_score": 61.75,
+      "permalink_id": "article-url-e20205e4e44ed40af912562e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e20205e4e44ed40af912562e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T23:46:58+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Center for Internet Security Advisories",
+      "summary": "Multiple vulnerabilities have been discovered in VMware products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.",
+      "summary_excerpt": "Multiple vulnerabilities have been discovered in VMware products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution. Depending on the privileges associated with the account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Accounts configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.",
+      "threat_actors": [],
+      "title": "Multiple Vulnerabilities in VMware Products Could Allow for Arbitrary Code Execution"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2026-141",
+      "cves": [],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T02:22:22.680349+09:00",
+      "heat_score": 61.75,
+      "permalink_id": "article-url-0ce6da4948ea175280c49048",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0ce6da4948ea175280c49048",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T23:43:29+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Center for Internet Security Advisories",
+      "summary": "Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution. Mozilla Firefox is a web browser used to access the Internet. Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations. Mozilla Thunderbird is a free, open-source email client and personal information manager. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.",
+      "summary_excerpt": "Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution. Mozilla Firefox is a web browser used to access the Internet. Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations. Mozilla Thunderbird is a free, open-source email client and personal information manager. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user an attacker could then install programs; view, chan",
+      "threat_actors": [],
+      "title": "Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution"
+    },
+    {
       "ai_relevance": "primary",
       "canonical_url": "https://www.malwarebytes.com/blog/ai/2026/11/ai-agents-found-an-unpatched-flaw-after-being-told-to-break-in",
       "cves": [],
@@ -181,130 +293,6 @@
       "summary_excerpt": "AI agents discovered a previously unknown vulnerability and later used it to take control of a university server.",
       "threat_actors": [],
       "title": "AI agents found an unpatched flaw after being told to “break in”"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/193305",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T23:24:18.400214+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-8d5b8cc1737f7c62842e10fb",
-      "primary_category": "ransomware",
-      "public_article_id": "url:8d5b8cc1737f7c62842e10fb",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-25T23:12:41+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "京王電鉄は、同社グループのネットワークがランサムウェアによるサイバー攻撃を受けた問題で、個人情報が流出したことを明らかにした。",
-      "summary_excerpt": "京王電鉄は、同社グループのネットワークがランサムウェアによるサイバー攻撃を受けた問題で、個人情報が流出したことを明らかにした。",
-      "threat_actors": [],
-      "title": "ランサム攻撃で個人情報流出、パスポート写しも - 京王電鉄"
-    },
-    {
-      "ai_relevance": "material",
-      "canonical_url": "https://www.rapid7.com/blog/post/it-2026-cybersecurity-predictions-wrong-or-right/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T23:24:17.135581+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-f4a51269579e7ead78e44cf5",
-      "primary_category": "ai_security",
-      "public_article_id": "url:f4a51269579e7ead78e44cf5",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        },
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-25T22:48:40+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Rapid7’s annual Security Predictions webinar returns on December 10, bringing our experts together to explore what the year ahead could hold for cybersecurity. Before sharing our predictions for 2027, we’re grading last year’s calls: that geopolitical tensions would reshape cyber threats, insider threats would dominate breach root causes, and context would become the new currency of cyber performance. Register here for the 2027 Security Predictions webinar . As security leaders work through their priorities for 2027, those predictions offer a useful starting point. The year reinforced several of the concerns we highlighted, while developments in attacker behavior and AI added new dimensions to the discussion. Looking at how those themes unfolded helps us understand what remains relevant and where our thinking needs to evolve. Geopolitics shaped cyber targeting, with businesses caught in the middle Our prediction that geopolitical fault lines would redraw the cyber battlefield earned an A-, as regional conflicts created opportunities for espionage, disruption, and public pressure throughout 2026. Cyber operations allowed adversaries to pursue those objectives below the threshold of open warfare, with commercial organizations exposed alongside government and critical infrastructure targets. Rapid7 Intelligence tracked a spike in retaliatory activity following regional military escalations in late February. State-directed actors pursued espionage and data theft, while hacktivist personas amplified the impact. Rapid7 also assessed that stolen information was likely to be passed from state actors to hacktivist groups for public release, extending the consequences of an intrusion beyond the initial compromise. That chain from state actor to hacktivist release makes an organization’s exposure harder to judge from its own location or industry alone. Customers, suppliers, infrastructure, and perceived political associations can attract attention, bringing a seemingly routine commercial relationship into a much wider conflict. Examining those dependencies during response exercises uncovers difficult decisions early, particularly where protecting a service or containing an incident requires agreement across security, operations, legal, and executive leadership. Insider risk expanded beyond human users Our prediction that insider threats would dominate breach root causes drew attention to risks ranging from employee negligence to deliberate access selling. During 2026, reporting on ransomware recruitment attempts reinforced concerns about attackers seeking cooperation from people inside organizations, while the growing use of AI agents broadened the conversation about insider risk. As agents gain access to business systems and take actions on an organization’s behalf, questions about permissions, oversight, and unintended consequences increasingly extend beyond human users. Our blog on insider recruitment in ransomware campaigns explored an approach by Medusa to a BBC journalist, offering payment in exchange for access. It illustrated how attackers combine financial incentives, persuasion, and pressure to pursue legitimate credentials, giving organizations a concrete reason to include recruitment attempts in awareness programs and response planning. The wider access economy also remained significant, although credentials appearing for sale do not establish that an employee willingly supplied them. External compromise and exposed systems continued to provide routes into businesses, with AI-assisted vulnerability discovery adding further pressure. Our prediction captured an important concern, while the year reinforced the need to distinguish deliberate insider cooperation from other ways attackers obtain and misuse access. Context proved its value, although we overstated its novelty Our prediction that context would become the new currency of cyber performance earned a B, largely because understanding an environment has always been fundamental to protecting it. During a year shaped by AI-driven vulnerability discovery, however, the ability to connect a new finding with exposed systems, attacker activity, and business consequences became particularly valuable when teams had little time to decide how to respond. Our analysis of the ASOS incident explored that challenge after an unauthorized notification reached customers through the retailer’s own app. With the route of compromise still unclear, the incident raised questions about access to customer communications platforms and how investigators connect activity across accounts, integrations, and third-party services. The same need for context applies to remediation, where an advisory alone cannot determine whether interrupting a critical service is justified. Teams need to know where affected technology is running, how attackers could reach it, and which mitigations are practical. Bringing asset information, threat intelligence, and operational knowledge together remains essential to making those decisions with confidence. Bringing those lessons into our 2027 predictions Across all three themes, the year reinforced how closely security decisions depend on understanding relationships: between organizations, between identities and access, and between technical weaknesses and business consequences. Those connections will remain relevant as AI changes how technology is used and how threats develop. Join Rapid7’s Security Predictions webinar on December 10 to explore those shifts with our experts and consider what they could mean for your priorities in the year ahead. Register for the webinar.",
-      "summary_excerpt": "Rapid7’s annual Security Predictions webinar returns on December 10, bringing our experts together to explore what the year ahead could hold for cybersecurity. Before sharing our predictions for 2027, we’re grading last year’s calls: that geopolitical tensions would reshape cyber threats, insider threats would dominate breach root causes, and context would become the new currency of cyber performance. Register here for the 2027 Security Predictions webinar . As security leaders work through their priorities for 2027, those predictions offer a useful starting point. The year reinforced several ",
-      "threat_actors": [],
-      "title": "Our 2026 Cybersecurity Predictions: What We Got Right, What We Got Wrong, and What Changed"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
-      "cves": [
-        "CVE-2026-132165"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T23:24:03.637862+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-d5ac462891f1f2d17a01bd57",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:d5ac462891f1f2d17a01bd57",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T22:37:28+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) app",
-      "threat_actors": [],
-      "title": "Critical Drupal installer flaw under active attack (CVE-2026-132165)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T22:52:03.837727+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-15e81cbc69b828f1e89b6c24",
-      "primary_category": "ransomware",
-      "public_article_id": "url:15e81cbc69b828f1e89b6c24",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
-        }
-      ],
-      "published_at": "2026-11-25T22:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Record",
-      "summary": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to pen and paper.",
-      "summary_excerpt": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to pen and paper.",
-      "threat_actors": [],
-      "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital"
     }
   ],
   "hottest": [
@@ -418,36 +406,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "cves": [
-        "CVE-2026-132165"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T21:22:45.597961+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-f8d0d1935ac4bbfbbe273bf5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f8d0d1935ac4bbfbbe273bf5",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T20:23:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "threat_actors": [],
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-103406",
       "cves": [
         "CVE-2026-103406"
@@ -480,6 +438,36 @@
       "summary_excerpt": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
       "threat_actors": [],
       "title": "CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T21:22:45.597961+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-f8d0d1935ac4bbfbbe273bf5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:f8d0d1935ac4bbfbbe273bf5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T20:23:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "threat_actors": [],
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
     },
     {
       "ai_relevance": "none",
@@ -842,32 +830,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+    "【LATEST #1】Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
     "【HOTTEST #1 / Heat 75】Critical Drupal installer flaw under active attack (CVE-2026-132165)",
-    "【LATEST #2】Attackers Target .NET Developers With Poisoned Job Assessments",
+    "【LATEST #2】CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
     "【HOTTEST #2 / Heat 75】Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-    "【LATEST #3】Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+    "【LATEST #3】Attackers Target .NET Developers With Poisoned Job Assessments",
     "【HOTTEST #3 / Heat 75】CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter",
-    "【LATEST #4】InfraTrust warns of exploited supply chain flaws in network appliances",
-    "【HOTTEST #4 / Heat 75】Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-    "【LATEST #5】Infrastructure security alliance tells CEOs to prioritize assets, test response and recovery",
-    "【HOTTEST #5 / Heat 70.97】CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router"
+    "【LATEST #4】Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+    "【HOTTEST #4 / Heat 70.97】CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
+    "【LATEST #5】The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense",
+    "【HOTTEST #5 / Heat 67.5】Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-22T17:00:00+00:00",
-    "last_as_of": "2026-11-25T17:00:00+00:00",
+    "first_as_of": "2026-11-22T18:00:00+00:00",
+    "last_as_of": "2026-11-25T18:00:00+00:00",
     "unique_snapshots_used": 71,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-25T17:00:00+00:00",
-  "heat_as_of": "2026-11-25T17:00:00+00:00",
+  "news_as_of": "2026-11-25T18:00:00+00:00",
+  "heat_as_of": "2026-11-25T18:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27199,
-  "last_published_at": "2026-11-26T02:12:14.384240+09:00",
-  "publication_slot_jst": "2026-11-26T02:00:00+09:00"
+  "news_catalog_count": 27203,
+  "last_published_at": "2026-11-26T03:10:12.529350+09:00",
+  "publication_slot_jst": "2026-11-26T03:00:00+09:00"
 }
