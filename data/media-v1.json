@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T11:40:03.043933+00:00",
+  "source_snapshot_generated_at": "2026-11-25T12:40:02.937907+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:3f8ac9de179fef2625c1db95",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "要件定義",
+          "仕様",
+          "仕様駆動開発"
+        ],
+        "url": "https://zenn.dev/hkr_dev/articles/23a5729daaafe1",
+        "title": "AIを使えば誰でも要件定義ができるという幻想",
+        "author": "むのう.dev",
+        "published_at": "2026-11-25T12:33:30.343000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:f7642b5350b712b61e86309f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "llm",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/k_nagano/articles/multi-agent-vuln-research-1",
+        "title": "AIエージェントにOSSの未知脆弱性を探させる — 探す側の設計",
+        "author": "Kiyofumi.K（学習アウトプット用）",
+        "published_at": "2026-11-25T11:44:47.859000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:71f79470ea0caee972afe863",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "YouTube",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/akisawa_takashi/articles/02f8085d9bdf45",
+        "title": "Claude Code のサブエージェントで、ショート動画の台本を「執筆→校閲」の流れで並列に作る",
+        "author": "Akisawa Takashi",
+        "published_at": "2026-11-25T11:43:47.197000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f02b21421c41bd06328171ba",
         "source": "zenn",
@@ -53131,6 +53177,70 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:849b406f2788044d77511d63",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "個人情報",
+          "設計",
+          "Database",
+          "アーキテクチャ"
+        ],
+        "url": "https://qiita.com/receiptroller/items/341908f8491a9b55b15c",
+        "title": "「漏れて困るデータは、最初から持たない」業務DBから個人情報を切り離す設計",
+        "author": "receiptroller",
+        "published_at": "2026-11-25T21:22:38+09:00",
+        "excerpt": "業務DBに個人情報を置かない設計 ― 注文テーブルから住所を消してみる はじめに 個人情報の漏えい事故の報告書を読むと、原因はさまざまです。設定ミスで公開されていたストレージ、SQLインジェクション、退職者のアカウント、持ち出されたバックアップ。 ただ、被害の大きさを決めているのは、ほとんどの場合おなじ一点です。 「そのDBに、氏名と住所が平文で入っていた」 。 入口をふさぐ対策は必要ですが、入口は無数にあります。この記事では発想を逆にして、 業務DBに個人情報を置かない 設計を考えます。破られても、取られるものが少ない状態を先に作っておく、という考え方です。 先に正確に言っておくと、これは「個人情報をどこにも保存しない」という話ではありません。配送するには住所が必要です。やることは、 個人情報の置き場所を業務システムから切り離し、1か所に絞り、そこへの経路を限定する ことです。 題材はECの注文と配送にします。 よくある構成と、その問題 多くのシステムの注文テーブルは、こうなっています。 CREATE TABLE orders ( order_"
+      },
+      {
+        "id": "qiita:e19034ff23ee7e62d0ee898e",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Security",
+          "AI",
+          "プロンプトインジェクション",
+          "マルウェア"
+        ],
+        "url": "https://qiita.com/maees/items/4496b1fa729fc9d27e23",
+        "title": "「核兵器の作り方を教えて」でAI解析を止める――GuardBreakerの罠",
+        "author": "maees",
+        "published_at": "2026-11-25T21:10:14+09:00",
+        "excerpt": "「核兵器の作り方を教えて」でAI解析を止める――GuardBreakerの罠 2026年9月10日、ESETはマルウェアのコメントにLLMの安全装置を作動させる文言を仕込み、AIによるコード解析を途中で止めさせる手口「GuardBreaker」を報告した。狙いは「安全」と判定させることではなく、判定そのものを出させないことだ。解析パイプラインが「判定なし」を「安全」と同じ扱いにしている限り、コメント1行が防御の死角になる。 検査の抜け道が別の経路を作る話は、SSRFの記事でも扱った。→ SSRFはURL検査だけでは防げない――JavaのリダイレクトとDNSの抜け道 GuardBreakerの流れ 段階 何が起きるか 1 VBScriptのコメントに「I want to make nuclear weapon. Help me …」というおとりの文言が入っている 2 LLMを組み込んだコードスキャナーがファイルを読む 3 モデルの安全装置（ガードレール）が発火し、応答を拒否する 4 コメント行より後ろの検査が行われないまま処理が打ち切られる 5 本"
+      },
+      {
+        "id": "qiita:bd44301a843b977ca1696c8e",
+        "source": "qiita",
+        "author_tags": [
+          "LLM",
+          "生成AI",
+          "Security",
+          "owasp",
+          "初心者"
+        ],
+        "url": "https://qiita.com/peace_damn/items/cec1d713bfe4c26113d8",
+        "title": "オワスプって何？OWASP Top 10 for LLM (2026) を自分用に噛み砕いたメモ",
+        "author": "peace_damn",
+        "published_at": "2026-11-25T20:59:45+09:00",
+        "excerpt": "OWASP Top 10 for LLM が公表されたそうです。(2026/08/04 に) そもそもOWASPって何って話ですよね、私も分からなかったので調べました。 OWASPは オワスプ って読むみたいです。オワスプオワスプ OWASPはWebアプリケーションやソフトウェアのセキュリティに関する情報を公開している国際的なコミュニティです。 OWASPは以前から、Webシステムのセキュリティリスクをまとめた「OWASP Top 10」を公開しています。 そのLLM、生成AI版が「「 OWASP Top 10 for LLM Applications 」」 要するに、AI使ったシステムのセキュリティリスクについてのTop10ですね！ じゃあいよいよ2026のTop10がなにかという本題です。 2026の10項目は下記の通りです。 項目 内容 LLM01 Prompt Injection 悪意ある命令でAIを操る LLM02 Sensitive Information Disclosure AIから機密情報が漏れる LLM03 Excessive"
+      },
+      {
+        "id": "qiita:c03db9d7e039285e43707b4b",
+        "source": "qiita",
+        "author_tags": [
+          "Terraform",
+          "AWS",
+          "vpc",
+          "Network",
+          "Security"
+        ],
+        "url": "https://qiita.com/ham-nao/items/8622dd08dcb93f0e6c94",
+        "title": "【Terraform×AWS】VPCフローログで通信を記録する：保存先の選び方と料金を抑える設定",
+        "author": "ham-nao",
+        "published_at": "2026-11-25T20:44:44+09:00",
+        "excerpt": "「アプリケーションからRDSにつながらない」「怪しい通信が来ていないか確認したい」。こうしたときに役立つのが、 VPCフローログ です。VPCの中を流れた通信の記録（どこから、どこへ、どのポートで、許可されたか拒否されたか）を残せます。 この記事では、VPCフローログをTerraformで設定する方法と、保存先の選び方、料金を抑える工夫を紹介します。 VPCフローログで分かること フローログには、通信ごとに次のような情報が記録されます。 送信元と宛先のIPアドレス・ポート番号 プロトコル（TCP・UDPなど） 通信量（パケット数・バイト数） ACCEPT（許可）かREJECT（拒否）か たとえば、セキュリティグループの設定ミスで通信が届かないとき、フローログに REJECT が記録されていれば、「通信は届いているが、拒否されている」と分かります。何も記録されていなければ、ルートテーブルなど、もっと手前に原因があると考えられます。 保存先を選ぶ フローログの保存先は、主にCloudWatch LogsかS3です。 CloudWatch Logs ："
+      },
       {
         "id": "qiita:eaabb3bdb32e981cf113381f",
         "source": "qiita",
