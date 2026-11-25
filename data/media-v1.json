@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T19:40:02.831898+00:00",
+  "source_snapshot_generated_at": "2026-11-25T20:40:02.597199+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:13d6401e26fb5627aee6a25a",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "llm",
+          "Qwen",
+          "MLX",
+          "ローカル LLM"
+        ],
+        "url": "https://zenn.dev/caphtech/articles/kestrom-inspect-mirror",
+        "title": "量子化した瞬間だけ起動するLLMの裏口を、元モデルもトリガーもなしで炙り出し無害化する：kestrom inspect mirror",
+        "author": "rizumita",
+        "published_at": "2026-11-25T20:30:43.016000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:25ed408e2ac2fc393c1086bb",
         "source": "zenn",
@@ -53525,6 +53541,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:65a5401d7c58557900b0f7cc",
+        "source": "qiita",
+        "author_tags": [
+          "ClaudeCode",
+          "MCP",
+          "codex",
+          "Security",
+          "apiキー"
+        ],
+        "url": "https://qiita.com/supportapp3/items/d8d15ba02b2937aa293f",
+        "title": "claude mcp get は MCP の API キーを画面にそのまま出す：codex mcp get は ***** でも --json では平文（Claude Code 2.1.330 / Codex CLI 0.171.0で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-26T05:19:23+09:00",
+        "excerpt": "先に結論 MCP サーバーの設定を確かめるコマンドで、キーが画面に出るかを試しました（ダミーのキーで確認）。 コマンド env / headers の値の出方 claude mcp add --header ... \"Authorization\": \"[REDACTED]\" （伏せ字） claude mcp list 値は出ない（名前・コマンド・状態だけ） claude mcp get 名前 そのまま出る （ API_KEY=sk-dummy-... 、 Authorization: Bearer sk-dummy-... ） codex mcp list / codex mcp get 名前 API_KEY=***** （伏せ字） codex mcp list --json / codex mcp get 名前 --json そのまま出る 登録するときは伏せ字なのに、確かめるときの claude mcp get ではキーがそのまま出ました。画面共有中や、ターミナルの出力を Issue・チャット・AI に貼るときに漏れます。 伏せ字のまま見るコマ"
+      },
+      {
         "id": "qiita:3e1596a2fbeed8f3cdc45b6d",
         "source": "qiita",
         "author_tags": [
@@ -72844,6 +72876,70 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:309e1a0cd2dd43b49dace925",
+        "source": "medium",
+        "author_tags": [
+          "applied-mathematics",
+          "riemann-hypothesis",
+          "machine-learning",
+          "encryption",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@vincent_12568/the-riemann-hypothesiss-proof-and-why-cybersecurity-isn-t-broken-54ca3fb55861",
+        "title": "The Riemann Hypothesis’s proof and why cybersecurity isn’t broken",
+        "author": "Vincent",
+        "published_at": "2026-11-25T20:03:26+00:00",
+        "excerpt": "A few days back Anthropic claimed that Levent Alpoge had managed to prove the Riemann hypothesis with the help of Anthropic’s Claude… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3762e2adba121dd61b48ea26",
+        "source": "medium",
+        "author_tags": [
+          "malware-analysis",
+          "digital-forensics",
+          "cybersecurity",
+          "reverse-engineering",
+          "ctf-writeup"
+        ],
+        "url": "https://medium.com/@shrutirawat503/ctf-write-up-the-interview-challenge-5651716ece65",
+        "title": "CTF Write-up: The Interview Challenge",
+        "author": "Shruti",
+        "published_at": "2026-11-25T20:03:21+00:00",
+        "excerpt": "What looked like a routine technical assessment for a job opportunity turned into a security incident. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:5f33b06a2dc72b693dfbb833",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "cybersecurity",
+          "cyber-warfare",
+          "artificial-intelligence",
+          "network-security"
+        ],
+        "url": "https://ismailtasdelen.medium.com/how-ai-driven-cyberattacks-compromised-24-enterprise-servers-f5d8bef96aa8",
+        "title": "How AI-Driven Cyberattacks Compromised 24 Enterprise Servers",
+        "author": "Ismail Tasdelen",
+        "published_at": "2026-11-25T19:59:05+00:00",
+        "excerpt": "An analytical breakdown of the GT13 campaign, agentic exploit pipelines, second-order risk in critical network management, and firewall… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:cfb2093ba0336b19e5b9edb3",
+        "source": "medium",
+        "author_tags": [
+          "software-security",
+          "supply-chain-security",
+          "elixir",
+          "hexpm",
+          "cybersecurity"
+        ],
+        "url": "https://ismailtasdelen.medium.com/deciphering-the-hex-pm-rce-vulnerability-and-its-impact-b42c10deaf1a",
+        "title": "Deciphering the Hex.pm RCE Vulnerability and Its Impact",
+        "author": "Ismail Tasdelen",
+        "published_at": "2026-11-25T19:54:48+00:00",
+        "excerpt": "An analytical breakdown of CVE-2026–129514, second-order supply chain risks, and critical mitigation strategies for Erlang Elixir security. Continue reading on Medium »"
+      },
       {
         "id": "medium:b9c8fa205869b9eb3ce029f4",
         "source": "medium",
