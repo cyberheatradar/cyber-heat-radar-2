@@ -1,9 +1,68 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T07:40:02.972036+00:00",
+  "source_snapshot_generated_at": "2026-11-25T08:40:03.867312+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:773cbb0ec41ae1609169672f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Jira",
+          "AI 開発",
+          "agents",
+          "rovo"
+        ],
+        "url": "https://zenn.dev/techhub/articles/277c6484605c",
+        "title": "Jira Rovoを無料で使う方法",
+        "author": "技術愛好家",
+        "published_at": "2026-11-25T08:39:58.563000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:fe1c18d1db6ac6a7f3d9f060",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "data",
+          "BigQuery",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/google_cloud_jp/articles/22bf2f8313f5be",
+        "title": "Data & AI Summit '26 Fall 基調講演『Agent-Ready 2.0』レポート",
+        "author": "yamadayu",
+        "published_at": "2026-11-25T08:32:34.617000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:62d6750d2bcabb6212202819",
+        "source": "zenn",
+        "author_tags": [
+          "Security"
+        ],
+        "url": "https://zenn.dev/heftykoo/articles/a88d7fa33b375b",
+        "title": "「.p7m」ファイルが開けないときに拡張子を消してはいけない理由——3つの層で理解する署名コンテナの構造",
+        "author": "heftykoo",
+        "published_at": "2026-11-25T08:10:31.114000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:24e4446fe4c18689f14f4b4d",
+        "source": "zenn",
+        "author_tags": [
+          "Chrome",
+          "Security",
+          "Authentication",
+          "cookie",
+          "dbsc"
+        ],
+        "url": "https://zenn.dev/mittysan/articles/dbsc-device-bound-session-credentials",
+        "title": "DBSC 入門: Cookie を盗まれても、攻撃者は使い続けられない仕組み",
+        "author": "mitty",
+        "published_at": "2026-11-25T08:01:47.134000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:9e662cc9483139a82e9ffcba",
         "source": "zenn",
@@ -52859,6 +52918,54 @@
     ],
     "qiita": [
       {
+        "id": "qiita:5e90ef78eee4f76164d55755",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ゼロトラスト",
+          "認証",
+          "IAM",
+          "情報漏洩対策"
+        ],
+        "url": "https://qiita.com/savor-speedup-dotage/items/be4e22fbd81aa6767d82",
+        "title": "VishingとSSO侵害に対抗する認証・アクセスコントロール手法の比較：FIDO2・CBA・ITDRの選定判断",
+        "author": "savor-speedup-dotage",
+        "published_at": "2026-11-25T17:26:21+09:00",
+        "excerpt": "概要 企業のクラウドシフトとZero Trust Architectureの普及に伴い、シングルサインオン（SSO）基盤はシステム全体の認証・認可を一括管理する中核コンポーネントとなりました。しかし、このSSO基盤を狙ったソーシャルエンジニアリング攻撃、特にVishing（ボイスフィッシング）を用いた脅威が急増しています。攻撃者はヘルプデスクやIT部門になりすましてユーザーから認証情報を聞き出したり、認証要素の変更を誘導することで、従来の多要素認証（MFA）を迂回してシステムに侵入します。 本稿では、Vishingおよびそれに基づくSSO侵害の手法を分析し、防衛手段となる主要な認証・アクセスコントロール技術（プッシュ通知MFA、FIDO2/WebAuthn、クライアント証明書ベース認証、ITDR）を4つの観点から比較検証します。エンジニアやセキュリティアーキテクトが直面する設計上のトレードオフと導入・運用のリアルな制約を整理します。 背景：VishingとSSOアカウント乗っ取りの構造化 近年、大規模なデータ窃取や強迫活動を行っている脅威アクター"
+      },
+      {
+        "id": "qiita:3ebc7ea4bf93758b9c65b9e5",
+        "source": "qiita",
+        "author_tags": [
+          "ModelArmor",
+          "GoogleCloud",
+          "生成AI",
+          "Security",
+          "プロンプトインジェクション"
+        ],
+        "url": "https://qiita.com/bbroki/items/01e2642fb677af2e11ca",
+        "title": "【Model Armor】信頼度 HIGH と MEDIUM で何が変わる？日本語プロンプトと長文の検査を REST API で検証してみた！",
+        "author": "bbroki",
+        "published_at": "2026-11-25T17:02:50+09:00",
+        "excerpt": "Model Armor を入れた。 NO_MATCH_FOUND が返ってきた。それは「安全だった」という意味でしょうか。 Google Cloud の Model Armor は、LLM のプロンプトとレスポンスを検査するサービスです。当記事では、信頼度の異なるテンプレートを REST API で作成し、日本語のプロンプト、レスポンス、上限を超える長文を検査して、検出されるものとされないものを確認します。自分の Google Cloud プロジェクトで実際に動かした結果とあわせて解説します。 先に結論です。 メール本文に埋め込んだ日本語の指示は、 HIGH では検出されず、 MEDIUM_AND_ABOVE では検出された 上限を超える長文では、プロンプト インジェクションの検査がスキップされても、全体の判定は NO_MATCH_FOUND だった Sensitive Data Protection の基本構成では、マイナンバー形式の番号は検出されなかった 概要 Model Armor とは 検査の内容は テンプレート で定義します。当記事で設"
+      },
+      {
+        "id": "qiita:1f062c63541d0ee6c3bf4472",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "暗号",
+          "RSA",
+          "JavaScript",
+          "Python"
+        ],
+        "url": "https://qiita.com/vidraft/items/3c8bfb5ca579ae5f8d82",
+        "title": "RSA公開鍵は2048ビットでも安全とは限らない：ブラウザで動くKeyGuardで4つの欠陥を調べる",
+        "author": "vidraft",
+        "published_at": "2026-11-25T17:00:46+09:00",
+        "excerpt": "アプリ: KeyGuard ・ 解説(英語): Hugging Faceの記事 ・ 製品ページ: vidraft.net 結論 RSA公開鍵の構造的な弱さは、次の4点で調べられます。①他の鍵との素数の共有、②近すぎる2つの素数、③ROCAの指紋、④鍵長と指数。KeyGuardはこの4つをブラウザ内だけで検査する無料ツールです。内蔵ベンチマーク145鍵では、弱い鍵65個のうち65個を検出し、正常な鍵80個での誤検出は0件でした。 なぜ2048ビットでも破れるのか RSA公開鍵は2つの秘密の素数の積 N = p × q です。素数が正しく選ばれていれば、2048ビットの鍵は現在の素因数分解手法では届きません。問題は鍵が生まれる瞬間です。ルーターやカメラなどの機器は、初回起動の直後、乱数の源が乏しい状態で鍵を作ることがよくあります。すると別々の機器が同じ素数を選ぶことがあります。 USENIX Security 2012 : 公開鍵が因数を共有していたため、TLSホストの約0.50%で秘密鍵が得られた Keyfactor 2019 : 異なる249,5"
+      },
+      {
         "id": "qiita:78c5aa9f53da8db8c3722245",
         "source": "qiita",
         "author_tags": [
@@ -71944,6 +72051,34 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:20509eb7a560f473bb4e7242",
+        "source": "medium",
+        "author_tags": [
+          "web-application-security",
+          "bug-bounty",
+          "cybersecurity",
+          "penetration-testing",
+          "ctf"
+        ],
+        "url": "https://th3blackhol3.medium.com/tryhackme-guided-pentest-web-from-web-reconnaissance-to-remote-code-execution-rce-1a2c904e069d",
+        "title": "TryHackMe — Guided Pentest: Web | From Web Reconnaissance to Remote Code Execution (RCE) |…",
+        "author": "Th3BlackHol3",
+        "published_at": "2026-11-25T08:23:42+00:00",
+        "excerpt": "A Practical Web Application Penetration Testing Walkthrough: Exploiting IDOR, Weak Password Reset Logic, and Insecure File Uploads to… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:aca27219b97290951a02a6d4",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@silky2754/how-iiot-and-cybersecurity-work-together-to-safeguard-industrial-assets-in-a-connected-world-66661fb29b20",
+        "title": "How IIoT and Cybersecurity Work Together to Safeguard Industrial Assets in a Connected World",
+        "author": "Silky",
+        "published_at": "2026-11-25T08:13:59+00:00",
+        "excerpt": "The Industrial Internet of Things (IIoT) is transforming the industrial landscape by connecting machines, sensors, and devices, enabling… Continue reading on Medium »"
+      },
       {
         "id": "medium:ce888ef51f385d05a3b1bf00",
         "source": "medium",
