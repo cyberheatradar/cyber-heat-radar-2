@@ -1,9 +1,84 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T08:40:03.867312+00:00",
+  "source_snapshot_generated_at": "2026-11-25T09:40:02.754798+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:c2ab5567dc81aeab353196e0",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Linux",
+          "Claude",
+          "Skills"
+        ],
+        "url": "https://zenn.dev/agentkiyaku/articles/f1ca3d8ff4d6dd",
+        "title": "Claude Code が .agents/skills を読まないときは .claude/skills にリンクを張る",
+        "author": "エージェント規約工房",
+        "published_at": "2026-11-25T09:33:53.400000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:596e0f2063ce29a723df5e57",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Docker",
+          "Security",
+          "Honeypot",
+          "llm"
+        ],
+        "url": "https://zenn.dev/masuda_masuo/articles/2026-11-22-ai-deception-lab-ab",
+        "title": "ハニーポットがあるとAIエージェントの行動はどう変わるのか――あり／なしを10回ずつ比べてみた",
+        "author": "増田",
+        "published_at": "2026-11-25T09:32:17.780000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5247902b95d3a69427d73f76",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Google",
+          "OpenAI",
+          "safety",
+          "Anthropic"
+        ],
+        "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261124",
+        "title": "AIに「速度制限」を。OpenAI主任科学者が上限を提案",
+        "author": "菅原友和",
+        "published_at": "2026-11-25T09:25:00.784000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4dcf7f93f18633b4c0edcad4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "画像生成 AI",
+          "生成 AI",
+          "動画生成 AI"
+        ],
+        "url": "https://zenn.dev/aigentools/articles/5fdf0c4710be64",
+        "title": "Designing a Multi-Model AI Content Pipeline: Chat → Image → Video",
+        "author": "AIGenTools",
+        "published_at": "2026-11-25T09:23:30.297000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9edd30fb70338b51e9f3ad2a",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "TLS"
+        ],
+        "url": "https://zenn.dev/pki_security/articles/kubernetes-tls-secret-base64-basics",
+        "title": "KubernetesのTLS Secret：base64だから秘密、ではない",
+        "author": "pki-security",
+        "published_at": "2026-11-25T09:07:31.700000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:773cbb0ec41ae1609169672f",
         "source": "zenn",
@@ -52918,6 +52993,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:a9a38e8538df133e6e4ec08d",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "AI",
+          "LLM",
+          "AIエージェント",
+          "Python"
+        ],
+        "url": "https://qiita.com/vidraft/items/1a6bc5f28adf04f7adb9",
+        "title": "AIモデルのためのファイアウォールとSOC：危険なツール呼び出し991件が0件になる仕組みをデモで確かめる",
+        "author": "vidraft",
+        "published_at": "2026-11-25T18:34:30+09:00",
+        "excerpt": "デモ: ViKernel Desktop （上部のセキュリティ管制ボタン） ・ GitHub: vikernel-agent-guard ・ 製品ページ: vidraft.net 結論 ツールを呼び出すAIモデルには、① 呼び出しを実行前に判定するファイアウォール と、②**パケットではなくモデルを監視する管制(SOC)**が必要です。ViKernel Scannerの公開ボードでは、公開モデル21種が危険なツール呼び出しを991件行いました。ViKernel Firewallを通すと、通過したものは0件、21種すべてがA評価になりました(2026-11-25)。 なぜAIモデル専用のファイアウォールなのか ネットワークファイアウォールはパケットを、WAFはリクエストを見ます。しかし、エージェントが秘密ファイルを読む、コマンドを実行する、データを外に送る、という判断はモデルの中で下され、許可されたツールを通って外に出ます。 ネットワーク/Webファイアウォール ViKernel Firewall 検査対象 パケット、HTTPリクエスト モデルが提"
+      },
+      {
+        "id": "qiita:a9327b44294373f48058b8bd",
+        "source": "qiita",
+        "author_tags": [
+          "PaloAltoNetworks",
+          "XSIAM",
+          "SIEM",
+          "Security",
+          "Python"
+        ],
+        "url": "https://qiita.com/AninditaKumar/items/e3b4bd93dd55e2205311",
+        "title": "Palo Alto XSIAM Engineer Exam Guide: Domain Weights, XQL, Parsing and Data Modeling Rules, and Playbook Debugging",
+        "author": "AninditaKumar",
+        "published_at": "2026-11-25T17:49:14+09:00",
+        "excerpt": "The Palo Alto Networks XSIAM Engineer exam puts 30% of its score on one domain, Integration and Automation, and splits the rest across Content Optimization (24%), Maintenance and Troubleshooting (24%) and Planning and Installation (22%). It is a Specialist-level exam, so it costs US$250, and it runs 90 minutes. NWExam lists it at 59 questions with a passing score of 860 on a 300 to 1000 scale, which works out to about 1.5 minutes per question. In practice the exam asks whethe"
+      },
+      {
         "id": "qiita:5e90ef78eee4f76164d55755",
         "source": "qiita",
         "author_tags": [
@@ -72051,6 +72158,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:dc7e59c5bf6a9dbcf9c526a5",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "owasp-juice-shop",
+          "vulnerability-management",
+          "securesoftwaredevelopment",
+          "self-learning"
+        ],
+        "url": "https://medium.com/@Santhush_Karandana/owasp-juice-shop-for-beginners-my-first-12-challenges-explained-simply-9ee8d2a51835",
+        "title": "OWASP Juice Shop for Beginners: My First 12 Challenges, Explained Simply",
+        "author": "Santhush Karandana",
+        "published_at": "2026-11-25T09:25:59+00:00",
+        "excerpt": "A student friendly walkthrough of the easiest OWASP Juice Shop challenges ,what each bug is, how I found it, and why it works. Written for… Continue reading on Medium »"
+      },
       {
         "id": "medium:20509eb7a560f473bb4e7242",
         "source": "medium",
