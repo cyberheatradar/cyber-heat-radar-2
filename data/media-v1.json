@@ -1,9 +1,56 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T17:40:02.749151+00:00",
+  "source_snapshot_generated_at": "2026-11-25T19:40:02.831898+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:25ed408e2ac2fc393c1086bb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Next.js",
+          "TypeScript",
+          "proxy",
+          "Vitest"
+        ],
+        "url": "https://zenn.dev/playpark/articles/nextjs-middleware-to-proxy-agent-checklist",
+        "title": "Next.js 16のproxy移行で、公式ドキュメントのテスト関数が存在しなかった",
+        "author": "playpark",
+        "published_at": "2026-11-25T18:58:58.032000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5e278aef377b357da61e84cd",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "Streamlit",
+          "ハッカソン"
+        ],
+        "url": "https://zenn.dev/rootforgerie/articles/hackwithbay-4-evidence-gtm-retrospective",
+        "title": "HackwithBay 4.0参加記｜Evidence GTMを個人で作って見えた課題",
+        "author": "rootforgerie",
+        "published_at": "2026-11-25T18:58:19.985000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:01e676a51cc73ff6396ff694",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "OSS",
+          "Model Context Protocol",
+          "Cursor",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/lintsure/articles/44f9e741da85d4",
+        "title": "Claude Codeが書いたコードの問題を、コミット前に見つける",
+        "author": "Lintsure",
+        "published_at": "2026-11-25T18:26:06.778000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:096f509325177a0f05f49f69",
         "source": "zenn",
@@ -553,6 +600,16 @@
         "author": "pki-security",
         "published_at": "2026-11-25T09:07:31.700000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:bc4b7d73e341a6da1ee59a36",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/kazusa_nakagawa/books/passkey-poc-by-hand",
+        "title": "パスキーを実装して認証を理解する",
+        "author": "なかがわ",
+        "published_at": "2026-11-25T09:01:38+00:00",
+        "excerpt": "ログインの後にセッションを盗まれ、正規ユーザーとして操作される被害を防ぐには、認証の仕組みを理解する必要があります。この本では、パスキー（WebAuthn）のサーバー側の検証をライブラリに任せず自分で書き、登録、ユーザー名なしログイン、検証過程の可視化、ライブラリとの判定の比較、送金前のステップアップ認証、パスキーの追加と削除までを順に実装します。検証項目は1つずつ「外すと何の攻撃が通るか」をテストで示し、1Password や Apple Passwords の実機で試して分かったことも記録しています。最後の章で、防げたもの、残ったもの、次に作るならを振り返ります。"
       },
       {
         "id": "zenn:773cbb0ec41ae1609169672f",
@@ -53468,6 +53525,19 @@
     ],
     "qiita": [
       {
+        "id": "qiita:3e1596a2fbeed8f3cdc45b6d",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "ニュース"
+        ],
+        "url": "https://qiita.com/pitopito/items/eba6fa92f87e7106c19c",
+        "title": "2026/11/26主にITとかセキュリティの記事",
+        "author": "pitopito",
+        "published_at": "2026-11-26T04:09:42+09:00",
+        "excerpt": "シスコの「Expressway」にゼロデイ脆弱性、実環境で悪用—CISAが月曜日までの修正を要求(11/24) https://finance.biggo.jp/news/34e50296-7018-48b8-a5f9-155dfc299f28 マイクロソフトが欠陥を109日間見抜けず Entra監視サービスから管理者メール流出(11/23) https://news.yahoo.co.jp/articles/6a3c5399b6908c8522b588ec17bcfd3cea960a8a Google Chromeに深刻度”重大”の脆弱性 最新版で修正(11/24) https://news.infoseek.co.jp/article/asciijp_4454088/?tpgnr=it Chromeに深刻度最高の脆弱性、グーグルが修正版を緊急配信(11/24) https://finance.biggo.jp/news/05c6a858-3ddc-4c05-bae5-e676c69cb382 AI時代のサイバーセキュリティとは？攻撃の変化と企"
+      },
+      {
         "id": "qiita:c87ee8885a923975c3f34c61",
         "source": "qiita",
         "author_tags": [
@@ -72774,6 +72844,95 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b9c8fa205869b9eb3ce029f4",
+        "source": "medium",
+        "author_tags": [
+          "edtech",
+          "kubernetes",
+          "cybersecurity",
+          "instal-canvas-lms",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/@qsoftwaresqsoftwares/installed-is-not-production-ready-the-anatomy-and-security-gaps-of-self-hosted-canvas-lms-926b563b083b",
+        "title": "Installed Is Not Production-Ready: The Anatomy and Security Gaps of Self-Hosted Canvas LMS",
+        "author": "Stephen Oduor",
+        "published_at": "2026-11-25T19:20:47+00:00",
+        "excerpt": "Canvas installs in an afternoon. Running it for a whole university is a different job. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d132937f023028be519202ab",
+        "source": "medium",
+        "author_tags": [
+          "race-condition",
+          "web-penetration-testing",
+          "bug-bounty",
+          "web-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@ahmed.mahmoud.infosec/how-a-race-condition-broke-an-organizations-member-limit-b07e1c2cacd1",
+        "title": "How a Race Condition Broke an Organization’s Member Limit",
+        "author": "Ahmed Mahmoud",
+        "published_at": "2026-11-25T19:08:11+00:00",
+        "excerpt": "Business logic vulnerabilities aren’t always caused by a flawed validation rule. Sometimes, the rule itself is correct, but the way the… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e7c65bb8d44220fa82f035e5",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "threat-intelligence",
+          "cybersecurity"
+        ],
+        "url": "https://socfortress.medium.com/azure-api-management-vulnerability-tracking-id-mzk9-gh0-operational-incident-remediation-and-8a1e7a6027e5",
+        "title": "Azure API Management Vulnerability (Tracking ID: MZK9-GH0) Operational Incident Remediation and…",
+        "author": "SOCFortress",
+        "published_at": "2026-11-25T19:01:01+00:00",
+        "excerpt": "Note: Create your free account in SOCFortress Signals (https://signals.socfortress.co/) for: Continue reading on Medium »"
+      },
+      {
+        "id": "medium:2cec1f0ba723fa5250a8389f",
+        "source": "medium",
+        "author_tags": [
+          "cve-2026-129243",
+          "security-bypass",
+          "cybersecurity",
+          "authorization-bypass",
+          "application-security"
+        ],
+        "url": "https://synthex.medium.com/understanding-cve-2026-129243-geoserver-service-security-bypass-via-prefixed-service-03b0e0ae8f2e",
+        "title": "Understanding CVE-2026–129243: GeoServer Service Security Bypass via Prefixed Service",
+        "author": "Synthex",
+        "published_at": "2026-11-25T18:23:37+00:00",
+        "excerpt": "GeoServer powers countless enterprise and public geospatial applications by exposing spatial data through Open Geospatial Consortium (OGC)… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:fcf921b9c19688248815afda",
+        "source": "medium",
+        "author_tags": [
+          "deepfakes",
+          "cybersecurity"
+        ],
+        "url": "https://keepnetlabs.medium.com/what-is-a-deepfake-phishing-simulation-answers-for-security-teams-c3a7f2eb9dc9",
+        "title": "What Is a Deepfake Phishing Simulation? Answers for Security Teams",
+        "author": "Keepnet",
+        "published_at": "2026-11-25T18:02:03+00:00",
+        "excerpt": "A deepfake phishing simulation is a safe, consented exercise in which employees meet a synthetic voice, video or meeting participant that… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:3866c016a616c78fc3f879ea",
+        "source": "medium",
+        "author_tags": [
+          "databricks",
+          "vulnerability-management",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@alexott_en/finding-shared-component-vulnerability-families-with-github-advisories-and-osv-21f4bb019859",
+        "title": "Finding shared-component vulnerability families with GitHub Advisories and OSV",
+        "author": "Alex Ott",
+        "published_at": "2026-11-25T17:47:40+00:00",
+        "excerpt": "A CVE record for Log4Shell names only one affected product: Apache log4j. Ecosystem advisories associate the same CVE with additional… Continue reading on Medium »"
+      },
       {
         "id": "medium:22fbaf583ad25e64e326d9a2",
         "source": "medium",
