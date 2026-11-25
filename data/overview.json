@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-25T21:10:22.635761+00:00",
-  "as_of": "2026-11-25T21:00:00+00:00",
-  "catalog_count": 27220,
+  "generated_at": "2026-11-25T22:11:06.693586+00:00",
+  "as_of": "2026-11-25T22:00:00+00:00",
+  "catalog_count": 27223,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,86 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T06:52:02.757522+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-29838573f890e4f70a254f98",
+      "primary_category": "incident",
+      "public_article_id": "url:29838573f890e4f70a254f98",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "incident",
+          "label": "Incident"
+        }
+      ],
+      "published_at": "2026-11-26T06:33:33+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+      "summary_excerpt": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+      "threat_actors": [],
+      "title": "1Password customer data stolen after employee GitHub account breach"
+    },
+    {
+      "ai_relevance": "material",
+      "canonical_url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T06:52:04.874688+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-96063772354653ddbb84ebfb",
+      "primary_category": "other",
+      "public_article_id": "url:96063772354653ddbb84ebfb",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-26T06:18:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+      "summary_excerpt": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+      "threat_actors": [
+        "Salt Typhoon"
+      ],
+      "title": "Microsoft: China’s Salt Typhoon hackers are using Artex"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/fifa-data-breach-limited",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T06:22:51.300754+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-b4e21ac8033697fd21f62d68",
+      "primary_category": "other",
+      "public_article_id": "url:b4e21ac8033697fd21f62d68",
+      "public_tags": [],
+      "published_at": "2026-11-26T05:40:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.",
+      "summary_excerpt": "The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.",
+      "threat_actors": [],
+      "title": "FIFA says hackers accessed ‘limited set of personal and business information’"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.f5.com/labs/articles/ivanti-connect-secure-zero-day-cve-2026-104935-post-disclosure-scanning-confirmed",
@@ -197,89 +277,6 @@
       "summary_excerpt": "We're honored to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security, for the second consecutive year. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security appeared first on Microsoft Security Blog .",
       "threat_actors": [],
       "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T03:25:58.417384+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-12634c4f9dea4859df5adaca",
-      "primary_category": "other",
-      "public_article_id": "url:12634c4f9dea4859df5adaca",
-      "public_tags": [],
-      "published_at": "2026-11-26T02:01:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "It's not our fault if you've implemented it wrong",
-      "summary_excerpt": "It's not our fault if you've implemented it wrong",
-      "threat_actors": [],
-      "title": "Microsoft's NTLM security changes trip up third-party logins"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T01:22:16.224329+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-820a6be24763a5428c472775",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:820a6be24763a5428c472775",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-26T01:13:40+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
-      "threat_actors": [],
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T01:22:34.972902+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-f30f7b2280e93ffe991309f7",
-      "primary_category": "supply_chain",
-      "public_article_id": "url:f30f7b2280e93ffe991309f7",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "supply_chain",
-          "label": "Supply Chain"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-26T00:48:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Dark Reading",
-      "summary": "Researchers discovered 13 malicious NuGet packages as part of a fake recruitment campaign that spreads malware and gives attackers access to developers' machines.",
-      "summary_excerpt": "Researchers discovered 13 malicious NuGet packages as part of a fake recruitment campaign that spreads malware and gives attackers access to developers' machines.",
-      "threat_actors": [],
-      "title": "Attackers Target .NET Developers With Poisoned Job Assessments"
     }
   ],
   "hottest": [
@@ -907,32 +904,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Ivanti Connect Secure Zero-Day CVE-2026-104935: Post-Disclosure Scanning Confirmed",
+    "【LATEST #1】1Password customer data stolen after employee GitHub account breach",
     "【HOTTEST #1 / Heat 75】Ivanti Connect Secure Zero-Day CVE-2026-104935: Post-Disclosure Scanning Confirmed",
-    "【LATEST #2】「Mythos以降の世界」の攻撃速度に“人中心の防御”は追い付けるのか",
+    "【LATEST #2】Microsoft: China’s Salt Typhoon hackers are using Artex",
     "【HOTTEST #2 / Heat 70.97】CVE-2026-133469: Vates Xen Orchestra",
-    "【LATEST #3】The security of US water systems is even leakier than we thought",
+    "【LATEST #3】FIFA says hackers accessed ‘limited set of personal and business information’",
     "【HOTTEST #3 / Heat 70.97】CVE-2025-41450: Danfoss AK-SM 800A Series",
-    "【LATEST #4】Rapid7 Named a Leader in the 2026 Gartner® Magic Quadrant™ for Integrated Security Operations Center Systems",
+    "【LATEST #4】Ivanti Connect Secure Zero-Day CVE-2026-104935: Post-Disclosure Scanning Confirmed",
     "【HOTTEST #4 / Heat 70.97】CVE-2023-25914: Danfoss AK-SM 800A Series",
-    "【LATEST #5】What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+    "【LATEST #5】「Mythos以降の世界」の攻撃速度に“人中心の防御”は追い付けるのか",
     "【HOTTEST #5 / Heat 70.97】CVE-2023-25915: Danfoss AK-SM 800A Series"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-22T21:00:00+00:00",
-    "last_as_of": "2026-11-25T21:00:00+00:00",
+    "first_as_of": "2026-11-22T22:00:00+00:00",
+    "last_as_of": "2026-11-25T22:00:00+00:00",
     "unique_snapshots_used": 70,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-25T21:00:00+00:00",
-  "heat_as_of": "2026-11-25T21:00:00+00:00",
+  "news_as_of": "2026-11-25T22:00:00+00:00",
+  "heat_as_of": "2026-11-25T22:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27220,
-  "last_published_at": "2026-11-26T06:10:35.310811+09:00",
-  "publication_slot_jst": "2026-11-26T06:00:00+09:00"
+  "news_catalog_count": 27223,
+  "last_published_at": "2026-11-26T07:11:21.176594+09:00",
+  "publication_slot_jst": "2026-11-26T07:00:00+09:00"
 }
