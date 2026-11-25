@@ -1,9 +1,117 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-25T04:40:02.827417+00:00",
+  "source_snapshot_generated_at": "2026-11-25T05:40:03.186734+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:2aec5bb9cf36608a338616f2",
+        "source": "zenn",
+        "author_tags": [
+          "Flutter",
+          "Web",
+          "Security",
+          "Cloudflare",
+          "CSP"
+        ],
+        "url": "https://zenn.dev/crs/articles/hitoiki-01-flutter-web-csp-cloudflare-pages",
+        "title": "Flutter WebをCSPで固めてCloudflare Pagesに公開する：画面が出なくなる原因と直し方",
+        "author": "CenterRiverStudio",
+        "published_at": "2026-11-25T05:29:47+00:00",
+        "excerpt": "子育ての愚痴をこぼして、コメントでコツを共有できるアプリ「子育てひと息」を、Flutter + Supabaseで作っています。スマホアプリを先にテスト配布し、そのあとブラウザーから使えるWeb版を、Cloudflare Pagesで一般公開しました。 Web版はログイン情報（セッション）をブラウザーに置くので、公開にあたってCSP（Content-Security-Policy）をかなり厳しくしました。必要な接続先以外には、一切つながらないようにしています。ところがFlutter Webに厳しいCSPをかけると、素直には動かず、画面が真っ白になったり、画像が選べなかったりしました。この..."
+      },
+      {
+        "id": "zenn:290e0b65719cbb829dbbe5cb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/laiken/articles/20261125-tech-watch",
+        "title": "Tech Watch 2026-11-25: 行動を検証する境界",
+        "author": "らいけん",
+        "published_at": "2026-11-25T05:25:11.077000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:36e9c63113fe342dca202ab8",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "lora",
+          "llm",
+          "Fine-tuning",
+          "Qwen"
+        ],
+        "url": "https://zenn.dev/highreso/articles/856c3ebf521a66",
+        "title": "過剰思考を抑えつつ品質を維持しよう！ “Swift化”でQwen3.8の無駄な思考を削ったモデル、Swift-Qwen3.8-27B",
+        "author": "Yuichi Tominaga",
+        "published_at": "2026-11-25T05:07:10.478000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:88663843802ecd622926bf53",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "datascience",
+          "Claude",
+          "Web scraping"
+        ],
+        "url": "https://zenn.dev/everyinfra/articles/glm-5-3-claude-code-zhihu-weibo-scripts",
+        "title": "Claude CodeでGLM 5.3を使い、ZhihuとWeiboのトピック分析スクリプトを作る",
+        "author": "EveryInfra",
+        "published_at": "2026-11-25T05:04:07.199000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e3e966e09144d7c8f5a9e40b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "Kaggle",
+          "kaggler会"
+        ],
+        "url": "https://zenn.dev/gatechnologies/articles/dfd3ee69752a29",
+        "title": "関西Kaggler会 交流会 2026#2に行ってきた！",
+        "author": "wakama1994",
+        "published_at": "2026-11-25T05:01:46.031000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:e326b36da6cc9e7fb7be9dde",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "writer",
+          "social",
+          "letter"
+        ],
+        "url": "https://zenn.dev/sukimreed/articles/b2a7eea7dcd86b",
+        "title": "ReactとTypeScriptで設計するインタラクティブなデジタルレター ― テンプレート・音楽・共有URLの実装",
+        "author": "Su Kim",
+        "published_at": "2026-11-25T05:01:31.644000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:51c2f663e3aff4e61b26f142",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "画像処理",
+          "OCR"
+        ],
+        "url": "https://zenn.dev/sukimreed/articles/9954163bc8ac06",
+        "title": "AIで画像内の文字だけを置き換える技術 ― OCR・Inpainting・フォント再現の設計",
+        "author": "Su Kim",
+        "published_at": "2026-11-25T04:57:56.156000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:97f593c7ea49ff8be2916639",
         "source": "zenn",
@@ -52521,6 +52629,86 @@
     ],
     "qiita": [
       {
+        "id": "qiita:547576e43dd6cb9307110a01",
+        "source": "qiita",
+        "author_tags": [
+          "SpringBoot",
+          "Security",
+          "Java",
+          "xss",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/chi0818/items/5b2d6639ea413a1f6e0d",
+        "title": "【セキュリティ対策例】第6章 入力と出力の対策",
+        "author": "chi0818",
+        "published_at": "2026-11-25T14:24:43+09:00",
+        "excerpt": "この章で学ぶこと XSS（クロスサイト・スクリプティング）と、Thymeleaf の th:text が防いでいること SQL インジェクションと、JPA が防いでいること 入力チェックを、必ずサーバーで行う理由。URL の値のチェック 画面に無い項目まで書き換えられる「マスアサインメント」と、Form で受ける理由 受け付ける送信の形式を決める方法 6.1 XSS：画面に出す文字を無害化する XSS （クロスサイト・スクリプティング）は、登録された文字の中に仕込まれた HTML やスクリプトが、その画面を開いた人のブラウザで動いてしまう攻撃です。たとえば、氏名に <script>…</script> を登録され、それがそのまま一覧の HTML に入ると、一覧を開いた管理者のブラウザでスクリプトが動きます。スクリプトは、ログイン中の画面を勝手に操作したり、画面の内容を外へ送ったりできます。 th:text は、文字として出す Spring入門の一覧は、氏名を <td th:text=\"${employee.name}\"></td> で出しています"
+      },
+      {
+        "id": "qiita:ebf900a640b1017d02ce7da8",
+        "source": "qiita",
+        "author_tags": [
+          "SpringBoot",
+          "SpringSecurity",
+          "csrf",
+          "Security",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/chi0818/items/f1082f2e3f94a9ee8977",
+        "title": "【セキュリティ対策例】第5章 CSRF 対策",
+        "author": "chi0818",
+        "published_at": "2026-11-25T14:24:33+09:00",
+        "excerpt": "この章で学ぶこと CSRF（クロスサイト・リクエスト・フォージェリ）の攻撃の流れ Spring Security が自動で行う CSRF 対策（トークン） トークンが無い送信が、実際に止められることの確かめ方 フォームを書くときに守ること 5.1 CSRF とは CSRF （シーサーフ、クロスサイト・リクエスト・フォージェリ）は、ログイン中の人に、本人の知らないうちに操作を送らせる攻撃です。 管理者がこのアプリにログインしたまま、別のタブで、攻撃する人が用意したページを開いた場合を考えます。そのページには、次のようなフォームが隠してあり、ページを開いただけで自動で送信されるようになっています。 攻撃する人が用意したページ（読むだけ） <form action= \"http://localhost:8080/employees/1/delete\" method= \"post\" > </form> <!-- ページを開くと、JavaScript でこのフォームを自動で送信する --> 攻撃の流れ ① 管理者が、社員管理アプリにログインする（ブラウザに"
+      },
+      {
+        "id": "qiita:68366d99d3305eb0b4bea334",
+        "source": "qiita",
+        "author_tags": [
+          "SpringBoot",
+          "SpringSecurity",
+          "Java",
+          "Security",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/chi0818/items/2535fac60be95ea37d2b",
+        "title": "【セキュリティ対策例】第4章 権限で操作を分ける",
+        "author": "chi0818",
+        "published_at": "2026-11-25T14:24:24+09:00",
+        "excerpt": "この章で学ぶこと 権限の設計（誰に、どの操作を許すか） URL ごとに、必要な権限を決める方法 画面のボタンを、権限によって出し分ける方法 ボタンを隠すだけでは守れない理由と、メソッドにも権限を書く「二重の防御」 権限の無い操作をしたときの画面 4.1 権限の設計 第3章 で作った2人のユーザーには、 APP_USER の ROLE の列で権限を付けました。この章では、権限によってできる操作を、次のように分けます。 操作 URL 一般（USER） 管理者（ADMIN） 社員一覧 /employees できる できる 新規登録 /employees/register から始まる URL できない できる 変更 /employees/{社員ID}/edit から始まる URL と、 /employees/edit/done できない できる 削除 /employees/{社員ID}/delete できない できる 権限の設計は、「必要な人に、必要な操作だけを許す」が基本です。迷ったら、許さない側に倒します。 4.2 URL ごとに権限を決める Sec"
+      },
+      {
+        "id": "qiita:0f81c0f20bf4433e9f970bf0",
+        "source": "qiita",
+        "author_tags": [
+          "SpringBoot",
+          "SpringSecurity",
+          "Java",
+          "Security",
+          "脆弱性"
+        ],
+        "url": "https://qiita.com/chi0818/items/fa9c254f548756b38e9a",
+        "title": "【セキュリティ対策例】第3章 ログインを作る",
+        "author": "chi0818",
+        "published_at": "2026-11-25T14:24:16+09:00",
+        "excerpt": "この章で学ぶこと ログインするユーザーを DB の表に保存する方法 パスワードを、元に戻せない形（ハッシュ）で保存する理由と方法 Spring Security に DB のユーザーを使わせる方法（UserDetailsService） 自作のログイン画面、ログインに失敗したときの表示、ログアウト ログイン中のユーザーを、サーバー側から取り出す方法 3.1 ユーザーのテーブルを作る 第2章 では、Spring Security が作った仮のユーザー（ user と、起動のたびに変わるパスワード）でログインしました。この章では、ログインできるユーザーを DB の表に保存し、その表のユーザーでログインできるようにします。 SQL Developer で XE_EMPAPP に接続し、ワークシートに次の SQL を貼り付けて、 スクリプトの実行 （F5）で実行します。 ユーザーの表と2人のユーザー -- ログインするユーザーの表 CREATE TABLE APP_USER ( LOGIN_ID VARCHAR2 ( 20 ) CONSTRAINT PK"
+      },
+      {
+        "id": "qiita:c3cee8fd28d9bc900453fd0d",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "クラウドセキュリティ",
+          "Security",
+          "責任共有モデル",
+          "初心者"
+        ],
+        "url": "https://qiita.com/yasu1109/items/0305fd1721b5dafe89fb",
+        "title": "AWSは日常的に触っているが、セキュリティ対策を何から決めて、どこまでやればいいのか整理できていないクラウド担当者へ。設計の流れからハンズオンまで通して学べる一冊",
+        "author": "yasu1109",
+        "published_at": "2026-11-25T13:43:42+09:00",
+        "excerpt": "AWSの環境は動いている。でも、セキュリティはどこまでやれば足りているのか、何から決めればいいのか、と聞かれると答えに詰まる。そんな状態のときに頼りになるのが『AWSではじめるクラウドセキュリティ』だ。AWSを題材に、セキュリティの考え方から設計、実装までを順番にたどれる。 まず、セキュリティを「業務」として捉え直す 第1部は基礎編だ。セキュリティの基本や、その業務の中身、クラウド特有の責任共有モデルの考え方を整理する。ツールの名前を覚える前に、何をする仕事なのかを一度言葉にできるのがありがたい。 設計と実装を、識別・防御・検知・対応で回す 第2部では、セキュリティの設計と実装の流れ、そして仕組みづくりを扱う。AWSを使い始めるときに押さえておきたい初期設定から入り、「識別」「防御」「検知」「対応・復旧」という業務の単位で、組織的な活動を具体的に説明していく。バラバラに知っていた設定が、一つの運用の流れとして並び替わる。 代表的なサービスで、手を動かして確かめる 第3部は実践編で、AWSの代表的なセキュリティサービスを使った防御、検知、対応を、ハ"
+      },
+      {
         "id": "qiita:08edfe9cff45b819664086ce",
         "source": "qiita",
         "author_tags": [
@@ -71498,6 +71686,86 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:0c9e75e877bf5d7b81a5614d",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "cybersecurity",
+          "identity-security",
+          "vulnerability-management",
+          "ciso"
+        ],
+        "url": "https://amitspitzer.medium.com/twenty-four-check-point-servers-got-hacked-by-agentic-ai-d9fa1e2cb3b9",
+        "title": "Twenty-Four Check Point Servers Got Hacked by “Agentic AI.”",
+        "author": "Amit Spitzer",
+        "published_at": "2026-11-25T05:20:37+00:00",
+        "excerpt": "GreyNoise published a report this week describing a threat actor, tracked as GT13, that broke into Check Point Security Management servers… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d1db8819e36ef40939b9a4ac",
+        "source": "medium",
+        "author_tags": [
+          "data-breach-protection",
+          "cybersecurity",
+          "online-privacy",
+          "cyber-attack-protection",
+          "cloud-security"
+        ],
+        "url": "https://medium.com/@asmakirn10/from-the-hostel-tv-lounge-to-the-cia-hack-story-of-an-evening-dbf31da2d3e9",
+        "title": "From the Hostel TV Lounge to the CIA Hack — Story of an Evening",
+        "author": "Janimini",
+        "published_at": "2026-11-25T05:07:12+00:00",
+        "excerpt": "Subtitle: Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ade499536eefb0c6c841deb4",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "account-takeover",
+          "session-management",
+          "bug-bounty",
+          "hackerone"
+        ],
+        "url": "https://masimshahzad.medium.com/hackerone-account-takeover-the-20k-leaked-cookie-4e97e094b7e7",
+        "title": "HackerOne Account Takeover: The $20K Leaked Cookie",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-25T05:06:33+00:00",
+        "excerpt": "A HackerOne analyst pasted a live session cookie into a report reply. A hacker reused it, saw customer reports, and earned $20,000 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dfea9544526a38d5be6d6b0a",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "information-security",
+          "network-security",
+          "cybersecurity",
+          "firewall"
+        ],
+        "url": "https://medium.com/@kazemmortazavi/when-the-firewall-manager-becomes-the-target-lessons-from-the-gt13-intrusion-campaign-3305f4a71237",
+        "title": "When the Firewall Manager Becomes the Target: Lessons From the GT13 Intrusion Campaign",
+        "author": "Kazem Mortazavi",
+        "published_at": "2026-11-25T05:04:57+00:00",
+        "excerpt": "When we talk about firewall security, we usually think about rules and signatures, not about the server that stores all of those rules. A… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:98334a321a602cc3916ab621",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "microsoft",
+          "cybersecurity",
+          "authentication",
+          "azure"
+        ],
+        "url": "https://masimshahzad.medium.com/azure-ad-misconfiguration-the-40k-bing-takeover-e36d49bacfa6",
+        "title": "Azure AD Misconfiguration: The $40K Bing Takeover",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-25T05:01:08+00:00",
+        "excerpt": "Microsoft paid Wiz $40,000: a multi-tenant Bing CMS let any Azure account log in and edit live search results Continue reading on Medium »"
+      },
       {
         "id": "medium:2b0868e092841b51cff5380e",
         "source": "medium",
