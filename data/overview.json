@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-26T21:10:18.810118+00:00",
-  "as_of": "2026-11-26T21:00:00+00:00",
+  "generated_at": "2026-11-26T22:12:50.107776+00:00",
+  "as_of": "2026-11-26T22:00:00+00:00",
   "catalog_count": 27478,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -173,7 +173,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-27T00:52:02.609054+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-57d73d788295d6a09683ff8b",
       "primary_category": "threat_campaign",
       "public_article_id": "url:57d73d788295d6a09683ff8b",
@@ -206,7 +206,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-27T00:23:11.167123+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-0574110d7d17666e48071c3c",
       "primary_category": "supply_chain",
       "public_article_id": "url:0574110d7d17666e48071c3c",
@@ -515,11 +515,44 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000170.html",
+      "cves": [
+        "CVE-2026-116089",
+        "CVE-2026-120268",
+        "CVE-2026-120962",
+        "CVE-2026-134903"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T18:24:02.908822+09:00",
+      "heat_score": 64.12,
+      "permalink_id": "article-url-867b3f34b4fe4d01e91882a7",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:867b3f34b4fe4d01e91882a7",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-26T12:17:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "baserCMSユーザー会が提供するbaserCMSには、次の複数の脆弱性が存在します。 サーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-116089 信頼できない入力値に依存したセキュリティ判断（CWE-807）- CVE-2026-120268 サイト内検索結果におけるクロスサイトスクリプティング（CWE-79）- CVE-2026-120962 メールフォームの送信後リダイレクトURLにおけるクロスサイトスクリプティング（CWE-79）- CVE-2026-134903 CVE-2026-116089、CVE-2026-120268 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：臼井翔大 氏 CVE-2026-120962 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：三井物産セキュアディレクション株式会社 松瀬椋介 氏 株式会社ナインステクノロジーズ 吉丸 亨 氏 CVE-2026-134903 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社IHI 碓氷 真之 氏",
+      "summary_excerpt": "baserCMSユーザー会が提供するbaserCMSには、次の複数の脆弱性が存在します。 サーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-116089 信頼できない入力値に依存したセキュリティ判断（CWE-807）- CVE-2026-120268 サイト内検索結果におけるクロスサイトスクリプティング（CWE-79）- CVE-2026-120962 メールフォームの送信後リダイレクトURLにおけるクロスサイトスクリプティング（CWE-79）- CVE-2026-134903 CVE-2026-116089、CVE-2026-120268 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：臼井翔大 氏 CVE-2026-120962 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：三井物産セキュアディレクション株式会社 松瀬椋介 氏 株式会社ナインステクノロジーズ 吉丸 亨 氏 CVE-2026-134903 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：",
+      "threat_actors": [],
+      "title": "baserCMSにおける複数の脆弱性"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-27T00:52:02.609054+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-57d73d788295d6a09683ff8b",
       "primary_category": "threat_campaign",
       "public_article_id": "url:57d73d788295d6a09683ff8b",
@@ -545,44 +578,6 @@
       "summary_excerpt": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
       "threat_actors": [],
       "title": "Remus malware steals Gmail messages via fake Google Sheets extension"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T00:23:11.167123+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-0574110d7d17666e48071c3c",
-      "primary_category": "supply_chain",
-      "public_article_id": "url:0574110d7d17666e48071c3c",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "supply_chain",
-          "label": "Supply Chain"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        },
-        {
-          "color_family": "red",
-          "key": "ttp",
-          "label": "TTP"
-        }
-      ],
-      "published_at": "2026-11-27T00:13:41+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
-      "summary_excerpt": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
-      "threat_actors": [],
-      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware"
     }
   ],
   "rising": [],
@@ -934,19 +929,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-23T21:00:00+00:00",
-    "last_as_of": "2026-11-26T21:00:00+00:00",
+    "first_as_of": "2026-11-23T22:00:00+00:00",
+    "last_as_of": "2026-11-26T22:00:00+00:00",
     "unique_snapshots_used": 68,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-26T21:00:00+00:00",
-  "heat_as_of": "2026-11-26T21:00:00+00:00",
+  "news_as_of": "2026-11-26T22:00:00+00:00",
+  "heat_as_of": "2026-11-26T22:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27478,
-  "last_published_at": "2026-11-27T06:10:32.287264+09:00",
-  "publication_slot_jst": "2026-11-27T06:00:00+09:00"
+  "last_published_at": "2026-11-27T07:13:03.554309+09:00",
+  "publication_slot_jst": "2026-11-27T07:00:00+09:00"
 }
