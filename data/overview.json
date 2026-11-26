@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-26T12:12:56.320778+00:00",
-  "as_of": "2026-11-26T12:00:00+00:00",
-  "catalog_count": 27463,
+  "generated_at": "2026-11-26T14:26:47.019805+00:00",
+  "as_of": "2026-11-26T14:00:00+00:00",
+  "catalog_count": 27469,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,151 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193302",
+      "cves": [],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T22:40:37.742430+09:00",
+      "heat_score": 61.75,
+      "permalink_id": "article-url-4c1bfd519f093aa5926f12d4",
+      "primary_category": "other",
+      "public_article_id": "url:4c1bfd519f093aa5926f12d4",
+      "public_tags": [],
+      "published_at": "2026-11-26T22:09:09+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "NVIDIAは、AI向けのストレージ基盤「NVIDIA AIStore」に関するセキュリティアドバイザリを公開した。",
+      "summary_excerpt": "NVIDIAは、AI向けのストレージ基盤「NVIDIA AIStore」に関するセキュリティアドバイザリを公開した。",
+      "threat_actors": [],
+      "title": "AI向けストレージ基盤「NVIDIA AIStore」に複数の脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "cves": [
+        "CVE-2026-103406"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T22:40:38.330407+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e5ae44210f7d499350fbf829",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e5ae44210f7d499350fbf829",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-26T22:04:06+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/26/keenadu-malware-android-devices/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T22:40:17.243740+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-510743348e705864f3000aae",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:510743348e705864f3000aae",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        },
+        {
+          "color_family": "neutral",
+          "key": "ics",
+          "label": "ICS"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cisa_ics_advisory",
+          "label": "ICS Advisory"
+        }
+      ],
+      "published_at": "2026-11-26T21:57:58+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one of the two families behind most of these infections, landed on more than 220,000 devices in the first ten months of 2026. Together with the older Triada family, it turned up on 88% of devices … More → The post Preinstalled Keenadu malware turns up on 220,000+ Android devices appeared first on Help Net Security .",
+      "summary_excerpt": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one of the two families behind most of these infections, landed on more than 220,000 devices in the first ten months of 2026. Together with the older Triada family, it turned up on 88% of devices … More → The post Preinstalled Keenadu malware turns up on 220,000+ Android devices appeared first on Help Net Security .",
+      "threat_actors": [],
+      "title": "Preinstalled Keenadu malware turns up on 220,000+ Android devices"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193385",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T22:40:37.959458+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-4a1a535e342eb86f7d58fd93",
+      "primary_category": "other",
+      "public_article_id": "url:4a1a535e342eb86f7d58fd93",
+      "public_tags": [],
+      "published_at": "2026-11-26T21:40:03+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "ソフトウェア開発の自動化ツール「Jenkins」の複数プラグインに脆弱性が明らかとなった。「クリティカル」とされる脆弱性も含まれる。",
+      "summary_excerpt": "ソフトウェア開発の自動化ツール「Jenkins」の複数プラグインに脆弱性が明らかとなった。「クリティカル」とされる脆弱性も含まれる。",
+      "threat_actors": [],
+      "title": "「Jenkins」の11プラグインに脆弱性 - 修正版を提供"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/hugging-face-ai-builder-phishing/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T22:40:19.169060+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-3074135645eac7115c5ccdbd",
+      "primary_category": "ai_security",
+      "public_article_id": "url:3074135645eac7115c5ccdbd",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-26T21:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "Aikido found 42 phishing pages on Hugging Face Spaces, two-thirds made with its AI site builder",
+      "summary_excerpt": "Aikido found 42 phishing pages on Hugging Face Spaces, two-thirds made with its AI site builder",
+      "threat_actors": [],
+      "title": "Phishers Abuse Hugging Face's AI Site Builder to Spoof Big Brands"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
@@ -129,162 +274,64 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/26/ransomware-recovery-fraud-florida-firm-co-founder-charged/",
+      "canonical_url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
       "cves": [],
       "document_form": "single_story",
-      "first_seen_at": "2026-11-26T19:22:46.247603+09:00",
+      "first_seen_at": "2026-11-26T21:23:07.714094+09:00",
       "heat_score": 65.0,
-      "permalink_id": "article-url-ede06ca0f2cf8233020ce39d",
-      "primary_category": "ransomware",
-      "public_article_id": "url:ede06ca0f2cf8233020ce39d",
+      "permalink_id": "article-url-54cc21ceab246c659a8305c8",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:54cc21ceab246c659a8305c8",
       "public_tags": [
         {
           "color_family": "red",
-          "key": "ransomware",
-          "label": "Ransomware"
+          "key": "threat_campaign",
+          "label": "Campaign"
         }
       ],
-      "published_at": "2026-11-26T18:59:07+09:00",
+      "published_at": "2026-11-26T19:57:55+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
       "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "The co-founder of a Florida data recovery firm has been indicted on charges that he secretly paid ransomware gangs while telling victims his company never did. Juan Ricardo Palacio Escobar, a 52-year-old Colombian national, was arrested in Las Vegas on October 22 and has been charged by a federal grand jury in the District of Rhode Island with three counts of wire fraud, each carrying a maximum of 20 years in prison, the US Department … More → The post Data recovery firm co-founder accused of cashing in on ransomware victims appeared first on Help Net Security .",
-      "summary_excerpt": "The co-founder of a Florida data recovery firm has been indicted on charges that he secretly paid ransomware gangs while telling victims his company never did. Juan Ricardo Palacio Escobar, a 52-year-old Colombian national, was arrested in Las Vegas on October 22 and has been charged by a federal grand jury in the District of Rhode Island with three counts of wire fraud, each carrying a maximum of 20 years in prison, the US Department … More → The post Data recovery firm co-founder accused of cashing in on ransomware victims appeared first on Help Net Security .",
+      "source_name": "The Hacker News",
+      "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user. How an",
+      "summary_excerpt": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user. How an",
       "threat_actors": [],
-      "title": "Data recovery firm co-founder accused of cashing in on ransomware victims"
-    },
-    {
-      "ai_relevance": "primary",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261126-5415074/",
-      "cves": [],
-      "document_form": "analysis",
-      "first_seen_at": "2026-11-26T19:38:25.493025+09:00",
-      "heat_score": 42.75,
-      "permalink_id": "article-url-1027de44d3808b9026ab325c",
-      "primary_category": "ai_security",
-      "public_article_id": "url:1027de44d3808b9026ab325c",
-      "public_tags": [
-        {
-          "color_family": "cyan",
-          "key": "ai_security",
-          "label": "AI Security"
-        }
-      ],
-      "published_at": "2026-11-26T18:50:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "YCC情報システムとNTTドコモビジネスは11月26日、YCC情報システムが、AIによるログ分析とセキュリティアラートへの自動対処を組み合わせた「AI SOC」を導入し、同月から本格運用を開始したと発表した。",
-      "summary_excerpt": "YCC情報システムとNTTドコモビジネスは11月26日、YCC情報システムが、AIによるログ分析とセキュリティアラートへの自動対処を組み合わせた「AI SOC」を導入し、同月から本格運用を開始したと発表した。",
-      "threat_actors": [],
-      "title": "YCC情報システム、「AI SOC」を本格運用 - AIでログ分析、脅威検知後の対処を自動化"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T18:24:20.827153+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-3f4e53c9791cfad64956e788",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:3f4e53c9791cfad64956e788",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-26T18:12:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap. The post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared first on SecurityWeek .",
-      "summary_excerpt": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap. The post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T17:52:03.457830+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-022e83af403003b93c046431",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:022e83af403003b93c046431",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-26T17:32:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed. The post 1Password Breach Exposes Customer Data, Internal Source Code appeared first on SecurityWeek .",
-      "summary_excerpt": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed. The post 1Password Breach Exposes Customer Data, Internal Source Code appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "1Password Breach Exposes Customer Data, Internal Source Code"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/26/news049.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T18:23:26.215046+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-0aecf42ca0066334f9ab5611",
-      "primary_category": "other",
-      "public_article_id": "url:0aecf42ca0066334f9ab5611",
-      "public_tags": [],
-      "published_at": "2026-11-26T17:15:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "@IT Security & Trust",
-      "summary": "NordVPNは、情報窃取型マルウェアによるCookie流出の調査結果を発表した。世界で524億件超、日本国内でも約1.89億件の流出を確認。認証Cookieが盗まれると、パスワードやMFAを回避してアカウントを悪用される恐れがあり、注意が必要だ。",
-      "summary_excerpt": "NordVPNは、情報窃取型マルウェアによるCookie流出の調査結果を発表した。世界で524億件超、日本国内でも約1.89億件の流出を確認。認証Cookieが盗まれると、パスワードやMFAを回避してアカウントを悪用される恐れがあり、注意が必要だ。",
-      "threat_actors": [],
-      "title": "「パスワードを変えてもまだ危ない」　Cookie盗難524億件超え、必要な“もう一つ”の対策"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T17:22:55.457373+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-9bbd9ec06777c5b8357830e1",
-      "primary_category": "other",
-      "public_article_id": "url:9bbd9ec06777c5b8357830e1",
-      "public_tags": [],
-      "published_at": "2026-11-26T17:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Dark Reading",
-      "summary": "A previously undocumented Iranian threat group called \"Volant Manticore\" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.",
-      "summary_excerpt": "A previously undocumented Iranian threat group called \"Volant Manticore\" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.",
-      "threat_actors": [],
-      "title": "Cyprus Becomes Espionage Target for Iranian Hackers"
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls"
     }
   ],
   "hottest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "cves": [
+        "CVE-2026-103406"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T22:40:38.330407+09:00",
+      "heat_score": 75.0,
+      "permalink_id": "article-url-e5ae44210f7d499350fbf829",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e5ae44210f7d499350fbf829",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-26T22:04:06+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
@@ -294,7 +341,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-26T17:23:16.722425+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-61e3be14c2b6cad929efba69",
       "primary_category": "vulnerability",
       "public_article_id": "url:61e3be14c2b6cad929efba69",
@@ -324,7 +371,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-26T17:23:16.943593+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-451f3a785e324bf13d51d4b9",
       "primary_category": "vulnerability",
       "public_article_id": "url:451f3a785e324bf13d51d4b9",
@@ -408,153 +455,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
-      "cves": [
-        "CVE-2026-132165"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T23:24:03.637862+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-d5ac462891f1f2d17a01bd57",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:d5ac462891f1f2d17a01bd57",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T22:37:28+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) app",
-      "threat_actors": [],
-      "title": "Critical Drupal installer flaw under active attack (CVE-2026-132165)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-      "cves": [
-        "CVE-2026-120705",
-        "CVE-2026-129243"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T23:24:19.570291+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-27873297949c895bf89f668a",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:27873297949c895bf89f668a",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T21:48:54+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
-      "summary_excerpt": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
-      "threat_actors": [],
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter/",
-      "cves": [
-        "CVE-2026-123890",
-        "CVE-2026-123903",
-        "CVE-2026-123904",
-        "CVE-2026-123905",
-        "CVE-2026-123906",
-        "CVE-2026-123907",
-        "CVE-2026-123908",
-        "CVE-2026-123909"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T21:53:21.588577+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-fe10fe23d41e5ae7180777d5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:fe10fe23d41e5ae7180777d5",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "published_at": "2026-11-25T21:19:20+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was reported as being exploited in the wild. Both of these vulnerabilities affect the VMware Directory Service in vCenter and can give an attacker access to the vCenter without credentials. CVE-2026-123890 was reachable over RPC while CVE-2026-123903 is reachable over LDAP. As of this writing, there are no known public reports of exploitation of CVE-2026-123903 in the wild. A public proof-of-concept exploit is available and has been validated by Rapid7 to successfully achieve an authentication bypass. Attackers are known to be targeting vulnerabilities in the VMware Directory Service, therefore Rapid7 recommends remediating exposed systems on an urgent basis outside of normal patching cycles. Mitigation guidance Vendor updates are available for CVE-2026-123903. Broadcom lists no workaround , and these vCenter updates are not eligible for Quick Patch. Rapid7 recommends updating affected deployments on an urgent basis, outside normal patch cycles, using the standard update mechanism for the deployment. Broadcom lists the following available fixed versions to remediating CVE-2026-123903. These fixed versions also remediate several other high and medium severity CVEs from the same advisory (CVE-2026-123904, CVE-2026-123905, CVE-2026-123906, CVE-2026-123907, CVE-2026-123908, CVE-2026-123909): VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation, VMware vSphere Foundation 9.1.x.x 9.1.2 VMware Cloud Foundation, VMware vSphere Foundation 9.0.x.x 9.0.2.0300 VMware vCenter 8.0 8.0 U3m VMware vCenter 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0 , 4.x , 5.0.x , 5.1.x , 5.2 KB463501 VMware Telco Cloud Infrastructure 3.0 KB463501 Note that if vCenter 8.0 U3m was previously installed when remediating CVE-2026-123890, it also fixes CVE-2026-123903 and no further vCenter update is needed. For the latest affected-version and remediation guidance, refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, Vulnerability Management (InsightVM), and Nexpose customers can assess exposure to CVE-2026-123903 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the November 25, 2026 content release. Intelligence Hub Customers leveraging Rapid7’s Intelligence Hub can access Suricata detection rules for detection of the public CVE-2026-123903 exploit. Updates November 25, 2026: Initial publication. November 25, 2026: Add Intelligence Hub section.",
-      "summary_excerpt": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was r",
-      "threat_actors": [],
-      "title": "CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
-      "cves": [
-        "CVE-2023-25914",
-        "CVE-2023-25915",
-        "CVE-2025-41450",
-        "CVE-2026-103406",
-        "CVE-2026-133275",
-        "CVE-2026-133303",
-        "CVE-2026-133311",
-        "CVE-2026-133323",
-        "CVE-2026-133324",
-        "CVE-2026-133469"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T07:23:57.305898+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-c0fdeca5bfd2c130fa490b12",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:c0fdeca5bfd2c130fa490b12",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability CVE-2025-41450 Danfoss AK-SM 800A Series Improper Authentication Vulnerability CVE-2026-103406 Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability CVE-2026-133275 Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-133303 Mitel MiCollab XML Injection Vulnerability CVE-2026-133311 Mitel MiCollab Weak Authentication Vulnerability CVE-2026-133323 Mitel MiCollab OS Command Injection Vulnerability CVE-2026-133324 Mitel MiCollab Not Failing Securely Vulnerability CVE-2026-133469 Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-      "summary_excerpt": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability CVE-2025-41450 Danfoss AK-SM 800A Series Improper Authentication Vulnerability CVE-2026-103406 Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability CVE-2026-133275 Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability C",
-      "threat_actors": [],
-      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
       "cves": [],
       "document_form": "single_story",
@@ -574,6 +474,71 @@
       "summary_excerpt": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
       "threat_actors": [],
       "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/26/keenadu-malware-android-devices/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T22:40:17.243740+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-510743348e705864f3000aae",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:510743348e705864f3000aae",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        },
+        {
+          "color_family": "neutral",
+          "key": "ics",
+          "label": "ICS"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cisa_ics_advisory",
+          "label": "ICS Advisory"
+        }
+      ],
+      "published_at": "2026-11-26T21:57:58+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one of the two families behind most of these infections, landed on more than 220,000 devices in the first ten months of 2026. Together with the older Triada family, it turned up on 88% of devices … More → The post Preinstalled Keenadu malware turns up on 220,000+ Android devices appeared first on Help Net Security .",
+      "summary_excerpt": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one of the two families behind most of these infections, landed on more than 220,000 devices in the first ten months of 2026. Together with the older Triada family, it turned up on 88% of devices … More → The post Preinstalled Keenadu malware turns up on 220,000+ Android devices appeared first on Help Net Security .",
+      "threat_actors": [],
+      "title": "Preinstalled Keenadu malware turns up on 220,000+ Android devices"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193385",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T22:40:37.959458+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-4a1a535e342eb86f7d58fd93",
+      "primary_category": "other",
+      "public_article_id": "url:4a1a535e342eb86f7d58fd93",
+      "public_tags": [],
+      "published_at": "2026-11-26T21:40:03+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "ソフトウェア開発の自動化ツール「Jenkins」の複数プラグインに脆弱性が明らかとなった。「クリティカル」とされる脆弱性も含まれる。",
+      "summary_excerpt": "ソフトウェア開発の自動化ツール「Jenkins」の複数プラグインに脆弱性が明らかとなった。「クリティカル」とされる脆弱性も含まれる。",
+      "threat_actors": [],
+      "title": "「Jenkins」の11プラグインに脆弱性 - 修正版を提供"
     },
     {
       "ai_relevance": "none",
@@ -607,106 +572,38 @@
       "summary_excerpt": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
       "threat_actors": [],
       "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T20:53:29.284582+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-cc622f5f1349b4145e7fb236",
+      "primary_category": "ai_security",
+      "public_article_id": "url:cc622f5f1349b4145e7fb236",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-26T20:35:25+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks"
     }
   ],
   "rising": [],
   "persistent_hot": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-      "cves": [
-        "CVE-2026-84869"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T22:22:54.484174+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-2da724996ccb9ddbf7a504e3",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:2da724996ccb9ddbf7a504e3",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-23T21:41:04+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
-      "summary_excerpt": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
-      "threat_actors": [],
-      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "cves": [
-        "CVE-2026-133968",
-        "CVE-2026-134624"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-24T07:22:18.198989+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-75ea09ea3e752e0248bf3682",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:75ea09ea3e752e0248bf3682",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-23T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-      "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civil",
-      "threat_actors": [],
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-      "cves": [
-        "CVE-2026-134624"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T22:22:54.664614+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-89ef724f9ef49976c42f721d",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:89ef724f9ef49976c42f721d",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        }
-      ],
-      "published_at": "2026-11-23T21:28:09+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
-      "summary_excerpt": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
-      "threat_actors": [],
-      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation"
-    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044394.html",
@@ -844,37 +741,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
-      "cves": [
-        "CVE-2026-123890",
-        "CVE-2026-76466"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T22:22:48.767177+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-fd9364223ab8c3d095a8e062",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:fd9364223ab8c3d095a8e062",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-23T21:26:10+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog on Friday, along with CVE-2026-123890, a VMware vCenter authentication bypass vulnerability that has been exploited as a zero-day for months by a suspected China-nexus espionage group. About CVE-2026-76466 An unauthenticated remote attacker with network access … More → The post Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466) appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog on Friday, along with CVE-2026-123890, a VMware vCenter authentication bypass vulnerability that has been exploited as a zero-day for months by a suspected China-nexus espionage group. About CVE-2026-76466 An unauthenticated remote attacker with network access … More → The post Cisco Expresswa",
-      "threat_actors": [],
-      "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/24/2000003408/",
       "cves": [],
       "document_form": "single_story",
@@ -926,6 +792,123 @@
       "summary_excerpt": "Zoraxy Projectが提供するZoraxyには、次の複数の脆弱性が存在します。 管理画面のログビューア機能における格納型クロスサイトスクリプティング（CWE-79）- CVE-2026-105303 セッションCookieにHttpOnly属性を設定していない（CWE-1004）- CVE-2026-129544 ACMEチャレンジ用のルーティング処理におけるサーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-105304 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社ラック 池田 大樹 氏",
       "threat_actors": [],
       "title": "Zoraxyにおける複数の脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890/",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "document_form": "analysis",
+      "first_seen_at": "2026-11-24T22:53:30.973110+09:00",
+      "heat_score": 51.3,
+      "permalink_id": "article-url-be20fa7d2034085622b6f23d",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:be20fa7d2034085622b6f23d",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        },
+        {
+          "color_family": "red",
+          "key": "ttp",
+          "label": "TTP"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
+        }
+      ],
+      "published_at": "2026-11-24T22:01:25+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "Overview An unauthenticated attacker can retrieve the session key for an in-progress administrator login to VMware vCenter's directory service. The attacker then uses that key to complete the login without knowing the account's password. The vulnerable interface is exposed through DCE/RPC on TCP port 2012. The issue, tracked as CVE-2026-123890 , combines a Secure Remote Password (SRP) session-key getter that is callable before authentication with an RPC context lookup that does not enforce ownership. The context handles use predictable UUIDv1 values. By creating two reference contexts around a pending login, an attacker can narrow the hidden login handle to a short timestamp window and ask the server for its key. We reproduced the bypass against vCenter Server Appliance 8.0.2.00400, build 23929136 , running Photon OS 4.0, and leveraged the resulting administrator connection through to root command execution. SSH and Bash access were initially disabled. The attack recovered the directory database and its Security Token Service (STS) signing key, forged an administrator API session, and used appliance administration features to create an account and enable SSH. Neither the existing SSO password nor the root password was an input to that chain. Impact The attacker needs network access to TCP 2012 and the name of an existing SSO principal. Our PoC uses the default SSO administrator principal, administrator@vsphere.local ; deployments using a different SSO domain need the corresponding account name. The attack does not depend on an existing authenticated connection or an administrator being online. The attacker initiates the login attempt in order to recover its session key. The authenticated connection can call the directory database-copy interface. Its raw database contains the STS private signing key, allowing the attacker to sign administrator assertions that vCenter trusts. Our attack workflow used a forged assertion to create a local appliance superAdmin account, enable SSH and Bash, and execute commands as root through sudo. This final part requires access to the HTTPS API on TCP 443 and SSH on TCP 22, in addition to TCP 2012. It uses the administrative privileges obtained through the original bypass; no second vulnerability is needed once you have administrative RPC access. Technical Analysis Returning the key before checking the proof // vmdir/server/vmdir/rpcsrpserv.c long Srv_rpc_srp_verifier_get_session_key( handle_t hServer, srp_verifier_handle_t hSrp, rpc_p_srp_bytes_container ret_key_cont) { // ... struct SRPVerifier ver = (struct SRPVerifier *) hSrp; //[A1] rpc_p_srp_bytes_container key_cont = NULL; if (!ver) { sts = rpc_s_invalid_handle; goto error; } key = srp_verifier_get_session_key(ver, &key_len); // [A2] if (!key || key_len == 0) { sts = rpc_s_auth_nokey; goto error; } sts = _srp_bytes_container_allocate(key, key_len, &key_cont); if (sts) { goto error; } *ret_key_cont = key_cont; // [A3] // ... } The SRP RPC getter receives an SRP verifier at [A1], obtains its session key at [A2], and returns a copy at [A3]. It checks whether the verifier and key exist. It does not check whether the caller has authenticated, whether the caller owns the verifier, or whether the SRP client has supplied a valid password proof. The value at [A1] is a server-side pointer that the RPC runtime resolves from the context handle supplied in the request. Each newly created verifier context receives its own UUID, so the attacker needs the handle for the specific pending login they want to complete. These context UUIDs identify individual verifier instances; the fixed interface UUIDs identify the available RPC interfaces. UUIDv1 values contain a timestamp, clock sequence, and node identifier. The attacker creates a verifier immediately before starting the target login and another immediately afterward, obtaining both reference UUIDs without authenticating. On the tested service, the reference UUIDs share their clock sequence and node identifier. The attacker reuses those fields and searches the intervening timestamps for the pending login's live verifier, keeping the login connection open throughout the search. // vmdir/thirdparty/csrp/srp.c int srp_verifier_is_authenticated(struct SRPVerifier *ver) { return ver->authenticated; // [A4] } // ... const unsigned char *srp_verifier_get_session_key( struct SRPVerifier *ver, int *key_length) { if (key_length) *key_length = hash_length(ver->hash_alg); return ver->session_key; // [A5] } The underlying SRP library exposes the authentication flag separately at [A4]. Its key getter at [A5] does not consult that flag. The server has already computed the shared key while generating its challenge, because it needs that key to verify the client's proof. Returning it at this stage gives the client the secret needed to produce that proof. Resolving another connection's context // dcerpc/idl_lib/ctxeectx.c void rpc_ss_ee_ctx_from_wire( ndr_context_handle *p_wire_context, rpc_ss_context_t *p_context, volatile error_status_t *p_st) { // ... p_uuid = &p_wire_context->context_handle_uuid; // [B1] // ... nil-handle check and table lock ... this_link = &context_table[dce_uuid_hash(p_uuid, (error_status_t *)p_st) % CALLEE_CONTEXT_TABLE_SIZE]; // [B2] while (!dce_uuid_equal(p_uuid, &this_link->uuid, (error_status_t *)p_st)) { this_link = this_link->next_context; // ... reject a missing entry ... } *p_context = this_link->user_context; /* [B3] */ // ... } The RPC runtime takes the supplied UUID at [B1], searches a process-wide table at [B2], and returns the associated context at [B3]. There is no comparison with the requesting connection or its authenticated identity. Although context creation records a client for lifetime management, that client is not part of this lookup's authorization decision (hooray!!). We confirmed the boundary directly: one anonymous RPC connection created an SRP verifier, and a second anonymous connection retrieved that verifier's key before any password proof was sent. The first connection's context handle was enough to make the second connection's request succeed. The service registers the helper with a secure-interface flag and an authentication callback. On the tested TCP path, however, the RPC executor retrieves those registration values and dispatches the server stub without enforcing the callback. Other directory handlers perform their own access checks. The SRP key getter has no equivalent check, leaving it reachable before authentication. Predictable handles make the lookup usable // dcerpc/uuid/uuidsys.c void uuid__get_os_time(dce_uuid_time_t *uuid_time) { // ... if (gettimeofday(&tp, (struct timezone *)0)) // [C1] { perror(\"uuid__get_os_time\"); exit(-1); } uuid__uemul((long)tp.tv_sec, UUID_C_100NS_PER_SEC, &utc); uuid__uemul((long)tp.tv_usec, UUID_C_100NS_PER_USEC, &usecs); // [C2] UADD_UVLW_2_UVLW(&usecs, &utc, &utc); // ... add the UUID epoch offset ... The UUID timestamp generator reads the wall clock at [C1] and converts its microseconds into 100-nanosecond UUID ticks at [C2]. The resulting UUIDv1 handle also contains a clock sequence and node identifier. In our captures, those latter fields remain stable while newly created contexts advance through the timestamp space. vmdir manages this SRP authentication exchange through the Generic Security Service API (GSS-API), which provides a common interface for authentication mechanisms. Starting the login creates an SRP verifier internally, but the login client does not receive its context handle. An attacker can obtain reference handles by creating ordinary SRP verifiers through the helper interface. Creating one immediately before the GSS-API login and another immediately afterward bounds the timestamp of its hidden verifier. The shared node and clock-sequence fields then let the attacker construct candidate UUIDs within that interval. The default search advances in increments of ten UUID ticks, matching the clock's microsecond resolution. The generator also supports uniqueness adjustments within a clock tick, so the PoC includes a one-tick search mode. Clock changes, concurrent activity, and the chosen search bounds can affect recovery; exhausting the window does not establish that a target is patched. Exploit Narrowing the Search Window for a Pending Login The service exposes two relevant RPC interfaces on port 2012: Interface UUID Operations used SRP verifier helper c7e94609-6ab0-4767-8e92-b6485bff1649 Create verifier, retrieve key, delete verifier vmdirdbcp 72c780fe-af6b-42ba-9b02-f61f4ccc98ed SRP-authenticated bind, directory state, and database open/read/close The helper's operation numbers are 0 for verifier creation, 1 for key retrieval, and 4 for deletion. GetState is operation 4 on the separate vmdirdbcp interface. The interface UUID is therefore part of identifying an operation; the operation number alone is ambiguous. The client first creates a reference verifier, starts a separate SRP login as the target principal (e.g. administrator@vsphere.local), and creates the second reference verifier. It keeps the login connection open while querying candidate handles over another anonymous connection. These are all connections controlled by the attacker. GSS does not return the handle for its own verifier. A reference verifier for the same principal has a different session key, so retrieving that reference key does not complete the pending GSS login. We need the key from the verifier associated with the login connection; the reference handles only narrow the search for it. In the final standalone PoC test, the reference handles were: Before: 1d98c67a-e468-11f1-b101-000c29451b35 Hidden: 1d99c43a-e468-11f1-b101-000c29451b35 After: 1d9a8a14-e468-11f1-b101-000c29451b35 The interval between the reference timestamps was 115,610 UUID ticks, or about 11.56 milliseconds. The search recovered the hidden handle shown above after 5,083 queries. Four workers issued the queries in that Python test, so the count includes requests that were already in flight when the match was found. The SRP verifier helper returns the pending login's actual 20-byte session key. The attack does not need a weak password, a password hash from disk, or an invalid SRP public value. Completing SRP with the disclosed key M1 = SHA1((SHA1(N) XOR SHA1(g)) || SHA1(I) || s || A || B || K) HAMK = SHA1(A || M1 || K) Here, I is the requested principal, N and g are the SRP group parameters, s is the server's salt, and A and B are the public values exchanged during login. The server sends s alongside B in its initial SRP challenge, before the client supplies a password proof. The salt is public: a legitimate client uses it with the password to derive the values needed for authentication. The client already has all of these inputs except K . Once the key getter supplies K , the client can calculate the normal client proof, M1 , and verify the server's response, HAMK . The attack does not need a weak password, a password hash from disk, or an invalid SRP public value. Our client uses the valid public value A = 2 in the normal 2048-bit group. The reference verifiers use the cheaper 1024-bit group only to obtain the timing bounds. The implementation hashes minimal big-endian integer representations. On the tested build, the returned B is 276 bytes because CSRP serializes k*v + g^b without first reducing the sum modulo N . Reducing or truncating that returned value while building the transcript produces the wrong proof. The successful mechanism on this build is the legacy SRP OID 1.2.840.113554.1.2.10 . Its token framing also differs from a conventional GSS wrapper: the outer length covers the OID, with the SRP state token following it. The client carries the exchange in SPNEGO bind and ALTER_CONTEXT messages, using RPC packet privacy. Matching that framing is necessary to reach the vulnerable authentication flow. Proving the authenticated connection The client derives packet-protection keys from the recovered SRP key using the server's normal implementation. PBKDF2-HMAC-SHA1 expands the key into 64 bytes using the principal as salt and 128 iterations. Those bytes supply an IV, material for the Kerberos AES-256 string-to-key operation, and a 16-byte HMAC key. RPC stubs are encrypted with AES-CBC and authenticated with HMAC-SHA1 over the ciphertext. PoC output: {\"time\": \"2026-11-19T22:25:25.919835+00:00\", \"event\": \"session_key_disclosed\", \"uuid\": \"1d99c43a-e468-11f1-b101-000c29451b35\", \"key\": \"1f1476617a050b8e30388e0f58ed80d83f01aa02\", \"guesses\": 5083, \"seconds\": 0.8774298130301759} {\"time\": \"2026-11-19T22:25:25.952425+00:00\", \"event\": \"srp_authentication_complete\", \"username\": \"administrator@vsphere.local\", \"M1\": \"af03ad96cb799381bf8e9a30a412b4371e24729d\", \"HAMK\": \"537b2d5753f213304824551077bddd51ed6693ae\", \"password_supplied\": false} {\"time\": \"2026-11-19T22:25:26.226964+00:00\", \"event\": \"protected_rpc_result\", \"operation\": \"RpcVmDirGetState\", \"state\": 3, \"status\": 0, \"plaintext\": \"0300000000000000\"} We used RpcVmDirGetState to test the resulting connection to 192.168.1.81 . An anonymous request returned status 5, ACCESS_DENIED . The authenticated request above returned 0300000000000000 : the little-endian directory state, 3 ( Normal ), followed by the operation's success status, 0. The PoC checked the server's SRP proof and the encrypted response's MAC before accepting the result. Key recovery took approximately 0.88 seconds in this run. The complete test retained the original RPC traffic and a packet capture with 15,343 packets and zero kernel drops. This brings us to the end of exploiting CVE-2026-123890. We have demonstrated how we can authenticate to VMware vCenter's directory service as the administrator user and will now outline how that access can be used to get root access to the device. Reading the directory database vmdir/server/vmdir/rpcserv.c , Srv_RpcVmDirOpenDatabaseFile : // vmdir/server/vmdir/rpcserv.c UINT32 Srv_RpcVmDirOpenDatabaseFile( handle_t hBinding, PWSTR pwszDBFileName, vmdir_dbcp_handle_t *ppFileHandle) { // ... DWORD dwRpcFlags = VMDIR_RPC_FLAG_ALLOW_TCPIP | VMDIR_RPC_FLAG_REQUIRE_AUTH_TCPIP | VMDIR_RPC_FLAG_REQUIRE_AUTHZ; // ... dwError = _VmDirRPCCheckAccess(hBinding, dwRpcFlags, pszDomainDn, &pAccessToken); // [D1] BAIL_ON_VMDIR_ERROR(dwError); // ... validate arguments and convert the filename ... dwError = _VmDirRemoteDBCopyWhiteList(pszDBFileName); // [D2] BAIL_ON_VMDIR_ERROR(dwError); // ... if ((pFileHandle = fopen(pszDBFileName, \"rb\")) == NULL) { // ... report the open failure and take the error path ... } *ppFileHandle = pFileHandle; // [D3] // ... The database-copy handler requires authentication and authorization at [D1]. The earlier bypass satisfies those checks as the SSO administrator. The filename passes a database-path allowlist at [D2], and the handler returns a file context at [D3]. We requested /storage/db/vmware-vmdir/data.mdb through that interface. The IDL assigns operation 0 to open, 1 to read, and 2 to close. The open request carries a reference wide string and an initially empty context handle. Each read supplies the returned context, a byte count, and an empty output container. Reads continue until the server returns a zero byte count. Our first complete export contained 16.22 MB. We used 2,048-byte reads so the response, encryption padding, and verifier fit into a single RPC fragment. The directory stayed in state 3, Normal ; we did not call RpcVmDirSetBackendState or take the service offline. These calls copy the live file rather than producing a transaction-consistent backup. The downloaded file contained the signing credential needed for the next step. Signing an administrator API assertion The TenantCredential-1 record in data.mdb contains the STS RSA private key and its certificate chain. Metasploit already provides extraction and SAML-signing code in vcenter_offline_mdb_extract and vcenter_forge_saml_token . We reused those implementations, matched the signing certificate to the recovered private key, and verified its VMCA issuer. The signed assertion identifies administrator@vsphere.local and carries the existing template's administrator group claims, including SystemConfiguration.Administrators . The issuer uses the appliance's STS identity, and the assertion includes a short validity window. Once the XML is signed, changing its whitespace can invalidate the digest, so the client preserves its compact serialization. lib/msf/core/exploit/remote/http/vmware_vcenter.rb , API login: token = Base64.strict_encode64(Zlib.gzip(assertion)) # [E1] response = vcenter_api_request( 'POST', %w[com vmware cis session], port: port, host: host, headers: { 'Authorization' => \"SIGN token=\\\"#{token}\\\"\" } ) session_id = vcenter_api_value(response) # [E2] The client gzip-compresses and Base64-encodes the assertion at [E1], following the vendor REST SDK's SAML login example . A successful POST /rest/com/vmware/cis/session returns the API session ID at [E2]. Subsequent requests carry it in the vmware-api-session-id header. Our forged assertion returned HTTP 200 and authorized reads of the appliance's SSH and Bash settings. From the appliance API to root The authenticated API session gives us a way to create credentials that SSH will accept. We created a fresh local account through the appliance local-accounts API , assigning the superAdmin role. This is an operating-system account on the appliance; creating it does not require changing an existing account's password. The tested build accepts the account-creation request through the legacy REST route POST /rest/appliance/local-accounts/<username> , with its configuration inside a config object. The configuration supplies the generated password, roles: [\"superAdmin\"] , and enabled: true . The same API session enables SSH with PUT /rest/appliance/access/ssh and {\"enabled\":true} , then enables Bash with PUT /rest/appliance/access/shell and {\"config\":{\"enabled\":true,\"timeout\":600}} . /etc/sudoers.d/applmgmt on the tested appliance: %superAdmin ALL= PASSWD: ALL, NOPASSWD: OPERATOR_N, ADMINISTRATOR_N That sudo rule allows the new account to run commands as root using its own generated password. An SSH login initially enters the appliance CLI, so the client requests a PTY and starts shell /bin/bash . After answering the appliance's sudo password prompt, it starts sudo -n /bin/bash -i on the same terminal. The sudo timestamp from that authentication permits the retained root shell. We verified uid=0(root) gid=0(root) groups=0(root),4044(shellaccess) through the resulting SSH connection. This account and password were created by the forged API session; the supplied lab root credentials were used separately for inspection and were not used to obtain this shell. Using the sessions in Metasploit [*] 192.168.1.81:2012 - Recovered the pending session key after 17337 guesses in 8.12 seconds [*] 192.168.1.81:2012 - Recovered context 688f5878-e487-11f1-b101-000c29451b35, key f56a33e23fad8b8d340c8ca0887aebe1fb793bab [+] 192.168.1.81:2012 - Authenticated as administrator@vsphere.local without a password; protected directory state: 3 [+] 192.168.1.81:2012 - Saved authentication evidence to /Users/jheysel/codex_research/vsphere_armory_castle_20261119/metasploit/config/loot/20261119190933_default_192.168.1.81_vmware.vmdir.srp_059381.json [*] VMware directory RPC session 3 opened (192.168.1.70:61547 -> 192.168.1.81:2012) at 2026-11-19 19:09:34 -0700 [*] 192.168.1.81:2012 - Interacting with vmdir session 3; use background to return to msfconsole vmdir > whoami Authenticated SSO principal: administrator@vsphere.local vmdir > state Directory state: 3 vmdir > state Directory state: 3 The Metasploit module separates the inexpensive key-disclosure check from the full authentication attempt. check creates an owned verifier and asks for its key through a second anonymous association. run then performs the pending-login search, completes SRP, and verifies the protected operation. The module's default RPC action retains the authenticated association and exposes a vmdir > prompt with state and whoami commands. Selecting ACTION SHELL continues through database export, SAML API authentication, and SSH to a root command shell. The fresh end-to-end test produced the following output: [+] 192.168.1.81:2012 - Root execution verified: uid=0(root) gid=0(root) groups=0(root),4044(shellaccess) [*] Command shell session 1 opened (192.168.1.70:62059 -> 192.168.1.81:22) at 2026-11-20 07:48:25 -0700 ... [*] 192.168.1.81:2012 - Interacting with shell session 1; use background to return to msfconsole ... root [ /home/sebastian-fritsch ]# id uid=0(root) gid=0(root) groups=0(root),4044(shellaccess) CreateSession defaults to true for either action. We resumed the root shell and ran id to show root access before exiting. The shell action saves the generated account credentials and original SSH/Bash settings before changing the appliance. It retains the temporary account and access settings while the session is open. On exit, it closes SSH, restores the original settings, and deletes its account through the API. The order matters: the appliance refuses to delete an account that still has running processes, and disabling SSH terminates active connections. Closing the console abruptly can prevent cleanup; the saved recovery details identify the account and settings to restore. Detection opportunities The unauthenticated key queries are visible before the client establishes packet privacy. Useful network evidence includes repeated calls to operation 1 on the SRP helper interface, with no RPC authentication verifier and context UUIDs that differ mainly in their timestamp fields. In our reproduction, those queries occur between the pending login's initial bind and its SRP proof continuation. The helper interface UUID, operation number, authentication state, query volume, and UUID pattern are useful together. A connection to port 2012 or an administrator SRP login on its own does not establish exploitation. The appliance also retains evidence of the database export and subsequent administration. We recovered the following records from the same vCenter 8.0.2.00400 appliance after the test accounts had been removed. /var/log/vmware/vmdird/vmdird-syslog.log : 2026-11-20T14:45:46.792144+00:00 info vmdird t@140450245629504: Remote DB transfer (/storage/db/vmware-vmdir/data.mdb) granted. The directory service records this message when its filename allowlist grants a remote database-copy request. It identifies the requested database, but does not include the caller's address or prove that the transfer completed. An unexpected grant for data.mdb provides a timestamp to correlate with network traffic and the later API activity; legitimate directory replication can also use this interface. The SRP bypass can occur without a database-copy request, so this entry identifies the export stage. /var/log/vmware/vapi/endpoint/endpoint-access.log : 2026-11-20T14:48:08.065Z | vAPI-I/O dispatcher-0 | e97ae44e-a503-4b58-9b68-1168c80e89c6 | 192.168.1.70 - - [20/Nov/2026:14:48:07 +0000] \"POST /rest/appliance/local-accounts/sebastian-fritsch HTTP/1.1\" 200 0 \"-\" \"Mozilla/5.0 (iPad; CPU OS 17_7_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1\" 233 The API access log records the source address, request path, status, and user-agent. This request creates the account used by the root-shell stage. The same file contains our POST /rest/com/vmware/cis/session , PUT /rest/appliance/access/ssh , PUT /rest/appliance/access/shell , and eventual account-deletion requests. An HTTP 200 on a settings request does not reveal which value was applied, so the appliance management log supplies the next part of the sequence. /var/log/vmware/applmgmt/applmgmt.log : 2026-11-20T14:48:07 PM UTC [47843]INFO:vmware.appliance.localaccounts.localaccounts_impl:Administrator@VSPHERE.LOCAL created the local account user sebastian-fritsch 2026-11-20T14:48:09 PM UTC [47843]DEBUG:root:com.vmware.appliance.version1.access.ssh.set(enable=True) 2026-11-20T14:48:10 PM UTC [47843]DEBUG:root:com.vmware.appliance.version1.access.shell.set(config=Structure('ShellConfig', dict(enabled=True, timeout=600))) 2026-11-20T14:49:34 PM UTC [47843]INFO:vmware.appliance.localaccounts.localaccounts_impl:Administrator@VSPHERE.LOCAL deleted the local account user sebastian-fritsch. These records identify Administrator@VSPHERE.LOCAL as the account creator and show SSH and Bash being enabled. The configuration values appear in DEBUG-level records on the tested appliance; the account creation and deletion records are INFO-level. The forged SAML session is treated as an administrator session, so that identity alone does not distinguish it from legitimate administration. /var/log/audit/sshinfo.log.1.gz , decompressed: 2026-11-20T14:48:12.368544+00:00 node-1w7jr9qrllzwd9vncrrr8zlf9 sshd[592859]: Accepted password for sebastian-fritsch from 192.168.1.70 port 62059 ssh2 2026-11-20T14:48:17.298091+00:00 node-1w7jr9qrllzwd9vncrrr8zlf9 sudo: sebastian-fritsch : TTY=pts/0 ; PWD=/home/sebastian-fritsch ; USER=root ; COMMAND=/bin/bash -i 2026-11-20T14:49:34.208901+00:00 node-1w7jr9qrllzwd9vncrrr8zlf9 userdel[593806]: delete user 'sebastian-fritsch' The SSH and sudo records tie the new account to the API client's address and a root Bash shell. They also retain the deletion performed during cleanup. Search sshinfo.log and its rotated copies; these entries had moved into sshinfo.log.1.gz by the time we collected them. Matching records are also available through the system journal. /var/log/audit/audit.log: type=EXECVE msg=audit(1795186087.886:3732): argc=6 a0=\"/usr/sbin/useradd\" a1=\"-m\" a2=\"-G\" a3=\"superAdmin\" a4=\"--\" a5=\"sebastian-fritsch\" type=EXECVE msg=audit(1795186097.286:3767): argc=4 a0=\"sudo\" a1=\"-n\" a2=\"/bin/bash\" a3=\"-i\" Linux audit records preserve the command arguments for adding the user to superAdmin and invoking sudo -n /bin/bash -i . These examples come from a rotated audit log. They remain available after the account and its home directory are removed, subject to log retention. For this reproduced path, correlate an unexpected database-transfer grant with creation of a local administrator, SSH/Bash enablement, and an SSH login followed by sudo. The database-copy grant appears at 14:45:46 UTC, account creation at 14:48:07, and the root-shell command at 14:48:17. These are administrative operations that can occur legitimately; their sequence and whether they fit expected activity determine their value as indicators. The account name, source address, user-agent, UUIDs, and session values shown here belong to our lab run and are not fixed attacker identifiers. Mitigation Broadcom identifies vCenter 8.0 U3m as the fixed release for the 8.0 branch in VMSA-2026-0009 and its accompanying FAQ . Other release branches have their own guidance. Apply the vendor's supported update for the deployed product and keep the directory-service management interfaces reachable only by the systems that need them. The failed boundary spans both the SRP helper and the RPC runtime: a pending authentication key is exposed, and a connection can resolve a context that it does not own. Replacing predictable UUIDs alone leaves that ownership problem in place. We did not compare the vendor's fixed binaries, so this analysis does not attribute a particular code change to the patch.",
+      "summary_excerpt": "Overview An unauthenticated attacker can retrieve the session key for an in-progress administrator login to VMware vCenter's directory service. The attacker then uses that key to complete the login without knowing the account's password. The vulnerable interface is exposed through DCE/RPC on TCP port 2012. The issue, tracked as CVE-2026-123890 , combines a Secure Remote Password (SRP) session-key getter that is callable before authentication with an RPC context lookup that does not enforce ownership. The context handles use predictable UUIDv1 values. By creating two reference contexts around a",
+      "threat_actors": [],
+      "title": "Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T19:52:03.193876+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-0039fd31022b3a2c9f15a947",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:0039fd31022b3a2c9f15a947",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-24T19:44:44+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents. The post Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking appeared first on SecurityWeek .",
+      "summary_excerpt": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents. The post Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044401.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T12:24:16.820046+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-00c0b713ea49d04a9deacd09",
+      "primary_category": "other",
+      "public_article_id": "url:00c0b713ea49d04a9deacd09",
+      "public_tags": [],
+      "published_at": "2026-11-24T11:09:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "Windowsエラー報告（WER）がファイルを処理および実行する際に権限昇格の脆弱性が存在します。この脆弱性は、攻撃者が正常に悪用した場合に権限を昇格させる可能性があります。脆弱性を悪用に成功した攻撃者は、機微な情報やシステム機能へより高度なアクセスを得られます。脆弱性を悪用するために、攻撃者は特別に細工されたアプリケーションを実行することがあります。セキュリティ更新プログラムは、WERがファイルを処理および実行する方法を修正することで、この脆弱性に対処します。",
+      "summary_excerpt": "Windowsエラー報告（WER）がファイルを処理および実行する際に権限昇格の脆弱性が存在します。この脆弱性は、攻撃者が正常に悪用した場合に権限を昇格させる可能性があります。脆弱性を悪用に成功した攻撃者は、機微な情報やシステム機能へより高度なアクセスを得られます。脆弱性を悪用するために、攻撃者は特別に細工されたアプリケーションを実行することがあります。セキュリティ更新プログラムは、WERがファイルを処理および実行する方法を修正することで、この脆弱性に対処します。",
+      "threat_actors": [],
+      "title": "マイクロソフトのMicrosoft Windows 10 1809等の複数製品における弱い認証に関する脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://scan.netsecurity.ne.jp/article/2026/11/24/56874.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-24T08:52:17.091121+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-00db37423040d375ad610dfd",
+      "primary_category": "other",
+      "public_article_id": "url:00db37423040d375ad610dfd",
+      "public_tags": [],
+      "published_at": "2026-11-24T08:05:10+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ScanNetSecurity",
+      "summary": null,
+      "summary_excerpt": null,
+      "threat_actors": [],
+      "title": "ニトリホールディングスに不正アクセス、最大3,762万件の個人情報が漏えい"
     }
   ],
   "timeseries_status": {
@@ -946,32 +929,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】SYS010 malware abuses browser management to spy on Gmail, Outlook",
-    "【HOTTEST #1 / Heat 75】Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-    "【LATEST #2】Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
-    "【HOTTEST #2 / Heat 75】Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-    "【LATEST #3】Chinese, North Korean Hackers Adopt ARTEX AI Offensive Framework",
-    "【HOTTEST #3 / Heat 67.5】Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性",
-    "【LATEST #4】Hackers help themselves to 1Password's source code and customer data",
-    "【HOTTEST #4 / Heat 67.5】Ivanti Connect Secure Zero-Day CVE-2026-104935: Post-Disclosure Scanning Confirmed",
-    "【LATEST #5】Data recovery firm co-founder accused of cashing in on ransomware victims",
-    "【HOTTEST #5 / Heat 67.5】Critical Drupal installer flaw under active attack (CVE-2026-132165)"
+    "【LATEST #1】AI向けストレージ基盤「NVIDIA AIStore」に複数の脆弱性",
+    "【HOTTEST #1 / Heat 75】Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+    "【LATEST #2】Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+    "【HOTTEST #2 / Heat 67.5】Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+    "【LATEST #3】Preinstalled Keenadu malware turns up on 220,000+ Android devices",
+    "【HOTTEST #3 / Heat 67.5】Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+    "【LATEST #4】「Jenkins」の11プラグインに脆弱性 - 修正版を提供",
+    "【HOTTEST #4 / Heat 67.5】Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性",
+    "【LATEST #5】Phishers Abuse Hugging Face's AI Site Builder to Spoof Big Brands",
+    "【HOTTEST #5 / Heat 67.5】Ivanti Connect Secure Zero-Day CVE-2026-104935: Post-Disclosure Scanning Confirmed"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-23T12:00:00+00:00",
-    "last_as_of": "2026-11-26T12:00:00+00:00",
-    "unique_snapshots_used": 69,
+    "first_as_of": "2026-11-23T14:00:00+00:00",
+    "last_as_of": "2026-11-26T14:00:00+00:00",
+    "unique_snapshots_used": 68,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-26T12:00:00+00:00",
-  "heat_as_of": "2026-11-26T12:00:00+00:00",
+  "news_as_of": "2026-11-26T14:00:00+00:00",
+  "heat_as_of": "2026-11-26T14:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27463,
-  "last_published_at": "2026-11-26T21:13:09.826043+09:00",
-  "publication_slot_jst": "2026-11-26T21:00:00+09:00"
+  "news_catalog_count": 27469,
+  "last_published_at": "2026-11-26T23:27:08.295668+09:00",
+  "publication_slot_jst": "2026-11-26T23:00:00+09:00"
 }
