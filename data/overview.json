@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-26T20:10:34.725182+00:00",
-  "as_of": "2026-11-26T20:00:00+00:00",
-  "catalog_count": 27476,
+  "generated_at": "2026-11-26T21:10:18.810118+00:00",
+  "as_of": "2026-11-26T21:00:00+00:00",
+  "catalog_count": 27478,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,61 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00989/112400224/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T05:37:14.617824+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-ea3d52ad4f7e417f28efcf1c",
+      "primary_category": "other",
+      "public_article_id": "url:ea3d52ad4f7e417f28efcf1c",
+      "public_tags": [],
+      "published_at": "2026-11-27T05:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Nikkei XTECH IT",
+      "summary": "使わなくなったクレジットカード番号が企業のシステムに残り、漏洩につながる事例が相次いでいる。クレジットカード業界では、カード情報を取り扱う企業に対し、自社のシステムでカード情報を保持しないようにするなどの対策を求めてきたが、実際には旧システムや決済ログなどにカード番号が残っていた。",
+      "summary_excerpt": "使わなくなったクレジットカード番号が企業のシステムに残り、漏洩につながる事例が相次いでいる。クレジットカード業界では、カード情報を取り扱う企業に対し、自社のシステムでカード情報を保持しないようにするなどの対策を求めてきたが、実際には旧システムや決済ログなどにカード番号が残っていた。",
+      "threat_actors": [],
+      "title": "破棄すべきクレジットカード番号が残っていた、サイバー攻撃で漏洩相次ぐ"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T05:24:18.441531+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-abacbee203a24ba31bbd0fc9",
+      "primary_category": "ai_security",
+      "public_article_id": "url:abacbee203a24ba31bbd0fc9",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        },
+        {
+          "color_family": "cyan",
+          "key": "agentic_security",
+          "label": "Agentic Security"
+        }
+      ],
+      "published_at": "2026-11-27T04:04:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Register Security",
+      "summary": "Agentic offensive framework automates familiar attack techniques, with weak defenses potentially breached in minutes",
+      "summary_excerpt": "Agentic offensive framework automates familiar attack techniques, with weak defenses potentially breached in minutes",
+      "threat_actors": [],
+      "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
@@ -189,7 +244,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-26T23:53:29.849133+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-55795a19da3a739f7bab47fc",
       "primary_category": "threat_campaign",
       "public_article_id": "url:55795a19da3a739f7bab47fc",
@@ -232,79 +287,6 @@
       "summary_excerpt": "NVIDIAは、AI向けのストレージ基盤「NVIDIA AIStore」に関するセキュリティアドバイザリを公開した。",
       "threat_actors": [],
       "title": "AI向けストレージ基盤「NVIDIA AIStore」に複数の脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
-      "cves": [
-        "CVE-2026-103406"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T22:40:38.330407+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-e5ae44210f7d499350fbf829",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e5ae44210f7d499350fbf829",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-26T22:04:06+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
-      "summary_excerpt": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/26/keenadu-malware-android-devices/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T22:40:17.243740+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-510743348e705864f3000aae",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:510743348e705864f3000aae",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        },
-        {
-          "color_family": "neutral",
-          "key": "ics",
-          "label": "ICS"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cisa_ics_advisory",
-          "label": "ICS Advisory"
-        }
-      ],
-      "published_at": "2026-11-26T21:57:58+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one of the two families behind most of these infections, landed on more than 220,000 devices in the first ten months of 2026. Together with the older Triada family, it turned up on 88% of devices … More → The post Preinstalled Keenadu malware turns up on 220,000+ Android devices appeared first on Help Net Security .",
-      "summary_excerpt": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one of the two families behind most of these infections, landed on more than 220,000 devices in the first ten months of 2026. Together with the older Triada family, it turned up on 88% of devices … More → The post Preinstalled Keenadu malware turns up on 220,000+ Android devices appeared first on Help Net Security .",
-      "threat_actors": [],
-      "title": "Preinstalled Keenadu malware turns up on 220,000+ Android devices"
     }
   ],
   "hottest": [
@@ -461,36 +443,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.f5.com/labs/articles/ivanti-connect-secure-zero-day-cve-2026-104935-post-disclosure-scanning-confirmed",
-      "cves": [
-        "CVE-2026-104935"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T05:53:17.131647+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-5edf6f1f623ebec7195298c0",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:5edf6f1f623ebec7195298c0",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-26T05:11:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "F5 Labs",
-      "summary": "Sensor Intel Series: November 2026 CVE Trends",
-      "summary_excerpt": "Sensor Intel Series: November 2026 CVE Trends",
-      "threat_actors": [],
-      "title": "Ivanti Connect Secure Zero-Day CVE-2026-104935: Post-Disclosure Scanning Confirmed"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
       "cves": [],
       "document_form": "single_story",
@@ -510,6 +462,28 @@
       "summary_excerpt": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
       "threat_actors": [],
       "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://xtech.nikkei.com/atcl/nxt/column/18/00989/112400224/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T05:37:14.617824+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-ea3d52ad4f7e417f28efcf1c",
+      "primary_category": "other",
+      "public_article_id": "url:ea3d52ad4f7e417f28efcf1c",
+      "public_tags": [],
+      "published_at": "2026-11-27T05:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Nikkei XTECH IT",
+      "summary": "使わなくなったクレジットカード番号が企業のシステムに残り、漏洩につながる事例が相次いでいる。クレジットカード業界では、カード情報を取り扱う企業に対し、自社のシステムでカード情報を保持しないようにするなどの対策を求めてきたが、実際には旧システムや決済ログなどにカード番号が残っていた。",
+      "summary_excerpt": "使わなくなったクレジットカード番号が企業のシステムに残り、漏洩につながる事例が相次いでいる。クレジットカード業界では、カード情報を取り扱う企業に対し、自社のシステムでカード情報を保持しないようにするなどの対策を求めてきたが、実際には旧システムや決済ログなどにカード番号が残っていた。",
+      "threat_actors": [],
+      "title": "破棄すべきクレジットカード番号が残っていた、サイバー攻撃で漏洩相次ぐ"
     },
     {
       "ai_relevance": "none",
@@ -947,32 +921,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Fake paid expert interviews impersonate brands to steal Google logins",
+    "【LATEST #1】破棄すべきクレジットカード番号が残っていた、サイバー攻撃で漏洩相次ぐ",
     "【HOTTEST #1 / Heat 71.25】Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
-    "【LATEST #2】FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+    "【LATEST #2】Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
     "【HOTTEST #2 / Heat 67.5】Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
-    "【LATEST #3】Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
+    "【LATEST #3】Fake paid expert interviews impersonate brands to steal Google logins",
     "【HOTTEST #3 / Heat 67.5】Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-    "【LATEST #4】UK privacy watchdog faces probe into its workplace culture",
+    "【LATEST #4】FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
     "【HOTTEST #4 / Heat 67.5】Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-    "【LATEST #5】Remus malware steals Gmail messages via fake Google Sheets extension",
+    "【LATEST #5】Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
     "【HOTTEST #5 / Heat 67.5】Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-23T20:00:00+00:00",
-    "last_as_of": "2026-11-26T20:00:00+00:00",
+    "first_as_of": "2026-11-23T21:00:00+00:00",
+    "last_as_of": "2026-11-26T21:00:00+00:00",
     "unique_snapshots_used": 68,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-26T20:00:00+00:00",
-  "heat_as_of": "2026-11-26T20:00:00+00:00",
+  "news_as_of": "2026-11-26T21:00:00+00:00",
+  "heat_as_of": "2026-11-26T21:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27476,
-  "last_published_at": "2026-11-27T05:10:47.856415+09:00",
-  "publication_slot_jst": "2026-11-27T05:00:00+09:00"
+  "news_catalog_count": 27478,
+  "last_published_at": "2026-11-27T06:10:32.287264+09:00",
+  "publication_slot_jst": "2026-11-27T06:00:00+09:00"
 }

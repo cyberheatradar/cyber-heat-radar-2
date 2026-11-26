@@ -1,9 +1,25 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-26T19:40:02.957399+00:00",
+  "source_snapshot_generated_at": "2026-11-26T20:40:02.982454+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:124ed7e838c49f70d16a6bbb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "OpenAI",
+          "ChatGPT",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/sponge841841/articles/2026-11-18-gpt62-astra-sol-efficiency",
+        "title": "GPT-6.2 AstraとSolの違い：トークン効率・キャッシュ・料金の仕組みを解説",
+        "author": "ちっち",
+        "published_at": "2026-11-26T19:42:21.146000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:068487c4d45e65909f548c5a",
         "source": "zenn",
@@ -55312,6 +55328,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:04293a17411dce2741ec317f",
+        "source": "qiita",
+        "author_tags": [
+          "codex",
+          "OpenAI",
+          "Security",
+          "apiキー",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/supportapp3/items/8124ba9be236314cc5f2",
+        "title": "codex login --with-api-key の API キーは ~/.codex/auth.json に平文で残る：logout で消えるがコピーは残り、keyring は Secret Service の無い Linux で失敗（Codex CLI 0.171.0で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-27T05:20:10+09:00",
+        "excerpt": "先に結論 Codex CLI に API キーでログインしたとき、キーがどこにどう残るかを試しました（ダミーのキーで確認）。 操作 結果 printenv KEY | codex login --with-api-key ~/.codex/auth.json に キーが平文で入った （パーミッション 600） codex login status sk-proj-***DUMMY と先頭と末尾だけ表示 auth.json を 644 にしてからログインし直す 600 に戻った codex logout ~/.codex/auth.json は消えた。 別の場所に置いたコピーは残った cli_auth_credentials_store=keyring Secret Service の無い Linux では ログイン自体が失敗 （ファイルにも保存されない） cli_auth_credentials_store=auto 同じ環境では auth.json にフォールバック して平文で保存 cli_auth_credentials_store=ephe"
+      },
+      {
         "id": "qiita:33be5ed71ee2582d79a6ca95",
         "source": "qiita",
         "author_tags": [
@@ -75037,6 +75069,53 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:3338a00507d30833e2154992",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "infosec",
+          "ethical-hacking",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@m.abdullah4oct/how-to-become-a-bug-bounty-hunter-in-2027-a-complete-beginners-roadmap-d53eb8e84b54",
+        "title": "How to Become a Bug Bounty Hunter in 2027: A Complete Beginner's Roadmap",
+        "author": "Muhammad Abdullah",
+        "published_at": "2026-11-26T20:31:48+00:00",
+        "excerpt": "From absolute beginner to finding your first valid vulnerability: What to learn, where to practice, and how to approach web security. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d5a26556ff9db7c90851ec89",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "assembly-language",
+          "programming",
+          "reverse-engineering",
+          "malware-analysis"
+        ],
+        "url": "https://medium.com/@moofaa69/three-bugs-one-lesson-writing-my-first-windows-x64-file-i-o-in-assembly-5ad047542f9b",
+        "title": "Three bugs, one lesson: writing my first Windows x64 file I/O in assembly",
+        "author": "Mohamed fahmy",
+        "published_at": "2026-11-26T20:06:27+00:00",
+        "excerpt": "I wrote 40 lines of assembly to create a file on Windows. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:c5c1baec743cbc319f758020",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "artificial-intelligence",
+          "career-development",
+          "technology",
+          "future-of-work"
+        ],
+        "url": "https://medium.com/@saifkhantoru/the-cybersecurity-talent-shortage-is-real-so-why-is-nobody-getting-hired-1c97052d06de",
+        "title": "The Cybersecurity Talent Shortage Is Real — So Why Is Nobody Getting Hired?",
+        "author": "Saif Khan",
+        "published_at": "2026-11-26T19:54:15+00:00",
+        "excerpt": "AI, unrealistic hiring expectations and the changing reality of building a cybersecurity career in 2027. Continue reading on Medium »"
+      },
       {
         "id": "medium:6ab2c81985be74176bbc3a8a",
         "source": "medium",
