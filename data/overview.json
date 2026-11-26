@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-26T11:10:35.242477+00:00",
-  "as_of": "2026-11-26T11:00:00+00:00",
-  "catalog_count": 27459,
+  "generated_at": "2026-11-26T12:12:56.320778+00:00",
+  "as_of": "2026-11-26T12:00:00+00:00",
+  "catalog_count": 27463,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,123 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T20:53:11.701559+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-34599e7b6c56f4b30a76be93",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:34599e7b6c56f4b30a76be93",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-26T20:50:17+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+      "summary_excerpt": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+      "threat_actors": [],
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T20:53:29.284582+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-cc622f5f1349b4145e7fb236",
+      "primary_category": "ai_security",
+      "public_article_id": "url:cc622f5f1349b4145e7fb236",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-26T20:35:25+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks"
+    },
+    {
+      "ai_relevance": "primary",
+      "canonical_url": "https://www.infosecurity-magazine.com/news/chinese-north-korea-artex/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T20:22:42.651344+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-1bff87af010fea562a2617c5",
+      "primary_category": "ai_security",
+      "public_article_id": "url:1bff87af010fea562a2617c5",
+      "public_tags": [
+        {
+          "color_family": "cyan",
+          "key": "ai_security",
+          "label": "AI Security"
+        }
+      ],
+      "published_at": "2026-11-26T20:05:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Infosecurity Magazine",
+      "summary": "Microsoft has confirmed nation-state actors’ deployment of the ARTEX in their tooling, while the CSA described the emergence of the tool as part of a “third wave” of AI-driven threats",
+      "summary_excerpt": "Microsoft has confirmed nation-state actors’ deployment of the ARTEX in their tooling, while the CSA described the emergence of the tool as part of a “third wave” of AI-driven threats",
+      "threat_actors": [],
+      "title": "Chinese, North Korean Hackers Adopt ARTEX AI Offensive Framework"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T20:53:30.114774+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-c31fa23b20745bdc7b8c0bbe",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c31fa23b20745bdc7b8c0bbe",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-26T20:02:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Register Security",
+      "summary": "An intruder planted malicious code in backend services, but the biz insists passwords are safe",
+      "summary_excerpt": "An intruder planted malicious code in backend services, but the biz insists passwords are safe",
+      "threat_actors": [],
+      "title": "Hackers help themselves to 1Password's source code and customer data"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/26/ransomware-recovery-fraud-florida-firm-co-founder-charged/",
@@ -165,111 +282,6 @@
       "summary_excerpt": "A previously undocumented Iranian threat group called \"Volant Manticore\" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.",
       "threat_actors": [],
       "title": "Cyprus Becomes Espionage Target for Iranian Hackers"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2159557.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T16:53:13.919386+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-37e4fac370f2702d8c9ead2d",
-      "primary_category": "other",
-      "public_article_id": "url:37e4fac370f2702d8c9ead2d",
-      "public_tags": [],
-      "published_at": "2026-11-26T16:16:11+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "INTERNET Watch",
-      "summary": "第一生命をかたりAndroidスマートフォン用の不正アプリのインストールへ誘導するフィッシングメールの報告を受けているとして、フィッシング対策協議会が緊急情報を公開した。フィッシングメールの配信は、11月25日15時の時点で継続していることが確認されている。",
-      "summary_excerpt": "第一生命をかたりAndroidスマートフォン用の不正アプリのインストールへ誘導するフィッシングメールの報告を受けているとして、フィッシング対策協議会が緊急情報を公開した。フィッシングメールの配信は、11月25日15時の時点で継続していることが確認されている。",
-      "threat_actors": [],
-      "title": "第一生命をかたり不正アプリをインストールさせるフィッシング、「保険金受取り」や「登録情報の確認」などのメールに注意！"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-      "cves": [
-        "CVE-2026-132165",
-        "CVE-2026-136716"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T17:23:16.722425+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-61e3be14c2b6cad929efba69",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:61e3be14c2b6cad929efba69",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-26T16:02:34+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
-      "summary_excerpt": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
-      "threat_actors": [],
-      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-      "cves": [
-        "CVE-2026-133275"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T17:23:16.943593+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-451f3a785e324bf13d51d4b9",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:451f3a785e324bf13d51d4b9",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-26T15:44:46+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
-      "threat_actors": [],
-      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/26/black-friday-2026-cybersecurity-deals/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T15:39:18.831620+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-b54e54911bb9bf11986eab35",
-      "primary_category": "other",
-      "public_article_id": "url:b54e54911bb9bf11986eab35",
-      "public_tags": [],
-      "published_at": "2026-11-26T15:30:33+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Black Friday is here again, and for once your inbox full of “limited time offer” emails might be worth opening. Every year, security vendors join the sales rush with discounts on the tools we rely on every day. Below you’ll find some great Black Friday 2026 cybersecurity deals. Grab a coffee, check the fine print and maybe pick up a little extra peace of mind while it’s on sale. Passwork Passwork is a self-hosted password … More → The post Black Friday cybersecurity deals 2026: Stay safe, spend less appeared first on Help Net Security .",
-      "summary_excerpt": "Black Friday is here again, and for once your inbox full of “limited time offer” emails might be worth opening. Every year, security vendors join the sales rush with discounts on the tools we rely on every day. Below you’ll find some great Black Friday 2026 cybersecurity deals. Grab a coffee, check the fine print and maybe pick up a little extra peace of mind while it’s on sale. Passwork Passwork is a self-hosted password … More → The post Black Friday cybersecurity deals 2026: Stay safe, spend less appeared first on Help Net Security .",
-      "threat_actors": [],
-      "title": "Black Friday cybersecurity deals 2026: Stay safe, spend less"
     }
   ],
   "hottest": [
@@ -543,36 +555,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "cves": [
-        "CVE-2026-132165"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T21:22:45.597961+09:00",
-      "heat_score": 67.5,
-      "permalink_id": "article-url-f8d0d1935ac4bbfbbe273bf5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f8d0d1935ac4bbfbbe273bf5",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T20:23:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "threat_actors": [],
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
       "cves": [],
       "document_form": "single_story",
@@ -592,6 +574,39 @@
       "summary_excerpt": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
       "threat_actors": [],
       "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T20:53:11.701559+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-34599e7b6c56f4b30a76be93",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:34599e7b6c56f4b30a76be93",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-26T20:50:17+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+      "summary_excerpt": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+      "threat_actors": [],
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook"
     }
   ],
   "rising": [],
@@ -656,37 +671,6 @@
       "summary_excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civil",
       "threat_actors": [],
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://cyberscoop.com/wpide-csrf-vulnerability-cve-2026-124251/",
-      "cves": [
-        "CVE-2026-124251",
-        "CVE-2026-57766"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-23T20:23:32.484316+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-7bedc79e9bf5fda962a236ff",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:7bedc79e9bf5fda962a236ff",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-23T20:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CyberScoop",
-      "summary": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is scoped too narrowly: a security service validates the nonce only when the page URL parameter equals wpide exactly (App/Services/Security/Security.php). The plugin registers seven […] The post WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251) appeared first on CyberScoop .",
-      "summary_excerpt": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is scoped too narrowly: a security service validates the nonce only when the page URL parameter equals wpide exactly (App/Services/Security/Security.php). The plugin registers seven […] The post WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251) appeared first on CyberScoop .",
-      "threat_actors": [],
-      "title": "WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)"
     },
     {
       "ai_relevance": "none",
@@ -910,6 +894,38 @@
       "summary_excerpt": "工場や水道、店舗の冷蔵設備を動かす制御システム「OT」を狙う攻撃が海外で相次いでいる。OTセキュリティに関する11月20日の記者説明会では米DragosのCEOが、AIを使った攻撃者がITからOTへ標的を移した事例を紹介した。",
       "threat_actors": [],
       "title": "爆増するサイバー攻撃、魔の手はITだけでなく「OT」にも　元米軍のセキュリティ専門家が警鐘"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000179.html",
+      "cves": [
+        "CVE-2026-105303",
+        "CVE-2026-105304",
+        "CVE-2026-129544"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-24T17:38:15.839189+09:00",
+      "heat_score": 51.3,
+      "permalink_id": "article-url-3e803662b32a4b3c123afa01",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:3e803662b32a4b3c123afa01",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-24T13:54:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "Zoraxy Projectが提供するZoraxyには、次の複数の脆弱性が存在します。 管理画面のログビューア機能における格納型クロスサイトスクリプティング（CWE-79）- CVE-2026-105303 セッションCookieにHttpOnly属性を設定していない（CWE-1004）- CVE-2026-129544 ACMEチャレンジ用のルーティング処理におけるサーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-105304 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社ラック 池田 大樹 氏",
+      "summary_excerpt": "Zoraxy Projectが提供するZoraxyには、次の複数の脆弱性が存在します。 管理画面のログビューア機能における格納型クロスサイトスクリプティング（CWE-79）- CVE-2026-105303 セッションCookieにHttpOnly属性を設定していない（CWE-1004）- CVE-2026-129544 ACMEチャレンジ用のルーティング処理におけるサーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-105304 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社ラック 池田 大樹 氏",
+      "threat_actors": [],
+      "title": "Zoraxyにおける複数の脆弱性"
     }
   ],
   "timeseries_status": {
@@ -930,32 +946,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】Data recovery firm co-founder accused of cashing in on ransomware victims",
+    "【LATEST #1】SYS010 malware abuses browser management to spy on Gmail, Outlook",
     "【HOTTEST #1 / Heat 75】Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-    "【LATEST #2】YCC情報システム、「AI SOC」を本格運用 - AIでログ分析、脅威検知後の対処を自動化",
+    "【LATEST #2】Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
     "【HOTTEST #2 / Heat 75】Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-    "【LATEST #3】Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+    "【LATEST #3】Chinese, North Korean Hackers Adopt ARTEX AI Offensive Framework",
     "【HOTTEST #3 / Heat 67.5】Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性",
-    "【LATEST #4】1Password Breach Exposes Customer Data, Internal Source Code",
+    "【LATEST #4】Hackers help themselves to 1Password's source code and customer data",
     "【HOTTEST #4 / Heat 67.5】Ivanti Connect Secure Zero-Day CVE-2026-104935: Post-Disclosure Scanning Confirmed",
-    "【LATEST #5】「パスワードを変えてもまだ危ない」　Cookie盗難524億件超え、必要な“もう一つ”の対策",
+    "【LATEST #5】Data recovery firm co-founder accused of cashing in on ransomware victims",
     "【HOTTEST #5 / Heat 67.5】Critical Drupal installer flaw under active attack (CVE-2026-132165)"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-23T11:00:00+00:00",
-    "last_as_of": "2026-11-26T11:00:00+00:00",
+    "first_as_of": "2026-11-23T12:00:00+00:00",
+    "last_as_of": "2026-11-26T12:00:00+00:00",
     "unique_snapshots_used": 69,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-26T11:00:00+00:00",
-  "heat_as_of": "2026-11-26T11:00:00+00:00",
+  "news_as_of": "2026-11-26T12:00:00+00:00",
+  "heat_as_of": "2026-11-26T12:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27459,
-  "last_published_at": "2026-11-26T20:10:47.213773+09:00",
-  "publication_slot_jst": "2026-11-26T20:00:00+09:00"
+  "news_catalog_count": 27463,
+  "last_published_at": "2026-11-26T21:13:09.826043+09:00",
+  "publication_slot_jst": "2026-11-26T21:00:00+09:00"
 }
