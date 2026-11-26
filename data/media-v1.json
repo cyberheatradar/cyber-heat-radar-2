@@ -1,9 +1,37 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-26T16:40:02.850618+00:00",
+  "source_snapshot_generated_at": "2026-11-26T17:40:02.924657+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:6db9eb250b2cbd868f767208",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/kabeya/articles/whats-next-after-ide",
+        "title": "IDEの次に使わなくなるものは？",
+        "author": "kabeya",
+        "published_at": "2026-11-26T17:36:27.909000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:384f0f5e070c00a853ab17ab",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "ブラウザ自動化",
+          "Claude Code",
+          "agentbrowser"
+        ],
+        "url": "https://zenn.dev/airtanker/articles/agent-browser-decisions-three-tier-plans",
+        "title": "Claude Codeの定型ブラウザ操作を2回目からLLMなし1.5秒に。迷う手だけDecisionモデルに聞くCLI&SKILL",
+        "author": "airtanker",
+        "published_at": "2026-11-26T17:04:01.849000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:c2d0f0a5d0e6cb2eb26fa21a",
         "source": "zenn",
@@ -512,6 +540,21 @@
         "title": "何を設計するのか ― 人間とAIの役割を再設計する",
         "author": "武田亮子",
         "published_at": "2026-11-26T10:18:38.247000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:548345d739cdab74dd796d6f",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/joemike/articles/claude-md-compaction-rule-loss-experiment-2026",
+        "title": "CLAUDE.md の設定が auto-compact 後に効かなくなる仕組みと診断方法",
+        "author": "ミケ",
+        "published_at": "2026-11-26T10:00:00+00:00",
         "excerpt": ""
       },
       {
@@ -55237,6 +55280,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:ea92b7b3697514c64fc52a1f",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "GitHubActions",
+          "npm",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/emi_ndk/items/e74cd61010d64fd26067",
+        "title": "【緊急】Issueを1件立てるだけで、Codexのnpmリリースに裏口を仕込めた可能性。CIのAIエージェントが危ない",
+        "author": "emi_ndk",
+        "published_at": "2026-11-27T02:29:12+09:00",
+        "excerpt": "あなたのリポジトリのGitHub Actions、「知らない人が書いたIssue」をAIに読ませていませんか？ 2026年11月11日、セキュリティ企業Depiが、OpenAIのCodexのリポジトリに対する攻撃手順を公開しました。 起点は、 誰でも立てられるGitHubのIssue 1件 です。そこから、公式npmパッケージ @openai/codex を公開できるトークンにまで たどり着ける道 がありました。 Depiによると、このパッケージは 毎月数百万回 ダウンロードされています。 つまり、 CIでAIエージェントを動かしているなら、Issueの本文がそのまま攻撃の入口になる ということです。 不正なバージョンは 一度も公開されていません 。検証はDepiのテスト環境で行われ、OpenAIは9月に修正済みです。本記事はDepiの公開記事と報道に基づいています。 結論から言うと Codexリポジトリの Issue自動ラベル付け ワークフローで、AIエージェントがIssue本文を読んでいた Issue本文への プロンプトインジェクション で、"
+      },
+      {
         "id": "qiita:297ed23da25205304762f04d",
         "source": "qiita",
         "author_tags": [
@@ -74919,6 +74978,98 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:03ec8bda392f166d952376b2",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "ctf-writeup",
+          "cybersecurity",
+          "netanixctf"
+        ],
+        "url": "https://medium.com/@Alone-737/sagarmatha-broker-netanix-ctf-writeup-c4950047481c",
+        "title": "Sagarmatha Broker — Netanix CTF Writeup",
+        "author": "Alone",
+        "published_at": "2026-11-26T17:25:08+00:00",
+        "excerpt": "Web, 600 points. Find the debug endpoint in the client bundles, sign the request, and pull the flag. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:82a4a3cb87cb7c58ccc3f25b",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "data-breach",
+          "password-manager",
+          "cybersecurity",
+          "privacy"
+        ],
+        "url": "https://medium.com/@shurmaliya/1password-security-incident-what-to-check-and-do-now-ee4b7b8a716c",
+        "title": "1Password Security Incident: What to Check and Do Now",
+        "author": "Shubham Urmaliya",
+        "published_at": "2026-11-26T17:21:13+00:00",
+        "excerpt": "A calm checklist for ordinary users, based on what 1Password actually disclosed. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e4e90959cf61d58a7fa91d79",
+        "source": "medium",
+        "author_tags": [
+          "earn-money-online",
+          "cybersecurity",
+          "finance",
+          "technology",
+          "phishing"
+        ],
+        "url": "https://medium.com/@defenderr0809/i-called-to-cancel-a-499-invoice-within-an-hour-my-screen-was-black-and-they-demanded-40-000-2cc7b25fded5",
+        "title": "I Called to Cancel a $499 Invoice. Within an Hour, My Screen Was Black and They Demanded $40,000.",
+        "author": "SecureByte",
+        "published_at": "2026-11-26T17:11:25+00:00",
+        "excerpt": "You open your email inbox on a quiet Thursday morning and spot an official-looking message titled: “Invoice #GS-88492: Your 3-Year Total… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:ac36902b633cf813b0739c03",
+        "source": "medium",
+        "author_tags": [
+          "devops",
+          "aws",
+          "cybersecurity",
+          "cloud-security",
+          "startup"
+        ],
+        "url": "https://medium.com/@saidulbadhon/the-eight-minute-problem-who-is-watching-your-aws-account-f4d17efdd635",
+        "title": "The Eight-Minute Problem: Who Is Watching Your AWS Account?",
+        "author": "Saidul Badhon",
+        "published_at": "2026-11-26T17:10:07+00:00",
+        "excerpt": "Attackers use a leaked key in about five minutes. The question is who notices. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8436cdd3a494c38419a9b28a",
+        "source": "medium",
+        "author_tags": [
+          "productivity",
+          "cybersecurity",
+          "business"
+        ],
+        "url": "https://medium.com/@skshaibaz/cybersecurity-is-not-just-about-technology-its-about-managing-risk-people-and-business-outcomes-3316c20f290e",
+        "title": "Cybersecurity Is Not Just About Technology: It’s About Managing Risk, People and Business Outcomes",
+        "author": "Shaibaz Shaikh",
+        "published_at": "2026-11-26T17:05:13+00:00",
+        "excerpt": "By Shaibaz Shaikh | Cybersecurity & IT Project Delivery Professional Continue reading on Medium »"
+      },
+      {
+        "id": "medium:166019a803e7dbf446dfa8d8",
+        "source": "medium",
+        "author_tags": [
+          "hiring",
+          "data-protection",
+          "cybersecurity",
+          "security"
+        ],
+        "url": "https://medium.com/@TunaTuracan/trust-before-talent-hiring-cybersecurity-professionals-0330438d30b8",
+        "title": "Trust Before Talent: Hiring Cybersecurity Professionals",
+        "author": "Tuna Turacan",
+        "published_at": "2026-11-26T17:01:14+00:00",
+        "excerpt": "Are Technical Skills Enough When Hiring Cybersecurity Professionals? Continue reading on Medium »"
+      },
       {
         "id": "medium:bf011243934059dec7796aa0",
         "source": "medium",
