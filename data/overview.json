@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-26T22:12:50.107776+00:00",
-  "as_of": "2026-11-26T22:00:00+00:00",
+  "generated_at": "2026-11-26T23:14:48.259717+00:00",
+  "as_of": "2026-11-26T23:00:00+00:00",
   "catalog_count": 27478,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -123,7 +123,7 @@
       ],
       "document_form": "advisory",
       "first_seen_at": "2026-11-27T03:53:14.431098+09:00",
-      "heat_score": 71.25,
+      "heat_score": 64.12,
       "permalink_id": "article-url-9fa7089323288e107f71a522",
       "primary_category": "vulnerability",
       "public_article_id": "url:9fa7089323288e107f71a522",
@@ -151,7 +151,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-27T01:24:41.932504+09:00",
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "permalink_id": "article-url-4056b0c0c8d0c3db72622391",
       "primary_category": "other",
       "public_article_id": "url:4056b0c0c8d0c3db72622391",
@@ -290,36 +290,6 @@
     }
   ],
   "hottest": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-juniper-products-could-allow-for-arbitrary-code-execution_2026-143",
-      "cves": [
-        "CVE-2026-103406"
-      ],
-      "document_form": "advisory",
-      "first_seen_at": "2026-11-27T03:53:14.431098+09:00",
-      "heat_score": 71.25,
-      "permalink_id": "article-url-9fa7089323288e107f71a522",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:9fa7089323288e107f71a522",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-27T01:40:54+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Center for Internet Security Advisories",
-      "summary": "Multiple vulnerabilities have been discovered in Juniper Session Smart Router and Session Smart Conductor, the most severe of which could allow for arbitrary command execution as root. Session Smart Router is Juniper’s software-based SD-WAN router, and Session Smart Conductor is the management and orchestration platform for a fleet of these routers. Successful exploitation of the most severe of these vulnerabilities (CVE-2026-103406) could allow an unauthenticated remote attacker to execute arbitrary commands with root privileges on the affected Conductor. An attacker with root access could then install programs; view, change, or delete data; or create new accounts with full administrative rights. Because the Conductor manages the router fleet, a compromise could also put every managed site at risk.",
-      "summary_excerpt": "Multiple vulnerabilities have been discovered in Juniper Session Smart Router and Session Smart Conductor, the most severe of which could allow for arbitrary command execution as root. Session Smart Router is Juniper’s software-based SD-WAN router, and Session Smart Conductor is the management and orchestration platform for a fleet of these routers. Successful exploitation of the most severe of these vulnerabilities (CVE-2026-103406) could allow an unauthenticated remote attacker to execute arbitrary commands with root privileges on the affected Conductor. An attacker with root access could th",
-      "threat_actors": [],
-      "title": "Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution"
-    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
@@ -515,6 +485,36 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-juniper-products-could-allow-for-arbitrary-code-execution_2026-143",
+      "cves": [
+        "CVE-2026-103406"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-27T03:53:14.431098+09:00",
+      "heat_score": 64.12,
+      "permalink_id": "article-url-9fa7089323288e107f71a522",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:9fa7089323288e107f71a522",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-27T01:40:54+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Center for Internet Security Advisories",
+      "summary": "Multiple vulnerabilities have been discovered in Juniper Session Smart Router and Session Smart Conductor, the most severe of which could allow for arbitrary command execution as root. Session Smart Router is Juniper’s software-based SD-WAN router, and Session Smart Conductor is the management and orchestration platform for a fleet of these routers. Successful exploitation of the most severe of these vulnerabilities (CVE-2026-103406) could allow an unauthenticated remote attacker to execute arbitrary commands with root privileges on the affected Conductor. An attacker with root access could then install programs; view, change, or delete data; or create new accounts with full administrative rights. Because the Conductor manages the router fleet, a compromise could also put every managed site at risk.",
+      "summary_excerpt": "Multiple vulnerabilities have been discovered in Juniper Session Smart Router and Session Smart Conductor, the most severe of which could allow for arbitrary command execution as root. Session Smart Router is Juniper’s software-based SD-WAN router, and Session Smart Conductor is the management and orchestration platform for a fleet of these routers. Successful exploitation of the most severe of these vulnerabilities (CVE-2026-103406) could allow an unauthenticated remote attacker to execute arbitrary commands with root privileges on the affected Conductor. An attacker with root access could th",
+      "threat_actors": [],
+      "title": "Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000170.html",
       "cves": [
         "CVE-2026-116089",
@@ -686,6 +686,38 @@
       "summary_excerpt": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
       "threat_actors": [],
       "title": "CVE-2026-132165: Drupal Core"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "cves": [
+        "CVE-2026-131914",
+        "CVE-2026-132165",
+        "CVE-2026-132224"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T07:22:23.098452+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-165729c3cbfbb2e3eb18effe",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:165729c3cbfbb2e3eb18effe",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-24T21:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CISA Cybersecurity Advisories",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability CVE-2026-132224 Optimizely Web Experimentation External Control of Critical State Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
+      "summary_excerpt": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability CVE-2026-132224 Optimizely Web Experimentation External Control of Critical State Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Bas",
+      "threat_actors": [],
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog"
     },
     {
       "ai_relevance": "none",
@@ -866,36 +898,6 @@
       "summary_excerpt": "This vulnerability allows remote attackers to bypass authentication on affected installations of Bytebase DBHub. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-136441.",
       "threat_actors": [],
       "title": "ZDI-26-1067: (0Day) Bytebase DBHub MCP Incorrect Authorization Authentication Bypass Vulnerability"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1043/",
-      "cves": [
-        "CVE-2026-136614"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T03:53:05.078669+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-6849881e6c050ff999535fc5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:6849881e6c050ff999535fc5",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T15:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "Zero Day Initiative Published Advisories",
-      "summary": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of GNU Inetutils. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.9. The following CVEs are assigned: CVE-2026-136614.",
-      "summary_excerpt": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of GNU Inetutils. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.9. The following CVEs are assigned: CVE-2026-136614.",
-      "threat_actors": [],
-      "title": "ZDI-26-1043: (0Day) GNU Inetutils talkd Stack-based Buffer Overflow Denial-of-Service Vulnerability"
     }
   ],
   "timeseries_status": {
@@ -917,31 +919,31 @@
   },
   "ticker_items": [
     "【LATEST #1】破棄すべきクレジットカード番号が残っていた、サイバー攻撃で漏洩相次ぐ",
-    "【HOTTEST #1 / Heat 71.25】Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
+    "【HOTTEST #1 / Heat 67.5】Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
     "【LATEST #2】Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
-    "【HOTTEST #2 / Heat 67.5】Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+    "【HOTTEST #2 / Heat 67.5】Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
     "【LATEST #3】Fake paid expert interviews impersonate brands to steal Google logins",
-    "【HOTTEST #3 / Heat 67.5】Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+    "【HOTTEST #3 / Heat 67.5】Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
     "【LATEST #4】FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
-    "【HOTTEST #4 / Heat 67.5】Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+    "【HOTTEST #4 / Heat 67.5】Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性",
     "【LATEST #5】Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
-    "【HOTTEST #5 / Heat 67.5】Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性"
+    "【HOTTEST #5 / Heat 65.7】脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-23T22:00:00+00:00",
-    "last_as_of": "2026-11-26T22:00:00+00:00",
+    "first_as_of": "2026-11-23T23:00:00+00:00",
+    "last_as_of": "2026-11-26T23:00:00+00:00",
     "unique_snapshots_used": 68,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-26T22:00:00+00:00",
-  "heat_as_of": "2026-11-26T22:00:00+00:00",
+  "news_as_of": "2026-11-26T23:00:00+00:00",
+  "heat_as_of": "2026-11-26T23:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27478,
-  "last_published_at": "2026-11-27T07:13:03.554309+09:00",
-  "publication_slot_jst": "2026-11-27T07:00:00+09:00"
+  "last_published_at": "2026-11-27T08:15:03.191244+09:00",
+  "publication_slot_jst": "2026-11-27T08:00:00+09:00"
 }
