@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-26T19:10:25.132072+00:00",
-  "as_of": "2026-11-26T19:00:00+00:00",
+  "generated_at": "2026-11-26T20:10:34.725182+00:00",
+  "as_of": "2026-11-26T20:00:00+00:00",
   "catalog_count": 27476,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -217,7 +217,7 @@
       "cves": [],
       "document_form": "advisory",
       "first_seen_at": "2026-11-26T22:40:37.742430+09:00",
-      "heat_score": 61.75,
+      "heat_score": 55.58,
       "permalink_id": "article-url-4c1bfd519f093aa5926f12d4",
       "primary_category": "other",
       "public_article_id": "url:4c1bfd519f093aa5926f12d4",
@@ -241,7 +241,7 @@
       ],
       "document_form": "single_story",
       "first_seen_at": "2026-11-26T22:40:38.330407+09:00",
-      "heat_score": 75.0,
+      "heat_score": 67.5,
       "permalink_id": "article-url-e5ae44210f7d499350fbf829",
       "primary_category": "vulnerability",
       "public_article_id": "url:e5ae44210f7d499350fbf829",
@@ -310,36 +310,6 @@
   "hottest": [
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
-      "cves": [
-        "CVE-2026-103406"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-26T22:40:38.330407+09:00",
-      "heat_score": 75.0,
-      "permalink_id": "article-url-e5ae44210f7d499350fbf829",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e5ae44210f7d499350fbf829",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-26T22:04:06+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
-      "summary_excerpt": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-juniper-products-could-allow-for-arbitrary-code-execution_2026-143",
       "cves": [
         "CVE-2026-103406"
@@ -367,6 +337,36 @@
       "summary_excerpt": "Multiple vulnerabilities have been discovered in Juniper Session Smart Router and Session Smart Conductor, the most severe of which could allow for arbitrary command execution as root. Session Smart Router is Juniper’s software-based SD-WAN router, and Session Smart Conductor is the management and orchestration platform for a fleet of these routers. Successful exploitation of the most severe of these vulnerabilities (CVE-2026-103406) could allow an unauthenticated remote attacker to execute arbitrary commands with root privileges on the affected Conductor. An attacker with root access could th",
       "threat_actors": [],
       "title": "Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "cves": [
+        "CVE-2026-103406"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T22:40:38.330407+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-e5ae44210f7d499350fbf829",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:e5ae44210f7d499350fbf829",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-26T22:04:06+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
+      "summary_excerpt": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks"
     },
     {
       "ai_relevance": "none",
@@ -948,9 +948,9 @@
   },
   "ticker_items": [
     "【LATEST #1】Fake paid expert interviews impersonate brands to steal Google logins",
-    "【HOTTEST #1 / Heat 75】Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+    "【HOTTEST #1 / Heat 71.25】Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
     "【LATEST #2】FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
-    "【HOTTEST #2 / Heat 71.25】Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
+    "【HOTTEST #2 / Heat 67.5】Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
     "【LATEST #3】Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
     "【HOTTEST #3 / Heat 67.5】Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
     "【LATEST #4】UK privacy watchdog faces probe into its workplace culture",
@@ -960,19 +960,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-23T19:00:00+00:00",
-    "last_as_of": "2026-11-26T19:00:00+00:00",
+    "first_as_of": "2026-11-23T20:00:00+00:00",
+    "last_as_of": "2026-11-26T20:00:00+00:00",
     "unique_snapshots_used": 68,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-26T19:00:00+00:00",
-  "heat_as_of": "2026-11-26T19:00:00+00:00",
+  "news_as_of": "2026-11-26T20:00:00+00:00",
+  "heat_as_of": "2026-11-26T20:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27476,
-  "last_published_at": "2026-11-27T04:10:38.545992+09:00",
-  "publication_slot_jst": "2026-11-27T04:00:00+09:00"
+  "last_published_at": "2026-11-27T05:10:47.856415+09:00",
+  "publication_slot_jst": "2026-11-27T05:00:00+09:00"
 }
