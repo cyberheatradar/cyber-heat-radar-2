@@ -1,9 +1,55 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-26T08:40:03.446913+00:00",
+  "source_snapshot_generated_at": "2026-11-26T09:40:03.851334+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:93a52edc03542bdca2794eb9",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "組織",
+          "キャリア",
+          "生成 AI",
+          "AI 活用"
+        ],
+        "url": "https://zenn.dev/ririenu_lab/articles/4ef3a19cbed540",
+        "title": "「AI活用」という言葉が、雑すぎる──人間がAIと何をするかで10に分けてみた",
+        "author": "RiriEnu Lab （リリエーヌ・ラボ）",
+        "published_at": "2026-11-26T09:06:05.178000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5af0b54cb0a2cbf451ac37c4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "AIエージェント",
+          "Claude Code",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/techhub/articles/dc126a04c7ed",
+        "title": "非エンジニアがコーディングエージェントに仕事を任せる方法",
+        "author": "技術愛好家",
+        "published_at": "2026-11-26T09:04:40.582000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cb653edccb465680daf08a06",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Rust",
+          "Tauri",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/cheapbutsimilar/articles/dade3767266f80",
+        "title": "Claude Code・Codex・Gemini・GLM・MiniMaxの残量をタスクバーに表示する2.4MBの常駐ウィジェットを作った",
+        "author": "CheapButSimilar",
+        "published_at": "2026-11-26T09:03:37.019000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:19c796be746ae55fd6820a2c",
         "source": "zenn",
@@ -54665,6 +54711,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:f7626f7acb01d50737d3a98b",
+        "source": "qiita",
+        "author_tags": [
+          "JavaScript",
+          "CSP",
+          "Security",
+          "CloudflarePages",
+          "Web"
+        ],
+        "url": "https://qiita.com/10north/items/0e2a95fcc359ca728b5b",
+        "title": "入力データを1バイトも送信しないWebツール集を、CSPと依存ゼロの静的サイトで作った",
+        "author": "10north",
+        "published_at": "2026-11-26T18:22:38+09:00",
+        "excerpt": "JSON整形、Base64、文字数カウント、和暦変換……。こうした「ちょっとした変換ツール」をWebで探すと、たくさん見つかります。ただ、多くは入力内容をサーバーに送って処理するか、広告やアクセス解析のスクリプトが大量に読み込まれています。社外秘のJSONやAPIキー入りのトークンを貼り付けるのは、少し怖いですよね。 そこで、 入力したデータが外部に一切送信されないことを、ブラウザの仕組みで保証する ツール集を作りました。 ブラウザ完結ツール ： https://browser-only-tools.com 現在39ツール（日本語・英語）。この記事では、作り方の工夫を紹介します。 「送信しない」を約束ではなく仕組みで保証する 「このサイトはデータを送信しません」と書くだけなら簡単です。でも、利用者には確かめようがありません。そこで、すべてのページに次のContent Security Policyを設定しています。 Content-Security-Policy: default-src 'self'; script-src 'self'; st"
+      },
+      {
         "id": "qiita:80640deed4e11fb735702791",
         "source": "qiita",
         "author_tags": [
@@ -74285,6 +74347,96 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:b6b2316e1a141aaed28308e2",
+        "source": "medium",
+        "author_tags": [
+          "supply-chain-security",
+          "vendorsecurity",
+          "cybersecurity",
+          "infosectrain"
+        ],
+        "url": "https://medium.com/@raviishu222007/supply-chain-cybersecurity-understanding-third-party-security-risks-09784eca1c6f",
+        "title": "Supply Chain Cybersecurity: Understanding Third-Party Security Risks",
+        "author": "Raviishu Kotnala",
+        "published_at": "2026-11-26T09:27:17+00:00",
+        "excerpt": "Discover how third-party security risks affect supply chain cybersecurity and learn practical strategies to protect your business from… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d5c8c85c05c26f26eb7b3517",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "threat-detection",
+          "wazuh",
+          "linux",
+          "siem"
+        ],
+        "url": "https://medium.com/@ebujupi17/detecting-linux-lolbins-with-wazuh-and-auditd-fd14bfd74bf8",
+        "title": "Detecting Linux LOLBins with Wazuh and auditd",
+        "author": "Edison Bujupi",
+        "published_at": "2026-11-26T09:25:31+00:00",
+        "excerpt": "Detecting Linux LOLBins with Wazuh and auditd Continue reading on Medium »"
+      },
+      {
+        "id": "medium:b103ec1daff15a97c8eb02ad",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@benedikt_52158/rag-prompt-injection-check-retrieved-context-locally-with-wolf-defender-652b670cc795",
+        "title": "RAG Prompt Injection: Check Retrieved Context Locally with Wolf Defender",
+        "author": "Patronus Protect",
+        "published_at": "2026-11-26T09:24:55+00:00",
+        "excerpt": "Your documentation assistant receives a sensible question: “Where can I export a CSV?” Its retriever finds a supplier manual. One passage… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:57d7c094c5b97c613e9ada3e",
+        "source": "medium",
+        "author_tags": [
+          "careers",
+          "ai",
+          "technology",
+          "personal-development",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@munnaza.cyber/i-have-no-computer-science-degree-no-cybersecurity-experience-02fefe3ec7bb",
+        "title": "I Have No Computer Science Degree, No Cybersecurity Experience.",
+        "author": "Munaza Cyber",
+        "published_at": "2026-11-26T09:17:56+00:00",
+        "excerpt": "From an Associate Degree in Commerce to SOC labs, cybersecurity certifications, GitHub projects, and my first industry internship this is… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:bc657e8aef787c25890e12b0",
+        "source": "medium",
+        "author_tags": [
+          "bug-bounty",
+          "account-takeover",
+          "web-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@at0625309/when-forgot-password-becomes-found-account-takeover-part-1-identification-46578b0afbc2",
+        "title": "When ‘Forgot Password’ Becomes ‘Found Account Takeover’ — Part 1: Identification",
+        "author": "Swati Choudhary",
+        "published_at": "2026-11-26T09:17:47+00:00",
+        "excerpt": "Enter your email, get a link, set a new password. That’s all “Forgot Password” looks like from the outside. But every reset flow quietly… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7dd0600b2c817d96af9ef42c",
+        "source": "medium",
+        "author_tags": [
+          "digital-forensics",
+          "detection-lab",
+          "cybersecurity",
+          "cybercrime",
+          "ransomware"
+        ],
+        "url": "https://bevijaygupta.medium.com/building-a-ransomware-detection-lab-a-practical-hands-on-guide-d35ac001d28b",
+        "title": "Building a Ransomware Detection Lab: A Practical, Hands-On Guide",
+        "author": "Vijay Kumar Gupta",
+        "published_at": "2026-11-26T09:08:58+00:00",
+        "excerpt": "Most people learn about ransomware the hard way. A file server goes quiet, a note appears on a desktop, and suddenly everyone is asking… Continue reading on Medium »"
+      },
       {
         "id": "medium:2548e5e0bf70b0d4bd8098a5",
         "source": "medium",
