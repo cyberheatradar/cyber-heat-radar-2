@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-27T15:09:24.220170+00:00",
-  "as_of": "2026-11-27T15:00:00+00:00",
-  "catalog_count": 27530,
+  "generated_at": "2026-11-27T16:09:30.761164+00:00",
+  "as_of": "2026-11-27T16:00:00+00:00",
+  "catalog_count": 27532,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,34 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.malwarebytes.com/blog/bugs/2026/11/drupal-sites-are-being-hijacked-and-a-follow-up-flaw-is-already-under-attack",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-28T00:23:58.120022+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-3760cd9a61b19ee7a7d30528",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:3760cd9a61b19ee7a7d30528",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-27T23:53:16+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Malwarebytes Blog",
+      "summary": "Attackers are exploiting a second critical Drupal flaw. Some sites remained vulnerable even after the first patch.",
+      "summary_excerpt": "Attackers are exploiting a second critical Drupal flaw. Some sites remained vulnerable even after the first patch.",
+      "threat_actors": [],
+      "title": "Drupal sites are being hijacked, and a follow-up flaw is already under attack"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.security-next.com/193310",
@@ -31,6 +59,28 @@
       "summary_excerpt": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
       "threat_actors": [],
       "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193168",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-28T00:24:00.908577+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-792241cd52085fada3ee0a4b",
+      "primary_category": "other",
+      "public_article_id": "url:792241cd52085fada3ee0a4b",
+      "public_tags": [],
+      "published_at": "2026-11-27T22:56:19+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "東京海上ダイレクト損害保険は、契約者向けマイページが不正アクセスを受け、顧客の個人情報が流出したことを明らかにした。",
+      "summary_excerpt": "東京海上ダイレクト損害保険は、契約者向けマイページが不正アクセスを受け、顧客の個人情報が流出したことを明らかにした。",
+      "threat_actors": [],
+      "title": "契約者向けマイページに不正アクセス、個人情報が流出 - 東京海上ダイレクト"
     },
     {
       "ai_relevance": "none",
@@ -213,62 +263,6 @@
       "summary_excerpt": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is,",
       "threat_actors": [],
       "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/fifa-confirms-cyberattack/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T20:24:02.036910+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-edf002b95bb4521c84409d92",
-      "primary_category": "incident",
-      "public_article_id": "url:edf002b95bb4521c84409d92",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-27T19:30:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "A cyber-attack targeting FIFA has exposed a “limited set of personal and business information”",
-      "summary_excerpt": "A cyber-attack targeting FIFA has exposed a “limited set of personal and business information”",
-      "threat_actors": [],
-      "title": "FIFA Confirms Cyber-Attack, Personal and Business Information Compromised"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T19:22:20.743708+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-319bafb516c229f73fd2ee2c",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:319bafb516c229f73fd2ee2c",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-27T19:10:15+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
-      "summary_excerpt": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
-      "threat_actors": [],
-      "title": "Drupal warns of new site takeover flaw exploited in attacks"
     }
   ],
   "hottest": [
@@ -345,6 +339,28 @@
       "summary_excerpt": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
       "threat_actors": [],
       "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193168",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-28T00:24:00.908577+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-792241cd52085fada3ee0a4b",
+      "primary_category": "other",
+      "public_article_id": "url:792241cd52085fada3ee0a4b",
+      "public_tags": [],
+      "published_at": "2026-11-27T22:56:19+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "東京海上ダイレクト損害保険は、契約者向けマイページが不正アクセスを受け、顧客の個人情報が流出したことを明らかにした。",
+      "summary_excerpt": "東京海上ダイレクト損害保険は、契約者向けマイページが不正アクセスを受け、顧客の個人情報が流出したことを明らかにした。",
+      "threat_actors": [],
+      "title": "契約者向けマイページに不正アクセス、個人情報が流出 - 東京海上ダイレクト"
     },
     {
       "ai_relevance": "none",
@@ -481,62 +497,74 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6604216?source=rss",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T18:53:54.365762+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-351a162fa991bbd4ac78d9ba",
-      "primary_category": "other",
-      "public_article_id": "url:351a162fa991bbd4ac78d9ba",
-      "public_tags": [],
-      "published_at": "2026-11-27T18:37:15+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Yahoo!ニュース 経済",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "GMO サイバー攻撃防ぐ構想発表"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T18:37:34.351168+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-138f1455adfb78aef1f800c3",
-      "primary_category": "incident",
-      "public_article_id": "url:138f1455adfb78aef1f800c3",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000181.html",
+      "cves": [
+        "CVE-2026-130398",
+        "CVE-2026-130399",
+        "CVE-2026-130400"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-27T17:39:14.639491+09:00",
+      "heat_score": 64.12,
+      "permalink_id": "article-url-27b265282bdd06d6c2d441b2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:27b265282bdd06d6c2d441b2",
       "public_tags": [
         {
           "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
+          "key": "vulnerability",
+          "label": "Vulnerability"
         }
       ],
-      "published_at": "2026-11-27T18:31:44+09:00",
+      "published_at": "2026-11-27T12:08:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
       "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach involving some passport details appeared first on Help Net Security .",
-      "summary_excerpt": "Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach ",
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "デジタル庁が提供するスマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」には、次の入力リストによる制限が不十分なことに起因する複数の脆弱性が存在します。 入力リストによる制限が不十分（CWE-183）- CVE-2026-130398、CVE-2026-130399、CVE-2026-130400 CVE-2026-130398 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方が開発者とIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：GMO Flatt Security株式会社 RyotaK 氏 CVE-2026-130399 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：uaaw 氏 CVE-2026-130400 この脆弱性情報は、CVE-2026-130399への対応時に開発者が発見、修正し、JPCERT/CCが開発者との調整を行いました。",
+      "summary_excerpt": "デジタル庁が提供するスマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」には、次の入力リストによる制限が不十分なことに起因する複数の脆弱性が存在します。 入力リストによる制限が不十分（CWE-183）- CVE-2026-130398、CVE-2026-130399、CVE-2026-130400 CVE-2026-130398 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方が開発者とIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：GMO Flatt Security株式会社 RyotaK 氏 CVE-2026-130399 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：uaaw 氏 CVE-2026-130400 この脆弱性情報は、CVE-2026-130399への対応時に開発者が発見、修正し、JPCERT/CCが開発者との調整を行いました。",
       "threat_actors": [],
-      "title": "Flight Centre Travel Group warns of customer data breach involving some passport details"
+      "title": "スマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」における入力リストによる制限が不十分なことに起因する複数の脆弱性"
     }
   ],
   "rising": [],
   "persistent_hot": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-103406",
+      "cves": [
+        "CVE-2026-103406"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T00:22:17.339218+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-99685a0ad5df8d04ae854efb",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:99685a0ad5df8d04ae854efb",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-25T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+      "summary_excerpt": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+      "threat_actors": [],
+      "title": "CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
@@ -809,36 +837,6 @@
       "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a Drupal core remote code execution bug (CVE-2026-132165); and CVE-2026-131914, a deserialization of untrusted data vulnerability in Idunno AntiCsrf, a legacy ASP.NET anti-CSRF library. CVE-2026-131914 exploitation detected ASP.NET is a server-side web-application framework used for building dynamic web sites, apps and se",
       "threat_actors": [],
       "title": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044944.html",
-      "cves": [
-        "CVE-2024-58347"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T12:38:54.328062+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-e4c12b0859f79302d6eead4f",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:e4c12b0859f79302d6eead4f",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T10:53:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Storage NavigatorにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58347)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "summary_excerpt": "Storage NavigatorにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58347)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "threat_actors": [],
-      "title": "日立ディスクアレイシステムにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58347)について"
     }
   ],
   "timeseries_status": {
@@ -859,32 +857,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】化粧品通販サイトに不正アクセス - 個人情報流出の可能性",
+    "【LATEST #1】Drupal sites are being hijacked, and a follow-up flaw is already under attack",
     "【HOTTEST #1 / Heat 67.5】EspoCRMにおけるクロスサイトスクリプティングの脆弱性",
-    "【LATEST #2】政府調達情報システムのサーバから個人情報流出か - 文科省",
+    "【LATEST #2】化粧品通販サイトに不正アクセス - 個人情報流出の可能性",
     "【HOTTEST #2 / Heat 65.7】「フィッシング対策訓練」って実効性あるの？　約1.2万人に模擬メール送り検証、結果は……",
-    "【LATEST #3】Malware steals Gmail messages using a fake Google Sheets extension",
+    "【LATEST #3】契約者向けマイページに不正アクセス、個人情報が流出 - 東京海上ダイレクト",
     "【HOTTEST #3 / Heat 65】化粧品通販サイトに不正アクセス - 個人情報流出の可能性",
-    "【LATEST #4】「Drupal」が再アップデート、前回更新後も一部サイトは脆弱 - 侵害調査を",
-    "【HOTTEST #4 / Heat 65】政府調達情報システムのサーバから個人情報流出か - 文科省",
-    "【LATEST #5】Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
-    "【HOTTEST #5 / Heat 65】Malware steals Gmail messages using a fake Google Sheets extension"
+    "【LATEST #4】政府調達情報システムのサーバから個人情報流出か - 文科省",
+    "【HOTTEST #4 / Heat 65】契約者向けマイページに不正アクセス、個人情報が流出 - 東京海上ダイレクト",
+    "【LATEST #5】Malware steals Gmail messages using a fake Google Sheets extension",
+    "【HOTTEST #5 / Heat 65】政府調達情報システムのサーバから個人情報流出か - 文科省"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-24T15:00:00+00:00",
-    "last_as_of": "2026-11-27T15:00:00+00:00",
+    "first_as_of": "2026-11-24T16:00:00+00:00",
+    "last_as_of": "2026-11-27T16:00:00+00:00",
     "unique_snapshots_used": 66,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-27T15:00:00+00:00",
-  "heat_as_of": "2026-11-27T15:00:00+00:00",
+  "news_as_of": "2026-11-27T16:00:00+00:00",
+  "heat_as_of": "2026-11-27T16:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27530,
-  "last_published_at": "2026-11-28T00:09:36.858142+09:00",
-  "publication_slot_jst": "2026-11-28T00:00:00+09:00"
+  "news_catalog_count": 27532,
+  "last_published_at": "2026-11-28T01:09:43.175532+09:00",
+  "publication_slot_jst": "2026-11-28T01:00:00+09:00"
 }
