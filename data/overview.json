@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-27T21:14:36.875927+00:00",
-  "as_of": "2026-11-27T21:00:00+00:00",
-  "catalog_count": 27540,
+  "generated_at": "2026-11-27T23:11:37.593018+00:00",
+  "as_of": "2026-11-27T23:00:00+00:00",
+  "catalog_count": 27541,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -100,7 +100,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-28T02:22:41.931480+09:00",
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "permalink_id": "article-url-a061202fd8df49d87211a1c5",
       "primary_category": "threat_campaign",
       "public_article_id": "url:a061202fd8df49d87211a1c5",
@@ -128,7 +128,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-28T01:22:35.898664+09:00",
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "permalink_id": "article-url-cc6b1f3c94a66008e5b5eef8",
       "primary_category": "ai_security",
       "public_article_id": "url:cc6b1f3c94a66008e5b5eef8",
@@ -394,6 +394,38 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "cves": [
+        "CVE-2026-120705",
+        "CVE-2026-129243",
+        "CVE-2026-136716"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-28T06:22:25.481029+09:00",
+      "heat_score": 67.5,
+      "permalink_id": "article-url-a939823268298b2351a68df6",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:a939823268298b2351a68df6",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-27T21:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CISA Cybersecurity Advisories",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo GeoServer Incorrect Authorization Vulnerability CVE-2026-136716 Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
+      "summary_excerpt": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo GeoServer Incorrect Authorization Vulnerability CVE-2026-136716 Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establish",
+      "threat_actors": [],
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000182.html",
       "cves": [
         "CVE-2026-105831"
@@ -553,28 +585,6 @@
       "summary_excerpt": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
       "threat_actors": [],
       "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/193168",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-28T00:24:00.908577+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-792241cd52085fada3ee0a4b",
-      "primary_category": "other",
-      "public_article_id": "url:792241cd52085fada3ee0a4b",
-      "public_tags": [],
-      "published_at": "2026-11-27T22:56:19+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "東京海上ダイレクト損害保険は、契約者向けマイページが不正アクセスを受け、顧客の個人情報が流出したことを明らかにした。",
-      "summary_excerpt": "東京海上ダイレクト損害保険は、契約者向けマイページが不正アクセスを受け、顧客の個人情報が流出したことを明らかにした。",
-      "threat_actors": [],
-      "title": "契約者向けマイページに不正アクセス、個人情報が流出 - 東京海上ダイレクト"
     }
   ],
   "rising": [],
@@ -955,25 +965,25 @@
     "【LATEST #3】Unpatched Cacti zero-day with public PoC gives remote code execution",
     "【HOTTEST #3 / Heat 70.97】CVE-2026-136716: Drupal Core",
     "【LATEST #4】Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
-    "【HOTTEST #4 / Heat 67.5】EspoCRMにおけるクロスサイトスクリプティングの脆弱性",
+    "【HOTTEST #4 / Heat 67.5】CISA Adds Three Known Exploited Vulnerabilities to Catalog",
     "【LATEST #5】Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
-    "【HOTTEST #5 / Heat 65.7】「フィッシング対策訓練」って実効性あるの？　約1.2万人に模擬メール送り検証、結果は……"
+    "【HOTTEST #5 / Heat 67.5】EspoCRMにおけるクロスサイトスクリプティングの脆弱性"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-24T21:00:00+00:00",
-    "last_as_of": "2026-11-27T21:00:00+00:00",
-    "unique_snapshots_used": 66,
+    "first_as_of": "2026-11-24T23:00:00+00:00",
+    "last_as_of": "2026-11-27T23:00:00+00:00",
+    "unique_snapshots_used": 65,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-27T21:00:00+00:00",
-  "heat_as_of": "2026-11-27T21:00:00+00:00",
+  "news_as_of": "2026-11-27T23:00:00+00:00",
+  "heat_as_of": "2026-11-27T23:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27540,
-  "last_published_at": "2026-11-28T06:14:57.379629+09:00",
-  "publication_slot_jst": "2026-11-28T06:00:00+09:00"
+  "news_catalog_count": 27541,
+  "last_published_at": "2026-11-28T08:11:50.034520+09:00",
+  "publication_slot_jst": "2026-11-28T08:00:00+09:00"
 }
