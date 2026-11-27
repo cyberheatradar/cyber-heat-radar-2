@@ -1,9 +1,41 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-27T17:40:03.001125+00:00",
+  "source_snapshot_generated_at": "2026-11-27T18:40:02.720218+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:fe4ca3f477fd6e158029ab67",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "運用",
+          "llm",
+          "AIエージェント",
+          "Muse"
+        ],
+        "url": "https://zenn.dev/aletheia_jp/articles/c4cd7b90c63e30",
+        "title": "AIエージェントに渡す権限の設計：読み取り専用から始めて、取り返しのつかない操作だけを分離する",
+        "author": "aletheia-jp",
+        "published_at": "2026-11-27T17:46:37.149000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:952bd9dabd25ad5c89cc8c47",
+        "source": "zenn",
+        "author_tags": [
+          "WordPress",
+          "Security",
+          "情報漏洩",
+          "Cyber Security",
+          "不正アクセス"
+        ],
+        "url": "https://zenn.dev/quantumaisafe/articles/ad11dfaa4808c6",
+        "title": "情報漏えいの入口を技術でふさぐ：テストデータの仮名化、S3/GCSの公開設定監査、CTログでの資産洗い出し、項目単位の暗号化",
+        "author": "量子AIセーフガード",
+        "published_at": "2026-11-27T17:43:30+00:00",
+        "excerpt": "個人情報の漏えいの入口のうち、エンジニアが手を動かしてふさげるものを5つ選び、確認のコマンドと直し方をまとめました。 テスト環境に置かれた本番データ（検出と仮名化） クラウドの保存場所の公開設定（S3／Cloud Storage） 長く使われていない認証情報（IAM のアクセスキー、サービスアカウントの鍵） 忘れられたホストと DNS（Certificate Transparency、ダングリング CNAME） 「盗まれても読めない」状態（項目単位の暗号化と鍵の分離） 背景となる統計と、個人情報保護法の報告義務の要点は、note の記事「顧客情報の漏えいは、どこから起きる？」にまとめてい..."
+      },
       {
         "id": "zenn:5480376ad21e891fc1d7a46b",
         "source": "zenn",
@@ -77335,6 +77367,68 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:6a4a6e75db9aa80285a7a5d7",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "dfir",
+          "industrial-visit",
+          "paruluniversity",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@drishyanair04/parul-university-goes-offline-well-not-really-a-day-at-drona-cyber-solutions-21157ea67e5e",
+        "title": "Parul University Goes Offline (Well, Not Really): A Day at Drona Cyber Solutions",
+        "author": "Drishya Nair",
+        "published_at": "2026-11-27T18:26:48+00:00",
+        "excerpt": "An unplanned industrial visit, three fascinating cybersecurity domains, a bus full of friends, and a little glimpse into the world we’re… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:57527d7f3fec674f2ad6446a",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "ai-security",
+          "ethical-hacking",
+          "vulnerability",
+          "information-security"
+        ],
+        "url": "https://medium.com/@shrutirawat503/security-in-ai-models-c9d351467c84",
+        "title": "Security In AI Models",
+        "author": "Shruti",
+        "published_at": "2026-11-27T18:16:51+00:00",
+        "excerpt": "Artificial Intelligence is becoming part of almost everything we use today, from chatbots and recommendation systems to healthcare… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:abbcb82ecd340764b524b2cd",
+        "source": "medium",
+        "author_tags": [
+          "threat-intelligence",
+          "cybersecurity",
+          "ai"
+        ],
+        "url": "https://socfortress.medium.com/artex-agentic-ai-offensive-framework-analysis-defense-strategies-c3f2d01415b6",
+        "title": "ARTEX Agentic AI Offensive Framework Analysis & Defense Strategies",
+        "author": "SOCFortress",
+        "published_at": "2026-11-27T18:06:49+00:00",
+        "excerpt": "Note: Create your free account in SOCFortress Signals (https://signals.socfortress.co/) for: Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4662ca96a71124d7239e36ee",
+        "source": "medium",
+        "author_tags": [
+          "detection-engineering",
+          "threat-hunting",
+          "mitre-attack",
+          "blue-team",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@iam_yshnav_/purple-team-detection-lab-attack-detect-tune-deb01606f7c7",
+        "title": "Purple Team Detection Lab — Attack, Detect, Tune",
+        "author": "Vyshnav Vinod",
+        "published_at": "2026-11-27T17:50:31+00:00",
+        "excerpt": "Sigma Rules | MITRE ATT&CK | Sysmon | Detection-as-Code Continue reading on Medium »"
+      },
       {
         "id": "medium:8d81bdd034b7b87e59422266",
         "source": "medium",

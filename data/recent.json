@@ -161,7 +161,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-27T21:22:50.559404+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-4acf412e5eab54fc4744c2d1",
     "primary_category": "other",
     "public_article_id": "url:4acf412e5eab54fc4744c2d1",
@@ -183,7 +183,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-27T21:38:22.107599+09:00",
-    "heat_score": 65.0,
+    "heat_score": 58.5,
     "permalink_id": "article-url-eac5774dfd71906ecf2aeaf8",
     "primary_category": "threat_campaign",
     "public_article_id": "url:eac5774dfd71906ecf2aeaf8",
@@ -1142,6 +1142,119 @@
     "summary_excerpt": "10月1日に不正アクセスを検知し、外部専門機関と連携して調査した結果、漏えいの可能性が判明した。",
     "threat_actors": [],
     "title": "文部科学省の入札システムに不正アクセス　最大16万件漏えいか"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-120705",
+    "cves": [
+      "CVE-2026-120705",
+      "CVE-2026-129242",
+      "CVE-2026-129243",
+      "CVE-2026-129244",
+      "CVE-2026-129245"
+    ],
+    "document_form": "advisory",
+    "first_seen_at": "2026-11-28T03:22:17.916799+09:00",
+    "heat_score": 70.97,
+    "permalink_id": "article-url-72e49feff0d8b5106923cde2",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:72e49feff0d8b5106923cde2",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "orange",
+        "key": "kev",
+        "label": "KEV"
+      }
+    ],
+    "published_at": "2026-11-27T09:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": true,
+    "source_class": "enrichment_kev",
+    "source_name": "CISA Known Exploited Vulnerabilities",
+    "summary": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+    "summary_excerpt": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+    "threat_actors": [],
+    "title": "CVE-2026-120705: OSGeo GeoServer"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129243",
+    "cves": [
+      "CVE-2026-120705",
+      "CVE-2026-129242",
+      "CVE-2026-129243",
+      "CVE-2026-129244",
+      "CVE-2026-129245"
+    ],
+    "document_form": "advisory",
+    "first_seen_at": "2026-11-28T03:22:17.906936+09:00",
+    "heat_score": 70.97,
+    "permalink_id": "article-url-015000a17fb151f8c4262682",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:015000a17fb151f8c4262682",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "orange",
+        "key": "kev",
+        "label": "KEV"
+      }
+    ],
+    "published_at": "2026-11-27T09:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": true,
+    "source_class": "enrichment_kev",
+    "source_name": "CISA Known Exploited Vulnerabilities",
+    "summary": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+    "summary_excerpt": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+    "threat_actors": [],
+    "title": "CVE-2026-129243: OSGeo GeoServer"
+  },
+  {
+    "ai_relevance": "none",
+    "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-136716",
+    "cves": [
+      "CVE-2026-136716"
+    ],
+    "document_form": "advisory",
+    "first_seen_at": "2026-11-28T03:22:17.894085+09:00",
+    "heat_score": 70.97,
+    "permalink_id": "article-url-50d5c0c3fbac38eca58a7dd6",
+    "primary_category": "vulnerability",
+    "public_article_id": "url:50d5c0c3fbac38eca58a7dd6",
+    "public_tags": [
+      {
+        "color_family": "neutral",
+        "key": "vulnerability",
+        "label": "Vulnerability"
+      },
+      {
+        "color_family": "orange",
+        "key": "kev",
+        "label": "KEV"
+      }
+    ],
+    "published_at": "2026-11-27T09:00:00+09:00",
+    "published_at_future_suppressed": false,
+    "security_relevance": "primary",
+    "seen_in_kev": true,
+    "source_class": "enrichment_kev",
+    "source_name": "CISA Known Exploited Vulnerabilities",
+    "summary": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+    "summary_excerpt": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+    "threat_actors": [],
+    "title": "CVE-2026-136716: Drupal Core"
   },
   {
     "ai_relevance": "none",
@@ -19778,7 +19891,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-25T04:23:21.058572+09:00",
-    "heat_score": 46.8,
+    "heat_score": 32.5,
     "permalink_id": "article-url-6c5bc98dced3225cd1022fea",
     "primary_category": "threat_campaign",
     "public_article_id": "url:6c5bc98dced3225cd1022fea",
@@ -19806,7 +19919,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-25T04:52:09.792702+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-97e34f237938a15179f48f0f",
     "primary_category": "other",
     "public_article_id": "url:97e34f237938a15179f48f0f",
@@ -19828,7 +19941,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-25T04:24:03.693551+09:00",
-    "heat_score": 32.4,
+    "heat_score": 22.5,
     "permalink_id": "article-url-f845360f4d828026ed2df829",
     "primary_category": "vulnerability",
     "public_article_id": "url:f845360f4d828026ed2df829",
@@ -37286,7 +37399,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-21T03:52:02.849919+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-a1277bddeebe52e04d12e6a8",
     "primary_category": "other",
     "public_article_id": "url:a1277bddeebe52e04d12e6a8",
@@ -37314,7 +37427,7 @@
     "cves": [],
     "document_form": "single_story",
     "first_seen_at": "2026-11-21T04:23:41.620345+09:00",
-    "heat_score": 22.5,
+    "heat_score": 6.75,
     "permalink_id": "article-url-fdc780d56a7ef660b4e54ad8",
     "primary_category": "ai_security",
     "public_article_id": "url:fdc780d56a7ef660b4e54ad8",
@@ -37347,7 +37460,7 @@
     "cves": [],
     "document_form": "advisory",
     "first_seen_at": "2026-11-21T04:52:24.510553+09:00",
-    "heat_score": 30.88,
+    "heat_score": 9.26,
     "permalink_id": "article-url-f078310a6980d43fed8bfcac",
     "primary_category": "vulnerability",
     "public_article_id": "url:f078310a6980d43fed8bfcac",
@@ -159213,68 +159326,5 @@
     "summary_excerpt": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause t",
     "threat_actors": [],
     "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability"
-  },
-  {
-    "ai_relevance": "none",
-    "canonical_url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-29T04:02:21.975691+09:00",
-    "heat_score": 9.75,
-    "permalink_id": "article-url-3402ef3be45eaaf5abfa887e",
-    "primary_category": "vulnerability",
-    "public_article_id": "url:3402ef3be45eaaf5abfa887e",
-    "public_tags": [
-      {
-        "color_family": "neutral",
-        "key": "vulnerability",
-        "label": "Vulnerability"
-      }
-    ],
-    "published_at": "2026-10-29T03:08:33+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "primary",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "The Hacker News",
-    "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
-    "summary_excerpt": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
-    "threat_actors": [
-      "Volt Typhoon"
-    ],
-    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns"
-  },
-  {
-    "ai_relevance": "material",
-    "canonical_url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
-    "cves": [],
-    "document_form": "single_story",
-    "first_seen_at": "2026-10-29T04:02:23.396691+09:00",
-    "heat_score": 6.75,
-    "permalink_id": "article-url-ad396287fcf57887cbeab06f",
-    "primary_category": "ai_security",
-    "public_article_id": "url:ad396287fcf57887cbeab06f",
-    "public_tags": [
-      {
-        "color_family": "cyan",
-        "key": "ai_security",
-        "label": "AI Security"
-      },
-      {
-        "color_family": "red",
-        "key": "ransomware",
-        "label": "Ransomware"
-      }
-    ],
-    "published_at": "2026-10-29T03:00:10+09:00",
-    "published_at_future_suppressed": false,
-    "security_relevance": "material",
-    "seen_in_kev": false,
-    "source_class": "topic_rss",
-    "source_name": "Unit 42 Research",
-    "summary": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .",
-    "summary_excerpt": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .",
-    "threat_actors": [],
-    "title": "Unwrapping Retail Peak Season Cyber Threats"
   }
 ]
