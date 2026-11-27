@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-27T12:10:27.334830+00:00",
-  "as_of": "2026-11-27T12:00:00+00:00",
-  "catalog_count": 27524,
+  "generated_at": "2026-11-27T13:10:00.293307+00:00",
+  "as_of": "2026-11-27T13:00:00+00:00",
+  "catalog_count": 27528,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,83 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193439",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T21:22:50.559404+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-4acf412e5eab54fc4744c2d1",
+      "primary_category": "other",
+      "public_article_id": "url:4acf412e5eab54fc4744c2d1",
+      "public_tags": [],
+      "published_at": "2026-11-27T21:12:40+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "文部科学省は、政府調達情報システムを構成するサーバが侵害され、関係者の個人情報が外部に流出した可能性があることを明らかにした。",
+      "summary_excerpt": "文部科学省は、政府調達情報システムを構成するサーバが侵害され、関係者の個人情報が外部に流出した可能性があることを明らかにした。",
+      "threat_actors": [],
+      "title": "政府調達情報システムのサーバから個人情報流出か - 文科省"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T21:38:22.107599+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-eac5774dfd71906ecf2aeaf8",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:eac5774dfd71906ecf2aeaf8",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-27T21:09:14+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Malwarebytes Blog",
+      "summary": "Remus’s fake Chrome extension can read Gmail after a password change if you sign back in on the infected browser.",
+      "summary_excerpt": "Remus’s fake Chrome extension can read Gmail after a password change if you sign back in on the infected browser.",
+      "threat_actors": [],
+      "title": "Malware steals Gmail messages using a fake Google Sheets extension"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193451",
+      "cves": [],
+      "document_form": "research",
+      "first_seen_at": "2026-11-27T21:22:50.891950+09:00",
+      "heat_score": 40.5,
+      "permalink_id": "article-url-130a9f7fcf343703944138e6",
+      "primary_category": "other",
+      "public_article_id": "url:130a9f7fcf343703944138e6",
+      "public_tags": [],
+      "published_at": "2026-11-27T20:57:15+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "コンテンツ管理システム「Drupal」に深刻な脆弱性が明らかとなった。前回のアップデートを実施していても、特定条件で悪用が可能で、すでに侵害されているおそれもあるとして利用者に注意を呼びかけている。",
+      "summary_excerpt": "コンテンツ管理システム「Drupal」に深刻な脆弱性が明らかとなった。前回のアップデートを実施していても、特定条件で悪用が可能で、すでに侵害されているおそれもあるとして利用者に注意を呼びかけている。",
+      "threat_actors": [],
+      "title": "「Drupal」が再アップデート、前回更新後も一部サイトは脆弱 - 侵害調査を"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2160136.html",
@@ -204,89 +281,6 @@
       "summary_excerpt": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
       "threat_actors": [],
       "title": "SAP confirms security incident after suspicious GitHub activity"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.yahoo.co.jp/pickup/6604216?source=rss",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T18:53:54.365762+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-351a162fa991bbd4ac78d9ba",
-      "primary_category": "other",
-      "public_article_id": "url:351a162fa991bbd4ac78d9ba",
-      "public_tags": [],
-      "published_at": "2026-11-27T18:37:15+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Yahoo!ニュース 経済",
-      "summary": null,
-      "summary_excerpt": null,
-      "threat_actors": [],
-      "title": "GMO サイバー攻撃防ぐ構想発表"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T18:37:34.351168+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-138f1455adfb78aef1f800c3",
-      "primary_category": "incident",
-      "public_article_id": "url:138f1455adfb78aef1f800c3",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        },
-        {
-          "color_family": "cyan",
-          "key": "agentic_security",
-          "label": "Agentic Security"
-        }
-      ],
-      "published_at": "2026-11-27T18:31:44+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach involving some passport details appeared first on Help Net Security .",
-      "summary_excerpt": "Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach ",
-      "threat_actors": [],
-      "title": "Flight Centre Travel Group warns of customer data breach involving some passport details"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T18:37:41.281988+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-73f2ff30155be912750c2dde",
-      "primary_category": "incident",
-      "public_article_id": "url:73f2ff30155be912750c2dde",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-27T18:30:54+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
-      "summary_excerpt": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "100,000 Potentially Impacted by Colorado Data Breach"
     }
   ],
   "hottest": [
@@ -371,6 +365,61 @@
       "summary_excerpt": "米パデュー大学に所属する研究者らが発表した論文「Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale」は、フィッシング対策研修に効果があるのかを調査した研究報告だ。",
       "threat_actors": [],
       "title": "「フィッシング対策訓練」って実効性あるの？　約1.2万人に模擬メール送り検証、結果は……"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193439",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T21:22:50.559404+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-4acf412e5eab54fc4744c2d1",
+      "primary_category": "other",
+      "public_article_id": "url:4acf412e5eab54fc4744c2d1",
+      "public_tags": [],
+      "published_at": "2026-11-27T21:12:40+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "文部科学省は、政府調達情報システムを構成するサーバが侵害され、関係者の個人情報が外部に流出した可能性があることを明らかにした。",
+      "summary_excerpt": "文部科学省は、政府調達情報システムを構成するサーバが侵害され、関係者の個人情報が外部に流出した可能性があることを明らかにした。",
+      "threat_actors": [],
+      "title": "政府調達情報システムのサーバから個人情報流出か - 文科省"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T21:38:22.107599+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-eac5774dfd71906ecf2aeaf8",
+      "primary_category": "threat_campaign",
+      "public_article_id": "url:eac5774dfd71906ecf2aeaf8",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "threat_campaign",
+          "label": "Campaign"
+        },
+        {
+          "color_family": "red",
+          "key": "malware",
+          "label": "Malware"
+        }
+      ],
+      "published_at": "2026-11-27T21:09:14+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Malwarebytes Blog",
+      "summary": "Remus’s fake Chrome extension can read Gmail after a password change if you sign back in on the infected browser.",
+      "summary_excerpt": "Remus’s fake Chrome extension can read Gmail after a password change if you sign back in on the infected browser.",
+      "threat_actors": [],
+      "title": "Malware steals Gmail messages using a fake Google Sheets extension"
     },
     {
       "ai_relevance": "none",
@@ -504,103 +553,10 @@
       "summary_excerpt": "Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach ",
       "threat_actors": [],
       "title": "Flight Centre Travel Group warns of customer data breach involving some passport details"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T18:37:41.281988+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-73f2ff30155be912750c2dde",
-      "primary_category": "incident",
-      "public_article_id": "url:73f2ff30155be912750c2dde",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-27T18:30:54+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
-      "summary_excerpt": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "100,000 Potentially Impacted by Colorado Data Breach"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T20:24:17.063741+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-d8fcf47e119ce6e7da51fb26",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:d8fcf47e119ce6e7da51fb26",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-27T18:29:30+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed",
-      "summary_excerpt": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed",
-      "threat_actors": [],
-      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware"
     }
   ],
   "rising": [],
   "persistent_hot": [
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "cves": [
-        "CVE-2026-131914",
-        "CVE-2026-132165",
-        "CVE-2026-132224"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T07:22:23.098452+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-165729c3cbfbb2e3eb18effe",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:165729c3cbfbb2e3eb18effe",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-24T21:00:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "CISA Cybersecurity Advisories",
-      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability CVE-2026-132224 Optimizely Web Experimentation External Control of Critical State Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
-      "summary_excerpt": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability CVE-2026-132224 Optimizely Web Experimentation External Control of Critical State Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Bas",
-      "threat_actors": [],
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog"
-    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044942.html",
@@ -872,6 +828,36 @@
       "summary_excerpt": "Storage NavigatorにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58347)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
       "threat_actors": [],
       "title": "日立ディスクアレイシステムにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58347)について"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T21:22:45.597961+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-f8d0d1935ac4bbfbbe273bf5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:f8d0d1935ac4bbfbbe273bf5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T20:23:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "threat_actors": [],
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
     }
   ],
   "timeseries_status": {
@@ -892,32 +878,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡",
+    "【LATEST #1】政府調達情報システムのサーバから個人情報流出か - 文科省",
     "【HOTTEST #1 / Heat 67.5】EspoCRMにおけるクロスサイトスクリプティングの脆弱性",
-    "【LATEST #2】Chinese and North Korean state hackers add ARTEX AI framework to their arsenal",
+    "【LATEST #2】Malware steals Gmail messages using a fake Google Sheets extension",
     "【HOTTEST #2 / Heat 67.5】Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
-    "【LATEST #3】How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+    "【LATEST #3】「Drupal」が再アップデート、前回更新後も一部サイトは脆弱 - 侵害調査を",
     "【HOTTEST #3 / Heat 65.7】「フィッシング対策訓練」って実効性あるの？　約1.2万人に模擬メール送り検証、結果は……",
-    "【LATEST #4】FIFA Confirms Cyber-Attack, Personal and Business Information Compromised",
-    "【HOTTEST #4 / Heat 65】「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡",
-    "【LATEST #5】Drupal warns of new site takeover flaw exploited in attacks",
-    "【HOTTEST #5 / Heat 65】FIFA Confirms Cyber-Attack, Personal and Business Information Compromised"
+    "【LATEST #4】「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡",
+    "【HOTTEST #4 / Heat 65】政府調達情報システムのサーバから個人情報流出か - 文科省",
+    "【LATEST #5】Chinese and North Korean state hackers add ARTEX AI framework to their arsenal",
+    "【HOTTEST #5 / Heat 65】Malware steals Gmail messages using a fake Google Sheets extension"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-24T12:00:00+00:00",
-    "last_as_of": "2026-11-27T12:00:00+00:00",
+    "first_as_of": "2026-11-24T13:00:00+00:00",
+    "last_as_of": "2026-11-27T13:00:00+00:00",
     "unique_snapshots_used": 66,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-27T12:00:00+00:00",
-  "heat_as_of": "2026-11-27T12:00:00+00:00",
+  "news_as_of": "2026-11-27T13:00:00+00:00",
+  "heat_as_of": "2026-11-27T13:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27524,
-  "last_published_at": "2026-11-27T21:10:39.615904+09:00",
-  "publication_slot_jst": "2026-11-27T21:00:00+09:00"
+  "news_catalog_count": 27528,
+  "last_published_at": "2026-11-27T22:10:12.868007+09:00",
+  "publication_slot_jst": "2026-11-27T22:00:00+09:00"
 }
