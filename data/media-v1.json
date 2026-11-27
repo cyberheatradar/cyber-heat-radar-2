@@ -1,9 +1,56 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-27T09:40:03.552105+00:00",
+  "source_snapshot_generated_at": "2026-11-27T10:40:03.551737+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:14c2c46edf97deb0346c080a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "副業",
+          "ChatGPT"
+        ],
+        "url": "https://zenn.dev/walnut1681974/articles/9ce37b910c3229",
+        "title": "商品は51点、スキは270、それでも売上は0円です",
+        "author": "walnut",
+        "published_at": "2026-11-27T10:19:28.773000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5bdedbe02883a852dd4ae1e5",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "Kotlin",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/meas_nobu/articles/25f405ea939057",
+        "title": "PC なし、スマホだけで AI DJ ── Claude アプリと分割画面で並べ、クリップボードで曲を受け渡す",
+        "author": "仕事はバックエンド中心なシニア―",
+        "published_at": "2026-11-27T10:13:59+00:00",
+        "excerpt": "前回の記事では、PC のローカル LLM（LM Studio）から MCP でスマホの作曲アプリ「PanNyx」を操作し、AI が曲を作り続けて流す AI DJ を作りました。 ただ、この方法には PC と LM Studio の準備が要ります。そこで今回は、スマホだけで同じことができるようにしました。スマホの AI アプリ（Claude など）と PanNyx を分割画面で並べ、AI が作った曲をクリップボードで受け渡します。 動画では、「アップテンポなハウスを 3 曲」と頼むところから始めて、6 曲のセットを作り、最後の曲まで流しています。 この記事では、まず「なぜクリップボードなの..."
+      },
+      {
+        "id": "zenn:b2d5093b375eb423f1225435",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "OpenAI",
+          "llm",
+          "Claude",
+          "ローカル LLM"
+        ],
+        "url": "https://zenn.dev/yukurash/articles/c5ee6ecb076e7e",
+        "title": "【ローカルLLM】撮った動画をその場でAIが編集してくれる時代に",
+        "author": "yukurash",
+        "published_at": "2026-11-27T09:58:58+00:00",
+        "excerpt": "旅先で撮った動画を、その日の夜には1本のショート動画にして公開したい。 AIが動画を編集できる時代になって、これは夢物語ではなくなりました。ただし、素材をクラウドに上げればの話です。 この記事は Zennfes Autumn 2026「私の考えるハイブリッドLLM～実践と構想～」の構想部門への応募です。 いま手元にある Surface Laptop 7（Snapdragon X Elite / 32GB）で縮小版を作って実測し、その結果から「もし Surface Laptop Ultra を手に入れたら、旅先でこう使う」という構想を組み立てました。Ultra の数値は公開されている情報と..."
+      },
       {
         "id": "zenn:8a6f064c3104b65201c6aefb",
         "source": "zenn",
@@ -163,6 +210,16 @@
         "author": "RYO ITABASHI",
         "published_at": "2026-11-27T07:52:04.109000+00:00",
         "excerpt": ""
+      },
+      {
+        "id": "zenn:4e388cee54ee2981fbac8639",
+        "source": "zenn",
+        "author_tags": [],
+        "url": "https://zenn.dev/py_pipeline_lab/books/06786163d4ae1f",
+        "title": "実戦 ComfyUI × Python 自動バッチ生成＆品質ゲート構築ハンドブック",
+        "author": "実践自動化ラボ",
+        "published_at": "2026-11-27T07:51:06+00:00",
+        "excerpt": "ローカルGPU1枚のComfyUI環境をPython標準ライブラリとPillowだけで自動化し、CSV1枚からの連続生成・途中再開・異常画像隔離・PNGメタデータ完全除去・一覧シート検品までを構築する実践書です。"
       },
       {
         "id": "zenn:573d8dddd47d874a309d1e65",
@@ -56597,6 +56654,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:0ce7983a8a8a6159b7de87cb",
+        "source": "qiita",
+        "author_tags": [
+          "tailscale",
+          "TailnetLock",
+          "VPN",
+          "Network",
+          "Security"
+        ],
+        "url": "https://qiita.com/mitsuakiejima/items/418ad826c1ce527fc32e",
+        "title": "Tailnet Lockを有効化した記録：署名ノード2台構成の導入手順と運用の注意点",
+        "author": "mitsuakiejima",
+        "published_at": "2026-11-27T19:06:57+09:00",
+        "excerpt": "はじめに 個人のtailnetに、ノートPC、デスクトップ、スマートフォン、作業用の仮想マシンと、気づけば5台前後のデバイスが常時ぶら下がるようになりました。SSHの到達先やファイル共有の入口がこのtailnet上に集まっていることもあり、「このネットワークに誰が入れるか」の担保をもう一段強くしておきたいと考え、2026年11月にTailnet Lockを有効化しました。 この記事は、そのときの手順と、有効化後の運用で気づいた注意点のメモです。 Tailnet Lockとは 通常のTailscaleでは、新しいデバイスの参加はコーディネーションサーバー（Tailscale側の管理基盤）が承認します。Tailnet Lockを有効化すると、この承認に加えて、 自分が指定した署名ノード（signing node）が持つ署名鍵による署名 が必須になります。署名されていないノードキーは、他のノードから受け入れられません。 ポイントは次の3つです。 信頼の起点がTailscaleのサーバーから、自分の手元のデバイスに移る。コーディネーションサーバー側で不正"
+      },
+      {
+        "id": "qiita:7948acdd79d94f31313b3e04",
+        "source": "qiita",
+        "author_tags": [
+          "mail",
+          "blastengine",
+          "Security",
+          "メールアドレス",
+          "迷惑メール"
+        ],
+        "url": "https://qiita.com/duck_ahiru_Z/items/8e41ae6226abfca39b68",
+        "title": "約200個のメールアドレスを使い分ける。個人で実践するメールセキュリティ運用",
+        "author": "duck_ahiru_Z",
+        "published_at": "2026-11-27T19:05:03+09:00",
+        "excerpt": "はじめに 突然ですが、皆さんはメールアドレスをいくつ持っていますか？ 私は現在、約120個のメールアドレスを利用しています。これまでに作成したものを含めると、累計で約200個になります。 なぜそんなに必要なのかと思われるかもしれません。 私が実践しているのは、 1つのサービスにつき1つのメールアドレスを割り当てる という方法です。 この話をすると、結構驚かれます。 普段、Webサービスに登録するとき、同じGmailのアドレスを使い回している人も多いと思います。私も以前はGmailを中心に利用していましたが、登録するサービスが増えるにつれて、広告メールや迷惑メールが増え、本当に必要な連絡が埋もれてしまうこともありました。 また、企業やサービスからの情報漏えいに関するニュースを見ると、自分が登録したメールアドレスがどこでどのように扱われているのか気になることもあります。 そこで、現在はメールアドレスをサービスごとに分けて管理するようにしています。 今回は、私が普段から実践しているメールアドレスの使い分けと、実際に使って感じたメリットについて紹介します"
+      },
+      {
         "id": "qiita:ae9fad1f907d049ce417068d",
         "source": "qiita",
         "author_tags": [
@@ -76619,6 +76708,101 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1753b99fe130e4967b3fbd1f",
+        "source": "medium",
+        "author_tags": [
+          "webview",
+          "mobile-pentest",
+          "silentn0va",
+          "cybersecurity",
+          "bug-bounty"
+        ],
+        "url": "https://medium.com/@SilentN0va/the-delivery-app-that-told-strangers-where-you-live-anatomy-of-a-deep-link-webview-javascript-99ffd8021b8c",
+        "title": "The Delivery App That Told Strangers Where You Live: Anatomy of a Deep Link → WebView → JavaScript…",
+        "author": "Fady Basem Zaky",
+        "published_at": "2026-11-27T10:38:02+00:00",
+        "excerpt": "A popular Android food-delivery app (here called QuickBite, package com.example.quickbite, tens of millions of installs) registered a… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:32ea02ce5f9de50cf2cbf414",
+        "source": "medium",
+        "author_tags": [
+          "risk-management",
+          "ai",
+          "data-breach",
+          "cybersecurity",
+          "privacy"
+        ],
+        "url": "https://garry-heger.medium.com/ciso-en-2026-entre-responsabilit%C3%A9-doute-et-intelligence-artificielle-c4be34a7f723",
+        "title": "CISO en 2026 : entre responsabilité, doute et intelligence artificielle",
+        "author": "Garry Heger",
+        "published_at": "2026-11-27T10:36:07+00:00",
+        "excerpt": "Réflexions personnelles d’un professionnel de la cybersécurité au cœur d’un changement de paradigme. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:36ef4a94b485a4bf6c1961b3",
+        "source": "medium",
+        "author_tags": [
+          "cloud-computing",
+          "artificial-intelligence",
+          "aws",
+          "cybersecurity",
+          "azure"
+        ],
+        "url": "https://medium.com/@daywalkernyc141/exclusive-cloud-cybersecurity-deals-build-in-demand-skills-take-your-career-to-the-next-404e0220e01d",
+        "title": "Exclusive Cloud & Cybersecurity Deals — Build In-Demand Skills & Take Your Career to the Next…",
+        "author": "Daywalkernyc",
+        "published_at": "2026-11-27T10:33:37+00:00",
+        "excerpt": "Stop scrolling if you’re serious about building a career in Cloud & Cybersecurity. 👀 Continue reading on Medium »"
+      },
+      {
+        "id": "medium:dcb913c24b06f24506d08c5e",
+        "source": "medium",
+        "author_tags": [
+          "incident-response",
+          "cybersecurity",
+          "it-management",
+          "ransomware",
+          "small-business"
+        ],
+        "url": "https://medium.com/@technijian/your-ransomware-defense-needs-a-decision-clock-not-another-dashboard-7707fa8a6ffa",
+        "title": "Your Ransomware Defense Needs a Decision Clock, Not Another Dashboard",
+        "author": "Technijian",
+        "published_at": "2026-11-27T10:33:05+00:00",
+        "excerpt": "AI-assisted attacks raise an operational question: can your business authorize a response before an alert becomes an outage? Continue reading on Medium »"
+      },
+      {
+        "id": "medium:fe8232c83af886e2c229ac33",
+        "source": "medium",
+        "author_tags": [
+          "information-security",
+          "technology",
+          "cybersecurity",
+          "cyber-security-awareness"
+        ],
+        "url": "https://medium.com/@alexandersoncorporation/cybersecurity-understanding-the-threats-protecting-our-digital-lives-and-preparing-for-the-future-da88b14913fe",
+        "title": "Cybersecurity: Understanding the Threats, Protecting Our Digital Lives and Preparing for the Future",
+        "author": "Alexander Livingson",
+        "published_at": "2026-11-27T10:30:31+00:00",
+        "excerpt": "In a world increasingly driven by technology, protecting our digital identity is no longer optional. It is a responsibility we all share. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:d77dcbc6b416d73e8238d077",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "cybersecurity-awareness",
+          "cybersecurity",
+          "phishing",
+          "vapt"
+        ],
+        "url": "https://medium.com/@alwinbenito17/best-vapt-services-provider-in-india-iso-27001-and-cert-in-empanelled-company-ba7375cbc913",
+        "title": "Best VAPT Services Provider in India | ISO 27001 and CERT-In Empanelled Company",
+        "author": "Alwinbenito",
+        "published_at": "2026-11-27T10:28:16+00:00",
+        "excerpt": "Are you running an organization? Then your organization needs VAPT services in India and across other countries. VAPT helps detect, assess… Continue reading on Medium »"
+      },
       {
         "id": "medium:cae5c316356a818829e026f5",
         "source": "medium",
