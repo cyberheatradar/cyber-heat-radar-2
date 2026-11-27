@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-27T14:10:13.560240+00:00",
-  "as_of": "2026-11-27T14:00:00+00:00",
-  "catalog_count": 27528,
+  "generated_at": "2026-11-27T15:09:24.220170+00:00",
+  "as_of": "2026-11-27T15:00:00+00:00",
+  "catalog_count": 27530,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,28 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193310",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T23:22:39.705937+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-8c7e011650c863431cc0cf17",
+      "primary_category": "other",
+      "public_article_id": "url:8c7e011650c863431cc0cf17",
+      "public_tags": [],
+      "published_at": "2026-11-27T23:05:36+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
+      "summary_excerpt": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
+      "threat_actors": [],
+      "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.security-next.com/193439",
@@ -86,6 +108,28 @@
       "summary_excerpt": "コンテンツ管理システム「Drupal」に深刻な脆弱性が明らかとなった。前回のアップデートを実施していても、特定条件で悪用が可能で、すでに侵害されているおそれもあるとして利用者に注意を呼びかけている。",
       "threat_actors": [],
       "title": "「Drupal」が再アップデート、前回更新後も一部サイトは脆弱 - 侵害調査を"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T23:22:40.461300+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-c60eeeaa334b435fe2df496f",
+      "primary_category": "other",
+      "public_article_id": "url:c60eeeaa334b435fe2df496f",
+      "public_tags": [],
+      "published_at": "2026-11-27T20:49:34+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
+      "summary_excerpt": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
+      "threat_actors": [],
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control"
     },
     {
       "ai_relevance": "none",
@@ -225,62 +269,6 @@
       "summary_excerpt": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
       "threat_actors": [],
       "title": "Drupal warns of new site takeover flaw exploited in attacks"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T20:24:17.703896+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-177be2c68cd380fc7c266cb4",
-      "primary_category": "incident",
-      "public_article_id": "url:177be2c68cd380fc7c266cb4",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-27T19:01:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Register Security",
-      "summary": "Pensioners assured their funds will arrive as normal",
-      "summary_excerpt": "Pensioners assured their funds will arrive as normal",
-      "threat_actors": [],
-      "title": "British social security system techies yank services offline following 'cyber incident'"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T19:22:21.826820+09:00",
-      "heat_score": 45.0,
-      "permalink_id": "article-url-1147158f7c1bb54f94b02be7",
-      "primary_category": "incident",
-      "public_article_id": "url:1147158f7c1bb54f94b02be7",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-27T18:56:36+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "material",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
-      "summary_excerpt": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
-      "threat_actors": [],
-      "title": "SAP confirms security incident after suspicious GitHub activity"
     }
   ],
   "hottest": [
@@ -335,6 +323,28 @@
       "summary_excerpt": "米パデュー大学に所属する研究者らが発表した論文「Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale」は、フィッシング対策研修に効果があるのかを調査した研究報告だ。",
       "threat_actors": [],
       "title": "「フィッシング対策訓練」って実効性あるの？　約1.2万人に模擬メール送り検証、結果は……"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193310",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T23:22:39.705937+09:00",
+      "heat_score": 65.0,
+      "permalink_id": "article-url-8c7e011650c863431cc0cf17",
+      "primary_category": "other",
+      "public_article_id": "url:8c7e011650c863431cc0cf17",
+      "public_tags": [],
+      "published_at": "2026-11-27T23:05:36+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
+      "summary_excerpt": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
+      "threat_actors": [],
+      "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性"
     },
     {
       "ai_relevance": "none",
@@ -523,38 +533,41 @@
       "summary_excerpt": "Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach ",
       "threat_actors": [],
       "title": "Flight Centre Travel Group warns of customer data breach involving some passport details"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T18:37:41.281988+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-73f2ff30155be912750c2dde",
-      "primary_category": "incident",
-      "public_article_id": "url:73f2ff30155be912750c2dde",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
-        }
-      ],
-      "published_at": "2026-11-27T18:30:54+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
-      "summary_excerpt": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "100,000 Potentially Impacted by Colorado Data Breach"
     }
   ],
   "rising": [],
   "persistent_hot": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "cves": [
+        "CVE-2026-120705",
+        "CVE-2026-129243"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T23:24:19.570291+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-27873297949c895bf89f668a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:27873297949c895bf89f668a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T21:48:54+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+      "summary_excerpt": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+      "threat_actors": [],
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044942.html",
@@ -737,6 +750,36 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T23:24:03.637862+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-d5ac462891f1f2d17a01bd57",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:d5ac462891f1f2d17a01bd57",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T22:37:28+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) appeared first on Help Net Security .",
+      "summary_excerpt": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) app",
+      "threat_actors": [],
+      "title": "Critical Drupal installer flaw under active attack (CVE-2026-132165)"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/",
       "cves": [
         "CVE-2026-131914",
@@ -796,83 +839,6 @@
       "summary_excerpt": "Storage NavigatorにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58347)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
       "threat_actors": [],
       "title": "日立ディスクアレイシステムにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58347)について"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "cves": [
-        "CVE-2026-132165"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T21:22:45.597961+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-f8d0d1935ac4bbfbbe273bf5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f8d0d1935ac4bbfbbe273bf5",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T20:23:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "threat_actors": [],
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter/",
-      "cves": [
-        "CVE-2026-123890",
-        "CVE-2026-123903",
-        "CVE-2026-123904",
-        "CVE-2026-123905",
-        "CVE-2026-123906",
-        "CVE-2026-123907",
-        "CVE-2026-123908",
-        "CVE-2026-123909"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T21:53:21.588577+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-fe10fe23d41e5ae7180777d5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:fe10fe23d41e5ae7180777d5",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        },
-        {
-          "color_family": "neutral",
-          "key": "cloud_security",
-          "label": "Cloud Security"
-        },
-        {
-          "color_family": "red",
-          "key": "poc_available",
-          "label": "PoC"
-        }
-      ],
-      "published_at": "2026-11-25T21:19:20+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Rapid7 Blog",
-      "summary": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was reported as being exploited in the wild. Both of these vulnerabilities affect the VMware Directory Service in vCenter and can give an attacker access to the vCenter without credentials. CVE-2026-123890 was reachable over RPC while CVE-2026-123903 is reachable over LDAP. As of this writing, there are no known public reports of exploitation of CVE-2026-123903 in the wild. A public proof-of-concept exploit is available and has been validated by Rapid7 to successfully achieve an authentication bypass. Attackers are known to be targeting vulnerabilities in the VMware Directory Service, therefore Rapid7 recommends remediating exposed systems on an urgent basis outside of normal patching cycles. Mitigation guidance Vendor updates are available for CVE-2026-123903. Broadcom lists no workaround , and these vCenter updates are not eligible for Quick Patch. Rapid7 recommends updating affected deployments on an urgent basis, outside normal patch cycles, using the standard update mechanism for the deployment. Broadcom lists the following available fixed versions to remediating CVE-2026-123903. These fixed versions also remediate several other high and medium severity CVEs from the same advisory (CVE-2026-123904, CVE-2026-123905, CVE-2026-123906, CVE-2026-123907, CVE-2026-123908, CVE-2026-123909): VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation, VMware vSphere Foundation 9.1.x.x 9.1.2 VMware Cloud Foundation, VMware vSphere Foundation 9.0.x.x 9.0.2.0300 VMware vCenter 8.0 8.0 U3m VMware vCenter 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0 , 4.x , 5.0.x , 5.1.x , 5.2 KB463501 VMware Telco Cloud Infrastructure 3.0 KB463501 Note that if vCenter 8.0 U3m was previously installed when remediating CVE-2026-123890, it also fixes CVE-2026-123903 and no further vCenter update is needed. For the latest affected-version and remediation guidance, refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, Vulnerability Management (InsightVM), and Nexpose customers can assess exposure to CVE-2026-123903 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the November 25, 2026 content release. Intelligence Hub Customers leveraging Rapid7’s Intelligence Hub can access Suricata detection rules for detection of the public CVE-2026-123903 exploit. Updates November 25, 2026: Initial publication. November 25, 2026: Add Intelligence Hub section.",
-      "summary_excerpt": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was r",
-      "threat_actors": [],
-      "title": "CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter"
     }
   ],
   "timeseries_status": {
@@ -893,32 +859,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】政府調達情報システムのサーバから個人情報流出か - 文科省",
+    "【LATEST #1】化粧品通販サイトに不正アクセス - 個人情報流出の可能性",
     "【HOTTEST #1 / Heat 67.5】EspoCRMにおけるクロスサイトスクリプティングの脆弱性",
-    "【LATEST #2】Malware steals Gmail messages using a fake Google Sheets extension",
+    "【LATEST #2】政府調達情報システムのサーバから個人情報流出か - 文科省",
     "【HOTTEST #2 / Heat 65.7】「フィッシング対策訓練」って実効性あるの？　約1.2万人に模擬メール送り検証、結果は……",
-    "【LATEST #3】「Drupal」が再アップデート、前回更新後も一部サイトは脆弱 - 侵害調査を",
-    "【HOTTEST #3 / Heat 65】政府調達情報システムのサーバから個人情報流出か - 文科省",
-    "【LATEST #4】「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡",
-    "【HOTTEST #4 / Heat 65】Malware steals Gmail messages using a fake Google Sheets extension",
-    "【LATEST #5】Chinese and North Korean state hackers add ARTEX AI framework to their arsenal",
-    "【HOTTEST #5 / Heat 65】「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡"
+    "【LATEST #3】Malware steals Gmail messages using a fake Google Sheets extension",
+    "【HOTTEST #3 / Heat 65】化粧品通販サイトに不正アクセス - 個人情報流出の可能性",
+    "【LATEST #4】「Drupal」が再アップデート、前回更新後も一部サイトは脆弱 - 侵害調査を",
+    "【HOTTEST #4 / Heat 65】政府調達情報システムのサーバから個人情報流出か - 文科省",
+    "【LATEST #5】Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+    "【HOTTEST #5 / Heat 65】Malware steals Gmail messages using a fake Google Sheets extension"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-24T14:00:00+00:00",
-    "last_as_of": "2026-11-27T14:00:00+00:00",
+    "first_as_of": "2026-11-24T15:00:00+00:00",
+    "last_as_of": "2026-11-27T15:00:00+00:00",
     "unique_snapshots_used": 66,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-27T14:00:00+00:00",
-  "heat_as_of": "2026-11-27T14:00:00+00:00",
+  "news_as_of": "2026-11-27T15:00:00+00:00",
+  "heat_as_of": "2026-11-27T15:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27528,
-  "last_published_at": "2026-11-27T23:10:25.916922+09:00",
-  "publication_slot_jst": "2026-11-27T23:00:00+09:00"
+  "news_catalog_count": 27530,
+  "last_published_at": "2026-11-28T00:09:36.858142+09:00",
+  "publication_slot_jst": "2026-11-28T00:00:00+09:00"
 }
