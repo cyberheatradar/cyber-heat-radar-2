@@ -1,9 +1,111 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-27T04:40:03.365157+00:00",
+  "source_snapshot_generated_at": "2026-11-27T05:40:03.477119+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:43b716c62fb33d3bfc552d5d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Chrome",
+          "自動化",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/mugen_web/articles/scheduled-claude-code-permission-stalls",
+        "title": "Claude Codeの予約実行が、許可待ちで止まった朝の記録。許可ルールがあっても聞かれた",
+        "author": "MUGEN WEB",
+        "published_at": "2026-11-27T05:36:25.746000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:45c83d80deb6abbdca1df029",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "API",
+          "動画生成",
+          "Seedance"
+        ],
+        "url": "https://zenn.dev/beatapi/articles/9312e866f7978b",
+        "title": "24秒の商品デモを1本の生成で作る：Seedance 2.5 Flash と 2.0 の選び方とパイプライン",
+        "author": "BeatAPI",
+        "published_at": "2026-11-27T05:32:49.740000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:2209c7a95d6414dbf0032828",
+        "source": "zenn",
+        "author_tags": [
+          "Twitter",
+          "API",
+          "Security",
+          "AIエージェント",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/claire_ai/articles/kagi-iriguchi",
+        "title": "同じ .env に、2つの X アカウントの鍵を並べていた。AI は「全部同じアカウントの鍵」と思い込んで報告していた",
+        "author": "クレア",
+        "published_at": "2026-11-27T05:31:52.257000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:cc3331d86f47387134a5e04e",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "データサイエンス",
+          "医療情報技師"
+        ],
+        "url": "https://zenn.dev/dalab/articles/7d2b4a5afa8dfb",
+        "title": "医療情報技師試験を受験してきました 〜試験概要と受験記録〜",
+        "author": "Atsushi Yamaguchi",
+        "published_at": "2026-11-27T05:20:32.701000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6adb166dfec3e867d93f8d3c",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "プロンプトエンジニアリング",
+          "Gemini"
+        ],
+        "url": "https://zenn.dev/aiforall/articles/0ebdbe0a15d0a6",
+        "title": "AIは縦読みができるのか",
+        "author": "ねもつ",
+        "published_at": "2026-11-27T05:13:30.666000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:030835f5bd28b5daaa846669",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm"
+        ],
+        "url": "https://zenn.dev/ikesita/articles/ffcraft-1-5b-ffmpeg",
+        "title": "FFCraft-1.5B入門 ― FFmpegコマンドを1.5Bモデルに聞く",
+        "author": "moa",
+        "published_at": "2026-11-27T05:10:04.626000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c8f550a677b1e7d2334a4be3",
+        "source": "zenn",
+        "author_tags": [
+          "Google",
+          "Security",
+          "Google Workspace"
+        ],
+        "url": "https://zenn.dev/choineta/articles/2646d42032e3e2",
+        "title": "Google Workspace、導入したまま放置は危険!管理コンソールで最初にやるべき3つの設定",
+        "author": "竜一",
+        "published_at": "2026-11-27T05:08:26.043000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:1fa98c09f9359bd32576c74b",
         "source": "zenn",
@@ -56101,6 +56203,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6dfad8c779f789fbaf8f64eb",
+        "source": "qiita",
+        "author_tags": [
+          "Laravel",
+          "API",
+          "PHP",
+          "Security",
+          "設計"
+        ],
+        "url": "https://qiita.com/ksplanning/items/6bbbcfc6c3a4e987052f",
+        "title": "【Laravel】外部連携で顧客データを絶対に抜かせない「Write-Only API」とUUID冪等性の実装",
+        "author": "ksplanning",
+        "published_at": "2026-11-27T14:24:22+09:00",
+        "excerpt": "はじめに 外部のWebサービスや基幹システムから、メール配信基盤や通知システムへHTTP API経由でデータ連携を行う際、セキュリティと運用面で次の2つの懸念がつきまといます。 情報漏洩リスク： 万が一APIキーやサーバー認証情報が漏洩した場合に、API経由で顧客メールアドレスや個人情報を全件取得（ GET ）されてしまうのではないか。 二重送信リスク： ネットワークの一時的な遅延やタイムアウトにより、呼び出し元が同じリクエストをリトライした結果、同じ顧客にメールが2通届いてしまう。 本記事では、これらをアーキテクチャレベルで防ぐ**「Write-Only（書き込み専用）API設計」 と、 X-Transaction-UUID ヘッダーを用いた冪等性（二重受付防止）のLaravel実装パターン**を解説します。 1. 「Write-Only（書き込み専用）API」という設計思想 メール送信依頼やログ収集などの連携APIでは、外部システム側に「登録済み顧客リストの一覧」や「過去の送信履歴」を返却する必要は本来ありません。 そこで、APIのエンドポイ"
+      },
+      {
+        "id": "qiita:9f584fc2e7dd263f4bba0f96",
+        "source": "qiita",
+        "author_tags": [
+          "XML",
+          "Security",
+          "情報処理安全確保支援士",
+          "xmlsec1",
+          "電子署名"
+        ],
+        "url": "https://qiita.com/devex12/items/100c3e01aced378ca1f2",
+        "title": "XML署名の「置き方」3種類(Enveloped / Enveloping / Detached)を xmlsec1 で署名・検証・改ざんして比べる",
+        "author": "devex12",
+        "published_at": "2026-11-27T13:40:42+09:00",
+        "excerpt": "はじめに 情報処理安全確保支援士の午前Ⅱに、XML署名の特徴を問う問題があります。 令和7年度 秋期 問6では、次の選択肢が正解でした。 XML文書中のエレメントに対するデタッチ署名(Detached Signature)を作成し、同じXML文書に含めることができる。 (出典: IPA 過去問題 。選択肢の文を、短く引用しています。) 「デタッチ署名」と、「同じXML文書に含める」が、並んでいます。 署名が、署名対象と、別なのに、同じ文書に入る。 文字だけでは、イメージしにくかったため、 xmlsec1 で、実際に、署名・検証・改ざんして、確かめました。 この記事では、次のことを書きます。 電子署名の原理( openssl で確認) XML署名の3つの置き方(Enveloped / Enveloping / Detached)の違い 3つを、実際に署名・検証・改ざんして、比べた結果(スクリプトは、コピーして動かせます) 過去問の選択肢との対応 環境 WSL2(Ubuntu 22.04) openssl 3.5.6 xmlsec1 1.2.33( "
+      },
+      {
         "id": "qiita:d4e5362a74e7c83b7f61133e",
         "source": "qiita",
         "author_tags": [
@@ -76059,6 +76193,82 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a82e06af4eb362b6ef91c102",
+        "source": "medium",
+        "author_tags": [
+          "south-korea",
+          "cybersecurity",
+          "scam",
+          "phishing",
+          "email-marketing"
+        ],
+        "url": "https://medium.com/@jins5677/the-2-22-a-m-police-notice-that-wanted-our-password-anatomy-of-a-korean-phishing-email-d7ed6968d144",
+        "title": "The 2:22 a.m. “Police Notice” That Wanted Our Password: Anatomy of a Korean Phishing Email",
+        "author": "with UniverSe",
+        "published_at": "2026-11-27T05:30:43+00:00",
+        "excerpt": "with UniverSe · Life · Seoul, November 26, 2026 · Illustrations by with UniverSe Continue reading on Medium »"
+      },
+      {
+        "id": "medium:de0ad51eb5430d38b7c6145b",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@kiyingiericmark/introduction-to-cybersecurity-protecting-our-digital-world-01566a0c0a92",
+        "title": "Introduction to Cybersecurity: Protecting Our Digital World",
+        "author": "Kiyingiericmark",
+        "published_at": "2026-11-27T05:29:15+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
+      {
+        "id": "medium:00c0d3b70d542fb586760487",
+        "source": "medium",
+        "author_tags": [
+          "venture-capital",
+          "ciso",
+          "cybersecurity",
+          "information-security",
+          "vulnerability-management"
+        ],
+        "url": "https://amitspitzer.medium.com/a-researcher-declared-war-on-a-vendor-over-an-unpatched-bug-99d076372836",
+        "title": "A Researcher Declared War on a Vendor Over an Unpatched Bug.",
+        "author": "Amit Spitzer",
+        "published_at": "2026-11-27T05:19:52+00:00",
+        "excerpt": "Twenty-one N-central servers got hit with cryptocurrency miners within hours of a researcher publishing his second batch of zero-day… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:0b5cb74fba94d68f3967be8c",
+        "source": "medium",
+        "author_tags": [
+          "web-security",
+          "oauth",
+          "github",
+          "bug-bounty",
+          "cybersecurity"
+        ],
+        "url": "https://masimshahzad.medium.com/github-oauth-bypass-the-25k-head-request-e9a666059615",
+        "title": "GitHub OAuth Bypass: The $25K HEAD Request",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-27T05:17:48+00:00",
+        "excerpt": "Teddy Katz found GitHub’s router treated HEAD like GET while its code treated it like POST, approving OAuth apps without a click. $25K Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e06230ecd21c0fb1c8f16c1c",
+        "source": "medium",
+        "author_tags": [
+          "google",
+          "bug-bounty",
+          "oauth",
+          "authentication",
+          "cybersecurity"
+        ],
+        "url": "https://masimshahzad.medium.com/google-oauth-account-takeover-via-expired-domains-f0a3c8c5a5d9",
+        "title": "Google OAuth Account Takeover via Expired Domains",
+        "author": "Muhammad Asim Shahzad",
+        "published_at": "2026-11-27T05:08:54+00:00",
+        "excerpt": "Dylan Ayrey bought one dead startup's domain, then used Sign in with Google to open ex-staff Slack, Notion, Zoom and HR accounts Continue reading on Medium »"
+      },
       {
         "id": "medium:717d2e52daca7b4a4466ed37",
         "source": "medium",
