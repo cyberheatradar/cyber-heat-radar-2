@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-27T20:09:49.611465+00:00",
-  "as_of": "2026-11-27T20:00:00+00:00",
+  "generated_at": "2026-11-27T21:14:36.875927+00:00",
+  "as_of": "2026-11-27T21:00:00+00:00",
   "catalog_count": 27540,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -156,7 +156,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-28T00:23:58.120022+09:00",
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "permalink_id": "article-url-3760cd9a61b19ee7a7d30528",
       "primary_category": "vulnerability",
       "public_article_id": "url:3760cd9a61b19ee7a7d30528",
@@ -184,7 +184,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-27T23:22:39.705937+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-8c7e011650c863431cc0cf17",
       "primary_category": "other",
       "public_article_id": "url:8c7e011650c863431cc0cf17",
@@ -502,28 +502,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/193310",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T23:22:39.705937+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-8c7e011650c863431cc0cf17",
-      "primary_category": "other",
-      "public_article_id": "url:8c7e011650c863431cc0cf17",
-      "public_tags": [],
-      "published_at": "2026-11-27T23:05:36+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
-      "summary_excerpt": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
-      "threat_actors": [],
-      "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000181.html",
       "cves": [
         "CVE-2026-130398",
@@ -556,6 +534,28 @@
     },
     {
       "ai_relevance": "none",
+      "canonical_url": "https://www.security-next.com/193310",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-27T23:22:39.705937+09:00",
+      "heat_score": 58.5,
+      "permalink_id": "article-url-8c7e011650c863431cc0cf17",
+      "primary_category": "other",
+      "public_article_id": "url:8c7e011650c863431cc0cf17",
+      "public_tags": [],
+      "published_at": "2026-11-27T23:05:36+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Security NEXT",
+      "summary": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
+      "summary_excerpt": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
+      "threat_actors": [],
+      "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性"
+    },
+    {
+      "ai_relevance": "none",
       "canonical_url": "https://www.security-next.com/193168",
       "cves": [],
       "document_form": "single_story",
@@ -579,6 +579,216 @@
   ],
   "rising": [],
   "persistent_hot": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-133324",
+      "cves": [
+        "CVE-2026-133324"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.727443+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-12a00f724337ed94edd5aece",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:12a00f724337ed94edd5aece",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-25T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+      "summary_excerpt": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+      "threat_actors": [],
+      "title": "CVE-2026-133324: Mitel MiCollab"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-133275",
+      "cves": [
+        "CVE-2026-133275"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.717798+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-152234196de34478e34f6aba",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:152234196de34478e34f6aba",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-25T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+      "summary_excerpt": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+      "threat_actors": [],
+      "title": "CVE-2026-133275: Mitel MiCollab"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-133469",
+      "cves": [
+        "CVE-2026-133469"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.766898+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-56d4956df088ea85595843d6",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:56d4956df088ea85595843d6",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-25T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+      "summary_excerpt": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+      "threat_actors": [],
+      "title": "CVE-2026-133469: Vates Xen Orchestra"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-133303",
+      "cves": [
+        "CVE-2026-133303"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.699826+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-5b1bcd61190e0bd6e95dc0e7",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:5b1bcd61190e0bd6e95dc0e7",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-25T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+      "summary_excerpt": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+      "threat_actors": [],
+      "title": "CVE-2026-133303: Mitel MiCollab"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-133323",
+      "cves": [
+        "CVE-2026-133323"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.689922+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-8cbde579a23008c223e3d89e",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:8cbde579a23008c223e3d89e",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-25T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+      "summary_excerpt": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+      "threat_actors": [],
+      "title": "CVE-2026-133323: Mitel MiCollab"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-41450",
+      "cves": [
+        "CVE-2025-41450"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.757109+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-9257da15f23547bd7cc675f6",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:9257da15f23547bd7cc675f6",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-25T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+      "summary_excerpt": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+      "threat_actors": [],
+      "title": "CVE-2025-41450: Danfoss AK-SM 800A Series"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-103406",
@@ -616,276 +826,108 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-25915",
       "cves": [
-        "CVE-2026-120705",
-        "CVE-2026-129243"
+        "CVE-2023-25915"
       ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T23:24:19.570291+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-27873297949c895bf89f668a",
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.736904+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-bdbe18c62fa8e7f2ceeb2190",
       "primary_category": "vulnerability",
-      "public_article_id": "url:27873297949c895bf89f668a",
+      "public_article_id": "url:bdbe18c62fa8e7f2ceeb2190",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-25T21:48:54+09:00",
+      "published_at": "2026-11-25T09:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
-      "summary_excerpt": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+      "summary_excerpt": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
       "threat_actors": [],
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains"
+      "title": "CVE-2023-25915: Danfoss AK-SM 800A Series"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044942.html",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-133311",
       "cves": [
-        "CVE-2024-58345"
+        "CVE-2026-133311"
       ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T12:38:54.190107+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-36f1fdc6704a1b64b26b04f7",
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.709474+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-d95d14fbd326004570b7f7a6",
       "primary_category": "vulnerability",
-      "public_article_id": "url:36f1fdc6704a1b64b26b04f7",
+      "public_article_id": "url:d95d14fbd326004570b7f7a6",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-25T10:53:00+09:00",
+      "published_at": "2026-11-25T09:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "ツールパネルにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58345)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "summary_excerpt": "ツールパネルにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58345)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+      "summary_excerpt": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
       "threat_actors": [],
-      "title": "日立ディスクアレイシステムにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58345)について"
+      "title": "CVE-2026-133311: Mitel MiCollab"
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044943.html",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-25914",
       "cves": [
-        "CVE-2024-58346"
+        "CVE-2023-25914"
       ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T12:38:54.259001+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-4f33cb068395ff03ae923970",
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T05:37:19.747202+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-f73c9f164c1ed25584b7dc44",
       "primary_category": "vulnerability",
-      "public_article_id": "url:4f33cb068395ff03ae923970",
+      "public_article_id": "url:f73c9f164c1ed25584b7dc44",
       "public_tags": [
         {
           "color_family": "neutral",
           "key": "vulnerability",
           "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T10:53:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Storage NavigatorにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58346)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "summary_excerpt": "Storage NavigatorにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58346)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "threat_actors": [],
-      "title": "日立ディスクアレイシステムにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58346)について"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
-      "cves": [
-        "CVE-2026-123633"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T09:39:24.703269+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-6d41187434b589d5df953e85",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:6d41187434b589d5df953e85",
-      "public_tags": [
+        },
         {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-25T08:00:14+09:00",
+      "published_at": "2026-11-25T09:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Unit 42 Research",
-      "summary": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .",
-      "summary_excerpt": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+      "summary_excerpt": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
       "threat_actors": [],
-      "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000178.html",
-      "cves": [
-        "CVE-2026-131916"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T17:53:45.466986+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-8176feaac1a98c5845565401",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:8176feaac1a98c5845565401",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T12:18:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "デジタル庁が提供する源内Webには、次の脆弱性が存在します。 サーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-131916 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社ラック 辻井 貴大 氏",
-      "summary_excerpt": "デジタル庁が提供する源内Webには、次の脆弱性が存在します。 サーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-131916 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社ラック 辻井 貴大 氏",
-      "threat_actors": [],
-      "title": "源内Webにおけるサーバサイドリクエストフォージェリの脆弱性"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-      "cves": [
-        "CVE-2026-131914"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T18:22:49.934894+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-82036ae67fb3684a5f3821c3",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:82036ae67fb3684a5f3821c3",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T18:05:13+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "SecurityWeek",
-      "summary": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data. The post Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library appeared first on SecurityWeek .",
-      "summary_excerpt": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data. The post Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library appeared first on SecurityWeek .",
-      "threat_actors": [],
-      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261125-5404582/",
-      "cves": [
-        "CVE-2026-123890"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T12:39:12.135037+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-d20b504c87fbd67a3985a117",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:d20b504c87fbd67a3985a117",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T11:35:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "IPA（情報処理推進機構）は11月24日、Broadcomが提供する仮想化環境の管理ツール「VMware vCenter Server」の脆弱性（CVE-2026-123890）について注意喚起を行った。同脆弱性は認証を回避してシステムに不正アクセスすることを可能にするもので、すでに悪用が確認されている。IPAは被害が拡大するおそれがあるとして、修正プログラムの適用を呼びかけている。",
-      "summary_excerpt": "IPA（情報処理推進機構）は11月24日、Broadcomが提供する仮想化環境の管理ツール「VMware vCenter Server」の脆弱性（CVE-2026-123890）について注意喚起を行った。同脆弱性は認証を回避してシステムに不正アクセスすることを可能にするもので、すでに悪用が確認されている。IPAは被害が拡大するおそれがあるとして、修正プログラムの適用を呼びかけている。",
-      "threat_actors": [],
-      "title": "VMware vCenter Serverに深刻な脆弱性、9月から悪用　IPAが注意喚起"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
-      "cves": [
-        "CVE-2026-132165"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T23:24:03.637862+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-d5ac462891f1f2d17a01bd57",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:d5ac462891f1f2d17a01bd57",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T22:37:28+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) appeared first on Help Net Security .",
-      "summary_excerpt": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) app",
-      "threat_actors": [],
-      "title": "Critical Drupal installer flaw under active attack (CVE-2026-132165)"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/",
-      "cves": [
-        "CVE-2026-131914",
-        "CVE-2026-132165",
-        "CVE-2026-132224"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T17:22:31.391636+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-df803f1055342caaf22e3700",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:df803f1055342caaf22e3700",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T16:22:32+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Help Net Security",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a Drupal core remote code execution bug (CVE-2026-132165); and CVE-2026-131914, a deserialization of untrusted data vulnerability in Idunno AntiCsrf, a legacy ASP.NET anti-CSRF library. CVE-2026-131914 exploitation detected ASP.NET is a server-side web-application framework used for building dynamic web sites, apps and services. Disclosed … More → The post Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914) appeared first on Help Net Security .",
-      "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a Drupal core remote code execution bug (CVE-2026-132165); and CVE-2026-131914, a deserialization of untrusted data vulnerability in Idunno AntiCsrf, a legacy ASP.NET anti-CSRF library. CVE-2026-131914 exploitation detected ASP.NET is a server-side web-application framework used for building dynamic web sites, apps and se",
-      "threat_actors": [],
-      "title": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)"
+      "title": "CVE-2023-25914: Danfoss AK-SM 800A Series"
     }
   ],
   "timeseries_status": {
@@ -919,19 +961,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-24T20:00:00+00:00",
-    "last_as_of": "2026-11-27T20:00:00+00:00",
+    "first_as_of": "2026-11-24T21:00:00+00:00",
+    "last_as_of": "2026-11-27T21:00:00+00:00",
     "unique_snapshots_used": 66,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-27T20:00:00+00:00",
-  "heat_as_of": "2026-11-27T20:00:00+00:00",
+  "news_as_of": "2026-11-27T21:00:00+00:00",
+  "heat_as_of": "2026-11-27T21:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27540,
-  "last_published_at": "2026-11-28T05:10:01.939887+09:00",
-  "publication_slot_jst": "2026-11-28T05:00:00+09:00"
+  "last_published_at": "2026-11-28T06:14:57.379629+09:00",
+  "publication_slot_jst": "2026-11-28T06:00:00+09:00"
 }

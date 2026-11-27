@@ -1,9 +1,23 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-27T19:40:03.027353+00:00",
+  "source_snapshot_generated_at": "2026-11-27T20:40:02.938008+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:2c6b6459cf9d918c69eef817",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/soremo/articles/d8fc2d86587595",
+        "title": "AI に1万円渡して稼がせる実験・最初の10日は0円だった",
+        "author": "SOREMOパートナーズ",
+        "published_at": "2026-11-27T20:34:30.257000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:5536ebd0d0fa03c2aed9ab98",
         "source": "zenn",
@@ -57266,6 +57280,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:6d19a52a638ba7bbbc0f2c38",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Microsoft_Ignite",
+          "AIエージェント",
+          "システム設計",
+          "Security"
+        ],
+        "url": "https://qiita.com/mhamadajp/items/ce7a3886f898d70f49ac",
+        "title": "AIエージェントが同僚になる時代——Microsoft Igniteから読む、IT技術者の仕事",
+        "author": "mhamadajp",
+        "published_at": "2026-11-28T05:28:56+09:00",
+        "excerpt": "同じ質問が、別々のチャットに残っている たとえば、金曜の夕会です。ECサイトの決済改修で、3人が別々のチャットを開いています。在庫テーブルの名前、二重決済を防ぐ場所、失敗した注文をどの状態へ戻すか。生成は速いです。答えは、それぞれの画面に残ったままです。 2026年11月17日のMicrosoft Igniteは、この個人のチャットの先を示しています。 Copilot at Microsoft Ignite は、これまでのAIとのやり取りを1人用と呼び、人とエージェントが同じ目標と共有の情報で進む働き方を説明しています。この記事では、同じ情報を見て役割を分け、確定の前に人へ確認を返す仕事の相手を、同僚と呼びます。 この記事は、その発表を開発、設計、セキュリティ、データ、運用の5つの仕事に読みます。例は、考えうる役割分担です。製品がそこまで自動実行すると書かれた範囲は、発表文に限って扱います。一般提供、Frontier、プレビューが混ざっています。Frontierは、Microsoftの先行提供プログラムです。名称と提供状況は、2026年11月26"
+      },
+      {
+        "id": "qiita:9a8f6bfa11918b3358de9299",
+        "source": "qiita",
+        "author_tags": [
+          "codex",
+          "OpenAI",
+          "Security",
+          "apiキー",
+          "AIエージェント"
+        ],
+        "url": "https://qiita.com/supportapp3/items/48ddf2dba69dc2382f41",
+        "title": "Codex CLI に貼った API キーは ~/.codex/sessions と SQLite に平文で残る：codex delete 後も DB ファイルに文字列が残り、--ephemeral なら残らなかった（Codex CLI 0.172.0で確認）",
+        "author": "supportapp3",
+        "published_at": "2026-11-28T05:16:53+09:00",
+        "excerpt": "先に結論 「このキーで 401 になる: sk-...」のように、Codex CLI のプロンプトに API キーを貼ったとき、それがどこに残るかを試しました（ダミーのキーで確認）。 操作 HOME 以下でキーの文字列が見つかった場所 codex exec 'キー入りのプロンプト' ~/.codex/sessions/年/月/日/rollout-*.jsonl 、 state_5.sqlite （threads の title・first_user_message・preview）、 thread_history_1.sqlite （thread_items） rollout の jsonl を rm しただけ SQLite 2つには残ったまま codex archive <ID> jsonl が ~/.codex/archived_sessions/ に移っただけ。SQLite にも残る codex delete --force <ID> jsonl と SQLite の行は消えた。 でも grep -a では SQLite のファイル（と -"
+      },
+      {
         "id": "qiita:7a5739aed0b9f729141a524e",
         "source": "qiita",
         "author_tags": [
@@ -77412,6 +77458,22 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:a451c440673575a3b61968f3",
+        "source": "medium",
+        "author_tags": [
+          "malware",
+          "windows",
+          "cybersecurity",
+          "ctf",
+          "digital-forensics"
+        ],
+        "url": "https://medium.com/@s_28.I7/defcamp-ctf-2026-forensics-kameosa-writeup-7e79eb61b1f3",
+        "title": "DefCamp CTF 2026 Forensics -Kameosa Writeup",
+        "author": "Sohaib Qunaibi",
+        "published_at": "2026-11-27T19:59:48+00:00",
+        "excerpt": "This is my write-up for the ‘ Kameosa’ in DefCamp Capture the Flag 2026. Continue reading on Medium »"
+      },
       {
         "id": "medium:785274647e3e1a166fa2abaf",
         "source": "medium",
