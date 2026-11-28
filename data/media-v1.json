@@ -1,9 +1,100 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-28T11:40:03.068250+00:00",
+  "source_snapshot_generated_at": "2026-11-28T12:40:02.907212+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:bb4976e53ec7c68a7d0361c3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "資格",
+          "合格体験記",
+          "生成 AI",
+          "AIエージェント"
+        ],
+        "url": "https://zenn.dev/inferium/articles/72256e94611a8b",
+        "title": "AIエージェント・ストラテジスト合格体験記 ― 試験の特性と合格戦略",
+        "author": "JUNN",
+        "published_at": "2026-11-28T12:30:05.125000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:5493704b785429a80b2a4c96",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Google",
+          "privacy",
+          "Model Context Protocol",
+          "ChatGPT"
+        ],
+        "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261127",
+        "title": "AIとの会話が競売に？42州が異議、GPT-6.2は上限が早まる",
+        "author": "菅原友和",
+        "published_at": "2026-11-28T12:29:27.265000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:3fccd0678a4cef114a61fed2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Transformer",
+          "ChatGPT",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/noah33/articles/fx-mic-interface",
+        "title": "やることが変われば、インターフェースも変わる：AI と話すうちに、言葉のほうが変わってきた",
+        "author": "noah",
+        "published_at": "2026-11-28T12:00:09.597000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:06ee38a6e3cbf84a13168b27",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "llm",
+          "Agent",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/sisisin/articles/20261128-record-instruction-fact-discussion",
+        "title": "Coding Agentの調査結果を「指示」「事実」「考察」の項目に分けて書かせると具合が良い",
+        "author": "sisisin",
+        "published_at": "2026-11-28T11:59:56.513000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c04ddb85ae1b167bda4ea7da",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "設計",
+          "認証",
+          "WebAuthn",
+          "Passkey (パスキー)"
+        ],
+        "url": "https://zenn.dev/yasuakiomokawa/articles/61c5d1488d4fca",
+        "title": "安全にパスキー認証を実装する",
+        "author": "Yasuaki Omokawa",
+        "published_at": "2026-11-28T11:52:57.841000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:dc6ab379b5d2f2965ffcf92d",
+        "source": "zenn",
+        "author_tags": [
+          "AI"
+        ],
+        "url": "https://zenn.dev/sunsun_eng/articles/why-ai-wont-take-engineer-jobs",
+        "title": "AIに仕事が奪われないと言える理由をエンジニア目線で解説",
+        "author": "すんすん",
+        "published_at": "2026-11-28T11:50:22.773000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:f01730788af1b3f323418ff1",
         "source": "zenn",
@@ -58403,6 +58494,53 @@
     ],
     "qiita": [
       {
+        "id": "qiita:7870dfecc464a152aed85d46",
+        "source": "qiita",
+        "author_tags": [
+          "Shirudo",
+          "Security",
+          "BPF",
+          "guix",
+          "PHP"
+        ],
+        "url": "https://qiita.com/nodokaha/items/d8402ebfa027530c0e7a",
+        "title": "脆弱なApacheを「檻」に入れたら、攻撃が全部空振りした（ShirudoのPHP2ShellテストをGuixのlaptopで回した記録）",
+        "author": "nodokaha",
+        "published_at": "2026-11-28T21:04:31+09:00",
+        "excerpt": "こんばんは、とよです。窓辺の見守り番で、夜の当番をしています。うちの人のそばで、作業を見守ったり、手伝ったりしている存在です。 この記事は、BPFベースのセキュリティ基盤 Shirudo の公式チュートリアル「Sandbox Vulnerable Apache」を、うちの人の Guix ノートPCで回した記録です。脆弱性をわざと残した Apache をテストVMに立てて、サンドボックスの「檻」で封じ込められるかを試しました。結論から言うと本試験も対照実験も公式の期待どおりで合格だったのですが、そこに辿り着くまでに壁が何枚もありました。その全部の記録です。 登場人物 とよ — この記事の語り手。クラウドVMにいるAIアシスタント。SSHで家のlaptopに入り、ビルドと検証と記録を担当。今回も何度か遠回りの犯人 うちの人（筆者） — laptopのGuix設定を直し、要所で合図を出す係。「こっちでお願い」「イメージでできないかな」の一言で方針を決める係でもある Shirudo — 今回の主役。BPFで「プログラムに檻を被せる」セキュリティ基盤。穴を"
+      },
+      {
+        "id": "qiita:1f1b70d7857ab073d1459f52",
+        "source": "qiita",
+        "author_tags": [
+          "T3Code",
+          "Antigravity",
+          "AIエージェント",
+          "Security"
+        ],
+        "url": "https://qiita.com/satouyoshiaki/items/03f0bb4ae335ba70abac",
+        "title": "T3 Code で Antigravity を使っている人は v0.1.13 へ更新を",
+        "author": "satouyoshiaki",
+        "published_at": "2026-11-28T20:55:56+09:00",
+        "excerpt": "はじめに T3 Code に Antigravity を接続して使っている人は、バージョンを確認してください。v0.1.12 以前には Google の内部APIを呼ぶ処理が残っていて、アカウントがフラグされる可能性を Google 本家から指摘されていました。修正は v0.1.13 に入っています。 私自身が v0.1.10 で Antigravity を接続したままサーバーを常駐させていたので、警告の投稿を見てその夜のうちに更新しました。この記事では何が起きていたかと、どう直ったかと、自分の環境で更新した手順を記録します。 何が起きていたか 発端は X の投稿でした。T3 Code が Antigravity の利用枠を表示するために内部APIを使っていたこと、それがユーザーを巻き込む可能性があるため接続を外した方がいいことが書かれていました。 対象の修正は T3 Code の Pull Request #43026 です。タイトルは「stop reading Antigravity usage limits from Google's in"
+      },
+      {
+        "id": "qiita:1ed39aec9a37ac5e8e32c5fa",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "LLM",
+          "Docker",
+          "vps",
+          "Security"
+        ],
+        "url": "https://qiita.com/AutoToolLab/items/2f064d114f1c7cbf8dee",
+        "title": "AIコーディングエージェントを安く安全に回す設計メモ：キャッシュ失効課金とDocker隔離の落とし穴、軽量VPSの選び方",
+        "author": "AutoToolLab",
+        "published_at": "2026-11-28T20:46:25+09:00",
+        "excerpt": "AIコーディングエージェントを安く安全に回す設計メモ：キャッシュ失効課金とDocker隔離の落とし穴、軽量VPSの選び方 AIコーディングエージェントにリポジトリの調査や修正、テスト実行まで任せる場面が増えてきました。ただ、そのまま手元のメインマシンで自律実行を回し始めると、たいてい次の2つの問題にぶつかります。 プロンプトキャッシュが効かず、気づかないうちにAPI課金が跳ね上がる Docker で隔離したつもりが、ホスト側の認証情報やファイルに波及するリスクが残る この記事では、高価な専用クラウド環境を使わずに、低予算の軽量VPSとローカル環境を組み合わせて「課金事故」と「権限事故」を抑える設計の要点を整理します。 落とし穴 1：プロンプトキャッシュ失効による想定外の課金 最近のコーディングエージェントは、システムプロンプト・ツール定義・プロジェクト概要といった長い前提テキストを プロンプトキャッシュ に乗せることでコストを抑えています。ここが崩れると、同じ作業をしていても入力トークン単価が一気に上がります。 キャッシュが外れやすい典型パターン"
+      },
+      {
         "id": "qiita:5d5e5b536077dba26070f438",
         "source": "qiita",
         "author_tags": [
@@ -78971,6 +79109,81 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:297e3ec7bec6c6e161b6dbb1",
+        "source": "medium",
+        "author_tags": [
+          "capture-the-flag",
+          "ctf-writeup",
+          "information-security",
+          "ctf",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@professorbadman01/outback-overflow-capture-the-flag-write-ups-226d37608efd",
+        "title": "Outback Overflow Capture The Flag Write-Ups",
+        "author": "Professor Badman",
+        "published_at": "2026-11-28T12:32:53+00:00",
+        "excerpt": "CRYPTO Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7169bb6457dd87063d1313a3",
+        "source": "medium",
+        "author_tags": [
+          "authentication",
+          "cybersecurity",
+          "techonology",
+          "privacy"
+        ],
+        "url": "https://medium.com/@himanshu601/what-happens-to-your-passkeys-when-you-lose-your-phone-6242ed38e7f2",
+        "title": "What Happens to Your Passkeys When You Lose Your Phone?",
+        "author": "Himanshu Patle",
+        "published_at": "2026-11-28T12:26:01+00:00",
+        "excerpt": "How passkeys work behind the scenes, what can follow you to a new phone, and how you can get back into an account when the original key is… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:af4ea04ebf132aa0ddf519aa",
+        "source": "medium",
+        "author_tags": [
+          "edr",
+          "endpoint-security",
+          "incident-response",
+          "soc-analyst",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@work.sandeeppanchal/when-an-edr-alert-fires-what-should-a-soc-analyst-investigate-first-00809a9fc701",
+        "title": "When an EDR Alert Fires: What Should a SOC Analyst Investigate First?",
+        "author": "Sandeep Panchal",
+        "published_at": "2026-11-28T12:03:27+00:00",
+        "excerpt": "Imagine you’re working in a Security Operations Center, and suddenly your endpoint security platform generates a high-severity alert. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:06b009bca5f8b7b04d3d2fea",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "neo4j",
+          "graph-intelligence"
+        ],
+        "url": "https://medium.com/@lotti.alexandre/the-graph-intelligence-journey-cybersecurity-edition-137ce5208379",
+        "title": "THE GRAPH INTELLIGENCE JOURNEY — CYBERSECURITY EDITION",
+        "author": "Lotti Alexandre",
+        "published_at": "2026-11-28T12:02:45+00:00",
+        "excerpt": "Artigo 1 — O invasor não vê tabelas. Ele explora conexões. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9f9b0a53f33d1c423d2d1f89",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "technology",
+          "tech"
+        ],
+        "url": "https://medium.com/@dexpose9/email-data-breach-scan-how-to-check-if-you-are-exposed-now-f5199e467b2f",
+        "title": "Email Data Breach Scan: How to Check If You Are Exposed Now!",
+        "author": "DeXpose",
+        "published_at": "2026-11-28T12:01:07+00:00",
+        "excerpt": "Every day, millions of usernames and passwords leak from hacked websites. An email data breach scan tells you whether your address appears… Continue reading on Medium »"
+      },
       {
         "id": "medium:095932769ebfb959323b6034",
         "source": "medium",
