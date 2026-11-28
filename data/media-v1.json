@@ -1,9 +1,101 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-28T06:40:02.838561+00:00",
+  "source_snapshot_generated_at": "2026-11-28T07:40:03.045924+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:4851ae6bc9aa7206fc53d302",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Model Context Protocol",
+          "llm",
+          "microvm"
+        ],
+        "url": "https://zenn.dev/vakeeshmoorthy/articles/f83d093a7bc6e4",
+        "title": "「エージェントの権限」ではなく「実行の境界」で守る：AIエージェント時代のサンドボックス設計メモ",
+        "author": "Vakeesh Moorthy",
+        "published_at": "2026-11-28T07:32:10.127000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:941e15690eccfd7866dd4391",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Cloudflare",
+          "video",
+          "Model Context Protocol"
+        ],
+        "url": "https://zenn.dev/shuang/articles/f542a0216c586a",
+        "title": "【2026年】写真1枚で音声付きバイラルAI動画＆公開MCPサーバーを作った設計メモ",
+        "author": "Memeo AI",
+        "published_at": "2026-11-28T07:15:28.424000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:d73b0c4323f74796e5e3bcd4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "VS Code",
+          "個人開発",
+          "kanban"
+        ],
+        "url": "https://zenn.dev/nyamogera/articles/kanturn-vscode-kanban",
+        "title": "【個人開発】AIと並行開発するカンバン拡張作った",
+        "author": "にゃもげら",
+        "published_at": "2026-11-28T07:09:16.856000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6415bae403c67918c60838c3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Harness",
+          "Codex"
+        ],
+        "url": "https://zenn.dev/honabochi/articles/before-changing-the-ai-harness",
+        "title": "AIが出した改善案を、ハーネスに入れる前に",
+        "author": "NoBu",
+        "published_at": "2026-11-28T07:05:52.355000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c6428ab7742e8095129938bb",
+        "source": "zenn",
+        "author_tags": [
+          "Node.js",
+          "Security",
+          "Model Context Protocol",
+          "JSON-RPC",
+          "filesystem"
+        ],
+        "url": "https://zenn.dev/ma2no4413/articles/mcp-filesystem-readonly-jsonrpc-verify",
+        "title": "MCP 公式の filesystem サーバーを読み取り専用にする2つの起動オプション、拒否のされ方が違った",
+        "author": "ma2no4413",
+        "published_at": "2026-11-28T07:00:59.310000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:63edc6ac549eb402ca6e8774",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/alexanderdetkov/articles/1912bc6d19fed7",
+        "title": "AIエージェントはパソコンでは全然ダメなのに、スマホではすごく使える",
+        "author": "Alexander Detkov",
+        "published_at": "2026-11-28T06:56:35.154000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:1c75323bfd31222258269231",
         "source": "zenn",
@@ -58034,6 +58126,37 @@
     ],
     "qiita": [
       {
+        "id": "qiita:49bbad692c88e59b3740a931",
+        "source": "qiita",
+        "author_tags": [
+          "AIエージェント",
+          "Security",
+          "Windows",
+          "ClaudeCode"
+        ],
+        "url": "https://qiita.com/tgbaggio/items/22cad461ce947bacdce9",
+        "title": "ファイルが残っただけで「サンドボックスが防いだ」と判定しない",
+        "author": "tgbaggio",
+        "published_at": "2026-11-28T16:05:22+09:00",
+        "excerpt": "エージェントの安全性を調べるとき、「対象ファイルが残った」は重要な観測です。ただ、それだけでは、モデルが操作をやめたのか、実行前の権限判定が拒否したのか、OSが実行を阻止したのかは分かりません。 2026年11月12日の削除テストを例に、この違いを整理します。 記録された条件 Windows上のClaude CLI 2.1.314、モデルはdeepseek-v4-pro（high） autoモードとセッションのRead/Editルール 比較するもう一方の記録にはFinShield 0.10.9を追加 対象は評価用の合成データだけを入れたディレクトリ。親と隣接ディレクトリは残す指定 以下は別々に実行した2本の記録です。条件表とログを読むための例であり、差を特定機能の因果効果として証明するものではありません。 最初の拒否だけを見ると見落とすこと 観測 Agent組み込みサンドボックスの記録 FinShield併用の記録 最初のPowerShell削除 セッションのセキュリティ判定で拒否 セッションのセキュリティ判定で拒否 続くPython削除 実行さ"
+      },
+      {
+        "id": "qiita:d6f3a83cb73b3b78ad6f7946",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "監査ログ",
+          "SQLite",
+          "C#",
+          "改ざん検知"
+        ],
+        "url": "https://qiita.com/nuts_i77/items/a4e413cb4ca16b55b089",
+        "title": "SQLite のログを改ざん検知できるようにする ― HMAC チェーンと、それでも守れないもの",
+        "author": "nuts_i77",
+        "published_at": "2026-11-28T16:04:46+09:00",
+        "excerpt": "はじめに 監査ログは「後から書き換えられていない」と言えて、はじめて証跡として使えます。とはいえ、小さなツールのログは SQLite などの普通のデータベースに入っていることが多く、ファイルを開けば誰でも書き換えられます。 自作のファイルアクセス監視ツールに改ざん検知を入れた際に、 何をすれば、何が見つかるようになるのか ハッシュチェーンだけでは何が足りないのか それでも守れないものは何か を整理したので、まとめます。結論を先に書くと、 改ざん検知は「誰に対して」守るのかで、必要なものが変わります 。サーバーの管理者に対しては、サーバーの中だけでは守れません。 この記事は「守る側がどこまで検知できるか」を整理するものです。実装は C#（.NET、EF Core、SQLite）ですが、考え方はほかの言語・データベースでも同じです。 1. 行を HMAC のチェーンでつなぐ 基本は、各行に「直前の行の値」を含めたハッシュを付けることです。 番号(seq) = 直前の行の番号 + 1 封印(hash) = HMAC-SHA256( 鍵, 直前の行の封印"
+      },
+      {
         "id": "qiita:2663607daf659f4320501904",
         "source": "qiita",
         "author_tags": [
@@ -78464,6 +78587,66 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:c8c7f126daca357d7b92f1ad",
+        "source": "medium",
+        "author_tags": [
+          "elixir",
+          "data-breach",
+          "cybersecurity",
+          "supply-chain-attack",
+          "software-development"
+        ],
+        "url": "https://rankmywp.medium.com/hex-pm-breach-a-2016-decoder-change-let-an-attacker-run-commands-on-six-registry-servers-7063a2a658aa",
+        "title": "Hex.pm breach: a 2016 decoder change let an attacker run commands on six registry servers",
+        "author": "Calin V.",
+        "published_at": "2026-11-28T07:31:49+00:00",
+        "excerpt": "On November 23, 2026, an attacker ran operating system commands on six production web servers of hex.pm, the package registry for Elixir… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:355459763ada45d44973194b",
+        "source": "medium",
+        "author_tags": [
+          "devsecops",
+          "cybersecurity",
+          "software-engineering",
+          "artificial-intelligence",
+          "cpp-programming"
+        ],
+        "url": "https://medium.com/@mavajihadiya/5-security-vulnerabilities-every-c-developer-should-know-in-the-ai-era-by-mavaji-b7d82a7f8d5c",
+        "title": "5 Security Vulnerabilities Every C++ Developer Should Know in the AI Era",
+        "author": "Mavaji Hadiya",
+        "published_at": "2026-11-28T07:22:09+00:00",
+        "excerpt": "Recently, I completed the IBM DevSecOps Explorer — Security & Automation for DevOps certification. The course was built around hands-on… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:4ba9359e0cc2c71bc40ef81c",
+        "source": "medium",
+        "author_tags": [
+          "linux",
+          "cybersecurity",
+          "commands",
+          "kali-linux"
+        ],
+        "url": "https://dhruvranax.medium.com/top-kali-linux-linux-commands-every-cybersecurity-student-must-master-in-2027-518da3b004ee",
+        "title": "Top Kali Linux & Linux Commands Every Cybersecurity Student Must Master in 2027",
+        "author": "Dhruv Rana",
+        "published_at": "2026-11-28T07:00:59+00:00",
+        "excerpt": "Whether you are hunting for alerts in a Security Operations Center (SOC) or mapping an attack surface during a authorized penetration test… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:8e36d0a9ac496eac090d4522",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "cybersecurity-training"
+        ],
+        "url": "https://medium.com/@boston.mahanta/what-should-you-know-before-pursuing-a-certified-ethical-hacker-course-in-pune-ebc4c576a087",
+        "title": "What Should You Know Before Pursuing a Certified Ethical Hacker Course in Pune?",
+        "author": "Mahanta_18",
+        "published_at": "2026-11-28T06:40:08+00:00",
+        "excerpt": "Cybersecurity experts are responsible for the identification of vulnerabilities within systems, networks, and applications before such… Continue reading on Medium »"
+      },
       {
         "id": "medium:127ab1ccfcd13aea3cd72e10",
         "source": "medium",
