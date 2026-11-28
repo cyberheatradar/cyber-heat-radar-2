@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-28T10:09:55.000980+00:00",
-  "as_of": "2026-11-28T10:00:00+00:00",
+  "generated_at": "2026-11-28T11:09:10.608049+00:00",
+  "as_of": "2026-11-28T11:00:00+00:00",
   "catalog_count": 27543,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -529,31 +529,42 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.infosecurity-magazine.com/news/fifa-confirms-cyberattack/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T20:24:02.036910+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-edf002b95bb4521c84409d92",
-      "primary_category": "incident",
-      "public_article_id": "url:edf002b95bb4521c84409d92",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-120705",
+      "cves": [
+        "CVE-2026-120705",
+        "CVE-2026-129242",
+        "CVE-2026-129243",
+        "CVE-2026-129244",
+        "CVE-2026-129245"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-28T03:22:17.916799+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-72e49feff0d8b5106923cde2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:72e49feff0d8b5106923cde2",
       "public_tags": [
         {
           "color_family": "neutral",
-          "key": "incident",
-          "label": "Incident"
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
         }
       ],
-      "published_at": "2026-11-27T19:30:00+09:00",
+      "published_at": "2026-11-27T09:00:00+09:00",
       "published_at_future_suppressed": false,
       "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Infosecurity Magazine",
-      "summary": "A cyber-attack targeting FIFA has exposed a “limited set of personal and business information”",
-      "summary_excerpt": "A cyber-attack targeting FIFA has exposed a “limited set of personal and business information”",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+      "summary_excerpt": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
       "threat_actors": [],
-      "title": "FIFA Confirms Cyber-Attack, Personal and Business Information Compromised"
+      "title": "CVE-2026-120705: OSGeo GeoServer"
     }
   ],
   "rising": [],
@@ -910,19 +921,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-25T10:00:00+00:00",
-    "last_as_of": "2026-11-28T10:00:00+00:00",
+    "first_as_of": "2026-11-25T11:00:00+00:00",
+    "last_as_of": "2026-11-28T11:00:00+00:00",
     "unique_snapshots_used": 67,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-28T10:00:00+00:00",
-  "heat_as_of": "2026-11-28T10:00:00+00:00",
+  "news_as_of": "2026-11-28T11:00:00+00:00",
+  "heat_as_of": "2026-11-28T11:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27543,
-  "last_published_at": "2026-11-28T19:10:07.380854+09:00",
-  "publication_slot_jst": "2026-11-28T19:00:00+09:00"
+  "last_published_at": "2026-11-28T20:09:23.062658+09:00",
+  "publication_slot_jst": "2026-11-28T20:00:00+09:00"
 }

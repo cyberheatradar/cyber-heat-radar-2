@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-28T09:40:03.107859+00:00",
+  "source_snapshot_generated_at": "2026-11-28T10:40:03.164397+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:60e90efba379bf3c60d1ec08",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "GitHub Actions",
+          "Cloudflare",
+          "llm"
+        ],
+        "url": "https://zenn.dev/fumitakaojima/articles/ai-frontier-no-edition-analysis",
+        "title": "GitHub Actionsは成功なのにAI新聞が発行されない：6回の実行ログから学んだこと",
+        "author": "尾島史隆",
+        "published_at": "2026-11-28T10:37:51.488000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a5c00fdf8b1a30808b12c0b2",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "macOS",
+          "業務効率化",
+          "Claude",
+          "Anthropic"
+        ],
+        "url": "https://zenn.dev/chooser/articles/misc-021-tooling",
+        "title": "Claude で作ったツールを Mac や Windows のアプリとして入れる ── Install as app の入れ方と消し方",
+        "author": "chooser",
+        "published_at": "2026-11-28T10:35:55.157000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:562d17b579197698cc540f12",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Python",
+          "GitHub Actions",
+          "Cloudflare",
+          "Astro"
+        ],
+        "url": "https://zenn.dev/fumitakaojima/articles/ai-frontier-news-free-publishing",
+        "title": "月額0円を目指してAI新聞の自動発行システムを開発してみた",
+        "author": "尾島史隆",
+        "published_at": "2026-11-28T10:23:34.933000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:966eee01bba61ebd8c71f999",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Swift",
+          "macOS",
+          "Metal",
+          "Whisper"
+        ],
+        "url": "https://zenn.dev/9nc/articles/b652aec5fc4d52",
+        "title": "M5 ProでWhisper large-v3を99.5倍速に：whisper.cppの約8倍速いSwift＋Metal 4エンジン",
+        "author": "9NC",
+        "published_at": "2026-11-28T09:43:26+00:00",
+        "excerpt": "Apple Silicon Mac で Whisper をローカル実行する Swift ライブラリ兼 CLI の MetalWhisperM5 を作りました。 Apple M5 Pro で ggml-large-v3-q5_0.bin（ビーム幅5）を動かしたところ、10分38秒（637.933秒）の英語音声を 6.409秒 で文字起こしできました。実時間の 99.531倍速 です。同じ音声・モデル・ビーム幅で whisper.cpp を走らせると whisper-cli が50.925秒、whisper-server が51.030秒かかるため、約8倍の差がついています。 外部の Swi..."
+      },
       {
         "id": "zenn:e99ad368954afdb738cd2c5d",
         "source": "zenn",
@@ -58246,6 +58310,38 @@
     ],
     "qiita": [
       {
+        "id": "qiita:e9a6bae17bea19f8d8f1f3d8",
+        "source": "qiita",
+        "author_tags": [
+          "HTTP",
+          "Security",
+          "Chrome",
+          "csrf",
+          "Playwright"
+        ],
+        "url": "https://qiita.com/Rapls/items/446efcce71dad7d93099",
+        "title": "Sec-Fetch-Site は、同じサイトに戻るリンクでも、途中で別のサイトを通ると cross-site になります【Chromium 153 で4つの値を実測】",
+        "author": "Rapls",
+        "published_at": "2026-11-28T19:38:02+09:00",
+        "excerpt": "Sec-Fetch-Site は、ブラウザーがリクエストに付けるヘッダーで、「どこから送られたリクエストか」を表します。値は same-origin 、 same-site 、 cross-site 、 none の4つです。ページの JavaScript からは書き換えられないので、サーバーの側で CSRF のようなサイトをまたぐリクエストを止めるのに使えます。 どのリクエストで、どの値になるのか。Chromium 153 で、リンク、画像、 fetch() 、フォーム、リダイレクト、再読み込みを試して、届いたヘッダーを記録しました。 リクエスト Site Mode Dest User page.goto() で開く（アドレスバーに打つのに近い） none navigate document ?1 再読み込み none navigate document ?1 同じオリジンへのリンク same-origin navigate document ?1 同じサイトの別オリジンへのリンク same-site navigate document ?1 "
+      },
+      {
+        "id": "qiita:666e5fda5f1ecf0a0e4f2b17",
+        "source": "qiita",
+        "author_tags": [
+          "Windows",
+          "Intune",
+          "BitLocker",
+          "Security",
+          "情シス"
+        ],
+        "url": "https://qiita.com/ksato_itlab/items/4ba598481c6343811e12",
+        "title": "Intune で BitLocker を配る前に、既存端末の暗号化方式を確かめる（XTS-AES 128 と 256 の食い違い）",
+        "author": "ksato_itlab",
+        "published_at": "2026-11-28T19:10:40+09:00",
+        "excerpt": "すでに BitLocker で暗号化されている端末に、あとから Intune のディスク暗号化ポリシーを配ると、管理センターのポリシーのレポートにエラーが並ぶことがあります。よくある原因の1つが 暗号化方式の食い違い （端末は XTS-AES 128、ポリシーは XTS-AES 256 など）です。 Microsoft Learn の公式ドキュメントで確かめた範囲で、配る前に決めること・確かめることをまとめます。 1. 暗号化方式のポリシーは「暗号化を始めるとき」にしか効かない 公式の説明では、暗号化方式のポリシー（Choose drive encryption method and cipher strength）は 暗号化済みのドライブには適用されません 。BitLocker CSP のページにも「設定は暗号化を開始した時点でだけ適用される」とあります。 つまり、ポリシーで XTS-AES 256 を指定しても、すでに XTS-AES 128 で暗号化された端末は 128 のままです。この状態だと、公式のトラブルシューティングにあるとおり、管"
+      },
+      {
         "id": "qiita:3fe10119572ab8573d7d7ecd",
         "source": "qiita",
         "author_tags": [
@@ -78739,6 +78835,97 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:1db39ab2a33573547f88e3a5",
+        "source": "medium",
+        "author_tags": [
+          "artificial-intelligence",
+          "blue-team",
+          "security-engineering",
+          "cybersecurity",
+          "soc"
+        ],
+        "url": "https://system3sec.medium.com/attackers-now-move-at-machine-speed-your-soc-is-still-closing-yesterdays-noise-e4c066bd68aa",
+        "title": "Attackers Now Move at Machine Speed. Your SOC Is Still Closing Yesterday’s Noise.",
+        "author": "System3",
+        "published_at": "2026-11-28T10:28:19+00:00",
+        "excerpt": "Why defending against AI-driven threats isn’t about replacing analysts with autonomous agents — it’s about removing the repetitive triage… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:72b31290d3c2cf8dac962d26",
+        "source": "medium",
+        "author_tags": [
+          "ai-security",
+          "agentic-ai",
+          "cybersecurity",
+          "artificial-intelligence",
+          "information-security"
+        ],
+        "url": "https://medium.com/@arjuncs2005/the-rise-of-agentic-ai-how-autonomous-ai-is-changing-cybersecurity-in-2026-3cf66b0ad5b9",
+        "title": "The Rise of Agentic AI: How Autonomous AI Is Changing Cybersecurity in 2026",
+        "author": "Arjuncs",
+        "published_at": "2026-11-28T10:20:56+00:00",
+        "excerpt": "What three new threat reports reveal about AI agents, attacker speed, and the security fundamentals that still matter Continue reading on Medium »"
+      },
+      {
+        "id": "medium:9bc2c5972a4dca376b196abe",
+        "source": "medium",
+        "author_tags": [
+          "penetration-testing",
+          "saas",
+          "startup",
+          "cybersecurity",
+          "compliance"
+        ],
+        "url": "https://medium.com/penetration-testing-hub/when-was-your-last-pentest-a-retest-rule-a-small-saas-team-can-keep-da9d7037118d",
+        "title": "“When Was Your Last Pentest?” A Retest Rule a Small SaaS Team Can Keep",
+        "author": "Mira Veldkamp",
+        "published_at": "2026-11-28T10:19:40+00:00",
+        "excerpt": "Annual testing is a habit, not a law. What the frameworks actually say about frequency, what counts as a significant change, and how to… Continue reading on Penetration Testing Hub »"
+      },
+      {
+        "id": "medium:d4acd18ed8f5f8af9969dab2",
+        "source": "medium",
+        "author_tags": [
+          "mulearn",
+          "ifa",
+          "cybersecurity",
+          "enigma"
+        ],
+        "url": "https://medium.com/@asifhussain2029/from-a-single-photograph-to-a-vin-enigma-osint-day-1-0582776d9f91",
+        "title": "From a Single Photograph to a VIN: ENIGMA OSINT Day 1",
+        "author": "Asifhussain",
+        "published_at": "2026-11-28T10:08:11+00:00",
+        "excerpt": "How I used Street View and careful observation to recover a truck’s VIN Continue reading on Medium »"
+      },
+      {
+        "id": "medium:f03ef612578284047f74ba31",
+        "source": "medium",
+        "author_tags": [
+          "vulnerability",
+          "cybersecurity",
+          "drupal",
+          "cisa",
+          "web-security"
+        ],
+        "url": "https://medium.com/vulntracker/drupal-cve-2026-136716-installer-takeover-3557a77a74f5",
+        "title": "CVE-2026–136716: Drupal Sites Patched for Fail2Install Can Still Be Taken Over",
+        "author": "Kaan Koç",
+        "published_at": "2026-11-28T10:07:20+00:00",
+        "excerpt": "On November 25, 2026, Drupal published security advisory SA-CORE-2026–019 for CVE-2026–136716, an access bypass in Drupal core’s installer… Continue reading on VulnTracker »"
+      },
+      {
+        "id": "medium:c8cf4f4c42d2f98922a5b66c",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@niyaspn67/here-is-a-new-cybersecurity-story-for-your-portfolio-or-presentation-33f648408ace",
+        "title": "Cybersecurity Story: The Hacker Who Was Already Inside",
+        "author": "Niyaspn",
+        "published_at": "2026-11-28T10:04:51+00:00",
+        "excerpt": "How I Built My Reputation From Scratch in Cybersecurity Continue reading on Medium »"
+      },
       {
         "id": "medium:9c2ea9a13cc850610d62bab6",
         "source": "medium",
