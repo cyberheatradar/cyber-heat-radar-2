@@ -1,9 +1,100 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-28T07:40:03.045924+00:00",
+  "source_snapshot_generated_at": "2026-11-28T08:40:03.108309+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:556d64c6bdbbfc0809815208",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "PHP",
+          "Security"
+        ],
+        "url": "https://zenn.dev/mafukuda/articles/aws-continuum-code-vuln-review",
+        "title": "AWS Continuum for Code Vulnerabilities を本番PHPリポジトリで検証してみた",
+        "author": "Hook",
+        "published_at": "2026-11-28T08:38:45.381000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:339a291005cae65327a888c4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Git",
+          "Python",
+          "testing",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/miyakona/articles/mutation-survivors-compare-merge-base",
+        "title": "緑で残った変異を、merge-baseで当て直して仕分ける",
+        "author": "miyakona",
+        "published_at": "2026-11-28T08:30:43.172000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:64ab78d75fe011c789ff38eb",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Android",
+          "devlog"
+        ],
+        "url": "https://zenn.dev/ryoitabashi/articles/2026-11-28-dev-ja",
+        "title": "第30話 Case Fileテーマの配色と反映経路",
+        "author": "RYO ITABASHI",
+        "published_at": "2026-11-28T08:06:59.727000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:eafb25975d8cc596d646271b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "Claude Code",
+          "Skills"
+        ],
+        "url": "https://zenn.dev/bachikawa/articles/0697977b8003c7",
+        "title": "Claude Code の設定をダイエットした話 — 常駐させるのは目次だけにする",
+        "author": "ばちちゃん",
+        "published_at": "2026-11-28T07:53:16.319000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:bdb95f8cf34b411e2d6b807b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "privacy",
+          "llm",
+          "OpenRouter"
+        ],
+        "url": "https://zenn.dev/neotechpark/articles/ab8de45074873e",
+        "title": "Someone Opened Links From \"Zero Data Retention\" Prompts Days Later",
+        "author": "NeoTechPark",
+        "published_at": "2026-11-28T07:41:51.014000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:44268e226bf223dc9b4c24f4",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Observability",
+          "llm",
+          "AI Gateway",
+          "Cost Management"
+        ],
+        "url": "https://zenn.dev/heftykoo/articles/f1416cac537209",
+        "title": "AIエージェントの費用台帳では、「0円」と「未計測」を分ける",
+        "author": "heftykoo",
+        "published_at": "2026-11-28T07:41:48.537000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4851ae6bc9aa7206fc53d302",
         "source": "zenn",
@@ -58126,6 +58217,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:98357754c4e815c5d1f7dcef",
+        "source": "qiita",
+        "author_tags": [
+          "Security",
+          "個人情報",
+          "設計",
+          "Database",
+          "暗号化"
+        ],
+        "url": "https://qiita.com/receiptroller/items/74425b6dad5fd52e41e1",
+        "title": "DBを暗号化しても、DBを読める人には読める",
+        "author": "receiptroller",
+        "published_at": "2026-11-28T16:48:20+09:00",
+        "excerpt": "暗号化と鍵管理 ― 何が守れて、何が守れないか はじめに 連載の3回目です。 「漏れて困るデータは、最初から持たない」業務DBから個人情報を切り離す設計 メールアドレスのハッシュは匿名ではない ここまでで、業務DBには乱数の代理IDだけを置き、住所は保管庫に預ける形になりました。今回は、その保管庫の中の話です。預かった住所を、どう保存するか。 「暗号化して保存します」で終わりそうな話ですが、この一言はほとんど何も説明していません。 どこで暗号化し、誰が鍵を使えるのか が決まって、はじめて「何から守れるか」が決まります。 「暗号化済み」には3種類ある 住所がブラウザーから保管庫のDBに届くまでに、暗号化できる場所は3つあります。守っている相手がそれぞれ違います。 層 何から守るか 守れないもの ①通信の暗号化（TLS） 通信経路での盗聴・改ざん 受け取ったサーバーの中、DBの中身 ②保存領域の暗号化（ディスク暗号化、TDE） ディスクやバックアップ媒体の持ち出し SQLを実行できる人、アプリの侵害 ③保存する前の暗号化（アプリ側） DBを読める人、"
+      },
+      {
         "id": "qiita:49bbad692c88e59b3740a931",
         "source": "qiita",
         "author_tags": [
@@ -78587,6 +78694,19 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:ed0a39867c04c4105e420b09",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "penetration-testing"
+        ],
+        "url": "https://medium.com/@chiragpandat003/what-is-vapt-understanding-vulnerability-assessment-and-penetration-testing-fa8f54e1ed91",
+        "title": "What Is VAPT? Understanding Vulnerability Assessment and Penetration Testing",
+        "author": "Amitra Kumar",
+        "published_at": "2026-11-28T08:28:22+00:00",
+        "excerpt": "Introduction Continue reading on Medium »"
+      },
       {
         "id": "medium:c8c7f126daca357d7b92f1ad",
         "source": "medium",
