@@ -1,9 +1,89 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-28T14:40:02.945763+00:00",
+  "source_snapshot_generated_at": "2026-11-28T15:40:02.891146+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:569591725fdb0207252e859a",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "CLI",
+          "llm",
+          "Claude Code",
+          "OpenCode"
+        ],
+        "url": "https://zenn.dev/proxystacks/articles/e37b09a305606c",
+        "title": "Claude Code・OpenCode の API 費用を半減する実践構成（90% キャッシュ試算＆5時間制限の回避）",
+        "author": "ProxyStacks",
+        "published_at": "2026-11-28T15:25:17.606000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:88a83dde1d26775e1f134a2d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "HTML",
+          "Markdown",
+          "Microsoft",
+          "Copilot"
+        ],
+        "url": "https://zenn.dev/ogkj/articles/ai-blackbox-plain-text-and-humanity",
+        "title": "AIの性能が上がるほど歓喜し、そして絶望する",
+        "author": "KJ",
+        "published_at": "2026-11-28T15:20:59.494000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:388aa17878532c1dd043f05d",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "regex",
+          "Model Context Protocol",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/zeuslab/articles/8fa152e19e3edc",
+        "title": "他人の SKILL.md や MCP 設定を入れる前に見る4つの形と、正規表現では見えないもの",
+        "author": "ZEUS LAB",
+        "published_at": "2026-11-28T15:19:51.568000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9c98779d695d70c91f3aec02",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Cloudflare",
+          "infra",
+          "VPS"
+        ],
+        "url": "https://zenn.dev/auto_tool_lab/articles/cloudflare-radar-jp-ai-bot-defense-2026",
+        "title": "Cloudflare Radar実測データで見る日本のAIボット比率と個人VPS・ブログの無料防御メモ",
+        "author": "AutoToolLab",
+        "published_at": "2026-11-28T15:01:46.301000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0cad28a5bfebd7eafd1d7678",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "TypeScript",
+          "Model Context Protocol",
+          "llm",
+          "codeanalysis"
+        ],
+        "url": "https://zenn.dev/matsushima_a/articles/day-060-codegraph-call-graph-for-agents",
+        "title": "grepの代わりに1クエリでコードを返す「codegraph」をalias解決と重複コードで検証した",
+        "author": "matsu",
+        "published_at": "2026-11-28T14:50:51.873000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:57afa7f174ca0aee80ca809b",
         "source": "zenn",
@@ -58713,6 +58793,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:20e900a4f494a06d732943e3",
+        "source": "qiita",
+        "author_tags": [
+          "cloudflare",
+          "vps",
+          "Security",
+          "AI",
+          "インフラ"
+        ],
+        "url": "https://qiita.com/AutoToolLab/items/3e6677381d8a2043a886",
+        "title": "Cloudflare Radar実測データで見る日本のAIボット比率（ClaudeBot 13.39%）と個人VPS・ブログの無料防御メモ",
+        "author": "AutoToolLab",
+        "published_at": "2026-11-29T00:01:41+09:00",
+        "excerpt": "本記事は技術検証メディア SiliconBench で取得した Cloudflare Radar API v4 の公開実測データ（対象期間: 2026-10-31T14:00:00Z 〜 2026-11-28T14:00:00Z 、直近 28 日間）に基づく要点メモです。図解 SVG や FAQ を含む完全版は末尾リンクに掲載しています。 まとめ（3行ハイライト） Cloudflare Radar の直近 28 日間実測では、世界の HTTP トラフィックの 39.0% （日本でも 23.96% ）が自動ボットです。 日本（ location=JP ）の AI ボット User-Agent シェアでは ClaudeBot （13.39%）が Googlebot （11.79%）を上回り最多 で、AI ボット全体のクロール目的は Mixed Purpose （42.47%）と Training （41.25%）の合算で 83.72% を占めます。 小規模 VPS や個人ブログを無料枠で守るには、 「静的コンテンツのエッジ配信 ＋ Cloudflar"
+      },
+      {
         "id": "qiita:4d1fac237675f5a6582f47c7",
         "source": "qiita",
         "author_tags": [
@@ -79344,6 +79440,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:768139e7a8c22c9a42aa06e9",
+        "source": "medium",
+        "author_tags": [
+          "snowflake",
+          "data-engineering",
+          "devops",
+          "cybersecurity",
+          "cloud-security"
+        ],
+        "url": "https://snowflakechronicles.medium.com/i-wired-snowflake-trust-center-into-on-call-heres-what-i-learned-before-trusting-it-543fe4ad1ae1",
+        "title": "I Wired Snowflake Trust Center into On-Call. Here’s What I Learned Before Trusting It.",
+        "author": "Satish Kumar",
+        "published_at": "2026-11-28T15:32:58+00:00",
+        "excerpt": "What I learned routing Trust Center findings to webhooks in a live account: the repeat factor, a “SUCCESS” that wasn’t, a least-privilege… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:e842a2d0cef781768bac1e6e",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "careers",
+          "cryptocurrency",
+          "investing",
+          "marketing"
+        ],
+        "url": "https://medium.com/@coldreckoning/case-study-neutralization-of-fraudulent-investment-phishing-infrastructure-8fbd8aa14469",
+        "title": "Case Study: Neutralization of Fraudulent Investment & Phishing Infrastructure",
+        "author": "Cold Reckoning",
+        "published_at": "2026-11-28T15:01:06+00:00",
+        "excerpt": "An operational report on host and registrar-level takedowns executed by Cold Reckoning. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:7b6a5adc1df1ba2c727a3264",
+        "source": "medium",
+        "author_tags": [
+          "infosec",
+          "cybersecurity",
+          "vulnerability-management",
+          "patch-management",
+          "cisa"
+        ],
+        "url": "https://medium.com/vulntracker/what-is-cisa-kev-known-exploited-vulnerabilities-67f3d792586f",
+        "title": "What Is CISA KEV? The Shortest List in Vulnerability Management Is the One That Matters Most",
+        "author": "Kaan Koç",
+        "published_at": "2026-11-28T15:01:05+00:00",
+        "excerpt": "Tens of thousands of CVEs are published every year. Almost every one of them comes with some kind of warning: a severity score, a vendor… Continue reading on VulnTracker »"
+      },
       {
         "id": "medium:dd1378802d6598a1e34d3d4e",
         "source": "medium",
