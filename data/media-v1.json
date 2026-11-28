@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-28T13:40:02.915012+00:00",
+  "source_snapshot_generated_at": "2026-11-28T14:40:02.945763+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:57afa7f174ca0aee80ca809b",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "PowerShell",
+          "Windows",
+          "Git Bash",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/kamijo_aoto/articles/windows-claude-code-silent-map",
+        "title": "Windows で Claude Code・Codex CLI が黙って壊れる40か所の地図と、PC を調べる1行",
+        "author": "上条碧斗",
+        "published_at": "2026-11-28T14:16:31.332000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:6303fddffc6fdc4aac9a9621",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "Model Context Protocol",
+          "llm",
+          "Claude Code",
+          "Serena"
+        ],
+        "url": "https://zenn.dev/techu_jp/articles/2bb2c62077eac7",
+        "title": "AIコーディングにコード解析ツールは本当に必要か？ — 約20万行のOSSでGraphify・Serenaを実践検証",
+        "author": "techu",
+        "published_at": "2026-11-28T14:12:24.860000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:0ce254de4742c3ad3f9b3871",
+        "source": "zenn",
+        "author_tags": [
+          "PowerShell",
+          "Security",
+          "情シス",
+          "生成 AI",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/chukidx_dev/articles/claudecode-data-3-categories",
+        "title": "Claude Code に「渡してよい情報か」を3区分で判断する手順と、棚卸し表を自動で振り分ける PowerShell",
+        "author": "中小DXラボ(chukidx)",
+        "published_at": "2026-11-28T14:04:13.369000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:8aed8fb8789f21c2b4c50fb3",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "個人開発",
+          "自動化",
+          "llm",
+          "Claude"
+        ],
+        "url": "https://zenn.dev/inatonun/articles/article-2-verification",
+        "title": "言い切る前に確かめる ― AIエージェントに『検証』を任せるための依頼の型",
+        "author": "つくし",
+        "published_at": "2026-11-28T13:42:40.202000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:4b29184c0351b2022555bbd1",
         "source": "zenn",
@@ -58649,6 +58713,22 @@
     ],
     "qiita": [
       {
+        "id": "qiita:4d1fac237675f5a6582f47c7",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "bedrock",
+          "ClaudeCode",
+          "Security",
+          "生成AI"
+        ],
+        "url": "https://qiita.com/orangist/items/3cdf5594e5bc363ac7bf",
+        "title": "Claude Codeをどう使う？Amazon Bedrockを使ってセキュアに利用する環境を構築してみた",
+        "author": "orangist",
+        "published_at": "2026-11-28T23:27:27+09:00",
+        "excerpt": "TL;DR ここ1年ほど、 認証情報を狙う攻撃 が続いています。悪性npmパッケージが端末上のClaude Codeなどを悪用して秘密情報を探したり、ワームがAWSキーを大量に抜き取ったり、盗んだAWSキーでBedrockを勝手に使われたり。 Claude Codeは開発者PCでシェルを動かすツールです。 そのPCに置いた「Bedrockを呼べる鍵」は、盗まれる前提で設計した方がいい と考えました。 社内要件（利用者の特定・MFA必須・最小権限・監査）とよくある環境制約を踏まえ、 IAM User + MFA + AssumeRole + 短期Bedrock APIキー を採用しました。 結果、端末に残る長期キー 単体ではBedrockを呼べず 、Bedrockを呼べる鍵は 最大1時間・承認済みのJPモデルだけ 。誰がいつ何を送ったかは CloudTrailとModel Invocation Loggingを requestId で突合 することで追跡性も担保しました。 図1: 開発者PCが侵害されたとき、盗まれた鍵で何ができるか 1. いま、開"
+      },
+      {
         "id": "qiita:7870dfecc464a152aed85d46",
         "source": "qiita",
         "author_tags": [
@@ -79264,6 +79344,54 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:dd1378802d6598a1e34d3d4e",
+        "source": "medium",
+        "author_tags": [
+          "technology",
+          "ontario",
+          "small-business",
+          "compliance",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@ACT360WebIT/audited-report-or-working-records-choosing-a-cybersecurity-company-in-markham-cbdfa20cb735",
+        "title": "Audited Report or Working Records? Choosing a Cybersecurity Company in Markham",
+        "author": "ACT360 Web & IT",
+        "published_at": "2026-11-28T14:31:01+00:00",
+        "excerpt": "Some providers can hand you an audited report on their own controls. Others keep the working records of yours. Knowing which one you need… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:24398552c47db51d349e506f",
+        "source": "medium",
+        "author_tags": [
+          "incident-response",
+          "forensics",
+          "cybersecurity",
+          "web-security",
+          "geoserver"
+        ],
+        "url": "https://medium.com/@anthonymbahn/how-to-check-geoserver-for-compromise-after-cve-2026-120705-77914ed20480",
+        "title": "How to Check GeoServer for Compromise After CVE-2026–120705",
+        "author": "Anthony Bahn",
+        "published_at": "2026-11-28T14:28:45+00:00",
+        "excerpt": "Check stored queries, WFS logs, admin activity and JDBC services, then upgrade to 3.0.2, 2.28.6 or 2.27.7 and rotate secrets. Continue reading on Medium »"
+      },
+      {
+        "id": "medium:a6f5313ab79776d1450be0bd",
+        "source": "medium",
+        "author_tags": [
+          "api-security",
+          "bug-bounty",
+          "penetration-testing",
+          "application-security",
+          "cybersecurity"
+        ],
+        "url": "https://medium.com/@rwx_01/authenticated-not-authorized-ba3996610ea2",
+        "title": "Authenticated. Not Authorized.",
+        "author": "Rwx",
+        "published_at": "2026-11-28T13:48:46+00:00",
+        "excerpt": "Investigating an authorization gap in an institutional crypto custody platform Continue reading on Medium »"
+      },
       {
         "id": "medium:2cfc09b64abdd2e717695381",
         "source": "medium",

@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-28T14:11:44.721762+00:00",
-  "as_of": "2026-11-28T14:00:00+00:00",
+  "generated_at": "2026-11-28T15:09:17.751435+00:00",
+  "as_of": "2026-11-28T15:00:00+00:00",
   "catalog_count": 27543,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -16,7 +16,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-28T18:22:52.438997+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-98be6a877e81694765a1c6c3",
       "primary_category": "threat_campaign",
       "public_article_id": "url:98be6a877e81694765a1c6c3",
@@ -217,7 +217,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-28T00:23:58.120022+09:00",
-      "heat_score": 40.5,
+      "heat_score": 32.4,
       "permalink_id": "article-url-3760cd9a61b19ee7a7d30528",
       "primary_category": "vulnerability",
       "public_article_id": "url:3760cd9a61b19ee7a7d30528",
@@ -245,7 +245,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-27T23:22:39.705937+09:00",
-      "heat_score": 58.5,
+      "heat_score": 46.8,
       "permalink_id": "article-url-8c7e011650c863431cc0cf17",
       "primary_category": "other",
       "public_article_id": "url:8c7e011650c863431cc0cf17",
@@ -291,7 +291,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-28T18:22:52.438997+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-98be6a877e81694765a1c6c3",
       "primary_category": "threat_campaign",
       "public_article_id": "url:98be6a877e81694765a1c6c3",
@@ -373,28 +373,6 @@
       "summary_excerpt": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
       "threat_actors": [],
       "title": "Unpatched Cacti zero-day with public PoC gives remote code execution"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.security-next.com/193310",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T23:22:39.705937+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-8c7e011650c863431cc0cf17",
-      "primary_category": "other",
-      "public_article_id": "url:8c7e011650c863431cc0cf17",
-      "public_tags": [],
-      "published_at": "2026-11-27T23:05:36+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Security NEXT",
-      "summary": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
-      "summary_excerpt": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
-      "threat_actors": [],
-      "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性"
     },
     {
       "ai_relevance": "none",
@@ -600,6 +578,37 @@
       "summary_excerpt": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
       "threat_actors": [],
       "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "cves": [
+        "CVE-2026-132165",
+        "CVE-2026-136716"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T17:23:16.722425+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-61e3be14c2b6cad929efba69",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:61e3be14c2b6cad929efba69",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-26T16:02:34+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+      "summary_excerpt": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+      "threat_actors": [],
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation"
     }
   ],
   "rising": [],
@@ -896,31 +905,31 @@
   },
   "ticker_items": [
     "【LATEST #1】pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
-    "【HOTTEST #1 / Heat 65】pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+    "【HOTTEST #1 / Heat 58.5】pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
     "【LATEST #2】SAP investigates suspected attack impacting source code",
     "【HOTTEST #2 / Heat 58.5】New Boston Scientific data breach exposes personal, medical info",
     "【LATEST #3】pCloud confirms password manager hack after suspicious login alerts",
     "【HOTTEST #3 / Heat 58.5】Unpatched Cacti zero-day with public PoC gives remote code execution",
     "【LATEST #4】New Boston Scientific data breach exposes personal, medical info",
-    "【HOTTEST #4 / Heat 58.5】化粧品通販サイトに不正アクセス - 個人情報流出の可能性",
+    "【HOTTEST #4 / Heat 56.77】CVE-2026-120705: OSGeo GeoServer",
     "【LATEST #5】Unpatched Cacti zero-day with public PoC gives remote code execution",
-    "【HOTTEST #5 / Heat 56.77】CVE-2026-120705: OSGeo GeoServer"
+    "【HOTTEST #5 / Heat 56.77】CVE-2026-129243: OSGeo GeoServer"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-25T14:00:00+00:00",
-    "last_as_of": "2026-11-28T14:00:00+00:00",
+    "first_as_of": "2026-11-25T15:00:00+00:00",
+    "last_as_of": "2026-11-28T15:00:00+00:00",
     "unique_snapshots_used": 67,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-28T14:00:00+00:00",
-  "heat_as_of": "2026-11-28T14:00:00+00:00",
+  "news_as_of": "2026-11-28T15:00:00+00:00",
+  "heat_as_of": "2026-11-28T15:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27543,
-  "last_published_at": "2026-11-28T23:11:58.985620+09:00",
-  "publication_slot_jst": "2026-11-28T23:00:00+09:00"
+  "last_published_at": "2026-11-29T00:09:29.763559+09:00",
+  "publication_slot_jst": "2026-11-29T00:00:00+09:00"
 }
