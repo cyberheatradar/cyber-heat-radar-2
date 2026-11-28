@@ -1,8 +1,8 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-28T02:09:10.466379+00:00",
-  "as_of": "2026-11-28T02:00:00+00:00",
-  "catalog_count": 27541,
+  "generated_at": "2026-11-28T03:08:41.289375+00:00",
+  "as_of": "2026-11-28T03:00:00+00:00",
+  "catalog_count": 27542,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
     "hottest": "直近30日Publishedの記事を現在Heatの高い順。",
@@ -10,6 +10,34 @@
     "persistent_hot": "Heat履歴3点以上・48時間以上のspanが揃った記事を対象に、各時点で上位10%を80%以上維持した記事。"
   },
   "latest": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cybersecuritydive.com/news/sap-investigates-attack-source-code/875820/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-28T11:22:34.927121+09:00",
+      "heat_score": 45.0,
+      "permalink_id": "article-url-523729cc90430a64aab939f2",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:523729cc90430a64aab939f2",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-28T07:06:30+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "material",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Cybersecurity Dive",
+      "summary": "The software giant is responding to a breach that allowed unknown attackers to gain access to its GitHub environment.",
+      "summary_excerpt": "The software giant is responding to a breach that allowed unknown attackers to gain access to its GitHub environment.",
+      "threat_actors": [],
+      "title": "SAP investigates suspected attack impacting source code"
+    },
     {
       "ai_relevance": "none",
       "canonical_url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
@@ -243,39 +271,6 @@
       "summary_excerpt": "文部科学省は、政府調達情報システムを構成するサーバが侵害され、関係者の個人情報が外部に流出した可能性があることを明らかにした。",
       "threat_actors": [],
       "title": "政府調達情報システムのサーバから個人情報流出か - 文科省"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://www.malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T21:38:22.107599+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-eac5774dfd71906ecf2aeaf8",
-      "primary_category": "threat_campaign",
-      "public_article_id": "url:eac5774dfd71906ecf2aeaf8",
-      "public_tags": [
-        {
-          "color_family": "red",
-          "key": "threat_campaign",
-          "label": "Campaign"
-        },
-        {
-          "color_family": "red",
-          "key": "malware",
-          "label": "Malware"
-        }
-      ],
-      "published_at": "2026-11-27T21:09:14+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Malwarebytes Blog",
-      "summary": "Remus’s fake Chrome extension can read Gmail after a password change if you sign back in on the infected browser.",
-      "summary_excerpt": "Remus’s fake Chrome extension can read Gmail after a password change if you sign back in on the infected browser.",
-      "threat_actors": [],
-      "title": "Malware steals Gmail messages using a fake Google Sheets extension"
     }
   ],
   "hottest": [
@@ -715,36 +710,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://news.mynavi.jp/techplus/article/20261125-5404582/",
-      "cves": [
-        "CVE-2026-123890"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T12:39:12.135037+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-d20b504c87fbd67a3985a117",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:d20b504c87fbd67a3985a117",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T11:35:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "Mynavi TECH+ Security",
-      "summary": "IPA（情報処理推進機構）は11月24日、Broadcomが提供する仮想化環境の管理ツール「VMware vCenter Server」の脆弱性（CVE-2026-123890）について注意喚起を行った。同脆弱性は認証を回避してシステムに不正アクセスすることを可能にするもので、すでに悪用が確認されている。IPAは被害が拡大するおそれがあるとして、修正プログラムの適用を呼びかけている。",
-      "summary_excerpt": "IPA（情報処理推進機構）は11月24日、Broadcomが提供する仮想化環境の管理ツール「VMware vCenter Server」の脆弱性（CVE-2026-123890）について注意喚起を行った。同脆弱性は認証を回避してシステムに不正アクセスすることを可能にするもので、すでに悪用が確認されている。IPAは被害が拡大するおそれがあるとして、修正プログラムの適用を呼びかけている。",
-      "threat_actors": [],
-      "title": "VMware vCenter Serverに深刻な脆弱性、9月から悪用　IPAが注意喚起"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
       "cves": [
         "CVE-2026-132165"
@@ -881,6 +846,28 @@
       "summary_excerpt": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was r",
       "threat_actors": [],
       "title": "CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T10:23:13.106147+09:00",
+      "heat_score": 52.56,
+      "permalink_id": "article-url-4910737bdead0f22d82b9435",
+      "primary_category": "other",
+      "public_article_id": "url:4910737bdead0f22d82b9435",
+      "public_tags": [],
+      "published_at": "2026-11-26T10:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia NEWS Security",
+      "summary": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
+      "summary_excerpt": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
+      "threat_actors": [],
+      "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変"
     }
   ],
   "timeseries_status": {
@@ -901,32 +888,32 @@
     }
   },
   "ticker_items": [
-    "【LATEST #1】pCloud confirms password manager hack after suspicious login alerts",
+    "【LATEST #1】SAP investigates suspected attack impacting source code",
     "【HOTTEST #1 / Heat 67.5】CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "【LATEST #2】New Boston Scientific data breach exposes personal, medical info",
+    "【LATEST #2】pCloud confirms password manager hack after suspicious login alerts",
     "【HOTTEST #2 / Heat 67.5】EspoCRMにおけるクロスサイトスクリプティングの脆弱性",
-    "【LATEST #3】Unpatched Cacti zero-day with public PoC gives remote code execution",
+    "【LATEST #3】New Boston Scientific data breach exposes personal, medical info",
     "【HOTTEST #3 / Heat 65.7】「フィッシング対策訓練」って実効性あるの？　約1.2万人に模擬メール送り検証、結果は……",
-    "【LATEST #4】Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+    "【LATEST #4】Unpatched Cacti zero-day with public PoC gives remote code execution",
     "【HOTTEST #4 / Heat 64.12】スマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」における入力リストによる制限が不十分なことに起因する複数の脆弱性",
-    "【LATEST #5】Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+    "【LATEST #5】Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
     "【HOTTEST #5 / Heat 58.5】New Boston Scientific data breach exposes personal, medical info"
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
     "first_as_of": "2026-11-25T04:00:00+00:00",
-    "last_as_of": "2026-11-28T02:00:00+00:00",
-    "unique_snapshots_used": 65,
-    "span_hours": 70.0,
+    "last_as_of": "2026-11-28T03:00:00+00:00",
+    "unique_snapshots_used": 66,
+    "span_hours": 71.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-28T02:00:00+00:00",
-  "heat_as_of": "2026-11-28T02:00:00+00:00",
+  "news_as_of": "2026-11-28T03:00:00+00:00",
+  "heat_as_of": "2026-11-28T03:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
-  "news_catalog_count": 27541,
-  "last_published_at": "2026-11-28T11:09:22.439672+09:00",
-  "publication_slot_jst": "2026-11-28T11:00:00+09:00"
+  "news_catalog_count": 27542,
+  "last_published_at": "2026-11-28T12:08:53.486819+09:00",
+  "publication_slot_jst": "2026-11-28T12:00:00+09:00"
 }

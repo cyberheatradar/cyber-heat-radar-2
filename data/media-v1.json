@@ -1,9 +1,82 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-28T01:40:03.213070+00:00",
+  "source_snapshot_generated_at": "2026-11-28T02:40:04.109913+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:fdde988fe25be98d516d5933",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "動画編集",
+          "料金"
+        ],
+        "url": "https://zenn.dev/ai_saasradar/articles/dce93fda8f0b5f",
+        "title": "Vizard代替4ツール、無料60分で足りるのはどれか — クレジットを分に換算して単価を並べる",
+        "author": "AI-SaaSRadar",
+        "published_at": "2026-11-28T02:39:49.282000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:9cf45af49f816468664b3ff0",
+        "source": "zenn",
+        "author_tags": [
+          "AWS",
+          "CloudFront",
+          "Security",
+          "mTLS"
+        ],
+        "url": "https://zenn.dev/aws_japan/articles/cloudfront-mtls-ip-or-cert",
+        "title": "Amazon CloudFrontで固定IPあるいは証明書を持つユーザーのみのアクセスを許可する構成",
+        "author": "Hikotty / Hikoto Iseda",
+        "published_at": "2026-11-28T02:37:47.985000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:4d128933324a973063a397f3",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "認証",
+          "CISSP"
+        ],
+        "url": "https://zenn.dev/reccedied/articles/cissp-d5-identity-access",
+        "title": "CISSP ドメイン5 ― 誰に、何を、いつまで許すか",
+        "author": "reccdied",
+        "published_at": "2026-11-28T02:32:48.841000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a2cddbd1d6976d13d1a7ccef",
+        "source": "zenn",
+        "author_tags": [
+          "Security",
+          "設計",
+          "architecture",
+          "個人情報"
+        ],
+        "url": "https://zenn.dev/shin4/articles/c69e4e392b7cef",
+        "title": "Webサーバーは信用しない ― 外から届く口のない場所に個人情報を置く設計",
+        "author": "しんのすけ",
+        "published_at": "2026-11-28T02:21:59.762000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:de0c959bd0fbce3f03f07290",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "農業",
+          "アグリテック",
+          "agritech"
+        ],
+        "url": "https://zenn.dev/unagi_labo/articles/66017a31dab85a",
+        "title": "農業×AI週間トレンド 11/21〜11/28 ― 映像と言葉で動きを決めるロボットが畜舎と畑へ",
+        "author": "miyatada",
+        "published_at": "2026-11-28T01:58:52.570000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:b0de64e7efda9c6943199b41",
         "source": "zenn",
@@ -57560,6 +57633,35 @@
     ],
     "qiita": [
       {
+        "id": "qiita:c8320a71869748b1bca428ad",
+        "source": "qiita",
+        "author_tags": [
+          "waf",
+          "Security",
+          "Linux"
+        ],
+        "url": "https://qiita.com/Karinbiubiu/items/a5fedfa7416b5e0e6df1",
+        "title": "SafeLine WAFでこうかいサイトのじどうスキャンをふせぐ：チェックリストとトラブルシューティング",
+        "author": "Karinbiubiu",
+        "published_at": "2026-11-28T11:06:20+09:00",
+        "excerpt": "こうかいサイトには、さまざまなパスやパラメーターをためす、じどうスキャナーからのリクエストがとどきます。あやしいUser-Agentをひとつみつけただけでブロックすると、せいじょうなツールまでとめるおそれがあります。この記事では、SafeLine WAFをアプリケーションのまえにおき、ログとテストでたしかめながら、わるいリクエストをふせぐてじゅんをまとめます。 ポイントは「スキャンがきたか」だけでなく、「どこをとおり、どこでとまったか」をたしかめることです。AIでつくられたスキャナーかどうかをすいそくするより、ペイロード、パスのならび、ひんど、アプリケーションへのえいきょうをみます。 1. まずアクセスログでベースラインをつくる せっていをかえるまえに、いまのアクセスログをしらべます。かんけいのないパスをつぎつぎにたたくアクセス、ログインやアドミンのパスへのくりかえし、ディレクトリトラバーサルやインジェクションをねらうパラメーターなどがてがかりになります。 リクエストのパスとタイムスタンプをひかえた レスポンスのステータスとアクセスもとのIPをひ"
+      },
+      {
+        "id": "qiita:af48c8ca5ad382802982da21",
+        "source": "qiita",
+        "author_tags": [
+          "AWS",
+          "IAM",
+          "S3",
+          "Security"
+        ],
+        "url": "https://qiita.com/rofk1zen22/items/02f4de49b2e6553b5e40",
+        "title": "AWS S3のデータを公開しないためには？アクセス制御の仕組みを整理してみた",
+        "author": "rofk1zen22",
+        "published_at": "2026-11-28T10:47:58+09:00",
+        "excerpt": "AWSのS3は、画像やファイル、ログなどさまざまなデータを保存できるストレージサービスです。 便利なサービスですが、設定を誤ると保存したデータが意図せず外部から閲覧できる状態になる可能性があります。 今回は、S3のデータを意図せず公開しないために、どのような設定があるのかを簡単な例を交えて整理してみました。 1. そもそもS3とは？ S3（Amazon Simple Storage Service）は、AWSが提供するオブジェクトストレージサービスです。 画像や動画、ログファイルなどを「バケット」と呼ばれる入れ物に保存します。 例えば、以下のような用途で利用されます。 Webアプリケーションでユーザーがアップロードした画像の保存 バックアップデータの保管 アプリケーションやサーバーのログの保管 ユーザー / アプリケーション | v S3バケット +----------------+ | 画像.png | | backup.zip | | access.log | +----------------+ 2. S3のデータは誰でも見られるの？ S3"
+      },
+      {
         "id": "qiita:e27d6980f241244b955200aa",
         "source": "qiita",
         "author_tags": [
@@ -77929,6 +78031,53 @@
       }
     ],
     "medium": [
+      {
+        "id": "medium:d2f405be40b5fa1e86aa48ac",
+        "source": "medium",
+        "author_tags": [
+          "wireshark",
+          "threat-hunting",
+          "cybersecurity",
+          "infosec",
+          "incident-response"
+        ],
+        "url": "https://ak-abderahim.medium.com/from-auth-bypass-to-container-breakout-hunting-a-teamcity-attacker-in-a-pcap-bfb79a3ed289",
+        "title": "From Auth Bypass to Container Breakout: Hunting a TeamCity Attacker in a PCAP",
+        "author": "Abdelkerim Abderahim",
+        "published_at": "2026-11-28T02:07:49+00:00",
+        "excerpt": "A step-by-step packet analysis reconstructing a vulnerability exploit, JSP webshell execution, credential staging, and host takeover using… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:981c710c320ea64e332b0735",
+        "source": "medium",
+        "author_tags": [
+          "cybersecurity",
+          "pc-gaming",
+          "malware",
+          "gta-6",
+          "grand-theft-auto"
+        ],
+        "url": "https://medium.com/@online.game.guardian01/fake-gta-6-pc-download-malware-investigation-41a4e757a984",
+        "title": "That GTA 6 PC Download Is Fake. Here’s What’s Really Inside.",
+        "author": "Online Game Guardian",
+        "published_at": "2026-11-28T01:46:01+00:00",
+        "excerpt": "A supposed 113 GB GTA 6 PC download wasn’t what gamers expected. Four cybersecurity investigations reveal what scammers are hiding behind… Continue reading on Medium »"
+      },
+      {
+        "id": "medium:49021e5acda382dfd8a27685",
+        "source": "medium",
+        "author_tags": [
+          "fraud",
+          "scam",
+          "cybersecurity",
+          "cyberattack"
+        ],
+        "url": "https://medium.com/@purohitvlogs5/think-twice-before-you-tap-how-to-identify-fake-links-phishing-messages-a1cc712e0904",
+        "title": "Think Twice Before You Tap: How to Identify Fake Links & Phishing Messages",
+        "author": "Rohit S..",
+        "published_at": "2026-11-28T01:43:09+00:00",
+        "excerpt": "Learn how to spot fake links, recognize phishing messages, protect your personal information, and stay safe from online scams with simple… Continue reading on Medium »"
+      },
       {
         "id": "medium:21a9b07dcccbea4caadce7a0",
         "source": "medium",
