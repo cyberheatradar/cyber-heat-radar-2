@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-28T05:09:09.678531+00:00",
-  "as_of": "2026-11-28T05:00:00+00:00",
+  "generated_at": "2026-11-28T06:10:25.513736+00:00",
+  "as_of": "2026-11-28T06:00:00+00:00",
   "catalog_count": 27542,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -541,11 +541,331 @@
     }
   ],
   "rising": [],
-  "persistent_hot": [],
+  "persistent_hot": [
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "cves": [
+        "CVE-2026-120705",
+        "CVE-2026-129243"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T23:24:19.570291+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-27873297949c895bf89f668a",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:27873297949c895bf89f668a",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T21:48:54+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+      "summary_excerpt": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+      "threat_actors": [],
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.f5.com/labs/articles/ivanti-connect-secure-zero-day-cve-2026-104935-post-disclosure-scanning-confirmed",
+      "cves": [
+        "CVE-2026-104935"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T05:53:17.131647+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-5edf6f1f623ebec7195298c0",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:5edf6f1f623ebec7195298c0",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-26T05:11:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "F5 Labs",
+      "summary": "Sensor Intel Series: November 2026 CVE Trends",
+      "summary_excerpt": "Sensor Intel Series: November 2026 CVE Trends",
+      "threat_actors": [],
+      "title": "Ivanti Connect Secure Zero-Day CVE-2026-104935: Post-Disclosure Scanning Confirmed"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+      "cves": [
+        "CVE-2026-131914"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T18:22:49.934894+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-82036ae67fb3684a5f3821c3",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:82036ae67fb3684a5f3821c3",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T18:05:13+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "SecurityWeek",
+      "summary": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data. The post Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library appeared first on SecurityWeek .",
+      "summary_excerpt": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data. The post Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library appeared first on SecurityWeek .",
+      "threat_actors": [],
+      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "cves": [
+        "CVE-2023-25914",
+        "CVE-2023-25915",
+        "CVE-2025-41450",
+        "CVE-2026-103406",
+        "CVE-2026-133275",
+        "CVE-2026-133303",
+        "CVE-2026-133311",
+        "CVE-2026-133323",
+        "CVE-2026-133324",
+        "CVE-2026-133469"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T07:23:57.305898+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-c0fdeca5bfd2c130fa490b12",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:c0fdeca5bfd2c130fa490b12",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T21:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "CISA Cybersecurity Advisories",
+      "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability CVE-2025-41450 Danfoss AK-SM 800A Series Improper Authentication Vulnerability CVE-2026-103406 Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability CVE-2026-133275 Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-133303 Mitel MiCollab XML Injection Vulnerability CVE-2026-133311 Mitel MiCollab Weak Authentication Vulnerability CVE-2026-133323 Mitel MiCollab OS Command Injection Vulnerability CVE-2026-133324 Mitel MiCollab Not Failing Securely Vulnerability CVE-2026-133469 Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities . CISA will continue to add vulnerabilities to the catalog that meet the specified criteria . Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s KEV Nomination Form . Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.",
+      "summary_excerpt": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability CVE-2025-41450 Danfoss AK-SM 800A Series Improper Authentication Vulnerability CVE-2026-103406 Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability CVE-2026-133275 Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability C",
+      "threat_actors": [],
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T23:24:03.637862+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-d5ac462891f1f2d17a01bd57",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:d5ac462891f1f2d17a01bd57",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T22:37:28+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) appeared first on Help Net Security .",
+      "summary_excerpt": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More → The post Critical Drupal installer flaw under active attack (CVE-2026-132165) app",
+      "threat_actors": [],
+      "title": "Critical Drupal installer flaw under active attack (CVE-2026-132165)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/",
+      "cves": [
+        "CVE-2026-131914",
+        "CVE-2026-132165",
+        "CVE-2026-132224"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T17:22:31.391636+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-df803f1055342caaf22e3700",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:df803f1055342caaf22e3700",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T16:22:32+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Help Net Security",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a Drupal core remote code execution bug (CVE-2026-132165); and CVE-2026-131914, a deserialization of untrusted data vulnerability in Idunno AntiCsrf, a legacy ASP.NET anti-CSRF library. CVE-2026-131914 exploitation detected ASP.NET is a server-side web-application framework used for building dynamic web sites, apps and services. Disclosed … More → The post Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914) appeared first on Help Net Security .",
+      "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a Drupal core remote code execution bug (CVE-2026-132165); and CVE-2026-131914, a deserialization of untrusted data vulnerability in Idunno AntiCsrf, a legacy ASP.NET anti-CSRF library. CVE-2026-131914 exploitation detected ASP.NET is a server-side web-application framework used for building dynamic web sites, apps and se",
+      "threat_actors": [],
+      "title": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T21:22:45.597961+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-f8d0d1935ac4bbfbbe273bf5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:f8d0d1935ac4bbfbbe273bf5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T20:23:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "threat_actors": [],
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter/",
+      "cves": [
+        "CVE-2026-123890",
+        "CVE-2026-123903",
+        "CVE-2026-123904",
+        "CVE-2026-123905",
+        "CVE-2026-123906",
+        "CVE-2026-123907",
+        "CVE-2026-123908",
+        "CVE-2026-123909"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T21:53:21.588577+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-fe10fe23d41e5ae7180777d5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:fe10fe23d41e5ae7180777d5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
+        }
+      ],
+      "published_at": "2026-11-25T21:19:20+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was reported as being exploited in the wild. Both of these vulnerabilities affect the VMware Directory Service in vCenter and can give an attacker access to the vCenter without credentials. CVE-2026-123890 was reachable over RPC while CVE-2026-123903 is reachable over LDAP. As of this writing, there are no known public reports of exploitation of CVE-2026-123903 in the wild. A public proof-of-concept exploit is available and has been validated by Rapid7 to successfully achieve an authentication bypass. Attackers are known to be targeting vulnerabilities in the VMware Directory Service, therefore Rapid7 recommends remediating exposed systems on an urgent basis outside of normal patching cycles. Mitigation guidance Vendor updates are available for CVE-2026-123903. Broadcom lists no workaround , and these vCenter updates are not eligible for Quick Patch. Rapid7 recommends updating affected deployments on an urgent basis, outside normal patch cycles, using the standard update mechanism for the deployment. Broadcom lists the following available fixed versions to remediating CVE-2026-123903. These fixed versions also remediate several other high and medium severity CVEs from the same advisory (CVE-2026-123904, CVE-2026-123905, CVE-2026-123906, CVE-2026-123907, CVE-2026-123908, CVE-2026-123909): VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation, VMware vSphere Foundation 9.1.x.x 9.1.2 VMware Cloud Foundation, VMware vSphere Foundation 9.0.x.x 9.0.2.0300 VMware vCenter 8.0 8.0 U3m VMware vCenter 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0 , 4.x , 5.0.x , 5.1.x , 5.2 KB463501 VMware Telco Cloud Infrastructure 3.0 KB463501 Note that if vCenter 8.0 U3m was previously installed when remediating CVE-2026-123890, it also fixes CVE-2026-123903 and no further vCenter update is needed. For the latest affected-version and remediation guidance, refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, Vulnerability Management (InsightVM), and Nexpose customers can assess exposure to CVE-2026-123903 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the November 25, 2026 content release. Intelligence Hub Customers leveraging Rapid7’s Intelligence Hub can access Suricata detection rules for detection of the public CVE-2026-123903 exploit. Updates November 25, 2026: Initial publication. November 25, 2026: Add Intelligence Hub section.",
+      "summary_excerpt": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was r",
+      "threat_actors": [],
+      "title": "CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-26T10:23:13.106147+09:00",
+      "heat_score": 52.56,
+      "permalink_id": "article-url-4910737bdead0f22d82b9435",
+      "primary_category": "other",
+      "public_article_id": "url:4910737bdead0f22d82b9435",
+      "public_tags": [],
+      "published_at": "2026-11-26T10:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "ITmedia NEWS Security",
+      "summary": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
+      "summary_excerpt": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
+      "threat_actors": [],
+      "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T22:52:03.837727+09:00",
+      "heat_score": 46.8,
+      "permalink_id": "article-url-15e81cbc69b828f1e89b6c24",
+      "primary_category": "ransomware",
+      "public_article_id": "url:15e81cbc69b828f1e89b6c24",
+      "public_tags": [
+        {
+          "color_family": "red",
+          "key": "ransomware",
+          "label": "Ransomware"
+        }
+      ],
+      "published_at": "2026-11-25T22:30:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Record",
+      "summary": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to pen and paper.",
+      "summary_excerpt": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to pen and paper.",
+      "threat_actors": [],
+      "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital"
+    }
+  ],
   "timeseries_status": {
     "rising": "disabled",
-    "persistent_hot": "insufficient_history",
-    "reason": "observed_snapshot_span_insufficient",
+    "persistent_hot": "ready",
+    "reason": null,
     "required": {
       "rising": {
         "min_samples": 2,
@@ -573,19 +893,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-25T05:00:00+00:00",
-    "last_as_of": "2026-11-28T05:00:00+00:00",
+    "first_as_of": "2026-11-25T06:00:00+00:00",
+    "last_as_of": "2026-11-28T06:00:00+00:00",
     "unique_snapshots_used": 67,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-28T05:00:00+00:00",
-  "heat_as_of": "2026-11-28T05:00:00+00:00",
+  "news_as_of": "2026-11-28T06:00:00+00:00",
+  "heat_as_of": "2026-11-28T06:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27542,
-  "last_published_at": "2026-11-28T14:09:21.838648+09:00",
-  "publication_slot_jst": "2026-11-28T14:00:00+09:00"
+  "last_published_at": "2026-11-28T15:10:37.589668+09:00",
+  "publication_slot_jst": "2026-11-28T15:00:00+09:00"
 }
