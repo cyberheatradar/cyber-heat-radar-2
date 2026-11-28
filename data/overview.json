@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-27T23:11:37.593018+00:00",
-  "as_of": "2026-11-27T23:00:00+00:00",
+  "generated_at": "2026-11-28T00:09:56.967664+00:00",
+  "as_of": "2026-11-28T00:00:00+00:00",
   "catalog_count": 27541,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -72,7 +72,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-28T02:22:16.282381+09:00",
-      "heat_score": 65.0,
+      "heat_score": 58.5,
       "permalink_id": "article-url-9064d3864e250d5015b79ab0",
       "primary_category": "vulnerability",
       "public_article_id": "url:9064d3864e250d5015b79ab0",
@@ -506,34 +506,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-28T02:22:16.282381+09:00",
-      "heat_score": 65.0,
-      "permalink_id": "article-url-9064d3864e250d5015b79ab0",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:9064d3864e250d5015b79ab0",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-28T02:06:13+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "BleepingComputer",
-      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
-      "summary_excerpt": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
-      "threat_actors": [],
-      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000181.html",
       "cves": [
         "CVE-2026-130398",
@@ -563,6 +535,34 @@
       "summary_excerpt": "デジタル庁が提供するスマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」には、次の入力リストによる制限が不十分なことに起因する複数の脆弱性が存在します。 入力リストによる制限が不十分（CWE-183）- CVE-2026-130398、CVE-2026-130399、CVE-2026-130400 CVE-2026-130398 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方が開発者とIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：GMO Flatt Security株式会社 RyotaK 氏 CVE-2026-130399 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：uaaw 氏 CVE-2026-130400 この脆弱性情報は、CVE-2026-130399への対応時に開発者が発見、修正し、JPCERT/CCが開発者との調整を行いました。",
       "threat_actors": [],
       "title": "スマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」における入力リストによる制限が不十分なことに起因する複数の脆弱性"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "cves": [],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-28T02:22:16.282381+09:00",
+      "heat_score": 58.5,
+      "permalink_id": "article-url-9064d3864e250d5015b79ab0",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:9064d3864e250d5015b79ab0",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-28T02:06:13+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "BleepingComputer",
+      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+      "summary_excerpt": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+      "threat_actors": [],
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution"
     },
     {
       "ai_relevance": "none",
@@ -971,19 +971,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-24T23:00:00+00:00",
-    "last_as_of": "2026-11-27T23:00:00+00:00",
+    "first_as_of": "2026-11-25T00:00:00+00:00",
+    "last_as_of": "2026-11-28T00:00:00+00:00",
     "unique_snapshots_used": 65,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-27T23:00:00+00:00",
-  "heat_as_of": "2026-11-27T23:00:00+00:00",
+  "news_as_of": "2026-11-28T00:00:00+00:00",
+  "heat_as_of": "2026-11-28T00:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27541,
-  "last_published_at": "2026-11-28T08:11:50.034520+09:00",
-  "publication_slot_jst": "2026-11-28T08:00:00+09:00"
+  "last_published_at": "2026-11-28T09:10:09.776142+09:00",
+  "publication_slot_jst": "2026-11-28T09:00:00+09:00"
 }
