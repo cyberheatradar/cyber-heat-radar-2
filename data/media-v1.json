@@ -1,9 +1,73 @@
 {
   "schema_version": "chr2-media-public-v1",
-  "source_snapshot_generated_at": "2026-11-27T23:40:02.864322+00:00",
+  "source_snapshot_generated_at": "2026-11-28T00:40:03.052870+00:00",
   "heat_enabled": false,
   "sources": {
     "zenn": [
+      {
+        "id": "zenn:871ce69850f487f145796366",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "SEO",
+          "crawler",
+          "自治体",
+          "robotstxt"
+        ],
+        "url": "https://zenn.dev/vnlworks/articles/9c01555b7822c4",
+        "title": "都道府県庁47サイトのrobots.txtを読んだら、AIクローラーの名前を書いていたのは1サイトだけだった",
+        "author": "大田（VNL Works 代表）",
+        "published_at": "2026-11-28T00:22:37.777000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:c388223df3f6871e028120ab",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "機械学習",
+          "llm",
+          "rk3588",
+          "rockchip"
+        ],
+        "url": "https://zenn.dev/anguoyang/articles/3b30f0695fef78",
+        "title": "公式ツールでQwen2-VLを書き出したら、ネット上に存在しないエラーで死んだ話：行き止まり4つと検索不能のエラー1つ",
+        "author": "Anguo Yang",
+        "published_at": "2026-11-28T00:14:48.555000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:a34853da006918db56054469",
+        "source": "zenn",
+        "author_tags": [
+          "IoT",
+          "Security",
+          "DX",
+          "camera",
+          "smb"
+        ],
+        "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20261128-cctv-recording-security",
+        "title": "SSDから録画を直接取り出す話で思い出した『録れていない』現場",
+        "author": "yutaka8484",
+        "published_at": "2026-11-28T00:04:52.927000+00:00",
+        "excerpt": ""
+      },
+      {
+        "id": "zenn:7eefe15638e74c388f3cd811",
+        "source": "zenn",
+        "author_tags": [
+          "AI",
+          "macOS",
+          "生成 AI",
+          "Claude",
+          "Claude Code"
+        ],
+        "url": "https://zenn.dev/niedraaa/articles/5a070b53decbf1",
+        "title": "Claude Codeの5時間制限と週間制限：何がカウントされ、いつリセットされ、残りをどう確認するか（2026年11月版）",
+        "author": "Hello World",
+        "published_at": "2026-11-28T00:01:58.638000+00:00",
+        "excerpt": ""
+      },
       {
         "id": "zenn:20e07bc25396f86d301619c0",
         "source": "zenn",
@@ -57466,6 +57530,118 @@
       }
     ],
     "qiita": [
+      {
+        "id": "qiita:e27d6980f241244b955200aa",
+        "source": "qiita",
+        "author_tags": [
+          "VAP",
+          "Python",
+          "Node.js",
+          "テスト",
+          "Security"
+        ],
+        "url": "https://qiita.com/kamimura0000/items/6bad18ade1a783a08888",
+        "title": "VAP Evidence PackをPythonとNode.jsで相互検証する：固定ベクトル・scope・終了コードの設計",
+        "author": "kamimura0000",
+        "published_at": "2026-11-28T09:34:28+09:00",
+        "excerpt": "「Python版でもNode.js版でも正常サンプルを読めた」だけでは、監査証跡の相互運用を十分に確認できません。片方だけが重複キーを受理する、欠落した結果を両方とも見逃す、ファイルが読めなかった終了コードを期待した拒否と数える、といった抜け道があります。 本稿ではVAP（Verifiable AI Provenance Framework）の公開Evidence Packデモを使い、固定した8ベクトル、外部trust、scopeの固定、PASS/FAIL/ERRORを一つの再現手順で確認します。実装者がテスト結果をレビュー可能な形で残すための記事です。 著者： 上村十勝（Tokachi Kamimura） 。対象コミットは 2a18ae7c77a4afcb7468345db2424076530c7630 、契約IDは vap-interop-demo/0.2.0 です。 1. 共通のVAPコンテナ規格と、公開デモを分ける VAP v1.2 §9.3はEvidence Packを推奨していますが、全プロファイルで共通の単一wire formatを"
+      },
+      {
+        "id": "qiita:27d6e4fcdbead6a95bc2d0fc",
+        "source": "qiita",
+        "author_tags": [
+          "VAP",
+          "Security",
+          "暗号技術",
+          "Python",
+          "Node.js"
+        ],
+        "url": "https://qiita.com/kamimura0000/items/34982301a4724c4538aa",
+        "title": "VAP Evidence PackのEd25519検証：small-order点・非正規符号化・外部trustの境界",
+        "author": "kamimura0000",
+        "published_at": "2026-11-28T09:29:44+09:00",
+        "excerpt": "Ed25519のverify()が成功した、という結果には前提があります。どの公開鍵を受け入れたのか、入力の符号化をどう制限したのか、その鍵を誰のどの役割として信頼したのかで、結論は変わります。 本稿は、VAP（Verifiable AI Provenance Framework）の公開Evidence Packデモを使い、 署名の数学的検証、入力受け入れポリシー、署名者への信頼 を分けてレビューします。PythonとNode.jsの2実装に同じ異常入力を渡し、拒否結果を照合します。 著者： 上村十勝（Tokachi Kamimura） 。対象は interop/vap-evidence-pack-demo 、コミット 2a18ae7c77a4afcb7468345db2424076530c7630 です。デモの契約IDは vap-interop-demo/0.2.0 で、VAP全体の適合検証器ではありません。 1. A、R、Sのどこを検査するか Ed25519の公開鍵Aは32バイト、署名は32バイトのRと32バイトのSです。点の圧縮表現はy座標"
+      },
+      {
+        "id": "qiita:e6fb8fa12ff5f2caa898032e",
+        "source": "qiita",
+        "author_tags": [
+          "VAP",
+          "Python",
+          "JSON",
+          "Security",
+          "暗号技術"
+        ],
+        "url": "https://qiita.com/kamimura0000/items/b279353125efe4ed7a00",
+        "title": "VAPのJCS正規化を検証する：UTF-16順序・数値文字列・重複キーと署名対象の設計",
+        "author": "kamimura0000",
+        "published_at": "2026-11-28T09:27:52+09:00",
+        "excerpt": "署名を検証できない原因が、鍵ではなくJSONの正規化にあることがあります。Pythonの json.dumps(..., sort_keys=True) でキーを並べても、RFC 8785のJCSと同じバイト列になるとは限りません。 本稿は、VAP（Verifiable AI Provenance Framework）のイベントハッシュと署名を実装する人に向けて、 JSONを受け入れる条件、正規化、ハッシュ対象の切り出し を分離します。UTF-16順序の差、数値表現、重複キーを実行可能な例で確認します。 著者： 上村十勝（Tokachi Kamimura） 。対象仕様はVAP v1.2.0 Draft 3、実装参照はコミット 2a18ae7c77a4afcb7468345db2424076530c7630 です。 1. 正規化は入力の意味を決めない 設計する順序を、次のように置きます。 段階 決めること 誤りの例 入力受理 UTF-8、重複キー、サイズ、深さ、許容する値 重複を辞書に変換してから検査する スキーマ 必須項目、型、範囲、未知フィール"
+      },
+      {
+        "id": "qiita:a70130a7900a1377d96d9528",
+        "source": "qiita",
+        "author_tags": [
+          "VAP",
+          "Security",
+          "Python",
+          "暗号技術",
+          "監査ログ"
+        ],
+        "url": "https://qiita.com/kamimura0000/items/a6ebb133d2e6f27ad9aa",
+        "title": "VAPのMerkle監査証跡を実装から検証する：包含証明・tree_size・欠落検出の境界",
+        "author": "kamimura0000",
+        "published_at": "2026-11-28T09:25:49+09:00",
+        "excerpt": "AI監査証跡の検証器で、提出された全イベントのMerkle包含証明が成功した。それでも、提出物からイベントが抜けている可能性は残ります。 本稿ではVAP（Verifiable AI Provenance Framework）v1.2 Draft 3のIntegrity要件を踏まえ、5葉の非対称なMerkle treeを使って、この違いをコードで確認します。対象読者は、監査ログの検証器、Evidence Packのエクスポート、署名付きバッチを実装・レビューするエンジニアです。 著者： 上村十勝（Tokachi Kamimura） 。検証対象の公開コードはコミット 2a18ae7c77a4afcb7468345db2424076530c7630 に固定しています。 1. 判定を4段階に分ける 判定 必要な対象 成功しても残る問題 バイト列の同一性 正規化方法とハッシュ対象 記録の内容が事実か ある葉の包含 葉、位置、木のサイズ、パス、信頼するルート 他の葉が提出されたか 宣言バッチの完全性 バッチ境界、件数、ID、ポリシーとそれに結び付くアンカー "
+      },
+      {
+        "id": "qiita:ceb43a1a6a3497af5ef000ce",
+        "source": "qiita",
+        "author_tags": [
+          "Java",
+          "Python",
+          "Security",
+          "脆弱性",
+          "Linux"
+        ],
+        "url": "https://qiita.com/takumi_engineer/items/fb13f1322adea36c84bf",
+        "title": "Javaの更新通知に慌てない：サーバー内のJavaと配布元を数分で棚卸しするPythonスクリプト",
+        "author": "takumi_engineer",
+        "published_at": "2026-11-28T09:00:18+09:00",
+        "excerpt": "2026年11月18日(日本時間)に、IPAがOracle Javaのセキュリティ更新について注意喚起を出しました。こうした通知で最初に困るのは、「うちのサーバーのどこで、どの配布元の、どのバージョンのJavaが動いているか」を誰も即答できないことです。 この記事では、Linuxサーバー上のJavaを洗い出して一覧にする小さなPythonスクリプトを紹介します。更新作業そのものではなく、その前段の棚卸しが対象です。 前提と一次情報 Python 3.9以上(標準ライブラリのみ) Linuxサーバー( /proc を使います) 実行はrootでなくても動きますが、他ユーザーのプロセスは見えません 対策や対象バージョンは、必ず一次情報で確認してください。 IPAの「Oracle Java の脆弱性対策について(2026年11月)」 は、Oracle社が提供する最新版への更新を対策として示しています。このページはあわせて、Oracle社が2019年4月16日以降のJavaのリリースについてライセンス変更を案内していることにも触れています。 対象バージョ"
+      },
+      {
+        "id": "qiita:9fb21743d4ab7b415d51dab4",
+        "source": "qiita",
+        "author_tags": [
+          "Python",
+          "Windows",
+          "Security",
+          "SQLite",
+          "Win32API"
+        ],
+        "url": "https://qiita.com/warrobotsxyz/items/1cc2084203b6d6bc44a6",
+        "title": "Python×Windows DPAPIでSQLiteバックアップや機密メモを端末ユーザー単位で暗号化保護する",
+        "author": "warrobotsxyz",
+        "published_at": "2026-11-28T09:00:03+09:00",
+        "excerpt": "はじめに Windows 向けのローカル業務ツールや個人用ユーティリティを作るとき、「API 不要・完全オフラインで、SQLite のバックアップや設定ファイルに書かれた顧客メモ・識別情報を平文のまま置きたくない」というケースがあります。 Windows には OS 標準のデータ保護 API である DPAPI（ CryptProtectData / CryptUnprotectData ） があり、パスワード入力を毎回求めずに「現在ログイン中の Windows ユーザー＋その PC」に紐づけて暗号化できます。本記事では Python 標準の ctypes だけで DPAPI を呼び出す最小実装と、SQLite WAL バックアップと組み合わせる際の設計上の注意点をまとめます。 環境 Windows 11（ビルド 10.0.26200） Python 3.11（標準ライブラリ ctypes / sqlite3 のみ） ctypes だけで書く Windows DPAPI ラッパー import ctypes from ctypes import "
+      },
+      {
+        "id": "qiita:8a57ab24b64ca4b339c33d5a",
+        "source": "qiita",
+        "author_tags": [
+          "AI",
+          "Security",
+          "Python",
+          "監査ログ",
+          "VAP"
+        ],
+        "url": "https://qiita.com/kamimura0000/items/30448bf205ab063b41ac",
+        "title": "VAP技術リファレンス：AI監査証跡の仕様・公開コード・検証の入口（v1.2 Draft 3）",
+        "author": "kamimura0000",
+        "published_at": "2026-11-28T08:54:09+09:00",
+        "excerpt": "AIが行った操作を後から調べるとき、「ログがある」だけでは確認できないことがあります。記録が書き換わっていないか、どの範囲の記録が揃っているか、誰のどの操作に対応するかを分けて扱う必要があります。 この記事では VAP（Verifiable AI Provenance Framework） の仕様、公開コード、検証資料への入口を整理します。設計やレビューで参照する章と、参照した仕様ファイルを固定して照合する最小コードを掲載します。 著者は上村十勝（Tokachi Kamimura）、VSO創設者・VeritasChain株式会社代表取締役です。VAPを開発・維持する側からの解説です。 確認日：2026年11月28日。対象：v1.2.0 Draft 3。 上村十勝のVAP技術検証シリーズ 仕様を実装・レビューする方向けに、テーマを分けた5本の専門記事を公開しました。各記事に参照コミット、再現手順、実行結果、検証できる範囲を記載しています。 記事 主な検証対象 Merkle包含証明と欠落検出 tree_size、非対称な木、証明成功と集合の完全性の違"
+      },
       {
         "id": "qiita:9df99a60b2d33429265bfbe9",
         "source": "qiita",
