@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-28T01:14:23.168277+00:00",
-  "as_of": "2026-11-28T01:00:00+00:00",
+  "generated_at": "2026-11-28T02:09:10.466379+00:00",
+  "as_of": "2026-11-28T02:00:00+00:00",
   "catalog_count": 27541,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -16,7 +16,7 @@
       "cves": [],
       "document_form": "single_story",
       "first_seen_at": "2026-11-28T04:52:05.699943+09:00",
-      "heat_score": 45.0,
+      "heat_score": 40.5,
       "permalink_id": "article-url-dfa374b101675a2c73711b49",
       "primary_category": "other",
       "public_article_id": "url:dfa374b101675a2c73711b49",
@@ -586,66 +586,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044942.html",
-      "cves": [
-        "CVE-2024-58345"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T12:38:54.190107+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-36f1fdc6704a1b64b26b04f7",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:36f1fdc6704a1b64b26b04f7",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T10:53:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "ツールパネルにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58345)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "summary_excerpt": "ツールパネルにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58345)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "threat_actors": [],
-      "title": "日立ディスクアレイシステムにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58345)について"
-    },
-    {
-      "ai_relevance": "none",
-      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-044943.html",
-      "cves": [
-        "CVE-2024-58346"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T12:38:54.259001+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-4f33cb068395ff03ae923970",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:4f33cb068395ff03ae923970",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T10:53:00+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "enrichment_rss",
-      "source_name": "JVN iPedia New",
-      "summary": "Storage NavigatorにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58346)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "summary_excerpt": "Storage NavigatorにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58346)が存在します。 なお日立ディスクアレイシステムに蓄積されているデータを読み取られることはありません。",
-      "threat_actors": [],
-      "title": "日立ディスクアレイシステムにおけるOSコマンドインジェクションの脆弱性(CVE-2024-58346)について"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.f5.com/labs/articles/ivanti-connect-secure-zero-day-cve-2026-104935-post-disclosure-scanning-confirmed",
       "cves": [
         "CVE-2026-104935"
@@ -864,6 +804,83 @@
       "summary_excerpt": "The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a Drupal core remote code execution bug (CVE-2026-132165); and CVE-2026-131914, a deserialization of untrusted data vulnerability in Idunno AntiCsrf, a legacy ASP.NET anti-CSRF library. CVE-2026-131914 exploitation detected ASP.NET is a server-side web-application framework used for building dynamic web sites, apps and se",
       "threat_actors": [],
       "title": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T21:22:45.597961+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-f8d0d1935ac4bbfbbe273bf5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:f8d0d1935ac4bbfbbe273bf5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-25T20:23:26+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "The Hacker News",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "threat_actors": [],
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter/",
+      "cves": [
+        "CVE-2026-123890",
+        "CVE-2026-123903",
+        "CVE-2026-123904",
+        "CVE-2026-123905",
+        "CVE-2026-123906",
+        "CVE-2026-123907",
+        "CVE-2026-123908",
+        "CVE-2026-123909"
+      ],
+      "document_form": "single_story",
+      "first_seen_at": "2026-11-25T21:53:21.588577+09:00",
+      "heat_score": 54.0,
+      "permalink_id": "article-url-fe10fe23d41e5ae7180777d5",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:fe10fe23d41e5ae7180777d5",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "neutral",
+          "key": "cloud_security",
+          "label": "Cloud Security"
+        },
+        {
+          "color_family": "red",
+          "key": "poc_available",
+          "label": "PoC"
+        }
+      ],
+      "published_at": "2026-11-25T21:19:20+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "topic_rss",
+      "source_name": "Rapid7 Blog",
+      "summary": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was reported as being exploited in the wild. Both of these vulnerabilities affect the VMware Directory Service in vCenter and can give an attacker access to the vCenter without credentials. CVE-2026-123890 was reachable over RPC while CVE-2026-123903 is reachable over LDAP. As of this writing, there are no known public reports of exploitation of CVE-2026-123903 in the wild. A public proof-of-concept exploit is available and has been validated by Rapid7 to successfully achieve an authentication bypass. Attackers are known to be targeting vulnerabilities in the VMware Directory Service, therefore Rapid7 recommends remediating exposed systems on an urgent basis outside of normal patching cycles. Mitigation guidance Vendor updates are available for CVE-2026-123903. Broadcom lists no workaround , and these vCenter updates are not eligible for Quick Patch. Rapid7 recommends updating affected deployments on an urgent basis, outside normal patch cycles, using the standard update mechanism for the deployment. Broadcom lists the following available fixed versions to remediating CVE-2026-123903. These fixed versions also remediate several other high and medium severity CVEs from the same advisory (CVE-2026-123904, CVE-2026-123905, CVE-2026-123906, CVE-2026-123907, CVE-2026-123908, CVE-2026-123909): VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation, VMware vSphere Foundation 9.1.x.x 9.1.2 VMware Cloud Foundation, VMware vSphere Foundation 9.0.x.x 9.0.2.0300 VMware vCenter 8.0 8.0 U3m VMware vCenter 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0 , 4.x , 5.0.x , 5.1.x , 5.2 KB463501 VMware Telco Cloud Infrastructure 3.0 KB463501 Note that if vCenter 8.0 U3m was previously installed when remediating CVE-2026-123890, it also fixes CVE-2026-123903 and no further vCenter update is needed. For the latest affected-version and remediation guidance, refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, Vulnerability Management (InsightVM), and Nexpose customers can assess exposure to CVE-2026-123903 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the November 25, 2026 content release. Intelligence Hub Customers leveraging Rapid7’s Intelligence Hub can access Suricata detection rules for detection of the public CVE-2026-123903 exploit. Updates November 25, 2026: Initial publication. November 25, 2026: Add Intelligence Hub section.",
+      "summary_excerpt": "Overview On November 24, 2026, Broadcom released VMware Security Advisory VMSA-2026-0011 to address several new vulnerabilities, including CVE-2026-123903 , a critical authentication bypass in the VMware Directory Service component of vCenter. Broadcom assigned it a CVSSv3.1 score of 9.8 Critical . An attacker who can reach an affected vCenter’s VMware Directory Service (vmdir) over the network can gain access without authenticating. Broadcom's supplemental FAQ distinguishes CVE-2026-123903 from an older vulnerability CVE-2026-123890 , which Rapid7 covered previously when CVE-2026-123890 was r",
+      "threat_actors": [],
+      "title": "CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter"
     }
   ],
   "timeseries_status": {
@@ -897,19 +914,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-25T01:00:00+00:00",
-    "last_as_of": "2026-11-28T01:00:00+00:00",
+    "first_as_of": "2026-11-25T04:00:00+00:00",
+    "last_as_of": "2026-11-28T02:00:00+00:00",
     "unique_snapshots_used": 65,
-    "span_hours": 72.0,
+    "span_hours": 70.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-28T01:00:00+00:00",
-  "heat_as_of": "2026-11-28T01:00:00+00:00",
+  "news_as_of": "2026-11-28T02:00:00+00:00",
+  "heat_as_of": "2026-11-28T02:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27541,
-  "last_published_at": "2026-11-28T10:14:35.288000+09:00",
-  "publication_slot_jst": "2026-11-28T10:00:00+09:00"
+  "last_published_at": "2026-11-28T11:09:22.439672+09:00",
+  "publication_slot_jst": "2026-11-28T11:00:00+09:00"
 }
