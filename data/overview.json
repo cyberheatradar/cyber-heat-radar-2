@@ -1,7 +1,7 @@
 {
   "version": "cyberheatradar2-overview-v2-reconstructed",
-  "generated_at": "2026-11-28T11:09:10.608049+00:00",
-  "as_of": "2026-11-28T11:00:00+00:00",
+  "generated_at": "2026-11-28T12:10:39.072685+00:00",
+  "as_of": "2026-11-28T12:00:00+00:00",
   "catalog_count": 27543,
   "definitions": {
     "latest": "Publishedの新しい順。Published同値はFirst Seenの新しい順。",
@@ -507,28 +507,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://internet.watch.impress.co.jp/docs/news/2160136.html",
-      "cves": [],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-27T20:24:05.959142+09:00",
-      "heat_score": 58.5,
-      "permalink_id": "article-url-23fdf714c65e2ab579d35a99",
-      "primary_category": "other",
-      "public_article_id": "url:23fdf714c65e2ab579d35a99",
-      "public_tags": [],
-      "published_at": "2026-11-27T20:12:36+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "INTERNET Watch",
-      "summary": "GMOペパボ株式会社の内部システムへの不正アクセスを通じて、「ロリポップ！レンタルサーバー」などの顧客情報が外部に持ち出されたことが判明した。同社が11月27日、公表した。一部顧客については、平文で保存していたパスワードも漏えいしたことが確認されているという。",
-      "summary_excerpt": "GMOペパボ株式会社の内部システムへの不正アクセスを通じて、「ロリポップ！レンタルサーバー」などの顧客情報が外部に持ち出されたことが判明した。同社が11月27日、公表した。一部顧客については、平文で保存していたパスワードも漏えいしたことが確認されているという。",
-      "threat_actors": [],
-      "title": "「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-120705",
       "cves": [
         "CVE-2026-120705",
@@ -565,6 +543,45 @@
       "summary_excerpt": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
       "threat_actors": [],
       "title": "CVE-2026-120705: OSGeo GeoServer"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129243",
+      "cves": [
+        "CVE-2026-120705",
+        "CVE-2026-129242",
+        "CVE-2026-129243",
+        "CVE-2026-129244",
+        "CVE-2026-129245"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-28T03:22:17.906936+09:00",
+      "heat_score": 56.77,
+      "permalink_id": "article-url-015000a17fb151f8c4262682",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:015000a17fb151f8c4262682",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        },
+        {
+          "color_family": "orange",
+          "key": "kev",
+          "label": "KEV"
+        }
+      ],
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": true,
+      "source_class": "enrichment_kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "summary": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+      "summary_excerpt": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+      "threat_actors": [],
+      "title": "CVE-2026-129243: OSGeo GeoServer"
     }
   ],
   "rising": [],
@@ -792,36 +809,6 @@
     },
     {
       "ai_relevance": "none",
-      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "cves": [
-        "CVE-2026-132165"
-      ],
-      "document_form": "single_story",
-      "first_seen_at": "2026-11-25T21:22:45.597961+09:00",
-      "heat_score": 54.0,
-      "permalink_id": "article-url-f8d0d1935ac4bbfbbe273bf5",
-      "primary_category": "vulnerability",
-      "public_article_id": "url:f8d0d1935ac4bbfbbe273bf5",
-      "public_tags": [
-        {
-          "color_family": "neutral",
-          "key": "vulnerability",
-          "label": "Vulnerability"
-        }
-      ],
-      "published_at": "2026-11-25T20:23:26+09:00",
-      "published_at_future_suppressed": false,
-      "security_relevance": "primary",
-      "seen_in_kev": false,
-      "source_class": "topic_rss",
-      "source_name": "The Hacker News",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "summary_excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "threat_actors": [],
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation"
-    },
-    {
-      "ai_relevance": "none",
       "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter/",
       "cves": [
         "CVE-2026-123890",
@@ -888,6 +875,39 @@
       "summary_excerpt": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
       "threat_actors": [],
       "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変"
+    },
+    {
+      "ai_relevance": "none",
+      "canonical_url": "https://jvndb.jvn.jp/ja/contents/2026/JVNDB-2026-000170.html",
+      "cves": [
+        "CVE-2026-116089",
+        "CVE-2026-120268",
+        "CVE-2026-120962",
+        "CVE-2026-134903"
+      ],
+      "document_form": "advisory",
+      "first_seen_at": "2026-11-26T18:24:02.908822+09:00",
+      "heat_score": 51.3,
+      "permalink_id": "article-url-867b3f34b4fe4d01e91882a7",
+      "primary_category": "vulnerability",
+      "public_article_id": "url:867b3f34b4fe4d01e91882a7",
+      "public_tags": [
+        {
+          "color_family": "neutral",
+          "key": "vulnerability",
+          "label": "Vulnerability"
+        }
+      ],
+      "published_at": "2026-11-26T12:17:00+09:00",
+      "published_at_future_suppressed": false,
+      "security_relevance": "primary",
+      "seen_in_kev": false,
+      "source_class": "enrichment_rss",
+      "source_name": "JVN iPedia New",
+      "summary": "baserCMSユーザー会が提供するbaserCMSには、次の複数の脆弱性が存在します。 サーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-116089 信頼できない入力値に依存したセキュリティ判断（CWE-807）- CVE-2026-120268 サイト内検索結果におけるクロスサイトスクリプティング（CWE-79）- CVE-2026-120962 メールフォームの送信後リダイレクトURLにおけるクロスサイトスクリプティング（CWE-79）- CVE-2026-134903 CVE-2026-116089、CVE-2026-120268 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：臼井翔大 氏 CVE-2026-120962 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：三井物産セキュアディレクション株式会社 松瀬椋介 氏 株式会社ナインステクノロジーズ 吉丸 亨 氏 CVE-2026-134903 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：株式会社IHI 碓氷 真之 氏",
+      "summary_excerpt": "baserCMSユーザー会が提供するbaserCMSには、次の複数の脆弱性が存在します。 サーバサイドリクエストフォージェリ（CWE-918）- CVE-2026-116089 信頼できない入力値に依存したセキュリティ判断（CWE-807）- CVE-2026-120268 サイト内検索結果におけるクロスサイトスクリプティング（CWE-79）- CVE-2026-120962 メールフォームの送信後リダイレクトURLにおけるクロスサイトスクリプティング（CWE-79）- CVE-2026-134903 CVE-2026-116089、CVE-2026-120268 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：臼井翔大 氏 CVE-2026-120962 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：三井物産セキュアディレクション株式会社 松瀬椋介 氏 株式会社ナインステクノロジーズ 吉丸 亨 氏 CVE-2026-134903 この脆弱性情報は、情報セキュリティ早期警戒パートナーシップに基づき下記の方がIPAに報告し、JPCERT/CCが開発者との調整を行いました。 報告者：",
+      "threat_actors": [],
+      "title": "baserCMSにおける複数の脆弱性"
     }
   ],
   "timeseries_status": {
@@ -921,19 +941,19 @@
   ],
   "heat_history_evidence": {
     "source": "observed_hourly_news_gui_snapshots",
-    "first_as_of": "2026-11-25T11:00:00+00:00",
-    "last_as_of": "2026-11-28T11:00:00+00:00",
+    "first_as_of": "2026-11-25T12:00:00+00:00",
+    "last_as_of": "2026-11-28T12:00:00+00:00",
     "unique_snapshots_used": 67,
     "span_hours": 72.0,
     "skipped_invalid_snapshots": 0,
     "history_db_modified": false
   },
   "news_gui_mode": "news_current_heat_readonly_v1",
-  "news_as_of": "2026-11-28T11:00:00+00:00",
-  "heat_as_of": "2026-11-28T11:00:00+00:00",
+  "news_as_of": "2026-11-28T12:00:00+00:00",
+  "heat_as_of": "2026-11-28T12:00:00+00:00",
   "heat_status": "CURRENT_READ_ONLY",
   "heat_history_status": "OBSERVED_SNAPSHOTS",
   "news_catalog_count": 27543,
-  "last_published_at": "2026-11-28T20:09:23.062658+09:00",
-  "publication_slot_jst": "2026-11-28T20:00:00+09:00"
+  "last_published_at": "2026-11-28T21:10:52.161743+09:00",
+  "publication_slot_jst": "2026-11-28T21:00:00+09:00"
 }
